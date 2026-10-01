@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "exam": "in-ctet",
+ "name": "Central Teacher Eligibility Test",
+ "body": "in-cbse",
+ "purpose": "eligibility",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "registration_deadline": {
+    "date": "2026-09-01",
+    "source": {
+     "notice": "339bbee92773cd8fdae3194f9952fefa0c1a7d6483e665a852623a8361bac6a4",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/08/20260825641447501.pdf",
+     "title": "Public Notice: re opening of Online Applications for the 22nd Edition of CTET",
+     "kind": "corrigendum",
+     "page": 1
+    }
+   },
+   "registration_open": {
+    "date": "2026-08-25",
+    "source": {
+     "notice": "339bbee92773cd8fdae3194f9952fefa0c1a7d6483e665a852623a8361bac6a4",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/08/20260825641447501.pdf",
+     "title": "Public Notice: re opening of Online Applications for the 22nd Edition of CTET",
+     "kind": "corrigendum",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-08-25",
+    "until": "2026-09-01"
+   },
+   "source": {
+    "notice": "339bbee92773cd8fdae3194f9952fefa0c1a7d6483e665a852623a8361bac6a4",
+    "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/08/20260825641447501.pdf",
+    "title": "Public Notice: re opening of Online Applications for the 22nd Edition of CTET",
+    "kind": "corrigendum",
+    "page": 1
+   }
+  }
+ },
+ "gaps": [
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

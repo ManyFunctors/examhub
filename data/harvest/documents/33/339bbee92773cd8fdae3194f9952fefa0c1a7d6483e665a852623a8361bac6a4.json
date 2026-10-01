@@ -1,0 +1,48 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "339bbee92773cd8fdae3194f9952fefa0c1a7d6483e665a852623a8361bac6a4",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/08/20260825641447501.pdf",
+  "title": "Public Notice: re opening of Online Applications for the 22nd Edition of CTET",
+  "body": "in-cbse",
+  "exam": "in-ctet",
+  "feed": "in-cbse/ctet",
+  "published": "2026-09-10",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "7c9fa9d0e71a48f3f3cf99a397e15ee373be55cc0827f0fc150ea50891da4738",
+  "bytes": 418421,
+  "pages": 1,
+  "chars": 1499,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T19:02:13+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "registration_open": {
+   "date": "2026-08-25",
+   "evidence": "In view of the aforesaid and in the larger interest of candidates, it has been decided to provide an opportunity to all eligible candidates who could not avail themselves of the earlier application window by opening the online application p",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2026-09-01",
+   "evidence": "In view of the aforesaid and in the larger interest of candidates, it has been decided to provide an opportunity to all eligible candidates who could not avail themselves of the earlier application window by opening the online application p",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.cbse.gov.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2026-08-25",
+   "until": "2026-09-01"
+  }
+ }
+}

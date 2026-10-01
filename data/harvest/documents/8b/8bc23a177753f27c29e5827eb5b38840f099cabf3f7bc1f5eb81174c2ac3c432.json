@@ -1,0 +1,43 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "8bc23a177753f27c29e5827eb5b38840f099cabf3f7bc1f5eb81174c2ac3c432",
+  "url": "https://www.ibps.in/wp-content/uploads/Corrigendum-CRP-CSA-XV_Vacancy_update2_14.11.25.pdf",
+  "title": "15 Nov 25 Corrigendum dated 14.11.2025 in connection with CRP-CSA-XV",
+  "body": "in-ibps",
+  "exam": "in-ibps-clerk",
+  "feed": "in-ibps/crp-updates",
+  "published": "2025-11-14",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "2bbecca5fc9a081274ed047dbcd8c0e9d612dd202323cd7bf56621f699c2f8ba",
+  "bytes": 497311,
+  "pages": 1,
+  "chars": 884,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T19:02:01+05:30"
+ },
+ "kind": "corrigendum",
+ "vacancies": {
+  "total": 2026,
+  "evidence": "RECRUITMENT OF CUSTOMER SERVICE ASSOCIATES IN PARTICIPATING BANKS (Vacancies of 2026-27) Official Website: www.ibps.in In case of queries / complaints please log in to https://cgrs.ibps.in",
+  "page": 1,
+  "from": "text"
+ },
+ "links": {
+  "apply": [
+   "http://www.ibps.in/",
+   "https://www.ibps.in",
+   "https://cgrs.ibps.in"
+  ],
+  "other": [
+   "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=4276",
+   "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=4259"
+  ]
+ },
+ "summary": {
+  "vacancies": 2026
+ }
+}
