@@ -4,9 +4,9 @@
  "name": "National Eligibility cum Entrance Test (UG)",
  "body": "in-nta",
  "purpose": "admission",
- "cycle": "2026",
- "documents": 3,
- "documents_in_cycle": 2,
+ "cycle": "2026-06",
+ "documents": 4,
+ "documents_in_cycle": 1,
  "fields": {},
  "gaps": [
   "apply",
@@ -15,5 +15,5 @@
   "eligibility",
   "exam_pattern"
  ],
- "older_documents": 1
+ "older_documents": 3
 }

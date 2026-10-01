@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0e11dc959c3e4014fc68cee2a7c82ea5cf3d3fe64f1486a996800346f06ab898",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/06/20260620235002385.pdf",
+  "title": "Advisory for candidates, regarding availing the facility of Compensatory Time during NEET (UG) 2026 Examination, scheduled on 21 June 2026",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "ca80b458884bdacf4fd6c6e79d9165cb8cc040999a0daa183b01414720b3b6a3",
+  "bytes": 446626,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T10:01:05+05:30"
+ },
+ "kind": "schedule",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

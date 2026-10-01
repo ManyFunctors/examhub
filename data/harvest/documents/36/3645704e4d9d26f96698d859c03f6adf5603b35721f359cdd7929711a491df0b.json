@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3645704e4d9d26f96698d859c03f6adf5603b35721f359cdd7929711a491df0b",
+  "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/04/20260408162887115.pdf",
+  "title": "Correction in the particulars of the online Application Form of NTET- 2026-reg.",
+  "body": "in-nta",
+  "exam": "in-ntet",
+  "feed": "in-nta/ntet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "de6563634f5dbfdf833609181eef522f467365d21bd7be65aba9a27527f61a94",
+  "bytes": 879000,
+  "pages": 2,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T10:01:14+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
