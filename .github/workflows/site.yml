@@ -44,7 +44,7 @@ jobs:
       # so an unchanged crawl is an empty diff); read the crawl's own finish
       # time from Actions instead, so "Updated" reflects the daily check even
       # on a day nothing changed on the page.
-      - name: Freshness: when the crawl last finished
+      - name: "Freshness: when the crawl last finished"
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
