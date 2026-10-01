@@ -1131,7 +1131,11 @@
     });
     if (statEl) {
       var tbaGroup = grid.querySelector('.bymonth__group[data-section="~1tba"] .bymonth__count');
-      var statTo = tbaGroup ? (parseInt(tbaGroup.textContent, 10) || 0) : statFrom;
+      /* Its text reads "(905 Exams)" -- parseInt doesn't skip the leading "(", so it
+         must be pulled out with the same pattern used for the heading badge above,
+         not read directly (that silently fell back to 0). */
+      var tbaMatch = tbaGroup && /\((\d+)/.exec(tbaGroup.textContent);
+      var statTo = tbaMatch ? Number(tbaMatch[1]) : statFrom;
       statEl.textContent = String(statFrom);
       countUp(statFrom, statTo, 600, function (n) { statEl.textContent = String(n); });
     }
