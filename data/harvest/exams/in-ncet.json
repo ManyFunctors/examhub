@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "exam": "in-ncet",
+ "name": "National Common Entrance Test (ITEP)",
+ "body": "in-nta",
+ "purpose": "admission",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

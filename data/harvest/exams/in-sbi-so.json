@@ -1,0 +1,35 @@
+{
+ "schema": 1,
+ "exam": "in-sbi-so",
+ "name": "SBI Specialist Cadre Officers",
+ "body": "in-sbi",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "apply_links": {
+   "value": [
+    "https://sbi.bank.in/web/careers/current-openings",
+    "https://sbi.bank.in/web/careers"
+   ],
+   "source": {
+    "notice": "0bd9bda36488e5ee665ed6969c5a85159f96a4d6ba4b40ba5463ce28b6400e10",
+    "url": "https://sbi.bank.in/documents/77530/57941334/10092026_SBI+-+CRPD-SCO-2026-27_21+-+Hindi.pdf/24bd29d5-b0f6-8453-0e22-b5a30f2d4d50?t=1789030545711",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi / English ) ( )",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}
