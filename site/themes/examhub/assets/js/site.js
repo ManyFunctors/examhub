@@ -738,6 +738,9 @@
       var titleEl = el.querySelector(".card__title");
       return {
         el: el,
+        /* Its position before search touches order, so a cleared search puts
+           the month's date order (or the TBA list's) back exactly. */
+        baseOrder: el.style.order || "",
         /* The printed title, for naming exams in the Dates view. */
         title: (titleEl ? titleEl.textContent : "") || "",
         text: [
@@ -814,6 +817,15 @@
             if (bodyNames.has(it.bodies[b])) { any = true; break; }
           }
           if (!any) ok = false;
+        }
+        /* A search term ranks its own matches (exact, then initials/prefix, then
+           fuzzy) ahead of each other within whatever group the card is already
+           in; with no term, the group's own order (date, or the TBA/Completed
+           list's) is restored exactly. */
+        if (needle) {
+          it.el.style.order = ok ? String(scoreAny(it.text, needle)) : "9";
+        } else if (it.el.style.order !== it.baseOrder) {
+          it.el.style.order = it.baseOrder;
         }
         it.el.hidden = !ok;
         (copiesOf[it.el.getAttribute("href")] || []).forEach(function (c) { c.hidden = !ok; });
