@@ -1069,6 +1069,18 @@
       });
       into.appendChild(frag);
     }
+    /* Catalogue exams with no live cycle (examhub_pipeline tracked): hundreds of them, so
+       they are never server-rendered (see home.data.json) -- added here, into the always-
+       present TBA group, instead. */
+    var tbaGrid = grid.querySelector('.bymonth__group[data-section="~1tba"] .card-grid');
+    if (tbaGrid && data.tracked && data.tracked.length) {
+      var tbaTmp = document.createElement("div"), tbaFrag = document.createDocumentFragment();
+      data.tracked.forEach(function (c) {
+        tbaTmp.innerHTML = c.h;
+        if (tbaTmp.firstElementChild) tbaFrag.appendChild(tbaTmp.firstElementChild);
+      });
+      tbaGrid.appendChild(tbaFrag);
+    }
     initByMonth(grid, data);
     initFilters(data);
     initDates(data);

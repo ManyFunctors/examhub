@@ -15,4 +15,12 @@
   {{- $url := .page.RelPermalink -}}
   {{- with (partialCached "v2/params.html" .page .page.RelPermalink).known_as }}{{ $aliases = merge $aliases (dict $url .) }}{{ end -}}
 {{- end -}}
-{{- dict "events" $ev.events "start" $ev.start "cards" $cards "aliases" $aliases | jsonify (dict "indent" "") -}}
+{{- /* Catalogue exams with no live cycle yet (examhub_pipeline tracked): hundreds of them, so
+     they ride in index.json and are added to the TBA group after first paint, instead of
+     rendering on every page and blowing its byte ceiling -- never into $cards, which
+     check-home.mjs requires to list exactly the site's real exam pages. */ -}}
+{{- $tracked := slice -}}
+{{- range where site.RegularPages "Section" "tracked" -}}
+  {{- $tracked = $tracked | append (dict "u" .RelPermalink "h" (partial "tracked-card.html" . | string | strings.TrimSpace)) -}}
+{{- end -}}
+{{- dict "events" $ev.events "start" $ev.start "cards" $cards "aliases" $aliases "tracked" $tracked | jsonify (dict "indent" "") -}}
