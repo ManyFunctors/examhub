@@ -1115,15 +1115,22 @@
   cursor: pointer;
 }
 
-/* The swatches use the lifecycle hues, so the button matches its legend. */
+/* The swatches use the same pale fill + coloured edge as the chips they stand for
+   (see chips.css's --cal-fill/--cal-edge), not a flat saturated block -- a solid
+   rect in the same hue still read as a different, mismatched colour next to the
+   actual chips in the popover underneath. */
 .cal__keybtn-icon {
   width: 1rem;
   height: 1rem;
 }
 
-.cal__keybtn-sw--exam_date { fill: var(--exam); }
-.cal__keybtn-sw--registration { fill: var(--registration); }
-.cal__keybtn-sw--admit_card { fill: var(--admit); }
+.cal__keybtn-sw {
+  stroke-width: 1px;
+}
+
+.cal__keybtn-sw--exam_date { fill: var(--exam-fill); stroke: var(--exam-tone); }
+.cal__keybtn-sw--registration { fill: var(--registration-fill); stroke: var(--registration-tone); }
+.cal__keybtn-sw--admit_card { fill: var(--admit-fill); stroke: var(--admit-tone); }
 
 /* Open state matches the Filters button. */
 .cal__keybtn[aria-expanded="true"] {

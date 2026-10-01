@@ -1094,17 +1094,21 @@
       });
       tbaGrid.appendChild(tbaFrag);
     }
-    /* The counts the server rendered (real exams only) are about to jump once
-       initByMonth recounts with the full set, "Dates to Be Announced" most of
-       all now that it carries hundreds of tracked stubs -- count up to the new
-       number instead of flipping it outright. The stats band's own "Dates to
-       Be Announced" figure is the same count, read straight from this same
-       group once it's settled, so the two numbers never disagree. */
-    var counts = Array.prototype.map.call(grid.querySelectorAll(".bymonth__count"), function (c) {
-      return { el: c, from: parseInt(c.textContent, 10) || 0 };
-    });
+    /* The TBA count the server rendered (real exams only) is about to jump once the
+       tracked stubs just appended above are counted -- count up to the new number
+       instead of flipping it outright. Computed directly from data.tracked.length,
+       not by re-reading the heading's own badge after initByMonth: that text is
+       only current once its recount() has actually run, which initByMonth defers
+       by up to 160ms (see sync()) whenever the saved month differs from the one
+       the server drew, so reading it right away could still catch the old value,
+       or even a mid-fade empty string. The stats band's figure gets the same
+       number, so the two never disagree. */
+    var tbaBadge = grid.querySelector('.bymonth__group[data-section="~1tba"] .bymonth__count');
+    var tbaFrom = tbaBadge ? (parseInt(tbaBadge.textContent, 10) || 0) : 0;
+    var tbaAdd = (data.tracked && data.tracked.length) || 0;
+    var tbaTo = tbaFrom + tbaAdd;
     var statEl = document.querySelector('[data-stat="awaiting-date"] .stat__value');
-    var statFrom = statEl ? parseInt(statEl.textContent, 10) || 0 : null;
+    var statFrom = statEl ? (parseInt(statEl.textContent, 10) || 0) : 0;
     initByMonth(grid, data);
     var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     function countUp(from, to, dur, onUpdate) {
@@ -1120,24 +1124,17 @@
       }
       requestAnimationFrame(tick);
     }
-    counts.forEach(function (c) {
-      var m = /^\((\d+)( Exams?)\)$/.exec(c.el.textContent);
-      if (!m) return;
-      var to = Number(m[1]);
-      c.el.textContent = "(" + c.from + m[2] + ")";
-      countUp(c.from, to, 600, function (n) {
-        c.el.textContent = "(" + n + (n === 1 ? " Exam)" : " Exams)");
-      });
-    });
-    if (statEl) {
-      var tbaGroup = grid.querySelector('.bymonth__group[data-section="~1tba"] .bymonth__count');
-      /* Its text reads "(905 Exams)" -- parseInt doesn't skip the leading "(", so it
-         must be pulled out with the same pattern used for the heading badge above,
-         not read directly (that silently fell back to 0). */
-      var tbaMatch = tbaGroup && /\((\d+)/.exec(tbaGroup.textContent);
-      var statTo = tbaMatch ? Number(tbaMatch[1]) : statFrom;
-      statEl.textContent = String(statFrom);
-      countUp(statFrom, statTo, 600, function (n) { statEl.textContent = String(n); });
+    if (tbaAdd) {
+      if (tbaBadge) {
+        tbaBadge.textContent = "(" + tbaFrom + (tbaFrom === 1 ? " Exam)" : " Exams)");
+        countUp(tbaFrom, tbaTo, 600, function (n) {
+          tbaBadge.textContent = "(" + n + (n === 1 ? " Exam)" : " Exams)");
+        });
+      }
+      if (statEl) {
+        statEl.textContent = String(statFrom);
+        countUp(statFrom, statFrom + tbaAdd, 600, function (n) { statEl.textContent = String(n); });
+      }
     }
     initFilters(data);
     initDates(data);
