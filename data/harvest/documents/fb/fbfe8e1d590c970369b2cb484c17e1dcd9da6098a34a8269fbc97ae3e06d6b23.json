@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "fbfe8e1d590c970369b2cb484c17e1dcd9da6098a34a8269fbc97ae3e06d6b23",
+  "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/04/20260403367032454.pdf",
+  "title": "राष्ट्रीय होटल प्रबंधन संयुक्त प्रवेश परीक्षा (NCHM JEE)–2026 के ऑनलाइन आवेदन पत्र में विवरणों के संशोधन के संबंध में।।",
+  "body": "in-nta",
+  "exam": "in-nchm-jee",
+  "feed": "in-nta/nchm",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "b93fa1fb9bc9a41819b9c0b7aef0667733602054f8c031a0bc015ab65eb97683",
+  "bytes": 766650,
+  "pages": 2,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T23:25:03+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
