@@ -2,7 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-01T17:32:09+05:30</updated>
+  <updated>2026-10-01T20:49:32+05:30</updated>
+  <entry>
+    <id>urn:sha256:b221616f054eac84ce834b1d733e3c409241488082108c7db49acf01d4f967bf</id>
+    <title>01 Oct 26 Online Preliminary Exam Call Letter for CRP-CSA-XVI</title>
+    <link href="https://www.ibps.in/index.php/clerical-cadre-xvi/"/>
+    <updated>2026-10-01T20:49:32+05:30</updated>
+    <category term="in-ibps-clerk"/>
+    <summary>in-ibps-clerk · admit_card</summary>
+  </entry>
   <entry>
     <id>urn:sha256:0945bb3b8f740ba635c58c9f8eb32dcae2ff7b561281aafa4f90d66a396060d4</id>
     <title>Schedule for Walk in Interview for the post of Senior Resident / Demonstrator at AIIMS, Delhi-110029</title>
@@ -2394,13 +2402,5 @@
     <updated>2026-10-01T07:49:13+05:30</updated>
     <category term="in-icar-aice-phd"/>
     <summary>in-icar-aice-phd · other · in-icar-aice-phd/2025</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d4c88f080bf4ead175a141fb3428683f99875e2939b3da529b328b89a7dc3ac6</id>
-    <title>Display of Provisional Answer Keys, and Question Paper with Recorded Responses for Answer Key Challenge for ICAR Entrance Examinations [AIEEA (PG) &amp; AICE-JRF/SRF(Ph.D)]-2024–reg. Read More</title>
-    <link href="https://nta.ac.in/Download/Notice/Notice_20240801165209.pdf"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-icar-aice-phd"/>
-    <summary>in-icar-aice-phd · answer_key · in-icar-aice-phd/2024</summary>
   </entry>
 </feed>

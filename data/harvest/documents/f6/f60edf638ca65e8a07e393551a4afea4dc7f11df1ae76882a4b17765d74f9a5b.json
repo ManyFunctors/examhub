@@ -1,0 +1,27 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "f60edf638ca65e8a07e393551a4afea4dc7f11df1ae76882a4b17765d74f9a5b",
+  "url": "https://www.cbse.gov.in/cbsenew/documents/Supplementary_Datesheet_XII_17072026.pdf",
+  "title": "Datesheet for Senior Secondary Supplementary Examination - 2026",
+  "body": "in-cbse",
+  "exam": "in-cbse-supplementary",
+  "feed": "in-cbse/notices",
+  "published": "2026-07-17",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "db74b073fe716479e3e715c6f8ebaf45aaf392db7ddd2637567436d6c153d609",
+  "bytes": 851312,
+  "pages": 2,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T20:49:40+05:30"
+ },
+ "kind": "schedule",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
