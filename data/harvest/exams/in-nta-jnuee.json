@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "exam": "in-nta-jnuee",
+ "name": "Jawaharlal Nehru University Entrance Examination",
+ "body": "in-nta",
+ "purpose": "admission",
+ "cycle": "2019",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}
