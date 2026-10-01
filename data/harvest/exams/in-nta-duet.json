@@ -1,0 +1,51 @@
+{
+ "schema": 1,
+ "exam": "in-nta-duet",
+ "name": "Delhi University Entrance Test",
+ "body": "in-nta",
+ "purpose": "admission",
+ "cycle": "2022",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "apply_links": {
+   "value": [
+    "https://nta.ac.in/DuetExam"
+   ],
+   "source": {
+    "notice": "249b0bf84038d4857817490c2f1b790ab98bba2721d3f7613ab6ec82a3f541a4",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20220921134452.pdf",
+    "title": "1149 Schedule of Entrance Exam for Delhi University Entrance Test (DUET) 2022 Read More",
+    "kind": "schedule"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Doctorate",
+     "Postgraduate",
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "Biomedical Sciences & M.Sc-Ph.D combined degree in Biomedical Sciences M.Sc",
+      "page": 5
+     }
+    ]
+   },
+   "source": {
+    "notice": "249b0bf84038d4857817490c2f1b790ab98bba2721d3f7613ab6ec82a3f541a4",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20220921134452.pdf",
+    "title": "1149 Schedule of Entrance Exam for Delhi University Entrance Test (DUET) 2022 Read More",
+    "kind": "schedule"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

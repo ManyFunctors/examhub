@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3dbc6ea6e5bab8b60389c20bcea2a8842583c3fcf12263e63309982922ee7792",
+  "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/03/202603191597712657.pdf",
+  "title": "Inviting Online Applications for Graduate Aptitude Test – Biotechnology (GAT-B) / Biotechnology Eligibility Test (BET) – 2026",
+  "body": "in-nta",
+  "exam": "in-gat-b",
+  "feed": "in-nta/gat-b",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "07e1e28e55a586a21d692aba2f072eceaaeeb2b24d4694152dd1c145e4e33071",
+  "bytes": 578629,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T15:34:03+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
