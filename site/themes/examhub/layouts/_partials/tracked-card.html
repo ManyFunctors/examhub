@@ -5,8 +5,12 @@
 {{- /* Search matches the title's text plus these two attributes and nothing else (see
      initFilters in site.js) -- the short name people actually search belongs in the
      title, same as a real exam card, not the long official name. */ -}}
+{{- $freq := dict "annual" "Held Yearly" "biannual" "Held Twice a Year"
+                  "multiple" "Held Several Times a Year" "continuous" "Held Year-Round" -}}
 <a class="card card--tracked" href="{{ .RelPermalink }}" data-f-body="{{ .Params.body_name }}">
-  <span class="card__status pill pill--tracked">Not Yet Announced</span>
+  {{- /* Not "Not Yet Announced": the group heading already says that. This says the
+       one thing the heading doesn't -- how often it comes around. */}}
+  <span class="card__status pill pill--tracked">{{ index $freq .Params.frequency | default "Held Regularly" }}</span>
   <p class="card__body-name">{{ .Params.body_name }}{{ with .Params.name }} · {{ . }}{{ end }}</p>
   <h3 class="card__title">{{ .Title }}</h3>
 </a>
