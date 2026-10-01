@@ -1,0 +1,294 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "aa58e2189fb070e82b6c6e5f9a7960aeb7fdab12b43b90895f6dff9a5e54bfa3",
+  "url": "https://www.upsc.gov.in/sites/default/files/AdvtNo-11-2026-Engl-100926.pdf",
+  "title": "Advertisement No.11 - 2026",
+  "body": "in-upsc",
+  "exam": "in-upsc-ora",
+  "feed": "in-upsc/recruitment-advts",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "73f4546243f9761d67968b76413391969b702097befa9d942c22da2ef7319a7c",
+  "bytes": 3210772,
+  "pages": 52,
+  "chars": 73361,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T13:09:59+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "11/2026",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-10-02",
+   "evidence": "CLOSING DATE FOR SUBMISSION OF ONLINE RECRUITMENT APPLICATION THROUGH WEBSITE IS 1800 HRS ON 02-10-2026 (FOR POSTS OTHER THAN",
+   "page": 23,
+   "from": "text"
+  },
+  "age_as_on": {
+   "date": "2026-10-02",
+   "evidence": "closing date for receipt of Online Recruitment Application for the post is to be treated as crucial date | CLOSING DATE FOR SUBMISSION OF ONLINE RECRUITMENT APPLICATION THROUGH WEBSITE IS 1800 HRS ON 02-10-2026 (FOR POSTS OTHER THAN",
+   "page": 23,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "Women",
+    "SC",
+    "ST",
+    "PwBD"
+   ],
+   "except": true,
+   "amount": 25,
+   "raw": "(a) Candidates (Except Female/SC/ST/Persons with Benchmark Disability Candidates who are exempted from payment of fee) are required to pay a fee of Rs. 25/- (Rupees Twenty five) by using Visa/Master/Rupay Credit/Debit Card/UPI Payment or…",
+   "page": 31
+  },
+  {
+   "categories": [
+    "Women",
+    "SC",
+    "ST",
+    "PwBD"
+   ],
+   "amount": 0,
+   "raw": "(a) Candidates (Except Female/SC/ST/Persons with Benchmark Disability Candidates who are exempted from payment of fee) are required to pay a fee of Rs. 25/- (Rupees Twenty five) by using Visa/Master/Rupay Credit/Debit Card/UPI Payment or…",
+   "page": 31
+  }
+ ],
+ "age": {
+  "as_on": "2026-10-02",
+  "relaxations": [
+   {
+    "categories": [
+     "PwBD"
+    ],
+    "years": 10,
+    "raw": "The age is further relaxable upto 10 years for PwBD",
+    "page": 5
+   },
+   {
+    "categories": [
+     "Contract Employee"
+    ],
+    "years": 5,
+    "raw": "(i) The contractual employees are eligible for one time relaxation in upper age limit period of 5 years",
+    "page": 16
+   },
+   {
+    "categories": [
+     "Government Employee"
+    ],
+    "years": 3,
+    "raw": "This relaxation will be admissible to Government servants with 3 years continuous service in Central Government and working in posts which are in the same line or allied cadre and where a relation…",
+    "page": 32
+   },
+   {
+    "categories": [
+     "SC",
+     "ST"
+    ],
+    "years": 10,
+    "raw": "i) Age relaxation of 10 years (This implies that Scheduled Castes/Scheduled Tribes category candidates would get maximum 15 years age relaxation including 5 years meant for their respective categories",
+    "page": 32
+   },
+   {
+    "categories": [
+     "SC",
+     "ST"
+    ],
+    "years": 15,
+    "raw": "i) Age relaxation of 10 years (This implies that Scheduled Castes/Scheduled Tribes category candidates would get maximum 15 years age relaxation including 5 years meant for their respective categories",
+    "page": 32
+   },
+   {
+    "categories": [
+     "ST"
+    ],
+    "years": 5,
+    "raw": "i) Age relaxation of 10 years (This implies that Scheduled Castes/Scheduled Tribes category candidates would get maximum 15 years age relaxation including 5 years meant for their respective categories",
+    "page": 32
+   },
+   {
+    "categories": [
+     "OBC"
+    ],
+    "years": 13,
+    "raw": "Similarly OBC candidates would get maximum upto 13 years including 3 years age relaxation meant for OBC category) in upper age limit shall be allowed to persons suffering from (a) blindness and low…",
+    "page": 32
+   },
+   {
+    "categories": [
+     "OBC"
+    ],
+    "years": 3,
+    "raw": "Similarly OBC candidates would get maximum upto 13 years including 3 years age relaxation meant for OBC category) in upper age limit shall be allowed to persons suffering from (a) blindness and low…",
+    "page": 32
+   }
+  ]
+ },
+ "pay": [
+  {
+   "levels": [
+    11
+   ],
+   "text": "Pay Level 11",
+   "evidence": "Level-11 plus NPA in the Pay Matrix as per 7th CPC",
+   "page": 2
+  },
+  {
+   "levels": [
+    7
+   ],
+   "text": "Pay Level 7",
+   "evidence": "Level-07 in the Pay Matrix as per 7th CPC",
+   "page": 8
+  },
+  {
+   "levels": [
+    10
+   ],
+   "text": "Pay Level 10",
+   "evidence": "Level- 10 in the Pay Matrix as per 7th CPC",
+   "page": 16
+  },
+  {
+   "levels": [
+    8
+   ],
+   "text": "Pay Level 8",
+   "evidence": "Level- 8 in the Pay Matrix as per 7th CPC",
+   "page": 19
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "clauses": [
+   {
+    "text": "ESSENTIAL QUALIFICATIONS:",
+    "page": 2
+   },
+   {
+    "text": "(A) EDUCATIONAL Post-Graduate degree in the concerned speciality or super-speciality mentioned in Section A of Schedule VI from recognized Teaching Institute i.e",
+    "page": 2
+   },
+   {
+    "text": "ESSENTIAL QUALIFICATIONS:",
+    "page": 5
+   },
+   {
+    "text": "Holders of Educational qualifications included in Part II of the Third Schedule should also fulfill the conditions specified in sub-section (3) of section 13 of the Indian Medical Council Act, 1956 (102 of 1956)",
+    "page": 5
+   },
+   {
+    "text": "(ii) Post-Graduate degree in the concerned speciality or super speciality mentioned in Section A of Schedule VI from recognized Teaching Institute i.e",
+    "page": 6
+   },
+   {
+    "text": "ESSENTIAL QUALIFICATIONS:",
+    "page": 9
+   },
+   {
+    "text": "Bachelors’ Degree in Journalism or Mass Communication from any recognised University or Institute",
+    "page": 9
+   },
+   {
+    "text": "(i) Master’s Degree in Mass Communication or Journalism or Economics or Statistics or English from a recognised University or institute.",
+    "page": 9
+   },
+   {
+    "text": "ESSENTIAL QUALIFICATIONS:",
+    "page": 11
+   },
+   {
+    "text": "Holders of educational qualification included in Part II of the Third Schedule should also fulfill the conditions stipulated in sub section",
+    "page": 11
+   },
+   {
+    "text": "F.F.A.R.C.S. (By examination), Specialty Board of Anesthesiology (USA) OR Post Graduate Diploma Qualification - D.A.) (B) EXPERIENCE:",
+    "page": 12
+   },
+   {
+    "text": "ESSENTIAL QUALIFICATIONS:",
+    "page": 14
+   },
+   {
+    "text": "ESSENTIAL QUALIFICATIONS:",
+    "page": 17
+   },
+   {
+    "text": "ESSENTIAL QUALIFICATIONS:",
+    "page": 19
+   },
+   {
+    "text": "MINIMUM ESSENTIAL QUALIFICATIONS: All applicants must fulfill the essential requirements of the post and other conditions stipulated in the advertisement",
+    "page": 24
+   },
+   {
+    "text": "(b) On the basis of higher educational qualifications than the minimum prescribed in the advertisement.",
+    "page": 25
+   },
+   {
+    "text": "b) Degree/Diploma certificate as proof of educational qualification claimed",
+    "page": 28
+   },
+   {
+    "text": "x) Candidate should have details of one Photo ID Card viz",
+    "page": 30
+   },
+   {
+    "text": "The qualification of the scribe should not be more than the minimum qualifications required for the post.",
+    "page": 33
+   },
+   {
+    "text": "d) In respect of equivalent clause in Essential Qualifications, if a candidate is claiming a particular qualification as equivalent qualification as per the requirement of",
+    "page": 36
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://upsconline.nic.in/",
+   "https://upsconline.nic.in/ora/",
+   "https://upsc.gov.in/recruitment/recruitment-performas",
+   "https://upsconline.nic.in.”",
+   "https://upsc.gov.in/recruitment/recruitment-"
+  ],
+  "other": [
+   "https://upsc.gov.in/",
+   "https://upsc.gov.in/forms-downloads"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-10-02"
+  },
+  "fee": {
+   "min": 0,
+   "max": 25
+  },
+  "pay": "Pay Level 11",
+  "education": [
+   "Postgraduate",
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "selection": "Interview"
+ }
+}

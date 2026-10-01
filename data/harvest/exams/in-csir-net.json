@@ -4,55 +4,10 @@
  "name": "Joint CSIR-UGC National Eligibility Test",
  "body": "in-nta",
  "purpose": "eligibility",
- "cycle": "2024-12",
- "documents": 2,
+ "cycle": "2026-06",
+ "documents": 3,
  "documents_in_cycle": 1,
  "fields": {
-  "dates": {
-   "payment_deadline": {
-    "date": "2024-12-31",
-    "source": {
-     "notice": "10253223f596644c63e2dce3c6b11b79c0327c688298fc45d10e09803162f0b8",
-     "url": "https://nta.ac.in/Download/Notice/Notice_20241230130039.pdf",
-     "title": "PUBLIC NOTICE ONLINE APPLICATION FORM OF JOINT CSIR-UGC NET DECEMBER 2024 CYCLE Read More",
-     "kind": "schedule",
-     "page": 1
-    }
-   },
-   "registration_deadline": {
-    "date": "2024-12-30",
-    "source": {
-     "notice": "10253223f596644c63e2dce3c6b11b79c0327c688298fc45d10e09803162f0b8",
-     "url": "https://nta.ac.in/Download/Notice/Notice_20241230130039.pdf",
-     "title": "PUBLIC NOTICE ONLINE APPLICATION FORM OF JOINT CSIR-UGC NET DECEMBER 2024 CYCLE Read More",
-     "kind": "schedule",
-     "page": 1
-    }
-   },
-   "registration_open": {
-    "date": "2024-12-09",
-    "source": {
-     "notice": "10253223f596644c63e2dce3c6b11b79c0327c688298fc45d10e09803162f0b8",
-     "url": "https://nta.ac.in/Download/Notice/Notice_20241230130039.pdf",
-     "title": "PUBLIC NOTICE ONLINE APPLICATION FORM OF JOINT CSIR-UGC NET DECEMBER 2024 CYCLE Read More",
-     "kind": "schedule",
-     "page": 1
-    }
-   }
-  },
-  "apply": {
-   "value": {
-    "from": "2024-12-09",
-    "until": "2024-12-30"
-   },
-   "source": {
-    "notice": "10253223f596644c63e2dce3c6b11b79c0327c688298fc45d10e09803162f0b8",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20241230130039.pdf",
-    "title": "PUBLIC NOTICE ONLINE APPLICATION FORM OF JOINT CSIR-UGC NET DECEMBER 2024 CYCLE Read More",
-    "kind": "schedule",
-    "page": 1
-   }
-  },
   "eligibility": {
    "value": {
     "clauses": [
@@ -71,13 +26,15 @@
     "url": "https://nta.ac.in/Download/Notice/Notice_20241230130039.pdf",
     "title": "PUBLIC NOTICE ONLINE APPLICATION FORM OF JOINT CSIR-UGC NET DECEMBER 2024 CYCLE Read More",
     "kind": "schedule"
-   }
+   },
+   "carried_from": "2024-12"
   }
  },
  "gaps": [
+  "apply",
   "exam_date",
   "fee",
   "exam_pattern"
  ],
- "older_documents": 1
+ "older_documents": 2
 }

@@ -1,0 +1,39 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "19ef1e7948c19c010dae595710e8a69450bfcd34a9c7172b1db7c1b510ccdbee",
+  "url": "https://nta.ac.in/Download/Notice/20190506163859.pdf",
+  "title": "1884 PUBLIC NOTICE NEET UG - 2019 Read More",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "a26262ed7b7c51514da675e261efd82dd50ca2c7260d32c7dd46b56839ca12f9",
+  "bytes": 184833,
+  "pages": 2,
+  "chars": 2777,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T13:09:59+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2019-05-05",
+   "evidence": "The NEET (UG)-2019 was conducted by the National Testing Agency (NTA) on 05/05/2019 in 2492 Centres located in 147 Cities across the Country except in centres located in the State of Odisha",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.ntaneet.nic.in",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2019-05-05"
+ }
+}

@@ -1,0 +1,261 @@
+{
+ "schema": 1,
+ "exam": "in-upsc-ora",
+ "name": "UPSC Recruitment by Selection (ORA advertisements)",
+ "body": "in-upsc",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "Women",
+      "SC",
+      "ST",
+      "PwBD"
+     ],
+     "except": true,
+     "amount": 25,
+     "raw": "(a) Candidates (Except Female/SC/ST/Persons with Benchmark Disability Candidates who are exempted from payment of fee) are required to pay a fee of Rs. 25/- (Rupees Twenty five) by using Visa/Master/Rupay Credit/Debit Card/UPI Payment or…",
+     "page": 31
+    },
+    {
+     "categories": [
+      "Women",
+      "SC",
+      "ST",
+      "PwBD"
+     ],
+     "amount": 0,
+     "raw": "(a) Candidates (Except Female/SC/ST/Persons with Benchmark Disability Candidates who are exempted from payment of fee) are required to pay a fee of Rs. 25/- (Rupees Twenty five) by using Visa/Master/Rupay Credit/Debit Card/UPI Payment or…",
+     "page": 31
+    }
+   ],
+   "source": {
+    "notice": "aa58e2189fb070e82b6c6e5f9a7960aeb7fdab12b43b90895f6dff9a5e54bfa3",
+    "url": "https://www.upsc.gov.in/sites/default/files/AdvtNo-11-2026-Engl-100926.pdf",
+    "title": "Advertisement No.11 - 2026",
+    "kind": "advertisement",
+    "page": 31
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2026-10-02",
+    "source": {
+     "notice": "aa58e2189fb070e82b6c6e5f9a7960aeb7fdab12b43b90895f6dff9a5e54bfa3",
+     "url": "https://www.upsc.gov.in/sites/default/files/AdvtNo-11-2026-Engl-100926.pdf",
+     "title": "Advertisement No.11 - 2026",
+     "kind": "advertisement",
+     "page": 23
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-10-02",
+    "source": {
+     "notice": "aa58e2189fb070e82b6c6e5f9a7960aeb7fdab12b43b90895f6dff9a5e54bfa3",
+     "url": "https://www.upsc.gov.in/sites/default/files/AdvtNo-11-2026-Engl-100926.pdf",
+     "title": "Advertisement No.11 - 2026",
+     "kind": "advertisement",
+     "page": 23
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2026-10-02"
+   },
+   "source": {
+    "notice": "aa58e2189fb070e82b6c6e5f9a7960aeb7fdab12b43b90895f6dff9a5e54bfa3",
+    "url": "https://www.upsc.gov.in/sites/default/files/AdvtNo-11-2026-Engl-100926.pdf",
+    "title": "Advertisement No.11 - 2026",
+    "kind": "advertisement",
+    "page": 23
+   }
+  },
+  "advertisement_no": {
+   "value": "11/2026",
+   "source": {
+    "notice": "aa58e2189fb070e82b6c6e5f9a7960aeb7fdab12b43b90895f6dff9a5e54bfa3",
+    "url": "https://www.upsc.gov.in/sites/default/files/AdvtNo-11-2026-Engl-100926.pdf",
+    "title": "Advertisement No.11 - 2026",
+    "kind": "advertisement"
+   }
+  },
+  "apply_links": {
+   "value": [
+    "https://upsconline.nic.in/",
+    "https://upsconline.nic.in/ora/",
+    "https://upsc.gov.in/recruitment/recruitment-performas",
+    "https://upsconline.nic.in.”",
+    "https://upsc.gov.in/recruitment/recruitment-"
+   ],
+   "source": {
+    "notice": "aa58e2189fb070e82b6c6e5f9a7960aeb7fdab12b43b90895f6dff9a5e54bfa3",
+    "url": "https://www.upsc.gov.in/sites/default/files/AdvtNo-11-2026-Engl-100926.pdf",
+    "title": "Advertisement No.11 - 2026",
+    "kind": "advertisement"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Postgraduate",
+     "Graduate",
+     "Diploma / ITI"
+    ],
+    "clauses": [
+     {
+      "text": "ESSENTIAL QUALIFICATIONS:",
+      "page": 2
+     },
+     {
+      "text": "(A) EDUCATIONAL Post-Graduate degree in the concerned speciality or super-speciality mentioned in Section A of Schedule VI from recognized Teaching Institute i.e",
+      "page": 2
+     },
+     {
+      "text": "ESSENTIAL QUALIFICATIONS:",
+      "page": 5
+     },
+     {
+      "text": "Holders of Educational qualifications included in Part II of the Third Schedule should also fulfill the conditions specified in sub-section (3) of section 13 of the Indian Medical Council Act, 1956 (102 of 1956)",
+      "page": 5
+     },
+     {
+      "text": "(ii) Post-Graduate degree in the concerned speciality or super speciality mentioned in Section A of Schedule VI from recognized Teaching Institute i.e",
+      "page": 6
+     },
+     {
+      "text": "ESSENTIAL QUALIFICATIONS:",
+      "page": 9
+     },
+     {
+      "text": "Bachelors’ Degree in Journalism or Mass Communication from any recognised University or Institute",
+      "page": 9
+     },
+     {
+      "text": "(i) Master’s Degree in Mass Communication or Journalism or Economics or Statistics or English from a recognised University or institute.",
+      "page": 9
+     },
+     {
+      "text": "ESSENTIAL QUALIFICATIONS:",
+      "page": 11
+     },
+     {
+      "text": "Holders of educational qualification included in Part II of the Third Schedule should also fulfill the conditions stipulated in sub section",
+      "page": 11
+     },
+     {
+      "text": "F.F.A.R.C.S. (By examination), Specialty Board of Anesthesiology (USA) OR Post Graduate Diploma Qualification - D.A.) (B) EXPERIENCE:",
+      "page": 12
+     },
+     {
+      "text": "ESSENTIAL QUALIFICATIONS:",
+      "page": 14
+     },
+     {
+      "text": "ESSENTIAL QUALIFICATIONS:",
+      "page": 17
+     },
+     {
+      "text": "ESSENTIAL QUALIFICATIONS:",
+      "page": 19
+     },
+     {
+      "text": "MINIMUM ESSENTIAL QUALIFICATIONS: All applicants must fulfill the essential requirements of the post and other conditions stipulated in the advertisement",
+      "page": 24
+     },
+     {
+      "text": "(b) On the basis of higher educational qualifications than the minimum prescribed in the advertisement.",
+      "page": 25
+     },
+     {
+      "text": "b) Degree/Diploma certificate as proof of educational qualification claimed",
+      "page": 28
+     },
+     {
+      "text": "x) Candidate should have details of one Photo ID Card viz",
+      "page": 30
+     },
+     {
+      "text": "The qualification of the scribe should not be more than the minimum qualifications required for the post.",
+      "page": 33
+     },
+     {
+      "text": "d) In respect of equivalent clause in Essential Qualifications, if a candidate is claiming a particular qualification as equivalent qualification as per the requirement of",
+      "page": 36
+     }
+    ]
+   },
+   "source": {
+    "notice": "aa58e2189fb070e82b6c6e5f9a7960aeb7fdab12b43b90895f6dff9a5e54bfa3",
+    "url": "https://www.upsc.gov.in/sites/default/files/AdvtNo-11-2026-Engl-100926.pdf",
+    "title": "Advertisement No.11 - 2026",
+    "kind": "advertisement"
+   }
+  },
+  "selection": {
+   "value": [
+    "Interview"
+   ],
+   "source": {
+    "notice": "aa58e2189fb070e82b6c6e5f9a7960aeb7fdab12b43b90895f6dff9a5e54bfa3",
+    "url": "https://www.upsc.gov.in/sites/default/files/AdvtNo-11-2026-Engl-100926.pdf",
+    "title": "Advertisement No.11 - 2026",
+    "kind": "advertisement"
+   }
+  },
+  "pay": {
+   "value": [
+    {
+     "levels": [
+      11
+     ],
+     "text": "Pay Level 11",
+     "evidence": "Level-11 plus NPA in the Pay Matrix as per 7th CPC",
+     "page": 2
+    },
+    {
+     "levels": [
+      7
+     ],
+     "text": "Pay Level 7",
+     "evidence": "Level-07 in the Pay Matrix as per 7th CPC",
+     "page": 8
+    },
+    {
+     "levels": [
+      10
+     ],
+     "text": "Pay Level 10",
+     "evidence": "Level- 10 in the Pay Matrix as per 7th CPC",
+     "page": 16
+    },
+    {
+     "levels": [
+      8
+     ],
+     "text": "Pay Level 8",
+     "evidence": "Level- 8 in the Pay Matrix as per 7th CPC",
+     "page": 19
+    }
+   ],
+   "source": {
+    "notice": "aa58e2189fb070e82b6c6e5f9a7960aeb7fdab12b43b90895f6dff9a5e54bfa3",
+    "url": "https://www.upsc.gov.in/sites/default/files/AdvtNo-11-2026-Engl-100926.pdf",
+    "title": "Advertisement No.11 - 2026",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "exam_date",
+  "age"
+ ],
+ "older_documents": 0
+}
