@@ -1,0 +1,39 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "cff62c8248f818527fe09c752f6c1d168764f13e2cda4d5c823dd3225c72a307",
+  "url": "https://www.ibps.in/wp-content/uploads/Corrigendum-CRP-CSA_XVI_29.09.2026.pdf",
+  "title": "29 Sep 26 Corrigendum dated 29.09.2026 in connection with CRP-CSA-XVI",
+  "body": "in-ibps",
+  "exam": "in-ibps-clerk",
+  "feed": "in-ibps/crp-updates",
+  "published": "2026-09-29",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "001bc15c1b51e4aea1f9590bd3a7e9b306da4d28c2ece61c0568070b9803d7e4",
+  "bytes": 234763,
+  "pages": 1,
+  "chars": 1081,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T18:21:08+05:30"
+ },
+ "kind": "corrigendum",
+ "vacancies": {
+  "total": 2027,
+  "evidence": "RECRUITMENT OF CUSTOMER SERVICE ASSOCIATES (CSA) IN PARTICIPATING PUBLIC SECTOR BANKS (Vacancies of 2027-28) Official Website: www.ibps.in In case of queries / complaints please log in to https://cgrs.ibps.in",
+  "page": 1,
+  "from": "text"
+ },
+ "links": {
+  "apply": [
+   "http://www.ibps.in/",
+   "https://cgrs.ibps.in/",
+   "https://www.ibps.in"
+  ]
+ },
+ "summary": {
+  "vacancies": 2027
+ }
+}
