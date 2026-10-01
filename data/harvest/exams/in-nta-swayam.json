@@ -4,27 +4,15 @@
  "name": "SWAYAM Course Examinations",
  "body": "in-nta",
  "purpose": "certification",
- "cycle": "2026-01",
- "documents": 1,
+ "cycle": "2026-07",
+ "documents": 2,
  "documents_in_cycle": 1,
- "fields": {
-  "apply_links": {
-   "value": [
-    "https://exams.nta.nic.in/swayam/"
-   ],
-   "source": {
-    "notice": "0b1ed657bb8cbf42e1bc7c1115ec7b88d5932a93d4eef4db2cf5b47acad47248",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20260108133306.pdf",
-    "title": "Announcement of Date(s) for Study Webs of Active Learning for Young Aspiring Minds (SWAYAM) (January 2026 Semester) Exam-reg. Read More",
-    "kind": "schedule"
-   }
-  }
- },
+ "fields": {},
  "gaps": [
   "apply",
   "exam_date",
   "fee",
   "eligibility"
  ],
- "older_documents": 0
+ "older_documents": 1
 }

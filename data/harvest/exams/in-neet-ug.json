@@ -5,15 +5,36 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2026-06",
- "documents": 7,
+ "documents": 8,
  "documents_in_cycle": 2,
- "fields": {},
+ "fields": {
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Class 12",
+     "Class 10"
+    ],
+    "clauses": [
+     {
+      "text": "Educational qualification details (Class X and Class XII) State/UT from where 12tt /Equivalent Passed/Appearing Category Sub-category/PwD Signature Number of attempts in NEET (UG) 111.",
+      "page": 2
+     }
+    ]
+   },
+   "source": {
+    "notice": "1105f1b43c933986bd544a3a2cef99e9f35f73c542e4be4800e90afdb9de3614",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20260311164514.pdf",
+    "title": "Correction in Particulars for the National Eligibility-cum-Entrance Test [(NEET (UG)] 2026 - Reg. Read More",
+    "kind": "brochure"
+   },
+   "carried_from": "2026"
+  }
+ },
  "gaps": [
   "apply",
   "exam_date",
   "fee",
-  "eligibility",
   "exam_pattern"
  ],
- "older_documents": 5
+ "older_documents": 6
 }

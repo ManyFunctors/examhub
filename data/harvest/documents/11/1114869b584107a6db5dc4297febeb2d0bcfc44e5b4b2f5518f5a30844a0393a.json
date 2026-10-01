@@ -1,0 +1,100 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1114869b584107a6db5dc4297febeb2d0bcfc44e5b4b2f5518f5a30844a0393a",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240620120335.pdf",
+  "title": "Inviting Online Applications for DHR-ICMR NON-MEDICAL FELLOWSHIP FOR PH.D 2024 - Biomedical Research Eligibility Test (BRET) Read More",
+  "body": "in-nta",
+  "exam": "in-nta-biomedical-research",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "57d9e944e175a9fca5f3e3843810a76a5b5eee6c415eddd866f8a9a878560df6",
+  "bytes": 1100512,
+  "pages": 1,
+  "chars": 2113,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-01T10:49:57+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "exam_date": {
+   "date": "2024-06-19",
+   "until": "2024-07-09",
+   "evidence": "Online submission of application form through Website(s) https://nta.ac.in/, https://exams.nta.ac.in/",
+   "page": 1,
+   "from": "table"
+  },
+  "correction_window": {
+   "date": "2024-07-09",
+   "evidence": "Last date for successful transaction of fee through credit/debit card/Net banking /UPI",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_open": {
+   "date": "2024-06-19",
+   "evidence": "Online submission of application form through Website(s) https://nta.ac.in/, https://exams.nta.ac.in/ 19.06.2024 to 09.07.2024",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2024-07-09",
+   "evidence": "Online submission of application form through Website(s) https://nta.ac.in/, https://exams.nta.ac.in/ 19.06.2024 to 09.07.2024",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Online submission of application form through Website(s) https://nta.ac.in/, https://exams.nta.ac.in/",
+   "key": "exam_date",
+   "date": "2024-06-19",
+   "page": 1,
+   "until": "2024-07-09"
+  },
+  {
+   "event": "Last date for successful transaction of fee through credit/debit card/Net banking /UPI",
+   "key": "correction_window",
+   "date": "2024-07-09",
+   "page": 1
+  },
+  {
+   "event": "Correction in particulars of application form on the website only",
+   "key": "correction_window",
+   "date": "2024-07-10",
+   "page": 1,
+   "until": "2024-07-11"
+  },
+  {
+   "event": "Date of exam",
+   "key": "exam_date",
+   "date": "2024-07-31",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/"
+  ],
+  "other": [
+   "https://nta.ac.in/",
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2024-06-19",
+   "until": "2024-07-09"
+  },
+  "exam_date": "2024-06-19"
+ }
+}

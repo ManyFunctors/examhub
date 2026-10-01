@@ -1,0 +1,95 @@
+{
+ "schema": 1,
+ "exam": "in-nta-biomedical-research",
+ "name": "Biomedical Research Eligibility Test",
+ "body": "in-nta",
+ "purpose": "eligibility",
+ "cycle": "2024",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "correction_window": {
+    "date": "2024-07-09",
+    "source": {
+     "notice": "1114869b584107a6db5dc4297febeb2d0bcfc44e5b4b2f5518f5a30844a0393a",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20240620120335.pdf",
+     "title": "Inviting Online Applications for DHR-ICMR NON-MEDICAL FELLOWSHIP FOR PH.D 2024 - Biomedical Research Eligibility Test (BRET) Read More",
+     "kind": "brochure",
+     "page": 1
+    }
+   },
+   "exam_date": {
+    "date": "2024-06-19",
+    "until": "2024-07-09",
+    "source": {
+     "notice": "1114869b584107a6db5dc4297febeb2d0bcfc44e5b4b2f5518f5a30844a0393a",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20240620120335.pdf",
+     "title": "Inviting Online Applications for DHR-ICMR NON-MEDICAL FELLOWSHIP FOR PH.D 2024 - Biomedical Research Eligibility Test (BRET) Read More",
+     "kind": "brochure",
+     "page": 1
+    }
+   },
+   "registration_deadline": {
+    "date": "2024-07-09",
+    "source": {
+     "notice": "1114869b584107a6db5dc4297febeb2d0bcfc44e5b4b2f5518f5a30844a0393a",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20240620120335.pdf",
+     "title": "Inviting Online Applications for DHR-ICMR NON-MEDICAL FELLOWSHIP FOR PH.D 2024 - Biomedical Research Eligibility Test (BRET) Read More",
+     "kind": "brochure",
+     "page": 1
+    }
+   },
+   "registration_open": {
+    "date": "2024-06-19",
+    "source": {
+     "notice": "1114869b584107a6db5dc4297febeb2d0bcfc44e5b4b2f5518f5a30844a0393a",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20240620120335.pdf",
+     "title": "Inviting Online Applications for DHR-ICMR NON-MEDICAL FELLOWSHIP FOR PH.D 2024 - Biomedical Research Eligibility Test (BRET) Read More",
+     "kind": "brochure",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2024-06-19",
+    "until": "2024-07-09"
+   },
+   "source": {
+    "notice": "1114869b584107a6db5dc4297febeb2d0bcfc44e5b4b2f5518f5a30844a0393a",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20240620120335.pdf",
+    "title": "Inviting Online Applications for DHR-ICMR NON-MEDICAL FELLOWSHIP FOR PH.D 2024 - Biomedical Research Eligibility Test (BRET) Read More",
+    "kind": "brochure",
+    "page": 1
+   }
+  },
+  "exam_date": {
+   "value": "2024-06-19",
+   "source": {
+    "notice": "1114869b584107a6db5dc4297febeb2d0bcfc44e5b4b2f5518f5a30844a0393a",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20240620120335.pdf",
+    "title": "Inviting Online Applications for DHR-ICMR NON-MEDICAL FELLOWSHIP FOR PH.D 2024 - Biomedical Research Eligibility Test (BRET) Read More",
+    "kind": "brochure",
+    "page": 1
+   }
+  },
+  "apply_links": {
+   "value": [
+    "https://exams.nta.ac.in/"
+   ],
+   "source": {
+    "notice": "1114869b584107a6db5dc4297febeb2d0bcfc44e5b4b2f5518f5a30844a0393a",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20240620120335.pdf",
+    "title": "Inviting Online Applications for DHR-ICMR NON-MEDICAL FELLOWSHIP FOR PH.D 2024 - Biomedical Research Eligibility Test (BRET) Read More",
+    "kind": "brochure"
+   }
+  }
+ },
+ "gaps": [
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}
