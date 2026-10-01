@@ -5,9 +5,20 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 2,
- "documents_in_cycle": 1,
+ "documents": 3,
+ "documents_in_cycle": 2,
  "fields": {
+  "apply_links": {
+   "value": [
+    "https://exams.nta.nic.in/ncet/"
+   ],
+   "source": {
+    "notice": "12c945259c79202d8f74c223331e35c188fec0154552827c4d78ca329ad01d99",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20260312153230.pdf",
+    "title": "Correction in the particulars of the online Application Form of National Common Entrance Test (NCET) 2026 - reg. Read More",
+    "kind": "notice"
+   }
+  },
   "eligibility": {
    "value": {
     "clauses": [
