@@ -7,7 +7,8 @@
      title, same as a real exam card, not the long official name. */ -}}
 {{- $freq := dict "annual" "Held Yearly" "biannual" "Held Twice a Year"
                   "multiple" "Held Several Times a Year" "continuous" "Held Year-Round" -}}
-<a class="card card--tracked" href="{{ .RelPermalink }}" data-f-body="{{ .Params.body_name }}">
+<a class="card card--tracked" href="{{ .RelPermalink }}" data-f-body="{{ .Params.body_name }}"
+   data-f-alt="{{ .Params.name }}">
   {{- /* Not "Not Yet Announced": the group heading already says that. This says the
        one thing the heading doesn't -- how often it comes around. */}}
   <span class="card__status pill pill--tracked">{{ index $freq .Params.frequency | default "Held Regularly" }}</span>

@@ -743,7 +743,10 @@
         text: [
           (el.querySelector(".card__title") || {}).textContent || "",
           el.getAttribute("data-f-body") || "",
-          el.getAttribute("data-f-cat") || ""
+          el.getAttribute("data-f-cat") || "",
+          /* A longer name worth matching on but not worth printing as the title
+             (a tracked card's full catalogue name; a future card's own aliases). */
+          el.getAttribute("data-f-alt") || ""
         ].concat(aliasOf[el.getAttribute("href") || ""] || [])
           .join(" ").toLowerCase(),
         body: (el.getAttribute("data-f-body") || "").toLowerCase(),
