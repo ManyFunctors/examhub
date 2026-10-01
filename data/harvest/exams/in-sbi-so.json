@@ -4,90 +4,281 @@
  "name": "SBI Specialist Cadre Officers",
  "body": "in-sbi",
  "purpose": "recruitment",
- "cycle": null,
- "documents": 21,
- "documents_in_cycle": 21,
+ "cycle": "2026",
+ "documents": 23,
+ "documents_in_cycle": 1,
  "fields": {
-  "advertisement_no": {
-   "value": "CRPD/SCO/2024-25/04)",
+  "vacancies": {
+   "value": {
+    "total": 18,
+    "by_category": {
+     "PwBD": 18
+    },
+    "rows": [
+     {
+      "label": "Amaravati",
+      "total": 1,
+      "by_category": {
+       "PwBD": 0
+      },
+      "page": 3
+     },
+     {
+      "label": "Bengaluru",
+      "total": 1,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     },
+     {
+      "label": "Bhopal",
+      "total": 1,
+      "by_category": {
+       "PwBD": 0
+      },
+      "page": 3
+     },
+     {
+      "label": "Bhubaneswar",
+      "total": 1,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     },
+     {
+      "label": "Chandigarh",
+      "total": 1,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     },
+     {
+      "label": "Chennai",
+      "total": 1,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     },
+     {
+      "label": "Gandhinagar",
+      "total": 1,
+      "by_category": {
+       "PwBD": 0
+      },
+      "page": 3
+     },
+     {
+      "label": "Guwahati",
+      "total": 1,
+      "by_category": {
+       "PwBD": 0
+      },
+      "page": 3
+     },
+     {
+      "label": "Hyderabad",
+      "total": 1,
+      "by_category": {
+       "PwBD": 0
+      },
+      "page": 3
+     },
+     {
+      "label": "Jaipur",
+      "total": 2,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     },
+     {
+      "label": "Kolkata",
+      "total": 1,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     },
+     {
+      "label": "Lucknow",
+      "total": 1,
+      "by_category": {
+       "PwBD": 0
+      },
+      "page": 3
+     },
+     {
+      "label": "Maharashtra",
+      "total": 1,
+      "by_category": {
+       "PwBD": 0
+      },
+      "page": 3
+     },
+     {
+      "label": "Mumbai Metro",
+      "total": 1,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     },
+     {
+      "label": "New Delhi",
+      "total": 1,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     },
+     {
+      "label": "Patna",
+      "total": 1,
+      "by_category": {
+       "PwBD": 0
+      },
+      "page": 3
+     },
+     {
+      "label": "Thiruvananthapuram",
+      "total": 1,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     }
+    ],
+    "from": "table"
+   },
    "source": {
-    "notice": "377361aa1aff9b9ccd3dbe1c2055f61d6af4488b547c8453eb04c22668a4077b",
-    "url": "https://sbi.bank.in/documents/77530/43947057/060624-sco-04.pdf/0b6b9a58-bf76-13e5-7a61-96a5eacf1569?t=1717673637369",
-    "title": "DOWNLOAD ADVERTISEMENT( Hindi / English )",
+    "notice": "656871e430a9f7778f638d8dcf16ac07878670ac8b3c24783f4129d283755502",
+    "url": "https://sbi.bank.in/documents/77530/57941334/14052026_FINAL+AD-IAD-SCO-2026-27-08.pdf/52171408-97f3-d8ea-ce32-9948ae0f0b45?t=1778749404359",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi/ English ) ( )",
+    "kind": "advertisement"
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2026-05-14",
+    "source": {
+     "notice": "656871e430a9f7778f638d8dcf16ac07878670ac8b3c24783f4129d283755502",
+     "url": "https://sbi.bank.in/documents/77530/57941334/14052026_FINAL+AD-IAD-SCO-2026-27-08.pdf/52171408-97f3-d8ea-ce32-9948ae0f0b45?t=1778749404359",
+     "title": "DOWNLOAD ADVERTISEMENT( Hindi/ English ) ( )",
+     "kind": "advertisement",
+     "page": 1
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-06-11",
+    "source": {
+     "notice": "656871e430a9f7778f638d8dcf16ac07878670ac8b3c24783f4129d283755502",
+     "url": "https://sbi.bank.in/documents/77530/57941334/14052026_FINAL+AD-IAD-SCO-2026-27-08.pdf/52171408-97f3-d8ea-ce32-9948ae0f0b45?t=1778749404359",
+     "title": "DOWNLOAD ADVERTISEMENT( Hindi/ English ) ( )",
+     "kind": "advertisement",
+     "page": 1
+    }
+   },
+   "registration_open": {
+    "date": "2026-05-14",
+    "source": {
+     "notice": "656871e430a9f7778f638d8dcf16ac07878670ac8b3c24783f4129d283755502",
+     "url": "https://sbi.bank.in/documents/77530/57941334/14052026_FINAL+AD-IAD-SCO-2026-27-08.pdf/52171408-97f3-d8ea-ce32-9948ae0f0b45?t=1778749404359",
+     "title": "DOWNLOAD ADVERTISEMENT( Hindi/ English ) ( )",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-05-14",
+    "until": "2026-06-11"
+   },
+   "source": {
+    "notice": "656871e430a9f7778f638d8dcf16ac07878670ac8b3c24783f4129d283755502",
+    "url": "https://sbi.bank.in/documents/77530/57941334/14052026_FINAL+AD-IAD-SCO-2026-27-08.pdf/52171408-97f3-d8ea-ce32-9948ae0f0b45?t=1778749404359",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi/ English ) ( )",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "advertisement_no": {
+   "value": "CRPD/RS/2026-27/08",
+   "source": {
+    "notice": "656871e430a9f7778f638d8dcf16ac07878670ac8b3c24783f4129d283755502",
+    "url": "https://sbi.bank.in/documents/77530/57941334/14052026_FINAL+AD-IAD-SCO-2026-27-08.pdf/52171408-97f3-d8ea-ce32-9948ae0f0b45?t=1778749404359",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi/ English ) ( )",
     "kind": "advertisement"
    }
   },
   "apply_links": {
    "value": [
-    "https://bank.sbi/careers",
-    "https://bank.sbi/careers/current-openings",
-    "https://bank.sbi/web/careers"
+    "https://www.sbi.bank.in/web/careers/current-openings",
+    "https://sbi.bank.in/web/careers/"
    ],
    "source": {
-    "notice": "5eaf5b74393c79af49e7839f3f8487acfcd51d806b3606f3719f63a4b3c4cb2b",
-    "url": "https://sbi.bank.in/documents/77530/43947057/010824-SBI+-+CRPD-SCO-2024-25_09+-+Hindi.pdf/53842d42-8c83-65b8-1a97-dff565c7735e?t=1722516482091",
-    "title": "DOWNLOAD ADVERTISEMENT( Hindi / English )",
+    "notice": "656871e430a9f7778f638d8dcf16ac07878670ac8b3c24783f4129d283755502",
+    "url": "https://sbi.bank.in/documents/77530/57941334/14052026_FINAL+AD-IAD-SCO-2026-27-08.pdf/52171408-97f3-d8ea-ce32-9948ae0f0b45?t=1778749404359",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi/ English ) ( )",
     "kind": "advertisement"
-   },
-   "alternatives": 20
+   }
   },
   "eligibility": {
    "value": {
     "education_levels": [
-     "Postgraduate",
      "Graduate"
     ],
     "clauses": [
      {
-      "text": "Before applying, candidates are requested to ensure that they fulfil the eligibility criteria for the Post as on the date of eligibility.",
+      "text": "Before applying, candidates are requested to ensure that they fulfil the eligibility criteria for the post as on the date of eligibility.",
+      "page": 1
+     },
+     {
+      "text": "In case a candidate is called for interview and is found not satisfying the eligibility criteria he/ she will not be allowed to appear for the interview.",
+      "page": 1
+     },
+     {
+      "text": "Educational Qualification / Experience Required - Education:",
+      "page": 1
+     },
+     {
+      "text": "Eligibility Criteria for fresh engagement (As",
+      "page": 1
+     },
+     {
+      "text": "The officer should have retired from the Bank’s service only on attaining superannuation at the age of 60 years",
+      "page": 1
+     },
+     {
+      "text": "Officers should have good track record of performance and thorough knowledge of Bank’s systems and procedures.",
+      "page": 1
+     },
+     {
+      "text": "No punishment/ penalty (Censure or higher) should have been inflicted on the official during the five years of his service preceding to his/her retirement.",
+      "page": 1
+     },
+     {
+      "text": "The applicant should have been retired as on the date of submitting of the application",
+      "page": 1
+     },
+     {
+      "text": "Shortlisting: -Mere fulfilling minimum qualification and experience will not vest any right in candidate for being called for interview",
+      "page": 1
+     },
+     {
+      "text": "HOW TO APPLY: Candidates should have valid email ID which should be kept active till the declaration of result",
       "page": 2
-     },
-     {
-      "text": "Candidates are required to upload all required documents (resume, ID proof, age proof, PwBD Certificate (if applicable), educational qualification, experience etc.) failing which their application/candidature will not be considered for shortlisting/ interview.",
-      "page": 2
-     },
-     {
-      "text": "In case a candidate is called for interview and is found not satisfying the eligibility criteria (Age, Educational Qualification and Experience etc.) he/ she will neither be allowed to appear for the interview nor be entitled for reimbursement of any travelling expenses.",
-      "page": 2
-     },
-     {
-      "text": "QUALIFICATIONS Minimum Postgraduate/ Master's degree in environmental management/Environmental Sciences/Climate Change/Climate Finance/Disaster Management/Natural Resource Management/Statistics/MBA(Finance)/MBA (Banking & Finance) from a recognized university with first class or equivalent with a…",
-      "page": 3
-     },
-     {
-      "text": "ii) The educational qualification prescribed for the post is minimum",
-      "page": 5
-     },
-     {
-      "text": "Candidate must possess the qualification and relevant full-time experience as on specified dates.",
-      "page": 5
-     },
-     {
-      "text": "iii) Candidate belonging to reserved category including Person with Benchmark Disabilities for whom no reservation has been mentioned are free to apply for vacancies announced for General category provided they fulfil all the eligibility criteria applicable to General Category.",
-      "page": 5
-     },
-     {
-      "text": "BL – Both Leg affected Persons with OA & BA category should have normal bilateral hand functions.",
-      "page": 6
-     },
-     {
-      "text": "xiv) Mere fulfilling minimum qualification and experience will not vest any right in candidate for being called for interview. the shortlisting committee constituted by the bank will decide the shortlisting parameters and thereafter, adequate number of candidates, as decided by the bank will be…",
-      "page": 7
-     },
-     {
-      "text": "❖ Shortlisting: Mere fulfilling the minimum qualification and experience will not vest any right to candidate for being called for interview",
-      "page": 7
-     },
-     {
-      "text": "HOW TO APPLY: Candidates should have valid email ID/Mobile phone number which should be kept active till the declaration of result",
-      "page": 8
      }
     ]
    },
    "source": {
-    "notice": "377361aa1aff9b9ccd3dbe1c2055f61d6af4488b547c8453eb04c22668a4077b",
-    "url": "https://sbi.bank.in/documents/77530/43947057/060624-sco-04.pdf/0b6b9a58-bf76-13e5-7a61-96a5eacf1569?t=1717673637369",
-    "title": "DOWNLOAD ADVERTISEMENT( Hindi / English )",
+    "notice": "656871e430a9f7778f638d8dcf16ac07878670ac8b3c24783f4129d283755502",
+    "url": "https://sbi.bank.in/documents/77530/57941334/14052026_FINAL+AD-IAD-SCO-2026-27-08.pdf/52171408-97f3-d8ea-ce32-9948ae0f0b45?t=1778749404359",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi/ English ) ( )",
     "kind": "advertisement"
    }
   },
@@ -96,20 +287,18 @@
     "Interview"
    ],
    "source": {
-    "notice": "377361aa1aff9b9ccd3dbe1c2055f61d6af4488b547c8453eb04c22668a4077b",
-    "url": "https://sbi.bank.in/documents/77530/43947057/060624-sco-04.pdf/0b6b9a58-bf76-13e5-7a61-96a5eacf1569?t=1717673637369",
-    "title": "DOWNLOAD ADVERTISEMENT( Hindi / English )",
+    "notice": "656871e430a9f7778f638d8dcf16ac07878670ac8b3c24783f4129d283755502",
+    "url": "https://sbi.bank.in/documents/77530/57941334/14052026_FINAL+AD-IAD-SCO-2026-27-08.pdf/52171408-97f3-d8ea-ce32-9948ae0f0b45?t=1778749404359",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi/ English ) ( )",
     "kind": "advertisement"
    }
   }
  },
  "gaps": [
-  "vacancies",
-  "apply",
   "exam_date",
   "fee",
   "age",
   "pay"
  ],
- "older_documents": 0
+ "older_documents": 22
 }
