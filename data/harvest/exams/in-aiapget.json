@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "exam": "in-aiapget",
+ "name": "All India Ayush Post Graduate Entrance Test",
+ "body": "in-nta",
+ "purpose": "admission",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

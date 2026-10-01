@@ -5,15 +5,96 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 1,
+ "documents": 2,
  "documents_in_cycle": 1,
- "fields": {},
+ "fields": {
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "• Details of Programmes / Courses offered by the above-mentioned Universities/Institutions along with their Eligibility Criteria are available at the respective universities/Institutions'' websites.",
+      "page": 12
+     }
+    ]
+   },
+   "source": {
+    "notice": "04b53081e0adaea230d57cc3694cd8a615fd0346a5ea3d4166b97a7becece2e2",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20240414013541.pdf",
+    "title": "Inviting Online Applications for National Common Entrance Test [NCET] 2024 for admission to 4-Year Integrated Teacher Education Programme (ITEP)- Reg. Read More",
+    "kind": "schedule"
+   },
+   "carried_from": "2024"
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "Language 1",
+     "page": 3,
+     "questions": 23
+    },
+    {
+     "paper": "(38 languages).",
+     "page": 3
+    },
+    {
+     "paper": "Language 2",
+     "page": 3,
+     "questions": 23
+    },
+    {
+     "paper": "Teaching Aptitude",
+     "page": 3,
+     "questions": 23
+    },
+    {
+     "paper": "General Test",
+     "page": 3,
+     "questions": 28
+    },
+    {
+     "paper": "Domain Specific Subject 1",
+     "page": 3,
+     "questions": 28
+    },
+    {
+     "paper": "Domain-Specific subjects)",
+     "page": 3
+    },
+    {
+     "paper": "Domain Specific Subject 2",
+     "page": 3
+    },
+    {
+     "paper": "1 from Section 2.",
+     "page": 3
+    },
+    {
+     "paper": "Domain Specific Subject 3",
+     "page": 3
+    },
+    {
+     "paper": "Subjects 1 and 2 from Section 2.",
+     "page": 3
+    },
+    {
+     "paper": "Total Questions",
+     "page": 3,
+     "questions": 181
+    }
+   ],
+   "source": {
+    "notice": "04b53081e0adaea230d57cc3694cd8a615fd0346a5ea3d4166b97a7becece2e2",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20240414013541.pdf",
+    "title": "Inviting Online Applications for National Common Entrance Test [NCET] 2024 for admission to 4-Year Integrated Teacher Education Programme (ITEP)- Reg. Read More",
+    "kind": "schedule"
+   },
+   "carried_from": "2024"
+  }
+ },
  "gaps": [
   "apply",
   "exam_date",
-  "fee",
-  "eligibility",
-  "exam_pattern"
+  "fee"
  ],
- "older_documents": 0
+ "older_documents": 1
 }

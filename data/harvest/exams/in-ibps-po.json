@@ -1,0 +1,65 @@
+{
+ "schema": 1,
+ "exam": "in-ibps-po",
+ "name": "Common Recruitment Process for Probationary Officers / Management Trainees",
+ "body": "in-ibps",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 2027,
+    "evidence": "RECRUITMENT OF PROBATIONARY OFFICERS/ MANAGEMENT TRAINEES AND SPECIALIST OFFICERS (Vacancies of 2027-28) IN PARTICIPATING BANKS Official Website: www.ibps.in In case of queries / complaints please log in to https://cgrs.ibps.in",
+    "page": 1,
+    "from": "text"
+   },
+   "source": {
+    "notice": "38897f9fb119ab3fa9087dbb72e385258f28e01c2d36100b66630c7c4ee10799",
+    "url": "https://www.ibps.in/wp-content/uploads/PO_SPL_Combined_Window_CRP-XVI.pdf",
+    "title": "30 Jun 26 Window Notification for CRP-PO/MTs -XVI and SPL-XVI",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "apply_links": {
+   "value": [
+    "http://www.ibps.in/",
+    "https://cgrs.ibps.in/",
+    "https://www.ibps.in"
+   ],
+   "source": {
+    "notice": "38897f9fb119ab3fa9087dbb72e385258f28e01c2d36100b66630c7c4ee10799",
+    "url": "https://www.ibps.in/wp-content/uploads/PO_SPL_Combined_Window_CRP-XVI.pdf",
+    "title": "30 Jun 26 Window Notification for CRP-PO/MTs -XVI and SPL-XVI",
+    "kind": "advertisement"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "Candidates intending to apply are advised to read detailed Notification carefully and ensure that they fulfil the minimum eligibility criteria on the stipulated dates before registering online",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "38897f9fb119ab3fa9087dbb72e385258f28e01c2d36100b66630c7c4ee10799",
+    "url": "https://www.ibps.in/wp-content/uploads/PO_SPL_Combined_Window_CRP-XVI.pdf",
+    "title": "30 Jun 26 Window Notification for CRP-PO/MTs -XVI and SPL-XVI",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "selection"
+ ],
+ "older_documents": 0
+}
