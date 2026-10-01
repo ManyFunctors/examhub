@@ -1,0 +1,41 @@
+{
+ "schema": 1,
+ "exam": "in-cuet-pg",
+ "name": "Common University Entrance Test (PG)",
+ "body": "in-nta",
+ "purpose": "admission",
+ "cycle": "2022",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2022-09-30",
+    "source": {
+     "notice": "0f956d8140b863e92a7a17344341b20f79ea329dfa1a343a7791a16db161cecc",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20220930100618.pdf",
+     "title": "1143 Correction in Candidates’s particulars in the online Application Form of Common University Entrance Test [CUET (PG)] – 2022 – Reg. Read More",
+     "kind": "notice",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2022-09-30",
+   "source": {
+    "notice": "0f956d8140b863e92a7a17344341b20f79ea329dfa1a343a7791a16db161cecc",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20220930100618.pdf",
+    "title": "1143 Correction in Candidates’s particulars in the online Application Form of Common University Entrance Test [CUET (PG)] – 2022 – Reg. Read More",
+    "kind": "notice",
+    "page": 1
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}
