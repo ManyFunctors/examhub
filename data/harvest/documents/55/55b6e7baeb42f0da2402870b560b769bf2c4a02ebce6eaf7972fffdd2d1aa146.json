@@ -1,0 +1,48 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "55b6e7baeb42f0da2402870b560b769bf2c4a02ebce6eaf7972fffdd2d1aa146",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20241025170944.pdf",
+  "title": "Correction in the particulars of the online Application Form of NTET– 2024 Read More",
+  "body": "in-nta",
+  "exam": "in-ntet",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "92ebf9891485f0af7edd1f950ca2ca2ca7102abb19325e08f7c2509ec45dc5b5",
+  "bytes": 287391,
+  "pages": 2,
+  "chars": 3698,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-02T01:41:55+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "exam_date": {
+   "date": "2024-11-19",
+   "evidence": "National Testing Agency is going to conduct NTET - 2024 on 19 November 2024 at various examination Centres located in different cities across India and abroad in Computer Based Test (CBT) mode",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/NTET/"
+  ],
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2024-11-19"
+ }
+}
