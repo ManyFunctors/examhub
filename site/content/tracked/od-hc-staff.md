@@ -1,0 +1,13 @@
++++
+title = "Orissa HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+slug = "od-hc-staff"
+exam_id = "od-hc-staff"
+name = "Orissa HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+body_name = "Orissa HC"
+body_url = "https://orissahighcourt.nic.in/"
+frequency = "irregular"
++++
+
+**Orissa HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)** is conducted on no fixed schedule by Orissa HC. No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
+
+[Check Orissa HC's official site](https://orissahighcourt.nic.in/) for an announcement.

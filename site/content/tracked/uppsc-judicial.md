@@ -1,0 +1,13 @@
++++
+title = "UPPSC Civil Judge (Junior Division) / Judicial Services Examination"
+slug = "uppsc-judicial"
+exam_id = "up-uppsc-judicial"
+name = "UPPSC Civil Judge (Junior Division) / Judicial Services Examination"
+body_name = "UPPSC"
+body_url = "https://uppsc.up.nic.in/"
+frequency = "irregular"
++++
+
+**UPPSC Civil Judge (Junior Division) / Judicial Services Examination** is conducted on no fixed schedule by UPPSC. No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
+
+[Check UPPSC's official site](https://uppsc.up.nic.in/) for an announcement.

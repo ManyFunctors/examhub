@@ -13,7 +13,7 @@
 <a class="card card--done" href="{{ .RelPermalink }}" data-f-body="{{ .Params.body_name }}"
    data-f-alt="{{ .Params.name }}">
   <span class="card__status pill pill--upcoming pill--done">Dates to Be Announced</span>
-  <p class="card__body-name">{{ .Params.body_name }}{{ with .Params.name }} · {{ . }}{{ end }}</p>
+  <p class="card__body-name">{{ .Params.body_name }}</p>
   <h3 class="card__title">{{ .Title }}</h3>
   <p class="card__flag">Held {{ index $freq .Params.frequency | default "regularly" }}; no notice is out yet</p>
 </a>

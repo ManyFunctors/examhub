@@ -243,6 +243,20 @@ jobs:
           if [ "$code" = 1 ]; then echo "::warning::short titles failed; titles left unchanged"; fi
           exit 0
 
+      - name: Regenerate tracked-exam stubs
+        # A stub page for every catalogue exam with no live cycle yet, so a
+        # search for one finds it instead of nothing. Regenerated wholesale
+        # from the catalogue, so one appears or disappears automatically as
+        # notices arrive -- no exam picked out by hand.
+        id: tracked
+        run: |
+          set +e
+          uv run python -m examhub_pipeline tracked --apply
+          code=$?
+          if [ "$code" = 0 ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
+          if [ "$code" = 1 ]; then echo "::warning::tracked-exam stubs failed; left unchanged"; fi
+          exit 0
+
       - name: Refresh the README's stats table
         # Riding along on whatever PR opens tonight, rather than one of its
         # own: the numbers only drift slowly, and a PR for nothing but a
@@ -259,7 +273,7 @@ jobs:
 
       - name: Open a pull request
         # The whole point. Nothing changed, nothing is opened.
-        if: steps.review.outputs.exit_code == '0' || steps.names.outputs.changed == 'true' || steps.dedupe.outputs.changed == 'true' || steps.wayback.outputs.changed == 'true' || steps.links.outputs.changed == 'true' || steps.aliases.outputs.changed == 'true' || steps.readme.outputs.changed == 'true'
+        if: steps.review.outputs.exit_code == '0' || steps.names.outputs.changed == 'true' || steps.dedupe.outputs.changed == 'true' || steps.wayback.outputs.changed == 'true' || steps.links.outputs.changed == 'true' || steps.aliases.outputs.changed == 'true' || steps.readme.outputs.changed == 'true' || steps.tracked.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
           branch: pipeline/nightly-recheck
@@ -269,6 +283,7 @@ jobs:
           # pull request with nothing in it.
           add-paths: |
             site/content/exams/
+            site/content/tracked/
             README.md
           title: "pipeline: re-checked official exam notices"
           commit-message: |
@@ -301,5 +316,5 @@ jobs:
             needs-review
 
       - name: No pull request needed
-        if: steps.review.outputs.exit_code == '2' && steps.names.outputs.changed != 'true' && steps.dedupe.outputs.changed != 'true' && steps.wayback.outputs.changed != 'true' && steps.links.outputs.changed != 'true' && steps.aliases.outputs.changed != 'true'
+        if: steps.review.outputs.exit_code == '2' && steps.names.outputs.changed != 'true' && steps.dedupe.outputs.changed != 'true' && steps.wayback.outputs.changed != 'true' && steps.links.outputs.changed != 'true' && steps.aliases.outputs.changed != 'true' && steps.tracked.outputs.changed != 'true'
         run: echo "Nothing changed. No pull request, which is the point."
