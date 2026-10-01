@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "exam": "in-ugc-net",
+ "name": "UGC National Eligibility Test",
+ "body": "in-nta",
+ "purpose": "eligibility",
+ "cycle": "2019-12",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2019-12-02",
+    "source": {
+     "notice": "01ae426e3a4700da65d8b5cab2f5ad9dc525589622490179e210c1124775d523",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20190909092610.pdf",
+     "title": "1842 Public Notice for UGC-NET December 2019 Read More",
+     "kind": "brochure",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2019-12-02",
+   "source": {
+    "notice": "01ae426e3a4700da65d8b5cab2f5ad9dc525589622490179e210c1124775d523",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20190909092610.pdf",
+    "title": "1842 Public Notice for UGC-NET December 2019 Read More",
+    "kind": "brochure",
+    "page": 1
+   }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "09:30 am to 12:30 pm (IST)",
+     "page": 1,
+     "marks": 100,
+     "duration": "03 hours"
+    }
+   ],
+   "source": {
+    "notice": "01ae426e3a4700da65d8b5cab2f5ad9dc525589622490179e210c1124775d523",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20190909092610.pdf",
+    "title": "1842 Public Notice for UGC-NET December 2019 Read More",
+    "kind": "brochure"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "fee",
+  "eligibility"
+ ],
+ "older_documents": 0
+}

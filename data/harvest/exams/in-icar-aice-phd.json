@@ -1,0 +1,64 @@
+{
+ "schema": 1,
+ "exam": "in-icar-aice-phd",
+ "name": "ICAR All India Competitive Examination for JRF/SRF (PhD)",
+ "body": "in-nta",
+ "purpose": "admission",
+ "cycle": "2023",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "correction_window": {
+    "date": "2023-06-16",
+    "source": {
+     "notice": "016d1c04662a3d6fd33d952930553b797d7809e042240f9d1602092aca42e840",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20230522214204.pdf",
+     "title": "993 Inviting Online Applications for ICAR Entrance Examinations-2023 [AIEEA(PG) and AICE JRF/SRF(Ph.D)] Read More",
+     "kind": "schedule",
+     "page": 1
+    }
+   },
+   "registration_deadline": {
+    "date": "2023-06-16",
+    "source": {
+     "notice": "016d1c04662a3d6fd33d952930553b797d7809e042240f9d1602092aca42e840",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20230522214204.pdf",
+     "title": "993 Inviting Online Applications for ICAR Entrance Examinations-2023 [AIEEA(PG) and AICE JRF/SRF(Ph.D)] Read More",
+     "kind": "schedule",
+     "page": 1
+    }
+   },
+   "registration_open": {
+    "date": "2023-05-22",
+    "source": {
+     "notice": "016d1c04662a3d6fd33d952930553b797d7809e042240f9d1602092aca42e840",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20230522214204.pdf",
+     "title": "993 Inviting Online Applications for ICAR Entrance Examinations-2023 [AIEEA(PG) and AICE JRF/SRF(Ph.D)] Read More",
+     "kind": "schedule",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2023-05-22",
+    "until": "2023-06-16"
+   },
+   "source": {
+    "notice": "016d1c04662a3d6fd33d952930553b797d7809e042240f9d1602092aca42e840",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20230522214204.pdf",
+    "title": "993 Inviting Online Applications for ICAR Entrance Examinations-2023 [AIEEA(PG) and AICE JRF/SRF(Ph.D)] Read More",
+    "kind": "schedule",
+    "page": 1
+   }
+  }
+ },
+ "gaps": [
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

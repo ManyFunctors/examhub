@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "exam": "in-csir-net",
+ "name": "Joint CSIR-UGC National Eligibility Test",
+ "body": "in-nta",
+ "purpose": "eligibility",
+ "cycle": "2020-06",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "registration_deadline": {
+    "date": "2020-04-15",
+    "source": {
+     "notice": "01fc1ccef06bb47d47476bfd34ab5dc0b2c1b94198c058e42baeef63d7d9688b",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20200317173145.pdf",
+     "title": "1784 Public Notice English CSIR-UGC NET June 2020 Read More",
+     "kind": "brochure",
+     "page": 1
+    }
+   },
+   "registration_open": {
+    "date": "2020-03-16",
+    "source": {
+     "notice": "01fc1ccef06bb47d47476bfd34ab5dc0b2c1b94198c058e42baeef63d7d9688b",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20200317173145.pdf",
+     "title": "1784 Public Notice English CSIR-UGC NET June 2020 Read More",
+     "kind": "brochure",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2020-03-16",
+    "until": "2020-04-15"
+   },
+   "source": {
+    "notice": "01fc1ccef06bb47d47476bfd34ab5dc0b2c1b94198c058e42baeef63d7d9688b",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20200317173145.pdf",
+    "title": "1784 Public Notice English CSIR-UGC NET June 2020 Read More",
+    "kind": "brochure",
+    "page": 1
+   }
+  }
+ },
+ "gaps": [
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}
