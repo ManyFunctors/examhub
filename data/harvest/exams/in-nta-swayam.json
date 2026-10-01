@@ -5,14 +5,27 @@
  "body": "in-nta",
  "purpose": "certification",
  "cycle": "2026-07",
- "documents": 3,
+ "documents": 4,
  "documents_in_cycle": 1,
- "fields": {},
+ "fields": {
+  "selection": {
+   "value": [
+    "Computer-based test"
+   ],
+   "source": {
+    "notice": "197ab087ae2c70ca8cea94664f95545d97439e247628a5705c007a7215d5691d",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20251008160925.pdf",
+    "title": "Inviting Online Application Form for Study Webs of Active Learning for Young Aspiring Minds [SWAYAM-2025 (July Semester)] -reg. Read More",
+    "kind": "admit_card"
+   },
+   "carried_from": "2025-07"
+  }
+ },
  "gaps": [
   "apply",
   "exam_date",
   "fee",
   "eligibility"
  ],
- "older_documents": 2
+ "older_documents": 3
 }

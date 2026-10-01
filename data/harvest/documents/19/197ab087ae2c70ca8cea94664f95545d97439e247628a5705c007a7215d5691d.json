@@ -1,0 +1,316 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "197ab087ae2c70ca8cea94664f95545d97439e247628a5705c007a7215d5691d",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20251008160925.pdf",
+  "title": "Inviting Online Application Form for Study Webs of Active Learning for Young Aspiring Minds [SWAYAM-2025 (July Semester)] -reg. Read More",
+  "body": "in-nta",
+  "exam": "in-nta-swayam",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "1ebd18cf921513b463d927b9c046703999fd4c968c03450731e9d8456e3e5dd8",
+  "bytes": 1140981,
+  "pages": 27,
+  "chars": 62904,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-01T12:50:02+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2025-12-11",
+   "evidence": "cec25 ag06 _ Functional Foods and Nutraceuticals CEC CBT",
+   "page": 2,
+   "from": "table"
+  },
+  "correction_window": {
+   "date": "2025-12-13",
+   "evidence": "ntr25 ed99 _ Quality Assurance Through NAAC Accreditation Process NITTTR Chennai CBT",
+   "page": 21,
+   "from": "table"
+  },
+  "registration_open": {
+   "date": "2025-10-08",
+   "evidence": "Online Submission of Application Form 8 October 2025 to 30 October 2025 (upto 11:50 pm) Last date of Successful transaction of fee through Credit/Debit Card/Net Banking/UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2025-10-30",
+   "evidence": "Online Submission of Application Form 8 October 2025 to 30 October 2025 (upto 11:50 pm) Last date of Successful transaction of fee through Credit/Debit Card/Net Banking/UPI",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "cec25 ag06 _ Functional Foods and Nutraceuticals CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 bt04 _ Wild Life and its Conservation CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 bt06 _ Plant Pathology and Soil Health CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 bt07 _ Applied Entomology CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 cs02 _ Computer Applications in Business CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 cy13 _ Advances in Instrumentation and Chemical Data Analysis CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 ed14 _ Basic Concepts in Education CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 ed22 _ ICT Skills in Education CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 ge09 _ Introduction to Advertising CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 ge10 _ Environmental Issues In India CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 hs100 _ Physical Geography - Climatology and Oceanography CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 hs101 _ Agricultural Geography CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 hs102 _ Environment Policy and Administration CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 hs110 _ Psychology at Work CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 hs116 _ Understanding South Asia CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 hs124 _ Indian Culture & History CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 hs149 _ Youth, Gender and Identity CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 hs92 _ Indian Society – Social Problems & Issues CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 hs93 _ Indian Economy CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 ma24 _ Numerical Methods CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 ma29 _ Combinatorial Mathematics CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "cec25 mg19 _ Basics of Digital Marketing CEC CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "imb25 mg103 _ Managerial Economics: Concepts and Applications IIMB CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "imb25 mg104 _ Operations Management IIMB CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 2
+  },
+  {
+   "event": "imb25 mg111 _ People Management for Entrepreneurs IIMB CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 3
+  },
+  {
+   "event": "imb25 mg120 _ Prescriptive Analytics: Strategies and Applications IIMB CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 3
+  },
+  {
+   "event": "imb25 mg124 _ Understanding Organizational Behaviour IIMB CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 3
+  },
+  {
+   "event": "imb25 mg138 _ Foundations of Lean Manufacturing IIMB CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 3
+  },
+  {
+   "event": "imb25 mg159 _ Marketing for Entrepreneurship IIMB CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 3
+  },
+  {
+   "event": "imb25 mg170 _ Technology for Business Management IIMB CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 3
+  },
+  {
+   "event": "imb25 mg176 _ IKS: Concepts and Applications in Management and Governance IIMB CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 3
+  },
+  {
+   "event": "imb25 mg182 _ सिद् धांत िे व्यवहधर तक: व्यविधय में ईएिजी और िां् धरणीयतध कध अनपु य्रोग IIMB CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 3
+  },
+  {
+   "event": "imb25 mg200 _ Introduction to Data Warehousing and Data Mining IIMB CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 3
+  },
+  {
+   "event": "imb25 mg204 _ Introduction to Insurance IIMB CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 3
+  },
+  {
+   "event": "imb25 mg219 _ Company Law and Administration IIMB CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 3
+  },
+  {
+   "event": "imb25 mg97 _ Corporate Strategy: Advanced Concepts and Applications IIMB CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 3
+  },
+  {
+   "event": "nou25 ag10 _ MNR 002:Agricultural Policy: Formulation, Components, Process, Implementation and Comparative Analysis IGNOU Hybrid",
+   "date": "2025-12-11",
+   "page": 3
+  },
+  {
+   "event": "nou25 ag15 _ Certificate course in Environmental Sustainability IGNOU CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 3
+  },
+  {
+   "event": "nou25 ag16 _ Commercial Fruit Production: Pomegranate & Guava IGNOU CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 3
+  },
+  {
+   "event": "nou25 as01 _ Aesthetics of Indian Classical Dances with Special Reference to Kathak IGNOU CBT",
+   "key": "exam_date",
+   "date": "2025-12-11",
+   "page": 3
+  }
+ ],
+ "selection": [
+  "Computer-based test"
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.nic.in/",
+   "https://exams.nta.nic.in/swayam/"
+  ],
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2025-10-08",
+   "until": "2025-10-30"
+  },
+  "exam_date": "2025-12-11",
+  "selection": "Computer-based test"
+ }
+}
