@@ -90,6 +90,12 @@
           {{- $k := cond (ne .st.nextDate "") (substr .st.nextDate 0 7) (cond (eq .st.key "done") "~2done" "~1tba") -}}
           {{- $by = merge $by (dict $k ((index $by $k | default slice) | append .)) -}}
         {{- end }}
+        {{- /* Catalogue exams with no live cycle yet (examhub_pipeline tracked): same bucket as
+             any other undated exam, so a reader searching for one finds it instead of nothing. */ -}}
+        {{- range where site.RegularPages "Section" "tracked" -}}
+          {{- $row := dict "page" . "tracked" true "st" (dict "nextDate" "" "key" "") -}}
+          {{- $by = merge $by (dict "~1tba" ((index $by "~1tba" | default slice) | append $row)) -}}
+        {{- end -}}
         <div id="exam-grid" class="bymonth" data-month="{{ $month }}" data-index="{{ (site.Home.OutputFormats.Get "data").RelPermalink }}">
           {{- /* The month section: exams with a date in this month, first date first. The rest of
              the records arrive with index.json when the script needs them. */}}
@@ -114,7 +120,7 @@
             <summary class="bymonth__summary"><h2 class="bymonth__title">{{ if eq $k "~1tba" }}Dates to Be Announced{{ else if eq $k "~2done" }}Completed{{ else }}{{ time.AsTime (printf "%s-01" $k) | time.Format "January 2006" }}{{ end }}<span class="bymonth__count">({{ len $rows }} Exam{{ if ne (len $rows) 1 }}s{{ end }})</span></h2></summary>
             <div class="card-grid card-grid--3">
               {{- range sort $rows "st.nextDate" }}
-                {{ partial "exam-card.html" .page }}
+                {{- if .tracked }}{{ partial "tracked-card.html" .page }}{{ else }}{{ partial "exam-card.html" .page }}{{ end }}
               {{- end }}
             </div>
           </details>

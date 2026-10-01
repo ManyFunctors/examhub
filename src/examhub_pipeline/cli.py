@@ -1052,6 +1052,12 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--apply", action="store_true", help="write README.md (default: print whether it changed)")
     p.set_defaults(func=cmd_readme_stats)
 
+    p = sub.add_parser("tracked", help="stub pages for named catalogue exams that have no live cycle yet")
+    p.add_argument("--exam", action="append", default=[], dest="exam_ids", required=True,
+                   help="a catalogue exam id to stub (repeatable), e.g. --exam in-aiapget")
+    p.add_argument("--apply", action="store_true", help="write the stubs (default: print them)")
+    p.set_defaults(func=cmd_tracked)
+
     p = sub.add_parser("sources", help="print the seed source registry")
     _add_common(p)
     p.set_defaults(func=cmd_sources)
@@ -1110,6 +1116,16 @@ def cmd_readme_stats(args: argparse.Namespace) -> int:
         return EXIT_OK if readme_stats.fill(apply=args.apply, log=_echo) else EXIT_NO_CHANGE
     except OSError as exc:
         _echo(f"readme-stats failed: {exc}")
+        return EXIT_ERROR
+
+
+def cmd_tracked(args: argparse.Namespace) -> int:
+    """Exit 0 when a stub changed, 2 when nothing did, 1 on an error."""
+    from . import tracked
+    try:
+        return EXIT_OK if tracked.fill(args.exam_ids, apply=args.apply, log=_echo) else EXIT_NO_CHANGE
+    except (OSError, KeyError) as exc:
+        _echo(f"tracked failed: {exc}")
         return EXIT_ERROR
 
 

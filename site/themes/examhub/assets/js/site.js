@@ -662,9 +662,17 @@
     if (!cards.length) cards = Array.prototype.slice.call(grid.querySelectorAll(".card"));
     if (!cards.length) return;
     var copiesOf = {};
+    var monthHrefs = {};
+    cards.forEach(function (c) { monthHrefs[c.getAttribute("href")] = 1; });
     grid.querySelectorAll('.bymonth__group:not([data-section="month"]) .card').forEach(function (c) {
       var h = c.getAttribute("href");
-      (copiesOf[h] || (copiesOf[h] = [])).push(c);
+      if (monthHrefs[h]) {
+        (copiesOf[h] || (copiesOf[h] = [])).push(c);
+      } else {
+        /* No month counterpart: a tracked exam with no cycle at all, never in that
+           section. It gets no copy to stay in sync with -- it is its own item. */
+        cards.push(c);
+      }
     });
 
     var q = document.getElementById("filter-q");

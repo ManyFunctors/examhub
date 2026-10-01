@@ -1,0 +1,10 @@
+{{- /* A card for a catalogue exam with no live cycle yet (examhub_pipeline tracked).
+     No status pill, no date: it links to the stub page, which links out to the
+     conducting body's own site. */ -}}
+{{- with . -}}
+<a class="card card--tracked" href="{{ .RelPermalink }}" data-f-body="{{ .Params.body_name }}">
+  <span class="card__status pill pill--tracked">Not Yet Announced</span>
+  <p class="card__body-name">{{ .Params.body_name }}</p>
+  <h3 class="card__title">{{ .Params.name | default .Title }}</h3>
+</a>
+{{- end -}}

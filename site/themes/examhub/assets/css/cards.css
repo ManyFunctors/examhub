@@ -62,6 +62,13 @@
   --pill-edge: var(--done-tone);
 }
 
+/* Neither a real status nor a real date: no hue borrowed from one. */
+.pill--tracked {
+  --pill-fill: transparent;
+  --pill-edge: var(--border);
+  color: var(--text-muted);
+}
+
 /* ── Urgency: the border, and only the border ──────────────────────── */
 
 /* The ring. */
@@ -263,6 +270,13 @@
 .card:focus-visible {
   outline: 2px solid var(--highlight);
   outline-offset: -2px;
+}
+
+/* A catalogue exam with no live cycle: dashed, not a real exam's solid edge,
+   so it reads as "tracked" rather than "announced". */
+.card--tracked {
+  border-style: dashed;
+  border-left-style: dashed;
 }
 
 /* The three lines above the date row, in reading order and by weight. */
