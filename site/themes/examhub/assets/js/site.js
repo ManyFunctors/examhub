@@ -972,6 +972,13 @@
       return shown;
     }
     window.examGroupsRecount = recount;
+    /* A reload comes back to the saved month. Land sync() on it directly: otherwise this
+       first pass draws the page's own built month, and a moment later initDates() points
+       the label at the saved month, which the observer below redraws to -- a visible jump. */
+    var savedMonth = window.examPlace && window.examPlace.get("month");
+    if (savedMonth && savedMonth.pinned) {
+      label.textContent = MONTHS[savedMonth.m] + " " + savedMonth.y;
+    }
     sync();
     new MutationObserver(sync).observe(label, { childList: true, characterData: true, subtree: true });
   }

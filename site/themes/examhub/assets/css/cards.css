@@ -257,6 +257,14 @@
   box-shadow: var(--shadow-lg);
 }
 
+/* Inset, not the generic offset outline: an outward ring on a squircle this
+   size reads as a mismatched double border, and gets clipped where cards sit
+   flush against a neighbour (the grid gap isn't wide enough to show it). */
+.card:focus-visible {
+  outline: 2px solid var(--highlight);
+  outline-offset: -2px;
+}
+
 /* The three lines above the date row, in reading order and by weight. */
 .card__body-name {
   font-size: var(--fs-xs);

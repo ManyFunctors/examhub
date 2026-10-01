@@ -171,6 +171,13 @@
   cursor: pointer;
 }
 
+/* Inset, like .card: the default outward outline on a box this small reads as
+   a doubled, badly-rounded ring around the squircle. */
+.filters__toggle:focus-visible {
+  outline: 2px solid var(--highlight);
+  outline-offset: -2px;
+}
+
 /* The glyph, and the only thing here that moves. */
 .filters__toggle-icon {
   flex: 0 0 auto;
