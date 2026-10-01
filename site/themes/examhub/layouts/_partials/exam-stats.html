@@ -1,11 +1,15 @@
-{{- /* The count band. */ -}}
+{{- /* The count band. "Dates to Be Announced" is server-rendered from the real
+     exam records only (.awaitingDate); site.js tops it up once the hundreds of
+     tracked-exam stubs are hydrated in, the same total the TBA group's own
+     heading shows -- the two read from the same count once JS runs, so a
+     data-stat hook is all this needs to stay in sync. */ -}}
 {{- $figures := slice
       (dict "value" .openNow "label" "Open for Registration")
-      (dict "value" .awaitingDate "label" "Dates to Be Announced") -}}
+      (dict "value" .awaitingDate "label" "Dates to Be Announced" "stat" "awaiting-date") -}}
 <div class="stats__band">
   <div class="stats">
   {{- range $figures }}
-  <div class="stat{{ if .lead }} stat--lead{{ end }}">
+  <div class="stat{{ if .lead }} stat--lead{{ end }}"{{ with .stat }} data-stat="{{ . }}"{{ end }}>
     <p class="stat__value">{{ .value }}</p>
     <p class="stat__label">{{ .label }}</p>
   </div>

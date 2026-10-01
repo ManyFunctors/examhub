@@ -1097,28 +1097,43 @@
     /* The counts the server rendered (real exams only) are about to jump once
        initByMonth recounts with the full set, "Dates to Be Announced" most of
        all now that it carries hundreds of tracked stubs -- count up to the new
-       number instead of flipping it outright. */
+       number instead of flipping it outright. The stats band's own "Dates to
+       Be Announced" figure is the same count, read straight from this same
+       group once it's settled, so the two numbers never disagree. */
     var counts = Array.prototype.map.call(grid.querySelectorAll(".bymonth__count"), function (c) {
       return { el: c, from: parseInt(c.textContent, 10) || 0 };
     });
+    var statEl = document.querySelector('[data-stat="awaiting-date"] .stat__value');
+    var statFrom = statEl ? parseInt(statEl.textContent, 10) || 0 : null;
     initByMonth(grid, data);
     var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (!calm) {
-      counts.forEach(function (c) {
-        var m = /^\((\d+)( Exams?)\)$/.exec(c.el.textContent);
-        if (!m || Number(m[1]) === c.from) return;
-        var to = Number(m[1]), word = m[2], start = null, dur = 600;
-        c.el.textContent = "(" + c.from + word + ")";
-        function tick(now) {
-          if (start === null) start = now;
-          var p = Math.min(1, (now - start) / dur);
-          var eased = 1 - Math.pow(1 - p, 3);
-          var n = Math.round(c.from + (to - c.from) * eased);
-          c.el.textContent = "(" + n + (n === 1 ? " Exam)" : " Exams)");
-          if (p < 1) requestAnimationFrame(tick);
-        }
-        requestAnimationFrame(tick);
+    function countUp(from, to, dur, onUpdate) {
+      if (from === to) { onUpdate(to); return; }
+      if (calm) { onUpdate(to); return; }
+      var start = null;
+      function tick(now) {
+        if (start === null) start = now;
+        var p = Math.min(1, (now - start) / dur);
+        var eased = 1 - Math.pow(1 - p, 3);
+        onUpdate(Math.round(from + (to - from) * eased));
+        if (p < 1) requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    }
+    counts.forEach(function (c) {
+      var m = /^\((\d+)( Exams?)\)$/.exec(c.el.textContent);
+      if (!m) return;
+      var to = Number(m[1]);
+      c.el.textContent = "(" + c.from + m[2] + ")";
+      countUp(c.from, to, 600, function (n) {
+        c.el.textContent = "(" + n + (n === 1 ? " Exam)" : " Exams)");
       });
+    });
+    if (statEl) {
+      var tbaGroup = grid.querySelector('.bymonth__group[data-section="~1tba"] .bymonth__count');
+      var statTo = tbaGroup ? (parseInt(tbaGroup.textContent, 10) || 0) : statFrom;
+      statEl.textContent = String(statFrom);
+      countUp(statFrom, statTo, 600, function (n) { statEl.textContent = String(n); });
     }
     initFilters(data);
     initDates(data);
