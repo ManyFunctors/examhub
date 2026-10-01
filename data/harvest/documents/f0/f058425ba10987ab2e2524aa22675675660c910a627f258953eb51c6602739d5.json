@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "f058425ba10987ab2e2524aa22675675660c910a627f258953eb51c6602739d5",
+  "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/04/202604111749919591.pdf",
+  "title": "Correction in the particulars of the online Application Form of Graduate Aptitude Test- Biotechnology (GAT-B) and Biotechnology Eligibility Test (BET)- 2026",
+  "body": "in-nta",
+  "exam": "in-gat-b",
+  "feed": "in-nta/gat-b",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "3c3b26c851b1ecfee379757df5cf83b78e6e598b939f1c2f22a553d519e86ce4",
+  "bytes": 845551,
+  "pages": 2,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T22:32:40+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
