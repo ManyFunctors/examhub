@@ -26,7 +26,8 @@ def test_a_record_due_soon_is_picked_over_one_due_later(tmp_path, monkeypatch):
     (exams / "later.md").write_text("x")
 
     due = priority.due_bodies(exams, within_days=5, today=today)
-    assert due == {"in-ibps": dt.date(2026, 10, 3)}
+    assert list(due) == ["in-ibps"]
+    assert due["in-ibps"][0] == dt.date(2026, 10, 3)
 
 
 def test_a_past_date_does_not_count_as_due(tmp_path, monkeypatch):
@@ -59,6 +60,31 @@ def test_due_sources_maps_the_body_to_its_seed_source_by_short_name(tmp_path, mo
     (exams / "a.md").write_text("x")
 
     assert priority.due_sources(exams, within_days=5, today=today) == ["ibps"]
+
+
+def test_due_sources_breaks_a_same_day_tie_by_the_newer_discovery(tmp_path, monkeypatch):
+    # Both records are due the same day; the one found more recently (the
+    # likelier incomplete stub) is worth reaching first.
+    exams = tmp_path / "exams"
+    exams.mkdir()
+    today = dt.date(2026, 10, 1)
+    from examhub_pipeline import record as record_mod
+
+    def _rec_with(body: str, retrieved: dt.datetime) -> dict:
+        r = _rec(body, application={"to": dt.date(2026, 10, 3)})
+        r["provenance"] = {"provenance_retrieved": retrieved}
+        return r
+
+    def fake_load(path):
+        if path.stem == "old":
+            return _rec_with("in-ssc", dt.datetime(2026, 1, 1)), ""
+        return _rec_with("in-ibps", dt.datetime(2026, 9, 30)), ""
+
+    monkeypatch.setattr(record_mod, "load", fake_load)
+    (exams / "old.md").write_text("x")
+    (exams / "new.md").write_text("x")
+
+    assert priority.due_sources(exams, within_days=5, today=today) == ["ibps", "ssc"]
 
 
 def test_rotation_source_is_deterministic_for_a_given_day():

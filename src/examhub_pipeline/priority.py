@@ -9,6 +9,12 @@ whose next date is eight months off is not.
 
 A source with nothing due is still worth a look occasionally -- a notice can
 change outside its listed dates -- so a slow rotation fills in the rest.
+
+Among sources due on the same day, a body with a record freshly discovered
+(by crawl's own exam/source discovery, or this morning's watch) is worth
+reaching before one whose record has been settled and re-checked for weeks:
+the new one is the likeliest to still be sitting on a stub with only its
+dates filled in, same as any notice the day it's found.
 """
 from __future__ import annotations
 
@@ -47,11 +53,12 @@ def nearest_date(rec: dict, today: dt.date) -> dt.date | None:
 
 
 def due_bodies(exams_dir: Path = EXAMS_DIR, within_days: int = 5,
-               today: dt.date | None = None) -> dict[str, dt.date]:
-    """Conducting-body id -> its soonest due date, for records due within the window."""
+               today: dt.date | None = None) -> dict[str, tuple[dt.date, dt.datetime]]:
+    """Conducting-body id -> (its soonest due date, that record's discovery time),
+    for records due within the window."""
     today = today or dt.datetime.now(IST).date()
     horizon = today + dt.timedelta(days=within_days)
-    due: dict[str, dt.date] = {}
+    due: dict[str, tuple[dt.date, dt.datetime]] = {}
     for path in sorted(exams_dir.glob("*.md")):
         try:
             rec, _ = record.load(path)
@@ -61,19 +68,25 @@ def due_bodies(exams_dir: Path = EXAMS_DIR, within_days: int = 5,
         nd = nearest_date(rec, today)
         if nd is None or nd > horizon:
             continue
+        retrieved = rec.get("provenance", {}).get("provenance_retrieved")
+        if not isinstance(retrieved, dt.datetime):
+            retrieved = dt.datetime.min.replace(tzinfo=IST)
         for b in rec.get("bodies") or []:
             code = b.get("body") if isinstance(b, dict) else None
             if not code or code in ("unknown", "none"):
                 continue
-            if code not in due or nd < due[code]:
-                due[code] = nd
+            prev = due.get(code)
+            if prev is None or nd < prev[0] or (nd == prev[0] and retrieved > prev[1]):
+                due[code] = (nd, retrieved)
     return due
 
 
 def due_sources(exams_dir: Path = EXAMS_DIR, within_days: int = 5,
                  today: dt.date | None = None,
                  catalogue_dir: Path = catalogue_mod.CATALOGUE_DIR) -> list[str]:
-    """Seed source keys worth checking tonight, soonest due date first.
+    """Seed source keys worth checking tonight: soonest due date first, and
+    among same-day ties, the body whose record was discovered most recently
+    (likeliest to still be an incomplete stub) first.
 
     A seed source names the body it watches by its ExamHub taxonomy name
     (``Source.taxonomy``), which is the catalogue body's ``short_name`` --
@@ -83,21 +96,22 @@ def due_sources(exams_dir: Path = EXAMS_DIR, within_days: int = 5,
     if not due:
         return []
     cat = catalogue_mod.load(catalogue_dir)
-    by_short_name: dict[str, dt.date] = {}
-    for code, date in due.items():
+    by_short_name: dict[str, tuple[dt.date, dt.datetime]] = {}
+    for code, (date, retrieved) in due.items():
         body = cat.bodies.get(code)
         if not body:
             continue
         name = (body.get("short_name") or "").lower()
-        if name and (name not in by_short_name or date < by_short_name[name]):
-            by_short_name[name] = date
+        prev = by_short_name.get(name)
+        if name and (prev is None or date < prev[0] or (date == prev[0] and retrieved > prev[1])):
+            by_short_name[name] = (date, retrieved)
     hits = [
-        (by_short_name[name], source.key)
+        (by_short_name[name][0], -by_short_name[name][1].timestamp(), source.key)
         for source in SEED_SOURCES
         if (name := (source.taxonomy or source.name or "").lower()) in by_short_name
     ]
     hits.sort()
-    return [key for _, key in hits]
+    return [key for _, _, key in hits]
 
 
 def rotation_source(today: dt.date | None = None) -> str:
