@@ -1005,6 +1005,40 @@
     }
     /* The count in brackets is what the section shows now: month, search and filters. */
     var filtering = false;
+    var tbaStatEl = document.querySelector('[data-stat="awaiting-date"] .stat__value');
+    var calmMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    /* The TBA badge and the stats-band figure both show this same count, but recount()
+       is the only place that ever computes it -- so it is also the only place that ever
+       writes either of them. Two separate call sites reading the DOM afterwards to decide
+       how to animate a change could each catch a different, not-yet-settled value if a
+       second recount() happened to land between the read and the write; writing here,
+       once, from the number this call just computed, cannot race itself. */
+    function setCount(el, n, render) {
+      var from = Number(el.dataset.n || "0");
+      el.dataset.n = n;
+      if (!("animated" in el.dataset)) {
+        el.dataset.animated = "1";
+        render(n);
+        return;
+      }
+      if (from === n || calmMotion) { render(n); return; }
+      var start = null, dur = 600, settled = false;
+      function tick(now) {
+        if (settled) return;
+        if (start === null) start = now;
+        var p = Math.min(1, (now - start) / dur);
+        render(Math.round(from + (n - from) * (1 - Math.pow(1 - p, 3))));
+        if (p < 1) requestAnimationFrame(tick);
+        else settled = true;
+      }
+      requestAnimationFrame(tick);
+      /* A backgrounded tab, a throttled rAF, or any other reason the browser stops
+         ticking leaves the figure wherever the last frame left it -- possibly still
+         mid-count -- with nothing left to ever correct it, since nothing here reads
+         the DOM back to check. This guarantees the true value lands regardless of
+         whether animation frames kept coming. */
+      setTimeout(function () { if (!settled) { settled = true; render(n); } }, dur + 100);
+    }
     /* month changes recount without knowing the filters, so keep the last word on them */
     function recount(f) {
       if (f !== undefined) filtering = f;
@@ -1014,7 +1048,12 @@
         total += n;
         var h = g.querySelector(".bymonth__title"), c = h.querySelector(".bymonth__count");
         if (!c) { c = document.createElement("span"); c.className = "bymonth__count"; h.appendChild(c); }
-        c.textContent = n ? "(" + n + (n === 1 ? " Exam)" : " Exams)") : "";
+        setCount(c, n, function (shownN) {
+          c.textContent = shownN ? "(" + shownN + (shownN === 1 ? " Exam)" : " Exams)") : "";
+        });
+        if (g.dataset.section === "~1tba" && tbaStatEl) {
+          setCount(tbaStatEl, n, function (shownN) { tbaStatEl.textContent = String(shownN); });
+        }
         /* a section the search empties is hidden, not left as a bare heading */
         if (g !== monthGroup) g.hidden = !n;
         /* a search opens folded sections it has matches in, once; clearing it folds them back */
@@ -1065,6 +1104,14 @@
   }
 
   function hydrate(grid, data) {
+    /* initByMonth's own startup sync() calls recount() before this function has added a
+       single off-month or tracked-stub card to the DOM, so that first count -- real,
+       server-rendered exams only -- becomes the baseline every later recount() (inside
+       initFilters, inside a month switch, ...) animates up from. Calling it here, before
+       any of the appends below, is what makes the "jump" the stubs cause into a counted-up
+       animation rather than a flash straight to the final number: recount() is the one
+       place that ever draws these figures, so there is nothing left to race. */
+    initByMonth(grid, data);
     /* Every record's card joins the month section, hidden until its month is shown. */
     var into = grid.querySelector('.bymonth__group[data-section="month"] .card-grid');
     if (into) {
@@ -1098,49 +1145,8 @@
       });
       tbaGrid.appendChild(tbaFrag);
     }
-    /* The TBA count the server rendered (real exams only) is about to jump once the
-       tracked stubs just appended above are counted. recount() -- run inside both
-       initByMonth and initFilters's own startup apply() -- is the one authoritative
-       counter, and it can run more than once before settling (a filter's own
-       recount, a deferred month-swap, etc). Rather than guess its outcome and race
-       it, this snapshots the "before" figures now, lets everything below run to
-       completion, and only then reads the settled totals to animate toward --
-       so the animation can never land anywhere other than where recount() itself
-       landed. */
-    var tbaBadge = grid.querySelector('.bymonth__group[data-section="~1tba"] .bymonth__count');
-    var tbaFrom = tbaBadge ? (parseInt(tbaBadge.textContent, 10) || 0) : 0;
-    var statEl = document.querySelector('[data-stat="awaiting-date"] .stat__value');
-    var statFrom = statEl ? (parseInt(statEl.textContent, 10) || 0) : 0;
-    initByMonth(grid, data);
     initFilters(data);
     initDates(data);
-    var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    function countUp(from, to, dur, onUpdate) {
-      if (from === to) { onUpdate(to); return; }
-      if (calm) { onUpdate(to); return; }
-      var start = null;
-      function tick(now) {
-        if (start === null) start = now;
-        var p = Math.min(1, (now - start) / dur);
-        var eased = 1 - Math.pow(1 - p, 3);
-        onUpdate(Math.round(from + (to - from) * eased));
-        if (p < 1) requestAnimationFrame(tick);
-      }
-      requestAnimationFrame(tick);
-    }
-    var tbaMatch = tbaBadge && /\((\d+)/.exec(tbaBadge.textContent);
-    var tbaTo = tbaMatch ? Number(tbaMatch[1]) : tbaFrom;
-    if (tbaBadge && tbaTo !== tbaFrom) {
-      tbaBadge.textContent = "(" + tbaFrom + (tbaFrom === 1 ? " Exam)" : " Exams)");
-      countUp(tbaFrom, tbaTo, 600, function (n) {
-        tbaBadge.textContent = "(" + n + (n === 1 ? " Exam)" : " Exams)");
-      });
-    }
-    if (statEl && tbaTo !== tbaFrom) {
-      var statTo = statFrom + (tbaTo - tbaFrom);
-      statEl.textContent = String(statFrom);
-      countUp(statFrom, statTo, 600, function (n) { statEl.textContent = String(n); });
-    }
     updateCountdowns();
     updateFreshness();
     /* A saved month other than this page's changes the page's height; settle the scroll again. */
