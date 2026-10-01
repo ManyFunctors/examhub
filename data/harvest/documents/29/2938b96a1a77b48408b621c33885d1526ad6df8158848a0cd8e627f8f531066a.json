@@ -1,0 +1,57 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2938b96a1a77b48408b621c33885d1526ad6df8158848a0cd8e627f8f531066a",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20250103091635.pdf",
+  "title": "Inviting Online Application Forms for the Common University Entrance Test [CUET (PG) - 2025] for Admission to Postgraduate Programmes into Central Universities and Other Participating Universities / Institutions / Organizations / Autonomous Colleges – reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-pg",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "619b0ec23373f2792542e8731f1a30281c514b2482274a6f0e85bd383259bfa4",
+  "bytes": 1698663,
+  "pages": 7,
+  "chars": 21262,
+  "ocr": false,
+  "indic_share": 0.02,
+  "fetched": "2026-10-01T16:42:47+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "registration_deadline": {
+   "date": "2025-02-01",
+   "evidence": "Online Submission of Application Form 02 January to 01 February 2025",
+   "page": 1,
+   "from": "text"
+  },
+  "exam_date": {
+   "date": "2025-03-13",
+   "evidence": "(Up to 11:50 P.M.) Announcement of the City of Examination First Week of March 2025 Downloading Admit Cards from the NTA website 04 days before the actual date of the examination Date of Examination Between 13 March 2025 and 31 March 2025 D",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/CUET-PG/",
+   "https://exams.nta.ac.in/CUET-UG/"
+  ],
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2025-02-01"
+  },
+  "exam_date": "2025-03-13"
+ }
+}

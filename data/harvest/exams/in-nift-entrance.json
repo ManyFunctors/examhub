@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "exam": "in-jee-main",
- "name": "Joint Entrance Examination (Main)",
+ "exam": "in-nift-entrance",
+ "name": "NIFT Entrance Examination",
  "body": "in-nta",
  "purpose": "admission",
- "cycle": "2026-01",
- "documents": 11,
+ "cycle": "2026",
+ "documents": 1,
  "documents_in_cycle": 1,
  "fields": {},
  "gaps": [
@@ -15,5 +15,5 @@
   "eligibility",
   "exam_pattern"
  ],
- "older_documents": 10
+ "older_documents": 0
 }
