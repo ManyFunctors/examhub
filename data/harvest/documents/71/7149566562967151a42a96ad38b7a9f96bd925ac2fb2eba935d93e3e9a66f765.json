@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "7149566562967151a42a96ad38b7a9f96bd925ac2fb2eba935d93e3e9a66f765",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/05/20260515960654684.pdf",
+  "title": "Conduct of Re-examination for National Eligibility-cum-Entrance Test [NEET (UG)] 2026 – Reg.",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "b590bad365058f4c58c6f9bcc0c6e654002fbf60ab426950f13a06ba8f96707c",
+  "bytes": 845362,
+  "pages": 2,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T22:15:05+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

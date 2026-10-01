@@ -5,8 +5,8 @@
  "body": "in-nta",
  "purpose": "recruitment",
  "cycle": "2023",
- "documents": 1,
- "documents_in_cycle": 1,
+ "documents": 2,
+ "documents_in_cycle": 2,
  "fields": {
   "dates": {
    "correction_window": {
@@ -18,6 +18,17 @@
      "title": "Opening of the online portal for submission of Online Application Form for Central Universities Recruitment Exam. Read More",
      "kind": "advertisement",
      "page": 1
+    }
+   },
+   "exam_date": {
+    "date": "2024-03-19",
+    "provisional": true,
+    "source": {
+     "notice": "454996752d53e67f298d9cae97706e9360593326cb36f601b6539783ca727f06",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20240305112629.pdf",
+     "title": "Schedule for Stage 2 (Descriptive) Type Exam for Central University Recruitment Examination CURE 2023 Read More",
+     "kind": "schedule",
+     "page": 2
     }
    },
    "registration_deadline": {
@@ -54,6 +65,16 @@
     "page": 1
    }
   },
+  "exam_date": {
+   "value": "2024-03-19",
+   "source": {
+    "notice": "454996752d53e67f298d9cae97706e9360593326cb36f601b6539783ca727f06",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20240305112629.pdf",
+    "title": "Schedule for Stage 2 (Descriptive) Type Exam for Central University Recruitment Examination CURE 2023 Read More",
+    "kind": "schedule",
+    "page": 2
+   }
+  },
   "apply_links": {
    "value": [
     "https://exams.nta.ac.in/",
@@ -64,12 +85,12 @@
     "url": "https://nta.ac.in/Download/Notice/Notice_20231202193432.pdf",
     "title": "Opening of the online portal for submission of Online Application Form for Central Universities Recruitment Exam. Read More",
     "kind": "advertisement"
-   }
+   },
+   "alternatives": 1
   }
  },
  "gaps": [
   "vacancies",
-  "exam_date",
   "fee",
   "age",
   "pay",
