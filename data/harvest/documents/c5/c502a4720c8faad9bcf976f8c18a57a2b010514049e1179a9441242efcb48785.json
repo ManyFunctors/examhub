@@ -1,0 +1,336 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c502a4720c8faad9bcf976f8c18a57a2b010514049e1179a9441242efcb48785",
+  "url": "https://sbi.bank.in/documents/77530/52947104/CBO+advt+final.pdf/b4d458c6-020e-d611-1814-479c5bad24ac?t=1746728206892",
+  "title": "DOWNLOAD ADVERTISEMENT( Hindi / English )",
+  "body": "in-sbi",
+  "exam": "in-sbi-cbo",
+  "feed": "in-sbi/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "aa1f6d951cef832cbee057b4a6a23ad104c1c515030c1c27df3b898069ca4c8a",
+  "bytes": 3265999,
+  "pages": 8,
+  "chars": 62450,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T15:53:24+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "CRPD",
+ "vacancies": {
+  "total": 364,
+  "by_category": {
+   "PwBD": 97
+  },
+  "rows": [
+   {
+    "label": "Ahmedabad / Gujarat / Gujarati",
+    "total": 54,
+    "by_category": {
+     "PwBD": 10
+    },
+    "page": 2
+   },
+   {
+    "label": "Amaravati / Andhra Pradesh / Telugu/ Urdu",
+    "total": 6,
+    "by_category": {
+     "PwBD": 3
+    },
+    "page": 2
+   },
+   {
+    "label": "Bengaluru / Karnataka / Kannada",
+    "total": 39,
+    "by_category": {
+     "PwBD": 10
+    },
+    "page": 2
+   },
+   {
+    "label": "Bhopal / Madhya Pradesh / Hindi",
+    "total": 32,
+    "by_category": {
+     "PwBD": 8
+    },
+    "page": 2
+   },
+   {
+    "label": "Bhubaneswar / Odisha / Odia",
+    "total": 10,
+    "by_category": {
+     "PwBD": 4
+    },
+    "page": 2
+   },
+   {
+    "label": "Chandigarh / Jammu & Kashmir / Urdu Hindi Punjabi",
+    "total": 14,
+    "by_category": {
+     "PwBD": 4
+    },
+    "page": 2
+   },
+   {
+    "label": "Chennai / Tamil Nadu / Tamil",
+    "total": 31,
+    "by_category": {
+     "PwBD": 6
+    },
+    "page": 2
+   },
+   {
+    "label": "North Eastern / Assam / Assamese Bengali Bodo Manipuri Garo Khasi Mizo Kokborok",
+    "total": 30,
+    "by_category": {
+     "PwBD": 4
+    },
+    "page": 2
+   },
+   {
+    "label": "Hyderabad / Telangana / Telugu / Urdu",
+    "total": 3,
+    "by_category": {
+     "PwBD": 12
+    },
+    "page": 2
+   },
+   {
+    "label": "Jaipur / Rajasthan / Hindi",
+    "total": 18,
+    "by_category": {
+     "PwBD": 8
+    },
+    "page": 2
+   },
+   {
+    "label": "Kolkata / West Bengal / Bengali Nepali Hindi",
+    "total": 43,
+    "by_category": {
+     "PwBD": 4
+    },
+    "page": 2
+   },
+   {
+    "label": "Lucknow / Uttar Pradesh / Hindi / Urdu",
+    "total": 17,
+    "by_category": {
+     "PwBD": 9
+    },
+    "page": 2
+   },
+   {
+    "label": "Maharashtra / Marathi",
+    "total": 17,
+    "by_category": {
+     "PwBD": 7
+    },
+    "page": 2
+   },
+   {
+    "label": "Mumbai Metro / Maharashtra / Marathi Konkani",
+    "total": 5,
+    "by_category": {
+     "PwBD": 2
+    },
+    "page": 2
+   },
+   {
+    "label": "New Delhi / Delhi / Hindi",
+    "total": 19,
+    "by_category": {
+     "PwBD": 3
+    },
+    "page": 2
+   },
+   {
+    "label": "Thiruvananthapuram / Kerala / Malayalam",
+    "total": 26,
+    "by_category": {
+     "PwBD": 3
+    },
+    "page": 2
+   }
+  ],
+  "from": "table"
+ },
+ "fees": [
+  {
+   "categories": [
+    "Unreserved",
+    "EWS",
+    "OBC",
+    "SC",
+    "ST",
+    "PwBD"
+   ],
+   "amount": 0,
+   "raw": "Category Total Category Total General / EWS/ OBC 750/- SC/ ST/ PwBD Nil",
+   "page": 4
+  }
+ ],
+ "age": {
+  "limits": [
+   {
+    "max": 21,
+    "evidence": "(B) Age Limit: (As on 30.04.2025): Not below 21 years and Not above 30 years as on 30.04.2025 i.e. candidates must have been born not later than 30.04.2004 and not earlier than",
+    "page": 3
+   }
+  ],
+  "relaxations": [
+   {
+    "categories": [
+     "OBC-NCL"
+    ],
+    "for": "Other Backward Classes (Non-Creamy Layer)",
+    "years": 3,
+    "raw": "2. Other Backward Classes (Non-Creamy Layer)  3 Years",
+    "page": 3
+   },
+   {
+    "categories": [
+     "PwBD",
+     "SC",
+     "ST"
+    ],
+    "for": "Persons with Benchmark Disabilities (PwBD) / - PwBD (SC/ ST)",
+    "years": 15,
+    "raw": "3. Persons with Benchmark Disabilities (PwBD) - PwBD (SC/ ST) 15 Years",
+    "page": 3
+   },
+   {
+    "categories": [
+     "PwBD",
+     "OBC"
+    ],
+    "for": "- PwBD (OBC)",
+    "years": 13,
+    "raw": "  - PwBD (OBC) 13 Years",
+    "page": 3
+   },
+   {
+    "categories": [
+     "PwBD",
+     "Unreserved",
+     "EWS"
+    ],
+    "for": "- PwBD (Gen/ EWS)",
+    "years": 10,
+    "raw": "  - PwBD (Gen/ EWS) 10 Years",
+    "page": 3
+   },
+   {
+    "years": 5,
+    "raw": "4. Eligible - Ex Servicemen, Commissioned officers including Emergency Commissioned Officers (ECOs)/ Short Service Commissioned Officers (SSCOs) who have rendered 5 years military service and have bee",
+    "page": 3
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Before applying online, candidates are requested to ensure that they fulfil the eligibility criteria for the post as on the date of eligibility.",
+    "page": 2
+   },
+   {
+    "text": "Eligible candidates, who aspire to join State Bank of India as an Officer, are required to register on-line after carefully reading the advertisement regarding the selection process, eligibility criteria, online registration processes, payment of prescribed application fee, issuance of call…",
+    "page": 2
+   },
+   {
+    "text": "(B) Age Limit: (As on 30.04.2025): Not below 21 years and Not above 30 years as on 30.04.2025 i.e. candidates must have been born not later than 30.04.2004 and not earlier than",
+    "page": 3
+   },
+   {
+    "text": "Persons with OA, BA and OAL category should have normal bilateral hand functions.",
+    "page": 3
+   },
+   {
+    "text": "The Screening Committee constituted by the Bank will examine whether the candidates fulfil the required eligibility criteria of experience",
+    "page": 4
+   },
+   {
+    "text": "Pre-requisites for Applying Online: Candidates should have valid email ID and mobile no.",
+    "page": 5
+   }
+  ]
+ },
+ "selection": [
+  "Interview",
+  "Computer-based test",
+  "Skill / trade test"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "English Language",
+   "page": 4,
+   "marks": 30,
+   "duration": "30 minutes"
+  },
+  {
+   "paper": "Banking Knowledge",
+   "page": 4,
+   "marks": 40,
+   "duration": "40 minutes"
+  },
+  {
+   "paper": "General Awareness/ Economy",
+   "page": 4,
+   "marks": 30,
+   "duration": "30 minutes"
+  },
+  {
+   "paper": "Computer Aptitude",
+   "page": 4,
+   "marks": 20,
+   "duration": "20 minutes"
+  },
+  {
+   "paper": "Total",
+   "page": 4,
+   "marks": 120,
+   "duration": "2 hours"
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 3
+  },
+  "duration": {
+   "value": "Total 120 120 2 hours",
+   "page": 4
+  }
+ },
+ "links": {
+  "apply": [
+   "https://bank.sbi/web/careers/current-openings",
+   "http://cgrs.ibps.in",
+   "https://bank.sbi/web/careers//current-openings",
+   "https://www.sbi.co.in/web/careers/current-openings"
+  ]
+ },
+ "summary": {
+  "vacancies": 364,
+  "fee": {
+   "min": 0,
+   "max": 0
+  },
+  "age": {
+   "max": 21
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Interview → Computer-based test → Skill / trade test"
+ }
+}
