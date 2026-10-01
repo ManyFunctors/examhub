@@ -5,10 +5,20 @@
  "body": "in-cbse",
  "purpose": "eligibility",
  "cycle": "2026",
- "documents": 1,
- "documents_in_cycle": 1,
+ "documents": 2,
+ "documents_in_cycle": 2,
  "fields": {
   "dates": {
+   "exam_date": {
+    "date": "2026-12-12",
+    "source": {
+     "notice": "5a670a71eaa755a5a2f253fc9cfb1a1f80d3cd9b4b9a22d4d0394115315e9b54",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260914325514446.pdf",
+     "title": "PUBLIC NOTICE: Exam Dates for 22nd edition of CTET",
+     "kind": "admit_card",
+     "page": 1
+    }
+   },
    "registration_deadline": {
     "date": "2026-09-01",
     "source": {
@@ -42,10 +52,19 @@
     "kind": "corrigendum",
     "page": 1
    }
+  },
+  "exam_date": {
+   "value": "2026-12-12",
+   "source": {
+    "notice": "5a670a71eaa755a5a2f253fc9cfb1a1f80d3cd9b4b9a22d4d0394115315e9b54",
+    "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260914325514446.pdf",
+    "title": "PUBLIC NOTICE: Exam Dates for 22nd edition of CTET",
+    "kind": "admit_card",
+    "page": 1
+   }
   }
  },
  "gaps": [
-  "exam_date",
   "fee",
   "eligibility",
   "exam_pattern"

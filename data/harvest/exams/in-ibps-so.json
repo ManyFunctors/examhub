@@ -4,95 +4,35 @@
  "name": "Common Recruitment Process for Specialist Officers",
  "body": "in-ibps",
  "purpose": "recruitment",
- "cycle": "2026",
- "documents": 1,
+ "cycle": "2026-01",
+ "documents": 2,
  "documents_in_cycle": 1,
  "fields": {
   "vacancies": {
    "value": {
-    "total": 2027,
-    "evidence": "RECRUITMENT OF SPECIALIST OFFICERS IN PARTICIPATING BANKS (Vacancies of 2027-28) Official Website: www.ibps.in In case of queries / complaints please log in to http://cgrs.ibps.in",
+    "total": 2025,
+    "evidence": "Further to our notice dated 31.12.2025 released on the official IBPS website www.ibps.in, the entire provisional allotment process under CRP-SPL-XIV for the vacancies 2025-26 stands completed with this Notice",
     "page": 1,
     "from": "text"
    },
    "source": {
-    "notice": "afd974ae9bb47333356b167e97c1242ff324518a9c1469f4c4ca51b73ffbeed9",
-    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
-    "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
+    "notice": "21f34fcc44580295912d10cd10bac9916d4ccde72c8a62271d586b400836aeac",
+    "url": "https://www.ibps.in/wp-content/uploads/SPL-XIV-Notice-15.1.2026.pdf",
+    "title": "15 Jan 26 Notice dated 15.01.2026 in connection with CRP-SPL-XIV",
     "kind": "advertisement",
     "page": 1
-   }
-  },
-  "dates": {
-   "age_as_on": {
-    "date": "2026-07-01",
-    "provisional": true,
-    "source": {
-     "notice": "afd974ae9bb47333356b167e97c1242ff324518a9c1469f4c4ca51b73ffbeed9",
-     "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
-     "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
-     "kind": "advertisement",
-     "page": 6
-    }
-   },
-   "payment_deadline": {
-    "date": "2026-07-21",
-    "provisional": true,
-    "source": {
-     "notice": "afd974ae9bb47333356b167e97c1242ff324518a9c1469f4c4ca51b73ffbeed9",
-     "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
-     "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
-     "kind": "advertisement",
-     "page": 15
-    }
-   },
-   "registration_deadline": {
-    "date": "2027-07-20",
-    "provisional": true,
-    "source": {
-     "notice": "afd974ae9bb47333356b167e97c1242ff324518a9c1469f4c4ca51b73ffbeed9",
-     "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
-     "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
-     "kind": "advertisement",
-     "page": 6
-    }
-   },
-   "registration_open": {
-    "date": "2026-07-01",
-    "provisional": true,
-    "source": {
-     "notice": "afd974ae9bb47333356b167e97c1242ff324518a9c1469f4c4ca51b73ffbeed9",
-     "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
-     "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
-     "kind": "advertisement",
-     "page": 15
-    }
-   }
-  },
-  "apply": {
-   "value": {
-    "from": "2026-07-01",
-    "until": "2027-07-20"
-   },
-   "source": {
-    "notice": "afd974ae9bb47333356b167e97c1242ff324518a9c1469f4c4ca51b73ffbeed9",
-    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
-    "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
-    "kind": "advertisement",
-    "page": 6
    }
   },
   "apply_links": {
    "value": [
     "http://www.ibps.in/",
-    "http://cgrs.ibps.in/",
-    "https://ibpsreg.ibps.in/crpspxvimy26/",
+    "https://cgrs.ibps.in/",
     "https://www.ibps.in"
    ],
    "source": {
-    "notice": "afd974ae9bb47333356b167e97c1242ff324518a9c1469f4c4ca51b73ffbeed9",
-    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
-    "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
+    "notice": "21f34fcc44580295912d10cd10bac9916d4ccde72c8a62271d586b400836aeac",
+    "url": "https://www.ibps.in/wp-content/uploads/SPL-XIV-Notice-15.1.2026.pdf",
+    "title": "15 Jan 26 Notice dated 15.01.2026 in connection with CRP-SPL-XIV",
     "kind": "advertisement"
    }
   },
@@ -178,7 +118,8 @@
     "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
     "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
     "kind": "advertisement"
-   }
+   },
+   "carried_from": "2026"
   },
   "exam_pattern": {
    "value": [
@@ -389,7 +330,8 @@
     "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
     "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
     "kind": "advertisement"
-   }
+   },
+   "carried_from": "2026"
   },
   "pay": {
    "value": [
@@ -407,14 +349,16 @@
     "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
     "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
     "kind": "advertisement"
-   }
+   },
+   "carried_from": "2026"
   }
  },
  "gaps": [
+  "apply",
   "exam_date",
   "fee",
   "age",
   "selection"
  ],
- "older_documents": 0
+ "older_documents": 1
 }
