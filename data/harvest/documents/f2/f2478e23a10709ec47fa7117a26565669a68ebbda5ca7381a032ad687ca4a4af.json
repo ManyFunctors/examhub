@@ -1,0 +1,27 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "f2478e23a10709ec47fa7117a26565669a68ebbda5ca7381a032ad687ca4a4af",
+  "url": "https://www.cbse.gov.in/cbsenew/documents/Guidelines_Conducting_Practical_Examinations_Supplementary_22072026.pdf",
+  "title": "Guidelines for conducting Practical Examinations with the Supplementary Examination, 2026 -reg",
+  "body": "in-cbse",
+  "exam": "in-cbse-supplementary",
+  "feed": "in-cbse/notices",
+  "published": "2026-07-22",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "42fdae3441b44d83a96539abb4599e508df62dfe17a350d827f7f529bdebc5c7",
+  "bytes": 1075338,
+  "pages": 3,
+  "chars": 4,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T20:32:22+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

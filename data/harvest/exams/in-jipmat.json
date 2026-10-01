@@ -5,15 +5,40 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 4,
+ "documents": 5,
  "documents_in_cycle": 4,
- "fields": {},
+ "fields": {
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Class 12",
+     "Class 10"
+    ],
+    "clauses": [
+     {
+      "text": "Mode of Examination Computer Based Test (CBT) mode Medium of Question Paper English Eligibility for admission to 5- year Integrated Program in Management Candidates should have passed 10+2/XII/HSC examination in arts/commerce/science stream or equivalent in the year 2021, 2022 or is appearing in…",
+      "page": 1
+     },
+     {
+      "text": "The candidate must have passed class 10th examination in the year not before 2019",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "39bcea8ba0ee5851257955e41b2813fe67efdab44cf0d92ce0897b251cb2e754",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20230406204104.pdf",
+    "title": "Inviting Online Applications for Joint Integrated Programme in Management Admission Test (JIPMAT) - 2023 Read More",
+    "kind": "schedule"
+   },
+   "carried_from": "2023"
+  }
+ },
  "gaps": [
   "apply",
   "exam_date",
   "fee",
-  "eligibility",
   "exam_pattern"
  ],
- "older_documents": 0
+ "older_documents": 1
 }

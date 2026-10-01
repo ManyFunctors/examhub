@@ -1,0 +1,114 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "39bcea8ba0ee5851257955e41b2813fe67efdab44cf0d92ce0897b251cb2e754",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230406204104.pdf",
+  "title": "Inviting Online Applications for Joint Integrated Programme in Management Admission Test (JIPMAT) - 2023 Read More",
+  "body": "in-nta",
+  "exam": "in-jipmat",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "79127c963f4bed5a20b1a3ce96655cef6a5e1f669b0065fd2a3b609e40674b57",
+  "bytes": 1102779,
+  "pages": 1,
+  "chars": 2834,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-01T20:32:22+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "correction_window": {
+   "date": "2023-05-02",
+   "until": "2023-05-04",
+   "evidence": "Correction in the Particulars of Application Form online",
+   "page": 1,
+   "from": "table"
+  },
+  "exam_date": {
+   "date": "2023-05-28",
+   "evidence": "Date of Examination for JIPMAT -2023",
+   "page": 1,
+   "from": "table"
+  },
+  "payment_deadline": {
+   "date": "2023-04-30",
+   "evidence": "Duration of Online registration and submission of online Application Form for JIPMAT-2023 06 April 2023 to 30 April 2023 upto (05:00 P.M) Last date for submission of Examination fee (through Credit Card/ Debit Card/Net Banking & Paytm Payme",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2023-04-06",
+   "evidence": "Duration of Online registration and submission of online Application Form for JIPMAT-2023 06 April 2023 to 30 April 2023 upto (05:00 P.M) Last date for submission of Examination fee (through Credit Card/ Debit Card/Net Banking & Paytm Payme",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2023-04-30",
+   "evidence": "Duration of Online registration and submission of online Application Form for JIPMAT-2023 06 April 2023 to 30 April 2023 upto (05:00 P.M) Last date for submission of Examination fee (through Credit Card/ Debit Card/Net Banking & Paytm Payme",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Card/ Debit Card/Net Banking & Paytm Payment Modes upto",
+   "date": "2023-04-30",
+   "page": 1
+  },
+  {
+   "event": "Correction in the Particulars of Application Form online",
+   "key": "correction_window",
+   "date": "2023-05-02",
+   "page": 1,
+   "until": "2023-05-04"
+  },
+  {
+   "event": "Date of Examination for JIPMAT -2023",
+   "key": "exam_date",
+   "date": "2023-05-28",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Class 12",
+   "Class 10"
+  ],
+  "clauses": [
+   {
+    "text": "Mode of Examination Computer Based Test (CBT) mode Medium of Question Paper English Eligibility for admission to 5- year Integrated Program in Management Candidates should have passed 10+2/XII/HSC examination in arts/commerce/science stream or equivalent in the year 2021, 2022 or is appearing in…",
+    "page": 1
+   },
+   {
+    "text": "The candidate must have passed class 10th examination in the year not before 2019",
+    "page": 1
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://jipmat.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2023-04-06",
+   "until": "2023-04-30"
+  },
+  "exam_date": "2023-05-28",
+  "education": [
+   "Class 12",
+   "Class 10"
+  ]
+ }
+}

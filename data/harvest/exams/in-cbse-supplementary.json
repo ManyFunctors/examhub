@@ -1,12 +1,12 @@
 {
  "schema": 1,
- "exam": "in-cbse-class-12",
- "name": "CBSE Senior School Certificate Examination (Class XII)",
+ "exam": "in-cbse-supplementary",
+ "name": "CBSE Supplementary Examination",
  "body": "in-cbse",
  "purpose": "school_board",
  "cycle": "2026",
- "documents": 2,
- "documents_in_cycle": 2,
+ "documents": 1,
+ "documents_in_cycle": 1,
  "fields": {},
  "gaps": [
   "exam_date"

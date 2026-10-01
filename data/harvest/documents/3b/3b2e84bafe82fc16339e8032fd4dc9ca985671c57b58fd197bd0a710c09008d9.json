@@ -1,0 +1,38 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3b2e84bafe82fc16339e8032fd4dc9ca985671c57b58fd197bd0a710c09008d9",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20221004114951.pdf",
+  "title": "1138 UGC NET December 2021 & June 2022 (merged cycles), Phase-IV Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "721ae000ab0d7f861f15be498d9178a1937340d0941cb8e395dbbbff49c53fd4",
+  "bytes": 1044885,
+  "pages": 1,
+  "chars": 2189,
+  "ocr": false,
+  "indic_share": 0.08,
+  "fetched": "2026-10-01T20:32:26+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2022-10-08",
+   "evidence": "is being displayed today, 03 October 2022 for the following subjects scheduled on 8 October 2022:",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://ugcnet.nta.nic.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-10-08"
+ }
+}
