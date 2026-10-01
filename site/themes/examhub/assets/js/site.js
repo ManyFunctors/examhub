@@ -931,7 +931,7 @@
       d.textContent = longDate(e.d);
       chip.appendChild(d);
     }
-    function sync() {
+    function applySync() {
       var t = label.textContent.trim().split(/\s+/), m = MONTHS.indexOf(t[0]);
       if (m < 0) return;
       var key = t[1] + "-" + String(m + 1).padStart(2, "0"), inMonth = (key < today.slice(0, 7) ? pastMonth : byMonth)[key] || {};
@@ -945,6 +945,22 @@
       var shown = recount();
       note.querySelector(".bymonth__title").textContent = t[0] + " " + t[1];
       note.querySelector(".cal__none").textContent = key < today.slice(0, 7) ? "No dates this month." : "No upcoming dates this month.";
+    }
+    /* The swap is a show/hide on every card, which can't be transitioned; fade the
+       section across it instead of applying it mid-paint. This matters most on the
+       very first call: the page already painted its own month's cards before any
+       script ran, and if a reload lands on a different saved month, this call is
+       what swaps that whole set out -- without the fade, that read as a sudden pop. */
+    function sync() {
+      var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (calm) { applySync(); return; }
+      monthGroup.classList.add("bymonth__group--switching");
+      setTimeout(function () {
+        applySync();
+        requestAnimationFrame(function () {
+          monthGroup.classList.remove("bymonth__group--switching");
+        });
+      }, 160);
     }
     /* The count in brackets is what the section shows now: month, search and filters. */
     var filtering = false;

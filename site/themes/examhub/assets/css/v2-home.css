@@ -252,6 +252,16 @@ html[data-start-view="dates"] #tab-dates { color: var(--text); }
 #exam-grid .bymonth__group > .card-grid { margin-bottom: 0; }
 #exam-grid .bymonth__group:not(:has(.card:not([hidden]))) { display: none; }
 #exam-grid .bymonth__group--off, #exam-grid .card--offmonth { display: none !important; }
+
+/* The month section's own cards swap in and out with a show/hide, which can't be
+   transitioned; fade the section across the swap instead, so it reads as one
+   motion rather than a cards-replaced-instantly jump. */
+#exam-grid .bymonth__group[data-section="month"] > .card-grid {
+  transition: opacity 160ms ease;
+}
+#exam-grid .bymonth__group--switching > .card-grid {
+  opacity: 0;
+}
 #exam-grid .bymonth__none[hidden] { display: none; }
 #exam-grid .bymonth__none .bymonth__summary { cursor: default; }
 #exam-grid .bymonth__none .bymonth__summary::before { visibility: hidden; }
