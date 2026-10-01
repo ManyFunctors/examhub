@@ -291,8 +291,8 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-csir-so-aso"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-csl-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ctet"}
-{"cycle": "2026", "documents": 7, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-cuet-pg"}
-{"cycle": "2026", "documents": 4, "gaps": ["fee", "eligibility", "exam_pattern"], "id": "in-cuet-ug"}
+{"cycle": "2026", "documents": 8, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-cuet-pg"}
+{"cycle": "2026", "documents": 5, "gaps": ["fee", "eligibility", "exam_pattern"], "id": "in-cuet-ug"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-cwc-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-dfccil-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "in-dgca-pilot-exams"}
@@ -340,12 +340,12 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ib-acio"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ib-jio"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ib-security-assistant"}
-{"cycle": "2026-09", "documents": 3, "gaps": ["apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ibps-clerk"}
-{"cycle": null, "documents": 1, "gaps": ["apply", "exam_date", "fee", "age", "pay", "selection"], "id": "in-ibps-po"}
+{"cycle": "2026-09", "documents": 4, "gaps": ["apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ibps-clerk"}
+{"cycle": "2026", "documents": 2, "gaps": ["exam_date", "fee", "age", "pay", "selection"], "id": "in-ibps-po"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ibps-rrb-clerk"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ibps-rrb-po"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ibps-rrb-scale-2-3"}
-{"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ibps-so"}
+{"cycle": "2026", "documents": 1, "gaps": ["exam_date", "fee", "age", "selection"], "id": "in-ibps-so"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ibsat"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "in-icai-pqc"}
 {"cycle": "2026", "documents": 6, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-icar-aice-phd"}
@@ -470,7 +470,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-nspcl-gate-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-nspcl-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "in-nta-arpit"}
-{"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-nta-bbau"}
+{"cycle": "2023", "documents": 1, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-nta-bbau"}
 {"cycle": "2024", "documents": 1, "gaps": ["fee", "eligibility", "exam_pattern"], "id": "in-nta-biomedical-research"}
 {"cycle": "2023", "documents": 1, "gaps": ["vacancies", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-nta-cure"}
 {"cycle": "2022", "documents": 1, "gaps": ["apply", "exam_date", "fee", "exam_pattern"], "id": "in-nta-duet"}

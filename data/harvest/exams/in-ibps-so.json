@@ -1,0 +1,420 @@
+{
+ "schema": 1,
+ "exam": "in-ibps-so",
+ "name": "Common Recruitment Process for Specialist Officers",
+ "body": "in-ibps",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 2027,
+    "evidence": "RECRUITMENT OF SPECIALIST OFFICERS IN PARTICIPATING BANKS (Vacancies of 2027-28) Official Website: www.ibps.in In case of queries / complaints please log in to http://cgrs.ibps.in",
+    "page": 1,
+    "from": "text"
+   },
+   "source": {
+    "notice": "afd974ae9bb47333356b167e97c1242ff324518a9c1469f4c4ca51b73ffbeed9",
+    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+    "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2026-07-01",
+    "provisional": true,
+    "source": {
+     "notice": "afd974ae9bb47333356b167e97c1242ff324518a9c1469f4c4ca51b73ffbeed9",
+     "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+     "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
+     "kind": "advertisement",
+     "page": 6
+    }
+   },
+   "payment_deadline": {
+    "date": "2026-07-21",
+    "provisional": true,
+    "source": {
+     "notice": "afd974ae9bb47333356b167e97c1242ff324518a9c1469f4c4ca51b73ffbeed9",
+     "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+     "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
+     "kind": "advertisement",
+     "page": 15
+    }
+   },
+   "registration_deadline": {
+    "date": "2027-07-20",
+    "provisional": true,
+    "source": {
+     "notice": "afd974ae9bb47333356b167e97c1242ff324518a9c1469f4c4ca51b73ffbeed9",
+     "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+     "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
+     "kind": "advertisement",
+     "page": 6
+    }
+   },
+   "registration_open": {
+    "date": "2026-07-01",
+    "provisional": true,
+    "source": {
+     "notice": "afd974ae9bb47333356b167e97c1242ff324518a9c1469f4c4ca51b73ffbeed9",
+     "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+     "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
+     "kind": "advertisement",
+     "page": 15
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-07-01",
+    "until": "2027-07-20"
+   },
+   "source": {
+    "notice": "afd974ae9bb47333356b167e97c1242ff324518a9c1469f4c4ca51b73ffbeed9",
+    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+    "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
+    "kind": "advertisement",
+    "page": 6
+   }
+  },
+  "apply_links": {
+   "value": [
+    "http://www.ibps.in/",
+    "http://cgrs.ibps.in/",
+    "https://ibpsreg.ibps.in/crpspxvimy26/",
+    "https://www.ibps.in"
+   ],
+   "source": {
+    "notice": "afd974ae9bb47333356b167e97c1242ff324518a9c1469f4c4ca51b73ffbeed9",
+    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+    "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
+    "kind": "advertisement"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Postgraduate",
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "EDUCATIONAL QUALIFICATIONS 10 C",
+      "page": 2
+     },
+     {
+      "text": "Prospective candidates will have to apply to IBPS after carefully reading the notification regarding the process of examinations, interview and provisional allotment, eligibility criteria, online registration processes, payment of prescribed application fee/ intimation charges, pattern of…",
+      "page": 4
+     },
+     {
+      "text": "Candidates intending to apply for CRP SPL-XVI are advised to read the detailed Notification carefully and ensure that they fulfil the minimum eligibility criteria specified by IBPS in the notification on the stipulated dates before registering online",
+      "page": 5
+     },
+     {
+      "text": "Candidates may please note that the eligibility criteria specified is the basic criteria for appointment to the aforesaid posts in the Participating Banks",
+      "page": 5
+     },
+     {
+      "text": "Please note that the eligibility criteria specified herein is the basic criteria for applying for the post",
+      "page": 5
+     },
+     {
+      "text": "Candidates must necessarily produce the relevant documents in original and a photocopy in support of their identity and eligibility -pertaining to category, nationality, age, educational qualifications etc. as indicated in the online application form at the time of interview and any subsequent…",
+      "page": 5
+     },
+     {
+      "text": "Please note that no change of category and other eligibility criteria will be permitted at any stage after registration of the online application and expiry of ‘Edit Window’ for candidates to Modify/ Correct Application Form",
+      "page": 5
+     },
+     {
+      "text": "A candidate must have been born not earlier than 02.07.1996 and not later than 01.07.2006 (both dates inclusive)",
+      "page": 6
+     },
+     {
+      "text": "The candidate should possess a valid OBC certificate with a Non-creamy layer clause as per the Government of India guidelines, from time to time",
+      "page": 7
+     },
+     {
+      "text": " Both the candidate as well as scribe will have to give a suitable undertaking confirming that the scribe fulfils all the stipulated eligibility criteria for a scribe mentioned above",
+      "page": 10
+     },
+     {
+      "text": "EDUCATIONAL QUALIFICATIONS (AS ON 21.07.2026):",
+      "page": 13
+     },
+     {
+      "text": "Max-30 Years Forestry/Forestry/ Agricultural Biotechnology/ B.Tech Biotechnology/ Food Science/ Agriculture Business Management/ Food Technology/ Dairy Technology/ Agricultural Engineering/ Sericulture / Fisheries Engineering 03 Rajbhasha Adhikari (Scale I) Min- 20 Years Max-30 Years Post Graduate…",
+      "page": 14
+     },
+     {
+      "text": "(v) Mark sheets or certificates for educational qualifications",
+      "page": 20
+     },
+     {
+      "text": "All documents like Educational Qualification, Caste Certificates including OBC Non Creamy Layer certificate, EWS Certificate, Disability Certificate etc. will be verified with",
+      "page": 21
+     },
+     {
+      "text": "Verification of documents with regard to eligibility criteria will be carried out by the participating banks",
+      "page": 23
+     },
+     {
+      "text": "(5) Before applying for the mentioned specialist posts, the candidate should ensure that he/she fulfils the eligibility criteria and other norms mentioned in this notification",
+      "page": 31
+     },
+     {
+      "text": "My educational qualification is .",
+      "page": 59
+     }
+    ]
+   },
+   "source": {
+    "notice": "afd974ae9bb47333356b167e97c1242ff324518a9c1469f4c4ca51b73ffbeed9",
+    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+    "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
+    "kind": "advertisement"
+   }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "English Language",
+     "page": 16,
+     "questions": 25,
+     "marks": 25,
+     "duration": "20 minutes"
+    },
+    {
+     "paper": "Reasoning",
+     "page": 16,
+     "questions": 25,
+     "marks": 25,
+     "duration": "20 minutes"
+    },
+    {
+     "paper": "Quantitative Aptitude",
+     "page": 16,
+     "questions": 25,
+     "marks": 25,
+     "duration": "20 minutes"
+    },
+    {
+     "paper": "Professional Knowledge",
+     "page": 16,
+     "questions": 25,
+     "marks": 50,
+     "duration": "20 minutes"
+    },
+    {
+     "paper": "Total",
+     "page": 16,
+     "questions": 100,
+     "marks": 125,
+     "duration": "80 minutes"
+    },
+    {
+     "paper": "English Language",
+     "page": 16,
+     "questions": 25,
+     "marks": 25,
+     "duration": "20 minutes"
+    },
+    {
+     "paper": "Reasoning",
+     "page": 16,
+     "questions": 25,
+     "marks": 25,
+     "duration": "20 minutes"
+    },
+    {
+     "paper": "General Awareness with Special Reference to Banking Industry",
+     "page": 16,
+     "questions": 25,
+     "marks": 25,
+     "duration": "20 minutes"
+    },
+    {
+     "paper": "Professional Knowledge",
+     "page": 16,
+     "questions": 25,
+     "marks": 50,
+     "duration": "20 minutes"
+    },
+    {
+     "paper": "Total",
+     "page": 16,
+     "questions": 100,
+     "marks": 125,
+     "duration": "80 minutes"
+    },
+    {
+     "paper": "English Language",
+     "page": 16,
+     "questions": 30,
+     "marks": 30,
+     "duration": "25 minutes"
+    },
+    {
+     "paper": "Reasoning",
+     "page": 16,
+     "questions": 40,
+     "marks": 40,
+     "duration": "35 minutes"
+    },
+    {
+     "paper": "Quantitative Aptitude",
+     "page": 16,
+     "questions": 30,
+     "marks": 30,
+     "duration": "25 minutes"
+    },
+    {
+     "paper": "Professional Knowledge (Objective)",
+     "page": 16,
+     "questions": 50,
+     "marks": 100,
+     "duration": "40 minutes"
+    },
+    {
+     "paper": "Total",
+     "page": 16,
+     "questions": 150,
+     "marks": 200,
+     "duration": "125 minutes"
+    },
+    {
+     "paper": "English Language",
+     "page": 17,
+     "questions": 30,
+     "marks": 30,
+     "duration": "25 minutes"
+    },
+    {
+     "paper": "Reasoning",
+     "page": 17,
+     "questions": 40,
+     "marks": 40,
+     "duration": "35 minutes"
+    },
+    {
+     "paper": "General Awareness with Special Reference to Banking Industry",
+     "page": 17,
+     "questions": 30,
+     "marks": 30,
+     "duration": "20 minutes"
+    },
+    {
+     "paper": "Professional Knowledge (Objective)",
+     "page": 17,
+     "questions": 50,
+     "marks": 100,
+     "duration": "45 minutes"
+    },
+    {
+     "paper": "Total",
+     "page": 17,
+     "questions": 150,
+     "marks": 200,
+     "duration": "125 minutes"
+    },
+    {
+     "paper": "Professional Knowledge (Descriptive Paper)",
+     "page": 17,
+     "questions": 2,
+     "marks": 25,
+     "duration": "30 minutes"
+    },
+    {
+     "paper": "Total",
+     "page": 17,
+     "marks": 225,
+     "duration": "155 minutes"
+    },
+    {
+     "paper": "English Language",
+     "page": 17,
+     "questions": 30,
+     "marks": 30,
+     "duration": "25 minutes"
+    },
+    {
+     "paper": "Reasoning",
+     "page": 17,
+     "questions": 40,
+     "marks": 40,
+     "duration": "35 minutes"
+    },
+    {
+     "paper": "General Awareness with Special Reference to Banking Industry",
+     "page": 17,
+     "questions": 30,
+     "marks": 30,
+     "duration": "20 minutes"
+    },
+    {
+     "paper": "Professional Knowledge (Objective)",
+     "page": 17,
+     "questions": 50,
+     "marks": 100,
+     "duration": "45 minutes"
+    },
+    {
+     "paper": "Total",
+     "page": 17,
+     "questions": 150,
+     "marks": 200,
+     "duration": "125 minutes"
+    },
+    {
+     "paper": "Descriptive Paper (English)",
+     "page": 17,
+     "questions": 2,
+     "marks": 25,
+     "duration": "30 minutes"
+    },
+    {
+     "paper": "Total",
+     "page": 17,
+     "marks": 225,
+     "duration": "155 minutes"
+    }
+   ],
+   "source": {
+    "notice": "afd974ae9bb47333356b167e97c1242ff324518a9c1469f4c4ca51b73ffbeed9",
+    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+    "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
+    "kind": "advertisement"
+   }
+  },
+  "pay": {
+   "value": [
+    {
+     "levels": [
+      2
+     ],
+     "text": "Pay Level 2",
+     "evidence": "Regulatory Bodies) 01 IT Officer (Scale-I) Min- 20 Years Max-30 Years a) 4 year Engineering/ Technology Degree in Computer Science/ Computer Applications/ Information Technology/ Electronics/ Electronics & Telecommunications/ Electronics & Communication/ Electronics & Instrumentation OR b) Post…",
+     "page": 13
+    }
+   ],
+   "source": {
+    "notice": "afd974ae9bb47333356b167e97c1242ff324518a9c1469f4c4ca51b73ffbeed9",
+    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+    "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "exam_date",
+  "fee",
+  "age",
+  "selection"
+ ],
+ "older_documents": 0
+}

@@ -4,62 +4,402 @@
  "name": "Common Recruitment Process for Probationary Officers / Management Trainees",
  "body": "in-ibps",
  "purpose": "recruitment",
- "cycle": null,
- "documents": 1,
+ "cycle": "2026",
+ "documents": 2,
  "documents_in_cycle": 1,
  "fields": {
   "vacancies": {
    "value": {
-    "total": 2027,
-    "evidence": "RECRUITMENT OF PROBATIONARY OFFICERS/ MANAGEMENT TRAINEES AND SPECIALIST OFFICERS (Vacancies of 2027-28) IN PARTICIPATING BANKS Official Website: www.ibps.in In case of queries / complaints please log in to https://cgrs.ibps.in",
-    "page": 1,
-    "from": "text"
+    "total": 6715,
+    "by_category": {
+     "Unreserved": 2719,
+     "OBC": 1816,
+     "SC": 1009,
+     "ST": 502,
+     "EWS": 669,
+     "PwBD": 147,
+     "PwBD-B": 73
+    },
+    "rows": [
+     {
+      "label": "BANK OF BARODA",
+      "total": 1900,
+      "by_category": {
+       "SC": 285,
+       "ST": 142,
+       "OBC": 513,
+       "EWS": 190,
+       "Unreserved": 770,
+       "PwBD-B": 19,
+       "PwBD": 38
+      },
+      "page": 36
+     },
+     {
+      "label": "BANK OF INDIA",
+      "total": 500,
+      "by_category": {
+       "SC": 75,
+       "ST": 37,
+       "OBC": 135,
+       "EWS": 50,
+       "Unreserved": 203,
+       "PwBD-B": 5,
+       "PwBD": 10
+      },
+      "page": 36
+     },
+     {
+      "label": "BANK OF MAHARASHTRA",
+      "total": 1100,
+      "by_category": {
+       "SC": 165,
+       "ST": 82,
+       "OBC": 297,
+       "EWS": 110,
+       "Unreserved": 446,
+       "PwBD-B": 11,
+       "PwBD": 22
+      },
+      "page": 36
+     },
+     {
+      "label": "CANARA BANK",
+      "total": 1500,
+      "by_category": {
+       "SC": 225,
+       "ST": 112,
+       "OBC": 405,
+       "EWS": 150,
+       "Unreserved": 608,
+       "PwBD-B": 15,
+       "PwBD": 30
+      },
+      "page": 36
+     },
+     {
+      "label": "CENTRAL BANK OF INDIA",
+      "total": 500,
+      "by_category": {
+       "SC": 75,
+       "ST": 37,
+       "OBC": 135,
+       "EWS": 50,
+       "Unreserved": 203,
+       "PwBD-B": 5,
+       "PwBD": 10
+      },
+      "page": 36
+     },
+     {
+      "label": "INDIAN OVERSEAS BANK",
+      "total": 550,
+      "by_category": {
+       "SC": 84,
+       "ST": 41,
+       "OBC": 148,
+       "EWS": 54,
+       "Unreserved": 223,
+       "PwBD-B": 9,
+       "PwBD": 16
+      },
+      "page": 36
+     },
+     {
+      "label": "PUNJAB NATIONAL BANK",
+      "total": 504,
+      "by_category": {
+       "SC": 76,
+       "ST": 38,
+       "OBC": 136,
+       "EWS": 50,
+       "Unreserved": 204,
+       "PwBD-B": 5,
+       "PwBD": 10
+      },
+      "page": 36
+     },
+     {
+      "label": "PUNJAB & SIND BANK",
+      "total": 161,
+      "by_category": {
+       "SC": 24,
+       "ST": 13,
+       "OBC": 47,
+       "EWS": 15,
+       "Unreserved": 62,
+       "PwBD-B": 4,
+       "PwBD": 11
+      },
+      "page": 36
+     }
+    ],
+    "from": "table"
    },
    "source": {
-    "notice": "38897f9fb119ab3fa9087dbb72e385258f28e01c2d36100b66630c7c4ee10799",
-    "url": "https://www.ibps.in/wp-content/uploads/PO_SPL_Combined_Window_CRP-XVI.pdf",
-    "title": "30 Jun 26 Window Notification for CRP-PO/MTs -XVI and SPL-XVI",
+    "notice": "1ac7930fbb8685e302f21cf0ec1adfaa16ac7ea14c4b37d2a6b7641cbc9eb667",
+    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+    "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- PO/MTs-XVI",
+    "kind": "advertisement"
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2026-07-01",
+    "provisional": true,
+    "source": {
+     "notice": "1ac7930fbb8685e302f21cf0ec1adfaa16ac7ea14c4b37d2a6b7641cbc9eb667",
+     "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+     "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- PO/MTs-XVI",
+     "kind": "advertisement",
+     "page": 6
+    }
+   },
+   "payment_deadline": {
+    "date": "2026-07-21",
+    "provisional": true,
+    "source": {
+     "notice": "1ac7930fbb8685e302f21cf0ec1adfaa16ac7ea14c4b37d2a6b7641cbc9eb667",
+     "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+     "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- PO/MTs-XVI",
+     "kind": "advertisement",
+     "page": 15
+    }
+   },
+   "registration_deadline": {
+    "date": "2027-07-20",
+    "provisional": true,
+    "source": {
+     "notice": "1ac7930fbb8685e302f21cf0ec1adfaa16ac7ea14c4b37d2a6b7641cbc9eb667",
+     "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+     "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- PO/MTs-XVI",
+     "kind": "advertisement",
+     "page": 6
+    }
+   },
+   "registration_open": {
+    "date": "2026-07-01",
+    "provisional": true,
+    "source": {
+     "notice": "1ac7930fbb8685e302f21cf0ec1adfaa16ac7ea14c4b37d2a6b7641cbc9eb667",
+     "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+     "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- PO/MTs-XVI",
+     "kind": "advertisement",
+     "page": 15
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-07-01",
+    "until": "2027-07-20"
+   },
+   "source": {
+    "notice": "1ac7930fbb8685e302f21cf0ec1adfaa16ac7ea14c4b37d2a6b7641cbc9eb667",
+    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+    "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- PO/MTs-XVI",
     "kind": "advertisement",
-    "page": 1
+    "page": 6
    }
   },
   "apply_links": {
    "value": [
     "http://www.ibps.in/",
-    "https://cgrs.ibps.in/",
+    "http://cgrs.ibps.in/",
+    "https://ibpsreg.ibps.in/crppoxvijun26/",
     "https://www.ibps.in"
    ],
    "source": {
-    "notice": "38897f9fb119ab3fa9087dbb72e385258f28e01c2d36100b66630c7c4ee10799",
-    "url": "https://www.ibps.in/wp-content/uploads/PO_SPL_Combined_Window_CRP-XVI.pdf",
-    "title": "30 Jun 26 Window Notification for CRP-PO/MTs -XVI and SPL-XVI",
+    "notice": "1ac7930fbb8685e302f21cf0ec1adfaa16ac7ea14c4b37d2a6b7641cbc9eb667",
+    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+    "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- PO/MTs-XVI",
     "kind": "advertisement"
    }
   },
   "eligibility": {
    "value": {
+    "education_levels": [
+     "Graduate"
+    ],
     "clauses": [
      {
-      "text": "Candidates intending to apply are advised to read detailed Notification carefully and ensure that they fulfil the minimum eligibility criteria on the stipulated dates before registering online",
-      "page": 1
+      "text": "EDUCATIONAL QUALIFICATIONS 10 C",
+      "page": 2
+     },
+     {
+      "text": "Prospective candidates will have to apply at official IBPS website www.ibps.in after carefully reading the notification regarding the process of examinations, interview and provisional allotment, eligibility criteria, online registration processes, payment of prescribed application fee/ intimation…",
+      "page": 4
+     },
+     {
+      "text": "Candidates intending to apply for CRP-PO/MT-XVI are advised to read the detailed Notification carefully and ensure that they fulfil the minimum eligibility criteria specified by IBPS in the notification on the stipulated dates before registering online",
+      "page": 5
+     },
+     {
+      "text": "Candidates may please note that the eligibility criteria specified is the basic criteria for appointment to the aforesaid posts in the Participating Banks",
+      "page": 5
+     },
+     {
+      "text": "Please note that the eligibility criteria specified herein is the basic criteria for applying for the post",
+      "page": 5
+     },
+     {
+      "text": "Candidates must necessarily produce the relevant documents in original and a photocopy in support of their identity and eligibility -pertaining to category, nationality, age, educational qualifications etc. as indicated in the online application form at the time of interview and any subsequent…",
+      "page": 5
+     },
+     {
+      "text": "Please note that no change of category and other eligibility criteria will be permitted at any stage after registration of the online application and expiry of ‘Edit Window’ for candidates to Modify/ Correct Application Form",
+      "page": 5
+     },
+     {
+      "text": "A candidate must have been born not earlier than 02.07.1996 and not later than 01.07.2006 (both dates inclusive)",
+      "page": 6
+     },
+     {
+      "text": "The candidate should possess a valid OBC certificate with a Non-creamy layer clause as per the Government of India guidelines, from time to time",
+      "page": 7
+     },
+     {
+      "text": " Both the candidate as well as scribe will have to give a suitable undertaking confirming that the scribe fulfils all the stipulated eligibility criteria for a scribe mentioned above",
+      "page": 10
+     },
+     {
+      "text": "EDUCATIONAL QUALIFICATIONS (As on 21.07.2026):",
+      "page": 13
+     },
+     {
+      "text": "(1) All the educational qualifications mentioned should be from a University/ Institution/ Board recognised by Govt",
+      "page": 14
+     },
+     {
+      "text": "All documents like Educational Qualification, Caste Certificates including OBC Non Creamy Layer certificate, EWS Certificate, Disability Certificate etc. will be verified with the concerned issuing authority to ensure the veracity and validity of the same as and when required",
+      "page": 20
+     },
+     {
+      "text": "Verification of documents with regard to eligibility criteria will be carried out by the participating banks",
+      "page": 21
+     },
+     {
+      "text": "(5) Before applying for the post, the candidate should ensure that he/she fulfils the eligibility criteria and other norms mentioned in this notification",
+      "page": 29
+     },
+     {
+      "text": "My educational qualification is .",
+      "page": 54
      }
     ]
    },
    "source": {
-    "notice": "38897f9fb119ab3fa9087dbb72e385258f28e01c2d36100b66630c7c4ee10799",
-    "url": "https://www.ibps.in/wp-content/uploads/PO_SPL_Combined_Window_CRP-XVI.pdf",
-    "title": "30 Jun 26 Window Notification for CRP-PO/MTs -XVI and SPL-XVI",
+    "notice": "1ac7930fbb8685e302f21cf0ec1adfaa16ac7ea14c4b37d2a6b7641cbc9eb667",
+    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+    "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- PO/MTs-XVI",
+    "kind": "advertisement"
+   }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "English Language",
+     "page": 15,
+     "questions": 30,
+     "marks": 30,
+     "duration": "20 minutes"
+    },
+    {
+     "paper": "Quantitative Aptitude",
+     "page": 15,
+     "questions": 35,
+     "marks": 30,
+     "duration": "20 minutes"
+    },
+    {
+     "paper": "Reasoning Ability",
+     "page": 15,
+     "questions": 35,
+     "marks": 40,
+     "duration": "20 minutes"
+    },
+    {
+     "paper": "Total",
+     "page": 15,
+     "questions": 100,
+     "marks": 100,
+     "duration": "60 Minutes"
+    },
+    {
+     "paper": "Reasoning",
+     "page": 15,
+     "questions": 40,
+     "marks": 60,
+     "duration": "45 minutes"
+    },
+    {
+     "paper": "General/ Economy/",
+     "page": 15,
+     "questions": 50,
+     "marks": 60,
+     "duration": "35 minutes"
+    },
+    {
+     "paper": "Banking",
+     "page": 15
+    },
+    {
+     "paper": "Awareness /",
+     "page": 15
+    },
+    {
+     "paper": "Digital/ Financial",
+     "page": 15
+    },
+    {
+     "paper": "Awareness",
+     "page": 15
+    },
+    {
+     "paper": "including RBI",
+     "page": 15
+    },
+    {
+     "paper": "circulars",
+     "page": 15
+    },
+    {
+     "paper": "English Language",
+     "page": 15,
+     "questions": 40,
+     "marks": 20,
+     "duration": "35 minutes"
+    },
+    {
+     "paper": "Data Analysis & Interpretation",
+     "page": 15,
+     "questions": 40,
+     "marks": 60,
+     "duration": "45 minutes"
+    },
+    {
+     "paper": "Interpretation",
+     "page": 15
+    },
+    {
+     "paper": "TOTAL",
+     "page": 15
+    }
+   ],
+   "source": {
+    "notice": "1ac7930fbb8685e302f21cf0ec1adfaa16ac7ea14c4b37d2a6b7641cbc9eb667",
+    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+    "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- PO/MTs-XVI",
     "kind": "advertisement"
    }
   }
  },
  "gaps": [
-  "apply",
   "exam_date",
   "fee",
   "age",
   "pay",
   "selection"
  ],
- "older_documents": 0
+ "older_documents": 1
 }
