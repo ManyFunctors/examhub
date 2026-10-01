@@ -2,9 +2,12 @@
      No status pill, no date: it links to the stub page, which links out to the
      conducting body's own site. */ -}}
 {{- with . -}}
+{{- /* Search matches the title's text plus these two attributes and nothing else (see
+     initFilters in site.js) -- the short name people actually search belongs in the
+     title, same as a real exam card, not the long official name. */ -}}
 <a class="card card--tracked" href="{{ .RelPermalink }}" data-f-body="{{ .Params.body_name }}">
   <span class="card__status pill pill--tracked">Not Yet Announced</span>
-  <p class="card__body-name">{{ .Params.body_name }}</p>
-  <h3 class="card__title">{{ .Params.name | default .Title }}</h3>
+  <p class="card__body-name">{{ .Params.body_name }}{{ with .Params.name }} · {{ . }}{{ end }}</p>
+  <h3 class="card__title">{{ .Title }}</h3>
 </a>
 {{- end -}}
