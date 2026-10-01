@@ -1,0 +1,702 @@
+# Catalogue: Bihar. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "br-bpsc"
+name = "Bihar Public Service Commission"
+short_name = "BPSC"
+jurisdiction = "br"
+kind = "public_service_commission"
+website = "https://bpsc.bihar.gov.in/"
+hosts = ["bpsc.bihar.gov.in", "bpsconline.bihar.gov.in", "onlinebpsc.bihar.gov.in"]
+status = "active"
+
+[[bodies]]
+id = "br-bssc"
+name = "Bihar Staff Selection Commission"
+short_name = "BSSC"
+jurisdiction = "br"
+kind = "staff_selection_board"
+website = "https://bssc.bihar.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "br-csbc"
+name = "Central Selection Board of Constable, Bihar"
+short_name = "CSBC Bihar"
+jurisdiction = "br"
+kind = "police_recruitment_board"
+website = "https://csbc.bihar.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "br-bpssc"
+name = "Bihar Police Subordinate Services Commission"
+short_name = "BPSSC"
+jurisdiction = "br"
+kind = "police_recruitment_board"
+website = "https://bpssc.bihar.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "br-bseb"
+name = "Bihar School Examination Board"
+short_name = "BSEB"
+jurisdiction = "br"
+kind = "school_board"
+website = "https://biharboardonline.bihar.gov.in/"
+hosts = ["biharboardonline.bihar.gov.in", "secondary.biharboardonline.com", "bsebstet.org", "biharboardonline.com"]
+status = "active"
+
+[[bodies]]
+id = "br-bceceb"
+name = "Bihar Combined Entrance Competitive Examination Board"
+short_name = "BCECEB"
+jurisdiction = "br"
+kind = "testing_agency"
+website = "https://bceceboard.bihar.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "br-bed-cet-nodal"
+name = "Bihar B.Ed. Common Entrance Test (nodal university)"
+short_name = "Bihar B.Ed CET"
+jurisdiction = "br"
+kind = "university"
+website = "https://biharcetbed-lnmu.in/"
+status = "active"
+notes = "Nodal university rotates (LNMU Darbhanga, Nalanda Open University)."
+
+[[bodies]]
+id = "br-patna-hc"
+name = "Patna High Court"
+short_name = "Patna HC"
+jurisdiction = "br"
+kind = "court"
+website = "https://patnahighcourt.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "br-bsphcl"
+name = "Bihar State Power (Holding) Company Ltd."
+short_name = "BSPHCL"
+jurisdiction = "br"
+kind = "psu"
+website = "https://www.bsphcl.co.in/"
+status = "active"
+
+[[bodies]]
+id = "br-shsb"
+name = "State Health Society, Bihar"
+short_name = "SHS Bihar"
+jurisdiction = "br"
+kind = "health_recruitment"
+website = "https://shs.bihar.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "br-btsc"
+name = "Bihar Technical Service Commission"
+short_name = "BTSC"
+jurisdiction = "br"
+kind = "staff_selection_board"
+website = "https://btsc.bihar.gov.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "br-bpsc/advertisements"
+body = "br-bpsc"
+url = "https://bpsc.bihar.gov.in/advertisement/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "br-bpsc/notices"
+body = "br-bpsc"
+url = "https://bpsc.bihar.gov.in/notices/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "br-bpsc/calendar"
+body = "br-bpsc"
+url = "https://bpsc.bihar.gov.in/exam-calendar/"
+adapter = "html_links"
+yields = "calendar"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "br-bssc/home"
+body = "br-bssc"
+url = "https://bssc.bihar.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "br-csbc/home"
+body = "br-csbc"
+url = "https://csbc.bihar.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "br-bpssc/home"
+body = "br-bpssc"
+url = "https://bpssc.bihar.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "br-bseb/home"
+body = "br-bseb"
+url = "https://biharboardonline.bihar.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "br-bceceb/home"
+body = "br-bceceb"
+url = "https://bceceboard.bihar.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "br-bed-cet-nodal/home"
+body = "br-bed-cet-nodal"
+url = "https://biharcetbed-lnmu.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "br-patna-hc/recruitment"
+body = "br-patna-hc"
+url = "https://patnahighcourt.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "br-bsphcl/home"
+body = "br-bsphcl"
+url = "https://www.bsphcl.co.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "br-shsb/home"
+body = "br-shsb"
+url = "https://shs.bihar.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "br-btsc/home"
+body = "br-btsc"
+url = "https://btsc.bihar.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "br-patna-hc/recruitments"
+body = "br-patna-hc"
+url = "https://patnahighcourt.gov.in/notices/recruitments"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Recruitments)."
+
+[[feeds]]
+id = "br-bceceb/notice-board"
+body = "br-bceceb"
+url = "https://bceceboard.bihar.gov.in/NoticeBoard.php"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Notice Board)."
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "br-bpsc-cce"
+name = "BPSC Integrated Combined Competitive Examination"
+known_as = ["BPSC CCE", "BPSC 70th", "BPSC 71st"]
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-bpsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['combined\s*competitive', '\bCCE\b', '\b\d{2}(st|nd|rd|th)\s*CCE'] }
+status = "active"
+
+[[exams]]
+id = "br-bpsc-ae"
+name = "BPSC Assistant Engineer / Engineering Services Examination"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-bpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "br-bpsc-lecturer"
+name = "BPSC Lecturer / Assistant Professor Recruitment"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-bpsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "br-bpsc-judicial"
+name = "BPSC Civil Judge (Junior Division) / Judicial Services Examination"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-bpsc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', '\bPCS[-\s]*\(?J\)?', 'judicial\s*magistrate'] }
+status = "active"
+
+[[exams]]
+id = "br-bpsc-other"
+name = "BPSC Recruitment to other posts (umbrella)"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-bpsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "br-bpsc-tre"
+name = "BPSC Teacher Recruitment Examination (TRE)"
+short_name = "BPSC TRE"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-bpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bTRE\b', 'teacher\s*recruitment', 'school\s*teacher', 'head\s*(teacher|master)'] }
+status = "active"
+
+[[exams]]
+id = "br-bssc-inter"
+name = "BSSC Inter Level Combined Competitive Examination"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-bssc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["clerical"]
+match = { any = ['inter\s*level', 'intermediate\s*level'] }
+status = "active"
+
+[[exams]]
+id = "br-bssc-graduate"
+name = "BSSC Graduate Level Combined Competitive Examination (CGL)"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-bssc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["clerical"]
+match = { any = ['graduate\s*level', '\bCGL\b'] }
+status = "active"
+
+[[exams]]
+id = "br-bssc-matric"
+name = "BSSC Matric Level Examination (Office Attendant)"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-bssc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["multi_tasking"]
+match = { any = ['matric\s*level', 'office\s*attendant'] }
+status = "active"
+
+[[exams]]
+id = "br-bssc-steno"
+name = "BSSC Stenographer"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-bssc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["stenography"]
+match = { any = ["steno"] }
+status = "active"
+
+[[exams]]
+id = "br-csbc-constable"
+name = "CSBC Bihar Police Constable Recruitment"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-csbc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", "sipahi|sepoy", '\bPC\b'] }
+status = "active"
+
+[[exams]]
+id = "br-csbc-si"
+name = "CSBC Bihar Sub-Inspector Recruitment"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-csbc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
+status = "active"
+
+[[exams]]
+id = "br-csbc-fireman-driver"
+name = "CSBC Fireman / Driver Constable / Excise Constable / Prohibition"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-csbc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ['fire\s*man|fireman', 'driver\s*constable', 'excise|prohibition|madya\s*nishedh', 'special\s*branch', "operator"] }
+status = "active"
+
+[[exams]]
+id = "br-bpssc-si"
+name = "Bihar Police Sub-Inspector (Daroga) / Sergeant / ASJ"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-bpssc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', "daroga", "sergeant", 'assistant\s*superintendent\s*jail'] }
+status = "active"
+
+[[exams]]
+id = "br-bpssc-asi-steno"
+name = "Bihar Police ASI (Steno)"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-bpssc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police", "stenography"]
+match = { any = ['\bASI\b', "steno"] }
+status = "active"
+
+[[exams]]
+id = "br-bpssc-excise-si"
+name = "Bihar Prohibition / Excise Sub-Inspector"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-bpssc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ["prohibition|excise|madya"] }
+status = "active"
+
+[[exams]]
+id = "br-bseb-class-10"
+name = "BSEB Matric (Annual Secondary) Examination"
+jurisdiction = "br"
+purpose = "school_board"
+conducted_by = "br-bseb"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ["matric", "secondary", 'class\s*(X|10)\b'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "br-bseb-class-12"
+name = "BSEB Intermediate (Annual) Examination"
+jurisdiction = "br"
+purpose = "school_board"
+conducted_by = "br-bseb"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['intermediate|\binter\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "br-stet"
+name = "Bihar Secondary Teacher Eligibility Test"
+short_name = "Bihar STET"
+jurisdiction = "br"
+purpose = "eligibility"
+conducted_by = "br-bseb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bSTET\b'] }
+status = "active"
+
+[[exams]]
+id = "br-btet"
+name = "Bihar Teacher Eligibility Test (Primary)"
+short_name = "BTET"
+jurisdiction = "br"
+purpose = "eligibility"
+conducted_by = "br-bseb"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['\bBTET\b'] }
+status = "active"
+
+[[exams]]
+id = "br-deled-entrance"
+name = "Bihar D.El.Ed. Joint Entrance Examination"
+jurisdiction = "br"
+purpose = "admission"
+conducted_by = "br-bseb"
+frequency = "annual"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['D\.?\s*El\.?\s*Ed'] }
+status = "active"
+
+[[exams]]
+id = "br-simultala"
+name = "Simultala Awasiya Vidyalaya Entrance"
+jurisdiction = "br"
+purpose = "admission"
+conducted_by = "br-bseb"
+frequency = "annual"
+qualification = "class_5"
+streams = ["school"]
+match = { any = ["simultala"] }
+status = "active"
+
+[[exams]]
+id = "br-bcece"
+name = "Bihar Combined Entrance Competitive Examination (B.Sc Agri, Pharmacy, Nursing)"
+short_name = "BCECE"
+jurisdiction = "br"
+purpose = "admission"
+conducted_by = "br-bceceb"
+frequency = "annual"
+qualification = "class_12"
+streams = ["agriculture", "pharmacy", "nursing"]
+match = { any = ['\bBCECE\b(?!.*LE)'] }
+status = "active"
+
+[[exams]]
+id = "br-dcece"
+name = "Diploma Certificate Entrance Competitive Examination (Polytechnic)"
+short_name = "DCECE"
+jurisdiction = "br"
+purpose = "admission"
+conducted_by = "br-bceceb"
+frequency = "annual"
+qualification = "class_10"
+streams = ["engineering"]
+match = { any = ['\bDCECE\b', "polytechnic"] }
+status = "active"
+
+[[exams]]
+id = "br-bcece-le"
+name = "BCECE Lateral Entry (B.Tech 2nd year)"
+jurisdiction = "br"
+purpose = "admission"
+conducted_by = "br-bceceb"
+frequency = "annual"
+qualification = "diploma"
+streams = ["engineering"]
+match = { any = ['lateral\s*entry', 'BCECE\s*\(?\s*LE'] }
+status = "active"
+
+[[exams]]
+id = "br-cet-ped"
+name = "Bihar CET for B.P.Ed. / M.P.Ed. / ITI instructors"
+jurisdiction = "br"
+purpose = "admission"
+conducted_by = "br-bceceb"
+frequency = "annual"
+qualification = "graduate"
+streams = ["sports", "teaching"]
+match = { any = ['B\.?\s*P\.?\s*Ed', 'M\.?\s*P\.?\s*Ed', 'ITI\s*CAT'] }
+status = "active"
+
+[[exams]]
+id = "br-pgmac"
+name = "Bihar PG Medical Admission Counselling / UGMAC"
+jurisdiction = "br"
+purpose = "admission"
+conducted_by = "br-bceceb"
+frequency = "annual"
+qualification = "professional"
+streams = ["medical"]
+match = { any = ["PGMAC", "UGMAC", "UGDAC"] }
+status = "active"
+
+[[exams]]
+id = "br-bed-cet"
+name = "Bihar B.Ed. Common Entrance Test"
+jurisdiction = "br"
+purpose = "admission"
+conducted_by = "br-bed-cet-nodal"
+frequency = "annual"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['B\.?\s*Ed'] }
+status = "active"
+
+[[exams]]
+id = "br-patna-hc-staff"
+name = "Patna HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-patna-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "br-bsphcl-recruitment"
+name = "BSPHCL Recruitment (AEE, JEE, Technician, Clerk)"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-bsphcl"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["engineering", "technical"]
+match = { any = ["recruitment", "technician", 'junior\s*electrical', '\bAEE\b|\bJEE\b', "clerk"] }
+status = "active"
+
+[[exams]]
+id = "br-shsb-cho"
+name = "State Health Society Bihar CHO and contractual recruitment"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-shsb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["nursing", "allied_health"]
+match = { any = ['community\s*health\s*officer', '\bCHO\b', "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "br-btsc-recruitment"
+name = "BTSC Recruitment (JE, Medical Officer, Staff Nurse, Pharmacist, ANM)"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-btsc"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["engineering", "medical", "nursing"]
+match = { any = ['junior\s*engineer', 'medical\s*officer', 'staff\s*nurse|\bGNM\b|\bANM\b', "pharmacist", "recruitment|advt"] }
+status = "active"
+
+[[exams]]
+id = "br-bceceb-ugeac"
+name = "UGEAC"
+jurisdiction = "br"
+purpose = "admission"
+conducted_by = "br-bceceb"
+frequency = "irregular"
+match = { any = ["(?<![A-Za-z])UGEAC(?![A-Za-z])"] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "br-bceceb-pgdac"
+name = "PGDAC"
+jurisdiction = "br"
+purpose = "admission"
+conducted_by = "br-bceceb"
+frequency = "irregular"
+match = { any = ["(?<![A-Za-z])PGDAC(?![A-Za-z])"] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "br-bceceb-pgeac"
+name = "PGEAC"
+jurisdiction = "br"
+purpose = "admission"
+conducted_by = "br-bceceb"
+frequency = "irregular"
+match = { any = ["(?<![A-Za-z])PGEAC(?![A-Za-z])"] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "br-btsc-food-safety-officer"
+name = "BTSC Food Safety Officer Recruitment"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-btsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Food[\s\-_./()]*Safety[\s\-_./()]*Officer(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "br-btsc-scientific-assistant"
+name = "BTSC Scientific Assistant Recruitment"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-btsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Scientific[\s\-_./()]*Assistant(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "br-btsc-touring-veterinary-officer-and-equivalent"
+name = "BTSC Touring Veterinary Officer and Equivalent Recruitment"
+jurisdiction = "br"
+purpose = "recruitment"
+conducted_by = "br-btsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Touring[\s\-_./()]*Veterinary[\s\-_./()]*Officer[\s\-_./()]*and[\s\-_./()]*Equivalent(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."

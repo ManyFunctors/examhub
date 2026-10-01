@@ -1,0 +1,72 @@
+{{- /* Plain CSS, minified and fingerprinted: one sheet every page shares (cached across
+     pages), plus one for the home page or for exam pages. */ -}}
+{{- $css := slice
+      (resources.Get "css/tokens.css")
+      (resources.Get "css/base.css")
+      (resources.Get "css/layout.css")
+      (resources.Get "css/sidebar.css")
+      (resources.Get "css/cards.css")
+      (resources.Get "css/shared.css")
+      (resources.Get "css/theme-switch.css")
+    | resources.Concat "css/examhub.css"
+    | minify
+    | fingerprint -}}
+{{- $pageCSS := "" -}}
+{{- /* The browse pages: home, the /YYYY-MM/ month pages and the index pages. */ -}}
+{{- $browse := or .IsHome (isset .Params "month") (isset .Params "axis") -}}
+{{- if $browse -}}
+  {{- $pageCSS = slice (resources.Get "css/browse.css") (resources.Get "css/chips.css") (resources.Get "css/dates.css") (resources.Get "css/v2-home.css")
+      | resources.Concat "css/home.css" | minify | fingerprint -}}
+{{- else if and .IsPage (eq .Section "exams") -}}
+  {{- $pageCSS = slice (resources.Get "css/exam.css") (resources.Get "css/chips.css") (resources.Get "css/v2.css")
+      | resources.Concat "css/exam-page.css" | minify | fingerprint -}}
+{{- end -}}
+<!DOCTYPE html>
+<html lang="{{ site.Language.Locale | default "en" }}" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}" />
+    {{- /* Instant scroll during load, so the restored position doesn't
+           animate; site.js turns smooth scrolling back on. */}}
+    <script>document.documentElement.style.scrollBehavior = "auto";
+      {{- /* Script-only controls show under .js; without it the page is a plain document. */}}
+      document.documentElement.classList.replace("no-js", "js");
+      {{- /* The saved Grid/List view, set before first paint so it doesn't flash. */}}
+      try { if (localStorage.getItem("examhub-view") === "dates") document.documentElement.setAttribute("data-start-view", "dates"); } catch (e) {}</script>
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
+    {{- with $pageCSS }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" />
+    {{- end }}
+    {{ partial "fonts.html" . }}
+    {{- with site.Home.OutputFormats.Get "rss" }}
+    <link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ site.Title }}" />
+    {{- end }}
+    {{ partial "head-favicon.html" . }}
+  </head>
+  {{- /* Skip link target: search on home, Official Links on an exam page that has any, else the
+     main column. */ -}}
+  {{- $isExamPage := and .IsPage (eq (partialCached "v2/params.html" . .RelPermalink).section "exams") -}}
+  {{- $hasOfficial := and $isExamPage (or (partialCached "v2/params.html" . .RelPermalink).official_url (partialCached "v2/params.html" . .RelPermalink).apply_url (partialCached "v2/params.html" . .RelPermalink).syllabus_url (partialCached "v2/params.html" . .RelPermalink).admit_card_url (partialCached "v2/params.html" . .RelPermalink).result_url) -}}
+  {{- $skipTarget := cond (or .IsHome (isset .Params "month")) "#filter-q" (cond $hasOfficial "#official-links" "#main") -}}
+  <body>
+    <a class="skip-link" href="{{ $skipTarget }}">Skip to content</a>
+    {{ partial "header.html" . }}
+    <div class="scrim" id="scrim" aria-hidden="true"></div>
+    <div class="layout{{ if (partialCached "v2/params.html" . .RelPermalink).toc }} layout--toc{{ end }}">
+      {{ partial "sidebar.html" . }}
+      {{- /* exam pages get their own layout class */ -}}
+      {{- $isExam := and .IsPage (eq (partialCached "v2/params.html" . .RelPermalink).section "exams") -}}
+      {{- /* home is full width; other pages keep the reading measure */ -}}
+      {{- $isWide := or (partialCached "v2/params.html" . .RelPermalink).wide .IsHome (isset .Params "month") -}}
+      <main class="content{{ if $isWide }} content--wide{{ end }}{{ if $isExam }} content--exam{{ end }}" id="main" tabindex="-1">
+        <div class="content__inner">
+          {{ block "main" . }}{{ end }}
+        </div>
+      </main>
+      {{ if (partialCached "v2/params.html" . .RelPermalink).toc }}{{ partial "toc.html" . }}{{ end }}
+    </div>
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

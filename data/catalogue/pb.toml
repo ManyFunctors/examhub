@@ -1,0 +1,376 @@
+# Catalogue: Punjab. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "pb-ppsc"
+name = "Punjab Public Service Commission"
+short_name = "PPSC"
+jurisdiction = "pb"
+kind = "public_service_commission"
+website = "https://ppsc.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "pb-psssb"
+name = "Punjab Subordinate Service Selection Board"
+short_name = "PSSSB"
+jurisdiction = "pb"
+kind = "staff_selection_board"
+website = "https://sssb.punjab.gov.in/"
+status = "active"
+notes = "TLS legacy renegotiation; the host is sssb (two s), every other spelling is NXDOMAIN."
+
+[[bodies]]
+id = "pb-pseb"
+name = "Punjab School Education Board"
+short_name = "PSEB"
+jurisdiction = "pb"
+kind = "school_board"
+website = "https://www.pseb.ac.in/"
+status = "active"
+
+[[bodies]]
+id = "pb-police"
+name = "Punjab Police"
+short_name = "Punjab Police"
+jurisdiction = "pb"
+kind = "police_recruitment_board"
+website = "https://www.punjabpolice.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "pb-erb"
+name = "Education Recruitment Board, Punjab"
+short_name = "Punjab ERB"
+jurisdiction = "pb"
+kind = "teacher_recruitment_board"
+website = "https://educationrecruitmentboard.com/"
+status = "active"
+
+[[bodies]]
+id = "pb-pspcl"
+name = "Punjab State Power Corporation Ltd."
+short_name = "PSPCL"
+jurisdiction = "pb"
+kind = "psu"
+website = "https://pspcl.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "pb-ppsc/home"
+body = "pb-ppsc"
+url = "https://ppsc.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "pb-psssb/home"
+body = "pb-psssb"
+url = "https://sssb.punjab.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "pb-pseb/home"
+body = "pb-pseb"
+url = "https://www.pseb.ac.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "pb-police/home"
+body = "pb-police"
+url = "https://www.punjabpolice.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "pb-erb/home"
+body = "pb-erb"
+url = "https://educationrecruitmentboard.com/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "pb-pspcl/home"
+body = "pb-pspcl"
+url = "https://pspcl.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "pb-psssb/advertisements-notices-circulars"
+body = "pb-psssb"
+url = "https://sssb.punjab.gov.in/previous-advertisements/"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Advertisements/Notices/Circulars)."
+
+[[feeds]]
+id = "pb-psssb/results"
+body = "pb-psssb"
+url = "https://sssb.punjab.gov.in/previous-results/"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Results)."
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "pb-ppsc-pcs"
+name = "Punjab State Civil Services Combined Competitive Examination"
+known_as = ["Punjab PCS"]
+jurisdiction = "pb"
+purpose = "recruitment"
+conducted_by = "pb-ppsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['civil\s*services\s*combined', '\bPCS\b(?![-\s]*\(?J)'] }
+status = "active"
+
+[[exams]]
+id = "pb-ppsc-ae"
+name = "PPSC Assistant Engineer / Engineering Services Examination"
+jurisdiction = "pb"
+purpose = "recruitment"
+conducted_by = "pb-ppsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "pb-ppsc-lecturer"
+name = "PPSC Lecturer / Assistant Professor Recruitment"
+jurisdiction = "pb"
+purpose = "recruitment"
+conducted_by = "pb-ppsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "pb-ppsc-judicial"
+name = "PPSC Civil Judge (Junior Division) / Judicial Services Examination"
+jurisdiction = "pb"
+purpose = "recruitment"
+conducted_by = "pb-ppsc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', '\bPCS[-\s]*\(?J\)?', 'judicial\s*magistrate'] }
+status = "active"
+
+[[exams]]
+id = "pb-ppsc-other"
+name = "PPSC Recruitment to other posts (umbrella)"
+jurisdiction = "pb"
+purpose = "recruitment"
+conducted_by = "pb-ppsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "pb-ppsc-naib-tehsildar"
+name = "PPSC Naib Tehsildar"
+jurisdiction = "pb"
+purpose = "recruitment"
+conducted_by = "pb-ppsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["clerical"]
+match = { any = ['naib\s*tehsildar'] }
+status = "active"
+
+[[exams]]
+id = "pb-ppsc-registers"
+name = "PPSC Register A-II / Register C (Departmental)"
+jurisdiction = "pb"
+purpose = "departmental"
+conducted_by = "pb-ppsc"
+frequency = "biannual"
+streams = ["clerical"]
+match = { any = ['register\s*(A[-\s]*II|C)\b'] }
+status = "active"
+
+[[exams]]
+id = "pb-psssb-clerk"
+name = "PSSSB Clerk / Clerk-cum-Data Entry Operator"
+jurisdiction = "pb"
+purpose = "recruitment"
+conducted_by = "pb-psssb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["clerical"]
+match = { any = ["clerk"] }
+status = "active"
+
+[[exams]]
+id = "pb-psssb-patwari"
+name = "PSSSB Patwari / Revenue Patwari"
+jurisdiction = "pb"
+purpose = "recruitment"
+conducted_by = "pb-psssb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["clerical"]
+match = { any = ["patwari"] }
+status = "active"
+
+[[exams]]
+id = "pb-psssb-group-d"
+name = "PSSSB Group D"
+jurisdiction = "pb"
+purpose = "recruitment"
+conducted_by = "pb-psssb"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["multi_tasking"]
+match = { any = ["group\\s*['‘’]?\\s*D\\b"] }
+status = "active"
+
+[[exams]]
+id = "pb-psssb-excise-inspector"
+name = "PSSSB Excise and Taxation Inspector"
+jurisdiction = "pb"
+purpose = "recruitment"
+conducted_by = "pb-psssb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["clerical"]
+match = { any = ["excise", 'taxation\s*inspector'] }
+status = "active"
+
+[[exams]]
+id = "pb-psssb-other"
+name = "PSSSB other recruitment (umbrella)"
+jurisdiction = "pb"
+purpose = "recruitment"
+conducted_by = "pb-psssb"
+frequency = "multiple"
+qualification = "class_12"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc"] }
+status = "active"
+
+[[exams]]
+id = "pb-pseb-class-10"
+name = "PSEB Matriculation Examination"
+jurisdiction = "pb"
+purpose = "school_board"
+conducted_by = "pb-pseb"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['class\s*(X|10)\b', '\b(SSC|SSLC|HSLC|matric|madhyamik|secondary)\b(?!.*higher)'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "pb-pseb-class-12"
+name = "PSEB Senior Secondary Examination"
+jurisdiction = "pb"
+purpose = "school_board"
+conducted_by = "pb-pseb"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['class\s*(XII|12)\b', '\b(HSC|HSSC|intermediate|inter|higher\s*secondary|uchha|plus\s*two|\+2|PUC)\b'] }
+status = "active"
+
+[[exams]]
+id = "pb-pstet"
+name = "Punjab State Teacher Eligibility Test"
+short_name = "PSTET"
+jurisdiction = "pb"
+purpose = "eligibility"
+conducted_by = "pb-pseb"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['\bPSTET\b', 'teacher\s*eligibility'] }
+status = "active"
+
+[[exams]]
+id = "pb-police-constable"
+name = "Punjab Police Police Constable Recruitment"
+jurisdiction = "pb"
+purpose = "recruitment"
+conducted_by = "pb-police"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", "sipahi|sepoy", '\bPC\b'] }
+status = "active"
+
+[[exams]]
+id = "pb-police-si"
+name = "Punjab Police Sub-Inspector Recruitment"
+jurisdiction = "pb"
+purpose = "recruitment"
+conducted_by = "pb-police"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
+status = "active"
+
+[[exams]]
+id = "pb-master-cadre"
+name = "Punjab Master Cadre / ETT / Lecturer Recruitment"
+jurisdiction = "pb"
+purpose = "recruitment"
+conducted_by = "pb-erb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['master\s*cadre', '\bETT\b', "lecturer", "teacher"] }
+status = "active"
+
+[[exams]]
+id = "pb-pspcl-recruitment"
+name = "PSPCL Recruitment (ALM, AE, LDC, JE)"
+jurisdiction = "pb"
+purpose = "recruitment"
+conducted_by = "pb-pspcl"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["engineering", "technical"]
+match = { any = ['\bALM\b', "lineman", 'assistant\s*engineer', '\bLDC\b', 'junior\s*engineer', "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "pb-ppsc-joint-competitive"
+name = "PPSC Joint Competitive Examination"
+jurisdiction = "pb"
+purpose = "recruitment"
+conducted_by = "pb-ppsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Joint[\s\-_./()]*Competitive[\s\-_./()]*Examination(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."

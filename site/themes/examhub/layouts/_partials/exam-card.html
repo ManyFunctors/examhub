@@ -1,0 +1,46 @@
+{{- /* Exam card. Takes a page, or a dict with the page and the month's first date on it
+     (the chip and order the month view shows). */ -}}
+{{- $chip := false -}}{{- $order := "" -}}
+{{- $page := . -}}
+{{- if reflect.IsMap . }}{{ $page = .page }}{{ $chip = .chip }}{{ $order = .order }}{{ end -}}
+{{- with $page -}}
+{{- $st := partialCached "exam-status.html" . .RelPermalink -}}
+{{- /* The kinds of dated milestone this record has. */ -}}
+{{- $kinds := slice -}}
+{{- range (partialCached "milestones.html" . .RelPermalink) -}}
+  {{- $kinds = $kinds | append .kind -}}
+{{- end -}}
+{{- $kinds = $kinds | uniq | sort -}}
+{{- $dateStatus := (partialCached "v2/params.html" . .RelPermalink).exam_date_status | default "confirmed" -}}
+{{- $examDate := "" -}}
+{{- with (partialCached "v2/params.html" . .RelPermalink).exam_date }}{{ $examDate = (time.AsTime .).Format "2006-01-02" }}{{ end -}}
+<a class="card card--{{ $st.meaning }}{{ if $st.stale }} card--stale{{ end }}" href="{{ .RelPermalink }}"
+   data-f-body="{{ delimit ((partialCached "v2/params.html" . .RelPermalink).bodies | default slice) "|" }}"
+   data-f-cat="{{ delimit ((partialCached "v2/params.html" . .RelPermalink).categories | default slice) "|" }}"
+   data-f-date="{{ $examDate }}"
+   data-f-kinds="{{ delimit $kinds "|" }}"
+   data-f-prov="{{ if eq $dateStatus "provisional" }}1{{ else }}0{{ end }}"{{ if ne $order "" }} style="order: {{ $order }}"{{ end }}>
+  {{- with $chip }}
+  {{- $meaning := index (dict "registration_open" "registration" "registration_deadline" "registration" "correction_open" "correction" "correction_deadline" "correction" "exam_date" "exam_date" "admit_card" "admit_card" "city_intimation" "admit_card" "result" "result") .k | default "done" }}
+  {{- /* The card's first date in the month shown, before its own status. */}}
+  <span class="card__status card__monthchip pill pill--upcoming pill--{{ $meaning }}">{{ .l | default "Date" }} <span class="pill__date">{{ (time.AsTime .d).Format "2006, January 02" }}</span></span>
+  {{- end }}
+  {{- /* The status chip, first thing in the card, and the only date on it. */ -}}
+  <span class="card__status {{ $st.pillClass }}">{{ $st.labelHTML }}</span>
+
+  <p class="card__body-name">{{ with (partialCached "v2/params.html" . .RelPermalink).bodies }}{{ delimit . " · " }}{{ end }}</p>
+
+  <h3 class="card__title">{{ .Title }}</h3>
+
+  {{- /* The one date that matters most right now. */ -}}
+  {{- if or $st.stale $st.unverified }}
+    <p class="card__flag">
+      {{- if $st.unverified }}
+        Not yet verified against an official source
+      {{- else }}
+        <span data-freshness-text data-last-checked="{{ $st.lastChecked }}">Checked —</span>
+      {{- end }}
+    </p>
+  {{- end }}
+</a>
+{{- end -}}

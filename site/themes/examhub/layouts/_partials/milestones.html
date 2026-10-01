@@ -1,0 +1,34 @@
+{{- /* Every dated milestone a record carries, sorted by date. */ -}}
+{{- /* Row labels come from data/date_kinds.yaml by kind. */ -}}
+{{- $labels := dict -}}
+{{- range hugo.Data.date_kinds -}}
+  {{- $labels = merge $labels (dict .key .label) -}}
+{{- end -}}
+{{- $fields := slice
+      (dict "id" "reg_open"   "kind" "registration_open"  "date" (partialCached "v2/params.html" . .RelPermalink).registration_open      "status" (partialCached "v2/params.html" . .RelPermalink).registration_open_status)
+      (dict "id" "reg_close"  "kind" "registration_deadline" "date" (partialCached "v2/params.html" . .RelPermalink).registration_deadline  "status" (partialCached "v2/params.html" . .RelPermalink).registration_deadline_status)
+      (dict "id" "corr_open"  "kind" "correction_open"     "date" (partialCached "v2/params.html" . .RelPermalink).correction_open         "status" (partialCached "v2/params.html" . .RelPermalink).correction_open_status)
+      (dict "id" "corr_close" "kind" "correction_deadline" "date" (partialCached "v2/params.html" . .RelPermalink).correction_deadline     "status" (partialCached "v2/params.html" . .RelPermalink).correction_deadline_status)
+      (dict "id" "city_intimation" "kind" "city_intimation" "date" (partialCached "v2/params.html" . .RelPermalink).city_intimation        "status" (partialCached "v2/params.html" . .RelPermalink).city_intimation_status)
+      (dict "id" "admit_from" "kind" "admit_card"           "date" (partialCached "v2/params.html" . .RelPermalink).admit_card_from        "status" (partialCached "v2/params.html" . .RelPermalink).admit_card_from_status)
+      (dict "id" "exam_date"  "kind" "exam_date"            "date" (partialCached "v2/params.html" . .RelPermalink).exam_date              "status" (partialCached "v2/params.html" . .RelPermalink).exam_date_status)
+      (dict "id" "key_open"   "kind" "answer_key_open"      "date" (partialCached "v2/params.html" . .RelPermalink).answer_key_open        "status" (partialCached "v2/params.html" . .RelPermalink).answer_key_open_status)
+      (dict "id" "key_close"  "kind" "answer_key_deadline"  "date" (partialCached "v2/params.html" . .RelPermalink).answer_key_deadline    "status" (partialCached "v2/params.html" . .RelPermalink).answer_key_deadline_status)
+      (dict "id" "result_date" "kind" "result"              "date" (partialCached "v2/params.html" . .RelPermalink).result_date            "status" (partialCached "v2/params.html" . .RelPermalink).result_date_status)
+      (dict "id" "reeval_open"  "kind" "re_evaluation_open"     "date" (partialCached "v2/params.html" . .RelPermalink).re_evaluation_open    "status" (partialCached "v2/params.html" . .RelPermalink).re_evaluation_open_status)
+      (dict "id" "reeval_close" "kind" "re_evaluation_deadline" "date" (partialCached "v2/params.html" . .RelPermalink).re_evaluation_deadline "status" (partialCached "v2/params.html" . .RelPermalink).re_evaluation_deadline_status) -}}
+{{- $rows := slice -}}
+{{- range $fields -}}
+  {{- /* Bind the entry to a local. */ -}}
+  {{- $f := . -}}
+  {{- with .date -}}
+    {{- $t := time.AsTime . -}}
+    {{- $rows = $rows | append (dict
+          "label" (index $labels $f.kind)
+          "kind" $f.kind
+          "date" $t
+          "iso" ($t.Format "2006-01-02")
+          "status" ($f.status | default "confirmed")) -}}
+  {{- end -}}
+{{- end -}}
+{{- return (sort $rows "date" "asc") -}}

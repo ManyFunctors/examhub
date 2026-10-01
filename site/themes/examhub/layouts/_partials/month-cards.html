@@ -1,0 +1,14 @@
+{{- /* The exams a month shows: each record once, at its first date that month, in date order.
+     A past month shows every date it had; this month and later show upcoming dates only.
+     Mirrors what the script does when it switches months, so both agree. */ -}}
+{{- $ev := .ev -}}{{- $m := .month -}}
+{{- $past := lt $m (substr $ev.today 0 7) -}}
+{{- $seen := dict -}}
+{{- $out := slice -}}
+{{- range $i, $e := $ev.events -}}
+  {{- if eq (substr $e.d 0 7) $m -}}{{- if or $past (ge $e.d $ev.today) -}}{{- if not (isset $seen $e.u) -}}
+    {{- $seen = merge $seen (dict $e.u true) -}}
+    {{- $out = $out | append (dict "u" $e.u "e" $e "i" $i) -}}
+  {{- end -}}{{- end -}}{{- end -}}
+{{- end -}}
+{{- return $out -}}

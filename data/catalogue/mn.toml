@@ -1,0 +1,229 @@
+# Catalogue: Manipur. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "mn-mpsc"
+name = "Manipur Public Service Commission"
+short_name = "MPSC (Manipur)"
+jurisdiction = "mn"
+kind = "public_service_commission"
+website = "https://mpscmanipur.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "mn-bosem"
+name = "Board of Secondary Education, Manipur"
+short_name = "BOSEM"
+jurisdiction = "mn"
+kind = "school_board"
+website = "https://bosem.in/"
+status = "active"
+
+[[bodies]]
+id = "mn-cohsem"
+name = "Council of Higher Secondary Education, Manipur"
+short_name = "COHSEM"
+jurisdiction = "mn"
+kind = "school_board"
+website = "https://cohsem.nic.in/"
+status = "active"
+
+[[bodies]]
+id = "mn-police"
+name = "Manipur Police"
+short_name = "Manipur Police"
+jurisdiction = "mn"
+kind = "police_recruitment_board"
+website = "https://manipurpolice.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "mn-hc"
+name = "High Court of Manipur"
+short_name = "Manipur HC"
+jurisdiction = "mn"
+kind = "court"
+website = "https://hcmimphal.nic.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "mn-mpsc/advertisements"
+body = "mn-mpsc"
+url = "https://mpscmanipur.gov.in/Recruitment_Advertisement.html"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "mn-bosem/home"
+body = "mn-bosem"
+url = "https://bosem.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "mn-cohsem/home"
+body = "mn-cohsem"
+url = "https://cohsem.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "mn-police/home"
+body = "mn-police"
+url = "https://manipurpolice.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "mn-hc/recruitment"
+body = "mn-hc"
+url = "https://hcmimphal.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "mn-cohsem/notice"
+body = "mn-cohsem"
+url = "https://cohsem.nic.in/notice.html"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Notice)."
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "mn-mpsc-cce"
+name = "Manipur Combined Competitive Examination"
+jurisdiction = "mn"
+purpose = "recruitment"
+conducted_by = "mn-mpsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['combined\s*competitive', '\bCCE\b'] }
+status = "active"
+
+[[exams]]
+id = "mn-mpsc-ae"
+name = "MPSC (Manipur) Assistant Engineer / Engineering Services Examination"
+jurisdiction = "mn"
+purpose = "recruitment"
+conducted_by = "mn-mpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "mn-mpsc-lecturer"
+name = "MPSC (Manipur) Lecturer / Assistant Professor Recruitment"
+jurisdiction = "mn"
+purpose = "recruitment"
+conducted_by = "mn-mpsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "mn-mpsc-other"
+name = "MPSC (Manipur) Recruitment to other posts (umbrella)"
+jurisdiction = "mn"
+purpose = "recruitment"
+conducted_by = "mn-mpsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "mn-bosem-class-10"
+name = "BOSEM HSLC Examination"
+jurisdiction = "mn"
+purpose = "school_board"
+conducted_by = "mn-bosem"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['\bHSLC\b', 'class\s*(X|10)\b'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "mn-cohsem-class-12"
+name = "COHSEM Higher Secondary (HSE) Examination"
+jurisdiction = "mn"
+purpose = "school_board"
+conducted_by = "mn-cohsem"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['class\s*(XII|12)\b', '\b(HSC|HSSC|intermediate|inter|higher\s*secondary|uchha|plus\s*two|\+2|PUC)\b'] }
+status = "active"
+
+[[exams]]
+id = "mn-tet"
+name = "Manipur Teacher Eligibility Test"
+short_name = "Manipur TET"
+jurisdiction = "mn"
+purpose = "eligibility"
+conducted_by = "mn-bosem"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['\bTET\b'] }
+status = "active"
+
+[[exams]]
+id = "mn-police-constable"
+name = "Manipur Police Police Constable Recruitment"
+jurisdiction = "mn"
+purpose = "recruitment"
+conducted_by = "mn-police"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", "sipahi|sepoy", '\bPC\b'] }
+status = "active"
+
+[[exams]]
+id = "mn-police-si"
+name = "Manipur Police Sub-Inspector Recruitment"
+jurisdiction = "mn"
+purpose = "recruitment"
+conducted_by = "mn-police"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
+status = "active"
+
+[[exams]]
+id = "mn-hc-staff"
+name = "Manipur HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "mn"
+purpose = "recruitment"
+conducted_by = "mn-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"

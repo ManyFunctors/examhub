@@ -1,0 +1,118 @@
+# Catalogue: Puducherry. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "py-dpar"
+name = "Department of Personnel and Administrative Reforms, Puducherry"
+short_name = "Puducherry DP&AR"
+jurisdiction = "py"
+kind = "ministry_department"
+website = "https://recruitment.py.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "py-centac"
+name = "Centralised Admission Committee, Puducherry"
+short_name = "CENTAC"
+jurisdiction = "py"
+kind = "counselling_authority"
+website = "https://www.centacpuducherry.in/"
+status = "active"
+
+[[bodies]]
+id = "py-police"
+name = "Puducherry Police"
+short_name = "Puducherry Police"
+jurisdiction = "py"
+kind = "police_recruitment_board"
+website = "https://police.py.gov.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "py-dpar/home"
+body = "py-dpar"
+url = "https://recruitment.py.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "py-centac/home"
+body = "py-centac"
+url = "https://www.centacpuducherry.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "py-police/home"
+body = "py-police"
+url = "https://police.py.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "py-dpar/news-notifications"
+body = "py-dpar"
+url = "https://recruitment.py.gov.in/news-and-notification"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (News & Notifications)."
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "py-direct-recruitment"
+name = "Puducherry Government Direct Recruitment (UDC, LDC, Assistant, Teacher)"
+jurisdiction = "py"
+purpose = "recruitment"
+conducted_by = "py-dpar"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["general"]
+match = { any = ["recruitment", '\bUDC\b|\bLDC\b', "assistant", "teacher"] }
+status = "active"
+
+[[exams]]
+id = "py-police"
+name = "Puducherry Police Constable / SI Recruitment"
+jurisdiction = "py"
+purpose = "recruitment"
+conducted_by = "py-police"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", 'sub[-\s]*inspector'] }
+status = "active"
+
+[[exams]]
+id = "py-centac-pnet"
+name = "Puducherry Nursing Entrance Test"
+known_as = ["PNET"]
+jurisdiction = "py"
+purpose = "admission"
+conducted_by = "py-centac"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Puducherry[\s\-_./()]*Nursing[\s\-_./()]*Entrance[\s\-_./()]*Test(?![A-Za-z])', "(?<![A-Za-z])PNET(?![A-Za-z])"] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "py-centac-b-sc-nursing-entrance"
+name = "Puducherry B.Sc. Nursing Entrance Examination"
+jurisdiction = "py"
+purpose = "admission"
+conducted_by = "py-centac"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])B[\s\-_./()]*sc[\s\-_./()]*Nursing[\s\-_./()]*Entrance[\s\-_./()]*Examination(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."

@@ -1,0 +1,682 @@
+# Catalogue: Uttar Pradesh. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "up-uppsc"
+name = "Uttar Pradesh Public Service Commission"
+short_name = "UPPSC"
+jurisdiction = "up"
+kind = "public_service_commission"
+website = "https://uppsc.up.nic.in/"
+status = "active"
+notes = "Soft 404: unknown paths return 200 at FileNotFound.aspx."
+
+[[bodies]]
+id = "up-upsssc"
+name = "Uttar Pradesh Subordinate Services Selection Commission"
+short_name = "UPSSSC"
+jurisdiction = "up"
+kind = "staff_selection_board"
+website = "https://upsssc.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "up-upprpb"
+name = "Uttar Pradesh Police Recruitment and Promotion Board"
+short_name = "UPPRPB"
+jurisdiction = "up"
+kind = "police_recruitment_board"
+website = "https://uppbpb.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "up-upessc"
+name = "Uttar Pradesh Education Service Selection Commission"
+short_name = "UPESSC"
+jurisdiction = "up"
+kind = "staff_selection_board"
+website = "https://upessc.up.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "up-pnp"
+name = "Pariksha Niyamak Pradhikari, Uttar Pradesh"
+short_name = "PNP Prayagraj"
+jurisdiction = "up"
+kind = "testing_agency"
+website = "https://updeled.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "up-upmsp"
+name = "Uttar Pradesh Madhyamik Shiksha Parishad"
+short_name = "UP Board"
+jurisdiction = "up"
+kind = "school_board"
+website = "https://upmsp.edu.in/"
+status = "active"
+
+[[bodies]]
+id = "up-allahabad-hc"
+name = "High Court of Judicature at Allahabad"
+short_name = "Allahabad HC"
+jurisdiction = "up"
+kind = "court"
+website = "https://www.allahabadhighcourt.in/"
+status = "active"
+
+[[bodies]]
+id = "up-jeecup"
+name = "Joint Entrance Examination Council, Uttar Pradesh"
+short_name = "JEECUP"
+jurisdiction = "up"
+kind = "testing_agency"
+website = "https://jeecup.admissions.nic.in/"
+status = "active"
+
+[[bodies]]
+id = "up-uppcl"
+name = "Uttar Pradesh Power Corporation Ltd."
+short_name = "UPPCL"
+jurisdiction = "up"
+kind = "psu"
+website = "https://www.upenergy.in/uppcl/en"
+status = "active"
+
+[[bodies]]
+id = "up-bed-jee"
+name = "Uttar Pradesh B.Ed. Joint Entrance Examination (nodal university)"
+short_name = "UP B.Ed JEE"
+jurisdiction = "up"
+kind = "university"
+website = "https://bujhansi.ac.in/"
+status = "active"
+notes = "The nodal university rotates each year (Bundelkhand University in recent cycles)."
+
+[[bodies]]
+id = "up-nhm"
+name = "National Health Mission, Uttar Pradesh"
+short_name = "UP NHM"
+jurisdiction = "up"
+kind = "health_recruitment"
+website = "https://upnrhm.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "up-lu"
+name = "University of Lucknow"
+short_name = "Lucknow University"
+jurisdiction = "up"
+kind = "university"
+website = "https://www.lkouniv.ac.in/"
+status = "active"
+
+[[bodies]]
+id = "up-csau"
+name = "Chandra Shekhar Azad University of Agriculture and Technology"
+short_name = "CSAUAT"
+jurisdiction = "up"
+kind = "university"
+website = "https://csauk.ac.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "up-uppsc/notifications"
+body = "up-uppsc"
+url = "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "up-uppsc/exam-details"
+body = "up-uppsc"
+url = "https://uppsc.up.nic.in/PublicPages/Examinations_Details.aspx?ID=EC"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "up-upsssc/home"
+body = "up-upsssc"
+url = "https://upsssc.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "up-upsssc/advertisements"
+body = "up-upsssc"
+url = "https://upsssc.gov.in/AllAdvertisement.aspx"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "up-upprpb/home"
+body = "up-upprpb"
+url = "https://uppbpb.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "up-upessc/home"
+body = "up-upessc"
+url = "https://upessc.up.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "up-pnp/home"
+body = "up-pnp"
+url = "https://updeled.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "up-upmsp/home"
+body = "up-upmsp"
+url = "https://upmsp.edu.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "up-allahabad-hc/recruitment"
+body = "up-allahabad-hc"
+url = "https://www.allahabadhighcourt.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "up-jeecup/home"
+body = "up-jeecup"
+url = "https://jeecup.admissions.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "up-uppcl/home"
+body = "up-uppcl"
+url = "https://www.upenergy.in/uppcl/en"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "up-bed-jee/home"
+body = "up-bed-jee"
+url = "https://bujhansi.ac.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "up-nhm/home"
+body = "up-nhm"
+url = "https://upnrhm.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "up-uppsc-pcs"
+name = "Combined State / Upper Subordinate Services Examination (UP PCS)"
+known_as = ["UP PCS", "UPPSC PCS"]
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-uppsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['combined\s*state\s*/?\s*upper\s*subordinate', '\bPCS\b(?![-\s]*\(?J)'] }
+status = "active"
+
+[[exams]]
+id = "up-uppsc-ae"
+name = "UPPSC Assistant Engineer / Engineering Services Examination"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-uppsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "up-uppsc-lecturer"
+name = "UPPSC Lecturer / Assistant Professor Recruitment"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-uppsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "up-uppsc-judicial"
+name = "UPPSC Civil Judge (Junior Division) / Judicial Services Examination"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-uppsc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', '\bPCS[-\s]*\(?J\)?', 'judicial\s*magistrate'] }
+status = "active"
+
+[[exams]]
+id = "up-uppsc-other"
+name = "UPPSC Recruitment to other posts (umbrella)"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-uppsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "up-uppsc-ro-aro"
+name = "Review Officer / Assistant Review Officer Examination"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-uppsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["clerical"]
+match = { any = ['review\s*officer', '\bRO\s*/\s*ARO\b'] }
+status = "active"
+
+[[exams]]
+id = "up-uppsc-gic-lecturer"
+name = "Government Inter College Lecturer / LT Grade Assistant Teacher"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-uppsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ['\bGIC\b', 'LT\s*grade', 'government\s*inter\s*college'] }
+status = "active"
+
+[[exams]]
+id = "up-uppsc-staff-nurse"
+name = "UPPSC Staff Nurse Recruitment"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-uppsc"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["nursing"]
+match = { any = ['staff\s*nurse'] }
+status = "active"
+
+[[exams]]
+id = "up-upsssc-pet"
+name = "Preliminary Eligibility Test (UP PET)"
+short_name = "UPSSSC PET"
+jurisdiction = "up"
+purpose = "eligibility"
+conducted_by = "up-upsssc"
+frequency = "annual"
+qualification = "class_10"
+streams = ["general"]
+match = { any = ['\bPET\b', 'preliminary\s*eligibility'] }
+status = "active"
+
+[[exams]]
+id = "up-upsssc-lekhpal"
+name = "UPSSSC Lekhpal Recruitment"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-upsssc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["clerical"]
+match = { any = ["lekhpal"] }
+status = "active"
+
+[[exams]]
+id = "up-upsssc-vdo"
+name = "UPSSSC Gram Panchayat Adhikari / Gram Vikas Adhikari (VDO)"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-upsssc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["clerical"]
+match = { any = ['gram\s*(panchayat|vikas)\s*adhikari', '\bVDO\b'] }
+status = "active"
+
+[[exams]]
+id = "up-upsssc-junior-assistant"
+name = "UPSSSC Junior Assistant / Typist"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-upsssc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["clerical"]
+match = { any = ['junior\s*assistant', "typist"] }
+status = "active"
+
+[[exams]]
+id = "up-upsssc-forest-guard"
+name = "UPSSSC Forest Guard / Wildlife Guard"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-upsssc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["forest"]
+match = { any = ['forest\s*guard', 'wildlife\s*guard', "vanrakshak"] }
+status = "active"
+
+[[exams]]
+id = "up-upsssc-je"
+name = "UPSSSC Junior Engineer"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-upsssc"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["engineering"]
+match = { any = ['junior\s*engineer', '\bJE\b'] }
+status = "active"
+
+[[exams]]
+id = "up-upsssc-steno"
+name = "UPSSSC Stenographer"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-upsssc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["stenography"]
+match = { any = ["steno"] }
+status = "active"
+
+[[exams]]
+id = "up-upsssc-other"
+name = "UPSSSC other Group C recruitment (umbrella)"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-upsssc"
+frequency = "multiple"
+qualification = "class_12"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|group\\s*['‘’]?\\s*C\\b"] }
+status = "active"
+
+[[exams]]
+id = "up-upprpb-constable"
+name = "UPPRPB Police Constable Recruitment"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-upprpb"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", "sipahi|sepoy", '\bPC\b'] }
+status = "active"
+
+[[exams]]
+id = "up-upprpb-si"
+name = "UPPRPB Sub-Inspector Recruitment"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-upprpb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
+status = "active"
+
+[[exams]]
+id = "up-upprpb-jail-warder"
+name = "UP Jail Warder / Fireman"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-upprpb"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ['jail\s*warder', 'fire\s*man|fireman'] }
+status = "active"
+
+[[exams]]
+id = "up-upprpb-asi-clerk"
+name = "UP Police ASI (Clerk/Accountant) and Operator"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-upprpb"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police", "clerical"]
+match = { any = ['\bASI\b', "operator", 'computer\s*operator'] }
+status = "active"
+
+[[exams]]
+id = "up-uptet"
+name = "Uttar Pradesh Teacher Eligibility Test"
+short_name = "UPTET"
+jurisdiction = "up"
+purpose = "eligibility"
+conducted_by = "up-upessc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bUPTET\b', 'teacher\s*eligibility'] }
+status = "active"
+
+[[exams]]
+id = "up-upessc-tgt-pgt"
+name = "UPESSC TGT / PGT (Aided Secondary Schools)"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-upessc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bTGT\b', '\bPGT\b'] }
+status = "active"
+
+[[exams]]
+id = "up-upessc-assistant-professor"
+name = "UPESSC Assistant Professor (Aided Degree Colleges)"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-upessc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ['assistant\s*professor'] }
+status = "active"
+
+[[exams]]
+id = "up-special-tet"
+name = "Uttar Pradesh Special TET (in-service teachers)"
+jurisdiction = "up"
+purpose = "eligibility"
+conducted_by = "up-upessc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['special\s*TET'] }
+status = "active"
+
+[[exams]]
+id = "up-super-tet"
+name = "UP Assistant Teacher Recruitment Examination (Super TET)"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-pnp"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['super\s*TET', "ATRE", 'assistant\s*teacher\s*recruitment'] }
+status = "active"
+
+[[exams]]
+id = "up-deled-exam"
+name = "UP D.El.Ed. (BTC) Semester Examinations"
+jurisdiction = "up"
+purpose = "certification"
+conducted_by = "up-pnp"
+frequency = "biannual"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['D\.?\s*El\.?\s*Ed', '\bBTC\b'] }
+status = "active"
+
+[[exams]]
+id = "up-upmsp-class-10"
+name = "UP Board High School Examination"
+jurisdiction = "up"
+purpose = "school_board"
+conducted_by = "up-upmsp"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['high\s*school', 'class\s*(X|10)\b'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "up-upmsp-class-12"
+name = "UP Board Intermediate Examination"
+jurisdiction = "up"
+purpose = "school_board"
+conducted_by = "up-upmsp"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ["intermediate", 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "up-allahabad-hc-staff"
+name = "Allahabad HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-allahabad-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "up-allahabad-hc-judicial"
+name = "Allahabad HC Civil Judge / Higher Judicial Service Examination"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-allahabad-hc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', 'district\s*judge', '\bHJS\b'] }
+status = "active"
+
+[[exams]]
+id = "up-jeecup"
+name = "UP Polytechnic Joint Entrance Examination"
+short_name = "JEECUP"
+jurisdiction = "up"
+purpose = "admission"
+conducted_by = "up-jeecup"
+frequency = "annual"
+qualification = "class_10"
+streams = ["engineering"]
+match = { any = ["JEECUP", "polytechnic", "entrance"] }
+status = "active"
+
+[[exams]]
+id = "up-uppcl-recruitment"
+name = "UPPCL Recruitment (AE, JE, TG2, Assistant Accountant)"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-uppcl"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["engineering", "technical"]
+match = { any = ['assistant\s*engineer', 'junior\s*engineer', "technician", '\bTG\s*2\b', "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "up-bed-jee"
+name = "Uttar Pradesh B.Ed. Joint Entrance Examination"
+jurisdiction = "up"
+purpose = "admission"
+conducted_by = "up-bed-jee"
+frequency = "annual"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['B\.?\s*Ed'] }
+status = "active"
+
+[[exams]]
+id = "up-nhm-cho"
+name = "UP NHM Community Health Officer and contractual staff"
+jurisdiction = "up"
+purpose = "recruitment"
+conducted_by = "up-nhm"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["nursing", "allied_health"]
+match = { any = ['community\s*health\s*officer', '\bCHO\b', "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "up-lu-entrance"
+name = "Lucknow University Entrance Examination"
+short_name = "LU Entrance"
+jurisdiction = "up"
+purpose = "admission"
+conducted_by = "up-lu"
+frequency = "annual"
+qualification = "class_12"
+streams = ["general"]
+match = { any = ['entrance\s*(test|exam)', "admission"] }
+status = "active"
+
+[[exams]]
+id = "up-catet"
+name = "Uttar Pradesh Combined Agriculture and Technology Entrance Test"
+short_name = "UPCATET"
+jurisdiction = "up"
+purpose = "admission"
+conducted_by = "up-csau"
+frequency = "annual"
+qualification = "class_12"
+streams = ["agriculture"]
+status = "active"

@@ -1,0 +1,13 @@
+{{- /* Which posts a block is for, in words. Takes dict "for" and "all" (every post name). */ -}}
+{{- $for := .for -}}
+{{- $all := .all -}}
+{{- $out := "" -}}
+{{- if and (reflect.IsSlice $for) (lt (len $for) (len $all)) -}}
+  {{- $missing := complement $for $all -}}
+  {{- if and (le (len $missing) 2) (gt (len $for) 2) -}}
+    {{- $out = printf "All posts except %s" (delimit $missing ", " " and ") -}}
+  {{- else -}}
+    {{- $out = printf "%s only" (delimit $for ", " " and ") -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

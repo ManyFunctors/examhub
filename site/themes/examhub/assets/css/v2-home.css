@@ -1,0 +1,459 @@
+/* Home-page half of the old v2.css: the bar, view tabs, month groups and List view. */
+
+.cal__flydot { border-radius: 1px !important; }
+
+/* ── Status chip on cards: tint fill, even border, thick left edge ───── */
+.card__status {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  background: color-mix(in srgb, var(--pill-edge, var(--border)) 14%, var(--surface));
+  border: 1.5px solid var(--pill-edge, var(--border));
+  padding: 0.35rem 0.75rem;
+  font-weight: 600;
+}
+.card__status .pill__date { font-weight: 500; color: var(--text-muted); }
+.card__status.pill--urgent { border: 1.5px solid var(--urgent); }
+a.card .card__status { border-left-width: var(--edge-thick) !important; }
+
+/* ── Home: the bar ───────────────────────────────────────────────────────
+   [Grid|List] [‹ Month ›] [filters + search] [legend] [counts] */
+.browse__bar { align-items: center; gap: var(--sp-3); flex-wrap: nowrap; padding-right: var(--sp-3); }
+.browse__bar, .browse__bar > * { min-width: 0; }
+.browse__bar .filters__head { flex: 1 1 auto; min-width: 12rem; max-width: none; }
+.browse__bar .filters__join { max-width: none; width: 100%; }
+.browse__bar .filters__field--wide { flex: 1 1 auto; max-width: none; }
+.browse__bar .filters__toggle-icon,
+.browse__bar .cal__keybtn-icon { width: 1.4rem; height: 1.4rem; }
+.browse__bar .filters__searchbtn .filters__mark { width: 1.25rem; height: 1.25rem; }
+
+/* tooltips in the site font; the legend's bubble opens above its button */
+.filters__toggle::after, .cal__keybtn::after { font-family: var(--font-sans); font-size: var(--fs-xs); }
+.browse__bar .cal__keybtn::after { top: auto !important; bottom: calc(100% + 0.4rem) !important; }
+.browse__bar .cal__keywrap .cal__keybtn::after { right: 0 !important; left: auto !important; }
+
+.navgroup { display: flex; align-items: center; gap: var(--sp-2); flex: 0 0 auto; height: var(--bar-control-h); }
+
+/* view switch: the theme's trough and sliding pill, laid out across */
+.navgroup .views, .navgroup .views__tabs { height: 100%; }
+.navgroup .views__tabs { grid-template-rows: none; grid-template-columns: 1fr 1fr; min-width: 0; }
+.navgroup .views__tabs::before { top: 0.25rem; left: 0.25rem; height: calc(100% - 0.5rem); width: calc(50% - 0.25rem); }
+.navgroup #views[data-view="dates"] .views__tabs::before { transform: translateX(100%); }
+/* a saved List view, painted as List from the start (site.js takes over) */
+html[data-start-view="dates"] #panel-exams { display: none; }
+html[data-start-view="dates"] #panel-dates[hidden] { display: block !important; }
+html[data-start-view="dates"] .navgroup .views__tabs::before { transform: translateX(100%); transition: none; }
+html[data-start-view="dates"] #tab-exams { color: var(--text-muted); }
+html[data-start-view="dates"] #tab-dates { color: var(--text); }
+/* both labels bold, so the switch keeps its width */
+.navgroup .views__tab { padding: 0 var(--sp-3); font-weight: 600; min-width: 5.5rem; justify-content: center; }
+.navgroup .views__tab[aria-selected="false"] { color: var(--text-muted); }
+.navgroup .views__icon { width: 1.15em; height: 1.15em; }
+
+/* Month stepper: ‹ Month ›, a sliding reset, and the calendar grid under the name. */
+.navgroup__month { position: relative; height: 100%; }
+.navgroup__month .cal__bar {
+  display: flex; height: var(--bar-control-h); box-sizing: border-box; align-items: center; gap: 2px;
+  padding: 0 .25rem; margin: 0;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--squircle);
+}
+.navgroup__month .cal__nav { display: flex; flex-wrap: nowrap; align-items: center; gap: 2px; }
+/* one width whether or not the reset shows, so the search beside it never changes size */
+.navgroup__month .cal__bar { width: 16rem; }
+.navgroup__month .cal__nav { flex: 1 1 auto; min-width: 0; }
+.navgroup__month .cal__month { min-width: 0 !important; }
+.navgroup__month .cal__picker { display: contents; position: static; }
+.navgroup__month .cal__step, .navgroup__month .cal__reset {
+  display: inline-flex; align-items: center; justify-content: center; height: 2rem; width: 2rem; padding: 0;
+  border: 0; background: none; color: var(--text-muted); border-radius: var(--squircle); cursor: pointer;
+}
+.navgroup__month .cal__step svg, .navgroup__month .cal__reset svg { width: 1rem; height: 1rem; }
+.navgroup__month .cal__step:hover:not(:disabled), .navgroup__month .cal__reset:hover { background: var(--accent-fill); color: var(--text); }
+.navgroup__month #cal-prev { order: 1; }
+.navgroup__month .cal__monthwrap { order: 2; flex: 1 1 0; min-width: 0; margin: 0; text-align: center; }
+.navgroup__month #cal-next { order: 3; }
+.navgroup__month .cal__month {
+  width: 100%; min-width: 10rem; height: 2rem; padding: 0 var(--sp-1);
+  font-size: var(--fs-sm); font-weight: 600; white-space: nowrap; text-align: center;
+  background: none; border: 0; border-radius: var(--squircle); cursor: pointer;
+}
+.navgroup__month .cal__month:hover { background: var(--accent-fill); }
+.navgroup__month .cal__month::after, .navgroup__month .cal__month svg { display: none; }
+.navgroup__month .cal__barstart {
+  display: flex; order: 2; overflow: hidden; max-width: 2.5rem; opacity: 1;
+  transition: max-width .25s ease, opacity .2s ease;
+}
+.navgroup__month .cal__bar:has(.cal__reset[disabled]) .cal__barstart { max-width: 0; opacity: 0; }
+.navgroup__month .cal__barstart .cal__navdiv { display: none; }
+.navgroup__month .cal__reset[disabled] { visibility: visible; }
+@media (prefers-reduced-motion: reduce) { .navgroup__month .cal__barstart { transition: none; } }
+.navgroup__month .cal__flyout {
+  position: absolute !important; top: calc(100% + 6px) !important; left: 0 !important; right: auto !important;
+  z-index: 60; width: 15.5rem !important; min-width: 0 !important; box-sizing: border-box;
+  margin: 0; padding: var(--sp-2); transform: none !important; translate: none !important;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--squircle-lg);
+  box-shadow: 0 8px 24px rgb(0 0 0 / .25);
+}
+/* the day table fills the popup, each day centred in its column, so both sides match */
+.navgroup__month .cal__flygrid { width: 100%; }
+.navgroup__month .cal__flyday { margin: 0 auto; }
+.navgroup__month #cal-fly-caption { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* counts: numerals in one column, labels wrap to the longest word */
+.browse__bar .stats__band { padding-left: var(--sp-3); }
+.browse__bar .stats { width: min-content; }
+.browse__bar .stat { width: auto; }
+.browse__bar .stat__value { min-width: 1.1ch; text-align: right; font-size: var(--fs-base); }
+.browse__bar .stat__label { font-size: var(--fs-xs); line-height: 1.2; }
+
+/* The result count sits inside the search box, just before the button,
+   so the head drops the count's old row and the search centres in the bar. */
+.js .filters__head { position: relative; grid-template-areas: "search"; row-gap: 0; margin-bottom: 0; }
+.js .filters__head .filters__count {
+  position: absolute; grid-area: auto; top: 0; right: calc(var(--bar-control-h) + var(--sp-2));
+  height: var(--bar-control-h); line-height: var(--bar-control-h); pointer-events: none;
+}
+.js .filters__head:has(.filters__count:not(:empty)) .filters__input { padding-right: 8.5rem; }
+
+/* Half window: search and legend, the two counts centred under a hairline; the view switch and stepper under the box. */
+@container browse (max-width: 62rem) {
+  /* The box holds search and counts only; the switch and stepper sit under it, out of the box.
+     The bar gives its children to the form's grid, and the form draws the box behind rows 1-2. */
+  .js .filters { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: var(--sp-3); }
+  .js .filters::before {
+    content: ""; grid-row: 1 / 3; grid-column: 1 / -1;
+    background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--squircle-lg);
+  }
+  .js .filters:not([data-filters-closed])::before { border-bottom-color: transparent; border-radius: var(--squircle-lg) var(--squircle-lg) 0 0; }
+  .js .browse__bar { display: contents; }
+  .js .browse__bar > .filters__head { grid-row: 1; grid-column: 1; margin: var(--sp-2) 0 0 var(--sp-3); }
+  .js .browse__bar > .cal__keywrap { grid-row: 1; grid-column: 2; margin: var(--sp-2) var(--sp-3) 0 0; }
+  .js .browse__bar > .stats__band { grid-row: 2; grid-column: 1 / -1; margin: var(--sp-3) var(--sp-3) var(--sp-2); }
+  .js .filters > .filters__body { grid-row: 3; grid-column: 1 / -1; }
+  .js .browse__bar > .navgroup {
+    grid-row: 4; grid-column: 1 / -1; margin-top: var(--sp-3); height: auto; padding: var(--sp-2) var(--sp-3);
+    background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--squircle-lg);
+  }
+  .js .navgroup .views, .js .navgroup__month { height: var(--bar-control-h); }
+  /* the result count takes no room until a search gives it words */
+  .js .filters__head .filters__count:empty { height: 0; min-height: 0; }
+  .js .navgroup .views { order: 0; }
+  .js .navgroup__month { order: 1; }
+  .browse__bar { flex-wrap: wrap !important; row-gap: var(--sp-3); column-gap: var(--sp-3); }
+  .browse__bar > .filters__head { order: 0; flex: 1 1 100% !important; }
+  .browse__bar > .navgroup { order: 1; flex: 1 1 auto; }
+  .browse__bar > .cal__keywrap { order: 2; flex: 0 0 auto; }
+  .browse__bar > .stats__band {
+    order: 4; flex: 1 1 100%; margin: 0;
+    padding: var(--sp-2) 0 0 !important; border-left: 0 !important; border-top: 1px solid var(--border);
+  }
+  .navgroup__month { flex: 1 1 auto; min-width: 0; }
+  .navgroup__month .cal__bar { width: 100%; }
+  .navgroup__month .cal__nav { flex: 1 1 auto; min-width: 0; justify-content: space-between; }
+  .navgroup__month .cal__monthwrap { flex: 1 1 auto; }
+  .navgroup__month .cal__month { min-width: 0; }
+  .browse__bar .stats {
+    display: flex !important; width: auto !important; justify-content: center; align-items: center;
+    flex-wrap: nowrap !important; column-gap: 0 !important; row-gap: var(--sp-1);
+  }
+  .browse__bar .stat {
+    display: flex !important; flex: 0 0 auto; align-items: center; gap: .4em; width: auto !important; max-width: none !important;
+    padding: 0 var(--sp-4) !important; border: 0 !important; text-align: left;
+  }
+  .browse__bar .stat + .stat { border-left: 1px solid var(--border) !important; }
+  .browse__bar .stat__value { min-width: 0; }
+  .browse__bar .stat__label { white-space: nowrap; font-size: var(--fs-sm); }
+}
+/* Phone: search first with the legend beside it; the counts as one quiet line; view and month in one slim row. */
+@container browse (max-width: 34rem) {
+  .browse__bar > .filters__head { order: 0; flex: 1 1 0 !important; }
+  .browse__bar > .cal__keywrap { order: 1; }
+  .browse__bar > .navgroup { order: 2; flex: 1 1 100%; }
+  .navgroup__month .cal__step { flex: 0 0 auto; }
+  .navgroup__month .cal__flyout { left: 50% !important; transform: translateX(-50%) !important; max-width: calc(100vw - 2rem); }
+
+  /* no box behind the search: it stands on its own */
+  .js .filters::before { content: none; }
+  /* the Filters bubble opens above, clear of the thumb */
+  .browse__bar .filters__toggle::after { top: auto !important; bottom: calc(100% + 0.4rem) !important; }
+  .js .browse__bar > .filters__head { grid-row: 1; grid-column: 1; margin: 0; }
+  .js .browse__bar > .cal__keywrap { grid-row: 1; grid-column: 2; margin: 0; align-self: start; }
+  .js .filters > .filters__body { grid-row: 2; grid-column: 1 / -1; }
+  .js .filters:not([data-filters-closed]) > .filters__body { margin-top: var(--sp-2); border-radius: var(--squircle-lg); }
+
+  /* short "8 Exams" on phones */
+  .js .filters__head .filters__count-word { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .js .filters__head:has(.filters__count:not(:empty)) .filters__input { padding-right: 4.5rem; }
+  /* the counts, one line of plain text */
+  .js .browse__bar > .stats__band {
+    grid-row: 3; grid-column: 1 / -1; margin: var(--sp-2) 0 0;
+    padding: 0 !important; border: 0 !important;
+  }
+  .js .browse__bar .stat { padding: 0 var(--sp-2) !important; }
+  .js .browse__bar .stat__value, .js .browse__bar .stat__label { font-size: var(--fs-xs); }
+
+  /* view and month share one row */
+  .js .browse__bar > .navgroup {
+    grid-row: 4; grid-column: 1 / -1; margin: var(--sp-3) 0 0; padding: 0;
+    background: none; border: 0; flex-direction: row; gap: var(--sp-2);
+  }
+  .js .navgroup .views { flex: 0 0 auto; }
+  .js .navgroup .views__tabs { width: auto !important; }
+  .js .navgroup .views__tab { min-width: 0 !important; padding: 0; }
+  .js .navgroup .views__label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .js .navgroup__month { flex: 1 1 auto; min-width: 0; }
+  /* a month name that still can't fit ends in an ellipsis rather than running under the arrows */
+  .js .navgroup__month .cal__month { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: var(--fs-xs); }
+  /* slimmer arrows and switch, so the longest month (September) fits beside the reset */
+  .js .navgroup__month .cal__step, .js .navgroup__month .cal__reset { width: 1.75rem; }
+  .js .navgroup .views__tabs { grid-template-columns: 2.5rem 2.5rem !important; }
+  .js .navgroup .views__tab { width: 2.5rem; }
+}
+/* The home header on phones: the tagline a size down, then a hairline and less space. */
+@media (max-width: 40rem) {
+  .page-header--stamped .page-description { font-size: var(--fs-sm); }
+  /* a hairline under the header, and less air before the search */
+  .page-header--stamped { margin-bottom: var(--sp-4); padding-bottom: var(--sp-4); border-bottom: 1px solid var(--border); }
+}
+
+/* ── Home: month sections (Grid and List) ────────────────────────────────
+   Each section is a <details> whose summary is a card-like bar. */
+#panel-exams, #panel-dates { margin-top: calc(-1 * var(--sp-3)); }
+.bymonth__summary {
+  list-style: none; cursor: pointer; display: flex; align-items: center; gap: var(--sp-2);
+  margin: 0 0 var(--sp-3); padding: var(--sp-2) var(--sp-3);
+  background: var(--surface); border: 1px solid var(--border); border-left: var(--edge-thick) solid var(--accent-text);
+  border-radius: var(--squircle-lg);
+}
+.bymonth__summary::-webkit-details-marker { display: none; }
+/* chevron: points right when closed, down when open */
+.bymonth__summary::before {
+  content: ""; flex: none; width: 0.55rem; height: 0.55rem; margin: 0 var(--sp-1) 0 0.1rem;
+  border-right: 2px solid var(--text); border-bottom: 2px solid var(--text);
+  transform: rotate(-45deg); transition: transform 160ms ease;
+}
+.bymonth__group[open] > .bymonth__summary::before { transform: rotate(45deg); }
+@media (prefers-reduced-motion: reduce) { .bymonth__summary::before { transition: none; } }
+.bymonth__group:not([open]) > .bymonth__summary { margin-bottom: var(--sp-2); }
+.bymonth__group[data-section="~0past"] > .bymonth__summary,
+.bymonth__group[data-section="~1tba"] > .bymonth__summary,
+.bymonth__group[data-section="~2done"] > .bymonth__summary { border-left-color: var(--done); }
+.bymonth__summary .bymonth__title { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: var(--sp-3); row-gap: 0; flex: 1; margin: 0; font-size: var(--fs-base); }
+.bymonth__summary:hover .bymonth__title { color: var(--accent-text); }
+/* "(93 Exams)" after the heading */
+.bymonth__count { margin-left: .4em; font-weight: 500; color: var(--subtext0); }
+.bymonth__count:empty { display: none; }
+
+/* Grid: the bar's month, then TBA and Completed */
+#exam-grid { display: flex; flex-direction: column; gap: var(--sp-3); }
+#exam-grid > .bymonth__group { margin: 0; }
+#exam-grid .bymonth__group > .card-grid { margin-bottom: 0; }
+#exam-grid .bymonth__group:not(:has(.card:not([hidden]))) { display: none; }
+#exam-grid .bymonth__group--off, #exam-grid .card--offmonth { display: none !important; }
+#exam-grid .bymonth__none[hidden] { display: none; }
+#exam-grid .bymonth__none .bymonth__summary { cursor: default; }
+#exam-grid .bymonth__none .bymonth__summary::before { visibility: hidden; }
+/* month-section cards show their date in that month instead of the status chip */
+#exam-grid [data-section="month"] .card__status:not(.card__monthchip) { display: none; }
+#exam-grid .bymonth__group:not([data-section="month"]) .card__monthchip { display: none; }
+
+/* ── Home: List view ───────────────────────────────────────────────────── */
+#panel-dates { --date-w: 3.25rem; }
+#panel-dates .dates { margin-top: 0 !important; padding-top: 0 !important; }
+#panel-dates .cal__list, #panel-dates .cal__list-items { margin-top: 0 !important; padding-top: 0 !important; border-top: 0; }
+.cal__list-heading { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.cal__list-section { list-style: none; margin: var(--sp-5) 0 var(--sp-2); padding-left: 0; }
+.cal__list-section + .cal__list-section { margin-top: var(--sp-3); }
+#panel-dates .cal__list-section:first-child { margin-top: 0 !important; }
+.cal__list-rows { margin: 0; padding: 0; list-style: none; }
+.cal__list-section .cal__undated-list {
+  margin: 0; padding: 0 0 0 calc(var(--date-w) + var(--sp-3)) !important;
+  list-style: none; display: grid; gap: var(--sp-1);
+}
+
+#panel-dates .cal__list-day {
+  display: grid; grid-template-columns: var(--date-w) minmax(0, 1fr);
+  column-gap: var(--sp-3); align-items: start; padding: var(--sp-2) 0; margin: 0; border: 0;
+}
+#panel-dates .cal__list-day + .cal__list-day { border-top: 1px solid var(--border); }
+#panel-dates .cal__list-day > ul { margin: 0; padding: 0; list-style: none; display: grid; gap: var(--sp-1); align-self: center; }
+#panel-dates .cal__list-date {
+  display: flex; flex-direction: column; align-items: center; margin: 0; padding: 2px 0;
+  line-height: 1.1; border-radius: var(--squircle);
+  font-weight: 600; color: var(--text); font-size: var(--fs-sm);
+}
+.cal__list-dnum { font-size: var(--fs-lg); font-weight: 700; color: var(--text); }
+.cal__list-dwk { font-size: var(--fs-xs); color: var(--text-muted); }
+
+/* today: only the date block is marked, as a tinted box with a border */
+#panel-dates .cal__list-day[aria-current="date"] {
+  background: none !important; box-shadow: none !important;
+  border-left: 0 !important; padding-left: 0 !important; margin-left: 0 !important;
+}
+#panel-dates .cal__list-day[aria-current="date"]::before,
+#panel-dates .cal__list-day[aria-current="date"]::after { display: none !important; }
+#panel-dates .cal__list-day[aria-current="date"] .cal__list-date {
+  outline: 0; border: 1.5px solid var(--accent-text); background: var(--accent-fill); padding: 3px 0;
+}
+#panel-dates .cal__list-day[aria-current="date"] .cal__list-dnum { color: var(--accent-text); }
+
+/* TBA: the undated rows sit beside one grey "?" block, like a day's rows */
+.cal__list-section .cal__undated-list:has(> .cal__list-day--tba) { padding-left: 0 !important; }
+#panel-dates .cal__list-date--tba {
+  justify-content: center; min-height: 3.1em;
+  border: 1.5px solid color-mix(in srgb, var(--text-muted) 60%, transparent); background: var(--surface0);
+}
+#panel-dates .cal__list-date--tba .cal__list-dnum { color: var(--text-muted); }
+
+/* TBA and Completed rows: chip column (one measured width), then name */
+.cal__list-row {
+  display: grid !important; grid-template-columns: var(--pill-w, 10.625rem) minmax(0, 1fr);
+  gap: var(--sp-2); align-items: baseline;
+  color: var(--text); text-decoration: none; font-weight: 500;
+}
+.cal__list-row:hover .cal__list-name { text-decoration: underline; }
+.cal__list-chip { flex: none; font-size: var(--fs-xs); justify-self: stretch; text-align: center; }
+
+/* ── Without JavaScript: a plain document ─────────────────────────────── */
+/* Script-only controls go, and the month arrows (links to the month pages)
+   are the way around. */
+.no-js .filters__head,
+.no-js .filters__body,
+.no-js .cal__keywrap,
+.no-js .cal__barstart,
+.no-js .views { display: none; }
+/* No script: the List view only, so the browser's Find covers every date on the page. */
+.no-js #panel-exams { display: none; }
+.no-js #panel-dates[hidden] { display: block !important; }
+.no-js .cal__month { pointer-events: none; }
+.no-js .cal__month::after { content: none; }
+.cal__step[aria-disabled="true"] { opacity: 0.4; pointer-events: none; }
+/* With no search box to fill the row, the bar takes its half-window shape at
+   every width: the month stepper across, the counts centred under a hairline. */
+.no-js .browse__bar { flex-wrap: wrap !important; row-gap: var(--sp-3); }
+.no-js .browse__bar > .navgroup { flex: 1 1 100%; }
+.no-js .browse__bar > .stats__band {
+  flex: 1 1 100%; margin: 0;
+  padding: var(--sp-2) 0 0 !important; border-left: 0 !important; border-top: 1px solid var(--border);
+}
+.no-js .navgroup__month { flex: 1 1 auto; min-width: 0; }
+.no-js .navgroup__month .cal__bar { width: 100%; }
+.no-js .navgroup__month .cal__nav { flex: 1 1 auto; min-width: 0; justify-content: space-between; }
+.no-js .navgroup__month .cal__monthwrap { flex: 1 1 auto; }
+.no-js .browse__bar .stats {
+  display: flex !important; width: auto !important; justify-content: center; align-items: center;
+  flex-wrap: nowrap !important; column-gap: 0 !important;
+}
+.no-js .browse__bar .stat {
+  display: flex !important; flex: 0 1 auto; align-items: center; gap: .4em; width: auto !important; max-width: none !important;
+  padding: 0 var(--sp-4) !important; border: 0 !important; text-align: left;
+}
+.no-js .browse__bar .stat + .stat { border-left: 1px solid var(--border) !important; }
+.no-js .browse__bar .stat__label { font-size: var(--fs-sm); }
+
+/* Phone List view: the chip sits above its title at its own width, so the title gets the row. */
+@container browse (max-width: 34rem) {
+  .cal__list-day .cal__event, .cal__list-row { grid-template-columns: minmax(0, 1fr) !important; row-gap: 0.2rem; }
+  .cal__list-day .cal__event-kind, .cal__list-chip { grid-column: 1 !important; grid-row: 1 !important; justify-self: start !important; width: auto !important; }
+  .cal__list-day .cal__event-title, .cal__list-name { grid-column: 1 !important; grid-row: 2 !important; }
+  .cal__list-day > ul { gap: var(--sp-2) !important; }
+}
+
+/* Phones: once the search scrolls under the top bar it docks there, beside the menu button,
+   opening out from the left; the Updated stamp steps aside while it's docked. */
+.filters, .views__panel { scroll-margin-top: calc(var(--header-h) + var(--sp-2)); }
+.filters__head.is-docked {
+  --bar-control-h: 2.25rem;
+  position: fixed; z-index: 31; margin: 0 !important;
+  top: calc((var(--header-h) - 2.25rem) / 2);
+  left: calc(var(--sp-4) - var(--sp-2) + 2.25rem + var(--sp-3)); right: var(--sp-4);
+  animation: dock-open 280ms cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+.browse__bar .filters__head.is-docked .filters__toggle-icon { width: 1.1rem; height: 1.1rem; }
+.browse__bar .filters__head.is-docked .filters__searchbtn .filters__mark { width: 1rem; height: 1rem; }
+.filters__head.is-docked .filters__toggle::after { top: calc(100% + 0.4rem) !important; bottom: auto !important; }
+@keyframes dock-open {
+  from { clip-path: inset(0 100% 0 0 round var(--squircle-lg)); opacity: 0.5; }
+  to { clip-path: inset(0 0 0 0 round var(--squircle-lg)); opacity: 1; }
+}
+.site-header .freshness { transition: opacity 200ms; }
+.search-docked .site-header .freshness { opacity: 0; visibility: hidden; transition: opacity 150ms, visibility 0s 150ms; }
+/* while docked and filtering, a reset sits right of the search; the search makes room for it */
+.filters__clear { display: none; }
+.filters__head.is-docked { transition: right 200ms ease; }
+.is-filtering .filters__head.is-docked { right: calc(var(--sp-4) + 2.25rem + var(--sp-2)); }
+.is-filtering .filters__head.is-docked .filters__clear {
+  display: inline-flex; align-items: center; justify-content: center;
+  position: fixed; top: calc((var(--header-h) - 2.25rem) / 2); right: var(--sp-4);
+  width: 2.25rem; height: 2.25rem; padding: 0; cursor: pointer;
+  border: 1px solid var(--control-border); border-radius: var(--squircle-lg);
+  background: var(--bg-alt); color: var(--heading);
+  animation: clear-in 200ms ease;
+}
+.filters__clear svg { width: 1.05rem; height: 1.05rem; }
+.filters__clear:hover { border-color: var(--highlight); color: var(--highlight); }
+@keyframes clear-in { from { opacity: 0; transform: scale(0.85); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .filters__head.is-docked, .is-filtering .filters__head.is-docked .filters__clear { animation: none; transition: none; }
+}
+
+/* ── Index pages (/bodies/, /types/, ...): one box per page, its count on the right ── */
+.axis-index {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: var(--sp-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.axis-index__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  height: 100%;
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--squircle-lg);
+  color: var(--text);
+  text-decoration: none;
+}
+.axis-index__link:hover { border-color: var(--accent-text); }
+.axis-index__name { display: flex; flex-direction: column; gap: 0.1rem; min-width: 0; font-weight: 600; }
+.axis-index__full { font-size: var(--fs-xs); font-weight: 400; color: var(--text-muted); }
+.axis-index__count {
+  flex: none;
+  min-width: 2rem;
+  padding: 0.15rem var(--sp-2);
+  background: var(--bg-alt);
+  border-radius: var(--squircle-xs);
+  font-size: var(--fs-sm);
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+  color: var(--text-muted);
+}
+.axis-dates .cal__list-items { padding: 0; }
+
+/* The index-page links stand in for the filters, so only a no-JS page shows them. */
+.axis-nav { display: none; }
+.no-js .axis-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-4);
+}
+.axis-nav__label { font-size: var(--fs-sm); color: var(--text-muted); margin-right: var(--sp-1); }
+.axis-nav__link {
+  padding: 0.3rem var(--sp-3);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--squircle-xs);
+  font-size: var(--fs-sm);
+  color: var(--text);
+  text-decoration: none;
+}
+.axis-nav__link:hover { border-color: var(--accent-text); }

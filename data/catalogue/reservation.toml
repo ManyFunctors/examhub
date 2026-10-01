@@ -1,0 +1,1322 @@
+# Reservation classes: who a fee, an age limit or a vacancy is for.
+# Research and sources: docs/vocabulary.md section 1.
+#
+# Two rules, and everything below follows from them:
+#
+# 1. Map spellings, never merge classes. "UR", "General" and "Open" are one
+#    class written three ways, so they are aliases of `Unreserved`. "OBC" and
+#    "OBC-NCL" are two classes, and a state's own class (Karnataka 2A, Haryana
+#    DSC) is never folded into a national one.
+# 2. Aliases are scoped. `OSC` is an SC sub-group in Haryana and a backward
+#    class in Jammu and Kashmir. A class or alias with `jurisdictions` is only
+#    recognised in notices from bodies of those jurisdictions.
+#
+# [[class]]
+#   id             national: the value itself ("Unreserved", "SC").
+#                  state: "<jurisdiction>:<short>" ("hr:DSC").
+#   short          what a table shows. Defaults to the id.
+#   name           the full name.
+#   axis           vertical   | exactly one per candidate: the social class
+#                  horizontal | any number, across the vertical ones
+#                  locality   | domicile, region, medium of study
+#                  gender     | qualifies a row (a separate rate for men)
+#                  all        | one rate for everyone
+#   family         a national vertical class, for filtering only ("show every
+#                  SC-type row"). Never shown, and never merged, as that class.
+#   jurisdictions  where the class exists. Absent: everywhere.
+#   aliases        case-insensitive regexes, matched as whole words.
+#   codes          case-sensitive regexes: abbreviations that are also
+#                  ordinary words or other things in lower case ("OC", "GM").
+#   verified       false: from a secondary source; confirm against a notice
+#                  of that body and add `source`, then drop this key.
+#   source         a notice or rule that uses the class.
+#
+# [[alias]]  extra spellings of a class, scoped: `to`, `jurisdictions`,
+#            `aliases`, `codes`.
+#
+# When two classes match the same words, the longer match wins ("OBC-NCL"
+# over "OBC"), and at equal length a jurisdiction's own class wins over a
+# national one. A label that matches nothing is kept verbatim and reported,
+# never guessed.
+#
+# Values are never repurposed. A retired id moves to [deprecated].
+
+schema_version = "1.0"
+
+# ==================================================================== national
+
+[[class]]
+id = "Unreserved"
+name = "Unreserved"
+axis = "vertical"
+aliases = [
+  'un-?reserved',
+  'non-?reserved',
+  'general(?!\s+(?:duty|studies|knowledge|awareness|english|intelligence|science|nursing|manager|secretary|administration|instructions|conditions|information|ability|hindi|mental|merit\s+list))',
+  'gen\.?(?=\s*[/,)\-:]|\s*$)',
+  'open(?=\s*(?:category|merit|competition|[/,)\-:]|$))',
+]
+# UG is also "undergraduate": only inside a list ("UG/OBC") or as a whole cell.
+codes = ['UR', 'GEN', 'Gen', 'UG(?=\s*(?:[/,:)\-]|$))', '(?<=/)UG']
+
+[[class]]
+id = "OBC"
+name = "Other Backward Classes"
+axis = "vertical"
+# "Most backward classes" in a state with no class of that name must stay
+# unmapped, not become OBC: hence the look-behinds.
+aliases = [
+  'obc(?!\s*[-(]?\s*(?:ncl|non[-\s]?creamy|\(?\s*cl\b))',
+  'other\s+backward\s+class(?:es)?(?!\s*[-(]?\s*(?:ncl|non[-\s]?creamy))',
+  '(?<!most\s)(?<!more\s)(?<!extremely\s)(?<!extreme\s)(?<!special\s)(?<!other\s)backward\s+class(?:es)?',
+]
+codes = ['BC']
+
+[[class]]
+id = "OBC-NCL"
+name = "Other Backward Classes (Non-Creamy Layer)"
+axis = "vertical"
+aliases = ['obc\s*[-(]?\s*ncl\)?', 'obc\s*[-(]?\s*non[-\s]?creamy(?:\s+layer)?\)?', 'other\s+backward\s+class(?:es)?\s*[-(]?\s*(?:ncl|non[-\s]?creamy(?:\s+layer)?)\)?', 'non[-\s]?creamy\s+layer']
+codes = ['NCL']
+
+[[class]]
+id = "SC"
+name = "Scheduled Castes"
+axis = "vertical"
+# Upper case only: "B.Sc" is not a class.
+aliases = ['scheduled\s+castes?']
+codes = ['SC', 'S\.C\.']
+
+[[class]]
+id = "ST"
+name = "Scheduled Tribes"
+axis = "vertical"
+aliases = ['scheduled\s+tribes?', 's\.t\.']
+codes = ['ST', 'S\.T\.']
+
+[[class]]
+id = "EWS"
+name = "Economically Weaker Sections"
+axis = "vertical"
+aliases = ['ews', 'economically\s+weaker\s+sections?']
+
+[[class]]
+id = "All candidates"
+name = "All candidates"
+axis = "all"
+aliases = ['all\s+(?:the\s+)?(?:candidates|applicants|categor(?:y|ies))', 'for\s+all']
+
+# -- disability (RPwD Act 2016 s.34)
+
+[[class]]
+id = "PwBD"
+name = "Persons with Benchmark Disabilities"
+axis = "horizontal"
+aliases = [
+  'pw\.?b\.?d', 'pwd', 'p\.w\.d\.?', 'divyang(?:jan)?', 'differently[-\s]abled',
+  'physically\s+(?:handicapped|challenged)', 'persons?\s+with\s+(?:benchmark\s+)?disabilit(?:y|ies)',
+  'disabled(?!\s+ex)', 'handicapped',
+]
+# PH upper case only: "Ph.D" is a degree.
+codes = ['DA', 'PH', 'P\.H\.']
+source = "https://www.tezu.ernet.in/PwD/RPWD-ACT-2016.pdf"
+
+[[class]]
+id = "PwBD-A"
+name = "Blindness and low vision"
+axis = "horizontal"
+family = "PwBD"
+aliases = ['blind(?:ness)?', 'low\s+vision', 'visual(?:ly)?\s+(?:impair(?:ed|ment)|handicapped)']
+codes = ['VH', 'VI', 'B/LV', 'LV']
+
+[[class]]
+id = "PwBD-B"
+name = "Deaf and hard of hearing"
+axis = "horizontal"
+family = "PwBD"
+aliases = ['deaf(?!-blind)', 'hard\s+of\s+hearing', 'hearing\s+(?:impair(?:ed|ment)|handicapped)']
+codes = ['HH', 'HI', 'D/HH']
+
+[[class]]
+id = "PwBD-C"
+name = "Locomotor disability, including cerebral palsy, leprosy cured, dwarfism, acid attack victims and muscular dystrophy"
+axis = "horizontal"
+family = "PwBD"
+aliases = ['locomotor(?:\s+disability)?', 'orthopa?edic(?:ally)?\s+(?:handicapped|challenged|disabilit(?:y|ies))', 'cerebral\s+palsy', 'leprosy\s+cured', 'dwarfism', 'acid\s+attack\s+victims?', 'muscular\s+dystrophy']
+codes = ['OH', 'OL', 'OA', 'OAL', 'BL', 'LD', 'CP', 'AAV']
+
+[[class]]
+id = "PwBD-D"
+name = "Autism, intellectual disability, specific learning disability and mental illness"
+axis = "horizontal"
+family = "PwBD"
+aliases = ['autism', 'intellectual\s+disabilit(?:y|ies)', 'specific\s+learning\s+disabilit(?:y|ies)', 'mental\s+illness']
+codes = ['ASD', 'SLD']
+
+[[class]]
+id = "PwBD-E"
+name = "Multiple disabilities, including deaf-blindness"
+axis = "horizontal"
+family = "PwBD"
+aliases = ['multiple\s+disabilit(?:y|ies)', 'deaf[-\s]blind(?:ness)?']
+
+# -- service
+
+[[class]]
+id = "Ex-Servicemen"
+name = "Ex-Servicemen"
+axis = "horizontal"
+aliases = ['ex[-\s]?service\s*(?:m[ae]n|personnel)', 'ex[-\s]?sm', 'ex[-\s]?soldiers?', 'ex-?defence\s+personnel']
+codes = ['ESM', 'EXS', 'XSM']
+
+[[class]]
+id = "Disabled Ex-Servicemen"
+name = "Disabled Ex-Servicemen"
+axis = "horizontal"
+family = "Ex-Servicemen"
+aliases = ['disabled\s+ex[-\s]?service\s*(?:m[ae]n|personnel)', 'disabled\s+esm']
+codes = ['DESM', 'DXSM']
+
+[[class]]
+id = "Dependent of Ex-Servicemen"
+name = "Dependent (ward) of Ex-Servicemen"
+axis = "horizontal"
+family = "Ex-Servicemen"
+aliases = [
+  '(?:dependents?|dependants?|wards?|sons?\s*/\s*daughters?)\s+of\s+(?:the\s+)?ex[-\s]?service\s*(?:m[ae]n|personnel)',
+  '(?:dependents?|dependants?|wards?)\s+of\s+esm',
+  'esm\s*\(\s*dependent\s*\)',
+]
+codes = ['WESM', 'WoESM']
+
+[[class]]
+id = "Ex-Agniveer"
+name = "Ex-Agniveer"
+axis = "horizontal"
+aliases = ['(?:ex|former)[-\s]?agniveers?', 'agniveers?']
+
+[[class]]
+id = "Government Employee"
+name = "Government employee (in service, departmental)"
+axis = "horizontal"
+aliases = ['(?:central|state)?\s*(?:government|govt\.?)\s+(?:employees?|servants?)', 'in[-\s]service\s+candidates?', 'departmental\s+candidates?']
+
+[[class]]
+id = "Home Guard"
+name = "Home Guard"
+axis = "horizontal"
+aliases = ['home\s+guards?']
+
+[[class]]
+id = "Contract Employee"
+name = "Contract employee"
+axis = "horizontal"
+aliases = ['contract(?:ual)?\s+employees?', 'samvida']
+
+# -- gender
+
+[[class]]
+id = "Women"
+name = "Women"
+axis = "horizontal"
+aliases = ['women', 'females?', 'girls?', 'mahila', 'ladies']
+
+[[class]]
+id = "Transgender"
+name = "Transgender"
+axis = "horizontal"
+aliases = ['trans\s*genders?', 'third\s+gender']
+codes = ['TG']
+
+[[class]]
+id = "Male"
+name = "Male candidates"
+axis = "gender"
+aliases = ['males?', 'men', 'boys?']
+
+# -- other horizontal classes
+
+[[class]]
+id = "Sportsperson"
+name = "Meritorious sportsperson"
+axis = "horizontal"
+aliases = ['(?:meritorious|outstanding|skilled)\s+sports\s*(?:persons?|m[ae]n|women)', 'sports\s*(?:persons?|m[ae]n|quota)']
+codes = ['MSP']
+
+[[class]]
+id = "Freedom Fighter Dependant"
+name = "Dependant of a freedom fighter"
+axis = "horizontal"
+aliases = ['(?:dependents?|dependants?|wards?|descendants?|grand\s*children)\s+of\s+freedom\s+fighters?', 'freedom\s+fighters?']
+codes = ['DFF', 'WFF', 'FF']
+
+[[class]]
+id = "Orphan"
+name = "Orphan"
+axis = "horizontal"
+aliases = ['orphans?']
+
+[[class]]
+id = "Widow"
+name = "Widow"
+axis = "horizontal"
+aliases = ['widows?(?!\s+of\s+(?:ex|defence))']
+
+[[class]]
+id = "Destitute Widow"
+name = "Destitute widow"
+axis = "horizontal"
+family = "Widow"
+aliases = ['destitute\s+widows?']
+codes = ['DW']
+
+[[class]]
+id = "Divorcee"
+name = "Divorced woman"
+axis = "horizontal"
+aliases = ['divorcees?', 'divorced\s+wom[ae]n']
+
+[[class]]
+id = "Project Affected Person"
+name = "Project affected (displaced) person"
+axis = "horizontal"
+aliases = ['project\s+(?:affected|displaced)\s+persons?', 'land\s+losers?']
+codes = ['PAP', 'PDP']
+
+[[class]]
+id = "Earthquake Affected"
+name = "Earthquake affected person"
+axis = "horizontal"
+aliases = ['earthquake\s+affected']
+verified = false
+
+[[class]]
+id = "Kashmiri Migrant"
+name = "Kashmiri migrant"
+axis = "horizontal"
+aliases = ['kashmiri\s+migrants?']
+
+[[class]]
+id = "1984 Riot Victim"
+name = "Victim of the 1984 riots"
+axis = "horizontal"
+aliases = ['1984\s+riots?', 'victims?\s+of\s+(?:the\s+)?1984']
+
+[[class]]
+id = "BPL"
+name = "Below poverty line"
+axis = "horizontal"
+aliases = ['below\s+poverty\s+line']
+codes = ['BPL']
+
+[[class]]
+id = "Government School Student"
+name = "Student of a government school"
+axis = "horizontal"
+aliases = ['(?:government|govt\.?)\s+school\s+students?']
+
+# -- locality
+
+[[class]]
+id = "Domicile"
+name = "Domicile of the state"
+axis = "locality"
+aliases = ['domiciles?(?:\s+of\s+the\s+state)?', 'bona\s*fide\s+residents?', 'permanent\s+residents?', 'local\s+candidates?', 'natives?\s+of']
+
+[[class]]
+id = "Other State"
+name = "Candidate from another state"
+axis = "locality"
+aliases = ['other\s+states?', 'outside\s+(?:the\s+)?state', 'non[-\s]?domicile', 'non[-\s]?locals?', 'out\s+of\s+state']
+
+# ======================================================= national, scoped aliases
+
+[[alias]]
+to = "Unreserved"
+jurisdictions = ["tn"]
+aliases = ['general\s+turn', 'open\s+competition']
+codes = ['GT', 'OC']
+
+[[alias]]
+to = "Unreserved"
+jurisdictions = ["ap", "tg"]
+aliases = ['open\s+category']
+codes = ['OC']
+
+[[alias]]
+to = "Unreserved"
+jurisdictions = ["ka"]
+aliases = ['general\s+merit']
+codes = ['GM']
+
+[[alias]]
+to = "Unreserved"
+jurisdictions = ["jk"]
+aliases = ['open\s+merit']
+codes = ['OM']
+
+[[alias]]
+to = "Unreserved"
+jurisdictions = ["ar"]
+aliases = ['non[-\s]?apst']
+
+# ======================================================================= states
+
+# -- Andhra Pradesh
+
+[[class]]
+id = "ap:BC-A"
+short = "BC-A"
+name = "Backward Classes Group A (Andhra Pradesh)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["ap"]
+aliases = ['b\.?c\.?\s*[-(]?\s*a\)?']
+source = "https://eduvale.in/reservation/"
+
+[[class]]
+id = "ap:BC-B"
+short = "BC-B"
+name = "Backward Classes Group B (Andhra Pradesh)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["ap"]
+aliases = ['b\.?c\.?\s*[-(]?\s*b\)?']
+source = "https://eduvale.in/reservation/"
+
+[[class]]
+id = "ap:BC-C"
+short = "BC-C"
+name = "Backward Classes Group C (Andhra Pradesh)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["ap"]
+aliases = ['b\.?c\.?\s*[-(]?\s*c\)?']
+source = "https://eduvale.in/reservation/"
+
+[[class]]
+id = "ap:BC-D"
+short = "BC-D"
+name = "Backward Classes Group D (Andhra Pradesh)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["ap"]
+aliases = ['b\.?c\.?\s*[-(]?\s*d\)?']
+source = "https://eduvale.in/reservation/"
+
+[[class]]
+id = "ap:BC-E"
+short = "BC-E"
+name = "Backward Classes Group E (Andhra Pradesh)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["ap"]
+aliases = ['b\.?c\.?\s*[-(]?\s*e\)?']
+source = "https://eduvale.in/reservation/"
+
+[[class]]
+id = "ap:SC-I"
+short = "SC Group I"
+name = "Scheduled Castes Group I (Andhra Pradesh)"
+axis = "vertical"
+family = "SC"
+jurisdictions = ["ap"]
+aliases = ['sc\s*[-(]?\s*(?:group|grp\.?|gr\.?)?\s*[-(]?\s*(?:i|1)\)?(?![iv\d])']
+source = "https://www.aputf.org/wp-content/uploads/2025/04/2025SW_MS7_E-Dt.18.04.2025.pdf"
+
+[[class]]
+id = "ap:SC-II"
+short = "SC Group II"
+name = "Scheduled Castes Group II (Andhra Pradesh)"
+axis = "vertical"
+family = "SC"
+jurisdictions = ["ap"]
+aliases = ['sc\s*[-(]?\s*(?:group|grp\.?|gr\.?)?\s*[-(]?\s*(?:ii|2)\)?(?![iv\d])']
+source = "https://www.aputf.org/wp-content/uploads/2025/04/2025SW_MS7_E-Dt.18.04.2025.pdf"
+
+[[class]]
+id = "ap:SC-III"
+short = "SC Group III"
+name = "Scheduled Castes Group III (Andhra Pradesh)"
+axis = "vertical"
+family = "SC"
+jurisdictions = ["ap"]
+aliases = ['sc\s*[-(]?\s*(?:group|grp\.?|gr\.?)?\s*[-(]?\s*(?:iii|3)\)?(?![iv\d])']
+source = "https://www.aputf.org/wp-content/uploads/2025/04/2025SW_MS7_E-Dt.18.04.2025.pdf"
+
+# -- Arunachal Pradesh
+
+[[class]]
+id = "ar:APST"
+short = "APST"
+name = "Arunachal Pradesh Scheduled Tribes"
+axis = "vertical"
+family = "ST"
+jurisdictions = ["ar"]
+aliases = ['apst', 'arunachal\s+pradesh\s+scheduled\s+tribes?']
+source = "https://arunachaltimes.in/index.php/2026/07/07/reservation-policy/"
+
+# -- Assam
+
+[[class]]
+id = "as:MOBC"
+short = "MOBC"
+name = "More Other Backward Classes (Assam)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["as"]
+aliases = ['mobc', 'more\s+other\s+backward\s+class(?:es)?']
+source = "https://sewasetu.assam.gov.in/site/service-apply/issuance-of-backward-classes-obcmobc-certificate"
+
+[[class]]
+id = "as:ST(P)"
+short = "ST(P)"
+name = "Scheduled Tribes (Plains), Assam"
+axis = "vertical"
+family = "ST"
+jurisdictions = ["as"]
+aliases = ['st\s*[-(]\s*p\s*\)?', 'scheduled\s+tribes?\s*[-(]?\s*plains?\)?']
+source = "https://www.adda247.com/exams/agriculture/assam-vfa-recruitment-2026/"
+
+[[class]]
+id = "as:ST(H)"
+short = "ST(H)"
+name = "Scheduled Tribes (Hills), Assam"
+axis = "vertical"
+family = "ST"
+jurisdictions = ["as"]
+aliases = ['st\s*[-(]\s*h\s*\)?', 'scheduled\s+tribes?\s*[-(]?\s*hills?\)?']
+
+# -- Bihar
+source = "https://www.adda247.com/exams/agriculture/assam-vfa-recruitment-2026/"
+
+[[class]]
+id = "br:EBC"
+short = "EBC"
+name = "Extremely Backward Classes (Bihar)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["br"]
+aliases = ['ebc', 'extremely\s+backward\s+class(?:es)?', 'ati\s+pichhda']
+source = "https://www.pw.live/state-psc/exams/reservation-in-bpsc"
+
+[[class]]
+id = "br:BC"
+short = "BC"
+name = "Backward Classes (Bihar)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["br"]
+aliases = ['backward\s+class(?:es)?(?!\s+wom[ae]n)']
+codes = ['BC']
+source = "https://www.pw.live/state-psc/exams/reservation-in-bpsc"
+
+[[class]]
+id = "br:BCW"
+short = "BC Women"
+name = "Backward Class Women (Bihar)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["br"]
+aliases = ['backward\s+class(?:es)?\s+wom[ae]n', 'bc\s*[-(]?\s*(?:women|female)\)?']
+codes = ['BCW']
+
+# -- Delhi
+verified = false
+
+[[class]]
+id = "dl:OBC"
+short = "OBC (Delhi)"
+name = "Other Backward Classes of Delhi (OBC from outside Delhi apply as Unreserved)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["dl"]
+aliases = ['obc\s*[-(]\s*delhi\s*\)?']
+source = "https://dsssb.delhi.gov.in/faqs?page=1"
+
+# -- Gujarat, Odisha
+
+[[class]]
+id = "gj:SEBC"
+short = "SEBC"
+name = "Socially and Educationally Backward Classes (Gujarat)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["gj"]
+aliases = ['sebc', 'socially\s+(?:and|&)\s+educationally\s+backward\s+class(?:es)?']
+source = "https://praajasvfoundation.in/gpsc-class-1-2-eligibility/"
+
+[[class]]
+id = "od:SEBC"
+short = "SEBC"
+name = "Socially and Educationally Backward Classes (Odisha)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["od"]
+aliases = ['sebc', 'socially\s+(?:and|&)\s+educationally\s+backward\s+class(?:es)?']
+source = "https://www.freepressjournal.in/education/big-reservation-overhaul-odisha-raises-scst-quotas-introduces-1125-sebc-reservation-in-medical-technical-courses-from-202627"
+
+# -- Haryana
+
+[[class]]
+id = "hr:BC-A"
+short = "BC-A"
+name = "Backward Classes Block A (Haryana)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["hr"]
+aliases = ['b\.?c\.?\s*[-(]?\s*(?:block\s*)?a\)?']
+source = "https://hssc.gov.in/file/ac1f23cd-99c4-13a6-819c-32aaa1600063/advertisements"
+
+[[class]]
+id = "hr:BC-B"
+short = "BC-B"
+name = "Backward Classes Block B (Haryana)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["hr"]
+aliases = ['b\.?c\.?\s*[-(]?\s*(?:block\s*)?b\)?']
+source = "https://hssc.gov.in/file/ac1f23cd-99c4-13a6-819c-32aaa1600063/advertisements"
+
+[[class]]
+id = "hr:DSC"
+short = "DSC"
+name = "Deprived Scheduled Castes (Haryana)"
+axis = "vertical"
+family = "SC"
+jurisdictions = ["hr"]
+aliases = ['dsc', 'deprived\s+scheduled\s+castes?']
+source = "https://hssc.gov.in/file/ac1f23cd-99c4-13a6-819c-32aaa1600063/advertisements"
+
+[[class]]
+id = "hr:OSC"
+short = "OSC"
+name = "Other Scheduled Castes (Haryana)"
+axis = "vertical"
+family = "SC"
+jurisdictions = ["hr"]
+aliases = ['osc', 'other\s+scheduled\s+castes?']
+source = "https://hssc.gov.in/file/ac1f23cd-99c4-13a6-819c-32aaa1600063/advertisements"
+
+[[alias]]
+# Haryana notices use DESM for the dependents of ex-servicemen.
+to = "Dependent of Ex-Servicemen"
+jurisdictions = ["hr"]
+codes = ['DESM']
+
+# -- Himachal Pradesh: BPL and wards are national classes above.
+
+# -- Jammu and Kashmir
+
+[[class]]
+id = "jk:RBA"
+short = "RBA"
+name = "Resident of Backward Area (Jammu and Kashmir)"
+axis = "vertical"
+jurisdictions = ["jk"]
+aliases = ['rba', 'residents?\s+of\s+backward\s+areas?']
+source = "https://www.dailyexcelsior.com/reservation-for-oscs-ib-loc-up-rba-down-to-half-sc-sts-static/"
+
+[[class]]
+id = "jk:ALC/IB"
+short = "ALC/IB"
+name = "Resident of areas along the Actual Line of Control / International Border (Jammu and Kashmir)"
+axis = "vertical"
+jurisdictions = ["jk"]
+aliases = ['alc\s*/\s*ib', 'ib\s*/\s*alc', 'actual\s+line\s+of\s+control', 'international\s+border']
+codes = ['ALC']
+source = "https://www.dailyexcelsior.com/reservation-for-oscs-ib-loc-up-rba-down-to-half-sc-sts-static/"
+
+[[class]]
+id = "jk:OSC"
+short = "OSC"
+name = "Other Social Castes (Jammu and Kashmir)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["jk"]
+aliases = ['osc', 'other\s+social\s+castes?']
+source = "https://www.dailyexcelsior.com/reservation-for-oscs-ib-loc-up-rba-down-to-half-sc-sts-static/"
+
+[[class]]
+id = "jk:PSP"
+short = "PSP"
+name = "Pahari Speaking People (Jammu and Kashmir)"
+axis = "vertical"
+jurisdictions = ["jk"]
+aliases = ['psp', 'pahari\s+speaking\s+(?:people|persons?)', 'paharis?']
+source = "https://www.dailyexcelsior.com/reservation-for-oscs-ib-loc-up-rba-down-to-half-sc-sts-static/"
+
+# -- Jharkhand
+
+[[class]]
+id = "jh:BC-I"
+short = "BC-I"
+name = "Backward Classes Annexure I (Jharkhand; extremely backward)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["jh"]
+aliases = ['b\.?c\.?\s*[-(]?\s*(?:i|1|annexure\s*[-]?\s*i)\)?(?![iv\d])', 'ebc']
+verified = false
+
+[[class]]
+id = "jh:BC-II"
+short = "BC-II"
+name = "Backward Classes Annexure II (Jharkhand)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["jh"]
+aliases = ['b\.?c\.?\s*[-(]?\s*(?:ii|2|annexure\s*[-]?\s*ii)\)?(?![iv\d])']
+verified = false
+
+[[class]]
+id = "jh:PVTG"
+short = "PVTG"
+name = "Particularly Vulnerable Tribal Groups (Jharkhand)"
+axis = "vertical"
+family = "ST"
+jurisdictions = ["jh"]
+aliases = ['pvtg', 'ptg', 'particularly\s+vulnerable\s+tribal\s+groups?', 'primitive\s+tribal\s+groups?']
+verified = false
+
+# -- Karnataka
+
+[[class]]
+id = "ka:Cat-1"
+short = "Cat-1"
+name = "Category 1 (Karnataka)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["ka"]
+aliases = ['cat(?:egory)?\.?\s*[-]?\s*(?:i|1)(?![iv\d])', '1g']
+source = "https://campuskarnataka.com/reservation-categories/"
+
+[[class]]
+id = "ka:2A"
+short = "2A"
+name = "Category 2A (Karnataka)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["ka"]
+aliases = ['(?:cat(?:egory)?\.?\s*[-]?\s*)?(?:ii|2)\s*[-(]?\s*a\)?']
+source = "https://campuskarnataka.com/reservation-categories/"
+
+[[class]]
+id = "ka:2B"
+short = "2B"
+name = "Category 2B (Karnataka)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["ka"]
+aliases = ['(?:cat(?:egory)?\.?\s*[-]?\s*)?(?:ii|2)\s*[-(]?\s*b\)?']
+source = "https://campuskarnataka.com/reservation-categories/"
+
+[[class]]
+id = "ka:3A"
+short = "3A"
+name = "Category 3A (Karnataka)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["ka"]
+aliases = ['(?:cat(?:egory)?\.?\s*[-]?\s*)?(?:iii|3)\s*[-(]?\s*a\)?']
+source = "https://campuskarnataka.com/reservation-categories/"
+
+[[class]]
+id = "ka:3B"
+short = "3B"
+name = "Category 3B (Karnataka)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["ka"]
+aliases = ['(?:cat(?:egory)?\.?\s*[-]?\s*)?(?:iii|3)\s*[-(]?\s*b\)?']
+source = "https://campuskarnataka.com/reservation-categories/"
+
+[[class]]
+id = "ka:Rural"
+short = "Rural"
+name = "Rural candidate (Karnataka)"
+axis = "locality"
+jurisdictions = ["ka"]
+aliases = ['rural(?:\s+candidates?)?']
+source = "https://www.pw.live/state-prep/exams/kcet-reservation-criteria"
+
+[[class]]
+id = "ka:Kannada Medium"
+short = "Kannada Medium"
+name = "Studied in Kannada medium (Karnataka)"
+axis = "locality"
+jurisdictions = ["ka"]
+aliases = ['kannada\s+medium']
+codes = ['KM']
+source = "https://www.pw.live/state-prep/exams/kcet-reservation-criteria"
+
+[[class]]
+id = "ka:371J"
+short = "Kalyana Karnataka (371J)"
+name = "Kalyana Karnataka (Hyderabad-Karnataka) local candidate under Article 371(J)"
+axis = "locality"
+jurisdictions = ["ka"]
+aliases = ['371\s*\(?\s*j\s*\)?', 'hyderabad[-\s]karnataka', 'kalyana[-\s]karnataka']
+codes = ['HK', 'HKR', 'KK']
+
+# -- Kerala (Kerala PSC rules for reservation)
+source = "https://www.pw.live/state-prep/exams/kcet-reservation-criteria"
+
+[[class]]
+id = "kl:ETB"
+short = "Ezhava/Thiyya/Billava"
+name = "Ezhava, Thiyya and Billava (Kerala)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["kl"]
+aliases = ['ezhava(?:s)?(?:\s*/\s*thiyyas?)?(?:\s*/\s*billavas?)?', 'thiyyas?', 'billavas?']
+codes = ['ETB', 'E/T/B']
+source = "https://www.keralapsc.gov.in/rules-reservation"
+
+[[class]]
+id = "kl:Muslim"
+short = "Muslim"
+name = "Muslim (Kerala)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["kl"]
+aliases = ['muslims?']
+source = "https://www.keralapsc.gov.in/rules-reservation"
+
+[[class]]
+id = "kl:LC/AI"
+short = "LC/AI"
+name = "Latin Catholic and Anglo-Indian (Kerala)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["kl"]
+aliases = ['l\.?c\.?\s*/\s*a\.?i\.?', 'latin\s+catholics?(?:\s*(?:/|and|&)\s*anglo[-\s]indians?)?', 'anglo[-\s]indians?']
+source = "https://www.keralapsc.gov.in/rules-reservation"
+
+[[class]]
+id = "kl:Hindu Nadar"
+short = "Hindu Nadar"
+name = "Hindu Nadar (Kerala)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["kl"]
+aliases = ['hindu\s+nadars?']
+codes = ['HN']
+source = "https://www.keralapsc.gov.in/rules-reservation"
+
+[[class]]
+id = "kl:SIUC Nadar"
+short = "SIUC Nadar"
+name = "Nadar of the South Indian United Church (Kerala)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["kl"]
+aliases = ['s\.?i\.?u\.?c\.?\s+nadars?', 'nadars?\s+included\s+in\s+s\.?i\.?u\.?c\.?']
+codes = ['SIUCN']
+source = "https://www.keralapsc.gov.in/rules-reservation"
+
+[[class]]
+id = "kl:SCCC"
+short = "SCCC"
+name = "Scheduled Caste converts to Christianity (Kerala)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["kl"]
+aliases = ['sccc', 'scheduled\s+castes?\s+converts?\s+to\s+christianity']
+source = "https://www.keralapsc.gov.in/rules-reservation"
+
+[[class]]
+id = "kl:Viswakarma"
+short = "Viswakarma"
+name = "Viswakarma (Kerala)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["kl"]
+aliases = ['vi?s[hw]a?karmas?']
+source = "https://www.keralapsc.gov.in/rules-reservation"
+
+[[class]]
+id = "kl:Dheevara"
+short = "Dheevara"
+name = "Dheevara (Kerala)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["kl"]
+aliases = ['dheevaras?']
+source = "https://www.keralapsc.gov.in/rules-reservation"
+
+# -- Maharashtra
+
+[[class]]
+id = "mh:VJ-A"
+short = "VJ-A"
+name = "Vimukta Jati A / De-notified Tribes (Maharashtra)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["mh"]
+aliases = ['vj\s*[-(]?\s*a?\)?', 'dt\s*[-(]?\s*a\)?', 'vimukta\s+jati', 'de[-\s]?notified\s+tribes?']
+source = "https://www.pw.live/state-psc/exams/reservation-in-mpsc"
+
+[[class]]
+id = "mh:NT-B"
+short = "NT-B"
+name = "Nomadic Tribes B (Maharashtra)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["mh"]
+aliases = ['nt\s*[-(]?\s*b\)?', 'nomadic\s+tribes?\s*[-(]?\s*b\)?']
+source = "https://www.pw.live/state-psc/exams/reservation-in-mpsc"
+
+[[class]]
+id = "mh:NT-C"
+short = "NT-C"
+name = "Nomadic Tribes C (Maharashtra)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["mh"]
+aliases = ['nt\s*[-(]?\s*c\)?', 'nomadic\s+tribes?\s*[-(]?\s*c\)?']
+source = "https://www.pw.live/state-psc/exams/reservation-in-mpsc"
+
+[[class]]
+id = "mh:NT-D"
+short = "NT-D"
+name = "Nomadic Tribes D (Maharashtra)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["mh"]
+aliases = ['nt\s*[-(]?\s*d\)?', 'nomadic\s+tribes?\s*[-(]?\s*d\)?']
+source = "https://www.pw.live/state-psc/exams/reservation-in-mpsc"
+
+[[class]]
+id = "mh:SBC"
+short = "SBC"
+name = "Special Backward Class (Maharashtra)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["mh"]
+aliases = ['sbc', 'special\s+backward\s+class(?:es)?']
+source = "https://www.pw.live/state-psc/exams/reservation-in-mpsc"
+
+[[class]]
+id = "mh:SEBC"
+short = "SEBC"
+name = "Socially and Educationally Backward Classes (Maharashtra)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["mh"]
+aliases = ['sebc', 'socially\s+(?:and|&)\s+educationally\s+backward\s+class(?:es)?']
+source = "https://www.pw.live/state-psc/exams/reservation-in-mpsc"
+
+[[class]]
+id = "mh:Part-time Graduate Employee"
+short = "Part-time Graduate Employee"
+name = "Part-time graduate employee (Maharashtra)"
+axis = "horizontal"
+jurisdictions = ["mh"]
+aliases = ['part[-\s]time\s+graduate(?:\s+employees?)?']
+verified = false
+
+# -- Meghalaya
+
+[[class]]
+id = "ml:Khasi-Jaintia"
+short = "Khasi-Jaintia"
+name = "Khasi and Jaintia (Meghalaya)"
+axis = "vertical"
+family = "ST"
+jurisdictions = ["ml"]
+aliases = ['khasi[-\s]*(?:(?:and|&|/)\s*)?jaintias?', 'khasis?']
+source = "https://personnel.meghalaya.gov.in/Rules/R%20Roster.pdf"
+
+[[class]]
+id = "ml:Garo"
+short = "Garo"
+name = "Garo (Meghalaya)"
+axis = "vertical"
+family = "ST"
+jurisdictions = ["ml"]
+aliases = ['garos?']
+source = "https://personnel.meghalaya.gov.in/Rules/R%20Roster.pdf"
+
+[[class]]
+id = "ml:Other ST/SC"
+short = "Other ST/SC"
+name = "Other Scheduled Tribes and Scheduled Castes (Meghalaya)"
+axis = "vertical"
+jurisdictions = ["ml"]
+aliases = ['other\s+(?:scheduled\s+tribes?|st)s?\s*(?:(?:and|&|/)\s*(?:scheduled\s+castes?|sc))?']
+source = "https://personnel.meghalaya.gov.in/Rules/R%20Roster.pdf"
+
+# -- Nagaland
+
+[[class]]
+id = "nl:IST"
+short = "Indigenous ST"
+name = "Indigenous Scheduled Tribes of Nagaland"
+axis = "vertical"
+family = "ST"
+jurisdictions = ["nl"]
+aliases = ['indigenous\s+(?:scheduled\s+tribes?|st)(?:\s+of\s+nagaland)?']
+codes = ['IST']
+source = "https://dpar.nagaland.gov.in/chapter-9-reservation-in-services/"
+
+[[class]]
+id = "nl:BT"
+short = "Backward Tribe"
+name = "Backward Tribes of Nagaland"
+axis = "vertical"
+family = "ST"
+jurisdictions = ["nl"]
+aliases = ['backward\s+tribes?', 'eastern\s+nagaland\s+backward\s+tribes?']
+codes = ['BT', 'ENBT']
+source = "https://dpar.nagaland.gov.in/revised-policy-for-reservation-of-post-for-backward-tribes/"
+
+# -- Puducherry
+
+[[class]]
+id = "py:MBC"
+short = "MBC"
+name = "Most Backward Classes (Puducherry)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["py"]
+aliases = ['mbc', 'most\s+backward\s+class(?:es)?']
+source = "https://www.pgacpdy.in/reservation"
+
+[[class]]
+id = "py:EBC"
+short = "EBC"
+name = "Extreme Backward Classes (Puducherry)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["py"]
+aliases = ['ebc', 'extreme(?:ly)?\s+backward\s+class(?:es)?']
+source = "https://www.pgacpdy.in/reservation"
+
+[[class]]
+id = "py:BCM"
+short = "BCM"
+name = "Backward Class Muslims (Puducherry)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["py"]
+aliases = ['bcm', 'backward\s+class(?:es)?\s+muslims?']
+source = "https://www.pgacpdy.in/reservation"
+
+[[class]]
+id = "py:BT"
+short = "BT"
+name = "Backward Tribes (Puducherry)"
+axis = "vertical"
+family = "ST"
+jurisdictions = ["py"]
+aliases = ['backward\s+tribes?']
+codes = ['BT']
+source = "https://www.pgacpdy.in/reservation"
+
+# -- Punjab
+
+[[class]]
+id = "pb:SC(M&B)"
+short = "SC (M&B)"
+name = "Scheduled Castes: Mazhabi Sikh and Balmiki (Punjab)"
+axis = "vertical"
+family = "SC"
+jurisdictions = ["pb"]
+aliases = ['sc\s*[-(]?\s*m\s*(?:&|and)\s*b\s*\)?', '(?:sc\s*[-(]?\s*)?mazh?abi(?:\s+sikhs?)?\s*(?:&|and|/)\s*balmiki\)?', 'balmiki']
+source = "https://www.freejobalert.com/articles/psssb-ada-recruitment-2026-apply-online-for-170-assistant-district-attorney-posts-3046627"
+
+[[class]]
+id = "pb:SC(R&O)"
+short = "SC (R&O)"
+name = "Scheduled Castes: Ramdasia and others (Punjab)"
+axis = "vertical"
+family = "SC"
+jurisdictions = ["pb"]
+aliases = ['sc\s*[-(]?\s*r\s*(?:&|and)\s*o\s*\)?', '(?:sc\s*[-(]?\s*)?ramdasia\s*(?:&|and|/)\s*others?\)?', 'ramdasia']
+source = "https://www.freejobalert.com/articles/psssb-ada-recruitment-2026-apply-online-for-170-assistant-district-attorney-posts-3046627"
+
+[[class]]
+id = "pb:BC"
+short = "BC"
+name = "Backward Classes (Punjab)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["pb"]
+aliases = ['backward\s+class(?:es)?']
+codes = ['BC']
+source = "https://www.freejobalert.com/articles/psssb-ada-recruitment-2026-apply-online-for-170-assistant-district-attorney-posts-3046627"
+
+[[class]]
+id = "pb:LDESM"
+short = "LDESM"
+name = "Lineal descendant of ex-servicemen (Punjab)"
+axis = "horizontal"
+family = "Ex-Servicemen"
+jurisdictions = ["pb"]
+aliases = ['ldesm', 'lineal\s+descendants?\s+of\s+ex[-\s]?service\s*m[ae]n']
+source = "https://www.freejobalert.com/articles/psssb-ada-recruitment-2026-apply-online-for-170-assistant-district-attorney-posts-3046627"
+
+# -- Rajasthan
+
+[[class]]
+id = "rj:MBC"
+short = "MBC"
+name = "More Backward Classes (Rajasthan)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["rj"]
+aliases = ['mbc', 'more\s+backward\s+class(?:es)?', 'most\s+backward\s+class(?:es)?']
+codes = ['SBC']
+source = "https://testbook.com/rpsc"
+
+[[class]]
+id = "rj:Saharia"
+short = "Saharia"
+name = "Saharia (Rajasthan)"
+axis = "vertical"
+family = "ST"
+jurisdictions = ["rj"]
+aliases = ['sah?ariy?as?']
+verified = false
+
+[[class]]
+id = "rj:TSP"
+short = "TSP Area"
+name = "Resident of the Scheduled (Tribal Sub-Plan) Area (Rajasthan)"
+axis = "locality"
+jurisdictions = ["rj"]
+aliases = ['tsp(?:\s+areas?)?', 'tribal\s+sub[-\s]?plan(?:\s+areas?)?', 'scheduled\s+areas?']
+verified = false
+
+[[class]]
+id = "rj:Non-TSP"
+short = "Non-TSP Area"
+name = "Resident outside the Scheduled Area (Rajasthan)"
+axis = "locality"
+jurisdictions = ["rj"]
+aliases = ['non[-\s]?tsp(?:\s+areas?)?', 'non[-\s]?scheduled\s+areas?']
+verified = false
+
+# -- Sikkim
+
+[[class]]
+id = "sk:BL"
+short = "BL"
+name = "Bhutia-Lepcha (Sikkim)"
+axis = "vertical"
+family = "ST"
+jurisdictions = ["sk"]
+aliases = ['bhutia[-\s]*(?:(?:and|&|/)\s*)?lepchas?']
+codes = ['BL']
+source = "https://en.wikipedia.org/wiki/Bhutia-Lepcha"
+
+[[class]]
+id = "sk:Limboo-Tamang"
+short = "Limboo-Tamang"
+name = "Limboo and Tamang (Sikkim)"
+axis = "vertical"
+family = "ST"
+jurisdictions = ["sk"]
+aliases = ['limboo[-\s]*(?:(?:and|&|/)\s*)?tamang', 'limboos?', 'tamangs?']
+verified = false
+
+[[class]]
+id = "sk:MBC"
+short = "MBC"
+name = "Most Backward Classes (Sikkim)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["sk"]
+aliases = ['mbc', 'most\s+backward\s+class(?:es)?']
+verified = false
+
+[[class]]
+id = "sk:OBC(Central)"
+short = "OBC (Central List)"
+name = "Other Backward Classes, Central List (Sikkim)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["sk"]
+aliases = ['obc\s*[-(]?\s*central(?:\s+list)?\)?']
+verified = false
+
+[[class]]
+id = "sk:OBC(State)"
+short = "OBC (State List)"
+name = "Other Backward Classes, State List (Sikkim)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["sk"]
+aliases = ['obc\s*[-(]?\s*state(?:\s+list)?\)?']
+verified = false
+
+# -- Tamil Nadu (TNPSC)
+
+[[class]]
+id = "tn:BC"
+short = "BC"
+name = "Backward Classes other than Muslims (Tamil Nadu)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["tn"]
+aliases = ['backward\s+class(?:es)?(?:\s*\(\s*other\s+than\s+(?:backward\s+class(?:es)?\s+)?muslims?\s*\))?', 'bc\s*[-(]?\s*(?:other\s+than|excluding|excl\.?)\s*(?:bcm|muslims?)\)?', 'bco']
+codes = ['BC']
+source = "https://tnpsc.gov.in/static_pdf/document/FAQ_English.pdf"
+
+[[class]]
+id = "tn:BCM"
+short = "BCM"
+name = "Backward Class Muslims (Tamil Nadu)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["tn"]
+aliases = ['bcm', 'backward\s+class(?:es)?\s*[-(]?\s*muslims?\)?']
+source = "https://tnpsc.gov.in/static_pdf/document/FAQ_English.pdf"
+
+[[class]]
+id = "tn:MBC/DNC"
+short = "MBC/DNC"
+name = "Most Backward Classes and Denotified Communities (Tamil Nadu)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["tn"]
+aliases = ['mbc\s*(?:/|&|and)?\s*(?:dnc|dc)', 'mbcs?', 'most\s+backward\s+class(?:es)?(?:\s*(?:/|&|and)\s*de[-\s]?notified\s+communit(?:y|ies))?', 'de[-\s]?notified\s+communit(?:y|ies)']
+codes = ['MBC', 'DNC']
+source = "https://tnpsc.gov.in/static_pdf/document/FAQ_English.pdf"
+
+[[class]]
+id = "tn:SC(A)"
+short = "SC(A)"
+name = "Scheduled Castes (Arunthathiyars) (Tamil Nadu)"
+axis = "vertical"
+family = "SC"
+jurisdictions = ["tn"]
+aliases = ['sc\s*[-(]\s*a\s*\)?', 'sca', 'scheduled\s+castes?\s*[-(]?\s*arunthathiyars?\)?', 'arunthathiyars?']
+source = "https://tnpsc.gov.in/static_pdf/document/FAQ_English.pdf"
+
+[[class]]
+id = "tn:PSTM"
+short = "PSTM"
+name = "Person studied in Tamil medium (Tamil Nadu)"
+axis = "locality"
+jurisdictions = ["tn"]
+aliases = ['pstm', 'persons?\s+studied\s+in\s+tamil\s+medium', 'tamil\s+medium']
+source = "https://tnpsc.gov.in/static_pdf/document/FAQ_English.pdf"
+
+# -- Telangana
+
+[[class]]
+id = "tg:BC-A"
+short = "BC-A"
+name = "Backward Classes Group A (Telangana)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["tg"]
+aliases = ['b\.?c\.?\s*[-(]?\s*a\)?']
+source = "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFLzE1LUcuTy5Ncy5Oby4wMywwOTA5MjAyMDIwMjIwNTA2MTE0NjA0LnBkZg==r95v17a0y2d8i13v"
+
+[[class]]
+id = "tg:BC-B"
+short = "BC-B"
+name = "Backward Classes Group B (Telangana)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["tg"]
+aliases = ['b\.?c\.?\s*[-(]?\s*b\)?']
+source = "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFLzE1LUcuTy5Ncy5Oby4wMywwOTA5MjAyMDIwMjIwNTA2MTE0NjA0LnBkZg==r95v17a0y2d8i13v"
+
+[[class]]
+id = "tg:BC-C"
+short = "BC-C"
+name = "Backward Classes Group C (Telangana)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["tg"]
+aliases = ['b\.?c\.?\s*[-(]?\s*c\)?']
+source = "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFLzE1LUcuTy5Ncy5Oby4wMywwOTA5MjAyMDIwMjIwNTA2MTE0NjA0LnBkZg==r95v17a0y2d8i13v"
+
+[[class]]
+id = "tg:BC-D"
+short = "BC-D"
+name = "Backward Classes Group D (Telangana)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["tg"]
+aliases = ['b\.?c\.?\s*[-(]?\s*d\)?']
+source = "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFLzE1LUcuTy5Ncy5Oby4wMywwOTA5MjAyMDIwMjIwNTA2MTE0NjA0LnBkZg==r95v17a0y2d8i13v"
+
+[[class]]
+id = "tg:BC-E"
+short = "BC-E"
+name = "Backward Classes Group E (Telangana)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["tg"]
+aliases = ['b\.?c\.?\s*[-(]?\s*e\)?']
+source = "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFLzE1LUcuTy5Ncy5Oby4wMywwOTA5MjAyMDIwMjIwNTA2MTE0NjA0LnBkZg==r95v17a0y2d8i13v"
+
+[[class]]
+id = "tg:SC-I"
+short = "SC Group I"
+name = "Scheduled Castes Group I (Telangana)"
+axis = "vertical"
+family = "SC"
+jurisdictions = ["tg"]
+aliases = ['sc\s*[-(]?\s*(?:group|grp\.?|gr\.?)?\s*[-(]?\s*(?:i|1)\)?(?![iv\d])']
+source = "https://aninews.in/news/national/general-news/telangana-enforces-sc-sub-categorization-for-future-recruitments-education-related-decisions20250414202413/"
+
+[[class]]
+id = "tg:SC-II"
+short = "SC Group II"
+name = "Scheduled Castes Group II (Telangana)"
+axis = "vertical"
+family = "SC"
+jurisdictions = ["tg"]
+aliases = ['sc\s*[-(]?\s*(?:group|grp\.?|gr\.?)?\s*[-(]?\s*(?:ii|2)\)?(?![iv\d])']
+source = "https://aninews.in/news/national/general-news/telangana-enforces-sc-sub-categorization-for-future-recruitments-education-related-decisions20250414202413/"
+
+[[class]]
+id = "tg:SC-III"
+short = "SC Group III"
+name = "Scheduled Castes Group III (Telangana)"
+axis = "vertical"
+family = "SC"
+jurisdictions = ["tg"]
+aliases = ['sc\s*[-(]?\s*(?:group|grp\.?|gr\.?)?\s*[-(]?\s*(?:iii|3)\)?(?![iv\d])']
+source = "https://aninews.in/news/national/general-news/telangana-enforces-sc-sub-categorization-for-future-recruitments-education-related-decisions20250414202413/"
+
+# -- Uttarakhand
+
+[[class]]
+id = "uk:State Movement Activist"
+short = "State Movement Activist"
+name = "Uttarakhand state movement activist (Rajya Andolankari) or dependant"
+axis = "horizontal"
+jurisdictions = ["uk"]
+aliases = ['(?:state|rajya)\s+(?:movement|andolan)(?:\s+(?:activists?|agitators?|affected))?', 'rajya\s+andolankari', 'andolankari']
+source = "https://www.adda247.com/exams/uttarakhand/uksssc-inter-level-recruitment-2026/"
+
+# -- West Bengal
+
+[[class]]
+id = "wb:OBC-A"
+short = "OBC-A"
+name = "Other Backward Classes Category A (West Bengal)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["wb"]
+aliases = ['obc\s*[-(]?\s*(?:cat(?:egory)?\.?\s*)?a\)?']
+source = "https://www.karmasandhan.com/wbpsc-obc-sub-category-wbcs-wbjs-miscellaneous/"
+
+[[class]]
+id = "wb:OBC-B"
+short = "OBC-B"
+name = "Other Backward Classes Category B (West Bengal)"
+axis = "vertical"
+family = "OBC"
+jurisdictions = ["wb"]
+aliases = ['obc\s*[-(]?\s*(?:cat(?:egory)?\.?\s*)?b\)?']
+source = "https://www.karmasandhan.com/wbpsc-obc-sub-category-wbcs-wbjs-miscellaneous/"
+
+[deprecated]
+# id = "reason and replacement"

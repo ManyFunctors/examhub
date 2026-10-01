@@ -1,0 +1,384 @@
+{{ define "main" }}
+{{- $isExam := and .IsPage (eq .Params.section "exams") -}}
+{{- if not $isExam }}
+  <article class="prose prose--page">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </article>
+{{- else }}
+{{- $p := .Params -}}
+{{- $d := $p.dates -}}
+{{- $stages := sort $d.stages "stage_number" -}}
+{{- $postNames := slice -}}
+{{- range $p.posts.list -}}{{- $postNames = $postNames | append .post_name -}}{{- end -}}
+{{- $postNames = uniq $postNames -}}
+{{- $events := partial "v2/events.html" . -}}
+{{- $conductor := "" -}}{{- $conductorURL := "" -}}
+{{- range $p.bodies -}}{{- if and (eq .body_role "conducts") (not $conductor) -}}
+  {{- with index hugo.Data.bodies .body -}}{{- $conductor = .name -}}{{- else -}}{{- $conductor = .body -}}{{- end -}}
+  {{- with site.GetPage (printf "/bodies/%s" .body) }}{{ $conductorURL = .RelPermalink }}{{ end -}}
+{{- end -}}{{- end -}}
+
+{{- $stageName := dict -}}
+{{- range $stages -}}{{- $stageName = merge $stageName (dict (string .stage_number) .stage_name) -}}{{- end -}}
+{{- /* the next dated row, which carries the countdown marker */ -}}
+{{- $nextKey := "" -}}
+{{- range $i, $e := $events -}}{{- if and (not $nextKey) (in (slice "now" "soon" "later") $e.state) (eq $e.status "confirmed") -}}{{- $nextKey = $i -}}{{- end -}}{{- end -}}
+{{- $st := partialCached "exam-status.html" . .RelPermalink -}}
+
+<div class="page-header page-header--stamped"><div>
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{ site.Home.RelPermalink }}">Home</a></nav>
+  <div class="card__top"><h1>{{ .Title }}</h1></div>
+  <p class="page-description">{{ $p.title_official }}{{ with $conductor }}<br><span class="v2-by">Conducted by <strong>{{ with $conductorURL }}<a href="{{ . }}">{{ $conductor }}</a>{{ else }}{{ $conductor }}{{ end }}</strong>{{ with $p.cycle }}{{ if not (in (slice "unknown" "none") .) }} · Cycle {{ . }}{{ end }}{{ end }}</span>{{ end }}</p>
+</div>
+{{ partial "record-freshness.html" . }}
+</div>
+<header class="v2-head">
+
+</header>
+
+{{- /* ═══ key dates: the main site's timeline, one heading per stage ═══ */}}
+<details class="section v2-keydates" id="dates" open>
+  <summary class="keydates__summary"><h2 class="section__title">Key Dates</h2></summary>
+  {{- $groups := slice 0 -}}{{- range $stages -}}{{- $groups = $groups | append .stage_number -}}{{- end -}}
+  <ol class="v2-kd">
+  {{- range $g := $groups }}
+    {{- $rows := where $events "group" $g -}}
+    {{- $sd := dict -}}{{- range $stages -}}{{- if eq .stage_number $g -}}{{- $sd = . -}}{{- end -}}{{- end -}}
+    <li class="v2-kd__group">
+      <div class="v2-kd__head">
+        <span class="v2-kd__num" aria-hidden="true">{{ if eq $g 0 }}✎{{ else }}{{ $g }}{{ end }}</span>
+        <span class="v2-kd__name">{{ if eq $g 0 }}Applying{{ else }}{{ title $sd.stage_name }}<span class="v2-kd__meta">{{ partial "v2/word.html" $sd.stage_format }}{{ with partial "v2/postsnote.html" (dict "for" $sd.stage_posts "all" $postNames) }} · {{ . }}{{ end }}</span>{{ end }}</span>
+      </div>
+      <ul class="timeline">
+    {{- range $rows }}
+      {{- $i := .idx -}}
+      {{- $has := isset .w "from" -}}
+      {{- $prov := eq .status "tentative" -}}
+      {{- $isNext := and (ne (printf "%v" $nextKey) "") (eq $i $nextKey) -}}
+      {{- $urgent := and $has (in (slice "now" "soon") .state) (le (sub (time.AsTime .w.from).Unix now.Unix) 604800) -}}
+    <li class="timeline__item timeline__item--{{ .kind }}{{ if not $has }} timeline__item--empty{{ else if eq .state "done" }} timeline__item--done{{ else }} timeline__item--pending{{ end }}{{ if $isNext }} timeline__item--next{{ end }}{{ if $prov }} timeline__item--provisional{{ end }}{{ if $urgent }} timeline__item--urgent{{ end }}">
+      <span class="timeline__dot" aria-hidden="true"></span>
+      <span class="timeline__lead">
+        <span class="cal__event cal__event--{{ .kind }}{{ if $prov }} cal__event--prov{{ end }} timeline__chip"><span class="timeline__chipname">{{ .label }}{{ if and $has $prov }} <span class="date__flag">· Expected</span>{{ end }}</span><span class="timeline__chipdate">{{ if $has }}<time datetime="{{ partial "v2/day.html" (dict "v" .w.from "f" "2006-01-02") }}" class="date{{ if $prov }} date--provisional{{ end }}"><span class="date__value">{{ partial "v2/when.html" .w }}</span></time>{{ else }}<span class="timeline__tba">{{ if .overtaken }}Not Announced{{ else }}{{ partial "v2/when.html" .w }}{{ end }}</span>{{ end }}</span></span>
+      </span>
+      {{- if $isNext }}
+      <span class="timeline__marker">{{- $cd := partial "v2/day.html" (dict "v" .w.from "f" "2006-01-02") }}{{ $days := div (sub (time.AsTime $cd).Unix (time.AsTime (now.Format "2006-01-02")).Unix) 86400 }}<span class="pill pill--info timeline__next countdown" data-countdown data-exam-date="{{ $cd }}">{{/* as of the nightly build; the script keeps it current */}}{{ if gt $days 1 }}{{ $days }} Days Left{{ else if eq $days 1 }}Tomorrow{{ else if eq $days 0 }}Today{{ else }}{{ sub 0 $days }} Day{{ if ne $days -1 }}s{{ end }} Ago{{ end }}</span></span>
+      {{- else if eq .state "now" }}
+      <span class="timeline__marker"><span class="pill pill--info timeline__next">Open Now</span></span>
+      {{- end }}
+      {{- if and (reflect.IsMap .w) (ne (printf "%v" .w.change) "none") (ne (printf "%v" .w.change) "") }}
+      <p class="timeline__note">{{ partial "v2/word.html" .w.change | humanize }}{{ with .w.changed_from }}{{ if not (reflect.IsMap .) }}{{ if ne (printf "%v" .) "none" }} from {{ (partial "v2/day.html" .) }}{{ end }}{{ end }}{{ end }}</p>
+      {{- end }}
+    </li>
+    {{- end }}
+      </ul>
+    </li>
+  {{- end }}
+  </ol>
+  {{- if eq $d.correction.status "none" }}<p class="v2-silent">There is no correction window: check the form before you submit.</p>{{ end }}
+</details>
+
+{{- /* ═══ documents ═══ */}}
+<details class="section v2-keydates" id="documents" open>
+  <summary class="keydates__summary"><h2 class="section__title">Official Documents</h2></summary>
+  <ul class="v2-docs">
+  {{- with $p.links.link_official_page }}{{ if hasPrefix . "http" }}<li class="v2-doc v2-doc--site"><a href="{{ . }}" rel="noopener">Official Page</a><span class="v2-sub">{{ (urls.Parse .).Host }}</span></li>{{ end }}{{ end }}
+  {{- with $p.links.link_apply }}{{ if hasPrefix . "http" }}<li class="v2-doc v2-doc--apply"><a href="{{ . }}" rel="noopener">Apply Online</a></li>{{ end }}{{ end }}
+  {{- range $p.links.documents }}
+    <li class="v2-doc"><a href="{{ .document_url }}" rel="noopener">{{ partial "v2/word.html" .document_type | humanize }}{{ if ne (printf "%v" .document_stage) "all" }}: {{ index $stageName (string .document_stage) }}{{ end }}</a>
+      <span class="v2-sub">{{ if not (in (slice "unknown") (printf "%v" .document_published)) }}{{ (partial "v2/day.html" .document_published) }} · {{ end }}PDF</span></li>
+  {{- end }}
+  </ul>
+  {{- with $p.provenance.provenance_last_checked }}
+  <p class="v2-checked">Checked against the official documents on {{ (partial "v2/day.html" .) }}.</p>
+  {{- end }}
+</details>
+
+<h2 class="v2-more-title">More About This Exam</h2>
+  {{- /* The four facts most readers come for. */ -}}
+  <dl class="v2-facts v2-facts--glance">
+    <div><dt>Vacancies</dt><dd>{{ with $p.posts.vacancies_total }}{{ if reflect.IsMap . }}{{ else if in (slice "unknown" "not_announced") (printf "%v" .) }}{{ partial "v2/word.html" . }}{{ else }}{{ (partial "v2/num.html" .) }}{{ end }}{{ end }}{{ if eq $p.posts.vacancies_status "tentative" }} <span class="v2-sub">May Change</span>{{ end }}</dd></div>
+    {{- $e0 := index $p.eligibility 0 -}}
+    <div><dt>Age</dt><dd>{{ with $e0.age }}{{ if and (eq .applies "yes") (ne (printf "%v" .age_max) "unknown") }}{{ .age_min }}–{{ .age_max }} Years <span class="v2-sub">On {{ (partial "v2/day.html" .age_as_of) }}</span>{{ else if eq .applies "no" }}No Limit{{ else }}Not Stated{{ end }}{{ end }}</dd></div>
+    {{- $fees := slice -}}{{- range $p.fee.rows -}}{{- if not (reflect.IsMap .fee_rupees) -}}{{- if and (ne .fee_per "correction") (not (in (slice "unknown" "not_announced") (printf "%v" .fee_rupees))) -}}{{- $fees = $fees | append .fee_rupees -}}{{- end -}}{{- end -}}{{- end -}}
+    <div><dt>Fee</dt><dd>{{ with $fees }}{{ $lo := index (sort .) 0 }}{{ $hi := index (sort . "value" "desc") 0 }}{{ partial "v2/rupees.html" $lo }}{{ if ne $lo $hi }}–{{ partial "v2/rupees.html" $hi }}{{ end }}{{ else }}Not Stated{{ end }}</dd></div>
+    <div><dt>Pay</dt><dd>{{ with first 1 (where $p.pay "pay_during" "service") }}{{ range . }}{{ if reflect.IsSlice .pay_rupees }}{{ partial "v2/rupees.html" (index .pay_rupees 0) }}–{{ partial "v2/rupees.html" (index .pay_rupees 1) }} <span class="v2-sub">Basic, A Month</span>{{ else }}{{ partial "v2/word.html" .pay_rupees }}{{ end }}{{ end }}{{ else }}Not Stated{{ end }}</dd></div>
+  </dl>
+
+{{- /* values the sections below share */ -}}
+{{- $posts := $p.posts -}}
+{{- $onePost := eq (len $postNames) 1 -}}
+{{- $fee := $p.fee -}}
+{{- $r := $p.exam_rules -}}
+{{- /* a section shows only when the record has rows for it */ -}}
+{{- $hasPosts := and (reflect.IsSlice $p.posts.list) (gt (len $p.posts.list) 0) -}}
+{{- $hasFee := and (reflect.IsSlice $fee.rows) (gt (len $fee.rows) 0) -}}
+{{- $hasPay := and (reflect.IsSlice $p.pay) (gt (len $p.pay) 0) -}}
+
+{{- /* ═══ eligibility ═══ */}}
+<details class="section v2-more" id="eligibility">
+  <summary class="keydates__summary"><h2 class="section__title">Eligibility</h2></summary>
+  {{- $blocks := $p.eligibility -}}
+  {{- $sections := slice "nationality" "domicile" "gender" "marital" "age" "education" "prior_exam" "certificates" "registration" "experience" "language" "physical" "medical" "disability" "employment" "character" "attempts" "category_proof" "other" -}}
+  {{- /* A section the same in every block is shown once; the data keeps full blocks. */ -}}
+  {{- $same := slice -}}{{- $diff := slice -}}
+  {{- range $sections -}}
+    {{- $s := . -}}{{- $first := jsonify (index (index $blocks 0) $s) -}}{{- $all := true -}}
+    {{- range $blocks -}}{{- if ne (jsonify (index . $s)) $first -}}{{- $all = false -}}{{- end -}}{{- end -}}
+    {{- if $all -}}{{- $same = $same | append $s -}}{{- else -}}{{- $diff = $diff | append $s -}}{{- end -}}
+  {{- end -}}
+  {{- if gt (len $blocks) 1 }}
+    <h3 class="v2-h3">For Every Post</h3>
+  {{- end }}
+  {{ partial "v2/eligibility.html" (dict "block" (index $blocks 0) "sections" $same) }}
+  {{- if gt (len $blocks) 1 }}
+    <h3 class="v2-h3">By Post</h3>
+    <div class="v2-byposts">
+    {{- range $blocks }}
+      <details class="v2-post">
+        <summary>{{ partial "v2/word.html" .eligibility_posts }}{{ with .education.education_options }}{{ if reflect.IsSlice . }}<span class="v2-sub"> · {{ delimit (index . 0) " + " }}{{ if gt (len .) 1 }} or {{ sub (len .) 1 }} more{{ end }}</span>{{ end }}{{ end }}</summary>
+        {{ partial "v2/eligibility.html" (dict "block" . "sections" $diff) }}
+      </details>
+    {{- end }}
+    </div>
+  {{- end }}
+</details>
+
+{{- if $hasPosts }}
+{{- /* ═══ vacancies ═══ */}}
+<details class="section v2-more" id="posts">
+  <summary class="keydates__summary"><h2 class="section__title">Vacancies</h2></summary>
+  {{- if $onePost }}{{ with index $postNames 0 }}{{ if not (in (slice "none" "unknown" "not_announced") (printf "%v" .)) }}<p class="v2-post-name">{{ . }}</p>{{ end }}{{ end }}{{ end }}
+  <p class="v2-lede">{{ with $posts.vacancies_total }}{{ if reflect.IsMap . }}{{ else if in (slice "none" "unknown" "not_announced") (printf "%v" .) }}Number of posts: <strong>{{ partial "v2/word.html" . }}</strong>{{ else }}<strong>{{ (partial "v2/num.html" .) }}</strong> posts{{ end }}{{ end }}
+    {{- if eq $posts.vacancies_status "tentative" }}, provisional: the number may change{{ end }}.
+    {{- if eq (printf "%v" $posts.posts_per_candidate) "1" }} You can apply for <strong>one</strong> post only.{{ end }}
+    {{- with $posts.posts_waiting_list_percent }}{{ if and (not (reflect.IsMap .)) (gt . 0) }} A waiting or reserve list of up to {{ . }}% of the vacancies may be kept.{{ end }}{{ end }}
+    {{- if eq $posts.posts_join_in_batches "yes" }} Selected candidates may join in batches.{{ end }}</p>
+  {{- $cats := slice -}}
+  {{- range $posts.list }}{{ if reflect.IsMap .by_category }}{{ range $k, $v := .by_category }}{{ $cats = $cats | append $k }}{{ end }}{{ end }}{{ end -}}
+  {{- if reflect.IsSlice $posts.groups }}{{ range $posts.groups }}{{ range $k, $v := .by_category }}{{ $cats = $cats | append $k }}{{ end }}{{ end }}{{ end -}}
+  {{- $order := slice "Unreserved" "OC" "EWS" "OBC-NCL" "BC-A" "BC-B" "BC-C" "BC-D" "BC-E" "SC" "ST" -}}
+  {{- $cats = uniq $cats -}}
+  {{- $sorted := slice -}}{{- range $order -}}{{- if in $cats . -}}{{- $sorted = $sorted | append . -}}{{- end -}}{{- end -}}
+  {{- range sort $cats -}}{{- if not (in $sorted .) -}}{{- $sorted = $sorted | append . -}}{{- end -}}{{- end -}}
+  {{- $hasUnit := false -}}{{- range $posts.list -}}{{- if not (in (slice "all" "none" "unknown" "not_announced" "") (printf "%v" .post_unit)) -}}{{- $hasUnit = true -}}{{- end -}}{{- end -}}
+  {{- /* One post, no count and no split: the lede above already says it all. */ -}}
+  {{- $bare := and $onePost (not $sorted) (eq (printf "%v" (index $posts.list 0).post_vacancies) "not_announced") -}}
+  {{- if not $bare }}
+  <div class="v2-scroll">
+  <table class="v2-table v2-table--num">
+    {{- $pwn := 0 -}}{{- range $sorted -}}{{- if hasPrefix . "PwBD" -}}{{- $pwn = add $pwn 1 -}}{{- end -}}{{- end -}}
+    <thead>
+      {{- if $pwn }}<tr class="v2-thgroup"><td colspan="{{ sub (add (len $sorted) 2) $pwn }}"></td><th scope="colgroup" colspan="{{ $pwn }}">Of Which PwBD</th></tr>{{ end }}
+      <tr><th scope="col">{{ if $hasUnit }}Where{{ else if $onePost }}Vacancies{{ else }}Post{{ end }}</th><th scope="col">Total</th>{{ range $sorted }}<th scope="col"{{ if hasPrefix . "PwBD" }} class="v2-pwcol"{{ end }}>{{ strings.TrimSuffix ")" (strings.TrimPrefix "PwBD (" .) }}</th>{{ end }}</tr></thead>
+    <tbody>
+    {{- $prevGroup := "" -}}
+    {{- range $i, $_ := $posts.list }}
+      {{- $row := . -}}
+      <tr{{ if eq .post_vacancy_kind "backlog" }} class="v2-backlog"{{ end }}>
+        <th scope="row">{{ if $hasUnit }}{{ .post_unit }}{{ else if $onePost }}{{ cond (eq .post_vacancy_kind "backlog") "Backlog (Carried Forward)" "New Vacancies" }}{{ else if in (slice "none" "unknown" "not_announced") (printf "%v" .post_name) }}Post Not Named{{ else }}{{ .post_name }}{{ end }}{{ if and (not $onePost) (eq .post_vacancy_kind "backlog") }} <span class="v2-tag">backlog</span>{{ end }}{{ if not (in (slice "none" "Backlog" .post_name) .post_group) }}<span class="v2-sub"> {{ .post_group }}</span>{{ end }}</th>
+        <td>{{ if reflect.IsMap .post_vacancies }}{{ else }}{{ if eq (printf "%v" .post_vacancies) "not_announced" }}<span class="v2-na">Not Reported</span>{{ else }}{{ (partial "v2/num.html" .post_vacancies) }}{{ end }}{{ end }}</td>
+        {{- if reflect.IsMap .by_category }}
+          {{- range $sorted }}<td>{{ with index $row.by_category . }}{{ (partial "v2/num.html" .) }}{{ else }}<span class="v2-na">–</span>{{ end }}</td>{{ end }}
+        {{- else if eq .by_category "in_group" }}
+          <td colspan="{{ len $sorted }}" class="v2-na">See the {{ .post_group }} Split</td>
+        {{- else if $sorted }}
+          <td colspan="{{ len $sorted }}" class="v2-na">{{ if eq .by_category "not_announced" }}Category Split Not Given{{ else }}{{ partial "v2/word.html" .by_category }}{{ end }}</td>
+        {{- end }}
+      </tr>
+      {{- $nextGroup := "" -}}{{- range $j, $q := $posts.list -}}{{- if eq $j (add $i 1) -}}{{- $nextGroup = $q.post_group -}}{{- end -}}{{- end -}}
+      {{- if and (ne .post_group $nextGroup) (reflect.IsSlice $posts.groups) }}{{ range where $posts.groups "group_name" .post_group }}{{ $gr := . }}
+      <tr class="v2-grouprow"><th scope="row">All {{ .group_name }} Posts: Category Split</th><td>{{ .group_vacancies }}</td>
+        {{- range $sorted }}<td>{{ with index $gr.by_category . }}{{ . }}{{ else }}<span class="v2-na">–</span>{{ end }}</td>{{ end }}</tr>
+      {{- end }}{{ end }}
+    {{- end }}
+    </tbody>
+    {{- if gt (len $posts.list) 2 }}
+    <tfoot><tr><th scope="row">Total</th><td>{{ with $posts.vacancies_total }}{{ if not (reflect.IsMap .) }}{{ (partial "v2/num.html" .) }}{{ end }}{{ end }}</td>
+      {{- range $sorted }}{{ $c := . }}{{ $sum := 0 }}{{ $known := true }}
+        {{- range $posts.list }}{{ if reflect.IsMap .by_category }}{{ with index .by_category $c }}{{ $sum = add $sum . }}{{ end }}{{ end }}{{ end -}}
+        {{- if reflect.IsSlice $posts.groups }}{{ range $posts.groups }}{{ with index .by_category $c }}{{ $sum = add $sum . }}{{ end }}{{ end }}{{ end -}}
+        <td>{{ (partial "v2/num.html" $sum) }}</td>{{ end }}</tr></tfoot>
+    {{- end }}
+  </table>
+  </div>
+  {{- end }}
+  {{- /* With no category columns, the missing split is said once, under the table. */ -}}
+  {{- if not $sorted }}{{ $split := "" }}{{ range $posts.list }}{{ if and (not (reflect.IsMap .by_category)) (ne .by_category "in_group") }}{{ $split = .by_category }}{{ end }}{{ end -}}
+  {{- with $split }}<p class="v2-note">{{ if eq . "not_announced" }}The notice gives no split of the posts by category.{{ else }}Category split: {{ partial "v2/word.html" . }}.{{ end }}</p>{{ end }}{{ end }}
+  {{- $pw := slice -}}{{- range $sorted -}}{{- if hasPrefix . "PwBD" -}}{{- $pw = $pw | append . -}}{{- end -}}{{- end -}}
+  {{- with $pw }}<p class="v2-note">PwBD seats are counted inside the category columns, not added to them.</p>{{ end }}
+</details>
+{{- end }}
+
+{{- if $hasFee }}
+{{- /* ═══ fee ═══ */}}
+<details class="section v2-more" id="fee">
+  <summary class="keydates__summary"><h2 class="section__title">Fee</h2></summary>
+  {{- $amounts := slice -}}{{- range $fee.rows -}}{{- $amounts = $amounts | append (printf "%v|%s" .fee_rupees .fee_per) -}}{{- end -}}
+  <table class="v2-table v2-table--fee">
+    <tbody>
+    {{- range uniq $amounts }}{{ $a := . }}
+      {{- $cats := slice -}}{{- $row := dict -}}
+      {{- range $fee.rows }}{{ if eq (printf "%v|%s" .fee_rupees .fee_per) $a }}{{ $cats = $cats | append (cond (eq .fee_category "all") "Everyone" .fee_category) }}{{ $row = . }}{{ end }}{{ end }}
+      <tr><th scope="row">{{ delimit $cats ", " }}{{ if eq $row.fee_per "correction" }} <span class="v2-sub">to use the edit window</span>{{ end }}</th>
+          <td>{{ if eq (printf "%v" $row.fee_rupees) "0" }}No Fee{{ else }}{{ partial "v2/rupees.html" $row.fee_rupees }}{{ end }}</td></tr>
+    {{- end }}
+    </tbody>
+  </table>
+  <ul class="v2-facts-list">
+    {{- $inc := slice -}}{{- range $fee.rows -}}{{- if reflect.IsSlice .fee_includes -}}{{- $inc = $inc | append .fee_includes -}}{{- end -}}{{- end -}}
+    {{- with uniq $inc }}<li>Includes {{ partial "v2/word.html" . }}.</li>{{ end }}
+    {{- if eq $fee.fee_bank_charges_extra "yes" }}<li>Bank or gateway charges are extra.</li>{{ end }}
+    {{- if eq $fee.fee_refundable "no" }}<li>Not refundable.</li>{{ end }}
+    {{- with $fee.fee_payment_modes }}{{ if reflect.IsSlice . }}<li>Pay online: {{ partial "v2/word.html" . }}.</li>{{ end }}{{ end }}
+  </ul>
+</details>
+{{- end }}
+
+{{- /* ═══ exam pattern ═══ */}}
+<details class="section v2-more" id="pattern">
+  <summary class="keydates__summary"><h2 class="section__title">Exam Pattern</h2></summary>
+  {{- range $stages }}
+  {{- $s := . -}}
+  <article class="v2-stage">
+    <h3><span class="v2-tl__num">{{ .stage_number }}</span> {{ .stage_name }}</h3>
+    <ul class="v2-chips">
+      <li>{{ partial "v2/word.html" .stage_format }}</li>
+      {{- if not (in (slice "none" "unknown") .stage_mode) }}<li>{{ partial "v2/word.html" .stage_mode }}</li>{{ end }}
+      {{- with partial "v2/postsnote.html" (dict "for" .stage_posts "all" $postNames) }}<li class="v2-chip--who">{{ . }}</li>{{ end }}
+      {{- if not (reflect.IsMap .stage_minutes) }}{{ if not (in (slice "none" "unknown" "not_announced") (printf "%v" .stage_minutes)) }}<li>{{ .stage_minutes }} Minutes</li>{{ end }}{{ end }}
+      {{- if reflect.IsSlice .stage_languages }}<li>{{ delimit .stage_languages ", " " or " }}</li>{{ end }}
+    </ul>
+    <p class="v2-stage__role">
+      {{- if eq .stage_purpose "screening" }}Shortlisting only: these marks don't count in the final merit list.
+      {{- else if eq .stage_purpose "qualifying" }}Pass or fail: you must clear it, but it adds no marks.
+      {{- else if eq .stage_purpose "merit" }}Counts in the final merit list{{ with .stage_merit_weight }}{{ if and (not (reflect.IsMap .)) (ne (printf "%v" .) "none") }} with a weight of <strong>{{ . }}%</strong>{{ end }}{{ end }}.
+      {{- else }}Must be taken; the notice doesn't say how it counts.{{ end }}
+      {{- with .stage_shortlist_times }}{{ if and (not (reflect.IsMap .)) (not (in (slice "none" "unknown" "not_announced") (printf "%v" .))) }} About {{ . }} candidates per vacancy go on to the next stage.{{ end }}{{ end }}
+      {{- if eq (printf "%v" .stage_min_marks) "not_announced" }} There is a minimum total mark, set later.{{ else if eq (printf "%v" .stage_min_marks) "by_category" }} The minimum mark differs by category.{{ end }}
+    </p>
+    {{- if reflect.IsSlice .stage_centres }}
+    <p class="v2-note">Held in {{ len .stage_centres }} cities: {{ delimit .stage_centres ", " }}.</p>
+    {{- end }}
+    {{- if reflect.IsSlice .stage_parts }}
+      {{- $keys := slice -}}{{- range .stage_parts -}}{{- $keys = $keys | append (jsonify .part_posts) -}}{{- end -}}
+      {{- range $k := uniq $keys }}
+        {{- $parts := slice -}}{{- range $s.stage_parts -}}{{- if eq (jsonify .part_posts) $k -}}{{- $parts = $parts | append . -}}{{- end -}}{{- end -}}
+        {{- $who := (index $parts 0).part_posts -}}
+        {{- if gt (len (uniq $keys)) 1 }}<h4 class="v2-h4">{{ if reflect.IsSlice $who }}{{ if eq (len $who) 1 }}{{ index $who 0 }}{{ else if le (len $who) 3 }}{{ delimit $who ", " " and " }}{{ else }}{{ index $who 0 }} and {{ sub (len $who) 1 }} other posts{{ end }}{{ else }}Also, for everyone{{ end }}</h4>{{ end }}
+        {{- $cut := 0 -}}{{- range $parts -}}{{- if eq (printf "%v" .part_min_marks) "not_announced" -}}{{- $cut = add $cut 1 -}}{{- end -}}{{- end -}}
+        {{- $allCut := eq $cut (len $parts) -}}
+        {{- if and $allCut (gt (len $parts) 1) }}<p class="v2-note">You must clear a minimum mark in <strong>every section</strong>; the marks are set after the exam.</p>{{ end }}
+        {{- $tq := 0 -}}{{- $tm := 0 -}}{{- $tt := 0 -}}
+        <div class="v2-scroll"><table class="v2-table v2-table--pattern">
+          <thead><tr><th scope="col">Section</th><th scope="col">Questions</th><th scope="col">Marks</th><th scope="col">Time</th><th scope="col">Language</th></tr></thead>
+          <tbody>
+          {{- range $parts }}
+            <tr>
+              <th scope="row">{{ .part_name }}
+                {{- if eq .part_qualifying "yes" }} <span class="v2-tag">qualifying only</span>{{ end }}
+                {{- if and (not $allCut) (eq (printf "%v" .part_min_marks) "not_announced") }} <span class="v2-tag v2-tag--soft" title="You must clear a minimum in this section; the mark is set later">sectional cut-off</span>{{ end }}</th>
+              <td>{{ if reflect.IsMap .part_questions }}{{ else }}{{ partial "v2/word.html" .part_questions }}{{ end }}</td>
+              <td>{{ .part_marks }}</td>
+              <td>{{ if in (slice "none" "unknown") (printf "%v" .part_minutes) }}<span class="v2-na">–</span>{{ else }}{{ .part_minutes }} min{{ end }}</td>
+              <td>{{ if reflect.IsSlice .part_languages }}{{ delimit .part_languages ", " }}{{ else }}<span class="v2-na">–</span>{{ end }}</td>
+            </tr>
+            {{- if ne .part_qualifying "yes" }}{{ $tm = add $tm .part_marks }}{{ end }}
+          {{- end }}
+          </tbody>
+          {{- if and (gt $tm 0) (gt (len $parts) 1) }}<tfoot><tr><th scope="row">Total</th><td></td><td>{{ $tm }}</td><td></td><td></td></tr></tfoot>{{ end }}
+        </table></div>
+      {{- end }}
+      {{- /* marking, once per distinct rule */ -}}
+      {{- $rules := slice -}}
+      {{- range .stage_parts }}{{ range .part_marking }}{{ $rules = $rules | append (jsonify .) }}{{ end }}{{ end }}
+      <ul class="v2-marking">
+      {{- range uniq $rules }}{{ $m := . | transform.Unmarshal }}
+        <li>
+        {{- if eq $m.marking_question_type "descriptive" }}<strong>Descriptive answers</strong> are marked by examiners.
+        {{- else }}
+          {{- $w := float $m.marking_wrong -}}
+          <strong>{{ if lt $w 0 }}Wrong answer: {{ if eq $m.marking_unit "share_of_question" }}lose {{ if eq $w -0.25 }}a quarter{{ else if eq $w -0.33 }}a third{{ else }}{{ mul $w -1 }}{{ end }} of that question's marks{{ else }}{{ $w }} marks{{ end }}{{ else }}No negative marking{{ end }}.</strong>
+          {{- if eq (float $m.marking_unanswered) 0.0 }} A skipped question scores 0.{{ end }}
+        {{- end }}
+        </li>
+      {{- end }}
+      </ul>
+    {{- end }}
+  </article>
+  {{- end }}
+  {{- with $p.exam_rules.tie_break_order }}{{ if reflect.IsSlice . }}
+  <p class="v2-note"><strong>Equal marks?</strong> {{ range $i, $t := . }}{{ if $i }}, then {{ end }}{{ if hasPrefix $t "marks_in_stage:" }}higher {{ strings.TrimPrefix "marks_in_stage:" $t }} marks{{ else if hasPrefix $t "marks_in_part:" }}higher {{ strings.TrimPrefix "marks_in_part:" $t }} marks{{ else }}{{ partial "v2/word.html" $t | lower }}{{ end }}{{ end }}.</p>
+  {{- end }}{{ end }}
+</details>
+
+{{- /* ═══ exam rules ═══ */}}
+<details class="section v2-more" id="rules">
+  <summary class="keydates__summary"><h2 class="section__title">Exam Rules</h2></summary>
+  <ul class="v2-facts-list">
+    {{- if reflect.IsSlice $r.centre_places }}<li>Centres: {{ partial "v2/word.html" $r.centre_places }}.{{ if eq $r.centre_choice "single" }} You pick a centre when applying{{ end }}{{ if eq $r.centre_guaranteed "no" }}, but you may be sent to another{{ end }}.{{ if eq $r.centre_change_allowed "no" }} No change of centre later.{{ end }}</li>{{ end }}
+    {{- if eq $r.scribe_allowed "yes" }}<li>Scribe allowed for eligible PwBD candidates{{ with $r.scribe_extra_minutes_per_hour }}{{ if not (reflect.IsMap .) }}{{ if ne (printf "%v" .) "unknown" }}, with {{ . }} extra minutes per hour{{ end }}{{ end }}{{ end }}.</li>{{ end }}
+    {{- if eq $r.scores_normalised "yes" }}<li>Scores from different sessions are normalised.</li>{{ end }}
+    {{- if reflect.IsSlice $r.training_offered_for }}<li>Free pre-exam training for {{ delimit $r.training_offered_for ", " " and " }} candidates who ask for it when applying.</li>{{ end }}
+  </ul>
+</details>
+
+{{- if $hasPay }}
+{{- /* ═══ pay and service ═══ */}}
+<details class="section v2-more" id="pay">
+  <summary class="keydates__summary"><h2 class="section__title">Pay & Service</h2></summary>
+  {{- $base := index (where $p.pay "pay_posts" "all") 0 | default dict -}}
+  {{- range $p.pay }}
+  {{- if and (reflect.IsSlice .pay_posts) $base (eq (jsonify .pay_rupees) (jsonify $base.pay_rupees)) (eq .pay_during $base.pay_during) }}
+  <p class="v2-pay-extra"><strong>{{ delimit .pay_posts ", " " and " }}</strong> also get{{ if eq (len .pay_posts) 1 }}s{{ end }}: {{ if reflect.IsSlice .pay_allowances }}{{ delimit .pay_allowances ", " }}{{ end }}.</p>
+  {{- else }}
+  {{- if and (eq (printf "%v" .pay_rupees) "none") (eq (printf "%v" .pay_during) "none") }}
+  {{- /* no pay at all, e.g. an entrance exam */}}
+  <div class="v2-pay"><p class="v2-pay__amount">Not Applicable</p></div>
+  {{- else }}
+  <div class="v2-pay">
+    {{- if ne (printf "%v" .pay_during) "none" }}
+    <p class="v2-pay__head">{{ partial "v2/word.html" .pay_during }}{{ with partial "v2/postsnote.html" (dict "for" .pay_posts "all" $postNames) }} · {{ . }}{{ end }}</p>
+    {{- end }}
+    {{- if reflect.IsSlice .pay_rupees }}
+    <p class="v2-pay__amount">{{ partial "v2/rupees.html" (index .pay_rupees 0) }} – {{ partial "v2/rupees.html" (index .pay_rupees 1) }} <span class="v2-sub">basic, a {{ .pay_per }}</span></p>
+    {{- else }}
+    <p class="v2-pay__amount">{{ if not (in (slice "none" "unknown" "not_announced") (printf "%v" .pay_label)) }}{{ .pay_label }} {{ end }}<span class="v2-sub">Amount {{ if eq (printf "%v" .pay_rupees) "none" }}Not Applicable{{ else }}{{ partial "v2/word.html" .pay_rupees }}{{ end }}</span></p>
+    {{- end }}
+    <ul class="v2-facts-list">
+      {{- if reflect.IsSlice .pay_increments }}{{ $at := index .pay_rupees 0 }}
+      <li>Scale: {{ (partial "v2/num.html" $at) }}{{ range .pay_increments }}{{ $step := index . 0 }}{{ $times := index . 1 }}{{ $at = add $at (mul $step $times) }} → +{{ (partial "v2/num.html" $step) }} × {{ $times }} → {{ (partial "v2/num.html" $at) }}{{ end }}</li>
+      {{- end }}
+      {{- if not (in (slice "unknown" "none") (printf "%v" .pay_initial)) }}<li>Starting basic: {{ partial "v2/rupees.html" .pay_initial }}</li>{{ end }}
+      {{- /* Gross pay: an amount reads as a sentence, a sentinel as a labelled line. */}}
+      {{- $gw := cond (in (slice "unknown" "none" "all") (printf "%v" .pay_gross_where)) "" (printf ", %s" (lower (partial "v2/word.html" .pay_gross_where))) }}
+      {{- if findRE `^[0-9]+$` (printf "%v" .pay_gross) }}<li>About {{ partial "v2/rupees.html" .pay_gross }} a month in total{{ $gw }}</li>
+      {{- else if not (in (slice "unknown" "none") (printf "%v" .pay_gross)) }}<li>Total monthly pay: {{ partial "v2/word.html" .pay_gross }}</li>{{ end }}
+      {{- if reflect.IsSlice .pay_allowances }}<li>Allowances: {{ delimit .pay_allowances ", " }}</li>{{ end }}
+      {{- if reflect.IsSlice .pay_benefits }}<li>Benefits: {{ partial "v2/word.html" .pay_benefits }}</li>{{ end }}
+    </ul>
+  </div>
+  {{- end }}
+  {{- end }}
+  {{- end }}
+  {{- $sv := $p.service -}}
+  {{- $items := slice -}}
+  {{- if not (in (slice "none" "unknown") (printf "%v" $sv.service_probation_months)) }}{{ $items = $items | append (printf "Probation: %v months%s" $sv.service_probation_months (cond (not (in (slice "none" "unknown") (printf "%v" $sv.service_probation_extendable_months))) (printf ", can be extended to %v" $sv.service_probation_extendable_months) "")) }}{{ end -}}
+  {{- if not (in (slice "none" "unknown") (printf "%v" $sv.service_probation_exam)) }}{{ $items = $items | append (printf "Must pass the %s exam during probation" $sv.service_probation_exam) }}{{ end -}}
+  {{- if not (in (slice "none" "unknown") (printf "%v" $sv.service_bond_months)) }}{{ $items = $items | append (printf "Bond: serve at least %v months (%v years), or pay %s" $sv.service_bond_months (div $sv.service_bond_months 12) (partial "v2/word.html" $sv.service_bond_amount | lower)) }}{{ end -}}
+  {{- if not (in (slice "none" "unknown") (printf "%v" $sv.service_training_cost)) }}{{ $items = $items | append (printf "Leaving during probation also costs %s towards training" (partial "v2/rupees.html" $sv.service_training_cost)) }}{{ end -}}
+  {{- if not (in (slice "none" "unknown") (printf "%v" $sv.service_first_posting_months)) }}{{ $items = $items | append (printf "At least %v years at your first posting" (div $sv.service_first_posting_months 12)) }}{{ end -}}
+  {{- if not (in (slice "none" "unknown") (printf "%v" $sv.service_same_field_months)) }}{{ $items = $items | append (printf "Specialists may be kept in their field for %v years" (div $sv.service_same_field_months 12)) }}{{ end -}}
+  {{- if not (in (slice "none" "unknown") (printf "%v" $sv.service_posting_area)) }}{{ $items = $items | append (printf "Posting: %s" (partial "v2/word.html" $sv.service_posting_area)) }}{{ end -}}
+  {{- with $items }}
+  <h3 class="v2-h3">Terms of Service</h3>
+  <ul class="v2-facts-list">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+  {{- end }}
+</details>
+{{- end }}
+
+
+{{- end }}
+{{ end }}

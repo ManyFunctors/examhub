@@ -1,0 +1,610 @@
+# Catalogue: Telangana. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "tg-tgpsc"
+name = "Telangana State Public Service Commission"
+short_name = "TGPSC"
+known_as = ["TSPSC"]
+jurisdiction = "tg"
+kind = "public_service_commission"
+website = "https://www.tgpsc.gov.in/"
+hosts = ["tgpsc.gov.in", "www.tgpsc.gov.in", "websitenew.tgpsc.gov.in", "application.tgpsc.gov.in"]
+status = "active"
+notes = "Renamed from TSPSC in 2024. www.tspsc.gov.in is NXDOMAIN."
+
+[[bodies]]
+id = "tg-tgprb"
+name = "Telangana State Level Police Recruitment Board"
+short_name = "TGLPRB"
+known_as = ["TSLPRB"]
+jurisdiction = "tg"
+kind = "police_recruitment_board"
+website = "https://www.tgprb.in/"
+status = "active"
+
+[[bodies]]
+id = "tg-bse"
+name = "Board of Secondary Education, Telangana"
+short_name = "BSE Telangana"
+jurisdiction = "tg"
+kind = "school_board"
+website = "https://bse.telangana.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tg-tgbie"
+name = "Telangana Board of Intermediate Education"
+short_name = "TGBIE"
+known_as = ["TSBIE"]
+jurisdiction = "tg"
+kind = "school_board"
+website = "https://tgbie.cgg.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tg-sed"
+name = "School Education Department, Telangana"
+short_name = "School Education Telangana"
+jurisdiction = "tg"
+kind = "ministry_department"
+website = "https://schooledu.telangana.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tg-tgche"
+name = "Telangana Council of Higher Education"
+short_name = "TGCHE"
+known_as = ["TSCHE"]
+jurisdiction = "tg"
+kind = "testing_agency"
+website = "https://tgche.ac.in/"
+status = "active"
+
+[[bodies]]
+id = "tg-ou"
+name = "Osmania University (TS SET)"
+short_name = "Osmania University"
+jurisdiction = "tg"
+kind = "university"
+website = "https://www.telanganaset.org/"
+status = "active"
+
+[[bodies]]
+id = "tg-sbtet"
+name = "State Board of Technical Education and Training, Telangana"
+short_name = "SBTET Telangana"
+jurisdiction = "tg"
+kind = "testing_agency"
+website = "https://polycet.sbtet.telangana.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tg-mhsrb"
+name = "Telangana Medical Health Services Recruitment Board"
+short_name = "TG MHSRB"
+jurisdiction = "tg"
+kind = "health_recruitment"
+website = "https://mhsrb.telangana.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tg-treirb"
+name = "Telangana Residential Educational Institutions Recruitment Board"
+short_name = "TREIRB"
+jurisdiction = "tg"
+kind = "teacher_recruitment_board"
+website = "https://treirb.telangana.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tg-hc"
+name = "High Court for the State of Telangana"
+short_name = "Telangana HC"
+jurisdiction = "tg"
+kind = "court"
+website = "https://tshc.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tg-sccl"
+name = "The Singareni Collieries Company Ltd."
+short_name = "SCCL"
+jurisdiction = "tg"
+kind = "psu"
+website = "https://scclmines.com/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "tg-tgpsc/notifications"
+body = "tg-tgpsc"
+url = "https://websitenew.tgpsc.gov.in/notifications"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tg-tgpsc/direct-recruitment"
+body = "tg-tgpsc"
+url = "https://websitenew.tgpsc.gov.in/directRecruitment"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tg-tgprb/home"
+body = "tg-tgprb"
+url = "https://www.tgprb.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tg-bse/home"
+body = "tg-bse"
+url = "https://bse.telangana.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "tg-tgbie/home"
+body = "tg-tgbie"
+url = "https://tgbie.cgg.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "tg-sed/home"
+body = "tg-sed"
+url = "https://schooledu.telangana.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tg-tgche/home"
+body = "tg-tgche"
+url = "https://tgche.ac.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tg-ou/home"
+body = "tg-ou"
+url = "https://www.telanganaset.org/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tg-sbtet/home"
+body = "tg-sbtet"
+url = "https://polycet.sbtet.telangana.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tg-mhsrb/home"
+body = "tg-mhsrb"
+url = "https://mhsrb.telangana.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tg-treirb/home"
+body = "tg-treirb"
+url = "https://treirb.telangana.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tg-hc/recruitment"
+body = "tg-hc"
+url = "https://tshc.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "tg-sccl/home"
+body = "tg-sccl"
+url = "https://scclmines.com/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tg-hc/recruitment-2"
+body = "tg-hc"
+url = "https://tshc.gov.in/showChildDocTypes?id=95"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Recruitment)."
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "tg-tgpsc-group-1"
+name = "TGPSC Group-I Services"
+known_as = ["TSPSC Group 1"]
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-tgpsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['group[-\s]*(I|1)\b(?!I)'] }
+status = "active"
+
+[[exams]]
+id = "tg-tgpsc-ae"
+name = "TGPSC Assistant Engineer / Engineering Services Examination"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-tgpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "tg-tgpsc-lecturer"
+name = "TGPSC Lecturer / Assistant Professor Recruitment"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-tgpsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "tg-tgpsc-other"
+name = "TGPSC Recruitment to other posts (umbrella)"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-tgpsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "tg-tgpsc-group-2"
+name = "TGPSC Group-II Services"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-tgpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['group[-\s]*(II|2)\b(?!I)'] }
+status = "active"
+
+[[exams]]
+id = "tg-tgpsc-group-3"
+name = "TGPSC Group-III Services"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-tgpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["clerical"]
+match = { any = ['group[-\s]*(III|3)\b'] }
+status = "active"
+
+[[exams]]
+id = "tg-tgpsc-group-4"
+name = "TGPSC Group-IV Services"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-tgpsc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["clerical"]
+match = { any = ['group[-\s]*(IV|4)\b'] }
+status = "active"
+
+[[exams]]
+id = "tg-tgprb-constable"
+name = "TGLPRB Police Constable Recruitment"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-tgprb"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", "sipahi|sepoy", '\bPC\b'] }
+status = "active"
+
+[[exams]]
+id = "tg-tgprb-si"
+name = "TGLPRB Sub-Inspector Recruitment"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-tgprb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
+status = "active"
+
+[[exams]]
+id = "tg-tgprb-fire-warder"
+name = "Telangana Fireman / Jail Warder / Transport Constable"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-tgprb"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ['fire\s*man|fireman', "warder", "transport"] }
+status = "active"
+
+[[exams]]
+id = "tg-bse-class-10"
+name = "BSE Telangana SSC Examination"
+jurisdiction = "tg"
+purpose = "school_board"
+conducted_by = "tg-bse"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['\bSSC\b', 'class\s*(X|10)\b'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "tg-tgbie-class-12"
+name = "TGBIE Intermediate Examination"
+jurisdiction = "tg"
+purpose = "school_board"
+conducted_by = "tg-tgbie"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['class\s*(XII|12)\b', '\b(HSC|HSSC|intermediate|inter|higher\s*secondary|uchha|plus\s*two|\+2|PUC)\b'] }
+status = "active"
+
+[[exams]]
+id = "tg-tet"
+name = "Telangana Teacher Eligibility Test"
+short_name = "TG TET"
+jurisdiction = "tg"
+purpose = "eligibility"
+conducted_by = "tg-sed"
+frequency = "biannual"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['\bTET\b'] }
+status = "active"
+
+[[exams]]
+id = "tg-dsc"
+name = "Telangana DSC Teacher Recruitment"
+short_name = "TG DSC"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-sed"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bDSC\b', 'teacher\s*recruitment', "TRT"] }
+status = "active"
+
+[[exams]]
+id = "tg-eapcet"
+name = "Telangana Engineering, Agriculture and Pharmacy CET"
+short_name = "TG EAPCET"
+jurisdiction = "tg"
+purpose = "admission"
+conducted_by = "tg-tgche"
+frequency = "annual"
+qualification = "class_12"
+streams = ["engineering", "agriculture", "pharmacy"]
+match = { any = ["EAPCET", "EAMCET"] }
+status = "active"
+
+[[exams]]
+id = "tg-icet"
+name = "Telangana Integrated Common Entrance Test"
+short_name = "TG ICET"
+jurisdiction = "tg"
+purpose = "admission"
+conducted_by = "tg-tgche"
+frequency = "annual"
+qualification = "graduate"
+streams = ["management"]
+match = { any = ['\bICET\b'] }
+status = "active"
+
+[[exams]]
+id = "tg-ecet"
+name = "Telangana Engineering Common Entrance Test (lateral)"
+short_name = "TG ECET"
+jurisdiction = "tg"
+purpose = "admission"
+conducted_by = "tg-tgche"
+frequency = "annual"
+qualification = "diploma"
+streams = ["engineering"]
+match = { any = ['\bECET\b'] }
+status = "active"
+
+[[exams]]
+id = "tg-pgecet"
+name = "Telangana Post Graduate Engineering CET"
+short_name = "TG PGECET"
+jurisdiction = "tg"
+purpose = "admission"
+conducted_by = "tg-tgche"
+frequency = "annual"
+qualification = "graduate"
+streams = ["engineering", "pharmacy"]
+match = { any = ["PGECET"] }
+status = "active"
+
+[[exams]]
+id = "tg-edcet"
+name = "Telangana Education CET (B.Ed.)"
+short_name = "TG EdCET"
+jurisdiction = "tg"
+purpose = "admission"
+conducted_by = "tg-tgche"
+frequency = "annual"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['ED\s*CET'] }
+status = "active"
+
+[[exams]]
+id = "tg-lawcet"
+name = "Telangana LAWCET / PGLCET"
+short_name = "TG LAWCET"
+jurisdiction = "tg"
+purpose = "admission"
+conducted_by = "tg-tgche"
+frequency = "annual"
+qualification = "class_12"
+streams = ["law"]
+match = { any = ['LAW\s*CET', "PGLCET"] }
+status = "active"
+
+[[exams]]
+id = "tg-pecet"
+name = "Telangana Physical Education CET"
+short_name = "TG PECET"
+jurisdiction = "tg"
+purpose = "admission"
+conducted_by = "tg-tgche"
+frequency = "annual"
+qualification = "graduate"
+streams = ["sports"]
+match = { any = ["PECET"] }
+status = "active"
+
+[[exams]]
+id = "tg-cpget"
+name = "Telangana Common Post Graduate Entrance Test"
+short_name = "CPGET"
+jurisdiction = "tg"
+purpose = "admission"
+conducted_by = "tg-tgche"
+frequency = "annual"
+qualification = "graduate"
+streams = ["science", "humanities"]
+match = { any = ["CPGET"] }
+status = "active"
+
+[[exams]]
+id = "tg-set"
+name = "Telangana State Eligibility Test"
+short_name = "TS SET"
+jurisdiction = "tg"
+purpose = "eligibility"
+conducted_by = "tg-ou"
+frequency = "annual"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ['\bSET\b'] }
+status = "active"
+
+[[exams]]
+id = "tg-polycet"
+name = "Telangana Polytechnic Common Entrance Test"
+short_name = "TG POLYCET"
+jurisdiction = "tg"
+purpose = "admission"
+conducted_by = "tg-sbtet"
+frequency = "annual"
+qualification = "class_10"
+streams = ["engineering"]
+match = { any = ["POLYCET"] }
+status = "active"
+
+[[exams]]
+id = "tg-mhsrb-recruitment"
+name = "MHSRB Recruitment (Staff Nurse, Civil Assistant Surgeon, MPHA)"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-mhsrb"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["nursing", "medical", "allied_health"]
+match = { any = ['staff\s*nurse', 'assistant\s*surgeon', '\bMPHA\b', "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "tg-treirb-recruitment"
+name = "TREIRB Teacher Recruitment (TGT, PGT, JL, DL)"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-treirb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bTGT\b', '\bPGT\b', 'junior\s*lecturer', 'degree\s*lecturer', "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "tg-hc-staff"
+name = "Telangana HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "tg-hc-judicial"
+name = "Telangana HC Civil Judge / Higher Judicial Service Examination"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-hc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', 'district\s*judge', '\bHJS\b'] }
+status = "active"
+
+[[exams]]
+id = "tg-sccl-recruitment"
+name = "SCCL Recruitment (Management Trainee, JME, Fitter)"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-sccl"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["engineering", "technical"]
+match = { any = ['management\s*trainee', 'junior\s*mining', "recruitment"] }
+status = "active"

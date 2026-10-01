@@ -1,0 +1,14 @@
+{{- /* A code or a value, in the reader's words. Lists are joined. */ -}}
+{{- $v := . -}}
+{{- $out := "" -}}
+{{- if reflect.IsSlice $v -}}
+  {{- $parts := slice -}}
+  {{- range $v -}}{{- $parts = $parts | append (partial "v2/word.html" .) -}}{{- end -}}
+  {{- $out = delimit $parts ", " -}}
+{{- else if reflect.IsMap $v -}}
+  {{- $out = "" -}}
+{{- else -}}
+  {{- $s := string $v -}}
+  {{- with index hugo.Data.v2_words $s -}}{{- $out = . -}}{{- else -}}{{- $out = $s -}}{{- end -}}
+{{- end -}}
+{{- return $out -}}

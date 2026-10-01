@@ -1,0 +1,38 @@
+# Catalogue: Dadra and Nagar Haveli and Daman and Diu. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "dh-admin"
+name = "Administration of Dadra and Nagar Haveli and Daman and Diu"
+short_name = "DNH&DD Administration"
+jurisdiction = "dh"
+kind = "ministry_department"
+website = "https://ddd.gov.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "dh-admin/home"
+body = "dh-admin"
+url = "https://ddd.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "dh-direct-recruitment"
+name = "DNH&DD Direct Recruitment (teachers, clerks, police)"
+jurisdiction = "dh"
+purpose = "recruitment"
+conducted_by = "dh-admin"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["general"]
+match = { any = ["recruitment", "vacanc", "constable", "teacher"] }
+status = "active"

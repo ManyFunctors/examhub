@@ -1,0 +1,554 @@
+# Catalogue: Andhra Pradesh. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "ap-appsc"
+name = "Andhra Pradesh Public Service Commission"
+short_name = "APPSC"
+jurisdiction = "ap"
+kind = "public_service_commission"
+website = "https://psc.ap.gov.in/"
+hosts = ["psc.ap.gov.in", "portal-psc.ap.gov.in", "applications-psc.ap.gov.in", "otpr-psc.ap.gov.in"]
+status = "active"
+notes = "psc.ap.gov.in is a tile page linking four hosts."
+
+[[bodies]]
+id = "ap-slprb"
+name = "Andhra Pradesh State Level Police Recruitment Board"
+short_name = "AP SLPRB"
+jurisdiction = "ap"
+kind = "police_recruitment_board"
+website = "https://slprb.ap.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "ap-bseap"
+name = "Board of Secondary Education, Andhra Pradesh"
+short_name = "BSEAP"
+jurisdiction = "ap"
+kind = "school_board"
+website = "https://bse.ap.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "ap-bieap"
+name = "Board of Intermediate Education, Andhra Pradesh"
+short_name = "BIEAP"
+jurisdiction = "ap"
+kind = "school_board"
+website = "https://bie.ap.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "ap-cse"
+name = "Commissionerate of School Education, Andhra Pradesh"
+short_name = "CSE AP"
+jurisdiction = "ap"
+kind = "ministry_department"
+website = "https://cse.ap.gov.in/"
+hosts = ["cse.ap.gov.in", "aptet.apcfss.in", "apdsc.apcfss.in", "tet2dsc.apcfss.in"]
+status = "active"
+
+[[bodies]]
+id = "ap-apsche"
+name = "Andhra Pradesh State Council of Higher Education"
+short_name = "APSCHE"
+jurisdiction = "ap"
+kind = "testing_agency"
+website = "https://cets.apsche.ap.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "ap-apset"
+name = "Andhra Pradesh State Eligibility Test (Andhra University)"
+short_name = "APSET"
+jurisdiction = "ap"
+kind = "university"
+website = "https://apset.net.in/"
+status = "active"
+
+[[bodies]]
+id = "ap-sbtet"
+name = "State Board of Technical Education and Training, Andhra Pradesh"
+short_name = "SBTET AP"
+jurisdiction = "ap"
+kind = "testing_agency"
+website = "https://polycetap.nic.in/"
+status = "active"
+
+[[bodies]]
+id = "ap-hc"
+name = "High Court of Andhra Pradesh"
+short_name = "AP High Court"
+jurisdiction = "ap"
+kind = "court"
+website = "https://aphc.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "ap-gsws"
+name = "Village and Ward Secretariats Department, Andhra Pradesh"
+short_name = "AP Sachivalayam"
+jurisdiction = "ap"
+kind = "local_body"
+website = "https://gramawardsachivalayam.ap.gov.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "ap-appsc/portal"
+body = "ap-appsc"
+url = "https://portal-psc.ap.gov.in/Default.aspx"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ap-slprb/recruitments"
+body = "ap-slprb"
+url = "https://slprb.ap.gov.in/UI/recruitments"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ap-bseap/home"
+body = "ap-bseap"
+url = "https://bse.ap.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "ap-bieap/home"
+body = "ap-bieap"
+url = "https://bie.ap.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "ap-cse/home"
+body = "ap-cse"
+url = "https://cse.ap.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ap-apsche/home"
+body = "ap-apsche"
+url = "https://cets.apsche.ap.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ap-apset/home"
+body = "ap-apset"
+url = "https://apset.net.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ap-sbtet/home"
+body = "ap-sbtet"
+url = "https://polycetap.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ap-hc/recruitment"
+body = "ap-hc"
+url = "https://aphc.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "ap-gsws/home"
+body = "ap-gsws"
+url = "https://gramawardsachivalayam.ap.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "ap-appsc-group-1"
+name = "APPSC Group-I Services"
+known_as = ["APPSC Group 1"]
+jurisdiction = "ap"
+purpose = "recruitment"
+conducted_by = "ap-appsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['group[-\s]*(I|1)\b(?!I)'] }
+status = "active"
+
+[[exams]]
+id = "ap-appsc-ae"
+name = "APPSC Assistant Engineer / Engineering Services Examination"
+jurisdiction = "ap"
+purpose = "recruitment"
+conducted_by = "ap-appsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "ap-appsc-lecturer"
+name = "APPSC Lecturer / Assistant Professor Recruitment"
+jurisdiction = "ap"
+purpose = "recruitment"
+conducted_by = "ap-appsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "ap-appsc-other"
+name = "APPSC Recruitment to other posts (umbrella)"
+jurisdiction = "ap"
+purpose = "recruitment"
+conducted_by = "ap-appsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "ap-appsc-group-2"
+name = "APPSC Group-II Services"
+jurisdiction = "ap"
+purpose = "recruitment"
+conducted_by = "ap-appsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['group[-\s]*(II|2)\b(?!I)'] }
+status = "active"
+
+[[exams]]
+id = "ap-appsc-group-3"
+name = "APPSC Group-III (Panchayat Secretary)"
+jurisdiction = "ap"
+purpose = "recruitment"
+conducted_by = "ap-appsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["clerical"]
+match = { any = ['group[-\s]*(III|3)\b', 'panchayat\s*secretary'] }
+status = "active"
+
+[[exams]]
+id = "ap-appsc-group-4"
+name = "APPSC Group-IV Services"
+jurisdiction = "ap"
+purpose = "recruitment"
+conducted_by = "ap-appsc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["clerical"]
+match = { any = ['group[-\s]*(IV|4)\b'] }
+status = "active"
+
+[[exams]]
+id = "ap-slprb-constable"
+name = "AP SLPRB Police Constable Recruitment"
+jurisdiction = "ap"
+purpose = "recruitment"
+conducted_by = "ap-slprb"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", "sipahi|sepoy", '\bPC\b'] }
+status = "active"
+
+[[exams]]
+id = "ap-slprb-si"
+name = "AP SLPRB Sub-Inspector Recruitment"
+jurisdiction = "ap"
+purpose = "recruitment"
+conducted_by = "ap-slprb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
+status = "active"
+
+[[exams]]
+id = "ap-slprb-fire-warder"
+name = "AP Fireman / Jail Warder / Driver Operator"
+jurisdiction = "ap"
+purpose = "recruitment"
+conducted_by = "ap-slprb"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ['fire\s*man|fireman', "warder", 'driver\s*operator'] }
+status = "active"
+
+[[exams]]
+id = "ap-bseap-class-10"
+name = "BSEAP SSC Examination"
+jurisdiction = "ap"
+purpose = "school_board"
+conducted_by = "ap-bseap"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['\bSSC\b', 'class\s*(X|10)\b', '\bOSSC\b'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "ap-bieap-class-12"
+name = "BIEAP Intermediate Examination"
+jurisdiction = "ap"
+purpose = "school_board"
+conducted_by = "ap-bieap"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['class\s*(XII|12)\b', '\b(HSC|HSSC|intermediate|inter|higher\s*secondary|uchha|plus\s*two|\+2|PUC)\b'] }
+status = "active"
+
+[[exams]]
+id = "ap-tet"
+name = "Andhra Pradesh Teacher Eligibility Test"
+short_name = "APTET"
+jurisdiction = "ap"
+purpose = "eligibility"
+conducted_by = "ap-cse"
+frequency = "biannual"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['\bAP\s*TET\b', '\bTET\b'] }
+status = "active"
+
+[[exams]]
+id = "ap-dsc"
+name = "Andhra Pradesh District Selection Committee Teacher Recruitment (Mega DSC)"
+short_name = "AP DSC"
+jurisdiction = "ap"
+purpose = "recruitment"
+conducted_by = "ap-cse"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bDSC\b', "TRT", 'teacher\s*recruitment'] }
+status = "active"
+
+[[exams]]
+id = "ap-special-tet"
+name = "AP Special TET (in-service teachers)"
+jurisdiction = "ap"
+purpose = "eligibility"
+conducted_by = "ap-cse"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['special\s*TET'] }
+status = "active"
+
+[[exams]]
+id = "ap-eapcet"
+name = "AP Engineering, Agriculture and Pharmacy Common Entrance Test"
+short_name = "AP EAPCET"
+jurisdiction = "ap"
+purpose = "admission"
+conducted_by = "ap-apsche"
+frequency = "annual"
+qualification = "class_12"
+streams = ["engineering", "agriculture", "pharmacy"]
+match = { any = ["EAPCET", "EAMCET"] }
+status = "active"
+
+[[exams]]
+id = "ap-icet"
+name = "AP Integrated Common Entrance Test (MBA/MCA)"
+short_name = "AP ICET"
+jurisdiction = "ap"
+purpose = "admission"
+conducted_by = "ap-apsche"
+frequency = "annual"
+qualification = "graduate"
+streams = ["management"]
+match = { any = ['\bICET\b'] }
+status = "active"
+
+[[exams]]
+id = "ap-ecet"
+name = "AP Engineering Common Entrance Test (lateral)"
+short_name = "AP ECET"
+jurisdiction = "ap"
+purpose = "admission"
+conducted_by = "ap-apsche"
+frequency = "annual"
+qualification = "diploma"
+streams = ["engineering"]
+match = { any = ['\bECET\b'] }
+status = "active"
+
+[[exams]]
+id = "ap-pgecet"
+name = "AP Post Graduate Engineering Common Entrance Test"
+short_name = "AP PGECET"
+jurisdiction = "ap"
+purpose = "admission"
+conducted_by = "ap-apsche"
+frequency = "annual"
+qualification = "graduate"
+streams = ["engineering", "pharmacy"]
+match = { any = ["PGECET"] }
+status = "active"
+
+[[exams]]
+id = "ap-edcet"
+name = "AP Education Common Entrance Test (B.Ed.)"
+short_name = "AP EdCET"
+jurisdiction = "ap"
+purpose = "admission"
+conducted_by = "ap-apsche"
+frequency = "annual"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['ED\s*CET'] }
+status = "active"
+
+[[exams]]
+id = "ap-lawcet"
+name = "AP Law Common Entrance Test / PGLCET"
+short_name = "AP LAWCET"
+jurisdiction = "ap"
+purpose = "admission"
+conducted_by = "ap-apsche"
+frequency = "annual"
+qualification = "class_12"
+streams = ["law"]
+match = { any = ['LAW\s*CET', "PGLCET"] }
+status = "active"
+
+[[exams]]
+id = "ap-pgcet"
+name = "AP Post Graduate Common Entrance Test"
+short_name = "AP PGCET"
+jurisdiction = "ap"
+purpose = "admission"
+conducted_by = "ap-apsche"
+frequency = "annual"
+qualification = "graduate"
+streams = ["science", "humanities"]
+match = { any = ['\bPGCET\b'] }
+status = "active"
+
+[[exams]]
+id = "ap-pecet"
+name = "AP Physical Education Common Entrance Test"
+short_name = "AP PECET"
+jurisdiction = "ap"
+purpose = "admission"
+conducted_by = "ap-apsche"
+frequency = "annual"
+qualification = "graduate"
+streams = ["sports"]
+match = { any = ["PECET"] }
+status = "active"
+
+[[exams]]
+id = "ap-rcet"
+name = "AP Research Common Entrance Test (PhD)"
+short_name = "AP RCET"
+jurisdiction = "ap"
+purpose = "admission"
+conducted_by = "ap-apsche"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["research"]
+match = { any = ['\bRCET\b'] }
+status = "active"
+
+[[exams]]
+id = "ap-set"
+name = "Andhra Pradesh State Eligibility Test"
+short_name = "APSET"
+jurisdiction = "ap"
+purpose = "eligibility"
+conducted_by = "ap-apset"
+frequency = "annual"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ['\bSET\b', "APSET"] }
+status = "active"
+
+[[exams]]
+id = "ap-polycet"
+name = "AP Polytechnic Common Entrance Test"
+short_name = "AP POLYCET"
+jurisdiction = "ap"
+purpose = "admission"
+conducted_by = "ap-sbtet"
+frequency = "annual"
+qualification = "class_10"
+streams = ["engineering"]
+match = { any = ["POLYCET"] }
+status = "active"
+
+[[exams]]
+id = "ap-hc-staff"
+name = "AP High Court Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "ap"
+purpose = "recruitment"
+conducted_by = "ap-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "ap-hc-judicial"
+name = "AP High Court Civil Judge / Higher Judicial Service Examination"
+jurisdiction = "ap"
+purpose = "recruitment"
+conducted_by = "ap-hc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', 'district\s*judge', '\bHJS\b'] }
+status = "active"
+
+[[exams]]
+id = "ap-sachivalayam"
+name = "AP Grama / Ward Sachivalayam Recruitment"
+jurisdiction = "ap"
+purpose = "recruitment"
+conducted_by = "ap-gsws"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["clerical"]
+match = { any = ["sachivalayam", "secretariat", "recruitment"] }
+status = "active"

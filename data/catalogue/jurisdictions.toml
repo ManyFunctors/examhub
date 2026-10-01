@@ -1,0 +1,262 @@
+# The Union plus the 28 states and 8 union territories.
+# `id` is ours and permanent. `iso_3166_2` is an attribute and has changed
+# before (OR->OD, UT->UK, CT->CG, DN+DD->DH); never key anything on it.
+
+[[jurisdictions]]
+id = "in"
+name = "India (Union)"
+kind = "union"
+iso_3166_2 = "IN"
+languages = ["en", "hi"]
+
+[[jurisdictions]]
+id = "ap"
+name = "Andhra Pradesh"
+kind = "state"
+iso_3166_2 = "IN-AP"
+languages = ["te", "en"]
+
+[[jurisdictions]]
+id = "ar"
+name = "Arunachal Pradesh"
+kind = "state"
+iso_3166_2 = "IN-AR"
+languages = ["en"]
+
+[[jurisdictions]]
+id = "as"
+name = "Assam"
+kind = "state"
+iso_3166_2 = "IN-AS"
+languages = ["as", "bn", "en"]
+
+[[jurisdictions]]
+id = "br"
+name = "Bihar"
+kind = "state"
+iso_3166_2 = "IN-BR"
+languages = ["hi", "en"]
+
+[[jurisdictions]]
+id = "cg"
+name = "Chhattisgarh"
+kind = "state"
+iso_3166_2 = "IN-CG"
+languages = ["hi", "en"]
+
+[[jurisdictions]]
+id = "ga"
+name = "Goa"
+kind = "state"
+iso_3166_2 = "IN-GA"
+languages = ["kok", "mr", "en"]
+
+[[jurisdictions]]
+id = "gj"
+name = "Gujarat"
+kind = "state"
+iso_3166_2 = "IN-GJ"
+languages = ["gu", "en"]
+
+[[jurisdictions]]
+id = "hr"
+name = "Haryana"
+kind = "state"
+iso_3166_2 = "IN-HR"
+languages = ["hi", "en"]
+
+[[jurisdictions]]
+id = "hp"
+name = "Himachal Pradesh"
+kind = "state"
+iso_3166_2 = "IN-HP"
+languages = ["hi", "en"]
+
+[[jurisdictions]]
+id = "jh"
+name = "Jharkhand"
+kind = "state"
+iso_3166_2 = "IN-JH"
+languages = ["hi", "en"]
+
+[[jurisdictions]]
+id = "ka"
+name = "Karnataka"
+kind = "state"
+iso_3166_2 = "IN-KA"
+languages = ["kn", "en"]
+
+[[jurisdictions]]
+id = "kl"
+name = "Kerala"
+kind = "state"
+iso_3166_2 = "IN-KL"
+languages = ["ml", "en"]
+
+[[jurisdictions]]
+id = "mp"
+name = "Madhya Pradesh"
+kind = "state"
+iso_3166_2 = "IN-MP"
+languages = ["hi", "en"]
+
+[[jurisdictions]]
+id = "mh"
+name = "Maharashtra"
+kind = "state"
+iso_3166_2 = "IN-MH"
+languages = ["mr", "en"]
+
+[[jurisdictions]]
+id = "mn"
+name = "Manipur"
+kind = "state"
+iso_3166_2 = "IN-MN"
+languages = ["mni", "en"]
+
+[[jurisdictions]]
+id = "ml"
+name = "Meghalaya"
+kind = "state"
+iso_3166_2 = "IN-ML"
+languages = ["en"]
+
+[[jurisdictions]]
+id = "mz"
+name = "Mizoram"
+kind = "state"
+iso_3166_2 = "IN-MZ"
+languages = ["lus", "en"]
+
+[[jurisdictions]]
+id = "nl"
+name = "Nagaland"
+kind = "state"
+iso_3166_2 = "IN-NL"
+languages = ["en"]
+
+[[jurisdictions]]
+id = "od"
+name = "Odisha"
+kind = "state"
+iso_3166_2 = "IN-OD"
+languages = ["or", "en"]
+
+[[jurisdictions]]
+id = "pb"
+name = "Punjab"
+kind = "state"
+iso_3166_2 = "IN-PB"
+languages = ["pa", "en"]
+
+[[jurisdictions]]
+id = "rj"
+name = "Rajasthan"
+kind = "state"
+iso_3166_2 = "IN-RJ"
+languages = ["hi", "en"]
+
+[[jurisdictions]]
+id = "sk"
+name = "Sikkim"
+kind = "state"
+iso_3166_2 = "IN-SK"
+languages = ["ne", "en"]
+
+[[jurisdictions]]
+id = "tn"
+name = "Tamil Nadu"
+kind = "state"
+iso_3166_2 = "IN-TN"
+languages = ["ta", "en"]
+
+[[jurisdictions]]
+id = "tg"
+name = "Telangana"
+kind = "state"
+iso_3166_2 = "IN-TG"
+languages = ["te", "ur", "en"]
+
+[[jurisdictions]]
+id = "tr"
+name = "Tripura"
+kind = "state"
+iso_3166_2 = "IN-TR"
+languages = ["bn", "en"]
+
+[[jurisdictions]]
+id = "up"
+name = "Uttar Pradesh"
+kind = "state"
+iso_3166_2 = "IN-UP"
+languages = ["hi", "en"]
+
+[[jurisdictions]]
+id = "uk"
+name = "Uttarakhand"
+kind = "state"
+iso_3166_2 = "IN-UK"
+languages = ["hi", "en"]
+
+[[jurisdictions]]
+id = "wb"
+name = "West Bengal"
+kind = "state"
+iso_3166_2 = "IN-WB"
+languages = ["bn", "en"]
+
+[[jurisdictions]]
+id = "an"
+name = "Andaman and Nicobar Islands"
+kind = "union_territory"
+iso_3166_2 = "IN-AN"
+languages = ["hi", "en"]
+
+[[jurisdictions]]
+id = "ch"
+name = "Chandigarh"
+kind = "union_territory"
+iso_3166_2 = "IN-CH"
+languages = ["en", "hi", "pa"]
+
+[[jurisdictions]]
+id = "dh"
+name = "Dadra and Nagar Haveli and Daman and Diu"
+kind = "union_territory"
+iso_3166_2 = "IN-DH"
+languages = ["gu", "hi", "en"]
+
+[[jurisdictions]]
+id = "dl"
+name = "Delhi"
+kind = "union_territory"
+iso_3166_2 = "IN-DL"
+languages = ["hi", "en"]
+
+[[jurisdictions]]
+id = "jk"
+name = "Jammu and Kashmir"
+kind = "union_territory"
+iso_3166_2 = "IN-JK"
+languages = ["ur", "hi", "en"]
+
+[[jurisdictions]]
+id = "la"
+name = "Ladakh"
+kind = "union_territory"
+iso_3166_2 = "IN-LA"
+languages = ["hi", "en"]
+
+[[jurisdictions]]
+id = "ld"
+name = "Lakshadweep"
+kind = "union_territory"
+iso_3166_2 = "IN-LD"
+languages = ["ml", "en"]
+
+[[jurisdictions]]
+id = "py"
+name = "Puducherry"
+kind = "union_territory"
+iso_3166_2 = "IN-PY"
+languages = ["ta", "fr", "en"]

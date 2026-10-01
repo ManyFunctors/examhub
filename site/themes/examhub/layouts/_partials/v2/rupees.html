@@ -1,0 +1,7 @@
+{{- /* A rupee amount, or the sentinel's words. */ -}}
+{{- if or (reflect.IsSlice .) (reflect.IsMap .) -}}{{- return "" -}}{{- end -}}
+{{- $s := string . -}}
+{{- if findRE `^-?[0-9]+(\.[0-9]+)?$` $s -}}
+  {{- return printf "₹%s" (lang.FormatNumber 0 .) -}}
+{{- end -}}
+{{- return partial "v2/word.html" . -}}

@@ -1,0 +1,609 @@
+# Catalogue: Chhattisgarh. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "cg-cgpsc"
+name = "Chhattisgarh Public Service Commission"
+short_name = "CGPSC"
+jurisdiction = "cg"
+kind = "public_service_commission"
+website = "https://psc.cg.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "cg-vyapam"
+name = "Chhattisgarh Professional Examination Board (CG Vyapam)"
+short_name = "CG Vyapam"
+jurisdiction = "cg"
+kind = "testing_agency"
+website = "https://vyapam.cgstate.gov.in/"
+hosts = ["vyapam.cgstate.gov.in", "vyapamcg.cgstate.gov.in", "vyapamprofile.cgstate.gov.in"]
+status = "active"
+
+[[bodies]]
+id = "cg-cgbse"
+name = "Chhattisgarh Board of Secondary Education"
+short_name = "CGBSE"
+jurisdiction = "cg"
+kind = "school_board"
+website = "https://cgbse.nic.in/"
+status = "active"
+
+[[bodies]]
+id = "cg-police"
+name = "Chhattisgarh Police"
+short_name = "CG Police"
+jurisdiction = "cg"
+kind = "police_recruitment_board"
+website = "https://cgpolice.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "cg-hc"
+name = "High Court of Chhattisgarh"
+short_name = "CG High Court"
+jurisdiction = "cg"
+kind = "court"
+website = "https://highcourt.cg.gov.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "cg-cgpsc/advertisements"
+body = "cg-cgpsc"
+url = "https://psc.cg.gov.in/Advertisement.php"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "cg-cgpsc/notifications"
+body = "cg-cgpsc"
+url = "https://psc.cg.gov.in/Notifications.php"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "cg-cgpsc/results"
+body = "cg-cgpsc"
+url = "https://psc.cg.gov.in/Result.php"
+adapter = "html_links"
+yields = "results"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "cg-cgpsc/model-answers"
+body = "cg-cgpsc"
+url = "https://psc.cg.gov.in/Modelanswer.php"
+adapter = "html_links"
+yields = "answer_keys"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "cg-vyapam/home"
+body = "cg-vyapam"
+url = "https://vyapam.cgstate.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "cg-cgbse/home"
+body = "cg-cgbse"
+url = "https://cgbse.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "cg-police/home"
+body = "cg-police"
+url = "https://cgpolice.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "cg-hc/recruitment"
+body = "cg-hc"
+url = "https://highcourt.cg.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "cg-hc/high-court-recruitment"
+body = "cg-hc"
+url = "https://highcourt.cg.gov.in/recruit/recruithc3.php"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (High Court Recruitment)."
+
+[[feeds]]
+id = "cg-hc/district-court-recruitment"
+body = "cg-hc"
+url = "https://highcourt.cg.gov.in/recruit/recruitdc.php"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (District Court Recruitment)."
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "cg-cgpsc-sse"
+name = "CGPSC State Service Examination"
+known_as = ["CGPSC SSE"]
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['state\s*service', '\bSSE\b', 'राज्य\s*सेवा'] }
+status = "active"
+
+[[exams]]
+id = "cg-cgpsc-ae"
+name = "CGPSC Assistant Engineer / Engineering Services Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "cg-cgpsc-lecturer"
+name = "CGPSC Lecturer / Assistant Professor Recruitment"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "cg-cgpsc-other"
+name = "CGPSC Recruitment to other posts (umbrella)"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "cg-cgpsc-police-si"
+name = "CGPSC Police Sub-Inspector / Platoon Commander"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', "platoon"] }
+status = "active"
+
+[[exams]]
+id = "cg-tet"
+name = "Chhattisgarh Teacher Eligibility Test"
+short_name = "CG TET"
+jurisdiction = "cg"
+purpose = "eligibility"
+conducted_by = "cg-vyapam"
+frequency = "annual"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bTET\b'] }
+status = "active"
+
+[[exams]]
+id = "cg-set"
+name = "Chhattisgarh State Eligibility Test"
+short_name = "CG SET"
+jurisdiction = "cg"
+purpose = "eligibility"
+conducted_by = "cg-vyapam"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ['\bSET\b'] }
+status = "active"
+
+[[exams]]
+id = "cg-pet"
+name = "Chhattisgarh Pre-Engineering Test"
+short_name = "CG PET"
+jurisdiction = "cg"
+purpose = "admission"
+conducted_by = "cg-vyapam"
+frequency = "annual"
+qualification = "class_12"
+streams = ["engineering"]
+match = { any = ['\bPET\b', 'pre[-\s]*engineering'] }
+status = "active"
+
+[[exams]]
+id = "cg-ppht"
+name = "Chhattisgarh Pre-Polytechnic Test"
+short_name = "PPHT"
+jurisdiction = "cg"
+purpose = "admission"
+conducted_by = "cg-vyapam"
+frequency = "annual"
+qualification = "class_10"
+streams = ["engineering"]
+match = { any = ['\bPPHT\b', "polytechnic"] }
+status = "active"
+
+[[exams]]
+id = "cg-pat-pvpt"
+name = "Chhattisgarh Pre-Agriculture / Pre-Veterinary Test"
+jurisdiction = "cg"
+purpose = "admission"
+conducted_by = "cg-vyapam"
+frequency = "annual"
+qualification = "class_12"
+streams = ["agriculture", "veterinary"]
+match = { any = ['\bPAT\b', '\bPVPT\b', "agriculture|veterinary"] }
+status = "active"
+
+[[exams]]
+id = "cg-bed-deled"
+name = "Chhattisgarh Pre-B.Ed. / Pre-D.El.Ed. Test"
+jurisdiction = "cg"
+purpose = "admission"
+conducted_by = "cg-vyapam"
+frequency = "annual"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['B\.?\s*Ed', 'D\.?\s*El\.?\s*Ed'] }
+status = "active"
+
+[[exams]]
+id = "cg-pnt"
+name = "Chhattisgarh Pre-Nursing Test / Pre-Pharmacy"
+jurisdiction = "cg"
+purpose = "admission"
+conducted_by = "cg-vyapam"
+frequency = "annual"
+qualification = "class_12"
+streams = ["nursing", "pharmacy"]
+match = { any = ['\bPNT\b', "nursing", 'pharmacy|\bPPT\b'] }
+status = "active"
+
+[[exams]]
+id = "cg-vyapam-recruitment"
+name = "CG Vyapam-conducted recruitment (Teacher, Patwari, ADEO, Constable, others)"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-vyapam"
+frequency = "multiple"
+qualification = "class_12"
+streams = ["general"]
+match = { any = ["recruitment|भर्ती", "patwari", "teacher|shikshak", '\bADEO\b', "constable"] }
+status = "active"
+
+[[exams]]
+id = "cg-cgbse-class-10"
+name = "CGBSE High School Examination"
+jurisdiction = "cg"
+purpose = "school_board"
+conducted_by = "cg-cgbse"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['class\s*(X|10)\b', '\b(SSC|SSLC|HSLC|matric|madhyamik|secondary)\b(?!.*higher)'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "cg-cgbse-class-12"
+name = "CGBSE Higher Secondary Examination"
+jurisdiction = "cg"
+purpose = "school_board"
+conducted_by = "cg-cgbse"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['class\s*(XII|12)\b', '\b(HSC|HSSC|intermediate|inter|higher\s*secondary|uchha|plus\s*two|\+2|PUC)\b'] }
+status = "active"
+
+[[exams]]
+id = "cg-police-constable"
+name = "CG Police Police Constable Recruitment"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-police"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", "sipahi|sepoy", '\bPC\b'] }
+status = "active"
+
+[[exams]]
+id = "cg-police-si"
+name = "CG Police Sub-Inspector Recruitment"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-police"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
+status = "active"
+
+[[exams]]
+id = "cg-hc-staff"
+name = "CG High Court Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "cg-hc-judicial"
+name = "CG High Court Civil Judge / Higher Judicial Service Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-hc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', 'district\s*judge', '\bHJS\b'] }
+status = "active"
+
+[[exams]]
+id = "cg-cgpsc-civil-judge"
+name = "CGPSC Civil Judge Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Civil[\s\-_./()]*Judge[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-boiler-inspector"
+name = "CGPSC Boiler Inspector Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Boiler[\s\-_./()]*Inspector[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-parivahan-up-nirikshak"
+name = "CGPSC Parivahan Up Nirikshak Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Parivahan[\s\-_./()]*Up[\s\-_./()]*Nirikshak[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-court-manager"
+name = "CGPSC Court Manager Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Court[\s\-_./()]*Manager[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-assistant-director-agriculture"
+name = "CGPSC Assistant Director Agriculture Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Assistant[\s\-_./()]*Director[\s\-_./()]*Agriculture[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-scientific-officer"
+name = "CGPSC Scientific Officer Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Scientific[\s\-_./()]*Officer[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-cg-forest-service"
+name = "CGPSC CG Forest Service Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Cg[\s\-_./()]*Forest[\s\-_./()]*Service[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-assistant-research-officer"
+name = "CGPSC Assistant Research Officer Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Assistant[\s\-_./()]*Research[\s\-_./()]*Officer[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-ayurveda-medical-officer"
+name = "CGPSC Ayurveda Medical Officer Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Ayurveda[\s\-_./()]*Medical[\s\-_./()]*Officer[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-dental-surgeon"
+name = "CGPSC Dental Surgeon Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Dental[\s\-_./()]*Surgeon[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-deputy-superintendent-of-police"
+name = "CGPSC Deputy Superintendent of Police Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Deputy[\s\-_./()]*Superintendent[\s\-_./()]*of[\s\-_./()]*Police[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-mining-inspector"
+name = "CGPSC Mining Inspector Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Mining[\s\-_./()]*Inspector[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-assistant-registrar"
+name = "CGPSC Assistant Registrar Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Assistant[\s\-_./()]*Registrar[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-law-officer"
+name = "CGPSC Law Officer Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Law[\s\-_./()]*Officer[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-assistant-director-industry-manager"
+name = "CGPSC Assistant Director / Industry Manager Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Assistant[\s\-_./()]*Director[\s\-_./()]*Industry[\s\-_./()]*Manager[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-casualty-medical-officer"
+name = "CGPSC Casualty Medical Officer Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Casualty[\s\-_./()]*Medical[\s\-_./()]*Officer[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-physiotherapist"
+name = "CGPSC Physiotherapist Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])PHYSIOTHERAPIST[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-homeopathy-medical-officer"
+name = "CGPSC Homeopathy Medical Officer Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Homeopathy[\s\-_./()]*Medical[\s\-_./()]*Officer[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-assistant-geologist"
+name = "CGPSC Assistant Geologist Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Assistant[\s\-_./()]*Geologist[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-assistant-librarian"
+name = "CGPSC Assistant Librarian Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Assistant[\s\-_./()]*Librarian[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "cg-cgpsc-district-ayuverda-officer"
+name = "CGPSC District Ayurveda Officer Examination"
+jurisdiction = "cg"
+purpose = "recruitment"
+conducted_by = "cg-cgpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])District[\s\-_./()]*Ayuverda[\s\-_./()]*Officer[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."

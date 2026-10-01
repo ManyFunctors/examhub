@@ -1,0 +1,577 @@
+# Catalogue: Kerala. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "kl-kpsc"
+name = "Kerala Public Service Commission"
+short_name = "Kerala PSC"
+jurisdiction = "kl"
+kind = "public_service_commission"
+website = "https://keralapsc.gov.in/"
+hosts = ["keralapsc.gov.in", "www.keralapsc.gov.in", "thulasi.psc.kerala.gov.in"]
+status = "active"
+
+[[bodies]]
+id = "kl-pareeksha-bhavan"
+name = "Kerala Pareeksha Bhavan (Commissioner for Government Examinations)"
+short_name = "Kerala Pareeksha Bhavan"
+jurisdiction = "kl"
+kind = "school_board"
+website = "https://pareekshabhavan.kerala.gov.in/"
+hosts = ["pareekshabhavan.kerala.gov.in", "ktet.kerala.gov.in", "keralapareekshabhavan.in"]
+status = "active"
+
+[[bodies]]
+id = "kl-dhse"
+name = "Directorate of General Education (Higher Secondary), Kerala"
+short_name = "DHSE Kerala"
+jurisdiction = "kl"
+kind = "school_board"
+website = "https://www.dhsekerala.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "kl-lbs"
+name = "LBS Centre for Science and Technology"
+short_name = "LBS Centre"
+jurisdiction = "kl"
+kind = "testing_agency"
+website = "https://lbscentre.kerala.gov.in/"
+hosts = ["lbscentre.kerala.gov.in", "lbsapplications.kerala.gov.in"]
+status = "active"
+
+[[bodies]]
+id = "kl-cee"
+name = "Commissioner for Entrance Examinations, Kerala"
+short_name = "CEE Kerala"
+jurisdiction = "kl"
+kind = "testing_agency"
+website = "https://cee.kerala.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "kl-cusat"
+name = "Cochin University of Science and Technology"
+short_name = "CUSAT"
+jurisdiction = "kl"
+kind = "university"
+website = "https://admissions.cusat.ac.in/"
+status = "active"
+
+[[bodies]]
+id = "kl-hc"
+name = "High Court of Kerala"
+short_name = "Kerala HC"
+jurisdiction = "kl"
+kind = "court"
+website = "https://hckrecruitment.keralacourts.in/"
+hosts = ["hckrecruitment.keralacourts.in", "highcourt.kerala.gov.in"]
+status = "active"
+
+[[bodies]]
+id = "kl-kdrb"
+name = "Kerala Devaswom Recruitment Board"
+short_name = "KDRB"
+jurisdiction = "kl"
+kind = "staff_selection_board"
+website = "https://kdrb.kerala.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "kl-police"
+name = "Kerala Police"
+short_name = "Kerala Police"
+jurisdiction = "kl"
+kind = "police_recruitment_board"
+website = "https://keralapolice.gov.in/"
+status = "active"
+notes = "Police posts are recruited by Kerala PSC; the police site publishes physical test schedules."
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "kl-kpsc/notifications"
+body = "kl-kpsc"
+url = "https://keralapsc.gov.in/index.php/notifications"
+adapter = "html_links"
+yields = "notices"
+item_selector = "table tr"
+include = 'gazette|notification|cat\.?\s*no'
+status = "active"
+
+[[feeds]]
+id = "kl-kpsc/exam-updates"
+body = "kl-kpsc"
+url = "https://keralapsc.gov.in/index.php/psc-examination-updates"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "kl-kpsc/rss"
+body = "kl-kpsc"
+url = "https://www.keralapsc.gov.in/rss.xml"
+adapter = "rss"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "kl-kpsc/examinations"
+body = "kl-kpsc"
+url = "https://keralapsc.gov.in/index.php/examinations"
+adapter = "html_links"
+yields = "calendar"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "kl-kpsc/ranked-lists"
+body = "kl-kpsc"
+url = "https://keralapsc.gov.in/index.php/rankedlist"
+adapter = "html_links"
+yields = "results"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "kl-pareeksha-bhavan/home"
+body = "kl-pareeksha-bhavan"
+url = "https://pareekshabhavan.kerala.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "kl-dhse/home"
+body = "kl-dhse"
+url = "https://www.dhsekerala.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "kl-lbs/home"
+body = "kl-lbs"
+url = "https://lbscentre.kerala.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "kl-cee/home"
+body = "kl-cee"
+url = "https://cee.kerala.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "kl-cusat/home"
+body = "kl-cusat"
+url = "https://admissions.cusat.ac.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "kl-hc/recruitment"
+body = "kl-hc"
+url = "https://hckrecruitment.keralacourts.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "kl-kdrb/home"
+body = "kl-kdrb"
+url = "https://kdrb.kerala.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "kl-police/home"
+body = "kl-police"
+url = "https://keralapolice.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "kl-kpsc/psc-examination-updates"
+body = "kl-kpsc"
+url = "https://keralapsc.gov.in/psc-examination-updates"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (PSC Examination updates)."
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "kl-kpsc-kas"
+name = "Kerala Administrative Service Examination"
+known_as = ["KAS"]
+jurisdiction = "kl"
+purpose = "recruitment"
+conducted_by = "kl-kpsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['\bKAS\b', 'administrative\s*service'] }
+status = "active"
+
+[[exams]]
+id = "kl-kpsc-ae"
+name = "Kerala PSC Assistant Engineer / Engineering Services Examination"
+jurisdiction = "kl"
+purpose = "recruitment"
+conducted_by = "kl-kpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "kl-kpsc-lecturer"
+name = "Kerala PSC Lecturer / Assistant Professor Recruitment"
+jurisdiction = "kl"
+purpose = "recruitment"
+conducted_by = "kl-kpsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "kl-kpsc-other"
+name = "Kerala PSC Recruitment to other posts (umbrella)"
+jurisdiction = "kl"
+purpose = "recruitment"
+conducted_by = "kl-kpsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "kl-kpsc-ldc"
+name = "Kerala PSC Lower Division Clerk"
+jurisdiction = "kl"
+purpose = "recruitment"
+conducted_by = "kl-kpsc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["clerical"]
+match = { any = ['lower\s*division\s*clerk', '\bLDC\b'] }
+status = "active"
+
+[[exams]]
+id = "kl-kpsc-lgs"
+name = "Kerala PSC Last Grade Servants"
+jurisdiction = "kl"
+purpose = "recruitment"
+conducted_by = "kl-kpsc"
+frequency = "irregular"
+qualification = "class_8"
+streams = ["multi_tasking"]
+match = { any = ['last\s*grade', '\bLGS\b'] }
+status = "active"
+
+[[exams]]
+id = "kl-kpsc-common-prelims"
+name = "Kerala PSC Common Preliminary Examinations (10th, 12th, Degree level)"
+jurisdiction = "kl"
+purpose = "recruitment"
+conducted_by = "kl-kpsc"
+frequency = "annual"
+qualification = "class_10"
+streams = ["general"]
+match = { any = ['common\s*preliminary', '(10th|plus\s*two|12th|degree)\s*level\s*prelim'] }
+status = "active"
+
+[[exams]]
+id = "kl-kpsc-police"
+name = "Kerala PSC Police Constable / Civil Police Officer / SI"
+jurisdiction = "kl"
+purpose = "recruitment"
+conducted_by = "kl-kpsc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ['civil\s*police\s*officer', 'police\s*constable', 'sub[-\s]*inspector', '\bCPO\b'] }
+status = "active"
+
+[[exams]]
+id = "kl-kpsc-teacher"
+name = "Kerala PSC Teacher Recruitment (LPSA, UPSA, HSA, HSST)"
+jurisdiction = "kl"
+purpose = "recruitment"
+conducted_by = "kl-kpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bLPSA\b|\bUPSA\b|\bHSA\b|\bHSST\b', '(lower|upper)\s*primary\s*school\s*assistant', 'high\s*school\s*(teacher|assistant)'] }
+status = "active"
+
+[[exams]]
+id = "kl-kpsc-staff-nurse"
+name = "Kerala PSC Staff Nurse"
+jurisdiction = "kl"
+purpose = "recruitment"
+conducted_by = "kl-kpsc"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["nursing"]
+match = { any = ['staff\s*nurse'] }
+status = "active"
+
+[[exams]]
+id = "kl-kpsc-veo"
+name = "Kerala PSC Village Extension Officer / Village Field Assistant"
+jurisdiction = "kl"
+purpose = "recruitment"
+conducted_by = "kl-kpsc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["clerical"]
+match = { any = ['village\s*(extension\s*officer|field\s*assistant)', '\bVEO\b|\bVFA\b'] }
+status = "active"
+
+[[exams]]
+id = "kl-kpsc-forest"
+name = "Kerala PSC Beat Forest Officer / Forest Watcher"
+jurisdiction = "kl"
+purpose = "recruitment"
+conducted_by = "kl-kpsc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["forest"]
+match = { any = ['beat\s*forest\s*officer', 'forest\s*watcher'] }
+status = "active"
+
+[[exams]]
+id = "kl-kpsc-departmental"
+name = "Kerala PSC Departmental Tests"
+jurisdiction = "kl"
+purpose = "departmental"
+conducted_by = "kl-kpsc"
+frequency = "biannual"
+streams = ["clerical"]
+match = { any = ['departmental\s*test'] }
+status = "active"
+
+[[exams]]
+id = "kl-sslc"
+name = "Kerala Secondary School Leaving Certificate Examination"
+short_name = "SSLC"
+jurisdiction = "kl"
+purpose = "school_board"
+conducted_by = "kl-pareeksha-bhavan"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['\bSSLC\b'] }
+status = "active"
+
+[[exams]]
+id = "kl-ktet"
+name = "Kerala Teacher Eligibility Test"
+short_name = "K-TET"
+jurisdiction = "kl"
+purpose = "eligibility"
+conducted_by = "kl-pareeksha-bhavan"
+frequency = "biannual"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['K[-\s]*TET'] }
+status = "active"
+
+[[exams]]
+id = "kl-nmms-lss-uss"
+name = "Kerala NMMS / LSS / USS Scholarship Examinations"
+jurisdiction = "kl"
+purpose = "scholarship"
+conducted_by = "kl-pareeksha-bhavan"
+frequency = "annual"
+qualification = "class_5"
+streams = ["school"]
+match = { any = ['\bNMMS\b', '\bLSS\b', '\bUSS\b'] }
+status = "active"
+
+[[exams]]
+id = "kl-plus-two"
+name = "Kerala Higher Secondary (Plus One / Plus Two) Examination"
+jurisdiction = "kl"
+purpose = "school_board"
+conducted_by = "kl-dhse"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['higher\s*secondary', 'plus\s*(one|two)', '\+\s*[12]\b'] }
+status = "active"
+
+[[exams]]
+id = "kl-vhse"
+name = "Kerala Vocational Higher Secondary Examination"
+short_name = "VHSE"
+jurisdiction = "kl"
+purpose = "school_board"
+conducted_by = "kl-dhse"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['\bVHSE\b', "vocational"] }
+status = "active"
+
+[[exams]]
+id = "kl-set"
+name = "Kerala State Eligibility Test"
+short_name = "Kerala SET"
+jurisdiction = "kl"
+purpose = "eligibility"
+conducted_by = "kl-lbs"
+frequency = "biannual"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ['\bSET\b'] }
+status = "active"
+
+[[exams]]
+id = "kl-lbs-admissions"
+name = "LBS Centre Admissions (B.Sc Nursing, Paramedical, PG Ayurveda, DEd)"
+jurisdiction = "kl"
+purpose = "admission"
+conducted_by = "kl-lbs"
+frequency = "annual"
+qualification = "class_12"
+streams = ["nursing", "allied_health"]
+match = { any = ["nursing", "paramedical", "allotment", "admission"] }
+status = "active"
+
+[[exams]]
+id = "kl-keam"
+name = "Kerala Engineering Architecture Medical Entrance (KEAM)"
+short_name = "KEAM"
+jurisdiction = "kl"
+purpose = "admission"
+conducted_by = "kl-cee"
+frequency = "annual"
+qualification = "class_12"
+streams = ["engineering", "medical", "architecture"]
+match = { any = ['\bKEAM\b'] }
+status = "active"
+
+[[exams]]
+id = "kl-kmat"
+name = "Kerala Management Aptitude Test"
+short_name = "KMAT"
+jurisdiction = "kl"
+purpose = "admission"
+conducted_by = "kl-cee"
+frequency = "biannual"
+qualification = "graduate"
+streams = ["management"]
+match = { any = ['\bKMAT\b'] }
+status = "active"
+
+[[exams]]
+id = "kl-llb-entrance"
+name = "Kerala LL.B. / LL.M. Entrance"
+jurisdiction = "kl"
+purpose = "admission"
+conducted_by = "kl-cee"
+frequency = "annual"
+qualification = "class_12"
+streams = ["law"]
+match = { any = ['LL\.?\s*B', 'LL\.?\s*M'] }
+status = "active"
+
+[[exams]]
+id = "kl-pg-medical-nursing"
+name = "Kerala PG Medical / PG Nursing / M.Pharm Entrance and Allotment"
+jurisdiction = "kl"
+purpose = "admission"
+conducted_by = "kl-cee"
+frequency = "annual"
+qualification = "professional"
+streams = ["medical", "nursing", "pharmacy"]
+match = { any = ['PG\s*(medical|nursing|dental)', 'M\.?\s*Pharm', '\bMDS\b'] }
+status = "active"
+
+[[exams]]
+id = "kl-lateral-entry"
+name = "Kerala B.Tech Lateral Entry / Polytechnic Admissions"
+jurisdiction = "kl"
+purpose = "admission"
+conducted_by = "kl-cee"
+frequency = "annual"
+qualification = "diploma"
+streams = ["engineering"]
+match = { any = ['lateral\s*entry'] }
+status = "active"
+
+[[exams]]
+id = "kl-cusat-cat"
+name = "CUSAT Common Admission Test"
+short_name = "CUSAT CAT"
+jurisdiction = "kl"
+purpose = "admission"
+conducted_by = "kl-cusat"
+frequency = "annual"
+qualification = "class_12"
+streams = ["engineering", "science"]
+match = { any = ['\bCAT\b', 'common\s*admission'] }
+status = "active"
+
+[[exams]]
+id = "kl-hc-staff"
+name = "Kerala HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "kl"
+purpose = "recruitment"
+conducted_by = "kl-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "kl-hc-judicial"
+name = "Kerala HC Civil Judge / Higher Judicial Service Examination"
+jurisdiction = "kl"
+purpose = "recruitment"
+conducted_by = "kl-hc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', 'district\s*judge', '\bHJS\b'] }
+status = "active"
+
+[[exams]]
+id = "kl-kdrb-recruitment"
+name = "Kerala Devaswom Recruitment Board Recruitment"
+jurisdiction = "kl"
+purpose = "recruitment"
+conducted_by = "kl-kdrb"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["general"]
+match = { any = ["recruitment", "notification", 'category\s*no'] }
+status = "active"

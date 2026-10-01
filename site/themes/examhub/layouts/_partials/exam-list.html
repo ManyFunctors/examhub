@@ -1,0 +1,34 @@
+{{- /* The all-exams data set. */ -}}
+{{- $rows := slice -}}
+{{- $openNow := 0 -}}
+{{- $awaitingDate := 0 -}}
+{{- $staleCount := 0 -}}
+{{- $newest := "" -}}
+{{- range where site.RegularPages "Params.section" "exams" -}}
+  {{- $st := partialCached "exam-status.html" . .RelPermalink -}}
+  {{- $rows = $rows | append (dict
+        "page" .
+        "st" $st
+        "sortKey" (printf "%03d|%s|%s" (int $st.order) $st.sortDate .Title)) -}}
+  {{- if eq $st.nextKind "deadline" -}}
+    {{- $openNow = add $openNow 1 -}}
+  {{- end -}}
+  {{- if and (eq $st.nextLabel "") (ne $st.key "done") -}}
+    {{- $awaitingDate = add $awaitingDate 1 -}}
+  {{- end -}}
+  {{- if $st.stale -}}
+    {{- $staleCount = add $staleCount 1 -}}
+  {{- end -}}
+  {{- /* Newest check, compared on the date part only. */ -}}
+  {{- if and (ne $st.lastChecked "") (or (eq $newest "") (gt (substr $st.lastChecked 0 10) (substr $newest 0 10))) -}}
+    {{- $newest = $st.lastChecked -}}
+  {{- end -}}
+{{- end -}}
+{{- return dict
+      "rows" (sort $rows "sortKey" "asc")
+      "total" (len $rows)
+      "openNow" $openNow
+      "awaitingDate" $awaitingDate
+      "staleCount" $staleCount
+      "newest" $newest
+-}}

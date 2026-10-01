@@ -1,0 +1,164 @@
+# The slow loop: every feed, every catalogue URL, and discovery of sources
+# the catalogue does not know yet.
+#
+# Writes to the `harvest` branch, like watch.yml, and shares its concurrency
+# group, so the fast loop waits while this runs (about 75 minutes, at 02:43
+# IST, the quietest hour for notices). It never edits the catalogue and
+# never touches the default branch: what it finds lands in worklists
+# (unmatched, discovered-*, feed-health alerts) for a person to act on.
+name: crawl
+
+on:
+  schedule:
+    - cron: "13 21 * * *"   # 02:43 IST
+  workflow_dispatch:
+    inputs:
+      jurisdiction:
+        description: "only these jurisdictions (comma separated, e.g. in,kl); empty = all"
+        required: false
+        default: ""
+      discover:
+        description: "also run discovery (always on for the scheduled run)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: harvest
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install
+        run: |
+          uv python install 3.12
+          uv venv --python 3.12
+          uv pip install -e '.[crawl,dev,ocr]'
+
+      - name: Firefox and geckodriver
+        # Both ship on ubuntu-latest; settings.py finds geckodriver through
+        # $GECKOWEBDRIVER. Printed so a runner-image change is obvious in logs.
+        run: |
+          firefox --version
+          ls "$GECKOWEBDRIVER"
+
+      - name: Lint the catalogue
+        run: uv run python -m examhub_pipeline catalogue lint
+
+      - name: Adapter and catalogue tests
+        run: uv run pytest -q tests/test_catalogue.py tests/test_adapters.py tests/test_documents.py tests/test_discovery.py tests/test_profiles.py tests/test_archive.py tests/test_ctlog.py
+
+      - uses: ./.github/actions/harvest-state
+        with:
+          mode: restore
+
+      - name: Crawl every feed
+        env:
+          EXAMHUB_CONTACT: ${{ secrets.EXAMHUB_CONTACT }}
+          EXAMHUB_HTTPCACHE: "0"
+          EXAMHUB_HOST_DELAY: "3"
+          MOZ_HEADLESS: "1"
+        run: |
+          args=()
+          if [ -n "${{ inputs.jurisdiction }}" ]; then
+            args+=(-a "jurisdiction=${{ inputs.jurisdiction }}")
+          fi
+          uv run scrapy crawl feeds "${args[@]}" -s LOG_LEVEL=INFO -s LOG_FILE=work/crawl.log || true
+          tail -n 40 work/crawl.log
+
+      - name: Read notification PDFs
+        # New notification PDFs, failures due a retry, and scans the fast
+        # loop read without OCR. tesseract with the Indic scripts the state
+        # bodies print in; `documents build` OCRs only pages with no text.
+        env:
+          EXAMHUB_CONTACT: ${{ secrets.EXAMHUB_CONTACT }}
+          EXAMHUB_OCR_LANGS: eng+hin
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-hin >/dev/null
+          uv run scrapy crawl documents -a limit=150 -s LOG_LEVEL=INFO -s LOG_FILE=work/documents.log || true
+          uv run python -m examhub_pipeline documents build
+
+      - name: Check the records' links
+        # What each official page, apply link and document really is (file, portal,
+        # page), read by the links step in the nightly recheck. Polite, like every crawl.
+        env:
+          EXAMHUB_CONTACT: ${{ secrets.EXAMHUB_CONTACT }}
+          MOZ_HEADLESS: "1"
+        run: uv run scrapy crawl links -s LOG_LEVEL=INFO -s LOG_FILE=work/links.log || true
+
+      - name: Archive the PDFs read
+        # A Wayback Machine copy of each document, since notices get moved or deleted.
+        # Free, no key. Gap-driven and rate-limited; a failure never fails the crawl.
+        run: uv run python -m examhub_pipeline archive --limit 40 || echo "::warning::archive step failed; see the log"
+
+      - name: List new notices
+        run: uv run python -m examhub_pipeline.crawl.notify
+
+      - name: Check catalogue URLs
+        env:
+          EXAMHUB_CONTACT: ${{ secrets.EXAMHUB_CONTACT }}
+        run: |
+          args=()
+          if [ -n "${{ inputs.jurisdiction }}" ]; then
+            args+=(-a "jurisdiction=${{ inputs.jurisdiction }}")
+          fi
+          uv run scrapy crawl verify "${args[@]}" -s LOG_LEVEL=INFO -s LOG_FILE=work/verify.log || true
+
+      - name: Discover new sources
+        if: inputs.discover || github.event_name == 'schedule'
+        env:
+          EXAMHUB_CONTACT: ${{ secrets.EXAMHUB_CONTACT }}
+          CERTSPOTTER_API_KEY: ${{ secrets.CERTSPOTTER_API_KEY }}
+        # daily, about 27 minutes
+        run: uv run scrapy crawl discover -s LOG_LEVEL=INFO -s LOG_FILE=work/discover.log || true
+
+      - name: Propose exams and sources
+        # Offline: reads the harvest, writes exam-/match-/source-proposals.jsonl.
+        # Adopting one is a reviewed catalogue change on main, never automatic.
+        run: uv run python -m examhub_pipeline catalogue discover
+
+      - uses: ./.github/actions/harvest-state
+        with:
+          mode: save
+          message: "crawl: daily sweep"
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "## catalogue crawl"
+            echo '```'
+            cat work/last-crawl.json 2>/dev/null || echo "(no crawl summary)"
+            echo '```'
+            echo '```'
+            uv run python -m examhub_pipeline catalogue coverage 2>&1 | tail -n 30
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crawl-logs
+          path: |
+            work/crawl.log
+            work/verify.log
+            work/discover.log
+            work/documents.log
+            work/links.log
+            work/last-crawl.json
+          retention-days: 14
+          if-no-files-found: ignore

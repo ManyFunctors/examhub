@@ -1,0 +1,224 @@
+# Catalogue: Arunachal Pradesh. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "ar-appsc"
+name = "Arunachal Pradesh Public Service Commission"
+short_name = "APPSC (Arunachal)"
+jurisdiction = "ar"
+kind = "public_service_commission"
+website = "https://appsc.gov.in/"
+status = "active"
+notes = "Publishes an annual EXAMINATION_CALLENDAR PDF (sic) under /upload/files/RECINS001/."
+
+[[bodies]]
+id = "ar-apssb"
+name = "Arunachal Pradesh Staff Selection Board"
+short_name = "APSSB"
+jurisdiction = "ar"
+kind = "staff_selection_board"
+website = "https://apssb.nic.in/"
+status = "active"
+
+[[bodies]]
+id = "ar-apbse"
+name = "Arunachal Pradesh Board of Secondary Education"
+short_name = "APBSE"
+jurisdiction = "ar"
+kind = "school_board"
+website = "https://apbse.org.in/"
+status = "active"
+
+[[bodies]]
+id = "ar-police"
+name = "Arunachal Pradesh Police"
+short_name = "Arunachal Police"
+jurisdiction = "ar"
+kind = "police_recruitment_board"
+website = "https://arunpol.nic.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "ar-appsc/home"
+body = "ar-appsc"
+url = "https://appsc.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ar-apssb/home"
+body = "ar-apssb"
+url = "https://apssb.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ar-apbse/home"
+body = "ar-apbse"
+url = "https://apbse.org.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "ar-police/home"
+body = "ar-police"
+url = "https://arunpol.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ar-appsc/notifications"
+body = "ar-appsc"
+url = "https://appsc.gov.in/Index/sub_page/doc12233/Notifications"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Notifications)."
+
+[[feeds]]
+id = "ar-appsc/results"
+body = "ar-appsc"
+url = "https://appsc.gov.in/Index/sub_page/doc37276/Results_"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Results)."
+
+[[feeds]]
+id = "ar-appsc/advertisement"
+body = "ar-appsc"
+url = "https://appsc.gov.in/Index/sub_page/doc2195/Advertisements"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Advertisement)."
+
+[[feeds]]
+id = "ar-apssb/notices"
+body = "ar-apssb"
+url = "https://apssb.nic.in/Index/notice"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Notices)."
+
+[[feeds]]
+id = "ar-police/advertisement"
+body = "ar-police"
+url = "https://arunpol.nic.in/advert.html"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Advertisement)."
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "ar-appsc-cce"
+name = "Arunachal Pradesh Combined Competitive Examination"
+known_as = ["APPSCCE"]
+jurisdiction = "ar"
+purpose = "recruitment"
+conducted_by = "ar-appsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['combined\s*competitive', '\bAPPSCCE\b', '\bCCE\b'] }
+status = "active"
+
+[[exams]]
+id = "ar-appsc-ae"
+name = "APPSC (Arunachal) Assistant Engineer / Engineering Services Examination"
+jurisdiction = "ar"
+purpose = "recruitment"
+conducted_by = "ar-appsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "ar-appsc-lecturer"
+name = "APPSC (Arunachal) Lecturer / Assistant Professor Recruitment"
+jurisdiction = "ar"
+purpose = "recruitment"
+conducted_by = "ar-appsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "ar-appsc-other"
+name = "APPSC (Arunachal) Recruitment to other posts (umbrella)"
+jurisdiction = "ar"
+purpose = "recruitment"
+conducted_by = "ar-appsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "ar-apssb-recruitment"
+name = "APSSB Combined Recruitment (Group C)"
+jurisdiction = "ar"
+purpose = "recruitment"
+conducted_by = "ar-apssb"
+frequency = "multiple"
+qualification = "class_12"
+streams = ["clerical"]
+match = { any = ["combined", "recruitment", "advt|advertisement", "group\\s*['‘’]?\\s*C\\b"] }
+status = "active"
+
+[[exams]]
+id = "ar-apbse-class-10"
+name = "APBSE Class 10 Examination"
+jurisdiction = "ar"
+purpose = "school_board"
+conducted_by = "ar-apbse"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['class\s*(X|10)\b', '\b(SSC|SSLC|HSLC|matric|madhyamik|secondary)\b(?!.*higher)'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "ar-apbse-class-12"
+name = "APBSE Class 12 Examination"
+jurisdiction = "ar"
+purpose = "school_board"
+conducted_by = "ar-apbse"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['class\s*(XII|12)\b', '\b(HSC|HSSC|intermediate|inter|higher\s*secondary|uchha|plus\s*two|\+2|PUC)\b'] }
+status = "active"
+
+[[exams]]
+id = "ar-police"
+name = "Arunachal Pradesh Police Constable / SI Recruitment"
+jurisdiction = "ar"
+purpose = "recruitment"
+conducted_by = "ar-police"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", 'sub[-\s]*inspector'] }
+status = "active"

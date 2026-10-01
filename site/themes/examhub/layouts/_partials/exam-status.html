@@ -1,0 +1,233 @@
+{{- /* Exam status, derived from the exam's key dates. */ -}}
+
+{{- $now := now -}}
+
+{{- /* Collect every dated milestone, skipping nulls. */ -}}
+{{- /* The six dated fields, each with the word a reader sees and the kind it belongs to. */ -}}
+{{- /* Twelve dated milestones, and every label here is written out. */ -}}
+{{- /* One vocabulary, read from data/date_kinds.yaml. */ -}}
+{{- $kindLabels := dict -}}
+{{- range hugo.Data.date_kinds -}}
+  {{- $kindLabels = merge $kindLabels (dict .key .label) -}}
+{{- end -}}
+{{- $fields := slice
+      (dict "id" "reg_open"   "key" "registration_open"      "kind" "open"     "date" (partialCached "v2/params.html" . .RelPermalink).registration_open)
+      (dict "id" "reg_close"  "key" "registration_deadline"  "kind" "deadline" "date" (partialCached "v2/params.html" . .RelPermalink).registration_deadline)
+      (dict "id" "corr_open"  "key" "correction_open"        "kind" "correction" "date" (partialCached "v2/params.html" . .RelPermalink).correction_open)
+      (dict "id" "corr_close" "key" "correction_deadline"    "kind" "correction" "date" (partialCached "v2/params.html" . .RelPermalink).correction_deadline)
+      (dict "id" "city_intimation" "key" "city_intimation"   "kind" "admit"    "date" (partialCached "v2/params.html" . .RelPermalink).city_intimation)
+      (dict "id" "admit_from" "key" "admit_card"             "kind" "admit"    "date" (partialCached "v2/params.html" . .RelPermalink).admit_card_from)
+      (dict "id" "exam_date"  "key" "exam_date"              "kind" "exam"     "date" (partialCached "v2/params.html" . .RelPermalink).exam_date)
+      (dict "id" "key_open"   "key" "answer_key_open"        "kind" "result"   "date" (partialCached "v2/params.html" . .RelPermalink).answer_key_open)
+      (dict "id" "key_close"  "key" "answer_key_deadline"    "kind" "result"   "date" (partialCached "v2/params.html" . .RelPermalink).answer_key_deadline)
+      (dict "id" "result_date" "key" "result"                "kind" "result"   "date" (partialCached "v2/params.html" . .RelPermalink).result_date)
+      (dict "id" "reeval_open"  "key" "re_evaluation_open"   "kind" "result"   "date" (partialCached "v2/params.html" . .RelPermalink).re_evaluation_open)
+      (dict "id" "reeval_close" "key" "re_evaluation_deadline" "kind" "result" "date" (partialCached "v2/params.html" . .RelPermalink).re_evaluation_deadline) -}}
+{{- $milestones := slice -}}
+{{- range $f := $fields -}}
+  {{- /* Only real dates: words like unknown or not_announced are gaps, not milestones. */ -}}
+  {{- with $f.date -}}{{- if findRE `^\d{4}-\d{2}-\d{2}` (printf "%v" .) -}}
+    {{- $t := time.AsTime . -}}
+    {{- $milestones = $milestones | append (dict "id" $f.id "label" (index $kindLabels $f.key) "kind" $f.kind "date" $t "day" ($t.Format "2006-01-02")) -}}
+  {{- end -}}{{- end -}}
+{{- end -}}
+
+{{- $today := $now.Format "2006-01-02" -}}
+{{- $past := where $milestones "day" "<" $today -}}
+{{- $future := where $milestones "day" ">=" $today -}}
+{{- $nextMilestone := index (sort $future "date") 0 | default dict -}}
+{{- /* The one display format, 2006, January 02, formatted once here. */ -}}
+{{- $nextId := $nextMilestone.id | default "" -}}
+{{- $nextLabel := $nextMilestone.label | default "" -}}
+{{- $nextKind := $nextMilestone.kind | default "" -}}
+{{- $nextDate := "" -}}
+{{- $nextDay := "" -}}
+{{- $nextLong := "" -}}
+{{- with $nextMilestone -}}
+  {{- $nextDate = .date.Format "2006-01-02" -}}
+  {{- $nextLong = .date.Format "2006, January 02" -}}
+  {{- $nextDay = .day -}}
+{{- end -}}
+
+{{- $key := "upcoming" -}}
+{{- $meaning := "done" -}}
+{{- $urgent := false -}}
+{{- $label := "Dates to Be Announced" -}}
+{{- /* The chip has two lines: the state and when. */ -}}
+{{- $state := "Dates to Be Announced" -}}
+{{- $when := "" -}}
+{{- $order := 60 -}}
+
+{{- /* Whole days from today to the next milestone. */ -}}
+{{- $days := 999 -}}
+{{- with $nextMilestone -}}
+  {{- $days = int (div (float (sub (time.AsTime .day).Unix (time.AsTime $today).Unix)) 86400.0) -}}
+{{- end -}}
+
+{{- /* How a closing date reads, decided once. */ -}}
+{{- $closingWhen := $nextLong -}}
+{{- $closingKey := "open" -}}
+{{- if le $days 0 -}}
+  {{- $closingWhen = "Today" -}}
+  {{- $closingKey = "soon" -}}
+{{- else if eq $days 1 -}}
+  {{- $closingWhen = "Tomorrow" -}}
+  {{- $closingKey = "soon" -}}
+{{- else if le $days 7 -}}
+  {{- $closingWhen = printf "%02d Days" $days -}}
+  {{- $closingKey = "soon" -}}
+{{- end -}}
+
+{{- if and (not $future) $past -}}
+  {{- /* Every milestone has passed. */ -}}
+  {{- $key = "done" -}}
+  {{- $meaning = "done" -}}
+  {{- $label = "Completed" -}}
+  {{- $state = "Completed" -}}
+  {{- $order = 99 -}}
+{{- else if eq $nextId "reg_close" -}}
+  {{- /* The registration deadline. */ -}}
+  {{- $key = $closingKey -}}
+  {{- $meaning = "registration" -}}
+  {{- $state = "Registration Closes" -}}
+  {{- $label = printf "%s %s" $state $closingWhen -}}
+  {{- $when = $closingWhen -}}
+  {{- $order = cond (eq $closingKey "soon") 10 20 -}}
+{{- else if eq $nextId "corr_close" -}}
+  {{- /* The correction window closing, which is a deadline a reader can still act on. */ -}}
+  {{- $key = $closingKey -}}
+  {{- $meaning = "correction" -}}
+  {{- $state = "Correction Closes" -}}
+  {{- $label = printf "%s %s" $state $closingWhen -}}
+  {{- $when = $closingWhen -}}
+  {{- $order = cond (eq $closingKey "soon") 12 22 -}}
+{{- else if eq $nextId "key_close" -}}
+  {{- /* The answer-key challenge closing. */ -}}
+  {{- $key = $closingKey -}}
+  {{- $meaning = "result" -}}
+  {{- $state = "Answer Key Challenge Closes" -}}
+  {{- $label = printf "%s %s" $state $closingWhen -}}
+  {{- $when = $closingWhen -}}
+  {{- $order = cond (eq $closingKey "soon") 14 24 -}}
+{{- else if eq $nextId "reeval_close" -}}
+  {{- /* The re-evaluation window closing. */ -}}
+  {{- $key = $closingKey -}}
+  {{- $meaning = "result" -}}
+  {{- $state = "Re-evaluation Closes" -}}
+  {{- $label = printf "%s %s" $state $closingWhen -}}
+  {{- $when = $closingWhen -}}
+  {{- $order = cond (eq $closingKey "soon") 16 26 -}}
+{{- else if eq $nextId "city_intimation" -}}
+  {{- /* Shares the admit card's hue on purpose. */ -}}
+  {{- $key = "upcoming" -}}
+  {{- $meaning = "admit_card" -}}
+  {{- $label = $nextLabel -}}
+  {{- $state = $nextLabel -}}
+  {{- $order = 28 -}}
+{{- else if eq $nextId "admit_from" -}}
+  {{- $key = "upcoming" -}}
+  {{- $meaning = "admit_card" -}}
+  {{- $label = $nextLabel -}}
+  {{- $state = $nextLabel -}}
+  {{- $order = 30 -}}
+{{- else if eq $nextId "exam_date" -}}
+  {{- $key = "upcoming" -}}
+  {{- $meaning = "exam_date" -}}
+  {{- $label = printf "Exam %s" $nextLong -}}
+  {{- $state = "Exam" -}}
+  {{- $when = $nextLong -}}
+  {{- $order = 50 -}}
+{{- else if eq $nextId "reg_open" -}}
+  {{- /* Registration not yet open. */ -}}
+  {{- $key = "upcoming" -}}
+  {{- $meaning = "registration" -}}
+  {{- $label = printf "Registration Opens %s" $nextLong -}}
+  {{- $state = "Registration Opens" -}}
+  {{- $when = $nextLong -}}
+  {{- $order = 45 -}}
+{{- else if eq $nextId "corr_open" -}}
+  {{- /* The correction window has not opened. */ -}}
+  {{- $key = "upcoming" -}}
+  {{- $meaning = "correction" -}}
+  {{- $label = printf "Correction Opens %s" $nextLong -}}
+  {{- $state = "Correction Opens" -}}
+  {{- $when = $nextLong -}}
+  {{- $order = 46 -}}
+{{- else if eq $nextId "key_open" -}}
+  {{- /* The challenge window has not opened. */ -}}
+  {{- $key = "upcoming" -}}
+  {{- $meaning = "result" -}}
+  {{- $label = printf "Answer Key Challenge Opens %s" $nextLong -}}
+  {{- $state = "Answer Key Challenge Opens" -}}
+  {{- $when = $nextLong -}}
+  {{- $order = 47 -}}
+{{- else if eq $nextId "reeval_open" -}}
+  {{- /* Nor has the re-evaluation window. */ -}}
+  {{- $key = "upcoming" -}}
+  {{- $meaning = "result" -}}
+  {{- $label = printf "Re-evaluation Opens %s" $nextLong -}}
+  {{- $state = "Re-evaluation Opens" -}}
+  {{- $when = $nextLong -}}
+  {{- $order = 48 -}}
+{{- else if eq $nextId "result_date" -}}
+  {{- $key = "upcoming" -}}
+  {{- $meaning = "result" -}}
+  {{- $label = "Result Awaited" -}}
+  {{- $state = "Result Awaited" -}}
+  {{- $order = 70 -}}
+{{- end -}}
+
+{{- /* The one class string both callers render, so the card grid and the page header cannot drift. */ -}}
+{{- $pillClass := printf "pill pill--%s" $key -}}
+{{- if ne $meaning $key -}}
+  {{- $pillClass = printf "%s pill--%s" $pillClass $meaning -}}
+{{- end -}}
+{{- /* The ring marks urgency: any date within a week. */ -}}
+{{- $urgentDays := 7 -}}
+{{- if and (ge $days 0) (le $days $urgentDays) -}}
+  {{- $urgent = true -}}
+{{- end -}}
+{{- /* Last, so the bucket stays the first pill-- class (the status filter reads it). */ -}}
+{{- if $urgent -}}
+  {{- $pillClass = printf "%s pill--urgent" $pillClass -}}
+{{- end -}}
+
+{{- /* How old is this record's verification? */ -}}
+{{- $staleAfter := site.Params.staleAfterDays | default 14 -}}
+{{- $lastChecked := "" -}}
+{{- $ageDays := -1 -}}
+{{- with (partialCached "v2/params.html" . .RelPermalink).provenance -}}
+  {{- with .timestamp_last_checked -}}
+    {{- $lastChecked = . -}}
+    {{- $t := time.AsTime . -}}
+    {{- $ageDays = int (math.Round (div (float (sub $now.Unix $t.Unix)) 86400.0)) -}}
+  {{- end -}}
+{{- end -}}
+{{- $isStale := and (ge $ageDays $staleAfter) (ne $ageDays -1) -}}
+{{- $isUnverified := eq $ageDays -1 -}}
+
+{{- /* The two lines, from the two halves. */ -}}
+{{- $dateSpan := $state -}}
+{{- with $when -}}
+  {{- $dateSpan = printf "%s <span class=\"pill__date\">%s</span>" $state . -}}
+{{- end -}}
+
+{{- /* The next milestone's kind, returned beside its label. */ -}}
+{{- return dict
+      "key" $key
+      "meaning" $meaning
+      "label" $label
+      "labelHTML" ($dateSpan | safeHTML)
+      "pillClass" $pillClass
+      "order" $order
+      "nextLabel" $nextLabel
+      "nextDate" $nextDate
+      "nextKind" $nextKind
+      "nextKey" (printf "%s|%s" $nextLabel $nextDate)
+      "now" $today
+      "sortDate" (cond (gt (len $future) 0) $nextDate $today)
+      "lastChecked" $lastChecked
+      "ageDays" $ageDays
+      "stale" $isStale
+      "unverified" $isUnverified
+-}}

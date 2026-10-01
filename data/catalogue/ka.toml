@@ -1,0 +1,416 @@
+# Catalogue: Karnataka. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "ka-kpsc"
+name = "Karnataka Public Service Commission"
+short_name = "KPSC (Karnataka)"
+jurisdiction = "ka"
+kind = "public_service_commission"
+website = "https://kpsc.kar.nic.in/"
+hosts = ["kpsc.kar.nic.in", "kpsconline.karnataka.gov.in"]
+status = "active"
+notes = "Serves malformed response headers; the nav loads pages with javaScript:getContent()."
+
+[[bodies]]
+id = "ka-kea"
+name = "Karnataka Examinations Authority"
+short_name = "KEA"
+jurisdiction = "ka"
+kind = "testing_agency"
+website = "https://cetonline.karnataka.gov.in/kea/"
+hosts = ["cetonline.karnataka.gov.in", "kea.kar.nic.in"]
+status = "active"
+
+[[bodies]]
+id = "ka-kseab"
+name = "Karnataka School Examination and Assessment Board"
+short_name = "KSEAB"
+jurisdiction = "ka"
+kind = "school_board"
+website = "https://kseab.karnataka.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "ka-dsel"
+name = "Department of School Education and Literacy, Karnataka"
+short_name = "DSEL Karnataka"
+jurisdiction = "ka"
+kind = "ministry_department"
+website = "https://schooleducation.karnataka.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "ka-ksp"
+name = "Karnataka State Police"
+short_name = "Karnataka Police"
+jurisdiction = "ka"
+kind = "police_recruitment_board"
+website = "https://ksp.karnataka.gov.in/"
+hosts = ["ksp.karnataka.gov.in", "ksp-recruitment.in"]
+status = "active"
+
+[[bodies]]
+id = "ka-hc"
+name = "High Court of Karnataka"
+short_name = "Karnataka HC"
+jurisdiction = "ka"
+kind = "court"
+website = "https://karnatakajudiciary.kar.nic.in/"
+status = "active"
+
+[[bodies]]
+id = "ka-comedk"
+name = "Consortium of Medical, Engineering and Dental Colleges of Karnataka"
+short_name = "COMEDK"
+jurisdiction = "ka"
+kind = "testing_agency"
+website = "https://www.comedk.org/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "ka-kpsc/notifications"
+body = "ka-kpsc"
+url = "https://kpsc.kar.nic.in/notification.html"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ka-kpsc/results"
+body = "ka-kpsc"
+url = "https://kpsc.kar.nic.in/results.html"
+adapter = "html_links"
+yields = "results"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ka-kpsc/keys"
+body = "ka-kpsc"
+url = "https://kpsc.kar.nic.in/keyanswers.html"
+adapter = "html_links"
+yields = "answer_keys"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ka-kea/index"
+body = "ka-kea"
+url = "https://cetonline.karnataka.gov.in/kea/indexnew"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ka-kseab/home"
+body = "ka-kseab"
+url = "https://kseab.karnataka.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "ka-dsel/home"
+body = "ka-dsel"
+url = "https://schooleducation.karnataka.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ka-ksp/home"
+body = "ka-ksp"
+url = "https://ksp.karnataka.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ka-hc/recruitment"
+body = "ka-hc"
+url = "https://karnatakajudiciary.kar.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "ka-comedk/home"
+body = "ka-comedk"
+url = "https://www.comedk.org/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "ka-kpsc-kas"
+name = "Karnataka Gazetted Probationers (Group A and B) Examination"
+known_as = ["KAS", "KPSC KAS"]
+jurisdiction = "ka"
+purpose = "recruitment"
+conducted_by = "ka-kpsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['gazetted\s*probationers?', '\bKAS\b'] }
+status = "active"
+
+[[exams]]
+id = "ka-kpsc-ae"
+name = "KPSC (Karnataka) Assistant Engineer / Engineering Services Examination"
+jurisdiction = "ka"
+purpose = "recruitment"
+conducted_by = "ka-kpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "ka-kpsc-lecturer"
+name = "KPSC (Karnataka) Lecturer / Assistant Professor Recruitment"
+jurisdiction = "ka"
+purpose = "recruitment"
+conducted_by = "ka-kpsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "ka-kpsc-other"
+name = "KPSC (Karnataka) Recruitment to other posts (umbrella)"
+jurisdiction = "ka"
+purpose = "recruitment"
+conducted_by = "ka-kpsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "ka-kpsc-fda-sda"
+name = "KPSC First / Second Division Assistant"
+jurisdiction = "ka"
+purpose = "recruitment"
+conducted_by = "ka-kpsc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["clerical"]
+match = { any = ['\bFDA\b', '\bSDA\b', '(first|second)\s*division\s*assistant'] }
+status = "active"
+
+[[exams]]
+id = "ka-kcet"
+name = "Karnataka Common Entrance Test (UGCET)"
+short_name = "KCET"
+jurisdiction = "ka"
+purpose = "admission"
+conducted_by = "ka-kea"
+frequency = "annual"
+qualification = "class_12"
+streams = ["engineering", "agriculture", "pharmacy"]
+match = { any = ['\bKCET\b', 'UG\s*CET', '\bUGCET\b'] }
+status = "active"
+
+[[exams]]
+id = "ka-pgcet"
+name = "Karnataka PGCET (MBA, MCA, M.Tech)"
+short_name = "PGCET"
+jurisdiction = "ka"
+purpose = "admission"
+conducted_by = "ka-kea"
+frequency = "annual"
+qualification = "graduate"
+streams = ["management", "engineering"]
+match = { any = ['PG\s*CET'] }
+status = "active"
+
+[[exams]]
+id = "ka-dcet"
+name = "Karnataka Diploma CET (lateral entry)"
+short_name = "DCET"
+jurisdiction = "ka"
+purpose = "admission"
+conducted_by = "ka-kea"
+frequency = "annual"
+qualification = "diploma"
+streams = ["engineering"]
+match = { any = ['\bDCET\b', 'diploma\s*CET'] }
+status = "active"
+
+[[exams]]
+id = "ka-kset"
+name = "Karnataka State Eligibility Test"
+short_name = "KSET"
+jurisdiction = "ka"
+purpose = "eligibility"
+conducted_by = "ka-kea"
+frequency = "annual"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ['\bK[-\s]*SET\b'] }
+status = "active"
+
+[[exams]]
+id = "ka-neet-counselling"
+name = "Karnataka UG/PG Medical and Dental Counselling"
+jurisdiction = "ka"
+purpose = "admission"
+conducted_by = "ka-kea"
+frequency = "annual"
+qualification = "class_12"
+streams = ["medical"]
+match = { any = ['UGNEET|PGNEET|medical\s*counsel', '\bNEET\b'] }
+status = "active"
+
+[[exams]]
+id = "ka-kea-recruitment"
+name = "KEA-conducted recruitment for Karnataka departments and boards"
+jurisdiction = "ka"
+purpose = "recruitment"
+conducted_by = "ka-kea"
+frequency = "multiple"
+qualification = "class_12"
+streams = ["general"]
+match = { any = ["recruitment", 'various\s*departments', "board|corporation"] }
+status = "active"
+
+[[exams]]
+id = "ka-kseab-class-10"
+name = "KSEAB SSLC Examination"
+jurisdiction = "ka"
+purpose = "school_board"
+conducted_by = "ka-kseab"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['\bSSLC\b', 'class\s*(X|10)\b'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "ka-kseab-class-12"
+name = "KSEAB 2nd PUC Examination"
+jurisdiction = "ka"
+purpose = "school_board"
+conducted_by = "ka-kseab"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['\bPUC\b', 'pre[-\s]*university', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "ka-kartet"
+name = "Karnataka Teacher Eligibility Test"
+short_name = "KARTET"
+jurisdiction = "ka"
+purpose = "eligibility"
+conducted_by = "ka-dsel"
+frequency = "annual"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['KAR\s*TET', '\bTET\b'] }
+status = "active"
+
+[[exams]]
+id = "ka-gpstr"
+name = "Karnataka Graduate Primary Teacher / High School Teacher Recruitment"
+jurisdiction = "ka"
+purpose = "recruitment"
+conducted_by = "ka-dsel"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ["GPSTR", 'graduate\s*primary', 'high\s*school\s*teacher', 'teacher\s*recruitment'] }
+status = "active"
+
+[[exams]]
+id = "ka-ksp-constable"
+name = "Karnataka Police Police Constable Recruitment"
+jurisdiction = "ka"
+purpose = "recruitment"
+conducted_by = "ka-ksp"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", "sipahi|sepoy", '\bPC\b'] }
+status = "active"
+
+[[exams]]
+id = "ka-ksp-si"
+name = "Karnataka Police Sub-Inspector Recruitment"
+jurisdiction = "ka"
+purpose = "recruitment"
+conducted_by = "ka-ksp"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
+status = "active"
+
+[[exams]]
+id = "ka-ksp-armed"
+name = "Karnataka Armed / KSRP Police Constable"
+jurisdiction = "ka"
+purpose = "recruitment"
+conducted_by = "ka-ksp"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ['armed\s*police', '\bKSRP\b', '\bCAR\b|\bDAR\b'] }
+status = "active"
+
+[[exams]]
+id = "ka-hc-staff"
+name = "Karnataka HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "ka"
+purpose = "recruitment"
+conducted_by = "ka-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "ka-hc-judicial"
+name = "Karnataka HC Civil Judge / Higher Judicial Service Examination"
+jurisdiction = "ka"
+purpose = "recruitment"
+conducted_by = "ka-hc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', 'district\s*judge', '\bHJS\b'] }
+status = "active"
+
+[[exams]]
+id = "ka-comedk-uget"
+name = "COMEDK Undergraduate Entrance Test"
+short_name = "COMEDK UGET"
+jurisdiction = "ka"
+purpose = "admission"
+conducted_by = "ka-comedk"
+frequency = "annual"
+qualification = "class_12"
+streams = ["engineering"]
+match = { any = ["UGET", "COMEDK"] }
+status = "active"

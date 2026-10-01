@@ -1,0 +1,9 @@
+# Sidebar nav: a single link back to the home page, which holds every exam.
+[[sidebar]]
+  name = 'Browse'
+
+[[sidebar]]
+  parent = 'Browse'
+  name = 'ExamHub'
+  url = '/'
+  weight = 10

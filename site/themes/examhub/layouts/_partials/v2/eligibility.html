@@ -1,0 +1,74 @@
+{{- /* The chosen sections of one eligibility block, as reader's rows. */ -}}
+{{- $b := .block -}}
+{{- $silent := slice -}}
+{{- $names := dict "nationality" "Nationality" "domicile" "Residence" "gender" "Who Can Apply" "marital" "Marital Status" "age" "Age" "education" "Education" "prior_exam" "Earlier Exam" "certificates" "Certificates" "registration" "Registration" "experience" "Experience" "language" "Language" "physical" "Physical Standards" "medical" "Medical Standards" "disability" "Disability" "employment" "If You Already Work" "character" "Character" "attempts" "Attempts" "category_proof" "Category Certificates" "other" "Other Rules" -}}
+<dl class="v2-elig">
+{{- range .sections }}
+  {{- $s := index $b . -}}
+  {{- $name := index $names . -}}
+  {{- if eq $s.applies "unknown" }}{{ $silent = $silent | append $name }}{{ end -}}
+  {{- if eq $s.applies "yes" }}
+  <div class="v2-elig__row v2-elig--{{ . }}">
+    <dt>{{ $name }}</dt>
+    <dd>
+    {{- if eq . "nationality" }}{{ delimit $s.nationality_allowed ", " }}{{ if gt (len $s.nationality_allowed) 1 }} <span class="v2-sub">(non-Indians need a certificate of eligibility)</span>{{ end }}
+    {{- else if eq . "domicile" }}Local candidates of {{ delimit $s.domicile_places ", " }}.{{ if eq $s.domicile_other_states "as_unreserved" }} Others can apply, but only as unreserved (no quota, no age relaxation).{{ else if eq $s.domicile_other_states "not_eligible" }} Others cannot apply.{{ end }}
+    {{- else if eq . "gender" }}{{ $g := slice }}{{ range $s.gender_allowed }}{{ $g = $g | append (index (dict "Male" "men" "Female" "women" "Transgender" "transgender candidates") . | default .) }}{{ end }}{{ delimit $g ", " " and " | strings.FirstUpper }}
+    {{- else if eq . "marital" }}{{ partial "v2/word.html" $s.marital_rules }}
+    {{- else if eq . "age" }}
+      <p><strong>{{ $s.age_min }} to {{ $s.age_max }} years</strong> on {{ (partial "v2/day.html" $s.age_as_of) }}: born between {{ (partial "v2/day.html" $s.age_born_from) }} and {{ (partial "v2/day.html" $s.age_born_to) }}.</p>
+      {{- if reflect.IsSlice $s.age_by_category }}
+      <div class="v2-scroll"><table class="v2-table v2-table--age">
+        <thead><tr><th scope="col">Category</th><th scope="col">Upper Age</th><th scope="col">Born on or After</th></tr></thead>
+        <tbody>{{ range $s.age_by_category }}<tr><th scope="row">{{ .age_category }}</th><td>{{ .age_max }}</td><td>{{ (partial "v2/day.html" .age_born_from) }}</td></tr>{{ end }}</tbody>
+      </table></div>
+      {{- end }}
+      {{- if reflect.IsSlice $s.relaxations }}
+      <details class="v2-more"><summary>All Age Relaxations ({{ len $s.relaxations }})</summary>
+        <ul>{{ range $s.relaxations }}<li>{{ .relaxation_category }}: <strong>{{ partial "v2/relax.html" .relaxation }}</strong></li>{{ end }}</ul>
+        {{- if eq $s.age_relaxation_cumulative "yes" }}<p>Relaxations add up{{ with $s.age_relaxation_max_age }}{{ if not (in (slice "none" "unknown") (printf "%v" .)) }}, to a maximum age of {{ . }}{{ end }}{{ end }}.</p>{{ end }}
+      </details>
+      {{- end }}
+    {{- else if eq . "education" }}
+      {{- $opts := $s.education_options -}}
+      {{- if gt (len $opts) 1 }}<p>Any one of:</p><ul>{{ range $opts }}<li>{{ delimit . " + " }}</li>{{ end }}</ul>{{ else }}<p>{{ delimit (index $opts 0) " + " }}</p>{{ end }}
+      {{- if reflect.IsSlice $s.education_marks }}
+        {{- $m := slice -}}{{- range $s.education_marks -}}{{- $m = $m | append (printf "%v%s%s" .marks_min (partial "v2/word.html" .marks_unit) (cond (eq .marks_category "all") "" (printf " for %s" .marks_category))) -}}{{- end -}}
+        <p>Minimum marks: {{ delimit (uniq $m) ", " }}.</p>
+      {{- end }}
+      <p class="v2-sub">{{ with $s.education_held_by }}{{ if not (reflect.IsMap .) }}{{ if ne (printf "%v" .) "unknown" }}You must hold it by {{ (partial "v2/day.html" .) }}. {{ end }}{{ end }}{{ end }}{{ if eq $s.education_final_year "no" }}Final-year students can't apply. {{ else if eq $s.education_final_year "yes" }}Final-year students can apply. {{ end }}{{ if eq $s.education_equivalent "yes" }}Equivalent qualifications are accepted.{{ end }}</p>
+    {{- else if eq . "registration" }}
+      {{ range $s.registrations_required }}Registered with {{ delimit .registration_with " or " }}, {{ partial "v2/word.html" .registration_when | lower }}.{{ end }}
+    {{- else if eq . "physical" }}
+      <div class="v2-scroll"><table class="v2-table">
+        <thead><tr><th scope="col">For</th><th scope="col">Height</th><th scope="col">Chest</th><th scope="col">Weight</th></tr></thead>
+        <tbody>{{ range $s.physical_standards }}<tr><th scope="row">{{ .physical_gender }}{{ if reflect.IsSlice .physical_for }}<span class="v2-sub"> {{ delimit .physical_for ", " }}</span>{{ end }}</th>
+          <td>{{ .height_cm }} cm</td>
+          <td>{{ if eq (printf "%v" .chest_cm) "none" }}<span class="v2-na">–</span>{{ else }}{{ .chest_cm }}–{{ .chest_expanded_cm }} cm{{ end }}</td>
+          <td>{{ if eq (printf "%v" .weight) "none" }}<span class="v2-na">–</span>{{ else }}{{ .weight }} kg or more{{ end }}</td></tr>{{ end }}</tbody>
+      </table></div>
+      <p class="v2-sub">Minimums. Chest: normal–expanded.</p>
+    {{- else if eq . "medical" }}
+      <ul>
+        {{- if ne $s.vision_better_eye "none" }}<li>Eyesight {{ $s.vision_better_eye }} in each eye</li>{{ end }}
+        {{- if eq $s.colour_blind_allowed "no" }}<li>No colour blindness</li>{{ end }}
+        {{- if reflect.IsSlice $s.defects_barred }}<li>Not accepted: {{ partial "v2/word.html" $s.defects_barred | lower }}</li>{{ end }}
+        {{- if ne $s.medical_guidelines "none" }}<li>You must be found medically fit ({{ $s.medical_guidelines }})</li>{{ end }}
+      </ul>
+    {{- else if eq . "disability" }}
+      {{- if eq (printf "%v" $s.disability_suitable) "none" }}Not open to candidates with disabilities.
+      {{- else if reflect.IsSlice $s.disability_suitable }}Open to candidates with: {{ partial "v2/word.html" $s.disability_suitable }}
+      {{- else }}Open to PwBD candidates; suitable categories not stated.{{ end }}
+    {{- else if eq . "employment" }}
+      {{- if eq $s.employment_noc_needed "at_interview" }}Government and PSU staff must bring a No Objection Certificate to the interview. {{ else if eq $s.employment_noc_needed "at_application" }}Government and PSU staff need a No Objection Certificate when applying. {{ end }}
+      {{- if eq $s.employment_resign_if_selected "yes" }}Serving government staff must resign or be relieved before joining training.{{ end }}
+    {{- else if eq . "character" }}{{ partial "v2/word.html" $s.character_checks }}
+    {{- else if eq . "category_proof" }}
+      <ul>{{ range $s.category_certificates }}<li>{{ .certificate_category }}: {{ partial "v2/word.html" .certificate_list | lower }} certificate{{ with .certificate_issued_after }}{{ if not (reflect.IsMap .) }}{{ if ne (printf "%v" .) "unknown" }}, issued on or after {{ (partial "v2/day.html" .) }}{{ end }}{{ end }}{{ end }}{{ if ne .certificate_income_year "none" }}{{ if ne .certificate_income_year "unknown" }}, on income for {{ .certificate_income_year }}{{ end }}{{ end }}</li>{{ end }}</ul>
+    {{- else }}{{ partial "v2/word.html" $s }}{{ end }}
+    </dd>
+  </div>
+  {{- end }}
+{{- end }}
+</dl>
+{{- with $silent }}<p class="v2-silent">The notice doesn't say anything about: {{ delimit . ", " | lower }}.</p>{{ end }}

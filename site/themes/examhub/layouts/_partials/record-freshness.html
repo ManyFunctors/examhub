@@ -1,0 +1,22 @@
+{{- /* The per-record verification stamp, for an exam page. */ -}}
+{{- $p := (partialCached "v2/params.html" . .RelPermalink).provenance | default dict -}}
+{{- $checked := $p.timestamp_last_checked | default "" -}}
+{{- $staleAfter := site.Params.staleAfterDays | default 14 -}}
+{{- $stale := false -}}
+{{- with $checked -}}
+  {{- $days := int (math.Round (div (float (sub now.Unix (time.AsTime .).Unix)) 86400.0)) -}}
+  {{- $stale = and (ge $days $staleAfter) (ne $days -1) -}}
+{{- end }}
+<div class="stats__stamp">
+  {{- with $checked }}
+  <span class="freshness{{ if $stale }} is-stale{{ end }}" data-freshness>
+    <span class="freshness__label">Updated</span>
+    <time datetime="{{ . }}" data-last-checked="{{ . }}"
+          data-stale-after="{{ $staleAfter }}">{{ time.AsTime . | time.Format "2006, January 02, 15:04" }}</time>
+  </span>
+  {{- else }}
+  <span class="freshness freshness--empty" data-freshness>
+    <span class="freshness__label">Not yet checked</span>
+  </span>
+  {{- end }}
+</div>

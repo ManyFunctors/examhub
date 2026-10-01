@@ -1,0 +1,37 @@
+{{ define "main" }}
+{{- /* The list of one axis's index pages, each with its count, biggest first for bodies. */ -}}
+{{- $axis := .Params.axis -}}
+{{- $d := partialCached "exam-list.html" . -}}
+{{- $ev := partialCached "events.html" . -}}
+{{- $items := slice -}}
+{{- range .RegularPages -}}
+  {{- $key := .Params.key -}}{{- $n := 0 -}}
+  {{- if eq $axis "kinds" }}{{ $n = len (where $ev.events "k" $key) -}}
+  {{- else -}}
+    {{- range $d.rows -}}
+      {{- $p := .page -}}
+      {{- if eq $axis "bodies" }}{{ range $p.Params.bodies }}{{ if eq .body $key }}{{ $n = add $n 1 }}{{ end }}{{ end -}}
+      {{- else if eq $axis "types" }}{{ if in ((partialCached "v2/params.html" $p $p.RelPermalink).categories | default slice) $key }}{{ $n = add $n 1 }}{{ end -}}
+      {{- else if eq .st.key $key }}{{ $n = add $n 1 }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $items = $items | append (dict "page" . "n" $n "sort" (cond (eq $axis "bodies") (printf "%05d|%s" (sub 99999 $n) .Title) (printf "%v" .Weight))) -}}
+{{- end -}}
+{{- if eq $axis "kinds" }}{{/* the order the kinds happen in */}}
+  {{- $order := dict }}{{ range $i, $k := hugo.Data.date_kinds }}{{ $order = merge $order (dict $k.key (printf "%03d" $i)) }}{{ end }}
+  {{- $s := slice }}{{ range $items }}{{ $s = $s | append (merge . (dict "sort" (index $order .page.Params.key))) }}{{ end }}{{ $items = $s }}
+{{- else if ne $axis "bodies" }}{{ $items = $items }}
+{{- end }}
+
+<div class="page-header page-header--stamped"><div>
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{ site.Home.RelPermalink }}">Home</a></nav>
+  <h1>{{ .Title }}</h1>
+  <p class="page-description">{{ len $items }} {{ index (dict "bodies" "Bodies" "types" "Types" "statuses" "Statuses" "kinds" "Kinds of Date") $axis }}</p>
+</div></div>
+
+<ul class="axis-index">
+  {{- range sort $items "sort" }}
+  <li><a class="axis-index__link" href="{{ .page.RelPermalink }}"><span class="axis-index__name">{{ .page.Params.short }}{{ if and (eq $axis "bodies") (ne .page.Params.short .page.Title) }}<span class="axis-index__full">{{ .page.Title }}</span>{{ end }}</span><span class="axis-index__count">{{ .n }}</span></a></li>
+  {{- end }}
+</ul>
+{{ end }}

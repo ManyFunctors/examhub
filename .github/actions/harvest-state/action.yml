@@ -1,0 +1,61 @@
+# The harvest lives on its own branch, `harvest`, never on the default one.
+#
+#   restore: put the branch's data/harvest/ into the workspace (or start empty)
+#   save:    commit data/harvest/ back to the branch, only if it changed
+#
+# Every workflow that writes the harvest runs in the concurrency group
+# "harvest", so saves never race. An unchanged world is an empty diff (see
+# harvest.py), so "only if it changed" means most runs push nothing.
+name: harvest-state
+description: Restore or save data/harvest/ from the `harvest` branch
+inputs:
+  mode:
+    description: restore | save
+    required: true
+  message:
+    description: commit message for save
+    required: false
+    default: "harvest: update"
+runs:
+  using: composite
+  steps:
+    - if: inputs.mode == 'restore'
+      shell: bash
+      run: |
+        set -euo pipefail
+        if git ls-remote --exit-code --heads origin harvest >/dev/null; then
+          git fetch --depth=1 origin harvest
+          git worktree add -f .harvest-state FETCH_HEAD
+        else
+          echo "No harvest branch yet; starting one."
+          git worktree add -f --orphan -b harvest .harvest-state
+        fi
+        rm -rf data/harvest
+        mkdir -p data
+        if [ -d .harvest-state/data/harvest ]; then
+          cp -a .harvest-state/data/harvest data/harvest
+        else
+          mkdir -p data/harvest
+        fi
+        echo "restored $(ls data/harvest | wc -l) file(s)"
+
+    - if: inputs.mode == 'save'
+      shell: bash
+      env:
+        MESSAGE: ${{ inputs.message }}
+      run: |
+        set -euo pipefail
+        cd .harvest-state
+        rm -rf data/harvest
+        mkdir -p data
+        cp -a ../data/harvest data/harvest
+        git add -A data/harvest
+        if git diff --cached --quiet; then
+          echo "harvest unchanged; nothing pushed"
+          exit 0
+        fi
+        git -c user.name="github-actions[bot]" \
+            -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -q -m "$MESSAGE"
+        git push origin HEAD:refs/heads/harvest
+        git diff --stat HEAD~1 HEAD 2>/dev/null | tail -1 || true

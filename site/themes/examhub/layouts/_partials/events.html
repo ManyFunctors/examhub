@@ -1,0 +1,38 @@
+{{- /* Every dated milestone on the site, sorted by day, each stamped with its record's facets.
+     Called cached: the home page, month pages, the day list and index.json all read it. */ -}}
+{{- $now := now.Format "2006-01-02" -}}
+{{- $events := slice -}}
+{{- range (partialCached "exam-list.html" .).rows -}}
+  {{- $page := .page -}}
+  {{- $p := partialCached "v2/params.html" $page $page.RelPermalink -}}
+  {{- $bodies := delimit ($p.bodies | default slice) "|" -}}
+  {{- $cats := delimit ($p.categories | default slice) "|" -}}
+  {{- $known := delimit ($p.known_as | default slice) "|" -}}
+  {{- $examDate := "" -}}
+  {{- with $p.exam_date }}{{ $examDate = (time.AsTime .).Format "2006-01-02" }}{{ end -}}
+  {{- range partialCached "milestones.html" $page $page.RelPermalink -}}
+    {{- $events = $events | append (dict
+          "d" .iso
+          "k" .kind
+          "l" .label
+          "t" $page.Title
+          "u" $page.RelPermalink
+          "p" (eq .status "provisional")
+          "b" $bodies
+          "c" $cats
+          "q" $known
+          "x" $examDate) -}}
+  {{- end -}}
+{{- end -}}
+{{- $events = sort $events "d" "asc" -}}
+
+{{- /* The opening month: the first upcoming date's, else today's. */ -}}
+{{- $start := $now -}}
+{{- with where $events "d" ">=" $now }}{{ $start = (index . 0).d }}{{ end -}}
+
+{{- /* Months with anything in them, oldest first. */ -}}
+{{- $months := slice -}}
+{{- range $events }}{{ $months = $months | append (substr .d 0 7) }}{{ end -}}
+{{- $months = $months | uniq | sort -}}
+
+{{- return dict "events" $events "start" $start "months" $months "today" $now -}}

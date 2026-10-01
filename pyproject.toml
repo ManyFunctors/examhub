@@ -1,0 +1,69 @@
+[project]
+name = "examhub-pipeline"
+version = "0.1.0"
+description = "Crawl official Indian exam notices, extract deterministically, verify with Laya, and propose a reviewable diff for the ExamHub Hugo site. Never publishes."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "ExamHub maintainer" }]
+keywords = ["scraping", "extraction", "hugo", "toml", "laya", "etl"]
+classifiers = [
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Text Processing :: Markup",
+  "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+]
+
+# Core is deliberately small and boring: deterministic extraction plus plain
+# HTTP and file IO. No model, no torch, no LLM in the extraction path.
+dependencies = [
+  "httpx>=0.27",
+  "selectolax>=0.3.21",
+  "pymupdf>=1.24",
+]
+
+[project.optional-dependencies]
+# OCR for image-only notices (Sikkim PSC, Mizoram PSC, MCC counselling schedules).
+ocr = ["pytesseract>=0.3.10", "pillow>=10.0"]
+# The verification layer. Heavy: pulls torch + transformers. The pipeline runs
+# without it -- everything lands as `not_validated` and is flagged for review.
+model = ["laya>=0.3.20"]
+# The catalogue crawler: feeds, URL health. Headless Firefox (via selenium and
+# geckodriver, both preinstalled on GitHub's ubuntu runners) is used only for
+# feeds marked `render = "browser"`.
+# brotli and zstandard: Scrapy only decodes the encodings it has a library for,
+# and several NIC hosts answer zstd whatever the request says.
+# psycopg: crt.sh's public database, for Certificate Transparency discovery.
+crawl = ["scrapy>=2.13", "parsel>=1.9", "selenium>=4.20", "brotli>=1.1", "zstandard>=0.22", "psycopg[binary]>=3.2"]
+dev = ["pytest>=8.0", "tomli-w>=1.0"]
+
+[project.scripts]
+examhub-pipeline = "examhub_pipeline.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/manyfunctors/examhub"
+DataModel = "https://github.com/manyfunctors/examhub/blob/main/docs/data-model-notes.md"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/examhub_pipeline"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = [
+  "network: test needs the internet",
+  "model: test needs the laya checkpoint (slow, downloads weights)",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+# Correctness only: unused or shadowed names, undefined names, import order.
+# Style rules are left off on purpose; the code has its own consistent idiom.
+select = ["F", "E9", "I", "B006", "B007", "B008"]

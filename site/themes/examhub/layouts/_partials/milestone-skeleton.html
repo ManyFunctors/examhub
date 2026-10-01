@@ -1,0 +1,32 @@
+{{- /* Every stage of an exam, whether or not it has a date. */ -}}
+{{- $field := dict
+      "registration_open"       (dict "date" (partialCached "v2/params.html" . .RelPermalink).registration_open           "status" (partialCached "v2/params.html" . .RelPermalink).registration_open_status)
+      "registration_deadline"   (dict "date" (partialCached "v2/params.html" . .RelPermalink).registration_deadline       "status" (partialCached "v2/params.html" . .RelPermalink).registration_deadline_status)
+      "correction_open"         (dict "date" (partialCached "v2/params.html" . .RelPermalink).correction_open              "status" (partialCached "v2/params.html" . .RelPermalink).correction_open_status)
+      "correction_deadline"     (dict "date" (partialCached "v2/params.html" . .RelPermalink).correction_deadline          "status" (partialCached "v2/params.html" . .RelPermalink).correction_deadline_status)
+      "city_intimation"         (dict "date" (partialCached "v2/params.html" . .RelPermalink).city_intimation              "status" (partialCached "v2/params.html" . .RelPermalink).city_intimation_status)
+      "admit_card"              (dict "date" (partialCached "v2/params.html" . .RelPermalink).admit_card_from             "status" (partialCached "v2/params.html" . .RelPermalink).admit_card_from_status)
+      "interview"               (dict "date" (partialCached "v2/params.html" . .RelPermalink).interview_date               "status" (partialCached "v2/params.html" . .RelPermalink).interview_date_status)
+      "exam_date"               (dict "date" (partialCached "v2/params.html" . .RelPermalink).exam_date                    "status" (partialCached "v2/params.html" . .RelPermalink).exam_date_status)
+      "answer_key_open"         (dict "date" (partialCached "v2/params.html" . .RelPermalink).answer_key_open              "status" (partialCached "v2/params.html" . .RelPermalink).answer_key_open_status)
+      "answer_key_deadline"     (dict "date" (partialCached "v2/params.html" . .RelPermalink).answer_key_deadline          "status" (partialCached "v2/params.html" . .RelPermalink).answer_key_deadline_status)
+      "result"                  (dict "date" (partialCached "v2/params.html" . .RelPermalink).result_date                  "status" (partialCached "v2/params.html" . .RelPermalink).result_date_status)
+      "re_evaluation_open"      (dict "date" (partialCached "v2/params.html" . .RelPermalink).re_evaluation_open           "status" (partialCached "v2/params.html" . .RelPermalink).re_evaluation_open_status)
+      "re_evaluation_deadline"  (dict "date" (partialCached "v2/params.html" . .RelPermalink).re_evaluation_deadline       "status" (partialCached "v2/params.html" . .RelPermalink).re_evaluation_deadline_status) -}}
+{{- $rows := slice -}}
+{{- range hugo.Data.date_kinds -}}
+  {{- /* A kind in the yaml with no field mapped is a stage the skeleton cannot read a date for. */ -}}
+  {{- $row := dict "key" .key "label" .label "group" (.group | default "") "has" false "iso" "" -}}
+  {{- with index $field .key -}}
+    {{- $row = merge $row (dict "status" (.status | default "confirmed")) -}}
+    {{- with .date -}}
+      {{- $t := time.AsTime . -}}
+      {{- $row = merge $row (dict
+            "date" $t
+            "iso" ($t.Format "2006-01-02")
+            "has" true) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $rows = $rows | append $row -}}
+{{- end -}}
+{{- return $rows -}}

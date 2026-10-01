@@ -1,0 +1,155 @@
+/* Rules every page needs, lifted out of the page-specific sheets:
+   provenance, freshness, notices and prose (from exam.css), and the
+   light-mode tokens and skip link (from v2.css). Kept in their original order. */
+
+/* Provenance: makes a stale record visibly stale rather than quietly wrong. */
+
+.provenance {
+  margin-top: var(--sp-5);
+  padding: var(--sp-3) var(--sp-4);
+  border: 1px dashed var(--border);
+  border-radius: var(--squircle);
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  background: var(--bg-alt);
+}
+
+.provenance strong {
+  color: var(--text);
+  font-weight: 500;
+}
+
+/* Freshness strip. */
+
+.freshness {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-5);
+  padding-bottom: var(--sp-3);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+}
+
+/* The verification stamp is styled in cards.css. */
+/* The per-record freshness line on a card. */
+.card__flag {
+  margin: 0;
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+}
+
+/* Stale is not a colour. */
+.card__flag.is-stale {
+  font-weight: 600;
+}
+
+/* What in the freshness family can be dragged across, and what cannot. */
+.freshness,
+.card__flag {
+  user-select: none;
+}
+
+/* Exceptional conditions use no lifecycle hue and no fill. */
+.notice {
+  display: flex;
+  gap: var(--sp-3);
+  padding: var(--sp-4);
+  border-radius: var(--radius);
+  border: 1px solid var(--border-strong);
+  background: var(--bg-alt);
+  margin-bottom: var(--sp-6);
+  font-size: var(--fs-sm);
+}
+
+.notice p:last-child {
+  margin-bottom: 0;
+}
+
+/* Empty state */
+
+.empty {
+  text-align: center;
+  padding: var(--sp-8) var(--sp-4);
+  color: var(--text-muted);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+}
+
+.empty__title {
+  font-weight: 500;
+  color: var(--heading);
+  margin-bottom: var(--sp-1);
+}
+
+/* Rendered Markdown */
+
+.prose > :last-child {
+  margin-bottom: 0;
+}
+
+/* .prose--page has no rule of its own any more. */
+
+.prose ul,
+.prose ol {
+  padding-left: var(--sp-5);
+  margin-bottom: var(--sp-4);
+}
+
+.prose blockquote {
+  margin: 0 0 var(--sp-4);
+  padding: var(--sp-2) var(--sp-4);
+  border-left: 3px solid var(--highlight);
+  background: var(--bg-alt);
+  color: var(--text-muted);
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: var(--sp-4);
+  font-size: var(--fs-sm);
+}
+
+.prose th,
+.prose td {
+  border: 1px solid var(--border);
+  padding: var(--sp-2) var(--sp-3);
+  text-align: left;
+}
+
+.prose th {
+  background: var(--bg-alt);
+}
+
+
+/* ── Light mode contrast (dark mode sets its own tokens) ─────────────── */
+:root {
+  --text: #1f2233;
+  --heading: #1f2233;
+  --subtext1: #3c3f55;
+  --subtext0: #4c4f69;
+  --text-muted: var(--subtext1);
+  --border: #9ca0b0;
+  --surface: #ffffff;
+  --chip-fill-mix: 36%;
+  --control-border: var(--subtext0);
+}
+
+/* Skip link: sits exactly over the sidebar's "ExamHub" link on desktop. */
+@media (min-width: 992px) {
+  .skip-link {
+    left: calc(max(0px, (100% - 90rem) / 2) + var(--sp-4));
+    width: calc(var(--sidebar-w) - 2 * var(--sp-4));
+    min-width: 0;
+    padding: var(--sp-2);
+    font-size: var(--fs-sm);
+    line-height: 1.4;
+  }
+  .skip-link:focus { top: var(--sp-5); }
+}
+
+/* Without JavaScript these buttons do nothing, so they don't show. */
+.no-js #theme-toggle,
+.no-js #nav-toggle,
+.no-js #sidebar-close { display: none; }

@@ -1,0 +1,399 @@
+# Catalogue: Assam. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "as-apsc"
+name = "Assam Public Service Commission"
+short_name = "APSC (Assam)"
+jurisdiction = "as"
+kind = "public_service_commission"
+website = "https://apsc.nic.in/"
+hosts = ["apsc.nic.in", "apscrecruitment.in"]
+status = "active"
+notes = "apsc.gov.in has broken DNS; the right domain is apsc.nic.in. Advertisement index pages are per-year (advt_YYYY.php)."
+
+[[bodies]]
+id = "as-slprb"
+name = "State Level Police Recruitment Board, Assam"
+short_name = "SLPRB Assam"
+jurisdiction = "as"
+kind = "police_recruitment_board"
+website = "https://slprbassam.in/"
+status = "active"
+
+[[bodies]]
+id = "as-asseb"
+name = "Assam State School Education Board"
+short_name = "ASSEB"
+known_as = ["SEBA", "AHSEC"]
+jurisdiction = "as"
+kind = "school_board"
+website = "https://asseb.in/"
+hosts = ["asseb.in", "sebaonline.org", "ahsec.assam.gov.in"]
+status = "active"
+notes = "Formed in 2024 by merging SEBA (HSLC) and AHSEC (HS)."
+
+[[bodies]]
+id = "as-dse"
+name = "Directorate of Secondary / Elementary Education, Assam"
+short_name = "DSE Assam"
+jurisdiction = "as"
+kind = "ministry_department"
+website = "https://dse.assam.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "as-astu"
+name = "Assam Science and Technology University (Assam CEE)"
+short_name = "ASTU"
+jurisdiction = "as"
+kind = "university"
+website = "https://astu.ac.in/"
+status = "active"
+
+[[bodies]]
+id = "as-aau"
+name = "Assam Agricultural University"
+short_name = "AAU"
+jurisdiction = "as"
+kind = "university"
+website = "https://aau.ac.in/"
+hosts = ["admission.aau.ac.in"]
+status = "active"
+
+[[bodies]]
+id = "as-slet-ne"
+name = "State Level Eligibility Test Commission, North East"
+short_name = "SLET NE"
+jurisdiction = "as"
+kind = "testing_agency"
+website = "https://www.sletne.org/"
+status = "active"
+
+[[bodies]]
+id = "as-gauhati-hc"
+name = "Gauhati High Court"
+short_name = "Gauhati HC"
+jurisdiction = "as"
+kind = "court"
+website = "https://ghconline.gov.in/"
+status = "active"
+notes = "Serves Assam, Arunachal Pradesh, Mizoram and Nagaland."
+
+[[bodies]]
+id = "as-nhm"
+name = "National Health Mission, Assam"
+short_name = "NHM Assam"
+jurisdiction = "as"
+kind = "health_recruitment"
+website = "https://nhm.assam.gov.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "as-apsc/downloads"
+body = "as-apsc"
+url = "https://apsc.nic.in/downloads.php"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "as-slprb/home"
+body = "as-slprb"
+url = "https://slprbassam.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "as-asseb/home"
+body = "as-asseb"
+url = "https://asseb.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "as-dse/home"
+body = "as-dse"
+url = "https://dse.assam.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "as-astu/home"
+body = "as-astu"
+url = "https://astu.ac.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "as-aau/home"
+body = "as-aau"
+url = "https://aau.ac.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "as-slet-ne/home"
+body = "as-slet-ne"
+url = "https://www.sletne.org/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "as-gauhati-hc/recruitment"
+body = "as-gauhati-hc"
+url = "https://ghconline.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "as-nhm/home"
+body = "as-nhm"
+url = "https://nhm.assam.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "as-apsc/answer-keys"
+body = "as-apsc"
+url = "https://apsc.nic.in/answer_keys.php"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Answer Keys)."
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "as-apsc-cce"
+name = "Assam Combined Competitive Examination"
+known_as = ["APSC CCE"]
+jurisdiction = "as"
+purpose = "recruitment"
+conducted_by = "as-apsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['combined\s*competitive', '\bCCE\b'] }
+status = "active"
+
+[[exams]]
+id = "as-apsc-ae"
+name = "APSC (Assam) Assistant Engineer / Engineering Services Examination"
+jurisdiction = "as"
+purpose = "recruitment"
+conducted_by = "as-apsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "as-apsc-lecturer"
+name = "APSC (Assam) Lecturer / Assistant Professor Recruitment"
+jurisdiction = "as"
+purpose = "recruitment"
+conducted_by = "as-apsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "as-apsc-other"
+name = "APSC (Assam) Recruitment to other posts (umbrella)"
+jurisdiction = "as"
+purpose = "recruitment"
+conducted_by = "as-apsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "as-slprb-constable"
+name = "SLPRB Assam Police Constable Recruitment"
+jurisdiction = "as"
+purpose = "recruitment"
+conducted_by = "as-slprb"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", "sipahi|sepoy", '\bPC\b'] }
+status = "active"
+
+[[exams]]
+id = "as-slprb-si"
+name = "SLPRB Assam Sub-Inspector Recruitment"
+jurisdiction = "as"
+purpose = "recruitment"
+conducted_by = "as-slprb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
+status = "active"
+
+[[exams]]
+id = "as-hslc"
+name = "Assam High School Leaving Certificate Examination"
+short_name = "HSLC"
+jurisdiction = "as"
+purpose = "school_board"
+conducted_by = "as-asseb"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['\bHSLC\b'] }
+status = "active"
+
+[[exams]]
+id = "as-hs"
+name = "Assam Higher Secondary Final Examination"
+short_name = "HS"
+jurisdiction = "as"
+purpose = "school_board"
+conducted_by = "as-asseb"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['higher\s*secondary', '\bHS\b'] }
+status = "active"
+
+[[exams]]
+id = "as-adre"
+name = "Assam Direct Recruitment Examination (Grade III and IV)"
+short_name = "ADRE"
+jurisdiction = "as"
+purpose = "recruitment"
+conducted_by = "as-asseb"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["clerical"]
+match = { any = ['\bADRE\b', 'direct\s*recruitment\s*exam'] }
+status = "active"
+
+[[exams]]
+id = "as-tet"
+name = "Assam Teacher Eligibility Test (LP / UP / Special TET)"
+short_name = "Assam TET"
+jurisdiction = "as"
+purpose = "eligibility"
+conducted_by = "as-dse"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['\bTET\b'] }
+status = "active"
+
+[[exams]]
+id = "as-teacher-recruitment"
+name = "Assam Teacher Recruitment (Graduate Teacher, Post Graduate Teacher, LP/UP)"
+jurisdiction = "as"
+purpose = "recruitment"
+conducted_by = "as-dse"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['graduate\s*teacher', 'post\s*graduate\s*teacher', '\bLP\b|\bUP\b', "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "as-cee"
+name = "Assam Combined Entrance Examination"
+short_name = "Assam CEE"
+jurisdiction = "as"
+purpose = "admission"
+conducted_by = "as-astu"
+frequency = "annual"
+qualification = "class_12"
+streams = ["engineering"]
+match = { any = ['\bCEE\b', 'combined\s*entrance'] }
+status = "active"
+
+[[exams]]
+id = "as-aau-cet"
+name = "AAU Combined Entrance Test"
+short_name = "AAU CET"
+jurisdiction = "as"
+purpose = "admission"
+conducted_by = "as-aau"
+frequency = "annual"
+qualification = "class_12"
+streams = ["agriculture"]
+match = { any = ['\bCET\b', "entrance"] }
+status = "active"
+
+[[exams]]
+id = "as-slet-ne"
+name = "State Level Eligibility Test for the North-Eastern States"
+short_name = "SLET NE"
+jurisdiction = "as"
+purpose = "eligibility"
+conducted_by = "as-slet-ne"
+frequency = "annual"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ['\bSLET\b'] }
+status = "active"
+
+[[exams]]
+id = "as-gauhati-hc-staff"
+name = "Gauhati HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "as"
+purpose = "recruitment"
+conducted_by = "as-gauhati-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "as-gauhati-hc-judicial"
+name = "Gauhati HC Civil Judge / Higher Judicial Service Examination"
+jurisdiction = "as"
+purpose = "recruitment"
+conducted_by = "as-gauhati-hc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', 'district\s*judge', '\bHJS\b'] }
+status = "active"
+
+[[exams]]
+id = "as-nhm-recruitment"
+name = "NHM Assam Recruitment (CHO, Staff Nurse, contractual)"
+jurisdiction = "as"
+purpose = "recruitment"
+conducted_by = "as-nhm"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["nursing", "allied_health"]
+match = { any = ['community\s*health\s*officer', '\bCHO\b', "recruitment", 'staff\s*nurse'] }
+status = "active"

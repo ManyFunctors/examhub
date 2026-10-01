@@ -1,0 +1,52 @@
+{{- /* The bar's head: the search box, its read-out, and the disclosure button. */ -}}
+<div class="filters__head">
+  {{- /* One box: the Filters button and the search field, split by a hairline. */ -}}
+  <div class="filters__join">
+  <button class="filters__toggle" type="button" id="filters-toggle"
+          aria-expanded="false" aria-controls="filters-body" aria-label="Filters"
+          data-label="Filters">
+    {{- /* Sliders icon: three rules, each with a knob. */ -}}
+    <svg class="filters__toggle-icon" viewBox="0 0 16 16" fill="none"
+         stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+         aria-hidden="true">
+      <path d="M2 3.5h12M2 8h12M2 12.5h12" />
+      <rect class="filters__knob filters__knob--top" x="3.5" y="2" width="3" height="3" rx="0.8"
+              fill="currentColor" stroke="none" />
+      <rect class="filters__knob filters__knob--mid" x="9.5" y="6.5" width="3" height="3" rx="0.8"
+              fill="currentColor" stroke="none" />
+      <rect class="filters__knob filters__knob--low" x="5" y="11" width="3" height="3" rx="0.8"
+              fill="currentColor" stroke="none" />
+    </svg>
+    {{- /* No visible label. */ -}}
+  </button>
+
+  <div class="filters__field filters__field--wide">
+    <label class="filters__label sr-only" for="filter-q">Search</label>
+    <input class="filters__input" type="search" id="filter-q" name="q"
+           placeholder="Exam, Body, or Keyword" autocomplete="off"
+           aria-describedby="filter-count" />
+    {{- /* The search button, at the right end of the field. */ -}}
+    <button class="filters__searchbtn" type="submit" aria-label="Search"
+            data-label="Search">
+      <svg class="filters__mark" viewBox="0 0 16 16" fill="none"
+           stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+           aria-hidden="true">
+        <rect x="2" y="2" width="8.5" height="8.5" rx="2.5" />
+        <path d="M9.77 9.77 14 14" />
+      </svg>
+    </button>
+  </div>
+  </div>
+
+  {{- /* Clears the search and filters; shown only while the search is docked on a phone and something is on. */}}
+  <button class="filters__clear" type="button" data-filter-reset aria-label="Clear Search and Filters" data-label="Clear">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M3 12a9 9 0 1 0 3-6.7" />
+      <path d="M3 4v5h5" />
+    </svg>
+  </button>
+
+  {{- /* Under the search rather than beside it, and only ever while a filter is on. */ -}}
+  {{- /* tabindex="-1" and nothing else: not a tab stop, focusable only by script. */ -}}
+  <p class="filters__count" id="filter-count" role="status" tabindex="-1"></p>
+</div>

@@ -1,0 +1,365 @@
+# Catalogue: Tripura. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "tr-tpsc"
+name = "Tripura Public Service Commission"
+short_name = "TPSC"
+jurisdiction = "tr"
+kind = "public_service_commission"
+website = "https://tpsc.tripura.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tr-tbse"
+name = "Tripura Board of Secondary Education"
+short_name = "TBSE"
+jurisdiction = "tr"
+kind = "school_board"
+website = "https://tbse.tripura.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tr-trbt"
+name = "Teachers' Recruitment Board, Tripura"
+short_name = "TRBT"
+jurisdiction = "tr"
+kind = "teacher_recruitment_board"
+website = "https://trbt.tripura.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tr-jrbt"
+name = "Joint Recruitment Board, Tripura"
+short_name = "JRBT"
+jurisdiction = "tr"
+kind = "staff_selection_board"
+website = "https://jrbt.tripura.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tr-tbjee"
+name = "Tripura Board of Joint Entrance Examination"
+short_name = "TBJEE"
+jurisdiction = "tr"
+kind = "testing_agency"
+website = "https://tbjee.nic.in/"
+status = "active"
+
+[[bodies]]
+id = "tr-police"
+name = "Tripura Police"
+short_name = "Tripura Police"
+jurisdiction = "tr"
+kind = "police_recruitment_board"
+website = "https://tripurapolice.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tr-hc"
+name = "High Court of Tripura"
+short_name = "Tripura HC"
+jurisdiction = "tr"
+kind = "court"
+website = "https://thc.nic.in/"
+status = "active"
+
+[[bodies]]
+id = "tr-forest"
+name = "Forest Department, Tripura"
+short_name = "Tripura Forest"
+jurisdiction = "tr"
+kind = "ministry_department"
+website = "https://forest.tripura.gov.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "tr-tpsc/notice-board"
+body = "tr-tpsc"
+url = "https://tpsc.tripura.gov.in/notice-board"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tr-tpsc/advertisement"
+body = "tr-tpsc"
+url = "https://tpsc.tripura.gov.in/advertisement"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tr-tpsc/results"
+body = "tr-tpsc"
+url = "https://tpsc.tripura.gov.in/results"
+adapter = "html_links"
+yields = "results"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tr-tbse/home"
+body = "tr-tbse"
+url = "https://tbse.tripura.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "tr-trbt/home"
+body = "tr-trbt"
+url = "https://trbt.tripura.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tr-jrbt/home"
+body = "tr-jrbt"
+url = "https://jrbt.tripura.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tr-tbjee/home"
+body = "tr-tbjee"
+url = "https://tbjee.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tr-police/home"
+body = "tr-police"
+url = "https://tripurapolice.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tr-hc/recruitment"
+body = "tr-hc"
+url = "https://thc.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "tr-forest/home"
+body = "tr-forest"
+url = "https://forest.tripura.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "tr-tpsc-tcs"
+name = "Tripura Civil Service / Tripura Police Service Combined Examination"
+jurisdiction = "tr"
+purpose = "recruitment"
+conducted_by = "tr-tpsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['\bTCS\b', 'civil\s*service', 'combined\s*competitive', '\bTPS\b'] }
+status = "active"
+
+[[exams]]
+id = "tr-tpsc-ae"
+name = "TPSC Assistant Engineer / Engineering Services Examination"
+jurisdiction = "tr"
+purpose = "recruitment"
+conducted_by = "tr-tpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "tr-tpsc-lecturer"
+name = "TPSC Lecturer / Assistant Professor Recruitment"
+jurisdiction = "tr"
+purpose = "recruitment"
+conducted_by = "tr-tpsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "tr-tpsc-judicial"
+name = "TPSC Civil Judge (Junior Division) / Judicial Services Examination"
+jurisdiction = "tr"
+purpose = "recruitment"
+conducted_by = "tr-tpsc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', '\bPCS[-\s]*\(?J\)?', 'judicial\s*magistrate'] }
+status = "active"
+
+[[exams]]
+id = "tr-tpsc-other"
+name = "TPSC Recruitment to other posts (umbrella)"
+jurisdiction = "tr"
+purpose = "recruitment"
+conducted_by = "tr-tpsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "tr-tpsc-departmental"
+name = "TPSC Departmental Examinations (TCS/TPS/Audit/Engineering)"
+jurisdiction = "tr"
+purpose = "departmental"
+conducted_by = "tr-tpsc"
+frequency = "biannual"
+streams = ["civil_services"]
+match = { any = ["departmental"] }
+status = "active"
+
+[[exams]]
+id = "tr-tbse-class-10"
+name = "TBSE Madhyamik Examination"
+jurisdiction = "tr"
+purpose = "school_board"
+conducted_by = "tr-tbse"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ["madhyamik", 'class\s*(X|10)\b'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "tr-tbse-class-12"
+name = "TBSE Higher Secondary (+2) Examination"
+jurisdiction = "tr"
+purpose = "school_board"
+conducted_by = "tr-tbse"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['higher\s*secondary', 'class\s*(XII|12)\b', '\+\s*2'] }
+status = "active"
+
+[[exams]]
+id = "tr-ttet"
+name = "Tripura Teacher Eligibility Test"
+short_name = "T-TET"
+jurisdiction = "tr"
+purpose = "eligibility"
+conducted_by = "tr-trbt"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['T[-\s]*TET', '\bTET\b'] }
+status = "active"
+
+[[exams]]
+id = "tr-stgt"
+name = "Tripura Special Teacher Eligibility Test for Graduate / Post Graduate Teachers"
+short_name = "STGT / STPGT"
+jurisdiction = "tr"
+purpose = "eligibility"
+conducted_by = "tr-trbt"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bSTGT\b', '\bSTPGT\b'] }
+status = "active"
+
+[[exams]]
+id = "tr-jrbt-group-c-d"
+name = "JRBT Group C and Group D Combined Recruitment"
+jurisdiction = "tr"
+purpose = "recruitment"
+conducted_by = "tr-jrbt"
+frequency = "irregular"
+qualification = "class_8"
+streams = ["clerical", "multi_tasking"]
+match = { any = ["group\\s*['‘’]?\\s*[CD]\\b", '\bCGL\b', 'multi[-\s]*tasking', "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "tr-tjee"
+name = "Tripura Joint Entrance Examination"
+short_name = "TJEE"
+jurisdiction = "tr"
+purpose = "admission"
+conducted_by = "tr-tbjee"
+frequency = "annual"
+qualification = "class_12"
+streams = ["engineering", "medical"]
+match = { any = ['\bTJEE\b', 'joint\s*entrance'] }
+status = "active"
+
+[[exams]]
+id = "tr-police-constable"
+name = "Tripura Police Police Constable Recruitment"
+jurisdiction = "tr"
+purpose = "recruitment"
+conducted_by = "tr-police"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", "sipahi|sepoy", '\bPC\b'] }
+status = "active"
+
+[[exams]]
+id = "tr-police-si"
+name = "Tripura Police Sub-Inspector Recruitment"
+jurisdiction = "tr"
+purpose = "recruitment"
+conducted_by = "tr-police"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
+status = "active"
+
+[[exams]]
+id = "tr-hc-staff"
+name = "Tripura HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "tr"
+purpose = "recruitment"
+conducted_by = "tr-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "tr-forest-guard"
+name = "Tripura Forest Guard / Forester Recruitment"
+jurisdiction = "tr"
+purpose = "recruitment"
+conducted_by = "tr-forest"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["forest"]
+match = { any = ['forest\s*guard', "forester"] }
+status = "active"

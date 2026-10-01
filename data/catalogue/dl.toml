@@ -1,0 +1,415 @@
+# Catalogue: Delhi. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "dl-dsssb"
+name = "Delhi Subordinate Services Selection Board"
+short_name = "DSSSB"
+jurisdiction = "dl"
+kind = "staff_selection_board"
+website = "https://dsssb.delhi.gov.in/"
+hosts = ["dsssb.delhi.gov.in", "dsssbonline.nic.in"]
+status = "active"
+
+[[bodies]]
+id = "dl-hc"
+name = "High Court of Delhi"
+short_name = "Delhi High Court"
+jurisdiction = "dl"
+kind = "court"
+website = "https://delhihighcourt.nic.in/"
+status = "active"
+
+[[bodies]]
+id = "dl-police"
+name = "Delhi Police"
+short_name = "Delhi Police"
+jurisdiction = "dl"
+kind = "police_recruitment_board"
+website = "https://delhipolice.gov.in/"
+status = "active"
+notes = "Constable and SI exams are run by SSC; see in-ssc-*."
+
+[[bodies]]
+id = "dl-nlud"
+name = "National Law University Delhi"
+short_name = "NLU Delhi"
+jurisdiction = "dl"
+kind = "university"
+website = "https://nationallawuniversitydelhi.in/"
+status = "active"
+
+[[bodies]]
+id = "dl-ggsipu"
+name = "Guru Gobind Singh Indraprastha University"
+short_name = "GGSIPU"
+jurisdiction = "dl"
+kind = "university"
+website = "https://ipu.ac.in/"
+hosts = ["ipu.ac.in", "ipu.admissions.nic.in"]
+status = "active"
+
+[[bodies]]
+id = "dl-jmi"
+name = "Jamia Millia Islamia"
+short_name = "JMI"
+jurisdiction = "dl"
+kind = "university"
+website = "https://jmi.ac.in/"
+hosts = ["admission.jmi.ac.in"]
+status = "active"
+
+[[bodies]]
+id = "dl-du"
+name = "University of Delhi"
+short_name = "DU"
+jurisdiction = "dl"
+kind = "university"
+website = "https://www.du.ac.in/"
+status = "active"
+
+[[bodies]]
+id = "dl-jnu"
+name = "Jawaharlal Nehru University"
+short_name = "JNU"
+jurisdiction = "dl"
+kind = "university"
+website = "https://www.jnu.ac.in/"
+status = "active"
+
+[[bodies]]
+id = "dl-bte"
+name = "Board of Technical Education, Delhi"
+short_name = "BTE Delhi"
+jurisdiction = "dl"
+kind = "testing_agency"
+website = "https://bte.delhi.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "dl-dmrc"
+name = "Delhi Metro Rail Corporation"
+short_name = "DMRC"
+jurisdiction = "dl"
+kind = "psu"
+website = "https://www.delhimetrorail.com/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "dl-dsssb/vacancies"
+body = "dl-dsssb"
+url = "https://dsssb.delhi.gov.in/dsssb-vacancies"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "dl-dsssb/results"
+body = "dl-dsssb"
+url = "https://dsssb.delhi.gov.in/doit/dsssb/latest-result"
+adapter = "html_links"
+yields = "results"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "dl-dsssb/notices"
+body = "dl-dsssb"
+url = "https://dsssb.delhi.gov.in/notices"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "dl-hc/recruitment"
+body = "dl-hc"
+url = "https://delhihighcourt.nic.in/web/recruitment"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "dl-police/recruitment"
+body = "dl-police"
+url = "https://delhipolice.gov.in/recruitment"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "dl-nlud/home"
+body = "dl-nlud"
+url = "https://nationallawuniversitydelhi.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "dl-ggsipu/home"
+body = "dl-ggsipu"
+url = "https://ipu.ac.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "dl-jmi/admission"
+body = "dl-jmi"
+url = "https://admission.jmi.ac.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "dl-du/home"
+body = "dl-du"
+url = "https://www.du.ac.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "dl-jnu/home"
+body = "dl-jnu"
+url = "https://www.jnu.ac.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "dl-bte/home"
+body = "dl-bte"
+url = "https://bte.delhi.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "dl-dmrc/home"
+body = "dl-dmrc"
+url = "https://www.delhimetrorail.com/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "dl-du/jobs-opportunities"
+body = "dl-du"
+url = "https://www.du.ac.in/index.php?page=work-with-du"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Jobs & Opportunities)."
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "dl-dsssb-teacher"
+name = "DSSSB Teacher Recruitment (PRT, TGT, PGT, Special Educator)"
+jurisdiction = "dl"
+purpose = "recruitment"
+conducted_by = "dl-dsssb"
+frequency = "annual"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bPRT\b', '\bTGT\b', '\bPGT\b', 'special\s*educator', "teacher", "nursery"] }
+status = "active"
+
+[[exams]]
+id = "dl-dsssb-combined"
+name = "DSSSB Combined Examination (Group B and C)"
+jurisdiction = "dl"
+purpose = "recruitment"
+conducted_by = "dl-dsssb"
+frequency = "annual"
+qualification = "class_12"
+streams = ["clerical"]
+match = { any = ['combined\s*exam', "group\\s*['‘’]?\\s*[BC]\\b"] }
+status = "active"
+
+[[exams]]
+id = "dl-dsssb-je"
+name = "DSSSB Junior Engineer / Assistant Engineer"
+jurisdiction = "dl"
+purpose = "recruitment"
+conducted_by = "dl-dsssb"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["engineering"]
+match = { any = ['junior\s*engineer', 'assistant\s*engineer'] }
+status = "active"
+
+[[exams]]
+id = "dl-dsssb-other"
+name = "DSSSB other recruitment (umbrella, by advertisement number)"
+jurisdiction = "dl"
+purpose = "recruitment"
+conducted_by = "dl-dsssb"
+frequency = "multiple"
+qualification = "class_10"
+streams = ["general"]
+match = { any = ['advt|advertisement|vacanc|post\s*code'] }
+status = "active"
+
+[[exams]]
+id = "dl-hc-staff"
+name = "Delhi High Court Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "dl"
+purpose = "recruitment"
+conducted_by = "dl-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "dl-hc-judicial"
+name = "Delhi High Court Civil Judge / Higher Judicial Service Examination"
+jurisdiction = "dl"
+purpose = "recruitment"
+conducted_by = "dl-hc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', 'district\s*judge', '\bHJS\b'] }
+status = "active"
+
+[[exams]]
+id = "dl-hc-djs"
+name = "Delhi Judicial Service Examination"
+short_name = "DJS"
+jurisdiction = "dl"
+purpose = "recruitment"
+conducted_by = "dl-hc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['\bDJS\b', 'delhi\s*judicial\s*service'] }
+status = "active"
+
+[[exams]]
+id = "dl-hc-dhjs"
+name = "Delhi Higher Judicial Service Examination"
+short_name = "DHJS"
+jurisdiction = "dl"
+purpose = "recruitment"
+conducted_by = "dl-hc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['\bDHJS\b', 'higher\s*judicial'] }
+status = "active"
+
+[[exams]]
+id = "dl-police-mts"
+name = "Delhi Police MTS (Civilian) and Sports Quota"
+jurisdiction = "dl"
+purpose = "recruitment"
+conducted_by = "dl-police"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["police"]
+match = { any = ['\bMTS\b', 'multi[-\s]*tasking', "sports"] }
+status = "active"
+
+[[exams]]
+id = "dl-ailet"
+name = "All India Law Entrance Test"
+short_name = "AILET"
+jurisdiction = "dl"
+purpose = "admission"
+conducted_by = "dl-nlud"
+frequency = "annual"
+qualification = "class_12"
+streams = ["law"]
+match = { any = ["AILET", 'all\s*india\s*law\s*entrance'] }
+status = "active"
+
+[[exams]]
+id = "dl-ipu-cet"
+name = "GGSIPU Common Entrance Test"
+short_name = "IPU CET"
+jurisdiction = "dl"
+purpose = "admission"
+conducted_by = "dl-ggsipu"
+frequency = "annual"
+qualification = "class_12"
+streams = ["general"]
+match = { any = ['\bCET\b', 'common\s*entrance'] }
+status = "active"
+
+[[exams]]
+id = "dl-jmi-entrance"
+name = "Jamia Millia Islamia Entrance Tests"
+jurisdiction = "dl"
+purpose = "admission"
+conducted_by = "dl-jmi"
+frequency = "annual"
+qualification = "class_12"
+streams = ["general"]
+match = { any = ["entrance", "admission"] }
+status = "active"
+
+[[exams]]
+id = "dl-du-recruitment"
+name = "University of Delhi Non-Teaching Recruitment"
+jurisdiction = "dl"
+purpose = "recruitment"
+conducted_by = "dl-du"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["clerical"]
+match = { any = ['non[-\s]*teaching', "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "dl-jnu-phd"
+name = "JNU PhD Admission (JNUEE / NET-based)"
+jurisdiction = "dl"
+purpose = "admission"
+conducted_by = "dl-jnu"
+frequency = "annual"
+qualification = "postgraduate"
+streams = ["research"]
+match = { any = ['Ph\.?\s*D', "JNUEE"] }
+status = "active"
+
+[[exams]]
+id = "dl-cet-polytechnic"
+name = "Delhi CET (Polytechnic Diploma Admission)"
+jurisdiction = "dl"
+purpose = "admission"
+conducted_by = "dl-bte"
+frequency = "annual"
+qualification = "class_10"
+streams = ["engineering"]
+match = { any = ['\bCET\b', "polytechnic", "diploma"] }
+status = "active"
+
+[[exams]]
+id = "dl-dmrc-recruitment"
+name = "DMRC Recruitment (Station Controller, JE, Maintainer)"
+jurisdiction = "dl"
+purpose = "recruitment"
+conducted_by = "dl-dmrc"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["technical", "engineering"]
+match = { any = ['station\s*controller', 'junior\s*engineer', "maintainer", "recruitment"] }
+status = "active"

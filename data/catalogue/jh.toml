@@ -1,0 +1,380 @@
+# Catalogue: Jharkhand. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "jh-jpsc"
+name = "Jharkhand Public Service Commission"
+short_name = "JPSC"
+jurisdiction = "jh"
+kind = "public_service_commission"
+website = "https://www.jpsc.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "jh-jssc"
+name = "Jharkhand Staff Selection Commission"
+short_name = "JSSC"
+jurisdiction = "jh"
+kind = "staff_selection_board"
+website = "https://jssc.jharkhand.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "jh-jac"
+name = "Jharkhand Academic Council"
+short_name = "JAC"
+jurisdiction = "jh"
+kind = "school_board"
+website = "https://jac.jharkhand.gov.in/"
+hosts = ["jac.jharkhand.gov.in", "jactetonline.com"]
+status = "active"
+
+[[bodies]]
+id = "jh-jceceb"
+name = "Jharkhand Combined Entrance Competitive Examination Board"
+short_name = "JCECEB"
+jurisdiction = "jh"
+kind = "testing_agency"
+website = "https://jceceb.jharkhand.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "jh-hc"
+name = "Jharkhand High Court"
+short_name = "Jharkhand HC"
+jurisdiction = "jh"
+kind = "court"
+website = "https://jharkhandhighcourt.nic.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "jh-jpsc/home"
+body = "jh-jpsc"
+url = "https://www.jpsc.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "jh-jssc/home"
+body = "jh-jssc"
+url = "https://jssc.jharkhand.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "jh-jac/home"
+body = "jh-jac"
+url = "https://jac.jharkhand.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "jh-jceceb/home"
+body = "jh-jceceb"
+url = "https://jceceb.jharkhand.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "jh-hc/recruitment"
+body = "jh-hc"
+url = "https://jharkhandhighcourt.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "jh-jceceb/counselling-notices"
+body = "jh-jceceb"
+url = "https://jceceb.jharkhand.gov.in/Links/counselling.aspx"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Counselling Notices)."
+
+[[feeds]]
+id = "jh-hc/recruitment-2"
+body = "jh-hc"
+url = "https://jharkhandhighcourt.nic.in/recruitment.php"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Recruitment)."
+
+[[feeds]]
+id = "jh-hc/vacancies-in-other-govt-deppt"
+body = "jh-hc"
+url = "https://jharkhandhighcourt.nic.in/vacancies-other-govt-deppt.php"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (vacancies in other Govt. deppt.)."
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "jh-jpsc-cse"
+name = "JPSC Combined Civil Services Examination"
+known_as = ["JPSC CSE"]
+jurisdiction = "jh"
+purpose = "recruitment"
+conducted_by = "jh-jpsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['combined\s*civil\s*services', 'civil\s*services'] }
+status = "active"
+
+[[exams]]
+id = "jh-jpsc-ae"
+name = "JPSC Assistant Engineer / Engineering Services Examination"
+jurisdiction = "jh"
+purpose = "recruitment"
+conducted_by = "jh-jpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "jh-jpsc-lecturer"
+name = "JPSC Lecturer / Assistant Professor Recruitment"
+jurisdiction = "jh"
+purpose = "recruitment"
+conducted_by = "jh-jpsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "jh-jpsc-judicial"
+name = "JPSC Civil Judge (Junior Division) / Judicial Services Examination"
+jurisdiction = "jh"
+purpose = "recruitment"
+conducted_by = "jh-jpsc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', '\bPCS[-\s]*\(?J\)?', 'judicial\s*magistrate'] }
+status = "active"
+
+[[exams]]
+id = "jh-jpsc-other"
+name = "JPSC Recruitment to other posts (umbrella)"
+jurisdiction = "jh"
+purpose = "recruitment"
+conducted_by = "jh-jpsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "jh-jssc-cgl"
+name = "Jharkhand Graduate Level Combined Competitive Examination (JGGLCCE)"
+jurisdiction = "jh"
+purpose = "recruitment"
+conducted_by = "jh-jssc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["clerical"]
+match = { any = ['graduate\s*level', '\bCGL\b', "JGGLCCE"] }
+status = "active"
+
+[[exams]]
+id = "jh-jssc-matric-inter"
+name = "JSSC Matric / Inter Level Combined Examination"
+jurisdiction = "jh"
+purpose = "recruitment"
+conducted_by = "jh-jssc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["clerical"]
+match = { any = ['matric\s*level', 'inter(mediate)?\s*level', "JMLCCE|JIACCE"] }
+status = "active"
+
+[[exams]]
+id = "jh-jssc-constable"
+name = "Jharkhand Police / Excise Constable (JSSC)"
+jurisdiction = "jh"
+purpose = "recruitment"
+conducted_by = "jh-jssc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", "सिपाही"] }
+status = "active"
+
+[[exams]]
+id = "jh-jssc-teacher"
+name = "JSSC Teacher Recruitment (PGT, TGT, Assistant Acharya)"
+jurisdiction = "jh"
+purpose = "recruitment"
+conducted_by = "jh-jssc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bPGT\b', '\bTGT\b', 'assistant\s*acharya', "teacher"] }
+status = "active"
+
+[[exams]]
+id = "jh-jssc-technical"
+name = "JSSC Technical / Specialised Graduate Level Examination (JTGLCCE)"
+jurisdiction = "jh"
+purpose = "recruitment"
+conducted_by = "jh-jssc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["technical", "engineering"]
+match = { any = ["JTGLCCE", "technical", 'diploma\s*level'] }
+status = "active"
+
+[[exams]]
+id = "jh-jssc-other"
+name = "JSSC other recruitment (umbrella)"
+jurisdiction = "jh"
+purpose = "recruitment"
+conducted_by = "jh-jssc"
+frequency = "multiple"
+qualification = "class_10"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc"] }
+status = "active"
+
+[[exams]]
+id = "jh-jac-class-10"
+name = "JAC Matric Examination"
+jurisdiction = "jh"
+purpose = "school_board"
+conducted_by = "jh-jac"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['class\s*(X|10)\b', '\b(SSC|SSLC|HSLC|matric|madhyamik|secondary)\b(?!.*higher)'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "jh-jac-class-12"
+name = "JAC Intermediate Examination"
+jurisdiction = "jh"
+purpose = "school_board"
+conducted_by = "jh-jac"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['class\s*(XII|12)\b', '\b(HSC|HSSC|intermediate|inter|higher\s*secondary|uchha|plus\s*two|\+2|PUC)\b'] }
+status = "active"
+
+[[exams]]
+id = "jh-jtet"
+name = "Jharkhand Teacher Eligibility Test"
+short_name = "JTET"
+jurisdiction = "jh"
+purpose = "eligibility"
+conducted_by = "jh-jac"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['\bJTET\b', 'teacher\s*eligibility'] }
+status = "active"
+
+[[exams]]
+id = "jh-pece"
+name = "Jharkhand Polytechnic Entrance Competitive Examination"
+short_name = "PECE"
+jurisdiction = "jh"
+purpose = "admission"
+conducted_by = "jh-jceceb"
+frequency = "annual"
+qualification = "class_10"
+streams = ["engineering"]
+match = { any = ['\bPECE\b', "polytechnic"] }
+status = "active"
+
+[[exams]]
+id = "jh-bed-cet"
+name = "Jharkhand B.Ed. / M.Ed. Combined Entrance"
+jurisdiction = "jh"
+purpose = "admission"
+conducted_by = "jh-jceceb"
+frequency = "annual"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['B\.?\s*Ed', 'M\.?\s*Ed'] }
+status = "active"
+
+[[exams]]
+id = "jh-paramedical-nursing"
+name = "Jharkhand B.Sc. Nursing / Paramedical / Agriculture Entrance"
+jurisdiction = "jh"
+purpose = "admission"
+conducted_by = "jh-jceceb"
+frequency = "annual"
+qualification = "class_12"
+streams = ["nursing", "allied_health", "agriculture"]
+match = { any = ["nursing", "paramedical", "agriculture|veterinary|horticulture"] }
+status = "active"
+
+[[exams]]
+id = "jh-pgmat-counselling"
+name = "Jharkhand UG/PG Medical Counselling"
+jurisdiction = "jh"
+purpose = "admission"
+conducted_by = "jh-jceceb"
+frequency = "annual"
+qualification = "class_12"
+streams = ["medical"]
+match = { any = ["counsell?ing", "UGMAC|PGMAC|MBBS"] }
+status = "active"
+
+[[exams]]
+id = "jh-hc-staff"
+name = "Jharkhand HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "jh"
+purpose = "recruitment"
+conducted_by = "jh-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "jh-jceceb-anm-entrance-competitive"
+name = "ANM Entrance Competitive Examination"
+jurisdiction = "jh"
+purpose = "admission"
+conducted_by = "jh-jceceb"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])ANM[\s\-_./()]*Entrance[\s\-_./()]*Competitive[\s\-_./()]*Examination(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "jh-jceceb-gnm-entrance-competitive"
+name = "GNM Entrance Competitive Examination"
+jurisdiction = "jh"
+purpose = "admission"
+conducted_by = "jh-jceceb"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])GNM[\s\-_./()]*Entrance[\s\-_./()]*Competitive[\s\-_./()]*Examination(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."

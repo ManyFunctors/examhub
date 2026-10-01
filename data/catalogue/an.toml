@@ -1,0 +1,50 @@
+# Catalogue: Andaman and Nicobar Islands. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "an-admin"
+name = "Andaman and Nicobar Administration"
+short_name = "A&N Administration"
+jurisdiction = "an"
+kind = "ministry_department"
+website = "https://andaman.gov.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "an-admin/home"
+body = "an-admin"
+url = "https://andaman.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "an-direct-recruitment"
+name = "A&N Administration Direct Recruitment (Group B/C, teachers)"
+jurisdiction = "an"
+purpose = "recruitment"
+conducted_by = "an-admin"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["general"]
+match = { any = ["recruitment", "vacanc", '\bTGT\b|\bPRT\b'] }
+status = "active"
+
+[[exams]]
+id = "an-police"
+name = "Andaman and Nicobar Police Constable Recruitment"
+jurisdiction = "an"
+purpose = "recruitment"
+conducted_by = "an-admin"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable"] }
+status = "active"

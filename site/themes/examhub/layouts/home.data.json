@@ -1,0 +1,18 @@
+{{- /* Everything the home page's script needs beyond the month it opened on: every dated
+     milestone, every record's card, and the search aliases. Fetched after first paint. */ -}}
+{{- $d := partialCached "exam-list.html" . -}}
+{{- $ev := partialCached "events.html" . -}}
+{{- $cards := slice -}}
+{{- /* Every record, in list order; a card's markup only when the page lacks it (the Dates to Be
+     Announced and Completed cards are on the page already). */ -}}
+{{- range $d.rows -}}
+  {{- $c := dict "u" .page.RelPermalink "t" .page.Title -}}
+  {{- if ne .st.nextDate "" }}{{ $c = merge $c (dict "h" (partial "exam-card.html" .page | string | strings.TrimSpace)) }}{{ end -}}
+  {{- $cards = $cards | append $c -}}
+{{- end -}}
+{{- $aliases := dict -}}
+{{- range $d.rows -}}
+  {{- $url := .page.RelPermalink -}}
+  {{- with (partialCached "v2/params.html" .page .page.RelPermalink).known_as }}{{ $aliases = merge $aliases (dict $url .) }}{{ end -}}
+{{- end -}}
+{{- dict "events" $ev.events "start" $ev.start "cards" $cards "aliases" $aliases | jsonify (dict "indent" "") -}}

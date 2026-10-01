@@ -1,0 +1,69 @@
+# Build site/ with Hugo and publish it to GitHub Pages.
+#
+# Runs on a push to main that touches the site, and once a day: pages mark
+# dates as past or upcoming at build time, so they go stale without a rebuild.
+# Nothing is kept on a branch; Pages serves the uploaded build.
+name: site
+
+on:
+  push:
+    branches: [main]
+    paths: ["site/**", ".github/workflows/site.yml"]
+  schedule:
+    - cron: "31 18 * * *"   # 00:01 IST, just after midnight
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# One deploy at a time; a newer one waits rather than cancelling a live deploy.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  HUGO_VERSION: "0.166.0"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Hugo
+        run: |
+          curl -sSLo hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i hugo.deb
+
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build
+        working-directory: site
+        env:
+          TZ: Asia/Kolkata
+        run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      # Every exam reachable without JavaScript, month links real, home under its size ceiling.
+      - name: Check the browse pages
+        working-directory: site
+        run: node tools/check-home.mjs public
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write      # publish to Pages
+      id-token: write   # prove the deploy came from this workflow
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

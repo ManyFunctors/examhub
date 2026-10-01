@@ -1,0 +1,102 @@
+/* Date-kind chip colours, used by the List view and the exam timeline.
+   Loaded after exam.css so its chip radius wins over .timeline__chip, as before. */
+/* ── Calendar colour system ──────────────────────────────────────── */
+
+/* ── Legend ──────────────────────────────────────────────────────── */
+
+/* One chip, drawn once. */
+.cal__event {
+  display: block;
+  line-height: 1.25;
+  text-decoration: none;
+  color: var(--text);
+}
+
+/* The chip. */
+.cal__event,
+.cal__list-day .cal__event-kind {
+  /* Padding and type for chips, shared by both elements a chip is drawn on. */
+  padding: 0.15rem var(--sp-2) 0.15rem calc(var(--sp-2) + 2px);
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  background: var(--cal-fill, transparent);
+  /* Longhands, not a shorthand. */
+  /* 1px border in the kind's hue, 3px on the leading edge. */
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--cal-edge, var(--border));
+  border-left-width: var(--edge-thick);
+  border-radius: var(--squircle);
+}
+
+.cal__event-title {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* The kind rules. */
+.cal__event--exam_date {
+  --cal-fill: var(--exam-fill);
+  --cal-edge: var(--exam-tone);
+}
+
+.cal__event--admit_card {
+  --cal-fill: var(--admit-fill);
+  --cal-edge: var(--admit-tone);
+}
+
+/* The city intimation slip wears the admit card's hue. */
+.cal__event--city_intimation {
+  --cal-fill: var(--admit-fill);
+  --cal-edge: var(--admit-tone);
+}
+
+/* The interview uses the exam's hue. */
+.cal__event--interview {
+  --cal-fill: var(--exam-fill);
+  --cal-edge: var(--exam-tone);
+}
+
+/* The correction window's two ends, one hue. */
+.cal__event--correction_open,
+.cal__event--correction_deadline {
+  --cal-fill: var(--correction-fill);
+  --cal-edge: var(--correction-tone);
+}
+
+/* Re-evaluation windows and the result, in the result's hue. */
+.cal__event--result,
+.cal__event--answer_key_open,
+.cal__event--answer_key_deadline,
+.cal__event--re_evaluation_open,
+.cal__event--re_evaluation_deadline {
+  --cal-fill: var(--result-fill);
+  --cal-edge: var(--result-tone);
+}
+
+/* The two ends of an application, one hue. */
+.cal__event--registration_open,
+.cal__event--registration_deadline {
+  --cal-fill: var(--registration-fill);
+  --cal-edge: var(--registration-tone);
+}
+
+/* Urgency. */
+.cal__event--urgent {
+  border-width: var(--edge-thick);
+  border-color: var(--urgent);
+}
+
+/* Provisional: the hue goes, the shape stays. */
+.cal__event--prov {
+  --cal-fill: var(--mantle);
+}
+
+/* The kind is written out, not only coloured. */
+.cal__event-kind {
+  display: block;
+  /* No font-size and no font-weight here either. */
+  color: var(--text);
+}

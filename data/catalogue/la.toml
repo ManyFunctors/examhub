@@ -1,0 +1,51 @@
+# Catalogue: Ladakh. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "la-admin"
+name = "Union Territory of Ladakh Administration"
+short_name = "Ladakh Administration"
+jurisdiction = "la"
+kind = "ministry_department"
+website = "https://ladakh.gov.in/"
+status = "active"
+notes = "No PSC of its own. Recruitment is advertised through the UT administration and its police."
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "la-admin/home"
+body = "la-admin"
+url = "https://ladakh.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "la-police"
+name = "Ladakh Police Constable / Sub-Inspector Recruitment"
+jurisdiction = "la"
+purpose = "recruitment"
+conducted_by = "la-admin"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", 'sub[-\s]*inspector', "police"] }
+status = "active"
+
+[[exams]]
+id = "la-direct-recruitment"
+name = "Ladakh UT Direct Recruitment (umbrella)"
+jurisdiction = "la"
+purpose = "recruitment"
+conducted_by = "la-admin"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["general"]
+match = { any = ["recruitment", "advertisement", "notification"] }
+status = "active"

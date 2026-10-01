@@ -1,0 +1,7 @@
+{{- /* A count, grouped for reading; a sentinel (unknown, not_announced) or
+       anything else that is not a number comes back in the reader's words. */ -}}
+{{- $s := printf "%v" . -}}
+{{- if findRE `^-?[0-9]+(\.[0-9]+)?$` $s -}}
+  {{- return lang.FormatNumber 0 . -}}
+{{- end -}}
+{{- return partial "v2/word.html" . -}}

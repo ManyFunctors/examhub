@@ -1,0 +1,26 @@
+# Discovery proposals that are not exams, so they never come back.
+#
+# `ignore` takes proposal ids exactly as they appear in the harvest's
+# exam-/match-/source-proposals.jsonl. `ignore_names` takes regular
+# expressions (case-insensitive) matched against a proposed series name:
+# use it for phrasing that is never an exam name, whichever body prints it.
+
+ignore = [
+  "exam:dl-du:ugcf",          # Undergraduate Curriculum Framework, not an exam
+  "exam:dl-du:pgcf",
+  "exam:od-bse:nd-single-subject",   # "2nd/1st single subject" supplementary sittings of the board exams
+  "exam:od-bse:st-single-subject",
+  "exam:od-bse:single-subject",
+  "exam:od-bse:st-half-yearly",
+  "exam:od-bse:tr-annual-hsc",
+  "exam:in-nta:ssc",
+  "exam:in-nta:olympiad",
+]
+
+ignore_names = [
+  # sentence fragments that happen to precede "Examination"
+  '^(?:round|entry|paper|basis|basis of the written|below mentioned|additional|compititive|competitive|engineering|apprentices)\b',
+  '^(?:publication of the|know your|partial correction of|according to|marked responses|form of|post of)\b',
+  '^stage[\s-]*[ivx]+\b',
+  '^(?:\d+(?:st|nd|rd|th)|st|nd|rd|th|tr)\b',
+]

@@ -1,0 +1,29 @@
+{{- /* A date window in the site's format: "2026. */ -}}
+{{- $w := . -}}
+{{- /* A window may know only one end; a missing end is a word, so use only real dates. */ -}}
+{{- $fd := and (reflect.IsMap $w) (isset $w "from") (findRE `^\d{4}-\d{2}-\d{2}` (printf "%v" $w.from)) -}}
+{{- $td := and (reflect.IsMap $w) (isset $w "to") (findRE `^\d{4}-\d{2}-\d{2}` (printf "%v" $w.to)) -}}
+{{- if and $fd (not $td) -}}{{- $w = merge $w (dict "to" $w.from) -}}{{- end -}}
+{{- if and $td (not $fd) -}}{{- $w = merge $w (dict "from" $w.to) -}}{{- end -}}
+{{- $out := "" -}}
+{{- if or $fd $td -}}
+  {{- $f := time.AsTime $w.from -}}
+  {{- $t := time.AsTime $w.to -}}
+  {{- $monthly := and (eq $f.Day 1) (eq $f.Month $t.Month) (eq ($t.AddDate 0 0 1).Day 1) (ne $f $t) -}}
+  {{- if $monthly -}}
+    {{- $out = $f.Format "2006, January" -}}
+  {{- else if eq $f $t -}}
+    {{- $out = $f.Format "2006, January 02" -}}
+  {{- else if eq $f.Year $t.Year -}}
+    {{- if eq $f.Month $t.Month -}}
+      {{- $out = printf "%s – %s" ($f.Format "2006, January 02") ($t.Format "02") -}}
+    {{- else -}}
+      {{- $out = printf "%s – %s" ($f.Format "2006, January 02") ($t.Format "January 02") -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $out = printf "%s – %s" ($f.Format "2006, January 02") ($t.Format "2006, January 02") -}}
+  {{- end -}}
+{{- else if reflect.IsMap $w -}}
+  {{- $out = index (dict "none" "None" "not_announced" "To Be Announced" "unknown" "Not Stated" "postponed" "Postponed" "cancelled" "Cancelled") (printf "%v" $w.from) | default (index (dict "none" "None" "not_announced" "To Be Announced" "unknown" "Not Stated" "postponed" "Postponed" "cancelled" "Cancelled") $w.status) | default "Not Stated" -}}
+{{- end -}}
+{{- return $out -}}

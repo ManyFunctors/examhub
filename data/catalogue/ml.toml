@@ -1,0 +1,278 @@
+# Catalogue: Meghalaya. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "ml-mpsc"
+name = "Meghalaya Public Service Commission"
+short_name = "MPSC (Meghalaya)"
+jurisdiction = "ml"
+kind = "public_service_commission"
+website = "https://mpsc.meghalaya.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "ml-mbose"
+name = "Meghalaya Board of School Education"
+short_name = "MBOSE"
+jurisdiction = "ml"
+kind = "school_board"
+website = "https://mbose.in/"
+status = "active"
+
+[[bodies]]
+id = "ml-police"
+name = "Meghalaya Police"
+short_name = "Meghalaya Police"
+jurisdiction = "ml"
+kind = "police_recruitment_board"
+website = "https://megpolice.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "ml-health"
+name = "Health and Family Welfare Department, Meghalaya (MMSRB)"
+short_name = "Meghalaya Health"
+jurisdiction = "ml"
+kind = "health_recruitment"
+website = "https://meghealth.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "ml-hc"
+name = "High Court of Meghalaya"
+short_name = "Meghalaya HC"
+jurisdiction = "ml"
+kind = "court"
+website = "https://meghalayahighcourt.nic.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "ml-mpsc/notifications"
+body = "ml-mpsc"
+url = "https://mpsc.meghalaya.gov.in/notifications-st.html"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ml-mpsc/home"
+body = "ml-mpsc"
+url = "https://mpsc.meghalaya.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ml-mbose/home"
+body = "ml-mbose"
+url = "https://mbose.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "ml-police/home"
+body = "ml-police"
+url = "https://megpolice.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ml-health/home"
+body = "ml-health"
+url = "https://meghealth.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ml-hc/recruitment"
+body = "ml-hc"
+url = "https://meghalayahighcourt.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "ml-hc/results"
+body = "ml-hc"
+url = "https://meghalayahighcourt.nic.in/results"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Results)."
+
+[[feeds]]
+id = "ml-hc/recruitment-notification"
+body = "ml-hc"
+url = "https://meghalayahighcourt.nic.in/recruitment"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Recruitment Notification)."
+
+[[feeds]]
+id = "ml-health/notifications"
+body = "ml-health"
+url = "https://meghealth.gov.in/notification.html"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Notifications)."
+
+[[feeds]]
+id = "ml-mpsc/advertisements"
+body = "ml-mpsc"
+url = "https://mpsc.meghalaya.gov.in/advertisements.html"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Advertisements)."
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "ml-mcs"
+name = "Meghalaya Civil Services Examination"
+known_as = ["MCS"]
+jurisdiction = "ml"
+purpose = "recruitment"
+conducted_by = "ml-mpsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['civil\s*services?', '\bMCS\b'] }
+status = "active"
+
+[[exams]]
+id = "ml-mpsc-ae"
+name = "MPSC (Meghalaya) Assistant Engineer / Engineering Services Examination"
+jurisdiction = "ml"
+purpose = "recruitment"
+conducted_by = "ml-mpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "ml-mpsc-lecturer"
+name = "MPSC (Meghalaya) Lecturer / Assistant Professor Recruitment"
+jurisdiction = "ml"
+purpose = "recruitment"
+conducted_by = "ml-mpsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "ml-mpsc-other"
+name = "MPSC (Meghalaya) Recruitment to other posts (umbrella)"
+jurisdiction = "ml"
+purpose = "recruitment"
+conducted_by = "ml-mpsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "ml-mbose-class-10"
+name = "MBOSE SSLC Examination"
+jurisdiction = "ml"
+purpose = "school_board"
+conducted_by = "ml-mbose"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['\bSSLC\b', 'class\s*(X|10)\b'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "ml-mbose-class-12"
+name = "MBOSE HSSLC Examination"
+jurisdiction = "ml"
+purpose = "school_board"
+conducted_by = "ml-mbose"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['\bHSSLC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "ml-mtet"
+name = "Meghalaya Teacher Eligibility Test"
+short_name = "MTET"
+jurisdiction = "ml"
+purpose = "eligibility"
+conducted_by = "ml-mbose"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['\bMTET\b', '\bTET\b'] }
+status = "active"
+
+[[exams]]
+id = "ml-police-constable"
+name = "Meghalaya Police Police Constable Recruitment"
+jurisdiction = "ml"
+purpose = "recruitment"
+conducted_by = "ml-police"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", "sipahi|sepoy", '\bPC\b'] }
+status = "active"
+
+[[exams]]
+id = "ml-police-si"
+name = "Meghalaya Police Sub-Inspector Recruitment"
+jurisdiction = "ml"
+purpose = "recruitment"
+conducted_by = "ml-police"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
+status = "active"
+
+[[exams]]
+id = "ml-health-recruitment"
+name = "Meghalaya Health Recruitment (Staff Nurse, ANM, Medical Officer)"
+jurisdiction = "ml"
+purpose = "recruitment"
+conducted_by = "ml-health"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["nursing", "medical"]
+match = { any = ['staff\s*nurse', '\bANM\b', 'medical\s*officer', "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "ml-hc-staff"
+name = "Meghalaya HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "ml"
+purpose = "recruitment"
+conducted_by = "ml-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"

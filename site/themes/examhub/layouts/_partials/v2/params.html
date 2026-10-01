@@ -1,0 +1,82 @@
+{{- /* v2 adapter: new-schema front matter plus the flat keys the list partials read. */ -}}
+{{- $p := .Params -}}
+{{- $out := dict -}}
+{{- with $p.dates -}}
+  {{- $st := dict "confirmed" "confirmed" "tentative" "provisional" -}}
+  {{- $win := dict -}}
+  {{- /* one window -> the *_open / *_deadline pair */ -}}
+  {{- with .application -}}{{- if isset . "from" -}}
+    {{- $s := index $st .status | default "confirmed" -}}
+    {{- $out = merge $out (dict "registration_open" .from "registration_open_status" $s "registration_deadline" .to "registration_deadline_status" $s) -}}
+  {{- end -}}{{- end -}}
+  {{- with .correction -}}{{- if isset . "from" -}}
+    {{- $s := index $st .status | default "confirmed" -}}
+    {{- $out = merge $out (dict "correction_open" .from "correction_open_status" $s "correction_deadline" .to "correction_deadline_status" $s) -}}
+  {{- end -}}{{- end -}}
+
+  {{- /* The list shows one exam, one admit card and one result: the next
+         stage that has not finished, else the last dated one. */ -}}
+  {{- $stages := sort (.stages | default slice) "stage_number" -}}
+  {{- $dated := slice -}}
+  {{- range $stages -}}{{- if isset .exam "from" -}}
+    {{- if and (findRE `^\d{4}-\d{2}-\d{2}` (printf "%v" .exam.from)) (findRE `^\d{4}-\d{2}-\d{2}` (printf "%v" .exam.to)) -}}
+      {{- $dated = $dated | append . -}}
+    {{- end -}}
+  {{- end -}}{{- end -}}
+  {{- $pick := "" -}}
+  {{- range $dated -}}
+    {{- if and (not $pick) (ge (time.AsTime .exam.to) (now.AddDate 0 0 -1)) -}}{{- $pick = . -}}{{- end -}}
+  {{- end -}}
+  {{- if and (not $pick) $dated -}}{{- $pick = index $dated (sub (len $dated) 1) -}}{{- end -}}
+  {{- with $pick -}}
+    {{- $out = merge $out (dict "exam_date" .exam.from "exam_date_status" (index $st .exam.status | default "confirmed")) -}}
+    {{- if isset .admit_card "from" -}}
+      {{- $out = merge $out (dict "admit_card_from" .admit_card.from "admit_card_from_status" (index $st .admit_card.status | default "confirmed")) -}}
+    {{- end -}}
+    {{- if isset .answer_key "from" -}}
+      {{- $out = merge $out (dict "answer_key_open" .answer_key.from "answer_key_open_status" (index $st .answer_key.status | default "confirmed")) -}}
+    {{- end -}}
+    {{- if isset .result "from" -}}
+      {{- $out = merge $out (dict "result_date" .result.from "result_date_status" (index $st .result.status | default "confirmed")) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- range $stages -}}
+    {{- if and (eq .stage_format "interview") (isset .exam "from") -}}
+      {{- $out = merge $out (dict "interview_date" .exam.from "interview_date_status" (index $st .exam.status | default "confirmed")) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* names: bodies from the catalogue, categories from purpose */ -}}
+{{- with $p.bodies -}}
+  {{- if reflect.IsSlice . -}}{{- if reflect.IsMap (index . 0) -}}
+    {{- $names := slice -}}
+    {{- range . -}}
+      {{- if eq .body_role "conducts" -}}
+        {{- with index hugo.Data.bodies .body -}}{{- $names = $names | append .short_name -}}{{- else -}}{{- $names = $names | append .body -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $out = merge $out (dict "bodies" (uniq $names)) -}}
+  {{- end -}}{{- end -}}
+{{- end -}}
+{{- with $p.purpose -}}
+  {{- $cat := index (dict "recruitment" "Government" "departmental" "Government" "admission" "Academic" "eligibility" "Academic" "school_board" "Academic" "scholarship" "Academic" "certification" "Academic") . | default "Government" -}}
+  {{- $out = merge $out (dict "categories" (slice $cat)) -}}
+{{- end -}}
+{{- with $p.title_aliases -}}{{- if reflect.IsSlice . -}}{{- $out = merge $out (dict "known_as" .) -}}{{- end -}}{{- end -}}
+{{- with $p.links -}}
+  {{- with .link_official_page -}}{{- if hasPrefix . "http" -}}{{- $out = merge $out (dict "official_url" .) -}}{{- end -}}{{- end -}}
+  {{- with .link_apply -}}{{- if hasPrefix . "http" -}}{{- $out = merge $out (dict "apply_url" .) -}}{{- end -}}{{- end -}}
+{{- end -}}
+{{- with $p.provenance -}}{{- with .provenance_last_checked -}}
+  {{- $out = merge $out (dict "provenance" (dict "timestamp_last_checked" ((time.AsTime .).Format "2006-01-02T15:04:05Z07:00") "timestamp_retrieved" ((time.AsTime .).Format "2006-01-02T15:04:05Z07:00"))) -}}
+{{- end -}}{{- end -}}
+{{- /* The theme reads these as dates. */ -}}
+{{- $clean := dict -}}
+{{- range $k, $v := $out -}}
+  {{- $dateKey := in (slice "registration_open" "registration_deadline" "correction_open" "correction_deadline" "exam_date" "admit_card_from" "answer_key_open" "result_date" "interview_date") $k -}}
+  {{- if or (not $dateKey) (findRE `^\d{4}-\d{2}-\d{2}` (printf "%v" $v)) -}}
+    {{- $clean = merge $clean (dict $k $v) -}}
+  {{- end -}}
+{{- end -}}
+{{- return (merge $p $clean) -}}

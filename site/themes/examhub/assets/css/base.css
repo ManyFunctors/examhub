@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-h) + var(--sp-4));
+}
+
+/* `hidden` has to beat an author `display`, and it does not on its own. */
+[hidden] {
+  display: none !important;
+}
+
+/* Native widgets the page cannot draw for itself. */
+:root,
+html.light {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not(.light) {
+    color-scheme: dark;
+  }
+}
+
+  *,
+  *::before,
+  *::after {
+  }
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: var(--fs-base);
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--heading);
+  line-height: 1.25;
+  font-weight: 700;
+  margin: 0 0 var(--sp-3);
+}
+
+h1 {
+  font-size: var(--fs-3xl);
+  letter-spacing: -0.02em;
+}
+h2 {
+  font-size: var(--fs-2xl);
+  letter-spacing: -0.01em;
+}
+h3 {
+  font-size: var(--fs-xl);
+}
+
+p {
+  margin: 0 0 var(--sp-4);
+}
+
+a {
+  color: var(--accent-text);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus-visible {
+  text-decoration: underline;
+}
+
+/* No border-radius here. */
+:focus-visible {
+  outline: 2px solid var(--highlight);
+  outline-offset: 2px;
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--squircle-xs);
+  padding: 0.1em 0.35em;
+}
+
+/* Visually hidden but available to screen readers. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Skip link: first thing a keyboard user reaches. */
+/* Uses the text-safe accent as the surface: the muted fill tones are too light to carry light
+   text at 14px. */
+.skip-link {
+  position: absolute;
+  left: var(--sp-4);
+  top: -3rem;
+  z-index: 100;
+  padding: var(--sp-2) var(--sp-3);
+  background: var(--accent-text);
+  color: var(--base);
+  border-radius: var(--squircle-lg);
+  font-size: var(--fs-sm);
+  font-weight: 500;
+
+  /* Wide enough to cover the wordmark. */
+  min-width: 8.25rem;
+}
+
+@media (min-width: 768px) {
+  .skip-link {
+    min-width: 10.5rem;
+  }
+}
+
+.skip-link:focus {
+  top: calc(var(--header-h) + var(--sp-5));
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .skip-link {
+    left: calc(var(--sidebar-w) + var(--sp-6));
+  }
+
+  .skip-link:focus {
+    top: var(--sp-5);
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: var(--fs-2xl);
+  }
+  h2 {
+    font-size: var(--fs-xl);
+  }
+}

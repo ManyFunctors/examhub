@@ -1,0 +1,92 @@
+# Controlled vocabularies for the catalogue. See docs/data-model.md.
+#
+# Values are never repurposed. A value that turns out to be wrong moves to
+# `deprecated` and stays readable, so old harvests still load.
+
+schema_version = "1.0"
+
+jurisdiction_kind = ["union", "state", "union_territory"]
+
+body_kind = [
+  "public_service_commission",   # UPSC, state PSCs
+  "staff_selection_board",       # SSC, DSSSB, HSSC, RSSB, OSSSC, UPSSSC...
+  "testing_agency",              # NTA, state CET cells, KEA, CG Vyapam
+  "police_recruitment_board",    # TSLPRB, UPPRPB, CSBC...
+  "railway_recruitment_board",   # the 21 RRBs, RRCs
+  "banking_recruitment",         # IBPS
+  "bank",                        # SBI, RBI, NABARD, SIDBI, cooperative banks
+  "insurer",                     # LIC, NIACL, GIC...
+  "regulator",                   # SEBI, PFRDA, IRDAI, UGC, NMC, BCI
+  "psu",                         # NTPC, ONGC, Coal India...
+  "defence",                     # Army, Navy, IAF, Coast Guard, Territorial Army
+  "paramilitary",                # CAPFs when they recruit directly
+  "court",                       # Supreme Court, High Courts, district courts
+  "school_board",                # CBSE, CISCE, NIOS, state boards
+  "teacher_recruitment_board",   # TN TRB, state DSCs
+  "university",                  # central/state universities running entrances
+  "institute",                   # IITs, IIMs, AIIMS, NITs, NLUs
+  "professional_body",           # ICAI, ICSI, ICMAI, IIBF, NISM
+  "counselling_authority",       # JoSAA, MCC, state counselling committees
+  "health_recruitment",          # state health recruitment boards, NHM
+  "ministry_department",         # a ministry or department recruiting itself
+  "research_organisation",       # ISRO, DRDO, BARC, CSIR labs
+  "local_body",                  # municipal corporations, zilla parishads
+  "other",
+]
+
+body_status = ["active", "merged", "defunct"]
+
+exam_purpose = [
+  "recruitment",     # leads to a post
+  "admission",       # leads to a seat
+  "eligibility",     # confers eligibility only: TET, NET, SET, AIBE, FMGE
+  "certification",   # a professional qualification level: CA, CS, CMA, JAIIB
+  "school_board",    # school-leaving examinations
+  "scholarship",     # talent searches, olympiads, scholarship tests
+  "departmental",    # promotion / limited departmental competitive exams
+]
+
+exam_status = ["active", "discontinued", "merged"]
+
+frequency = ["annual", "biannual", "multiple", "irregular", "continuous"]
+
+qualification = [
+  "none", "class_5", "class_8", "class_10", "class_12", "diploma",
+  "graduate", "postgraduate", "professional",
+]
+
+stream = [
+  "civil_services", "banking", "insurance", "railways", "defence", "police",
+  "paramilitary", "judiciary", "teaching", "research", "engineering",
+  "medical", "nursing", "pharmacy", "allied_health", "dental", "ayush",
+  "veterinary", "agriculture", "law", "management", "design", "architecture",
+  "hotel_management", "commerce", "accounting", "science", "mathematics",
+  "humanities", "general", "clerical", "technical", "stenography",
+  "multi_tasking", "forest", "postal", "fisheries", "aviation", "maritime",
+  "sports", "languages", "school",
+]
+
+feed_adapter = ["html_links", "html_table", "json_api", "rss", "pdf_document"]
+feed_render = ["http", "browser"]
+feed_yields = ["notices", "exam_list", "calendar", "results", "admit_cards", "answer_keys"]
+feed_status = ["active", "broken", "blocked", "retired"]
+
+doc_type = [
+  "notification", "corrigendum", "admit_card", "answer_key", "result",
+  "calendar", "schedule", "press_release", "application_status", "counselling",
+  "walk_in", "syllabus", "other",
+]
+
+event_kind = [
+  "registration_open", "registration_close", "fee_deadline",
+  "correction_window", "admit_card", "exam", "answer_key", "result",
+  "interview", "document_verification", "counselling",
+]
+
+stage = ["primary", "secondary", "physical", "skill", "interview", "medical", "document_verification"]
+
+date_status = ["confirmed", "provisional"]
+granularity = ["day", "month", "quarter"]
+
+[deprecated]
+# value = "reason and replacement"

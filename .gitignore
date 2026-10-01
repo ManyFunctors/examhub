@@ -1,0 +1,44 @@
+# Caches and working data. Re-runs must be free, so the HTTP cache is large
+# and is never committed. It is keyed by URL + content hash.
+work/
+.cache/
+*.log
+
+# Model weights land in HF_HOME / ~/.cache/huggingface, never in the repo.
+models/
+*.onnx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.egg-info/
+dist/
+build/
+
+# OS / editor cruft
+.DS_Store
+*.swp
+.direnv/
+.idea/
+.vscode/
+
+# OCR intermediates
+*-ocrds.pdf
+*_ocr.pdf
+
+# pytest
+.pytest_cache/
+
+# Hugo build output (the deploy workflow builds its own).
+site/public/
+site/resources/
+.hugo_build.lock
+
+# Observations live on the `harvest` branch (see .github/actions/harvest-state),
+# not on the default branch; the catalogue in data/catalogue/ is what main holds.
+data/harvest/
+.harvest-state/

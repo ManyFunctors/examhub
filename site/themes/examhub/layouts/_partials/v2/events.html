@@ -1,0 +1,56 @@
+{{- /* Every event of the cycle, in order, as dict. */ -}}
+{{- $d := .Params.dates -}}
+{{- $ev := slice -}}
+{{- /* open/close pair: two one-day windows that keep the change note on the closing row */ -}}
+{{- $pairs := slice
+      (dict "w" $d.application "open" "Registration Opens" "close" "Registration Closes" "ko" "registration_open" "kc" "registration_deadline") -}}
+{{- if ne (jsonify $d.fee_payment) (jsonify $d.application) -}}
+  {{- $pairs = $pairs | append (dict "w" $d.fee_payment "open" "Fee Payment Opens" "close" "Fee Payment Closes" "ko" "registration_open" "kc" "registration_deadline") -}}
+{{- end -}}
+{{- if and (reflect.IsMap $d.late_fee) (isset $d.late_fee "from") -}}
+  {{- $pairs = $pairs | append (dict "w" $d.late_fee "open" "Late Fee Window Opens" "close" "Late Fee Window Closes" "ko" "registration_open" "kc" "registration_deadline") -}}
+{{- end -}}
+{{- $pairs = $pairs | append (dict "w" $d.correction "open" "Correction Opens" "close" "Correction Closes" "ko" "correction_open" "kc" "correction_deadline") -}}
+{{- range $pairs -}}
+  {{- $w := .w -}}
+  {{- if and (isset $w "from") (ne (printf "%v" $w.from) (printf "%v" $w.to)) -}}
+    {{- $ev = $ev | append (dict "group" 0 "kind" .ko "label" .open "w" (dict "from" $w.from "to" $w.from "status" $w.status "change" "none" "changed_from" "none")) -}}
+    {{- $ev = $ev | append (dict "group" 0 "kind" .kc "label" .close "w" (dict "from" $w.to "to" $w.to "status" $w.status "change" $w.change "changed_from" $w.changed_from)) -}}
+  {{- else if isset $w "from" -}}
+    {{- $ev = $ev | append (dict "group" 0 "kind" .kc "label" .close "w" $w) -}}
+  {{- else -}}
+    {{- $ev = $ev | append (dict "group" 0 "kind" .ko "label" .open "w" $w) -}}
+    {{- $ev = $ev | append (dict "group" 0 "kind" .kc "label" .close "w" $w) -}}
+  {{- end -}}
+{{- end -}}
+{{- range sort $d.stages "stage_number" -}}
+  {{- $n := .stage_number -}}
+  {{- $isExam := in (slice "written" "skill") .stage_format -}}
+  {{- $isInterview := eq .stage_format "interview" -}}
+  {{- $ev = $ev | append (dict "group" $n "kind" "city_intimation" "label" "City Intimation Slip" "w" .city_slip) -}}
+  {{- $ev = $ev | append (dict "group" $n "kind" "admit_card" "label" (cond $isExam "Admit Card" "Call Letter") "w" .admit_card) -}}
+  {{- $ev = $ev | append (dict "group" $n "kind" (cond $isInterview "interview" "exam_date") "label" (index (dict "written" "Exam" "physical" "Test" "skill" "Test" "interview" "Interview" "medical" "Medical Exam" "documents" "Document Verification") .stage_format | default "Held") "w" .exam) -}}
+  {{- if or $isExam (isset .answer_key "from") -}}
+  {{- $ev = $ev | append (dict "group" $n "kind" "answer_key_open" "label" "Answer Key" "w" .answer_key) -}}
+  {{- end -}}
+  {{- $ev = $ev | append (dict "group" $n "kind" "result" "label" (cond $isInterview "Final Result" "Result") "w" .result) -}}
+{{- end -}}
+{{- $out := slice -}}
+{{- range $ev -}}
+  {{- $st := .w.status | default "unknown" -}}
+  {{- /* city slips are only worth a row when the exam issues them */ -}}
+  {{- $skip := or (eq $st "none") (and (eq .kind "city_intimation") (ne $d.city_slip_separate "yes")) -}}
+  {{- if not $skip -}}
+    {{- $out = $out | append (merge . (dict "state" (partial "v2/state.html" .w) "status" $st "idx" (len $out))) -}}
+  {{- end -}}
+{{- end -}}
+{{- /* An undated step is overtaken once a later step has started: it reads "Not Announced". */ -}}
+{{- $final := slice -}}
+{{- range $i, $e := $out -}}
+  {{- $overtaken := false -}}
+  {{- if and (eq $e.status "not_announced") (not (isset $e.w "from")) -}}
+    {{- range after (add $i 1) $out -}}{{- if in (slice "done" "now") .state -}}{{- $overtaken = true -}}{{- end -}}{{- end -}}
+  {{- end -}}
+  {{- $final = $final | append (merge $e (dict "overtaken" $overtaken)) -}}
+{{- end -}}
+{{- return $final -}}

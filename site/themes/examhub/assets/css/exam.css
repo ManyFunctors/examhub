@@ -1,0 +1,439 @@
+
+/* Exam detail: two columns at wide widths. */
+
+.content--exam .content__inner {
+  max-width: none;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-6);
+}
+
+@media (min-width: 1100px) {
+  .split {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+    gap: var(--sp-8);
+    align-items: start;
+  }
+
+  
+
+  
+
+  
+
+  
+}
+
+.section + .section {
+  margin-top: var(--sp-8);
+}
+
+.section__title {
+  font-size: var(--fs-lg);
+  font-weight: 500;
+  color: var(--heading);
+  margin: 0 0 var(--sp-3);
+}
+
+/* Key-date timeline */
+
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+  /* No max-width, and there was one. */
+  /* Inert under a drag, and the notes are not — see .timeline__note below. */ 
+  user-select: none;
+
+  /* Chip geometry shared by the dot, rail, "next" pill and countdown. */
+  --chip-fs: var(--fs-xs);
+  --chip-lh: 1.25;
+  --line-h: calc(var(--chip-fs) * var(--chip-lh));
+  --chip-border: 1px;
+  --chip-h: calc(2 * var(--line-h) + 2 * var(--pill-pad-block) + 2 * var(--chip-border));
+  --box-mid: calc(var(--chip-h) / 2);
+  --dot: 0.9375rem;
+  --dot-top: calc(var(--box-mid) - var(--dot) / 2);
+
+  /* The left gutter, which is the "next" pill's column. */
+  --gutter-w: 7.5rem;
+  --rail-gap: var(--sp-2);
+  --gap-pill: var(--sp-4);
+  --gap-chip: var(--sp-4);
+  --gutter: calc(var(--gutter-w) + var(--gap-pill) + var(--dot) + var(--gap-chip));
+}
+
+.timeline__item {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  /* wrap, for the date and the note. */
+  flex-wrap: wrap;
+  column-gap: var(--sp-2);
+  row-gap: 0.15rem;
+  /* Left padding clears the gutter — the pill column and the rail's. */
+  padding: 0 0 var(--sp-4) var(--gutter);
+}
+
+/* The rail is one line behind the nodes and it stops at the last node. */
+.timeline__item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  /* The rail's x: clears the "next" gutter and centres on the dot. */
+  left: calc(var(--gutter-w) + var(--gap-pill) + (var(--dot) - 2px) / 2);
+  /* Clear of the circle above it and the circle below it, by --rail-gap on both sides. */
+  top: calc(var(--dot-top) + var(--dot) + var(--rail-gap));
+  height: calc(100% - var(--dot) - 2 * var(--rail-gap));
+  width: 2px;
+  background: var(--border);
+}
+
+/* The dot is hollow: no milestone in this list can be acted on from here. */
+
+.timeline__dot {
+  position: absolute;
+  left: calc(var(--gutter-w) + var(--gap-pill));
+  z-index: 1;
+  top: var(--dot-top);
+  width: var(--dot);
+  height: var(--dot);
+  border-radius: 50%;
+  background: var(--bg);
+  /* The row's own kind, which the per-kind rules below set as --timeline-hue. */
+  border: 2px solid var(--timeline-hue, var(--text-muted));
+}
+
+/* A milestone that has passed recedes: the same hollow ring one step back to the neutral
+   border. */
+.timeline__item--done .timeline__dot {
+  background: var(--bg);
+  border-color: var(--border);
+}
+
+/* The next milestone gets emphasis, and the one hue it may spend is the one that belongs to it. */
+.timeline__item--next .timeline__dot {
+  border-color: var(--timeline-hue, var(--text));
+  box-shadow: 0 0 0 3px var(--bg-alt);
+}
+
+/* A provisional date: published by the body but not fixed. */
+.timeline__item--provisional .timeline__dot {
+  border-style: dashed;
+}
+
+.timeline__item--provisional.timeline__item--next .timeline__dot {
+  border-color: var(--timeline-hue, var(--text));
+  box-shadow: 0 0 0 3px var(--bg-alt);
+}
+
+/* Each dot in its own kind's hue, like the chips. */
+.timeline__item--exam_date {
+  --timeline-hue: var(--exam);
+}
+
+.timeline__item--admit_card,
+.timeline__item--city_intimation {
+  --timeline-hue: var(--admit);
+}
+
+.timeline__item--registration_open,
+.timeline__item--registration_deadline {
+  --timeline-hue: var(--registration);
+}
+
+.timeline__item--correction_open,
+.timeline__item--correction_deadline {
+  --timeline-hue: var(--correction);
+}
+
+.timeline__item--answer_key_open,
+.timeline__item--answer_key_deadline,
+.timeline__item--re_evaluation_open,
+.timeline__item--re_evaluation_deadline,
+.timeline__item--result {
+  --timeline-hue: var(--result);
+}
+
+/* The chip's own box, and the countdown beside it. */
+.timeline__lead {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+/* The two-line chip: the exam card's status pill, on the timeline. */
+.timeline__chip {
+  display: block;
+  white-space: normal;
+  text-align: left;
+  border-radius: var(--squircle-lg);
+  min-height: calc(2lh + 2 * var(--pill-pad-block) + 2px);
+}
+
+/* "next", in the gutter to the left of the rail. */
+.timeline__next {
+  position: absolute;
+  /* The marker's number, and the only thing in the gutter now. */
+  left: auto;
+  right: calc(100% - var(--gutter-w));
+  width: max-content;
+  top: var(--box-mid);
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  border-left-width: var(--edge-thick);
+  padding: 0.15rem var(--sp-2) 0.15rem calc(var(--sp-2) - 2px);
+}
+
+/* The "next" pill turns urgent when its milestone is inside a week. */
+.timeline__item--urgent .timeline__next {
+  border-color: var(--urgent);
+}
+
+/* ── Narrow: the marker stops reserving a gutter ──────────────────── */
+@media (max-width: 639px) {
+  .timeline {
+    --gutter-w: 0px;
+  }
+
+  .timeline__next {
+    position: static;
+    transform: none;
+  }
+
+  /* Wrapper so the item starts a new line and stays as wide as its text. */
+  .timeline__marker {
+    flex: 0 0 100%;
+    /* The row's row-gap is 0.15rem because the second line is a continuation of the same fact. */
+    margin-block-start: var(--sp-1);
+  }
+}
+
+/* The chip's 3px band moves from the leading edge to the trailing one, for this list only. */
+.timeline .cal__event {
+  border-left-width: 1px;
+  border-right-width: var(--edge-thick);
+}
+
+/* A flex row: the date and its countdown. */
+/* The date's line inside the chip, and what a row that has not happened yet does to it. */
+.timeline__chipdate {
+  display: block;
+  white-space: normal;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* The date value, and the "Provisional:" flag beside it. */
+.date__value {
+  white-space: nowrap;
+}
+
+.timeline__item--pending .timeline__chipdate {
+  color: var(--text);
+  font-weight: 500;
+}
+
+/* Rows that are done or empty recede. */
+.timeline__item--done .cal__event,
+.timeline__item--empty .cal__event {
+  --cal-fill: var(--bg-alt);
+  color: var(--text-muted);
+  border-color: var(--border);
+  border-right-color: var(--cal-edge, var(--border));
+}
+
+.timeline__note {
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  margin: var(--sp-1) 0 0;
+  /* Notes sit under the chip, not under the rail. */
+  padding-left: 0;
+  flex: 1 1 100%;
+}
+
+/* Inline date treatment. */
+.date--provisional {
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--squircle);
+  padding: 0 var(--sp-1);
+  font-variant-numeric: tabular-nums;
+}
+
+/* A provisional date, in the hue of what it is for. */
+.date--prov-exam_date {
+  border-color: var(--exam);
+}
+
+.date--prov-registration_open,
+.date--prov-registration_deadline {
+  border-color: var(--registration);
+}
+
+.date--prov-admit_card {
+  border-color: var(--admit);
+}
+
+/* A provisional exam centre reads like any provisional date. */
+.date--prov-city_intimation {
+  border-color: var(--admit);
+}
+
+.date--prov-result {
+  border-color: var(--result);
+}
+
+/* ── Inside the timeline chip, the provisional date is NOT a box ───── */
+.timeline .date--provisional {
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+/* ── The empty value ──────────────────────────────────────────────── */ 
+.timeline__tba {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+/* markdownify is not involved here any more. */
+.timeline__note {
+  user-select: text;
+}
+
+/* ── A stage with no date ─────────────────────────────────────────── */
+.timeline__item--empty .timeline__dot {
+  background: var(--bg);
+  border-color: var(--border);
+  border-style: dashed;
+}
+
+/* Details grid */
+
+.detail {
+  padding: var(--sp-3);
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+/* ── The Key Dates section, which is also the disclosure ──────────── */
+.keydates {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--squircle-lg);
+  box-shadow: var(--shadow);
+  padding: var(--sp-4);
+  color: var(--text);
+}
+
+/* The summary is the section heading. */
+.keydates__summary {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  margin: 0 0 var(--sp-3);
+  cursor: pointer;
+
+  /* No marker. */
+  list-style: none;
+}
+
+.keydates__summary::-webkit-details-marker {
+  display: none;
+}
+
+/* The heading inside it, and the only thing that changed. */
+.keydates__summary .section__title {
+  margin: 0;
+}
+
+/* A drawn chevron, not the native marker. */
+.keydates__summary::before {
+  content: "";
+  flex: 0 0 auto;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-right: 1.5px solid var(--text-muted);
+  border-bottom: 1.5px solid var(--text-muted);
+  transform: rotate(-45deg);
+  transition: transform 120ms ease;
+}
+
+.keydates[open] > .keydates__summary::before {
+  transform: rotate(45deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .keydates__summary::before {
+    transition: none;
+  }
+}
+
+/* Gap under the heading only when the schedule is shown. */
+.keydates:not([open]) > .keydates__summary {
+  margin-bottom: 0;
+}
+
+/* The site's standard focus ring. */
+.keydates__summary:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: var(--squircle-xs);
+}
+
+/* The admit card's five states, one blue. */
+/* All five are one kind — admit_card — and one treatment. */
+.pill--admit-released,
+.pill--admit-announced,
+.pill--admit-delayed,
+.pill--admit-withdrawn,
+.pill--admit-not-announced {
+  --pill-fill: var(--admit-fill);
+  --pill-edge: var(--admit);
+}
+
+/* ── Pay ──────────────────────────────────────────────────────────── */
+
+/* ── Fee matrix ─────────────────────────────────────────────────── */
+.fee {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--fs-sm);
+}
+
+.fee th,
+.fee td {
+  text-align: left;
+  padding: var(--sp-2) var(--sp-3) var(--sp-2) 0;
+  border-bottom: 1px solid var(--border);
+  vertical-align: baseline;
+}
+
+.fee thead th {
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  font-weight: 500;
+  border-bottom-width: 2px;
+}
+
+.fee tbody th {
+  font-weight: 500;
+  color: var(--heading);
+}
+
+.fee td {
+  font-variant-numeric: tabular-nums;
+}
+

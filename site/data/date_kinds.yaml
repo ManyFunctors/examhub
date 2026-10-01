@@ -1,0 +1,67 @@
+# Kinds of dated milestone, in the order they happen (and the key draws them).
+# The one vocabulary: the Dates key, the Kind filter and site.js all read it.
+#   key          value stamped on each milestone, and the chip's class
+#   label        Title Case word on a date row ("Registration Opens")
+#   group        kinds that are two ends of one window share a key swatch
+#   group_label  the swatch's word, required on a group's first entry
+
+# ── The application period ────────────────────────────────────────────
+- key: registration_open
+  label: Registration Opens
+  group: registration
+  group_label: Registration Open / Close
+
+- key: registration_deadline
+  label: Registration Closes
+  group: registration
+
+# ── The correction window, which is a second chance at the same form ──
+- key: correction_open
+  label: Correction Opens
+  group: correction
+  group_label: Correction Open / Close
+
+- key: correction_deadline
+  label: Correction Closes
+  group: correction
+
+# ── The centre, the hall ticket, and the exam ────────────────────────
+# City intimation comes before the admit card (NBEMS, RRB notices).
+# Absent when the centre arrives with the admit card instead.
+- key: city_intimation
+  label: City Intimation Slip
+
+# The pre-exam hall ticket: one date, the day it is published.
+- key: admit_card
+  label: Admit Card
+
+- key: exam_date
+  label: Exam
+
+# ── Contesting the evaluation ────────────────────────────────────────
+# Answer-key challenge comes before the result; re-evaluation comes after it.
+# The provisional key has no kind of its own: it goes live when the challenge opens.
+- key: answer_key_open
+  label: Answer Key Challenge Opens
+  group: answer_key
+  group_label: Answer Key Challenge
+
+- key: answer_key_deadline
+  label: Answer Key Challenge Closes
+  group: answer_key
+
+- key: result
+  label: Result
+
+- key: re_evaluation_open
+  label: Re-evaluation Opens
+  group: re_evaluation
+  group_label: Re-evaluation Window
+
+- key: re_evaluation_deadline
+  label: Re-evaluation Closes
+  group: re_evaluation
+
+# The interview, last.
+- key: interview
+  label: Interview

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="ExamHub">
+  <!-- A rounded tile with a check drawn into it: the tick's long arm descends
+       out of the mark's upper bar and turns through the lower right, which is
+       what the site owner supplied and what this file keeps.
+
+       Two changes were made to it, and both are corrections rather than
+       redesigns.
+
+       1. The mark was off-centre. Its outline spans x 165..365 and y
+          130..405, so its centre sat at (265, 267.5) on a 512 canvas whose
+          centre is (256, 256) — about 9 units right and 11.5 down, which
+          reads as extra space along the bottom and right edges of the tile.
+          Every coordinate has been translated by (-11.65, -11.5) and the
+          tight bounding box of the result measures x 153.35..358.66 and
+          y 118.5..393.5, a centre of (256.00, 256.00) — within 0.01 units
+          of dead centre in both axes. The mark is 205.31 x 275.00 where it
+          was 200.00 x 275.00: the check below reaches a little further out,
+          which is where the 5 units went.
+
+       2. The tip was redrawn as one continuous turn. The supplied geometry
+          ran "L 360 340 Q 370 350 360 360 L 345 375 Q 335 385 325 375" —
+          a round cap, a straight jog, and a small concave notch rejoining
+          the lower edge. It is worth being precise about what that is,
+          because it is not a corner: measured, the tangents either side of
+          every one of those joins agree to 0.00 degrees, so nothing creased
+          and there was no mitre to soften. What it had was proportion. The
+          cap works out to a 12.5-unit radius sitting on a stroke 49.5 units
+          wide, so the cap is half the arm's half-width: a small lobe stuck
+          onto a thick stroke, with a notch where the lobe met it. That
+          silhouette reads as folded rather than drawn, and it is the shape,
+          not the smoothness, that had to change.
+
+          The replacement is a single cubic whose first control point lies
+          along the arm's outgoing tangent and whose second lies back along
+          the lower edge's incoming tangent, so it is tangent-continuous at
+          both joins by construction — measured, the two breaks are 0.00 and
+          0.01 degrees. There is no lobe and no notch, because there is no
+          place for either to form. Its control reach is 46 units, chosen
+          against the other candidates rather than picked: 26 and 32 read as
+          blunt, and 56 and beyond sweep the tip down into the lower bar
+          until the glyph stops reading as a check at all.
+
+       The arm is also bowed, gently, over the span both of its edges share,
+       because the owner asked for the arm to read as drawn rather than dead
+       straight. Both edges are the same curve offset by exactly 49.5 units,
+       so the bow costs the stroke nothing. It costs one tangent break of
+       8.5 degrees where the bow leaves the straight run, which is the point
+       of a bow.
+
+       Stroke weight is the constraint that decided all of the above. At the
+       16px a tab actually asks for, 512 units is 32 device pixels, and the
+       arm is 49.06 units at its narrowest — 1.53px, against the supplied
+       49.5 units or 1.55px. So the arm is 1% lighter than it arrived and no
+       more. Both edges were measured directly against each other rather
+       than read off the construction, because the whole point is that they
+       are parallel, and a bowed pair is not automatically a constant-width
+       pair. The coordinates are on whole units where the geometry allows,
+       since the failure being avoided is a width that lands on a half-pixel
+       and rounds differently on each side.
+
+       Unlike the mark this file replaced, it is not built from currentColor
+       and knockouts. That was the right call when the mark was drawn in the
+       browser's own text colour so one file could be correct in a light tab
+       strip and a dark one; it does not apply to a mark that carries its
+       own two flat colours, which is what this one does. -->
+  <rect x="0" y="0" width="512" height="512" rx="110" ry="110" fill="#1e1e2e"/>
+  <path d="M 168.35 118.5 L 328.35 118.5 Q 343.35 118.5 343.35 133.5 L 343.35 148.5 Q 343.35 163.5 328.35 163.5 L 208.35 163.5 L 208.35 228.5 L 248.35 228.5 L 268.35 248.5 C 300.87 272.54 310.58 280.83 348.05 328.2 C 376.59 364.28 341.59 399.28 313.05 363.2 C 275.57 315.83 265.87 307.54 233.35 283.5 L 208.35 308.5 L 208.35 348.5 L 328.35 348.5 Q 343.35 348.5 343.35 363.5 L 343.35 378.5 Q 343.35 393.5 328.35 393.5 L 168.35 393.5 Q 153.35 393.5 153.35 378.5 L 153.35 133.5 Q 153.35 118.5 168.35 118.5 Z" fill="#cba6f7"/>
+</svg>

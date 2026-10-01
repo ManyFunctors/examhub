@@ -1,0 +1,38 @@
+# Catalogue: Lakshadweep. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "ld-admin"
+name = "Union Territory of Lakshadweep Administration"
+short_name = "Lakshadweep Administration"
+jurisdiction = "ld"
+kind = "ministry_department"
+website = "https://lakshadweep.gov.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "ld-admin/home"
+body = "ld-admin"
+url = "https://lakshadweep.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "ld-direct-recruitment"
+name = "Lakshadweep Administration Direct Recruitment"
+jurisdiction = "ld"
+purpose = "recruitment"
+conducted_by = "ld-admin"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["general"]
+match = { any = ["recruitment", "notification", "vacanc"] }
+status = "active"

@@ -1,0 +1,182 @@
+{{- /* The filter grid under the bar. */ -}}
+{{- $rows := .rows -}}
+
+{{- /* Distinct section values, e.g. Government / Academic. */ -}}
+{{- $cats := slice -}}
+{{- range $rows -}}
+  {{- range (partialCached "v2/params.html" .page .page.RelPermalink).categories -}}
+    {{- if not (in $cats .) }}{{ $cats = $cats | append . }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Status options. */ -}}
+{{- $statuses := slice
+      (dict "key" "open" "label" "Registration Open")
+      (dict "key" "soon" "label" "Closes Soon")
+      (dict "key" "upcoming" "label" "Upcoming")
+      (dict "key" "done" "label" "Completed") -}}
+{{- $counts := dict -}}
+{{- range $statuses -}}
+  {{- $counts = merge $counts (dict .key 0) -}}
+{{- end -}}
+{{- range $rows -}}
+  {{- $k := .st.key -}}
+  {{- if isset $counts $k -}}
+    {{- $counts = merge $counts (dict $k (add (index $counts $k) 1)) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* The panel is a disclosure, not a popover. */ -}}
+  <div class="filters__body">
+    <div class="filters__body-inner" id="filters-body">
+    <div class="filters__grid">
+
+    <div class="filters__field">
+      <label class="filters__label" for="filter-exams">Exam</label>
+      {{- /* One control, not two. */ -}}
+      <div class="filters__pick filters__pick--combo">
+        {{- /* A search field with no affordance says "type here"; a chevron says "pick one". */ -}}
+        <div class="filters__combo-wrap">
+          <svg class="filters__mark" viewBox="0 0 16 16" fill="none"
+               stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+               aria-hidden="true"><rect x="2" y="2" width="9" height="9" rx="2.6"/><path d="M10.24 10.24L14 14"/></svg>
+          <input class="filters__combo" type="text" id="filter-exams"
+                 role="combobox" aria-expanded="false" aria-autocomplete="list"
+                 aria-controls="filter-exams-list" autocomplete="off"
+                 placeholder="All Exams" />
+        </div>
+        <ul class="filters__listbox filters__listbox--long" id="filter-exams-list"
+            role="listbox" aria-label="Exam" hidden>
+          <li class="filters__listbox-count" role="presentation" hidden></li>
+          <li class="filters__option" id="filter-exams-list-o0" role="option"
+              data-value="" aria-selected="true">Any Exam</li>
+          {{- /* The exams themselves are added by the script, from index.json. */}}
+        </ul>
+      </div>
+    </div>
+
+    <div class="filters__field">
+      <label class="filters__label" for="filter-body">Body</label>
+      {{- /* One control, not two. */ -}}
+      <div class="filters__pick filters__pick--combo">
+        {{- /* A search field with no affordance says "type here"; a chevron says "pick one". */ -}}
+        <div class="filters__combo-wrap">
+          <svg class="filters__mark" viewBox="0 0 16 16" fill="none"
+               stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+               aria-hidden="true"><rect x="2" y="2" width="9" height="9" rx="2.6"/><path d="M10.24 10.24L14 14"/></svg>
+          <input class="filters__combo" type="text" id="filter-body"
+                 role="combobox" aria-expanded="false" aria-autocomplete="list"
+                 aria-controls="filter-body-list" autocomplete="off"
+                 placeholder="All Bodies" />
+        </div>
+        <ul class="filters__listbox filters__listbox--long" id="filter-body-list"
+            role="listbox" aria-label="Body" hidden>
+          <li class="filters__listbox-count" role="presentation" hidden></li>
+          <li class="filters__option" id="filter-body-list-o0" role="option"
+              data-value="" aria-selected="true">Any Body</li>
+          {{- /* The bodies are added by the script, from index.json. */}}
+        </ul>
+      </div>
+    </div>
+
+    <div class="filters__field">
+      <label class="filters__label" for="filter-cat" id="filter-cat-label">Type</label>
+      <div class="filters__pick">
+        <button class="filters__select" type="button" id="filter-cat" role="combobox"
+                aria-haspopup="listbox" aria-expanded="false"
+                aria-controls="filter-cat-list" value="">
+          <span class="filters__select-text">All Types</span>
+        </button>
+        <ul class="filters__listbox" id="filter-cat-list" role="listbox"
+            aria-labelledby="filter-cat-label" hidden>
+          <li class="filters__option" id="filter-cat-list-o0" role="option"
+              data-value="" aria-selected="true">All Types</li>
+          {{- range $i, $c := sort $cats }}
+            <li class="filters__option" id="filter-cat-list-o{{ add $i 1 }}" role="option"
+                data-value="{{ $c }}" aria-selected="false">{{ $c }}</li>
+          {{- end }}
+        </ul>
+      </div>
+    </div>
+
+    <div class="filters__field">
+      <label class="filters__label" for="filter-status" id="filter-status-label">Status</label>
+      <div class="filters__pick">
+        <button class="filters__select" type="button" id="filter-status" role="combobox"
+                aria-haspopup="listbox" aria-expanded="false"
+                aria-controls="filter-status-list" value="">
+          <span class="filters__select-text">Any Status</span>
+        </button>
+        <ul class="filters__listbox" id="filter-status-list" role="listbox"
+            aria-labelledby="filter-status-label" hidden>
+          <li class="filters__option" id="filter-status-list-o0" role="option"
+              data-value="" aria-selected="true">Any Status</li>
+          {{- range $i, $st := $statuses }}
+            {{- $n := index $counts $st.key }}
+            {{- if gt $n 0 }}
+              <li class="filters__option" id="filter-status-list-o{{ add $i 1 }}" role="option"
+                  data-value="{{ $st.key }}" aria-selected="false">{{ $st.label }} ({{ $n }})</li>
+            {{- end }}
+          {{- end }}
+        </ul>
+      </div>
+    </div>
+
+    {{- /* Kind filter. */}}
+    <div class="filters__field">
+      <label class="filters__label" for="filter-kind" id="filter-kind-label">Kind</label>
+      <div class="filters__pick">
+        <button class="filters__select" type="button" id="filter-kind" role="combobox"
+                aria-haspopup="listbox" aria-expanded="false"
+                aria-controls="filter-kind-list" value="">
+          <span class="filters__select-text">All Dates</span>
+        </button>
+        <ul class="filters__listbox" id="filter-kind-list" role="listbox"
+            aria-labelledby="filter-kind-label" hidden>
+          <li class="filters__option" id="filter-kind-list-o0" role="option"
+              data-value="" aria-selected="true">All Dates</li>
+          {{- range $i, $k := hugo.Data.date_kinds }}
+            <li class="filters__option" id="filter-kind-list-o{{ add $i 1 }}" role="option"
+                data-value="{{ $k.key }}" data-label="{{ $k.label }}"
+                aria-selected="false">{{ $k.label }}</li>
+          {{- end }}
+        </ul>
+      </div>
+    </div>
+
+    <div class="filters__field">
+      <label class="filters__label" for="filter-when" id="filter-when-label">Exam Date</label>
+      <div class="filters__pick">
+        <button class="filters__select" type="button" id="filter-when" role="combobox"
+                aria-haspopup="listbox" aria-expanded="false"
+                aria-controls="filter-when-list" value="">
+          <span class="filters__select-text">Any Date</span>
+        </button>
+        <ul class="filters__listbox" id="filter-when-list" role="listbox"
+            aria-labelledby="filter-when-label" hidden>
+          <li class="filters__option" id="filter-when-list-o0" role="option"
+              data-value="" aria-selected="true">Any Date</li>
+          <li class="filters__option" id="filter-when-list-o1" role="option"
+              data-value="30" aria-selected="false">Within 30 Days</li>
+          <li class="filters__option" id="filter-when-list-o2" role="option"
+              data-value="90" aria-selected="false">Within 90 Days</li>
+          <li class="filters__option" id="filter-when-list-o3" role="option"
+              data-value="180" aria-selected="false">Within 6 Months</li>
+          <li class="filters__option" id="filter-when-list-o4" role="option"
+              data-value="365" aria-selected="false">Within a Year</li>
+        </ul>
+      </div>
+    </div>
+
+    </div>
+
+  {{- /* The last line of the body, and it is a line rather than two. */ -}}
+    <div class="filters__foot">
+      <label class="filters__check" for="filter-confirmed">
+        <input type="checkbox" id="filter-confirmed" name="confirmed" />
+        <span>Confirmed Dates Only</span>
+      </label>
+      <button class="filters__reset" type="reset" id="filter-reset" hidden>Clear Filters</button>
+    </div>
+    </div>
+  </div>

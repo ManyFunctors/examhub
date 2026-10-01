@@ -1,0 +1,77 @@
+# On a pull request: run the tests, and check that any changed front matter
+# still parses against the schema.
+#
+# Read-only. This workflow cannot write anything, cannot comment on a
+# non-pipeline pull request, and cannot push anywhere. It exists
+# to catch a malformed record before a human spends a review cycle on it.
+name: pr
+
+on:
+  pull_request:
+    paths:
+      - "**"
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pr-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install the deterministic layer
+        # No `model` extra: the model tests are minutes long and this is a fast
+        # gate. The model path is exercised by the nightly run.
+        run: |
+          uv python install 3.12
+          uv venv --python 3.12
+          uv pip install -e '.[crawl,dev]'
+
+      - name: Run the tests
+        run: uv run pytest -q -m "not model"
+
+      - name: Lint the code
+        # Rules in pyproject.toml: unused / shadowed / undefined names, imports.
+        run: uvx ruff check src tests
+
+      - name: Lint the catalogue
+        # Ids, vocabularies, references, regexes. A bad catalogue edit fails
+        # here, before it can mislabel a single notice.
+        run: uv run python -m examhub_pipeline catalogue lint
+
+      - name: Lint changed exam records
+        run: uv run python -m examhub_pipeline lint --repo "$GITHUB_WORKSPACE/site"
+
+      - name: Check the diff is a diff
+        run: |
+          set +e
+          uv run python -m examhub_pipeline lint --repo "$GITHUB_WORKSPACE/site" \
+            --strict > lint.txt 2>&1
+          code=$?
+          {
+            echo "## exam record schema check"
+            echo
+            echo '```'
+            cat lint.txt
+            echo '```'
+            echo
+            if [ "$code" -eq 0 ]; then
+              echo "Every changed record parses and satisfies the schema."
+            else
+              echo "Exit $code. See above."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit 0

@@ -1,0 +1,359 @@
+# Catalogue: Madhya Pradesh. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "mp-mppsc"
+name = "Madhya Pradesh Public Service Commission"
+short_name = "MPPSC"
+jurisdiction = "mp"
+kind = "public_service_commission"
+website = "https://mppsc.mp.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "mp-esb"
+name = "Madhya Pradesh Employee Selection Board"
+short_name = "MPESB"
+jurisdiction = "mp"
+kind = "staff_selection_board"
+website = "https://esb.mp.gov.in/"
+hosts = ["esb.mp.gov.in", "esb.mponline.gov.in", "peb.mp.gov.in"]
+status = "active"
+notes = "Formerly Vyapam / Professional Examination Board (PEB). Incomplete certificate chain."
+
+[[bodies]]
+id = "mp-mpbse"
+name = "Board of Secondary Education, Madhya Pradesh"
+short_name = "MPBSE"
+jurisdiction = "mp"
+kind = "school_board"
+website = "https://mpbse.nic.in/"
+status = "active"
+
+[[bodies]]
+id = "mp-hc"
+name = "High Court of Madhya Pradesh"
+short_name = "MP High Court"
+jurisdiction = "mp"
+kind = "court"
+website = "https://mphc.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "mp-dte"
+name = "Directorate of Technical Education, Madhya Pradesh"
+short_name = "DTE MP"
+jurisdiction = "mp"
+kind = "testing_agency"
+website = "https://dte.mponline.gov.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "mp-mppsc/home"
+body = "mp-mppsc"
+url = "https://mppsc.mp.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "mp-esb/home"
+body = "mp-esb"
+url = "https://esb.mp.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "mp-mpbse/home"
+body = "mp-mpbse"
+url = "https://mpbse.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "mp-hc/recruitment"
+body = "mp-hc"
+url = "https://mphc.gov.in/recruitment"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "mp-dte/home"
+body = "mp-dte"
+url = "https://dte.mponline.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "mp-mppsc-sse"
+name = "MPPSC State Service Examination"
+known_as = ["MPPSC SSE", "MP PCS"]
+jurisdiction = "mp"
+purpose = "recruitment"
+conducted_by = "mp-mppsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['state\s*service\s*exam', '\bSSE\b', 'राज्य\s*सेवा'] }
+status = "active"
+
+[[exams]]
+id = "mp-mppsc-ae"
+name = "MPPSC Assistant Engineer / Engineering Services Examination"
+jurisdiction = "mp"
+purpose = "recruitment"
+conducted_by = "mp-mppsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "mp-mppsc-lecturer"
+name = "MPPSC Lecturer / Assistant Professor Recruitment"
+jurisdiction = "mp"
+purpose = "recruitment"
+conducted_by = "mp-mppsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "mp-mppsc-other"
+name = "MPPSC Recruitment to other posts (umbrella)"
+jurisdiction = "mp"
+purpose = "recruitment"
+conducted_by = "mp-mppsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "mp-mppsc-sfs"
+name = "MPPSC State Forest Service Examination"
+jurisdiction = "mp"
+purpose = "recruitment"
+conducted_by = "mp-mppsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["forest"]
+match = { any = ['state\s*forest\s*service', '\bSFS\b'] }
+status = "active"
+
+[[exams]]
+id = "mp-mppsc-set"
+name = "Madhya Pradesh State Eligibility Test"
+short_name = "MP SET"
+jurisdiction = "mp"
+purpose = "eligibility"
+conducted_by = "mp-mppsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ['\bSET\b', 'state\s*eligibility'] }
+status = "active"
+
+[[exams]]
+id = "mp-esb-police-constable"
+name = "MP Police Constable Recruitment Test"
+jurisdiction = "mp"
+purpose = "recruitment"
+conducted_by = "mp-esb"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["police"]
+match = { any = ['police\s*constable', "आरक्षक"] }
+status = "active"
+
+[[exams]]
+id = "mp-esb-si-subedar"
+name = "MP Police Sub-Inspector / Subedar"
+jurisdiction = "mp"
+purpose = "recruitment"
+conducted_by = "mp-esb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', "subedar"] }
+status = "active"
+
+[[exams]]
+id = "mp-esb-jail-prahari"
+name = "MP Jail Prahari"
+jurisdiction = "mp"
+purpose = "recruitment"
+conducted_by = "mp-esb"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ['jail\s*prahari'] }
+status = "active"
+
+[[exams]]
+id = "mp-esb-patwari-group4"
+name = "MP Group 4 / Patwari Combined Recruitment"
+jurisdiction = "mp"
+purpose = "recruitment"
+conducted_by = "mp-esb"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["clerical"]
+match = { any = ["patwari", 'group[-\s]*4', 'समूह\s*4'] }
+status = "active"
+
+[[exams]]
+id = "mp-esb-tet"
+name = "MP Teacher Eligibility Test (Varg 1/2/3)"
+short_name = "MP TET"
+jurisdiction = "mp"
+purpose = "eligibility"
+conducted_by = "mp-esb"
+frequency = "annual"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bTET\b', "varg", 'shikshak\s*patrata'] }
+status = "active"
+
+[[exams]]
+id = "mp-esb-teacher-selection"
+name = "MP Primary / Middle / Higher Secondary Teacher Selection Test"
+jurisdiction = "mp"
+purpose = "recruitment"
+conducted_by = "mp-esb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['teacher\s*selection', 'shikshak\s*chayan'] }
+status = "active"
+
+[[exams]]
+id = "mp-esb-pat"
+name = "MP Pre-Agriculture Test"
+short_name = "PAT"
+jurisdiction = "mp"
+purpose = "admission"
+conducted_by = "mp-esb"
+frequency = "annual"
+qualification = "class_12"
+streams = ["agriculture"]
+match = { any = ['\bPAT\b', 'pre[-\s]*agriculture'] }
+status = "active"
+
+[[exams]]
+id = "mp-esb-ppt"
+name = "MP Pre-Polytechnic Test"
+short_name = "PPT"
+jurisdiction = "mp"
+purpose = "admission"
+conducted_by = "mp-esb"
+frequency = "annual"
+qualification = "class_10"
+streams = ["engineering"]
+match = { any = ['\bPPT\b', 'pre[-\s]*polytechnic'] }
+status = "active"
+
+[[exams]]
+id = "mp-esb-pnst"
+name = "MP Pre-Nursing Selection Test"
+short_name = "PNST"
+jurisdiction = "mp"
+purpose = "admission"
+conducted_by = "mp-esb"
+frequency = "annual"
+qualification = "class_12"
+streams = ["nursing"]
+match = { any = ['\bPNST\b', 'pre[-\s]*nursing'] }
+status = "active"
+
+[[exams]]
+id = "mp-esb-other"
+name = "MPESB other recruitment (umbrella)"
+jurisdiction = "mp"
+purpose = "recruitment"
+conducted_by = "mp-esb"
+frequency = "multiple"
+qualification = "class_10"
+streams = ["general"]
+match = { any = ["recruitment|भर्ती|advt|vacanc"] }
+status = "active"
+
+[[exams]]
+id = "mp-mpbse-class-10"
+name = "MPBSE High School Examination"
+jurisdiction = "mp"
+purpose = "school_board"
+conducted_by = "mp-mpbse"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['high\s*school', 'class\s*(X|10)\b'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "mp-mpbse-class-12"
+name = "MPBSE Higher Secondary Examination"
+jurisdiction = "mp"
+purpose = "school_board"
+conducted_by = "mp-mpbse"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['higher\s*secondary', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "mp-hc-staff"
+name = "MP High Court Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "mp"
+purpose = "recruitment"
+conducted_by = "mp-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "mp-hc-judicial"
+name = "MP High Court Civil Judge / Higher Judicial Service Examination"
+jurisdiction = "mp"
+purpose = "recruitment"
+conducted_by = "mp-hc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', 'district\s*judge', '\bHJS\b'] }
+status = "active"
+
+[[exams]]
+id = "mp-dte-counselling"
+name = "MP DTE Engineering / Polytechnic / B.Ed. Online Counselling"
+jurisdiction = "mp"
+purpose = "admission"
+conducted_by = "mp-dte"
+frequency = "annual"
+qualification = "class_12"
+streams = ["engineering", "teaching"]
+match = { any = ["counsell?ing", "admission"] }
+status = "active"

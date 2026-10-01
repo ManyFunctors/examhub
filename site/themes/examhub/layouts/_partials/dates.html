@@ -1,0 +1,89 @@
+{{- /* The List view for one month: its days, then Dates to Be Announced and Completed.
+     The same markup site.js builds, so the script can take over without a visible change. */ -}}
+{{- $ev := .ev -}}{{- $m := .month -}}{{- $today := $ev.today -}}
+{{- $mt := time.AsTime (printf "%s-01" $m) -}}
+
+{{- /* This month and later hold upcoming dates; earlier ones fold into their own section. */ -}}
+{{- $all := slice -}}
+{{- range $ev.events }}{{ if eq (substr .d 0 7) $m }}{{ $all = $all | append . }}{{ end }}{{ end -}}
+{{- $items := $all -}}{{- $past := slice -}}
+{{- if ge $m (substr $today 0 7) -}}
+  {{- $past = where $all "d" "<" $today -}}
+  {{- $items = where $all "d" ">=" $today -}}
+{{- end -}}
+
+{{- /* Records with no dated milestone, and the Completed ones, as the grid lists them. */ -}}
+{{- $undated := slice -}}
+{{- $done := slice -}}
+{{- range .d.rows -}}
+  {{- if not (partialCached "milestones.html" .page .page.RelPermalink) }}{{ $undated = $undated | append .page }}{{ end -}}
+{{- end -}}
+{{- $doneRows := slice -}}
+{{- range .d.rows }}{{ if and (eq .st.nextDate "") (eq .st.key "done") }}{{ $doneRows = $doneRows | append . }}{{ end }}{{ end -}}
+{{- range sort $doneRows "st.nextDate" }}{{ $done = $done | append .page }}{{ end -}}
+
+{{- define "partials/dates-days.html" -}}
+  {{- $today := .today -}}
+  {{- $byDay := dict -}}
+  {{- range .items }}{{ $byDay = merge $byDay (dict .d ((index $byDay .d | default slice) | append .)) }}{{ end -}}
+  {{- range $key, $evs := $byDay -}}
+    {{- $t := time.AsTime $key -}}
+    {{- $full := $t.Format "2006, January 02" -}}
+    <li class="cal__list-day"{{ if eq $key $today }} aria-current="date"{{ end }}>
+      <p class="cal__list-date" title="{{ $full }}"><span class="cal__list-dnum">{{ $t.Format "02" }}</span><span class="cal__list-dwk">{{ $t.Format "Mon" }}</span><span class="sr-only">{{ $full }}</span></p>
+      <ul>
+      {{- /* A day's milestones in the order they happen; unknown kinds last. */}}
+      {{- $known := slice }}
+      {{- range hugo.Data.date_kinds }}{{ $k := .key }}{{ $known = $known | append $k }}{{ range where $evs "k" $k }}{{ template "partials/dates-chip.html" (dict "e" . "today" $today) }}{{ end }}{{ end }}
+      {{- range $evs }}{{ if not (in $known .k) }}{{ template "partials/dates-chip.html" (dict "e" . "today" $today) }}{{ end }}{{ end }}
+      </ul>
+    </li>
+  {{- end -}}
+{{- end -}}
+
+{{- define "partials/dates-chip.html" -}}
+  {{- $e := .e -}}
+  {{- $days := div (sub (time.AsTime $e.d).Unix (time.AsTime .today).Unix) 86400 -}}
+  <li><a class="cal__event cal__event--{{ $e.k }}{{ if $e.p }} cal__event--prov{{ end }}{{ if and (ge $days 0) (le $days 7) }} cal__event--urgent{{ end }}" href="{{ $e.u }}"><span class="cal__event-kind">{{ $e.l }}</span><span class="cal__event-title">{{ $e.t }}</span></a></li>
+{{- end -}}
+
+{{- define "partials/dates-section.html" -}}
+  <li class="cal__list-section"><details class="bymonth__group" data-section="{{ .key }}"{{ if eq .key "month" }} open{{ end }}><summary class="bymonth__summary"><h2 class="bymonth__title">{{ .title }}{{ with .count }}<span class="bymonth__count">({{ . }} {{ $.unit }}{{ if ne . 1 }}s{{ end }})</span>{{ end }}</h2></summary>
+  {{- .body -}}
+  </details></li>
+{{- end -}}
+
+{{- define "partials/dates-undated.html" -}}
+  {{- $title := .title -}}
+  {{- range .pages }}<li><a class="cal__undated-link cal__list-row" href="{{ .RelPermalink }}"><span class="pill pill--upcoming pill--done cal__list-chip">{{ $title }}</span><span class="cal__list-name">{{ .Title }}</span></a></li>{{ end -}}
+{{- end -}}
+
+<div class="dates" id="dates">
+  <section class="cal__list" aria-labelledby="cal-list-heading">
+    <h3 class="cal__list-heading" id="cal-list-heading">Everything in {{ $mt.Format "January 2006" }}{{ with len $items }} ({{ . }}){{ end }}</h3>
+    <ul class="cal__list-items" id="cal-list">
+      {{- with $past }}
+        {{- $rows := printf "<ul class=\"cal__list-rows\">%s</ul>" (partial "dates-days.html" (dict "items" . "today" $today)) | safeHTML }}
+        {{- partial "dates-section.html" (dict "key" "~0past" "title" (printf "Earlier in %s" ($mt.Format "January")) "count" (len .) "unit" "Date" "body" $rows) }}
+      {{- end }}
+      {{- $rows := "" }}
+      {{- if $items }}
+        {{- $rows = partial "dates-days.html" (dict "items" $items "today" $today) }}
+      {{- else }}
+        {{- $rows = cond (gt (len $past) 0) "No upcoming dates here; earlier ones are above." "Nothing is dated this month." | printf "<li class=\"cal__none\">%s</li>" }}
+      {{- end }}
+      {{- /* an empty month steps aside while anything else is listed */}}
+      {{- if or $items (not (or $past $undated $done)) }}
+      {{- partial "dates-section.html" (dict "key" "month" "title" ($mt.Format "January 2006") "count" (len $items) "unit" "Date" "body" (printf "<ul class=\"cal__list-rows\">%s</ul>" $rows | safeHTML)) }}
+      {{- end }}
+      {{- with $undated }}
+        {{- $rows := printf "<ul class=\"cal__list-rows cal__undated-list\"><li class=\"cal__list-day cal__list-day--tba\"><p class=\"cal__list-date cal__list-date--tba\" title=\"Date to be announced\"><span class=\"cal__list-dnum\" aria-hidden=\"true\">?</span><span class=\"sr-only\">Date to be announced</span></p><ul>%s</ul></li></ul>" (partial "dates-undated.html" (dict "title" "Dates to Be Announced" "pages" .)) | safeHTML }}
+        {{- partial "dates-section.html" (dict "key" "~1tba" "title" "Dates to Be Announced" "count" (len .) "unit" "Exam" "body" $rows) }}
+      {{- end }}
+      {{- with $done }}
+        {{- $rows := printf "<ul class=\"cal__list-rows cal__undated-list\">%s</ul>" (partial "dates-undated.html" (dict "title" "Completed" "pages" .)) | safeHTML }}
+        {{- partial "dates-section.html" (dict "key" "~2done" "title" "Completed" "count" (len .) "unit" "Exam" "body" $rows) }}
+      {{- end }}
+    </ul>
+  </section>
+</div>

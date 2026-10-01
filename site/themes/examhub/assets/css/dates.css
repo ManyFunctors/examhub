@@ -1,0 +1,55 @@
+
+/* ── The row: kind, rule, name ───────────────────────────────────────── */
+
+/* What in a day can be dragged across, and what cannot. */
+.dates .cal__list-day {
+  user-select: none;
+}
+
+.dates .cal__list-day .cal__event-title {
+  user-select: text;
+}
+
+/* browse.css puts the kind at --fs-xs and the row at --fs-sm. */
+.dates .cal__list-day .cal__event {
+  font-size: var(--fs-base);
+}
+
+.dates .cal__list-day .cal__event-kind {
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.dates .cal__list-day .cal__event-title {
+  /* `inline`, not flex, so the title wraps with the text around it. */
+  display: inline;
+  flex: 1 1 auto;
+  min-width: 0;
+  /* browse.css's base .cal__event-title is an ellipsis rule. */
+  overflow: visible;
+  text-overflow: clip;
+}
+
+/* The day heading above each group, at the same size as the kind label below it. */
+.dates .cal__list-date {
+  font-size: var(--fs-sm);
+}
+
+/* ── The key: one authoritative set of seven swatches ───────────────── */
+
+/* The label, on every swatch. */
+.cal__key .cal__event {
+  color: var(--text);
+  font-size: var(--fs-xs);
+  font-weight: 500;
+}
+
+/* The ring row. */
+.cal__key .cal__event--urgent {
+  border-width: var(--edge-thick);
+  border-color: var(--urgent);
+}
+
+/* ── Provisional, and why there is no rule for it here ──────────────── */
+
+/* ── The month nav ───────────────────────────────────────────────────── */

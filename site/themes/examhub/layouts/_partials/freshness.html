@@ -1,0 +1,21 @@
+{{- /* The verification stamp: when the site's data was last checked against a source. */ -}}
+{{- $newest := .newest -}}
+{{- $staleAfter := site.Params.staleAfterDays | default 14 -}}
+{{- $days := -1 -}}
+{{- with $newest -}}
+  {{- $days = int (math.Round (div (float (sub now.Unix (time.AsTime .).Unix)) 86400.0)) -}}
+{{- end -}}
+{{- $stale := and (ge $days $staleAfter) (ne $days -1) -}}
+<div class="stats__stamp">
+  {{- if $newest }}
+  <span class="freshness{{ if $stale }} is-stale{{ end }}" data-freshness>
+    <span class="freshness__label">Updated</span>
+    <time datetime="{{ $newest }}" data-last-checked="{{ $newest }}"
+          data-stale-after="{{ $staleAfter }}">{{ time.AsTime $newest | time.Format "2006, January 02, 15:04" }}</time>
+  </span>
+  {{- else }}
+  <span class="freshness freshness--empty" data-freshness>
+    <span class="freshness__label">Not yet checked</span>
+  </span>
+  {{- end }}
+</div>

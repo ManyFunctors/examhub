@@ -1,0 +1,191 @@
+/* ── Shapes: squircles, no circles ───────────────────────────────────── */
+.timeline__dot { border-radius: 3px !important; }
+
+/* ── Exam page ───────────────────────────────────────────────────────── */
+.v2-head { margin-bottom: var(--sp-5); }
+.v2-by { color: var(--text-muted); font-size: var(--fs-sm); margin: var(--sp-1) 0 var(--sp-4); }
+.v2-h3 { font-size: var(--fs-lg); margin: var(--sp-5) 0 var(--sp-2); }
+.v2-h4 { font-size: var(--fs-base); margin: var(--sp-3) 0 var(--sp-1); color: var(--subtext1); }
+.v2-lede { max-width: 60ch; }
+.v2-note { color: var(--subtext1); font-size: var(--fs-sm); max-width: 70ch; }
+.v2-sub { color: var(--text-muted); font-weight: 400; font-size: .9em; }
+.v2-na { color: var(--text-muted); }
+.v2-tag { display: inline-block; font-size: var(--fs-xs); font-weight: 500; padding: 0 6px; border-radius: var(--squircle); background: var(--surface1); color: var(--text); vertical-align: 1px; }
+.v2-tl__num { display: inline-grid; place-items: center; width: 1.8em; height: 1.8em; border-radius: var(--squircle); background: var(--surface1); font-weight: 700; font-size: var(--fs-sm); }
+
+/* facts at a glance */
+.v2-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: var(--sp-2); margin: 0; }
+.v2-facts > div { background: var(--surface0); border-radius: var(--squircle); padding: var(--sp-2) var(--sp-3); }
+.v2-facts dt { font-size: var(--fs-xs); text-transform: uppercase; letter-spacing: .05em; color: var(--text-muted); }
+.v2-facts dd { margin: 0; font-weight: 600; }
+.v2-facts dd > .v2-sub { display: block; font-weight: 400; }
+.v2-facts--glance { margin-bottom: var(--sp-3); }
+/* long words wrap instead of widening the page */
+dl, dt, dd { min-width: 0; overflow-wrap: anywhere; }
+
+/* tables scroll inside their own box on narrow screens */
+.v2-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.v2-table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch;
+  border-collapse: collapse; width: 100%; font-size: var(--fs-sm); margin: var(--sp-2) 0; }
+.v2-table th, .v2-table td { padding: 6px 10px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+.v2-table thead th { font-size: var(--fs-xs); text-transform: uppercase; letter-spacing: .04em; color: var(--text-muted); font-weight: 600; white-space: nowrap; }
+.v2-table tbody th { font-weight: 500; }
+.v2-table tfoot th, .v2-table tfoot td { font-weight: 700; border-bottom: 0; }
+.v2-table .v2-pwcol { color: var(--subtext1); }
+.v2-table--num td { text-align: right; font-variant-numeric: tabular-nums; }
+.v2-table--num td[colspan] { text-align: left; font-style: italic; }
+.v2-table--num tbody th { min-width: 11rem; }
+.v2-table--num tfoot td { text-align: right; }
+.v2-table--num td span.v2-na { white-space: nowrap; }
+.v2-table--pattern td { font-variant-numeric: tabular-nums; }
+.v2-table--fee td { text-align: right; font-weight: 700; font-size: var(--fs-base); }
+.v2-grouprow th, .v2-grouprow td { background: var(--surface0); font-weight: 600; }
+.v2-backlog th, .v2-backlog td { color: var(--subtext1); }
+.v2-thgroup th { text-align: center !important; border-bottom: 2px solid var(--border); font-size: var(--fs-xs); text-transform: uppercase; color: var(--text-muted); }
+.v2-thgroup td { border-bottom: 0; }
+
+/* eligibility */
+.v2-elig { margin: 0; }
+.v2-elig__row { display: grid; grid-template-columns: 11rem 1fr; gap: var(--sp-3); padding: var(--sp-2) 0; border-bottom: 1px solid var(--border); }
+.v2-elig__row dt { font-weight: 600; color: var(--subtext1); }
+.v2-elig__row dd { margin: 0; }
+.v2-elig__row dd p { margin: 0 0 var(--sp-1); }
+.v2-elig__row ul { margin: 0; padding-left: 1.2em; }
+.v2-silent { color: var(--text-muted); font-size: var(--fs-sm); margin-top: var(--sp-2); }
+.v2-more summary { cursor: pointer; color: var(--accent-text); font-size: var(--fs-sm); margin-top: var(--sp-1); }
+
+/* per-post blocks */
+.v2-byposts { display: grid; gap: var(--sp-2); }
+.v2-post { border: 1px solid var(--border); border-radius: var(--radius); padding: 0 var(--sp-3); background: var(--surface); }
+.v2-post > summary { cursor: pointer; font-weight: 600; padding: var(--sp-2) 0; }
+.v2-post > summary .v2-sub { font-weight: 400; }
+.v2-post[open] > summary { border-bottom: 1px solid var(--border); }
+.v2-post-name { font-weight: 600; margin: 0 0 var(--sp-1); }
+
+/* exam pattern */
+.v2-stage { border-top: 1px solid var(--border); padding-top: var(--sp-3); margin-top: var(--sp-4); }
+.v2-stage h3 { margin: 0 0 var(--sp-2); font-size: var(--fs-lg); display: flex; gap: var(--sp-2); align-items: center; }
+.v2-stage__role { margin: 0 0 var(--sp-2); }
+.v2-chips { list-style: none; padding: 0; margin: 0 0 var(--sp-2); display: flex; flex-wrap: wrap; gap: 6px; }
+.v2-chips li { background: var(--surface0); border-radius: var(--squircle); padding: 2px 10px; font-size: var(--fs-sm); }
+.v2-chips .v2-chip--who { background: color-mix(in srgb, var(--accent) 15%, var(--base)); font-weight: 600; }
+.v2-marking { font-size: var(--fs-sm); padding-left: 1.2em; }
+
+/* pay and fact lists */
+.v2-pay { background: var(--surface0); border-radius: var(--radius); padding: var(--sp-3) var(--sp-4); margin-bottom: var(--sp-3); }
+.v2-pay__head { margin: 0; font-size: var(--fs-sm); color: var(--text-muted); text-transform: uppercase; letter-spacing: .05em; }
+.v2-pay__amount { margin: 2px 0 var(--sp-2); font-size: var(--fs-xl); font-weight: 700; }
+.v2-pay-extra { background: var(--surface0); border-radius: var(--radius); padding: var(--sp-2) var(--sp-4); margin: calc(-1 * var(--sp-2)) 0 var(--sp-3); }
+.v2-facts-list { padding-left: 1.2em; margin: 0; }
+.v2-facts-list li { margin: 4px 0; }
+
+/* official documents */
+.v2-docs { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--sp-1); }
+.v2-doc { display: flex; justify-content: space-between; gap: var(--sp-3); padding: var(--sp-2) var(--sp-3); border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); }
+.v2-doc a { font-weight: 600; }
+.v2-doc--site, .v2-doc--apply { background: color-mix(in srgb, var(--accent) 8%, var(--base)); }
+.v2-checked { color: var(--text-muted); font-size: var(--fs-sm); margin-top: var(--sp-3); }
+
+@media (max-width: 640px) {
+  .v2-elig__row { grid-template-columns: 1fr; gap: 2px; }
+  .v2-doc { flex-direction: column; gap: 0; }
+}
+
+/* ── Key Dates box and the collapsed sections below it ───────────────── */
+.v2-keydates, details.v2-more {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--squircle-lg); box-shadow: var(--shadow); color: var(--text);
+}
+.v2-keydates { margin-top: var(--sp-4); padding: var(--sp-4); container-type: inline-size; }
+/* Official Documents sits right under Key Dates, as one group */
+.v2-keydates + #documents { margin-top: var(--sp-3); }
+.v2-keydates .timeline { margin-top: var(--sp-2); }
+.v2-keydates[open] > .keydates__summary { margin-bottom: var(--sp-3); }
+.v2-keydates[open] > .keydates__summary::before,
+details.v2-more[open] > .keydates__summary::before { transform: rotate(45deg); }
+.v2-keydates:not([open]) > .keydates__summary,
+details.v2-more:not([open]) > .keydates__summary { margin-bottom: 0 !important; }
+.v2-keydates:not([open]) > .keydates__summary .section__title { margin: 0; }
+
+details.v2-more { padding: var(--sp-2) var(--sp-4); margin: 0 0 var(--sp-2); }
+details.v2-more + details.v2-more { margin-top: var(--sp-2); }
+details.v2-more > summary { cursor: pointer; padding: var(--sp-1) 0; }
+details.v2-more[open] > summary { margin-bottom: var(--sp-3); }
+details.v2-more .section__title { font-size: var(--fs-md, 1.1rem); }
+details.v2-more > .keydates__summary .section__title { margin: 0; }
+
+/* "More About This Exam": heading on a hairline */
+.v2-more-title { display: flex; align-items: center; gap: var(--sp-3); font-size: var(--fs-lg, 1.25rem); margin: var(--sp-6) 0 var(--sp-3); color: var(--text-muted, inherit); }
+.v2-more-title::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+
+/* ── Key Dates timeline: one group per stage ─────────────────────────── */
+.v2-kd { list-style: none; margin: 0; padding: 0; }
+.v2-kd__group { padding: var(--sp-3) 0; }
+.v2-kd__group + .v2-kd__group { border-top: 1px solid var(--border); }
+.v2-kd__head { display: flex; align-items: flex-start; gap: var(--sp-2); margin-bottom: var(--sp-2); }
+.v2-kd__num {
+  flex: 0 0 auto; width: 1.7rem; height: 1.7rem; border-radius: var(--squircle);
+  display: grid; place-items: center; border: 2px solid var(--text-muted);
+  font-size: var(--fs-xs); font-weight: 700; color: var(--text); background: var(--surface);
+}
+.v2-kd__name { font-weight: 700; font-size: var(--fs-md, 1.05rem); color: var(--heading, var(--text)); line-height: 1.3; padding-top: 0.15rem; }
+.v2-kd__meta { display: block; font-weight: 400; font-size: var(--fs-sm); color: var(--text-muted); }
+.v2-kd .timeline { --gutter-w: 0px; }
+
+/* date chips: thick left edge; at most two lines (name, then date) */
+.v2-keydates .timeline .cal__event.timeline__chip { border-left-width: var(--edge-thick) !important; border-right-width: 1px !important; }
+.v2-keydates .timeline__chipname, .v2-keydates .timeline__chipdate { display: block; white-space: nowrap; }
+.v2-keydates .timeline__chipname .date__flag { font-weight: 400; opacity: .8; }
+
+/* countdown chip ("Today", "4 Days Left") */
+.v2-kd .timeline__next {
+  display: inline-flex; align-items: center; gap: 0.35rem;
+  padding: 0.15rem 0.6rem; border-radius: var(--squircle);
+  border: 1.5px solid var(--timeline-hue, var(--text-muted));
+  background: color-mix(in srgb, var(--timeline-hue, var(--text-muted)) 16%, var(--surface));
+  color: var(--text); font-size: var(--fs-xs); font-weight: 600; letter-spacing: 0.01em;
+  box-shadow: 0 0 0 4px var(--surface);
+}
+.v2-kd .timeline__item--urgent .timeline__next {
+  border-color: var(--urgent);
+  background: color-mix(in srgb, var(--urgent) 14%, var(--surface));
+}
+.v2-kd .timeline__marker .timeline__next { border-left-width: var(--edge-thick) !important; }
+
+/* Wide box: each stage is a row, its dates left to right on a line. */
+@container (min-width: 58rem) {
+  .v2-kd__group { display: grid; grid-template-columns: 13rem minmax(0, 1fr); gap: var(--sp-4); align-items: start; }
+  .v2-kd__head { margin: 0; padding-top: 0.2rem; }
+  .v2-kd .timeline { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(max-content, 1fr); --lane: 0.7rem; }
+  .v2-kd .timeline__item { flex-direction: column; align-items: flex-start; flex-wrap: nowrap; min-width: 0; padding: 2rem var(--sp-3) 0 0; }
+  .v2-kd .timeline__lead, .v2-kd .timeline__chip { max-width: none; }
+  .v2-kd .timeline__dot { left: var(--lane); top: 0.35rem; }
+  .v2-kd .timeline__item:not(:last-child)::after {
+    left: calc(var(--lane) + var(--dot) + 6px);
+    top: calc(0.35rem + var(--dot) / 2 - 1px);
+    width: calc(100% - var(--dot) - 12px);
+    height: 2px;
+  }
+  .v2-kd .timeline__marker { position: absolute; top: -0.05rem; left: calc(var(--lane) + var(--dot) + 6px); z-index: 2; }
+  .v2-kd .timeline__next { position: static; transform: none; }
+  .v2-kd .timeline__note { flex: none; width: 100%; margin: var(--sp-1) 0 0; padding: 0; }
+}
+
+/* Narrow box: one centred vertical line; every stage the same width so lines align. */
+@container (max-width: 57.99rem) {
+  .v2-kd .timeline { --gutter-w: 6.5rem; width: min(100%, calc(var(--gutter) + 12.5rem)); max-width: 100%; margin-inline: auto; }
+  .v2-kd .timeline__item { position: relative; }
+  .v2-kd .timeline__marker {
+    position: absolute !important; margin: 0 !important; flex: none !important;
+    left: -1rem !important; right: auto !important;
+    width: calc(1rem + var(--gutter-w) + var(--gap-pill)) !important;
+    top: calc(var(--dot-top) + var(--dot) / 2) !important; transform: translateY(-50%) !important;
+    display: flex; justify-content: center !important;
+  }
+  .v2-kd .timeline__marker .timeline__next { position: static !important; transform: none !important; left: auto !important; top: auto !important; white-space: nowrap; }
+}
+/* phone: a narrower countdown column; long countdowns wrap to two lines */
+@container (max-width: 30rem) {
+  .v2-kd .timeline { --gutter-w: 4.25rem; }
+  .v2-kd .timeline__marker .timeline__next { white-space: normal; text-align: center; max-width: calc(var(--gutter-w) - var(--sp-2)); padding: 0.15rem 0.4rem; line-height: 1.2; }
+}

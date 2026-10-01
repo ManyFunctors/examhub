@@ -1,0 +1,8 @@
+{{- with .TableOfContents }}
+  {{- if ne . "<nav id=\"TableOfContents\"></nav>" }}
+    <nav class="toc" aria-label="On this page">
+      <p class="sidebar__title">On this page</p>
+      {{ . }}
+    </nav>
+  {{- end }}
+{{- end }}

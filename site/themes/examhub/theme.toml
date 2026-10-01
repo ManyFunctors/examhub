@@ -1,0 +1,11 @@
+name = "ExamHub"
+license = "MIT"
+licenselink = "https://github.com/manyfunctors/examhub/blob/main/LICENSE"
+description = "Documentation-style theme for exam dates, eligibility and official links."
+homepage = "https://github.com/manyfunctors/examhub"
+tags = ["docs", "exam", "search", "dark mode", "responsive"]
+features = ["dark mode", "flexsearch", "exam cards", "key dates", "provenance"]
+
+[author]
+  name = "ManyFunctors"
+  homepage = "https://github.com/manyfunctors"

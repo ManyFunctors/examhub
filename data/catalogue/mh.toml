@@ -1,0 +1,612 @@
+# Catalogue: Maharashtra. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "mh-mpsc"
+name = "Maharashtra Public Service Commission"
+short_name = "MPSC (Maharashtra)"
+jurisdiction = "mh"
+kind = "public_service_commission"
+website = "https://mpsc.gov.in/"
+hosts = ["mpsc.gov.in", "mpsconline.gov.in"]
+status = "active"
+notes = "React SPA with no server-rendered content; feeds use headless Firefox. Not to be confused with Manipur/Meghalaya/Mizoram PSCs."
+
+[[bodies]]
+id = "mh-msbshse"
+name = "Maharashtra State Board of Secondary and Higher Secondary Education"
+short_name = "Maharashtra Board"
+jurisdiction = "mh"
+kind = "school_board"
+website = "https://mahahsscboard.in/"
+status = "active"
+
+[[bodies]]
+id = "mh-msce"
+name = "Maharashtra State Council of Examination"
+short_name = "MSCE Pune"
+jurisdiction = "mh"
+kind = "testing_agency"
+website = "https://www.mscepune.in/"
+hosts = ["mscepune.in", "mahatet.in"]
+status = "active"
+
+[[bodies]]
+id = "mh-cet-cell"
+name = "State Common Entrance Test Cell, Maharashtra"
+short_name = "Maharashtra CET Cell"
+jurisdiction = "mh"
+kind = "testing_agency"
+website = "https://cetcell.mahacet.org/"
+hosts = ["cetcell.mahacet.org", "mahacet.org"]
+status = "active"
+
+[[bodies]]
+id = "mh-sppu-set"
+name = "Savitribai Phule Pune University (MH-SET)"
+short_name = "SPPU"
+jurisdiction = "mh"
+kind = "university"
+website = "https://setexam.unipune.ac.in/"
+status = "active"
+
+[[bodies]]
+id = "mh-police"
+name = "Maharashtra Police"
+short_name = "Maharashtra Police"
+jurisdiction = "mh"
+kind = "police_recruitment_board"
+website = "https://mahapolice.gov.in/"
+hosts = ["mahapolice.gov.in", "policebharti.mahait.org"]
+status = "active"
+
+[[bodies]]
+id = "mh-bombay-hc"
+name = "High Court of Bombay"
+short_name = "Bombay High Court"
+jurisdiction = "mh"
+kind = "court"
+website = "https://bombayhighcourt.nic.in/"
+status = "active"
+
+[[bodies]]
+id = "mh-msedcl"
+name = "Maharashtra State Electricity Distribution Co. Ltd. (Mahavitaran)"
+short_name = "MSEDCL"
+jurisdiction = "mh"
+kind = "psu"
+website = "https://www.mahadiscom.in/"
+status = "active"
+
+[[bodies]]
+id = "mh-mcgm"
+name = "Municipal Corporation of Greater Mumbai"
+short_name = "BMC"
+jurisdiction = "mh"
+kind = "local_body"
+website = "https://portal.mcgm.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "mh-revenue"
+name = "Revenue and Forest Department, Maharashtra"
+short_name = "Maharashtra Revenue Dept"
+jurisdiction = "mh"
+kind = "ministry_department"
+website = "https://mahabhumi.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "mh-zp"
+name = "Maharashtra Zilla Parishad Recruitment (Rural Development Department)"
+short_name = "Maharashtra ZP"
+jurisdiction = "mh"
+kind = "local_body"
+website = "https://rdd.maharashtra.gov.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "mh-mpsc/advertisements"
+body = "mh-mpsc"
+url = "https://mpsc.gov.in/adv_notification/8"
+adapter = "html_links"
+render = "browser"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "mh-mpsc/home"
+body = "mh-mpsc"
+url = "https://mpsc.gov.in/"
+adapter = "html_links"
+render = "browser"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "mh-msbshse/home"
+body = "mh-msbshse"
+url = "https://mahahsscboard.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "mh-msce/home"
+body = "mh-msce"
+url = "https://www.mscepune.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "mh-cet-cell/home"
+body = "mh-cet-cell"
+url = "https://cetcell.mahacet.org/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "mh-sppu-set/home"
+body = "mh-sppu-set"
+url = "https://setexam.unipune.ac.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "mh-police/home"
+body = "mh-police"
+url = "https://mahapolice.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "mh-bombay-hc/recruitment"
+body = "mh-bombay-hc"
+url = "https://bombayhighcourt.nic.in/recruitment.php"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "mh-msedcl/home"
+body = "mh-msedcl"
+url = "https://www.mahadiscom.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "mh-mcgm/home"
+body = "mh-mcgm"
+url = "https://portal.mcgm.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "mh-revenue/home"
+body = "mh-revenue"
+url = "https://mahabhumi.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "mh-zp/home"
+body = "mh-zp"
+url = "https://rdd.maharashtra.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "mh-mpsc-rajyaseva"
+name = "Maharashtra State Services Examination (Rajyaseva)"
+known_as = ["MPSC Rajyaseva"]
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-mpsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['rajya\s*seva', 'state\s*services?\s*(pre|main|exam)', "राज्यसेवा"] }
+status = "active"
+
+[[exams]]
+id = "mh-mpsc-ae"
+name = "MPSC (Maharashtra) Assistant Engineer / Engineering Services Examination"
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-mpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "mh-mpsc-lecturer"
+name = "MPSC (Maharashtra) Lecturer / Assistant Professor Recruitment"
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-mpsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "mh-mpsc-judicial"
+name = "MPSC (Maharashtra) Civil Judge (Junior Division) / Judicial Services Examination"
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-mpsc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', '\bPCS[-\s]*\(?J\)?', 'judicial\s*magistrate'] }
+status = "active"
+
+[[exams]]
+id = "mh-mpsc-other"
+name = "MPSC (Maharashtra) Recruitment to other posts (umbrella)"
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-mpsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "mh-mpsc-group-b"
+name = "Maharashtra Group B (Non-Gazetted) Combined Examination"
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-mpsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['group[-\s]*B\b', 'गट[-\s]*ब'] }
+status = "active"
+
+[[exams]]
+id = "mh-mpsc-group-c"
+name = "Maharashtra Group C Services Combined Examination"
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-mpsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["clerical"]
+match = { any = ['group[-\s]*C\b', 'गट[-\s]*क'] }
+status = "active"
+
+[[exams]]
+id = "mh-mpsc-forest"
+name = "Maharashtra Forest Services Examination"
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-mpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["forest"]
+match = { any = ['forest\s*service'] }
+status = "active"
+
+[[exams]]
+id = "mh-mpsc-agriculture"
+name = "Maharashtra Agriculture Services Examination"
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-mpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["agriculture"]
+match = { any = ["agricultur"] }
+status = "active"
+
+[[exams]]
+id = "mh-msbshse-class-10"
+name = "Maharashtra Board SSC Examination"
+jurisdiction = "mh"
+purpose = "school_board"
+conducted_by = "mh-msbshse"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['\bSSC\b', 'class\s*(X|10)\b'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "mh-msbshse-class-12"
+name = "Maharashtra Board HSC Examination"
+jurisdiction = "mh"
+purpose = "school_board"
+conducted_by = "mh-msbshse"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "mh-mahatet"
+name = "Maharashtra Teacher Eligibility Test"
+short_name = "MAHATET"
+jurisdiction = "mh"
+purpose = "eligibility"
+conducted_by = "mh-msce"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['MAHA\s*TET', '\bTET\b'] }
+status = "active"
+
+[[exams]]
+id = "mh-tait"
+name = "Teacher Aptitude and Intelligence Test"
+short_name = "TAIT"
+jurisdiction = "mh"
+purpose = "eligibility"
+conducted_by = "mh-msce"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bTAIT\b'] }
+status = "active"
+
+[[exams]]
+id = "mh-scholarship-5-8"
+name = "Maharashtra Pre-Upper Primary and Pre-Secondary Scholarship Examination (Class 5 and 8)"
+jurisdiction = "mh"
+purpose = "scholarship"
+conducted_by = "mh-msce"
+frequency = "annual"
+qualification = "class_5"
+streams = ["school"]
+match = { any = ["scholarship", "शिष्यवृत्ती"] }
+status = "active"
+
+[[exams]]
+id = "mh-nmms"
+name = "Maharashtra NMMS Examination"
+jurisdiction = "mh"
+purpose = "scholarship"
+conducted_by = "mh-msce"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['\bNMMS\b'] }
+status = "active"
+
+[[exams]]
+id = "mh-mht-cet"
+name = "Maharashtra Health and Technical Common Entrance Test"
+short_name = "MHT CET"
+jurisdiction = "mh"
+purpose = "admission"
+conducted_by = "mh-cet-cell"
+frequency = "annual"
+qualification = "class_12"
+streams = ["engineering", "pharmacy", "agriculture"]
+match = { any = ['MHT[-\s]*CET'] }
+status = "active"
+
+[[exams]]
+id = "mh-mba-cet"
+name = "MAH MBA/MMS CET"
+jurisdiction = "mh"
+purpose = "admission"
+conducted_by = "mh-cet-cell"
+frequency = "annual"
+qualification = "graduate"
+streams = ["management"]
+match = { any = ['MBA\s*/?\s*MMS', '\bMBA\b'] }
+status = "active"
+
+[[exams]]
+id = "mh-law-cet"
+name = "MAH LL.B. CET (3-year and 5-year)"
+jurisdiction = "mh"
+purpose = "admission"
+conducted_by = "mh-cet-cell"
+frequency = "annual"
+qualification = "class_12"
+streams = ["law"]
+match = { any = ['LL\.?\s*B', '\blaw\b'] }
+status = "active"
+
+[[exams]]
+id = "mh-bed-cet"
+name = "MAH B.Ed. / M.Ed. / B.P.Ed. CET"
+jurisdiction = "mh"
+purpose = "admission"
+conducted_by = "mh-cet-cell"
+frequency = "annual"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['B\.?\s*Ed', 'M\.?\s*Ed', 'P\.?\s*Ed'] }
+status = "active"
+
+[[exams]]
+id = "mh-mca-cet"
+name = "MAH MCA CET"
+jurisdiction = "mh"
+purpose = "admission"
+conducted_by = "mh-cet-cell"
+frequency = "annual"
+qualification = "graduate"
+streams = ["technical"]
+match = { any = ['\bMCA\b'] }
+status = "active"
+
+[[exams]]
+id = "mh-nursing-cet"
+name = "MAH B.Sc. Nursing CET"
+jurisdiction = "mh"
+purpose = "admission"
+conducted_by = "mh-cet-cell"
+frequency = "annual"
+qualification = "class_12"
+streams = ["nursing"]
+match = { any = ["nursing"] }
+status = "active"
+
+[[exams]]
+id = "mh-other-cets"
+name = "Other Maharashtra CETs (B.HMCT, B.Design, BBA/BCA, B.Planning, M.Arch, M.HMCT)"
+jurisdiction = "mh"
+purpose = "admission"
+conducted_by = "mh-cet-cell"
+frequency = "annual"
+qualification = "class_12"
+streams = ["general"]
+match = { any = ["HMCT", "design", "BBA|BCA|BMS", "planning", 'M\.?\s*Arch'] }
+status = "active"
+
+[[exams]]
+id = "mh-set"
+name = "Maharashtra State Eligibility Test"
+short_name = "MH-SET"
+jurisdiction = "mh"
+purpose = "eligibility"
+conducted_by = "mh-sppu-set"
+frequency = "annual"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ['\bSET\b'] }
+status = "active"
+
+[[exams]]
+id = "mh-police-constable"
+name = "Maharashtra Police Police Constable Recruitment"
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-police"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", "sipahi|sepoy", '\bPC\b'] }
+status = "active"
+
+[[exams]]
+id = "mh-police-si"
+name = "Maharashtra Police Sub-Inspector Recruitment"
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-police"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
+status = "active"
+
+[[exams]]
+id = "mh-police-srpf-driver"
+name = "Maharashtra SRPF / Police Driver / Bandsman"
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-police"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ['\bSRPF\b', "driver", "bandsman"] }
+status = "active"
+
+[[exams]]
+id = "mh-bombay-hc-staff"
+name = "Bombay High Court Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-bombay-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "mh-mahavitaran-recruitment"
+name = "Mahavitaran / Mahatransco / Mahagenco Recruitment"
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-msedcl"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["engineering", "technical"]
+match = { any = ["recruitment", 'assistant\s*engineer', 'vidyut\s*sahayak', "technician"] }
+status = "active"
+
+[[exams]]
+id = "mh-bmc-recruitment"
+name = "BMC Recruitment (Executive Assistant, Teachers, Health)"
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-mcgm"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["general"]
+match = { any = ["recruitment", 'executive\s*assistant', 'shikshan\s*sevak', "bharti"] }
+status = "active"
+
+[[exams]]
+id = "mh-talathi"
+name = "Maharashtra Talathi Recruitment"
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-revenue"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["clerical"]
+match = { any = ["talathi", "तलाठी"] }
+status = "active"
+
+[[exams]]
+id = "mh-van-rakshak"
+name = "Maharashtra Forest Guard (Van Rakshak) Recruitment"
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-revenue"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["forest"]
+match = { any = ['van\s*rakshak', 'forest\s*guard'] }
+status = "active"
+
+[[exams]]
+id = "mh-zp-recruitment"
+name = "Zilla Parishad Group C Recruitment"
+jurisdiction = "mh"
+purpose = "recruitment"
+conducted_by = "mh-zp"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["general"]
+match = { any = ['zilla\s*parishad', '\bZP\b', 'जिल्हा\s*परिषद'] }
+status = "active"

@@ -1,0 +1,19 @@
+{{- /* Where a date window sits against today: done | now | soon | later | none */ -}}
+{{- $w := . -}}
+{{- /* A window may know only one end; a missing end is a word, so use only real dates. */ -}}
+{{- $fd := and (reflect.IsMap $w) (isset $w "from") (findRE `^\d{4}-\d{2}-\d{2}` (printf "%v" $w.from)) -}}
+{{- $td := and (reflect.IsMap $w) (isset $w "to") (findRE `^\d{4}-\d{2}-\d{2}` (printf "%v" $w.to)) -}}
+{{- if and $fd (not $td) -}}{{- $w = merge $w (dict "to" $w.from) -}}{{- end -}}
+{{- if and $td (not $fd) -}}{{- $w = merge $w (dict "from" $w.to) -}}{{- end -}}
+{{- $out := "none" -}}
+{{- if or $fd $td -}}
+  {{- $f := time.AsTime $w.from -}}
+  {{- $t := (time.AsTime $w.to).AddDate 0 0 1 -}}
+  {{- $monthly := and (eq $f.Day 1) (eq $t.Day 1) (eq ($t.AddDate 0 -1 0) $f) (ne $w.status "confirmed") -}}
+  {{- if lt $t now -}}{{- $out = "done" -}}
+  {{- else if and $monthly (le $f now) -}}{{- $out = "month" -}}
+  {{- else if le $f now -}}{{- $out = "now" -}}
+  {{- else if lt $f (now.AddDate 0 0 30) -}}{{- $out = "soon" -}}
+  {{- else -}}{{- $out = "later" -}}{{- end -}}
+{{- end -}}
+{{- return $out -}}

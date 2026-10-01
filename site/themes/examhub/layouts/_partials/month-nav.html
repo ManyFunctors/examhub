@@ -1,0 +1,63 @@
+{{- /* The month stepper and calendar flyout, shared by both views. Prev and next are links to
+     the month pages; the script turns them into buttons once it can switch months itself. */ -}}
+{{- $m := .month -}}{{- $ev := .ev -}}
+{{- $first := index $ev.months 0 | default $m -}}{{- $last := index $ev.months (sub (len $ev.months) 1) | default $m -}}
+{{- $t := time.AsTime (printf "%s-01" $m) -}}
+{{- $prevM := ($t.AddDate 0 -1 0).Format "2006-01" -}}{{- $nextM := ($t.AddDate 0 1 0).Format "2006-01" -}}
+{{- $home := substr $ev.start 0 7 -}}
+  <div class="cal__bar">
+    {{- /* The reset, in its own column rather than inside the stepper. */}}
+    <div class="cal__barstart">
+      <button class="cal__reset" type="button" id="cal-reset"
+              aria-label="Reset to the first dates" data-label="Reset"
+              disabled>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M3 12a9 9 0 1 0 3-6.7" />
+          <path d="M3 4v5h5" />
+        </svg>
+      </button>
+      <span class="cal__navdiv" aria-hidden="true"></span>
+    </div>
+    <div class="cal__nav">
+      <a class="cal__step" id="cal-prev" aria-label="Previous month"{{ if gt $m $first }} href="{{ if eq $prevM $home }}{{ site.Home.RelPermalink }}{{ else }}{{ site.Home.RelPermalink }}{{ $prevM }}/{{ end }}"{{ else }} aria-disabled="true"{{ end }}>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6" /></svg>
+      </a>
+      {{- /* The month name is a control, not a label. */ -}}
+      <div class="cal__picker">
+        <h2 class="cal__monthwrap">
+          <button class="cal__month" type="button" id="cal-month"
+                  aria-haspopup="dialog" aria-expanded="false"
+                  aria-controls="cal-flyout" aria-live="polite">{{ $t.Format "January 2006" }}</button>
+        </h2>
+        <div class="cal__flyout" id="cal-flyout" role="dialog"
+             aria-label="Choose a month" hidden>
+          {{- /* No month row here any more, and the reason is that it was two answers to one
+             question. */}}
+          <div class="cal__flyrow cal__flyrow--years" role="group" aria-label="Year">
+            <span class="sr-only" id="cal-years-label">Year</span>
+            <span id="cal-years" aria-labelledby="cal-years-label"></span>
+          </div>
+          <table class="cal__flygrid">
+            {{- $inM := len (where $ev.events "d" "like" (printf "^%s" $m)) }}
+            <caption id="cal-fly-caption">{{ if $inM }}{{ $t.Format "January 2006" }} — {{ $inM }} date{{ if ne $inM 1 }}s{{ end }}.{{ else }}Nothing is dated in {{ $t.Format "January 2006" }}.{{ end }}</caption>
+            <thead>
+              <tr>
+                {{- /* Plain text, not <abbr title="Tuesday">Tue</abbr>. */ -}}
+                <th scope="col">Mon</th>
+                <th scope="col">Tue</th>
+                <th scope="col">Wed</th>
+                <th scope="col">Thu</th>
+                <th scope="col">Fri</th>
+                <th scope="col">Sat</th>
+                <th scope="col">Sun</th>
+              </tr>
+            </thead>
+            <tbody id="cal-fly-body"></tbody>
+          </table>
+        </div>
+      </div>
+      <a class="cal__step" id="cal-next" aria-label="Next month"{{ if lt $m $last }} href="{{ if eq $nextM $home }}{{ site.Home.RelPermalink }}{{ else }}{{ site.Home.RelPermalink }}{{ $nextM }}/{{ end }}"{{ else }} aria-disabled="true"{{ end }}>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6" /></svg>
+      </a>
+    </div>
+  </div>

@@ -1,0 +1,498 @@
+# Catalogue: Odisha. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "od-opsc"
+name = "Odisha Public Service Commission"
+short_name = "OPSC"
+jurisdiction = "od"
+kind = "public_service_commission"
+website = "https://opsc.gov.in/"
+status = "active"
+notes = "ASP.NET with opaque base64 View_Content ids; there is no stable per-notice URL."
+
+[[bodies]]
+id = "od-ossc"
+name = "Odisha Staff Selection Commission"
+short_name = "OSSC"
+jurisdiction = "od"
+kind = "staff_selection_board"
+website = "https://www.ossc.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "od-osssc"
+name = "Odisha Subordinate Staff Selection Commission"
+short_name = "OSSSC"
+jurisdiction = "od"
+kind = "staff_selection_board"
+website = "https://osssc.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "od-bse"
+name = "Board of Secondary Education, Odisha"
+short_name = "BSE Odisha"
+jurisdiction = "od"
+kind = "school_board"
+website = "https://bseodisha.ac.in/"
+status = "active"
+
+[[bodies]]
+id = "od-chse"
+name = "Council of Higher Secondary Education, Odisha"
+short_name = "CHSE Odisha"
+jurisdiction = "od"
+kind = "school_board"
+website = "https://chseodisha.nic.in/"
+status = "active"
+
+[[bodies]]
+id = "od-ojee"
+name = "Odisha Joint Entrance Examination Committee"
+short_name = "OJEE"
+jurisdiction = "od"
+kind = "testing_agency"
+website = "https://ojee.nic.in/"
+status = "active"
+
+[[bodies]]
+id = "od-scte"
+name = "State Council for Technical Education and Vocational Training, Odisha"
+short_name = "SCTE&VT Odisha"
+jurisdiction = "od"
+kind = "testing_agency"
+website = "https://scteodisha.org/"
+status = "active"
+
+[[bodies]]
+id = "od-police"
+name = "Odisha Police (Odisha Police Recruitment Board)"
+short_name = "Odisha Police"
+jurisdiction = "od"
+kind = "police_recruitment_board"
+website = "https://odishapolice.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "od-hc"
+name = "Orissa High Court"
+short_name = "Orissa HC"
+jurisdiction = "od"
+kind = "court"
+website = "https://orissahighcourt.nic.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "od-opsc/home"
+body = "od-opsc"
+url = "https://opsc.gov.in/Public/OPSC/Default.aspx"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "od-ossc/home"
+body = "od-ossc"
+url = "https://www.ossc.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "od-osssc/home"
+body = "od-osssc"
+url = "https://osssc.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "od-bse/home"
+body = "od-bse"
+url = "https://bseodisha.ac.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "od-chse/home"
+body = "od-chse"
+url = "https://chseodisha.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "od-ojee/home"
+body = "od-ojee"
+url = "https://ojee.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "od-scte/home"
+body = "od-scte"
+url = "https://scteodisha.org/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "od-police/home"
+body = "od-police"
+url = "https://odishapolice.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "od-hc/recruitment"
+body = "od-hc"
+url = "https://orissahighcourt.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "od-opsc-ocs"
+name = "Odisha Civil Services Examination"
+known_as = ["OCS", "OAS"]
+jurisdiction = "od"
+purpose = "recruitment"
+conducted_by = "od-opsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['civil\s*services', '\bOCS\b'] }
+status = "active"
+
+[[exams]]
+id = "od-opsc-ae"
+name = "OPSC Assistant Engineer / Engineering Services Examination"
+jurisdiction = "od"
+purpose = "recruitment"
+conducted_by = "od-opsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "od-opsc-lecturer"
+name = "OPSC Lecturer / Assistant Professor Recruitment"
+jurisdiction = "od"
+purpose = "recruitment"
+conducted_by = "od-opsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "od-opsc-judicial"
+name = "OPSC Civil Judge (Junior Division) / Judicial Services Examination"
+jurisdiction = "od"
+purpose = "recruitment"
+conducted_by = "od-opsc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', '\bPCS[-\s]*\(?J\)?', 'judicial\s*magistrate'] }
+status = "active"
+
+[[exams]]
+id = "od-opsc-other"
+name = "OPSC Recruitment to other posts (umbrella)"
+jurisdiction = "od"
+purpose = "recruitment"
+conducted_by = "od-opsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "od-opsc-medical-officer"
+name = "OPSC Medical Officer (Assistant Surgeon)"
+jurisdiction = "od"
+purpose = "recruitment"
+conducted_by = "od-opsc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["medical"]
+match = { any = ['medical\s*officer', 'assistant\s*surgeon'] }
+status = "active"
+
+[[exams]]
+id = "od-ossc-cgl"
+name = "OSSC Combined Graduate Level Examination"
+jurisdiction = "od"
+purpose = "recruitment"
+conducted_by = "od-ossc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["clerical"]
+match = { any = ['combined\s*graduate', '\bCGL\b'] }
+status = "active"
+
+[[exams]]
+id = "od-ossc-cre"
+name = "OSSC Combined Recruitment Examination / Combined Technical Services"
+jurisdiction = "od"
+purpose = "recruitment"
+conducted_by = "od-ossc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["technical", "clerical"]
+match = { any = ['combined\s*recruitment', '\bCRE\b', 'combined\s*technical', '\bCTSRE\b'] }
+status = "active"
+
+[[exams]]
+id = "od-ossc-teacher"
+name = "OSSC Higher Secondary Specialist / Teacher Recruitment"
+jurisdiction = "od"
+purpose = "recruitment"
+conducted_by = "od-ossc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["specialist", "teacher", '\bTGT\b|\bPGT\b'] }
+status = "active"
+
+[[exams]]
+id = "od-ossc-other"
+name = "OSSC other recruitment (umbrella)"
+jurisdiction = "od"
+purpose = "recruitment"
+conducted_by = "od-ossc"
+frequency = "multiple"
+qualification = "class_12"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc"] }
+status = "active"
+
+[[exams]]
+id = "od-osssc-ri-ari-amin"
+name = "OSSSC Revenue Inspector / ARI / Amin / ICDS Supervisor"
+jurisdiction = "od"
+purpose = "recruitment"
+conducted_by = "od-osssc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["clerical"]
+match = { any = ['revenue\s*inspector', '\bRI\b', '\bARI\b', '\bAmin\b', 'ICDS\s*supervisor'] }
+status = "active"
+
+[[exams]]
+id = "od-osssc-forest-guard"
+name = "OSSSC Forest Guard / Forester / Livestock Inspector"
+jurisdiction = "od"
+purpose = "recruitment"
+conducted_by = "od-osssc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["forest", "veterinary"]
+match = { any = ['forest\s*guard', "forester", "livestock"] }
+status = "active"
+
+[[exams]]
+id = "od-osssc-other"
+name = "OSSSC other recruitment (umbrella)"
+jurisdiction = "od"
+purpose = "recruitment"
+conducted_by = "od-osssc"
+frequency = "multiple"
+qualification = "class_10"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|CRE"] }
+status = "active"
+
+[[exams]]
+id = "od-bse-class-10"
+name = "BSE Odisha HSC (Annual High School Certificate) Examination"
+jurisdiction = "od"
+purpose = "school_board"
+conducted_by = "od-bse"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['\bHSC\b', 'high\s*school\s*certificate', 'class\s*(X|10)\b', "matric"], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "od-otet"
+name = "Odisha Teacher Eligibility Test"
+short_name = "OTET"
+jurisdiction = "od"
+purpose = "eligibility"
+conducted_by = "od-bse"
+frequency = "biannual"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['\bOTET\b', 'special\s*OTET'] }
+status = "active"
+
+[[exams]]
+id = "od-osstet"
+name = "Odisha Secondary School Teacher Eligibility Test"
+short_name = "OSSTET"
+jurisdiction = "od"
+purpose = "eligibility"
+conducted_by = "od-bse"
+frequency = "annual"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ["OSSTET"] }
+status = "active"
+
+[[exams]]
+id = "od-chse-class-12"
+name = "CHSE Odisha +2 Higher Secondary Examination"
+jurisdiction = "od"
+purpose = "school_board"
+conducted_by = "od-chse"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['class\s*(XII|12)\b', '\b(HSC|HSSC|intermediate|inter|higher\s*secondary|uchha|plus\s*two|\+2|PUC)\b'] }
+status = "active"
+
+[[exams]]
+id = "od-ojee"
+name = "Odisha Joint Entrance Examination"
+short_name = "OJEE"
+jurisdiction = "od"
+purpose = "admission"
+conducted_by = "od-ojee"
+frequency = "annual"
+qualification = "class_12"
+streams = ["engineering", "pharmacy", "management"]
+match = { any = ['\bOJEE\b'] }
+status = "active"
+
+[[exams]]
+id = "od-det"
+name = "Odisha Diploma Entrance Test"
+short_name = "Odisha DET"
+jurisdiction = "od"
+purpose = "admission"
+conducted_by = "od-scte"
+frequency = "annual"
+qualification = "class_10"
+streams = ["engineering"]
+match = { any = ['\bDET\b', 'diploma\s*entrance'] }
+status = "active"
+
+[[exams]]
+id = "od-police-constable"
+name = "Odisha Police Police Constable Recruitment"
+jurisdiction = "od"
+purpose = "recruitment"
+conducted_by = "od-police"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", "sipahi|sepoy", '\bPC\b'] }
+status = "active"
+
+[[exams]]
+id = "od-police-si"
+name = "Odisha Police Sub-Inspector Recruitment"
+jurisdiction = "od"
+purpose = "recruitment"
+conducted_by = "od-police"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
+status = "active"
+
+[[exams]]
+id = "od-hc-staff"
+name = "Orissa HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "od"
+purpose = "recruitment"
+conducted_by = "od-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "od-bse-odisha-state-open-school-certificate"
+name = "Odisha State Open School Certificate Examination"
+jurisdiction = "od"
+purpose = "certification"
+conducted_by = "od-bse"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Odisha[\s\-_./()]*State[\s\-_./()]*Open[\s\-_./()]*School[\s\-_./()]*Certificate[\s\-_./()]*Examination(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "od-bse-national-rural-talent-scholarship"
+name = "National Rural Talent Scholarship Examination"
+jurisdiction = "od"
+purpose = "scholarship"
+conducted_by = "od-bse"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])National[\s\-_./()]*Rural[\s\-_./()]*Talent[\s\-_./()]*Scholarship[\s\-_./()]*Examination(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "od-bse-madhyama"
+name = "Madhyama (Sanskrit) Examination"
+short_name = "Madhyama"
+jurisdiction = "od"
+purpose = "school_board"
+conducted_by = "od-bse"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])MADHYAMA[\s\-_./()]*Examination(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "od-bse-oav-omav"
+name = "OAV / OMAV Entrance Test"
+short_name = "OAV Entrance"
+jurisdiction = "od"
+purpose = "admission"
+conducted_by = "od-bse"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])OAV[\s\-_./()]*OMAV[\s\-_./()]*Entrance[\s\-_./()]*Test(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "od-bse-primary-scholarship"
+name = "Primary Scholarship Examination"
+jurisdiction = "od"
+purpose = "scholarship"
+conducted_by = "od-bse"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Primary[\s\-_./()]*Scholarship[\s\-_./()]*Examination(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."

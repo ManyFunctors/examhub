@@ -1,0 +1,14 @@
+{{- /* The count band. */ -}}
+{{- $figures := slice
+      (dict "value" .openNow "label" "Open for Registration")
+      (dict "value" .awaitingDate "label" "Dates to Be Announced") -}}
+<div class="stats__band">
+  <div class="stats">
+  {{- range $figures }}
+  <div class="stat{{ if .lead }} stat--lead{{ end }}">
+    <p class="stat__value">{{ .value }}</p>
+    <p class="stat__label">{{ .label }}</p>
+  </div>
+  {{- end }}
+  </div>
+</div>

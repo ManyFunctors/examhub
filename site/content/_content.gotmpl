@@ -1,0 +1,70 @@
+{{- /* One page per calendar month, /YYYY-MM/, so every month the stepper reaches is a real
+     page without JavaScript. The adapter can't read other pages, so the range comes from the
+     date windows (from = / to =) in the exam records. */ -}}
+{{- $months := slice -}}
+{{- range os.ReadDir "content/exams" -}}
+  {{- if strings.HasSuffix .Name ".md" -}}
+    {{- range findRESubmatch `(?m)^\s*(?:from|to)\s*=\s*(\d{4}-\d{2})-\d{2}\s*$` (os.ReadFile (printf "content/exams/%s" .Name)) -}}
+      {{- $months = $months | append (index . 1) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with $months | uniq | sort -}}
+  {{- $t := time.AsTime (printf "%s-01" (index . 0)) -}}
+  {{- $last := index . (sub (len .) 1) -}}
+  {{- range seq 600 -}}
+    {{- $key := $t.Format "2006-01" -}}
+    {{- if le $key $last -}}
+      {{- $.AddPage (dict
+            "path" $key
+            "kind" "page"
+            "title" (printf "Exams in %s" ($t.Format "January 2006"))
+            "params" (dict "month" $key "section" "months" "wide" true)
+            "layout" "month") -}}
+    {{- end -}}
+    {{- $t = $t.AddDate 0 1 0 -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* The index pages: one per conducting body, type, status and date kind, and one list of each
+     axis, so every filter has a no-JS page. The layout picks the exams; the adapter only names
+     the pages, and finds the bodies from the records' `body = ` lines. */ -}}
+{{- $bodies := slice -}}
+{{- range os.ReadDir "content/exams" -}}
+  {{- if strings.HasSuffix .Name ".md" -}}
+    {{- range findRESubmatch `(?m)^\s*body\s*=\s*'([^']+)'\s*$` (os.ReadFile (printf "content/exams/%s" .Name)) -}}
+      {{- $bodies = $bodies | append (index . 1) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $axes := slice
+      (dict "key" "bodies" "title" "Exams by Body")
+      (dict "key" "types" "title" "Exams by Type")
+      (dict "key" "statuses" "title" "Exams by Status")
+      (dict "key" "kinds" "title" "Dates by Kind") -}}
+{{- range $axes -}}
+  {{- $.AddPage (dict "path" .key "kind" "section" "title" .title "outputs" (slice "html")
+        "params" (dict "axis" .key "wide" true) "layout" "axis-list") -}}
+{{- end -}}
+{{- range $bodies | uniq -}}
+  {{- $b := index hugo.Data.bodies . | default dict -}}
+  {{- $.AddPage (dict "path" (printf "bodies/%s" .) "kind" "page"
+        "title" ($b.name | default .)
+        "params" (dict "axis" "bodies" "key" . "short" ($b.short_name | default .) "wide" true) "layout" "axis") -}}
+{{- end -}}
+{{- range slice (dict "key" "government" "title" "Government") (dict "key" "academic" "title" "Academic") -}}
+  {{- $.AddPage (dict "path" (printf "types/%s" .key) "kind" "page" "title" (printf "%s Exams" .title)
+        "params" (dict "axis" "types" "key" .title "short" .title "wide" true) "layout" "axis") -}}
+{{- end -}}
+{{- range slice
+      (dict "key" "open" "title" "Registration Open")
+      (dict "key" "soon" "title" "Closes Soon")
+      (dict "key" "upcoming" "title" "Upcoming")
+      (dict "key" "done" "title" "Completed") -}}
+  {{- $.AddPage (dict "path" (printf "statuses/%s" .key) "kind" "page" "title" (printf "%s Exams" .title)
+        "params" (dict "axis" "statuses" "key" .key "short" .title "wide" true) "layout" "axis") -}}
+{{- end -}}
+{{- range hugo.Data.date_kinds -}}
+  {{- $.AddPage (dict "path" (printf "kinds/%s" (replace .key "_" "-")) "kind" "page" "title" (printf "%s Dates" .label)
+        "params" (dict "axis" "kinds" "key" .key "short" .label "wide" true) "layout" "axis") -}}
+{{- end -}}

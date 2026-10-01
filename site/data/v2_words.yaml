@@ -1,0 +1,121 @@
+# Codes -> reader's words. The page never shows a raw code.
+unknown: Not Stated
+not_announced: To Be Announced
+none: None
+all: All
+"yes": "Yes"
+"no": "No"
+in_group: Given for the Group
+by_category: Differs by Category
+
+# formats and modes
+written: Written Exam
+physical: Physical Test
+skill: Skill Test
+interview: Interview
+documents: Document Verification
+medical: Medical Exam
+external_score: Outside Score
+cbt: Computer-Based
+omr: OMR Sheet
+pen_paper: Pen and Paper
+in_person: In Person
+video: Video
+external: Taken Elsewhere
+screening: Screening (Marks Don't Count in Final Merit)
+merit: Counts in Final Merit
+qualifying: Pass or Fail Only
+
+# posts, service
+regular: Regular
+backlog: Backlog
+all_india: anywhere in India
+all_india_and_abroad: anywhere in India or abroad
+one_year_gross: One Year's Gross Pay
+scale: Pay Scale
+pay_matrix: Pay Matrix
+stipend: Stipend
+fixed: Fixed Pay
+service: In Service
+training: During Training
+probation: During Probation
+metro: In Metro Cities
+NPS: National Pension System
+LTS: Leave Travel Subsidy
+gratuity: Gratuity
+medical_benefits: Medical Benefits
+group_accident_insurance: Group Accident Insurance
+accommodation: Company or Leased Accommodation
+contributory_pension: Contributory Pension
+medical_benefit: Medical
+
+# eligibility
+state: State
+as_unreserved: As Unreserved (OC)
+eligible: Eligible
+not_eligible: Not Eligible
+at_most_one_spouse: No More Than One Living Spouse
+at_application: When Applying
+at_interview: At the Interview
+before_applying: Before Applying
+before_interview: By the Interview
+before_joining: Before Joining
+any_state: Any State
+aggregate: Aggregate
+percent: "%"
+no_conviction: No Criminal Conviction
+no_pending_case: No Pending Criminal Case
+not_dismissed: Not Dismissed From Government Service
+not_debarred: Not Debarred by the Body
+police_verification: Police Verification
+central: Central List
+knock_knees: Knock Knees
+pigeon_chest: Pigeon Chest
+flat_foot: Flat Feet
+varicose_veins: Varicose Veins
+hammer_toes: Hammer Toes
+fractured_limbs: Fractured Limbs
+decayed_teeth: Decayed Teeth
+stammering: Stammering
+hard_of_hearing: Hard of Hearing
+squint: Squint
+
+# fee, rules
+card: Debit or Credit Card
+net_banking: Net Banking
+imps: IMPS
+cash_card: Cash Card
+wallet: Mobile Wallet
+upi: UPI
+application: Per Application
+correction: To Use the Edit Window
+GST: GST
+intimation_charges: Intimation Charges
+single: One Centre Choice
+ranked: Ranked Centre Choices
+availability: By Availability
+first_come: First Come, First Served
+random: At Random
+age_older: Older Candidate First
+
+# marking
+share_of_question: Of the Question's Marks
+mcq: Multiple Choice
+descriptive: Descriptive
+as_evaluated: Marked by Examiners
+
+# RPwD Act disability codes
+B: Blindness
+LV: Low Vision
+D: Deafness
+HH: Hard of Hearing
+LD: Locomotor Disability
+CP: Cerebral Palsy
+LC: Leprosy Cured
+DW: Dwarfism
+AAV: Acid Attack
+MDy: Muscular Dystrophy
+ASD: Autism
+SLD: Specific Learning Disability
+MI: Mental Illness
+MD: Multiple Disabilities

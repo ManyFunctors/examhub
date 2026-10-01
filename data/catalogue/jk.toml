@@ -1,0 +1,359 @@
+# Catalogue: Jammu and Kashmir. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "jk-jkpsc"
+name = "Jammu and Kashmir Public Service Commission"
+short_name = "JKPSC"
+jurisdiction = "jk"
+kind = "public_service_commission"
+website = "https://jkpsc.nic.in/"
+status = "active"
+
+[[bodies]]
+id = "jk-jkssb"
+name = "Jammu and Kashmir Services Selection Board"
+short_name = "JKSSB"
+jurisdiction = "jk"
+kind = "staff_selection_board"
+website = "https://jkssb.nic.in/"
+status = "active"
+notes = "Server sends no issuer certificate; browsers load it."
+
+[[bodies]]
+id = "jk-jkbose"
+name = "Jammu and Kashmir Board of School Education"
+short_name = "JKBOSE"
+jurisdiction = "jk"
+kind = "school_board"
+website = "https://jkbose.nic.in/"
+status = "active"
+
+[[bodies]]
+id = "jk-jkbopee"
+name = "J&K Board of Professional Entrance Examinations"
+short_name = "JKBOPEE"
+jurisdiction = "jk"
+kind = "testing_agency"
+website = "https://jkbopee.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "jk-hc"
+name = "High Court of Jammu and Kashmir and Ladakh"
+short_name = "J&K and Ladakh HC"
+jurisdiction = "jk"
+kind = "court"
+website = "https://jkhighcourt.nic.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "jk-jkpsc/home"
+body = "jk-jkpsc"
+url = "https://jkpsc.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "jk-jkssb/advertisements"
+body = "jk-jkssb"
+url = "https://jkssb.nic.in/Home/JobAdvertisement"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "jk-jkssb/home"
+body = "jk-jkssb"
+url = "https://jkssb.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "jk-jkbose/home"
+body = "jk-jkbose"
+url = "https://jkbose.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "jk-jkbopee/home"
+body = "jk-jkbopee"
+url = "https://jkbopee.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "jk-hc/recruitment"
+body = "jk-hc"
+url = "https://jkhighcourt.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "jk-jkbopee/notice-board"
+body = "jk-jkbopee"
+url = "https://jkbopee.gov.in/NoticeBoard.aspx"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Notice Board)."
+
+[[feeds]]
+id = "jk-jkbopee/notifications"
+body = "jk-jkbopee"
+url = "https://jkbopee.gov.in/Notifications.aspx"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Notifications)."
+
+[[feeds]]
+id = "jk-hc/notifications-2"
+body = "jk-hc"
+url = "https://jkhighcourt.nic.in/notice.php"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Notifications)."
+
+[[feeds]]
+id = "jk-hc/notifications"
+body = "jk-hc"
+url = "https://jkhighcourt.nic.in/noti.php"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Notifications)."
+
+[[feeds]]
+id = "jk-jkssb/results"
+body = "jk-jkssb"
+url = "https://jkssb.nic.in/Results.html"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Results)."
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "jk-jkpsc-cce"
+name = "J&K Combined Competitive Examination"
+known_as = ["JKAS", "KAS"]
+jurisdiction = "jk"
+purpose = "recruitment"
+conducted_by = "jk-jkpsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['combined\s*competitive', '\bCCE\b', '\bKAS\b'] }
+status = "active"
+
+[[exams]]
+id = "jk-jkpsc-ae"
+name = "JKPSC Assistant Engineer / Engineering Services Examination"
+jurisdiction = "jk"
+purpose = "recruitment"
+conducted_by = "jk-jkpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "jk-jkpsc-lecturer"
+name = "JKPSC Lecturer / Assistant Professor Recruitment"
+jurisdiction = "jk"
+purpose = "recruitment"
+conducted_by = "jk-jkpsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "jk-jkpsc-judicial"
+name = "JKPSC Civil Judge (Junior Division) / Judicial Services Examination"
+jurisdiction = "jk"
+purpose = "recruitment"
+conducted_by = "jk-jkpsc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', '\bPCS[-\s]*\(?J\)?', 'judicial\s*magistrate'] }
+status = "active"
+
+[[exams]]
+id = "jk-jkpsc-other"
+name = "JKPSC Recruitment to other posts (umbrella)"
+jurisdiction = "jk"
+purpose = "recruitment"
+conducted_by = "jk-jkpsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "jk-jkpsc-medical-officer"
+name = "JKPSC Medical Officer / Specialist"
+jurisdiction = "jk"
+purpose = "recruitment"
+conducted_by = "jk-jkpsc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["medical"]
+match = { any = ['medical\s*officer', "specialist"] }
+status = "active"
+
+[[exams]]
+id = "jk-jkssb-police-constable"
+name = "J&K Police Constable (JKSSB)"
+jurisdiction = "jk"
+purpose = "recruitment"
+conducted_by = "jk-jkssb"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable"] }
+status = "active"
+
+[[exams]]
+id = "jk-jkssb-si"
+name = "J&K Police Sub-Inspector (JKSSB)"
+jurisdiction = "jk"
+purpose = "recruitment"
+conducted_by = "jk-jkssb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector'] }
+status = "active"
+
+[[exams]]
+id = "jk-jkssb-junior-assistant"
+name = "JKSSB Junior Assistant / Junior Clerk"
+jurisdiction = "jk"
+purpose = "recruitment"
+conducted_by = "jk-jkssb"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["clerical"]
+match = { any = ['junior\s*assistant', 'junior\s*clerk'] }
+status = "active"
+
+[[exams]]
+id = "jk-jkssb-naib-tehsildar"
+name = "JKSSB Naib Tehsildar / Patwari"
+jurisdiction = "jk"
+purpose = "recruitment"
+conducted_by = "jk-jkssb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["clerical"]
+match = { any = ['naib\s*tehsildar', "patwari"] }
+status = "active"
+
+[[exams]]
+id = "jk-jkssb-other"
+name = "JKSSB other recruitment (umbrella)"
+jurisdiction = "jk"
+purpose = "recruitment"
+conducted_by = "jk-jkssb"
+frequency = "multiple"
+qualification = "class_10"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|OMR|CBT"] }
+status = "active"
+
+[[exams]]
+id = "jk-jkbose-class-10"
+name = "JKBOSE Secondary School (Class 10) Examination"
+jurisdiction = "jk"
+purpose = "school_board"
+conducted_by = "jk-jkbose"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['class\s*(X|10)\b', '\b(SSC|SSLC|HSLC|matric|madhyamik|secondary)\b(?!.*higher)'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "jk-jkbose-class-12"
+name = "JKBOSE Higher Secondary Part II (Class 12) Examination"
+jurisdiction = "jk"
+purpose = "school_board"
+conducted_by = "jk-jkbose"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['class\s*(XII|12)\b', '\b(HSC|HSSC|intermediate|inter|higher\s*secondary|uchha|plus\s*two|\+2|PUC)\b'] }
+status = "active"
+
+[[exams]]
+id = "jk-jkbopee-cet"
+name = "JKBOPEE Common Entrance Test (Polytechnic, Lateral Entry)"
+jurisdiction = "jk"
+purpose = "admission"
+conducted_by = "jk-jkbopee"
+frequency = "annual"
+qualification = "class_10"
+streams = ["engineering"]
+match = { any = ['\bCET\b', "polytechnic", "lateral"] }
+status = "active"
+
+[[exams]]
+id = "jk-jkbopee-nursing-paramedical"
+name = "JKBOPEE B.Sc. Nursing / Paramedical / B.Ed. Entrance"
+jurisdiction = "jk"
+purpose = "admission"
+conducted_by = "jk-jkbopee"
+frequency = "annual"
+qualification = "class_12"
+streams = ["nursing", "allied_health", "teaching"]
+match = { any = ["nursing", "paramedical", 'B\.?\s*Ed'] }
+status = "active"
+
+[[exams]]
+id = "jk-jkbopee-counselling"
+name = "JKBOPEE MBBS/BDS/PG Medical Counselling"
+jurisdiction = "jk"
+purpose = "admission"
+conducted_by = "jk-jkbopee"
+frequency = "annual"
+qualification = "class_12"
+streams = ["medical"]
+match = { any = ["MBBS", "counsell?ing", "NEET"] }
+status = "active"
+
+[[exams]]
+id = "jk-hc-staff"
+name = "J&K and Ladakh HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "jk"
+purpose = "recruitment"
+conducted_by = "jk-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"

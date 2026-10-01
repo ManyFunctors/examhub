@@ -1,0 +1,598 @@
+# Catalogue: Rajasthan. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "rj-rpsc"
+name = "Rajasthan Public Service Commission"
+short_name = "RPSC"
+jurisdiction = "rj"
+kind = "public_service_commission"
+website = "https://rpsc.rajasthan.gov.in/"
+hosts = ["rpsc.rajasthan.gov.in", "sso.rajasthan.gov.in", "recruitment.rajasthan.gov.in"]
+status = "active"
+
+[[bodies]]
+id = "rj-rssb"
+name = "Rajasthan Staff Selection Board"
+short_name = "RSSB"
+known_as = ["RSMSSB"]
+jurisdiction = "rj"
+kind = "staff_selection_board"
+website = "https://rssb.rajasthan.gov.in/"
+hosts = ["rssb.rajasthan.gov.in", "rsmssb.rajasthan.gov.in"]
+status = "active"
+notes = "Formerly RSMSSB (Rajasthan Subordinate and Ministerial Services Selection Board). TLS legacy renegotiation."
+
+[[bodies]]
+id = "rj-bser"
+name = "Board of Secondary Education, Rajasthan"
+short_name = "RBSE"
+jurisdiction = "rj"
+kind = "school_board"
+website = "https://rajeduboard.rajasthan.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "rj-police"
+name = "Rajasthan Police"
+short_name = "Rajasthan Police"
+jurisdiction = "rj"
+kind = "police_recruitment_board"
+website = "https://police.rajasthan.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "rj-hc"
+name = "Rajasthan High Court"
+short_name = "Rajasthan HC"
+jurisdiction = "rj"
+kind = "court"
+website = "https://hcraj.nic.in/"
+status = "active"
+
+[[bodies]]
+id = "rj-ptet-nodal"
+name = "Rajasthan Pre-Teacher Education Test (nodal university)"
+short_name = "PTET"
+jurisdiction = "rj"
+kind = "university"
+website = "https://ptetvmou2025.com/"
+status = "active"
+notes = "Nodal university rotates (VMOU Kota, GGTU Banswara, Bikaner); the host changes each year."
+
+[[bodies]]
+id = "rj-ruhs"
+name = "Rajasthan University of Health Sciences"
+short_name = "RUHS"
+jurisdiction = "rj"
+kind = "university"
+website = "https://ruhsraj.org/"
+status = "active"
+
+[[bodies]]
+id = "rj-rvunl"
+name = "Rajasthan Rajya Vidyut Utpadan Nigam Ltd. (with the discoms)"
+short_name = "RVUNL"
+jurisdiction = "rj"
+kind = "psu"
+website = "https://energy.rajasthan.gov.in/rvunl"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "rj-rpsc/news"
+body = "rj-rpsc"
+url = "https://rpsc.rajasthan.gov.in/news"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "rj-rpsc/advertisements"
+body = "rj-rpsc"
+url = "https://rpsc.rajasthan.gov.in/advertisements"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "rj-rpsc/dashboard"
+body = "rj-rpsc"
+url = "https://rpsc.rajasthan.gov.in/examdashboard"
+adapter = "html_links"
+yields = "calendar"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "rj-rssb/news"
+body = "rj-rssb"
+url = "https://rssb.rajasthan.gov.in/news"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "rj-rssb/advertisements"
+body = "rj-rssb"
+url = "https://rssb.rajasthan.gov.in/advertisements"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "rj-bser/home"
+body = "rj-bser"
+url = "https://rajeduboard.rajasthan.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "rj-police/recruitment"
+body = "rj-police"
+url = "https://police.rajasthan.gov.in/old/recruitment.aspx"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "rj-hc/recruitment"
+body = "rj-hc"
+url = "https://hcraj.nic.in/hcraj/recruitment.php"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "rj-ptet-nodal/home"
+body = "rj-ptet-nodal"
+url = "https://ptetvmou2025.com/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "rj-ruhs/home"
+body = "rj-ruhs"
+url = "https://ruhsraj.org/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "rj-rvunl/home"
+body = "rj-rvunl"
+url = "https://energy.rajasthan.gov.in/rvunl"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "rj-rpsc/results"
+body = "rj-rpsc"
+url = "https://rpsc.rajasthan.gov.in/results"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Results)."
+
+[[feeds]]
+id = "rj-rpsc/answer-keys"
+body = "rj-rpsc"
+url = "https://rpsc.rajasthan.gov.in/answerkeys"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Answer Keys)."
+
+[[feeds]]
+id = "rj-hc/latest-updates-2"
+body = "rj-hc"
+url = "https://hcraj.nic.in/hcraj/latestUpdate_archive.php"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Latest Updates)."
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "rj-rpsc-ras"
+name = "Rajasthan State and Subordinate Services Combined Competitive Examination (RAS/RTS)"
+known_as = ["RAS", "RPSC RAS"]
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rpsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['\bRAS\b', 'state\s*and\s*subordinate\s*services'] }
+status = "active"
+
+[[exams]]
+id = "rj-rpsc-ae"
+name = "RPSC Assistant Engineer / Engineering Services Examination"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "rj-rpsc-lecturer"
+name = "RPSC Lecturer / Assistant Professor Recruitment"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rpsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "rj-rpsc-other"
+name = "RPSC Recruitment to other posts (umbrella)"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rpsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "rj-rpsc-school-lecturer"
+name = "RPSC School Lecturer (Grade I)"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rpsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ['school\s*lecturer', 'first\s*grade', 'grade[-\s]*I\s*teacher'] }
+status = "active"
+
+[[exams]]
+id = "rj-rpsc-senior-teacher"
+name = "RPSC Senior Teacher (Grade II)"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['senior\s*teacher', 'second\s*grade', 'grade[-\s]*II\b'] }
+status = "active"
+
+[[exams]]
+id = "rj-rpsc-si"
+name = "RPSC Sub-Inspector / Platoon Commander"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', 'platoon\s*commander'] }
+status = "active"
+
+[[exams]]
+id = "rj-rpsc-apo"
+name = "RPSC Assistant Prosecution Officer"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rpsc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["law"]
+match = { any = ['prosecution\s*officer', '\bAPO\b'] }
+status = "active"
+
+[[exams]]
+id = "rj-rssb-cet-graduate"
+name = "Rajasthan Common Eligibility Test (Graduate Level)"
+short_name = "Rajasthan CET"
+jurisdiction = "rj"
+purpose = "eligibility"
+conducted_by = "rj-rssb"
+frequency = "annual"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ['\bCET\b.*graduate', 'common\s*eligibility\s*test.*graduate'] }
+status = "active"
+
+[[exams]]
+id = "rj-rssb-cet-senior-secondary"
+name = "Rajasthan Common Eligibility Test (Senior Secondary Level)"
+jurisdiction = "rj"
+purpose = "eligibility"
+conducted_by = "rj-rssb"
+frequency = "annual"
+qualification = "class_12"
+streams = ["general"]
+match = { any = ['\bCET\b.*(senior\s*secondary|12)', 'common\s*eligibility\s*test.*senior'] }
+status = "active"
+
+[[exams]]
+id = "rj-rssb-patwari"
+name = "RSSB Patwari"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rssb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["clerical"]
+match = { any = ["patwari"] }
+status = "active"
+
+[[exams]]
+id = "rj-rssb-ldc"
+name = "RSSB Junior Assistant / Clerk Grade II"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rssb"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["clerical"]
+match = { any = ['clerk\s*grade', 'junior\s*assistant', '\bLDC\b'] }
+status = "active"
+
+[[exams]]
+id = "rj-rssb-vdo"
+name = "RSSB Gram Vikas Adhikari"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rssb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["clerical"]
+match = { any = ['gram\s*vikas\s*adhikari', '\bVDO\b'] }
+status = "active"
+
+[[exams]]
+id = "rj-rssb-jen"
+name = "RSSB Junior Engineer"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rssb"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["engineering"]
+match = { any = ['junior\s*engineer', '\bJEN\b'] }
+status = "active"
+
+[[exams]]
+id = "rj-rssb-teacher-l1-l2"
+name = "RSSB Primary / Upper Primary Teacher (Level 1/2, REET Mains)"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rssb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['REET\s*mains', '(primary|upper\s*primary)\s*(school\s*)?teacher', 'level[-\s]*[12]\b'] }
+status = "active"
+
+[[exams]]
+id = "rj-rssb-jail-prahari"
+name = "RSSB Jail Prahari"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rssb"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["police"]
+match = { any = ['jail\s*prahari'] }
+status = "active"
+
+[[exams]]
+id = "rj-rssb-driver"
+name = "RSSB Driver / Vocational Trade Test"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rssb"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["technical"]
+match = { any = ["driver", "vocational"] }
+status = "active"
+
+[[exams]]
+id = "rj-rssb-other"
+name = "RSSB other recruitment (umbrella)"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rssb"
+frequency = "multiple"
+qualification = "class_10"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc"] }
+status = "active"
+
+[[exams]]
+id = "rj-bser-class-10"
+name = "RBSE Secondary Examination"
+jurisdiction = "rj"
+purpose = "school_board"
+conducted_by = "rj-bser"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['(?<!senior\s)secondary\b', 'class\s*(X|10)\b'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "rj-bser-class-12"
+name = "RBSE Senior Secondary Examination"
+jurisdiction = "rj"
+purpose = "school_board"
+conducted_by = "rj-bser"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['senior\s*secondary', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "rj-reet"
+name = "Rajasthan Eligibility Examination for Teachers"
+short_name = "REET"
+jurisdiction = "rj"
+purpose = "eligibility"
+conducted_by = "rj-bser"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['\bREET\b(?!\s*mains)'] }
+status = "active"
+
+[[exams]]
+id = "rj-police-constable"
+name = "Rajasthan Police Police Constable Recruitment"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-police"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", "sipahi|sepoy", '\bPC\b'] }
+status = "active"
+
+[[exams]]
+id = "rj-police-si"
+name = "Rajasthan Police Sub-Inspector Recruitment"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-police"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
+status = "active"
+
+[[exams]]
+id = "rj-hc-staff"
+name = "Rajasthan HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "rj-hc-judicial"
+name = "Rajasthan HC Civil Judge / Higher Judicial Service Examination"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-hc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', 'district\s*judge', '\bHJS\b'] }
+status = "active"
+
+[[exams]]
+id = "rj-ptet"
+name = "Rajasthan Pre-Teacher Education Test (B.Ed.)"
+short_name = "PTET"
+jurisdiction = "rj"
+purpose = "admission"
+conducted_by = "rj-ptet-nodal"
+frequency = "annual"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bPTET\b'] }
+status = "active"
+
+[[exams]]
+id = "rj-pre-deled"
+name = "Rajasthan Pre D.El.Ed. (BSTC) Examination"
+jurisdiction = "rj"
+purpose = "admission"
+conducted_by = "rj-ptet-nodal"
+frequency = "annual"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['pre\s*D\.?\s*El\.?\s*Ed', '\bBSTC\b'] }
+status = "active"
+
+[[exams]]
+id = "rj-ruhs-entrance"
+name = "RUHS Entrance (B.Sc Nursing, Pharmacy, Paramedical, PG)"
+jurisdiction = "rj"
+purpose = "admission"
+conducted_by = "rj-ruhs"
+frequency = "annual"
+qualification = "class_12"
+streams = ["nursing", "pharmacy", "allied_health"]
+match = { any = ["entrance", "admission", "counsell?ing"] }
+status = "active"
+
+[[exams]]
+id = "rj-ruhs-recruitment"
+name = "RUHS-conducted health recruitment (Medical Officer, CHO, Nursing)"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-ruhs"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["medical", "nursing"]
+match = { any = ['medical\s*officer', '\bCHO\b', "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "rj-power-recruitment"
+name = "Rajasthan Power Companies Recruitment (JEN, Technical Helper, Accountant)"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rvunl"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["engineering", "technical"]
+match = { any = ['junior\s*engineer', 'technical\s*helper', "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "rj-rpsc-junior-legal-officer"
+name = "Junior Legal Officer Exam"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Junior[\s\-_./()]*Legal[\s\-_./()]*Officer[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
+
+[[exams]]
+id = "rj-rpsc-librarian-and-pti"
+name = "RPSC Librarian and PTI Examination"
+jurisdiction = "rj"
+purpose = "recruitment"
+conducted_by = "rj-rpsc"
+frequency = "irregular"
+match = { any = ['(?<![A-Za-z])Librarian[\s\-_./()]*and[\s\-_./()]*PTI[\s\-_./()]*Exam(?![A-Za-z])'] }
+status = "active"
+notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."

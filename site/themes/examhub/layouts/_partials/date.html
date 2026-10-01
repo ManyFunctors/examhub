@@ -1,0 +1,12 @@
+{{- /* Renders one date in the site's single display format: 2026, October 04. */ -}}
+{{- $d := .d -}}
+{{- $status := .status | default "confirmed" -}}
+{{- $cls := .class | default "" -}}
+{{- $iso := $d.Format "2006-01-02" -}}
+{{- $long := $d.Format "2006, January 02" -}}
+{{- $cd := .countdown | default false -}}
+{{- if eq $status "provisional" -}}
+  <time datetime="{{ $iso }}" class="date date--provisional{{ with $cls }} {{ . }}{{ end }}"><span class="date__flag">Provisional:</span> <span class="date__value">{{ $long }}</span></time>
+{{- else -}}
+  <time datetime="{{ $iso }}"{{ if $cd }} data-exam-date="{{ $iso }}"{{ end }} class="date{{ with $cls }} {{ . }}{{ end }}"><span class="date__value">{{ $long }}</span></time>
+{{- end -}}

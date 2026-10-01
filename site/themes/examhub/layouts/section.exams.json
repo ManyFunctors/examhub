@@ -1,0 +1,20 @@
+{{- /* JSON search index for /exams/, published via the "exams" output format. */ -}}
+{{- $items := slice -}}
+{{- range where site.RegularPages "Params.section" "exams" -}}
+  {{- $st := partialCached "exam-status.html" . .RelPermalink -}}
+  {{- /* Whether any date on this record is provisional. */ -}}
+  {{- $provisional := where (partialCached "milestones.html" . .RelPermalink) "status" "provisional" -}}
+  {{- $items = $items | append (dict
+        "title" .Title
+        "aliases" ((partialCached "v2/params.html" . .RelPermalink).known_as | default slice)
+        "url" .RelPermalink
+        "bodies" ((partialCached "v2/params.html" . .RelPermalink).bodies | default slice)
+        "categories" ((partialCached "v2/params.html" . .RelPermalink).categories | default slice)
+        "status" $st.label
+        "summary" ((partialCached "v2/params.html" . .RelPermalink).summary | default "")
+        "exam" (cond (ne (partialCached "v2/params.html" . .RelPermalink).exam_date nil) ((partialCached "v2/params.html" . .RelPermalink).exam_date | time.AsTime | time.Format "2006-01-02") "")
+        "examStatus" ((partialCached "v2/params.html" . .RelPermalink).exam_date_status | default "")
+        "hasProvisional" (gt (len $provisional) 0)
+    ) -}}
+{{- end -}}
+{{- dict "items" $items | jsonify (dict "indent" "") -}}

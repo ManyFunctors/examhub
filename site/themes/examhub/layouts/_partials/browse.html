@@ -1,0 +1,141 @@
+{{- /* The browse page for one month: the bar, the month's cards, Dates to Be Announced and
+     Completed, and the same month as a day list. The home page is the opening month;
+     /YYYY-MM/ pages are the rest, so every month is reachable without JavaScript. */ -}}
+{{- $d := partialCached "exam-list.html" .page -}}
+{{- $ev := partialCached "events.html" .page -}}
+{{- $month := .month | default (substr $ev.start 0 7) -}}
+{{- $pages := dict -}}
+{{- range $d.rows }}{{ $pages = merge $pages (dict .page.RelPermalink .page) }}{{ end -}}
+{{- with .page -}}
+  <div class="page-header page-header--stamped">
+    <div>
+      {{- /* The site title, linked to the home page. */}}
+      <h1><a class="page-header__home" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a></h1>
+      {{- /* The brand line, not the meta description. */}}
+      <p class="page-description">{{ site.Params.tagline }}</p>
+    </div>
+    {{- /* The verification stamp sits in the header's top-right corner. */ -}}
+    {{ partial "freshness.html" $d }}
+  </div>
+
+  {{- /* One bar, then the list it controls. */ -}}
+  <div class="browse">
+   {{- /* The form opens here because a partial can't open a tag its caller closes. */ -}}
+   <form class="filters" id="exam-filters" data-filters-closed
+         aria-label="Search, filter and view exams">
+     <div class="browse__bar">
+      {{ partial "filters.html" $d }}
+
+      {{- /* The month, then the two views of one filtered set. */ -}}
+      <div class="navgroup">
+        <div class="navgroup__month">
+        {{- /* month stepper, reset, and the calendar grid under the month name */}}
+        {{ partial "month-nav.html" (dict "ev" $ev "month" $month) }}
+        </div>
+      <div class="views" id="views" data-view="exams">
+        {{- /* Icons are inline SVG. */}}
+        <div class="views__tabs" role="tablist" aria-label="Browse view">
+          <button class="views__tab" type="button" role="tab" id="tab-exams"
+                  aria-selected="true" aria-controls="panel-exams" data-view="exams"><svg
+                  class="views__icon" viewBox="0 0 16 16" fill="none" stroke="currentColor"
+                  stroke-width="1.6" aria-hidden="true"><rect x="2" y="2" width="5" height="5" rx="1.2"/><rect
+                  x="9" y="2" width="5" height="5" rx="1.2"/><rect x="2" y="9" width="5" height="5" rx="1.2"/><rect
+                  x="9" y="9" width="5" height="5" rx="1.2"/></svg><span class="views__label">Grid</span></button>
+          <button class="views__tab" type="button" role="tab" id="tab-dates"
+                  aria-selected="false" aria-controls="panel-dates" data-view="dates"><svg
+                  class="views__icon" viewBox="0 0 16 16" fill="none" stroke="currentColor"
+                  stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path
+                  d="M6.25 3.5h7.25M6.25 8h7.25M6.25 12.5h7.25"/><rect x="2" y="2.6" width="1.9" height="1.9" rx=".4" fill="currentColor" stroke="none"/><rect
+                  x="2" y="7.05" width="1.9" height="1.9" rx=".4" fill="currentColor" stroke="none"/><rect
+                  x="2" y="11.55" width="1.9" height="1.9" rx=".4" fill="currentColor" stroke="none"/></svg><span class="views__label">List</span></button>
+        </div>
+      </div>
+      </div>
+
+      {{- /* The kind legend, as a disclosure in the bar rather than a band in the content column. */ -}}
+      <div class="cal__keywrap">
+        <button class="cal__keybtn" type="button" id="cal-key-toggle"
+                aria-expanded="false" aria-controls="cal-key-pop"
+                aria-label="Legend" data-label="Legend">
+          <svg class="cal__keybtn-icon" viewBox="0 0 16 16" aria-hidden="true">
+            <rect class="cal__keybtn-sw cal__keybtn-sw--exam_date" x="1.5" y="2" width="13" height="3.4" rx="0.9" />
+            <rect class="cal__keybtn-sw cal__keybtn-sw--registration" x="1.5" y="6.3" width="13" height="3.4" rx="0.9" />
+            <rect class="cal__keybtn-sw cal__keybtn-sw--admit_card" x="1.5" y="10.6" width="13" height="3.4" rx="0.9" />
+          </svg>
+        </button>
+        <div class="cal__keypop" id="cal-key-pop" hidden>
+          {{ partial "cal-key.html" . }}
+        </div>
+      </div>
+
+      {{ partial "exam-stats.html" $d }}
+     </div>
+
+     {{ partial "filters-body.html" $d }}
+   </form>
+   {{- /* Without JavaScript the filters can't run; their stand-ins are the index pages. */}}
+   <nav class="axis-nav" aria-label="Browse exams by">
+     <span class="axis-nav__label">Browse By</span>
+     {{- range $a := slice (dict "p" "/bodies" "l" "Body") (dict "p" "/types" "l" "Type") (dict "p" "/statuses" "l" "Status") (dict "p" "/kinds" "l" "Date Kind") }}
+     {{- with site.GetPage $a.p }}<a class="axis-nav__link" href="{{ .RelPermalink }}">{{ $a.l }}</a>{{ end }}
+     {{- end }}
+   </nav>
+
+    <div class="browse__main">
+      <div class="views__panel" id="panel-exams" role="tabpanel" aria-labelledby="tab-exams">
+      {{- with $d.rows }}
+        {{- /* Grid view: the current month's exams, then TBA and Completed. */ -}}
+        {{- $by := dict -}}
+        {{- range . -}}
+          {{- $k := cond (ne .st.nextDate "") (substr .st.nextDate 0 7) (cond (eq .st.key "done") "~2done" "~1tba") -}}
+          {{- $by = merge $by (dict $k ((index $by $k | default slice) | append .)) -}}
+        {{- end }}
+        <div id="exam-grid" class="bymonth" data-month="{{ $month }}" data-index="{{ (site.Home.OutputFormats.Get "data").RelPermalink }}">
+          {{- /* The month section: exams with a date in this month, first date first. The rest of
+             the records arrive with index.json when the script needs them. */}}
+          {{- $inMonth := partial "month-cards.html" (dict "ev" $ev "month" $month) }}
+          {{- $n := len $inMonth }}
+          {{- $mLabel := (time.AsTime (printf "%s-01" $month)).Format "January 2006" }}
+          {{- /* only when the site has nothing at all; an empty month otherwise just steps aside */}}
+          <div class="bymonth__group bymonth__none"{{ if or $n $d.rows }} hidden{{ end }}>
+            <div class="bymonth__summary"><h2 class="bymonth__title">{{ $mLabel }}</h2></div>
+            <p class="cal__none">{{ if lt $month (substr $ev.today 0 7) }}No dates this month.{{ else }}No upcoming dates this month.{{ end }}</p>
+          </div>
+          <details class="bymonth__group{{ if not $n }} bymonth__group--off{{ end }}" open data-section="month">
+            <summary class="bymonth__summary"><h2 class="bymonth__title"><span class="bymonth__name">{{ $mLabel }}</span><span class="bymonth__count">{{ with $n }}({{ . }} Exam{{ if ne . 1 }}s{{ end }}){{ end }}</span></h2></summary>
+            <div class="card-grid card-grid--3">
+              {{- range $inMonth }}
+                {{ partial "exam-card.html" (dict "page" (index $pages .u) "chip" .e "order" (string .i)) }}
+              {{- end }}
+            </div>
+          </details>
+          {{- range $k, $rows := $by }}{{ if hasPrefix $k "~" }}
+          <details class="bymonth__group" data-section="{{ $k }}">
+            <summary class="bymonth__summary"><h2 class="bymonth__title">{{ if eq $k "~1tba" }}Dates to Be Announced{{ else if eq $k "~2done" }}Completed{{ else }}{{ time.AsTime (printf "%s-01" $k) | time.Format "January 2006" }}{{ end }}<span class="bymonth__count">({{ len $rows }} Exam{{ if ne (len $rows) 1 }}s{{ end }})</span></h2></summary>
+            <div class="card-grid card-grid--3">
+              {{- range sort $rows "st.nextDate" }}
+                {{ partial "exam-card.html" .page }}
+              {{- end }}
+            </div>
+          </details>
+          {{- end }}{{ end }}
+        </div>
+
+        <div class="empty" id="exam-grid-empty" hidden>
+          <p class="empty__title">No Exams Match These Filters</p>
+          <p>Widen the date range, or <button class="link-button" type="button" data-filter-reset>clear the filters</button>.</p>
+        </div>
+      {{- else }}
+        <div class="empty">
+          <p class="empty__title">No exams yet</p>
+          <p>Exam records will appear here once added.</p>
+        </div>
+      {{- end }}
+      </div>
+
+      <div class="views__panel" id="panel-dates" role="tabpanel" aria-labelledby="tab-dates" hidden>
+        {{ partial "dates.html" (dict "d" $d "ev" $ev "month" $month) }}
+      </div>
+    </div>
+  </div>
+{{- end -}}

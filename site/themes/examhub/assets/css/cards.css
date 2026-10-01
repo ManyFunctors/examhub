@@ -1,0 +1,363 @@
+/* Status pills. */
+
+.pill {
+  /* The squircle, and the air inside it. */
+  /* Pre-wrap, and this is the rule that makes the space before the date exist. */
+  display: inline-flex;
+  align-items: center;
+  /* Left padding includes the 3px edge band. */
+  padding: 0.15rem var(--sp-2) 0.15rem calc(var(--sp-2) + 2px);
+  border-radius: var(--squircle);
+  /* The same 3px leading edge the date chips carry. */
+  border-left-width: var(--edge-thick);
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.35;
+  white-space: pre-wrap;
+  flex-shrink: 0;
+  color: var(--text);
+  background: var(--pill-fill, transparent);
+  /* Fill is the kind, border is urgency, ink is always --text (as calendar chips). */
+  /* 1px border in the kind's hue, 3px leading edge, as .cal__event. */
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--pill-edge, var(--border));
+  border-left-width: var(--edge-thick);
+}
+
+/* The one context that wants the larger tier. */
+.card__status {
+  border-radius: var(--squircle-lg);
+}
+
+/* ── Which thing the status is about. One hue, one meaning. ────────── */
+.pill--registration {
+  --pill-fill: var(--registration-fill);
+  --pill-edge: var(--registration-tone);
+}
+
+.pill--exam_date {
+  --pill-fill: var(--exam-fill);
+  --pill-edge: var(--exam-tone);
+}
+
+.pill--admit_card {
+  --pill-fill: var(--admit-fill);
+  --pill-edge: var(--admit-tone);
+}
+
+.pill--correction {
+  --pill-fill: var(--correction-fill);
+  --pill-edge: var(--correction-tone);
+}
+
+.pill--result {
+  --pill-fill: var(--result-fill);
+  --pill-edge: var(--result-tone);
+}
+
+.pill--done {
+  --pill-fill: var(--done-fill);
+  --pill-edge: var(--done-tone);
+}
+
+/* ── Urgency: the border, and only the border ──────────────────────── */
+
+/* The ring. */
+.pill--urgent {
+  border-width: var(--edge-thick);
+  border-color: var(--urgent);
+}
+
+/* "Closes soon" keeps the weight. */
+.pill--soon {
+  font-weight: 700;
+}
+
+/* The timeline's "next" chip is emphasis, not a status. */
+.pill--info {
+  background: var(--bg-alt);
+  border-color: var(--overlay0);
+  color: var(--text);
+}
+
+/* The count band on the home page. */
+/* The band and the verification stamp share one box. */
+/* The band. */
+.stats__band {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-5);
+}
+
+/* Two equal columns at every width. */
+
+.stats {
+  display: grid;
+  grid-template-columns: none;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  column-gap: 0;
+  align-items: center;
+  width: 100%;
+  padding: var(--sp-4) var(--sp-5);
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+/* The rule is a border on the second figure, and a border is painted on the column edge. */
+.stat:not(:last-child) {
+  padding-right: var(--sp-4);
+}
+
+.stat + .stat {
+  padding-left: var(--sp-4);
+  border-left: 1px solid var(--border);
+}
+
+/* The stamp. */
+.stats__stamp .freshness {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 0.4rem;
+  padding: 0.25rem 0.6rem;
+  margin: 0.15rem 0 0;
+  font-size: var(--fs-xs);
+  line-height: 1.4;
+  white-space: nowrap;
+  color: var(--text-muted);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--squircle-md);
+}
+
+/* Teal as an accent on the word, not as a block. */
+.freshness__label {
+  color: var(--verified);
+  font-weight: 600;
+}
+
+.freshness time {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Overdue. */
+.stats__stamp .freshness.is-stale {
+  color: var(--text);
+  /* Weight, not a colour. */
+  font-weight: 600;
+}
+
+/* Nothing has been checked yet, so there is no age to report and the stamp carries no date. */
+.stats__stamp .freshness--empty {
+  color: var(--text-muted);
+  background: transparent;
+  border-style: dashed;
+  border-color: var(--border);
+}
+
+/* Below the breakpoint the figures stack, so the rule that groups them runs horizontally. */
+/* Side by side, as many equal columns as there are figures. */
+
+.stat {
+  min-width: 0;
+
+  /* Centred, and at every width rather than only side by side. */
+  text-align: center;
+}
+
+.stat__value {
+  margin: 0;
+  font-size: var(--fs-2xl);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+}
+
+/* No lead size. */
+.stat--lead .stat__value {
+  font-size: var(--fs-2xl);
+}
+
+/* The caption that names each figure, under its number. */
+.stat__label {
+  margin: var(--sp-1) 0 0;
+  min-height: 2.7em;
+  font-size: var(--fs-xs);
+  line-height: 1.35;
+  color: var(--text);
+}
+
+/* Cards — intentionally minimal. See _partials/exam-card.html. */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-4);
+  margin-bottom: var(--sp-6);
+}
+
+@media (min-width: 576px) {
+  .card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-grid--3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  padding: var(--sp-4);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: var(--edge-thick) solid var(--card-edge, var(--border));
+  border-radius: var(--squircle-lg);
+  box-shadow: var(--shadow);
+  color: var(--text);
+}
+
+/* The card's status colour, on its left edge. */
+.card--registration {
+  --card-edge: var(--registration);
+}
+
+.card--exam_date {
+  --card-edge: var(--exam);
+}
+
+.card--admit_card {
+  --card-edge: var(--admit);
+}
+
+.card--result {
+  --card-edge: var(--result);
+}
+
+.card--done {
+  --card-edge: var(--done);
+}
+
+/* Hover takes the whole outline, in this card's own status colour. */
+.card:hover {
+  border-color: var(--card-edge, var(--highlight));
+  text-decoration: none;
+  box-shadow: var(--shadow-lg);
+}
+
+/* The three lines above the date row, in reading order and by weight. */
+.card__body-name {
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  /* Not uppercase, and not letter-spaced. */
+  color: var(--text-muted);
+  margin: 0;
+  /* break-word, not anywhere. */
+  overflow-wrap: break-word;
+}
+
+.card__title {
+  /* fs-lg, up from --fs-base, and one step heavier. */
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  color: var(--heading);
+  margin: 0;
+  line-height: 1.35;
+  overflow-wrap: break-word;
+}
+
+/* The status chip on a card, and the only chip on the site that is more than one line. */
+.card__status {
+  display: block;
+  align-self: flex-start;
+  max-width: 100%;
+  white-space: normal;
+  text-align: left;
+  overflow-wrap: break-word;
+  min-height: calc(2lh + 2 * var(--pill-pad-block) + 2px);
+}
+
+/* The date on a card, and only there, and on a line of its own. */
+.card__status .pill__date {
+  display: block;
+  white-space: nowrap;
+}
+
+/* The date inside a one-line status chip: the header chip on a record page and the admit
+   states. */
+.pill__date {
+  white-space: nowrap;
+}
+
+/* Countdown, recomputed client-side from data-exam-date. */
+.countdown {
+  font-size: var(--fs-xs);
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  /* Full --text, not the accent: the countdown is a second reading of the date beside it. */
+  color: var(--text);
+  white-space: nowrap;
+}
+
+/* A record whose verification is overdue. */
+.card--stale .card__title {
+  opacity: 0.75;
+}
+
+/* Warning text stays neutral, with a coloured dot for meaning. */
+.card__flag {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-1);
+  margin: 0;
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.card__flag::before {
+  content: "";
+  flex-shrink: 0;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 2px;
+  background: var(--text-muted);
+  transform: translateY(-0.1rem);
+}
+
+/* ── The verification stamp, in the page header ───────────────────────── */
+.page-header--stamped {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--sp-4);
+}
+
+/* min-width: 0 on the title block only, never the stamp. */
+.page-header--stamped > div:not(.stats__stamp) {
+  min-width: 0;
+}
+
+/* The stamp keeps its width; the description wraps. */
+.stats__stamp {
+  flex-shrink: 0;
+}
+
+/* The sidebar breakpoint decides which stamp copy shows. */
+@media (max-width: 991px) {
+  .page-header--stamped > .stats__stamp {
+    display: none;
+  }
+}

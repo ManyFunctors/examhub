@@ -1,0 +1,35 @@
+{{- /* Jost — the typeface used by the Doks theme. The 400 weight is preloaded: it is nearly all the text. */ -}}
+<link rel="preload" href="{{ "fonts/jost-400.woff2" | relURL }}" as="font" type="font/woff2" crossorigin />
+<style>
+  @font-face {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("{{ "fonts/jost-400.woff2" | relURL }}") format("woff2");
+  }
+  @font-face {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("{{ "fonts/jost-500.woff2" | relURL }}") format("woff2");
+  }
+  @font-face {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("{{ "fonts/jost-700.woff2" | relURL }}") format("woff2");
+  }
+  /* Arial reshaped to Jost's width and line height, so the swap to Jost doesn't reflow the page.
+     Measured from jost-400.woff2 against Arial/Liberation Sans. */
+  @font-face {
+    font-family: "Jost Fallback";
+    src: local("Arial"), local("ArialMT"), local("Liberation Sans"), local("LiberationSans"), local("Arimo"), local("Helvetica");
+    size-adjust: 94.9%;
+    ascent-override: 112.7%;
+    descent-override: 39.5%;
+    line-gap-override: 0%;
+  }
+</style>

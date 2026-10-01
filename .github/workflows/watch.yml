@@ -1,0 +1,102 @@
+# The fast loop: poll the feeds that are in season, list what is new.
+#
+# "Hot" feeds are the ones whose body published something in the last three
+# weeks (harvest.feed_tiers); they cool off on their own, so this job's cost
+# follows the exam calendar with no one tuning it. Twice an hour the warm
+# feeds (active in the last four months) ride along.
+#
+# Latency, honestly: GitHub runs a */10 schedule late under load and may
+# drop a run outright, most of all near the top of the hour. For a firm
+# cadence, point an external scheduler (cron-job.org or similar) at the
+# repository_dispatch API with event type "watch"; see docs/pipeline.md.
+name: watch
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  repository_dispatch:
+    types: [watch]
+  workflow_dispatch:
+    inputs:
+      tier:
+        description: "hot | warm | all"
+        default: hot
+
+permissions:
+  contents: write   # push the `harvest` branch; nothing else
+
+concurrency:
+  group: harvest
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install
+        run: |
+          uv python install 3.12
+          uv venv --python 3.12
+          uv pip install -e '.[crawl]'
+
+      - uses: ./.github/actions/harvest-state
+        with:
+          mode: restore
+
+      - name: Pick the tier
+        id: tier
+        run: |
+          tier="${{ inputs.tier }}"
+          if [ -z "$tier" ]; then
+            # Warm feeds on the first run of each half hour.
+            m=$(date -u +%M); m=${m#0}
+            if [ $((m % 30)) -lt 10 ]; then tier=warm; else tier=hot; fi
+          fi
+          echo "tier=$tier" >> "$GITHUB_OUTPUT"
+
+      - name: Poll
+        env:
+          EXAMHUB_CONTACT: ${{ secrets.EXAMHUB_CONTACT }}
+          EXAMHUB_HTTPCACHE: "0"
+          EXAMHUB_HOST_DELAY: "2"
+          MOZ_HEADLESS: "1"
+        run: |
+          uv run scrapy crawl feeds -a tier=${{ steps.tier.outputs.tier }} \
+            -s LOG_LEVEL=INFO -s LOG_FILE=work/watch.log -s DOWNLOAD_TIMEOUT=30 -s RETRY_TIMES=1 || true
+          cat work/last-crawl.json || true
+
+      - name: Read new notification PDFs
+        # A few, text layer only, so the push can say what the PDF says.
+        # Scans are left for the daily crawl, which has OCR.
+        env:
+          EXAMHUB_CONTACT: ${{ secrets.EXAMHUB_CONTACT }}
+          EXAMHUB_ENABLE_OCR: "0"
+        run: |
+          uv run scrapy crawl documents -a limit=6 -a recent_days=3 -a ocr=0 \
+            -s LOG_LEVEL=INFO -s LOG_FILE=work/documents.log -s DOWNLOAD_TIMEOUT=30 -s CLOSESPIDER_TIMEOUT=240 || true
+          uv run python -m examhub_pipeline documents build || true
+
+      - name: List new notices
+        run: uv run python -m examhub_pipeline.crawl.notify
+
+      - uses: ./.github/actions/harvest-state
+        with:
+          mode: save
+          message: "watch(${{ steps.tier.outputs.tier }}): new notices"
+
+      - name: Upload log
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: watch-log
+          path: work/watch.log
+          retention-days: 3

@@ -1,0 +1,384 @@
+/* Site header: the mobile drawer's trigger, and nothing else. */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  height: var(--header-h);
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: 0 var(--sp-4);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px);
+}
+
+@media (min-width: 992px) {
+  .site-header {
+    display: none;
+  }
+}
+
+/* Menu button: the bar's only content, so it needs no ordering to sit on the left. */
+/* Icon-only button: the outline is the affordance. */
+.nav-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  /* The same guard the close button needs and for the same reason. */
+  flex-shrink: 0;
+  margin-left: calc(var(--sp-2) * -1);
+  padding: 0;
+  border: 1px solid var(--control-border);
+  border-radius: var(--squircle-lg);
+  background: var(--bg-alt);
+  color: var(--heading);
+  cursor: pointer;
+}
+
+.nav-toggle:hover {
+  border-color: var(--highlight);
+  color: var(--highlight);
+}
+
+.nav-toggle svg {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+/* Burger and cross occupy the same cell; only the active one is shown. */
+.nav-toggle .icon-close,
+.nav-toggle.is-open .icon-burger {
+  display: none;
+}
+
+.nav-toggle.is-open .icon-close {
+  display: block;
+}
+
+/* In-page close button, mobile only. */
+.sidebar__close {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  /* The 36px height above was a request, not a size, and the column this button sits in refused
+     it. */
+  flex-shrink: 0;
+  margin-left: auto;
+  margin-bottom: var(--sp-3);
+  padding: 0;
+  /* The same box as .nav-toggle, for the same reason: this is the second half of one control. */
+  border: 1px solid var(--control-border);
+  border-radius: var(--squircle-lg);
+  background: var(--bg-alt);
+  color: var(--heading);
+  cursor: pointer;
+}
+
+.sidebar__close svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* About link: an icon button paired with the theme switch. */
+/* The two controls at the foot of the sidebar, sized and styled as one pair. */
+.sidebar__ctl {
+  display: inline-grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  padding: 0;
+  border: 1px solid var(--border);
+  /* The larger squircle, for a 40px box (see tokens.css). */
+  border-radius: var(--squircle-lg);
+  background: var(--surface);
+  color: var(--heading);
+  cursor: pointer;
+  line-height: 0;
+}
+
+.sidebar__ctl:hover {
+  border-color: var(--highlight);
+  color: var(--highlight);
+  text-decoration: none;
+}
+
+.sidebar__ctl svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Which page you are on, told by fill rather than by hue. */
+.header-about.is-active {
+  background: var(--text);
+  border-color: var(--text);
+  color: var(--bg);
+}
+
+/* Theme switch. */
+.theme-toggle .icon-sun,
+.theme-toggle .icon-moon {
+  grid-area: 1 / 1;
+}
+
+.theme-toggle .icon-sun {
+  opacity: 1;
+}
+
+.theme-toggle .icon-moon {
+  opacity: 0;
+}
+
+.theme-toggle[data-mode="dark"] .icon-sun {
+  opacity: 0;
+}
+
+.theme-toggle[data-mode="dark"] .icon-moon {
+  opacity: 1;
+}
+
+/* Page grid */
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  .layout {
+    grid-template-columns: var(--sidebar-w) minmax(0, 1fr);
+  }
+
+  .layout--toc {
+    grid-template-columns: var(--sidebar-w) minmax(0, 1fr) var(--toc-w);
+  }
+}
+
+/* Stretch so the right border runs the full page height. */
+.sidebar {
+  display: none;
+  align-self: stretch;
+  border-right: 1px solid var(--border);
+}
+
+/* The inner wrapper is the sidebar's scrolling viewport. */
+.sidebar__inner {
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  padding: var(--sp-5) var(--sp-4);
+  scrollbar-width: thin;
+}
+
+/* The one part of the sidebar that scrolls, at every width. */
+.sidebar__upcoming {
+  /* A column, so the heading stays above the list. */
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+/* The heading, pinned. */
+.sidebar__upcoming .sidebar__title {
+  flex: 0 0 auto;
+}
+
+/* The scroller, and where its scrollbar goes. */
+.sidebar__upcoming .sidebar__list {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-gutter: stable;
+  margin-right: calc(-1 * var(--sp-4));
+  padding-right: var(--sp-2);
+}
+
+/* And everything else in the column stays its own height. */
+.sidebar__close,
+.sidebar__nav,
+.sidebar__controls {
+  flex: 0 0 auto;
+}
+
+@media (min-width: 992px) {
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Exactly one window tall. */
+  .sidebar__inner {
+    flex: 0 0 auto;
+    height: 100vh;
+    min-height: 0;
+    overflow: hidden;
+  }
+}
+
+/* The top pad is the same at every width, and it is --sp-5. */
+.content {
+  min-width: 0;
+  padding: var(--sp-5) var(--sp-4) var(--sp-8);
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding: var(--sp-5) var(--sp-6);
+  }
+}
+
+.content__inner {
+  max-width: var(--content-max);
+}
+
+.content--wide .content__inner {
+  max-width: none;
+}
+
+/* Off-canvas sidebar below the desktop breakpoint, sliding in from the left. */
+@media (max-width: 991px) {
+  :root {
+    /* 240ms, chosen for the distance and not by analogy with the 180ms the theme switch uses. */
+    --drawer-dur: 240ms;
+
+    /* A decelerate curve. */
+    --drawer-ease: cubic-bezier(0.2, 0, 0, 1);
+  }
+
+  .sidebar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: min(19rem, 84vw);
+    z-index: 50;
+    background: var(--bg);
+    transform: translateX(-100%);
+    box-shadow: var(--shadow-lg);
+    display: flex;
+    flex-direction: column;
+    /* It is a floating panel, not a column, so it takes no divider
+       from the desktop layout. */
+    border-right: none;
+    /* transform and nothing else. */
+    transition: transform var(--drawer-dur) var(--drawer-ease);
+  }
+
+  /* The drawer is pinned top and bottom, so it is one screen tall. */
+  .sidebar__inner {
+    position: static;
+    max-height: none;
+    overflow: hidden;
+    padding: var(--sp-4);
+  }
+
+  /* The close button shares the row with the column's own heading. */
+  .sidebar__close {
+    display: inline-flex;
+    position: absolute;
+    /* Matches .sidebar__inner's padding. */
+    top: var(--sp-4);
+    right: var(--sp-4);
+    margin-left: 0;
+    margin-bottom: 0;
+    /* One height, shared with the link beside it. */
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .sidebar__nav {
+    /* Enough room for the button beside the links. */
+    padding-right: 4.5rem;
+  }
+
+  /* The link, to the same 2.5rem. */
+  .sidebar__nav .sidebar__link {
+    min-height: 2.5rem;
+  }
+
+  /* Prevent background scroll while the drawer is open. */
+  body.nav-open {
+    overflow: hidden;
+  }
+
+  .sidebar.is-open {
+    transform: translateX(0);
+  }
+
+  .scrim {
+    position: fixed;
+    inset: 0;
+    z-index: 45;
+    background: rgba(9, 16, 22, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    /* The scrim fades on the same clock and the same curve as the drawer. */
+    transition:
+      opacity var(--drawer-dur) var(--drawer-ease),
+      visibility 0s linear var(--drawer-dur);
+  }
+
+  .scrim.is-open {
+    opacity: 1;
+    visibility: visible;
+    transition:
+      opacity var(--drawer-dur) var(--drawer-ease),
+      visibility 0s;
+  }
+}
+
+/* prefers-reduced-motion zeroes the one custom property and leaves everything else alone. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --drawer-dur: 0s;
+  }
+}
+
+@media (min-width: 992px) {
+  .scrim {
+    display: none;
+  }
+}
+
+.toc {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .toc {
+    display: block;
+    padding: var(--sp-5) var(--sp-4);
+    font-size: var(--fs-sm);
+    align-self: start;
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+
+  .toc nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 var(--sp-3);
+    border-left: 1px solid var(--border);
+  }
+
+  .toc nav ul ul {
+    border-left: 0;
+    padding-left: var(--sp-3);
+  }
+}

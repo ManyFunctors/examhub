@@ -1,0 +1,81 @@
+# Catalogue: Chandigarh. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "ch-phhc"
+name = "High Court of Punjab and Haryana"
+short_name = "Punjab & Haryana HC"
+jurisdiction = "ch"
+kind = "court"
+website = "https://highcourtchd.gov.in/"
+status = "active"
+notes = "Serves Punjab, Haryana and Chandigarh. Judicial service exams for Punjab and Haryana are run by PPSC/HPSC on its behalf."
+
+[[bodies]]
+id = "ch-admin"
+name = "Chandigarh Administration"
+short_name = "Chandigarh Administration"
+jurisdiction = "ch"
+kind = "ministry_department"
+website = "https://chandigarh.gov.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "ch-phhc/recruitment"
+body = "ch-phhc"
+url = "https://highcourtchd.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "ch-admin/home"
+body = "ch-admin"
+url = "https://chandigarh.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "ch-phhc-staff"
+name = "Punjab & Haryana HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "ch"
+purpose = "recruitment"
+conducted_by = "ch-phhc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "ch-teacher-recruitment"
+name = "Chandigarh Education Department JBT / TGT / PGT Recruitment"
+jurisdiction = "ch"
+purpose = "recruitment"
+conducted_by = "ch-admin"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bJBT\b', '\bTGT\b', '\bPGT\b', "teacher"] }
+status = "active"
+
+[[exams]]
+id = "ch-police-constable"
+name = "Chandigarh Police Constable Recruitment"
+jurisdiction = "ch"
+purpose = "recruitment"
+conducted_by = "ch-admin"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable"] }
+status = "active"

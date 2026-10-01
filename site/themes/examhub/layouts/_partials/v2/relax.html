@@ -1,0 +1,8 @@
+{{- /* An age relaxation code as words: '+5' -> 5 more years, '= 32' -> up to 32 */ -}}
+{{- $r := . -}}
+{{- $out := $r -}}
+{{- with findRESubmatch `^\+(\d+)$` $r }}{{ $out = printf "%s more years" (index (index . 0) 1) }}{{ end -}}
+{{- with findRESubmatch `^= ?(\d+)$` $r }}{{ $out = printf "up to age %s" (index (index . 0) 1) }}{{ end -}}
+{{- with findRESubmatch `^\+(\d+) \+ ([a-z_]+)$` $r }}{{ $out = printf "%s years plus your %s" (index (index . 0) 1) (replace (index (index . 0) 2) "_" " ") }}{{ end -}}
+{{- with findRESubmatch `^\+service, max (\d+)$` $r }}{{ $out = printf "your years of service, up to %s" (index (index . 0) 1) }}{{ end -}}
+{{- return $out -}}

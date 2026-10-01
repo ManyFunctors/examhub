@@ -1,0 +1,297 @@
+# Catalogue: Himachal Pradesh. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "hp-hppsc"
+name = "Himachal Pradesh Public Service Commission"
+short_name = "HPPSC"
+jurisdiction = "hp"
+kind = "public_service_commission"
+website = "https://hppsc.hp.gov.in/"
+status = "active"
+notes = "TLS legacy renegotiation."
+
+[[bodies]]
+id = "hp-hprca"
+name = "Himachal Pradesh Rajya Chayan Aayog"
+short_name = "HPRCA"
+jurisdiction = "hp"
+kind = "staff_selection_board"
+website = "https://hprca.hp.gov.in/"
+status = "active"
+notes = "Replaced the Himachal Pradesh Staff Selection Commission (Hamirpur), dissolved in 2023."
+
+[[bodies]]
+id = "hp-hpssc"
+name = "Himachal Pradesh Staff Selection Commission"
+short_name = "HPSSC"
+jurisdiction = "hp"
+kind = "staff_selection_board"
+website = "https://hpsssb.hp.gov.in/"
+status = "merged"
+successor = "hp-hprca"
+
+[[bodies]]
+id = "hp-hpbose"
+name = "Himachal Pradesh Board of School Education"
+short_name = "HPBOSE"
+jurisdiction = "hp"
+kind = "school_board"
+website = "https://hpbose.org/"
+status = "active"
+
+[[bodies]]
+id = "hp-police"
+name = "Himachal Pradesh Police"
+short_name = "HP Police"
+jurisdiction = "hp"
+kind = "police_recruitment_board"
+website = "https://citizenportal.hppolice.gov.in/"
+status = "active"
+notes = "Certificate on hppolice.gov.in does not cover the hostname."
+
+[[bodies]]
+id = "hp-hc"
+name = "High Court of Himachal Pradesh"
+short_name = "HP High Court"
+jurisdiction = "hp"
+kind = "court"
+website = "https://hphighcourt.nic.in/"
+status = "active"
+
+[[bodies]]
+id = "hp-hpu"
+name = "Himachal Pradesh University"
+short_name = "HPU"
+jurisdiction = "hp"
+kind = "university"
+website = "https://www.hpuniv.ac.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "hp-hppsc/whats-new"
+body = "hp-hppsc"
+url = "https://hppsc.hp.gov.in/Home/HomeWhatsNew"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "hp-hprca/home"
+body = "hp-hprca"
+url = "https://hprca.hp.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "hp-hpbose/home"
+body = "hp-hpbose"
+url = "https://hpbose.org/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "hp-police/home"
+body = "hp-police"
+url = "https://citizenportal.hppolice.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "hp-hc/recruitment"
+body = "hp-hc"
+url = "https://hphighcourt.nic.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "hp-hpu/home"
+body = "hp-hpu"
+url = "https://www.hpuniv.ac.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "hp-hpbose/notifications"
+body = "hp-hpbose"
+url = "https://hpbose.org/Notification.aspx"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Notifications)."
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "hp-hppsc-has"
+name = "HP Administrative Services Combined Competitive Examination (HAS)"
+known_as = ["HAS", "HPAS"]
+jurisdiction = "hp"
+purpose = "recruitment"
+conducted_by = "hp-hppsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['\bHAS\b', 'administrative\s*service', '\bHPAS\b'] }
+status = "active"
+
+[[exams]]
+id = "hp-hppsc-ae"
+name = "HPPSC Assistant Engineer / Engineering Services Examination"
+jurisdiction = "hp"
+purpose = "recruitment"
+conducted_by = "hp-hppsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "hp-hppsc-lecturer"
+name = "HPPSC Lecturer / Assistant Professor Recruitment"
+jurisdiction = "hp"
+purpose = "recruitment"
+conducted_by = "hp-hppsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "hp-hppsc-judicial"
+name = "HPPSC Civil Judge (Junior Division) / Judicial Services Examination"
+jurisdiction = "hp"
+purpose = "recruitment"
+conducted_by = "hp-hppsc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', '\bPCS[-\s]*\(?J\)?', 'judicial\s*magistrate'] }
+status = "active"
+
+[[exams]]
+id = "hp-hppsc-other"
+name = "HPPSC Recruitment to other posts (umbrella)"
+jurisdiction = "hp"
+purpose = "recruitment"
+conducted_by = "hp-hppsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "hp-hprca-group-c"
+name = "HPRCA Group C recruitment (JOA IT, Clerk, Patwari, TGT, JBT)"
+jurisdiction = "hp"
+purpose = "recruitment"
+conducted_by = "hp-hprca"
+frequency = "multiple"
+qualification = "class_12"
+streams = ["general"]
+match = { any = ['post\s*code', '\bJOA\b', "clerk", "patwari", '\bTGT\b', '\bJBT\b', "advt|advertisement|recruitment"] }
+status = "active"
+
+[[exams]]
+id = "hp-hpbose-class-10"
+name = "HPBOSE Matric Examination"
+jurisdiction = "hp"
+purpose = "school_board"
+conducted_by = "hp-hpbose"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['class\s*(X|10)\b', '\b(SSC|SSLC|HSLC|matric|madhyamik|secondary)\b(?!.*higher)'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "hp-hpbose-class-12"
+name = "HPBOSE Plus Two Examination"
+jurisdiction = "hp"
+purpose = "school_board"
+conducted_by = "hp-hpbose"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['class\s*(XII|12)\b', '\b(HSC|HSSC|intermediate|inter|higher\s*secondary|uchha|plus\s*two|\+2|PUC)\b'] }
+status = "active"
+
+[[exams]]
+id = "hp-tet"
+name = "Himachal Pradesh Teacher Eligibility Test"
+short_name = "HP TET"
+jurisdiction = "hp"
+purpose = "eligibility"
+conducted_by = "hp-hpbose"
+frequency = "biannual"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bTET\b', 'teacher\s*eligibility'] }
+status = "active"
+
+[[exams]]
+id = "hp-police-constable"
+name = "HP Police Police Constable Recruitment"
+jurisdiction = "hp"
+purpose = "recruitment"
+conducted_by = "hp-police"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", "sipahi|sepoy", '\bPC\b'] }
+status = "active"
+
+[[exams]]
+id = "hp-police-si"
+name = "HP Police Sub-Inspector Recruitment"
+jurisdiction = "hp"
+purpose = "recruitment"
+conducted_by = "hp-police"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
+status = "active"
+
+[[exams]]
+id = "hp-hc-staff"
+name = "HP High Court Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "hp"
+purpose = "recruitment"
+conducted_by = "hp-hc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "hp-hpu-entrance"
+name = "HPU Entrance Tests (B.Ed., MBA, PG)"
+jurisdiction = "hp"
+purpose = "admission"
+conducted_by = "hp-hpu"
+frequency = "annual"
+qualification = "graduate"
+streams = ["teaching", "management"]
+match = { any = ["entrance", 'B\.?\s*Ed', '\bMBA\b'] }
+status = "active"

@@ -1,0 +1,594 @@
+# Catalogue: Tamil Nadu. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "tn-tnpsc"
+name = "Tamil Nadu Public Service Commission"
+short_name = "TNPSC"
+jurisdiction = "tn"
+kind = "public_service_commission"
+website = "https://tnpsc.gov.in/"
+hosts = ["tnpsc.gov.in", "www.tnpsc.gov.in", "tnpscexams.in", "apply.tnpscexams.in"]
+status = "active"
+
+[[bodies]]
+id = "tn-trb"
+name = "Teachers Recruitment Board, Tamil Nadu"
+short_name = "TN TRB"
+jurisdiction = "tn"
+kind = "teacher_recruitment_board"
+website = "https://trb.tn.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tn-tnusrb"
+name = "Tamil Nadu Uniformed Services Recruitment Board"
+short_name = "TNUSRB"
+jurisdiction = "tn"
+kind = "police_recruitment_board"
+website = "https://tnusrb.tn.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tn-dge"
+name = "Directorate of Government Examinations, Tamil Nadu"
+short_name = "TN DGE"
+jurisdiction = "tn"
+kind = "school_board"
+website = "https://dge.tn.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tn-mrb"
+name = "Medical Services Recruitment Board, Tamil Nadu"
+short_name = "TN MRB"
+jurisdiction = "tn"
+kind = "health_recruitment"
+website = "https://www.mrb.tn.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tn-anna-univ"
+name = "Anna University (TANCET / CEETA-PG)"
+short_name = "Anna University"
+jurisdiction = "tn"
+kind = "university"
+website = "https://tancet.annauniv.edu/"
+status = "active"
+
+[[bodies]]
+id = "tn-tnea"
+name = "Tamil Nadu Engineering Admissions (DoTE)"
+short_name = "TNEA"
+jurisdiction = "tn"
+kind = "counselling_authority"
+website = "https://www.tneaonline.org/"
+status = "active"
+
+[[bodies]]
+id = "tn-mhc"
+name = "Madras High Court"
+short_name = "Madras HC"
+jurisdiction = "tn"
+kind = "court"
+website = "https://www.mhc.tn.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tn-forest"
+name = "Tamil Nadu Forest Uniformed Services Recruitment Committee"
+short_name = "TNFUSRC"
+jurisdiction = "tn"
+kind = "staff_selection_board"
+website = "https://www.forests.tn.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "tn-tnhs"
+name = "Tamil Nadu Nursing and Paramedical Selection (DME)"
+short_name = "TN Health"
+jurisdiction = "tn"
+kind = "health_recruitment"
+website = "https://tnhealth.tn.gov.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "tn-tnpsc/notifications"
+body = "tn-tnpsc"
+url = "https://tnpsc.gov.in/English/Notification.aspx"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tn-tnpsc/results"
+body = "tn-tnpsc"
+url = "https://tnpsc.gov.in/English/Results.aspx"
+adapter = "html_links"
+yields = "results"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tn-tnpsc/keys"
+body = "tn-tnpsc"
+url = "https://tnpsc.gov.in/English/answerkeys.aspx"
+adapter = "html_links"
+yields = "answer_keys"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tn-tnpsc/calendar"
+body = "tn-tnpsc"
+url = "https://tnpsc.gov.in/English/annualplanner.aspx"
+adapter = "html_links"
+yields = "calendar"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tn-trb/home"
+body = "tn-trb"
+url = "https://trb.tn.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tn-tnusrb/home"
+body = "tn-tnusrb"
+url = "https://tnusrb.tn.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tn-dge/home"
+body = "tn-dge"
+url = "https://dge.tn.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "tn-mrb/home"
+body = "tn-mrb"
+url = "https://www.mrb.tn.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tn-anna-univ/home"
+body = "tn-anna-univ"
+url = "https://tancet.annauniv.edu/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tn-tnea/home"
+body = "tn-tnea"
+url = "https://www.tneaonline.org/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tn-mhc/recruitment"
+body = "tn-mhc"
+url = "https://www.mhc.tn.gov.in/recruitment/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|recruit|advertisement|notification|result|admit|exam|vacanc'
+status = "active"
+
+[[feeds]]
+id = "tn-forest/home"
+body = "tn-forest"
+url = "https://www.forests.tn.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tn-tnhs/home"
+body = "tn-tnhs"
+url = "https://tnhealth.tn.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "tn-mrb/notifications"
+body = "tn-mrb"
+url = "https://www.mrb.tn.gov.in/content.php?menu_id=MTkw&dept_id=ODAw&lang=MQ=="
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Notifications)."
+
+[[feeds]]
+id = "tn-mrb/results"
+body = "tn-mrb"
+url = "https://www.mrb.tn.gov.in/content.php?menu_id=MjI0&dept_id=ODAw&lang=MQ=="
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Results)."
+
+[[feeds]]
+id = "tn-mhc/recruitment-archives"
+body = "tn-mhc"
+url = "https://www.mhc.tn.gov.in/recruitment/archive"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Recruitment Archives)."
+
+[[feeds]]
+id = "tn-trb/announcement-press-release"
+body = "tn-trb"
+url = "https://trb.tn.gov.in/announcement-press-release.php"
+adapter = "html_links"
+yields = "notices"
+status = "active"
+notes = "Found by the discover spider (Announcement/Press Release)."
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "tn-tnpsc-group-1"
+name = "TNPSC Combined Civil Services Examination - I (Group I)"
+known_as = ["TNPSC Group 1"]
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-tnpsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['group[-\s]*I\b(?![-\s]*[BC])', 'combined\s*civil\s*services[-\s]*(examination\s*)?[-–]?\s*I\b(?!I)'] }
+status = "active"
+
+[[exams]]
+id = "tn-tnpsc-ae"
+name = "TNPSC Assistant Engineer / Engineering Services Examination"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-tnpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "tn-tnpsc-lecturer"
+name = "TNPSC Lecturer / Assistant Professor Recruitment"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-tnpsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "tn-tnpsc-judicial"
+name = "TNPSC Civil Judge (Junior Division) / Judicial Services Examination"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-tnpsc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', '\bPCS[-\s]*\(?J\)?', 'judicial\s*magistrate'] }
+status = "active"
+
+[[exams]]
+id = "tn-tnpsc-other"
+name = "TNPSC Recruitment to other posts (umbrella)"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-tnpsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "tn-tnpsc-group-2"
+name = "TNPSC Combined Civil Services Examination - II (Group II / IIA)"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-tnpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["civil_services", "clerical"]
+match = { any = ['group[-\s]*(II|2)\s*(/?\s*IIA)?\b(?!I)', 'combined\s*civil\s*services[-\s]*(examination\s*)?[-–]?\s*II\b(?!I)'] }
+status = "active"
+
+[[exams]]
+id = "tn-tnpsc-group-4"
+name = "TNPSC Combined Civil Services Examination - IV (Group IV, VAO)"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-tnpsc"
+frequency = "annual"
+qualification = "class_10"
+streams = ["clerical"]
+match = { any = ['group[-\s]*(IV|4)\b', '\bVAO\b', 'combined\s*civil\s*services[-\s]*(examination\s*)?[-–]?\s*IV\b'] }
+status = "active"
+
+[[exams]]
+id = "tn-tnpsc-group-1b-1c"
+name = "TNPSC Group I-B and I-C Services (Assistant Commissioner HR&CE, DEO)"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-tnpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['group[-\s]*I[-\s]*[BC]\b'] }
+status = "active"
+
+[[exams]]
+id = "tn-tnpsc-cese"
+name = "TNPSC Combined Engineering Services Examination"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-tnpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['combined\s*engineering\s*services', '\bCESE\b'] }
+status = "active"
+
+[[exams]]
+id = "tn-tnpsc-cts"
+name = "TNPSC Combined Technical Services Examination (Diploma / ITI / Degree)"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-tnpsc"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["technical"]
+match = { any = ['combined\s*technical\s*services', '\bCTSE?\b'] }
+status = "active"
+
+[[exams]]
+id = "tn-tnpsc-departmental"
+name = "TNPSC Departmental Examinations (May and December)"
+jurisdiction = "tn"
+purpose = "departmental"
+conducted_by = "tn-tnpsc"
+frequency = "biannual"
+streams = ["clerical"]
+match = { any = ['departmental\s*exam'] }
+status = "active"
+
+[[exams]]
+id = "tn-tntet"
+name = "Tamil Nadu Teacher Eligibility Test"
+short_name = "TNTET"
+jurisdiction = "tn"
+purpose = "eligibility"
+conducted_by = "tn-trb"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['\bTN\s*TET\b', 'teacher\s*eligibility', '\bTET\b'] }
+status = "active"
+
+[[exams]]
+id = "tn-trb-pg-assistant"
+name = "TRB Post Graduate Assistant / Physical Education Director Grade I"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-trb"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ['post\s*graduate\s*assistant', '\bPG\s*Assistant', 'physical\s*education\s*director'] }
+status = "active"
+
+[[exams]]
+id = "tn-trb-bt-assistant"
+name = "TRB Graduate / BT Assistant and Secondary Grade Teacher"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-trb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bBT\s*Assistant', 'graduate\s*assistant', 'secondary\s*grade\s*teacher', '\bSGT\b'] }
+status = "active"
+
+[[exams]]
+id = "tn-trb-assistant-professor"
+name = "TRB Assistant Professor (Government Arts and Science / Polytechnic / Engineering Colleges)"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-trb"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ['assistant\s*professor', "lecturer"] }
+status = "active"
+
+[[exams]]
+id = "tn-set"
+name = "Tamil Nadu State Eligibility Test"
+short_name = "TNSET"
+jurisdiction = "tn"
+purpose = "eligibility"
+conducted_by = "tn-trb"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ['\bSET\b', "TNSET"] }
+status = "active"
+
+[[exams]]
+id = "tn-tnusrb-constable"
+name = "TNUSRB Police Constable Recruitment"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-tnusrb"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ["constable", "sipahi|sepoy", '\bPC\b'] }
+status = "active"
+
+[[exams]]
+id = "tn-tnusrb-si"
+name = "TNUSRB Sub-Inspector Recruitment"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-tnusrb"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["police"]
+match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
+status = "active"
+
+[[exams]]
+id = "tn-tnusrb-jail-fire"
+name = "TNUSRB Jail Warder / Fireman"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-tnusrb"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["police"]
+match = { any = ['jail\s*warder', 'fire\s*man|fireman'] }
+status = "active"
+
+[[exams]]
+id = "tn-dge-class-10"
+name = "TN DGE SSLC Examination"
+jurisdiction = "tn"
+purpose = "school_board"
+conducted_by = "tn-dge"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['\bSSLC\b', 'class\s*(X|10)\b'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "tn-dge-class-12"
+name = "TN DGE Higher Secondary (Plus Two) Examination"
+jurisdiction = "tn"
+purpose = "school_board"
+conducted_by = "tn-dge"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['higher\s*secondary', '\bHSE\b', 'plus\s*(one|two)', '\+\s*[12]\b'] }
+status = "active"
+
+[[exams]]
+id = "tn-mrb-recruitment"
+name = "TN MRB Recruitment (Assistant Surgeon, Nurse, Pharmacist, Lab Technician)"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-mrb"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["medical", "nursing", "allied_health"]
+match = { any = ['assistant\s*surgeon', "nurse", "pharmacist", "technician", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "tn-tancet"
+name = "Tamil Nadu Common Entrance Test (MBA, MCA)"
+short_name = "TANCET"
+jurisdiction = "tn"
+purpose = "admission"
+conducted_by = "tn-anna-univ"
+frequency = "annual"
+qualification = "graduate"
+streams = ["management"]
+match = { any = ["TANCET"] }
+status = "active"
+
+[[exams]]
+id = "tn-ceeta-pg"
+name = "Common Engineering Entrance Test and Admissions (M.E./M.Tech)"
+short_name = "CEETA-PG"
+jurisdiction = "tn"
+purpose = "admission"
+conducted_by = "tn-anna-univ"
+frequency = "annual"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ["CEETA"] }
+status = "active"
+
+[[exams]]
+id = "tn-tnea"
+name = "Tamil Nadu Engineering Admissions (rank on marks)"
+short_name = "TNEA"
+jurisdiction = "tn"
+purpose = "admission"
+conducted_by = "tn-tnea"
+frequency = "annual"
+qualification = "class_12"
+streams = ["engineering"]
+match = { any = ["TNEA", 'rank\s*list', "counsell?ing"] }
+status = "active"
+
+[[exams]]
+id = "tn-mhc-staff"
+name = "Madras HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-mhc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "clerical"]
+match = { any = ["clerk", "steno", "typist", "peon", "assistant", 'process\s*server', "driver", 'district\s*court', "group\\s*['‘’]?\\s*[CD]\\b", "recruitment"] }
+status = "active"
+
+[[exams]]
+id = "tn-forest-guard"
+name = "TN Forest Guard / Forest Watcher / Forester Recruitment"
+jurisdiction = "tn"
+purpose = "recruitment"
+conducted_by = "tn-forest"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["forest"]
+match = { any = ['forest\s*(guard|watcher)', "forester"] }
+status = "active"
+
+[[exams]]
+id = "tn-paramedical-admission"
+name = "Tamil Nadu Paramedical and Nursing Course Admission (Selection Committee)"
+jurisdiction = "tn"
+purpose = "admission"
+conducted_by = "tn-tnhs"
+frequency = "annual"
+qualification = "class_12"
+streams = ["nursing", "allied_health", "medical"]
+match = { any = ["paramedical", "nursing", "MBBS|BDS", 'selection\s*committee'] }
+status = "active"

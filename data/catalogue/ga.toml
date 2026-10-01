@@ -1,0 +1,191 @@
+# Catalogue: Goa. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "ga-gpsc"
+name = "Goa Public Service Commission"
+short_name = "Goa PSC"
+jurisdiction = "ga"
+kind = "public_service_commission"
+website = "https://gpsc.goa.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "ga-gssc"
+name = "Goa Staff Selection Commission"
+short_name = "Goa SSC"
+jurisdiction = "ga"
+kind = "staff_selection_board"
+website = "https://gssc.goa.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "ga-gbshse"
+name = "Goa Board of Secondary and Higher Secondary Education"
+short_name = "GBSHSE"
+jurisdiction = "ga"
+kind = "school_board"
+website = "https://www.gbshse.info/"
+status = "active"
+
+[[bodies]]
+id = "ga-dte"
+name = "Directorate of Technical Education, Goa"
+short_name = "DTE Goa"
+jurisdiction = "ga"
+kind = "testing_agency"
+website = "https://dte.goa.gov.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "ga-gpsc/home"
+body = "ga-gpsc"
+url = "https://gpsc.goa.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ga-gssc/home"
+body = "ga-gssc"
+url = "https://gssc.goa.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "ga-gbshse/home"
+body = "ga-gbshse"
+url = "https://www.gbshse.info/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "ga-dte/home"
+body = "ga-dte"
+url = "https://dte.goa.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "ga-gpsc-gcs"
+name = "Goa Civil Service Examination"
+jurisdiction = "ga"
+purpose = "recruitment"
+conducted_by = "ga-gpsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['civil\s*service', '\bGCS\b'] }
+status = "active"
+
+[[exams]]
+id = "ga-gpsc-ae"
+name = "Goa PSC Assistant Engineer / Engineering Services Examination"
+jurisdiction = "ga"
+purpose = "recruitment"
+conducted_by = "ga-gpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "ga-gpsc-lecturer"
+name = "Goa PSC Lecturer / Assistant Professor Recruitment"
+jurisdiction = "ga"
+purpose = "recruitment"
+conducted_by = "ga-gpsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "ga-gpsc-other"
+name = "Goa PSC Recruitment to other posts (umbrella)"
+jurisdiction = "ga"
+purpose = "recruitment"
+conducted_by = "ga-gpsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "ga-gssc-recruitment"
+name = "Goa Staff Selection Commission Group C Recruitment"
+jurisdiction = "ga"
+purpose = "recruitment"
+conducted_by = "ga-gssc"
+frequency = "multiple"
+qualification = "class_12"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|group\\s*['‘’]?\\s*C\\b"] }
+status = "active"
+
+[[exams]]
+id = "ga-gbshse-class-10"
+name = "GBSHSE SSC Examination"
+jurisdiction = "ga"
+purpose = "school_board"
+conducted_by = "ga-gbshse"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['\bSSC\b', 'class\s*(X|10)\b'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "ga-gbshse-class-12"
+name = "GBSHSE HSSC Examination"
+jurisdiction = "ga"
+purpose = "school_board"
+conducted_by = "ga-gbshse"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['\bHSSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "ga-gtet"
+name = "Goa Teacher Eligibility Test"
+short_name = "GTET"
+jurisdiction = "ga"
+purpose = "eligibility"
+conducted_by = "ga-gbshse"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['\bGTET\b', '\bTET\b'] }
+status = "active"
+
+[[exams]]
+id = "ga-gcet"
+name = "Goa Common Entrance Test"
+short_name = "GCET"
+jurisdiction = "ga"
+purpose = "admission"
+conducted_by = "ga-dte"
+frequency = "annual"
+qualification = "class_12"
+streams = ["engineering", "pharmacy"]
+match = { any = ['\bGCET\b', 'common\s*entrance'] }
+status = "active"

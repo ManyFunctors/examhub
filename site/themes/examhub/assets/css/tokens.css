@@ -1,0 +1,292 @@
+/* Design tokens. */
+
+:root {
+  /* Catppuccin Latte neutrals, stepped down one notch. */
+  --base: #eff1f5;
+  --mantle: #e6e9ef;
+  --crust: #dce0e8;
+  --text: #4c4f69;
+  --subtext0: #6c6f85;
+  --subtext1: #5c5f77;
+  --overlay0: #9ca0b0;
+  --surface0: #ccd0da;
+  --surface1: #bcc0cc;
+  --surface2: #acb0be;
+
+  /* ── The five lifecycle colours ─────────────────────────────────── */
+  --exam: #40a02b;
+  --registration: #df8e1d;
+  --admit: #209fb5;
+  --correction: #7287fd;
+  --result: #8839ef;
+  --done: #7c7f93;
+  --urgent: #d20f39;
+
+  --chip-fill-mix: 28%;
+  --exam-fill: color-mix(in srgb, var(--exam) var(--chip-fill-mix), var(--base));
+  --registration-fill: color-mix(in srgb, var(--registration) var(--chip-fill-mix), var(--base));
+  --admit-fill: color-mix(in srgb, var(--admit) var(--chip-fill-mix), var(--base));
+  --correction-fill: color-mix(in srgb, var(--correction) var(--chip-fill-mix), var(--base));
+  --result-fill: color-mix(in srgb, var(--result) var(--chip-fill-mix), var(--base));
+  --done-fill: color-mix(in srgb, var(--done) var(--chip-fill-mix), var(--base));
+
+  /* ── Interactive highlight ──────────────────────────────────────── */
+  --highlight: #1e66f5;
+
+  /* ── The verification stamp ─────────────────────────────────────── */
+  --verified: #179299;
+  --verified-fill: color-mix(in srgb, var(--verified) 30%, var(--base));
+
+  /* Aliases for the -tone names the calendar still reads. */
+  --exam-tone: var(--exam);
+  --registration-tone: var(--registration);
+  --admit-tone: var(--admit);
+  --correction-tone: var(--correction);
+  --result-tone: var(--result);
+  --done-tone: var(--done);
+
+  /* ── The pre-migration family ───────────────────────────────────── */
+  --fill-open: #c9dcc4;
+  --fill-soon: #e9dbb7;
+  --fill-closed: #f1d5c8;
+  --fill-done: #dde0e6;
+  --fill-info: #cad5ef;
+  --fill-accent: color-mix(in srgb, var(--accent-text) 30%, var(--base));
+  /* The band behind today's day in the Dates list. */
+  --today-band: color-mix(in srgb, var(--accent-text) 8%, transparent);
+
+  /* Muted mid tones for borders, dots and icon strokes */
+  --tone-open: #7fa87a;
+  --tone-soon: #b39255;
+  --tone-closed: #c08a72;
+  --tone-done: #a2a7b3;
+  --tone-info: #7e93c9;
+
+  /* There is no overdue colour, and there is not going to be one. */
+  /* Accent. */
+  --accent: var(--accent-text);
+  --accent-fill: var(--fill-accent);
+  --accent-text: #1e66f5;
+  --accent-contrast: var(--base);
+
+  --bg: var(--base);
+  --bg-alt: var(--mantle);
+  --surface: var(--base);
+  --border: var(--surface1);
+
+  /* The border on a control that has nothing else to identify it by. */
+  --control-border: var(--subtext0);
+
+  --heading: var(--text);
+  --text-muted: var(--subtext1);
+
+  /* Muted text. */
+
+  --ok: var(--tone-open);
+  --soon: var(--tone-soon);
+  --muted: var(--overlay0);
+  --info: var(--tone-info);
+
+  --shadow: 0 1px 2px rgba(76, 79, 105, 0.06),
+    0 2px 6px rgba(76, 79, 105, 0.04);
+  --shadow-lg: 0 12px 32px rgba(76, 79, 105, 0.1);
+
+  /* Type. Jost is the Doks typeface; weights match Doks (400/500/700). */
+  --font-sans: "Jost", "Jost Fallback", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SFMono-Regular", Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+
+  /* The scale, raised across the board and hardest at the bottom. */
+  --fs-xs: 0.875rem;
+  --fs-sm: 1rem;
+  --fs-base: 1.125rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 1.875rem;
+  --fs-3xl: 2.375rem;
+
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-8: 3rem;
+
+  --sidebar-w: 17rem;
+  --toc-w: 15rem;
+  --content-max: 46rem;
+  --header-h: 3.5rem;
+  --radius: 0.5rem;
+  --radius-sm: 0.375rem;
+
+  /* 0.25rem. The 17px checkbox. */
+  --squircle-xs: 0.25rem;
+
+  /* 0.5rem: chips and pills, 24-25px tall. */
+  --squircle: 0.5rem;
+
+  /* 0.625rem: the 30-32px controls (.cal__step, .freshness). */
+  --squircle-md: 0.625rem;
+
+  /* 0.75rem. */
+  --squircle-lg: 0.75rem;
+
+  /* Width of the coloured leading edge on chips and cards. */
+  --edge-thick: 3px;
+
+  /* The block padding of a status chip, as a token. */
+  --pill-pad-block: 0.15rem;
+}
+
+/* Frappé: softer than Mocha, and its accents are muted already. */
+html.dark {
+  --base: #303446;
+  --mantle: #292c3c;
+  --crust: #232634;
+  --text: #c6d0f5;
+  --subtext0: #a5adce;
+  --subtext1: #b5bfe2;
+  --overlay0: #737994;
+  --surface0: #414559;
+  --surface1: #51576d;
+  --surface2: #626880;
+
+  /* Dark pastels are muted mid-tones, not light ones. */
+  --exam: #a6d189;
+  --registration: #e5c890;
+  --admit: #74c7ec;
+  --correction: #babbf1;
+  --result: #ca9ee6;
+  --highlight: #8caaee;
+  --verified: #81c8be;
+  --verified-fill: color-mix(in srgb, var(--verified) 30%, var(--base));
+  --done: #737994;
+  --urgent: #ea9a97;
+
+  --chip-fill-mix: 24%;
+  --exam-fill: color-mix(in srgb, var(--exam) var(--chip-fill-mix), var(--base));
+  --registration-fill: color-mix(in srgb, var(--registration) var(--chip-fill-mix), var(--base));
+  --admit-fill: color-mix(in srgb, var(--admit) var(--chip-fill-mix), var(--base));
+  --correction-fill: color-mix(in srgb, var(--correction) var(--chip-fill-mix), var(--base));
+  --result-fill: color-mix(in srgb, var(--result) var(--chip-fill-mix), var(--base));
+  --done-fill: color-mix(in srgb, var(--done) var(--chip-fill-mix), var(--base));
+
+  --exam-tone: var(--exam);
+  --registration-tone: var(--registration);
+  --admit-tone: var(--admit);
+  --correction-tone: var(--correction);
+  --result-tone: var(--result);
+  --done-tone: var(--done);
+
+  --fill-open: #4b5a49;
+  --fill-soon: #5d5240;
+  --fill-closed: #5d4b48;
+  --fill-done: #414559;
+  --fill-info: #465071;
+  --fill-accent: color-mix(in srgb, var(--accent-text) 30%, var(--base));
+  /* The band behind today's day in the Dates list. */
+  --today-band: color-mix(in srgb, var(--accent-text) 8%, transparent);
+
+  --tone-open: #a6d189;
+  --tone-soon: #e5c890;
+  --tone-closed: #ef9f76;
+  --tone-done: #949cbb;
+  --tone-info: #8caaee;
+
+  --accent: var(--accent-text);
+  --accent-fill: var(--fill-accent);
+  --accent-text: #8caaee;
+  --accent-contrast: var(--crust);
+
+  --bg: var(--base);
+  --bg-alt: var(--mantle);
+  --surface: var(--mantle);
+  --border: var(--surface0);
+  --heading: var(--text);
+  /* Dark subtext0 passes AA on every surface it is used on. */
+  --text-muted: var(--subtext0);
+
+  --ok: var(--tone-open);
+  --soon: var(--tone-soon);
+  --muted: var(--overlay0);
+  --info: var(--tone-info);
+
+  --shadow: 0 1px 2px rgba(35, 38, 52, 0.4), 0 2px 8px rgba(35, 38, 52, 0.3);
+  --shadow-lg: 0 12px 32px rgba(35, 38, 52, 0.5);
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not(.light) {
+    --base: #303446;
+    --mantle: #292c3c;
+    --crust: #232634;
+    --text: #c6d0f5;
+    --subtext0: #a5adce;
+    --subtext1: #b5bfe2;
+    --overlay0: #737994;
+    --surface0: #414559;
+    --surface1: #51576d;
+    --surface2: #626880;
+
+    /* The five lifecycle colours, the pre-migration family and the tones. */
+    --exam: #a6d189;
+    --registration: #e5c890;
+    --admit: #74c7ec;
+    --correction: #babbf1;
+    --result: #ca9ee6;
+    --highlight: #8caaee;
+    --verified: #81c8be;
+    --verified-fill: color-mix(in srgb, var(--verified) 30%, var(--base));
+    --done: #737994;
+    --urgent: #ea9a97;
+
+    --chip-fill-mix: 24%;
+    --exam-fill: color-mix(in srgb, var(--exam) var(--chip-fill-mix), var(--base));
+    --registration-fill: color-mix(in srgb, var(--registration) var(--chip-fill-mix), var(--base));
+    --admit-fill: color-mix(in srgb, var(--admit) var(--chip-fill-mix), var(--base));
+    --correction-fill: color-mix(in srgb, var(--correction) var(--chip-fill-mix), var(--base));
+    --result-fill: color-mix(in srgb, var(--result) var(--chip-fill-mix), var(--base));
+    --done-fill: color-mix(in srgb, var(--done) var(--chip-fill-mix), var(--base));
+  
+    --exam-tone: var(--exam);
+    --registration-tone: var(--registration);
+    --admit-tone: var(--admit);
+    --correction-tone: var(--correction);
+    --result-tone: var(--result);
+    --done-tone: var(--done);
+
+    --fill-open: #4b5a49;
+    --fill-soon: #5d5240;
+    --fill-closed: #5d4b48;
+    --fill-done: #414559;
+    --fill-info: #465071;
+    --fill-accent: color-mix(in srgb, var(--accent-text) 30%, var(--base));
+    --today-band: color-mix(in srgb, var(--accent-text) 8%, transparent);
+
+    --tone-open: #a6d189;
+    --tone-soon: #e5c890;
+    --tone-closed: #ef9f76;
+    --tone-done: #949cbb;
+    --tone-info: #8caaee;
+
+    --accent: var(--accent-text);
+    --accent-fill: var(--fill-accent);
+    --accent-text: #8caaee;
+    --accent-contrast: var(--crust);
+    --bg: var(--base);
+    --bg-alt: var(--mantle);
+    --surface: var(--mantle);
+    --border: var(--surface0);
+    --heading: var(--text);
+    --text-muted: var(--subtext0);
+    --ok: var(--tone-open);
+      --soon: var(--tone-soon);
+    --muted: var(--overlay0);
+    --info: var(--tone-info);
+    --shadow: 0 1px 2px rgba(35, 38, 52, 0.4),
+      0 2px 8px rgba(35, 38, 52, 0.3);
+    --shadow-lg: 0 12px 32px rgba(35, 38, 52, 0.5);
+  }
+}

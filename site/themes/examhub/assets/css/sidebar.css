@@ -1,0 +1,172 @@
+
+/* The whole column is inert under a drag. */
+.sidebar {
+  user-select: none;
+}
+
+.sidebar__nav {
+  margin-bottom: var(--sp-4);
+}
+
+.sidebar__nav .sidebar__list + .sidebar__list {
+  margin-top: var(--sp-1);
+}
+
+/* Reduced motion: skip the slide, keep the open/shut state. */
+
+.sidebar__section + .sidebar__section {
+  margin-top: var(--sp-5);
+}
+
+.sidebar__title {
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin: 0 0 var(--sp-2);
+  padding: 0 var(--sp-2);
+}
+
+.sidebar__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar__link {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-2);
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  font-size: var(--fs-sm);
+  line-height: 1.4;
+}
+
+.sidebar__link:hover {
+  background: var(--bg-alt);
+  color: var(--heading);
+  text-decoration: none;
+}
+
+/* A sidebar link that carries a second line — the exam's next date, the calendar's month. */
+.sidebar__link--dated {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.1rem;
+}
+
+/* The icon and its label stay a centred row inside the stacked link. */
+
+.sidebar__exam-date {
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.sidebar__link--dated.is-active .sidebar__exam-date,
+.sidebar__link--dated:hover .sidebar__exam-date {
+  color: var(--text);
+}
+
+/* Active item: the accent supplies the fill, the label stays neutral. */
+.sidebar__link.is-active {
+  background: var(--fill-accent);
+  border-left: 2px solid var(--accent-text);
+  padding-left: calc(var(--sp-2) - 2px);
+  color: var(--heading);
+  font-weight: 500;
+}
+
+/* Sidebar foot: the About link and the theme switch. */
+.sidebar__controls {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  margin-top: auto;
+  padding-top: var(--sp-4);
+}
+
+/* Page header */
+
+.page-header {
+  margin-bottom: var(--sp-6);
+}
+
+/* The site title in the home page header, linked to the home page. */
+.page-header__home {
+  color: inherit;
+}
+
+.page-header__home:hover,
+.page-header__home:focus-visible {
+  color: inherit;
+}
+
+.breadcrumbs {
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  margin-bottom: var(--sp-2);
+}
+
+.breadcrumbs a {
+  color: var(--text-muted);
+}
+
+.breadcrumbs a:hover {
+  color: var(--accent-text);
+}
+
+.breadcrumbs span[aria-hidden] {
+  margin: 0 var(--sp-1);
+  opacity: 0.6;
+}
+
+.page-description {
+  color: var(--text-muted);
+  font-size: var(--fs-lg);
+  margin: 0;
+}
+
+/* A second, quieter line under the description. */
+.page-note {
+  margin: var(--sp-2) 0 0;
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+}
+
+/* Section index: a short list of ways into a set of records. */
+.index-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--sp-2);
+}
+
+.index-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.index-list__link {
+  font-weight: 500;
+}
+
+.index-list__count {
+  flex-shrink: 0;
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  background: var(--bg-alt);
+  border-radius: var(--squircle);
+  padding: 0 var(--sp-2);
+}
+

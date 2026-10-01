@@ -1,0 +1,62 @@
+# Notice -> record mapping.
+#
+# Whether two notices describe the same examination is a judgement call, and
+# regex cannot make it. A run over UGC-NET in one fortnight found five
+# notices -- the examination schedule, two admit-card releases, a city
+# allotment intimation, an extension of the last date, and a provisional
+# answer key -- and a title-derived slug turned that into five records for one
+# exam. This file is where that decision is made, once, in version control,
+# next to the schema it has to agree with.
+#
+# Matching is a substring test against the notice URL, the page it was
+# discovered from, and its title. **The longest matching `match` wins**, so a
+# specific corrigendum can be redirected away from the notification it
+# corrects.
+#
+# The pipeline does not require an entry for a notice: anything unmapped gets
+# a slug derived from its title, and the review bundle says so. A mapped
+# record is better than a derived one, not a prerequisite for one.
+#
+# When two notices map to the same record they are *merged*: a corrigendum
+# supersedes a notification, a press release supersedes a notification, and
+# within a tier the most recently fetched document wins. The record's
+# `provenance.source_url` then points at the document that won, and
+# `provenance.notes` lists what it superseded.
+
+[[record]]
+# Everything NTA publishes for UGC NET is the same examination. Without
+# this, each notice became its own record and the site grew duplicates.
+match     = "ugcnet.nta.ac.in"
+slug      = "ugc-ugc-net-june-2025"
+title     = "UGC NET, June 2025"
+exam_kind = "job"
+# The notice whose values seed the record. Other notices about the same exam
+# are read for cross-checks and their values are reported, never written.
+#
+# This matters. The answer-key notice's challenge window (08 July 2025) and
+# the extension notice's application deadline (12 May 2025) are both true and
+# both about deadlines, and a merge that took whichever was verified last
+# rendered one as the other's. `primary` is how a human says which is which;
+# nothing in the text of a notice makes that decidable.
+primary   = "public-notice-for-schedule-of-ugc-net"
+
+# A corrigendum is redirected on its own, so the notification that it
+# corrects still generates the record and this one updates it. Kept as an
+# example of the longest-match-wins rule.
+[[record]]
+match     = "public-notice-for-extension-of-dates"
+slug      = "ugc-ugc-net-june-2025"
+exam_kind = "job"
+primary   = "public-notice-for-extension-of-dates"
+
+[[record]]
+match    = "aiimsexams.ac.in"
+slug     = "aiims-norcet-11-2026"
+title    = "Nursing Officer Recruitment Common Eligibility Test (NORCET-11), 2026"
+exam_kind = "job"
+
+[[record]]
+match    = "nta.ac.in/Download/Notice/Examcalendar"
+slug     = "nta-examination-calendar-2027"
+title    = "NTA Examination Calendar, 2027 cycle onwards"
+exam_kind = "job"

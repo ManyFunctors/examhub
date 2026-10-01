@@ -1,0 +1,54 @@
+baseURL = 'https://manyfunctors.github.io/examhub/'
+title = 'ExamHub'
+theme = 'examhub'
+
+locale = 'en-IN'
+timeZone = 'Asia/Kolkata'
+
+enableRobotsTXT = true
+enableEmoji = true
+
+# Empty lists switch off Hugo's default taxonomies (no /categories/ or /tags/ pages).
+[taxonomies]
+  category = []
+  tag = []
+
+# JSON index of every record at /exams/exams.json (not read by the site itself).
+[outputFormats]
+  [outputFormats.exams]
+    mediaType = 'application/json'
+    baseName = 'exams'
+    isPlainText = true
+    notAlternative = true
+
+  # /index.json: the other months' cards, every date and the search aliases, which the
+  # home page's script fetches after first paint.
+  [outputFormats.data]
+    mediaType = 'application/json'
+    baseName = 'index'
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ['html', 'rss', 'sitemap', 'data']
+  page = ['html']
+  # The section is JSON only: /exams/ has no page; the list lives on home.
+  section = ['exams']
+
+[params]
+  # Brand line under the title.
+  tagline = 'Track Every Exam. Never Miss a Deadline.'
+
+  # Meta description for every page (keep it under ~160 characters).
+  description = 'Every exam in India with registration dates, deadlines, admit card and result dates, eligibility and official links — 310 exams, 156 bodies, checked and updated.'
+
+  # Days before a record is flagged "not recently verified"
+  staleAfterDays = 14
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3

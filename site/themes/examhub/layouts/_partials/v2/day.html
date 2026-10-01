@@ -1,0 +1,9 @@
+{{- /* One date in the site's format, or a sentinel's Title Case words.
+       Takes the value, or dict "v" value "f" layout. */ -}}
+{{- $v := . -}}{{- $f := "2006, January 02" -}}
+{{- if reflect.IsMap . }}{{ $v = .v }}{{ with .f }}{{ $f = . }}{{ end }}{{ end -}}
+{{- $s := printf "%v" $v -}}
+{{- if findRE `^\d{4}-\d{2}-\d{2}` $s -}}
+  {{- return (time.AsTime $v).Format $f -}}
+{{- end -}}
+{{- return (index (dict "unknown" "Not Stated" "not_announced" "To Be Announced" "none" "None") $s | default $s) -}}

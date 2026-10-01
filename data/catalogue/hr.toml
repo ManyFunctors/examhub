@@ -1,0 +1,282 @@
+# Catalogue: Haryana. Canonical form; edit freely, then
+# `python -m examhub_pipeline catalogue fmt` to normalise. See docs/data-model.md.
+
+# ---- bodies ------------------------------------------------------
+
+[[bodies]]
+id = "hr-hpsc"
+name = "Haryana Public Service Commission"
+short_name = "HPSC"
+jurisdiction = "hr"
+kind = "public_service_commission"
+website = "https://hpsc.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "hr-hssc"
+name = "Haryana Staff Selection Commission"
+short_name = "HSSC"
+jurisdiction = "hr"
+kind = "staff_selection_board"
+website = "https://hssc.gov.in/"
+hosts = ["hssc.gov.in", "onetimeregn.haryana.gov.in"]
+status = "active"
+notes = "Per-advertisement application hosts advNNYYYY.hryssc.com; DNS for hssc.gov.in has been unreliable."
+
+[[bodies]]
+id = "hr-bseh"
+name = "Board of School Education Haryana"
+short_name = "BSEH"
+jurisdiction = "hr"
+kind = "school_board"
+website = "https://bseh.org.in/"
+hosts = ["bseh.org.in", "htet.eapplynow.com"]
+status = "active"
+
+[[bodies]]
+id = "hr-police"
+name = "Haryana Police"
+short_name = "Haryana Police"
+jurisdiction = "hr"
+kind = "police_recruitment_board"
+website = "https://haryanapolice.gov.in/"
+status = "active"
+
+[[bodies]]
+id = "hr-dhbvn"
+name = "Haryana Power Utilities (UHBVN/DHBVN/HVPNL/HPGCL)"
+short_name = "Haryana Power"
+jurisdiction = "hr"
+kind = "psu"
+website = "https://www.dhbvn.org.in/"
+status = "active"
+
+# ---- feeds -------------------------------------------------------
+
+[[feeds]]
+id = "hr-hpsc/home"
+body = "hr-hpsc"
+url = "https://hpsc.gov.in/en-us/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "hr-hssc/advertisement"
+body = "hr-hssc"
+url = "https://hssc.gov.in/advertisement"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "hr-hssc/public-notice"
+body = "hr-hssc"
+url = "https://hssc.gov.in/publicNotice"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "hr-bseh/home"
+body = "hr-bseh"
+url = "https://bseh.org.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|exam|result|time\s*table|routine|schedule|notice|admit|hall|circular'
+status = "active"
+
+[[feeds]]
+id = "hr-police/home"
+body = "hr-police"
+url = "https://haryanapolice.gov.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+[[feeds]]
+id = "hr-dhbvn/home"
+body = "hr-dhbvn"
+url = "https://www.dhbvn.org.in/"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+status = "active"
+
+# ---- exams -------------------------------------------------------
+
+[[exams]]
+id = "hr-hpsc-hcs"
+name = "Haryana Civil Services (Executive Branch) and Allied Services Examination"
+known_as = ["HCS"]
+jurisdiction = "hr"
+purpose = "recruitment"
+conducted_by = "hr-hpsc"
+frequency = "annual"
+qualification = "graduate"
+streams = ["civil_services"]
+match = { any = ['\bHCS\b', 'civil\s*services?\s*\(?\s*ex'] }
+status = "active"
+
+[[exams]]
+id = "hr-hpsc-ae"
+name = "HPSC Assistant Engineer / Engineering Services Examination"
+jurisdiction = "hr"
+purpose = "recruitment"
+conducted_by = "hr-hpsc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["engineering"]
+match = { any = ['assistant\s*engineer', 'engineering\s*services?', '\bAE\b'] }
+status = "active"
+
+[[exams]]
+id = "hr-hpsc-lecturer"
+name = "HPSC Lecturer / Assistant Professor Recruitment"
+jurisdiction = "hr"
+purpose = "recruitment"
+conducted_by = "hr-hpsc"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["teaching"]
+match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
+status = "active"
+
+[[exams]]
+id = "hr-hpsc-judicial"
+name = "HPSC Civil Judge (Junior Division) / Judicial Services Examination"
+jurisdiction = "hr"
+purpose = "recruitment"
+conducted_by = "hr-hpsc"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['civil\s*judge', 'judicial\s*service', '\bPCS[-\s]*\(?J\)?', 'judicial\s*magistrate'] }
+status = "active"
+
+[[exams]]
+id = "hr-hpsc-other"
+name = "HPSC Recruitment to other posts (umbrella)"
+jurisdiction = "hr"
+purpose = "recruitment"
+conducted_by = "hr-hpsc"
+frequency = "multiple"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+status = "active"
+notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
+
+[[exams]]
+id = "hr-cet-group-c"
+name = "Haryana Common Eligibility Test (Group C)"
+short_name = "Haryana CET"
+jurisdiction = "hr"
+purpose = "eligibility"
+conducted_by = "hr-hssc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["general"]
+match = { any = ["\\bCET\\b.*group\\s*['‘’]?\\s*C\\b", 'common\s*eligibility.*group\s*C'] }
+status = "active"
+
+[[exams]]
+id = "hr-cet-group-d"
+name = "Haryana Common Eligibility Test (Group D)"
+jurisdiction = "hr"
+purpose = "eligibility"
+conducted_by = "hr-hssc"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["general"]
+match = { any = ["\\bCET\\b.*group\\s*['‘’]?\\s*D\\b", "group\\s*['‘’]?\\s*D\\b"] }
+status = "active"
+
+[[exams]]
+id = "hr-hssc-police-constable"
+name = "Haryana Police Constable (HSSC)"
+jurisdiction = "hr"
+purpose = "recruitment"
+conducted_by = "hr-hssc"
+frequency = "irregular"
+qualification = "class_12"
+streams = ["police"]
+match = { any = ['police\s*constable', "constable"] }
+status = "active"
+
+[[exams]]
+id = "hr-hssc-tgt-pgt"
+name = "HSSC TGT / PGT"
+jurisdiction = "hr"
+purpose = "recruitment"
+conducted_by = "hr-hssc"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["teaching"]
+match = { any = ['\bTGT\b', '\bPGT\b'] }
+status = "active"
+
+[[exams]]
+id = "hr-hssc-other"
+name = "HSSC other Group B/C recruitment (umbrella)"
+jurisdiction = "hr"
+purpose = "recruitment"
+conducted_by = "hr-hssc"
+frequency = "multiple"
+qualification = "class_12"
+streams = ["general"]
+match = { any = ["advt|advertisement|recruitment|vacanc"] }
+status = "active"
+
+[[exams]]
+id = "hr-bseh-class-10"
+name = "BSEH Secondary Examination"
+jurisdiction = "hr"
+purpose = "school_board"
+conducted_by = "hr-bseh"
+frequency = "annual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ['class\s*(X|10)\b', '\b(SSC|SSLC|HSLC|matric|madhyamik|secondary)\b(?!.*higher)'], none = ['higher\s*secondary', '\bHSC\b', 'class\s*(XII|12)\b'] }
+status = "active"
+
+[[exams]]
+id = "hr-bseh-class-12"
+name = "BSEH Senior Secondary Examination"
+jurisdiction = "hr"
+purpose = "school_board"
+conducted_by = "hr-bseh"
+frequency = "annual"
+qualification = "class_10"
+streams = ["school"]
+match = { any = ['class\s*(XII|12)\b', '\b(HSC|HSSC|intermediate|inter|higher\s*secondary|uchha|plus\s*two|\+2|PUC)\b'] }
+status = "active"
+
+[[exams]]
+id = "hr-htet"
+name = "Haryana Teacher Eligibility Test"
+short_name = "HTET"
+jurisdiction = "hr"
+purpose = "eligibility"
+conducted_by = "hr-bseh"
+frequency = "annual"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['\bHTET\b', 'teacher\s*eligibility'] }
+status = "active"
+
+[[exams]]
+id = "hr-power-recruitment"
+name = "Haryana Power Utilities Recruitment (AE, ALM, Shift Attendant)"
+jurisdiction = "hr"
+purpose = "recruitment"
+conducted_by = "hr-dhbvn"
+frequency = "irregular"
+qualification = "diploma"
+streams = ["engineering", "technical"]
+match = { any = ['assistant\s*engineer', '\bALM\b', 'shift\s*attendant', "recruitment"] }
+status = "active"

@@ -1,0 +1,31 @@
+{{- /* The kind legend, as a grid: five kinds down, two states across. */ -}}
+<div class="cal__key">
+  <div class="cal__key-heads" aria-hidden="true">
+    <span class="cal__key-head">Confirmed</span>
+    <span class="cal__key-head">Provisional</span>
+  </div>
+  {{- /* One row per kind; a window's two ends share one. */}}
+  {{- $seen := slice -}}
+  {{- range hugo.Data.date_kinds -}}
+    {{- $group := .group | default "" -}}
+    {{- $skip := false -}}
+    {{- if ne $group "" -}}
+      {{- if in $seen $group -}}
+        {{- $skip = true -}}
+      {{- else -}}
+        {{- $seen = $seen | append $group -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if not $skip -}}
+      {{- $label := .group_label | default .label -}}
+      <div class="cal__key-row">
+        <span class="cal__event cal__event--{{ .key }}">{{ $label }}</span>
+        <span class="cal__event cal__event--{{ .key }} cal__event--prov">{{ $label }}</span>
+      </div>
+    {{- end -}}
+  {{- end }}
+</div>
+{{- /* The footer sits outside .cal__key on purpose. */}}
+<div class="cal__key-foot">
+  <span class="cal__event cal__event--registration_deadline cal__event--urgent">Urgent &#183; Within a Week</span>
+</div>

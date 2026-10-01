@@ -1,0 +1,65 @@
+{{ define "main" }}
+{{- /* One index page: the exams one body conducts, of one type or status, or every date of one
+     kind. Made by content/_content.gotmpl; the no-JS stand-in for a filter. */ -}}
+{{- $axis := .Params.axis -}}{{- $key := .Params.key -}}
+{{- $rows := slice -}}
+{{- range (partialCached "exam-list.html" .).rows -}}
+  {{- $p := .page -}}
+  {{- $in := false -}}
+  {{- if eq $axis "bodies" }}{{ range $p.Params.bodies }}{{ if eq .body $key }}{{ $in = true }}{{ end }}{{ end -}}
+  {{- else if eq $axis "types" }}{{ $in = in ((partialCached "v2/params.html" $p $p.RelPermalink).categories | default slice) $key -}}
+  {{- else if eq $axis "statuses" }}{{ $in = eq .st.key $key }}{{ end -}}
+  {{- if $in }}{{ $rows = $rows | append . }}{{ end -}}
+{{- end -}}
+{{- $ev := partialCached "events.html" . -}}
+{{- $dates := where $ev.events "k" $key -}}
+{{- $parent := .Parent -}}
+
+<div class="page-header page-header--stamped"><div>
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{ site.Home.RelPermalink }}">Home</a>{{ with $parent }} › <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</nav>
+  <h1>{{ .Title }}</h1>
+  <p class="page-description">{{ if eq $axis "kinds" }}{{ len $dates }} Date{{ if ne (len $dates) 1 }}s{{ end }}{{ else }}{{ len $rows }} Exam{{ if ne (len $rows) 1 }}s{{ end }}{{ end }}</p>
+</div></div>
+
+{{- if eq $axis "kinds" }}
+  {{- /* Upcoming months open, earlier ones folded under one heading. */ -}}
+  {{- $today := $ev.today -}}
+  {{- $byMonth := dict -}}
+  {{- range $dates }}{{ $m := substr .d 0 7 }}{{ $byMonth = merge $byMonth (dict $m ((index $byMonth $m | default slice) | append .)) }}{{ end }}
+  <div class="dates axis-dates">
+    <ul class="cal__list-items">
+    {{- with where $dates "d" "<" $today }}
+      {{- $rows := printf "<ul class=\"cal__list-rows\">%s</ul>" (partial "dates-days.html" (dict "items" . "today" $today)) | safeHTML }}
+      {{- partial "dates-section.html" (dict "key" "~0past" "title" "Earlier" "count" (len .) "unit" "Date" "body" $rows) }}
+    {{- end }}
+    {{- range $m, $evs := $byMonth }}
+      {{- with where $evs "d" ">=" $today }}
+      {{- $rows := printf "<ul class=\"cal__list-rows\">%s</ul>" (partial "dates-days.html" (dict "items" . "today" $today)) | safeHTML }}
+      {{- partial "dates-section.html" (dict "key" "month" "title" ((time.AsTime (printf "%s-01" $m)).Format "January 2006") "count" (len .) "unit" "Date" "body" $rows) }}
+      {{- end }}
+    {{- end }}
+    </ul>
+    {{- if not $dates }}<p class="cal__none">No dates of this kind yet.</p>{{ end }}
+  </div>
+{{- else }}
+  {{- /* Open and upcoming first, as on the home page; Completed folded at the end. */ -}}
+  {{- $live := slice }}{{ $done := slice -}}
+  {{- range $rows }}{{ if eq .st.key "done" }}{{ $done = $done | append . }}{{ else }}{{ $live = $live | append . }}{{ end }}{{ end }}
+  <div class="bymonth">
+    {{- with $live }}
+    <div class="card-grid card-grid--3">
+      {{- range . }}{{ partial "exam-card.html" .page }}{{ end }}
+    </div>
+    {{- end }}
+    {{- with $done }}
+    <details class="bymonth__group"{{ if not $live }} open{{ end }}>
+      <summary class="bymonth__summary"><h2 class="bymonth__title">Completed<span class="bymonth__count">({{ len . }} Exam{{ if ne (len .) 1 }}s{{ end }})</span></h2></summary>
+      <div class="card-grid card-grid--3">
+        {{- range . }}{{ partial "exam-card.html" .page }}{{ end }}
+      </div>
+    </details>
+    {{- end }}
+    {{- if not $rows }}<div class="empty"><p class="empty__title">No Exams Here Right Now</p></div>{{ end }}
+  </div>
+{{- end }}
+{{ end }}
