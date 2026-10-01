@@ -2,6 +2,7 @@
 
 import os
 import shutil
+from pathlib import Path
 
 from ..config import DEFAULT_CONTACT
 
@@ -80,5 +81,9 @@ FIREFOX_PAGE_WAIT = float(os.environ.get("EXAMHUB_FIREFOX_WAIT", "6"))
 DOWNLOADER_CLIENT_TLS_METHOD = "TLS"
 
 LOG_LEVEL = os.environ.get("EXAMHUB_LOG_LEVEL", "INFO")
+
+# work/ is git-ignored, so a fresh checkout (every Actions run) lacks it, and
+# Scrapy cannot open LOG_FILE=work/<spider>.log without it
+(Path(__file__).resolve().parents[3] / "work").mkdir(exist_ok=True)
 FEED_EXPORT_ENCODING = "utf-8"
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
