@@ -528,8 +528,12 @@
       if (isCombo) {
         btn.value = opt.getAttribute("data-label") || opt.textContent;
         committed = btn.value;
+      } else if (search) {
+        /* A two-part widget's typed query, separate from the value just chosen --
+           in combo mode `search` is `btn` itself, so clearing it here would wipe
+           the label this just set, and the box would always read its placeholder. */
+        search.value = "";
       }
-      if (search) search.value = "";
       applyFilter();
       setOpen(false);
       /* Fire a real change event so the form's handler applies it. */
@@ -1095,21 +1099,21 @@
       tbaGrid.appendChild(tbaFrag);
     }
     /* The TBA count the server rendered (real exams only) is about to jump once the
-       tracked stubs just appended above are counted -- count up to the new number
-       instead of flipping it outright. Computed directly from data.tracked.length,
-       not by re-reading the heading's own badge after initByMonth: that text is
-       only current once its recount() has actually run, which initByMonth defers
-       by up to 160ms (see sync()) whenever the saved month differs from the one
-       the server drew, so reading it right away could still catch the old value,
-       or even a mid-fade empty string. The stats band's figure gets the same
-       number, so the two never disagree. */
+       tracked stubs just appended above are counted. recount() -- run inside both
+       initByMonth and initFilters's own startup apply() -- is the one authoritative
+       counter, and it can run more than once before settling (a filter's own
+       recount, a deferred month-swap, etc). Rather than guess its outcome and race
+       it, this snapshots the "before" figures now, lets everything below run to
+       completion, and only then reads the settled totals to animate toward --
+       so the animation can never land anywhere other than where recount() itself
+       landed. */
     var tbaBadge = grid.querySelector('.bymonth__group[data-section="~1tba"] .bymonth__count');
     var tbaFrom = tbaBadge ? (parseInt(tbaBadge.textContent, 10) || 0) : 0;
-    var tbaAdd = (data.tracked && data.tracked.length) || 0;
-    var tbaTo = tbaFrom + tbaAdd;
     var statEl = document.querySelector('[data-stat="awaiting-date"] .stat__value');
     var statFrom = statEl ? (parseInt(statEl.textContent, 10) || 0) : 0;
     initByMonth(grid, data);
+    initFilters(data);
+    initDates(data);
     var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     function countUp(from, to, dur, onUpdate) {
       if (from === to) { onUpdate(to); return; }
@@ -1124,20 +1128,19 @@
       }
       requestAnimationFrame(tick);
     }
-    if (tbaAdd) {
-      if (tbaBadge) {
-        tbaBadge.textContent = "(" + tbaFrom + (tbaFrom === 1 ? " Exam)" : " Exams)");
-        countUp(tbaFrom, tbaTo, 600, function (n) {
-          tbaBadge.textContent = "(" + n + (n === 1 ? " Exam)" : " Exams)");
-        });
-      }
-      if (statEl) {
-        statEl.textContent = String(statFrom);
-        countUp(statFrom, statFrom + tbaAdd, 600, function (n) { statEl.textContent = String(n); });
-      }
+    var tbaMatch = tbaBadge && /\((\d+)/.exec(tbaBadge.textContent);
+    var tbaTo = tbaMatch ? Number(tbaMatch[1]) : tbaFrom;
+    if (tbaBadge && tbaTo !== tbaFrom) {
+      tbaBadge.textContent = "(" + tbaFrom + (tbaFrom === 1 ? " Exam)" : " Exams)");
+      countUp(tbaFrom, tbaTo, 600, function (n) {
+        tbaBadge.textContent = "(" + n + (n === 1 ? " Exam)" : " Exams)");
+      });
     }
-    initFilters(data);
-    initDates(data);
+    if (statEl && tbaTo !== tbaFrom) {
+      var statTo = statFrom + (tbaTo - tbaFrom);
+      statEl.textContent = String(statFrom);
+      countUp(statFrom, statTo, 600, function (n) { statEl.textContent = String(n); });
+    }
     updateCountdowns();
     updateFreshness();
     /* A saved month other than this page's changes the page's height; settle the scroll again. */
