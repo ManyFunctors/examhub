@@ -1,0 +1,57 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "28bf65d89177a6e659aad556354e2cbfccbe1541a3fb6ef08df3011c2dd26bfc",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230105233142.pdf",
+  "title": "1093 Urgent Attention to UGC NET December 2022 Candidates applying for Junior Research Fellowship (JRF) - Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "1acc9fdefc0ac6e24c83e855ec941a453e58367180b572adf63e917ea322ea34",
+  "bytes": 219559,
+  "pages": 1,
+  "chars": 2590,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-01T16:26:08+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "age_as_on": {
+   "date": "2022-12-01",
+   "evidence": "Accordingly, the National Testing Agency has decided the last date for determining the upper age limit for applying JRF is 01.12.2022 for December 2022 UGC-NET",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "age": {
+  "as_on": "2022-12-01",
+  "relaxations": [
+   {
+    "categories": [
+     "OBC-NCL",
+     "OBC"
+    ],
+    "years": 5,
+    "raw": "A relaxation of upto 5 years is provided to the candidates belonging to OBC-NCL (as per the Central list of OBC available on website: www.ncbc.nic.in) /SC/ST/PwD/Third gender categories and to women…",
+    "page": 1
+   }
+  ]
+ },
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in",
+   "https://www.ncbc.nic.in"
+  ]
+ }
+}
