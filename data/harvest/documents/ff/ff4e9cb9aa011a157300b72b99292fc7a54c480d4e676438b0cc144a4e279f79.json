@@ -1,0 +1,37 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "ff4e9cb9aa011a157300b72b99292fc7a54c480d4e676438b0cc144a4e279f79",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/11/20251102754182129.pdf",
+  "title": "Clarification on Use of Virtual Calculator in JEE (Main) 2026- Reg.",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/jeemain",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "69dfd771ce427c80b48ea6271175e392d02cda734117ba99ce2e84f01130989a",
+  "bytes": 221232,
+  "pages": 1,
+  "chars": 1700,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-02T02:00:51+05:30"
+ },
+ "kind": "corrigendum",
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://jeemain.nta.ac.in/",
+   "https://jeemain.nta.nic.in/",
+   "https://jeemain.nta.nic",
+   "https://www.nta.ac.in"
+  ]
+ }
+}
