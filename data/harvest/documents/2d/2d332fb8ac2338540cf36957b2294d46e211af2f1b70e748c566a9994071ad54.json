@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2d332fb8ac2338540cf36957b2294d46e211af2f1b70e748c566a9994071ad54",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/04/20260408149921678.pdf",
+  "title": "JEE (Main) – 2026 Session 2 Successfully Conducted Across India and Abroad",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/jeemain",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "5ff901999ce9947c5433685ee1612c961415a4cd7bd2fb14abd989207919ddfe",
+  "bytes": 1011921,
+  "pages": 2,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T16:09:47+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

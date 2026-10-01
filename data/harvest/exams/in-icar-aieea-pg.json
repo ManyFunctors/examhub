@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "exam": "in-jee-main",
- "name": "Joint Entrance Examination (Main)",
+ "exam": "in-icar-aieea-pg",
+ "name": "ICAR All India Entrance Examination for Admission (PG)",
  "body": "in-nta",
  "purpose": "admission",
- "cycle": "2026-01",
- "documents": 9,
+ "cycle": "2020",
+ "documents": 1,
  "documents_in_cycle": 1,
  "fields": {},
  "gaps": [
@@ -15,5 +15,5 @@
   "eligibility",
   "exam_pattern"
  ],
- "older_documents": 8
+ "older_documents": 0
 }
