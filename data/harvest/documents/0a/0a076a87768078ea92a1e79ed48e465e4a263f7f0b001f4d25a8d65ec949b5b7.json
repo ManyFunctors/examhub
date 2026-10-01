@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0a076a87768078ea92a1e79ed48e465e4a263f7f0b001f4d25a8d65ec949b5b7",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/01/202601202119082095.pdf",
+  "title": "Advisory and Instructions for the Candidates of Joint Entrance Examination (Main) – 2026 Session 1 (January 2026) – Reg.",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/jeemain",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "7a2fa5e037824ecad42f41b732d2b68c7432630d3994773ea34735980fde8b30",
+  "bytes": 3112722,
+  "pages": 8,
+  "chars": 14,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T09:24:58+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

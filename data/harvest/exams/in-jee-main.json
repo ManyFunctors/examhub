@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "exam": "in-jee-main",
+ "name": "Joint Entrance Examination (Main)",
+ "body": "in-nta",
+ "purpose": "admission",
+ "cycle": "2026-01",
+ "documents": 2,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 1
+}
