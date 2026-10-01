@@ -1,0 +1,143 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c3530337d2101d9375e9e6784806cdcbf70af0640ab6e76e3ec1df669599a831",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/2026051163782266.pdf",
+  "title": "CTET PUBLIC NOTICE SEPT 2026",
+  "body": "in-cbse",
+  "exam": "in-ctet",
+  "feed": "in-cbse/ctet",
+  "published": "2026-09-10",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "d20969f081e6cae946c5752732d0f6682691cf5354010c6855733160ee9d423d",
+  "bytes": 388394,
+  "pages": 2,
+  "chars": 4827,
+  "ocr": false,
+  "indic_share": 0.3,
+  "fetched": "2026-10-01T21:09:03+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "registration_open": {
+   "date": "2026-05-11",
+   "evidence": "Start of submission of online application through CTET website https://ctet.nic.in & CBSE website https://www.cbse.gov.in",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_deadline": {
+   "date": "2026-06-10",
+   "evidence": "Last Date for submission of online application form",
+   "page": 1,
+   "from": "table"
+  },
+  "correction_window": {
+   "date": "2026-06-10",
+   "evidence": "Last Date for submission of fee through Debit/Credit Card/Net Banking",
+   "page": 1,
+   "from": "table"
+  },
+  "exam_date": {
+   "date": "2026-09-06",
+   "evidence": "Date of Examination",
+   "page": 1,
+   "from": "table"
+  },
+  "payment_deadline": {
+   "date": "2026-06-10",
+   "evidence": "Last Date for submission of online application form 10.06.2026 upto23:59hrs Last Date for submission of fee through Debit/Credit Card/Net Banking",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Start of submission of online application through CTET website https://ctet.nic.in & CBSE website https://www.cbse.gov.in",
+   "key": "registration_open",
+   "date": "2026-05-11",
+   "page": 1
+  },
+  {
+   "event": "Last Date for submission of online application form",
+   "key": "registration_deadline",
+   "date": "2026-06-10",
+   "page": 1
+  },
+  {
+   "event": "Last Date for submission of fee through Debit/Credit Card/Net Banking",
+   "key": "correction_window",
+   "date": "2026-06-10",
+   "page": 1
+  },
+  {
+   "event": "Online corrections if any, in the particulars uploaded by the candidate",
+   "key": "correction_window",
+   "date": "2026-06-15",
+   "page": 1,
+   "until": "2026-06-18"
+  },
+  {
+   "event": "Date of Examination",
+   "key": "exam_date",
+   "date": "2026-09-06",
+   "page": 1
+  },
+  {
+   "event": "िीिीईिी र्ेबिाइि https://ctet.nic.in एरां ् िीबीएिई र्ेबिाइि https://www.cbse.gov.in के माध्यम ि े ऑनलाइन आर्ेदन जमा करने की प्रदक्रया",
+   "date": "2026-05-11",
+   "page": 2
+  },
+  {
+   "event": "ऑनलाइन आर्ेदन पत्र जमा करने की अांशतम शतशथ",
+   "date": "2026-06-10",
+   "page": 2
+  },
+  {
+   "event": "रश्े बि/क्रेशर्ि कार ्वअथर्ा नेि बैंककग के माध्यम िे िलु ्क जमा करन े की अांशतम शतशथ",
+   "date": "2026-06-10",
+   "page": 2
+  },
+  {
+   "event": "उम्मीदरा् र द्वारा अपलोर् दकए गए शर्रर् णों में, यदद कोई त्रुटि हो तो ऑनलाइन िुधार करन े की िुशर्धा",
+   "date": "2026-06-15",
+   "page": 2,
+   "until": "2026-06-18"
+  },
+  {
+   "event": "परीक्षा की शतशथ",
+   "date": "2026-09-06",
+   "page": 2
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "The detailed Information Bulletin containing details of examination, syllabus, languages, eligibility criteria, examination fee, examination cities and important dates will be available on CTET official website https://ctet.nic.in & CBSE official website https://www.cbse.gov.in shortly and…",
+    "page": 1
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "https://ctet.nic.in/",
+   "https://www.cbse.gov.in/",
+   "https://ctet.nic.in/?utm_source=chatgpt.com",
+   "https://www.cbse.gov.in/?utm_source=chatgpt.com"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2026-05-11",
+   "until": "2026-06-10"
+  },
+  "exam_date": "2026-09-06",
+  "education": [
+   "Graduate"
+  ]
+ }
+}
