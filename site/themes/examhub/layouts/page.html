@@ -322,6 +322,9 @@
     {{- if eq $r.scribe_allowed "yes" }}<li>Scribe allowed for eligible PwBD candidates{{ with $r.scribe_extra_minutes_per_hour }}{{ if not (reflect.IsMap .) }}{{ if ne (printf "%v" .) "unknown" }}, with {{ . }} extra minutes per hour{{ end }}{{ end }}{{ end }}.</li>{{ end }}
     {{- if eq $r.scores_normalised "yes" }}<li>Scores from different sessions are normalised.</li>{{ end }}
     {{- if reflect.IsSlice $r.training_offered_for }}<li>Free pre-exam training for {{ delimit $r.training_offered_for ", " " and " }} candidates who ask for it when applying.</li>{{ end }}
+    {{- if not (or (reflect.IsSlice $r.centre_places) (eq $r.scribe_allowed "yes") (eq $r.scores_normalised "yes") (reflect.IsSlice $r.training_offered_for)) }}
+    <li class="v2-na">The notice does not state any special exam rules.</li>
+    {{- end }}
   </ul>
 </details>
 
