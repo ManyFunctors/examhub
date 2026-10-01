@@ -6,6 +6,7 @@ ExamHub tracks recruitment, admission and eligibility exams: central and state, 
 
 **Live site:** <https://manyfunctors.github.io/examhub/>
 
+<!-- stats:start -->
 | | |
 |---|---|
 | Exam pages | 305 |
@@ -13,6 +14,8 @@ ExamHub tracks recruitment, admission and eligibility exams: central and state, 
 | Conducting bodies | 462 |
 | Feeds crawled daily | 467 |
 | Notices seen so far | 56,000+ |
+<!-- stats:end -->
+<!-- Kept current by the nightly recheck workflow (readme_stats.py); don't hand-edit the numbers above. -->
 
 ---
 

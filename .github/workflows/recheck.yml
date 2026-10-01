@@ -155,7 +155,7 @@ jobs:
         run: |
           mkdir -p data/harvest
           if git fetch --depth=1 origin harvest 2>/dev/null; then
-            for f in link-check.jsonl archived.jsonl; do
+            for f in link-check.jsonl archived.jsonl notices.jsonl; do
               git show "FETCH_HEAD:data/harvest/$f" > "data/harvest/$f" 2>/dev/null || rm -f "data/harvest/$f"
             done
           fi
@@ -226,9 +226,23 @@ jobs:
           if [ "$code" = 1 ]; then echo "::warning::short titles failed; titles left unchanged"; fi
           exit 0
 
+      - name: Refresh the README's stats table
+        # Riding along on whatever PR opens tonight, rather than one of its
+        # own: the numbers only drift slowly, and a PR for nothing but a
+        # bigger notice count would be the kind of nightly noise this whole
+        # workflow is built to avoid.
+        id: readme
+        run: |
+          set +e
+          uv run python -m examhub_pipeline readme-stats --apply
+          code=$?
+          if [ "$code" = 0 ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
+          if [ "$code" = 1 ]; then echo "::warning::readme stats failed; README left unchanged"; fi
+          exit 0
+
       - name: Open a pull request
         # The whole point. Nothing changed, nothing is opened.
-        if: steps.review.outputs.exit_code == '0' || steps.names.outputs.changed == 'true' || steps.dedupe.outputs.changed == 'true' || steps.wayback.outputs.changed == 'true' || steps.links.outputs.changed == 'true' || steps.aliases.outputs.changed == 'true'
+        if: steps.review.outputs.exit_code == '0' || steps.names.outputs.changed == 'true' || steps.dedupe.outputs.changed == 'true' || steps.wayback.outputs.changed == 'true' || steps.links.outputs.changed == 'true' || steps.aliases.outputs.changed == 'true' || steps.readme.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
           branch: pipeline/nightly-recheck
@@ -236,7 +250,9 @@ jobs:
           # An empty patch is a failure, not a no-op: exit 2 handles that
           # case upstream and this guard means a logic error cannot produce a
           # pull request with nothing in it.
-          add-paths: site/content/exams/
+          add-paths: |
+            site/content/exams/
+            README.md
           title: "pipeline: re-checked official exam notices"
           commit-message: |
             pipeline: re-check official exam notices

@@ -1048,6 +1048,10 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--apply", action="store_true", help="with --fill-records: write the records")
     p.set_defaults(func=cmd_archive)
 
+    p = sub.add_parser("readme-stats", help="regenerate the README's stats table from the catalogue and site")
+    p.add_argument("--apply", action="store_true", help="write README.md (default: print whether it changed)")
+    p.set_defaults(func=cmd_readme_stats)
+
     p = sub.add_parser("sources", help="print the seed source registry")
     _add_common(p)
     p.set_defaults(func=cmd_sources)
@@ -1087,6 +1091,16 @@ def cmd_convert(args: argparse.Namespace) -> int:
         _echo(f"convert failed: {exc}")
         return EXIT_ERROR
     return EXIT_OK
+
+
+def cmd_readme_stats(args: argparse.Namespace) -> int:
+    """The README's stats table. Exit 0 when it changed, 2 when it didn't, 1 on an error."""
+    from . import readme_stats
+    try:
+        return EXIT_OK if readme_stats.fill(apply=args.apply, log=_echo) else EXIT_NO_CHANGE
+    except OSError as exc:
+        _echo(f"readme-stats failed: {exc}")
+        return EXIT_ERROR
 
 
 def cmd_aliases(args: argparse.Namespace) -> int:
