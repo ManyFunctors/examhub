@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Install Hugo
         run: |
@@ -38,7 +38,7 @@ jobs:
           sudo dpkg -i hugo.deb
 
       - id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       # The site itself keeps no per-run timestamp (data/harvest never does,
       # so an unchanged crawl is an empty diff); read the crawl's own finish
@@ -82,4 +82,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

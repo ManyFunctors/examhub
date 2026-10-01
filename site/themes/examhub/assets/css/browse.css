@@ -126,8 +126,10 @@
 }
 
 /* The ring belongs to the box, not to the children. */
-/* Suppress the input's own focus ring. */
-.filters__join .filters__input:focus-visible {
+/* Suppress each child's own focus ring; the join below draws one ring for all of them. */
+.filters__join .filters__input:focus-visible,
+.filters__join .filters__toggle:focus-visible,
+.filters__join .filters__searchbtn:focus-visible {
   outline: none;
 }
 

@@ -51,6 +51,13 @@
   text-decoration: none;
 }
 
+/* Inset, like .card: the default outward outline runs past the row's own
+   padding and into its neighbours, instead of hugging the link itself. */
+.sidebar__link:focus-visible {
+  outline: 2px solid var(--highlight);
+  outline-offset: -2px;
+}
+
 /* A sidebar link that carries a second line — the exam's next date, the calendar's month. */
 .sidebar__link--dated {
   flex-direction: column;
