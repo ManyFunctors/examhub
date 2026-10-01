@@ -1,0 +1,43 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2d16b2ab013c43b275c2a3a0c2fec0e3b09ecfb7e4fddc4e91b73c839a0a1092",
+  "url": "https://nta.ac.in/Download/Notice/PublicNoticeUGC-NETJUNE-2019.pdf",
+  "title": "1896 Public Notice UGC-NET JUNE-2019 Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "487416cca6f275b228fa521f444fd07cdae1e54e7ad01b88a9780948bada2b5b",
+  "bytes": 100503,
+  "pages": 1,
+  "chars": 1314,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-01T17:32:17+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2019-06-20",
+   "evidence": "Date of examinations",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "apply": [
+   "http://www.ugcnetonline.in/",
+   "https://www.ugcnetonline.in"
+  ],
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2019-06-20"
+ }
+}

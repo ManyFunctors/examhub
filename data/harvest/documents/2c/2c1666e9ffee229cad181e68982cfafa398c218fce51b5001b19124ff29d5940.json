@@ -1,0 +1,61 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2c1666e9ffee229cad181e68982cfafa398c218fce51b5001b19124ff29d5940",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220904150052.pdf",
+  "title": "1173 EXAM SCHEDULE FOR JOINT CSIR-UGC NET -JUNE 2022-Reg Read More",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "4ab08f0cd92463b5aae8b5919da9a380e2564d8e360658e57dd08d14edbc8b77",
+  "bytes": 168561,
+  "pages": 1,
+  "chars": 1191,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T17:32:15+05:30"
+ },
+ "kind": "schedule",
+ "schedule": [
+  {
+   "event": "09.00 am to 12.000 noon Earth, Atmospheric, Ocean",
+   "date": "2022-09-16",
+   "page": 1
+  },
+  {
+   "event": "03.00 pm to 06.00 pm Mathematical Sciences",
+   "date": "2022-09-16",
+   "page": 1
+  },
+  {
+   "event": "09.00 am to 12.000 noon Life Sciences",
+   "date": "2022-09-17",
+   "page": 1
+  },
+  {
+   "event": "03.00 pm to 06.00 pm Life Sciences",
+   "date": "2022-09-17",
+   "page": 1
+  },
+  {
+   "event": "09.00 am to 12.000 noon Chemical Sciences",
+   "date": "2022-09-18",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://csirnet.nta.nic.in/",
+   "https://nta.ac.in/"
+  ]
+ }
+}
