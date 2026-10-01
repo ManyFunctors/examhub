@@ -1,18 +1,20 @@
 {{- /* A card for a catalogue exam with no live cycle yet (examhub_pipeline tracked).
-     No status pill, no date: it links to the stub page, which links out to the
-     conducting body's own site. */ -}}
+     Built to look exactly like a real exam's card in this same "Dates to Be
+     Announced" group (same pill text and class, same card edge colour) --
+     two different-looking cards both meaning "no date yet" was the confusing
+     part. The one thing worth adding, how often it's held, goes below the
+     title as a plain note, not competing with the pill for attention. */ -}}
 {{- with . -}}
 {{- /* Search matches the title's text plus these two attributes and nothing else (see
      initFilters in site.js) -- the short name people actually search belongs in the
      title, same as a real exam card, not the long official name. */ -}}
-{{- $freq := dict "annual" "Held Yearly" "biannual" "Held Twice a Year"
-                  "multiple" "Held Several Times a Year" "continuous" "Held Year-Round" -}}
-<a class="card card--tracked" href="{{ .RelPermalink }}" data-f-body="{{ .Params.body_name }}"
+{{- $freq := dict "annual" "once a year" "biannual" "twice a year"
+                  "multiple" "several times a year" "continuous" "on a rolling basis" -}}
+<a class="card card--done" href="{{ .RelPermalink }}" data-f-body="{{ .Params.body_name }}"
    data-f-alt="{{ .Params.name }}">
-  {{- /* Not "Not Yet Announced": the group heading already says that. This says the
-       one thing the heading doesn't -- how often it comes around. */}}
-  <span class="card__status pill pill--tracked">{{ index $freq .Params.frequency | default "Held Regularly" }}</span>
+  <span class="card__status pill pill--upcoming pill--done">Dates to Be Announced</span>
   <p class="card__body-name">{{ .Params.body_name }}{{ with .Params.name }} · {{ . }}{{ end }}</p>
   <h3 class="card__title">{{ .Title }}</h3>
+  <p class="card__flag">Held {{ index $freq .Params.frequency | default "regularly" }}; no notice is out yet</p>
 </a>
 {{- end -}}
