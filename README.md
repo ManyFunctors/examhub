@@ -128,4 +128,4 @@ docs/                 the template, vocabulary, design notes and to-do list
 
 ## Politeness
 
-The crawler identifies itself, keeps a delay between requests to each host, backs off on errors, and follows robots.txt. The one exception is the link check, which fetches each link on our pages once, exactly as a reader clicking it would. Set `EXAMHUB_CONTACT` to a real address so site operators can reach you.
+The crawler identifies itself, keeps a delay between requests to each host, backs off on errors, and follows robots.txt. The one exception is the link check, which fetches each link on our pages once, exactly as a reader clicking it would. `EXAMHUB_CONTACT` can optionally hold a contact address for site operators; it is not needed.
