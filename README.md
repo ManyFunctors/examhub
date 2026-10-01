@@ -123,6 +123,7 @@ docs/                 the template, vocabulary, design notes and to-do list
 | [docs/pipeline.md](docs/pipeline.md) | the crawl design and its measured numbers |
 | [docs/how-it-works.md](docs/how-it-works.md) | in depth: the validator, politeness, extraction rules, what is tested |
 | [docs/todo.md](docs/todo.md) | what's being worked on |
+| [docs/day-to-day.md](docs/day-to-day.md) | the checks actually worth doing by hand, and how often |
 
 ---
 
