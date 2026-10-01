@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c0ceeb1442729a0ba48fcc1ab200c11221b6aa1c153b25178246f864e2ee19fb",
+  "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/08/202608011180992762.pdf",
+  "title": "Public Notice regarding Correction in particulars of the Online Application Form for AIAPGET 2026",
+  "body": "in-nta",
+  "exam": "in-aiapget",
+  "feed": "in-nta/aiapget",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "5f154b3d1daca8652abe860607ffe65513c4f9a5d0af13063adf8488329f19f8",
+  "bytes": 897866,
+  "pages": 2,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T23:07:03+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

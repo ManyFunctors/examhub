@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "9ff9204675b804ac0426d3ffe94d5734ea08d59cc9682a816cfa15464283e77f",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3efdf562ce2fb0ad460fd8e9d33e57f57/uploads/2026/09/20260925968250518.pdf",
+  "title": "Issuance of Certificates for Joint CSIR-UGC NET June 2026, Examination",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/csirnet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "8fdbb1f8134cdfb0e0cf713b12a26ce902f6cfad62efe7c127fc6d6935e1d018",
+  "bytes": 356083,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T23:06:56+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
