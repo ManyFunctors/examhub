@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "fe1d9091d6e245a5f44c32c93fc86d91a3c9794b7ebb028fcdd1e8b968672b80",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/06/20260625141800406.pdf",
+  "title": "Final Opportunity for Confirmation, Correction or Updation of Bank Account Details for Refund of Examination Fee of NEET (UG) 2026 (Examination held on 03 May 2026).",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "c2f684303b25ace2f176fcc786e122683d7a26c84b6e31a12c5347b1dd88b4c6",
+  "bytes": 1410066,
+  "pages": 3,
+  "chars": 4,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-02T00:58:58+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
