@@ -105,7 +105,10 @@ html[data-start-view="dates"] #tab-dates { color: var(--text); }
 .browse__bar .stats__band { padding-left: var(--sp-3); }
 .browse__bar .stats { width: min-content; }
 .browse__bar .stat { width: auto; }
-.browse__bar .stat__value { min-width: 1.1ch; text-align: right; font-size: var(--fs-base); }
+/* Wide enough for "Dates to Be Announced" now that it counts the tracked-exam
+   stubs too (hundreds, not the two digits "Open for Registration" stays under) --
+   too narrow here throws the two rows' numeral column out of line with each other. */
+.browse__bar .stat__value { min-width: 3ch; text-align: right; font-size: var(--fs-base); }
 .browse__bar .stat__label { font-size: var(--fs-xs); line-height: 1.2; }
 
 /* The result count sits inside the search box, just before the button,
