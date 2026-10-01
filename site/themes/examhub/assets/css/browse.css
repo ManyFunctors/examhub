@@ -219,6 +219,7 @@
 
 /* The word, as a tooltip. */
 .filters__toggle::after,
+.filters__searchbtn::after,
 .cal__keybtn::after {
   content: attr(data-label);
   position: absolute;
@@ -242,14 +243,17 @@
 
 .filters__toggle:hover::after,
 .filters__toggle:focus-visible::after,
+.filters__searchbtn:hover::after,
+.filters__searchbtn:focus-visible::after,
 .cal__keybtn:hover::after,
 .cal__keybtn:focus-visible::after {
   opacity: 1;
   visibility: visible;
 }
 
-/* The two buttons sit at opposite ends of the bar, so only the anchor differs. */
+/* Each sits at a different edge of the bar, so only the anchor differs. */
 .filters__toggle::after { left: 0; }
+.filters__searchbtn::after { right: 0; }
 .cal__keybtn::after { right: 0; }
 
 /* Phone: the key's bubble sits left of the button, top-aligned. */
