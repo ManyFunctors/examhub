@@ -1,0 +1,120 @@
+{
+ "schema": 1,
+ "exam": "in-aissee",
+ "name": "All India Sainik Schools Entrance Examination",
+ "body": "in-nta",
+ "purpose": "admission",
+ "cycle": "2024",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "Unreserved"
+     ],
+     "amount": 650,
+     "raw": " General/Wards of Defence personnel and ex- Rs. 650/-",
+     "page": 1
+    },
+    {
+     "categories": [
+      "SC",
+      "ST"
+     ],
+     "amount": 500,
+     "raw": " Scheduled castes/Scheduled tribes Rs. 500/-",
+     "page": 1
+    }
+   ],
+   "source": {
+    "notice": "1b71b1cbf347c95a73932e22f4427c4f869a740a4ef3d1e8816bb07c8991b3f3",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20231107221906.pdf",
+    "title": "831 ALLINDIA SAINIKSCHOOLSENTRANCEEXAMINATION(AISSEE)-2024 Read More",
+    "kind": "brochure",
+    "page": 1
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2024-03-31",
+    "source": {
+     "notice": "1b71b1cbf347c95a73932e22f4427c4f869a740a4ef3d1e8816bb07c8991b3f3",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20231107221906.pdf",
+     "title": "831 ALLINDIA SAINIKSCHOOLSENTRANCEEXAMINATION(AISSEE)-2024 Read More",
+     "kind": "brochure",
+     "page": 1
+    }
+   },
+   "payment_deadline": {
+    "date": "2023-12-16",
+    "source": {
+     "notice": "1b71b1cbf347c95a73932e22f4427c4f869a740a4ef3d1e8816bb07c8991b3f3",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20231107221906.pdf",
+     "title": "831 ALLINDIA SAINIKSCHOOLSENTRANCEEXAMINATION(AISSEE)-2024 Read More",
+     "kind": "brochure",
+     "page": 1
+    }
+   },
+   "registration_deadline": {
+    "date": "2023-12-16",
+    "source": {
+     "notice": "1b71b1cbf347c95a73932e22f4427c4f869a740a4ef3d1e8816bb07c8991b3f3",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20231107221906.pdf",
+     "title": "831 ALLINDIA SAINIKSCHOOLSENTRANCEEXAMINATION(AISSEE)-2024 Read More",
+     "kind": "brochure",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2023-12-16"
+   },
+   "source": {
+    "notice": "1b71b1cbf347c95a73932e22f4427c4f869a740a4ef3d1e8816bb07c8991b3f3",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20231107221906.pdf",
+    "title": "831 ALLINDIA SAINIKSCHOOLSENTRANCEEXAMINATION(AISSEE)-2024 Read More",
+    "kind": "brochure",
+    "page": 1
+   }
+  },
+  "apply_links": {
+   "value": [
+    "https://exams.nta.ac.in/AISSEE/"
+   ],
+   "source": {
+    "notice": "1b71b1cbf347c95a73932e22f4427c4f869a740a4ef3d1e8816bb07c8991b3f3",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20231107221906.pdf",
+    "title": "831 ALLINDIA SAINIKSCHOOLSENTRANCEEXAMINATION(AISSEE)-2024 Read More",
+    "kind": "brochure"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "Eligibility for admission to Class IX Candidate should be between 13 and 15 years as on 31.03.2024 and should have passed Class VIII, from a recognised school, at the time of admission",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "1b71b1cbf347c95a73932e22f4427c4f869a740a4ef3d1e8816bb07c8991b3f3",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20231107221906.pdf",
+    "title": "831 ALLINDIA SAINIKSCHOOLSENTRANCEEXAMINATION(AISSEE)-2024 Read More",
+    "kind": "brochure"
+   }
+  }
+ },
+ "gaps": [
+  "exam_date",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}
