@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0f3cbc822a834792b44fd8276e8a258da6c975e3fd565c08487f24e4ab904ef1",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/06/20260609246210889.pdf",
+  "title": "Portal for Submitting Scribe Details by the PwD/PwBD Candidates of NEET (UG)-2026, Scheduled on 21 June 2026-reg.",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "7a958afe8e946f34f1e0ad8d29c0e71c490944739ff4b56fed4658d5fdc8193a",
+  "bytes": 446938,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T10:18:53+05:30"
+ },
+ "kind": "schedule",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
