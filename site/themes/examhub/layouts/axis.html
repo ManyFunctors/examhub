@@ -18,7 +18,8 @@
 <div class="page-header page-header--stamped"><div>
   <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{ site.Home.RelPermalink }}">Home</a>{{ with $parent }} › <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</nav>
   <h1>{{ .Title }}</h1>
-  <p class="page-description">{{ if eq $axis "kinds" }}{{ len $dates }} Date{{ if ne (len $dates) 1 }}s{{ end }}{{ else }}{{ len $rows }} Exam{{ if ne (len $rows) 1 }}s{{ end }}{{ end }}</p>
+  <p class="page-description">{{ if eq $axis "kinds" }}{{ len $dates }} Date{{ if ne (len $dates) 1 }}s{{ end }}{{ else }}{{ len $rows }} Exam{{ if ne (len $rows) 1 }}s{{ end }}{{ end }}
+    {{- if eq $axis "bodies" }}{{ with (index hugo.Data.bodies $key).website }} · <a href="{{ . }}" rel="noopener" target="_blank">Official Website ↗</a>{{ end }}{{ end }}</p>
 </div></div>
 
 {{- if eq $axis "kinds" }}
