@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1d81797c9387faebddb37410b19468924db377b8f8697967e212547289d668cf",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20231117125446.pdf",
+  "title": "Examination Schedule of UGC - NET December 2023 Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/home",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "e781476dd62257023c4ec8167b131be03b7219b9027465d1de4ba7c35b532387",
+  "bytes": 310308,
+  "pages": 3,
+  "chars": 4,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T14:04:20+05:30"
+ },
+ "kind": "schedule",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
