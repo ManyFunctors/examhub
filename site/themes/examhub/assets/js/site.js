@@ -883,11 +883,12 @@
     if (examPick) examPick.button.addEventListener("change", apply);
     if (bodyPick) bodyPick.button.addEventListener("change", apply);
 
-    /* The search button and Enter both submit. */
+    /* The search button and Enter both submit. count is role="status", so it
+       announces the new total on its own; moving focus there too just yanked
+       the highlight away from the field the reader was still typing in. */
     form.addEventListener("submit", function (e) {
       e.preventDefault();
       apply();
-      if (count) count.focus();
     });
 
     document.addEventListener("click", function (e) {
