@@ -1,6 +1,23 @@
 {{ define "main" }}
 {{- $isExam := and .IsPage (eq .Params.section "exams") -}}
-{{- if not $isExam }}
+{{- $isTracked := and .IsPage (eq .Params.section "tracked") -}}
+{{- if $isTracked }}
+  {{- /* A catalogue exam with no live cycle yet (examhub_pipeline tracked): the same
+       header chrome as a real exam page -- breadcrumb, title, conducted-by line --
+       so a reader doesn't land somewhere that looks like a different kind of site.
+       Everything below the header a real page has (dates, fee, pattern...) simply
+       doesn't exist yet; one line says so instead of showing it empty. */ -}}
+  {{- $p := .Params -}}
+  <div class="page-header page-header--stamped"><div>
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{ site.Home.RelPermalink }}">Home</a></nav>
+    <div class="card__top"><h1>{{ .Title }}</h1></div>
+    <p class="page-description">{{ $p.name }}{{ with $p.body_name }}<br><span class="v2-by">Conducted by <strong>{{ with $p.body_url }}<a href="{{ . }}" rel="noopener">{{ $p.body_name }}</a>{{ else }}{{ $p.body_name }}{{ end }}</strong></span>{{ end }}</p>
+  </div></div>
+  <section class="section v2-keydates">
+    <p class="v2-silent">No notice has been published yet for its next cycle: ExamHub takes nothing from anywhere but the body's own notice, so there is nothing to show here yet.</p>
+    {{ .Content }}
+  </section>
+{{- else if not $isExam }}
   <article class="prose prose--page">
     <h1>{{ .Title }}</h1>
     {{ .Content }}

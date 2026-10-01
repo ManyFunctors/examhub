@@ -1,5 +1,6 @@
 +++
 title = "MPPSC Assistant Engineer / Engineering Services Examination"
+section = 'tracked'
 slug = "mppsc-ae"
 exam_id = "mp-mppsc-ae"
 name = "MPPSC Assistant Engineer / Engineering Services Examination"
@@ -8,6 +9,4 @@ body_url = "https://mppsc.mp.gov.in/"
 frequency = "irregular"
 +++
 
-**MPPSC Assistant Engineer / Engineering Services Examination** is conducted on no fixed schedule by MPPSC. No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
-
-[Check MPPSC's official site](https://mppsc.mp.gov.in/) for an announcement.
+It is held on no fixed schedule.

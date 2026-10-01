@@ -1,5 +1,6 @@
 +++
 title = "Ordnance / DPSU Trade Apprentice and Group C Recruitment"
+section = 'tracked'
 slug = "ordnance-recruitment"
 exam_id = "in-ordnance-recruitment"
 name = "Ordnance / DPSU Trade Apprentice and Group C Recruitment"
@@ -8,6 +9,4 @@ body_url = "https://ddpdoo.gov.in/"
 frequency = "irregular"
 +++
 
-**Ordnance / DPSU Trade Apprentice and Group C Recruitment** is conducted on no fixed schedule by DOO. No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
-
-[Check DOO's official site](https://ddpdoo.gov.in/) for an announcement.
+It is held on no fixed schedule.

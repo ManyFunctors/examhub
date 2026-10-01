@@ -1,5 +1,6 @@
 +++
 title = "Punjab State Civil Services Combined Competitive Examination"
+section = 'tracked'
 slug = "ppsc-pcs"
 exam_id = "pb-ppsc-pcs"
 name = "Punjab State Civil Services Combined Competitive Examination"
@@ -8,6 +9,4 @@ body_url = "https://ppsc.gov.in/"
 frequency = "annual"
 +++
 
-**Punjab State Civil Services Combined Competitive Examination** is conducted once a year by PPSC. No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
-
-[Check PPSC's official site](https://ppsc.gov.in/) for an announcement.
+It is held once a year.

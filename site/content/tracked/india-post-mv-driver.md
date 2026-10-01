@@ -1,5 +1,6 @@
 +++
 title = "Department of Posts Staff Car Driver / Skilled Artisan"
+section = 'tracked'
 slug = "india-post-mv-driver"
 exam_id = "in-india-post-mv-driver"
 name = "Department of Posts Staff Car Driver / Skilled Artisan"
@@ -8,6 +9,4 @@ body_url = "https://www.indiapost.gov.in/"
 frequency = "irregular"
 +++
 
-**Department of Posts Staff Car Driver / Skilled Artisan** is conducted on no fixed schedule by India Post. No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
-
-[Check India Post's official site](https://www.indiapost.gov.in/) for an announcement.
+It is held on no fixed schedule.

@@ -1,5 +1,6 @@
 +++
 title = "Maharashtra Board HSC Examination"
+section = 'tracked'
 slug = "msbshse-class-12"
 exam_id = "mh-msbshse-class-12"
 name = "Maharashtra Board HSC Examination"
@@ -8,6 +9,4 @@ body_url = "https://mahahsscboard.in/"
 frequency = "annual"
 +++
 
-**Maharashtra Board HSC Examination** is conducted once a year by Maharashtra Board. No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
-
-[Check Maharashtra Board's official site](https://mahahsscboard.in/) for an announcement.
+It is held once a year.

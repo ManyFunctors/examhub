@@ -101,7 +101,7 @@ jobs:
 
       - name: Open a pull request
         if: steps.pick.outputs.sources != '' && steps.review.outputs.exit_code == '0'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: pipeline/hourly-recheck
           base: ${{ github.event.repository.default_branch }}

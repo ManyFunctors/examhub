@@ -1,5 +1,6 @@
 +++
 title = "CGPSC CG Forest Service Examination"
+section = 'tracked'
 slug = "cgpsc-cg-forest-service"
 exam_id = "cg-cgpsc-cg-forest-service"
 name = "CGPSC CG Forest Service Examination"
@@ -8,6 +9,4 @@ body_url = "https://psc.cg.gov.in/"
 frequency = "irregular"
 +++
 
-**CGPSC CG Forest Service Examination** is conducted on no fixed schedule by CGPSC. No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
-
-[Check CGPSC's official site](https://psc.cg.gov.in/) for an announcement.
+It is held on no fixed schedule.

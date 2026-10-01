@@ -274,7 +274,7 @@ jobs:
       - name: Open a pull request
         # The whole point. Nothing changed, nothing is opened.
         if: steps.review.outputs.exit_code == '0' || steps.names.outputs.changed == 'true' || steps.dedupe.outputs.changed == 'true' || steps.wayback.outputs.changed == 'true' || steps.links.outputs.changed == 'true' || steps.aliases.outputs.changed == 'true' || steps.readme.outputs.changed == 'true' || steps.tracked.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: pipeline/nightly-recheck
           base: ${{ github.event.repository.default_branch }}

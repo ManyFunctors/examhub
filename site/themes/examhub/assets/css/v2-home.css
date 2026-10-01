@@ -248,8 +248,10 @@ html[data-start-view="dates"] #tab-dates { color: var(--text); }
 .bymonth__summary .bymonth__title { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: var(--sp-3); row-gap: 0; flex: 1; margin: 0; font-size: var(--fs-base); }
 .bymonth__summary:hover .bymonth__title { color: var(--accent-text); }
 /* "(93 Exams)" after the heading */
-.bymonth__count { margin-left: .4em; font-weight: 500; color: var(--subtext0); }
+.bymonth__count { margin-left: .4em; font-weight: 500; color: var(--subtext0); transition: opacity 160ms ease; }
 .bymonth__count:empty { display: none; }
+.bymonth__count--refreshing { opacity: 0; }
+@media (prefers-reduced-motion: reduce) { .bymonth__count { transition: none; } }
 
 /* Grid: the bar's month, then TBA and Completed */
 #exam-grid { display: flex; flex-direction: column; gap: var(--sp-3); }

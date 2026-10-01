@@ -1,5 +1,6 @@
 +++
 title = "APPSC (Arunachal) Assistant Engineer / Engineering Services Examination"
+section = 'tracked'
 slug = "ar-appsc-ae"
 exam_id = "ar-appsc-ae"
 name = "APPSC (Arunachal) Assistant Engineer / Engineering Services Examination"
@@ -8,6 +9,4 @@ body_url = "https://appsc.gov.in/"
 frequency = "irregular"
 +++
 
-**APPSC (Arunachal) Assistant Engineer / Engineering Services Examination** is conducted on no fixed schedule by APPSC (Arunachal). No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
-
-[Check APPSC (Arunachal)'s official site](https://appsc.gov.in/) for an announcement.
+It is held on no fixed schedule.

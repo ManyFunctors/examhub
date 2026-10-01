@@ -1,5 +1,6 @@
 +++
 title = "WB ANM / GNM Nursing Entrance"
+section = 'tracked'
 slug = "jemscn"
 exam_id = "wb-jemscn"
 name = "WB ANM / GNM Nursing Entrance"
@@ -8,6 +9,4 @@ body_url = "https://wbjeeb.nic.in/"
 frequency = "annual"
 +++
 
-**WB ANM / GNM Nursing Entrance** is conducted once a year by WBJEEB. No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
-
-[Check WBJEEB's official site](https://wbjeeb.nic.in/) for an announcement.
+It is held once a year.

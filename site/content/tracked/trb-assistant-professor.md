@@ -1,5 +1,6 @@
 +++
 title = "TRB Assistant Professor (Government Arts and Science / Polytechnic / Engineering Colleges)"
+section = 'tracked'
 slug = "trb-assistant-professor"
 exam_id = "tn-trb-assistant-professor"
 name = "TRB Assistant Professor (Government Arts and Science / Polytechnic / Engineering Colleges)"
@@ -8,6 +9,4 @@ body_url = "https://trb.tn.gov.in/"
 frequency = "irregular"
 +++
 
-**TRB Assistant Professor (Government Arts and Science / Polytechnic / Engineering Colleges)** is conducted on no fixed schedule by TN TRB. No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
-
-[Check TN TRB's official site](https://trb.tn.gov.in/) for an announcement.
+It is held on no fixed schedule.

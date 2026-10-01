@@ -53,21 +53,28 @@
   /* Score one candidate against the query. */
   function score(hay, needle) {
     if (!needle) return 0;
-    if (hay.indexOf(needle) > -1) return 1;
 
     var words = hay.split(/[^a-z0-9]+/);
     var w, n;
+
+    /* A whole word matching the query outright -- "next" against the NExT card --
+       beats "next" merely turning up inside a longer word somewhere else. */
+    for (w = 0; w < words.length; w++) {
+      if (words[w] === needle) return 1;
+    }
+
+    if (hay.indexOf(needle) > -1) return 2;
 
     /* Initials of leading words, so "upsc cde" and "ugc net" match. */
     var run = [];
     for (n = 0; n < words.length; n++) {
       run.push(words[n]);
-      if (run.join(" ") === needle) return 2;
+      if (run.join(" ") === needle) return 3;
     }
 
     /* A prefix of any single word, so "ssc" finds a body wherever it sits. */
     for (w = 0; w < words.length; w++) {
-      if (words[w] && words[w].indexOf(needle) === 0) return 2;
+      if (words[w] && words[w].indexOf(needle) === 0) return 3;
     }
 
     var allow = tolerance(needle.length);
@@ -84,7 +91,7 @@
       var dh = levenshtein(hay, needle);
       if (dh < best) best = dh;
     }
-    return best <= allow ? 3 : -1;
+    return best <= allow ? 4 : -1;
   }
 
   /* Split a query into the separate things the reader asked for. */
@@ -106,7 +113,7 @@
     var best = -1;
     for (var i = 0; i < terms.length; i++) {
       var s = score(hay, terms[i]);
-      /* score() reports "no match" as -1 and a match as 1, 2 or 3, and lower is better. */
+      /* score() reports "no match" as -1 and a match as 1-4, and lower is better. */
       if (s < 0) continue;
       if (best === -1 || s < best) best = s;
     }
@@ -1081,7 +1088,18 @@
       });
       tbaGrid.appendChild(tbaFrag);
     }
+    /* The counts the server rendered (real exams only) are about to jump once
+       initByMonth recounts with the full set, "Dates to Be Announced" most of
+       all now that it carries hundreds of tracked stubs -- fade that jump
+       instead of flipping the number outright. */
+    var counts = grid.querySelectorAll(".bymonth__count");
+    counts.forEach(function (c) { c.classList.add("bymonth__count--refreshing"); });
     initByMonth(grid, data);
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        counts.forEach(function (c) { c.classList.remove("bymonth__count--refreshing"); });
+      });
+    });
     initFilters(data);
     initDates(data);
     updateCountdowns();

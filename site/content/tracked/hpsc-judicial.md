@@ -1,5 +1,6 @@
 +++
 title = "HPSC Civil Judge (Junior Division) / Judicial Services Examination"
+section = 'tracked'
 slug = "hpsc-judicial"
 exam_id = "hr-hpsc-judicial"
 name = "HPSC Civil Judge (Junior Division) / Judicial Services Examination"
@@ -8,6 +9,4 @@ body_url = "https://hpsc.gov.in/"
 frequency = "irregular"
 +++
 
-**HPSC Civil Judge (Junior Division) / Judicial Services Examination** is conducted on no fixed schedule by HPSC. No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
-
-[Check HPSC's official site](https://hpsc.gov.in/) for an announcement.
+It is held on no fixed schedule.

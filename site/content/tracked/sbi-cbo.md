@@ -1,5 +1,6 @@
 +++
 title = "SBI CBO"
+section = 'tracked'
 slug = "sbi-cbo"
 exam_id = "in-sbi-cbo"
 name = "SBI Circle Based Officers"
@@ -8,6 +9,4 @@ body_url = "https://sbi.co.in/"
 frequency = "annual"
 +++
 
-**SBI Circle Based Officers** is conducted once a year by SBI. No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
-
-[Check SBI's official site](https://sbi.co.in/) for an announcement.
+It is held once a year.

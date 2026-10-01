@@ -1,5 +1,6 @@
 +++
 title = "Mahavitaran / Mahatransco / Mahagenco Recruitment"
+section = 'tracked'
 slug = "mahavitaran-recruitment"
 exam_id = "mh-mahavitaran-recruitment"
 name = "Mahavitaran / Mahatransco / Mahagenco Recruitment"
@@ -8,6 +9,4 @@ body_url = "https://www.mahadiscom.in/"
 frequency = "irregular"
 +++
 
-**Mahavitaran / Mahatransco / Mahagenco Recruitment** is conducted on no fixed schedule by MSEDCL. No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
-
-[Check MSEDCL's official site](https://www.mahadiscom.in/) for an announcement.
+It is held on no fixed schedule.

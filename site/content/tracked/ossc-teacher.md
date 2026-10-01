@@ -1,5 +1,6 @@
 +++
 title = "OSSC Higher Secondary Specialist / Teacher Recruitment"
+section = 'tracked'
 slug = "ossc-teacher"
 exam_id = "od-ossc-teacher"
 name = "OSSC Higher Secondary Specialist / Teacher Recruitment"
@@ -8,6 +9,4 @@ body_url = "https://www.ossc.gov.in/"
 frequency = "irregular"
 +++
 
-**OSSC Higher Secondary Specialist / Teacher Recruitment** is conducted on no fixed schedule by OSSC. No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
-
-[Check OSSC's official site](https://www.ossc.gov.in/) for an announcement.
+It is held on no fixed schedule.

@@ -1,5 +1,6 @@
 +++
 title = "UPSSSC Gram Panchayat Adhikari / Gram Vikas Adhikari (VDO)"
+section = 'tracked'
 slug = "upsssc-vdo"
 exam_id = "up-upsssc-vdo"
 name = "UPSSSC Gram Panchayat Adhikari / Gram Vikas Adhikari (VDO)"
@@ -8,6 +9,4 @@ body_url = "https://upsssc.gov.in/"
 frequency = "irregular"
 +++
 
-**UPSSSC Gram Panchayat Adhikari / Gram Vikas Adhikari (VDO)** is conducted on no fixed schedule by UPSSSC. No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
-
-[Check UPSSSC's official site](https://upsssc.gov.in/) for an announcement.
+It is held on no fixed schedule.

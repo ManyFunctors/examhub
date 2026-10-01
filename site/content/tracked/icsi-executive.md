@@ -1,5 +1,6 @@
 +++
 title = "CS Executive"
+section = 'tracked'
 slug = "icsi-executive"
 exam_id = "in-icsi-executive"
 name = "CS Executive Programme Examination"
@@ -8,6 +9,4 @@ body_url = "https://www.icsi.edu/"
 frequency = "biannual"
 +++
 
-**CS Executive Programme Examination** is conducted twice a year by ICSI. No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
-
-[Check ICSI's official site](https://www.icsi.edu/) for an announcement.
+It is held twice a year.

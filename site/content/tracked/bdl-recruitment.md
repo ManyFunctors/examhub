@@ -1,5 +1,6 @@
 +++
 title = "BDL Direct Recruitment (non-GATE posts)"
+section = 'tracked'
 slug = "bdl-recruitment"
 exam_id = "in-bdl-recruitment"
 name = "BDL Direct Recruitment (non-GATE posts)"
@@ -8,6 +9,4 @@ body_url = "https://bdl-india.in/"
 frequency = "irregular"
 +++
 
-**BDL Direct Recruitment (non-GATE posts)** is conducted on no fixed schedule by BDL. No notice has been published yet for its next cycle, so there is nothing to show beyond this: ExamHub takes nothing from anywhere but the body's own notice.
-
-[Check BDL's official site](https://bdl-india.in/) for an announcement.
+It is held on no fixed schedule.

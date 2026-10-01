@@ -87,6 +87,7 @@ def render(exam_id: str, cat: catalogue_mod.Catalogue, slug: str) -> str:
     lines = [
         "+++",
         f"title = {tv(short)}",
+        "section = 'tracked'",
         f"slug = {tv(slug)}",
         f"exam_id = {tv(exam_id)}",
         f"name = {tv(name)}",
@@ -95,12 +96,7 @@ def render(exam_id: str, cat: catalogue_mod.Catalogue, slug: str) -> str:
         f"frequency = {tv(exam.get('frequency', 'unknown'))}",
         "+++",
         "",
-        f"**{name}** is conducted {freq} by {body_name}. No notice has been "
-        "published yet for its next cycle, so there is nothing to show beyond "
-        "this: ExamHub takes nothing from anywhere but the body's own notice.",
-        "",
-        f"[Check {body_name}'s official site]({body_url}) for an announcement." if body_url
-        else f"{body_name} has not published an official site in the catalogue yet.",
+        f"It is held {freq}.",
     ]
     return "\n".join(lines) + "\n"
 
