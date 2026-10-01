@@ -1,5 +1,13 @@
-{{- /* The verification stamp: when the site's data was last checked against a source. */ -}}
+{{- /* The verification stamp: when the site's data was last checked against a source.
+     Floored at the last successful daily crawl (site/data/freshness.json, written
+     at build time from the Actions run history -- see .github/workflows/site.yml),
+     since the crawl checks every exam's notices daily even on a day nothing changed. */ -}}
 {{- $newest := .newest -}}
+{{- with hugo.Data.freshness.crawled -}}
+  {{- if or (not $newest) (gt (substr . 0 10) (substr $newest 0 10)) -}}
+    {{- $newest = . -}}
+  {{- end -}}
+{{- end -}}
 {{- $staleAfter := site.Params.staleAfterDays | default 14 -}}
 {{- $days := -1 -}}
 {{- with $newest -}}

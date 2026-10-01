@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: read
+  actions: read   # read the crawl workflow's run history, for the freshness stamp
 
 # One deploy at a time; a newer one waits rather than cancelling a live deploy.
 concurrency:
@@ -38,6 +39,21 @@ jobs:
 
       - id: pages
         uses: actions/configure-pages@v5
+
+      # The site itself keeps no per-run timestamp (data/harvest never does,
+      # so an unchanged crawl is an empty diff); read the crawl's own finish
+      # time from Actions instead, so "Updated" reflects the daily check even
+      # on a day nothing changed on the page.
+      - name: Freshness: when the crawl last finished
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p site/data
+          ts=$(curl -sS -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/crawl.yml/runs?status=success&per_page=1" \
+            | jq -r '.workflow_runs[0].updated_at // empty')
+          printf '{"crawled": %s}\n' "$(printf '%s' "$ts" | jq -R .)" > site/data/freshness.json
+          cat site/data/freshness.json
 
       - name: Build
         working-directory: site
