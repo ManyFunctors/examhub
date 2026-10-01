@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1f58370886463c21407944ade6f28907186508d7d6ecf1a2070db55166fea75a",
+  "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/04/202604031634323776.pdf",
+  "title": "Correction in the Particulars of Online Application Form for National Council for Hotel Management Joint Entrance Examination (NCHM JEE) – 2026",
+  "body": "in-nta",
+  "exam": "in-nchm-jee",
+  "feed": "in-nta/nchm",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "8a50635a2d5da50ba39c3ae6615f0c09766af29817719efefb2a23048549192e",
+  "bytes": 908589,
+  "pages": 2,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T12:04:05+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
