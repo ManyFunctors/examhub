@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "ecc88f37559f2839b019a724d6b9b499eff9cf2d3add379d2fc7bb86ea8485db",
+  "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/09/20260924982245914.pdf",
+  "title": "Public Notice regarding Issuance of e-Certificates for UGC-NET June 2026 Examination",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/ugcnet",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "f9ae9358a575464b257dd8a819acfdd0fe03cea7bdfdf50197d75acb5c8a90cc",
+  "bytes": 347331,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-02T00:41:25+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

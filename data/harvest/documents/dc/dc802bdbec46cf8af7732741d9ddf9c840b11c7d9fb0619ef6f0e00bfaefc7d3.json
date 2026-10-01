@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "dc802bdbec46cf8af7732741d9ddf9c840b11c7d9fb0619ef6f0e00bfaefc7d3",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/06/20260619440433404.pdf",
+  "title": "NTA Fully Prepared for Smooth and Secure Conduct of NEET (UG) 2026 Re-Examination on 21 June 2026-reg.",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "56b1295cd445d9d598e498e221c35328e93bcbd68ec58be0284aedc5321d7c1c",
+  "bytes": 1577288,
+  "pages": 3,
+  "chars": 4,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-02T00:41:24+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
