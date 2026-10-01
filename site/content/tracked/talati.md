@@ -8,5 +8,3 @@ body_name = "GPSSB"
 body_url = "https://gpssb.gujarat.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

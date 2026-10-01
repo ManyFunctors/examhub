@@ -8,5 +8,3 @@ body_name = "CSAUAT"
 body_url = "https://csauk.ac.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

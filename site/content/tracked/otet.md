@@ -8,5 +8,3 @@ body_name = "BSE Odisha"
 body_url = "https://bseodisha.ac.in/"
 frequency = "biannual"
 +++
-
-It is held twice a year.

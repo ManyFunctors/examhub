@@ -8,5 +8,3 @@ body_name = "Punjab ERB"
 body_url = "https://educationrecruitmentboard.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

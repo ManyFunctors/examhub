@@ -8,5 +8,3 @@ body_name = "JCECEB"
 body_url = "https://jceceb.jharkhand.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

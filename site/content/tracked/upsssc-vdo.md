@@ -8,5 +8,3 @@ body_name = "UPSSSC"
 body_url = "https://upsssc.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

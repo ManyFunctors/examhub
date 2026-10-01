@@ -8,5 +8,3 @@ body_name = "JIPMER"
 body_url = "https://jipmer.edu.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

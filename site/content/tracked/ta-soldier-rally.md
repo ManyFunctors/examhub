@@ -8,5 +8,3 @@ body_name = "Territorial Army"
 body_url = "https://territorialarmy.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

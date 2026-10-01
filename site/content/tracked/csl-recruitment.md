@@ -8,5 +8,3 @@ body_name = "Cochin Shipyard"
 body_url = "https://cochinshipyard.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

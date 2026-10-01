@@ -8,5 +8,3 @@ body_name = "HPPSC"
 body_url = "https://hppsc.hp.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

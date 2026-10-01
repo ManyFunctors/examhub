@@ -8,5 +8,3 @@ body_name = "Maharashtra Board"
 body_url = "https://mahahsscboard.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

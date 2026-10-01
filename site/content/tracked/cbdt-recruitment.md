@@ -8,5 +8,3 @@ body_name = "Income Tax Department"
 body_url = "https://www.incometaxindia.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

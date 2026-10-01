@@ -8,5 +8,3 @@ body_name = "BPCL"
 body_url = "https://www.bharatpetroleum.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

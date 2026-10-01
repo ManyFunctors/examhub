@@ -8,5 +8,3 @@ body_name = "RUHS"
 body_url = "https://ruhsraj.org/"
 frequency = "annual"
 +++
-
-It is held once a year.

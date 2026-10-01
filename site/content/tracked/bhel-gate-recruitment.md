@@ -8,5 +8,3 @@ body_name = "BHEL"
 body_url = "https://careers.bhel.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

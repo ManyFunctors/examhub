@@ -8,5 +8,3 @@ body_name = "IFHE"
 body_url = "https://www.ifheindia.org/"
 frequency = "annual"
 +++
-
-It is held once a year.

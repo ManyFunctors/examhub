@@ -8,5 +8,3 @@ body_name = "PGIMER"
 body_url = "https://pgimer.edu.in/"
 frequency = "biannual"
 +++
-
-It is held twice a year.

@@ -8,5 +8,3 @@ body_name = "PSSSB"
 body_url = "https://sssb.punjab.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

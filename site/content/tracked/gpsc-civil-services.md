@@ -8,5 +8,3 @@ body_name = "GPSC"
 body_url = "https://gpsc.gujarat.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

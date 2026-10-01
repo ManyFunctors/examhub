@@ -8,5 +8,3 @@ body_name = "Bihar B.Ed CET"
 body_url = "https://biharcetbed-lnmu.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

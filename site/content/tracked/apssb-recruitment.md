@@ -8,5 +8,3 @@ body_name = "APSSB"
 body_url = "https://apssb.nic.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

@@ -8,5 +8,3 @@ body_name = "Assam Rifles"
 body_url = "https://www.assamrifles.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

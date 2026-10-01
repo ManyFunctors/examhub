@@ -8,5 +8,3 @@ body_name = "IRCTC"
 body_url = "https://www.irctc.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

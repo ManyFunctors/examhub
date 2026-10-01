@@ -8,5 +8,3 @@ body_name = "SSC"
 body_url = "https://ssc.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

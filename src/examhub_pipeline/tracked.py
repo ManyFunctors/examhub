@@ -63,15 +63,6 @@ def slugs_for(exam_ids: list[str]) -> dict[str, str]:
     return {eid: (b if counts[b] == 1 else eid) for eid, b in bare.items()}
 
 
-FREQUENCY_WORDS = {
-    "annual": "once a year",
-    "biannual": "twice a year",
-    "multiple": "several times a year",
-    "continuous": "on a rolling basis",
-    "irregular": "on no fixed schedule",
-}
-
-
 def render(exam_id: str, cat: catalogue_mod.Catalogue, slug: str) -> str:
     """The stub file's content for one catalogue exam id."""
     exam = cat.exams[exam_id]
@@ -81,7 +72,6 @@ def render(exam_id: str, cat: catalogue_mod.Catalogue, slug: str) -> str:
     body = cat.bodies.get(body_id, {})
     body_name = body.get("short_name") or body.get("name") or "its conducting body"
     body_url = body.get("website") or ""
-    freq = FREQUENCY_WORDS.get(exam.get("frequency", ""), "regularly")
     tv = catalogue_mod._toml_value  # a name or title can carry an apostrophe or a quote
 
     lines = [
@@ -95,8 +85,6 @@ def render(exam_id: str, cat: catalogue_mod.Catalogue, slug: str) -> str:
         f"body_url = {tv(body_url)}",
         f"frequency = {tv(exam.get('frequency', 'unknown'))}",
         "+++",
-        "",
-        f"It is held {freq}.",
     ]
     return "\n".join(lines) + "\n"
 

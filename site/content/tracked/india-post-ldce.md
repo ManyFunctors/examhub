@@ -8,5 +8,3 @@ body_name = "India Post"
 body_url = "https://www.indiapost.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

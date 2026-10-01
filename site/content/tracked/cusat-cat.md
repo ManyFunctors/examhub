@@ -8,5 +8,3 @@ body_name = "CUSAT"
 body_url = "https://admissions.cusat.ac.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

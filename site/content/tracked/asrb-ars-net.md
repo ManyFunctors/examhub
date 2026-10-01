@@ -8,5 +8,3 @@ body_name = "ASRB"
 body_url = "https://www.asrb.org.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

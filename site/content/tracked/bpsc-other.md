@@ -8,5 +8,3 @@ body_name = "BPSC"
 body_url = "https://bpsc.bihar.gov.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

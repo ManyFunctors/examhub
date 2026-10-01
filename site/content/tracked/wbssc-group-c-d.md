@@ -8,5 +8,3 @@ body_name = "WBSSC"
 body_url = "https://www.westbengalssc.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

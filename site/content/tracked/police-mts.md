@@ -8,5 +8,3 @@ body_name = "Delhi Police"
 body_url = "https://delhipolice.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

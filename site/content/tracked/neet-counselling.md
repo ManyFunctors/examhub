@@ -8,5 +8,3 @@ body_name = "KEA"
 body_url = "https://cetonline.karnataka.gov.in/kea/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "NBCC"
 body_url = "https://nbccindia.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

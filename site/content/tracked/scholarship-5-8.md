@@ -8,5 +8,3 @@ body_name = "MSCE Pune"
 body_url = "https://www.mscepune.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

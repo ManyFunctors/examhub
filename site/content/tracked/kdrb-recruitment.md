@@ -8,5 +8,3 @@ body_name = "KDRB"
 body_url = "https://kdrb.kerala.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "SAIL"
 body_url = "https://sailcareers.com/"
 frequency = "annual"
 +++
-
-It is held once a year.

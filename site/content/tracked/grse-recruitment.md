@@ -8,5 +8,3 @@ body_name = "GRSE"
 body_url = "https://grse.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "NVS"
 body_url = "https://navodaya.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

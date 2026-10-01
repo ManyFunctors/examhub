@@ -8,5 +8,3 @@ body_name = "ASSEB"
 body_url = "https://asseb.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

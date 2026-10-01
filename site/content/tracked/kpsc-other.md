@@ -8,5 +8,3 @@ body_name = "KPSC (Karnataka)"
 body_url = "https://kpsc.kar.nic.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

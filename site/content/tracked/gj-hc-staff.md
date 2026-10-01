@@ -8,5 +8,3 @@ body_name = "Gujarat HC"
 body_url = "https://gujarathighcourt.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

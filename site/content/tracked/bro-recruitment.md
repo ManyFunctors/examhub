@@ -8,5 +8,3 @@ body_name = "BRO"
 body_url = "https://www.bro.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

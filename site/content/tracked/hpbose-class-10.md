@@ -8,5 +8,3 @@ body_name = "HPBOSE"
 body_url = "https://hpbose.org/"
 frequency = "annual"
 +++
-
-It is held once a year.

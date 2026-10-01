@@ -8,5 +8,3 @@ body_name = "MES"
 body_url = "https://mes.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

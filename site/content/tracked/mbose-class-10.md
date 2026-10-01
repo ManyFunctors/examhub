@@ -8,5 +8,3 @@ body_name = "MBOSE"
 body_url = "https://mbose.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

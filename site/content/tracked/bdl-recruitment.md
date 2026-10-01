@@ -8,5 +8,3 @@ body_name = "BDL"
 body_url = "https://bdl-india.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

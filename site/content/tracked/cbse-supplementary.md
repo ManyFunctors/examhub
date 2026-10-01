@@ -8,5 +8,3 @@ body_name = "CBSE"
 body_url = "https://www.cbse.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

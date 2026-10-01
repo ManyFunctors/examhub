@@ -8,5 +8,3 @@ body_name = "CEL"
 body_url = "https://www.celindia.co.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

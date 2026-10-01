@@ -8,5 +8,3 @@ body_name = "RITES"
 body_url = "https://www.rites.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

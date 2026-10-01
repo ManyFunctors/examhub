@@ -8,5 +8,3 @@ body_name = "Punjab & Haryana HC"
 body_url = "https://highcourtchd.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "ICMAI"
 body_url = "https://icmai.in/"
 frequency = "biannual"
 +++
-
-It is held twice a year.

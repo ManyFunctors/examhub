@@ -8,5 +8,3 @@ body_name = "NHPC"
 body_url = "https://www.nhpcindia.com/"
 frequency = "annual"
 +++
-
-It is held once a year.

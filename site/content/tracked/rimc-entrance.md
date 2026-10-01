@@ -8,5 +8,3 @@ body_name = "RIMC"
 body_url = "https://rimc.gov.in/"
 frequency = "biannual"
 +++
-
-It is held twice a year.

@@ -8,5 +8,3 @@ body_name = "Canara Bank"
 body_url = "https://www.canarabank.bank.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

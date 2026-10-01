@@ -8,5 +8,3 @@ body_name = "APSC (Assam)"
 body_url = "https://apsc.nic.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

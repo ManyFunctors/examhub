@@ -8,5 +8,3 @@ body_name = "CISF"
 body_url = "https://cisfrectt.cisf.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "SJVN"
 body_url = "https://sjvn.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

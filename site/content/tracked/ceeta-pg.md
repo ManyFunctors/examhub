@@ -8,5 +8,3 @@ body_name = "Anna University"
 body_url = "https://tancet.annauniv.edu/"
 frequency = "annual"
 +++
-
-It is held once a year.

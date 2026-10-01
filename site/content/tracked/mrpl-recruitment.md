@@ -8,5 +8,3 @@ body_name = "MRPL"
 body_url = "https://mrpl.co.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

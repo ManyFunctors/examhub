@@ -8,5 +8,3 @@ body_name = "IAI"
 body_url = "https://www.actuariesindia.org/"
 frequency = "biannual"
 +++
-
-It is held twice a year.

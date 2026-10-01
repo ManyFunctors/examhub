@@ -8,5 +8,3 @@ body_name = "Kerala HC"
 body_url = "https://hckrecruitment.keralacourts.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

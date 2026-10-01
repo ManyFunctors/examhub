@@ -8,5 +8,3 @@ body_name = "AP Sachivalayam"
 body_url = "https://gramawardsachivalayam.ap.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

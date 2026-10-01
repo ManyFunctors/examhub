@@ -8,5 +8,3 @@ body_name = "SIDBI"
 body_url = "https://www.sidbi.in/en/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "IISERs"
 body_url = "https://www.iiseradmission.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

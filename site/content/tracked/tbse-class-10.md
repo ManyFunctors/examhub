@@ -8,5 +8,3 @@ body_name = "TBSE"
 body_url = "https://tbse.tripura.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

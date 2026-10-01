@@ -8,5 +8,3 @@ body_name = "TGLPRB"
 body_url = "https://www.tgprb.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "APSC (Assam)"
 body_url = "https://apsc.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

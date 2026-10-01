@@ -8,5 +8,3 @@ body_name = "TN DGE"
 body_url = "https://dge.tn.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

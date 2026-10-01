@@ -8,5 +8,3 @@ body_name = "MPSC (Mizoram)"
 body_url = "https://mpsc.mizoram.gov.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

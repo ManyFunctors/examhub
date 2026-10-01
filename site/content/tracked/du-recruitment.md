@@ -8,5 +8,3 @@ body_name = "DU"
 body_url = "https://www.du.ac.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

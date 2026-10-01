@@ -8,5 +8,3 @@ body_name = "TN MRB"
 body_url = "https://www.mrb.tn.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

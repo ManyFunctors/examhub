@@ -8,5 +8,3 @@ body_name = "Karnataka HC"
 body_url = "https://karnatakajudiciary.kar.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

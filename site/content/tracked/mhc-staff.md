@@ -8,5 +8,3 @@ body_name = "Madras HC"
 body_url = "https://www.mhc.tn.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

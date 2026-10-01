@@ -8,5 +8,3 @@ body_name = "NTA"
 body_url = "https://nta.ac.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

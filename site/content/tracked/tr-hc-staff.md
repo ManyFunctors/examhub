@@ -8,5 +8,3 @@ body_name = "Tripura HC"
 body_url = "https://thc.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

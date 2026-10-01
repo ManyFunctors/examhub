@@ -8,5 +8,3 @@ body_name = "DSEL Karnataka"
 body_url = "https://schooleducation.karnataka.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "MECON"
 body_url = "https://www.meconlimited.co.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

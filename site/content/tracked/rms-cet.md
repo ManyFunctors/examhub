@@ -8,5 +8,3 @@ body_name = "RMS"
 body_url = "https://www.rashtriyamilitaryschools.edu.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "Kerala Pareeksha Bhavan"
 body_url = "https://pareekshabhavan.kerala.gov.in/"
 frequency = "biannual"
 +++
-
-It is held twice a year.

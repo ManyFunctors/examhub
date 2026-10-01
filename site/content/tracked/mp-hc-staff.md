@@ -8,5 +8,3 @@ body_name = "MP High Court"
 body_url = "https://mphc.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

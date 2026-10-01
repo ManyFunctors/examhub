@@ -8,5 +8,3 @@ body_name = "Hindustan Copper"
 body_url = "https://www.hindustancopper.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "IAPT"
 body_url = "https://www.iapt.org.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

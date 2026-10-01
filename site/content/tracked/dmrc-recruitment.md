@@ -8,5 +8,3 @@ body_name = "DMRC"
 body_url = "https://www.delhimetrorail.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

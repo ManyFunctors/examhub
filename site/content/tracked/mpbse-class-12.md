@@ -8,5 +8,3 @@ body_name = "MPBSE"
 body_url = "https://mpbse.nic.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

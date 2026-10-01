@@ -8,5 +8,3 @@ body_name = "UKPSC"
 body_url = "https://psc.uk.gov.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

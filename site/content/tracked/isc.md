@@ -8,5 +8,3 @@ body_name = "CISCE"
 body_url = "https://cisce.org/"
 frequency = "annual"
 +++
-
-It is held once a year.

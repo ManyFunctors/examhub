@@ -8,5 +8,3 @@ body_name = "Meghalaya HC"
 body_url = "https://meghalayahighcourt.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

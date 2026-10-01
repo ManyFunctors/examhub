@@ -8,5 +8,3 @@ body_name = "NSG"
 body_url = "https://www.nsg.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

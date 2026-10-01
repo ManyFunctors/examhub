@@ -8,5 +8,3 @@ body_name = "APPSC (Arunachal)"
 body_url = "https://appsc.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

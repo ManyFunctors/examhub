@@ -8,5 +8,3 @@ body_name = "Manipur HC"
 body_url = "https://hcmimphal.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "MBOSE"
 body_url = "https://mbose.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

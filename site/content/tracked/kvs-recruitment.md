@@ -8,5 +8,3 @@ body_name = "KVS"
 body_url = "https://kvsangathan.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

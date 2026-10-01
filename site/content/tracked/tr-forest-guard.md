@@ -8,5 +8,3 @@ body_name = "Tripura Forest"
 body_url = "https://forest.tripura.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

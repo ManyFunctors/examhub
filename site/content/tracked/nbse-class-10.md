@@ -8,5 +8,3 @@ body_name = "NBSE"
 body_url = "https://nbsenl.edu.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "NCB"
 body_url = "https://narcoticsindia.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

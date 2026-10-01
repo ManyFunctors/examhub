@@ -8,5 +8,3 @@ body_name = "REC"
 body_url = "https://recindia.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

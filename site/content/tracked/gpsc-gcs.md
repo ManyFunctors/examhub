@@ -8,5 +8,3 @@ body_name = "Goa PSC"
 body_url = "https://gpsc.goa.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

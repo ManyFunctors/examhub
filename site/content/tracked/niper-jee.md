@@ -8,5 +8,3 @@ body_name = "NIPER"
 body_url = "https://niperjee.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "HAL"
 body_url = "https://hal-india.co.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

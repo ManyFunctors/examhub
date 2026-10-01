@@ -8,5 +8,3 @@ body_name = "JRBT"
 body_url = "https://jrbt.tripura.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

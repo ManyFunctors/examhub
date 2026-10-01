@@ -8,5 +8,3 @@ body_name = "COHSEM"
 body_url = "https://cohsem.nic.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

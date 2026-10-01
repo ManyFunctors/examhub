@@ -8,5 +8,3 @@ body_name = "RINL"
 body_url = "https://www.vizagsteel.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "Maharashtra ZP"
 body_url = "https://rdd.maharashtra.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

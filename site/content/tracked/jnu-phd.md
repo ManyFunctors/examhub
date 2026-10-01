@@ -8,5 +8,3 @@ body_name = "JNU"
 body_url = "https://www.jnu.ac.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

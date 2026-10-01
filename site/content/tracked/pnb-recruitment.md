@@ -8,5 +8,3 @@ body_name = "PNB"
 body_url = "https://pnb.bank.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

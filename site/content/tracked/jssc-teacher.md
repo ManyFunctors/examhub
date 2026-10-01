@@ -8,5 +8,3 @@ body_name = "JSSC"
 body_url = "https://jssc.jharkhand.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

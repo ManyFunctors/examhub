@@ -8,5 +8,3 @@ body_name = "CG High Court"
 body_url = "https://highcourt.cg.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

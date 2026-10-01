@@ -8,5 +8,3 @@ body_name = "HURL"
 body_url = "https://hurl.net.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

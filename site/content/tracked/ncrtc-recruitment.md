@@ -8,5 +8,3 @@ body_name = "NCRTC"
 body_url = "https://ncrtc.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

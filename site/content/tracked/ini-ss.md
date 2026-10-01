@@ -8,5 +8,3 @@ body_name = "AIIMS"
 body_url = "https://aiimsexams.ac.in/"
 frequency = "biannual"
 +++
-
-It is held twice a year.

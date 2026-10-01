@@ -8,5 +8,3 @@ body_name = "APPSC"
 body_url = "https://psc.ap.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

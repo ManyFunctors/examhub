@@ -8,5 +8,3 @@ body_name = "NALCO"
 body_url = "https://nalcoindia.com/"
 frequency = "annual"
 +++
-
-It is held once a year.

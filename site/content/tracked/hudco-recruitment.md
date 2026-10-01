@@ -8,5 +8,3 @@ body_name = "HUDCO"
 body_url = "https://hudco.org.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

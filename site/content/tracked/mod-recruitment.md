@@ -8,5 +8,3 @@ body_name = "MoD"
 body_url = "https://www.mod.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

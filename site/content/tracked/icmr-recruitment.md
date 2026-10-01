@@ -8,5 +8,3 @@ body_name = "ICMR"
 body_url = "https://www.icmr.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

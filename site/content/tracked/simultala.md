@@ -8,5 +8,3 @@ body_name = "BSEB"
 body_url = "https://biharboardonline.bihar.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "BSE Odisha"
 body_url = "https://bseodisha.ac.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

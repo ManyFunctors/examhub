@@ -8,5 +8,3 @@ body_name = "HP High Court"
 body_url = "https://hphighcourt.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

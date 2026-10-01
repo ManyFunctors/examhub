@@ -8,5 +8,3 @@ body_name = "DTE MP"
 body_url = "https://dte.mponline.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

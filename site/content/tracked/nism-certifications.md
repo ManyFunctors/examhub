@@ -8,5 +8,3 @@ body_name = "NISM"
 body_url = "https://www.nism.ac.in/"
 frequency = "continuous"
 +++
-
-It is held on a rolling basis.

@@ -8,5 +8,3 @@ body_name = "BOSEM"
 body_url = "https://bosem.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

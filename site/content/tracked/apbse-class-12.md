@@ -8,5 +8,3 @@ body_name = "APBSE"
 body_url = "https://apbse.org.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

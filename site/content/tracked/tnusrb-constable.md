@@ -8,5 +8,3 @@ body_name = "TNUSRB"
 body_url = "https://tnusrb.tn.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

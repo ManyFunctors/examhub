@@ -8,5 +8,3 @@ body_name = "RBI"
 body_url = "https://www.rbi.org.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

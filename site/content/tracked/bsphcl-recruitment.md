@@ -8,5 +8,3 @@ body_name = "BSPHCL"
 body_url = "https://www.bsphcl.co.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

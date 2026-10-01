@@ -8,5 +8,3 @@ body_name = "CONCOR"
 body_url = "https://concorindia.co.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

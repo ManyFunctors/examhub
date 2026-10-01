@@ -8,5 +8,3 @@ body_name = "Tripura Police"
 body_url = "https://tripurapolice.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

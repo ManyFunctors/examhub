@@ -8,5 +8,3 @@ body_name = "HSSC"
 body_url = "https://hssc.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

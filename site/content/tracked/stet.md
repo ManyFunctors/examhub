@@ -8,5 +8,3 @@ body_name = "BSEB"
 body_url = "https://biharboardonline.bihar.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

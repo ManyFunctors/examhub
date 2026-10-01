@@ -8,5 +8,3 @@ body_name = "RCF"
 body_url = "https://www.rcfltd.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

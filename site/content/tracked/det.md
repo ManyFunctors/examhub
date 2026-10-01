@@ -8,5 +8,3 @@ body_name = "SCTE&VT Odisha"
 body_url = "https://scteodisha.org/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "IREDA"
 body_url = "https://www.ireda.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

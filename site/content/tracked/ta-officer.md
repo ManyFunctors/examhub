@@ -8,5 +8,3 @@ body_name = "Territorial Army"
 body_url = "https://territorialarmy.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

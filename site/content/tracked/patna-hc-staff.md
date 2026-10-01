@@ -8,5 +8,3 @@ body_name = "Patna HC"
 body_url = "https://patnahighcourt.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

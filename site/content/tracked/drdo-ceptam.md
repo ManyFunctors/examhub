@@ -8,5 +8,3 @@ body_name = "DRDO"
 body_url = "https://www.drdo.gov.in/drdo/en"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

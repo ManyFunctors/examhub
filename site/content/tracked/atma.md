@@ -8,5 +8,3 @@ body_name = "AIMS"
 body_url = "https://www.atmaaims.com/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

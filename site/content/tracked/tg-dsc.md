@@ -8,5 +8,3 @@ body_name = "School Education Telangana"
 body_url = "https://schooledu.telangana.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "MPSC (Maharashtra)"
 body_url = "https://mpsc.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

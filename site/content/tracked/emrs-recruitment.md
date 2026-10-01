@@ -8,5 +8,3 @@ body_name = "NESTS"
 body_url = "https://nests.tribal.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

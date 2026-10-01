@@ -8,5 +8,3 @@ body_name = "TG MHSRB"
 body_url = "https://mhsrb.telangana.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

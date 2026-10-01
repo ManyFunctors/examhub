@@ -8,5 +8,3 @@ body_name = "TNEA"
 body_url = "https://www.tneaonline.org/"
 frequency = "annual"
 +++
-
-It is held once a year.

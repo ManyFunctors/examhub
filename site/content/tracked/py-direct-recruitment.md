@@ -8,5 +8,3 @@ body_name = "Puducherry DP&AR"
 body_url = "https://recruitment.py.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

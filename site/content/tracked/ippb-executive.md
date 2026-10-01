@@ -8,5 +8,3 @@ body_name = "IPPB"
 body_url = "https://www.ippbonline.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

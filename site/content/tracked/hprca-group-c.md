@@ -8,5 +8,3 @@ body_name = "HPRCA"
 body_url = "https://hprca.hp.gov.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

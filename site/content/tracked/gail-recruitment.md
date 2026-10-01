@@ -8,5 +8,3 @@ body_name = "GAIL"
 body_url = "https://www.gailonline.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

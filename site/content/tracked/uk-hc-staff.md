@@ -8,5 +8,3 @@ body_name = "Uttarakhand HC"
 body_url = "https://highcourtofuttarakhand.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

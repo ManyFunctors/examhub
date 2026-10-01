@@ -8,5 +8,3 @@ body_name = "GUVNL"
 body_url = "https://www.guvnl.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

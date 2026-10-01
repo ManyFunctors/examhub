@@ -8,5 +8,3 @@ body_name = "GSI"
 body_url = "https://www.gsi.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

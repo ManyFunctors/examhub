@@ -8,5 +8,3 @@ body_name = "MPSC (Manipur)"
 body_url = "https://mpscmanipur.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

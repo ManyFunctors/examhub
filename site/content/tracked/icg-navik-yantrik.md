@@ -8,5 +8,3 @@ body_name = "ICG"
 body_url = "https://joinindiancoastguard.cdac.in/"
 frequency = "biannual"
 +++
-
-It is held twice a year.

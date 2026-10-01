@@ -8,5 +8,3 @@ body_name = "Goa SSC"
 body_url = "https://gssc.goa.gov.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

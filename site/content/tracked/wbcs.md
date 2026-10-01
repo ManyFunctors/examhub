@@ -8,5 +8,3 @@ body_name = "WBPSC"
 body_url = "https://psc.wb.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

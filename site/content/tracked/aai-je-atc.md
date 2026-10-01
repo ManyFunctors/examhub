@@ -8,5 +8,3 @@ body_name = "AAI"
 body_url = "https://www.aai.aero/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

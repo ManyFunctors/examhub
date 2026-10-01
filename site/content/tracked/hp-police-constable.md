@@ -8,5 +8,3 @@ body_name = "HP Police"
 body_url = "https://citizenportal.hppolice.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

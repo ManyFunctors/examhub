@@ -8,5 +8,3 @@ body_name = "GBSHSE"
 body_url = "https://www.gbshse.info/"
 frequency = "annual"
 +++
-
-It is held once a year.

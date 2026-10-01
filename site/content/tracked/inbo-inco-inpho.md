@@ -8,5 +8,3 @@ body_name = "HBCSE"
 body_url = "https://olympiads.hbcse.tifr.res.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "CPWD"
 body_url = "https://cpwd.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

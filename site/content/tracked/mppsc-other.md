@@ -8,5 +8,3 @@ body_name = "MPPSC"
 body_url = "https://mppsc.mp.gov.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

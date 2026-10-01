@@ -8,5 +8,3 @@ body_name = "NBEMS"
 body_url = "https://natboard.edu.in/"
 frequency = "biannual"
 +++
-
-It is held twice a year.

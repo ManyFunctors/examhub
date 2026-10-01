@@ -8,5 +8,3 @@ body_name = "GSEB"
 body_url = "https://www.gseb.org/"
 frequency = "annual"
 +++
-
-It is held once a year.

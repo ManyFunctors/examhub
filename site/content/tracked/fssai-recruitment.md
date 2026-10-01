@@ -8,5 +8,3 @@ body_name = "FSSAI"
 body_url = "https://fssai.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

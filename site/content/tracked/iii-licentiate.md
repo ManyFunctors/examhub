@@ -8,5 +8,3 @@ body_name = "III"
 body_url = "https://www.insuranceinstituteofindia.com/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

@@ -8,5 +8,3 @@ body_name = "SEB Gujarat"
 body_url = "https://www.sebexam.org/"
 frequency = "annual"
 +++
-
-It is held once a year.

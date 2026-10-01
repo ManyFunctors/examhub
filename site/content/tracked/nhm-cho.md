@@ -8,5 +8,3 @@ body_name = "UP NHM"
 body_url = "https://upnrhm.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

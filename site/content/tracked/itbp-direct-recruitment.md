@@ -8,5 +8,3 @@ body_name = "ITBP"
 body_url = "https://recruitment.itbpolice.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

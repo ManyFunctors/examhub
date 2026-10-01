@@ -8,5 +8,3 @@ body_name = "UPSSSC"
 body_url = "https://upsssc.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

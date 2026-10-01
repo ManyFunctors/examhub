@@ -8,5 +8,3 @@ body_name = "ECGC"
 body_url = "https://www.ecgc.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

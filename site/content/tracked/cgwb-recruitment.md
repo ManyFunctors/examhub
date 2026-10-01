@@ -8,5 +8,3 @@ body_name = "CGWB"
 body_url = "https://cgwb.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "GMAC"
 body_url = "https://www.mba.com/exams/nmat"
 frequency = "continuous"
 +++
-
-It is held on a rolling basis.

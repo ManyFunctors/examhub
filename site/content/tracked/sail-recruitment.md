@@ -8,5 +8,3 @@ body_name = "SAIL"
 body_url = "https://sailcareers.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

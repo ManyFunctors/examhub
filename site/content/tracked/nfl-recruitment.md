@@ -8,5 +8,3 @@ body_name = "NFL"
 body_url = "https://www.nationalfertilizers.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

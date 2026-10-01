@@ -8,5 +8,3 @@ body_name = "REC"
 body_url = "https://recindia.nic.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

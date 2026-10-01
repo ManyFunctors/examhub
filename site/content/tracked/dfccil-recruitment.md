@@ -8,5 +8,3 @@ body_name = "DFCCIL"
 body_url = "https://dfccil.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

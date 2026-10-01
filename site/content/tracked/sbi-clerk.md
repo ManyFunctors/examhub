@@ -8,5 +8,3 @@ body_name = "SBI"
 body_url = "https://sbi.co.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

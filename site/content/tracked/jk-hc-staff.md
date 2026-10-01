@@ -8,5 +8,3 @@ body_name = "J&K and Ladakh HC"
 body_url = "https://jkhighcourt.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

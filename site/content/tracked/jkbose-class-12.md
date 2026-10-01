@@ -8,5 +8,3 @@ body_name = "JKBOSE"
 body_url = "https://jkbose.nic.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

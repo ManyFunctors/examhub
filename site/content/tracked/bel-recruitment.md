@@ -8,5 +8,3 @@ body_name = "BEL"
 body_url = "https://bel-india.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

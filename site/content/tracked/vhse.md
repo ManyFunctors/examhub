@@ -8,5 +8,3 @@ body_name = "DHSE Kerala"
 body_url = "https://www.dhsekerala.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

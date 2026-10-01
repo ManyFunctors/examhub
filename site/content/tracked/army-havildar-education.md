@@ -8,5 +8,3 @@ body_name = "ARMY"
 body_url = "https://joinindianarmy.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

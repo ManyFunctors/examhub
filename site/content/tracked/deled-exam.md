@@ -8,5 +8,3 @@ body_name = "PNP Prayagraj"
 body_url = "https://updeled.gov.in/"
 frequency = "biannual"
 +++
-
-It is held twice a year.

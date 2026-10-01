@@ -8,5 +8,3 @@ body_name = "RSSB"
 body_url = "https://rssb.rajasthan.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "TNPSC"
 body_url = "https://tnpsc.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

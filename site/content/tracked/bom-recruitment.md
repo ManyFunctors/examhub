@@ -8,5 +8,3 @@ body_name = "Bank of Maharashtra"
 body_url = "https://bankofmaharashtra.bank.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

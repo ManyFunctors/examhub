@@ -8,5 +8,3 @@ body_name = "APPSC"
 body_url = "https://psc.ap.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

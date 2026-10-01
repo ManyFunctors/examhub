@@ -8,5 +8,3 @@ body_name = "MOE"
 body_url = "https://www.education.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

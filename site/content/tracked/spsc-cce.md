@@ -8,5 +8,3 @@ body_name = "SPSC"
 body_url = "https://spscrs.sikkim.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

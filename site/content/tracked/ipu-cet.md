@@ -8,5 +8,3 @@ body_name = "GGSIPU"
 body_url = "https://ipu.ac.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

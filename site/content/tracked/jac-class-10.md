@@ -8,5 +8,3 @@ body_name = "JAC"
 body_url = "https://jac.jharkhand.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

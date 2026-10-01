@@ -8,5 +8,3 @@ body_name = "Bank of Baroda"
 body_url = "https://bankofbaroda.bank.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

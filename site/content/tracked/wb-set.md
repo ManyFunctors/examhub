@@ -8,5 +8,3 @@ body_name = "WBCSC"
 body_url = "https://wbcsc.org.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

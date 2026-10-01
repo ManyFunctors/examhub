@@ -8,5 +8,3 @@ body_name = "Jharkhand HC"
 body_url = "https://jharkhandhighcourt.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

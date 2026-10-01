@@ -8,5 +8,3 @@ body_name = "UPPCL"
 body_url = "https://www.upenergy.in/uppcl/en"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

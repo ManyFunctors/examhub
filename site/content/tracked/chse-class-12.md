@@ -8,5 +8,3 @@ body_name = "CHSE Odisha"
 body_url = "https://chseodisha.nic.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

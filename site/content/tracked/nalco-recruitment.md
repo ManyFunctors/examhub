@@ -8,5 +8,3 @@ body_name = "NALCO"
 body_url = "https://nalcoindia.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

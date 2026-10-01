@@ -8,5 +8,3 @@ body_name = "DSSSB"
 body_url = "https://dsssb.delhi.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

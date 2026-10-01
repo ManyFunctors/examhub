@@ -8,5 +8,3 @@ body_name = "PSEB"
 body_url = "https://www.pseb.ac.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

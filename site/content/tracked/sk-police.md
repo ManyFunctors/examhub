@@ -8,5 +8,3 @@ body_name = "Sikkim Police"
 body_url = "https://sikkimpolice.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

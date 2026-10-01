@@ -8,5 +8,3 @@ body_name = "LBS Centre"
 body_url = "https://lbscentre.kerala.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

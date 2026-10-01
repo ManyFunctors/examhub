@@ -8,5 +8,3 @@ body_name = "ICAI"
 body_url = "https://www.icai.org/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

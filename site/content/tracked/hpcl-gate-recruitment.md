@@ -8,5 +8,3 @@ body_name = "HPCL"
 body_url = "https://www.hindustanpetroleum.com/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "MBSE"
 body_url = "https://mbse.edu.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

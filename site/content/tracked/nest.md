@@ -8,5 +8,3 @@ body_name = "NISER"
 body_url = "https://www.niser.ac.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

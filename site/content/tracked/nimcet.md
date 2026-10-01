@@ -8,5 +8,3 @@ body_name = "NIMCET"
 body_url = "https://nimcet.admissions.nic.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

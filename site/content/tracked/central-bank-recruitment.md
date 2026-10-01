@@ -8,5 +8,3 @@ body_name = "Central Bank"
 body_url = "https://centralbank.bank.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "IIM ROHTAK"
 body_url = "https://www.iimrohtak.ac.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

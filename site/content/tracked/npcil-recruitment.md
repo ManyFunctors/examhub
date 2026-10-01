@@ -8,5 +8,3 @@ body_name = "NPCIL"
 body_url = "https://www.npcilcareers.co.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

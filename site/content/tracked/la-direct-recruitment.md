@@ -8,5 +8,3 @@ body_name = "Ladakh Administration"
 body_url = "https://ladakh.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

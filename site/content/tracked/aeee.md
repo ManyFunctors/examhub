@@ -8,5 +8,3 @@ body_name = "Amrita"
 body_url = "https://www.amrita.edu/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "RSSB"
 body_url = "https://rssb.rajasthan.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

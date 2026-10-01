@@ -8,5 +8,3 @@ body_name = "WBBPE"
 body_url = "https://wbbpe.wb.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

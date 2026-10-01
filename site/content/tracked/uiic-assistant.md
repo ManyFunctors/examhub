@@ -8,5 +8,3 @@ body_name = "UIIC"
 body_url = "https://uiic.co.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

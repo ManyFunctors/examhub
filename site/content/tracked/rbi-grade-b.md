@@ -8,5 +8,3 @@ body_name = "RBI"
 body_url = "https://www.rbi.org.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

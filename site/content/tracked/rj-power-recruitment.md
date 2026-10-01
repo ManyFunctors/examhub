@@ -8,5 +8,3 @@ body_name = "RVUNL"
 body_url = "https://energy.rajasthan.gov.in/rvunl"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

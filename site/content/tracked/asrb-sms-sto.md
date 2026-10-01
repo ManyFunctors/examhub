@@ -8,5 +8,3 @@ body_name = "ASRB"
 body_url = "https://www.asrb.org.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

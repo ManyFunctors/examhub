@@ -8,5 +8,3 @@ body_name = "AP High Court"
 body_url = "https://aphc.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

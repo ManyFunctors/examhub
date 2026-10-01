@@ -8,5 +8,3 @@ body_name = "IRCON"
 body_url = "https://www.ircon.org/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

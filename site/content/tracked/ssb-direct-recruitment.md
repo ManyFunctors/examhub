@@ -8,5 +8,3 @@ body_name = "SSB"
 body_url = "https://ssbrectt.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

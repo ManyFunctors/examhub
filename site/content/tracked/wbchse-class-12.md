@@ -8,5 +8,3 @@ body_name = "WBCHSE"
 body_url = "https://wbchse.wb.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

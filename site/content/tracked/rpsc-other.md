@@ -8,5 +8,3 @@ body_name = "RPSC"
 body_url = "https://rpsc.rajasthan.gov.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

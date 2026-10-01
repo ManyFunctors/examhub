@@ -8,5 +8,3 @@ body_name = "ASTU"
 body_url = "https://astu.ac.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

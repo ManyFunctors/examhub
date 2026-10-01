@@ -8,5 +8,3 @@ body_name = "Gujarat Police"
 body_url = "https://police.gujarat.gov.in/dgp/default.aspx"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

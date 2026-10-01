@@ -8,5 +8,3 @@ body_name = "TBJEE"
 body_url = "https://tbjee.nic.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

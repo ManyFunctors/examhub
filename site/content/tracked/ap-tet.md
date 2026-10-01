@@ -8,5 +8,3 @@ body_name = "CSE AP"
 body_url = "https://cse.ap.gov.in/"
 frequency = "biannual"
 +++
-
-It is held twice a year.

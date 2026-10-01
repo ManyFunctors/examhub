@@ -8,5 +8,3 @@ body_name = "Coal India"
 body_url = "https://www.coalindia.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

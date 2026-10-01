@@ -8,5 +8,3 @@ body_name = "PSPCL"
 body_url = "https://pspcl.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

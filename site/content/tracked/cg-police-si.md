@@ -8,5 +8,3 @@ body_name = "CG Police"
 body_url = "https://cgpolice.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

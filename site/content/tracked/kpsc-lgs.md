@@ -8,5 +8,3 @@ body_name = "Kerala PSC"
 body_url = "https://keralapsc.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

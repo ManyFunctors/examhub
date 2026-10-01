@@ -8,5 +8,3 @@ body_name = "NHB"
 body_url = "https://nhb.org.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

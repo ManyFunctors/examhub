@@ -8,5 +8,3 @@ body_name = "Kerala PSC"
 body_url = "https://keralapsc.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

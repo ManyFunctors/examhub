@@ -8,5 +8,3 @@ body_name = "BSNL"
 body_url = "https://www.bsnl.co.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

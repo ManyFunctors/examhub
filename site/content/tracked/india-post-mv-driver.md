@@ -8,5 +8,3 @@ body_name = "India Post"
 body_url = "https://www.indiapost.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

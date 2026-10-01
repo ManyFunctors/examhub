@@ -8,5 +8,3 @@ body_name = "GBSHSE"
 body_url = "https://www.gbshse.info/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

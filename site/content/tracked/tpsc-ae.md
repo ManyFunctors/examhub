@@ -8,5 +8,3 @@ body_name = "TPSC"
 body_url = "https://tpsc.tripura.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

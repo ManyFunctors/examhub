@@ -8,5 +8,3 @@ body_name = "Parliament Secretariat"
 body_url = "https://sansad.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "MPSC (Maharashtra)"
 body_url = "https://mpsc.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

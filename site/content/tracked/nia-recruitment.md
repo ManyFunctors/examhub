@@ -8,5 +8,3 @@ body_name = "NIA"
 body_url = "https://nia.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

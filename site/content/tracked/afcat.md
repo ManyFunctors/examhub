@@ -8,5 +8,3 @@ body_name = "IAF"
 body_url = "https://indianairforce.nic.in/"
 frequency = "biannual"
 +++
-
-It is held twice a year.

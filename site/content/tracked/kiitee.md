@@ -8,5 +8,3 @@ body_name = "KIIT"
 body_url = "https://kiitee.kiit.ac.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "Calcutta HC"
 body_url = "https://calcuttahighcourt.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

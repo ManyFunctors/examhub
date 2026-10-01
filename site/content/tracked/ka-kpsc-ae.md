@@ -8,5 +8,3 @@ body_name = "KPSC (Karnataka)"
 body_url = "https://kpsc.kar.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

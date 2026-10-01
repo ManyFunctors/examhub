@@ -8,5 +8,3 @@ body_name = "UKSSSC"
 body_url = "https://sssc.uk.gov.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

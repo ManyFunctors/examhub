@@ -8,5 +8,3 @@ body_name = "UKSSSC"
 body_url = "https://sssc.uk.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

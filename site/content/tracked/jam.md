@@ -8,5 +8,3 @@ body_name = "IITs"
 body_url = "https://jeeadv.ac.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

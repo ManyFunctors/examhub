@@ -14,8 +14,7 @@
     <p class="page-description">{{ $p.name }}{{ with $p.body_name }}<br><span class="v2-by">Conducted by <strong>{{ with $p.body_url }}<a href="{{ . }}" rel="noopener">{{ $p.body_name }}</a>{{ else }}{{ $p.body_name }}{{ end }}</strong></span>{{ end }}</p>
   </div></div>
   <section class="section v2-keydates">
-    <p class="v2-silent">No notice has been published yet for its next cycle: ExamHub takes nothing from anywhere but the body's own notice, so there is nothing to show here yet.</p>
-    {{ .Content }}
+    <p class="v2-silent">No notice has been published yet for its next cycle.</p>
   </section>
 {{- else if not $isExam }}
   <article class="prose prose--page">

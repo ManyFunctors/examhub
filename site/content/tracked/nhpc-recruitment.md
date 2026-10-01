@@ -8,5 +8,3 @@ body_name = "NHPC"
 body_url = "https://www.nhpcindia.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "SEB Gujarat"
 body_url = "https://www.sebexam.org/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

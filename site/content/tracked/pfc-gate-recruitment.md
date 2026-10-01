@@ -8,5 +8,3 @@ body_name = "PFC"
 body_url = "https://www.pfcindia.com/"
 frequency = "annual"
 +++
-
-It is held once a year.

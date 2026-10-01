@@ -8,5 +8,3 @@ body_name = "BARC"
 body_url = "https://barc.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

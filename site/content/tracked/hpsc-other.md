@@ -8,5 +8,3 @@ body_name = "HPSC"
 body_url = "https://hpsc.gov.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

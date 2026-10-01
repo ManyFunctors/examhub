@@ -8,5 +8,3 @@ body_name = "NHAI"
 body_url = "https://nhai.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

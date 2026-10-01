@@ -8,5 +8,3 @@ body_name = "Rajasthan HC"
 body_url = "https://hcraj.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

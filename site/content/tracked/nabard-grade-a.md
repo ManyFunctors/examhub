@@ -8,5 +8,3 @@ body_name = "NABARD"
 body_url = "https://www.nabard.org/"
 frequency = "annual"
 +++
-
-It is held once a year.

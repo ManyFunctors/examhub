@@ -8,5 +8,3 @@ body_name = "UBSE"
 body_url = "https://ubse.uk.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

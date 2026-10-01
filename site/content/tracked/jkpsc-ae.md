@@ -8,5 +8,3 @@ body_name = "JKPSC"
 body_url = "https://jkpsc.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "Karnataka Police"
 body_url = "https://ksp.karnataka.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

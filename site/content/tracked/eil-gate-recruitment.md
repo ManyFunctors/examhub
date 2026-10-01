@@ -8,5 +8,3 @@ body_name = "EIL"
 body_url = "https://engineersindia.com/"
 frequency = "annual"
 +++
-
-It is held once a year.

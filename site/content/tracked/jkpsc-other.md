@@ -8,5 +8,3 @@ body_name = "JKPSC"
 body_url = "https://jkpsc.nic.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

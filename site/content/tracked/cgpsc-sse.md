@@ -8,5 +8,3 @@ body_name = "CGPSC"
 body_url = "https://psc.cg.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

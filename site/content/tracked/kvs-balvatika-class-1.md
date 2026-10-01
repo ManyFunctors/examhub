@@ -8,5 +8,3 @@ body_name = "KVS"
 body_url = "https://kvsangathan.nic.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

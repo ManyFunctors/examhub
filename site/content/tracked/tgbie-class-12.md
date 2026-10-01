@@ -8,5 +8,3 @@ body_name = "TGBIE"
 body_url = "https://tgbie.cgg.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

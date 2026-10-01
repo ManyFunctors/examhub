@@ -8,5 +8,3 @@ body_name = "APSET"
 body_url = "https://apset.net.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

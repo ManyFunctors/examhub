@@ -8,5 +8,3 @@ body_name = "BSF"
 body_url = "https://rectt.bsf.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

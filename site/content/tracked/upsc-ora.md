@@ -8,5 +8,3 @@ body_name = "UPSC"
 body_url = "https://www.upsc.gov.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

@@ -8,5 +8,3 @@ body_name = "BIEAP"
 body_url = "https://bie.ap.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

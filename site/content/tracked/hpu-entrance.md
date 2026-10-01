@@ -8,5 +8,3 @@ body_name = "HPU"
 body_url = "https://www.hpuniv.ac.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

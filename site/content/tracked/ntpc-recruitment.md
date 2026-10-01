@@ -8,5 +8,3 @@ body_name = "NTPC"
 body_url = "https://careers.ntpc.co.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

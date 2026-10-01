@@ -8,5 +8,3 @@ body_name = "FCI"
 body_url = "https://fci.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

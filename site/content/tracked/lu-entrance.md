@@ -8,5 +8,3 @@ body_name = "Lucknow University"
 body_url = "https://www.lkouniv.ac.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

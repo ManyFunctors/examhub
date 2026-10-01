@@ -8,5 +8,3 @@ body_name = "Sikkim Education"
 body_url = "https://sikkimhrdd.org/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

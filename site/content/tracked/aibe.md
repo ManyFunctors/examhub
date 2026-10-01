@@ -8,5 +8,3 @@ body_name = "BCI"
 body_url = "https://www.barcouncilofindia.org/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "SCI"
 body_url = "https://www.sci.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "SLET NE"
 body_url = "https://www.sletne.org/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "Bombay High Court"
 body_url = "https://bombayhighcourt.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

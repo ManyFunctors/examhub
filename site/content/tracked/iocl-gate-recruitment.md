@@ -8,5 +8,3 @@ body_name = "IOCL"
 body_url = "https://iocl.com/"
 frequency = "annual"
 +++
-
-It is held once a year.

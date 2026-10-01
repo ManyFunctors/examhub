@@ -8,5 +8,3 @@ body_name = "JEECUP"
 body_url = "https://jeecup.admissions.nic.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

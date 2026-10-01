@@ -8,5 +8,3 @@ body_name = "Goa PSC"
 body_url = "https://gpsc.goa.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

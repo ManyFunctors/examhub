@@ -8,5 +8,3 @@ body_name = "APPSC (Arunachal)"
 body_url = "https://appsc.gov.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

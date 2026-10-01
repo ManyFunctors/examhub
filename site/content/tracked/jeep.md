@@ -8,5 +8,3 @@ body_name = "UBTER"
 body_url = "https://ubter.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "Mizoram Police"
 body_url = "https://police.mizoram.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

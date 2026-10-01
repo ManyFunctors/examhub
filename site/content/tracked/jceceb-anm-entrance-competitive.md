@@ -8,5 +8,3 @@ body_name = "JCECEB"
 body_url = "https://jceceb.jharkhand.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

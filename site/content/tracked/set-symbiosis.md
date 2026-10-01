@@ -8,5 +8,3 @@ body_name = "Symbiosis"
 body_url = "https://www.siu.edu.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

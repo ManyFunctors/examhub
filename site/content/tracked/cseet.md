@@ -8,5 +8,3 @@ body_name = "ICSI"
 body_url = "https://www.icsi.edu/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

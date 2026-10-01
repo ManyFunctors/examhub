@@ -8,5 +8,3 @@ body_name = "SCI"
 body_url = "https://www.sci.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

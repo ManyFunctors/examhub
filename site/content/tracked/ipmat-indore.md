@@ -8,5 +8,3 @@ body_name = "IIM INDORE"
 body_url = "https://www.iimidr.ac.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

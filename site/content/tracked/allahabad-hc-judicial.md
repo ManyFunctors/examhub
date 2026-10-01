@@ -8,5 +8,3 @@ body_name = "Allahabad HC"
 body_url = "https://www.allahabadhighcourt.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

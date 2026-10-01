@@ -8,5 +8,3 @@ body_name = "DNH&DD Administration"
 body_url = "https://ddd.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

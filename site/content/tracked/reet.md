@@ -8,5 +8,3 @@ body_name = "RBSE"
 body_url = "https://rajeduboard.rajasthan.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

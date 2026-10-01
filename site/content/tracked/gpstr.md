@@ -8,5 +8,3 @@ body_name = "DSEL Karnataka"
 body_url = "https://schooleducation.karnataka.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

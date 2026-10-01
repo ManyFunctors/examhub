@@ -8,5 +8,3 @@ body_name = "CENTAC"
 body_url = "https://www.centacpuducherry.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

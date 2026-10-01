@@ -8,5 +8,3 @@ body_name = "Orissa HC"
 body_url = "https://orissahighcourt.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

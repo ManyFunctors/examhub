@@ -8,5 +8,3 @@ body_name = "WBHRB"
 body_url = "https://www.wbhrb.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

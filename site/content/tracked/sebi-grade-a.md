@@ -8,5 +8,3 @@ body_name = "SEBI"
 body_url = "https://www.sebi.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "AWES"
 body_url = "https://www.awesindia.com/"
 frequency = "annual"
 +++
-
-It is held once a year.

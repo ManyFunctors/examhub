@@ -8,5 +8,3 @@ body_name = "Gauhati HC"
 body_url = "https://ghconline.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

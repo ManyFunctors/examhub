@@ -8,5 +8,3 @@ body_name = "DG Shipping"
 body_url = "https://www.dgshipping.gov.in/"
 frequency = "continuous"
 +++
-
-It is held on a rolling basis.

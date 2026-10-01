@@ -8,5 +8,3 @@ body_name = "MSCE Pune"
 body_url = "https://www.mscepune.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

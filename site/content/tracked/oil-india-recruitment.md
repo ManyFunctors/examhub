@@ -8,5 +8,3 @@ body_name = "Oil India"
 body_url = "https://www.oil-india.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

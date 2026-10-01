@@ -8,5 +8,3 @@ body_name = "RRB"
 body_url = "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,7,1281"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

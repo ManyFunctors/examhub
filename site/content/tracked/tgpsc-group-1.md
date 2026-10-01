@@ -8,5 +8,3 @@ body_name = "TGPSC"
 body_url = "https://www.tgpsc.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

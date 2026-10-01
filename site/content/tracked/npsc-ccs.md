@@ -8,5 +8,3 @@ body_name = "NPSC"
 body_url = "https://npsc.nagaland.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

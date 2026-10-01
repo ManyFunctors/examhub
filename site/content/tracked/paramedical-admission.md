@@ -8,5 +8,3 @@ body_name = "TN Health"
 body_url = "https://tnhealth.tn.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

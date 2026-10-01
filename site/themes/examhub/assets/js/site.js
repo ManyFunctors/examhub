@@ -981,10 +981,16 @@
        section across it instead of applying it mid-paint. This matters most on the
        very first call: the page already painted its own month's cards before any
        script ran, and if a reload lands on a different saved month, this call is
-       what swaps that whole set out -- without the fade, that read as a sudden pop. */
+       what swaps that whole set out -- without the fade, that read as a sudden pop.
+       But most loads land back on the same month the server already drew (no pin, or
+       a pin that matches today); that case has nothing to swap, so skip the fade
+       outright instead of dipping the whole section to nothing and back for no
+       visible change -- that read as its own, different flicker. */
     function sync() {
+      var t = label.textContent.trim().split(/\s+/), m = MONTHS.indexOf(t[0]);
+      var key = m < 0 ? null : t[1] + "-" + String(m + 1).padStart(2, "0");
       var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      if (calm) { applySync(); return; }
+      if (calm || key === grid.dataset.month) { applySync(); return; }
       monthGroup.classList.add("bymonth__group--switching");
       setTimeout(function () {
         applySync();
@@ -1090,16 +1096,30 @@
     }
     /* The counts the server rendered (real exams only) are about to jump once
        initByMonth recounts with the full set, "Dates to Be Announced" most of
-       all now that it carries hundreds of tracked stubs -- fade that jump
-       instead of flipping the number outright. */
-    var counts = grid.querySelectorAll(".bymonth__count");
-    counts.forEach(function (c) { c.classList.add("bymonth__count--refreshing"); });
-    initByMonth(grid, data);
-    requestAnimationFrame(function () {
-      requestAnimationFrame(function () {
-        counts.forEach(function (c) { c.classList.remove("bymonth__count--refreshing"); });
-      });
+       all now that it carries hundreds of tracked stubs -- count up to the new
+       number instead of flipping it outright. */
+    var counts = Array.prototype.map.call(grid.querySelectorAll(".bymonth__count"), function (c) {
+      return { el: c, from: parseInt(c.textContent, 10) || 0 };
     });
+    initByMonth(grid, data);
+    var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (!calm) {
+      counts.forEach(function (c) {
+        var m = /^\((\d+)( Exams?)\)$/.exec(c.el.textContent);
+        if (!m || Number(m[1]) === c.from) return;
+        var to = Number(m[1]), word = m[2], start = null, dur = 600;
+        c.el.textContent = "(" + c.from + word + ")";
+        function tick(now) {
+          if (start === null) start = now;
+          var p = Math.min(1, (now - start) / dur);
+          var eased = 1 - Math.pow(1 - p, 3);
+          var n = Math.round(c.from + (to - c.from) * eased);
+          c.el.textContent = "(" + n + (n === 1 ? " Exam)" : " Exams)");
+          if (p < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+      });
+    }
     initFilters(data);
     initDates(data);
     updateCountdowns();

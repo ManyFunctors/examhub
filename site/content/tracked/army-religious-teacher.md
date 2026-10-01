@@ -8,5 +8,3 @@ body_name = "ARMY"
 body_url = "https://joinindianarmy.nic.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "SCCL"
 body_url = "https://scclmines.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

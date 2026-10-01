@@ -8,5 +8,3 @@ body_name = "ECIL"
 body_url = "https://www.ecil.co.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

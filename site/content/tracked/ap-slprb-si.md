@@ -8,5 +8,3 @@ body_name = "AP SLPRB"
 body_url = "https://slprb.ap.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

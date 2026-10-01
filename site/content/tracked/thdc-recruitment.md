@@ -8,5 +8,3 @@ body_name = "THDC"
 body_url = "https://thdc.co.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

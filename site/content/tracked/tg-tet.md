@@ -8,5 +8,3 @@ body_name = "School Education Telangana"
 body_url = "https://schooledu.telangana.gov.in/"
 frequency = "biannual"
 +++
-
-It is held twice a year.

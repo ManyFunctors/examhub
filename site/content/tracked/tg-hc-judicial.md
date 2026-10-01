@@ -8,5 +8,3 @@ body_name = "Telangana HC"
 body_url = "https://tshc.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "AIMA"
 body_url = "https://mat.aima.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

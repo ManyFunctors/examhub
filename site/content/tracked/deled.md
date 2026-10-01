@@ -8,5 +8,3 @@ body_name = "WBBPE"
 body_url = "https://wbbpe.wb.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "TGPSC"
 body_url = "https://www.tgpsc.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

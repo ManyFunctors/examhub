@@ -8,5 +8,3 @@ body_name = "NPCC"
 body_url = "https://npcc.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

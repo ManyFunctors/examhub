@@ -8,5 +8,3 @@ body_name = "EPFO"
 body_url = "https://www.epfo.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "IOB"
 body_url = "https://www.iob.bank.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "IAF"
 body_url = "https://indianairforce.nic.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

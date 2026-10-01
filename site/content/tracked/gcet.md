@@ -8,5 +8,3 @@ body_name = "DTE Goa"
 body_url = "https://dte.goa.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "Union Bank"
 body_url = "https://www.unionbankofindia.bank.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "FACT"
 body_url = "https://fact.co.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

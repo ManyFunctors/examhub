@@ -8,5 +8,3 @@ body_name = "Punjab Police"
 body_url = "https://www.punjabpolice.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

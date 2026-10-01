@@ -8,5 +8,3 @@ body_name = "NABARD"
 body_url = "https://www.nabard.org/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

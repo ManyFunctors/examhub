@@ -8,5 +8,3 @@ body_name = "PNP Prayagraj"
 body_url = "https://updeled.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

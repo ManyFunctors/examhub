@@ -8,5 +8,3 @@ body_name = "NHAI"
 body_url = "https://nhai.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

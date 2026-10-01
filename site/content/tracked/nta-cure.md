@@ -8,5 +8,3 @@ body_name = "NTA"
 body_url = "https://nta.ac.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

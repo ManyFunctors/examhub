@@ -8,5 +8,3 @@ body_name = "IMD"
 body_url = "https://mausam.imd.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

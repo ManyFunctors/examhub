@@ -8,5 +8,3 @@ body_name = "MIDHANI"
 body_url = "https://midhani-india.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "CEE Kerala"
 body_url = "https://cee.kerala.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

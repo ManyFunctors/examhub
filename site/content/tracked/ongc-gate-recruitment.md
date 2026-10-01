@@ -8,5 +8,3 @@ body_name = "ONGC"
 body_url = "https://ongcindia.com/"
 frequency = "annual"
 +++
-
-It is held once a year.

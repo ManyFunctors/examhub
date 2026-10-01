@@ -8,5 +8,3 @@ body_name = "OSSC"
 body_url = "https://www.ossc.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

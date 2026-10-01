@@ -8,5 +8,3 @@ body_name = "DGCA"
 body_url = "https://www.dgca.gov.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

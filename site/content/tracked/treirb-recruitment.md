@@ -8,5 +8,3 @@ body_name = "TREIRB"
 body_url = "https://treirb.telangana.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

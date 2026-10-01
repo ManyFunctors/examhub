@@ -8,5 +8,3 @@ body_name = "ECIL"
 body_url = "https://www.ecil.co.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "MSEDCL"
 body_url = "https://www.mahadiscom.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "JKBOPEE"
 body_url = "https://jkbopee.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

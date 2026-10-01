@@ -8,5 +8,3 @@ body_name = "Odisha Police"
 body_url = "https://odishapolice.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

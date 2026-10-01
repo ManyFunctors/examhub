@@ -8,5 +8,3 @@ body_name = "MHA"
 body_url = "https://www.mha.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

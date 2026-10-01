@@ -8,5 +8,3 @@ body_name = "SBTET Telangana"
 body_url = "https://polycet.sbtet.telangana.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

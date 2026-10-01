@@ -8,5 +8,3 @@ body_name = "CGBSE"
 body_url = "https://cgbse.nic.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "CG Vyapam"
 body_url = "https://vyapam.cgstate.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

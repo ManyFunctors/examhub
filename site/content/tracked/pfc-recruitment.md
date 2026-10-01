@@ -8,5 +8,3 @@ body_name = "PFC"
 body_url = "https://www.pfcindia.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

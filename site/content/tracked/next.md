@@ -8,5 +8,3 @@ body_name = "NMC"
 body_url = "https://www.nmc.org.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "MPSC (Meghalaya)"
 body_url = "https://mpsc.meghalaya.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

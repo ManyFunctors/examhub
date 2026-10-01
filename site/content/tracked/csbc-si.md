@@ -8,5 +8,3 @@ body_name = "CSBC Bihar"
 body_url = "https://csbc.bihar.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

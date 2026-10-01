@@ -8,5 +8,3 @@ body_name = "EIL"
 body_url = "https://engineersindia.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

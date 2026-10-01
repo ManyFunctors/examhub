@@ -8,5 +8,3 @@ body_name = "RBSE"
 body_url = "https://rajeduboard.rajasthan.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

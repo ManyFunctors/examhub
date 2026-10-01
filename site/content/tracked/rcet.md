@@ -8,5 +8,3 @@ body_name = "APSCHE"
 body_url = "https://cets.apsche.ap.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

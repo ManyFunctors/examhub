@@ -8,5 +8,3 @@ body_name = "EXIM Bank"
 body_url = "https://www.eximbankindia.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

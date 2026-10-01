@@ -8,5 +8,3 @@ body_name = "BCECEB"
 body_url = "https://bceceboard.bihar.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

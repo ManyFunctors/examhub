@@ -8,5 +8,3 @@ body_name = "OICL"
 body_url = "https://orientalinsurance.org.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

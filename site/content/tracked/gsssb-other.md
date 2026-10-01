@@ -8,5 +8,3 @@ body_name = "GSSSB"
 body_url = "https://gsssb.gujarat.gov.in/"
 frequency = "multiple"
 +++
-
-It is held several times a year.

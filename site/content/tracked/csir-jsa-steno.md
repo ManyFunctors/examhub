@@ -8,5 +8,3 @@ body_name = "CSIR"
 body_url = "https://www.csir.res.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "NIOS"
 body_url = "https://www.nios.ac.in/"
 frequency = "biannual"
 +++
-
-It is held twice a year.

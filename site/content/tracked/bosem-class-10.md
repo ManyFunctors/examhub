@@ -8,5 +8,3 @@ body_name = "BOSEM"
 body_url = "https://bosem.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

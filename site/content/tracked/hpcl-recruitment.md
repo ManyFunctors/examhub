@@ -8,5 +8,3 @@ body_name = "HPCL"
 body_url = "https://www.hindustanpetroleum.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

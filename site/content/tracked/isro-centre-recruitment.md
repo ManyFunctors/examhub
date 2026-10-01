@@ -8,5 +8,3 @@ body_name = "ISRO"
 body_url = "https://www.isro.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

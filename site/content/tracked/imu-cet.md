@@ -8,5 +8,3 @@ body_name = "IMU"
 body_url = "https://www.imu.edu.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

@@ -8,5 +8,3 @@ body_name = "ONGC"
 body_url = "https://ongcindia.com/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

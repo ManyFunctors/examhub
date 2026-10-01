@@ -8,5 +8,3 @@ body_name = "Chandigarh Administration"
 body_url = "https://chandigarh.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

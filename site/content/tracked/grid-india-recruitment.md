@@ -8,5 +8,3 @@ body_name = "Grid-India"
 body_url = "https://grid-india.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

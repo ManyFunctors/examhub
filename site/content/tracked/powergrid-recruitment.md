@@ -8,5 +8,3 @@ body_name = "POWERGRID"
 body_url = "https://www.powergrid.in/en"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

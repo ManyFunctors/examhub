@@ -8,5 +8,3 @@ body_name = "BSEAP"
 body_url = "https://bse.ap.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

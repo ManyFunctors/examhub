@@ -8,5 +8,3 @@ body_name = "Lakshadweep Administration"
 body_url = "https://lakshadweep.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "BPSSC"
 body_url = "https://bpssc.bihar.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

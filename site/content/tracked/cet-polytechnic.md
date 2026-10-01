@@ -8,5 +8,3 @@ body_name = "BTE Delhi"
 body_url = "https://bte.delhi.gov.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

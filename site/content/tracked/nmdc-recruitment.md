@@ -8,5 +8,3 @@ body_name = "NMDC"
 body_url = "https://www.nmdc.co.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

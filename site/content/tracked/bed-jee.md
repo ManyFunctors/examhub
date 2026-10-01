@@ -8,5 +8,3 @@ body_name = "UP B.Ed JEE"
 body_url = "https://bujhansi.ac.in/"
 frequency = "annual"
 +++
-
-It is held once a year.

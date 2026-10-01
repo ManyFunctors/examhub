@@ -8,5 +8,3 @@ body_name = "Maharashtra Revenue Dept"
 body_url = "https://mahabhumi.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "UKMSSB"
 body_url = "https://ukmssb.org/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

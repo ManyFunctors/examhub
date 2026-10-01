@@ -8,5 +8,3 @@ body_name = "SHS Bihar"
 body_url = "https://shs.bihar.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

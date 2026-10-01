@@ -8,5 +8,3 @@ body_name = "NHM Assam"
 body_url = "https://nhm.assam.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

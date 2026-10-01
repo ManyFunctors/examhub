@@ -8,5 +8,3 @@ body_name = "NMIMS"
 body_url = "https://www.nmims.edu/"
 frequency = "annual"
 +++
-
-It is held once a year.

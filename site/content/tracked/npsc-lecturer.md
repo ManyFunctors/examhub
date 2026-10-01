@@ -8,5 +8,3 @@ body_name = "NPSC"
 body_url = "https://npsc.nagaland.gov.in/"
 frequency = "irregular"
 +++
-
-It is held on no fixed schedule.

@@ -8,5 +8,3 @@ body_name = "MECON"
 body_url = "https://www.meconlimited.co.in/"
 frequency = "annual"
 +++
-
-It is held once a year.
