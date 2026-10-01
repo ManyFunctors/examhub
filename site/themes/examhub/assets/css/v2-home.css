@@ -236,6 +236,11 @@ html[data-start-view="dates"] #tab-dates { color: var(--text); }
 }
 .bymonth__group[open] > .bymonth__summary::before { transform: rotate(45deg); }
 @media (prefers-reduced-motion: reduce) { .bymonth__summary::before { transition: none; } }
+/* Restoring a reader's saved fold state (site.js's initPlace) sets .open on a
+   section already painted closed/open by the server -- without this, the
+   chevron visibly animates on every reload, for a change the reader didn't
+   just make. */
+.js-restoring-place .bymonth__summary::before { transition: none; }
 .bymonth__group:not([open]) > .bymonth__summary { margin-bottom: var(--sp-2); }
 .bymonth__group[data-section="~0past"] > .bymonth__summary,
 .bymonth__group[data-section="~1tba"] > .bymonth__summary,

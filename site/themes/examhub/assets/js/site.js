@@ -2093,6 +2093,10 @@
   function initPlace() {
     var open = place.open || (place.open = {});
     var boxes = document.querySelectorAll("details");
+    /* Restoring saved state below flips .open on sections already painted the other
+       way; without this guard the chevron plays its rotate transition as if the
+       reader had just clicked it. */
+    document.documentElement.classList.add("js-restoring-place");
     for (var i = 0; i < boxes.length; i++) {
       (function (d) {
         /* The day list's sections are keyed by title in examListClosed. */
@@ -2106,6 +2110,9 @@
         });
       })(boxes[i]);
     }
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () { document.documentElement.classList.remove("js-restoring-place"); });
+    });
 
     if ("scrollRestoration" in history) history.scrollRestoration = "manual";
     var side = document.querySelector(".sidebar__upcoming .sidebar__list");
