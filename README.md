@@ -60,7 +60,8 @@ All run on GitHub Actions, unattended.
 |---|---|---|
 | `watch.yml` | every 10 minutes | polls the feeds in season, lists new notices |
 | `crawl.yml` | daily, 02:43 IST | crawls every feed, reads new PDFs, checks every link, archives documents, discovers new sources |
-| `recheck.yml` | nightly, 02:17 IST | applies what the crawl learnt to the exam pages and opens a pull request if anything changed |
+| `recheck.yml` | nightly, 02:17 IST | re-checks sources with an exam date due soon first, applies what it learnt, opens a pull request if anything changed |
+| `recheck-hourly.yml` | every hour | re-checks only a source with an exam date due within a day; a no-op almost every hour |
 | `site.yml` | on a push to `site/`, and daily at 00:01 IST | builds the site and publishes it |
 | `pr.yml` | on every pull request | tests, lint, and a schema check of every exam page |
 
@@ -111,7 +112,7 @@ data/catalogue/       the curated catalogue: bodies, feeds and exams per state
 src/examhub_pipeline/ the pipeline: crawler, extraction, fill steps, CLI
 tests/                the test suite, including regressions from real notices
 docs/                 the template, vocabulary, design notes and to-do list
-.github/workflows/    the five workflows above
+.github/workflows/    the workflows above
 ```
 
 ---

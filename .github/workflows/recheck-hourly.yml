@@ -1,0 +1,130 @@
+# Hourly check for exams with a date due very soon.
+#
+# The nightly `recheck` already covers every source with something due within
+# five days, once a day. That is not enough for an exam closing tomorrow: a
+# body can push a last-minute extension or correction window hours before a
+# deadline, and a reader needs to see that the same day, not after the next
+# nightly run. This looks only one day ahead and does nothing at all when
+# nothing is that close -- most hours, that is every hour, so the common case
+# costs one cheap install and a few seconds.
+name: recheck-hourly
+
+on:
+  schedule:
+    - cron: "7 * * * *"   # an off-round minute, every hour
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  # Its own branch and group: never fights the nightly recheck for either.
+  group: recheck-hourly-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write        # push the pipeline/* branch
+      pull-requests: write   # open the pull request
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install the pipeline, no model or OCR
+        # due-sources only reads TOML front matter; the gate step below must
+        # stay cheap, since it runs every hour and is a no-op almost every time.
+        run: |
+          uv python install 3.12
+          uv venv --python 3.12
+          uv pip install -e '.[dev]'
+
+      - name: Anything due within a day?
+        id: pick
+        run: |
+          sources=$(uv run python -m examhub_pipeline due-sources --within-days 1 --cap 3 --no-rotation)
+          echo "sources=$sources" >> "$GITHUB_OUTPUT"
+          echo "due within a day: ${sources:-none}"
+
+      - name: Install the model and OCR extras
+        if: steps.pick.outputs.sources != ''
+        run: |
+          uv pip install --index-strategy unsafe-best-match \
+            --extra-index-url https://download.pytorch.org/whl/cpu \
+            "torch>=2.0" "laya>=0.3.20"
+          uv pip install -e '.[model,ocr]'
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-eng ocrmypdf
+
+      - name: Fetch, extract, validate and review
+        if: steps.pick.outputs.sources != ''
+        id: review
+        env:
+          EXAMHUB_CONTACT: ${{ secrets.EXAMHUB_CONTACT }}
+          EXAMHUB_CACHE_DIR: .cache/http
+        run: |
+          set +e
+          SOURCE_ARGS=()
+          IFS=',' read -ra KEYS <<< "${{ steps.pick.outputs.sources }}"
+          for k in "${KEYS[@]}"; do [ -n "$k" ] && SOURCE_ARGS+=(--source "$k"); done
+          uv run python -m examhub_pipeline run \
+            "${SOURCE_ARGS[@]}" \
+            --run-limit 4 \
+            --max-requests 20 \
+            --host-delay 5
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Apply the proposal to site/
+        if: steps.pick.outputs.sources != '' && steps.review.outputs.exit_code == '0'
+        run: |
+          latest=$(ls -1dt work/reviews/*/ | head -1)
+          git apply --directory=site "$latest/propose.patch"
+
+      - name: Upload the review bundle
+        if: steps.pick.outputs.sources != '' && always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: review-bundle-hourly
+          path: work/reviews/
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Open a pull request
+        if: steps.pick.outputs.sources != '' && steps.review.outputs.exit_code == '0'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: pipeline/hourly-recheck
+          base: ${{ github.event.repository.default_branch }}
+          add-paths: |
+            site/content/exams/
+          title: "pipeline: re-checked an exam with a date due soon"
+          commit-message: |
+            pipeline: re-check an exam with a date due within a day
+
+            Produced by examhub-pipeline's hourly check. Human-reviewed; not
+            published automatically.
+          body: |
+            Automated same-day re-check: one of these sources has an exam
+            with a key date (an application closing, an exam date, a result)
+            within the next day. **Do not merge without reading the diff.**
+
+            - [ ] The diff is read against the source document, not just
+                  skimmed.
+            - [ ] `provenance.last_checked` moved, and the record's
+                  `provenance.source_url` is still the right document.
+
+            Full bundle: the `review-bundle-hourly` artifact from this run.
+          labels: |
+            automated
+            needs-review
+            urgent

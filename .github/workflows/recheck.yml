@@ -20,9 +20,9 @@ on:
   workflow_dispatch:
     inputs:
       source:
-        description: "source key (repeatable is not possible here; comma separated)"
+        description: "source key(s), comma separated; empty = picked automatically (due dates first)"
         required: false
-        default: "ugcnet"
+        default: ""
       max_requests:
         description: "per-run network request budget"
         required: false
@@ -83,6 +83,20 @@ jobs:
         # its own measurement below. This is the fast regression gate.
         run: uv run pytest -q -m "not model"
 
+      - name: Pick which sources to check tonight
+        # A manual dispatch with --source wins; otherwise the sources behind
+        # an exam with a date due soon go first, topped up with the day's
+        # rotation pick so a quiet source still gets an occasional look.
+        id: pick
+        run: |
+          if [ -n "${{ inputs.source }}" ]; then
+            sources="${{ inputs.source }}"
+          else
+            sources=$(uv run python -m examhub_pipeline due-sources --within-days 5 --cap 5)
+          fi
+          echo "sources=$sources" >> "$GITHUB_OUTPUT"
+          echo "tonight's sources: $sources"
+
       - name: Fetch, extract, validate and review
         id: review
         env:
@@ -99,8 +113,11 @@ jobs:
           # 3 for a partial result and 1 for a hard error, and both of those
           # are still worth a bundle to read.
           set +e
+          SOURCE_ARGS=()
+          IFS=',' read -ra KEYS <<< "${{ steps.pick.outputs.sources }}"
+          for k in "${KEYS[@]}"; do [ -n "$k" ] && SOURCE_ARGS+=(--source "$k"); done
           uv run python -m examhub_pipeline run \
-            --source "${{ inputs.source || 'ugcnet' }}" \
+            "${SOURCE_ARGS[@]}" \
             --run-limit 6 \
             --max-requests "${{ inputs.max_requests || 60 }}" \
             --host-delay 5

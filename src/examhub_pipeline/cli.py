@@ -1056,6 +1056,16 @@ def build_parser() -> argparse.ArgumentParser:
     _add_common(p)
     p.set_defaults(func=cmd_sources)
 
+    p = sub.add_parser("due-sources",
+                        help="which seed sources are worth re-checking tonight (exams with a date coming up)")
+    p.add_argument("--within-days", type=int, default=5,
+                   help="a record counts as due if its soonest date is within this many days (default 5)")
+    p.add_argument("--cap", type=int, default=5,
+                   help="most sources to print, so the request budget stays bounded (default 5)")
+    p.add_argument("--no-rotation", action="store_true",
+                   help="print nothing when no source is due, instead of topping up with the day's rotation pick")
+    p.set_defaults(func=cmd_due_sources)
+
     return parser
 
 
@@ -1101,6 +1111,16 @@ def cmd_readme_stats(args: argparse.Namespace) -> int:
     except OSError as exc:
         _echo(f"readme-stats failed: {exc}")
         return EXIT_ERROR
+
+
+def cmd_due_sources(args: argparse.Namespace) -> int:
+    """Comma-separated seed source keys worth re-checking tonight: exams with
+    a date due soon, plus the day's rotation pick for coverage."""
+    from . import priority
+    keys = priority.tonight_sources(within_days=args.within_days, cap=args.cap,
+                                    rotation=not args.no_rotation)
+    _echo(",".join(keys))
+    return EXIT_OK
 
 
 def cmd_aliases(args: argparse.Namespace) -> int:
