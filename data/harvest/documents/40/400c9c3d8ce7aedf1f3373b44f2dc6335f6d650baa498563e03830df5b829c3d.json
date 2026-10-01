@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "400c9c3d8ce7aedf1f3373b44f2dc6335f6d650baa498563e03830df5b829c3d",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/05/202605101692438124.pdf",
+  "title": "Press Briefing Note on Commencement of the Common University Entrance Test (Undergraduate) — CUET (UG) 2026 — on 11 May 2026.",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/cuet-ug",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "d7a9e09078ef13f00ec20144370350b882a0c925659d5992ebf783304d5cb217",
+  "bytes": 1957015,
+  "pages": 6,
+  "chars": 10,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T19:18:59+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

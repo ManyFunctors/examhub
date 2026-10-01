@@ -4,80 +4,16 @@
  "name": "Common University Entrance Test (UG)",
  "body": "in-nta",
  "purpose": "admission",
- "cycle": "2026",
- "documents": 6,
- "documents_in_cycle": 3,
- "fields": {
-  "dates": {
-   "exam_date": {
-    "date": "2026-05-31",
-    "source": {
-     "notice": "0d2f483af78a4c162bc3644b7fb7c5801a23ecdd44f0f94d3eec6eed8b67157a",
-     "url": "https://nta.ac.in/Download/Notice/Notice_20260417220156.pdf",
-     "title": "Updation of earlier opted subjects for the fee paid candidates for CUET (UG)- 2026-reg. Read More",
-     "kind": "corrigendum",
-     "page": 1
-    }
-   },
-   "payment_deadline": {
-    "date": "2026-01-31",
-    "source": {
-     "notice": "0d2f483af78a4c162bc3644b7fb7c5801a23ecdd44f0f94d3eec6eed8b67157a",
-     "url": "https://nta.ac.in/Download/Notice/Notice_20260417220156.pdf",
-     "title": "Updation of earlier opted subjects for the fee paid candidates for CUET (UG)- 2026-reg. Read More",
-     "kind": "corrigendum",
-     "page": 1
-    }
-   },
-   "registration_deadline": {
-    "date": "2026-02-26",
-    "source": {
-     "notice": "0d2f483af78a4c162bc3644b7fb7c5801a23ecdd44f0f94d3eec6eed8b67157a",
-     "url": "https://nta.ac.in/Download/Notice/Notice_20260417220156.pdf",
-     "title": "Updation of earlier opted subjects for the fee paid candidates for CUET (UG)- 2026-reg. Read More",
-     "kind": "corrigendum",
-     "page": 1
-    }
-   },
-   "registration_open": {
-    "date": "2026-02-23",
-    "source": {
-     "notice": "0d2f483af78a4c162bc3644b7fb7c5801a23ecdd44f0f94d3eec6eed8b67157a",
-     "url": "https://nta.ac.in/Download/Notice/Notice_20260417220156.pdf",
-     "title": "Updation of earlier opted subjects for the fee paid candidates for CUET (UG)- 2026-reg. Read More",
-     "kind": "corrigendum",
-     "page": 1
-    }
-   }
-  },
-  "apply": {
-   "value": {
-    "from": "2026-02-23",
-    "until": "2026-02-26"
-   },
-   "source": {
-    "notice": "0d2f483af78a4c162bc3644b7fb7c5801a23ecdd44f0f94d3eec6eed8b67157a",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20260417220156.pdf",
-    "title": "Updation of earlier opted subjects for the fee paid candidates for CUET (UG)- 2026-reg. Read More",
-    "kind": "corrigendum",
-    "page": 1
-   }
-  },
-  "exam_date": {
-   "value": "2026-05-31",
-   "source": {
-    "notice": "0d2f483af78a4c162bc3644b7fb7c5801a23ecdd44f0f94d3eec6eed8b67157a",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20260417220156.pdf",
-    "title": "Updation of earlier opted subjects for the fee paid candidates for CUET (UG)- 2026-reg. Read More",
-    "kind": "corrigendum",
-    "page": 1
-   }
-  }
- },
+ "cycle": "2026-05",
+ "documents": 7,
+ "documents_in_cycle": 1,
+ "fields": {},
  "gaps": [
+  "apply",
+  "exam_date",
   "fee",
   "eligibility",
   "exam_pattern"
  ],
- "older_documents": 3
+ "older_documents": 6
 }

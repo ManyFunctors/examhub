@@ -1,0 +1,44 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "b2cd565626a0bcec09392083c039b01c42dcefb32532f69ae8b64bbcb11bfa8b",
+  "url": "https://www.ibps.in/wp-content/uploads/Corrigendum-CRP-Clerks-XIV-28-10-2024.pdf",
+  "title": "04 Nov 24 Corrigendum Regarding CRP-Clerks-XIV",
+  "body": "in-ibps",
+  "exam": "in-ibps-clerk",
+  "feed": "in-ibps/crp-updates",
+  "published": "2024-10-28",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "cd274dc613c4905be2de27b4ea2c695b1b5bbc1e6347e32a3765874fcc572a44",
+  "bytes": 582147,
+  "pages": 1,
+  "chars": 1095,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T19:18:53+05:30"
+ },
+ "kind": "corrigendum",
+ "vacancies": {
+  "total": 2025,
+  "evidence": "RECRUITMENT OF CLERKS IN PARTICIPATING BANKS (For Vacancies of 2025-26) Website: www.ibps.in In case of queries / complaints please log in to http://cgrs.ibps.in/",
+  "page": 1,
+  "from": "text"
+ },
+ "links": {
+  "apply": [
+   "http://www.ibps.in/",
+   "http://cgrs.ibps.in/",
+   "http://www.ibps.in./",
+   "https://www.ibps.in"
+  ],
+  "other": [
+   "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=4276",
+   "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=4259"
+  ]
+ },
+ "summary": {
+  "vacancies": 2025
+ }
+}
