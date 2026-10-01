@@ -5,9 +5,44 @@
  "body": "in-cbse",
  "purpose": "eligibility",
  "cycle": "2026-09",
- "documents": 6,
- "documents_in_cycle": 1,
+ "documents": 7,
+ "documents_in_cycle": 2,
  "fields": {
+  "dates": {
+   "registration_deadline": {
+    "date": "2026-09-01",
+    "source": {
+     "notice": "e3d502ed3ef8ab05f416f663d4434e863c42bc97e6f35dfe795d544966019411",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260907461266783.pdf",
+     "title": "PUBLIC NOTICE: CTET SEP-2026 CORRECTION WINDOW (last date 10.09.2026)",
+     "kind": "notice",
+     "page": 1
+    }
+   },
+   "registration_open": {
+    "date": "2026-08-25",
+    "source": {
+     "notice": "e3d502ed3ef8ab05f416f663d4434e863c42bc97e6f35dfe795d544966019411",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260907461266783.pdf",
+     "title": "PUBLIC NOTICE: CTET SEP-2026 CORRECTION WINDOW (last date 10.09.2026)",
+     "kind": "notice",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-08-25",
+    "until": "2026-09-01"
+   },
+   "source": {
+    "notice": "e3d502ed3ef8ab05f416f663d4434e863c42bc97e6f35dfe795d544966019411",
+    "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260907461266783.pdf",
+    "title": "PUBLIC NOTICE: CTET SEP-2026 CORRECTION WINDOW (last date 10.09.2026)",
+    "kind": "notice",
+    "page": 1
+   }
+  },
   "eligibility": {
    "value": {
     "education_levels": [
@@ -119,7 +154,6 @@
   }
  },
  "gaps": [
-  "apply",
   "exam_date",
   "fee"
  ],
