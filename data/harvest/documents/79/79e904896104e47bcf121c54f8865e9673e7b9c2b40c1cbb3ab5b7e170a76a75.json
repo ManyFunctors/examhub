@@ -1,0 +1,226 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "79e904896104e47bcf121c54f8865e9673e7b9c2b40c1cbb3ab5b7e170a76a75",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/202605111250310617.pdf",
+  "title": "CTET SEPT 2026 INFORMATION BULLETIN",
+  "body": "in-cbse",
+  "exam": "in-ctet",
+  "feed": "in-cbse/ctet",
+  "published": "2026-09-10",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "c0a090661789d33489953dbee37efb5b06db326babae4b2efdb64013a89b87d4",
+  "bytes": 1020580,
+  "pages": 34,
+  "chars": 78415,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T20:17:07+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "registration_open": {
+   "date": "2026-05-11",
+   "evidence": "Start of submission of online application through CTET website https://ctet.nic.in or CBSE website https://www.cbse.gov.in",
+   "page": 32,
+   "from": "table"
+  },
+  "registration_deadline": {
+   "date": "2026-06-10",
+   "evidence": "Last Date for submission of online application form",
+   "page": 32,
+   "from": "table"
+  },
+  "correction_window": {
+   "date": "2026-06-10",
+   "evidence": "Last Date for submission of fee through Debit/Credit Card/Net Banking",
+   "page": 32,
+   "from": "table"
+  },
+  "exam_date": {
+   "date": "2026-09-06",
+   "evidence": "Date of Examination",
+   "page": 32,
+   "from": "table"
+  },
+  "payment_deadline": {
+   "date": "2026-06-10",
+   "evidence": "Last date for submission of fee: 10.06.2026 (Before11:59PM)",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Paper-II Morning 09:30 AM to 12:00 NOON",
+   "date": "2026-09-06",
+   "page": 2
+  },
+  {
+   "event": "Paper-II Morning 09:30 AM to 12:00 NOON 2:30 HOURS",
+   "date": "2026-09-06",
+   "page": 7
+  },
+  {
+   "event": "Start of submission of online application through CTET website https://ctet.nic.in or CBSE website https://www.cbse.gov.in",
+   "key": "registration_open",
+   "date": "2026-05-11",
+   "page": 32
+  },
+  {
+   "event": "Last Date for submission of online application form",
+   "key": "registration_deadline",
+   "date": "2026-06-10",
+   "page": 32
+  },
+  {
+   "event": "Last Date for submission of fee through Debit/Credit Card/Net Banking",
+   "key": "correction_window",
+   "date": "2026-06-10",
+   "page": 32
+  },
+  {
+   "event": "Online corrections if any, in the particulars uploaded by the candidate",
+   "key": "correction_window",
+   "date": "2026-06-15",
+   "page": 32,
+   "until": "2026-06-18"
+  },
+  {
+   "event": "Date of Examination",
+   "key": "exam_date",
+   "date": "2026-09-06",
+   "page": 32
+  },
+  {
+   "event": "Date of Examination",
+   "key": "exam_date",
+   "date": "2026-09-06",
+   "page": 32
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "Password must have at least one Upper case, one lower case alphabet and one numeric value and at least one special characters",
+    "page": 3
+   },
+   {
+    "text": "The candidate should satisfy his/her eligibility before applying and shall be personally responsible in case he/she is not eligible to apply as per the given eligibility criteria.",
+    "page": 4
+   },
+   {
+    "text": "Qualifying the CTET would not confer a right on any person for Recruitment/Employment as it is only one of the eligibility criteria for appointment",
+    "page": 5
+   },
+   {
+    "text": "BACKGROUND AND RATIONALE In accordance with the provisions of sub-section (1) of Section 23 of the RTE Act, the National Council for Teacher Education (NCTE) vide Notification dated 23 rd August, 2010 subsequently amended from time to time has laid down the minimum qualifications for a person to…",
+    "page": 7
+   },
+   {
+    "text": "It had been inter alia provided that one of the essential qualifications for a person to be eligible for appointment as a teacher in any of the schools referred to in Clause (n) of section 2 of the RTE Act is that he/she should pass the Teacher Eligibility Test (TET) which will be conducted by the…",
+    "page": 7
+   },
+   {
+    "text": "The rationale for including the TET as a minimum qualification for a person to be eligible for appointment as a teacher is as under:",
+    "page": 7
+   },
+   {
+    "text": "ELIGIBILITY The minimum qualifications for appearing in the CTET are as notified by NCTE",
+    "page": 8
+   },
+   {
+    "text": "The minimum qualifications for the teaching staff should be in accordance with the following:",
+    "page": 8
+   },
+   {
+    "text": "National Council for Teacher Education (Determination of Minimum Qualifications for Persons to be recruited as Education Teachers and Physical Education Teachers in Pre-Primary, Primary, Upper Primary, Secondary, Senior Secondary or Intermediate Schools or Colleges) Regulations as amended and…",
+    "page": 8
+   },
+   {
+    "text": "Minimum qualifications laid down in the Recruitment Rules for the teachers by the Appropriate Government where the school is situated or the Recruitment Rules for the teachers of Kendriya Vidyalaya Sangthan or Navodaya Vidyalaya Samiti.",
+    "page": 8
+   },
+   {
+    "text": "(b) Should give weightage to the CTET scores in the recruitment process however, qualifying the CTET would not confer a right on any person for recruitment/employment as it is only one of the eligibility criteria for appointment",
+    "page": 10
+   },
+   {
+    "text": "(iv) According to CBSE Affiliation Bye-Laws, prescribing the minimum qualifications for teachers to teach various subjects in Classes I to VIII in the schools Affiliated to CBSE stands amended to that extent and it shall be mandatory that the teachers appointed hereinafter i.e. 6th March, 2012 to…",
+    "page": 11
+   },
+   {
+    "text": "The candidate should satisfy his/her eligibility before applying and shall be personally responsible in case he/she is not eligible to apply as per the given eligibility criteria.",
+    "page": 12
+   },
+   {
+    "text": "The candidate should satisfy his/her eligibility before applying and shall be personally responsible in case he/she is not eligible to apply as per the given eligibility criteria.",
+    "page": 28
+   },
+   {
+    "text": "Minimum Educational Qualifications for teaching Classes I to V and VI to VIII Candidate must possess Minimum Educational Qualifications for becoming a teacher for Class I to V and VI to VIII.",
+    "page": 29
+   },
+   {
+    "text": "Password must have at least one Upper case, one lower case alphabet and one numeric value and at least one special characters",
+    "page": 30
+   },
+   {
+    "text": "Qualifying the CTET would not confer a right on any person for Recruitment/Employment as it is only one of the eligibility criteria for appointment",
+    "page": 32
+   }
+  ]
+ },
+ "exam_pattern": [
+  {
+   "paper": "(for Social Studies/Social Science teacher)",
+   "page": 10
+  },
+  {
+   "paper": "(iv) Language I (compulsory)",
+   "page": 10
+  },
+  {
+   "paper": "(v) Language II (compulsory)",
+   "page": 10
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 6
+  },
+  "negative_marking": {
+   "value": "No negative marking",
+   "page": 9
+  },
+  "duration": {
+   "value": "Duration of Online Application: 11.05.2026 to 10.06.2026",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://ctet.nic.in/",
+   "https://ncte.gov.in/",
+   "https://www.cbse.gov.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2026-05-11",
+   "until": "2026-06-10"
+  },
+  "exam_date": "2026-09-06",
+  "education": [
+   "Graduate",
+   "Class 12"
+  ]
+ }
+}
