@@ -34,7 +34,18 @@
       {{- /* Script-only controls show under .js; without it the page is a plain document. */}}
       document.documentElement.classList.replace("no-js", "js");
       {{- /* The saved Grid/List view, set before first paint so it doesn't flash. */}}
-      try { if (localStorage.getItem("examhub-view") === "dates") document.documentElement.setAttribute("data-start-view", "dates"); } catch (e) {}</script>
+      try { if (localStorage.getItem("examhub-view") === "dates") document.documentElement.setAttribute("data-start-view", "dates"); } catch (e) {}
+      {{- /* The theme, resolved before first paint: otherwise the page (and the
+             toggle's icon) renders light for an instant and then flips, since
+             site.js only runs once the page has loaded. */}}
+      (function () {
+        var mode;
+        try { mode = localStorage.getItem("examhub-theme"); } catch (e) {}
+        if (mode !== "light" && mode !== "dark") {
+          mode = (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+        }
+        document.documentElement.classList.add(mode);
+      })();</script>
     <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
     {{- with $pageCSS }}
     <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" />

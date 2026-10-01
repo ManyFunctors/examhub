@@ -133,11 +133,14 @@
   opacity: 0;
 }
 
-.theme-toggle[data-mode="dark"] .icon-sun {
+/* Keyed off html.dark, not the button's own data-mode: html.dark is set by
+   an inline script before first paint, so the right icon shows immediately
+   instead of flashing sun-then-moon while site.js loads. */
+html.dark .theme-toggle .icon-sun {
   opacity: 0;
 }
 
-.theme-toggle[data-mode="dark"] .icon-moon {
+html.dark .theme-toggle .icon-moon {
   opacity: 1;
 }
 
