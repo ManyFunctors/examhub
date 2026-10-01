@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2f490f256d402d6e87da3c526518c3335f75d64511896f456d8e4174d4647362",
+  "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/03/202603051558349022.pdf",
+  "title": "Advisory and Instructions for the Candidates of the Common University Entrance Test CUET (PG) – 2026 – Reg.",
+  "body": "in-nta",
+  "exam": "in-cuet-pg",
+  "feed": "in-nta/cuet-pg",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "39b60e9495737f95fb54dadb878e8aca908d3ab6268e8ccf6477c32db445e603",
+  "bytes": 4058666,
+  "pages": 9,
+  "chars": 16,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T13:43:24+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
