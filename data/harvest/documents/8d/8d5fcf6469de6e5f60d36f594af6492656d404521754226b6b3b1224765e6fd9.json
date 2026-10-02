@@ -1,0 +1,38 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "8d5fcf6469de6e5f60d36f594af6492656d404521754226b6b3b1224765e6fd9",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200524082517.pdf",
+  "title": "1753 Public Notice: Rescheduling of JOINT ENTRANCE EXAMINATION JEE (Main) April–2020 from (5th, 7th to 9th and 11th) April 2020 to (18th – 23rd ) July 2020 Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "0f952a8cd112d99390cc7342cdcc77ba490989c2b26135e37402b32b99ce96a6",
+  "bytes": 134771,
+  "pages": 1,
+  "chars": 1637,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-03T00:01:32+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2020-04-09",
+   "evidence": "The JOINT ENTRANCE EXAMINATION JEE(Main) April-2020 which was to be conducted on 5th, 7th to 9th and 11th April 2020 had to be postponed due to the extraordinary",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2020-04-09"
+ }
+}
