@@ -1,0 +1,38 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0004139320df21db14e28f5e2d3791ef059952cb83305e605fa9e54ea90b24ea",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20201125111607.pdf",
+  "title": "1653 Public Notice: Postponement of Joint CSIR - UGC NET Examination in Tamil Nadu & Puducherry. Read More",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "ba747021e7d40af8ebd3e8312b28cb17445d48179aa7965f526d338e369d3f72",
+  "bytes": 145537,
+  "pages": 1,
+  "chars": 989,
+  "ocr": false,
+  "indic_share": 0.06,
+  "fetched": "2026-10-02T06:02:49+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2020-11-26",
+   "evidence": "Owing to the cyclone \"Nivar\", the Joint CSIR - UGC NET - 2020 examination scheduled on 26th November, 2020 (Mathematical Sciences & Chemical Sciences) stands postponed until further notice in respect of all the examination centres which are",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2020-11-26"
+ }
+}
