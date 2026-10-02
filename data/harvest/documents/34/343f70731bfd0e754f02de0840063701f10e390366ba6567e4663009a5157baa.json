@@ -1,0 +1,45 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "343f70731bfd0e754f02de0840063701f10e390366ba6567e4663009a5157baa",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210302141518.pdf",
+  "title": "1595 PUBLIC NOTICE : Inviting online Applications for JEE (Main) March, April & May-2021 (Session-2, 3 & 4) – Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "7185b37525f57d1de7c292643469b1433edcc7d48f677b43b61d47021be49f1a",
+  "bytes": 143748,
+  "pages": 1,
+  "chars": 2694,
+  "ocr": false,
+  "indic_share": 0.02,
+  "fetched": "2026-10-02T15:24:42+05:30"
+ },
+ "kind": "admit_card",
+ "schedule": [
+  {
+   "event": "Session-2 (March-2021) (B.E./B.Tech.) (Paper-1) To be intimated later on",
+   "date": "2021-03-18",
+   "page": 1,
+   "until": "2021-03-02"
+  },
+  {
+   "event": "Session-3 (April-2021) (B.E./B.Tech.) (Paper-1) To be displayed on the NTA website in due course",
+   "date": "2021-04-27",
+   "page": 1
+  },
+  {
+   "event": "Session-4 (May-2021) (B.E./B.Tech. and B.Arch./ B.Planning) (Paper-1, Paper-2A & Paper-2B) To be displayed on the NTA website in due course",
+   "date": "2021-05-28",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ }
+}
