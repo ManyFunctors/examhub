@@ -1,0 +1,133 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "6a32f2f2edd323135dade5bc6a1be8c397e275b3f0a4a6b3b7948da9e956195f",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20231229164948.pdf",
+  "title": "Inviting Online Applications for Common University Entrance Test [CUET (PG) 2024] Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-pg",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "808bfb90a25a89a682fa832b12225f10cd6a4fb233b1ed6c3a66137a8666c08a",
+  "bytes": 1127259,
+  "pages": 1,
+  "chars": 2771,
+  "ocr": false,
+  "indic_share": 0.02,
+  "fetched": "2026-10-02T10:07:02+05:30"
+ },
+ "kind": "answer_key",
+ "dates": {
+  "payment_deadline": {
+   "date": "2024-01-25",
+   "evidence": "Last date of successful transaction of fee through",
+   "page": 1,
+   "from": "table"
+  },
+  "correction_window": {
+   "date": "2024-01-27",
+   "until": "2024-01-29",
+   "evidence": "Correction in Particulars of Application Form on the",
+   "page": 1,
+   "from": "table"
+  },
+  "admit_card_from": {
+   "date": "2024-03-07",
+   "evidence": "Downloading of Admit Cards from NTA website",
+   "page": 1,
+   "from": "table"
+  },
+  "exam_date": {
+   "date": "2024-03-11",
+   "until": "2024-03-28",
+   "evidence": "Date of Examination",
+   "page": 1,
+   "from": "table"
+  },
+  "answer_key": {
+   "date": "2024-04-04",
+   "evidence": "Answer Key Challenges",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_open": {
+   "date": "2023-12-26",
+   "evidence": "Online Submission of Application Form through Website (https://pgcuet.samarth.ac.in/) 26 December 2023 to 24 January 2024 (upto 11:50 P.M.) Last date of successful transaction of fee through Credit/Debit Card/NetBanking/UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2024-01-24",
+   "evidence": "Online Submission of Application Form through Website (https://pgcuet.samarth.ac.in/) 26 December 2023 to 24 January 2024 (upto 11:50 P.M.) Last date of successful transaction of fee through Credit/Debit Card/NetBanking/UPI",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Online Submission of Application Form through Website",
+   "date": "2023-12-26",
+   "page": 1,
+   "until": "2024-01-24"
+  },
+  {
+   "event": "Last date of successful transaction of fee through",
+   "key": "payment_deadline",
+   "date": "2024-01-25",
+   "page": 1
+  },
+  {
+   "event": "Correction in Particulars of Application Form on the",
+   "key": "correction_window",
+   "date": "2024-01-27",
+   "page": 1,
+   "until": "2024-01-29"
+  },
+  {
+   "event": "Advance City Intimation",
+   "date": "2024-03-04",
+   "page": 1
+  },
+  {
+   "event": "Downloading of Admit Cards from NTA website",
+   "key": "admit_card_from",
+   "date": "2024-03-07",
+   "page": 1
+  },
+  {
+   "event": "Date of Examination",
+   "key": "exam_date",
+   "date": "2024-03-11",
+   "page": 1,
+   "until": "2024-03-28"
+  },
+  {
+   "event": "Answer Key Challenges",
+   "key": "answer_key",
+   "date": "2024-04-04",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "duration": {
+   "value": "1 hour 45 minutes (105 Minutes) | 3 Shifts",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in",
+   "https://pgcuet.samarth.ac.in/",
+   "https://nta.ac.in/"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2023-12-26",
+   "until": "2024-01-24"
+  },
+  "exam_date": "2024-03-11"
+ }
+}
