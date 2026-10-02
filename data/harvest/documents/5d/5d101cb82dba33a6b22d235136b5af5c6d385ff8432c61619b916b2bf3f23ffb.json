@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "5d101cb82dba33a6b22d235136b5af5c6d385ff8432c61619b916b2bf3f23ffb",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210116174248.pdf",
+  "title": "1622 PUBLIC NOTICE: Extension of the last date for submission of online applications for the Joint Entrance Examination JEE(Main)-2021 Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "68b544b7c889bcd29db9e0fda70e3d5ea0e196b3398355b15de50461513c2cf7",
+  "bytes": 199400,
+  "pages": 1,
+  "chars": 2517,
+  "ocr": false,
+  "indic_share": 0.02,
+  "fetched": "2026-10-02T22:48:36+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "payment_deadline": {
+   "date": "2021-01-24",
+   "evidence": "Last date for payment of the online fee",
+   "page": 1,
+   "from": "table"
+  },
+  "correction_window": {
+   "date": "2021-01-27",
+   "until": "2021-01-30",
+   "evidence": "Correction in Application Form (Correction Window)",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_deadline": {
+   "date": "2021-01-23",
+   "evidence": "Submission of Online Application Form From 16.12.2020 to 23.01.2021 Last date for payment of the online fee",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2020-12-16",
+   "evidence": "Submission of Online Application Form From 16.12.2020 to 23.01.2021 Last date for payment of the online fee",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Submission of Online Application Form",
+   "date": "2020-12-16",
+   "page": 1,
+   "until": "2021-01-23"
+  },
+  {
+   "event": "Last date for payment of the online fee",
+   "key": "payment_deadline",
+   "date": "2021-01-24",
+   "page": 1
+  },
+  {
+   "event": "Correction in Application Form (Correction Window)",
+   "key": "correction_window",
+   "date": "2021-01-27",
+   "page": 1,
+   "until": "2021-01-30"
+  }
+ ],
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://jeemain.nta.nic.in/",
+   "https://www.nta.ac.in",
+   "https://www.jeemain.nta.nic.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2020-12-16",
+   "until": "2021-01-23"
+  }
+ }
+}

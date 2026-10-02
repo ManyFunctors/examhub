@@ -1,0 +1,89 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "5beb70fa3635f64c98a11a66578929899f266bc1b2c06e5a61528c676da97447",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220217114825.pdf",
+  "title": "1346 Inviting Online Applications for Common Management Admission Test (CMAT)-2022 Read More",
+  "body": "in-nta",
+  "exam": "in-cmat",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "90b9b45d99827e7cfad83c9df1e048ff6f5723802bda8feb0c966304d0cac46a",
+  "bytes": 1132097,
+  "pages": 1,
+  "chars": 2361,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-02T22:48:32+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "payment_deadline": {
+   "date": "2022-03-18",
+   "evidence": "Last date of successful transaction of fee through",
+   "page": 1,
+   "from": "table"
+  },
+  "correction_window": {
+   "date": "2022-03-19",
+   "until": "2022-03-21",
+   "evidence": "Correction in Particulars of Application Form on the",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_open": {
+   "date": "2022-02-16",
+   "evidence": "Online Submission of Application Form through Website (https://cmat.nta.nic.in/) 16.02.2022 to 17.03.2022 (upto 11:50 P.M.) Last date of successful transaction of fee through Credit/Debit Card/NetBanking/UPI / Paytm Wallet",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2022-03-17",
+   "evidence": "Online Submission of Application Form through Website (https://cmat.nta.nic.in/) 16.02.2022 to 17.03.2022 (upto 11:50 P.M.) Last date of successful transaction of fee through Credit/Debit Card/NetBanking/UPI / Paytm Wallet",
+   "page": 1,
+   "from": "text"
+  },
+  "exam_date": {
+   "date": "2022-03-21",
+   "evidence": "19.03.2022 to 21.03.2022 Downloading of Admit Cards from NTA website Will be announced later on website Date of Examination Will be announced later on website Duration 180 minutes (03:00 Hrs) Timing of Examination Shift-1 09:00 A.M. to 12:0",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Online Submission of Application Form through",
+   "date": "2022-02-16",
+   "page": 1,
+   "until": "2022-03-17"
+  },
+  {
+   "event": "Last date of successful transaction of fee through",
+   "key": "payment_deadline",
+   "date": "2022-03-18",
+   "page": 1
+  },
+  {
+   "event": "Correction in Particulars of Application Form on the",
+   "key": "correction_window",
+   "date": "2022-03-19",
+   "page": 1,
+   "until": "2022-03-21"
+  }
+ ],
+ "links": {
+  "other": [
+   "https://www.nta.ac.in",
+   "https://cmat.nta.nic.in/"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2022-02-16",
+   "until": "2022-03-17"
+  },
+  "exam_date": "2022-03-21"
+ }
+}
