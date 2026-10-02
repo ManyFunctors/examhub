@@ -349,7 +349,7 @@
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ibsat"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "in-icai-pqc"}
 {"cycle": "2026", "documents": 10, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-icar-aice-phd"}
-{"cycle": "2020", "documents": 1, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-icar-aieea-pg"}
+{"cycle": "2020", "documents": 2, "gaps": ["fee", "eligibility"], "id": "in-icar-aieea-pg"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-icg-assistant-commandant"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-icg-navik-yantrik"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-icmr-recruitment"}
@@ -434,7 +434,7 @@
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-neet-mds"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-neet-pg"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-neet-ss"}
-{"cycle": "2026-06", "documents": 44, "gaps": ["apply", "exam_date", "fee", "exam_pattern"], "id": "in-neet-ug"}
+{"cycle": "2026-06", "documents": 45, "gaps": ["apply", "exam_date", "fee", "exam_pattern"], "id": "in-neet-ug"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-nest"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-next"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-nfl-recruitment"}
@@ -562,7 +562,7 @@
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-tifr-gs"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-uceed"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-uco-recruitment"}
-{"cycle": "2026-06", "documents": 18, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "in-ugc-net"}
+{"cycle": "2026-06", "documents": 19, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "in-ugc-net"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-uiic-ao"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-uiic-assistant"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-union-bank-recruitment"}

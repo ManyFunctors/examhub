@@ -1,0 +1,80 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "7589b2e17775ab466a06b6f3e404ac7dccace6d0a8bd24cc3cec685b16736d50",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200304044439.pdf",
+  "title": "1789 PUBLIC NOTICE: Indian Council of Agricultural Research (ICAR) AIEEA 2020 Read More",
+  "body": "in-nta",
+  "exam": "in-icar-aieea-pg",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "56885b889102054de4f505211256f4a5409278904fbd32b3ec85e247a2daeac4",
+  "bytes": 109184,
+  "pages": 1,
+  "chars": 1853,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-02T13:43:05+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2020-06-01",
+   "evidence": "The NTA will conduct ICAR Entrance Examinations [AIEEA (UG), AIEEA (PG) & AICE- JRF/SRF(Ph.D)] -2020 on 01 JUNE, 2020",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2020-03-01",
+   "evidence": "The candidates are required to apply only online between 01 March 2020 -31 March 2020 (upto",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2020-03-31",
+   "evidence": "The candidates are required to apply only online between 01 March 2020 -31 March 2020 (upto",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam_pattern": [
+  {
+   "paper": "ICAR AIEEA (UG)-2020",
+   "page": 1,
+   "duration": "02½ hours (150 minutes)"
+  },
+  {
+   "paper": "ICAR AIEEA (PG)-2020",
+   "page": 1,
+   "duration": "02 hours (120 minutes)"
+  },
+  {
+   "paper": "ICAR AICE-JRF/SRF(Ph.D)-2020",
+   "page": 1,
+   "duration": "02 hours (120 minutes)"
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://icar.org.in/node/13680",
+   "http://www.ntaicar.nic.in/",
+   "https://www.nta.ac.in",
+   "https://icar.nta.nic.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2020-03-01",
+   "until": "2020-03-31"
+  },
+  "exam_date": "2020-06-01"
+ }
+}

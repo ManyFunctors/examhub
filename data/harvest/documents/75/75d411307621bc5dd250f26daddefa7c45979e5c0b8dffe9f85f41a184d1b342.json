@@ -1,0 +1,51 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "75d411307621bc5dd250f26daddefa7c45979e5c0b8dffe9f85f41a184d1b342",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240614014616.pdf",
+  "title": "Reconduct of the NEET (UG) – 2024 for affected candidates Read More",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "0105878152badcc3c544020ec9ff604a58417f0658dfb15f47fcda6ff782d4b7",
+  "bytes": 327840,
+  "pages": 2,
+  "chars": 3578,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-02T13:43:09+05:30"
+ },
+ "kind": "result",
+ "dates": {
+  "exam_date": {
+   "date": "2024-05-05",
+   "provisional": true,
+   "evidence": "(iii) The result of those affected candidates (1563) who do not wish to appear for the re- examination, will be declared based on their actual marks (without compensation) obtained in the examination conducted on 05.05.2024.  [document-leve",
+   "page": 2,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "NEET (UG) – 2024 02:00 to 05:20 P.M.",
+   "date": "2024-06-23",
+   "page": 1,
+   "until": "2024-06-30"
+  }
+ ],
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/NEET/"
+  ],
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2024-05-05"
+ }
+}

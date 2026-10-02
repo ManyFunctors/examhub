@@ -5,25 +5,25 @@
  "body": "in-nta",
  "purpose": "eligibility",
  "cycle": "2026-06",
- "documents": 18,
+ "documents": 19,
  "documents_in_cycle": 5,
  "fields": {
   "exam_pattern": {
    "value": [
     {
-     "paper": "09:30 am to 12:30 pm (IST)",
+     "paper": "09:00 am to 12:00 pm (IST)",
      "page": 1,
-     "marks": 100,
-     "duration": "03 hours"
+     "questions": 50,
+     "marks": 100
     }
    ],
    "source": {
-    "notice": "01ae426e3a4700da65d8b5cab2f5ad9dc525589622490179e210c1124775d523",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20190909092610.pdf",
-    "title": "1842 Public Notice for UGC-NET December 2019 Read More",
+    "notice": "7502b1733f20b35c04e474c7500e63763d650bee02f5ca23963db5cfa931d71e",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20210202165520.pdf",
+    "title": "1617 Public Notice: UGC-NET, Dec 2020 Cycle (May 2021) English Read More",
     "kind": "brochure"
    },
-   "carried_from": "2019-12"
+   "carried_from": "2021-12"
   }
  },
  "gaps": [
@@ -32,5 +32,5 @@
   "fee",
   "eligibility"
  ],
- "older_documents": 13
+ "older_documents": 14
 }
