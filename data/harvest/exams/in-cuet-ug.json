@@ -5,15 +5,71 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2026-05",
- "documents": 21,
+ "documents": 22,
  "documents_in_cycle": 1,
- "fields": {},
+ "fields": {
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "The basic eligibility criterion for entrance into Universities remains unchanged which is that a candidate must have passed the Class 12 examination from any recognized Board or equivalent",
+      "page": 4
+     },
+     {
+      "text": "The basic eligibility criteria is a key factor for admission to all University and other examinations such as JEE and NEET at the National Level",
+      "page": 4
+     },
+     {
+      "text": "Visit the Website(s) of the University / Organization / Institution and NOTE down the eligibility criteria for the Courses in which you intend to take admission (required Test/Subjects for appearing in CUET (UG) – 2024 This should be noted down for all University/ Universities and Courses where…",
+      "page": 8
+     },
+     {
+      "text": "They should have studied these subjects at grade 12 or as prescribed by a particular University under their eligibility conditions for a particular programme",
+      "page": 10
+     },
+     {
+      "text": "Where do I need to check the eligibility criteria or Subjects/ tests which I need to take for appearing in",
+      "page": 13
+     },
+     {
+      "text": "CUET (UG)-2024 As the eligibility criteria for admission may be unique for each University, the participating Institutions will upload all the required criteria for their respective programs, on their website/s",
+      "page": 13
+     },
+     {
+      "text": "Candidates are advised to satisfy themselves before applying on the Samarth platform (https://exams.nta.ac.in/CUET-UG/) that they meet the eligibility criteria laid down by the University they are applying to.",
+      "page": 13
+     },
+     {
+      "text": "However, the candidates must fulfil the eligibility criteria of that Course of University / Institution / Organization where they are seeking admission.",
+      "page": 14
+     },
+     {
+      "text": "The scribe must also carry an Undertaking regarding educational qualification, etc, passport size photograph, valid government identity",
+      "page": 19
+     },
+     {
+      "text": "A candidate may be required to opt for one of the 13 specified languages as the medium of the paper or as the language, as per desired University’s eligibility criteria",
+      "page": 21
+     }
+    ]
+   },
+   "source": {
+    "notice": "94bdfdc661ff15ef5bff2f1c931c240c6a3bb608db8fac199d009fb3fab0b188",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20240312193136.pdf",
+    "title": "FREQUENTLY ASKED QUESTIONS (FAQs) for CUET (UG) – 2024 Read More",
+    "kind": "brochure"
+   },
+   "carried_from": "2024"
+  }
+ },
  "gaps": [
   "apply",
   "exam_date",
   "fee",
-  "eligibility",
   "exam_pattern"
  ],
- "older_documents": 20
+ "older_documents": 21
 }
