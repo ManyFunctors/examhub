@@ -1,0 +1,71 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "4a751c7b0abadc91787f6ea3a4a48906883ef7784e1376aad33c2da23573935d",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200317172932.pdf",
+  "title": "1786 Public Notice English UGC-NET June 2020 Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "8a6120f387d44b996bf290e933be0c88fa6e2ad92cadb648a499cf8edbd2e86f",
+  "bytes": 67311,
+  "pages": 1,
+  "chars": 1431,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-02T19:21:23+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "exam_date": {
+   "date": "2020-06-20",
+   "evidence": "The NTA will conduct the next UGC-NET for Junior Research Fellowship and eligibility for Assistant Professor between 15 June - 20 June 2020",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2020-03-16",
+   "evidence": "The eligible candidates may apply online between 16 March 2020 - 16 April 2020 (upto",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2020-04-16",
+   "evidence": "The eligible candidates may apply online between 16 March 2020 - 16 April 2020 (upto",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam_pattern": [
+  {
+   "paper": "09:30 am to 12:30 pm (IST)",
+   "page": 1,
+   "marks": 100,
+   "duration": "03 hours"
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "http://www.ugcnet.nta.nic.in/",
+   "tel:0120-6895200",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2020-03-16",
+   "until": "2020-04-16"
+  },
+  "exam_date": "2020-06-20"
+ }
+}
