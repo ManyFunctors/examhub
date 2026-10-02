@@ -1,0 +1,66 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "90fa218a9a54e8388d90cc290114d1dac4500b302d3a25a25fd014ec78cd1ddc",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200829043909.pdf",
+  "title": "1716 PUBLIC NOTICE: Entrance Exam Date for Delhi University Entrance Test (DUET) 2020. Read More",
+  "body": "in-nta",
+  "exam": "in-nta-duet",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "a62c5cb1edcc23c540631a60feee309da5479e2bec708794c4ba7fbd4fe20235",
+  "bytes": 174450,
+  "pages": 6,
+  "chars": 5622,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-03T00:33:22+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "exam_date": {
+   "date": "2020-09-11",
+   "evidence": "The NTA will conduct the DUET from 06 September to 11 September 2020 for UG, PG and M.Phil/Ph.D",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "education_levels": [
+   "Doctorate",
+   "Postgraduate",
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "East Asian Studies M.Phil./Ph.D. in Hispanic M.Phil./Ph.D. in Economics Ph.D. in East Asian Studies M.Phil./Ph.D. in Italian M.Sc./Ph.D. combined degree in Biomedical Sciences & M.Sc",
+    "page": 5
+   },
+   {
+    "text": "Degree in Biomedical Sciences (Dr",
+    "page": 5
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://nta.ac.in/DuetExam"
+  ]
+ },
+ "summary": {
+  "exam_date": "2020-09-11",
+  "education": [
+   "Doctorate",
+   "Postgraduate",
+   "Graduate"
+  ]
+ }
+}

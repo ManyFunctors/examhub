@@ -1,0 +1,35 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "9036967c6efc4a68618e530e4ba952f53d92582f1f9ed122a1e4ae247da9d7ed",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210421075243.pdf",
+  "title": "1555 Public Notice: Postponement of the UGC-NET December 2020 cycle(May 2021)Examination Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "70967ad8986ce289aa1771e0ec2d84905cb1fd0c141232b4ab9f06e7792336b6",
+  "bytes": 510224,
+  "pages": 1,
+  "chars": 1314,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-03T00:33:15+05:30"
+ },
+ "kind": "corrigendum",
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://ugcnet.nta.nic.in/",
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ }
+}
