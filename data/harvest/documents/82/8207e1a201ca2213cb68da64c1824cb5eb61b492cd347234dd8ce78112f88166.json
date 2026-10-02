@@ -1,0 +1,38 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "8207e1a201ca2213cb68da64c1824cb5eb61b492cd347234dd8ce78112f88166",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200812165314.pdf",
+  "title": "1729 PUBLIC NOTICE: Examination date for All India AYUSH Post Graduation Entrance Test(AIAPGET)-2020 Read More",
+  "body": "in-nta",
+  "exam": "in-aiapget",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "412ee0b209ca1f9acaf3579a89c96938c7008318d8b9419403318688716aadba",
+  "bytes": 67916,
+  "pages": 1,
+  "chars": 1321,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-02T16:44:50+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2020-08-29",
+   "evidence": "The All India AYUSH Post Graduation Entrance Test (AIAPGET)-2020 will be held on 29.08.2020 (Saturday) from 10:00 A.M",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2020-08-29"
+ }
+}

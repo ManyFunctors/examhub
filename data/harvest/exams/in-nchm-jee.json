@@ -5,15 +5,32 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 8,
+ "documents": 9,
  "documents_in_cycle": 6,
- "fields": {},
+ "fields": {
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "The eligible Candidates who desire to appear in the said Examination may see the Information Bulletin available on the Websites of NTA: www.nta.ac.in/ www.ntanchm.nic.in for the relevant details, such as, carrier prospects, eligibility criteria, examination fees, cities of the examination,…",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "839b2d4f1d2fcf92d1b56dafc375520e4bd01a9729d910183969aeca4e908d77",
+    "url": "https://nta.ac.in/Download/Notice/PublicNoticeNCHMJEE-2019.pdf",
+    "title": "1901 Public Notice NCHM JEE-2019 Read More",
+    "kind": "brochure"
+   },
+   "carried_from": "2019"
+  }
+ },
  "gaps": [
   "apply",
   "exam_date",
   "fee",
-  "eligibility",
   "exam_pattern"
  ],
- "older_documents": 2
+ "older_documents": 3
 }
