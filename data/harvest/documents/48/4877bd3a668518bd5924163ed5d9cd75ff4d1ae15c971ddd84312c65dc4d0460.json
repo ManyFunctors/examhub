@@ -1,0 +1,39 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "4877bd3a668518bd5924163ed5d9cd75ff4d1ae15c971ddd84312c65dc4d0460",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210504222332.pdf",
+  "title": "1553 PUBLIC NOTICE: Postponement of the Joint Entrance Examination (Main) – 2021 for the May Session (Session 4) - Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "3380b451ed3edc7b513b933c1afc3498e7e92dc84cbfd4de890160791ff97eed",
+  "bytes": 861878,
+  "pages": 1,
+  "chars": 1873,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-02T19:02:56+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2021-05-24",
+   "evidence": "The JEE (Main) - 2021 May session is earlier scheduled on 24, 25, 26, 27, 28 May 2021",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2021-05-24"
+ }
+}
