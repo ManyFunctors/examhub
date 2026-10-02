@@ -1,0 +1,46 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "73e167b31dc657edd4d98e56ade65c7369a88dd0192ae00a5bb93eeb385b5452",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200506131204.pdf",
+  "title": "1764 PUBLIC NOTICE: All India AYUSH Post Graduation Entrance Test (AIAPGET)-2020 Read More",
+  "body": "in-nta",
+  "exam": "in-aiapget",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "34bc3df12ba840d851e58d8fb5ac25221dfb681ade1796404feaa0eb7c55893a",
+  "bytes": 137688,
+  "pages": 1,
+  "chars": 1584,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-02T12:46:16+05:30"
+ },
+ "kind": "brochure",
+ "exam_pattern": [
+  {
+   "paper": "10:00 am to 12:00 noon (IST)",
+   "page": 1,
+   "questions": 120,
+   "marks": 480,
+   "duration": "02 hours"
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  },
+  "duration": {
+   "value": "Paper Marks Number of Questions (MCQ Format) Timing Duration I 480 120 10:00 am to 12:00 noon (IST) 02 hours",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ }
+}

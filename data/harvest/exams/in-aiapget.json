@@ -5,15 +5,33 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 5,
+ "documents": 6,
  "documents_in_cycle": 3,
- "fields": {},
+ "fields": {
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "10:00 am to 12:00 noon (IST)",
+     "page": 1,
+     "questions": 120,
+     "marks": 480,
+     "duration": "02 hours"
+    }
+   ],
+   "source": {
+    "notice": "73e167b31dc657edd4d98e56ade65c7369a88dd0192ae00a5bb93eeb385b5452",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20200506131204.pdf",
+    "title": "1764 PUBLIC NOTICE: All India AYUSH Post Graduation Entrance Test (AIAPGET)-2020 Read More",
+    "kind": "brochure"
+   },
+   "carried_from": "2020"
+  }
+ },
  "gaps": [
   "apply",
   "exam_date",
   "fee",
-  "eligibility",
-  "exam_pattern"
+  "eligibility"
  ],
- "older_documents": 2
+ "older_documents": 3
 }
