@@ -1,0 +1,58 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "463fd647ef8fd243f6939a8ea1d2fad1e969e995507bef140632a725db6eded8",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230105232803.pdf",
+  "title": "1094 Release of the Dates of Examination of UGC NET June 2023 Cycle Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "dbb747534862ee4b3c353ec16be7fdcc5551ff69f54e70786031cb69b4442b42",
+  "bytes": 254348,
+  "pages": 1,
+  "chars": 1686,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-02T18:43:00+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2023-02-21",
+   "evidence": "In order to regularize the UGC-NET examination cycle, the National Testing Agency (NTA), with the concurrence of UGC is conducting UGC NET December 2022 from 21 February 2023",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "with the concurrence of UGC is conducting",
+   "date": "2023-02-21",
+   "page": 1
+  },
+  {
+   "event": "UGC NET June 2023 Cycle",
+   "date": "2023-06-22",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://ugcnet.nta.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2023-02-21"
+ }
+}

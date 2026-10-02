@@ -1,0 +1,74 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "469678eef3071e02dcbffae7e85f295ec0e78a726c4a9debac59b60668bfda26",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230717174941.pdf",
+  "title": "912 Extending the Last Data of receiving online Application Forms of National Common Entrance Test (NCET) 2023 Read More",
+  "body": "in-nta",
+  "exam": "in-ncet",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "6cf2a2fb30a3d55202dc610f71f2b25659c0dfc9a79967842c5e2eecba0162dd",
+  "bytes": 277843,
+  "pages": 1,
+  "chars": 2707,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-02T18:43:04+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "registration_deadline": {
+   "date": "2023-07-25",
+   "evidence": "Last date for submission of online Application Form",
+   "page": 1,
+   "from": "table"
+  },
+  "payment_deadline": {
+   "date": "2023-07-25",
+   "evidence": "Last date for payment of fees online",
+   "page": 1,
+   "from": "table"
+  },
+  "correction_window": {
+   "date": "2023-07-27",
+   "evidence": "Correction in particulars of online Application Form",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Last date for submission of online Application Form",
+   "key": "registration_deadline",
+   "date": "2023-07-25",
+   "page": 1
+  },
+  {
+   "event": "Last date for payment of fees online",
+   "key": "payment_deadline",
+   "date": "2023-07-25",
+   "page": 1
+  },
+  {
+   "event": "Correction in particulars of online Application Form",
+   "key": "correction_window",
+   "date": "2023-07-27",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://ncet.samarth.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2023-07-25"
+  }
+ }
+}
