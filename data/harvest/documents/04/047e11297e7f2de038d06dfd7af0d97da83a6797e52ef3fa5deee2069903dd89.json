@@ -1,0 +1,100 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "047e11297e7f2de038d06dfd7af0d97da83a6797e52ef3fa5deee2069903dd89",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230310195049.pdf",
+  "title": "PUBLIC NOTICE: Inviting Online Applications for Graduate Aptitude Test- Biotechnology (GAT-B) / Biotechnology Eligibility Test (BET) - 2023 Read More",
+  "body": "in-nta",
+  "exam": "in-gat-b",
+  "feed": "in-nta/home",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "49d0f61c5d77e5320f0094bdc81995d5b0d522543ab83026229bc0cccd5c21e1",
+  "bytes": 863142,
+  "pages": 1,
+  "chars": 2451,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-02T06:27:31+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "correction_window": {
+   "date": "2023-04-03",
+   "until": "2023-04-04",
+   "evidence": "Correction in the Particulars of Application Form online",
+   "page": 1,
+   "from": "table"
+  },
+  "exam_date": {
+   "date": "2023-04-23",
+   "evidence": "Date of Examination for GAT-B/BET-2023",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_open": {
+   "date": "2023-03-10",
+   "evidence": "Duration of Online registration and submission of online Application Form for GAT-B/BET-2023 10 March 2023 to 31 March 2023",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2023-03-31",
+   "evidence": "Duration of Online registration and submission of online Application Form for GAT-B/BET-2023 10 March 2023 to 31 March 2023",
+   "page": 1,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2023-03-31",
+   "evidence": "upto (05:00 P.M) Last date for submission of Examination fee (through Credit Card/ Debit Card/Net Banking Payment Modes upto (11:50 pm)",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Duration of Online registration and submission of online",
+   "date": "2023-03-10",
+   "page": 1,
+   "until": "2023-03-31"
+  },
+  {
+   "event": "Card/ Debit Card/Net Banking Payment Modes upto (11:50",
+   "date": "2023-03-31",
+   "page": 1
+  },
+  {
+   "event": "Correction in the Particulars of Application Form online",
+   "key": "correction_window",
+   "date": "2023-04-03",
+   "page": 1,
+   "until": "2023-04-04"
+  },
+  {
+   "event": "Date of Examination for GAT-B/BET-2023",
+   "key": "exam_date",
+   "date": "2023-04-23",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://dbt.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2023-03-10",
+   "until": "2023-03-31"
+  },
+  "exam_date": "2023-04-23"
+ }
+}

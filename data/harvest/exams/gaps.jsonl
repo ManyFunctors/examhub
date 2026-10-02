@@ -292,7 +292,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-csl-recruitment"}
 {"cycle": "2026-09", "documents": 8, "gaps": ["exam_date", "fee"], "id": "in-ctet"}
 {"cycle": "2026-03", "documents": 10, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-cuet-pg"}
-{"cycle": "2026-05", "documents": 11, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-cuet-ug"}
+{"cycle": "2026-05", "documents": 12, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-cuet-ug"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-cwc-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-dfccil-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "in-dgca-pilot-exams"}
@@ -319,7 +319,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-fssai-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-gail-gate-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-gail-recruitment"}
-{"cycle": "2026", "documents": 6, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-gat-b"}
+{"cycle": "2026", "documents": 7, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-gat-b"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-gate"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-gic-re-am"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-gpat"}
@@ -449,7 +449,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-nicl-ao"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-nicl-assistant"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-nid-dat"}
-{"cycle": "2026", "documents": 1, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-nift-entrance"}
+{"cycle": "2026", "documents": 2, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-nift-entrance"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-nimcet"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "in-nios-deled"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "in-nios-secondary"}
