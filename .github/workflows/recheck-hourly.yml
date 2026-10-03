@@ -61,7 +61,7 @@ jobs:
           uv pip install --index-strategy unsafe-best-match \
             --extra-index-url https://download.pytorch.org/whl/cpu \
             "torch>=2.0" "laya>=0.3.20"
-          uv pip install -e '.[model,ocr]'
+          uv pip install -e '.[crawl,model,ocr]'
           sudo apt-get update -qq
           sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-eng ocrmypdf
 
