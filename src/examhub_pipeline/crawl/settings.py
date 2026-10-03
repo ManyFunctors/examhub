@@ -31,6 +31,11 @@ ROBOTSTXT_OBEY = True
 # time, a few seconds apart, and AutoThrottle backs off further on its own.
 CONCURRENT_REQUESTS = 16
 CONCURRENT_REQUESTS_PER_DOMAIN = 1
+# Twisted's default DNS resolver uses a thread pool sized for 10 lookups at
+# once; with 16 concurrent requests all resolving different slow gov.in hosts
+# at crawl start, resolution queues and borderline-slow-but-working hosts can
+# time out from that queueing alone, not from anything wrong on their end.
+REACTOR_THREADPOOL_MAXSIZE = 30
 DOWNLOAD_DELAY = float(os.environ.get("EXAMHUB_HOST_DELAY", "3"))
 DOWNLOAD_DELAY_JITTER = 0.5
 AUTOTHROTTLE_ENABLED = True

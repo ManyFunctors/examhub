@@ -174,8 +174,18 @@ class FeedsSpider(scrapy.Spider):
                  self.tier, ok, len(self.health), self.not_modified, counts)
         for a in alerts:
             log.warning("feed %s: %s (was %s)", a["id"], a["alert"], a.get("previous_count"))
+        # `alerts` is only this run's new transitions, so a feed broken for
+        # weeks never shows up here again after its one-time alert. Count
+        # every feed still carrying an "alert" in the just-written health
+        # file, so a maintainer sees the standing total every run, not just
+        # the moment something newly broke.
+        broken = [r["id"] for r in harvest.read_jsonl(harvest.HARVEST_DIR / "feed-health.jsonl") if r.get("alert")]
+        if broken:
+            log.warning("feeds[%s]: %d feeds currently broken: %s", self.tier, len(broken),
+                        ", ".join(sorted(broken)[:10]) + (", ..." if len(broken) > 10 else ""))
         summary = {"reason": reason, "tier": self.tier, "feeds_run": len(self.health), "feeds_ok": ok,
-                   "not_modified": self.not_modified, "alerts": [a["id"] for a in alerts], **counts}
+                   "not_modified": self.not_modified, "alerts": [a["id"] for a in alerts],
+                   "currently_broken": len(broken), "currently_broken_ids": sorted(broken), **counts}
         out = C.PROJECT_ROOT / "work"
         out.mkdir(exist_ok=True)
         (out / "last-crawl.json").write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n")
