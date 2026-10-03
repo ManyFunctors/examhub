@@ -1,0 +1,39 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "403c583e5c7afbb7e00d6d995b645ff90282836d020e86f2471a03060ffb98c3",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200821192013.pdf",
+  "title": "1721 Press Release: JEE (MAIN) April/September 2020 AND NEET (UG) May/September 2020. Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "6af63ce3403100583f3fef3f374233684ffe40350d7b2e75130ce3c634e7db00",
+  "bytes": 130710,
+  "pages": 2,
+  "chars": 4318,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-03T13:46:29+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2020-09-13",
+   "evidence": "The NEET (UG)-2020 exam is now scheduled on 13-09-2020 and the total of 15,97,433 Candidates are registered for the same",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "summary": {
+  "exam_date": "2020-09-13"
+ }
+}

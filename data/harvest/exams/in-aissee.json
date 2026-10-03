@@ -5,7 +5,7 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 6,
+ "documents": 7,
  "documents_in_cycle": 2,
  "fields": {
   "eligibility": {
@@ -15,18 +15,18 @@
     ],
     "clauses": [
      {
-      "text": "Eligibility for admission to Class IX Candidate should be between 13 and 15 years as on 31.03.2024 and should have passed Class VIII, from a recognised school, at the time of admission",
+      "text": "Eligibility for admission to Class IX Candidate should be between 13 and 15 years as on 31.03.2025 and should have passed Class VIII, from a recognised school, at the time of admission",
       "page": 1
      }
     ]
    },
    "source": {
-    "notice": "1b71b1cbf347c95a73932e22f4427c4f869a740a4ef3d1e8816bb07c8991b3f3",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20231107221906.pdf",
-    "title": "831 ALLINDIA SAINIKSCHOOLSENTRANCEEXAMINATION(AISSEE)-2024 Read More",
+    "notice": "40aa84f990b81f88beeadb9b1fec9ced172a6da0ae74c2bd06fb364fa58800bf",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20241230125946.pdf",
+    "title": "PUBLIC NOTICE INVITATION FOR ONLINE APPLICATION FORM OF AISSEE-2025 Read More",
     "kind": "brochure"
    },
-   "carried_from": "2024"
+   "carried_from": "2025"
   }
  },
  "gaps": [
@@ -35,5 +35,5 @@
   "fee",
   "exam_pattern"
  ],
- "older_documents": 4
+ "older_documents": 5
 }
