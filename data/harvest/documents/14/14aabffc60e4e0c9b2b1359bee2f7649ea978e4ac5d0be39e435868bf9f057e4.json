@@ -1,0 +1,69 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "14aabffc60e4e0c9b2b1359bee2f7649ea978e4ac5d0be39e435868bf9f057e4",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230608224607.pdf",
+  "title": "961 Information regarding Final Phase of Common University Entrance Test (UG) - 2023 – reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "6e4eda705faba36f9b9c85ee0984080186840f148eee8e311fd15c7c488ceb7c",
+  "bytes": 353718,
+  "pages": 1,
+  "chars": 2418,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-03T08:52:11+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2023-05-21",
+   "evidence": "Common University Entrance Test CUET (UG) - 2023 Phase 1 8.05 lacs",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Common University Entrance Test CUET (UG) - 2023 Phase 1 8.05 lacs",
+   "key": "exam_date",
+   "date": "2023-05-21",
+   "page": 1
+  },
+  {
+   "event": "Phase 2 6.73 lacs",
+   "date": "2023-05-25",
+   "page": 1
+  },
+  {
+   "event": "Phase 4 1.73 lacs",
+   "date": "2023-06-05",
+   "page": 1
+  },
+  {
+   "event": "Phase 5 1.27 lacs",
+   "date": "2023-06-09",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://cuet.samarth.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2023-05-21"
+ }
+}

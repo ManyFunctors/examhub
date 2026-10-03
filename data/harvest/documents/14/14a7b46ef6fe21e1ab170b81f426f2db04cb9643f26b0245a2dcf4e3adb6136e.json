@@ -1,0 +1,45 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "14a7b46ef6fe21e1ab170b81f426f2db04cb9643f26b0245a2dcf4e3adb6136e",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210216155309.pdf",
+  "title": "1606 PUBLIC NOTICE: Postponement of CMAT-2021 Examinationand Extension of Registration Read More",
+  "body": "in-nta",
+  "exam": "in-cmat",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "d911030a16caa9032f3a181724a1ce438e044e810f42f5ea15e2866ac1e30511",
+  "bytes": 420459,
+  "pages": 1,
+  "chars": 1996,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-03T08:52:07+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "correction_window": {
+   "date": "2021-03-02",
+   "evidence": "Last date of successful final transaction of fee (through SBI/HDFC Credit/Debit Card/Net Banking/Paytm upto 11.50 p.m.)",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Last date of successful final transaction of fee (through SBI/HDFC Credit/Debit Card/Net Banking/Paytm upto 11.50 p.m.)",
+   "key": "correction_window",
+   "date": "2021-03-02",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in/cmat.nta.nic.in",
+   "https://www.nta.ac.in"
+  ]
+ }
+}
