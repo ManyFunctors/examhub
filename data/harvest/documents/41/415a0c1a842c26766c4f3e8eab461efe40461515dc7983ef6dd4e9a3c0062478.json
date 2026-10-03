@@ -1,0 +1,95 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "415a0c1a842c26766c4f3e8eab461efe40461515dc7983ef6dd4e9a3c0062478",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20190902120505.pdf",
+  "title": "1844 PUBLIC NOTICE JEE MAIN 2020 Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "8563c91f73c8726986c8234c4bfc69d4af505a6c16b684edeb6d30c0834ce730",
+  "bytes": 273411,
+  "pages": 2,
+  "chars": 7823,
+  "ocr": false,
+  "indic_share": 0.26,
+  "fetched": "2026-10-03T14:26:59+05:30"
+ },
+ "kind": "notice",
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "As per the eligibility criteria for B.Arch and B.Planning courses and according to the opinion of Subject Experts, a few changes in the pattern of the question paper(s) and number of question(s) for B.E./B.Tech, B.Arch and B.Planning have been approved by the JEE Apex Board (JAB) for the conduct…",
+    "page": 1
+   }
+  ]
+ },
+ "exam_pattern": [
+  {
+   "paper": "B.E./B.Tech.",
+   "page": 1
+  },
+  {
+   "paper": "Physics",
+   "page": 1
+  },
+  {
+   "paper": "Chemistry",
+   "page": 1
+  },
+  {
+   "paper": "B. Arch.",
+   "page": 1
+  },
+  {
+   "paper": "Aptitude Test – Part II",
+   "page": 1,
+   "questions": 50
+  },
+  {
+   "paper": "Drawing Test – Part III",
+   "page": 1,
+   "questions": 2
+  },
+  {
+   "paper": "B. Planning",
+   "page": 1
+  },
+  {
+   "paper": "Aptitude Test – Part II",
+   "page": 1,
+   "questions": 50
+  },
+  {
+   "paper": "Planning Based Questions - Part III",
+   "page": 1,
+   "questions": 25
+  },
+  {
+   "paper": "Note: The timing for those Candidates who opt for B.Arch. and B.Planning. (both) will be 02:30 p.m. to 06:00 p.m. (IST)",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "education": [
+   "Graduate"
+  ]
+ }
+}
