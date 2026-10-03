@@ -1,0 +1,40 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3122506e65a9ebd6f676b89a161004bc63347e73590e2df52709958aa2f66910",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230519210709.pdf",
+  "title": "995 Rescheduling of CUET (UG) - 2023 for the candidates of UT of Jammu & Kashmir Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "30e47f78a14dfa0c2210675339fbd5c9c036081cd26b79ed8ed43e0bfea33531",
+  "bytes": 305698,
+  "pages": 1,
+  "chars": 1568,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-03T10:44:30+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2023-05-25",
+   "evidence": "has been decided that the CUET (UG) - 2023 examination scheduled for 21 to 25 May 2023 is cancelled in the UT of Jammu & Kashmir",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://cuet.samarth.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2023-05-25"
+ }
+}
