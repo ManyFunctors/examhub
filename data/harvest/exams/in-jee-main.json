@@ -5,15 +5,32 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2026-04",
- "documents": 40,
+ "documents": 42,
  "documents_in_cycle": 1,
- "fields": {},
+ "fields": {
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "Few representations have been received from the candidates of Tamil Nadu State Board who have passed their Class 10 examination in the year 2021",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "644954732d5c9a7428afa193c4ad50e2f64c04ae086d1d54f5d63d67e9d14361",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20221224170555.pdf",
+    "title": "1097 Urgent Attention to JEE (Main) - 2023 Candidates of Tamil Nadu State Board Read More",
+    "kind": "result"
+   },
+   "carried_from": "2023"
+  }
+ },
  "gaps": [
   "apply",
   "exam_date",
   "fee",
-  "eligibility",
   "exam_pattern"
  ],
- "older_documents": 39
+ "older_documents": 41
 }
