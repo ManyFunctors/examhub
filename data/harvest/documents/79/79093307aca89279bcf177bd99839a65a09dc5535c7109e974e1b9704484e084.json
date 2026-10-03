@@ -1,0 +1,43 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "79093307aca89279bcf177bd99839a65a09dc5535c7109e974e1b9704484e084",
+  "url": "https://nta.ac.in/Download/Notice/20190703225200.pdf",
+  "title": "1867 Press Release DUET July 2019 Read More",
+  "body": "in-nta",
+  "exam": "in-nta-duet",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "23bf1edd6d0ae48e759cb9a8e1eabfd747372fd2efb8756a423748affe3639a4",
+  "bytes": 120179,
+  "pages": 2,
+  "chars": 3541,
+  "ocr": false,
+  "indic_share": 0.01,
+  "fetched": "2026-10-03T15:56:49+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "exam_date": {
+   "date": "2019-07-03",
+   "evidence": "DUET-2019 shall be conducted by the NTA from 3rd July 2019 to 8th July 2019 in three shifts/ sessions viz",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "selection": [
+  "Computer-based test"
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  }
+ },
+ "summary": {
+  "exam_date": "2019-07-03",
+  "selection": "Computer-based test"
+ }
+}
