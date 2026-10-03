@@ -5,11 +5,67 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2023",
- "documents": 2,
- "documents_in_cycle": 2,
- "fields": {},
+ "documents": 3,
+ "documents_in_cycle": 3,
+ "fields": {
+  "dates": {
+   "correction_window": {
+    "date": "2023-09-09",
+    "until": "2023-09-11",
+    "source": {
+     "notice": "2deac1f8c2e2437b94e0e772cbcd37fc86b02a5c06fb9fa1d01fb7837784b2a0",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20230810093306.pdf",
+     "title": "890 Inviting Online Applications for Ph.D. Entrance Test for DU, JNU, BHU and BBAU - 2023 Read More",
+     "kind": "admit_card",
+     "page": 1
+    }
+   },
+   "payment_deadline": {
+    "date": "2023-09-08",
+    "source": {
+     "notice": "2deac1f8c2e2437b94e0e772cbcd37fc86b02a5c06fb9fa1d01fb7837784b2a0",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20230810093306.pdf",
+     "title": "890 Inviting Online Applications for Ph.D. Entrance Test for DU, JNU, BHU and BBAU - 2023 Read More",
+     "kind": "admit_card",
+     "page": 1
+    }
+   },
+   "registration_deadline": {
+    "date": "2023-09-08",
+    "source": {
+     "notice": "2deac1f8c2e2437b94e0e772cbcd37fc86b02a5c06fb9fa1d01fb7837784b2a0",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20230810093306.pdf",
+     "title": "890 Inviting Online Applications for Ph.D. Entrance Test for DU, JNU, BHU and BBAU - 2023 Read More",
+     "kind": "admit_card",
+     "page": 1
+    }
+   },
+   "registration_open": {
+    "date": "2023-08-09",
+    "source": {
+     "notice": "2deac1f8c2e2437b94e0e772cbcd37fc86b02a5c06fb9fa1d01fb7837784b2a0",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20230810093306.pdf",
+     "title": "890 Inviting Online Applications for Ph.D. Entrance Test for DU, JNU, BHU and BBAU - 2023 Read More",
+     "kind": "admit_card",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2023-08-09",
+    "until": "2023-09-08"
+   },
+   "source": {
+    "notice": "2deac1f8c2e2437b94e0e772cbcd37fc86b02a5c06fb9fa1d01fb7837784b2a0",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20230810093306.pdf",
+    "title": "890 Inviting Online Applications for Ph.D. Entrance Test for DU, JNU, BHU and BBAU - 2023 Read More",
+    "kind": "admit_card",
+    "page": 1
+   }
+  }
+ },
  "gaps": [
-  "apply",
   "exam_date",
   "fee",
   "eligibility",
