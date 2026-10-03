@@ -1,0 +1,77 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "6b281936eb207fd7d1b405530f00f0eb332aa1222dd4d3933e80108f0b1d838e",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230906123142.pdf",
+  "title": "865 Examination Date & Schedule for National Initiative for Technical Teachers Training (NITTT) Examination September 2023 Read More",
+  "body": "in-nta",
+  "exam": "in-nta-nittt",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "44fbdc611036d498c8c98bffed36ae6311233c853da1ef2c8825260f98f306fc",
+  "bytes": 317189,
+  "pages": 2,
+  "chars": 3961,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-03T15:00:18+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2023-09-16",
+   "evidence": "Date of the test",
+   "page": 1,
+   "from": "table"
+  },
+  "admit_card_from": {
+   "date": "2023-09-05",
+   "evidence": "Issue of Admit Cards",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Date of the test",
+   "key": "exam_date",
+   "date": "2023-09-16",
+   "page": 1
+  },
+  {
+   "event": "Issue of Admit Cards",
+   "key": "admit_card_from",
+   "date": "2023-09-05",
+   "page": 1
+  },
+  {
+   "event": "Date and timing of webinar",
+   "date": "2023-09-12",
+   "page": 1
+  },
+  {
+   "event": "Date and timing of the mock test",
+   "key": "exam_date",
+   "date": "2023-09-14",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "duration": {
+   "value": "Duration 3 hour (180 minutes) Timings Exam will be held in two shifts each day",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://nittt.nta.ac.in/",
+   "https://www.nta.ac.in",
+   "https://nittt.ac.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2023-09-16"
+ }
+}
