@@ -1,0 +1,55 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "71b4398ef139f1b0612dd02e7c73e5c6e160354fd03f62e0f1d67a2e44b1cdb8",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220904212913.pdf",
+  "title": "1172 Clarification regarding examination being conducted on two days for Common University Entrance Test [CUET (PG)-2022] Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-pg",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "c765f7041e730dc9cc220da4bc358f19c4908184615e73a4d2ce243ee581fd59",
+  "bytes": 346686,
+  "pages": 2,
+  "chars": 3211,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-03T15:29:44+05:30"
+ },
+ "kind": "notice",
+ "schedule": [
+  {
+   "event": "PGQP38 PGQP38 General MBA General MBA",
+   "date": "2022-09-05",
+   "page": 1,
+   "until": "2022-09-12"
+  },
+  {
+   "event": "PGQP01 B.Ed",
+   "date": "2022-09-07",
+   "page": 1,
+   "until": "2022-09-12"
+  },
+  {
+   "event": "PGQP20 Social Work",
+   "date": "2022-09-11",
+   "page": 1,
+   "until": "2022-09-12"
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in",
+   "https://cuet.nta.nic.in/"
+  ]
+ }
+}
