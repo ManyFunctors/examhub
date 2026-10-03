@@ -4,47 +4,15 @@
  "name": "National Initiative for Technical Teachers Training Examination",
  "body": "in-nta",
  "purpose": "certification",
- "cycle": "2023-02",
- "documents": 1,
+ "cycle": "2026-04",
+ "documents": 2,
  "documents_in_cycle": 1,
- "fields": {
-  "dates": {
-   "admit_card_from": {
-    "date": "2023-01-23",
-    "source": {
-     "notice": "90e5d562c77f56de6f80e6e94ceed690c009ec05efafae1e960d53bcd18ccfe4",
-     "url": "https://nta.ac.in/Download/Notice/Notice_20230124092512.pdf",
-     "title": "1084 Examination Date & Schedule for National Initiative for Technical Teachers Training (NITTT) Examination February 2023 Read More",
-     "kind": "schedule",
-     "page": 1
-    }
-   },
-   "exam_date": {
-    "date": "2023-02-04",
-    "source": {
-     "notice": "90e5d562c77f56de6f80e6e94ceed690c009ec05efafae1e960d53bcd18ccfe4",
-     "url": "https://nta.ac.in/Download/Notice/Notice_20230124092512.pdf",
-     "title": "1084 Examination Date & Schedule for National Initiative for Technical Teachers Training (NITTT) Examination February 2023 Read More",
-     "kind": "schedule",
-     "page": 1
-    }
-   }
-  },
-  "exam_date": {
-   "value": "2023-02-04",
-   "source": {
-    "notice": "90e5d562c77f56de6f80e6e94ceed690c009ec05efafae1e960d53bcd18ccfe4",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20230124092512.pdf",
-    "title": "1084 Examination Date & Schedule for National Initiative for Technical Teachers Training (NITTT) Examination February 2023 Read More",
-    "kind": "schedule",
-    "page": 1
-   }
-  }
- },
+ "fields": {},
  "gaps": [
   "apply",
+  "exam_date",
   "fee",
   "eligibility"
  ],
- "older_documents": 0
+ "older_documents": 1
 }
