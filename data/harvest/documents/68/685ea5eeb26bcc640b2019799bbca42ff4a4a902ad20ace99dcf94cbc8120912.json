@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "685ea5eeb26bcc640b2019799bbca42ff4a4a902ad20ace99dcf94cbc8120912",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230320230806.pdf",
+  "title": "Inviting Online Applications for Common University Entrance Test [CUET (PG) - 2023] Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-pg",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "c54f480644793ac4fb64d04c40e7280251208db5d18b63b3d76e1246262d2470",
+  "bytes": 1100916,
+  "pages": 1,
+  "chars": 2439,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-05T02:38:28+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "payment_deadline": {
+   "date": "2023-04-19",
+   "evidence": "Last date of successful transaction of fee through",
+   "page": 1,
+   "from": "table"
+  },
+  "correction_window": {
+   "date": "2023-04-20",
+   "until": "2023-04-23",
+   "evidence": "Correction in Particulars of Application Form on the",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_open": {
+   "date": "2023-03-20",
+   "evidence": "Online Submission of Application Form through Website (https://cuet.nta.nic.in) 20.03.2023 to 19.04.2023 (upto 05:00 P.M.) Last date of successful transaction of fee through Credit/Debit Card/Net Banking/UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2023-04-19",
+   "evidence": "Online Submission of Application Form through Website (https://cuet.nta.nic.in) 20.03.2023 to 19.04.2023 (upto 05:00 P.M.) Last date of successful transaction of fee through Credit/Debit Card/Net Banking/UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "exam_date": {
+   "date": "2023-04-23",
+   "evidence": "20.04.2023 to 23.04.2023 Downloading of Admit Cards from NTA website Will be announced later on website Date of Examination Will be announced later on website Duration 120 minutes (02:00 Hrs) Timing of Examination Will be announced later on",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Online Submission of Application Form through",
+   "date": "2023-03-20",
+   "page": 1,
+   "until": "2023-04-19"
+  },
+  {
+   "event": "Last date of successful transaction of fee through",
+   "key": "payment_deadline",
+   "date": "2023-04-19",
+   "page": 1
+  },
+  {
+   "event": "Correction in Particulars of Application Form on the",
+   "key": "correction_window",
+   "date": "2023-04-20",
+   "page": 1,
+   "until": "2023-04-23"
+  }
+ ],
+ "links": {
+  "other": [
+   "https://cuet.nta.nic.in/",
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2023-03-20",
+   "until": "2023-04-19"
+  },
+  "exam_date": "2023-04-23"
+ }
+}

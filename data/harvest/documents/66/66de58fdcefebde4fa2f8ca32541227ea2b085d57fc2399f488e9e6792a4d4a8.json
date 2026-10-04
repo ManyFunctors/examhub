@@ -1,0 +1,104 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "66de58fdcefebde4fa2f8ca32541227ea2b085d57fc2399f488e9e6792a4d4a8",
+  "url": "https://nta.ac.in/Download/Notice/PressReleaseCMAT.pdf",
+  "title": "1898 Press Release CMAT Read More",
+  "body": "in-nta",
+  "exam": "in-cmat",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "cdb0b354fb7ef2d6bcee1c83a7825ab6da599f38f00ca5a52c66b9425814fac0",
+  "bytes": 32743,
+  "pages": 2,
+  "chars": 2504,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-05T02:38:24+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2019-01-29",
+   "evidence": "In view of the request received from the Local Administration due to inclement weather,CMAT-2019 is also being conducted on 29.01.2019 for 187 candidates belonging to Kashmir Region at Srinagar( who were earlier allotted centres in Jammu)",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 107409,
+  "by_category": {
+   "Unreserved": 67235,
+   "OBC": 29612,
+   "SC": 8295,
+   "ST": 2267
+  },
+  "rows": [
+   {
+    "label": "Male",
+    "total": 34585,
+    "by_category": {
+     "Unreserved": 24768,
+     "OBC": 7434,
+     "SC": 1846,
+     "ST": 537
+    },
+    "page": 1
+   },
+   {
+    "label": "Female",
+    "total": 29997,
+    "by_category": {
+     "Unreserved": 22736,
+     "OBC": 5474,
+     "SC": 1312,
+     "ST": 475
+    },
+    "page": 1
+   },
+   {
+    "label": "Male",
+    "total": 18871,
+    "by_category": {
+     "Unreserved": 8371,
+     "OBC": 7455,
+     "SC": 2448,
+     "ST": 597
+    },
+    "page": 1
+   },
+   {
+    "label": "Female",
+    "total": 23955,
+    "by_category": {
+     "Unreserved": 11360,
+     "OBC": 9248,
+     "SC": 2689,
+     "ST": 658
+    },
+    "page": 1
+   },
+   {
+    "label": "Transgender",
+    "total": 1,
+    "by_category": {
+     "OBC": 1
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "summary": {
+  "vacancies": 107409,
+  "exam_date": "2019-01-29"
+ }
+}
