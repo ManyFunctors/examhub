@@ -330,13 +330,7 @@ training_offered_for          = 'unknown'
 [links]
 link_official_page = 'https://www.ibps.in/'
 link_apply         = 'https://ibpsreg.ibps.in/rrbxvaug26/'
-
-  [[links.documents]]
-  document_type      = 'other'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://ibpsreg.ibps.in/rrbxvaug26/'
-  document_archive   = 'not_archived'
+documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

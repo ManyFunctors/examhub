@@ -13,7 +13,7 @@ ExamHub tracks recruitment, admission and eligibility exams: central and state, 
 | Exams in the catalogue | 1,017 |
 | Conducting bodies | 462 |
 | Feeds crawled daily | 467 |
-| Notices seen so far | 56,000+ |
+| Notices seen so far | 2,000+ |
 <!-- stats:end -->
 <!-- Kept current by the nightly recheck workflow (readme_stats.py); don't hand-edit the numbers above. -->
 
