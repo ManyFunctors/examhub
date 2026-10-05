@@ -216,13 +216,13 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-aai-junior-assistant"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-aeee"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-afcat"}
-{"cycle": "2026", "documents": 9, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "in-aiapget"}
+{"cycle": "2026", "documents": 10, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "in-aiapget"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-aibe"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-aiims-bsc-nursing"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-aiims-cre"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-aiims-msc-nursing"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-aiims-senior-resident"}
-{"cycle": "2026", "documents": 8, "gaps": ["apply", "exam_date", "fee", "exam_pattern"], "id": "in-aissee"}
+{"cycle": "2026", "documents": 9, "gaps": ["apply", "exam_date", "fee", "exam_pattern"], "id": "in-aissee"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-amu-entrance"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-army-afms"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-army-agniveer"}
@@ -291,7 +291,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-csir-so-aso"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-csl-recruitment"}
 {"cycle": "2026-09", "documents": 8, "gaps": ["exam_date", "fee"], "id": "in-ctet"}
-{"cycle": "2026-03", "documents": 25, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-cuet-pg"}
+{"cycle": "2026-03", "documents": 26, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-cuet-pg"}
 {"cycle": "2026-05", "documents": 26, "gaps": ["apply", "exam_date", "fee", "exam_pattern"], "id": "in-cuet-ug"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-cwc-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-dfccil-recruitment"}
