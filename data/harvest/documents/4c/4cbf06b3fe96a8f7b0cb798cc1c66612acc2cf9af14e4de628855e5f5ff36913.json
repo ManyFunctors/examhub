@@ -1,0 +1,41 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "4cbf06b3fe96a8f7b0cb798cc1c66612acc2cf9af14e4de628855e5f5ff36913",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230622072852.pdf",
+  "title": "936 Rescheduling of the CUET(PG) – 2023 Examination for Candidates who could not be accommodated in the test schedule from 5th to 17th June 2023 Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-pg",
+  "feed": "in-nta/notices",
+  "published": "2023-06-17",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "75294cc567b7231df84bc73f4b53114811d8502040f728a361951debfc81f6b4",
+  "bytes": 352595,
+  "pages": 2,
+  "chars": 2713,
+  "ocr": false,
+  "indic_share": 0.06,
+  "fetched": "2026-10-05T21:18:53+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2023-06-22",
+   "evidence": "The examination for the left-out candidates who could not be accommodated during the advertised dates from 5th to 17th June their test would now be scheduled on 22nd, 23rd, 24th, 25th, 26th, 27th & 30th June 2023",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in",
+   "https://cuet.nta.nic.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2023-06-22"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "aebb4bf145287dc964a714425d7f3503251fe4ca47f4d2abf177c727277bc53c",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240418102457.pdf",
+  "title": "Inviting Online Applications for All India Ayush Post Graduate Entrance Test (AIAPGET) 2024 Read More",
+  "body": "in-nta",
+  "exam": "in-aiapget",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "b154e141d49b1d7e6c87390bc8c9eb31f72bdfa0d179cdd25579dbc65c30d7c8",
+  "bytes": 1113761,
+  "pages": 1,
+  "chars": 2305,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-05T21:18:59+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "registration_open": {
+   "date": "2024-04-16",
+   "evidence": "Online Submission of Application Form through Website (https://exams.nta.ac.in/AIAPGET/) 16 April 2024 to 15 May 2024 (upto 11:50 P.M.) Last date of successful transaction of fee through Credit/Debit Card/Net Banking/UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2024-05-15",
+   "evidence": "Online Submission of Application Form through Website (https://exams.nta.ac.in/AIAPGET/) 16 April 2024 to 15 May 2024 (upto 11:50 P.M.) Last date of successful transaction of fee through Credit/Debit Card/Net Banking/UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "exam_date": {
+   "date": "2024-07-06",
+   "evidence": "Date of Examination",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/AIAPGET/"
+  ],
+  "other": [
+   "https://www.nta.ac.in",
+   "https://nta.ac.in/"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2024-04-16",
+   "until": "2024-05-15"
+  },
+  "exam_date": "2024-07-06"
+ }
+}
