@@ -5,7 +5,7 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 5,
+ "documents": 6,
  "documents_in_cycle": 2,
  "fields": {
   "age": {
@@ -36,11 +36,12 @@
     ]
    },
    "source": {
-    "notice": "8945173317ca41fb52f1ee7229cff56fb00a0bf107c1b9efb086cdbeb0d4d493",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20240404151738.pdf",
-    "title": "SCHEDULE FOR CONDUCT OF STAGE-II EXAMINATION FOR THE NIFT BACHELOR’S PROGRAMMES (REGULAR, NLEA, ARTISANS) NIFT ADMISSIONS-2024 Read More",
-    "kind": "schedule"
+    "notice": "c2997b382a51e6ac642afaa5c87534fc9530b04c306b40d7bb97d54fe3f8e96b",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20231205174109.pdf",
+    "title": "NIFT ADMISSIONS-2024 Read More",
+    "kind": "brochure"
    },
+   "alternatives": 1,
    "carried_from": "2024"
   }
  },
@@ -50,5 +51,5 @@
   "fee",
   "exam_pattern"
  ],
- "older_documents": 3
+ "older_documents": 4
 }

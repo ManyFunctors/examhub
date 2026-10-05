@@ -5,7 +5,7 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2023",
- "documents": 5,
+ "documents": 6,
  "documents_in_cycle": 3,
  "fields": {
   "dates": {
@@ -63,13 +63,33 @@
     "kind": "admit_card",
     "page": 1
    }
+  },
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "Candidates who desire to appear in BBAU Entrance Test-2021 may apply online on the website https://bbauet.nta.nic.in, www.nta.ac.in and the details of Course Code, Eligibility Criteria, Course Structure etc. are available on the Information Bulletin",
+      "page": 1
+     },
+     {
+      "text": "Before applying for BBAU Entrance Test-2021, candidates are advised to check the eligibility criteria required by the University for a desired Programme",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "4e3891b11f5f138f8793ba5ea5afbc4a73cba0c46cc0b8817255f08ed27dcf79",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20210814163728.pdf",
+    "title": "1492 Public Notice Dated: 14.08.2021 BABASAHEB BHIMRAO AMBEDKAR UNIVERSITY (BBAU) ENTRANCE TEST - 2021 Read More",
+    "kind": "brochure"
+   },
+   "carried_from": "2021"
   }
  },
  "gaps": [
   "exam_date",
   "fee",
-  "eligibility",
   "exam_pattern"
  ],
- "older_documents": 2
+ "older_documents": 3
 }
