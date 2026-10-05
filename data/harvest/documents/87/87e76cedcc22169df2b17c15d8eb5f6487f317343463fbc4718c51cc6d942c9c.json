@@ -1,0 +1,114 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "87e76cedcc22169df2b17c15d8eb5f6487f317343463fbc4718c51cc6d942c9c",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20221230105209.pdf",
+  "title": "1096 Opening of the online portal for submission of Online Application Form for UGC-NET December 2022 Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "3263c9034cb472ba00ccdd81142788045506e9473a663c49679eea6c24144fd0",
+  "bytes": 983289,
+  "pages": 1,
+  "chars": 3143,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-05T10:03:22+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "correction_window": {
+   "date": "2023-01-18",
+   "evidence": "(through Credit Card/ Debit Card/Net",
+   "page": 1,
+   "from": "table"
+  },
+  "exam_date": {
+   "date": "2023-02-21",
+   "until": "2023-03-10",
+   "evidence": "DatesofExamination",
+   "page": 1,
+   "from": "table"
+  },
+  "payment_deadline": {
+   "date": "2023-01-18",
+   "evidence": "Submission of Online Application Form 29 December 2022 to 17 January 2023 (upto 05:00 P.M) Last date for submission of Examination fee (through Credit Card/ Debit Card/Net Banking /UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2022-12-29",
+   "evidence": "Submission of Online Application Form 29 December 2022 to 17 January 2023 (upto 05:00 P.M) Last date for submission of Examination fee (through Credit Card/ Debit Card/Net Banking /UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2023-01-17",
+   "evidence": "Submission of Online Application Form 29 December 2022 to 17 January 2023 (upto 05:00 P.M) Last date for submission of Examination fee (through Credit Card/ Debit Card/Net Banking /UPI",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "(through Credit Card/ Debit Card/Net",
+   "key": "correction_window",
+   "date": "2023-01-18",
+   "page": 1
+  },
+  {
+   "event": "DatesofExamination",
+   "key": "exam_date",
+   "date": "2023-02-21",
+   "page": 1,
+   "until": "2023-03-10"
+  }
+ ],
+ "fees": [
+  {
+   "categories": [
+    "Unreserved"
+   ],
+   "amount": 1100,
+   "raw": "21 February 2023 to 10 March 2023 Centre, Date and Shift As indicated on Admit Card Display of Recorded Responses and Answer Key(s) To be announced later on the website Website https://ugcnet.nta.nic.in / www.nta.ac.in Application Fee…",
+   "page": 1
+  },
+  {
+   "categories": [
+    "Unreserved",
+    "EWS",
+    "OBC-NCL"
+   ],
+   "amount": 550,
+   "raw": "21 February 2023 to 10 March 2023 Centre, Date and Shift As indicated on Admit Card Display of Recorded Responses and Answer Key(s) To be announced later on the website Website https://ugcnet.nta.nic.in / www.nta.ac.in Application Fee…",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://ugcnet.nta.nic.in/",
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2022-12-29",
+   "until": "2023-01-17"
+  },
+  "exam_date": "2023-02-21",
+  "fee": {
+   "min": 550,
+   "max": 1100
+  }
+ }
+}
