@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "exam": "in-ignou-phd-openmat",
+ "name": "IGNOU OPENMAT and PhD Entrance Test",
+ "body": "in-nta",
+ "purpose": "admission",
+ "cycle": "2021",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

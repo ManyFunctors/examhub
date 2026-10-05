@@ -1,0 +1,35 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "e6ec9c63758f7ec3eaa610b95294bfaee6d4f118152240771cd3d4673318f6e4",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20211217132606.pdf",
+  "title": "1380 Corrigendum Indira Gandhi National Open University (IGNOU Ph.D.) 2021 Read More",
+  "body": "in-nta",
+  "exam": "in-ignou-phd-openmat",
+  "feed": "in-nta/notices",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "2a48702cfd0810fd7b8e7ce4d9d37f400a1bb5a21044884e43cd51401e6e11f0",
+  "bytes": 726801,
+  "pages": 2,
+  "chars": 1172,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-05T13:34:24+05:30"
+ },
+ "kind": "corrigendum",
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://ignou.nta.ac.in/",
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ }
+}

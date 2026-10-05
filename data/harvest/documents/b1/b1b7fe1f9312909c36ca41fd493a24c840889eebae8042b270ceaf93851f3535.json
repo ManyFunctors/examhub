@@ -1,0 +1,41 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "b1b7fe1f9312909c36ca41fd493a24c840889eebae8042b270ceaf93851f3535",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210821205255.pdf",
+  "title": "1481 PUBLIC NOTICE 19.08.2021 Subject: Rescheduling the ICAR -AIEEA (UG) – 2021 scheduled on 13 September 2021 Read More",
+  "body": "in-nta",
+  "exam": "in-aiee-icar-ug",
+  "feed": "in-nta/notices",
+  "published": "2021-08-19",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "a69231fb6a0c0318a5ea0e6eb6eead2cfd81d4983fc0d93679a56d9088f7a903",
+  "bytes": 121172,
+  "pages": 1,
+  "chars": 1133,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-05T13:34:20+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2021-09-13",
+   "evidence": "19.08.2021 Subject: Rescheduling the ICAR -AIEEA (UG) - 2021 scheduled on 13 September 2021",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://icar.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2021-09-13"
+ }
+}
