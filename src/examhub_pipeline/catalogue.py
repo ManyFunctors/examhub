@@ -46,8 +46,6 @@ class Catalogue:
             or body_id in e.get("allocated_by", ())
         ]
 
-    def feeds_of(self, body_id: str) -> list[dict]:
-        return [f for f in self.feeds.values() if f["body"] == body_id]
 
     def stats(self) -> dict[str, Any]:
         def count(items: Iterable[dict], key: str) -> dict[str, int]:

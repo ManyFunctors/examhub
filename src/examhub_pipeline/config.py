@@ -104,7 +104,6 @@ DEFAULT_LAYA_MAX_LEN = 1024
 
 #: The faster checkpoint, for a big crawl where the reviewer is reading every
 #: line anyway. Measure before trusting it; see the note above.
-FAST_LAYA_MODEL = "multilingual"
 
 #: Chunk size in characters handed to the model per call.
 #:
@@ -233,7 +232,6 @@ class Settings:
     publish_threshold: float = PUBLISH_THRESHOLD
     absence_threshold: float = ABSENCE_THRESHOLD
     choice_confidence_threshold: float = CHOICE_CONFIDENCE_THRESHOLD
-    choice_margin_threshold: float = CHOICE_MARGIN_THRESHOLD
     torch_threads: int = DEFAULT_TORCH_THREADS
     max_model_calls: int = DEFAULT_MAX_MODEL_CALLS
 

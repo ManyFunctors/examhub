@@ -609,10 +609,6 @@ def _apply(rec: dict, field: str, result: ValidationResult, doc: FetchedDoc) -> 
     return where
 
 
-def dt_date(value: str) -> Any:
-    import datetime as _dt
-
-    return _dt.date.fromisoformat(value)
 
 
 def cmd_review(args: argparse.Namespace) -> int:

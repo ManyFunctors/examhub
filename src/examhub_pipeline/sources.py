@@ -485,13 +485,6 @@ def get_source_by_url(url: str) -> Source | None:
 
 
 
-def all_hosts() -> Sequence[str]:
-    """Every host this pipeline will talk to, for the robots audit."""
-    hosts: set[str] = set()
-    for source in SEED_SOURCES:
-        hosts.add(source.host)
-        hosts.update(source.document_hosts)
-    return sorted(h for h in hosts if h)
 
 
 #: Words in a URL path that mean the document says what it is. Used as a

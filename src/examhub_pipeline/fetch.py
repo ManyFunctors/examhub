@@ -40,7 +40,6 @@ log = logging.getLogger(__name__)
 #: keeps one host from monopolising a run.
 DEFAULT_MAX_LINKS_PER_PAGE = 400
 #: ...and a cap on how many documents one source may contribute.
-DEFAULT_MAX_DOCS_PER_SOURCE = 25
 
 
 @dataclass(slots=True)
@@ -164,14 +163,6 @@ class Pipeline:
         )
         return refs, outcome
 
-    def discover_all(
-        self, sources: Sequence[Source] | None = None
-    ) -> dict[str, list[NoticeRef]]:
-        out: dict[str, list[NoticeRef]] = {}
-        for source in sources if sources is not None else all_sources():
-            refs, _ = self.discover(source)
-            out[source.key] = refs
-        return out
 
     # -- fetch ------------------------------------------------------------
 
@@ -343,56 +334,6 @@ class Pipeline:
 
     # -- load -------------------------------------------------------------
 
-    def load_doc(self, url: str) -> FetchedDoc | None:
-        """Re-hydrate a previously fetched document from the work directory.
-
-        This is what makes ``extract`` and ``validate`` runnable with no
-        network at all, which is what the tests and the PR workflow do.
-        """
-        path = self.doc_path(canonical(url))
-        if not path.exists():
-            return None
-        try:
-            payload = json.loads(path.read_text(encoding="utf-8"))
-        except (json.JSONDecodeError, OSError):
-            return None
-        meta = payload.get("meta") or {}
-        chunks_raw = payload.get("chunks") or []
-        from .extract import Chunk
-
-        chunks = [
-            Chunk(
-                index=int(c.get("index", i)),
-                text=c.get("text", ""),
-                page=c.get("page"),
-                section=c.get("section"),
-                is_ocr=bool(c.get("is_ocr", False)),
-            )
-            for i, c in enumerate(chunks_raw)
-        ]
-        doc = ExtractedDoc(
-            url=meta.get("url", url),
-            text=payload.get("text", ""),
-            chunks=chunks,
-            media_type=meta.get("content_type", "text/html"),
-            is_ocr=bool(meta.get("is_ocr", False)),
-            ocr_engine=meta.get("ocr_engine"),
-            title=meta.get("title"),
-            pages=int(meta.get("pages", 0) or 0),
-            char_count=int(meta.get("char_count", 0) or 0),
-            warnings=list(meta.get("warnings") or []),
-            source_hash=meta.get("content_hash", ""),
-        )
-        return FetchedDoc(
-            url=doc.url,
-            source_url=meta.get("from_page", "") or "",
-            body=meta.get("body", ""),
-            doc=doc,
-            title=meta.get("title", "") or "",
-            tier=meta.get("tier", "other"),
-            body_name=meta.get("body", ""),
-            links=[tuple(link) for link in (payload.get("links") or [])],
-        )
 
     def iter_saved(self) -> Iterable[FetchedDoc]:
         for path in sorted(self.settings.docs_dir.glob("*.json")):

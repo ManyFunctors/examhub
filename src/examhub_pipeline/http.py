@@ -83,9 +83,6 @@ class CachedResponse:
     def content_hash(self) -> str:
         return hashlib.sha256(self.content).hexdigest()
 
-    @property
-    def age_seconds(self) -> float:
-        return time.time() - self.checked
 
     def text(self, errors: str = "replace") -> str:
         """Decode using the declared charset where there is one.
