@@ -24,8 +24,10 @@ from pathlib import Path
 from typing import Any, Iterable, Sequence
 
 from .config import Settings
+from .crawl.adapters import looks_unrendered
 from .extract import ExtractedDoc, ExtractionError, extract_bytes, html_to_text
 from .http import BudgetExhausted, Fetcher, FetchError, RobotsDenied, canonical
+from .render import BrowserRenderer
 from .sources import (
     NoticeRef,
     Source,
@@ -104,10 +106,32 @@ class Pipeline:
         self.fetcher = fetcher or Fetcher(settings)
         self._owns_fetcher = fetcher is None
         self.outcomes: list[FetchOutcome] = []
+        self._renderer: BrowserRenderer | None = None
+        self._render_failed = False
 
     def close(self) -> None:
+        if self._renderer is not None:
+            self._renderer.close()
         if self._owns_fetcher:
             self.fetcher.close()
+
+    def _render(self, url: str) -> tuple[str, str] | None:
+        """Render a page in Firefox; None when the page cannot be rendered.
+
+        If Firefox will not start, rendering is switched off for the rest of
+        the run, so a machine without it logs one warning. A page that fails
+        only costs that page."""
+        if self._render_failed:
+            return None
+        if self._renderer is None:
+            self._renderer = BrowserRenderer(self.settings.user_agent)
+        try:
+            return self._renderer.render(url)
+        except Exception as exc:  # noqa: BLE001 - a plain page is still usable
+            log.warning("firefox could not render %s: %s", url, exc)
+            if self._renderer._driver is None:
+                self._render_failed = True
+            return None
 
     def __enter__(self) -> "Pipeline":
         return self
@@ -138,8 +162,17 @@ class Pipeline:
         except (FetchError, BudgetExhausted) as exc:
             return [], self._record(FetchOutcome(url=url, ok=False, reason=str(exc)))
 
-        text, title, links = html_to_text(response.text(), base_url=response.final_url)
-        refs = list(classify_links(links[:max_links], source, page_url=response.final_url))
+        page_url, page_html = response.final_url, response.text()
+        text, title, links = html_to_text(page_html, base_url=page_url)
+        refs = list(classify_links(links[:max_links], source, page_url=page_url))
+        if not refs and looks_unrendered(page_html):
+            # Links drawn by script are invisible to a plain fetch; render the page.
+            rendered = self._render(page_url)
+            if rendered is not None:
+                page_url, page_html = rendered
+                text, title, links = html_to_text(page_html, base_url=page_url)
+                refs = list(classify_links(links[:max_links], source, page_url=page_url))
+                log.info("%s: rendered in Firefox, %d links", source.key, len(links))
         # Best-first, so a per-source cap spends the request budget on the
         # notices that name themselves rather than on whichever of 344
         # "Read More" links happened to come first in the HTML.
