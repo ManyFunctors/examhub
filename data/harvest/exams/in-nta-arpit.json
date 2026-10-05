@@ -4,15 +4,55 @@
  "name": "Annual Refresher Programme in Teaching Examination",
  "body": "in-nta",
  "purpose": "certification",
- "cycle": "2021",
- "documents": 2,
+ "cycle": "2021-08",
+ "documents": 3,
  "documents_in_cycle": 1,
- "fields": {},
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2021-04-04",
+    "source": {
+     "notice": "d470221949e28ce3298c048a2759fd764812a95231da97679997b8f6319bbd39",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20210805173422.pdf",
+     "title": "1508 PUBLIC NOTICE 05 August 2021 Rescheduling of Postponed ARPIT-2020 Examination Read More",
+     "kind": "corrigendum",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2021-04-04",
+   "source": {
+    "notice": "d470221949e28ce3298c048a2759fd764812a95231da97679997b8f6319bbd39",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20210805173422.pdf",
+    "title": "1508 PUBLIC NOTICE 05 August 2021 Rescheduling of Postponed ARPIT-2020 Examination Read More",
+    "kind": "corrigendum",
+    "page": 1
+   }
+  },
+  "pay": {
+   "value": [
+    {
+     "levels": [
+      2
+     ],
+     "text": "Pay Level 2",
+     "evidence": "Level 2 3:00 pm to 6:00 pm arp19-ap85",
+     "page": 2
+    }
+   ],
+   "source": {
+    "notice": "d470221949e28ce3298c048a2759fd764812a95231da97679997b8f6319bbd39",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20210805173422.pdf",
+    "title": "1508 PUBLIC NOTICE 05 August 2021 Rescheduling of Postponed ARPIT-2020 Examination Read More",
+    "kind": "corrigendum"
+   }
+  }
+ },
  "gaps": [
   "apply",
-  "exam_date",
   "fee",
   "eligibility"
  ],
- "older_documents": 1
+ "older_documents": 2
 }
