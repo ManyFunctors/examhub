@@ -20,6 +20,7 @@ dependencies = [
   "httpx>=0.27",
   "selectolax>=0.3.21",
   "pymupdf>=1.24",
+  "pymupdf-layout>=1.28",
 ]
 
 [project.optional-dependencies]
