@@ -250,6 +250,15 @@ _NUM = r"(\d{1,3}(?:,\d{2,3})+|\d+(?:\.\d+)?)"
 #   "." between digits -- "15.06.2027" and "Rs. 100" are single values.
 #   "." before a lowercase letter -- "No. of Posts", "e.g.", "i.e."
 _CLAUSE_SPLIT = re.compile(r"\n+|[;!?]|\.(?=\s+[A-Z])|\.\s*$")
+# A notice often puts its date on a line of its own and the subject under it
+# ("PRESS RELEASE / 21 July 2025 / Subject: Declaration of results"). The
+# subject is what the date is about, so the two must share a clause.
+_DATE_LINE_THEN_SUBJECT = re.compile(
+    r"(?m)^([ \t]*\d{1,2}(?:st|nd|rd|th)?[ ./-]+(?:[A-Za-z]{3,9}|\d{1,2})[ ./-]+\d{2,4}[ \t]*)\n+(?=[ \t]*Subject[ \t]*:)", re.I)
+# An exam calendar table: the header names the column the dates sit in, and
+# a row's own text (a name and a date) does not repeat it.
+_CALENDAR_HEADER = re.compile(r"\bproposed\s+date", re.I)
+_DATE_IN_LINE = re.compile(r"\b\d{1,2}(?:st|nd|rd|th)?\s*(?:[—–-]\s*\d{1,2}(?:st|nd|rd|th)?\s*)?(?:[A-Za-z]{3,9}\.?)\s*,?\s*\d{4}\b")
 
 
 def clauses(text: str) -> list[str]:
@@ -260,10 +269,18 @@ def clauses(text: str) -> list[str]:
     printed on the next.
     """
     out: list[str] = []
-    for chunk in _CLAUSE_SPLIT.split(text):
-        chunk = chunk.strip()
-        if chunk:
-            out.append(chunk)
+    text = _DATE_LINE_THEN_SUBJECT.sub(lambda m: m.group(1) + " ", text)
+    header = ""
+    for line in text.split("\n"):
+        if _CALENDAR_HEADER.search(line):
+            header = line.strip()
+            continue
+        if header and _DATE_IN_LINE.search(line) and not re.search(r"examin", line, re.I):
+            line = f"{header} {line.strip()}"
+        for chunk in _CLAUSE_SPLIT.split(line):
+            chunk = chunk.strip()
+            if chunk:
+                out.append(chunk)
     return out
 
 
@@ -616,6 +633,7 @@ _LABEL_PATTERNS: tuple[tuple[str, re.Pattern[str], float], ...] = (
         r"descriptive|final|actual|common)?\s*examin\w*|exam\w*\s+will\s+be\s+conducted|"
         r"examination\s+(?:date|shall\s+be\s+held|will\s+be\s+held|is\s+scheduled)|"
         r"conducted\s+on|exam\s+date|on\s+the\s+date\s+of\s+the\s+examination|"
+        r"name\s+of\s+examination\b.{0,40}?proposed\s+date|"
         r"schedule\s+of\s+examination\w*|"
         r"conduct\s+the\s+[\w\s.-]{0,40}?(?:test|examination)\b[^.]{0,60}?\b(?:tentatively\s+)?on)\b", re.I), 0.85),
     # "The NTA will conduct UGC-NET June 2025 Examination ... from 25th June 2025"
@@ -671,6 +689,10 @@ _LABEL_PATTERNS: tuple[tuple[str, re.Pattern[str], float], ...] = (
         r"|(?:online\s+)?submission\s+of\s+(?:the\s+)?(?:online\s+)?"
         r"(?:application|exam(?:ination)?\s+form|form)"
         r")\b", re.I), 0.9),
+    # "Online Registration of applications and Payment of Fees: From 21/07/2026 to
+    # 10/08/2026" -- the "from" date opens the window, the "to" date closes it.
+    ("registration_open", re.compile(
+        r"\bregistration\b[^.;\n]{0,80}?[:\-]?\s*\bfrom\b", re.I), 0.85),
     ("registration_open", re.compile(
         r"\b(commence\w*\s+(?:of\s+|from\s+|on\s+)?(?:the\s+)?(?:online\s+)?"
         r"(?:registration|application|filing|filling)|"
@@ -714,6 +736,9 @@ _LABEL_PATTERNS: tuple[tuple[str, re.Pattern[str], float], ...] = (
         r"\b(?:released|issued|available|uploaded|published)\b\s*"
         r"(?:today\s*,?\s*)?(?:i\.?e\.?|on|with\s+effect\s+from|w\.?e\.?f\.?|from)\s*"
         r"[:\-]?\s*$", re.I), 0.9),
+    # "Subject: Release of Admit Card for UGC-NET June 2025"
+    ("admit_card_from", re.compile(
+        r"\brelease\s+of\s+(?:the\s+)?(?:admit\s*card|hall\s+ticket)s?\b", re.I), 0.85),
     ("admit_card_to", re.compile(
         r"\b(admit\s*card|hall\s+ticket|call\s+letter)\b.{0,70}?\b(closing\s+date|"
         r"valid\s+(?:up\s+)?(?:till|until|upto)|last\s+date\s+to\s+download|"
@@ -721,7 +746,8 @@ _LABEL_PATTERNS: tuple[tuple[str, re.Pattern[str], float], ...] = (
     ("result_date", re.compile(
         r"\b(date\s+of\s+(?:publication\s+of\s+)?(?:the\s+)?result|"
         r"result\s+(?:will\s+be\s+)?(?:declared|published|announced|declared\s+on)|"
-        r"declaration\s+of\s+(?:the\s+)?result|merit\s+list|"
+        r"declaration\s+of\s+(?:the\s+)?results?|merit\s+list|"
+        r"\bresults?\b[^.;]{0,80}?\bdeclared\b|"
         r"result\s+on|result\s+date)\b", re.I), 0.8),
     ("age_as_on", re.compile(
         r"\b(age\s+(?:limit|as\s+on|criteria|shall\s+not\s+exceed)|"
