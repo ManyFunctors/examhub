@@ -1,0 +1,59 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "dc8bc3644b365ad1bf4a992d906ebc3ccfab2fe26a8c04432bd422fe1e14f2c0",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20250824222046.pdf",
+  "title": "Examination Date and Schedule for National Initiative for Technical Teachers Training (NITTT) Examination for April- May 2025 Semester Candidates-reg. Read More",
+  "body": "in-nta",
+  "exam": "in-nta-nittt",
+  "feed": "in-nta/home",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "58f393dd90fbc37176ce9eff2211e6a8b20785cceda4ea9a8f34b94433f56d98",
+  "bytes": 464955,
+  "pages": 2,
+  "chars": 3588,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-05T19:23:25+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "admit_card_from": {
+   "date": "2025-08-22",
+   "evidence": "IssueofAdmitCards",
+   "page": 1,
+   "from": "table"
+  },
+  "exam_date": {
+   "date": "2025-08-22",
+   "evidence": "22 August 2025 Subject: Examination Date and Schedule for National Initiative for Technical Teachers Training (NITTT) Examination for April- May 2025 Semester Candidates-reg",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "IssueofAdmitCards",
+   "key": "admit_card_from",
+   "date": "2025-08-22",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "duration": {
+   "value": "Date of the test 29, 30 August and 6, 7 September 2025 Duration 2 hour (120 minutes) Timings Exams will be held in two shifts per day",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://nittt.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2025-08-22"
+ }
+}
