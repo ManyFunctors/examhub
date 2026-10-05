@@ -1,0 +1,131 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c08e2e84d25e0d2844f6a5b990066874034979825811e28f01d1672e2af4dd0b",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20191101075955.pdf",
+  "title": "1836 Information bulletin - CMAT 2020 Read More",
+  "body": "in-nta",
+  "exam": "in-cmat",
+  "feed": "in-nta/notices",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "0edcacba013badaf6f3a6c1f98e19c907d7419dfb6d6353dd9b310194f6a842c",
+  "bytes": 281853,
+  "pages": 21,
+  "chars": 34139,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-05T15:20:05+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "registration_deadline": {
+   "date": "2019-11-30",
+   "evidence": "On-line submission of Application Form 01.11.2019 to 30.11.2019 (Upto 11:50 p.m.) Date for successful final transaction of fee",
+   "page": 5,
+   "from": "text"
+  },
+  "exam_date": {
+   "date": "2020-01-28",
+   "evidence": "01.11.2019 to 02.12.2019 (upto 11:50 p.m.) Date of Examination",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2019-11-01",
+   "evidence": "On-line submission of Application Form 01.11.2019 to 30.11.2019 (Upto 11:50 p.m.) Date for successful final transaction of fee",
+   "page": 5,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "Unreserved"
+   ],
+   "amount": 1000,
+   "raw": "Fee payable for CMAT 2020 - General Boys-Rs1600/ - Girls Rs .1000/ - -",
+   "page": 5
+  },
+  {
+   "categories": [
+    "Unreserved",
+    "EWS",
+    "OBC-NCL"
+   ],
+   "amount": 1000,
+   "raw": " Gen-EWS/OBC(NCL) Boys–Rs1000/ - Girls Rs .1000/ - -",
+   "page": 5
+  },
+  {
+   "categories": [
+    "SC",
+    "ST",
+    "PwBD"
+   ],
+   "amount": 700,
+   "raw": " SC/ST/PwD Boys-Rs 800/ - Girls Rs 700/ - . -",
+   "page": 5
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "CMAT - 2020 ELIGIBILITY The candidate must hold a Bachelor’s degree in any discipline",
+    "page": 3
+   },
+   {
+    "text": "The NTA do neither verify the information filled by the candidates in the application form nor verify any certificate of category/educational qualification for deciding the eligibility of candidates",
+    "page": 7
+   },
+   {
+    "text": "The certificates of educational qualification and category (if applied under reserved category) will be verified by the concerned institution",
+    "page": 7
+   }
+  ]
+ },
+ "selection": [
+  "Computer-based test",
+  "Group discussion",
+  "Interview"
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  },
+  "negative_marking": {
+   "value": "-1 mark for each wrong answer",
+   "page": 8
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "http://www.ntacmat.nic.in/",
+   "http://www.ncbc.nic.in/",
+   "https://www.nta.ac.in",
+   "https://www.ncbc.nic.in",
+   "https://www.ntacmat.nic.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2019-11-01",
+   "until": "2019-11-30"
+  },
+  "exam_date": "2020-01-28",
+  "fee": {
+   "min": 700,
+   "max": 1000
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Computer-based test → Group discussion → Interview"
+ }
+}

@@ -5,15 +5,57 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 11,
+ "documents": 12,
  "documents_in_cycle": 3,
- "fields": {},
+ "fields": {
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "CMAT - 2020 ELIGIBILITY The candidate must hold a Bachelor’s degree in any discipline",
+      "page": 3
+     },
+     {
+      "text": "The NTA do neither verify the information filled by the candidates in the application form nor verify any certificate of category/educational qualification for deciding the eligibility of candidates",
+      "page": 7
+     },
+     {
+      "text": "The certificates of educational qualification and category (if applied under reserved category) will be verified by the concerned institution",
+      "page": 7
+     }
+    ]
+   },
+   "source": {
+    "notice": "c08e2e84d25e0d2844f6a5b990066874034979825811e28f01d1672e2af4dd0b",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20191101075955.pdf",
+    "title": "1836 Information bulletin - CMAT 2020 Read More",
+    "kind": "brochure"
+   },
+   "carried_from": "2020"
+  },
+  "selection": {
+   "value": [
+    "Computer-based test",
+    "Group discussion",
+    "Interview"
+   ],
+   "source": {
+    "notice": "c08e2e84d25e0d2844f6a5b990066874034979825811e28f01d1672e2af4dd0b",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20191101075955.pdf",
+    "title": "1836 Information bulletin - CMAT 2020 Read More",
+    "kind": "brochure"
+   },
+   "carried_from": "2020"
+  }
+ },
  "gaps": [
   "apply",
   "exam_date",
   "fee",
-  "eligibility",
   "exam_pattern"
  ],
- "older_documents": 8
+ "older_documents": 9
 }
