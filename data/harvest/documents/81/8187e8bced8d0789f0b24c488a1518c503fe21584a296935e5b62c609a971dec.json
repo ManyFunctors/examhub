@@ -1,0 +1,68 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "8187e8bced8d0789f0b24c488a1518c503fe21584a296935e5b62c609a971dec",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20201223110025.pdf",
+  "title": "1632 Public Notice: For Inviting Online Applications for Common Management Admission Test (CMAT)-2021 (English) Read More",
+  "body": "in-nta",
+  "exam": "in-cmat",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "585585f721b7eb6a2176247e2df8b64e58240df1bbdb4b3ea52df113f22b1788",
+  "bytes": 203905,
+  "pages": 1,
+  "chars": 2354,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-06T03:06:10+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "payment_deadline": {
+   "date": "2021-01-22",
+   "evidence": "Duration of Online registration and submission of online Application Form for CMAT-2021 23 December 2020 to 22 January 2021 Last date for submission of Examination fee (through SBI/ HDFC Credit Card/ Debit Card/Net Banking & Paytm Payment M",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2020-12-23",
+   "evidence": "Duration of Online registration and submission of online Application Form for CMAT-2021 23 December 2020 to 22 January 2021 Last date for submission of Examination fee (through SBI/ HDFC Credit Card/ Debit Card/Net Banking & Paytm Payment M",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2021-01-22",
+   "evidence": "Duration of Online registration and submission of online Application Form for CMAT-2021 23 December 2020 to 22 January 2021 Last date for submission of Examination fee (through SBI/ HDFC Credit Card/ Debit Card/Net Banking & Paytm Payment M",
+   "page": 1,
+   "from": "text"
+  },
+  "exam_date": {
+   "date": "2021-02-27",
+   "evidence": "Date of Examination for CMAT-2021 22 / 27 February 2021 Duration of Examination 180 minutes (3.00 hours) Timing of Examination 09:00 AM to 12:00 PM",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "tel:0120-6895200",
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2020-12-23",
+   "until": "2021-01-22"
+  },
+  "exam_date": "2021-02-27"
+ }
+}
