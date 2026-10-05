@@ -269,9 +269,6 @@ class LayaValidator:
                 return False
         return True
 
-    @property
-    def call_count(self) -> int:
-        return len(self.calls)
 
     def budget_left(self) -> int:
         return max(0, self.settings.max_model_calls - len(self.calls))

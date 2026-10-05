@@ -105,9 +105,9 @@ or broken, or one that is wrong.
 
 **User agents and WAFs.** Most Indian government WAFs (NIC-hosted sites,
 UPSC, NTA) answer **403** to anything bot-shaped: the word "bot", a URL in
-parentheses, or a contact inside the UA string. The crawler therefore sends a
-plain `examhub-pipeline/0.2` and puts the contact in the `From:` header, the
-header RFC 9110 defines for exactly this. With that, the hosts in the table
+parentheses, or a contact inside the UA string. The user agent is set once in
+`config.py`; the table below records what each host did with the value it was
+tested against. With a plain product token, the hosts in the table
 under *Politeness* answer 200, including their robots.txt.
 
 ---
@@ -389,9 +389,9 @@ runtime:
 | `aiimsexams.ac.in` | Next.js; the key-dates page renders its calendar links client-side, so the static HTML has no notice URLs |
 
 > **Correction (measured with the catalogue crawler).** These 403s are caused
-> by the user-agent string, not by a robots policy. A plain UA with the contact
-> in a `From:` header gets 200 from upsc.gov.in and the NTA hosts, robots.txt
-> included, and SSC and AIIMS are handled by feeds with `render = "browser"`.
+> by the user-agent string, not by a robots policy. A plain product token gets
+> 200 from upsc.gov.in and the NTA hosts, robots.txt included, and SSC and AIIMS
+> are handled by feeds with `render = "browser"`.
 > RFC 9309 also treats *any* 4xx robots.txt as "unavailable, crawl allowed"; the
 > "401/403 means disallow" rule is Google's legacy behaviour, not the RFC's.
 > This fetcher (`http.py`) keeps its stricter rule. See

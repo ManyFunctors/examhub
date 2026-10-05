@@ -591,13 +591,6 @@ class Candidate:
     def key(self) -> str:
         return self.field
 
-    def as_date(self) -> dt.date | None:
-        if self.field not in {f.key for f in FIELDS if f.kind == "date"}:
-            return None
-        try:
-            return dt.date.fromisoformat(self.value)
-        except ValueError:
-            return None
 
     def as_int(self) -> int | None:
         try:

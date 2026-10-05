@@ -95,15 +95,7 @@ class ExtractedDoc:
     warnings: list[str] = field(default_factory=list)
     source_hash: str = ""
 
-    @property
-    def ocr_page_count(self) -> int:
-        return sum(1 for c in self.chunks if c.is_ocr)
 
-    def chunk_at(self, offset: int) -> Chunk | None:
-        for chunk in self.chunks:
-            if chunk.text and chunk.text_offset(offset) <= offset < chunk.text_offset(offset) + len(chunk.text):
-                return chunk
-        return None
 
 
 def _clean_text(text: str) -> str:
@@ -618,11 +610,3 @@ def extract_image(content: bytes, url: str, settings: Settings) -> ExtractedDoc:
     )
 
 
-def extract_response(response: Any, settings: Settings, *, force_ocr: bool = False) -> ExtractedDoc:
-    return extract_bytes(
-        response.content,
-        getattr(response, "final_url", "") or getattr(response, "url", ""),
-        settings,
-        content_type=getattr(response, "content_type", ""),
-        force_ocr=force_ocr,
-    )

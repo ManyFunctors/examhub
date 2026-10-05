@@ -54,7 +54,6 @@ EXPECTED: dict[str, tuple[str, ...]] = {
 _DEFAULT_EXPECTED = ("apply", "exam_date")
 
 #: Fields that may be carried over from an earlier cycle.
-STABLE = ("eligibility", "selection", "exam_pattern", "pay")
 
 _KIND_RANK = {"advertisement": 3, "brochure": 3, "corrigendum": 2}
 
