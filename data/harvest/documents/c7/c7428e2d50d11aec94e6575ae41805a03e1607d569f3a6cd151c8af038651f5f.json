@@ -1,0 +1,50 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c7428e2d50d11aec94e6575ae41805a03e1607d569f3a6cd151c8af038651f5f",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220819154438.pdf",
+  "title": "1186 PUBLIC NOTICE 16.08.2022 Re: Corrigendum to the Information Bulletin regarding ICAR Entrance Exams for admission to PG and Ph.D programmes for the academic year 2022-23 Read More",
+  "body": "in-nta",
+  "exam": "in-icar-aice-phd",
+  "feed": "in-nta/notices",
+  "published": "2022-08-16",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "441e4b5bb574f77502ab08ea37ce9cb59e582d06be5bb501a47565791a7a1d4b",
+  "bytes": 968820,
+  "pages": 3,
+  "chars": 5567,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-05T18:15:18+05:30"
+ },
+ "kind": "corrigendum",
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Subjects/Discipline Eligibility Qualifications for SAUs/CAUs etc (4/5/6 years Bachelor degree in) Alternate Eligibility Qualification for",
+    "page": 1
+   },
+   {
+    "text": "and/or ICAR-DUs (Master’s Degree in) Additional Eligibility Qualification at Bachelors level for",
+    "page": 2
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in",
+   "https://icar.nta.nic.in",
+   "https://education.icar.gov.in/Files/Guidelines/FinalPublicNotice8_8_22.pdf"
+  ]
+ },
+ "summary": {
+  "education": [
+   "Graduate"
+  ]
+ }
+}
