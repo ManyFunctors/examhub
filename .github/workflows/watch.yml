@@ -57,15 +57,18 @@ jobs:
         run: |
           tier="${{ inputs.tier }}"
           if [ -z "$tier" ]; then
-            # Warm feeds on the first run of each half hour.
-            m=$(date -u +%M); m=${m#0}
-            if [ $((m % 30)) -lt 10 ]; then tier=warm; else tier=hot; fi
+            # Cold feeds once a day, in the first run after 00:00 UTC, so
+            # a feed that went quiet is still looked at. Otherwise warm feeds
+            # on the first run of each half hour, and hot feeds the rest.
+            h=$(date -u +%H); m=$(date -u +%M)
+            if [ "$h" = 00 ] && [ "$((10#$m))" -lt 10 ]; then tier=cold
+            elif [ $((10#$m % 30)) -lt 10 ]; then tier=warm
+            else tier=hot; fi
           fi
           echo "tier=$tier" >> "$GITHUB_OUTPUT"
 
       - name: Poll
         env:
-          EXAMHUB_CONTACT: ${{ secrets.EXAMHUB_CONTACT }}
           EXAMHUB_HTTPCACHE: "0"
           EXAMHUB_HOST_DELAY: "2"
           MOZ_HEADLESS: "1"
@@ -78,7 +81,6 @@ jobs:
         # A few, text layer only, so the push can say what the PDF says.
         # Scans are left for the daily crawl, which has OCR.
         env:
-          EXAMHUB_CONTACT: ${{ secrets.EXAMHUB_CONTACT }}
           EXAMHUB_ENABLE_OCR: "0"
         run: |
           uv run scrapy crawl documents -a limit=6 -a recent_days=3 -a ocr=0 \

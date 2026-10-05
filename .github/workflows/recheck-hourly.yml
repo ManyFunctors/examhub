@@ -69,7 +69,6 @@ jobs:
         if: steps.pick.outputs.sources != ''
         id: review
         env:
-          EXAMHUB_CONTACT: ${{ secrets.EXAMHUB_CONTACT }}
           EXAMHUB_CACHE_DIR: .cache/http
         run: |
           set +e

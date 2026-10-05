@@ -327,7 +327,6 @@ pages take over 10 seconds each. It is now linear.
 
 Secrets, all optional:
 
-* `EXAMHUB_CONTACT`: the `From:` header. Set it.
 * `CERTSPOTTER_API_KEY`: CT discovery via Cert Spotter.
 
 Daily maintainer loop, all on the `harvest` branch:

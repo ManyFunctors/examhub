@@ -92,7 +92,7 @@ jobs:
           if [ -n "${{ inputs.source }}" ]; then
             sources="${{ inputs.source }}"
           else
-            sources=$(uv run python -m examhub_pipeline due-sources --within-days 5 --cap 5)
+            sources=$(uv run python -m examhub_pipeline due-sources --within-days 5 --cap 15)
           fi
           echo "sources=$sources" >> "$GITHUB_OUTPUT"
           echo "tonight's sources: $sources"
@@ -104,7 +104,6 @@ jobs:
           # as a repository secret; the default is a deliberately unroutable
           # placeholder, and several government hosts block unidentified
           # clients on robots.txt alone.
-          EXAMHUB_CONTACT: ${{ secrets.EXAMHUB_CONTACT }}
           # The HTTP cache is what makes a re-run free, and it is worth
           # keeping between runs so a nightly job is mostly a cache hit.
           EXAMHUB_CACHE_DIR: .cache/http

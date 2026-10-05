@@ -25,6 +25,7 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass
+from functools import lru_cache
 from typing import Iterator, Sequence
 
 from .config import CATEGORY_ADMISSION, CATEGORY_JOB, SOURCE_TIERS
@@ -416,8 +417,36 @@ SEED_SOURCES: tuple[Source, ...] = (
 
 
 
+@lru_cache(maxsize=None)
+def catalogue_sources() -> tuple[Source, ...]:
+    """One Source per active HTML feed in the catalogue.
+
+    The seed registry is 28 hand-written bodies; the catalogue has every
+    body's notices page. Without this, a body outside the seeds (AAU, say)
+    was never rechecked, however many notices its feed published.
+    """
+    from . import catalogue as catalogue_mod
+
+    cat = catalogue_mod.load()
+    out: list[Source] = []
+    for fid, feed in sorted(cat.feeds.items()):
+        if feed.get("status") != "active" or feed.get("adapter") != "html_links":
+            continue
+        body = cat.bodies.get(feed.get("body") or "") or {}
+        out.append(_s(fid, body.get("short_name"), body.get("name") or fid, feed["url"],
+                      hosts=tuple(body.get("hosts") or ())))
+    return tuple(out)
+
+
+def all_sources() -> tuple[Source, ...]:
+    """Seed sources first, then every catalogue feed whose URL no seed covers."""
+    seen = {s.notices_url for s in SEED_SOURCES}
+    extra = tuple(s for s in catalogue_sources() if s.notices_url not in seen)
+    return SEED_SOURCES + extra
+
+
 def get_source(key: str) -> Source | None:
-    for source in SEED_SOURCES:
+    for source in all_sources():
         if source.key == key:
             return source
     return None

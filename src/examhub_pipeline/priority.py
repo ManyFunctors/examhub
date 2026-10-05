@@ -24,7 +24,7 @@ from typing import Iterable
 
 from . import catalogue as catalogue_mod
 from . import record
-from .sources import SEED_SOURCES
+from .sources import SEED_SOURCES, Source, all_sources
 
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 EXAMS_DIR = Path(__file__).resolve().parents[2] / "site" / "content" / "exams"
@@ -50,6 +50,9 @@ def nearest_date(rec: dict, today: dt.date) -> dt.date | None:
     """The soonest date in the record's ``dates`` block that has not passed."""
     upcoming = [d for d in _dates_in(rec.get("dates", {})) if d >= today]
     return min(upcoming) if upcoming else None
+
+
+SEED_KEYS = {s.key for s in SEED_SOURCES}
 
 
 def due_bodies(exams_dir: Path = EXAMS_DIR, within_days: int = 5,
@@ -105,21 +108,62 @@ def due_sources(exams_dir: Path = EXAMS_DIR, within_days: int = 5,
         prev = by_short_name.get(name)
         if name and (prev is None or date < prev[0] or (date == prev[0] and retrieved > prev[1])):
             by_short_name[name] = (date, retrieved)
-    hits = [
-        (by_short_name[name][0], -by_short_name[name][1].timestamp(), source.key)
-        for source in SEED_SOURCES
-        if (name := (source.taxonomy or source.name or "").lower()) in by_short_name
-    ]
+    # a body's hand-written seed stands for it; a body without one is
+    # checked through every notices feed the catalogue gives it
+    by_body: dict[str, list[Source]] = {}
+    for source in all_sources():
+        name = (source.taxonomy or source.name or "").lower()
+        if name in by_short_name:
+            by_body.setdefault(name, []).append(source)
+    hits = []
+    for name, group in by_body.items():
+        seeds = [s for s in group if s.key in SEED_KEYS]
+        for source in seeds or group:
+            hits.append((by_short_name[name][0], -by_short_name[name][1].timestamp(), source.key))
     hits.sort()
     return [key for _, _, key in hits]
 
 
-def rotation_source(today: dt.date | None = None) -> str:
-    """One source, picked deterministically by the day, so every source gets
-    an occasional look even with nothing due."""
+def stalest_sources(exams_dir: Path = EXAMS_DIR, n: int = 5, today: dt.date | None = None,
+                    catalogue_dir: Path = catalogue_mod.CATALOGUE_DIR) -> list[str]:
+    """Source keys for the records checked longest ago, oldest first.
+
+    Each body gets one source per night, so a body with many feeds cannot
+    use up the whole cap. A body's seed stands for it; otherwise its feeds
+    take turns by day. Records never checked come first.
+    """
     today = today or dt.datetime.now(IST).date()
-    ordered = sorted(SEED_SOURCES, key=lambda s: s.key)
-    return ordered[today.toordinal() % len(ordered)].key
+    cat = catalogue_mod.load(catalogue_dir)
+    by_body: dict[str, list[Source]] = {}
+    for source in all_sources():
+        by_body.setdefault((source.taxonomy or source.name or "").lower(), []).append(source)
+    stamps: dict[str, dt.datetime] = {}
+    for path in sorted(exams_dir.glob("*.md")):
+        try:
+            rec, _ = record.load(path)
+        except (OSError, ValueError) as exc:
+            record.log.warning("priority: could not read %s: %s", path, exc)
+            continue
+        checked = (rec.get("provenance") or {}).get("provenance_last_checked")
+        if not isinstance(checked, dt.datetime):
+            checked = dt.datetime.min.replace(tzinfo=IST)
+        for b in rec.get("bodies") or []:
+            code = b.get("body") if isinstance(b, dict) else None
+            short = ((cat.bodies.get(code) or {}).get("short_name") or "").lower() if code else ""
+            if short:
+                stamps[short] = min(checked, stamps.get(short, checked))
+                break
+    keys: list[str] = []
+    for short in sorted(stamps, key=lambda k: stamps[k]):
+        group = by_body.get(short) or []
+        if not group:
+            continue
+        seeds = [s for s in group if s.key in SEED_KEYS]
+        pick = (seeds or group)[today.toordinal() % len(seeds or group)]
+        keys.append(pick.key)
+        if len(keys) >= n:
+            break
+    return keys
 
 
 def tonight_sources(exams_dir: Path = EXAMS_DIR, within_days: int = 5, cap: int = 5,
@@ -135,7 +179,7 @@ def tonight_sources(exams_dir: Path = EXAMS_DIR, within_days: int = 5, cap: int 
     today = today or dt.datetime.now(IST).date()
     picked = list(dict.fromkeys(due_sources(exams_dir, within_days, today)))[:cap]
     if rotation and len(picked) < cap:
-        rot = rotation_source(today)
-        if rot not in picked:
-            picked.append(rot)
+        for key in stalest_sources(exams_dir, cap - len(picked), today):
+            if key not in picked:
+                picked.append(key)
     return picked

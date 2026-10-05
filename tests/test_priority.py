@@ -87,14 +87,14 @@ def test_due_sources_breaks_a_same_day_tie_by_the_newer_discovery(tmp_path, monk
     assert priority.due_sources(exams, within_days=5, today=today) == ["ibps", "ssc"]
 
 
-def test_rotation_source_is_deterministic_for_a_given_day():
-    today = dt.date(2026, 10, 1)
-    assert priority.rotation_source(today) == priority.rotation_source(today)
+def test_stalest_sources_is_empty_without_records(tmp_path):
+    exams = tmp_path / "exams"
+    exams.mkdir()
+    assert priority.stalest_sources(exams, n=5) == []
 
 
-def test_tonight_sources_tops_up_with_rotation_when_nothing_is_due(tmp_path):
+def test_tonight_sources_tops_up_with_stalest_when_nothing_is_due(tmp_path):
     exams = tmp_path / "exams"
     exams.mkdir()
     today = dt.date(2026, 10, 1)
-    sources = priority.tonight_sources(exams, within_days=5, cap=3, today=today)
-    assert sources == [priority.rotation_source(today)]
+    assert priority.tonight_sources(exams, within_days=5, cap=3, today=today) == []

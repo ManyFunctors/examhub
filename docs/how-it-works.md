@@ -358,7 +358,7 @@ Non-negotiable, and the defaults are conservative on purpose:
 | per-run request budget | 400 | `--max-requests` |
 | 429 / 5xx | exponential backoff with jitter, honours `Retry-After` | — |
 | `Crawl-delay` | adopted if robots.txt states one | — |
-| user agent | identifies the tool and a contact address | `EXAMHUB_CONTACT` |
+| user agent | identifies the tool | none |
 
 **The disk cache is the important one.** It is keyed by URL and the body is
 stored under its own content hash:
@@ -372,16 +372,6 @@ A re-run inside the TTL does **zero network requests**. Past the TTL it sends
 a conditional GET, so a page that has not changed costs one 304 and no
 transfer. The tool re-checks the same notices constantly; this is what makes
 that affordable and rude-free at the same time.
-
-### Set a real contact address
-
-`EXAMHUB_CONTACT` defaults to `examhub-maintainer@example.invalid`, which is a
-placeholder. Several government hosts block unidentified clients, and it is
-reasonable for them to. Before running this against a host that matters:
-
-```bash
-export EXAMHUB_CONTACT="you@example.org"
-```
 
 ### Hosts that will not work, and why
 
