@@ -567,3 +567,40 @@ class TestHeldOutShapes:
     ])
     def test_the_value_is_found(self, text, field, value):
         assert _pick(text, field) == value
+
+
+# --------------------------------------------------------------------------
+# Shapes found by sweeping real notice PDFs
+# --------------------------------------------------------------------------
+
+
+def _field_values(text: str, field: str) -> list[str]:
+    return [str(c.value) for c in find_candidates(text, "https://example.gov.in/n.pdf") if c.field == field and c.granularity == "day"]
+
+
+class TestRealNoticeShapes:
+    def test_a_date_on_its_own_line_takes_the_subject_under_it_for_admit_cards(self):
+        text = "PUBLIC NOTICE\n22.06.2025\n\nSubject: Release of Admit Card for UGC NET June 2025 - reg.\n\n1. The NTA will conduct the examination."
+        assert "2025-06-22" in _field_values(text, "admit_card_from")
+
+    def test_a_result_press_release_dates_the_result_not_the_exam(self):
+        text = "PRESS RELEASE\n21 July 2025\n\nSubject: Declaration of results of UGC NET June 2025 - reg.\n\n1. The examination was conducted in June."
+        assert "2025-07-21" in _field_values(text, "result_date")
+        assert "2025-07-21" not in _field_values(text, "exam_date")
+
+    def test_a_calendar_row_takes_the_exam_date_from_its_header(self):
+        text = (
+            "National Testing Agency\nExamination Calendar\n"
+            "S. Name of Examination Proposed Date(s) Duration\n"
+            "| December 2026\n\n"
+            "1 Rashtriya Indian Military College 06 Dec 2026 1 Day\n"
+            "2 SWAYAM 08 — 12 Dec 2026 5Days\n"
+        )
+        assert "2026-12-06" in _field_values(text, "exam_date")
+
+    def test_a_from_to_registration_window_opens_on_the_from_date(self):
+        text = (
+            "Online Registration of applications and Payment of Fees: From 21/07/2026 to 10/08/2026\n"
+        )
+        assert "2026-07-21" in _field_values(text, "registration_open")
+        assert "2026-08-10" in _field_values(text, "registration_deadline")
