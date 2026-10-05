@@ -95,6 +95,10 @@ jobs:
     if: always()
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    permissions:
+      contents: read
+    outputs:
+      exit_code: ${{ steps.review.outputs.exit_code }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -109,7 +113,11 @@ jobs:
       - name: Install the pipeline
         run: |
           uv python install 3.12
-          uv pip install -e '.[crawl]'
+          uv venv --python 3.12
+          uv pip install --index-strategy unsafe-best-match \
+            --extra-index-url https://download.pytorch.org/whl/cpu \
+            "torch>=2.0" "laya>=0.3.20"
+          uv pip install -e '.[crawl,model,ocr,dev]'
 
       - name: Download every loop's downloads
         uses: actions/download-artifact@v8
@@ -129,13 +137,28 @@ jobs:
           "
 
       - name: Review the merged documents
-        run: uv run python -m examhub_pipeline review --no-model
+        id: review
+        run: |
+          set +e
+          uv run python -m examhub_pipeline review
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
 
       - name: Upload the merged review bundle
         if: always()
         uses: actions/upload-artifact@v7
         with:
-          name: loops-review-bundle
+          name: review-bundle
           path: work/reviews/
           retention-days: 14
           if-no-files-found: ignore
+
+  record:
+    needs: aggregate
+    uses: ./.github/workflows/record.yml
+    permissions:
+      contents: write
+      pull-requests: write
+    with:
+      review_exit: ${{ needs.aggregate.outputs.exit_code }}

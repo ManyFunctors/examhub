@@ -37,12 +37,13 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  recheck:
+  review:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     permissions:
-      contents: write        # push the pipeline/* branch
-      pull-requests: write   # open the pull request
+      contents: read
+    outputs:
+      exit_code: ${{ steps.review.outputs.exit_code }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -159,161 +160,11 @@ jobs:
           retention-days: 14
           if-no-files-found: ignore
 
-      - name: Apply the proposal to site/
-        # The patch paths are relative to the site folder.
-        if: steps.review.outputs.exit_code == '0'
-        run: |
-          latest=$(ls -1dt work/reviews/*/ | head -1)
-          git apply --directory=site "$latest/propose.patch"
-
-      - name: Fetch what the crawl learnt
-        # Link checks and Wayback copies live on the `harvest` branch; read only.
-        run: |
-          mkdir -p data/harvest
-          if git fetch --depth=1 origin harvest 2>/dev/null; then
-            for f in link-check.jsonl archived.jsonl notices.jsonl; do
-              git show "FETCH_HEAD:data/harvest/$f" > "data/harvest/$f" 2>/dev/null || rm -f "data/harvest/$f"
-            done
-          fi
-          ls -l data/harvest || true
-
-      - name: Drop wrong other names
-        # An alias naming another kind of eligibility test (KTET on KSET) is dropped.
-        id: aliases
-        run: |
-          set +e
-          uv run python -m examhub_pipeline aliases --apply
-          code=$?
-          if [ "$code" = 0 ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
-          if [ "$code" = 1 ]; then echo "::warning::checking other names failed; records left unchanged"; fi
-          exit 0
-
-      - name: Fix official page links
-        # Each link placed by what the crawl's link check found it to be: files to the
-        # documents, a portal as the apply link, the page naming the exam as the official page.
-        id: links
-        run: |
-          set +e
-          uv run python -m examhub_pipeline links --apply
-          code=$?
-          if [ "$code" = 0 ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
-          if [ "$code" = 1 ]; then echo "::warning::fixing official page links failed; records left unchanged"; fi
-          exit 0
-
-      - name: Link Wayback copies
-        # The daily crawl archives each document a record links to and keeps the
-        # snapshots on the `harvest` branch; this writes them into document_archive.
-        id: wayback
-        run: |
-          set +e
-          if [ -f data/harvest/archived.jsonl ]; then
-            uv run python -m examhub_pipeline archive --fill-records --apply
-            code=$?
-          else
-            echo "no archived.jsonl on the harvest branch yet"; code=2
-          fi
-          if [ "$code" = 0 ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
-          if [ "$code" = 1 ]; then echo "::warning::linking Wayback copies failed; records left unchanged"; fi
-          exit 0
-
-      - name: Merge duplicate records
-        # One exam harvested into two files is merged when no fact is lost; the old URL
-        # redirects. Files that disagree stay apart and are listed. Before the titles, so
-        # the merged record gets its short name in the same run.
-        id: dedupe
-        run: |
-          set +e
-          uv run python -m examhub_pipeline dedupe --apply
-          code=$?
-          if [ "$code" = 0 ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
-          if [ "$code" = 1 ]; then echo "::warning::merging duplicates failed; records left unchanged"; fi
-          exit 0
-
-      - name: Fill short titles
-        # Records still titled with the notice's own name get a short one
-        # (decision 3). Deterministic, no network. Exit 0 = titles changed,
-        # 2 = nothing to do, 1 = the step failed; a failure never stops the run.
-        id: names
-        run: |
-          set +e
-          uv run python -m examhub_pipeline names --apply
-          code=$?
-          if [ "$code" = 0 ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
-          if [ "$code" = 1 ]; then echo "::warning::short titles failed; titles left unchanged"; fi
-          exit 0
-
-      - name: Regenerate tracked-exam stubs
-        # A stub page for every catalogue exam with no live cycle yet, so a
-        # search for one finds it instead of nothing. Regenerated wholesale
-        # from the catalogue, so one appears or disappears automatically as
-        # notices arrive -- no exam picked out by hand.
-        id: tracked
-        run: |
-          set +e
-          uv run python -m examhub_pipeline tracked --apply
-          code=$?
-          if [ "$code" = 0 ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
-          if [ "$code" = 1 ]; then echo "::warning::tracked-exam stubs failed; left unchanged"; fi
-          exit 0
-
-      - name: Refresh the README's stats table
-        # Riding along on whatever PR opens tonight, rather than one of its
-        # own: the numbers only drift slowly, and a PR for nothing but a
-        # bigger notice count would be the kind of nightly noise this whole
-        # workflow is built to avoid.
-        id: readme
-        run: |
-          set +e
-          uv run python -m examhub_pipeline readme-stats --apply
-          code=$?
-          if [ "$code" = 0 ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
-          if [ "$code" = 1 ]; then echo "::warning::readme stats failed; README left unchanged"; fi
-          exit 0
-
-      - name: Open a pull request
-        # The whole point. Nothing changed, nothing is opened.
-        if: steps.review.outputs.exit_code == '0' || steps.names.outputs.changed == 'true' || steps.dedupe.outputs.changed == 'true' || steps.wayback.outputs.changed == 'true' || steps.links.outputs.changed == 'true' || steps.aliases.outputs.changed == 'true' || steps.readme.outputs.changed == 'true' || steps.tracked.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v8
-        with:
-          branch: pipeline/nightly-recheck
-          base: ${{ github.event.repository.default_branch }}
-          # An empty patch is a failure, not a no-op: exit 2 handles that
-          # case upstream and this guard means a logic error cannot produce a
-          # pull request with nothing in it.
-          add-paths: |
-            site/content/exams/
-            site/content/tracked/
-            README.md
-          title: "pipeline: re-checked official exam notices"
-          commit-message: |
-            pipeline: re-check official exam notices
-
-            Produced by examhub-pipeline. Human-reviewed; not published
-            automatically. Every value in the diff carries a verdict in
-            work/reviews/<timestamp>/report.json.
-          body: |
-            Automated re-check of official notices. **Do not merge without
-            reading the diff.**
-
-            - [ ] The diff is read against the source document, not just
-                  skimmed. Only `verified` values were written; anything the
-              model disbelieved was left alone and flagged in the bundle.
-            - [ ] Any `[OCR page]` value was checked against the scan. Every
-              field on an image-only page is OCR output and can be wrong.
-            - [ ] Any `provisional` status is genuinely a date the body has
-                  published but not fixed.
-            - [ ] `provenance.last_checked` moved, and the record's
-              `provenance.source_url` is still the right document.
-            - [ ] Any new short `title` reads as people search for the exam
-                  (the `names` step log lists each one and where it came from).
-            - [ ] Any deleted record was merged into the one its `aliases` point
-                  from (the `dedupe` step log names each pair).
-
-            Full bundle: the `review-bundle` artifact from this run.
-          labels: |
-            automated
-            needs-review
-
-      - name: No pull request needed
-        if: steps.review.outputs.exit_code == '2' && steps.names.outputs.changed != 'true' && steps.dedupe.outputs.changed != 'true' && steps.wayback.outputs.changed != 'true' && steps.links.outputs.changed != 'true' && steps.aliases.outputs.changed != 'true' && steps.tracked.outputs.changed != 'true'
-        run: echo "Nothing changed. No pull request, which is the point."
+  record:
+    needs: review
+    uses: ./.github/workflows/record.yml
+    permissions:
+      contents: write
+      pull-requests: write
+    with:
+      review_exit: ${{ needs.review.outputs.exit_code }}
