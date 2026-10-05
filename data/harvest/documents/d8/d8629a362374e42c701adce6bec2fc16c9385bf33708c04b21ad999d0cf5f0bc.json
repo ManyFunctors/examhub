@@ -1,0 +1,48 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d8629a362374e42c701adce6bec2fc16c9385bf33708c04b21ad999d0cf5f0bc",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240131140918.pdf",
+  "title": "Extension of Date of Registration for Common University Entrance Test [CUET(PG)] - 2024 Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-pg",
+  "feed": "in-nta/home",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "e1f22810afd633c6a4c4270e7487d2a3ad1a8cfd594a498047957f587c2c1251",
+  "bytes": 1105551,
+  "pages": 1,
+  "chars": 1511,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-05T17:27:02+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "registration_open": {
+   "date": "2023-12-26",
+   "evidence": "Events Existing Dates Revised Dates Online submission of Application Form 26 December 2023 to 31 January 2024",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2024-01-31",
+   "evidence": "Events Existing Dates Revised Dates Online submission of Application Form 26 December 2023 to 31 January 2024",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in",
+   "https://pgcuet.samarth.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2023-12-26",
+   "until": "2024-01-31"
+  }
+ }
+}
