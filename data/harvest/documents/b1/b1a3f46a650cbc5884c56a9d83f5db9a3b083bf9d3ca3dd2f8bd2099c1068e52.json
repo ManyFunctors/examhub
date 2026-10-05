@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "b1a3f46a650cbc5884c56a9d83f5db9a3b083bf9d3ca3dd2f8bd2099c1068e52",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200606130218.pdf",
+  "title": "1751 PUBLIC NOTICE: Extension/Revision of Last Dates of submission of online Application Forms and providing Correction facility (including Centre Cities of Examination etc.) by candidates in Application Form for All India AYUSH Post Graduation Entrance Test (AIAPGET)-2020 Read More",
+  "body": "in-nta",
+  "exam": "in-aiapget",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "ae31e30bf6245059e6247cd4dad8169360f314b43e3083c9d6a6bd0a5390ff2e",
+  "bytes": 141041,
+  "pages": 1,
+  "chars": 2681,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-05T21:53:46+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "registration_open": {
+   "date": "2020-05-06",
+   "evidence": "Activity by the Candidates Schedule Dates Extended/Revised Last Dates Submission of Online Application on NTA website only 06 May, 2020 to 05 June,2020",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2020-06-05",
+   "evidence": "Activity by the Candidates Schedule Dates Extended/Revised Last Dates Submission of Online Application on NTA website only 06 May, 2020 to 05 June,2020",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2020-05-06",
+   "until": "2020-06-05"
+  }
+ }
+}
