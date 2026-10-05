@@ -276,7 +276,7 @@
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "in-cma-final"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "in-cma-foundation"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "in-cma-intermediate"}
-{"cycle": "2026", "documents": 9, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-cmat"}
+{"cycle": "2026", "documents": 10, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-cmat"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-cmi-entrance"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-coal-india-gate-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-coal-india-recruitment"}
@@ -449,7 +449,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-nicl-ao"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-nicl-assistant"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-nid-dat"}
-{"cycle": "2026", "documents": 4, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-nift-entrance"}
+{"cycle": "2026", "documents": 5, "gaps": ["apply", "exam_date", "fee", "exam_pattern"], "id": "in-nift-entrance"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-nimcet"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "in-nios-deled"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "in-nios-secondary"}
@@ -562,7 +562,7 @@
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-tifr-gs"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-uceed"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-uco-recruitment"}
-{"cycle": "2026-06", "documents": 34, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "in-ugc-net"}
+{"cycle": "2026-06", "documents": 35, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "in-ugc-net"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-uiic-ao"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-uiic-assistant"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-union-bank-recruitment"}

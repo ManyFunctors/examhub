@@ -5,7 +5,7 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 4,
+ "documents": 5,
  "documents_in_cycle": 2,
  "fields": {
   "age": {
@@ -25,14 +25,30 @@
     "kind": "corrigendum",
     "page": 1
    }
+  },
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "Scheme/duration/medium/syllabus of examination, programme wise intake, reservation of seats, exam cities, eligibility criteria, education qualification, passing requirements, important dates, etc., relating to the exam are contained in the Prospectus hosted on www.nta.ac.in /…",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "8945173317ca41fb52f1ee7229cff56fb00a0bf107c1b9efb086cdbeb0d4d493",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20240404151738.pdf",
+    "title": "SCHEDULE FOR CONDUCT OF STAGE-II EXAMINATION FOR THE NIFT BACHELOR’S PROGRAMMES (REGULAR, NLEA, ARTISANS) NIFT ADMISSIONS-2024 Read More",
+    "kind": "schedule"
+   },
+   "carried_from": "2024"
   }
  },
  "gaps": [
   "apply",
   "exam_date",
   "fee",
-  "eligibility",
   "exam_pattern"
  ],
- "older_documents": 2
+ "older_documents": 3
 }
