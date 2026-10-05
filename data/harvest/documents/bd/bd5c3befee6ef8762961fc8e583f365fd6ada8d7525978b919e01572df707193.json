@@ -1,0 +1,57 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "bd5c3befee6ef8762961fc8e583f365fd6ada8d7525978b919e01572df707193",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240412173448.pdf",
+  "title": "Inviting Online Applications for Indian Council of Agricultural Research (ICAR) [AIEEA(PG) and AICE JRF/SRF(Ph.D)] Entrance Examinations -2024 Read More",
+  "body": "in-nta",
+  "exam": "in-icar-aice-phd",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "40a42c0e62e4982a525508219f30ef3073e6002537d6dca48965adacb2fecc5f",
+  "bytes": 421229,
+  "pages": 1,
+  "chars": 2241,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-05T16:17:14+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "registration_open": {
+   "date": "2024-04-11",
+   "evidence": "Online submission of application form through website ( https://exams.nta.ac.in/ICAR/ ) 11.04.2024 to 11.05.2024 (Upto 05.00 PM) Last date for successful transaction of fee through credit/debit card/Net banking /UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2024-05-11",
+   "evidence": "Online submission of application form through website ( https://exams.nta.ac.in/ICAR/ ) 11.04.2024 to 11.05.2024 (Upto 05.00 PM) Last date for successful transaction of fee through credit/debit card/Net banking /UPI",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/ICAR/",
+   "https://exams.nta.ac.in/ICAR/only"
+  ],
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2024-04-11",
+   "until": "2024-05-11"
+  }
+ }
+}
