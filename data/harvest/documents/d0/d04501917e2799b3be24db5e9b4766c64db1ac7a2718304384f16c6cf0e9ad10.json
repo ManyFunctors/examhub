@@ -1,0 +1,72 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d04501917e2799b3be24db5e9b4766c64db1ac7a2718304384f16c6cf0e9ad10",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220331195448.pdf",
+  "title": "1321 Public Notice 31 March 2022 Extension of Graduate Aptitude Test-Biotechnology (GAT-B) / Biotechnology Eligibility Test (BET)–2022 Online Application Form Submission. Read More",
+  "body": "in-nta",
+  "exam": "in-gat-b",
+  "feed": "in-nta/notices",
+  "published": "2022-03-31",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "622c567e7dbcc5ccdff187ccc63b982c601230b8cfaaa39a4b5d7098bdb181e2",
+  "bytes": 1057903,
+  "pages": 1,
+  "chars": 2278,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-05T16:33:04+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2022-04-03",
+   "until": "2022-04-07",
+   "evidence": "Graduate Aptitude Test Biotechnology - (GATB) -",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_deadline": {
+   "date": "2022-04-03",
+   "evidence": "Examination Submission of Application Form Online Last date for payment of Application Fee Online Correction in Application Form (correction Window) Graduate Aptitude Test- Biotechnology (GAT-B) Last date of extension upto 03 April 2022 (up",
+   "page": 1,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2022-04-03",
+   "evidence": "Examination Submission of Application Form Online Last date for payment of Application Fee Online Correction in Application Form (correction Window) Graduate Aptitude Test- Biotechnology (GAT-B) Last date of extension upto 03 April 2022 (up",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Graduate Aptitude Test Biotechnology - (GATB) -",
+   "key": "exam_date",
+   "date": "2022-04-03",
+   "page": 1,
+   "until": "2022-04-07"
+  },
+  {
+   "event": "Biotechnology EligibilityTest(BET)",
+   "key": "exam_date",
+   "date": "2022-04-03",
+   "page": 1,
+   "until": "2022-04-07"
+  }
+ ],
+ "links": {
+  "other": [
+   "http://dbt.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2022-04-03"
+  },
+  "exam_date": "2022-04-03"
+ }
+}
