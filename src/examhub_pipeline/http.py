@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import ssl
 import logging
 import random
 import threading
@@ -31,9 +32,17 @@ from pathlib import Path
 from typing import Any, Iterable
 from urllib.parse import urlsplit, urlunsplit
 
+import certifi
 import httpx
 
 from .config import RETRY_STATUSES, Settings
+
+#: Hosts whose server omits an intermediate certificate that is not in the
+#: default trust store. The intermediate is trusted for that host alone.
+EXTRA_CA_FILES: dict[str, Path] = {
+    host: Path(__file__).resolve().parents[2] / "data" / "certs" / "globalsign-rsa-ov-ssl-ca-2018.pem"
+    for host in ("www.ibps.in", "ibps.in")
+}
 
 log = logging.getLogger(__name__)
 
@@ -298,6 +307,8 @@ class RobotsCache:
         # here meant the class could only be exercised with a real one.
         self.throttle = throttle if throttle is not None else getattr(client, "throttle", None)
         self._parsers: dict[str, robotparser.RobotFileParser | None] = {}
+        #: origin -> why its robots.txt could not be read (network or TLS)
+        self.unreadable: dict[str, str] = {}
         self._lock = threading.Lock()
 
     def _origin(self, url: str) -> tuple[str, str]:
@@ -327,6 +338,7 @@ class RobotsCache:
             )
         except FetchError as exc:
             log.warning("could not read %s (%s); treating as disallowed", robots_url, exc)
+            self.unreadable[origin] = str(exc)
             parser = None
         else:
             if response.status == 200:
@@ -389,6 +401,7 @@ class Fetcher:
     cache: DiskCache = field(init=False)
     throttle: HostThrottle = field(init=False)
     client: httpx.Client = field(init=False)
+    _host_clients: dict[str, httpx.Client] = field(init=False, default_factory=dict)
     robots: RobotsCache = field(init=False)
     budget_used: int = 0
     stats: dict[str, int] = field(
@@ -411,8 +424,17 @@ class Fetcher:
             delay=self.settings.host_delay_seconds,
             max_per_host=self.settings.max_per_host,
         )
-        self.client = httpx.Client(
+        self.client = self._new_client()
+        self.robots = RobotsCache(
+            self.settings, self, self.settings.user_agent, self.throttle
+        )
+
+    # -- lifecycle --------------------------------------------------------
+
+    def _new_client(self, verify: ssl.SSLContext | bool = True) -> httpx.Client:
+        return httpx.Client(
             follow_redirects=True,
+            verify=verify,
             timeout=httpx.Timeout(
                 self.settings.timeout_seconds,
                 connect=self.settings.connect_timeout_seconds,
@@ -423,14 +445,23 @@ class Fetcher:
                 "Accept-Language": "en-IN,en;q=0.9",
             },
         )
-        self.robots = RobotsCache(
-            self.settings, self, self.settings.user_agent, self.throttle
-        )
 
-    # -- lifecycle --------------------------------------------------------
+    def _client_for(self, host: str) -> httpx.Client:
+        """The shared client, or one that also trusts the host's extra intermediate."""
+        extra = EXTRA_CA_FILES.get(host)
+        if extra is None:
+            return self.client
+        with self._lock:
+            if host not in self._host_clients:
+                ctx = ssl.create_default_context(cafile=certifi.where())
+                ctx.load_verify_locations(cafile=str(extra))
+                self._host_clients[host] = self._new_client(verify=ctx)
+            return self._host_clients[host]
 
     def close(self) -> None:
         self.client.close()
+        for client in self._host_clients.values():
+            client.close()
 
     def __enter__(self) -> "Fetcher":
         return self
@@ -488,6 +519,10 @@ class Fetcher:
         if check_robots and not self.robots.allowed(url):
             with self._lock:
                 self.stats["denied"] += 1
+            origin = f"{urlsplit(url).scheme}://{host}"
+            why = self.robots.unreadable.get(origin)
+            if why:
+                raise RobotsDenied(f"robots.txt could not be read for {host} ({why[:80]}); not fetched")
             raise RobotsDenied(f"robots.txt disallows {url} for our user-agent")
 
         ttl = self.settings.cache_ttl_seconds if ttl_seconds is None else ttl_seconds
@@ -514,7 +549,7 @@ class Fetcher:
             self.throttle.wait(host)
             try:
                 self._spend(budget if attempt == 0 else False)
-                response = self.client.get(url, headers=headers)
+                response = self._client_for(host).get(url, headers=headers)
             except httpx.HTTPError as exc:
                 last_error = f"{type(exc).__name__}: {exc}"
                 self.throttle.done(host)

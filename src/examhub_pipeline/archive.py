@@ -24,7 +24,7 @@ import httpx
 
 from . import record as record_mod
 from .catalogue import PROJECT_ROOT
-from .config import DEFAULT_CONTACT, USER_AGENT_TEMPLATE
+from .config import Settings
 from .crawl.harvest import HARVEST_DIR, read_jsonl, write_jsonl
 
 EXAMS_DIR = PROJECT_ROOT / "site" / "content" / "exams"
@@ -133,7 +133,7 @@ def run(*, limit: int = 20, dry_run: bool = False, directory: Path = HARVEST_DIR
 
     own = client is None
     client = client or httpx.Client(timeout=120, headers={
-        "User-Agent": USER_AGENT_TEMPLATE.format(contact=DEFAULT_CONTACT)})
+        "User-Agent": Settings.from_env().user_agent})
     saves = 0
     try:
         for url in todo[:limit]:

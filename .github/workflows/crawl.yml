@@ -67,7 +67,6 @@ jobs:
 
       - name: Crawl every feed
         env:
-          EXAMHUB_CONTACT: ${{ secrets.EXAMHUB_CONTACT }}
           EXAMHUB_HTTPCACHE: "0"
           EXAMHUB_HOST_DELAY: "3"
           MOZ_HEADLESS: "1"
@@ -84,7 +83,6 @@ jobs:
         # loop read without OCR. tesseract with the Indic scripts the state
         # bodies print in; `documents build` OCRs only pages with no text.
         env:
-          EXAMHUB_CONTACT: ${{ secrets.EXAMHUB_CONTACT }}
           EXAMHUB_OCR_LANGS: eng+hin
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-hin >/dev/null
@@ -95,7 +93,6 @@ jobs:
         # What each official page, apply link and document really is (file, portal,
         # page), read by the links step in the nightly recheck. Polite, like every crawl.
         env:
-          EXAMHUB_CONTACT: ${{ secrets.EXAMHUB_CONTACT }}
           MOZ_HEADLESS: "1"
         run: uv run scrapy crawl links -s LOG_LEVEL=INFO -s LOG_FILE=work/links.log || true
 
@@ -109,7 +106,6 @@ jobs:
 
       - name: Check catalogue URLs
         env:
-          EXAMHUB_CONTACT: ${{ secrets.EXAMHUB_CONTACT }}
         run: |
           args=()
           if [ -n "${{ inputs.jurisdiction }}" ]; then
@@ -120,7 +116,6 @@ jobs:
       - name: Discover new sources
         if: inputs.discover || github.event_name == 'schedule'
         env:
-          EXAMHUB_CONTACT: ${{ secrets.EXAMHUB_CONTACT }}
           CERTSPOTTER_API_KEY: ${{ secrets.CERTSPOTTER_API_KEY }}
         # daily, about 27 minutes
         run: uv run scrapy crawl discover -s LOG_LEVEL=INFO -s LOG_FILE=work/discover.log || true

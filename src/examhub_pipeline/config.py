@@ -17,17 +17,8 @@ from pathlib import Path
 # Identification
 # --------------------------------------------------------------------------
 
-#: Contact address is intentionally a placeholder. Government sites are
-#: unusually sensitive to unidentified crawlers and several block on a bare
-#: user-agent string. Set EXAMHUB_CONTACT to a real mailbox before running
-#: this against a host that cares.
-DEFAULT_CONTACT = "examhub-maintainer@example.invalid"
-
-#: A real, honest, identifying User-Agent. Not a browser impersonation.
-USER_AGENT_TEMPLATE = (
-    "examhub-pipeline/0.1 (+https://github.com/manyfunctors/examhub; "
-    "contact: {contact}) python-httpx"
-)
+#: A real, honest User-Agent that names the tool. Not a browser impersonation.
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
 
 # --------------------------------------------------------------------------
 # Politeness
@@ -208,7 +199,6 @@ class Settings:
     root: Path = field(default_factory=lambda: Path.cwd())
 
     # -- identity ---------------------------------------------------------
-    contact: str = DEFAULT_CONTACT
 
     # -- politeness -------------------------------------------------------
     host_delay_seconds: float = DEFAULT_HOST_DELAY_SECONDS
@@ -285,7 +275,7 @@ class Settings:
 
     @property
     def user_agent(self) -> str:
-        return USER_AGENT_TEMPLATE.format(contact=self.contact)
+        return USER_AGENT
 
     def ensure_dirs(self) -> None:
         for path in (
@@ -302,7 +292,7 @@ class Settings:
         """Build settings from ``EXAMHUB_*`` env vars, then ``overrides``.
 
         Recognised: ``EXAMHUB_REPO_DIR``, ``EXAMHUB_WORK_DIR``,
-        ``EXAMHUB_CACHE_DIR``, ``EXAMHUB_CONTACT``, ``EXAMHUB_HOST_DELAY``,
+        ``EXAMHUB_CACHE_DIR``, ``EXAMHUB_HOST_DELAY``,
         ``EXAMHUB_RESPECT_ROBOTS``, ``EXAMHUB_LAYA_MODEL``,
         ``EXAMHUB_LAYA_MAX_LEN``, ``EXAMHUB_ENABLE_MODEL``,
         ``EXAMHUB_ENABLE_OCR``, ``EXAMHUB_OCR_LANGS``, ``EXAMHUB_TORCH_THREADS``.
@@ -330,7 +320,6 @@ class Settings:
                 data[attr] = value
 
         for env_name, attr, caster in (
-            ("EXAMHUB_CONTACT", "contact", str),
             ("EXAMHUB_HOST_DELAY", "host_delay_seconds", float),
             ("EXAMHUB_LAYA_MODEL", "laya_model", str),
             ("EXAMHUB_LAYA_MAX_LEN", "laya_max_len", int),

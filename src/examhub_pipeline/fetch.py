@@ -27,7 +27,7 @@ from .config import Settings
 from .extract import ExtractedDoc, ExtractionError, extract_bytes, html_to_text
 from .http import BudgetExhausted, Fetcher, FetchError, RobotsDenied, canonical
 from .sources import (
-    SEED_SOURCES,
+    all_sources,
     NoticeRef,
     Source,
     classify_links,
@@ -168,7 +168,7 @@ class Pipeline:
         self, sources: Sequence[Source] | None = None
     ) -> dict[str, list[NoticeRef]]:
         out: dict[str, list[NoticeRef]] = {}
-        for source in sources if sources is not None else SEED_SOURCES:
+        for source in sources if sources is not None else all_sources():
             refs, _ = self.discover(source)
             out[source.key] = refs
         return out
@@ -489,15 +489,15 @@ def _safe_name(url: str) -> str:
 def resolve_sources(keys: Sequence[str] | None) -> list[Source]:
     """Turn ``--source ssc --source upsc`` into Source objects."""
     if not keys:
-        return list(SEED_SOURCES)
+        return list(all_sources())
     out: list[Source] = []
     for key in keys:
         source = get_source(key)
         if source is None:
-            matches = [s for s in SEED_SOURCES if key.lower() in s.name.lower()]
+            matches = [s for s in all_sources() if key.lower() in s.name.lower()]
             if not matches:
                 raise SystemExit(f"unknown source {key!r}; try: "
-                                 f"{', '.join(s.key for s in SEED_SOURCES)}")
+                                 f"{', '.join(s.key for s in all_sources())}")
             out.extend(matches)
         else:
             out.append(source)

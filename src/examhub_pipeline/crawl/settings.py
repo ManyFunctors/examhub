@@ -4,21 +4,20 @@ import os
 import shutil
 from pathlib import Path
 
-from ..config import DEFAULT_CONTACT
+from .. import config
+
 
 BOT_NAME = "examhub"
 SPIDER_MODULES = ["examhub_pipeline.crawl.spiders"]
 NEWSPIDER_MODULE = "examhub_pipeline.crawl.spiders"
 
-CONTACT = os.environ.get("EXAMHUB_CONTACT", DEFAULT_CONTACT)
 # Identify honestly, but in a shape government WAFs accept. Measured on
 # 2026-09-29 against upsc.gov.in and *.nta.nic.in: a bare product token
 # passes, while anything bot-shaped -- "bot" in the name, a parenthesised URL
 # or contact -- gets 403 on every path including robots.txt. The contact goes
 # in the From header instead, which is what RFC 9110 section 10.1.2 has it for.
-USER_AGENT = "examhub-pipeline/0.2"
+USER_AGENT = config.USER_AGENT
 DEFAULT_REQUEST_HEADERS = {
-    "From": CONTACT,
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.8,*/*;q=0.7",
     "Accept-Language": "en-IN,en;q=0.9",
 }
