@@ -31,6 +31,7 @@ jobs:
       - name: Install the pipeline
         run: |
           uv python install 3.12
+          uv venv --python 3.12
           uv pip install -e '.[crawl]'
 
       - name: Plan the loops
@@ -65,6 +66,7 @@ jobs:
       - name: Install the pipeline
         run: |
           uv python install 3.12
+          uv venv --python 3.12
           uv pip install -e '.[crawl]'
 
       - name: Fetch and extract this loop's feeds
@@ -120,6 +122,9 @@ jobs:
           uv pip install -e '.[crawl,model,ocr,dev]'
 
       - name: Download every loop's downloads
+        # With no loop artifacts the merge below finds nothing and the run ends
+        # without changes, rather than failing here.
+        continue-on-error: true
         uses: actions/download-artifact@v8
         with:
           pattern: loop-*
@@ -127,6 +132,8 @@ jobs:
 
       - name: Merge the loops into one work directory
         run: |
+          # No loop may have produced artifacts; merge what there is, and say so.
+          mkdir -p loops
           uv run python -c "
           import json, sys
           from pathlib import Path
