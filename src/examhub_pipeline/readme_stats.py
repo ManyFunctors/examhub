@@ -41,6 +41,12 @@ def table(exams_dir: Path = EXAMS_DIR, directory: Path = HARVEST_DIR) -> str:
     return "\n".join(lines)
 
 
+def _shown_count(text: str, label: str) -> int | None:
+    """The number the README shows on a row, e.g. ``56,000+`` -> 56000."""
+    m = re.search(rf"\| {re.escape(label)} \| ([\d,]+)\+? \|", text)
+    return int(m.group(1).replace(",", "")) if m else None
+
+
 def fill(readme: Path = README, *, apply: bool = False, exams_dir: Path = EXAMS_DIR,
          directory: Path = HARVEST_DIR, log: Callable[[str], None] = print) -> int:
     """Replace the stats table. Returns 1 if it changed, 0 if not."""
@@ -49,6 +55,14 @@ def fill(readme: Path = README, *, apply: bool = False, exams_dir: Path = EXAMS_
         log("readme_stats: no stats:start/stats:end markers found; nothing to do")
         return 0
     new_table = table(exams_dir, directory)
+    # A copy of the notices that is only partly present must not shrink the figure
+    # the README already shows: keep the larger of the two.
+    shown = _shown_count(text, "Notices seen so far")
+    fresh = _shown_count(new_table, "Notices seen so far")
+    if shown is not None and fresh is not None and fresh < shown:
+        log(f"readme_stats: kept {shown:,}+ notices; this run only sees {fresh:,}+")
+        new_table = re.sub(r"(\| Notices seen so far \| )[^|]*\|",
+                           lambda m: f"{m.group(1)}{shown:,}+ |", new_table)
     new_text = _MARKERS.sub(lambda m: m.group(1) + new_table + m.group(2), text, count=1)
     if new_text == text:
         log("readme_stats: unchanged")

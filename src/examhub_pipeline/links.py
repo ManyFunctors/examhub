@@ -122,8 +122,12 @@ def fix(rec: dict, cat, checks: dict[str, dict] | None = None) -> list[str]:
         new_official = named[0]
     elif official and kind(official, checks) in ("page", "unknown"):
         new_official = official
-    else:
+    elif checks or (official and kind(official, checks) == "file"):
+        # A file as the official page is always wrong, so it is replaced even unchecked.
         new_official = official_page(rec, cat) or official
+    else:
+        # No link checks and the page is not a file: the catalogue's page is a guess, so keep it.
+        new_official = official
 
     # every link not placed stays, as a document
     for u in urls:
