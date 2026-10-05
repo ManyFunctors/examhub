@@ -1,0 +1,91 @@
+# Per-jurisdiction loops over the catalogue's notice feeds.
+#
+# `loop-plan` splits the active HTML feeds into chunks of at most 20, one CI
+# job each, so a slow state only delays its own loop. Each loop fetches and
+# extracts its feeds (no model, no record writes) and uploads what it found.
+# The aggregate step that merges the loops and opens the pull request is not
+# built yet, so this workflow runs only when started by hand.
+name: loops
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      loops: ${{ steps.plan.outputs.loops }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10.2.0
+
+      - name: Install the pipeline
+        run: |
+          uv python install 3.12
+          uv pip install -e '.[crawl]'
+
+      - name: Plan the loops
+        id: plan
+        run: |
+          loops=$(uv run python -m examhub_pipeline loop-plan)
+          echo "loops=$loops" >> "$GITHUB_OUTPUT"
+          echo "$loops" | python3 -c "import json,sys; print(len(json.load(sys.stdin)), 'loops')"
+
+  loop:
+    needs: plan
+    runs-on: ubuntu-latest
+    # 20 is the Free plan's concurrent-job limit (docs.github.com/en/actions/reference/limits).
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        include: ${{ fromJSON(needs.plan.outputs.loops) }}
+    name: loop ${{ matrix.bucket }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10.2.0
+        with:
+          enable-cache: true
+
+      - name: Install the pipeline
+        run: |
+          uv python install 3.12
+          uv pip install -e '.[crawl]'
+
+      - name: Fetch and extract this loop's feeds
+        env:
+          EXAMHUB_CACHE_DIR: .cache/http
+        run: |
+          SOURCE_ARGS=()
+          IFS=',' read -ra KEYS <<< "${{ matrix.sources }}"
+          for k in "${KEYS[@]}"; do [ -n "$k" ] && SOURCE_ARGS+=(--source "$k"); done
+          uv run python -m examhub_pipeline run \
+            "${SOURCE_ARGS[@]}" \
+            --no-model \
+            --run-limit 4 \
+            --max-requests 60 \
+            --host-delay 5 || true
+
+      - name: Upload what this loop found
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: loop-${{ matrix.bucket }}
+          path: work/
+          retention-days: 3
+          if-no-files-found: ignore
