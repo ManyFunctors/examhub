@@ -183,3 +183,30 @@ def tonight_sources(exams_dir: Path = EXAMS_DIR, within_days: int = 5, cap: int 
             if key not in picked:
                 picked.append(key)
     return picked
+
+
+#: Most feeds one loop checks. A big state is split so no job nears the 6-hour limit.
+LOOP_MAX_FEEDS = 20
+
+
+def loop_plan(cat=None) -> list[dict[str, str]]:
+    """Loops of active HTML feeds, as ``--source`` keys: one per jurisdiction,
+    split into chunks of at most LOOP_MAX_FEEDS.
+
+    A loop is one CI job, so a slow state's feeds only delay that state's loop.
+    """
+    from . import catalogue as catalogue_mod
+
+    cat = cat or catalogue_mod.load()
+    buckets: dict[str, list[str]] = {}
+    for fid, feed in sorted(cat.feeds.items()):
+        if feed.get("status") != "active" or feed.get("adapter") != "html_links":
+            continue
+        body = cat.bodies.get(feed.get("body") or "") or {}
+        buckets.setdefault(body.get("jurisdiction") or "other", []).append(fid)
+    plan = []
+    for j, fids in sorted(buckets.items()):
+        for n, start in enumerate(range(0, len(fids), LOOP_MAX_FEEDS), 1):
+            name = j if len(fids) <= LOOP_MAX_FEEDS else f"{j}-{n}"
+            plan.append({"bucket": name, "sources": ",".join(fids[start:start + LOOP_MAX_FEEDS])})
+    return plan

@@ -1056,6 +1056,8 @@ def build_parser() -> argparse.ArgumentParser:
     _add_common(p)
     p.set_defaults(func=cmd_sources)
 
+    sub.add_parser("loop-plan", help="one CI loop per jurisdiction, as JSON").set_defaults(
+        func=cmd_loop_plan)
     p = sub.add_parser("due-sources",
                         help="which seed sources are worth re-checking tonight (exams with a date coming up)")
     p.add_argument("--within-days", type=int, default=5,
@@ -1130,6 +1132,16 @@ def cmd_due_sources(args: argparse.Namespace) -> int:
     keys = priority.tonight_sources(within_days=args.within_days, cap=args.cap,
                                     rotation=not args.no_rotation)
     _echo(",".join(keys))
+    return EXIT_OK
+
+
+def cmd_loop_plan(args: argparse.Namespace) -> int:
+    """One JSON list of {bucket, sources}: a CI job per bucket."""
+    import json
+
+    from . import priority
+
+    _echo(json.dumps(priority.loop_plan()))
     return EXIT_OK
 
 
