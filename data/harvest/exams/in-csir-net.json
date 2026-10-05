@@ -5,9 +5,31 @@
  "body": "in-nta",
  "purpose": "eligibility",
  "cycle": "2026-06",
- "documents": 11,
- "documents_in_cycle": 2,
+ "documents": 12,
+ "documents_in_cycle": 3,
  "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2026-07-17",
+    "source": {
+     "notice": "97744767217d7498261a881934819589c477911be575e1732ac8d0c3645094f5",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20260718195817.pdf",
+     "title": "NTA Successfully Conducts Joint CSIR-UGC NET June 2026 Examination Across the Nation Read More",
+     "kind": "schedule",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2026-07-17",
+   "source": {
+    "notice": "97744767217d7498261a881934819589c477911be575e1732ac8d0c3645094f5",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20260718195817.pdf",
+    "title": "NTA Successfully Conducts Joint CSIR-UGC NET June 2026 Examination Across the Nation Read More",
+    "kind": "schedule",
+    "page": 1
+   }
+  },
   "eligibility": {
    "value": {
     "clauses": [
@@ -32,7 +54,6 @@
  },
  "gaps": [
   "apply",
-  "exam_date",
   "fee",
   "exam_pattern"
  ],
