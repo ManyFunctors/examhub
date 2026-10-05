@@ -189,7 +189,7 @@ def tonight_sources(exams_dir: Path = EXAMS_DIR, within_days: int = 5, cap: int 
 LOOP_MAX_FEEDS = 20
 
 
-def loop_plan(cat=None) -> list[dict[str, str]]:
+def loop_plan(cat=None, seeds=None) -> list[dict[str, str]]:
     """Loops of active HTML feeds, as ``--source`` keys: one per jurisdiction,
     split into chunks of at most LOOP_MAX_FEEDS.
 
@@ -197,13 +197,21 @@ def loop_plan(cat=None) -> list[dict[str, str]]:
     """
     from . import catalogue as catalogue_mod
 
+    seeds = SEED_SOURCES if seeds is None else seeds
     cat = cat or catalogue_mod.load()
     buckets: dict[str, list[str]] = {}
+    catalogue_urls = set()
     for fid, feed in sorted(cat.feeds.items()):
         if feed.get("status") != "active" or feed.get("adapter") != "html_links":
             continue
+        catalogue_urls.add(feed.get("url"))
         body = cat.bodies.get(feed.get("body") or "") or {}
         buckets.setdefault(body.get("jurisdiction") or "other", []).append(fid)
+    # Hand-written seeds whose notices page no catalogue feed covers. Without
+    # them the big national bodies (UPSC, SSC, RBI) were in no loop at all.
+    for seed in seeds:
+        if seed.notices_url not in catalogue_urls:
+            buckets.setdefault("seeds", []).append(seed.key)
     plan = []
     for j, fids in sorted(buckets.items()):
         for n, start in enumerate(range(0, len(fids), LOOP_MAX_FEEDS), 1):
