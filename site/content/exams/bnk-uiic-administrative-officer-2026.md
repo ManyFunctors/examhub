@@ -330,13 +330,7 @@ training_offered_for          = 'unknown'
 [links]
 link_official_page = 'https://uiic.co.in/'
 link_apply         = 'https://uiic.co.in/web/careers/recruitment'
-
-  [[links.documents]]
-  document_type      = 'other'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://uiic.co.in/web/careers/recruitment'
-  document_archive   = 'not_archived'
+documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

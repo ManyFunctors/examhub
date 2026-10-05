@@ -339,13 +339,7 @@ training_offered_for          = 'unknown'
 [links]
 link_official_page = 'https://nationalinsurance.nic.co.in/'
 link_apply         = 'https://nationalinsurance.nic.co.in/recruitment/'
-
-  [[links.documents]]
-  document_type      = 'other'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://nationalinsurance.nic.co.in/recruitment/'
-  document_archive   = 'not_archived'
+documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
