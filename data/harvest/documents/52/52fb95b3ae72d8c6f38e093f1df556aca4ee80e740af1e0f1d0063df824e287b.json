@@ -1,0 +1,35 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "52fb95b3ae72d8c6f38e093f1df556aca4ee80e740af1e0f1d0063df824e287b",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220808155426.pdf",
+  "title": "1196 PUBLIC NOTICE 08 August 2022 Subject: Announcement of Examination Dates for Common University Entrance Test [CUET (PG) -2022] – Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-pg",
+  "feed": "in-nta/notices",
+  "published": "2022-08-08",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "a553d22cbb2a1f20615e6aea2fff741874a4ba05e12f56f85e8e44e0e3f07560",
+  "bytes": 1306268,
+  "pages": 2,
+  "chars": 3574,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-05T23:33:29+05:30"
+ },
+ "kind": "admit_card",
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in",
+   "https://cuet.nta.nic.in/"
+  ]
+ }
+}
