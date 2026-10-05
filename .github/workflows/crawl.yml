@@ -105,7 +105,6 @@ jobs:
         run: uv run python -m examhub_pipeline.crawl.notify
 
       - name: Check catalogue URLs
-        env:
         run: |
           args=()
           if [ -n "${{ inputs.jurisdiction }}" ]; then

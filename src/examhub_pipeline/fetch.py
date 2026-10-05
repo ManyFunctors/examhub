@@ -27,9 +27,9 @@ from .config import Settings
 from .extract import ExtractedDoc, ExtractionError, extract_bytes, html_to_text
 from .http import BudgetExhausted, Fetcher, FetchError, RobotsDenied, canonical
 from .sources import (
-    all_sources,
     NoticeRef,
     Source,
+    all_sources,
     classify_links,
     get_source,
 )

@@ -6,7 +6,6 @@ from pathlib import Path
 
 from .. import config
 
-
 BOT_NAME = "examhub"
 SPIDER_MODULES = ["examhub_pipeline.crawl.spiders"]
 NEWSPIDER_MODULE = "examhub_pipeline.crawl.spiders"
