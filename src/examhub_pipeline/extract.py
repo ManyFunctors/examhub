@@ -246,6 +246,10 @@ def _pymupdf():
     try:
         import pymupdf  # noqa: F401
 
+        # Layout analysis (reading order, tables, headers). Importing it
+        # switches PyMuPDF's page analysis over to the layout engine.
+        import pymupdf.layout  # noqa: F401
+
         return pymupdf
     except Exception:
         try:
