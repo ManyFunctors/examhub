@@ -1,0 +1,52 @@
+{
+ "schema": 1,
+ "exam": "in-nta-national-institute-of-fashion-technology",
+ "name": "NIFT Entrance Examination",
+ "body": "in-nta",
+ "purpose": "admission",
+ "cycle": "2025",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2025-02-09",
+    "source": {
+     "notice": "bd62df45869df2184b01ba020d14611a9d0e266fdf8de5e842f19ca8fa6aa6ff",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20250131124421.pdf",
+     "title": "Advance Intimation for Allotment of Examination City to the Applicants of National Institute of Fashion Technology Entrance Examination (NIFTEE) - 2025- Reg. Read More",
+     "kind": "admit_card",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2025-02-09",
+   "source": {
+    "notice": "bd62df45869df2184b01ba020d14611a9d0e266fdf8de5e842f19ca8fa6aa6ff",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20250131124421.pdf",
+    "title": "Advance Intimation for Allotment of Examination City to the Applicants of National Institute of Fashion Technology Entrance Examination (NIFTEE) - 2025- Reg. Read More",
+    "kind": "admit_card",
+    "page": 1
+   }
+  },
+  "apply_links": {
+   "value": [
+    "https://exams.nta.ac.in/NIFT/"
+   ],
+   "source": {
+    "notice": "bd62df45869df2184b01ba020d14611a9d0e266fdf8de5e842f19ca8fa6aa6ff",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20250131124421.pdf",
+    "title": "Advance Intimation for Allotment of Examination City to the Applicants of National Institute of Fashion Technology Entrance Examination (NIFTEE) - 2025- Reg. Read More",
+    "kind": "admit_card"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}
