@@ -1,0 +1,49 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "984c1e2cdda00a1743b78d302faf828602364195578b802e55a40da2bd0de715",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20190909092652.pdf",
+  "title": "1842 Public Notice for CSIR-UGC NET December 2019 Read More",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "64abf137ae4545a9bb672f17cac4ef404a7cd827e6ff6fd6d6eada54a615f0f0",
+  "bytes": 63790,
+  "pages": 1,
+  "chars": 1594,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-06T09:26:00+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "exam_date": {
+   "date": "2019-12-15",
+   "evidence": "The NTA will conduct the next CSIR-UGC NET for Junior Research Fellowship and eligibility for Lecturership (LS)/Assistant Professorship on 15 December 2019 for following subjects",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  },
+  "duration": {
+   "value": "Shift Timing Duration *Shift - 1 (Morning)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.ntacsirnet.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2019-12-15"
+ }
+}
