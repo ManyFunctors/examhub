@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "fd93c0fa067de1f701008d662073bab3bff020e09592b7aa4f1555c1914d6b2a",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240523173116.pdf",
+  "title": "Kind Attention to the Candidates of Silchar, Assam who will be appearing for the CUET (UG) - 2024 – reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "29d4144d8a2c89ebebfc5957b486befc892b9f360c80945a537f73d5190f6b0d",
+  "bytes": 1166202,
+  "pages": 1,
+  "chars": 2488,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-06T22:41:57+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2024-05-24",
+   "evidence": "Due to logistical constraints, some candidates were assigned their examination Centres outside Silchar for Bengali (104) and Environmental Studies (307) test papers to be conducted in CBT mode on 24 May 2024",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/CUET-UG/"
+  ],
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2024-05-24"
+ }
+}
