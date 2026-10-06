@@ -5,7 +5,7 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 18,
+ "documents": 19,
  "documents_in_cycle": 9,
  "fields": {
   "eligibility": {
@@ -15,22 +15,18 @@
     ],
     "clauses": [
      {
-      "text": "Subjects/Discipline Eligibility Qualifications for SAUs/CAUs etc (4/5/6 years Bachelor degree in) Alternate Eligibility Qualification for",
+      "text": "Subject of specialization Eligibility Qualifications for SAUs / CAUs etc. and/or ICAR-DUs (Master’s Degree in) Additional Eligibility Qualification at Bachelor’s level for",
       "page": 1
-     },
-     {
-      "text": "and/or ICAR-DUs (Master’s Degree in) Additional Eligibility Qualification at Bachelors level for",
-      "page": 2
      }
     ]
    },
    "source": {
-    "notice": "c7428e2d50d11aec94e6575ae41805a03e1607d569f3a6cd151c8af038651f5f",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20220819154438.pdf",
-    "title": "1186 PUBLIC NOTICE 16.08.2022 Re: Corrigendum to the Information Bulletin regarding ICAR Entrance Exams for admission to PG and Ph.D programmes for the academic year 2022-23 Read More",
-    "kind": "corrigendum"
+    "notice": "acc0e74ec7b9aa4cfc13e4530bdf9348640578569bb39d04aa289e9ea1f5e54e",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20230615174035.pdf",
+    "title": "944 Public Notice for Incorporation, Corrections in PhD Information Bulletin for ICAR(PhD)-2023 Read More",
+    "kind": "brochure"
    },
-   "carried_from": "2022"
+   "carried_from": "2023"
   }
  },
  "gaps": [
@@ -39,5 +35,5 @@
   "fee",
   "exam_pattern"
  ],
- "older_documents": 9
+ "older_documents": 10
 }
