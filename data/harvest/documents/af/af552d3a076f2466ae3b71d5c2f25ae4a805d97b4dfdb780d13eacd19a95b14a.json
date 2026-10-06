@@ -1,0 +1,28 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "af552d3a076f2466ae3b71d5c2f25ae4a805d97b4dfdb780d13eacd19a95b14a",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210820233127.pdf",
+  "title": "1484 NEET(UG) 2021 : Instructions on How to fill in OMR Answer Sheet Read More",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "95400a3e17ac41141f1cfdc124edbcc305d002d4de48e28b5da8f50a7119f18a",
+  "bytes": 890392,
+  "pages": 6,
+  "chars": 2431,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-06T17:32:14+05:30"
+ },
+ "kind": "admit_card",
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 1
+  }
+ }
+}
