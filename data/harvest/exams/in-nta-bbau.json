@@ -5,8 +5,8 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2023",
- "documents": 6,
- "documents_in_cycle": 3,
+ "documents": 7,
+ "documents_in_cycle": 4,
  "fields": {
   "dates": {
    "correction_window": {
@@ -66,24 +66,47 @@
   },
   "eligibility": {
    "value": {
+    "education_levels": [
+     "Doctorate",
+     "Graduate"
+    ],
     "clauses": [
      {
-      "text": "Candidates who desire to appear in BBAU Entrance Test-2021 may apply online on the website https://bbauet.nta.nic.in, www.nta.ac.in and the details of Course Code, Eligibility Criteria, Course Structure etc. are available on the Information Bulletin",
+      "text": "admission, “A candidate seeking admission after a 4-year/8-semester bachelor’s degree programme should have a minimum of 75% marks in aggregate or its equivalent grade on a point scale wherever the grading system is followed”, is eligible for Ph.D. admission",
       "page": 1
      },
      {
-      "text": "Before applying for BBAU Entrance Test-2021, candidates are advised to check the eligibility criteria required by the University for a desired Programme",
-      "page": 1
+      "text": "HUPH07 a) Master’s degree in the concerned subject OR (ii) Master’s degree in any one of the allied subjects. b) Qualifying Marks: At least 55% in the aggregate or equivalent grade point average in the qualifying examination",
+      "page": 2
+     },
+     {
+      "text": "HUPH03 a) Master’s degree in the concerned subject OR (ii) Master’s degree in any one of the allied subjects. b) Qualifying Marks: At least 55% in the aggregate or equivalent grade point average in the qualifying examination",
+      "page": 2
+     },
+     {
+      "text": "HUPH05 a) Master’s degree in the concerned subject OR (ii) Master’s degree in any one of the allied subjects. b) Qualifying Marks: At least 55% in the aggregate or equivalent grade point average in the qualifying examination",
+      "page": 2
+     },
+     {
+      "text": "ACPH02 (a) Master’s degree in the concerned discipline from a recognized University OR (b) Master’s degree in any discipline and having passed any one of the following examinations other than Performing Arts: (i) Sangeet Nipun Examination of Bhatkhande Vidyapeeth, Lucknow",
+      "page": 2
+     },
+     {
+      "text": "ACPH02 (a) Master’s degree in the concerned discipline from a recognized University OR (b) Master’s degree in any discipline and having passed any one of the following examinations other than Performing Arts: (i) Sangeet Nipun Examination of Bhatkhande Vidyapeeth, Lucknow",
+      "page": 3
+     },
+     {
+      "text": "ACPH05 (a) Master’s degree in the concerned discipline from a recognized University OR (b) Master’s degree in any discipline and having passed any one of the following examinations other than Performing Arts: (i) Sangeet Nipun Examination of Bhatkhande Vidyapeeth, Lucknow",
+      "page": 3
      }
     ]
    },
    "source": {
-    "notice": "4e3891b11f5f138f8793ba5ea5afbc4a73cba0c46cc0b8817255f08ed27dcf79",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20210814163728.pdf",
-    "title": "1492 Public Notice Dated: 14.08.2021 BABASAHEB BHIMRAO AMBEDKAR UNIVERSITY (BBAU) ENTRANCE TEST - 2021 Read More",
-    "kind": "brochure"
-   },
-   "carried_from": "2021"
+    "notice": "b9c5b45729dc9fa2843d9cf1c6acb9fbaa069dc21a8f07a98a4affd5487bd4c8",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20230905123248.pdf",
+    "title": "868 Addition/Amendment of courses and Eligibility in Ph.D. Entrance Test for DU, JNU, BHU and BBAU - 2023. Read More",
+    "kind": "schedule"
+   }
   }
  },
  "gaps": [
