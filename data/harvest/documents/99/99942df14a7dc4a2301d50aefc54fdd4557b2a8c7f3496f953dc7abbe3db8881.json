@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "99942df14a7dc4a2301d50aefc54fdd4557b2a8c7f3496f953dc7abbe3db8881",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240517202355.pdf",
+  "title": "Press Release 16 May 2024 / 26 वैशाख 1946 Conduct of the Day 2 of the CUET (UG) – 2024 – reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/home",
+  "published": "2024-05-16",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "bfadeb62a004bce19ccac3381c62148dfa286f5398a43b80dc4bc7870b5da047",
+  "bytes": 929236,
+  "pages": 2,
+  "chars": 3752,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-07T01:14:50+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2024-05-15",
+   "evidence": "General Test (501) 80%",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Chemistry (306) 79%",
+   "date": "2024-05-15",
+   "page": 1
+  },
+  {
+   "event": "Biology (304) 79%",
+   "date": "2024-05-15",
+   "page": 1
+  },
+  {
+   "event": "English (101) 76%",
+   "date": "2024-05-15",
+   "page": 1
+  },
+  {
+   "event": "General Test (501) 80%",
+   "key": "exam_date",
+   "date": "2024-05-15",
+   "page": 1
+  },
+  {
+   "event": "Economics (309) 85%",
+   "date": "2024-05-16",
+   "page": 1
+  },
+  {
+   "event": "Hindi (102) 78%",
+   "date": "2024-05-16",
+   "page": 1
+  },
+  {
+   "event": "Physics (322) 77%",
+   "date": "2024-05-16",
+   "page": 1
+  },
+  {
+   "event": "Mathematics/Applied 78%",
+   "date": "2024-05-16",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/CUET-UG/"
+  ],
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2024-05-15"
+ }
+}
