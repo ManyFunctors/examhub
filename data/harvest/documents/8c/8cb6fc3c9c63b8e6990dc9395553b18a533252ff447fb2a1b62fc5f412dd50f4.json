@@ -1,0 +1,54 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "8cb6fc3c9c63b8e6990dc9395553b18a533252ff447fb2a1b62fc5f412dd50f4",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240125111055.pdf",
+  "title": "766 Examination Date & Schedule for National Initiative for Technical Teachers Training (NITTT) Examination February 2024 Read More",
+  "body": "in-nta",
+  "exam": "in-nta-nittt",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "6fc2dfebd645528e2b359f4a7566b9dba69a54e7fe1572aa4713ddd715db442a",
+  "bytes": 1193548,
+  "pages": 2,
+  "chars": 3954,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-06T08:16:04+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2024-02-07",
+   "evidence": "Date and timing of the mock test",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Date and timing of the mock test",
+   "key": "exam_date",
+   "date": "2024-02-07",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "duration": {
+   "value": "Duration 3 hour (180 minutes) Timings Exams will be held in two shifts per day",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://nittt.nta.ac.in/",
+   "https://www.nta.ac.in",
+   "https://nittt.ac.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2024-02-07"
+ }
+}
