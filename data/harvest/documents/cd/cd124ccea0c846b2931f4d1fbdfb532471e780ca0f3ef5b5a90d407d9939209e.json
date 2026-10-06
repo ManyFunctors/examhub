@@ -1,0 +1,78 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "cd124ccea0c846b2931f4d1fbdfb532471e780ca0f3ef5b5a90d407d9939209e",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230920175649.pdf",
+  "title": "863 Extension of Registration Datesof Study Webs of Active Learning for Young Aspiring Minds (SWAYAM) January 2023 Semester Exam Read More",
+  "body": "in-nta",
+  "exam": "in-nta-swayam",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "a86cc1e0c62e8d30c6963b5be0ae97a9ef18d981e5cad70582a14e583b553610",
+  "bytes": 87984,
+  "pages": 1,
+  "chars": 1727,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-06T09:06:35+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "correction_window": {
+   "date": "2023-09-25",
+   "until": "2023-09-28",
+   "evidence": "Correction in particulars",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_open": {
+   "date": "2023-08-31",
+   "evidence": "Activity Existing Last Date(s) Revised Last Date(s) Online submission of Application Form 31 August 2023 to 20 September 2023",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2023-09-20",
+   "evidence": "Activity Existing Last Date(s) Revised Last Date(s) Online submission of Application Form 31 August 2023 to 20 September 2023",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Online submission of Application Form",
+   "date": "2023-08-31",
+   "page": 1,
+   "until": "2023-09-20"
+  },
+  {
+   "event": "Successful final transaction offee",
+   "date": "2023-09-21",
+   "page": 1,
+   "until": "2023-09-25"
+  },
+  {
+   "event": "Correction in particulars",
+   "key": "correction_window",
+   "date": "2023-09-25",
+   "page": 1,
+   "until": "2023-09-28"
+  }
+ ],
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://swayam.nta.ac.in/",
+   "https://nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2023-08-31",
+   "until": "2023-09-20"
+  }
+ }
+}
