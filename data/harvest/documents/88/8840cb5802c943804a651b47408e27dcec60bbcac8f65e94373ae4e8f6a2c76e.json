@@ -1,0 +1,51 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "8840cb5802c943804a651b47408e27dcec60bbcac8f65e94373ae4e8f6a2c76e",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240521215915.pdf",
+  "title": "Re-opening the Registration for Online Application Forms of the Indian Council of Agricultural Research (ICAR) [AIEEA(PG) and AICE JRF/SRF(Ph.D)] Entrance Examinations -2024. Read More",
+  "body": "in-nta",
+  "exam": "in-icar-aice-phd",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "af0dda09ad1cb6803ae926e4aaebbdb2b29b66afff27bb7fabda3d570d71e598",
+  "bytes": 286931,
+  "pages": 1,
+  "chars": 2266,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-06T06:57:30+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "registration_deadline": {
+   "date": "2024-05-23",
+   "evidence": "Examination Last date for Submission of Last date for payment of Online Application Form Online Application Fee ICAR- [AIEEA(PG) and AICE JRF/SRF(Ph.D)] 23rd May 2024(Upto 11.50 PM) 23rd May 2024(Upto 11.50 PM)",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "ICAR [AIEEA(PG) and AICE - JRF/SRF(Ph D)] .",
+   "date": "2024-05-23",
+   "page": 1
+  }
+ ],
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/ICAR/",
+   "https://exams.nta.ac.in/ICAR/for"
+  ],
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2024-05-23"
+  }
+ }
+}
