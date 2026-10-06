@@ -1,0 +1,40 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "87524b6be502306194b4cac7501f3e82af2b54d9e801cfefe0af3924d60ad5b0",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220708142301.pdf",
+  "title": "1233 Public Notice 08 July 2022 Postponement of Examination for Telugu (27) and Marathi (38) of UGC-NET December 2021 and June 2022 (merged cycles). Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "published": "2022-07-08",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "a8d70fe02c603c929668159f702ae5dbc5621b54009de26b3808ff05b7d3c8c3",
+  "bytes": 1017524,
+  "pages": 1,
+  "chars": 1161,
+  "ocr": false,
+  "indic_share": 0.07,
+  "fetched": "2026-10-06T22:28:36+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2022-07-09",
+   "evidence": "The Examination for Telugu and Marathi of UGC-NET December 2021 and June 2022 (merged cycles) was scheduled to be held on 09 July 2022",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://ugcnet.nta.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-07-09"
+ }
+}
