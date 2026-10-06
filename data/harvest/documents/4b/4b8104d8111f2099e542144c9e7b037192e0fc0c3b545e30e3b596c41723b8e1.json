@@ -1,0 +1,37 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "4b8104d8111f2099e542144c9e7b037192e0fc0c3b545e30e3b596c41723b8e1",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20211225124801.pdf",
+  "title": "1373 PUBLIC NOTICE 25 December 2021 Examination Date & Schedule for Study Webs of Active–Learning for Young Aspiring Minds (SWAYAM) July 2021 Semester Examinations Read More",
+  "body": "in-nta",
+  "exam": "in-nta-swayam",
+  "feed": "in-nta/notices",
+  "published": "2021-12-25",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "cd07b29078f809a8973033c3fc11d379f2e890be80a9024a7354d5467d5ecc9f",
+  "bytes": 1424818,
+  "pages": 10,
+  "chars": 19844,
+  "ocr": false,
+  "indic_share": 0.01,
+  "fetched": "2026-10-06T15:32:25+05:30"
+ },
+ "kind": "schedule",
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://nta.ac.in/",
+   "https://swayam.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ }
+}

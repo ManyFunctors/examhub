@@ -1,0 +1,57 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "6c23498665aa22cbeba628f678ac56b6507cd7d1bc13fde47cec5dbe1bc6827e",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210802100848.pdf",
+  "title": "1513 PUBLIC NOTICE 01 August 2021 All India Ayush Post Graduate Entrance Test (AIAPGET) 2021 Read More",
+  "body": "in-nta",
+  "exam": "in-aiapget",
+  "feed": "in-nta/notices",
+  "published": "2021-08-01",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "d08d5399db367e0d74239afddf580324d5a882de3ad6f3c171d457ee659edd7f",
+  "bytes": 139731,
+  "pages": 1,
+  "chars": 2097,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-06T15:32:17+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "registration_open": {
+   "date": "2021-08-01",
+   "evidence": "Online Submission of Application Form through Website (https://aiapget.nta.ac.in/) 01.08.2021 to 21.08.2021 (upto 05:00 P.M.) Last date of successful transaction of fee through Credit/Debit Card/NetBanking/UPI / Paytm Wallet",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2021-08-21",
+   "evidence": "Online Submission of Application Form through Website (https://aiapget.nta.ac.in/) 01.08.2021 to 21.08.2021 (upto 05:00 P.M.) Last date of successful transaction of fee through Credit/Debit Card/NetBanking/UPI / Paytm Wallet",
+   "page": 1,
+   "from": "text"
+  },
+  "exam_date": {
+   "date": "2021-08-25",
+   "evidence": "23.08.2021 to 25.08.2021 Downloading of Admit Cards from NTA website Will be announced later Date of Examination Will be announced later Duration 120 minutes (02:00 Hrs) Timing of Examination Shift-1 10:00 A.M. to 12:00 Noon (Ayurveda) Shif",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://aiapget.nta.ac.in/",
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2021-08-01",
+   "until": "2021-08-21"
+  },
+  "exam_date": "2021-08-25"
+ }
+}
