@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "43ceb4a1c802c16a5479c3be809a4a6d7ee2d096d7b0f210e8121e98405585ff",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230615185418.pdf",
+  "title": "943 Kind Attention to the candidates of Common University Entrance Test [CUET (PG) - 2023] who could not be accommodated between 05 and 17 June 2023 – Reg Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-pg",
+  "feed": "in-nta/notices",
+  "published": "2023-06-17",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "7fce9176d2d82df0cb2b86f7061f66ccbe70329b19082eaaf89f2cf81f7e17e1",
+  "bytes": 277491,
+  "pages": 1,
+  "chars": 2115,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-06T16:42:36+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2023-06-23",
+   "evidence": "The examination for all these candidates will now be scheduled from 21 June to 23 June 2023 (with",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://cuet.nta.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2023-06-23"
+ }
+}
