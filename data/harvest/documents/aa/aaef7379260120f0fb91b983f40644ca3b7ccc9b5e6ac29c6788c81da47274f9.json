@@ -1,0 +1,49 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "aaef7379260120f0fb91b983f40644ca3b7ccc9b5e6ac29c6788c81da47274f9",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210820211013.pdf",
+  "title": "1486 CORRIGENDUM 20.08.2021 National Testing Agency(NTA) will be conducting the AIEEA(PG) 2021 and AICE-JRF/SRF(Ph.D) 2021 Entrance Exams for admission to specified Post Graduate and Doctoral Programmes of the Indian Council of Agricultural Research for the academic session 2021-22 in September 2021. Read More",
+  "body": "in-nta",
+  "exam": "in-icar-aice-phd",
+  "feed": "in-nta/notices",
+  "published": "2021-08-20",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "8023f37cb57e9731148f36ccbc0fd00a076b0e8b3505cf37119c46bd29a33f08",
+  "bytes": 198002,
+  "pages": 1,
+  "chars": 2716,
+  "ocr": false,
+  "indic_share": 0.02,
+  "fetched": "2026-10-06T15:15:39+05:30"
+ },
+ "kind": "corrigendum",
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Subject/Discipline Eligibility Qualifications for SAUs/CAUs etc. (4/5/6 years Bachelors’ degree in) Alternate Eligibility Qualifications for (1)IARI,",
+    "page": 1
+   },
+   {
+    "text": "and/or ICAR-DUs (Master’s Degree in) Additional Eligibility Qualification at Bachelors level for IARI/NDRI 19 Livestock Production Management Veterinary Science with specialization in Livestock Production Management",
+    "page": 1
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "https://icar.nta.ac.in",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "education": [
+   "Graduate"
+  ]
+ }
+}
