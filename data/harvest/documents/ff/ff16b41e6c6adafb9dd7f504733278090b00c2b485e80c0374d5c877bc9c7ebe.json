@@ -1,0 +1,68 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "ff16b41e6c6adafb9dd7f504733278090b00c2b485e80c0374d5c877bc9c7ebe",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220510214459.pdf",
+  "title": "1291 Public Notice 10 May 2022 Inviting Online Applications for Joint Integrated Programme in Management Admission Test (JIPMAT) - 2022 Read More",
+  "body": "in-nta",
+  "exam": "in-jipmat",
+  "feed": "in-nta/notices",
+  "published": "2022-05-10",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "3158509f619883a617d5d2a2e7675a569068189eb91d40b9f13dd7c547026b2e",
+  "bytes": 1101599,
+  "pages": 1,
+  "chars": 2396,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-06T12:44:19+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "registration_open": {
+   "date": "2022-05-10",
+   "evidence": "Duration of Online registration and submission of online Application Form for JIPMAT-2022 10 May 2022 to 09 June 2022",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2022-06-09",
+   "evidence": "Duration of Online registration and submission of online Application Form for JIPMAT-2022 10 May 2022 to 09 June 2022",
+   "page": 1,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2022-06-10",
+   "evidence": "upto (05:00 P.M) Last date for submission of Examination fee (through Credit Card/ Debit Card/Net Banking & Paytm Payment Modes",
+   "page": 1,
+   "from": "text"
+  },
+  "exam_date": {
+   "date": "2022-07-03",
+   "evidence": "on website To be announced later on website Downloading of Admit Card from NTA To be announced later on website Date of Examination for JIPMAT -2022",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://jipmat.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2022-05-10",
+   "until": "2022-06-09"
+  },
+  "exam_date": "2022-07-03"
+ }
+}
