@@ -1,0 +1,44 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "e17ed0f1a38ecf6f2272f6485abefdce4b499813f41a46ac9eb0342333f9bb70",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230523130837.pdf",
+  "title": "992 Issuance of Certificate for UGC-NET December 2022 cycle-reg. Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "18aa5e83662a0468382bf7cf1e83e8664b108b4c10bc2a84435bdd08f3338f9c",
+  "bytes": 353159,
+  "pages": 1,
+  "chars": 1109,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-06T19:15:54+05:30"
+ },
+ "kind": "result",
+ "dates": {
+  "exam_date": {
+   "date": "2023-03-16",
+   "evidence": "Based Test (CBT) mode for 83 subjects in 05 phases panning over 17 days in 32 shifts from 21st February 2023 to 16th March 2023",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2023-03-16"
+ }
+}
