@@ -2,7 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-07T19:02:18+05:30</updated>
+  <updated>2026-10-07T23:26:12+05:30</updated>
+  <entry>
+    <id>urn:sha256:ec681d76bd58a4f06ccc10f898c60956f74001a2a50646dc8539187c8ecc4d5b</id>
+    <title>Inviting Online Application for Joint CSIR UGC-NET December 2026</title>
+    <link href="https://cdnbbsr.s3waas.gov.in/s3efdf562ce2fb0ad460fd8e9d33e57f57/uploads/2026/10/20261007908428552.pdf"/>
+    <updated>2026-10-07T23:26:12+05:30</updated>
+    <category term="in-csir-net"/>
+    <summary>in-csir-net · other · in-csir-net/2026-dec</summary>
+  </entry>
   <entry>
     <id>urn:sha256:22f799f9eede532eaffb8bb73ead660ac0dc045614c4336da2bd33e409a90734</id>
     <title>DOWNLOAD ADVERTISEMENT( Hindi / English ) ( )</title>
@@ -2394,13 +2402,5 @@
     <updated>2026-10-01T07:49:13+05:30</updated>
     <category term="in-aiapget"/>
     <summary>in-aiapget · press_release · in-aiapget/2019</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d526e84c8b98e715fb757f7915d162db6dc76b479bf1e2adf03897cad1380476</id>
-    <title>DOWNLOAD ADVERTISEMENT( Hindi / English )</title>
-    <link href="https://sbi.bank.in/documents/77530/43947057/CRPD-SCO-2024-25_31+-+Hindi.pdf/6b0bdf79-0c6c-aeb2-8f4c-2a7a575df015?t=1741773758783"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-sbi-so"/>
-    <summary>in-sbi-so · notification</summary>
   </entry>
 </feed>

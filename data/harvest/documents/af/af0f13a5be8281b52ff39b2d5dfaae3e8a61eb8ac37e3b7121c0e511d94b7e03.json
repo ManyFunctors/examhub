@@ -1,0 +1,61 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "af0f13a5be8281b52ff39b2d5dfaae3e8a61eb8ac37e3b7121c0e511d94b7e03",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20250624122916.pdf",
+  "title": "Extension of Last Date for Submission of Online Application Form for Joint CSIR-UGC NET June 2025. Read More",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/home",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "9fe0ba52ef2a4d28add2baec7638ecce701c18c679f6cc44070ffaddb625e68c",
+  "bytes": 458517,
+  "pages": 2,
+  "chars": 2885,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-07T23:26:25+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "payment_deadline": {
+   "date": "2025-06-27",
+   "evidence": "Lastdatefor Paymentof Fee 24June 2025 ,",
+   "page": 1,
+   "from": "table"
+  },
+  "correction_window": {
+   "date": "2025-06-26",
+   "evidence": "*Correction in the Parit culars in Online Application Form 28June2025to 29June 2025 , (Upto11:59 PM) . .",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Online SubmissionofApplicationForm 26June 2025 , (Upto11:59 PM) . .",
+   "date": "2025-06-23",
+   "page": 1
+  },
+  {
+   "event": "Lastdatefor Paymentof Fee 24June 2025 ,",
+   "key": "payment_deadline",
+   "date": "2025-06-27",
+   "page": 1
+  },
+  {
+   "event": "*Correction in the Parit culars in Online Application Form 28June2025to 29June 2025 , (Upto11:59 PM) . .",
+   "key": "correction_window",
+   "date": "2025-06-26",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "https://csirnet.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "ec681d76bd58a4f06ccc10f898c60956f74001a2a50646dc8539187c8ecc4d5b",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3efdf562ce2fb0ad460fd8e9d33e57f57/uploads/2026/10/20261007908428552.pdf",
+  "title": "Inviting Online Application for Joint CSIR UGC-NET December 2026",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/csirnet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "4702e08a0578a39edd25e1fcb966391c1c8f9ceedc541361d88121437c15ca5b",
+  "bytes": 588279,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-07T23:26:23+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
