@@ -5,25 +5,33 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2026-04",
- "documents": 55,
+ "documents": 56,
  "documents_in_cycle": 1,
  "fields": {
   "eligibility": {
    "value": {
     "clauses": [
      {
-      "text": "Few representations have been received from the candidates of Tamil Nadu State Board who have passed their Class 10 examination in the year 2021",
+      "text": "They may only choose the Paper, Medium of the Examination, State code of Eligibility, Cities for Session 2, educational qualification details, and pay the Examination Fees",
       "page": 1
+     },
+     {
+      "text": "Educational qualification details (Class 10 and Class 12)",
+      "page": 2
+     },
+     {
+      "text": "Educational qualification details (Class 10 and Class 12)",
+      "page": 2
      }
     ]
    },
    "source": {
-    "notice": "644954732d5c9a7428afa193c4ad50e2f64c04ae086d1d54f5d63d67e9d14361",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20221224170555.pdf",
-    "title": "1097 Urgent Attention to JEE (Main) - 2023 Candidates of Tamil Nadu State Board Read More",
-    "kind": "result"
+    "notice": "9b00cb5f00aba5bd242d0a0db002eb41c0d727eac17602fc4d7cff10c4790ec5",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20240203102651.pdf",
+    "title": "Inviting Online Applications for Joint Entrance Examination (Main) – 2024 Session 2 - Reg Read More",
+    "kind": "admit_card"
    },
-   "carried_from": "2023"
+   "carried_from": "2024"
   },
   "exam_pattern": {
    "value": [
@@ -86,5 +94,5 @@
   "exam_date",
   "fee"
  ],
- "older_documents": 54
+ "older_documents": 55
 }
