@@ -4,70 +4,28 @@
  "name": "Jawaharlal Nehru University Entrance Examination",
  "body": "in-nta",
  "purpose": "admission",
- "cycle": "2020",
- "documents": 4,
- "documents_in_cycle": 3,
+ "cycle": "2021-09",
+ "documents": 5,
+ "documents_in_cycle": 1,
  "fields": {
-  "dates": {
-   "exam_date": {
-    "date": "2020-05-11",
-    "source": {
-     "notice": "2b51545bd9d391e7ad6f31468d0be628d3cdbe850ea5f81997fcb52b04202000",
-     "url": "https://nta.ac.in/Download/Notice/Notice_20200304083502.pdf",
-     "title": "1791 PRESS RELEASE: JAWAHARLAL NEHRU UNIVERSITY ENTRANCE EXAMINATION (JNUEE)-2020 Read More",
-     "kind": "brochure",
-     "page": 1
-    }
-   },
-   "registration_deadline": {
-    "date": "2020-03-31",
-    "source": {
-     "notice": "2b51545bd9d391e7ad6f31468d0be628d3cdbe850ea5f81997fcb52b04202000",
-     "url": "https://nta.ac.in/Download/Notice/Notice_20200304083502.pdf",
-     "title": "1791 PRESS RELEASE: JAWAHARLAL NEHRU UNIVERSITY ENTRANCE EXAMINATION (JNUEE)-2020 Read More",
-     "kind": "brochure",
-     "page": 1
-    }
-   },
-   "registration_open": {
-    "date": "2020-03-02",
-    "source": {
-     "notice": "2b51545bd9d391e7ad6f31468d0be628d3cdbe850ea5f81997fcb52b04202000",
-     "url": "https://nta.ac.in/Download/Notice/Notice_20200304083502.pdf",
-     "title": "1791 PRESS RELEASE: JAWAHARLAL NEHRU UNIVERSITY ENTRANCE EXAMINATION (JNUEE)-2020 Read More",
-     "kind": "brochure",
-     "page": 1
-    }
-   }
-  },
-  "apply": {
-   "value": {
-    "from": "2020-03-02",
-    "until": "2020-03-31"
-   },
+  "apply_links": {
+   "value": [
+    "https://jnuexams.nta.ac.in/"
+   ],
    "source": {
-    "notice": "2b51545bd9d391e7ad6f31468d0be628d3cdbe850ea5f81997fcb52b04202000",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20200304083502.pdf",
-    "title": "1791 PRESS RELEASE: JAWAHARLAL NEHRU UNIVERSITY ENTRANCE EXAMINATION (JNUEE)-2020 Read More",
-    "kind": "brochure",
-    "page": 1
-   }
-  },
-  "exam_date": {
-   "value": "2020-05-11",
-   "source": {
-    "notice": "2b51545bd9d391e7ad6f31468d0be628d3cdbe850ea5f81997fcb52b04202000",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20200304083502.pdf",
-    "title": "1791 PRESS RELEASE: JAWAHARLAL NEHRU UNIVERSITY ENTRANCE EXAMINATION (JNUEE)-2020 Read More",
-    "kind": "brochure",
-    "page": 1
+    "notice": "2c2580a66908260a06b913008fd24b680720b2ea1122bec436b6523b7b97a44d",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20210901143910.pdf",
+    "title": "1468 PUBLIC NOTICE 1 September, 2021 Subject: Correction in particulars of Online Application Form of Jawaharlal Nehru University Entrance Examination (JNUEE -2021) Read More",
+    "kind": "corrigendum"
    }
   }
  },
  "gaps": [
+  "apply",
+  "exam_date",
   "fee",
   "eligibility",
   "exam_pattern"
  ],
- "older_documents": 1
+ "older_documents": 4
 }
