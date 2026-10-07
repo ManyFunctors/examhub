@@ -1,0 +1,36 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "df3b104d09bb42ed59e280e56e15e0c91a3791555cddf813ea96af0ebca5ef84",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240516125635.pdf",
+  "title": "CUET (UG) - 2024 Examination commences successfully across the Country and abroad More than 75% candidates attend the examination on Day 1 Examination to be concluded in a record time span of 8 days Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "1f4049631570f93399ff8ff31fe307a0300ef6621eb0f32d22c188eb7e8f7502",
+  "bytes": 845798,
+  "pages": 1,
+  "chars": 3267,
+  "ocr": false,
+  "indic_share": 0.02,
+  "fetched": "2026-10-07T17:15:06+05:30"
+ },
+ "kind": "schedule",
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/CUET-UG/"
+  ],
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ }
+}
