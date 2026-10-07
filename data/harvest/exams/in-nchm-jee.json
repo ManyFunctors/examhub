@@ -5,25 +5,28 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 22,
+ "documents": 23,
  "documents_in_cycle": 10,
  "fields": {
   "eligibility": {
    "value": {
+    "education_levels": [
+     "Graduate"
+    ],
     "clauses": [
      {
-      "text": "The eligible Candidates who desire to appear in the said Examination may see the Information Bulletin available on the Websites of NTA: www.nta.ac.in/ www.ntanchm.nic.in for the relevant details, such as, carrier prospects, eligibility criteria, examination fees, cities of the examination,…",
-      "page": 1
+      "text": "The eligibility criteria, self-declaration, various documents, etc. of the eligible candidates will be verified as per norms specified by NCHM/Institution where admission is sought, at subsequent stages of the admission process",
+      "page": 2
      }
     ]
    },
    "source": {
-    "notice": "839b2d4f1d2fcf92d1b56dafc375520e4bd01a9729d910183969aeca4e908d77",
-    "url": "https://nta.ac.in/Download/Notice/PublicNoticeNCHMJEE-2019.pdf",
-    "title": "1901 Public Notice NCHM JEE-2019 Read More",
-    "kind": "brochure"
+    "notice": "c6d1ae9ff4b329b64a07e9892bfcd33c05cbeb9423448846baad4d1c65c2136f",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20240606162848.pdf",
+    "title": "Press Release of National Council of Hotel Management Joint Entrance Exam (NCHMJEE) 2024. Read More",
+    "kind": "notice"
    },
-   "carried_from": "2019"
+   "carried_from": "2024"
   }
  },
  "gaps": [
@@ -32,5 +35,5 @@
   "fee",
   "exam_pattern"
  ],
- "older_documents": 12
+ "older_documents": 13
 }
