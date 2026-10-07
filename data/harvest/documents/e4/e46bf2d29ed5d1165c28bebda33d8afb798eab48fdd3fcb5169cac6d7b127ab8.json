@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "e46bf2d29ed5d1165c28bebda33d8afb798eab48fdd3fcb5169cac6d7b127ab8",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20211226143917.pdf",
+  "title": "1372 Public Notice Dated: 26.12.2021 Rescheduling of Examination of candidates impacted due to technical problem in Subject “Kannada” of UGC-NET December 2020 and June 2021 cycles scheduled on 26.12.2021 (Shift-I) Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "published": "2021-12-26",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "076b1fdff2b2cbf4591fbad2200028f31f766592cbb82781560808bc276b9b0a",
+  "bytes": 103863,
+  "pages": 1,
+  "chars": 988,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-07T20:34:06+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2021-12-26",
+   "evidence": "Rescheduling of Examination of candidates impacted due to technical problem in Subject \"Kannada\" of UGC-NET December 2020 and June 2021 cycles scheduled on 26.12.2021 (Shift-I)",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://ugcnet.nta.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2021-12-26"
+ }
+}
