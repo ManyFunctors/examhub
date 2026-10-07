@@ -1,0 +1,41 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d275588d6d6f856f41e321848ec791cc184a5f53f6dffde3b1ab070937333b50",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20250704143213.pdf",
+  "title": "Press Release for CUET(UG)-2025 Examination Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/home",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "f4d8ddc2908f3ad2d14a1bd011acf823a1a65ec89a870a7e4242051174e04935",
+  "bytes": 2078232,
+  "pages": 5,
+  "chars": 9671,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-07T16:19:49+05:30"
+ },
+ "kind": "result",
+ "schedule": [
+  {
+   "event": "CUET (UG) 2025 - 13 54 699 , , I071 735 , ,",
+   "date": "2025-05-13",
+   "page": 1,
+   "until": "2025-06-04"
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://cuet.nta.nic.in"
+  ]
+ }
+}
