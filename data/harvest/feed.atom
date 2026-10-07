@@ -2,7 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-05T21:18:45+05:30</updated>
+  <updated>2026-10-07T18:23:36+05:30</updated>
+  <entry>
+    <id>urn:sha256:f40a6d6217072da0b58c723508bbb84b43e3067b008c3d2f28200af72032cd1e</id>
+    <title>Submission of Examination forms by Private Candidates for Senior Secondary (Class XII) Examinations 2026-2027</title>
+    <link href="https://www.cbse.gov.in/cbsenew/documents/SUBMISSION_FORMS_PRIVATE_XII_2627_07102026.pdf"/>
+    <updated>2026-10-07T18:23:36+05:30</updated>
+    <category term="in-cbse-class-12"/>
+    <summary>in-cbse-class-12 · other · in-cbse-class-12/2026</summary>
+  </entry>
   <entry>
     <id>urn:sha256:e256f3d278bf6fc9f1cb0fb6d852f269acd7cc741cf1169058ccc2b7deb39d44</id>
     <title>Declaration of the results of the National Initiative for Technical Teachers Training (NITTT) Examination held in July - August 2026-reg Read More</title>
@@ -2394,13 +2402,5 @@
     <updated>2026-10-01T07:49:13+05:30</updated>
     <category term="in-sbi-so"/>
     <summary>in-sbi-so · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d517ba9df2edc94837610cc6f2d4b8085aeb8fdb67d4eb0dcdaaea0da5396cf1</id>
-    <title>Important Advisory on ICAR-AIEEA (PG) and AICE JRF / SRF (Ph.D.)-2025 Read More</title>
-    <link href="https://nta.ac.in/Download/Notice/Notice_20250603123704.pdf"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-icar-aice-phd"/>
-    <summary>in-icar-aice-phd · other · in-icar-aice-phd/2025</summary>
   </entry>
 </feed>
