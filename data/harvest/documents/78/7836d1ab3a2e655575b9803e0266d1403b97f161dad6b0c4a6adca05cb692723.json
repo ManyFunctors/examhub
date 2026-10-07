@@ -1,0 +1,27 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "7836d1ab3a2e655575b9803e0266d1403b97f161dad6b0c4a6adca05cb692723",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200103135957.pdf",
+  "title": "1808 Corrigendum_03.01.2020 (Information Bulletin NEET (UG) - 2020) Read More",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/notices",
+  "published": "2020-01-03",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "d997d3a9f845fd2bbf2ad1b29b7ce422db7966511f8310bab335066cab676024",
+  "bytes": 65934,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-07T19:35:18+05:30"
+ },
+ "kind": "corrigendum",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2a6d09981bf443f79e620bfdea6f439db65056a6b6570b335d4bd58e24e57af1",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220407221907.pdf",
+  "title": "1311 Public Notice 06 April 2022 Inviting Online Applications for Common Universities Entrance Test [CUET (UG) – 2022] – Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/notices",
+  "published": "2022-04-06",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "a82f5926cd7adc108d7872bdff0464ad9c89161abb15f8c759a34b05254bf217",
+  "bytes": 1094664,
+  "pages": 3,
+  "chars": 5956,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-07T19:35:15+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "registration_open": {
+   "date": "2022-04-06",
+   "evidence": "Online submission of Application Form 06 April 2022 to 06 May 2022 ( up to 05.00 PM) Last date of successful transaction of fee through Credit/Debit Card/Net Banking/UPI/Paytm",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2022-05-06",
+   "evidence": "Online submission of Application Form 06 April 2022 to 06 May 2022 ( up to 05.00 PM) Last date of successful transaction of fee through Credit/Debit Card/Net Banking/UPI/Paytm",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Candidates are advised to visit the website of the University/ies where they intend seeking admission, for the courses offered by them, eligibility criteria, reservation, tests in CUET (UG) – 2022 to be selected for admission to the desired courses, admission policy, etc. and ensure that they…",
+    "page": 2
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://cuet.samarth.ac.in/",
+   "https://www.ncbc.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2022-04-06",
+   "until": "2022-05-06"
+  },
+  "education": [
+   "Graduate"
+  ]
+ }
+}
