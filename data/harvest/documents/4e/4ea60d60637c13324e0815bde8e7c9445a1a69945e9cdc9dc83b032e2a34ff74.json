@@ -1,0 +1,68 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "4ea60d60637c13324e0815bde8e7c9445a1a69945e9cdc9dc83b032e2a34ff74",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20211204071326.pdf",
+  "title": "1386 Public Notice Dated: 03.12.2021 JOINT CSIR-UGC NET EXAMINATION JUNE-2021 Read More",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/notices",
+  "published": "2021-12-03",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "3b31a339d8f2855fc6302ce4632015b3ce5438bfdb78c865cbecb6770f14715f",
+  "bytes": 96998,
+  "pages": 1,
+  "chars": 1997,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-08T01:53:16+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "registration_open": {
+   "date": "2021-12-03",
+   "evidence": "Duration of Online registration for Joint CSIR- UGC NET Examination June-2021 03 December 2021 to 02 January, 2022 (upto 11:50 pm) Last Date of successful fee transaction",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2022-01-02",
+   "evidence": "Duration of Online registration for Joint CSIR- UGC NET Examination June-2021 03 December 2021 to 02 January, 2022 (upto 11:50 pm) Last Date of successful fee transaction",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "Candidates who desire to appear in Joint CSIR-UGC NET Examination June-2021 may apply online on the website https://csirnet.nta.nic.in, www.nta.ac.in and details of Course Code, Eligibility Criteria, Pattern of Question Paper etc. are available on the Information Bulletin",
+    "page": 1
+   },
+   {
+    "text": "Before applying for Joint CSIR-UGC NET Examination June-2021, candidates are advised to check the eligibility criteria as mentioned in the Information Bulletin",
+    "page": 1
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://csirnet.nta.nic.in/",
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2021-12-03",
+   "until": "2022-01-02"
+  }
+ }
+}
