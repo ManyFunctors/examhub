@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d0d1d07d12eedf36d100f399929e0aaf433d551697203e4539718b594da486a1",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20191221120725.pdf",
+  "title": "1815 Re-schedule of Joint CSIR-UGC NET December 2019 Examination in Assam and Meghalaya Read More",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "931e336678707d98d1645b23d0aea9152799af39cf5c27849f3bb1d9e1142ac2",
+  "bytes": 70528,
+  "pages": 1,
+  "chars": 1401,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-08T00:44:57+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2019-12-27",
+   "evidence": "The candidates who were scheduled to appear at the Examination Centres located in the States of \"Assam\" (viz. the cities of Dibrugarh, Guwahati, Jorhat, Silchar, Sivasagar and Tezpur) and \"Meghalaya\" (viz. the city of Shillong), are hereby ",
+   "page": 1,
+   "from": "text"
+  },
+  "admit_card_from": {
+   "date": "2019-12-23",
+   "evidence": "The revised Admit Card shall also be uploaded by 23 December 2019 (Monday)",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://csirnet.nta.nic.in/webinfo/public/home.aspx",
+   "http://www.nta.ac.in/",
+   "https://csirnet.nta.nic.in",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2019-12-27"
+ }
+}

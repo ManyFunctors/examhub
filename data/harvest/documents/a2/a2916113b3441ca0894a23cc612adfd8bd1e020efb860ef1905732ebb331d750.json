@@ -1,0 +1,55 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "a2916113b3441ca0894a23cc612adfd8bd1e020efb860ef1905732ebb331d750",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220301200421.pdf",
+  "title": "1340 Public Notice: Inviting Online Applications for Joint Entrance Examination (Main) – 2022 (Session 1) - Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "7c423cb0e56e88692912cb1667b87c6ecc5914c52e7363a46fbd87d8604f79a4",
+  "bytes": 1106979,
+  "pages": 1,
+  "chars": 4346,
+  "ocr": false,
+  "indic_share": 0.02,
+  "fetched": "2026-10-08T00:45:02+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "registration_open": {
+   "date": "2022-03-01",
+   "evidence": "Candidates can apply for JEE (Main) - 2022 Session 1through \"Online\" mode only from 01.03.2022 to 31.03.2022 (up to 05:00 p.m.) only",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2022-03-31",
+   "evidence": "Candidates can apply for JEE (Main) - 2022 Session 1through \"Online\" mode only from 01.03.2022 to 31.03.2022 (up to 05:00 p.m.) only",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://jeemain.nta.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2022-03-01",
+   "until": "2022-03-31"
+  }
+ }
+}
