@@ -2,7 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-07T18:23:36+05:30</updated>
+  <updated>2026-10-07T19:02:18+05:30</updated>
+  <entry>
+    <id>urn:sha256:22f799f9eede532eaffb8bb73ead660ac0dc045614c4336da2bd33e409a90734</id>
+    <title>DOWNLOAD ADVERTISEMENT( Hindi / English ) ( )</title>
+    <link href="https://sbi.bank.in/documents/77530/57941334/07102026_SBI+-+CRPD-SCO-2026-27_22+-+Hindi+%281%29+%281%29.pdf/0413cacb-b3e1-8823-8581-e2ac6155f00e?t=1791378137016"/>
+    <updated>2026-10-07T19:02:18+05:30</updated>
+    <category term="in-sbi-so"/>
+    <summary>in-sbi-so · notification</summary>
+  </entry>
   <entry>
     <id>urn:sha256:f40a6d6217072da0b58c723508bbb84b43e3067b008c3d2f28200af72032cd1e</id>
     <title>Submission of Examination forms by Private Candidates for Senior Secondary (Class XII) Examinations 2026-2027</title>
@@ -2394,13 +2402,5 @@
     <updated>2026-10-01T07:49:13+05:30</updated>
     <category term="in-aiapget"/>
     <summary>in-aiapget · press_release · in-aiapget/2019</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d526e84c8b98e715fb757f7915d162db6dc76b479bf1e2adf03897cad1380476</id>
-    <title>DOWNLOAD ADVERTISEMENT( Hindi / English )</title>
-    <link href="https://sbi.bank.in/documents/77530/43947057/CRPD-SCO-2024-25_31+-+Hindi.pdf/6b0bdf79-0c6c-aeb2-8f4c-2a7a575df015?t=1741773758783"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-sbi-so"/>
-    <summary>in-sbi-so · notification</summary>
   </entry>
 </feed>

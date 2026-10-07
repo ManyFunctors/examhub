@@ -1,0 +1,28 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "e4f324aa726d15e0fc8e0870a2aa65e75d2e842857019702d4e5dac028a75e6f",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20241230193629.pdf",
+  "title": "Syllabus for NEET (UG) 2025 Examination - reg. Read More",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/home",
+  "doc_type": "syllabus"
+ },
+ "document": {
+  "sha256": "1520047b5df54a9f89d173140fc3a679d46d104f6beca4983228ada07c307022",
+  "bytes": 1434836,
+  "pages": 18,
+  "chars": 34863,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-07T19:02:26+05:30"
+ },
+ "kind": "syllabus",
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 2
+  }
+ }
+}
