@@ -1,0 +1,45 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "a7b7fc7be863d69025ac65afe8abf5262acae7722e14511db8607812084f3a19",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220917233649.pdf",
+  "title": "1152 Advance Intimation for Allotment of Examination City of UGC NET December 2021 & June2022 (merged Cycles)-Phase II for the exam to be held on 23 September 2022. Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "published": "2022-09-23",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "5d1f41618e0203519d9a086873d27339c4b87ae3ca7ab05550721535030ea6e2",
+  "bytes": 1042483,
+  "pages": 1,
+  "chars": 1605,
+  "ocr": false,
+  "indic_share": 0.07,
+  "fetched": "2026-10-07T17:54:56+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2022-09-23",
+   "evidence": "17 September 2022 Subject: Advance Intimation for Allotment of Examination City of UGC NET December 2021 & June2022 (merged Cycles)-Phase II for the exam to be held on 23 September 2022",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://ugcnet.nta.nic.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-09-23"
+ }
+}
