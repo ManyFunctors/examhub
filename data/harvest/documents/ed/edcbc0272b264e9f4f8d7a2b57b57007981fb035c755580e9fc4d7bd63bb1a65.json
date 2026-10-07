@@ -1,0 +1,40 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "edcbc0272b264e9f4f8d7a2b57b57007981fb035c755580e9fc4d7bd63bb1a65",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220805221300.pdf",
+  "title": "1202 PUBLIC NOTICE: Postponement of CUET (UG) – 2022 Examination due to Technical Issues – Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "9c0b9d4ff1095516e0d59a20a9fb651fef95786e1932165c2c43636dc33b51c7",
+  "bytes": 283509,
+  "pages": 1,
+  "chars": 1761,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-07T18:40:49+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2022-08-05",
+   "evidence": "Due to various administrative and technical reasons, the CUET (UG) - 2022 examination scheduled for 05 August 2022 has been postponed between 12 to 14 August 2022 for a few examination Centres in the following Cities/States:",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://cuet.samarth.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-08-05"
+ }
+}
