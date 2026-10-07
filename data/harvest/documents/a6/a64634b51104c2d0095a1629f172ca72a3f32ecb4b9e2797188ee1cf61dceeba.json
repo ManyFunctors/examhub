@@ -1,0 +1,73 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "a64634b51104c2d0095a1629f172ca72a3f32ecb4b9e2797188ee1cf61dceeba",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240502103606.pdf",
+  "title": "PUBLIC NOTICE FOR JOINT CSIR-UGC NET EXAMINATION JUNE-2024 Read More",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/home",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "079cd91a915724e299ff036a7ca3da25c7dc45a8006d105aff64d36eec933281",
+  "bytes": 990262,
+  "pages": 1,
+  "chars": 2849,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-07T15:28:18+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "registration_deadline": {
+   "date": "2024-05-21",
+   "evidence": "Submission of Online Application Form 01.05.2024 to 21.05.2024 Last date for Payment of Fee",
+   "page": 1,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2024-05-22",
+   "evidence": "Submission of Online Application Form 01.05.2024 to 21.05.2024 Last date for Payment of Fee",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2024-05-01",
+   "evidence": "Submission of Online Application Form 01.05.2024 to 21.05.2024 Last date for Payment of Fee",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "Details of Course Code, Eligibility Criteria, Pattern of Question Paper, fee, etc. are available in the Information Bulletin hosted on the website https://csirnet.nta.ac.in",
+    "page": 1
+   },
+   {
+    "text": "Before applying for Joint CSIR-UGC NET Examination June-2024, candidates are advised to check the eligibility criteria as mentioned in the Information Bulletin carefully",
+    "page": 1
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://csirnet.nta.ac.in/",
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2024-05-01",
+   "until": "2024-05-21"
+  }
+ }
+}
