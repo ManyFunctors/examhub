@@ -1,0 +1,39 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "ee5d87287b745783b46b740f6dd729f284d6384e37cff09396ff213d191e5423",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200607065157.pdf",
+  "title": "1749 PUBLIC NOTICE: Postponement of National Council for Hotel Management Joint Entrance Examination ( NCHM JEE) – 2020 scheduled to be held on 22.06.2020 Read More",
+  "body": "in-nta",
+  "exam": "in-nchm-jee",
+  "feed": "in-nta/notices",
+  "published": "2020-06-22",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "8713a9e0d6268aa96ffc2fe5e27ef3cce370046614e38b0cb442e791262b8ecc",
+  "bytes": 131230,
+  "pages": 1,
+  "chars": 1397,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-07T08:48:56+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2020-04-25",
+   "evidence": "The National Council for Hotel Management Joint Entrance Examination (NCHM JEE) - 2020, which was scheduled to be conducted on 25/04/2020 ( Saturday) was postponed, due",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://nchmjee.nta.nic.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2020-04-25"
+ }
+}

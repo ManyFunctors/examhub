@@ -1,0 +1,65 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "8d826851c4d411b598c28205298f1bcfb71e76809083f20d7522ddfde7e0a447",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220610101240.pdf",
+  "title": "1271 Public Notice 09 June 2022 Extension Joint Integrated Programme in Management Admission Test (JIPMAT) – 2022 Online Application Form Submission. Read More",
+  "body": "in-nta",
+  "exam": "in-jipmat",
+  "feed": "in-nta/notices",
+  "published": "2022-06-09",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "281e3796154e4b90992e5fd4cffa06dec632bffa6875e4d7eb73b1c523db7a3b",
+  "bytes": 1061318,
+  "pages": 1,
+  "chars": 2094,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-07T08:48:53+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2022-06-15",
+   "until": "2022-06-17",
+   "evidence": "Joint Integrated programme in Management Admission Test(JIPMAT)2022",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_deadline": {
+   "date": "2022-06-15",
+   "evidence": "Examination Submission of Application Form Online Last date for payment of Application Fee Online Correction in Application Form (correction Window) Joint Integrated programme in Management Admission Test (JIPMAT) 2022 Last date of extensio",
+   "page": 1,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2022-06-15",
+   "evidence": "Examination Submission of Application Form Online Last date for payment of Application Fee Online Correction in Application Form (correction Window) Joint Integrated programme in Management Admission Test (JIPMAT) 2022 Last date of extensio",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Joint Integrated programme in Management Admission Test(JIPMAT)2022",
+   "key": "exam_date",
+   "date": "2022-06-15",
+   "page": 1,
+   "until": "2022-06-17"
+  }
+ ],
+ "links": {
+  "other": [
+   "http://jipmat.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2022-06-15"
+  },
+  "exam_date": "2022-06-15"
+ }
+}
