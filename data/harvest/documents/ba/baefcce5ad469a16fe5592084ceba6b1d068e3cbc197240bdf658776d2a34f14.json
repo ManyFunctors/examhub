@@ -1,0 +1,49 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "baefcce5ad469a16fe5592084ceba6b1d068e3cbc197240bdf658776d2a34f14",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20211220163609.pdf",
+  "title": "1380 PUBLIC NOTICE 16 December 2021 Study Webs of Active–Learning for Young Aspiring Minds (SWAYAM) July 2021 Semester Read More",
+  "body": "in-nta",
+  "exam": "in-nta-swayam",
+  "feed": "in-nta/notices",
+  "published": "2021-12-16",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "9cea713902b86bfe52bd1e9b144dfe5df841c16049f51ddb8bdd46254fcca11d",
+  "bytes": 609409,
+  "pages": 6,
+  "chars": 19700,
+  "ocr": false,
+  "indic_share": 0.01,
+  "fetched": "2026-10-07T12:16:10+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "registration_open": {
+   "date": "2021-12-16",
+   "evidence": "Online Submission of Application Form through Website (https://swayam.nta.ac.in/) 16.12.2021 to 02.01.2022 Last date of Successful transaction of fee through Credit/Debit Card/Net Banking/UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2022-01-02",
+   "evidence": "Online Submission of Application Form through Website (https://swayam.nta.ac.in/) 16.12.2021 to 02.01.2022 Last date of Successful transaction of fee through Credit/Debit Card/Net Banking/UPI",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in",
+   "https://swayam.nta.ac.in/"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2021-12-16",
+   "until": "2022-01-02"
+  }
+ }
+}
