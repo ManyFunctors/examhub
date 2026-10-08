@@ -5,15 +5,15 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2026-04",
- "documents": 96,
+ "documents": 98,
  "documents_in_cycle": 1,
  "fields": {
   "eligibility": {
    "value": {
     "clauses": [
      {
-      "text": "They may only choose the Paper, Medium of the Examination, State code of Eligibility, Cities for Session 2, educational qualification details, and pay the Examination Fees",
-      "page": 1
+      "text": "Educational qualification details (Class 10 and Class 12)",
+      "page": 2
      },
      {
       "text": "Educational qualification details (Class 10 and Class 12)",
@@ -26,11 +26,12 @@
     ]
    },
    "source": {
-    "notice": "9b00cb5f00aba5bd242d0a0db002eb41c0d727eac17602fc4d7cff10c4790ec5",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20240203102651.pdf",
-    "title": "Inviting Online Applications for Joint Entrance Examination (Main) – 2024 Session 2 - Reg Read More",
-    "kind": "admit_card"
+    "notice": "ba5998424bde5969c07c693717fd0e17eb9a37197d3581d8e0f9a10a02b2eeb6",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20240303184111.pdf",
+    "title": "Extending the Registration Window and Correction in Particulars for the Joint Entrance Examination (Main) – 2024 Session 2 Read More",
+    "kind": "notice"
    },
+   "alternatives": 1,
    "carried_from": "2024"
   },
   "exam_pattern": {
@@ -54,5 +55,5 @@
   "exam_date",
   "fee"
  ],
- "older_documents": 95
+ "older_documents": 97
 }
