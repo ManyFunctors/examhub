@@ -1,0 +1,49 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "5ef2366da5906122f37c590d73746734db88750d62b9131ad3575f9b1191887f",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220401131354.pdf",
+  "title": "1323 PUBLIC NOTICE 01 April 2022 Extending the Online Applications for Joint Entrance Examination (Main) – 2022 Session 1 - Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "published": "2022-04-01",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "31ce982b044ac11cb6d572eecb6c117d95cf70df1159f604bc5a248cd6d7c4fa",
+  "bytes": 1029325,
+  "pages": 2,
+  "chars": 3177,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-08T13:34:18+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2022-04-05",
+   "evidence": "JEE (Main) 2022 – Session 1 21 24 25 29 , , , April and 1 4 , , May 2022",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "JEE (Main) 2022 – Session 1 21 24 25 29 , , , April and 1 4 , , May 2022",
+   "key": "exam_date",
+   "date": "2022-04-05",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in",
+   "https://jeemain.nta.nic.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-04-05"
+ }
+}
