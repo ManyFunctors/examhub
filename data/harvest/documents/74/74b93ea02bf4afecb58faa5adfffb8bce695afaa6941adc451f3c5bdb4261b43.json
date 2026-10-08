@@ -1,0 +1,94 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "74b93ea02bf4afecb58faa5adfffb8bce695afaa6941adc451f3c5bdb4261b43",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220430224943.pdf",
+  "title": "1301 Public Notice 30 April 2022 Opening of the online portal for submission of Online Application Form for UGC-NET December 2021 and June 2022 (merged cycles) Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "published": "2022-04-30",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "b4fd868b05a6f302310fb1226dfde6b511d12b8e4e688e8a5b87228934533fea",
+  "bytes": 986553,
+  "pages": 1,
+  "chars": 3051,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-08T15:35:20+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "payment_deadline": {
+   "date": "2022-05-20",
+   "evidence": "Submission of Online Application Form 30 April 2022 to 20 May 2022 (upto 05:00 P.M) Last date for submission of Examination fee (through Credit Card/ Debit Card/Net Banking /UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2022-04-30",
+   "evidence": "Submission of Online Application Form 30 April 2022 to 20 May 2022 (upto 05:00 P.M) Last date for submission of Examination fee (through Credit Card/ Debit Card/Net Banking /UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2022-05-20",
+   "evidence": "Submission of Online Application Form 30 April 2022 to 20 May 2022 (upto 05:00 P.M) Last date for submission of Examination fee (through Credit Card/ Debit Card/Net Banking /UPI",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "Unreserved"
+   ],
+   "amount": 1100,
+   "raw": "ApplicationFee General/Unreserved Rs. 1100/ -",
+   "page": 1
+  },
+  {
+   "categories": [
+    "Unreserved",
+    "EWS",
+    "OBC-NCL"
+   ],
+   "amount": 550,
+   "raw": " General -EWS/OBC -NCL Rs. 550/ -",
+   "page": 1
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 275,
+   "raw": "  Rs. 275/ -",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://ugcnet.nta.nic.in/",
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2022-04-30",
+   "until": "2022-05-20"
+  },
+  "fee": {
+   "min": 275,
+   "max": 1100
+  }
+ }
+}
