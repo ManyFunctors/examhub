@@ -1,0 +1,49 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "39a23162742b4a49076d611bcdd50da0627d30c665d608d241427412c600ed55",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220810102537.pdf",
+  "title": "1195 PUBLIC NOTICE 05.08.2022 Study Webs of Active Learning for Young Aspiring Minds (SWAYAM) January 2022 Semester Exams Read More",
+  "body": "in-nta",
+  "exam": "in-nta-swayam",
+  "feed": "in-nta/notices",
+  "published": "2022-08-05",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "2831a5c29062bef1800185a3966cac9ea1ccabe1945fc6dd720c1c7395680cd6",
+  "bytes": 320706,
+  "pages": 1,
+  "chars": 1484,
+  "ocr": false,
+  "indic_share": 0.06,
+  "fetched": "2026-10-08T06:38:22+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "exam_date": {
+   "date": "2022-08-30",
+   "evidence": "It is hereby informed that SWAYAM January 2022 Semester exam will be held on 29-30 August 2022",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2022-08-12",
+   "evidence": "Last date of submission of exam forms 12.08.2022(Upto 05.00 PM) Last date of payment of exam fee",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://swayam.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2022-08-12"
+  },
+  "exam_date": "2022-08-30"
+ }
+}
