@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "b3ababe6d579451130ca63d9cbca1825c9de10a12c68047487677541e3071e0c",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200519111906.pdf",
+  "title": "1762 Public Notice: Last opportunity for submission of Online Application Form for JEE (Main) 2020. Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "7cf480ef4f2ad9a57808bff3c39a85129a792ff26d8fd1626b809f4119a44d9d",
+  "bytes": 137970,
+  "pages": 1,
+  "chars": 2065,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-08T23:16:00+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "registration_open": {
+   "date": "2020-05-19",
+   "evidence": "It is brought to the notice of all, that the facility of submission/ completion of Online Application Form will be available on the website jeemain.nta.nic.in from 19.05.2020 to 24.05.2020* only",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2020-05-24",
+   "evidence": "It is brought to the notice of all, that the facility of submission/ completion of Online Application Form will be available on the website jeemain.nta.nic.in from 19.05.2020 to 24.05.2020* only",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2020-05-19",
+   "until": "2020-05-24"
+  }
+ }
+}

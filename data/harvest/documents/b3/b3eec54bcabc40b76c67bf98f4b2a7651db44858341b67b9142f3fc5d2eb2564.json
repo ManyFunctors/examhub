@@ -1,0 +1,77 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "b3eec54bcabc40b76c67bf98f4b2a7651db44858341b67b9142f3fc5d2eb2564",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240202201001.pdf",
+  "title": "Conduct of the Joint Entrance Examination [JEE (Main) - 2024] Session 1 Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "e572405ce0de10c2a7210c2179f920e3c7ce9710fff973ad7cd145355ac787cf",
+  "bytes": 354859,
+  "pages": 4,
+  "chars": 7798,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-08T23:16:04+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2024-01-24",
+   "evidence": "Day Date of Examination Paper* Registered Candidates Appeared Candidates % age Day 1",
+   "page": 2,
+   "from": "text"
+  }
+ },
+ "unmapped_classes": [
+  {
+   "label": "OBC - EWS NCL",
+   "page": 2
+  },
+  {
+   "label": "SC ST",
+   "page": 2
+  }
+ ],
+ "vacancies": {
+  "total": 1231874,
+  "by_category": {
+   "Unreserved": 416086,
+   "SC": 121394,
+   "EWS": 154840
+  },
+  "rows": [
+   {
+    "total": 1231874,
+    "by_category": {
+     "Unreserved": 416086,
+     "EWS": 154840,
+     "SC": 121394
+    },
+    "page": 2
+   }
+  ],
+  "from": "table"
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in",
+   "https://jeemain.nta.ac.in/"
+  ]
+ },
+ "summary": {
+  "vacancies": 1231874,
+  "exam_date": "2024-01-24"
+ }
+}
