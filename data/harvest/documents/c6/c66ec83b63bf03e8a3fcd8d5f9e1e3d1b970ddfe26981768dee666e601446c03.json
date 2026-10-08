@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c66ec83b63bf03e8a3fcd8d5f9e1e3d1b970ddfe26981768dee666e601446c03",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20191231125943.pdf",
+  "title": "1812 Extension of Last Date for submission of Application Form for NEET (UG) - 2020 Read More",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "062ee7ddba832283a3ea5da378e984f5e0a0be82c23e75b26949214b65ccb7f0",
+  "bytes": 497018,
+  "pages": 1,
+  "chars": 2001,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-08T14:00:15+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "registration_deadline": {
+   "date": "2019-12-02",
+   "evidence": "On-line submission of Application Form 02.12.2019 to 31.12.2019",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2019-12-02",
+   "evidence": "On-line submission of Application Form 02.12.2019 to 31.12.2019",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://ntaneet.nic.in/"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2019-12-02",
+   "until": "2019-12-02"
+  }
+ }
+}
