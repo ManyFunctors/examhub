@@ -1,0 +1,48 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "078a975bb180dd358e0b6d56c6c896123503472c5270061f794df238420e402a",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220124112454.pdf",
+  "title": "1362 Public Notice Dated: 23.01.2022 Advance Intimation of Allotment of Examination City for the Junior Research Fellowship JRF and for Lectureship Assistant Professor for Subject Earth Atmospheric Ocean and Planetary Sciences of Joint CSIR-UGC Net June 2021 to be conducted on 29 January 2022 Read More",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/notices",
+  "published": "2022-01-23",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "abd0482bce87d705c3804d54ed89ab7b4dae4a26b7c0b86bdebd2769eb8fc70c",
+  "bytes": 108619,
+  "pages": 1,
+  "chars": 1594,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-08T22:01:51+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2022-01-29",
+   "evidence": "Ocean and Planetary Sciences\" of Joint CSIR-UGC Net June 2021 to be conducted on 29 January 2022",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://csirnet.nta.ac.in/",
+   "http://www.nta.ac.in/",
+   "https://csirnet.nta.nic.in",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-01-29"
+ }
+}
