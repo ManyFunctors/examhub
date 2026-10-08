@@ -5,8 +5,8 @@
  "body": "in-nta",
  "purpose": "eligibility",
  "cycle": "2026-12",
- "documents": 78,
- "documents_in_cycle": 1,
+ "documents": 80,
+ "documents_in_cycle": 3,
  "fields": {
   "fee": {
    "value": [
@@ -40,54 +40,59 @@
     }
    ],
    "source": {
-    "notice": "b27d927d06c4f0a3c27eb06eba0a6057c0de8a04126af88ccddc5ba6d0fc0bde",
-    "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081218250076.pdf",
+    "notice": "ac992f6c0a5a9adf77c5e001bdc71c80fbd714869239eaa38ada15dde4f0e7ba",
+    "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081928217016.pdf",
     "title": "Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg",
     "kind": "schedule",
     "page": 1
-   }
+   },
+   "alternatives": 2
   },
   "dates": {
    "exam_date": {
     "date": "2026-12-14",
     "provisional": true,
     "source": {
-     "notice": "b27d927d06c4f0a3c27eb06eba0a6057c0de8a04126af88ccddc5ba6d0fc0bde",
-     "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081218250076.pdf",
+     "notice": "ac992f6c0a5a9adf77c5e001bdc71c80fbd714869239eaa38ada15dde4f0e7ba",
+     "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081928217016.pdf",
      "title": "Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg",
      "kind": "schedule",
      "page": 1
-    }
+    },
+    "alternatives": 2
    },
    "payment_deadline": {
     "date": "2026-10-28",
     "source": {
-     "notice": "b27d927d06c4f0a3c27eb06eba0a6057c0de8a04126af88ccddc5ba6d0fc0bde",
-     "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081218250076.pdf",
+     "notice": "ac992f6c0a5a9adf77c5e001bdc71c80fbd714869239eaa38ada15dde4f0e7ba",
+     "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081928217016.pdf",
      "title": "Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg",
      "kind": "schedule",
      "page": 1
-    }
+    },
+    "alternatives": 2
    },
    "registration_deadline": {
     "date": "2026-10-08",
     "source": {
-     "notice": "b27d927d06c4f0a3c27eb06eba0a6057c0de8a04126af88ccddc5ba6d0fc0bde",
-     "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081218250076.pdf",
+     "notice": "ac992f6c0a5a9adf77c5e001bdc71c80fbd714869239eaa38ada15dde4f0e7ba",
+     "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081928217016.pdf",
      "title": "Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg",
      "kind": "schedule",
      "page": 1
-    }
+    },
+    "alternatives": 2
    },
    "registration_open": {
     "date": "2026-10-08",
     "source": {
-     "notice": "b27d927d06c4f0a3c27eb06eba0a6057c0de8a04126af88ccddc5ba6d0fc0bde",
-     "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081218250076.pdf",
+     "notice": "ac992f6c0a5a9adf77c5e001bdc71c80fbd714869239eaa38ada15dde4f0e7ba",
+     "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081928217016.pdf",
      "title": "Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg",
      "kind": "schedule",
      "page": 1
-    }
+    },
+    "alternatives": 2
    }
   },
   "apply": {
@@ -96,8 +101,8 @@
     "until": "2026-10-08"
    },
    "source": {
-    "notice": "b27d927d06c4f0a3c27eb06eba0a6057c0de8a04126af88ccddc5ba6d0fc0bde",
-    "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081218250076.pdf",
+    "notice": "ac992f6c0a5a9adf77c5e001bdc71c80fbd714869239eaa38ada15dde4f0e7ba",
+    "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081928217016.pdf",
     "title": "Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg",
     "kind": "schedule",
     "page": 1
@@ -106,8 +111,8 @@
   "exam_date": {
    "value": "2026-12-14",
    "source": {
-    "notice": "b27d927d06c4f0a3c27eb06eba0a6057c0de8a04126af88ccddc5ba6d0fc0bde",
-    "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081218250076.pdf",
+    "notice": "ac992f6c0a5a9adf77c5e001bdc71c80fbd714869239eaa38ada15dde4f0e7ba",
+    "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081928217016.pdf",
     "title": "Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg",
     "kind": "schedule",
     "page": 1
