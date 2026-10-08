@@ -1,0 +1,111 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "872dfd3e75e0748860d7efdb417d853df4ac7125f510d2c275421daf2db0dbe1",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240517202255.pdf",
+  "title": "Press Release 17 May 2024 / 27 वैशाख 1946 Conduct of Day 3 of the CUET (UG) – 2024 – reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/home",
+  "published": "2024-05-17",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "be6e26bc15c0293e54dbe028ab5a2f7aabbb4d406a8b41aec35e83b52e5cb6df",
+  "bytes": 959620,
+  "pages": 3,
+  "chars": 6629,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-08T17:44:37+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2024-05-15",
+   "evidence": "General Test (501) 80%",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Chemistry (306) 79%",
+   "date": "2024-05-15",
+   "page": 1
+  },
+  {
+   "event": "Biology (304) 79%",
+   "date": "2024-05-15",
+   "page": 1
+  },
+  {
+   "event": "English (101) 76%",
+   "date": "2024-05-15",
+   "page": 1
+  },
+  {
+   "event": "General Test (501) 80%",
+   "key": "exam_date",
+   "date": "2024-05-15",
+   "page": 1
+  },
+  {
+   "event": "Economics (309) 85%",
+   "date": "2024-05-16",
+   "page": 1
+  },
+  {
+   "event": "Hindi (102) 78%",
+   "date": "2024-05-16",
+   "page": 1
+  },
+  {
+   "event": "Physics (322) 77%",
+   "date": "2024-05-16",
+   "page": 1
+  },
+  {
+   "event": "Mathematics/Applied 78%",
+   "date": "2024-05-16",
+   "page": 1
+  },
+  {
+   "event": "Geography (313) 84%",
+   "date": "2024-05-17",
+   "page": 1
+  },
+  {
+   "event": "PhysicalEducation / NCC 78%",
+   "date": "2024-05-17",
+   "page": 1
+  },
+  {
+   "event": "Business Studies (305) 84%",
+   "date": "2024-05-17",
+   "page": 1
+  },
+  {
+   "event": "Accountancy (301) 85%",
+   "date": "2024-05-17",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/CUET-UG/"
+  ],
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2024-05-15"
+ }
+}

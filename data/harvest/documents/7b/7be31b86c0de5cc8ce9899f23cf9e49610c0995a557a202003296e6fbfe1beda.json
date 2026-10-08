@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "7be31b86c0de5cc8ce9899f23cf9e49610c0995a557a202003296e6fbfe1beda",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20211222120251.pdf",
+  "title": "1379 Public Notice Dated: 22.12.2021 Date wise Subject wise Schedule for UGC-NET December 2020 and June 2021 Examination for Phase-III and rescheduled of 04 Net Subjects (due to cyclone Jawad) of Phase-I. Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "published": "2021-12-22",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "7a0125ae63533933277c872f0aa3257c236ae931e52fcb3627817e4cc9cf5b49",
+  "bytes": 119866,
+  "pages": 1,
+  "chars": 1740,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-08T17:44:40+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2022-01-05",
+   "evidence": "Phase - III of the UGC-NET December 2020 and June 2021 Examination and the 4 rescheduled (due to cyclone Jawad) Net Subjects of Phase-I are scheduled to be conducted on January 4 and January 5, 2022",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://ugcnet.nta.nic.in/",
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-01-05"
+ }
+}
