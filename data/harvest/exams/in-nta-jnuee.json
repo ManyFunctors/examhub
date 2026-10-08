@@ -4,19 +4,19 @@
  "name": "Jawaharlal Nehru University Entrance Examination",
  "body": "in-nta",
  "purpose": "admission",
- "cycle": "2021-09",
- "documents": 6,
+ "cycle": "2022",
+ "documents": 7,
  "documents_in_cycle": 1,
  "fields": {
   "apply_links": {
    "value": [
-    "https://jnuexams.nta.ac.in/"
+    "https://jnuexams.nta.ac.in"
    ],
    "source": {
-    "notice": "2c2580a66908260a06b913008fd24b680720b2ea1122bec436b6523b7b97a44d",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20210901143910.pdf",
-    "title": "1468 PUBLIC NOTICE 1 September, 2021 Subject: Correction in particulars of Online Application Form of Jawaharlal Nehru University Entrance Examination (JNUEE -2021) Read More",
-    "kind": "corrigendum"
+    "notice": "be270e33cac288732fd6b7bae8f1596ca0e7417b003109506229eaa291271674",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20221122105723.pdf",
+    "title": "1111 Correction in Candidates’ particulars in the Online Application Form of Jawaharlal Nehru University Entrance Examination (JNUEE -2022) Read More",
+    "kind": "notice"
    }
   }
  },
@@ -27,5 +27,5 @@
   "eligibility",
   "exam_pattern"
  ],
- "older_documents": 5
+ "older_documents": 6
 }
