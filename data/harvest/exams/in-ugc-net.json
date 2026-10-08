@@ -4,10 +4,115 @@
  "name": "UGC National Eligibility Test",
  "body": "in-nta",
  "purpose": "eligibility",
- "cycle": "2026-06",
- "documents": 77,
- "documents_in_cycle": 18,
+ "cycle": "2026-12",
+ "documents": 78,
+ "documents_in_cycle": 1,
  "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "Unreserved"
+     ],
+     "amount": 1150,
+     "raw": "ApplicationFee   General/Unreserved Rs 1150/ . -",
+     "page": 1
+    },
+    {
+     "categories": [
+      "Unreserved",
+      "EWS",
+      "OBC"
+     ],
+     "amount": 600,
+     "raw": "   General -EWS/OBC - Rs 600/ . -",
+     "page": 1
+    },
+    {
+     "categories": [
+      "SC",
+      "ST",
+      "PwBD"
+     ],
+     "amount": 325,
+     "raw": "   SC/ST/PwD/Third Rs 325/ . -",
+     "page": 1
+    }
+   ],
+   "source": {
+    "notice": "b27d927d06c4f0a3c27eb06eba0a6057c0de8a04126af88ccddc5ba6d0fc0bde",
+    "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081218250076.pdf",
+    "title": "Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg",
+    "kind": "schedule",
+    "page": 1
+   }
+  },
+  "dates": {
+   "exam_date": {
+    "date": "2026-12-14",
+    "provisional": true,
+    "source": {
+     "notice": "b27d927d06c4f0a3c27eb06eba0a6057c0de8a04126af88ccddc5ba6d0fc0bde",
+     "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081218250076.pdf",
+     "title": "Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg",
+     "kind": "schedule",
+     "page": 1
+    }
+   },
+   "payment_deadline": {
+    "date": "2026-10-28",
+    "source": {
+     "notice": "b27d927d06c4f0a3c27eb06eba0a6057c0de8a04126af88ccddc5ba6d0fc0bde",
+     "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081218250076.pdf",
+     "title": "Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg",
+     "kind": "schedule",
+     "page": 1
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-10-08",
+    "source": {
+     "notice": "b27d927d06c4f0a3c27eb06eba0a6057c0de8a04126af88ccddc5ba6d0fc0bde",
+     "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081218250076.pdf",
+     "title": "Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg",
+     "kind": "schedule",
+     "page": 1
+    }
+   },
+   "registration_open": {
+    "date": "2026-10-08",
+    "source": {
+     "notice": "b27d927d06c4f0a3c27eb06eba0a6057c0de8a04126af88ccddc5ba6d0fc0bde",
+     "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081218250076.pdf",
+     "title": "Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg",
+     "kind": "schedule",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-10-08",
+    "until": "2026-10-08"
+   },
+   "source": {
+    "notice": "b27d927d06c4f0a3c27eb06eba0a6057c0de8a04126af88ccddc5ba6d0fc0bde",
+    "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081218250076.pdf",
+    "title": "Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg",
+    "kind": "schedule",
+    "page": 1
+   }
+  },
+  "exam_date": {
+   "value": "2026-12-14",
+   "source": {
+    "notice": "b27d927d06c4f0a3c27eb06eba0a6057c0de8a04126af88ccddc5ba6d0fc0bde",
+    "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081218250076.pdf",
+    "title": "Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg",
+    "kind": "schedule",
+    "page": 1
+   }
+  },
   "exam_pattern": {
    "value": [
     {
@@ -27,10 +132,7 @@
   }
  },
  "gaps": [
-  "apply",
-  "exam_date",
-  "fee",
   "eligibility"
  ],
- "older_documents": 59
+ "older_documents": 77
 }

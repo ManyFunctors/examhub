@@ -2,7 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-08T20:36:14+05:30</updated>
+  <updated>2026-10-08T21:18:41+05:30</updated>
+  <entry>
+    <id>urn:sha256:b27d927d06c4f0a3c27eb06eba0a6057c0de8a04126af88ccddc5ba6d0fc0bde</id>
+    <title>Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg</title>
+    <link href="https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081218250076.pdf"/>
+    <updated>2026-10-08T21:18:41+05:30</updated>
+    <category term="in-ugc-net"/>
+    <summary>in-ugc-net · other · in-ugc-net/2026-dec</summary>
+  </entry>
   <entry>
     <id>urn:sha256:bd0ef4d80cd84a190110bc0cc4aa23664db0c2e97bc15c95284c1510c14dd657</id>
     <title>Further Extension of Last Date for submission of online application form for UGC-NET June 2026 examination</title>
@@ -10,14 +18,6 @@
     <updated>2026-10-08T20:36:14+05:30</updated>
     <category term="in-ugc-net"/>
     <summary>in-ugc-net · press_release · in-ugc-net/2026-jun</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:1a5f9513d7cca2c469802160dac27b14b09f02b46cf47e1be2423f01f0e6c750</id>
-    <title>Third Advisory for completion of application process of UGC-NET June 2026 examination</title>
-    <link href="https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/05/20260522880877469.pdf"/>
-    <updated>2026-10-08T20:36:14+05:30</updated>
-    <category term="in-ugc-net"/>
-    <summary>in-ugc-net · other · in-ugc-net/2026-jun</summary>
   </entry>
   <entry>
     <id>urn:sha256:ae9d1f1171d04169844f279f72510499c229127352688b5eb6922612011d5876</id>
