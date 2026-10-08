@@ -1,0 +1,107 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d288d639372aa55f15546c142b1d952e0ed3f6b91a747a83c8dd97597d09357a",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200207105251.pdf",
+  "title": "1797 PUBLIC NOTICE JOINT ENTRANCE EXAMINATION JEE (Main) April–2020 Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "863f4ba24b46974e4bf8302e81aee457b7844abf7e81802abb47c53fb0c0d084",
+  "bytes": 111081,
+  "pages": 1,
+  "chars": 4097,
+  "ocr": false,
+  "indic_share": 0.02,
+  "fetched": "2026-10-08T08:59:05+05:30"
+ },
+ "kind": "result",
+ "dates": {
+  "registration_open": {
+   "date": "2020-02-07",
+   "evidence": "In order to appear in JEE(Main) April-2020 Examination, the candidates are required to apply only online between 07.02.2020 (Tuesday) to 06.03.2020 (Friday)",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2020-03-06",
+   "evidence": "In order to appear in JEE(Main) April-2020 Examination, the candidates are required to apply only online between 07.02.2020 (Tuesday) to 06.03.2020 (Friday)",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "As per the eligibility criteria for B.Arch. and B",
+    "page": 1
+   }
+  ]
+ },
+ "exam_pattern": [
+  {
+   "paper": "B .E ./B .Tech .",
+   "page": 1
+  },
+  {
+   "paper": "Physics",
+   "page": 1
+  },
+  {
+   "paper": "Chemistry",
+   "page": 1
+  },
+  {
+   "paper": "B Arch . .",
+   "page": 1
+  },
+  {
+   "paper": "Aptitude Test – Part II",
+   "page": 1,
+   "questions": 50
+  },
+  {
+   "paper": "Drawing Test – Part III",
+   "page": 1,
+   "questions": 2
+  },
+  {
+   "paper": "B Planning. .",
+   "page": 1
+  },
+  {
+   "paper": "Aptitude Test – Part II",
+   "page": 1,
+   "questions": 50
+  },
+  {
+   "paper": "Planning Based Questions - Part III",
+   "page": 1,
+   "questions": 25
+  },
+  {
+   "paper": "Note: The timing for those Candidates who opt for B .Arch . and B . Planning. (both) will be 02:30 p.m. to 06:00 p.m. (IST)",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2020-02-07",
+   "until": "2020-03-06"
+  }
+ }
+}

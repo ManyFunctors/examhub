@@ -5,7 +5,7 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2026-04",
- "documents": 62,
+ "documents": 65,
  "documents_in_cycle": 1,
  "fields": {
   "eligibility": {
@@ -36,7 +36,7 @@
   "exam_pattern": {
    "value": [
     {
-     "paper": "B.E./B.Tech.",
+     "paper": "B .E ./B .Tech .",
      "page": 1
     },
     {
@@ -48,7 +48,7 @@
      "page": 1
     },
     {
-     "paper": "B. Arch.",
+     "paper": "B Arch . .",
      "page": 1
     },
     {
@@ -62,7 +62,7 @@
      "questions": 2
     },
     {
-     "paper": "B. Planning",
+     "paper": "B Planning. .",
      "page": 1
     },
     {
@@ -76,17 +76,17 @@
      "questions": 25
     },
     {
-     "paper": "Note: The timing for those Candidates who opt for B.Arch. and B.Planning. (both) will be 02:30 p.m. to 06:00 p.m. (IST)",
+     "paper": "Note: The timing for those Candidates who opt for B .Arch . and B . Planning. (both) will be 02:30 p.m. to 06:00 p.m. (IST)",
      "page": 1
     }
    ],
    "source": {
-    "notice": "415a0c1a842c26766c4f3e8eab461efe40461515dc7983ef6dd4e9a3c0062478",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20190902120505.pdf",
-    "title": "1844 PUBLIC NOTICE JEE MAIN 2020 Read More",
-    "kind": "notice"
+    "notice": "d288d639372aa55f15546c142b1d952e0ed3f6b91a747a83c8dd97597d09357a",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20200207105251.pdf",
+    "title": "1797 PUBLIC NOTICE JOINT ENTRANCE EXAMINATION JEE (Main) April–2020 Read More",
+    "kind": "result"
    },
-   "carried_from": "2020"
+   "carried_from": "2020-04"
   }
  },
  "gaps": [
@@ -94,5 +94,5 @@
   "exam_date",
   "fee"
  ],
- "older_documents": 61
+ "older_documents": 64
 }
