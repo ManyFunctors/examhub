@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "f6edc4f8dfb96d2411153fe2dcc76b0fae959c1fc3b54535df654e8cbeaaa6e0",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220406193158.pdf",
+  "title": "1317 PUBLIC NOTICE 06 April 2022 Inviting Online Applications for National Eligibility-cum-Entrance Test [(NEET (UG)] - 2022 – Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/notices",
+  "published": "2022-04-06",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "8ff945977cc6b471edd520207c4f2a5e44d60594ab4b1ee9b50c37e0938811dd",
+  "bytes": 1057999,
+  "pages": 3,
+  "chars": 5405,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-08T07:50:06+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2022-07-17",
+   "evidence": "07 May 2022 (up to 11:50 PM) Correction in Particulars To be intimated later on the website Fee Payable by Candidate Category of Candidate In India (Fee in Rs) Outside India (Fee in Rs) General Rs 1600/- Rs 8500/- General-EWS/ OBC-NCL* Rs 1",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "Unreserved"
+   ],
+   "amount": 1600,
+   "raw": "Candidate General ₹1600/ - ",
+   "page": 1
+  },
+  {
+   "categories": [
+    "Unreserved",
+    "EWS",
+    "OBC-NCL"
+   ],
+   "amount": 8500,
+   "raw": " General -EWS/OBC -NCL* ₹1500/ - ₹8500/ -",
+   "page": 1
+  },
+  {
+   "categories": [
+    "SC",
+    "ST",
+    "PwBD"
+   ],
+   "amount": 900,
+   "raw": " SC/ST/PwBD/ThirdGender ₹900/ - ",
+   "page": 1
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 20,
+   "raw": "DurationofExamination  200minutes(03hours20Minutes) ",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "http://www.ncbc.nic.in/",
+   "https://neet.nta.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-07-17",
+  "fee": {
+   "min": 20,
+   "max": 8500
+  }
+ }
+}

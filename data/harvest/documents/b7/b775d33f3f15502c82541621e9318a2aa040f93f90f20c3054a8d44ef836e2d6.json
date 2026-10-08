@@ -1,0 +1,40 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "b775d33f3f15502c82541621e9318a2aa040f93f90f20c3054a8d44ef836e2d6",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240612222507.pdf",
+  "title": "Subject - Rescheduling of the National Common Entrance Test (NCET) - 2024 Read More",
+  "body": "in-nta",
+  "exam": "in-ncet",
+  "feed": "in-nta/home",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "c1f0aff8eeb30cba084cdcf0b360d3b85b691c728f4e23953fb4a72f65500dff",
+  "bytes": 298619,
+  "pages": 1,
+  "chars": 2128,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-08T07:49:59+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2024-06-12",
+   "evidence": "The National Testing Agency (NTA) would like to inform all stakeholders regarding the status of the National Common Entrance Test (NCET) 2024, which was scheduled to be conducted on 12 June 2024 (Wednesday) from 02:00 to 05:00 P.M. (IST)",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://ncet.samarth.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2024-06-12"
+ }
+}
