@@ -1,0 +1,49 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "5e51eed8faaf3840be138d0caae0ded1706c32351b6d6fdc517168c782d0822f",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210728211727.pdf",
+  "title": "1523 PUBLIC NOTICE 28 July 2021 Sub: Conduct of JEE (Main) 2021 (Session-1) for the candidates of Bahrain - Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "published": "2021-07-28",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "4048042edf6699c7533733e72d40933d89331db25b78741d71392c655bd324f7",
+  "bytes": 860049,
+  "pages": 1,
+  "chars": 1617,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-08T14:18:15+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2021-08-03",
+   "evidence": "JEE (Main) –2021 (Session-1) (forBahrain only) Paper1 (BE /B Tech ) . . . . 29July2021 (Thursday) onwards Tobe intimated later through JEE (Main) Portal",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "JEE (Main) –2021 (Session-1) (forBahrain only) Paper1 (BE /B Tech ) . . . . 29July2021 (Thursday) onwards Tobe intimated later through JEE (Main) Portal",
+   "key": "exam_date",
+   "date": "2021-08-03",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in",
+   "https://jeemain.nta.nic.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2021-08-03"
+ }
+}
