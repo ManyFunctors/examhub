@@ -2,7 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-08T18:15:53+05:30</updated>
+  <updated>2026-10-08T18:38:31+05:30</updated>
+  <entry>
+    <id>urn:sha256:d2c306e652f21557dfdd3428ee1d661e1721676cf63af01a0c58cec036e4005f</id>
+    <title>DOWNLOAD ADVERTISEMENT( Hindi / English ) ( )</title>
+    <link href="https://sbi.bank.in/documents/77530/57941334/08102026_SBI+-+CRPD-SCO-2026-27_20+-+Hindi.pdf/6e599e5d-2ac6-c1ef-a9b6-bfefa8f2b914?t=1791461918486"/>
+    <updated>2026-10-08T18:38:31+05:30</updated>
+    <category term="in-sbi-so"/>
+    <summary>in-sbi-so · notification</summary>
+  </entry>
   <entry>
     <id>urn:sha256:d5e6852404bfa944b5d0aaddb5e86c9acc852e317678c23ed831f8015f024021</id>
     <title>Public Notice regarding Addition of Examination Cities and Expansion of City Choice Options for UGC-NET June 2026 Examination</title>
@@ -2394,13 +2402,5 @@
     <updated>2026-10-01T07:49:13+05:30</updated>
     <category term="in-nta-duet"/>
     <summary>in-nta-duet · press_release · in-nta-duet/2020</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d6a3c9e68ad0b9e7d8fed7338e59dfd383353fedfcc52fe708ceb561eb560fc1</id>
-    <title>Declaration of Results of the January 2026-Semester Exams of the courses held in Hybrid (CBT+ Pen &amp; Paper) Mode under the Study Webs of Active–Learning for Young Aspiring Minds (SWAYAM) Read More</title>
-    <link href="https://nta.ac.in/Download/Notice/Notice_20260819144329.pdf"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-nta-swayam"/>
-    <summary>in-nta-swayam · result · in-nta-swayam/2026-jan</summary>
   </entry>
 </feed>
