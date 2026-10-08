@@ -2,7 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-08T18:38:31+05:30</updated>
+  <updated>2026-10-08T20:20:22+05:30</updated>
+  <entry>
+    <id>urn:sha256:ae9d1f1171d04169844f279f72510499c229127352688b5eb6922612011d5876</id>
+    <title>Notice: Reference to Advertisement No. Academics/10-01/SR/Short term dated 18.09.2026 for Walk In-Interview for the post of Senior Resident/Demonstrator</title>
+    <link href="https://rrpdocuments.aiimsexams.ac.in/1791470309792-572274473.pdf"/>
+    <updated>2026-10-08T20:20:22+05:30</updated>
+    <category term="in-aiims-senior-resident"/>
+    <summary>in-aiims-senior-resident · walk_in · in-aiims-senior-resident/2026</summary>
+  </entry>
   <entry>
     <id>urn:sha256:d2c306e652f21557dfdd3428ee1d661e1721676cf63af01a0c58cec036e4005f</id>
     <title>DOWNLOAD ADVERTISEMENT( Hindi / English ) ( )</title>
@@ -130,14 +138,6 @@
     <updated>2026-10-01T20:49:32+05:30</updated>
     <category term="in-ibps-clerk"/>
     <summary>in-ibps-clerk · admit_card</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:0945bb3b8f740ba635c58c9f8eb32dcae2ff7b561281aafa4f90d66a396060d4</id>
-    <title>Schedule for Walk in Interview for the post of Senior Resident / Demonstrator at AIIMS, Delhi-110029</title>
-    <link href="https://rrpdocuments.aiimsexams.ac.in/1790855457126-417658718.pdf"/>
-    <updated>2026-10-01T17:32:09+05:30</updated>
-    <category term="in-aiims-senior-resident"/>
-    <summary>in-aiims-senior-resident · walk_in</summary>
   </entry>
   <entry>
     <id>urn:sha256:ffea3d86ffb9526798f7e60f874bd2736f3c93bddb749a231698d974970152f9</id>
