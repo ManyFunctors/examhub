@@ -2,7 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-08T20:20:22+05:30</updated>
+  <updated>2026-10-08T20:36:14+05:30</updated>
+  <entry>
+    <id>urn:sha256:bd0ef4d80cd84a190110bc0cc4aa23664db0c2e97bc15c95284c1510c14dd657</id>
+    <title>Further Extension of Last Date for submission of online application form for UGC-NET June 2026 examination</title>
+    <link href="https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/05/202605231648511527.pdf"/>
+    <updated>2026-10-08T20:36:14+05:30</updated>
+    <category term="in-ugc-net"/>
+    <summary>in-ugc-net · press_release · in-ugc-net/2026-jun</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:1a5f9513d7cca2c469802160dac27b14b09f02b46cf47e1be2423f01f0e6c750</id>
+    <title>Third Advisory for completion of application process of UGC-NET June 2026 examination</title>
+    <link href="https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/05/20260522880877469.pdf"/>
+    <updated>2026-10-08T20:36:14+05:30</updated>
+    <category term="in-ugc-net"/>
+    <summary>in-ugc-net · other · in-ugc-net/2026-jun</summary>
+  </entry>
   <entry>
     <id>urn:sha256:ae9d1f1171d04169844f279f72510499c229127352688b5eb6922612011d5876</id>
     <title>Notice: Reference to Advertisement No. Academics/10-01/SR/Short term dated 18.09.2026 for Walk In-Interview for the post of Senior Resident/Demonstrator</title>
@@ -36,14 +52,6 @@
     <summary>in-ugc-net · schedule · in-ugc-net/2026-jun</summary>
   </entry>
   <entry>
-    <id>urn:sha256:6d89a932a1ba71f826e3d2ebdd189fbaf401d3ed0325cbdf88b73bf71e149ddc</id>
-    <title>Provisional Answer Key Public Notice UGC NET</title>
-    <link href="https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/08/202608101857573785.pdf"/>
-    <updated>2026-10-08T18:15:53+05:30</updated>
-    <category term="in-ugc-net"/>
-    <summary>in-ugc-net · answer_key</summary>
-  </entry>
-  <entry>
     <id>urn:sha256:658a3325cc761f9e58a43428194c2a677d406bc08f5ebdb8fba859a2abfaca8e</id>
     <title>Public Notice regarding Correction in particulars of the Online Application Form for UGC-NET June 2026</title>
     <link href="https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/05/202605261722361671.pdf"/>
@@ -74,14 +82,6 @@
     <updated>2026-10-08T18:15:53+05:30</updated>
     <category term="in-ugc-net"/>
     <summary>in-ugc-net · admit_card · in-ugc-net/2026-jun</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:05c1e2f1f1cf189e1d1281c0e4191a5f98c095d28b3af50988b12022df082695</id>
-    <title>Public Notice regarding Challenge of Provisional Answer Keys for UGC-NET June 2026</title>
-    <link href="https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/08/20260816809171641.pdf"/>
-    <updated>2026-10-08T18:15:53+05:30</updated>
-    <category term="in-ugc-net"/>
-    <summary>in-ugc-net · answer_key · in-ugc-net/2026-jun</summary>
   </entry>
   <entry>
     <id>urn:sha256:132faa3bb3aa4ad53ed6913ea708f502b8f9b32a403814a5cf4de308a5c39862</id>

@@ -1,0 +1,35 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "bd0ef4d80cd84a190110bc0cc4aa23664db0c2e97bc15c95284c1510c14dd657",
+  "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/05/202605231648511527.pdf",
+  "title": "Further Extension of Last Date for submission of online application form for UGC-NET June 2026 examination",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/ugcnet",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "8d674b8f743442f7a58f8561266ecd41654cfa35e440680997d9a4fd6aa6f019",
+  "bytes": 331087,
+  "pages": 1,
+  "chars": 2630,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-08T20:36:25+05:30"
+ },
+ "kind": "corrigendum",
+ "schedule": [
+  {
+   "event": "OnlineSubmissionofApplicationForm 24May2026 (Upto11:50PM) . .",
+   "date": "2026-05-23",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "https://ugcnet.nta.nic.in",
+   "https://www.nta.ac.in/"
+  ]
+ }
+}
