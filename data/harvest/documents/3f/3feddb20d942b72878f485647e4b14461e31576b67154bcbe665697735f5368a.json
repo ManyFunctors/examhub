@@ -1,0 +1,41 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3feddb20d942b72878f485647e4b14461e31576b67154bcbe665697735f5368a",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220829190450.pdf",
+  "title": "1182 Public Notice29August 2022Subject: Important Information for the Candidateswho will be appearing on30 August 2022forCommon University Entrance Examination CUET (UG) –2022–Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/notices",
+  "published": "2022-08-29",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "69e3b298c6a97c07836ff6ad76c96541328ecdaec322efdfdc3e554a07d1ef87",
+  "bytes": 1257427,
+  "pages": 1,
+  "chars": 2105,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-09T02:29:33+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2022-08-30",
+   "evidence": "The last day of Phase 6 is scheduled to be held on 30 August 2022 (Tuesday)",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://cuet.samarth.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-08-30"
+ }
+}
