@@ -2,7 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-08T09:17:04+05:30</updated>
+  <updated>2026-10-08T10:12:12+05:30</updated>
+  <entry>
+    <id>urn:sha256:132faa3bb3aa4ad53ed6913ea708f502b8f9b32a403814a5cf4de308a5c39862</id>
+    <title>Corrigendum No.43/2026: Common Recruitment Examination-5(CRE-5)</title>
+    <link href="https://rrpdocuments.aiimsexams.ac.in/1791433564433-618918061.pdf"/>
+    <updated>2026-10-08T10:12:12+05:30</updated>
+    <category term="in-aiims-cre"/>
+    <summary>in-aiims-cre · corrigendum · in-aiims-cre/2026</summary>
+  </entry>
   <entry>
     <id>urn:sha256:a542d590bea56e38252dd873d53310fe40fdf61f002a899ac1c51ded94fecdb2</id>
     <title>Inviting Online Application for Joint CSIR UGC-NET December 2026 Read More</title>
@@ -2394,13 +2402,5 @@
     <updated>2026-10-01T07:49:13+05:30</updated>
     <category term="in-nta-swayam"/>
     <summary>in-nta-swayam · admit_card · in-nta-swayam/2026-jan</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d536409f480a675571bdd068099197dba40dd8130d09eedf91e8eab73fa1bf43</id>
-    <title>Display of Provisional Answer Keys and Question Paper with Recorded Responses for Answer Key Challenge for National Teachers Eligibility Test (NTET) - 2025 -reg. Read More</title>
-    <link href="https://nta.ac.in/Download/Notice/Notice_20250725173252.pdf"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-ntet"/>
-    <summary>in-ntet · answer_key · in-ntet/2025</summary>
   </entry>
 </feed>
