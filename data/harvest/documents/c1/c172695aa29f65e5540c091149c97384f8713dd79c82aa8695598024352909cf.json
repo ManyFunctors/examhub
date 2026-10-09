@@ -1,0 +1,48 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c172695aa29f65e5540c091149c97384f8713dd79c82aa8695598024352909cf",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220601153906.pdf",
+  "title": "1279 Subject (for English version) :- Inviting Online Applications for Joint Entrance Examination (Main) – 2022 Session 2 Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "deba695a5c96f1caee4e2e7e4ee7736e7497f895bac9805183aafd307387d756",
+  "bytes": 1101994,
+  "pages": 2,
+  "chars": 2640,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-09T06:35:08+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2022-06-30",
+   "evidence": "JEE (Main) –2022 S i 2 ess on 21 22 23 24 25 26 , , , , , , 27 28 29 and 30July , , , 2022 01Juneto30June2022 (up to09:00PM) . .",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "JEE (Main) –2022 S i 2 ess on 21 22 23 24 25 26 , , , , , , 27 28 29 and 30July , , , 2022 01Juneto30June2022 (up to09:00PM) . .",
+   "key": "exam_date",
+   "date": "2022-06-30",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in",
+   "https://jeemain.nta.nic.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-06-30"
+ }
+}
