@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "9cf813b9b4ad3e30efa6635404b54140bb5ac7f08b2e8ed992743c7ea525a151",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220624110718.pdf",
+  "title": "1263 PUBLIC NOTICE: CUET (UG) - 2022 Dated: 22.06.2022 Subject: Dates for Correction, Reopening of the Application Form and Examination of Common University Entrance Test [CUET (UG) -2022]. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/notices",
+  "published": "2022-06-22",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "e9fea60dd76fd56aed3947d8976445a0c34ed295d26e42fa3230b603b1165ac9",
+  "bytes": 942145,
+  "pages": 2,
+  "chars": 4454,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-09T08:09:10+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2022-07-15",
+   "evidence": "Accordingly, the CUET (UG) will be conducted on 15.07.2022, 16.07.2022,",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://cuet.samarth.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-07-15"
+ }
+}

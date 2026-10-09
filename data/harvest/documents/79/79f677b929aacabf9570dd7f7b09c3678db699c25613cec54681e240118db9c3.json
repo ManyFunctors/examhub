@@ -1,0 +1,49 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "79f677b929aacabf9570dd7f7b09c3678db699c25613cec54681e240118db9c3",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220720094406.pdf",
+  "title": "1220 PUBLIC NOTICE 20 July 2022 Sub: Announcement of Joint Entrance Examination (Main) – 2022 Session 2 (July 2022) - Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "published": "2022-07-20",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "9e8a577387d61ff414520d5bebd185fcfc2952ea05aee7c1b7a80314397f346e",
+  "bytes": 1061864,
+  "pages": 1,
+  "chars": 2031,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-09T08:09:06+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2022-07-21",
+   "evidence": "JEE (Main) 2022 – 25July2022onwards https://jeemainntanicin/ . . .",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "JEE (Main) 2022 – 25July2022onwards https://jeemainntanicin/ . . .",
+   "key": "exam_date",
+   "date": "2022-07-21",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in",
+   "https://jeemain.nta.nic.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-07-21"
+ }
+}
