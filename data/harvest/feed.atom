@@ -2,7 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-09T17:24:53+05:30</updated>
+  <updated>2026-10-09T18:49:52+05:30</updated>
+  <entry>
+    <id>urn:sha256:31c1427d9dad5c9461f74e0ad2739328fb5e6bd18a65433829382816fef165e8</id>
+    <title>Reminder 1 : Following accuracy and timeliness while submitting LOC for Class X/XII - 2026-2027 - reg</title>
+    <link href="https://www.cbse.gov.in/cbsenew/documents/Reminder_1_Following_accuracy_timeliness_LOC_2627_09102026.pdf"/>
+    <updated>2026-10-09T18:49:52+05:30</updated>
+    <category term="in-cbse-class-10"/>
+    <summary>in-cbse-class-10 · other · in-cbse-class-10/2026</summary>
+  </entry>
   <entry>
     <id>urn:sha256:b9e92d1041276f67f2c4a345730b38fa64dde51e1542071587d688cdbfd8cbc2</id>
     <title>Notice No.159/2026: Schedule of Skill Test(Stage-II) for the Group Codes:28 &amp; 53 for Common Recruitment Examination-5(CRE-5)-reg.</title>
@@ -2394,13 +2402,5 @@
     <updated>2026-10-01T07:49:13+05:30</updated>
     <category term="in-nta-bbau"/>
     <summary>in-nta-bbau · admit_card · in-nta-bbau/2023</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d816ea4bf7058b890288497208393c3c84cd20fa1f57c1f6a5427679c638d8c5</id>
-    <title>Correction in the particulars of the online Application Form of Common University Entrance Test [CUET (UG)] - 2025 - Reg. Read More</title>
-    <link href="https://nta.ac.in/Download/Notice/Notice_20250325175338.pdf"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-cuet-ug"/>
-    <summary>in-cuet-ug · other · in-cuet-ug/2025</summary>
   </entry>
 </feed>

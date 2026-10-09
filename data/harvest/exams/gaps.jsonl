@@ -263,7 +263,7 @@
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-cat"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-cbdt-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-cbic-recruitment"}
-{"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "in-cbse-class-10"}
+{"cycle": "2026", "documents": 1, "gaps": ["exam_date"], "id": "in-cbse-class-10"}
 {"cycle": "2026", "documents": 5, "gaps": ["exam_date"], "id": "in-cbse-class-12"}
 {"cycle": "2026", "documents": 3, "gaps": ["exam_date"], "id": "in-cbse-supplementary"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ceed"}
