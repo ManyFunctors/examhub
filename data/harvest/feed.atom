@@ -2,7 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-09T18:49:52+05:30</updated>
+  <updated>2026-10-10T00:43:09+05:30</updated>
+  <entry>
+    <id>urn:sha256:00e8f63bc4b057aca3e06969d01243453656a9daa3ea3a34e60279230925c70d</id>
+    <title>Written Result: National Defence Academy and Naval Academy Examination (II), 2026</title>
+    <link href="https://www.upsc.gov.in/whats-new/National%20Defence%20Academy%20and%20Naval%20Academy%20Examination%20%28II%29%2C%202026/Written%20Result"/>
+    <updated>2026-10-10T00:43:09+05:30</updated>
+    <category term="in-upsc-nda"/>
+    <summary>in-upsc-nda · result · in-upsc-nda/2026</summary>
+  </entry>
   <entry>
     <id>urn:sha256:31c1427d9dad5c9461f74e0ad2739328fb5e6bd18a65433829382816fef165e8</id>
     <title>Reminder 1 : Following accuracy and timeliness while submitting LOC for Class X/XII - 2026-2027 - reg</title>
@@ -2394,13 +2402,5 @@
     <updated>2026-10-01T07:49:13+05:30</updated>
     <category term="in-jee-main"/>
     <summary>in-jee-main · other · in-jee-main/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d8216b11c0c473acdd5874b8ba9c3f44a2d1e3f7d948c3c2eb2d0b3991152019</id>
-    <title>853 Advance Intimation of Examination City allotted to the applicants of Ph.D. Entrance Test for DU, JNU, BHU and BBAU - 2023. Read More</title>
-    <link href="https://nta.ac.in/Download/Notice/Notice_20231018160918.pdf"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-nta-bbau"/>
-    <summary>in-nta-bbau · admit_card · in-nta-bbau/2023</summary>
   </entry>
 </feed>
