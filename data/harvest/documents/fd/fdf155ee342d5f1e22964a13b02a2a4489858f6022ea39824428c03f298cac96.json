@@ -1,0 +1,27 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "fdf155ee342d5f1e22964a13b02a2a4489858f6022ea39824428c03f298cac96",
+  "url": "https://www.cbse.gov.in/cbsenew/documents/Date_Sheet_Special_Examinations_09102026.pdf",
+  "title": "Date Sheet for Class XII : Special Examinations for West Asia - 2026",
+  "body": "in-cbse",
+  "exam": "in-cbse-class-12",
+  "feed": "in-cbse/notices",
+  "published": "2026-10-09",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "f25eda2885edcf5f7101b7a98bc1249b76a9a19dc649937ddd54b752125fde24",
+  "bytes": 646093,
+  "pages": 2,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-09T11:26:04+05:30"
+ },
+ "kind": "schedule",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

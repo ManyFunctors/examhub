@@ -2,7 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-08T21:35:05+05:30</updated>
+  <updated>2026-10-09T10:51:02+05:30</updated>
+  <entry>
+    <id>urn:sha256:fdf155ee342d5f1e22964a13b02a2a4489858f6022ea39824428c03f298cac96</id>
+    <title>Date Sheet for Class XII : Special Examinations for West Asia - 2026</title>
+    <link href="https://www.cbse.gov.in/cbsenew/documents/Date_Sheet_Special_Examinations_09102026.pdf"/>
+    <updated>2026-10-09T10:51:02+05:30</updated>
+    <category term="in-cbse-class-12"/>
+    <summary>in-cbse-class-12 · schedule · in-cbse-class-12/2026</summary>
+  </entry>
   <entry>
     <id>urn:sha256:ac992f6c0a5a9adf77c5e001bdc71c80fbd714869239eaa38ada15dde4f0e7ba</id>
     <title>Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg</title>
@@ -2394,13 +2402,5 @@
     <updated>2026-10-01T07:49:13+05:30</updated>
     <category term="in-upsc-ifos"/>
     <summary>in-upsc-ifos · schedule · in-upsc-ifos/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d6c0fd7a2a051855f745a298e90b2a29e8f7007580b4627c81d4aa0f4f8d0b20</id>
-    <title>Release of Admit Cards for Re-scheduled CUET (UG) 2026 Examination Candidates-reg. Read More</title>
-    <link href="https://nta.ac.in/Download/Notice/Notice_20260527195858.pdf"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-cuet-ug"/>
-    <summary>in-cuet-ug · admit_card · in-cuet-ug/2026</summary>
   </entry>
 </feed>
