@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "78d4a1a32418c6dc566a26b7102a278859a4efd5d0aac22d98a8135a3472eba4",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20261009123259.pdf",
+  "title": "Inviting Online Application Form for Study Webs of Active Learning for Young Aspiring Minds [SWAYAM-2026 (July Semester)] -reg. Read More",
+  "body": "in-nta",
+  "exam": "in-nta-swayam",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "6f9e933fb904d951c0ee5d4aa04ad0d4a9109bdacdea7a38143e570adb7c2df3",
+  "bytes": 1395819,
+  "pages": 36,
+  "chars": 66811,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-09T12:59:10+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "correction_window": {
+   "date": "2026-11-02",
+   "until": "2026-11-03",
+   "evidence": "Correctionof Particulars ofApplicationForm on",
+   "page": 1,
+   "from": "table"
+  },
+  "exam_date": {
+   "date": "2026-12-08",
+   "evidence": "(upto 11:50 pm) Announcement of City of Examination To be announced later on the website Downloading of Admit Card To be announced later on the website Date of Examination",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2026-10-09",
+   "evidence": "Online Submission of Application Form 09 October 2026 to 31 October 2026 (upto 11:50 pm) Last date for Successful transaction of Examination Fee (through Credit/ Debit Card/Net Banking/UPI)",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2026-10-31",
+   "evidence": "Online Submission of Application Form 09 October 2026 to 31 October 2026 (upto 11:50 pm) Last date for Successful transaction of Examination Fee (through Credit/ Debit Card/Net Banking/UPI)",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Correctionof Particulars ofApplicationForm on",
+   "key": "correction_window",
+   "date": "2026-11-02",
+   "page": 1,
+   "until": "2026-11-03"
+  }
+ ],
+ "selection": [
+  "Computer-based test"
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.nic.in/",
+   "https://exams.nta.nic.in/swayam/"
+  ],
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2026-10-09",
+   "until": "2026-10-31"
+  },
+  "exam_date": "2026-12-08",
+  "selection": "Computer-based test"
+ }
+}

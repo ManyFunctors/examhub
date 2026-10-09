@@ -5,25 +5,100 @@
  "body": "in-nta",
  "purpose": "certification",
  "cycle": "2026-07",
- "documents": 28,
- "documents_in_cycle": 1,
+ "documents": 29,
+ "documents_in_cycle": 2,
  "fields": {
+  "dates": {
+   "correction_window": {
+    "date": "2026-11-02",
+    "until": "2026-11-03",
+    "source": {
+     "notice": "78d4a1a32418c6dc566a26b7102a278859a4efd5d0aac22d98a8135a3472eba4",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20261009123259.pdf",
+     "title": "Inviting Online Application Form for Study Webs of Active Learning for Young Aspiring Minds [SWAYAM-2026 (July Semester)] -reg. Read More",
+     "kind": "admit_card",
+     "page": 1
+    }
+   },
+   "exam_date": {
+    "date": "2026-12-08",
+    "source": {
+     "notice": "78d4a1a32418c6dc566a26b7102a278859a4efd5d0aac22d98a8135a3472eba4",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20261009123259.pdf",
+     "title": "Inviting Online Application Form for Study Webs of Active Learning for Young Aspiring Minds [SWAYAM-2026 (July Semester)] -reg. Read More",
+     "kind": "admit_card",
+     "page": 1
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-10-31",
+    "source": {
+     "notice": "78d4a1a32418c6dc566a26b7102a278859a4efd5d0aac22d98a8135a3472eba4",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20261009123259.pdf",
+     "title": "Inviting Online Application Form for Study Webs of Active Learning for Young Aspiring Minds [SWAYAM-2026 (July Semester)] -reg. Read More",
+     "kind": "admit_card",
+     "page": 1
+    }
+   },
+   "registration_open": {
+    "date": "2026-10-09",
+    "source": {
+     "notice": "78d4a1a32418c6dc566a26b7102a278859a4efd5d0aac22d98a8135a3472eba4",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20261009123259.pdf",
+     "title": "Inviting Online Application Form for Study Webs of Active Learning for Young Aspiring Minds [SWAYAM-2026 (July Semester)] -reg. Read More",
+     "kind": "admit_card",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-10-09",
+    "until": "2026-10-31"
+   },
+   "source": {
+    "notice": "78d4a1a32418c6dc566a26b7102a278859a4efd5d0aac22d98a8135a3472eba4",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20261009123259.pdf",
+    "title": "Inviting Online Application Form for Study Webs of Active Learning for Young Aspiring Minds [SWAYAM-2026 (July Semester)] -reg. Read More",
+    "kind": "admit_card",
+    "page": 1
+   }
+  },
+  "exam_date": {
+   "value": "2026-12-08",
+   "source": {
+    "notice": "78d4a1a32418c6dc566a26b7102a278859a4efd5d0aac22d98a8135a3472eba4",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20261009123259.pdf",
+    "title": "Inviting Online Application Form for Study Webs of Active Learning for Young Aspiring Minds [SWAYAM-2026 (July Semester)] -reg. Read More",
+    "kind": "admit_card",
+    "page": 1
+   }
+  },
+  "apply_links": {
+   "value": [
+    "https://exams.nta.nic.in/",
+    "https://exams.nta.nic.in/swayam/"
+   ],
+   "source": {
+    "notice": "78d4a1a32418c6dc566a26b7102a278859a4efd5d0aac22d98a8135a3472eba4",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20261009123259.pdf",
+    "title": "Inviting Online Application Form for Study Webs of Active Learning for Young Aspiring Minds [SWAYAM-2026 (July Semester)] -reg. Read More",
+    "kind": "admit_card"
+   }
+  },
   "selection": {
    "value": [
     "Computer-based test"
    ],
    "source": {
-    "notice": "197ab087ae2c70ca8cea94664f95545d97439e247628a5705c007a7215d5691d",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20251008160925.pdf",
-    "title": "Inviting Online Application Form for Study Webs of Active Learning for Young Aspiring Minds [SWAYAM-2025 (July Semester)] -reg. Read More",
+    "notice": "78d4a1a32418c6dc566a26b7102a278859a4efd5d0aac22d98a8135a3472eba4",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20261009123259.pdf",
+    "title": "Inviting Online Application Form for Study Webs of Active Learning for Young Aspiring Minds [SWAYAM-2026 (July Semester)] -reg. Read More",
     "kind": "admit_card"
-   },
-   "carried_from": "2025-07"
+   }
   }
  },
  "gaps": [
-  "apply",
-  "exam_date",
   "fee",
   "eligibility"
  ],
