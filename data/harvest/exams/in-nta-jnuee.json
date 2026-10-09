@@ -5,7 +5,7 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2022",
- "documents": 7,
+ "documents": 8,
  "documents_in_cycle": 1,
  "fields": {
   "apply_links": {
@@ -18,14 +18,49 @@
     "title": "1111 Correction in Candidates’ particulars in the Online Application Form of Jawaharlal Nehru University Entrance Examination (JNUEE -2022) Read More",
     "kind": "notice"
    }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "20 21 22 23Sep 2021 , , , ,",
+     "page": 1,
+     "duration": "DatesofExamination"
+    },
+    {
+     "paper": "180minutes(03:00hours)",
+     "page": 1,
+     "duration": "Duration ofExamination"
+    },
+    {
+     "paper": "LANBasedCBT(ComputerBased Test)",
+     "page": 1,
+     "duration": "ModeofExamination"
+    },
+    {
+     "paper": "MultipleChoiceQuestions",
+     "page": 1,
+     "duration": "Pattern ofExamination"
+    },
+    {
+     "paper": "OnlyEnglish(otherthanlanguageCourses)",
+     "page": 1,
+     "duration": "Mediumof Paper"
+    }
+   ],
+   "source": {
+    "notice": "3559b457fb0deb56a47ec21f55320b709f8c8e1b9cdbe3f7861c12a214ada1b1",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20210728065339.pdf",
+    "title": "1526 PUBLIC NOTICE Date: 27 July 2021 Online Application Form of Jawaharlal Nehru Entrance Examination (JNUEE) – 2021 Read More",
+    "kind": "brochure"
+   },
+   "carried_from": "2021-07"
   }
  },
  "gaps": [
   "apply",
   "exam_date",
   "fee",
-  "eligibility",
-  "exam_pattern"
+  "eligibility"
  ],
- "older_documents": 6
+ "older_documents": 7
 }

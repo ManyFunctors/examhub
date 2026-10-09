@@ -1,0 +1,67 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3559b457fb0deb56a47ec21f55320b709f8c8e1b9cdbe3f7861c12a214ada1b1",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210728065339.pdf",
+  "title": "1526 PUBLIC NOTICE Date: 27 July 2021 Online Application Form of Jawaharlal Nehru Entrance Examination (JNUEE) – 2021 Read More",
+  "body": "in-nta",
+  "exam": "in-nta-jnuee",
+  "feed": "in-nta/notices",
+  "published": "2021-07-27",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "adc133e3a2ca82a3023afc8814bc1432b8cb39949253824c254f84e9eb8263d6",
+  "bytes": 410720,
+  "pages": 1,
+  "chars": 1629,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-09T09:00:31+05:30"
+ },
+ "kind": "brochure",
+ "exam_pattern": [
+  {
+   "paper": "20 21 22 23Sep 2021 , , , ,",
+   "page": 1,
+   "duration": "DatesofExamination"
+  },
+  {
+   "paper": "180minutes(03:00hours)",
+   "page": 1,
+   "duration": "Duration ofExamination"
+  },
+  {
+   "paper": "LANBasedCBT(ComputerBased Test)",
+   "page": 1,
+   "duration": "ModeofExamination"
+  },
+  {
+   "paper": "MultipleChoiceQuestions",
+   "page": 1,
+   "duration": "Pattern ofExamination"
+  },
+  {
+   "paper": "OnlyEnglish(otherthanlanguageCourses)",
+   "page": 1,
+   "duration": "Mediumof Paper"
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://jnuexams.nta.ac.in/"
+  ],
+  "other": [
+   "http://www.nta.ac.in/",
+   "http://www.jnu.ac.in/",
+   "https://www.nta.ac.in",
+   "https://www.jnu.ac.in"
+  ]
+ }
+}
