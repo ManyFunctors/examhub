@@ -2,7 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-09T12:59:02+05:30</updated>
+  <updated>2026-10-09T13:59:48+05:30</updated>
+  <entry>
+    <id>urn:sha256:6790fc91e79466897a75add67944970ed1b49668c7c523a9c641b57dd9ae0e94</id>
+    <title>Notice No.158/2026: Reschedule of exercise of choice and order of Preference for Common Recruitment Examination(CRE-5)-reg.</title>
+    <link href="https://rrpdocuments.aiimsexams.ac.in/1791534033758-321837806.pdf"/>
+    <updated>2026-10-09T13:59:48+05:30</updated>
+    <category term="in-aiims-cre"/>
+    <summary>in-aiims-cre · schedule · in-aiims-cre/2026</summary>
+  </entry>
   <entry>
     <id>urn:sha256:78d4a1a32418c6dc566a26b7102a278859a4efd5d0aac22d98a8135a3472eba4</id>
     <title>Inviting Online Application Form for Study Webs of Active Learning for Young Aspiring Minds [SWAYAM-2026 (July Semester)] -reg. Read More</title>
@@ -2394,13 +2402,5 @@
     <updated>2026-10-01T07:49:13+05:30</updated>
     <category term="in-ugc-net"/>
     <summary>in-ugc-net · schedule · in-ugc-net/2021-dec</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d6fad1e2cdbd3e5d262fbfffe6dd03b3aac7e26a8a6ead6704d981850e374883</id>
-    <title>1528 PUBLIC NOTICE Date: 27 July 2021 Start of Registration Process for DUET-2021. Read More</title>
-    <link href="https://nta.ac.in/Download/Notice/Notice_20210727191719.pdf"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-nta-duet"/>
-    <summary>in-nta-duet · press_release · in-nta-duet/2021-jul</summary>
   </entry>
 </feed>
