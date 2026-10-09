@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "ef28f186358582267836f804b5f23a7b7a93422495154f4e66fa015494f04615",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20250101201511.pdf",
+  "title": "Examination Schedule for JEE (Main)-2025 Session-1 Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/home",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "27d8590b950b56b6d59725a1b42990c742a98b1dcfb1018bf35f0e41dad730ea",
+  "bytes": 348924,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-09T07:17:08+05:30"
+ },
+ "kind": "schedule",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
