@@ -2,7 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-10T09:32:15+05:30</updated>
+  <updated>2026-10-12T13:25:31+05:30</updated>
+  <entry>
+    <id>urn:sha256:87890b05137259e6e8f2c3e873b53efb12b67dc0ba7fe49ce1f65887b340aa59</id>
+    <title>Public Notice regarding Special Facility for Upload of Live Photograph for Visually Impaired Candidates of UGC-NET June 2026 Examination</title>
+    <link href="https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/05/20260509207901598.pdf"/>
+    <updated>2026-10-12T13:25:31+05:30</updated>
+    <category term="in-ugc-net"/>
+    <summary>in-ugc-net · press_release · in-ugc-net/2026-jun</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:6e01e1006852c123f762c1d2069d7bacf34199ff0dd55f95caaf496c01fb7e70</id>
+    <title>Second Advisory for completion of application process of UGC-NET June 2026</title>
+    <link href="https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/05/20260514166723442.pdf"/>
+    <updated>2026-10-12T13:25:31+05:30</updated>
+    <category term="in-ugc-net"/>
+    <summary>in-ugc-net · other · in-ugc-net/2026-jun</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:3fdb5f704b2ef3e96a7140c09588024e76829357d28250dbf859b502054016a4</id>
+    <title>Public Notice regarding Extension of Last Date for submission of online application form for UGC-NET June 2026 examination</title>
+    <link href="https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/05/202605201462069560.pdf"/>
+    <updated>2026-10-12T13:25:31+05:30</updated>
+    <category term="in-ugc-net"/>
+    <summary>in-ugc-net · press_release · in-ugc-net/2026-jun</summary>
+  </entry>
   <entry>
     <id>urn:sha256:f95719e6ba27ee711e05bd32a15f255a20769d6285db0972745d8366aacac2d7</id>
     <title>Notice No.159/2026: Schedule of Skill Test(Stage-II) for the Group Codes:28 &amp; 53 for Common Recruitment Examination-5(CRE-5)-reg.</title>
@@ -106,30 +130,6 @@
     <updated>2026-10-08T18:15:53+05:30</updated>
     <category term="in-ugc-net"/>
     <summary>in-ugc-net · press_release · in-ugc-net/2026-jun</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:5ee416a69b2df0dadf2090f93394eecc2638726453db6e3a10e71eb1c65a9a42</id>
-    <title>Public Notice for Advance City Intimation of UGC-NET June 2026</title>
-    <link href="https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/06/202606101497583780.pdf"/>
-    <updated>2026-10-08T18:15:53+05:30</updated>
-    <category term="in-ugc-net"/>
-    <summary>in-ugc-net · admit_card · in-ugc-net/2026-jun</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:38f72ae20e6423cde92b1940fcbcdc3a6e9ce9dd35a8e6c90be061be3f554ebf</id>
-    <title>Public Notice regarding opening of Portal for Submitting Scribe Details by the PwDPwBD Candidates of UGC-NET June 2026 exam</title>
-    <link href="https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/06/20260618603677570.pdf"/>
-    <updated>2026-10-08T18:15:53+05:30</updated>
-    <category term="in-ugc-net"/>
-    <summary>in-ugc-net · press_release · in-ugc-net/2026-jun</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:37024892810a005332b20e80d0afe82ecd84ffa95c7c545ee3208dcddeaf0b38</id>
-    <title>Public Notice regarding the release of Admit Card for the UGC-NET June 2026 examination</title>
-    <link href="https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/06/202606172040939335.pdf"/>
-    <updated>2026-10-08T18:15:53+05:30</updated>
-    <category term="in-ugc-net"/>
-    <summary>in-ugc-net · admit_card · in-ugc-net/2026-jun</summary>
   </entry>
   <entry>
     <id>urn:sha256:a542d590bea56e38252dd873d53310fe40fdf61f002a899ac1c51ded94fecdb2</id>
