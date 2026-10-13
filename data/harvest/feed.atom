@@ -2,15 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-10T09:32:15+05:30</updated>
-  <entry>
-    <id>urn:sha256:f95719e6ba27ee711e05bd32a15f255a20769d6285db0972745d8366aacac2d7</id>
-    <title>Notice No.159/2026: Schedule of Skill Test(Stage-II) for the Group Codes:28 &amp; 53 for Common Recruitment Examination-5(CRE-5)-reg.</title>
-    <link href="https://rrpdocuments.aiimsexams.ac.in/1791603746231-490602256.pdf"/>
-    <updated>2026-10-10T09:32:15+05:30</updated>
-    <category term="in-aiims-cre"/>
-    <summary>in-aiims-cre · schedule · in-aiims-cre/2026</summary>
-  </entry>
+  <updated>2026-10-10T00:43:09+05:30</updated>
   <entry>
     <id>urn:sha256:00e8f63bc4b057aca3e06969d01243453656a9daa3ea3a34e60279230925c70d</id>
     <title>Written Result: National Defence Academy and Naval Academy Examination (II), 2026</title>
@@ -2402,5 +2394,13 @@
     <updated>2026-10-01T07:49:13+05:30</updated>
     <category term="in-ugc-net"/>
     <summary>in-ugc-net · press_release · in-ugc-net/2019-dec</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:d58b0357467f91083a90ea7ec2939dda3cb1cc3e9278c4d1995b910c14cff596</id>
+    <title>Reminder for Common University Entrance Test [CUET (UG)] - 2025 Registration-reg. Read More</title>
+    <link href="https://nta.ac.in/Download/Notice/Notice_20250321124412.pdf"/>
+    <updated>2026-10-01T07:49:13+05:30</updated>
+    <category term="in-cuet-ug"/>
+    <summary>in-cuet-ug · other · in-cuet-ug/2025</summary>
   </entry>
 </feed>
