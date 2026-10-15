@@ -2,7 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-15T18:36:25+05:30</updated>
+  <updated>2026-10-15T19:19:07+05:30</updated>
+  <entry>
+    <id>urn:sha256:4155e42babd8dca36f024ef9cd875580e384ac30f1c1020d97842e6da4df04f3</id>
+    <title>DOWNLOAD ADVERTISEMENT Hindi / English ( )</title>
+    <link href="https://sbi.bank.in/documents/77530/57941334/SBI+-+CRPD-SCO-2026-27_24+-+Hindi.pdf/f7e425fd-051c-e9ad-9e4b-d4b258af9636?t=1792068580332"/>
+    <updated>2026-10-15T19:19:07+05:30</updated>
+    <category term="in-sbi-so"/>
+    <summary>in-sbi-so · notification</summary>
+  </entry>
   <entry>
     <id>urn:sha256:e459f89028c348f5a13d8a3027fb5e9cadc78c50cf0856c94cd85cf22c5ddf22</id>
     <title>15 Oct 26 Result Status of Online Preliminary Examination for CRP-SPL-XVI</title>
@@ -2394,13 +2402,5 @@
     <updated>2026-10-01T07:49:13+05:30</updated>
     <category term="in-gat-b"/>
     <summary>in-gat-b · answer_key · in-gat-b/2023</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d63529e1b650efee77ede8a27209c9b2e9f4a6788c526eea9e79f35dcb8a3a2a</id>
-    <title>Stenographer Grade 'C' and 'D' Examination, 2026</title>
-    <link href="https://ssc.gov.in/ApplicationForm/Index"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-ssc-steno"/>
-    <summary>in-ssc-steno · other · in-ssc-steno/2026</summary>
   </entry>
 </feed>
