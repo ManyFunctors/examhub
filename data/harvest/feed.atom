@@ -2,7 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-13T19:16:48+05:30</updated>
+  <updated>2026-10-15T16:46:38+05:30</updated>
+  <entry>
+    <id>urn:sha256:bcc1cd6d98bc91d3f34eebdd4237621129c8dce8ea4ada8ee47258aa1e951192</id>
+    <title>Addendum No: 45/2026 Regarding Seat position for the INI-SS DM/M.Ch. January 2027 Session</title>
+    <link href="https://rrpdocuments.aiimsexams.ac.in/1792061935607-388168371.pdf"/>
+    <updated>2026-10-15T16:46:38+05:30</updated>
+    <category term="in-ini-ss"/>
+    <summary>in-ini-ss · corrigendum · in-ini-ss/2027-jan</summary>
+  </entry>
   <entry>
     <id>urn:sha256:dcdc99f1c8c52e88125ff2cff57238bc12189834afee3e3b557082f6adf97925</id>
     <title>Written Result (with name): National Defence Academy and Naval Academy Examination (II), 2026</title>
@@ -2394,13 +2402,5 @@
     <updated>2026-10-01T07:49:13+05:30</updated>
     <category term="in-ssc-steno"/>
     <summary>in-ssc-steno · other · in-ssc-steno/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d5afceb912e2b8f41e5570933fe18cae56e0ea5f23deaf819cb5b85d67881629</id>
-    <title>Public Notice for UGC-NET December 2019</title>
-    <link href="http://ugcnet.nta.nic.in/"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-ugc-net"/>
-    <summary>in-ugc-net · press_release · in-ugc-net/2019-dec</summary>
   </entry>
 </feed>
