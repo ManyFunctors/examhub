@@ -2,7 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-15T19:19:07+05:30</updated>
+  <updated>2026-10-16T06:50:52+05:30</updated>
+  <entry>
+    <id>urn:sha256:1d25f3138637acd66b6554315f8498673f2cbd202d09f566ecfabe7aed2e6cb5</id>
+    <title>Interview Schedule: Indian Economic Service - Indian Statistical Service Examination, 2026</title>
+    <link href="https://www.upsc.gov.in/whats-new/Indian%20Economic%20Service%20-%20Indian%20Statistical%20Service%20Examination%2C%202026/Interview%20Schedule"/>
+    <updated>2026-10-16T06:50:52+05:30</updated>
+    <category term="in-upsc-ies-iss"/>
+    <summary>in-upsc-ies-iss · schedule · in-upsc-ies-iss/2026</summary>
+  </entry>
   <entry>
     <id>urn:sha256:4155e42babd8dca36f024ef9cd875580e384ac30f1c1020d97842e6da4df04f3</id>
     <title>DOWNLOAD ADVERTISEMENT Hindi / English ( )</title>
@@ -2394,13 +2402,5 @@
     <updated>2026-10-01T07:49:13+05:30</updated>
     <category term="in-nta-swayam"/>
     <summary>in-nta-swayam · result · in-nta-swayam/2026-jan</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d643e69c4dde86598713b2205374037b90958dbc55ead38591946b2ac0cc8943</id>
-    <title>1004 Display of Provisional Answer Keys and Question Paper with Recorded Responses for Answer Key Challenge for Graduate Aptitude Test- Biotechnology (GAT-B)/ Biotechnology Eligibility Test (BET) – 2023. Read More</title>
-    <link href="https://nta.ac.in/Download/Notice/Notice_20230519181406.pdf"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-gat-b"/>
-    <summary>in-gat-b · answer_key · in-gat-b/2023</summary>
   </entry>
 </feed>
