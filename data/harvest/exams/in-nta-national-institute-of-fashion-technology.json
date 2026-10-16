@@ -5,19 +5,20 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2027",
- "documents": 2,
- "documents_in_cycle": 1,
+ "documents": 3,
+ "documents_in_cycle": 2,
  "fields": {
   "dates": {
    "registration_deadline": {
     "date": "2026-11-21",
     "source": {
-     "notice": "e0bb83d6d174da9614e822c7368b24bf176887b3fff095eb5852d72a97abbd46",
-     "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/10/20261016429881227.pdf",
-     "title": "Inviting Online Applications for the National Institute of Fashion Technology Entrance Examination (NIFTEE)–2027 for Admissions to UG, PG, NLEA, Artisans and Ph.D. Programmes-reg.",
+     "notice": "f6749aca5c7772b421cbb28afb7e3ab053600327b0d574b61b350109559eb45c",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20261016183525.pdf",
+     "title": "Inviting Online Applications for the National Institute of Fashion Technology Entrance Examination (NIFTEE)–2027 for Admissions to UG, PG, NLEA, Artisans and Ph.D. Programmes-reg. Read More",
      "kind": "schedule",
      "page": 1
-    }
+    },
+    "alternatives": 1
    }
   },
   "apply": {
@@ -26,9 +27,9 @@
     "until": "2026-11-21"
    },
    "source": {
-    "notice": "e0bb83d6d174da9614e822c7368b24bf176887b3fff095eb5852d72a97abbd46",
-    "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/10/20261016429881227.pdf",
-    "title": "Inviting Online Applications for the National Institute of Fashion Technology Entrance Examination (NIFTEE)–2027 for Admissions to UG, PG, NLEA, Artisans and Ph.D. Programmes-reg.",
+    "notice": "f6749aca5c7772b421cbb28afb7e3ab053600327b0d574b61b350109559eb45c",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20261016183525.pdf",
+    "title": "Inviting Online Applications for the National Institute of Fashion Technology Entrance Examination (NIFTEE)–2027 for Admissions to UG, PG, NLEA, Artisans and Ph.D. Programmes-reg. Read More",
     "kind": "schedule",
     "page": 1
    }
@@ -38,11 +39,12 @@
     "https://exams.nta.nic.in/niftee/"
    ],
    "source": {
-    "notice": "e0bb83d6d174da9614e822c7368b24bf176887b3fff095eb5852d72a97abbd46",
-    "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/10/20261016429881227.pdf",
-    "title": "Inviting Online Applications for the National Institute of Fashion Technology Entrance Examination (NIFTEE)–2027 for Admissions to UG, PG, NLEA, Artisans and Ph.D. Programmes-reg.",
+    "notice": "f6749aca5c7772b421cbb28afb7e3ab053600327b0d574b61b350109559eb45c",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20261016183525.pdf",
+    "title": "Inviting Online Applications for the National Institute of Fashion Technology Entrance Examination (NIFTEE)–2027 for Admissions to UG, PG, NLEA, Artisans and Ph.D. Programmes-reg. Read More",
     "kind": "schedule"
-   }
+   },
+   "alternatives": 1
   },
   "eligibility": {
    "value": {
@@ -58,11 +60,12 @@
     ]
    },
    "source": {
-    "notice": "e0bb83d6d174da9614e822c7368b24bf176887b3fff095eb5852d72a97abbd46",
-    "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/10/20261016429881227.pdf",
-    "title": "Inviting Online Applications for the National Institute of Fashion Technology Entrance Examination (NIFTEE)–2027 for Admissions to UG, PG, NLEA, Artisans and Ph.D. Programmes-reg.",
+    "notice": "f6749aca5c7772b421cbb28afb7e3ab053600327b0d574b61b350109559eb45c",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20261016183525.pdf",
+    "title": "Inviting Online Applications for the National Institute of Fashion Technology Entrance Examination (NIFTEE)–2027 for Admissions to UG, PG, NLEA, Artisans and Ph.D. Programmes-reg. Read More",
     "kind": "schedule"
-   }
+   },
+   "alternatives": 1
   }
  },
  "gaps": [
