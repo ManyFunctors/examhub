@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-16T19:29:44+05:30</updated>
+  <updated>2026-10-16T19:57:35+05:30</updated>
   <entry>
-    <id>urn:sha256:6b84b35e175a3e36600065a5c54ddc6b46636972253aa66b8eeb87f57218b16d</id>
+    <id>urn:sha256:86f80b7508c3bc031f964c82187954919e6509c71fe365a0eeeb047d56effd83</id>
     <title>Public Notice Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination</title>
-    <link href="http://https//cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf"/>
-    <updated>2026-10-16T19:29:44+05:30</updated>
+    <link href="http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf"/>
+    <updated>2026-10-16T19:57:35+05:30</updated>
     <category term="in-ugc-net"/>
     <summary>in-ugc-net · corrigendum · in-ugc-net/2026-dec</summary>
   </entry>
@@ -18,6 +18,14 @@
     <updated>2026-10-16T18:51:03+05:30</updated>
     <category term="in-nta-national-institute-of-fashion-technology"/>
     <summary>in-nta-national-institute-of-fashion-technology · other · in-nta-national-institute-of-fashion-technology/2027</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:011acccdedef0e8c510d4dde7fd4b09c6f08da8234220e9de07d870f2198a296</id>
+    <title>Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination – reg</title>
+    <link href="https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf"/>
+    <updated>2026-10-16T18:51:03+05:30</updated>
+    <category term="in-ugc-net"/>
+    <summary>in-ugc-net · corrigendum · in-ugc-net/2026-dec</summary>
   </entry>
   <entry>
     <id>urn:sha256:e0bb83d6d174da9614e822c7368b24bf176887b3fff095eb5852d72a97abbd46</id>
@@ -2394,13 +2402,5 @@
     <updated>2026-10-01T07:49:13+05:30</updated>
     <category term="in-cuet-ug"/>
     <summary>in-cuet-ug · admit_card · in-cuet-ug/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d6ae479a243e294a3d24af7929fc97e3cf4ca9ec2d957880fd18ecfb1efd58b8</id>
-    <title>1749 PUBLIC NOTICE: Registration Process for DUET-2020 Read More</title>
-    <link href="https://nta.ac.in/Download/Notice/Notice_20200622123112.pdf"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-nta-duet"/>
-    <summary>in-nta-duet · press_release · in-nta-duet/2020</summary>
   </entry>
 </feed>
