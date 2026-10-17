@@ -20,6 +20,7 @@ jobs:
     permissions:
       contents: write        # push the pipeline/* branch
       pull-requests: write   # open the pull request
+      actions: write         # start the site build after a merge
     steps:
       - uses: actions/checkout@v7
         with:
@@ -161,9 +162,32 @@ jobs:
           if [ "$code" = 1 ]; then echo "::warning::readme stats failed; README left unchanged"; fi
           exit 0
 
+      - name: Install Hugo
+        run: |
+          curl -sSLo hugo.deb "https://github.com/gohugoio/hugo/releases/download/v0.166.0/hugo_extended_0.166.0_linux-amd64.deb"
+          sudo dpkg -i hugo.deb
+
+      - name: Gate the change before it is published
+        # A pull request made with GITHUB_TOKEN triggers no checks of its own,
+        # so the checks run here, on the tree the pull request will carry:
+        # tests, catalogue lint, the site build and the browse-page check.
+        # Failing the gate still opens the pull request, but it is not merged.
+        id: gate
+        run: |
+          set +e
+          ok=true
+          uv run pytest -q -m "not model" || ok=false
+          uv run python -m examhub_pipeline catalogue lint || ok=false
+          (cd site && TZ=Asia/Kolkata hugo --gc --minify --baseURL "/" && node tools/check-home.mjs public) || ok=false
+          rm -rf site/public site/resources
+          echo "ok=$ok" >> "$GITHUB_OUTPUT"
+          [ "$ok" = true ] || echo "::warning::the gate failed; the pull request stays open for a person"
+          exit 0
+
       - name: Open a pull request
         # The whole point. Nothing changed, nothing is opened.
         if: inputs.review_exit == '0' || steps.names.outputs.changed == 'true' || steps.dedupe.outputs.changed == 'true' || steps.wayback.outputs.changed == 'true' || steps.links.outputs.changed == 'true' || steps.aliases.outputs.changed == 'true' || steps.readme.outputs.changed == 'true' || steps.tracked.outputs.changed == 'true'
+        id: pr
         uses: peter-evans/create-pull-request@v8
         with:
           branch: pipeline/nightly-recheck
@@ -179,12 +203,15 @@ jobs:
           commit-message: |
             pipeline: re-check official exam notices
 
-            Produced by examhub-pipeline. Human-reviewed; not published
-            automatically. Every value in the diff carries a verdict in
+            Produced by examhub-pipeline. Merged automatically when the
+            gate passes. Every value in the diff carries a verdict in
             work/reviews/<timestamp>/report.json.
           body: |
-            Automated re-check of official notices. **Do not merge without
-            reading the diff.**
+            Automated re-check of official notices. It merges itself when the
+            tests, catalogue lint and site build pass; if it is still open,
+            the gate failed (see the run), so read the diff before merging.
+
+            Checklist for a manual merge:
 
             - [ ] The diff is read against the source document, not just
                   skimmed. Only `verified` values were written; anything the
@@ -203,7 +230,17 @@ jobs:
             Full bundle: the `review-bundle` artifact from this run.
           labels: |
             automated
-            needs-review
+
+      - name: Merge it and publish the site
+        # No branch protection, so this is a direct squash merge. A merge made
+        # with GITHUB_TOKEN starts no push workflow, so the site build is
+        # started by hand.
+        if: steps.gate.outputs.ok == 'true' && steps.pr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr merge "${{ steps.pr.outputs.pull-request-number }}" --squash --delete-branch
+          gh workflow run site.yml --ref main
 
       - name: No pull request needed
         if: inputs.review_exit == '2' && steps.names.outputs.changed != 'true' && steps.dedupe.outputs.changed != 'true' && steps.wayback.outputs.changed != 'true' && steps.links.outputs.changed != 'true' && steps.aliases.outputs.changed != 'true' && steps.tracked.outputs.changed != 'true'

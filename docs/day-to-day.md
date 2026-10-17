@@ -5,8 +5,9 @@ Everything here runs on its own. This is what's actually worth a look.
 ## Weekly
 
 - **Open pull requests** on [github.com/ManyFunctors/examhub/pulls](https://github.com/ManyFunctors/examhub/pulls).
-  Each one is the nightly recheck's changes to exam pages (links fixed,
-  duplicates merged, titles filled). Skim the diff, merge if it looks right.
+  The nightly recheck's changes (links fixed, duplicates merged, titles filled)
+  merge themselves once the tests, catalogue lint and site build pass. A pull
+  request still open is one whose gate failed: open the run, fix the cause.
 - **Failed workflow runs**: [Actions tab](https://github.com/ManyFunctors/examhub/actions).
   A red run isn't urgent by itself (a government site timing out is normal),
   but a run failing the *same way* every day for a week means something broke.

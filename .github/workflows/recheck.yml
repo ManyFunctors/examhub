@@ -6,9 +6,9 @@
 # checked at all. The `review` subcommand exits 2 when there is nothing to say
 # and this workflow treats that as success and stops.
 #
-# It commits to a `pipeline/*` branch and pushes that branch. It cannot write
-# to the default branch: the default branch is protected in the repository
-# settings, and every change reaches it only through a reviewed pull request.
+# It commits to a `pipeline/*` branch and opens a pull request. The record
+# workflow runs the gate (tests, catalogue lint, site build) and squash-merges
+# the pull request when it passes; a failing one stays open for a person.
 name: recheck
 
 on:
@@ -166,5 +166,6 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      actions: write
     with:
       review_exit: ${{ needs.review.outputs.exit_code }}

@@ -32,7 +32,7 @@ from this repository in September 2026 unless it cites a source.
 ```
 
 Two branches, two kinds of data. `main` holds code and the catalogue, and
-changes only by reviewed pull request. `harvest` holds observations and is
+changes only by pull request, merged automatically when the checks pass. `harvest` holds observations and is
 written only by the workflows. Nothing is ever pushed to `main`.
 
 ## "Instant", honestly
