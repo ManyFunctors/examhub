@@ -23,6 +23,7 @@ import json
 import os
 import re
 import signal
+import time
 from collections import defaultdict
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from datetime import datetime, timedelta
@@ -66,6 +67,11 @@ OCR_MAX_PAGES = 20
 #: One PDF gets this long to structure. A nightly crawl sat in `documents build`
 #: until the job timeout, so a stuck PDF must fail on its own and be retried.
 STRUCTURE_SECONDS = 300
+#: build stops taking new PDFs after this long, then saves; a step that is killed on its
+#: own time limit saves nothing (the index and profiles are written once, at the end).
+BUILD_SECONDS = 30 * 60
+#: the index is also saved after this many finished PDFs, so a crash keeps most of the work
+CHECKPOINT_EVERY = 20
 
 
 def record_path(notice_id: str, suffix: str, directory: Path = harvest.HARVEST_DIR) -> Path:
@@ -257,12 +263,17 @@ def build(
         todo.append(row)
 
     jobs = jobs or max(1, min(4, os.cpu_count() or 1))
+    deadline = time.monotonic() + float(os.environ.get("EXAMHUB_BUILD_SECONDS", BUILD_SECONDS))
+    done = 0
     with ProcessPoolExecutor(max_workers=jobs) as pool:
         futures = {
             pool.submit(_structure_one, row["pdf"], row["notice"], row["tried"]): row
             for row in todo
         }
         for future in as_completed(futures):
+            if future.cancelled():
+                counts["skipped"] += 1
+                continue
             row = futures[future]
             try:
                 record = future.result()
@@ -279,6 +290,13 @@ def build(
                 continue
             index[row["id"]] = index_line(record)
             counts["ok"] += 1
+            done += 1
+            if done % CHECKPOINT_EVERY == 0:
+                harvest.write_jsonl(directory / "documents" / "index.jsonl", index.values())
+            if time.monotonic() > deadline:
+                # out of time: PDFs not started stay unindexed, so the next crawl picks them up
+                for f in futures:
+                    f.cancel()
 
     harvest.write_jsonl(directory / "documents" / "index.jsonl", index.values())
     counts.update(refresh_profiles(directory))
