@@ -66,6 +66,8 @@ jobs:
             for f in link-check.jsonl archived.jsonl notices.jsonl; do
               git show "FETCH_HEAD:data/harvest/$f" > "data/harvest/$f" 2>/dev/null || rm -f "data/harvest/$f"
             done
+            # the per-exam profiles the PDFs were merged into
+            git archive FETCH_HEAD data/harvest/exams 2>/dev/null | tar -x || true
           fi
           ls -l data/harvest || true
 
@@ -106,6 +108,18 @@ jobs:
           fi
           if [ "$code" = 0 ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
           if [ "$code" = 1 ]; then echo "::warning::linking Wayback copies failed; records left unchanged"; fi
+          exit 0
+
+      - name: Fill dates and vacancies from the PDFs
+        # The crawl's per-exam profiles, written into the records only where the
+        # cycle matches and the record has no value of its own (see profile_fill.py).
+        id: fill
+        run: |
+          set +e
+          uv run python -m examhub_pipeline fill-profiles --apply
+          code=$?
+          if [ "$code" = 0 ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
+          if [ "$code" = 1 ]; then echo "::warning::filling from the PDFs failed; records left unchanged"; fi
           exit 0
 
       - name: Merge duplicate records
@@ -186,7 +200,7 @@ jobs:
 
       - name: Open a pull request
         # The whole point. Nothing changed, nothing is opened.
-        if: inputs.review_exit == '0' || steps.names.outputs.changed == 'true' || steps.dedupe.outputs.changed == 'true' || steps.wayback.outputs.changed == 'true' || steps.links.outputs.changed == 'true' || steps.aliases.outputs.changed == 'true' || steps.readme.outputs.changed == 'true' || steps.tracked.outputs.changed == 'true'
+        if: inputs.review_exit == '0' || steps.names.outputs.changed == 'true' || steps.dedupe.outputs.changed == 'true' || steps.wayback.outputs.changed == 'true' || steps.fill.outputs.changed == 'true' || steps.links.outputs.changed == 'true' || steps.aliases.outputs.changed == 'true' || steps.readme.outputs.changed == 'true' || steps.tracked.outputs.changed == 'true'
         id: pr
         uses: peter-evans/create-pull-request@v8
         with:
@@ -243,5 +257,5 @@ jobs:
           gh workflow run site.yml --ref main
 
       - name: No pull request needed
-        if: inputs.review_exit == '2' && steps.names.outputs.changed != 'true' && steps.dedupe.outputs.changed != 'true' && steps.wayback.outputs.changed != 'true' && steps.links.outputs.changed != 'true' && steps.aliases.outputs.changed != 'true' && steps.tracked.outputs.changed != 'true'
+        if: inputs.review_exit == '2' && steps.names.outputs.changed != 'true' && steps.dedupe.outputs.changed != 'true' && steps.wayback.outputs.changed != 'true' && steps.fill.outputs.changed != 'true' && steps.links.outputs.changed != 'true' && steps.aliases.outputs.changed != 'true' && steps.tracked.outputs.changed != 'true'
         run: echo "Nothing changed. No pull request, which is the point."

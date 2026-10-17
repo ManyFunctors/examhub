@@ -82,7 +82,9 @@ service_posting_area                = 'none'
 city_slip_separate = 'unknown'
 
   [dates.application]
-  status       = 'not_announced'
+  from         = 'unknown'
+  to           = 2026-11-21
+  status       = 'confirmed'
   change       = 'none'
   changed_from = 'none'
 
@@ -352,10 +354,17 @@ link_apply         = 'https://exams.nta.nic.in/niftee/'
   document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260916195948.pdf'
   document_archive   = 'not_archived'
 
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20261016183525.pdf'
+  document_archive   = 'not_archived'
+
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-17T06:44:57+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.stages[1].exam'
@@ -370,4 +379,11 @@ provenance_last_checked = 2026-09-27T19:36:16+05:30
   evidence_page     = 0
   evidence_words    = 'ExamHub record: General 2000; EWS 2000; OBC-NCL 2000; SC 500; ST 500; PwBD 500'
   evidence_method   = 'manual'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.application.to'
+  evidence_document = 'https://nta.ac.in/Download/Notice/Notice_20261016183525.pdf'
+  evidence_page     = 1
+  evidence_words    = 'registration deadline 2026-11-21'
+  evidence_method   = 'rule'
 +++

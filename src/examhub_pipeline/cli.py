@@ -1024,6 +1024,12 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--apply", action="store_true", help="write the fixes (default: print them)")
     p.set_defaults(func=cmd_aliases)
 
+    p = sub.add_parser("fill-profiles", help="fill dates and vacancies in the records from the PDFs' profiles, when the cycle matches")
+    p.add_argument("--exams", default=str(Path(__file__).resolve().parents[2] / "site" / "content" / "exams"),
+                   help="the exam records folder (default: site/content/exams)")
+    p.add_argument("--apply", action="store_true", help="write the fills (default: print them)")
+    p.set_defaults(func=cmd_fill_profiles)
+
     p = sub.add_parser("links", help="move a file given as a record's official page into its documents")
     p.add_argument("--exams", default=str(Path(__file__).resolve().parents[2] / "site" / "content" / "exams"),
                    help="the exam records folder (default: site/content/exams)")
@@ -1162,6 +1168,16 @@ def cmd_links(args: argparse.Namespace) -> int:
         return EXIT_OK if links.fill(Path(args.exams), apply=args.apply, log=_echo) else EXIT_NO_CHANGE
     except (OSError, ValueError) as exc:
         _echo(f"links failed: {exc}")
+        return EXIT_ERROR
+
+
+def cmd_fill_profiles(args: argparse.Namespace) -> int:
+    """Records filled from what the PDFs said. Exit 0 when records changed, 2 when none did."""
+    from . import profile_fill
+    try:
+        return EXIT_OK if profile_fill.fill(Path(args.exams), apply=args.apply, log=_echo) else EXIT_NO_CHANGE
+    except (OSError, ValueError) as exc:
+        _echo(f"fill-profiles failed: {exc}")
         return EXIT_ERROR
 
 

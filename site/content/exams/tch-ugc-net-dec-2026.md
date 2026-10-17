@@ -83,7 +83,9 @@ service_posting_area                = 'none'
 city_slip_separate = 'unknown'
 
   [dates.application]
-  status       = 'not_announced'
+  from         = 2026-10-08
+  to           = 2026-10-28
+  status       = 'tentative'
   change       = 'none'
   changed_from = 'none'
 
@@ -130,7 +132,9 @@ city_slip_separate = 'unknown'
     changed_from = 'none'
 
     [dates.stages.exam]
-    status       = 'not_announced'
+    from         = 2026-12-01
+    to           = 'unknown'
+    status       = 'tentative'
     change       = 'none'
     changed_from = 'none'
 
@@ -367,10 +371,17 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
   document_url       = 'https://nta.ac.in/Download/Notice/Examcalendar.pdf'
   document_archive   = 'not_archived'
 
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf'
+  document_archive   = 'not_archived'
+
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-17T06:44:57+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'fee.rows'
@@ -384,5 +395,26 @@ provenance_last_checked = 2026-09-27T19:36:16+05:30
   evidence_document = 'https://nta.ac.in/Download/Notice/Examcalendar.pdf'
   evidence_page     = 0
   evidence_words    = 'nothing extracted'
+  evidence_method   = 'rule'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.application.from'
+  evidence_document = 'http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf'
+  evidence_page     = 31
+  evidence_words    = 'registration open 2026-10-08'
+  evidence_method   = 'rule'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.application.to'
+  evidence_document = 'http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf'
+  evidence_page     = 31
+  evidence_words    = 'registration deadline 2026-10-28'
+  evidence_method   = 'rule'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.stages[1].exam.from'
+  evidence_document = 'http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf'
+  evidence_page     = 42
+  evidence_words    = 'exam date 2026-12-01'
   evidence_method   = 'rule'
 +++
