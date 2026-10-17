@@ -99,7 +99,7 @@
 <details class="section v2-keydates" id="documents" open>
   <summary class="keydates__summary"><h2 class="section__title">Official Documents</h2></summary>
   <ul class="v2-docs">
-  {{- with $p.links.link_official_page }}{{ if and (hasPrefix . "http") (ne (strings.TrimSuffix "/" .) (strings.TrimSuffix "/" ($p.links.link_apply | default ""))) }}<li class="v2-doc v2-doc--site"><a href="{{ . }}" rel="noopener">Official Page</a><span class="v2-sub">{{ (urls.Parse .).Host }}</span></li>{{ end }}{{ end }}
+  {{- with $p.links.link_official_page }}{{ if hasPrefix . "http" }}<li class="v2-doc v2-doc--site"><a href="{{ . }}" rel="noopener">Official Page</a><span class="v2-sub">{{ (urls.Parse .).Host }}</span></li>{{ end }}{{ end }}
   {{- with $p.links.link_apply }}{{ if hasPrefix . "http" }}<li class="v2-doc v2-doc--apply"><a href="{{ . }}" rel="noopener">Apply Online</a></li>{{ end }}{{ end }}
   {{- range $p.links.documents }}
     <li class="v2-doc"><a href="{{ .document_url }}" rel="noopener">{{ partial "v2/word.html" .document_type }}{{ if ne (printf "%v" .document_stage) "all" }}: {{ index $stageName (string .document_stage) }}{{ end }}</a>
