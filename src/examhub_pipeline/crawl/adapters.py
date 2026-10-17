@@ -430,6 +430,31 @@ def json_api(feed: dict, page_url: str, body: bytes | str) -> Iterator[dict]:
             yield row
 
 
+def rrb_cen_table(feed: dict, page_url: str, body: bytes | str) -> Iterator[dict]:
+    """An RRB /getdata listing: one row per file, per language, of each CEN document.
+
+    The files sit in <option value="/-/image/<id>.pdf/examsDocuments"> inside a
+    select, which no link adapter sees. The title carries the CEN number in the
+    '(07/2025)' form the other RRB rows use, so catalogue matches can key on it.
+    """
+    sel = Selector(text=body if isinstance(body, str) else body.decode("utf-8", "replace"))
+    seen: set[str] = set()
+    for tr in sel.css("table.cnp_list tbody tr"):
+        cells = [clean(" ".join(td.css("::text").getall())) for td in tr.css("td")]
+        if len(cells) < 5:
+            continue
+        cen, category, desc, date = cells[1], cells[2], cells[3], cells[4]
+        for opt in tr.css("select option[value]"):
+            href, lang = opt.attrib["value"], clean(" ".join(opt.css("::text").getall()))
+            if not href.strip():
+                continue
+            title = f"({cen}) {category}: {desc} ({date})" + (f" [{lang}]" if lang else "")
+            row = _row(feed, page_url, href, title, parse_date(date))
+            if row["id"] not in seen:
+                seen.add(row["id"])
+                yield row
+
+
 def rss(feed: dict, page_url: str, body: bytes | str) -> Iterator[dict]:
     sel = Selector(text=body if isinstance(body, str) else body.decode("utf-8", "replace"), type="xml")
     sel.remove_namespaces()
@@ -452,6 +477,7 @@ ADAPTERS = {
     "html_table": html_table,
     "json_api": json_api,
     "rss": rss,
+    "rrb_cen_table": rrb_cen_table,
     "pdf_document": pdf_document,
 }
 

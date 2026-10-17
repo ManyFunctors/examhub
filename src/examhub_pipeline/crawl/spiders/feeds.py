@@ -135,6 +135,17 @@ class FeedsSpider(scrapy.Spider):
                 headers={}, dont_filter=True,
                 meta={**response.meta, "render": "browser", "auto_browser": True})
             return
+        if f.get("follow") and not response.meta.get("followed"):
+            # A listing of listings: its rows are not notices, they are pages to read
+            # with the `follow` adapter (cookies from this request ride along).
+            rep = f.get("follow_replace") or ["", ""]
+            child = {**f, "adapter": f["follow"], "follow": None}
+            for r in rows[: int(f.get("follow_limit", 40))]:
+                yield response.follow(r["url"].replace(*rep), callback=self.parse_feed, errback=self.failed,
+                                      headers={"Referer": response.url}, dont_filter=True,
+                                      meta={"feed": child, "followed": True, "handle_httpstatus_list": [400, 403, 404, 500]})
+            self._health(f, ok=True, status=response.status, count=len(rows), final_url=response.url)
+            return
         # Validators are stored only when the notice set changed. A host that
         # rotates its ETag on every request then simply never answers 304,
         # instead of rewriting feed-health.jsonl on every run.
