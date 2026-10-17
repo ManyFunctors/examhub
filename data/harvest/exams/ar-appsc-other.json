@@ -5,37 +5,25 @@
  "body": "ar-appsc",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 9,
+ "documents": 10,
  "documents_in_cycle": 1,
  "fields": {
   "eligibility": {
    "value": {
-    "education_levels": [
-     "Postgraduate",
-     "Graduate"
-    ],
     "clauses": [
      {
-      "text": "Master Degree in Computer Science/Computer Application OR B.E OR B.Tech in Computer Science/Engineering OR lnformation Technologr from a recognized University",
-      "page": 1
-     },
-     {
-      "text": "Should have knowledge of one or more programming language like VB, C, C++, C# and with web designing/scripting and HTML/DHTML, ASP Programming etc. and back end software like MSSQ Oracle etc",
-      "page": 1
-     },
-     {
-      "text": "In case of more than one 3 Educational Qualification and Eligibitity",
+      "text": "In case the choice of optional subj ect does not correspond with the Educational Qualification/ Post Choice, the Commission reserves the right to reject their candidature",
       "page": 1
      }
     ]
    },
    "source": {
-    "notice": "05be44dc19dcc715e8b999943c962db9641ed6a8b420d6b3d39c42cefec2565a",
-    "url": "https://appsc.gov.in/upload/RECINS001/Advertisement_for_the_post_of_Computer_Programmer_20220412_163708.pdf",
-    "title": "ADVERTISEMENT FOR THE POST OF COMPUTER PROGRAMMER,UNDER THE DEPARTMENT OF AP PUBLIC SERVICE COMISSION.",
-    "kind": "schedule"
+    "notice": "0925f5fd1990611d1f2cf3e9bc87c645a2c4d1f079da3e779591dff82d28328a",
+    "url": "https://appsc.gov.in/upload/RECINS001/Notification_for_Lecturer_DIET_20241015_192239.pdf",
+    "title": "Notification for selection of optional subject for the post of Lecturer(DIET), 2024",
+    "kind": "advertisement"
    },
-   "carried_from": "2022"
+   "carried_from": "2024"
   },
   "selection": {
    "value": [
@@ -80,5 +68,5 @@
   "fee",
   "age"
  ],
- "older_documents": 8
+ "older_documents": 9
 }
