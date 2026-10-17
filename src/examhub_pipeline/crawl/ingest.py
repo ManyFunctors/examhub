@@ -22,6 +22,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import signal
 from collections import defaultdict
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from datetime import datetime, timedelta
@@ -61,6 +62,9 @@ RECENT_DAYS = 45
 #: OCR is ~3.5 s a page on a runner. A scanned advertisement's terms are in
 #: its first pages; the rest is annexures and forms.
 OCR_MAX_PAGES = 20
+#: One PDF gets this long to structure. A nightly crawl sat in `documents build`
+#: until the job timeout, so a stuck PDF must fail on its own and be retried.
+STRUCTURE_SECONDS = 300
 
 
 def record_path(notice_id: str, suffix: str, directory: Path = harvest.HARVEST_DIR) -> Path:
@@ -182,7 +186,17 @@ def _structure_one(pdf: str, notice: dict, fetched: str) -> dict:
     settings = Settings.from_env(ocr_max_pages=OCR_MAX_PAGES)
     with open(pdf, "rb") as fh:
         content = fh.read()
-    return documents.structure(content, notice, settings, fetched=fetched)
+
+    def give_up(*_):
+        raise TimeoutError(f"no result after {STRUCTURE_SECONDS}s")
+
+    # Each worker is a process running this on its main thread, so SIGALRM is safe.
+    signal.signal(signal.SIGALRM, give_up)
+    signal.alarm(STRUCTURE_SECONDS)
+    try:
+        return documents.structure(content, notice, settings, fetched=fetched)
+    finally:
+        signal.alarm(0)
 
 
 def index_line(record: dict) -> dict:

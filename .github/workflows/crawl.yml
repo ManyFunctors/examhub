@@ -79,6 +79,10 @@ jobs:
           tail -n 40 work/crawl.log
 
       - name: Read notification PDFs
+        # Nightly runs hit the 180-minute job limit here and lost every step
+        # after it; a cap lets the rest of the crawl finish if a PDF hangs.
+        timeout-minutes: 45
+        continue-on-error: true
         # New notification PDFs, failures due a retry, and scans the fast
         # loop read without OCR. tesseract with the Indic scripts the state
         # bodies print in; `documents build` OCRs only pages with no text.
