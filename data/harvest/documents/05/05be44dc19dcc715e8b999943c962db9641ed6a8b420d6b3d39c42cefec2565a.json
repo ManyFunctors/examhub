@@ -1,0 +1,122 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "05be44dc19dcc715e8b999943c962db9641ed6a8b420d6b3d39c42cefec2565a",
+  "url": "https://appsc.gov.in/upload/RECINS001/Advertisement_for_the_post_of_Computer_Programmer_20220412_163708.pdf",
+  "title": "ADVERTISEMENT FOR THE POST OF COMPUTER PROGRAMMER,UNDER THE DEPARTMENT OF AP PUBLIC SERVICE COMISSION.",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/advertisement",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "f55c6c8192c15e0ceaaa91d291b7330468b1c59655cf9a2f93e5e1a9c82171f9",
+  "bytes": 1345109,
+  "pages": 4,
+  "chars": 5788,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T16:54:04+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "age_as_on": {
+   "date": "2022-05-13",
+   "evidence": "ADVERT SEMENT Memo No.PSC-R (A) / 05 / 2022 Dated [tanagar, the 72th April, Z0ZZ The Arunachal Pradesh Public Service Commission invites applications for filling up ol'post of Computer Programmer as detailed below:- Name of the Post Compute",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 150,
+   "raw": "Application Fee Rs .150/ -",
+   "page": 3
+  }
+ ],
+ "age": {
+  "as_on": "2022-05-13",
+  "relaxations": [
+   {
+    "categories": [
+     "ar:APST"
+    ],
+    "years": 5,
+    "raw": "However, the Upper Age Limit is relaxable by 5 years for APST and another 5 years for employees working under Govt. and Semi Govt. departments ofthe State ofArunachal Pradesh",
+    "page": 1
+   },
+   {
+    "categories": [
+     "ar:APST",
+     "PwBD"
+    ],
+    "years": 15,
+    "raw": "For APST PwD candidates, upper age limit will be relaxed by 15 years",
+    "page": 1
+   }
+  ]
+ },
+ "pay": [
+  {
+   "levels": [
+    7
+   ],
+   "low": 44900,
+   "high": 142400,
+   "text": "Pay Level 7, ₹44,900–142,400",
+   "evidence": "ADVERT SEMENT Memo No.PSC-R (A) / 05 / 2022 Dated [tanagar, the 72th April, Z0ZZ The Arunachal Pradesh Public Service Commission invites applications for filling up ol'post of Computer Programmer as detailed below:- Name of the Post Computer Programmer, Group-'B' Non-Gazetted Department Arunachal…",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Master Degree in Computer Science/Computer Application OR B.E OR B.Tech in Computer Science/Engineering OR lnformation Technologr from a recognized University",
+    "page": 1
+   },
+   {
+    "text": "Should have knowledge of one or more programming language like VB, C, C++, C# and with web designing/scripting and HTML/DHTML, ASP Programming etc. and back end software like MSSQ Oracle etc",
+    "page": 1
+   },
+   {
+    "text": "In case of more than one 3 Educational Qualification and Eligibitity",
+    "page": 1
+   }
+  ]
+ },
+ "selection": [
+  "Written examination",
+  "Interview",
+  "Preliminary examination"
+ ],
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 3
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.appsc"
+  ]
+ },
+ "summary": {
+  "fee": {
+   "min": 150,
+   "max": 150
+  },
+  "pay": "Pay Level 7, ₹44,900–142,400",
+  "education": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "selection": "Written examination → Interview → Preliminary examination"
+ }
+}

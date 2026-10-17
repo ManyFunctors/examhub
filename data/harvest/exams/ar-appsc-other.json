@@ -5,18 +5,80 @@
  "body": "ar-appsc",
  "purpose": "recruitment",
  "cycle": "2024",
- "documents": 2,
+ "documents": 3,
  "documents_in_cycle": 1,
- "fields": {},
+ "fields": {
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Postgraduate",
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "Master Degree in Computer Science/Computer Application OR B.E OR B.Tech in Computer Science/Engineering OR lnformation Technologr from a recognized University",
+      "page": 1
+     },
+     {
+      "text": "Should have knowledge of one or more programming language like VB, C, C++, C# and with web designing/scripting and HTML/DHTML, ASP Programming etc. and back end software like MSSQ Oracle etc",
+      "page": 1
+     },
+     {
+      "text": "In case of more than one 3 Educational Qualification and Eligibitity",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "05be44dc19dcc715e8b999943c962db9641ed6a8b420d6b3d39c42cefec2565a",
+    "url": "https://appsc.gov.in/upload/RECINS001/Advertisement_for_the_post_of_Computer_Programmer_20220412_163708.pdf",
+    "title": "ADVERTISEMENT FOR THE POST OF COMPUTER PROGRAMMER,UNDER THE DEPARTMENT OF AP PUBLIC SERVICE COMISSION.",
+    "kind": "schedule"
+   },
+   "carried_from": "2022"
+  },
+  "selection": {
+   "value": [
+    "Written examination",
+    "Interview",
+    "Preliminary examination"
+   ],
+   "source": {
+    "notice": "05be44dc19dcc715e8b999943c962db9641ed6a8b420d6b3d39c42cefec2565a",
+    "url": "https://appsc.gov.in/upload/RECINS001/Advertisement_for_the_post_of_Computer_Programmer_20220412_163708.pdf",
+    "title": "ADVERTISEMENT FOR THE POST OF COMPUTER PROGRAMMER,UNDER THE DEPARTMENT OF AP PUBLIC SERVICE COMISSION.",
+    "kind": "schedule"
+   },
+   "carried_from": "2022"
+  },
+  "pay": {
+   "value": [
+    {
+     "levels": [
+      7
+     ],
+     "low": 44900,
+     "high": 142400,
+     "text": "Pay Level 7, ₹44,900–142,400",
+     "evidence": "ADVERT SEMENT Memo No.PSC-R (A) / 05 / 2022 Dated [tanagar, the 72th April, Z0ZZ The Arunachal Pradesh Public Service Commission invites applications for filling up ol'post of Computer Programmer as detailed below:- Name of the Post Computer Programmer, Group-'B' Non-Gazetted Department Arunachal…",
+     "page": 1
+    }
+   ],
+   "source": {
+    "notice": "05be44dc19dcc715e8b999943c962db9641ed6a8b420d6b3d39c42cefec2565a",
+    "url": "https://appsc.gov.in/upload/RECINS001/Advertisement_for_the_post_of_Computer_Programmer_20220412_163708.pdf",
+    "title": "ADVERTISEMENT FOR THE POST OF COMPUTER PROGRAMMER,UNDER THE DEPARTMENT OF AP PUBLIC SERVICE COMISSION.",
+    "kind": "schedule"
+   },
+   "carried_from": "2022"
+  }
+ },
  "gaps": [
   "vacancies",
   "apply",
   "exam_date",
   "fee",
-  "age",
-  "pay",
-  "eligibility",
-  "selection"
+  "age"
  ],
- "older_documents": 1
+ "older_documents": 2
 }
