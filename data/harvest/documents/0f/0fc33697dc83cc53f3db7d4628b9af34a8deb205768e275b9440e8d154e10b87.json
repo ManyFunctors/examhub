@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0fc33697dc83cc53f3db7d4628b9af34a8deb205768e275b9440e8d154e10b87",
+  "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat - hs અર્થશાસ્ત્ર_022026.pdf",
+  "title": "TAT - HS અર્થશાસ્ત્ર",
+  "body": "gj-seb",
+  "exam": "gj-tat",
+  "feed": "gj-seb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "a4f40091960a2c946eb7831ee6db46b28c6d63c10af303ae9cb6c1ce6dee36b9",
+  "bytes": 469778,
+  "pages": 16,
+  "chars": 30,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T01:02:44+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
