@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "exam": "in-iob-recruitment",
+ "name": "IOB Direct Recruitment (Specialist Officers, Apprentices and others)",
+ "body": "in-iob",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2026-10-22",
+    "source": {
+     "notice": "0c6123d100b691b600871a3b78b10d5b51a0cd01e8a539c050ad9bec710cb5ad",
+     "url": "https://www.iob.bank.in/documents/d/guest/notification-for-online-examination_recruitment-of-security-guards",
+     "title": "(View)",
+     "kind": "admit_card",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2026-10-22",
+   "source": {
+    "notice": "0c6123d100b691b600871a3b78b10d5b51a0cd01e8a539c050ad9bec710cb5ad",
+    "url": "https://www.iob.bank.in/documents/d/guest/notification-for-online-examination_recruitment-of-security-guards",
+    "title": "(View)",
+    "kind": "admit_card",
+    "page": 1
+   }
+  },
+  "advertisement_no": {
+   "value": "HRMD/SS/RECT/01/2026-27",
+   "source": {
+    "notice": "0c6123d100b691b600871a3b78b10d5b51a0cd01e8a539c050ad9bec710cb5ad",
+    "url": "https://www.iob.bank.in/documents/d/guest/notification-for-online-examination_recruitment-of-security-guards",
+    "title": "(View)",
+    "kind": "admit_card"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}

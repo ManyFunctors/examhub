@@ -1,0 +1,50 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0c6123d100b691b600871a3b78b10d5b51a0cd01e8a539c050ad9bec710cb5ad",
+  "url": "https://www.iob.bank.in/documents/d/guest/notification-for-online-examination_recruitment-of-security-guards",
+  "title": "(View)",
+  "body": "in-iob",
+  "exam": "in-iob-recruitment",
+  "feed": "in-iob/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "f487f61010cd42d4a4ce732121046a2dca4a54bd907d68eabd637e6d7e61547c",
+  "bytes": 62933,
+  "pages": 1,
+  "chars": 740,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T22:48:57+05:30"
+ },
+ "kind": "admit_card",
+ "advertisement_no": "HRMD/SS/RECT/01/2026-27",
+ "dates": {
+  "exam_date": {
+   "date": "2026-10-22",
+   "evidence": "We hereby inform that the Online Examination for the captioned recruitment process is scheduled to be held on 22.10.2026 (Thursday)",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.iob.bank.in/",
+   "https://www.iob.bank.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-10-22"
+ }
+}
