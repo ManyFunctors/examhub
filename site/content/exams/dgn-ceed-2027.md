@@ -82,7 +82,9 @@ service_posting_area                = 'none'
 city_slip_separate = 'unknown'
 
   [dates.application]
-  status       = 'not_announced'
+  from         = 'unknown'
+  to           = 2026-10-31
+  status       = 'confirmed'
   change       = 'none'
   changed_from = 'none'
 
@@ -343,10 +345,17 @@ link_apply         = 'https://www.ceed.iitb.ac.in/'
   document_url       = 'https://www.ceed.iitb.ac.in/2026/'
   document_archive   = 'not_archived'
 
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://www.ceed.iitb.ac.in/2027/downloads/CEED2027_Brochure.pdf'
+  document_archive   = 'not_archived'
+
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-18T02:43:21+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.stages[1].exam'
@@ -361,4 +370,11 @@ provenance_last_checked = 2026-09-27T19:36:16+05:30
   evidence_page     = 0
   evidence_words    = 'ExamHub record: All candidates 4000; SC 2000; ST 2000; PwBD 2000; Women 2000'
   evidence_method   = 'manual'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.application.to'
+  evidence_document = 'https://www.ceed.iitb.ac.in/2027/downloads/CEED2027_Brochure.pdf'
+  evidence_page     = 13
+  evidence_words    = 'registration deadline 2026-10-31'
+  evidence_method   = 'rule'
 +++
