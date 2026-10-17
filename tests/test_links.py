@@ -128,3 +128,48 @@ def test_application_form_link_beats_a_stale_cycles_registration_link():
             b'<a href="/new">UGC-NET Dec 2026 Application form</a></body></html>')
     info = classify("https://x.test/", "https://x.test/", 200, "text/html", html)
     assert info["apply_links"] == ["https://x.test/new", "https://x.test/old"]
+
+
+def _rec(apply="unknown", official="https://mcgm.gov.in/", docs=()):
+    return {"title": "BMC Clerk", "bodies": [{"body": "mh-bmc", "body_role": "conducts"}],
+            "links": {"link_official_page": official, "link_apply": apply,
+                      "documents": [{"document_url": d, "document_type": "notification"} for d in docs]}}
+
+
+CAT2 = Catalogue(vocab={}, jurisdictions={}, feeds={}, exams={},
+                 bodies={"mh-bmc": {"id": "mh-bmc", "website": "https://mcgm.gov.in/", "hosts": ["portal.mcgm.gov.in"]}})
+PORTAL = {"state": "ok", "kind": "portal", "title": "Login", "text": "Login Civil Registration", "apply_links": []}
+
+
+def test_an_unrelated_login_a_page_offers_is_not_the_apply_link():
+    home = "https://mcgm.gov.in/"
+    other = "https://dc.crsorgi.gov.in/crs/Auth/admin"
+    checks = {home: {"state": "ok", "kind": "page", "title": "BMC", "text": "BMC jobs", "home": True, "apply_links": [other]},
+              other: PORTAL}
+    rec = _rec()
+    links.fix(rec, CAT2, checks)
+    assert rec["links"]["link_apply"] == "unknown"
+    rec = _rec(apply=other)  # already adopted by an earlier run: dropped again
+    links.fix(rec, CAT2, checks)
+    assert rec["links"]["link_apply"] == "unknown"
+
+
+def test_a_portal_on_a_shared_platform_or_the_bodys_own_site_is_kept():
+    home = "https://mcgm.gov.in/"
+    own = "https://portal.mcgm.gov.in/apply/login"
+    shared = "https://examinationservices.nic.in/ExamSys27/root/home.aspx"
+    for target in (own, shared):
+        checks = {home: {"state": "ok", "kind": "page", "title": "BMC", "text": "BMC jobs", "home": True, "apply_links": [target]},
+                  target: PORTAL}
+        rec = _rec()
+        links.fix(rec, CAT2, checks)
+        assert rec["links"]["link_apply"] == target
+
+
+def test_a_script_rendered_apply_page_on_the_own_site_is_not_dropped():
+    apply = "https://recruitment.mcgm.gov.in/crpd-25/apply"
+    checks = {apply: {"state": "ok", "kind": "page", "title": "", "text": "", "thin": True, "apply_links": []},
+              "https://mcgm.gov.in/": {"state": "ok", "kind": "page", "title": "BMC", "text": "BMC", "home": True, "apply_links": []}}
+    rec = _rec(apply=apply)
+    links.fix(rec, CAT2, checks)
+    assert rec["links"]["link_apply"] == apply
