@@ -1,0 +1,346 @@
+{
+ "schema": 1,
+ "exam": "in-ssc-je",
+ "name": "Junior Engineer (Civil, Mechanical and Electrical) Examination",
+ "body": "in-ssc",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 1699,
+    "by_category": {
+     "Unreserved": 718,
+     "OBC": 462,
+     "SC": 245,
+     "ST": 140,
+     "EWS": 134,
+     "PwBD-A": 1,
+     "PwBD-B": 14,
+     "PwBD-C": 32
+    },
+    "rows": [
+     {
+      "label": "BorderRoadsOrganization(ForMale candidatesonly) / JE(C)",
+      "total": 271,
+      "by_category": {
+       "SC": 39,
+       "ST": 20,
+       "OBC": 118,
+       "EWS": 9,
+       "Unreserved": 85,
+       "PwBD-C": 0,
+       "PwBD-B": 0,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "BorderRoadsOrganization(ForMale candidatesonly) / JE(E&M)",
+      "total": 22,
+      "by_category": {
+       "SC": 1,
+       "ST": 1,
+       "OBC": 9,
+       "EWS": 1,
+       "Unreserved": 10,
+       "PwBD-C": 0,
+       "PwBD-B": 0,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "CentralWaterCommission / JE(M)",
+      "total": 3,
+      "by_category": {
+       "SC": 1,
+       "ST": 0,
+       "OBC": 1,
+       "EWS": 0,
+       "Unreserved": 1,
+       "PwBD-C": 1,
+       "PwBD-B": 0,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "CentralWaterCommission / JE(C)",
+      "total": 29,
+      "by_category": {
+       "SC": 4,
+       "ST": 4,
+       "OBC": 6,
+       "EWS": 3,
+       "Unreserved": 12,
+       "PwBD-C": 2,
+       "PwBD-B": 0,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "CentralPublicWorksDepartment / JE(E)",
+      "total": 103,
+      "by_category": {
+       "SC": 15,
+       "ST": 7,
+       "OBC": 27,
+       "EWS": 10,
+       "Unreserved": 44,
+       "PwBD-C": 1,
+       "PwBD-B": 1,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "CentralPublicWorksDepartment / JE(C)",
+      "total": 343,
+      "by_category": {
+       "SC": 51,
+       "ST": 25,
+       "OBC": 92,
+       "EWS": 34,
+       "Unreserved": 141,
+       "PwBD-C": 4,
+       "PwBD-B": 5,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Central Water Power Research Station , Department of Water Resources, MinistryofJalShakti / JE(C)",
+      "total": 2,
+      "by_category": {
+       "SC": 1,
+       "ST": 0,
+       "OBC": 0,
+       "EWS": 0,
+       "Unreserved": 1,
+       "PwBD-C": 0,
+       "PwBD-B": 0,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Central Water Power Research Station , Department of Water Resources, MinistryofJalShakti / JE(E)",
+      "total": 1,
+      "by_category": {
+       "SC": 1,
+       "ST": 0,
+       "OBC": 0,
+       "EWS": 0,
+       "Unreserved": 0,
+       "PwBD-C": 0,
+       "PwBD-B": 0,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Central Water Power Research Station , Department of Water Resources, MinistryofJalShakti / JE(M)",
+      "total": 1,
+      "by_category": {
+       "SC": 0,
+       "ST": 0,
+       "OBC": 0,
+       "EWS": 0,
+       "Unreserved": 1,
+       "PwBD-C": 0,
+       "PwBD-B": 0,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "DGQA-NAVAL Ministry of Defence , / JE(E)",
+      "total": 2,
+      "by_category": {
+       "SC": 0,
+       "ST": 1,
+       "OBC": 1,
+       "EWS": 0,
+       "Unreserved": 0,
+       "PwBD-C": 0,
+       "PwBD-B": 0,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "DGQA-NAVAL Ministry of Defence , / JE(M)",
+      "total": 6,
+      "by_category": {
+       "SC": 1,
+       "ST": 1,
+       "OBC": 0,
+       "EWS": 1,
+       "Unreserved": 3,
+       "PwBD-C": 0,
+       "PwBD-B": 0,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Farakka Barrage Project Department of , Water Resources River Development , and Ganga Rejuvenation, Ministry of Jal Shakti / JE(C)",
+      "total": 2,
+      "by_category": {
+       "SC": 0,
+       "ST": 0,
+       "OBC": 0,
+       "EWS": 0,
+       "Unreserved": 2,
+       "PwBD-C": 0,
+       "PwBD-B": 0,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "MilitaryEngineerService(MES) / JE(C)",
+      "total": 154,
+      "by_category": {
+       "SC": 19,
+       "ST": 32,
+       "OBC": 33,
+       "EWS": 9,
+       "Unreserved": 61,
+       "PwBD-C": 2,
+       "PwBD-B": 3,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "MilitaryEngineerService(MES) / JE(E&M)",
+      "total": 161,
+      "by_category": {
+       "SC": 16,
+       "ST": 26,
+       "OBC": 38,
+       "EWS": 11,
+       "Unreserved": 70,
+       "PwBD-C": 2,
+       "PwBD-B": 3,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "CentralInstituteofCoastalEngineering For Fishery, Ministry of Fisheries, AnimalHusbandryAndDairy / JE(C)",
+      "total": 3,
+      "by_category": {
+       "SC": 1,
+       "ST": 1,
+       "OBC": 1,
+       "EWS": 0,
+       "Unreserved": 0,
+       "PwBD-C": 0,
+       "PwBD-B": 0,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "DirectorateGeneralofLightHouses and Lightships, Ministry of Ports, shippingandWaterways / JE(C)",
+      "total": 7,
+      "by_category": {
+       "SC": 1,
+       "ST": 1,
+       "OBC": 0,
+       "EWS": 1,
+       "Unreserved": 4,
+       "PwBD-C": 0,
+       "PwBD-B": 1,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "DirectorateGeneralofLightHouses and Lightships, Ministry of Ports, shippingandWaterways / JE(E)",
+      "total": 2,
+      "by_category": {
+       "SC": 0,
+       "ST": 0,
+       "OBC": 1,
+       "EWS": 0,
+       "Unreserved": 1,
+       "PwBD-C": 0,
+       "PwBD-B": 0,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "DepartmentofTelecommunication / JE(T)",
+      "total": 69,
+      "by_category": {
+       "SC": 10,
+       "ST": 5,
+       "OBC": 18,
+       "EWS": 6,
+       "Unreserved": 30,
+       "PwBD-C": 1,
+       "PwBD-B": 0,
+       "PwBD-A": 1
+      },
+      "page": 1
+     },
+     {
+      "label": "IndiaMetelogicalDeparment / SA",
+      "total": 462,
+      "by_category": {
+       "SC": 76,
+       "ST": 11,
+       "OBC": 99,
+       "EWS": 45,
+       "Unreserved": 231,
+       "PwBD-C": 18,
+       "PwBD-B": 0,
+       "PwBD-A": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Brahmaputra Board Department of , Water Resources River Development , and Ganga Rejuvenation. / JE(C)",
+      "total": 56,
+      "by_category": {
+       "SC": 8,
+       "ST": 5,
+       "OBC": 18,
+       "EWS": 4,
+       "Unreserved": 21,
+       "PwBD-C": 1,
+       "PwBD-B": 1,
+       "PwBD-A": 0
+      },
+      "page": 1
+     }
+    ],
+    "from": "table"
+   },
+   "source": {
+    "notice": "08f226aa159ece7a3f189468e5eab72df06cdc23bfbf44af0667eaf377e8b0d9",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/JE_Tentative_Vacancy_08102026.pdf",
+    "title": "Tentative Vacancies of Junior Engineer Examination, 2026.",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}

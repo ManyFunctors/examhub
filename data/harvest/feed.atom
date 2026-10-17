@@ -2,7 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-16T23:52:13+05:30</updated>
+  <updated>2026-10-17T08:06:17+05:30</updated>
+  <entry>
+    <id>urn:sha256:c316ade70a92ed295391c259863aa37d9dd904d962d57733861a4464a3015c56</id>
+    <title>Stenographer Grade 'C' and 'D' Examination, 2025: Uploading Marks of CBE and Skill Test</title>
+    <link href="https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Final_Marks_Writeup_07102026.pdf"/>
+    <updated>2026-10-17T08:06:17+05:30</updated>
+    <category term="in-ssc-steno"/>
+    <summary>in-ssc-steno · result · in-ssc-steno/2025</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:43de00d0f052486c2e2c625032c8dac5c4f0b1916f517653c4034a66b16ce114</id>
+    <title>Multi Tasking (Non-Technical) Staff, and Havaldar (CBIC and CBN) Examination, 2025: Declaration of additional result of Computer Based Examination to shortlist candidates for PET/ PST for the post of Havaldar.</title>
+    <link href="https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/writeup_07102026.pdf"/>
+    <updated>2026-10-17T08:06:17+05:30</updated>
+    <category term="in-ssc-mts"/>
+    <summary>in-ssc-mts · result · in-ssc-mts/2025</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:08f226aa159ece7a3f189468e5eab72df06cdc23bfbf44af0667eaf377e8b0d9</id>
+    <title>Tentative Vacancies of Junior Engineer Examination, 2026.</title>
+    <link href="https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/JE_Tentative_Vacancy_08102026.pdf"/>
+    <updated>2026-10-17T08:06:17+05:30</updated>
+    <category term="in-ssc-je"/>
+    <summary>in-ssc-je · notification · in-ssc-je/2026</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:0828d061bf924df48b92e15f38ac87a25e3ff17fa362f376c35c6915b0ab7743</id>
+    <title>Phase-XIV/2026/Selection Posts Examination - Uploading of Candidate’s Response Sheet(s) along with Tentative Answer Keys and inviting challenges thereon</title>
+    <link href="https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/writeup_rhq.pdf"/>
+    <updated>2026-10-17T08:06:17+05:30</updated>
+    <category term="in-ssc-selection-post"/>
+    <summary>in-ssc-selection-post · answer_key · in-ssc-selection-post/2026</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:05639bf96ac425f4e02a5eee77b95d216b8f7694cbd705761e6eb13fdc81ce83</id>
+    <title>Combined Higher Secondary (10+2) Level Examination, 2025: Declaration of Final Result</title>
+    <link href="https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/writeup_final_chsl_2025_07102026.pdf"/>
+    <updated>2026-10-17T08:06:17+05:30</updated>
+    <category term="in-ssc-chsl"/>
+    <summary>in-ssc-chsl · result · in-ssc-chsl/2025</summary>
+  </entry>
   <entry>
     <id>urn:sha256:69c47ef1089e3e5c5fbc86fc598dcc63847aaa16a8b5dc23def65e35ae44189c</id>
     <title>Final Result: Combined Geo-Scientist (Main) Examination, 2026</title>
@@ -2362,45 +2402,5 @@
     <updated>2026-10-01T07:49:13+05:30</updated>
     <category term="in-jee-main"/>
     <summary>in-jee-main · other · in-jee-main/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d8216b11c0c473acdd5874b8ba9c3f44a2d1e3f7d948c3c2eb2d0b3991152019</id>
-    <title>855 Advance Intimation of Examination City allotted to the applicants of Ph.D. Entrance Test for DU, JNU, BHU and BBAU - 2023. Read More</title>
-    <link href="https://nta.ac.in/Download/Notice/Notice_20231018160918.pdf"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-nta-bbau"/>
-    <summary>in-nta-bbau · admit_card · in-nta-bbau/2023</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d816ea4bf7058b890288497208393c3c84cd20fa1f57c1f6a5427679c638d8c5</id>
-    <title>Correction in the particulars of the online Application Form of Common University Entrance Test [CUET (UG)] - 2025 - Reg. Read More</title>
-    <link href="https://nta.ac.in/Download/Notice/Notice_20250325175338.pdf"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-cuet-ug"/>
-    <summary>in-cuet-ug · other · in-cuet-ug/2025</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d7d1ac92eca4bb1b2e27e5432acee6332c43fe4fb734d491c16137565e97060a</id>
-    <title>1472 Public Notice Dated: 03.09.2021 Rescheduling of the Examination dates for UGC-NET December 2020 and June 2021 cycles Read More</title>
-    <link href="https://nta.ac.in/Download/Notice/Notice_20210903101707.pdf"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-ugc-net"/>
-    <summary>in-ugc-net · schedule · in-ugc-net/2021-dec</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d6fad1e2cdbd3e5d262fbfffe6dd03b3aac7e26a8a6ead6704d981850e374883</id>
-    <title>1530 PUBLIC NOTICE Date: 27 July 2021 Start of Registration Process for DUET-2021. Read More</title>
-    <link href="https://nta.ac.in/Download/Notice/Notice_20210727191719.pdf"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-nta-duet"/>
-    <summary>in-nta-duet · press_release · in-nta-duet/2021-jul</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d6d5e80c00edf5c762771e1a762316494126ddae4c63cf4d6366e5f5c5834e65</id>
-    <title>Examination Time Table: Indian Forest Service (Main) Examination, 2026</title>
-    <link href="https://www.upsc.gov.in/whats-new/Indian%20Forest%20Service%20%28Main%29%20Examination%2C%202026/Examination%20Time%20Table"/>
-    <updated>2026-10-01T07:49:13+05:30</updated>
-    <category term="in-upsc-ifos"/>
-    <summary>in-upsc-ifos · schedule · in-upsc-ifos/2026</summary>
   </entry>
 </feed>
