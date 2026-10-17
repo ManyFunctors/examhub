@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0e147d5a5dccc53a80499ced74a123d0c4af6d2c80eec9c293c30ca75ceac50a",
+  "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat hs maths_022026.pdf",
+  "title": "TAT HS MATHS",
+  "body": "gj-seb",
+  "exam": "gj-tat",
+  "feed": "gj-seb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "670a5689f98b71af2171de68f949573e186a53d9f9a893044664806cd63b4a3a",
+  "bytes": 1859685,
+  "pages": 8,
+  "chars": 14,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T00:07:45+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
