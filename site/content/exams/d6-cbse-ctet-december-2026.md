@@ -82,7 +82,9 @@ service_posting_area                = 'none'
 city_slip_separate = 'unknown'
 
   [dates.application]
-  status       = 'not_announced'
+  from         = 2026-08-25
+  to           = 2026-09-01
+  status       = 'confirmed'
   change       = 'none'
   changed_from = 'none'
 
@@ -305,15 +307,36 @@ link_apply         = 'https://ctet.nic.in/'
   document_url       = 'https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260914325514446.pdf'
   document_archive   = 'http://web.archive.org/web/20260914180528/https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260914325514446.pdf'
 
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260907461266783.pdf'
+  document_archive   = 'not_archived'
+
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-17T06:44:57+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'
   evidence_document = 'https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260914325514446.pdf'
   evidence_page     = 0
   evidence_words    = 'nothing extracted'
+  evidence_method   = 'rule'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.application.from'
+  evidence_document = 'https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260907461266783.pdf'
+  evidence_page     = 1
+  evidence_words    = 'registration open 2026-08-25'
+  evidence_method   = 'rule'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.application.to'
+  evidence_document = 'https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260907461266783.pdf'
+  evidence_page     = 1
+  evidence_words    = 'registration deadline 2026-09-01'
   evidence_method   = 'rule'
 +++

@@ -269,6 +269,17 @@ profile:
 Each field keeps its source (notice, URL, page) and how many other
 documents offered a value (`alternatives`), so a disagreement is visible.
 
+**Into the records.** `fill-profiles` (a step of the shared record workflow,
+before the pull request) writes a profile into the exam's record, and only where
+all of these hold, because measured on the harvest most profile values were
+from another cycle or misread: the profile's cycle year is the record's; the
+date is within a year of it; the record's own value is a sentinel (a real value
+is never overwritten); vacancies come from a table whose category columns add
+up to its total, for an exam with one record that cycle. Each write carries its
+source page in `provenance.evidence` (method `rule`). On the 1 Oct harvest this
+fills 8 records: the application window of UGC NET Dec 2026 (six subject
+records), CTET and NIFT, and the first day of the UGC NET exam.
+
 The limit is series that the catalogue models as one generic exam, such as
 `in-union-bank-recruitment`. There, "the current cycle" is every recruitment
 that year, so the profile describes the newest one best. Splitting such a
