@@ -21,6 +21,7 @@ dependencies = [
   "selectolax>=0.3.21",
   "pymupdf>=1.24",
   "pymupdf-layout>=1.28",
+  "parsel>=1.9",
 ]
 
 [project.optional-dependencies]
