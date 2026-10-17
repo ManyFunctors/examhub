@@ -480,7 +480,7 @@
 {"cycle": "2026-07", "documents": 29, "gaps": ["fee", "eligibility"], "id": "in-nta-swayam"}
 {"cycle": "2026", "documents": 10, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ntet"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ntpc-gate-recruitment"}
-{"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ntpc-green-recruitment"}
+{"cycle": null, "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "selection"], "id": "in-ntpc-green-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ntpc-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-nvs-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-oicl-ao"}
@@ -647,7 +647,7 @@
 {"cycle": "2024", "documents": 1, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "kl-keam"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "kl-kmat"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-ae"}
-{"cycle": "2022", "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-common-prelims"}
+{"cycle": "2022", "documents": 2, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-common-prelims"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "eligibility"], "id": "kl-kpsc-departmental"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-forest"}
 {"cycle": null, "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-kas"}

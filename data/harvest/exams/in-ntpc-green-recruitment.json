@@ -1,0 +1,49 @@
+{
+ "schema": 1,
+ "exam": "in-ntpc-green-recruitment",
+ "name": "NGEL Direct Recruitment (non-GATE posts)",
+ "body": "in-ntpc-green",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "Master’s degree in Chemistry from a recognized University/Institute",
+      "page": 1
+     },
+     {
+      "text": "The candidate should have retired at pay scale of E7 or above level equivalent of NTPC Ltd. from Public Sector Undertakings or Autonomous Organizations of Central/ State Governments or private company of repute",
+      "page": 1
+     },
+     {
+      "text": "The candidate should have work experience in SAP and e-office system and knowledge of Microsoft Word, Power Point, Excel etc Other Criteria: At least 01 outstanding rating in last three years excluding in year of superannuation",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "0f7fe3807879ed9e16613175cef718e413a787764c94ab0b6cb5f235b5b7ada2",
+    "url": "https://ngel.in/public/career/1/f08ced9a39/e80b56116d.pdf",
+    "title": "Advertisement Application Form",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "selection"
+ ],
+ "older_documents": 0
+}
