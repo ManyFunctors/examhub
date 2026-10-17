@@ -355,7 +355,7 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://pfrda.org.in/'
+link_official_page = 'https://pfrda.org.in/get-to-know/careers/vacancies'
 link_apply         = 'https://pfrda.org.in/get-to-know/careers/vacancies'
 
   [[links.documents]]
@@ -363,6 +363,13 @@ link_apply         = 'https://pfrda.org.in/get-to-know/careers/vacancies'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://pfrda.org.in/documents/33652/212847/Recruitment+of+Officer+Grade+A+%28Assistant+Manager%29-2026.pdf'
+  document_archive   = 'http://web.archive.org/web/20260924171134/https://pfrda.org.in/documents/33652/212847/Recruitment+of+Officer+Grade+A+%28Assistant+Manager%29-2026.pdf'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://pfrda.org.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

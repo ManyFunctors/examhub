@@ -296,13 +296,20 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://slprb.ap.gov.in/UI/recruitments.aspx'
-link_apply         = 'https://slprb.ap.gov.in/'
+link_apply         = 'unknown'
 
   [[links.documents]]
   document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://slprb.ap.gov.in/2026_PDFS/SLPRB_AP_PC_COMM_Notification_2026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://slprb.ap.gov.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

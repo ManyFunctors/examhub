@@ -337,13 +337,20 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://hpbose.org/OnlineServices/CET/TET/Instructions.aspx'
-link_apply         = 'https://hpbose.org/'
+link_apply         = 'https://hpbose.org/AffiliationLogin.aspx'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://hpbose.org/Admin/Upload/Notification%20regarding%20TET.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://hpbose.org/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

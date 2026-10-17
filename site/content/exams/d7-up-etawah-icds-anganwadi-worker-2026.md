@@ -300,7 +300,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'unknown'
-link_apply         = 'unknown'
+link_apply         = 'https://upanganwadibharti.in/adminpanel/'
 
   [[links.documents]]
   document_type      = 'other'

@@ -295,14 +295,21 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://spsc.sikkim.gov.in/'
-link_apply         = 'https://spscrs.sikkim.gov.in/'
+link_official_page = 'https://spscrs.sikkim.gov.in/'
+link_apply         = 'https://sso.sikkim.gov.in/account/register'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.sikkim.gov.in/uploads/Notifications/EMPLOYMENT_NEWS_34_20260622.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://spsc.sikkim.gov.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

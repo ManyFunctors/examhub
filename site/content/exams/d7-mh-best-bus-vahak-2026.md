@@ -335,15 +335,9 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'unknown'
-link_apply         = 'unknown'
-
-  [[links.documents]]
-  document_type      = 'other'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://www.freejobalert.com/articles/best-bus-vahak-recruitment-2026-364-vacancies-3057375'
-  document_archive   = 'not_archived'
+link_official_page = 'https://www.freejobalert.com/articles/best-bus-vahak-recruitment-2026-364-vacancies-3057375'
+link_apply         = 'https://user.freejobalert.com/login'
+documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

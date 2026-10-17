@@ -352,7 +352,7 @@ link_apply         = 'https://www.indiapost.gov.in/gdsonlineengagement'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.indiapost.gov.in/gdsonlineengagement/pdf/descriptive-notification.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260918045901/https://www.indiapost.gov.in/gdsonlineengagement/pdf/descriptive-notification.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

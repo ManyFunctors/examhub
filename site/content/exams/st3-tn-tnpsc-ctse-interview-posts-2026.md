@@ -299,14 +299,21 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://tnpsc.gov.in/'
-link_apply         = 'https://apply.tnpscexams.in/'
+link_official_page = 'https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=cf52b42c-7e4d-4d72-a8bf-77adf8242159'
+link_apply         = 'unknown'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://tnpsc.gov.in/web/examdashboard/index.aspx?notid=cf52b42c-7e4d-4d72-a8bf-77adf8242159'
+  document_url       = 'https://tnpsc.gov.in/'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://apply.tnpscexams.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

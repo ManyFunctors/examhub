@@ -349,14 +349,14 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://www.nata.in/'
-link_apply         = 'https://www.nata.in/'
+link_official_page = 'https://coa.gov.in/index1.php?lang=1&layout=&level=0&lid=218&linkid=42'
+link_apply         = 'https://stureg.nata-app.org/auth/login'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://coa.gov.in/index1.php?lang=1&layout=&level=0&lid=218&linkid=42'
+  document_url       = 'https://www.nata.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

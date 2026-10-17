@@ -362,15 +362,9 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://uppsc.up.nic.in/'
+link_official_page = 'https://uppsc.up.nic.in/PublicPages/Examinations_Details.aspx?ID=EC'
 link_apply         = 'https://uppsc.up.nic.in/'
-
-  [[links.documents]]
-  document_type      = 'other'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://uppsc.up.nic.in/PublicPages/Examinations_Details.aspx?ID=EC'
-  document_archive   = 'not_archived'
+documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

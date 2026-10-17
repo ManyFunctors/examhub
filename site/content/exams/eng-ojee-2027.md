@@ -322,14 +322,14 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://ojee.nic.in/'
-link_apply         = 'https://ojee.nic.in/'
+link_official_page = 'https://ojee.nic.in/notices/'
+link_apply         = 'https://admissions.nic.in/OJEE/Applicant/Root/Home.aspx?enc=0kFzUT8aLZsg92MKVXOWmr1xj3V67sqBPxDQRaucwuzYRaQOJcEX6Yr1b613vzYjvqx2jZkdIYwE5alJJuw8uQ=='
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://ojee.nic.in/notices/'
+  document_url       = 'https://ojee.nic.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

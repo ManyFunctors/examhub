@@ -300,7 +300,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://jkssb.nic.in/'
-link_apply         = 'https://jkssb.nic.in/'
+link_apply         = 'https://jkssb.nic.in/dynamic-jkssb-test/pages/login.aspx'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

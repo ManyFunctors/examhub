@@ -329,7 +329,7 @@ link_apply         = 'https://onlineapp.bseodisha.ac.in/osstetI2026'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://bseodisha.ac.in/images12/noti14082026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'https://web.archive.org/web/20261001003500/https://bseodisha.ac.in/images12/noti14082026.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

@@ -303,7 +303,7 @@ link_apply         = 'https://exams.nta.nic.in/icar/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260509011036.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260610222442/http://www.nta.ac.in/Download/Notice/Notice_20260509011036.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

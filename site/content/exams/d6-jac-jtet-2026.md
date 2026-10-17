@@ -344,9 +344,15 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://jac.jharkhand.gov.in/'
+link_official_page = 'https://jtet.jacportal.in/'
 link_apply         = 'https://jtet.jacportal.in/'
-documents          = []
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://jac.jharkhand.gov.in/'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

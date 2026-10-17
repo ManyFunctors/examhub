@@ -299,7 +299,7 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://www.icsi.edu/exam/exams-cseet'
+link_official_page = 'https://www.icsi.edu/'
 link_apply         = 'https://www.icsi.edu/'
 
   [[links.documents]]
@@ -307,6 +307,13 @@ link_apply         = 'https://www.icsi.edu/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.icsi.edu/media/webmodules/STUDENT_SERVICE/CSEET_October_2026_Announcement.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://www.icsi.edu/exam/exams-cseet'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

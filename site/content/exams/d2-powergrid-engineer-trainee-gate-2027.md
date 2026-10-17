@@ -332,13 +332,20 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://www.powergrid.in/en'
-link_apply         = 'https://www.powergrid.in/en/job-opportunities'
+link_apply         = 'https://careers.powergrid.in/recruitment-nextgen/h/login.aspx'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.powergrid.in/sites/default/files/job_opportunities_document/ET2027_Detailed_Advertisement_For%20Website.pdf'
+  document_archive   = 'https://web.archive.org/web/20261001002832/https://www.powergrid.in/sites/default/files/job_opportunities_document/ET2027_Detailed_Advertisement_For%20Website.pdf'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://www.powergrid.in/en/job-opportunities'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

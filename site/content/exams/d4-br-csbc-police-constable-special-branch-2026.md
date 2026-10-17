@@ -300,14 +300,14 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://csbc.bihar.gov.in/'
-link_apply         = 'https://csbc.bihar.gov.in/'
+link_apply         = 'unknown'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://csbc.bihar.gov.in/Advt/Advt-01-2026-Special%20Branch%20Constable.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260216024146/https://csbc.bihar.gov.in/Advt/Advt-01-2026-Special%20Branch%20Constable.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

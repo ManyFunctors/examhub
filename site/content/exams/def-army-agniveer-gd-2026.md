@@ -302,7 +302,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://joinindianarmy.nic.in/'
-link_apply         = 'https://joinindianarmy.nic.in/'
+link_apply         = 'unknown'
 
   [[links.documents]]
   document_type      = 'other'

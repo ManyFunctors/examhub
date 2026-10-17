@@ -300,7 +300,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://www.isro.gov.in/'
-link_apply         = 'https://www.isro.gov.in/'
+link_apply         = 'unknown'
 
   [[links.documents]]
   document_type      = 'other'

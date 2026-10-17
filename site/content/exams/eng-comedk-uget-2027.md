@@ -296,7 +296,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://www.comedk.org/'
-link_apply         = 'https://www.comedk.org/'
+link_apply         = 'https://cdn.digialm.com/EForms/configuredHtml/1022/97617/login.html'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

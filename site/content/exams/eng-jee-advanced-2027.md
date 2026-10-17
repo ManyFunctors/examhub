@@ -295,15 +295,9 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://jeeadv.ac.in/'
+link_official_page = 'https://jeemain.nta.nic.in/information-bulletin/'
 link_apply         = 'https://jeeadv.ac.in/'
-
-  [[links.documents]]
-  document_type      = 'other'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://jeemain.nta.nic.in/information-bulletin/'
-  document_archive   = 'not_archived'
+documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

@@ -301,7 +301,7 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://consortiumofnlus.ac.in/clat-2027/'
+link_official_page = 'https://consortiumofnlus.ac.in/'
 link_apply         = 'https://consortiumofnlus.ac.in/clat-2027/'
 
   [[links.documents]]
@@ -309,7 +309,7 @@ link_apply         = 'https://consortiumofnlus.ac.in/clat-2027/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://consortiumofnlus.ac.in/clat-2027/notifications/Press_Release_CLAT_2027.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'https://web.archive.org/web/20261001003242/https://consortiumofnlus.ac.in/clat-2027/notifications/Press_Release_CLAT_2027.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

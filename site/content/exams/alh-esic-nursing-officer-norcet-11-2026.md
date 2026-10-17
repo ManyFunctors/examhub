@@ -347,13 +347,20 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://esic.gov.in/'
-link_apply         = 'https://aiimsexams.ac.in/'
+link_apply         = 'unknown'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.esic.gov.in/recruitments'
+  document_archive   = 'http://web.archive.org/web/20260605133003/https://esic.gov.in/recruitments'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://aiimsexams.ac.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

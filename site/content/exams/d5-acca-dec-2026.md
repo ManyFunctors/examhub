@@ -307,7 +307,7 @@ link_apply         = 'https://www.accaglobal.com/uk/en/student/exam-entry-and-ad
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.accaglobal.com/hk/en/student/getting-started/important-dates.html'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260614002216/https://www.accaglobal.com/hk/en/student/getting-started/important-dates.html'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

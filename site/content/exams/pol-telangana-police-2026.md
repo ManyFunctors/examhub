@@ -300,7 +300,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://www.tgprb.in/'
-link_apply         = 'https://www.tgprb.in/'
+link_apply         = 'https://www.tgprb.in/applive/login'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

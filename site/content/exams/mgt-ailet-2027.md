@@ -331,8 +331,8 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://nationallawuniversitydelhi.in/'
-link_apply         = 'https://nationallawuniversitydelhi.in/register.html'
+link_official_page = 'https://nationallawuniversitydelhi.in/register.html'
+link_apply         = 'https://nationallawuniversitydelhi.in/'
 
   [[links.documents]]
   document_type      = 'other'

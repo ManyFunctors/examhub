@@ -309,8 +309,14 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://ksp-recruitment.in/'
-link_apply         = 'https://cetonline.karnataka.gov.in/kea/'
-documents          = []
+link_apply         = 'https://cetonline.karnataka.gov.in/kearecruitment2026app/login'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://cetonline.karnataka.gov.in/kea/'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

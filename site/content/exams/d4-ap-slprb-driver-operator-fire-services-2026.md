@@ -295,14 +295,21 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://slprb.ap.gov.in/UI/recruitments.aspx'
-link_apply         = 'https://slprb.ap.gov.in/'
+link_official_page = 'https://slprb.ap.gov.in/'
+link_apply         = 'unknown'
 
   [[links.documents]]
   document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://slprb.ap.gov.in/2026_PDFS/DRIVER%20OPERATOR%20%20in%20Fire%20Services-%20Notification-%202026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://slprb.ap.gov.in/UI/recruitments.aspx'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

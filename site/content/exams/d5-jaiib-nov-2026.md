@@ -300,7 +300,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://iibf.org.in/'
-link_apply         = 'https://iibf.org.in/'
+link_apply         = 'https://portal.iibf.org.in/candidate/login/nonmem'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

@@ -345,14 +345,14 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://aiimsexams.ac.in/'
-link_apply         = 'https://aiimsexams.ac.in/'
+link_apply         = 'unknown'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://aiimskalyani.edu.in/aiimsapi/uploads/documents/general/cre_5_notification_20260615_141827_e4c6ba23.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'https://web.archive.org/web/20261001002216/https://aiimskalyani.edu.in/aiimsapi/uploads/documents/general/cre_5_notification_20260615_141827_e4c6ba23.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

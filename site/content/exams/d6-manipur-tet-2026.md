@@ -297,14 +297,21 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://manipureducation.gov.in/'
-link_apply         = 'https://manipureducation.gov.in/tet-2026-examination-date/'
+link_official_page = 'https://manipureducation.gov.in/tet-2026-examination-date/'
+link_apply         = 'http://www.ptregistrationedusmanipur.com'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://manipureducation.gov.in/wp-content/uploads/2026/09/Date-of-Exam-TET.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://manipureducation.gov.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

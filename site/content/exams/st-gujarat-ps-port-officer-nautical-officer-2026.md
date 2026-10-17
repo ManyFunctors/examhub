@@ -354,13 +354,20 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://gpsc.gujarat.gov.in/'
-link_apply         = 'https://gpsc-ojas.gujarat.gov.in/'
+link_apply         = 'https://gpsc-ojas.gujarat.gov.in/ScribeApplication.aspx'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_202627_44.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://gpsc-ojas.gujarat.gov.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

@@ -300,7 +300,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://uppbpb.gov.in/'
-link_apply         = 'https://uppbpb.gov.in/'
+link_apply         = 'https://uppbpb.gov.in/Login'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

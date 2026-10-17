@@ -343,7 +343,7 @@ link_apply         = 'https://ctet.nic.in/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260914325514446.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260914180528/https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260914325514446.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

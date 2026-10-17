@@ -300,7 +300,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://osmania.ac.in/'
-link_apply         = 'https://osmania.ac.in/'
+link_apply         = 'https://online.osmaniaerp.com/AFC/info/index'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

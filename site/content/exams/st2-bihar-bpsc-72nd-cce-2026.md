@@ -300,7 +300,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://bpsc.bihar.gov.in/'
-link_apply         = 'https://bpsc.bihar.gov.in/'
+link_apply         = 'https://bpsconline.bihar.gov.in/candidate/login'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

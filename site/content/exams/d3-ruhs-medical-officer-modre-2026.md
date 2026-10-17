@@ -302,7 +302,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://www.ruhsraj.org/'
-link_apply         = 'https://www.ruhsraj.org/'
+link_apply         = 'https://online.ruhsraj.org/'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

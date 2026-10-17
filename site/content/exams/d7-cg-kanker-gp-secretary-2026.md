@@ -299,15 +299,9 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'unknown'
+link_official_page = 'https://kanker.gov.in/en/notice/advertisement-published-regarding-recruitment-for-vacant-posts-of-gram-panchayat-secretary-under-the-district-panchayat-kanker'
 link_apply         = 'unknown'
-
-  [[links.documents]]
-  document_type      = 'other'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://kanker.gov.in/en/notice/advertisement-published-regarding-recruitment-for-vacant-posts-of-gram-panchayat-secretary-under-the-district-panchayat-kanker'
-  document_archive   = 'not_archived'
+documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
