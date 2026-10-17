@@ -38,7 +38,7 @@
       {{- if $st.unverified }}
         Not yet verified against an official source
       {{- else }}
-        <span data-freshness-text data-last-checked="{{ $st.lastChecked }}">Checked —</span>
+        Last Checked <span data-freshness-text data-last-checked="{{ $st.lastChecked }}">—</span>
       {{- end }}
     </p>
   {{- end }}

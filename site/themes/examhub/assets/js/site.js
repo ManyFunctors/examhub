@@ -145,11 +145,13 @@
         continue;
       }
       var diff = Math.round((target - today) / DAY);
-      /* The same four phrases the freshness stamp uses, and the same case. */
-      if (diff > 1) el.textContent = plural(diff, "Day") + " Left";
-      else if (diff === 1) el.textContent = "Tomorrow";
-      else if (diff === 0) el.textContent = "Today";
-      else el.textContent = plural(Math.abs(diff), "Day") + " Ago";
+      /* A window that has started counts to its end; a date still ahead counts to itself.
+         Nothing here says "Ago": a past date on a pending row means it is open now. */
+      var ends = el.hasAttribute("data-countdown-ends");
+      if (diff > 1) el.textContent = ends ? "Ends In " + plural(diff, "Day") : "In " + plural(diff, "Day");
+      else if (diff === 1) el.textContent = ends ? "Ends Tomorrow" : "Tomorrow";
+      else if (diff === 0) el.textContent = ends ? "Ends Today" : "Today";
+      else el.textContent = "Open Now";
     }
   }
 

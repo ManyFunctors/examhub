@@ -325,11 +325,14 @@
 }
 
 /* Warning text stays neutral, with a coloured dot for meaning. */
-.card__flag {
+.card .card__flag {
   display: flex;
   align-items: baseline;
   gap: var(--sp-1);
-  margin: 0;
+  /* At the foot of the card, so the flags line up across a row. shared.css
+     sets margin: 0 on .card__flag; the extra class wins over it. */
+  margin: auto 0 0;
+  padding-top: var(--sp-2);
   font-size: var(--fs-xs);
   color: var(--text-muted);
   line-height: 1.4;
