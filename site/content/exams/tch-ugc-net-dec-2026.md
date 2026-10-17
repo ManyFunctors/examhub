@@ -12,7 +12,7 @@ slug                   = 'tch-ugc-net-dec-2026'
 title_official         = 'UGC National Eligibility Test, December 2026 cycle'
 title_series           = 'UGC NET'
 title_aliases          = ['UGC NET', 'UGC-NET', 'NTA UGC NET', 'National Eligibility Test (UGC-NET), December 2026 Cycle', 'UGC NET English', 'UGC National Eligibility Test, December 2026 cycle: English paper', 'UGC NET Hindi', 'UGC National Eligibility Test, December 2026 cycle: Hindi paper', 'UGC NET Library Science', 'UGC National Eligibility Test, December 2026 cycle: Library and Information Science paper', 'UGC NET Linguistics', 'UGC National Eligibility Test, December 2026 cycle: Linguistics paper', 'UGC NET Sanskrit', 'UGC National Eligibility Test, December 2026 cycle: Sanskrit paper']
-aliases                = ['/exams/d6-nta-ugc-net-december-2026/']
+aliases                = ['/exams/d6-nta-ugc-net-december-2026/', '/exams/lng-ugc-net-english-dec-2026/', '/exams/lng-ugc-net-hindi-dec-2026/', '/exams/lng-ugc-net-library-science-dec-2026/', '/exams/lng-ugc-net-linguistics-dec-2026/', '/exams/lng-ugc-net-sanskrit-dec-2026/']
 
 # ═══ who runs it, what it is ═════════════════════════════════════════
 purpose                = 'eligibility'

@@ -137,7 +137,7 @@ def merge(keep: dict, other: dict) -> dict:
             out[k] = extra.pop(k)
             if k == "title_aliases":
                 out["aliases"] = extra.pop("aliases")
-        elif k in merged:
+        elif k in merged and k not in out:  # aliases was already written beside title_aliases
             out[k] = merged[k]
     out.update(extra)
     return out

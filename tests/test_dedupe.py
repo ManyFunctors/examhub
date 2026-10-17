@@ -68,3 +68,10 @@ def test_a_different_exam_with_a_longer_name_is_not_a_paper():
     recs = {"a.md": rec("a", title_official="Combined Test, 2026"),
             "b.md": rec("b", title_official="Combined Test, 2026: English", exam_id="in-other")}
     assert dedupe.papers(recs) == []
+
+
+def test_a_kept_record_with_aliases_still_gets_the_removed_pages_url():
+    keep = rec("tch", aliases=["/exams/old-name/"])
+    other = rec("eng")
+    merged = dedupe.merge(keep, other)
+    assert merged["aliases"] == ["/exams/old-name/", "/exams/eng/"]
