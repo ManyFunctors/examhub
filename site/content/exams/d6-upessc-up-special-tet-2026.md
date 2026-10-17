@@ -347,7 +347,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://upessc.up.gov.in/'
-link_apply         = 'https://upessc.up.gov.in/'
+link_apply         = 'unknown'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

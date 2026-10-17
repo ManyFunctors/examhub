@@ -300,7 +300,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://recruitment.py.gov.in/'
-link_apply         = 'https://recruitment.py.gov.in/'
+link_apply         = 'https://recruitment.py.gov.in/login'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

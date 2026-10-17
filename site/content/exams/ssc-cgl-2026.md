@@ -302,7 +302,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://ssc.gov.in/'
-link_apply         = 'https://ssc.gov.in/'
+link_apply         = 'unknown'
 
   [[links.documents]]
   document_type      = 'other'

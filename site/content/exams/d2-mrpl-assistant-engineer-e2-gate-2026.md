@@ -361,7 +361,7 @@ link_apply         = 'https://www.mrpl.co.in/careers'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://admin.mrpl.co.in/img/UploadedFiles/Career/Files/English/d1d02079ba3c43dabb9d8ee84cbcdf43.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'https://web.archive.org/web/20261001002802/https://admin.mrpl.co.in/img/UploadedFiles/Career/Files/English/d1d02079ba3c43dabb9d8ee84cbcdf43.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

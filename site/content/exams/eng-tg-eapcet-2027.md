@@ -296,7 +296,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://eapcet.tgche.ac.in/'
-link_apply         = 'https://eapcet.tgche.ac.in/'
+link_apply         = 'https://eapcet.tgche.ac.in/TGEAPCET/EAPCET_ApplicationStatus.aspx'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

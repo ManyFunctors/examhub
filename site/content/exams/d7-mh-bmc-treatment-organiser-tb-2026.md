@@ -299,7 +299,7 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'unknown'
+link_official_page = 'https://portal.mcgm.gov.in/'
 link_apply         = 'unknown'
 
   [[links.documents]]

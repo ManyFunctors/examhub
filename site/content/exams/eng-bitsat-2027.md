@@ -296,14 +296,8 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://www.bitsadmission.com/'
-link_apply         = 'https://www.bitsadmission.com/'
-
-  [[links.documents]]
-  document_type      = 'other'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://www.bits-pilani.ac.in/bitsat/'
-  document_archive   = 'not_archived'
+link_apply         = 'https://www.bits-pilani.ac.in/bitsat/'
+documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

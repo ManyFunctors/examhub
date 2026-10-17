@@ -296,7 +296,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://wbjeeb.nic.in/'
-link_apply         = 'https://wbjeeb.nic.in/'
+link_apply         = 'https://wbscc.wb.gov.in/Applicant_Registration'
 
   [[links.documents]]
   document_type      = 'other'

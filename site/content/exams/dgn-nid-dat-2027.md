@@ -369,13 +369,20 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://admissions.nid.edu/'
-link_apply         = 'https://admissions.nid.edu/NIDA2027/Default.aspx'
+link_apply         = 'https://admissions.nid.edu/NIDA2027/Login.aspx'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://admissions.nid.edu/NIDA2027/download/BDES_IntegratedPathway_AdmissionsHandbook2027_28.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://admissions.nid.edu/NIDA2027/Default.aspx'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

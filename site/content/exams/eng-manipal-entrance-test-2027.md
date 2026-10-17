@@ -296,7 +296,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://manipal.edu/'
-link_apply         = 'https://manipal.edu/'
+link_apply         = 'https://login.microsoftonline.com/common/oauth2/authorize?client_id=4345a7b9-9a63-4910-a426-35363201d503&redirect_uri=https%3A%2F%2Fwww.office.com%2Flanding&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=637429203517622917.OGM4ZjA0YzAtODJjNC00OWJmLWJmYWMtYTQ5OWI1ZTI5ZThlZGMzOGJiNzEtZWZiZC00MDI2LWI4NTMtMGM4NzY3ZmE5NzZh&ui_locales=en-US&mkt=en-US&client-request-id=e555aa65-71fe-4ead-a23f-5cdf1916c633&state=uxWL0PHV8bs30yXzOHGsRw4IbwLtbSWZc0wsXGaoLY0HodTV_3RBUu-f0sGK2yoO7NnU1HUaRT5KMmuTWJ7kS90BwWRUAAZaFCQS8tSds_dHAgabWeVtxgkP9NvP56SZbB4tFBN3WRC87FNv07YXwWivOD60-d-myD2zEX-x2FFRVBYaIQB3uGEpp7hnKSyXU2_q4pQyLauqGE9R05n7OGQ7LtXCLDU5azJUCExDUGLTjPL4Uc2t_pf4eCNnUlFtIJHP1tva5GKhtDpIoZ2XP91jG9R2vxbXgN8ycJX2ACA&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=6.6.0.0&sso_reload=true'
 
   [[links.documents]]
   document_type      = 'other'

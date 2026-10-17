@@ -300,7 +300,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://csbc.bihar.gov.in/'
-link_apply         = 'https://csbc.bihar.gov.in/'
+link_apply         = 'unknown'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

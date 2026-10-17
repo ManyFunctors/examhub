@@ -354,13 +354,20 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://delhipolice.gov.in/'
-link_apply         = 'https://ssc.gov.in/'
+link_apply         = 'https://cctns.delhipolice.gov.in/citizenservices/missingpersonregistration.htm'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://delhipolice.gov.in/RecruitmentFile/79001_Postponement%20Notice%20DP%20website.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://ssc.gov.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

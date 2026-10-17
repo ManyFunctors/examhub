@@ -299,9 +299,15 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://www.www.tgpsc.gov.in/'
-link_apply         = 'https://www.www.tgpsc.gov.in/'
-documents          = []
+link_official_page = 'https://www.tgpsc.gov.in/'
+link_apply         = 'unknown'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://www.www.tgpsc.gov.in/'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

@@ -345,8 +345,14 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://bsebstet.org/'
-link_apply         = 'https://stetregistration.cbrt.co.in/'
-documents          = []
+link_apply         = 'https://stetregistration.cbrt.co.in/login'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://stetregistration.cbrt.co.in/'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

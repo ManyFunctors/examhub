@@ -347,14 +347,14 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://aiimsexams.ac.in/'
-link_apply         = 'https://aiimsexams.ac.in/'
+link_apply         = 'unknown'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.aiimsexams.ac.in/landingpage/key-dates'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260617070954/https://www.aiimsexams.ac.in/landingpage/key-dates'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

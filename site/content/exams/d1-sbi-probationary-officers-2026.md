@@ -344,14 +344,21 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://sbi.co.in/careers'
-link_apply         = 'https://sbi.bank.in/web/careers/current-openings'
+link_official_page = 'https://sbi.bank.in/web/careers/current-openings'
+link_apply         = 'https://recruitment.sbi.bank.in/crpd-sco-2026-27-25/apply'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://sbi.bank.in/csfile/18062026_1_Detailed_Adv.2026.pdf'
+  document_archive   = 'http://web.archive.org/web/20260717102356/https://sbi.bank.in/csfile/18062026_1_Detailed_Adv.2026.pdf'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://sbi.co.in/careers'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

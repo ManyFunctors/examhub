@@ -296,7 +296,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://admission.jmi.ac.in/'
-link_apply         = 'https://admission.jmi.ac.in/'
+link_apply         = 'https://admission.jmi.ac.in/CDOE/Admissions?rtextcrs=mTZZQA==&rtextsess=6EIkM1Fa7w==&rtextcrsugpg=mTY=&rtextsubsess=kAd6fA=='
 
   [[links.documents]]
   document_type      = 'other'

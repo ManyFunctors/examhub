@@ -300,13 +300,20 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://www.upsc.gov.in/examinations/exam-calendar'
-link_apply         = 'https://upsconline.nic.in/'
+link_apply         = 'https://upsconline.nic.in/candidate/realms/candidate-portal/login-actions/authenticate?session_code=Q03w5JGkAFjIYe6uwLZ1mCBZSvGJEdbcoq79CKSPBhs&execution=2542c55c-a04e-49fb-a80f-e6ce4c90cba9&client_id=account&tab_id=PJZZ-2ibTDE&client_data=eyJydSI6Imh0dHBzOi8vdXBzY29ubGluZS5uaWMuaW4vY2FuZGlkYXRlL3JlYWxtcy9jYW5kaWRhdGUtcG9ydGFsL2FjY291bnQvbG9naW4tcmVkaXJlY3QiLCJydCI6ImNvZGUiLCJzdCI6IjAvNTAzNWUwMTYtMDI2My0wNzg1LTgzYmItYmU4NDhhZTA2ZGZiIn0'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.upsc.gov.in/sites/default/files/Calendar-Year-2027-Engl-200526.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://upsconline.nic.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

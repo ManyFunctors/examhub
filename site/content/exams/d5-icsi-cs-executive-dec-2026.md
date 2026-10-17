@@ -299,7 +299,7 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://www.icsi.edu/exam/exams-cs-executive-professional'
+link_official_page = 'https://www.icsi.edu/'
 link_apply         = 'https://smash.icsi.edu/'
 
   [[links.documents]]
@@ -307,6 +307,13 @@ link_apply         = 'https://smash.icsi.edu/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.icsi.edu/media/webmodules/STUDENT_SERVICE/Instructions_December_2026_25082026.pdf'
+  document_archive   = 'http://web.archive.org/web/20260828043451/https://www.icsi.edu/media/webmodules/STUDENT_SERVICE/Instructions_December_2026_25082026.pdf'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://www.icsi.edu/exam/exams-cs-executive-professional'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

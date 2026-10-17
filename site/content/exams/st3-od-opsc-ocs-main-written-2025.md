@@ -296,7 +296,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://opsc.gov.in/'
-link_apply         = 'unknown'
+link_apply         = 'https://opsc.gov.in/Public/Pages/Login.aspx'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

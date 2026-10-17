@@ -299,14 +299,14 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://websitenew.tgpsc.gov.in/'
-link_apply         = 'https://websitenew.tgpsc.gov.in/'
+link_official_page = 'https://websitenew.tgpsc.gov.in/directRecruitment'
+link_apply         = 'https://otr.tgpsc.gov.in/login?type=new'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://websitenew.tgpsc.gov.in/directRecruitment'
+  document_url       = 'https://websitenew.tgpsc.gov.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

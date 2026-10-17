@@ -356,7 +356,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://gujaratset.ac.in/'
-link_apply         = 'https://gujaratset.ac.in/'
+link_apply         = 'unknown'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

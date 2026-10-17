@@ -296,7 +296,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://www.nlcindia.in/website/en/careers/jobs/currentopenings.html'
-link_apply         = 'https://www.nlcindia.in/website/en/careers/jobs/currentopenings.html'
+link_apply         = 'unknown'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

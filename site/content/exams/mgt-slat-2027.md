@@ -306,7 +306,7 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://www.slat-test.org/'
+link_official_page = 'https://www.slat-test.org/register.php'
 link_apply         = 'https://www.slat-test.org/register.php'
 
   [[links.documents]]
@@ -314,6 +314,13 @@ link_apply         = 'https://www.slat-test.org/register.php'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.slat-test.org/docs/SLAT%202027%20bulletin.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://www.slat-test.org/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

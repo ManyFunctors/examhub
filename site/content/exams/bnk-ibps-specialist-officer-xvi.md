@@ -329,8 +329,14 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://www.ibps.in/index.php/specialist-officers-xvi/'
-link_apply         = 'https://www.ibps.in/'
-documents          = []
+link_apply         = 'unknown'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://www.ibps.in/'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

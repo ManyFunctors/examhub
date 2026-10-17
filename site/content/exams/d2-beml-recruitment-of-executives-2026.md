@@ -300,7 +300,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://bemlindia.in/career/'
-link_apply         = 'https://bemlindia.in/career/'
+link_apply         = 'https://onlinevr.bemlindia.in'
 
   [[links.documents]]
   document_type      = 'other'

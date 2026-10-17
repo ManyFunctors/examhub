@@ -299,15 +299,9 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'unknown'
-link_apply         = 'unknown'
-
-  [[links.documents]]
-  document_type      = 'other'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://www.freejobalert.com/articles/district-panchayat-narayanpur-gram-panchayat-secretary-recruitment-2026-apply-offline-for-14-posts-3053259'
-  document_archive   = 'not_archived'
+link_official_page = 'https://www.freejobalert.com/articles/district-panchayat-narayanpur-gram-panchayat-secretary-recruitment-2026-apply-offline-for-14-posts-3053259'
+link_apply         = 'https://user.freejobalert.com/login'
+documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

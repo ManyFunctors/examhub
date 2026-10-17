@@ -377,7 +377,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://jeemain.nta.nic.in/'
-link_apply         = 'https://jeemain.nta.nic.in/'
+link_apply         = 'unknown'
 
   [[links.documents]]
   document_type      = 'other'

@@ -302,7 +302,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://www.snaptest.org/'
-link_apply         = 'https://www.snaptest.org/'
+link_apply         = 'https://snap2026.ishinfosys.com/SN026ADY27/Apply/Index.aspx'
 
   [[links.documents]]
   document_type      = 'other'

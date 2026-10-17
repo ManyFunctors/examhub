@@ -345,8 +345,14 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://www.coalindia.in/career-cil/jobs-coal-india/recruitment-of-management-trainee-through-computer-based-test-cbt-26'
-link_apply         = 'https://www.coalindia.in/career-cil/jobs-coal-india'
-documents          = []
+link_apply         = 'unknown'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://www.coalindia.in/career-cil/jobs-coal-india'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

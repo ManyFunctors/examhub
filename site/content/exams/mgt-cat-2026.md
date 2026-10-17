@@ -336,7 +336,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://iimcat.ac.in/'
-link_apply         = 'https://iimcat.ac.in/'
+link_apply         = 'unknown'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

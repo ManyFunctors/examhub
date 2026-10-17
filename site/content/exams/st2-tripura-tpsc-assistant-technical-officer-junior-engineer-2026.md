@@ -295,15 +295,9 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://tpsc.tripura.gov.in/'
+link_official_page = 'https://tpsc.tripura.gov.in/advertisement'
 link_apply         = 'https://tpsc.tripura.gov.in/'
-
-  [[links.documents]]
-  document_type      = 'other'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://tpsc.tripura.gov.in/advertisement'
-  document_archive   = 'not_archived'
+documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

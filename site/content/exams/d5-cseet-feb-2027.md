@@ -299,9 +299,15 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://www.icsi.edu/student_rpn/restrucseet'
-link_apply         = 'https://www.icsi.edu/student_rpn/restrucseet'
-documents          = []
+link_official_page = 'https://www.icsi.edu/'
+link_apply         = 'unknown'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://www.icsi.edu/student_rpn/restrucseet'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

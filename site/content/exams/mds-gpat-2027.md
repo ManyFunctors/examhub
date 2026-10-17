@@ -340,7 +340,7 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://natboard.edu.in/'
+link_official_page = 'https://natboard.edu.in/viewnbeexam?exam=gpat'
 link_apply         = 'https://natboard.edu.in/viewnbeexam?exam=gpat'
 
   [[links.documents]]
@@ -348,6 +348,13 @@ link_apply         = 'https://natboard.edu.in/viewnbeexam?exam=gpat'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://nbe.edu.in/IB/Information%20bulletin%20GPAT%202026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://natboard.edu.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

@@ -299,7 +299,7 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://keralapsc.gov.in/index.php/extra-ordinary-gazette-date-31082026'
+link_official_page = 'https://keralapsc.gov.in/'
 link_apply         = 'https://keralapsc.gov.in/'
 
   [[links.documents]]
@@ -307,6 +307,13 @@ link_apply         = 'https://keralapsc.gov.in/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-08/noti-137-26.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://keralapsc.gov.in/index.php/extra-ordinary-gazette-date-31082026'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

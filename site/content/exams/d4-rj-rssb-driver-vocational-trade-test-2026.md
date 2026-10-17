@@ -295,14 +295,21 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://rssb.rajasthan.gov.in/press-notes'
-link_apply         = 'https://sso.rajasthan.gov.in/'
+link_official_page = 'https://rssb.rajasthan.gov.in/news'
+link_apply         = 'https://sso.rajasthan.gov.in/signin'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://rssb.rajasthan.gov.in/news'
+  document_url       = 'https://rssb.rajasthan.gov.in/press-notes'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://sso.rajasthan.gov.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

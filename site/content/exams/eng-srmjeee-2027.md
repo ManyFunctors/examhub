@@ -296,7 +296,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://www.srmist.edu.in/'
-link_apply         = 'https://www.srmist.edu.in/'
+link_apply         = 'https://applications.srmap.edu.in/b-tech-phase-3-application-form'
 
   [[links.documents]]
   document_type      = 'other'

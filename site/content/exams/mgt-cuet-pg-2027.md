@@ -351,7 +351,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://exams.nta.nic.in/cuet-pg/'
-link_apply         = 'https://exams.nta.nic.in/cuet-pg/'
+link_apply         = 'unknown'
 
   [[links.documents]]
   document_type      = 'other'

@@ -298,14 +298,14 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://wbcsc.org.in/'
-link_apply         = 'https://wbcsc.org.in/'
+link_apply         = 'unknown'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://wbcsc.org.in/wbcsc/PDFDOC/NOTICESET28th10032026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260420040422/https://wbcsc.org.in/wbcsc/PDFDOC/NOTICESET28th10032026.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

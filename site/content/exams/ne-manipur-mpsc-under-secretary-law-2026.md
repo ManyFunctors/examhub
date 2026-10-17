@@ -295,15 +295,9 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://mpscmanipur.gov.in/'
+link_official_page = 'https://mpscmanipur.gov.in/Recruitment_Advertisement.html'
 link_apply         = 'https://mpscmanipur.gov.in/'
-
-  [[links.documents]]
-  document_type      = 'other'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://mpscmanipur.gov.in/Recruitment_Advertisement.html'
-  document_archive   = 'not_archived'
+documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

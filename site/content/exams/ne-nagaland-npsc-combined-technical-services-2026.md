@@ -300,7 +300,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://npsc.nagaland.gov.in/'
-link_apply         = 'https://npsc.nagaland.gov.in/'
+link_apply         = 'https://npsc.nagaland.gov.in/applicant/register'
 
   [[links.documents]]
   document_type      = 'other'

@@ -352,7 +352,7 @@ link_apply         = 'https://delhihighcourt.nic.in/web/job-openings'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://delhihighcourt.nic.in/files/2026-09/recuritment/vacancy_circular_for_spa.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260920055751/https://www.delhihighcourt.nic.in/files/2026-09/recuritment/vacancy_circular_for_spa.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

@@ -295,9 +295,15 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://nmpl.co.in/en/jobs/'
-link_apply         = 'https://nmpl.co.in/en/jobs/'
-documents          = []
+link_official_page = 'https://careers.ntpc.co.in/'
+link_apply         = 'unknown'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://nmpl.co.in/en/jobs/'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

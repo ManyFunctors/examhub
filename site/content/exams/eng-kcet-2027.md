@@ -296,7 +296,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://cetonline.karnataka.gov.in/kea/'
-link_apply         = 'https://cetonline.karnataka.gov.in/kea/'
+link_apply         = 'https://cetonline.karnataka.gov.in/kearecruitment2026app/login'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════
