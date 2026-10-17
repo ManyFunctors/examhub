@@ -298,7 +298,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://setexam.unipune.ac.in/'
-link_apply         = 'https://setexam.unipune.ac.in/'
+link_apply         = 'https://setexam.unipune.ac.in/Login.aspx'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

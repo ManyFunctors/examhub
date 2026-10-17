@@ -295,7 +295,7 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://www.srmist.edu.in/'
+link_official_page = 'https://applications.srmist.edu.in/'
 link_apply         = 'https://applications.srmap.edu.in/b-tech-phase-3-application-form'
 
   [[links.documents]]
@@ -303,6 +303,13 @@ link_apply         = 'https://applications.srmap.edu.in/b-tech-phase-3-applicati
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.srmap.edu.in/admission/engineering/srmjeee-b-tech/'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://www.srmist.edu.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

@@ -295,21 +295,21 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://www.amu.ac.in/'
+link_official_page = 'https://www.amucontrollerexams.com/notices'
 link_apply         = 'https://www.amu.ac.in/login'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://www.amucontrollerexams.com/notices'
+  document_url       = 'https://www.amucontrollerexams.com/'
   document_archive   = 'not_archived'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://www.amucontrollerexams.com/'
+  document_url       = 'https://www.amu.ac.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

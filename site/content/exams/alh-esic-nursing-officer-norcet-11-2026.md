@@ -361,7 +361,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://aiimsexams.ac.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'https://web.archive.org/web/20261017054123/https://aiimsexams.ac.in/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

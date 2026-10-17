@@ -336,7 +336,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://iimcat.ac.in/'
-link_apply         = 'unknown'
+link_apply         = 'https://cdn.digialm.com/EForms/configuredHtml/32842/101262/login.html'
 documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════

@@ -365,7 +365,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://rpsc.rajasthan.gov.in/'
-link_apply         = 'https://rpsc.rajasthan.gov.in/scribereg'
+link_apply         = 'https://sso.rajasthan.gov.in/signin'
 
   [[links.documents]]
   document_type      = 'other'
@@ -379,6 +379,13 @@ link_apply         = 'https://rpsc.rajasthan.gov.in/scribereg'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://sso.rajasthan.gov.in/'
+  document_archive   = 'http://web.archive.org/web/20261012183703/https://sso.rajasthan.gov.in/'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://rpsc.rajasthan.gov.in/scribereg'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

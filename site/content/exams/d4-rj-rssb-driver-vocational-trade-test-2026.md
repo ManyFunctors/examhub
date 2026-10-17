@@ -303,14 +303,14 @@ link_apply         = 'https://sso.rajasthan.gov.in/signin'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://rssb.rajasthan.gov.in/press-notes'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260114174128/https://rssb.rajasthan.gov.in/press-notes'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://sso.rajasthan.gov.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261012183703/https://sso.rajasthan.gov.in/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

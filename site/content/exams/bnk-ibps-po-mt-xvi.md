@@ -336,7 +336,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.ibps.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261004100528/https://www.ibps.in/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

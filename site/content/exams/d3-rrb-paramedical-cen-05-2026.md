@@ -307,7 +307,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://rrbapply.gov.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20240530133719/https://rrbapply.gov.in/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
