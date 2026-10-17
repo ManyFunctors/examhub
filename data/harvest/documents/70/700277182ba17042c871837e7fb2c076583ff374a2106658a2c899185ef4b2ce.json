@@ -1,0 +1,203 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "700277182ba17042c871837e7fb2c076583ff374a2106658a2c899185ef4b2ce",
+  "url": "https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf",
+  "title": "SCT SI Civil and / or Equivalent Notification Supplementary Notification Category wise breakup of vacancies",
+  "body": "tg-tgprb",
+  "exam": "tg-tgprb-si",
+  "feed": "tg-tgprb/home",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "955d7779b9528d974e6ab25d3e07f15bd7a28f7bb3b63f0063a65931d1305804",
+  "bytes": 711192,
+  "pages": 57,
+  "chars": 96858,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T09:59:56+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "admit_card_from": {
+   "date": "2026-04-01",
+   "evidence": "Latest Certificate of Economically Weaker Sections (EWS) category issued on",
+   "page": 10,
+   "from": "text"
+  },
+  "age_as_on": {
+   "date": "2026-07-01",
+   "evidence": "i) Age Limit (General): Must have attained the age of 21 years and must not have attained the age of 25 years as on 1st July, 2026",
+   "page": 16,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 275,
+  "rows": [
+   {
+    "label": "SCT*SubInspectorofPolice (Civil)",
+    "total": 148,
+    "page": 1
+   },
+   {
+    "label": "SCT*ReserveSubInspectorofPolice (TGSP)(Men)",
+    "total": 12,
+    "page": 1
+   },
+   {
+    "label": "SCT*SubInspector / 42300 115270 , - , ,",
+    "total": 44,
+    "page": 1
+   },
+   {
+    "label": "StationFireOfficer / 38890 112510 , - , ,",
+    "total": 39,
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "fees": [
+  {
+   "categories": [
+    "Domicile",
+    "SC",
+    "ST"
+   ],
+   "amount": 50,
+   "raw": "SCT PC (Driver) [Notification No. 234/Rect./Rect-3/2026, dated 29-07-2026] a rebate of Rs.50/- per each additional Post applied for (in excess of 1 Post) on account of the saving incurred due to the conduct of Common Physical Measurement…",
+   "page": 6
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 100,
+   "raw": "SCT PC (Driver) [Notification No. 234/Rect./Rect-3/2026, dated 29-07-2026] a rebate of Rs.50/- per each additional Post applied for (in excess of 1 Post) on account of the saving incurred due to the conduct of Common Physical Measurement…",
+   "page": 6
+  }
+ ],
+ "age": {
+  "as_on": "2026-07-01",
+  "relaxations": [
+   {
+    "categories": [
+     "SC",
+     "OBC",
+     "EWS"
+    ],
+    "for": "SC s STs BC s and EWS category , , / 5 (fi ve) Years",
+    "raw": "4 SC s STs BC s and EWS category , , 5 (fi ve) Years",
+    "page": 17
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "INSTRUCTIONS TO BE READ CAREFULLY The requisite Educational qualification, Age, Physical standards, Procedure to be followed for selection, etc., are given below",
+    "page": 15
+   },
+   {
+    "text": "i) Age Limit (General): Must have attained the age of 21 years and must not have attained the age of 25 years as on 1st July, 2026",
+    "page": 16
+   },
+   {
+    "text": "Educational Qualification:",
+    "page": 17
+   },
+   {
+    "text": "i) Must possess a Degree awarded by any university in India, established or incorporated by or under a Central Act, Provincial Act of State, or of any Institution recognized by the University Grants Commission or any other equivalent qualification as on the date of Notification, i.e., 29th July 2026",
+    "page": 17
+   },
+   {
+    "text": "Unless such Degrees had been recognized by the relevant Statutory Authority, they will not be accepted for the purpose of Educational Qualification",
+    "page": 18
+   },
+   {
+    "text": "Technical Qualification for Post Code 17: Candidates must have possessed a valid Light Motor Vehicle (LMV) driving license as on the date of Notification",
+    "page": 18
+   },
+   {
+    "text": "ii) Each eye must have a full field of vision",
+    "page": 18
+   },
+   {
+    "text": "iv) Candidate should possess sound health and be free from any bodily defect or infirmity which will render him / her unfit for the Posts notified",
+    "page": 19
+   },
+   {
+    "text": "(ii) The quota under Special Categories, for the Notifications issued by TSLPRB, are applicable only to the Local Candidates of Telangana State as per the definition of Local Candidate given in Presidential Order, 2018 and must possess Community Certificate issued by the Competent Authorities of…",
+    "page": 33
+   }
+  ]
+ },
+ "selection": [
+  "Physical test",
+  "Medical examination",
+  "Preliminary examination",
+  "Written examination"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "Paper I",
+   "page": 23,
+   "marks": 100
+  },
+  {
+   "paper": "Part B -Descri pti ve type",
+   "page": 23
+  },
+  {
+   "paper": "Paper II",
+   "page": 23,
+   "marks": 100
+  },
+  {
+   "paper": "Part B -Descri pti ve type",
+   "page": 23
+  },
+  {
+   "paper": "Paper III",
+   "page": 23,
+   "marks": 200
+  },
+  {
+   "paper": "Paper IV",
+   "page": 23,
+   "marks": 200
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 20
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 6
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.tgprb.in/",
+   "https://www.tgprb.in"
+  ]
+ },
+ "summary": {
+  "vacancies": 275,
+  "fee": {
+   "min": 50,
+   "max": 100
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Physical test → Medical examination → Preliminary examination → Written examination"
+ }
+}

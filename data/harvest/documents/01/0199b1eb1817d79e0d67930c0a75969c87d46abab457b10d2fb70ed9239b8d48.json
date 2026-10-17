@@ -1,0 +1,27 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0199b1eb1817d79e0d67930c0a75969c87d46abab457b10d2fb70ed9239b8d48",
+  "url": "https://appsc.gov.in/upload/RECINS001/NOTIFICATIONAPPSCCMAINExamination_Schedule2024_20241227_171038.pdf",
+  "title": "APPSCC(MAIN) Examination Schedule-2024",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/notifications",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "ec6958dd5a143108f3cb0b0d51cbf0e6cbb525a70810ac95ef1d9db30a16e735",
+  "bytes": 567301,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T09:59:55+05:30"
+ },
+ "kind": "schedule",
+ "warnings": [
+  "page 1: OCR failed (no result after 300s)",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

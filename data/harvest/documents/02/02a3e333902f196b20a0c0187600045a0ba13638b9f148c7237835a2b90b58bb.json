@@ -1,0 +1,2677 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "02a3e333902f196b20a0c0187600045a0ba13638b9f148c7237835a2b90b58bb",
+  "url": "https://bceceboard.bihar.gov.in/pdf_Seat/PE26_SM_R3.pdf",
+  "title": "MOP-UP Round Seat Matrix of DCECE[PE]2026",
+  "body": "br-bceceb",
+  "exam": "br-dcece",
+  "feed": "br-bceceb/home",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "f21a3593397af76b6154f6d4bf772aeb7a6db3755de51266243e90887d1b0e22",
+  "bytes": 467649,
+  "pages": 14,
+  "chars": 27432,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T09:59:53+05:30"
+ },
+ "kind": "notice",
+ "unmapped_classes": [
+  {
+   "label": "RCG",
+   "page": 14
+  },
+  {
+   "label": "EUR -",
+   "page": 14
+  },
+  {
+   "label": "ESC -",
+   "page": 14
+  },
+  {
+   "label": "EST -",
+   "page": 14
+  },
+  {
+   "label": "EEBC -",
+   "page": 14
+  },
+  {
+   "label": "ERCG -",
+   "page": 14
+  },
+  {
+   "label": "ADDQ -",
+   "page": 14
+  },
+  {
+   "label": "DQ",
+   "page": 14
+  },
+  {
+   "label": "SMQ",
+   "page": 14
+  }
+ ],
+ "vacancies": {
+  "total": 13944,
+  "by_category": {
+   "Unreserved": 10516,
+   "SC": 940,
+   "ST": 60,
+   "EWS": 370,
+   "br:EBC": 898,
+   "br:BC": 578
+  },
+  "rows": [
+   {
+    "label": "BKNSGP GOPALGANJ . . . . . . / CIVILENGINEERING",
+    "total": 19,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 6,
+     "br:BC": 1,
+     "EWS": 4
+    },
+    "page": 1
+   },
+   {
+    "label": "BKNSGP GOPALGANJ . . . . . . / COMPUTERSC &ENGINEERING .",
+    "total": 13,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "BKNSGP GOPALGANJ . . . . . . / ELECTRICALENGG .",
+    "total": 12,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 3,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BKNSGP GOPALGANJ . . . . . . / ELECTRONICSENGINEERING",
+    "total": 22,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 6,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "BKNSGP GOPALGANJ . . . . . . / MECHANICALENGINEERING",
+    "total": 16,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "BKP INSTSITAMARHI . . . / CIVILENGINEERING",
+    "total": 15,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 5,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "BKP INSTSITAMARHI . . . / COMPUTERSC &ENGINEERING .",
+    "total": 22,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "BKP INSTSITAMARHI . . . / ELECTRICALENGG .",
+    "total": 13,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BKP INSTSITAMARHI . . . / ELECTRONICSENGINEERING",
+    "total": 26,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 5,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "BKP INSTSITAMARHI . . . / MECHANICALENGINEERING",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 5,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 4,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "GP ARARIA . . / CIVILENGINEERING",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "GP ARARIA . . / COMPUTERSC &ENGINEERING .",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 6,
+     "ST": 1,
+     "br:EBC": 2,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 1
+   },
+   {
+    "label": "GP ARARIA . . / ELECTRICALENGG .",
+    "total": 19,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 2,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "GP ARARIA . . / ELECTRONICSENGINEERING",
+    "total": 34,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 6,
+     "ST": 0,
+     "br:EBC": 8,
+     "br:BC": 6,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "GP ARARIA . . / MECHANICALENGINEERING",
+    "total": 17,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 5,
+     "ST": 0,
+     "br:EBC": 5,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "GP ARWAL . . / CIVILENGINEERING",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "GP ARWAL . . / COMPUTERSC &ENGINEERING .",
+    "total": 14,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 5,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "GP ARWAL . . / ELECTRICALENGG .",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "GP ARWAL . . / ELECTRONICSENGINEERING",
+    "total": 17,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 2,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "GP ARWAL . . / MECHANICALENGINEERING",
+    "total": 15,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 5,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "GP AURANGABAD . . / CIVILENGINEERING",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 1,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "GP AURANGABAD . . / COMPUTERSC &ENGINEERING .",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 1,
+     "br:EBC": 3,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "GP AURANGABAD . . / ELECTRICALENGG .",
+    "total": 6,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 2
+    },
+    "page": 2
+   },
+   {
+    "label": "GP AURANGABAD . . / ELECTRONICSENGINEERING",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GP AURANGABAD . . / MECHANICALENGINEERING",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BANKA . . / CIVILENGINEERING",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BANKA . . / COMPUTERSC &ENGINEERING .",
+    "total": 13,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BANKA . . / ELECTRICALENGG .",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BANKA . . / ELECTRONICSENGINEERING",
+    "total": 21,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 5,
+     "br:BC": 2,
+     "EWS": 4
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BANKA . . / MECHANICALENGINEERING",
+    "total": 10,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BARH . . / ARTIFICIALINTELLIGENCEANDMACHINE LEARNING",
+    "total": 12,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BARH . . / CIVILENGG(CONSTRUCTIONTECH) .",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BARH . . / ELECTRONICS(ROBOTICS)",
+    "total": 18,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 2,
+     "EWS": 3
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BARH . . / MECHANICALENGG(CAD/CAM)",
+    "total": 16,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 2,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BHOJPUR . . / CIVILENGINEERING",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 3,
+     "ST": 1,
+     "br:EBC": 1,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BHOJPUR . . / COMPUTERSC &ENGINEERING .",
+    "total": 17,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 6,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BHOJPUR . . / ELECTRICALENGG .",
+    "total": 6,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 1,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BHOJPUR . . / ELECTRONICSENGINEERING",
+    "total": 16,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 2,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BHOJPUR . . / MECHANICALENGINEERING",
+    "total": 9,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BUXAR . . / CIVILENGINEERING",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BUXAR . . / COMPUTERSC &ENGINEERING .",
+    "total": 9,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BUXAR . . / ELECTRICALENGG .",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BUXAR . . / ELECTRONICSENGINEERING",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GP BUXAR . . / MECHANICALENGINEERING",
+    "total": 6,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "GP JAMUI . . / CIVILENGINEERING",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 3
+   },
+   {
+    "label": "GP JAMUI . . / COMPUTERSC &ENGINEERING .",
+    "total": 10,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 3,
+     "ST": 1,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GP JAMUI . . / ELECTRICALENGG .",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GP JAMUI . . / ELECTRONICSENGINEERING",
+    "total": 12,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GP JAMUI . . / MECHANICALENGINEERING",
+    "total": 9,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 3
+   },
+   {
+    "label": "GP JEHANABAD . . / CIVILENGINEERING",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GP JEHANABAD . . / COMPUTERSC &ENGINEERING .",
+    "total": 9,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 3
+   },
+   {
+    "label": "GP JEHANABAD . . / ELECTRICALENGG .",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 3
+   },
+   {
+    "label": "GP JEHANABAD . . / ELECTRONICSENGINEERING",
+    "total": 17,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 5,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 2,
+     "EWS": 3
+    },
+    "page": 3
+   },
+   {
+    "label": "GP JEHANABAD . . / MECHANICALENGINEERING",
+    "total": 11,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 2
+    },
+    "page": 3
+   },
+   {
+    "label": "GP KAIMUR . . / CIVILENGINEERING",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GP KAIMUR . . / COMPUTERSC &ENGINEERING .",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GP KAIMUR . . / ELECTRICALENGG .",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GP KAIMUR . . / ELECTRONICSENGINEERING",
+    "total": 12,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 3
+   },
+   {
+    "label": "GP KAIMUR . . / MECHANICALENGINEERING",
+    "total": 6,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 3
+   },
+   {
+    "label": "GP KHAGARIA . . / CIVILENGINEERING",
+    "total": 6,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GP KHAGARIA . . / COMPUTERSC &ENGINEERING .",
+    "total": 16,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 1,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GP KHAGARIA . . / ELECTRICALENGG .",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GP KHAGARIA . . / ELECTRONICSENGINEERING",
+    "total": 22,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 5,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 3
+   },
+   {
+    "label": "GP KHAGARIA . . / MECHANICALENGINEERING",
+    "total": 7,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GP KISHANGANJ . . / CIVILENGINEERING",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 4
+    },
+    "page": 3
+   },
+   {
+    "label": "GP KISHANGANJ . . / COMPUTERSC &ENGINEERING .",
+    "total": 12,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 3,
+     "EWS": 1
+    },
+    "page": 3
+   },
+   {
+    "label": "GP KISHANGANJ . . / ELECTRICALENGG .",
+    "total": 18,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 6,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 1,
+     "EWS": 2
+    },
+    "page": 4
+   },
+   {
+    "label": "GP KISHANGANJ . . / ELECTRONICSENGINEERING",
+    "total": 21,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 2,
+     "br:BC": 4,
+     "EWS": 2
+    },
+    "page": 4
+   },
+   {
+    "label": "GP KISHANGANJ . . / MECHANICALENGINEERING",
+    "total": 18,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 5,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 2
+    },
+    "page": 4
+   },
+   {
+    "label": "GP MADHEPURA . . / CIVILENGINEERING",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 2
+    },
+    "page": 4
+   },
+   {
+    "label": "GP MADHEPURA . . / COMPUTERSC &ENGINEERING .",
+    "total": 22,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 4
+   },
+   {
+    "label": "GP MADHEPURA . . / ELECTRICALENGG .",
+    "total": 12,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GP MADHEPURA . . / ELECTRONICSENGINEERING",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 5,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 2,
+     "EWS": 1
+    },
+    "page": 4
+   },
+   {
+    "label": "GP MADHEPURA . . / MECHANICALENGINEERING",
+    "total": 11,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 4
+   },
+   {
+    "label": "GP MUNGER . . / CIVILENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GP MUNGER . . / COMPUTERSC &ENGINEERING .",
+    "total": 15,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 5,
+     "ST": 0,
+     "br:EBC": 5,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GP MUNGER . . / ELECTRICALENGG .",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 4
+   },
+   {
+    "label": "GP MUNGER . . / ELECTRONICSENGINEERING",
+    "total": 12,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 3,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GP MUNGER . . / FIRETECHNOLOGY&SAFETY",
+    "total": 33,
+    "by_category": {
+     "Unreserved": 13,
+     "SC": 6,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 6,
+     "EWS": 1
+    },
+    "page": 4
+   },
+   {
+    "label": "GP MUNGER . . / MECHANICALENGINEERING",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 4
+   },
+   {
+    "label": "GP NAWADA . . / CIVILENGINEERING",
+    "total": 7,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GP NAWADA . . / COMPUTERSC &ENGINEERING .",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GP NAWADA . . / ELECTRICALENGG .",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GP NAWADA . . / ELECTRONICSENGINEERING",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 3,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GP NAWADA . . / MECHANICALENGINEERING",
+    "total": 9,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 4
+   },
+   {
+    "label": "GP NAWADA . . / MININGENGG .",
+    "total": 25,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 6,
+     "ST": 0,
+     "br:EBC": 5,
+     "br:BC": 1,
+     "EWS": 2
+    },
+    "page": 4
+   },
+   {
+    "label": "GP SHEIKHPURA . . / CIVILENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GP SHEIKHPURA . . / COMPUTERSC &ENGINEERING .",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GP SHEIKHPURA . . / ELECTRICALENGG .",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GP SHEIKHPURA . . / ELECTRONICSENGINEERING",
+    "total": 19,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 6,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GP SHEIKHPURA . . / MECHANICALENGINEERING",
+    "total": 6,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GP SITAMARHI . . / CIVILENGINEERING",
+    "total": 9,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GP SITAMARHI . . / COMPUTERSC &ENGINEERING .",
+    "total": 13,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GP SITAMARHI . . / ELECTRICALENGG .",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 1,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GP SITAMARHI . . / ELECTRONICSENGINEERING",
+    "total": 15,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GP SITAMARHI . . / MECHANICALENGINEERING",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GP SIWAN . . / CIVILENGINEERING",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 3,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GP SIWAN . . / COMPUTERSC &ENGINEERING .",
+    "total": 13,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GP SIWAN . . / ELECTRICALENGG .",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 5
+   },
+   {
+    "label": "GP SIWAN . . / ELECTRONICSENGINEERING",
+    "total": 18,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 5
+   },
+   {
+    "label": "GP SIWAN . . / MECHANICALENGINEERING",
+    "total": 10,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 5
+   },
+   {
+    "label": "GP SUPAUL . . / CIVILENGINEERING",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GP SUPAUL . . / COMPUTERSC &ENGINEERING .",
+    "total": 13,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 5,
+     "ST": 1,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 5
+   },
+   {
+    "label": "GP SUPAUL . . / ELECTRICALENGG .",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GP SUPAUL . . / ELECTRONICSENGINEERING",
+    "total": 22,
+    "by_category": {
+     "Unreserved": 11,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 2,
+     "EWS": 1
+    },
+    "page": 5
+   },
+   {
+    "label": "GP SUPAUL . . / MECHANICALENGINEERING",
+    "total": 11,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GP TEKARI GAYA . . , / CIVILENGINEERING",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 2
+    },
+    "page": 5
+   },
+   {
+    "label": "GP TEKARI GAYA . . , / COMPUTERSC &ENGINEERING .",
+    "total": 9,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GP TEKARI GAYA . . , / ELECTRICALENGG .",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GP TEKARI GAYA . . , / ELECTRONICSENGINEERING",
+    "total": 18,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 2,
+     "ST": 1,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 5
+   },
+   {
+    "label": "GP TEKARI GAYA . . , / MECHANICALENGINEERING",
+    "total": 11,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 2,
+     "EWS": 1
+    },
+    "page": 6
+   },
+   {
+    "label": "GP WESTCHAMPARAN . . / CIVILENGINEERING",
+    "total": 14,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 3,
+     "EWS": 1
+    },
+    "page": 6
+   },
+   {
+    "label": "GP WESTCHAMPARAN . . / COMPUTERSC &ENGINEERING .",
+    "total": 14,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 6
+   },
+   {
+    "label": "GP WESTCHAMPARAN . . / ELECTRICALENGG .",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GP WESTCHAMPARAN . . / ELECTRONICSENGINEERING",
+    "total": 19,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 5,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 0,
+     "EWS": 2
+    },
+    "page": 6
+   },
+   {
+    "label": "GP WESTCHAMPARAN . . / MECHANICALENGINEERING",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GPASTHAWAN NALANDA . . , / CIVILENGINEERING",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 6
+   },
+   {
+    "label": "GPASTHAWAN NALANDA . . , / COMPUTERSC &ENGINEERING .",
+    "total": 7,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GPASTHAWAN NALANDA . . , / ELECTRICALENGG .",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GPASTHAWAN NALANDA . . , / ELECTRONICSENGINEERING",
+    "total": 16,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 1,
+     "ST": 1,
+     "br:EBC": 3,
+     "br:BC": 2,
+     "EWS": 4
+    },
+    "page": 6
+   },
+   {
+    "label": "GPASTHAWAN NALANDA . . , / MECHANICALENGINEERING",
+    "total": 9,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 2,
+     "EWS": 1
+    },
+    "page": 6
+   },
+   {
+    "label": "GPBARAUNI BEGUSARAI . . , / CHEMICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GPBARAUNI BEGUSARAI . . , / CIVILENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GPBARAUNI BEGUSARAI . . , / COMPUTERSC &ENGINEERING .",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 3,
+     "EWS": 1
+    },
+    "page": 6
+   },
+   {
+    "label": "GPBARAUNI BEGUSARAI . . , / ELECTRONICSENGINEERING",
+    "total": 9,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GPBARAUNI BEGUSARAI . . , / FIRETECHNOLOGY&SAFETY",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 12,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 3,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GPBHAGALPUR . . / AGRICULTUREENGINEERING",
+    "total": 25,
+    "by_category": {
+     "Unreserved": 14,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 6
+   },
+   {
+    "label": "GPBHAGALPUR . . / CIVILENGINEERING",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GPBHAGALPUR . . / COMPUTERSC &ENGINEERING .",
+    "total": 10,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 2
+    },
+    "page": 6
+   },
+   {
+    "label": "GPBHAGALPUR . . / ELECTRICALENGG .",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 3,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GPBHAGALPUR . . / ELECTRONICSENGINEERING",
+    "total": 16,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 3,
+     "EWS": 1
+    },
+    "page": 6
+   },
+   {
+    "label": "GPBHAGALPUR . . / TEXTILEENGINEERING",
+    "total": 41,
+    "by_category": {
+     "Unreserved": 16,
+     "SC": 8,
+     "ST": 1,
+     "br:EBC": 5,
+     "br:BC": 6,
+     "EWS": 2
+    },
+    "page": 6
+   },
+   {
+    "label": "GPCHAPRAMARHOWRAH(SARAN) . . / AUTOMOBILEENGG .",
+    "total": 14,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 2,
+     "ST": 1,
+     "br:EBC": 3,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GPCHAPRAMARHOWRAH(SARAN) . . / CIVILENGINEERING",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GPCHAPRAMARHOWRAH(SARAN) . . / COMPUTERSC &ENGINEERING .",
+    "total": 7,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 7
+   },
+   {
+    "label": "GPCHAPRAMARHOWRAH(SARAN) . . / ELECTRICALENGG .",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GPCHAPRAMARHOWRAH(SARAN) . . / ELECTRONICSENGINEERING",
+    "total": 9,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GPCHAPRAMARHOWRAH(SARAN) . . / MECHANICALENGINEERING",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 1,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 7
+   },
+   {
+    "label": "GPDARBHANGA . . / CIVILENGINEERING",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 7
+   },
+   {
+    "label": "GPDARBHANGA . . / COMPUTERSC &ENGINEERING .",
+    "total": 11,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 2,
+     "EWS": 1
+    },
+    "page": 7
+   },
+   {
+    "label": "GPDARBHANGA . . / ELECTRICALENGG .",
+    "total": 12,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 1,
+     "EWS": 2
+    },
+    "page": 7
+   },
+   {
+    "label": "GPDARBHANGA . . / ELECTRONICSENGINEERING",
+    "total": 11,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GPDARBHANGA . . / MECHANICALENGINEERING",
+    "total": 11,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 2,
+     "EWS": 1
+    },
+    "page": 7
+   },
+   {
+    "label": "GPDEHRIONSONE . . / CIVILENGINEERING",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GPDEHRIONSONE . . / COMPUTERSC &ENGINEERING .",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GPDEHRIONSONE . . / ELECTRICALENGG .",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 7
+   },
+   {
+    "label": "GPDEHRIONSONE . . / ELECTRONICSENGINEERING",
+    "total": 15,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 2,
+     "EWS": 1
+    },
+    "page": 7
+   },
+   {
+    "label": "GPDEHRIONSONE . . / MECHANICALENGINEERING",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GPGAYA . . / CIVILENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GPGAYA . . / COMPUTERSC &ENGINEERING .",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 2,
+     "EWS": 1
+    },
+    "page": 7
+   },
+   {
+    "label": "GPGAYA . . / ELECTRICALENGG .",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GPGAYA . . / ELECTRONICSENGINEERING",
+    "total": 15,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GPGAYA . . / INFORMATIONTECHNOLOGY",
+    "total": 19,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 3,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GPGAYA . . / MECHANICALENGINEERING",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 7
+   },
+   {
+    "label": "GPGAYA . . / TEXTILEENGINEERING",
+    "total": 19,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 8
+   },
+   {
+    "label": "GPGOPALGANJ . . / CIVILENGINEERING",
+    "total": 6,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 8
+   },
+   {
+    "label": "GPGOPALGANJ . . / CIVIL(RURAL)ENGINEERING",
+    "total": 14,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 2
+    },
+    "page": 8
+   },
+   {
+    "label": "GPGOPALGANJ . . / COMPUTERSC &ENGINEERING .",
+    "total": 17,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "GPGOPALGANJ . . / ELECTRICALENGG .",
+    "total": 11,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 8
+   },
+   {
+    "label": "GPGOPALGANJ . . / ELECTRONICSENGINEERING",
+    "total": 23,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 4,
+     "EWS": 1
+    },
+    "page": 8
+   },
+   {
+    "label": "GPGOPALGANJ . . / MECHANICALENGINEERING",
+    "total": 14,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 2
+    },
+    "page": 8
+   },
+   {
+    "label": "GPKATIHAR . . / CIVILENGINEERING",
+    "total": 7,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "GPKATIHAR . . / COMPUTERSC &ENGINEERING .",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "GPKATIHAR . . / ELECTRICALENGG .",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "GPKATIHAR . . / ELECTRONICSENGINEERING",
+    "total": 15,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 2
+    },
+    "page": 8
+   },
+   {
+    "label": "GPKATIHAR . . / MECHANICALENGINEERING",
+    "total": 9,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 8
+   },
+   {
+    "label": "GPLAKHISARAI . . / CIVILENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "GPLAKHISARAI . . / COMPUTERSC &ENGINEERING .",
+    "total": 16,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 2,
+     "EWS": 1
+    },
+    "page": 8
+   },
+   {
+    "label": "GPLAKHISARAI . . / ELECTRICALENGG .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "GPLAKHISARAI . . / ELECTRONICSENGINEERING",
+    "total": 10,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "GPLAKHISARAI . . / MECHANICALENGINEERING",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "GPMADHUBANI . . / CIVILENGINEERING",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "GPMADHUBANI . . / COMPUTERSC &ENGINEERING .",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "GPMADHUBANI . . / ELECTRICALENGG .",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "GPMADHUBANI . . / ELECTRONICSENGINEERING",
+    "total": 15,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 1,
+     "ST": 1,
+     "br:EBC": 3,
+     "br:BC": 2,
+     "EWS": 1
+    },
+    "page": 8
+   },
+   {
+    "label": "GPMADHUBANI . . / MECHANICALENGINEERING",
+    "total": 10,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 2,
+     "EWS": 1
+    },
+    "page": 8
+   },
+   {
+    "label": "GPMOTIHARI . . / CIVILENGINEERING",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "GPMOTIHARI . . / COMPUTERSC &ENGINEERING .",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "GPMOTIHARI . . / ELECTRICALENGG .",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "GPMOTIHARI . . / ELECTRONICSENGINEERING",
+    "total": 10,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "GPMOTIHARI . . / MECHANICALENGINEERING",
+    "total": 7,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 2
+    },
+    "page": 9
+   },
+   {
+    "label": "GPMUZAFFARPUR . . / CIVILENGINEERING",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 9
+   },
+   {
+    "label": "GPMUZAFFARPUR . . / COMPUTERSC &ENGINEERING .",
+    "total": 6,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 9
+   },
+   {
+    "label": "GPMUZAFFARPUR . . / ELECTRICALENGG .",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "GPMUZAFFARPUR . . / ELECTRONICSENGINEERING",
+    "total": 11,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 9
+   },
+   {
+    "label": "GPMUZAFFARPUR . . / LEATHERTECHNOLOGY",
+    "total": 26,
+    "by_category": {
+     "Unreserved": 11,
+     "SC": 2,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 9
+   },
+   {
+    "label": "GPMUZAFFARPUR . . / MECHANICALENGINEERING",
+    "total": 7,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "GPPATNA7 . . - / CERAMICSENGINEERING",
+    "total": 11,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "GPPATNA7 . . - / CIVILENGINEERING",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 2,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "GPPATNA7 . . - / COMPUTERSC &ENGINEERING .",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 9
+   },
+   {
+    "label": "GPPATNA7 . . - / ELECTRICALENGG .",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "GPPATNA7 . . - / ELECTRONICSENGINEERING",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "GPPATNA7 . . - / MECHANICALENGINEERING",
+    "total": 6,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "GPPATNA7 . . - / PRINTINGTECHNOLOGY",
+    "total": 18,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 1,
+     "EWS": 2
+    },
+    "page": 9
+   },
+   {
+    "label": "GPPATNA7 . . - / TEXTILEENGINEERING",
+    "total": 15,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 3,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "GPPURNEA . . / CIVILENGINEERING",
+    "total": 7,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 9
+   },
+   {
+    "label": "GPPURNEA . . / COMPUTERSC &ENGINEERING .",
+    "total": 11,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "GPPURNEA . . / ELECTRICALENGG .",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "GPPURNEA . . / ELECTRONICSENGINEERING",
+    "total": 15,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 2,
+     "ST": 1,
+     "br:EBC": 1,
+     "br:BC": 4,
+     "EWS": 0
+    },
+    "page": 10
+   },
+   {
+    "label": "GPPURNEA . . / MECHANICALENGINEERING",
+    "total": 7,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 10
+   }
+  ],
+  "from": "table"
+ },
+ "summary": {
+  "vacancies": 13944
+ }
+}

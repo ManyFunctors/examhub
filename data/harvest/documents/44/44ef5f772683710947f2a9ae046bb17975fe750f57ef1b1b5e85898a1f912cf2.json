@@ -1,0 +1,55 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "44ef5f772683710947f2a9ae046bb17975fe750f57ef1b1b5e85898a1f912cf2",
+  "url": "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Registration_Guide.pdf",
+  "title": "CAT 2026 Registration Guide",
+  "body": "in-iims",
+  "exam": "in-cat",
+  "feed": "in-iims/cat",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "331ef2eb60782e8045bee7ce55bda0f488a82ad4f600e2e7afc09ea39c3d69a5",
+  "bytes": 3495947,
+  "pages": 22,
+  "chars": 27616,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T09:59:52+05:30"
+ },
+ "kind": "notice",
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "The photo should not be more than six months old and should have a white background",
+    "page": 2
+   },
+   {
+    "text": "o India based mobile number should have 10 digits",
+    "page": 5
+   },
+   {
+    "text": "The photo should not be more than 6 months old and should have a white background",
+    "page": 10
+   },
+   {
+    "text": "If you have completed your Bachelor’s Degree in the year 2020/2021 and have been promoted/passed without marks by your University/InsƟtuƟon, then you can mark the ﬂag ‘PromoƟon/Pass without Marks’ to proceed further with the applicaƟon form. *Only valid for candidates passing out in 2020/2021*",
+    "page": 13
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "https://www.iimcat.ac.in"
+  ]
+ },
+ "summary": {
+  "education": [
+   "Graduate"
+  ]
+ }
+}

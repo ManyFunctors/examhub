@@ -1,0 +1,27 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "03501eb17ee88243d6b53317668b56b9234c7e2b065168a10f40c90c7f574ea3",
+  "url": "https://cohsem.nic.in/docs/Notice/formSubmission2425.pdf",
+  "title": "Notification for form submission for different categories of candidates for the ensuing Higher Secondary Examination, 2025. Dated 24 th July, 2024. Application Form (Private) 2025 Application Form (Imp. in one subject) 2025 Application Form of ( Imp. in all subject) 2025 Notice for online submission of Enrolment for Classes XI and XII to the Council website and Guidelines to be observed. Dated 17 th July, 2024. Notified information to all the concerned regarding modification of Health & Physical",
+  "body": "mn-cohsem",
+  "exam": "mn-cohsem-class-12",
+  "feed": "mn-cohsem/notice",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "fd1cb7c84a4f265d7645e93363d387b3006b8419a28b875022fa502439064f51",
+  "bytes": 435180,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T09:59:53+05:30"
+ },
+ "kind": "advertisement",
+ "warnings": [
+  "page 1: OCR failed (no result after 300s)",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
