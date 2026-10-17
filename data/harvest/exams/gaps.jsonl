@@ -34,7 +34,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-ae"}
 {"cycle": "2020", "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-cce"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-lecturer"}
-{"cycle": "2026", "documents": 11, "gaps": ["vacancies", "apply", "exam_date", "fee", "age"], "id": "ar-appsc-other"}
+{"cycle": "2026", "documents": 12, "gaps": ["vacancies", "apply", "exam_date", "fee", "age"], "id": "ar-appsc-other"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-apssb-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-police"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "as-aau-cet"}
@@ -88,7 +88,7 @@
 {"cycle": "2026", "documents": 2, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "br-dcece"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "br-deled-entrance"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-patna-hc-staff"}
-{"cycle": "2026", "documents": 1, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "br-pgmac"}
+{"cycle": "2026", "documents": 2, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "br-pgmac"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-shsb-cho"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "br-simultala"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "br-stet"}
@@ -704,7 +704,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "mh-talathi"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "mh-van-rakshak"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "mh-zp-recruitment"}
-{"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ml-hc-staff"}
+{"cycle": null, "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ml-hc-staff"}
 {"cycle": null, "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ml-health-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "ml-mbose-class-10"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "ml-mbose-class-12"}

@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0af5ba444f86d2e1d61a96d5254c16bd070c5200c97ba5110a8183b79898d606",
+  "url": "https://appsc.gov.in/upload/RECINS001/Advertisement_Medical_Physicist_(2).pdf",
+  "title": "ADVERTISEMENT FOR THE POST OF MEDICAL PHYSICIST UNDER THE DEPARTMENT OF HEALTH AND FAMILY WELFARE,GOVT. OF ARUNACHAL PRADESH",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/advertisement",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "7b73e91853b38c77ad906690b3809257e0220c8632fbbff1ca73a28c6c84bded",
+  "bytes": 2591742,
+  "pages": 4,
+  "chars": 8116,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T21:33:28+05:30"
+ },
+ "kind": "advertisement",
+ "age": {
+  "limits": [
+   {
+    "max": 32,
+    "evidence": "Aee Limit : The applicant must have attained 21 years of age and should not be more than 32 years of age as on ll.06.2021",
+    "page": 2
+   }
+  ]
+ },
+ "pay": [
+  {
+   "levels": [
+    10
+   ],
+   "low": 56100,
+   "high": 167300,
+   "text": "Pay Level 10, ₹56,100–167,300",
+   "evidence": "ADVERTISEMENT The Arunachal Pradesh Public Service Commission invites applications through online from the citizens of India for filling up 1 (one) post of Medical Physicist (Group-A) under the Department of Health & Family Welfare, Govt. of Arunachal Pradesh in the Pay Scale Level-10…",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "(a) The Applicants must possess a M.Sc",
+    "page": 1
+   },
+   {
+    "text": "Aee Limit : The applicant must have attained 21 years of age and should not be more than 32 years of age as on ll.06.2021",
+    "page": 2
+   },
+   {
+    "text": "(d) Degree Certificate with Mark sheet. issued by the Assistant Registrar/Registrar/Controller of Examination/Vice Chancellor of the concerned University to ascertain educational qualification",
+    "page": 3
+   }
+  ]
+ },
+ "exam_pattern": [
+  {
+   "paper": "TOTAT",
+   "page": 2
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 2
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.appsc.goY"
+  ]
+ },
+ "summary": {
+  "age": {
+   "max": 32
+  },
+  "pay": "Pay Level 10, ₹56,100–167,300",
+  "education": [
+   "Postgraduate",
+   "Graduate"
+  ]
+ }
+}

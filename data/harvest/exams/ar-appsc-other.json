@@ -5,7 +5,7 @@
  "body": "ar-appsc",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 11,
+ "documents": 12,
  "documents_in_cycle": 1,
  "fields": {
   "eligibility": {
@@ -39,6 +39,21 @@
    },
    "carried_from": "2022"
   },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "TOTAT",
+     "page": 2
+    }
+   ],
+   "source": {
+    "notice": "0af5ba444f86d2e1d61a96d5254c16bd070c5200c97ba5110a8183b79898d606",
+    "url": "https://appsc.gov.in/upload/RECINS001/Advertisement_Medical_Physicist_(2).pdf",
+    "title": "ADVERTISEMENT FOR THE POST OF MEDICAL PHYSICIST UNDER THE DEPARTMENT OF HEALTH AND FAMILY WELFARE,GOVT. OF ARUNACHAL PRADESH",
+    "kind": "advertisement"
+   },
+   "carried_from": "0"
+  },
   "pay": {
    "value": [
     {
@@ -68,5 +83,5 @@
   "fee",
   "age"
  ],
- "older_documents": 10
+ "older_documents": 11
 }
