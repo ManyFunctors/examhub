@@ -1,0 +1,125 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "048449b076f9aff91b42ba7a437143c3f3105bc4693a152364ce48018cf5f0e4",
+  "url": "https://www.mbse.edu.in/wp-content/uploads/2026/10/HSLC-2027-Exam-Notice-Forms.pdf",
+  "title": "HSLC 2027 Exam Notice & Forms",
+  "body": "mz-mbse",
+  "exam": "mz-mbse-class-10",
+  "feed": "mz-mbse/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "d4de6c22087f52a485ec2e7715fa34f34c80f619a56f01768e26c760b108531e",
+  "bytes": 2695548,
+  "pages": 8,
+  "chars": 15666,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T16:06:26+05:30"
+ },
+ "kind": "schedule",
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 120,
+   "raw": "- Rs. 120.00 (d) Centre fee (to be paid to the Centre)",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 500,
+   "raw": "- Rs. 500.00 (f) Examination fee for Compartmental/Improvement exam",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 750,
+   "raw": "Examination fee 750/- per candidate",
+   "page": 4
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 350,
+   "raw": "Compartmental examination fee 350/- per subject",
+   "page": 4
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 300,
+   "raw": "Permission fee for unaffiliated school/private student is 300/- per candidate",
+   "page": 4
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 150,
+   "raw": "Permission fee for provisionally affiliated school student is 150/- per candidate",
+   "page": 4
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 250,
+   "raw": "Centre fee to be paid to Examination Centre 250/- per candidate",
+   "page": 4
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 170,
+   "raw": "Practical fee per subject 170/- (a) to be paid to MBSE 50/-, (b) to be paid to Centre 120/-",
+   "page": 4
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 50,
+   "raw": "Practical fee per subject 170/- (a) to be paid to MBSE 50/-, (b) to be paid to Centre 120/-",
+   "page": 4
+  }
+ ],
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "(vi) Students who have already passed the HSLC examination, desirous of improving their performance, subject to Board’s rules",
+    "page": 2
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Offline",
+   "page": 2
+  }
+ },
+ "links": {
+  "apply": [
+   "https://www.mbseonline.com",
+   "https://www.mbseonline.com.The"
+  ],
+  "other": [
+   "https://www.mbse.edu.in"
+  ]
+ },
+ "summary": {
+  "fee": {
+   "min": 50,
+   "max": 750
+  }
+ }
+}

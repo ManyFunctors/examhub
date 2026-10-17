@@ -1,0 +1,127 @@
+{
+ "schema": 1,
+ "exam": "mz-mbse-class-10",
+ "name": "MBSE HSLC Examination",
+ "body": "mz-mbse",
+ "purpose": "school_board",
+ "cycle": "2027",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 120,
+     "raw": "- Rs. 120.00 (d) Centre fee (to be paid to the Centre)",
+     "page": 2
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 500,
+     "raw": "- Rs. 500.00 (f) Examination fee for Compartmental/Improvement exam",
+     "page": 2
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 750,
+     "raw": "Examination fee 750/- per candidate",
+     "page": 4
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 350,
+     "raw": "Compartmental examination fee 350/- per subject",
+     "page": 4
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 300,
+     "raw": "Permission fee for unaffiliated school/private student is 300/- per candidate",
+     "page": 4
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 150,
+     "raw": "Permission fee for provisionally affiliated school student is 150/- per candidate",
+     "page": 4
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 250,
+     "raw": "Centre fee to be paid to Examination Centre 250/- per candidate",
+     "page": 4
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 170,
+     "raw": "Practical fee per subject 170/- (a) to be paid to MBSE 50/-, (b) to be paid to Centre 120/-",
+     "page": 4
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 50,
+     "raw": "Practical fee per subject 170/- (a) to be paid to MBSE 50/-, (b) to be paid to Centre 120/-",
+     "page": 4
+    }
+   ],
+   "source": {
+    "notice": "048449b076f9aff91b42ba7a437143c3f3105bc4693a152364ce48018cf5f0e4",
+    "url": "https://www.mbse.edu.in/wp-content/uploads/2026/10/HSLC-2027-Exam-Notice-Forms.pdf",
+    "title": "HSLC 2027 Exam Notice & Forms",
+    "kind": "schedule",
+    "page": 2
+   }
+  },
+  "apply_links": {
+   "value": [
+    "https://www.mbseonline.com",
+    "https://www.mbseonline.com.The"
+   ],
+   "source": {
+    "notice": "048449b076f9aff91b42ba7a437143c3f3105bc4693a152364ce48018cf5f0e4",
+    "url": "https://www.mbse.edu.in/wp-content/uploads/2026/10/HSLC-2027-Exam-Notice-Forms.pdf",
+    "title": "HSLC 2027 Exam Notice & Forms",
+    "kind": "schedule"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "(vi) Students who have already passed the HSLC examination, desirous of improving their performance, subject to Board’s rules",
+      "page": 2
+     }
+    ]
+   },
+   "source": {
+    "notice": "048449b076f9aff91b42ba7a437143c3f3105bc4693a152364ce48018cf5f0e4",
+    "url": "https://www.mbse.edu.in/wp-content/uploads/2026/10/HSLC-2027-Exam-Notice-Forms.pdf",
+    "title": "HSLC 2027 Exam Notice & Forms",
+    "kind": "schedule"
+   }
+  }
+ },
+ "gaps": [
+  "exam_date"
+ ],
+ "older_documents": 0
+}

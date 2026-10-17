@@ -1,0 +1,22 @@
+{
+ "schema": 1,
+ "exam": "ml-health-recruitment",
+ "name": "Meghalaya Health Recruitment (Staff Nurse, ANM, Medical Officer)",
+ "body": "ml-health",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}
