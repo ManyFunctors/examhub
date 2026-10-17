@@ -1,0 +1,89 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0653ad43ed51e78b7729a217337b9938b355c409917765717da6a280ae77689a",
+  "url": "https://indianbank.bank.in/documents/20117/34414/Detailed-Advertisement-for-Engagement-of-Consultants-for-International-Banking-Department-Overseas2026_05_04_09_53_42.pdf/fe68ec66-30ed-14cb-988f-7a702d7e7fe6",
+  "title": "Application format Advertisement",
+  "body": "in-indian-bank",
+  "exam": "in-indian-bank-recruitment",
+  "feed": "in-indian-bank/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "33799b913cdbd83d27dd7022e651aced748fd8353a156ce1383f200b3ee918bb",
+  "bytes": 533032,
+  "pages": 5,
+  "chars": 8547,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T17:19:45+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "age_as_on": {
+   "date": "2024-01-01",
+   "evidence": "Age Min- 55 Years & Max- 62 Years as on 01.01.2024 Educational Qualification Graduate in any discipline from a University recognized by the Govt",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2024-02-05",
+   "evidence": "All eligible and interested candidates should apply in the prescribed application format to reach the address cited above on or before 05.02.2024",
+   "page": 3,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Age",
+   "date": "2024-01-01",
+   "page": 1
+  }
+ ],
+ "age": {
+  "as_on": "2024-01-01"
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Age Min- 55 Years & Max- 62 Years as on 01.01.2024 Educational Qualification Graduate in any discipline from a University recognized by the Govt",
+    "page": 1
+   },
+   {
+    "text": "Any additional qualification in Forex/Treasury will be preferred Experience Candidate should have worked for a minimum period of 5 years in the scale of Deputy General Manager & above in PSBs or equivalent rank in Other Banks",
+    "page": 1
+   },
+   {
+    "text": " The Bank reserves the right to reject any application not suiting the Bank’s requirements without assigning any reason whatsoever and call only the requisite number of candidates out of those who fulfill the eligibility criteria as may be required for the post",
+    "page": 2
+   },
+   {
+    "text": "The Bank reserves the right to alter, modify or change the eligibility criteria and / or any of the other terms and conditions spelt out in this notice, including criteria for qualifying/method and procedure for selection",
+    "page": 4
+   },
+   {
+    "text": "Only those candidates who fulfil the eligibility criteria will be called for interview and intimated by email",
+    "page": 4
+   },
+   {
+    "text": "Candidates will have to produce original certificates for educational qualifications, experience, age, category etc. at the time of interview, in support of his/her eligibility, as per the details furnished in the application, failing which the candidate will not be allowed for interview and their…",
+    "page": 4
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "summary": {
+  "apply": {
+   "until": "2024-02-05"
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Interview"
+ }
+}
