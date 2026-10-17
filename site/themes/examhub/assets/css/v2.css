@@ -156,8 +156,10 @@ details.v2-more > .keydates__summary .section__title { margin: 0; }
 @container (min-width: 58rem) {
   .v2-kd__group { display: grid; grid-template-columns: 13rem minmax(0, 1fr); gap: var(--sp-4); align-items: start; }
   .v2-kd__head { margin: 0; padding-top: 0.2rem; }
-  .v2-kd .timeline { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(max-content, 1fr); --lane: 0.7rem; }
-  .v2-kd .timeline__item { flex-direction: column; align-items: flex-start; flex-wrap: nowrap; min-width: 0; padding: 2rem var(--sp-3) 0 0; }
+  /* A row of chips that does not fit wraps to a second row (an exam with its application
+     confirmed shows six), instead of running out of the box. */
+  .v2-kd .timeline { display: flex; flex-wrap: wrap; row-gap: var(--sp-2); --lane: 0.7rem; }
+  .v2-kd .timeline__item { flex: 1 1 auto; flex-direction: column; align-items: flex-start; flex-wrap: nowrap; min-width: 0; padding: 2rem var(--sp-3) 0 0; }
   .v2-kd .timeline__lead, .v2-kd .timeline__chip { max-width: none; }
   .v2-kd .timeline__dot { left: var(--lane); top: 0.35rem; }
   .v2-kd .timeline__item:not(:last-child)::after {
