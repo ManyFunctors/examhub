@@ -1,0 +1,50 @@
+{
+ "schema": 1,
+ "exam": "in-cat",
+ "name": "Common Admission Test",
+ "body": "in-iims",
+ "purpose": "admission",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "The photo should not be more than six months old and should have a white background",
+      "page": 2
+     },
+     {
+      "text": "o India based mobile number should have 10 digits",
+      "page": 5
+     },
+     {
+      "text": "The photo should not be more than 6 months old and should have a white background",
+      "page": 10
+     },
+     {
+      "text": "If you have completed your Bachelor’s Degree in the year 2020/2021 and have been promoted/passed without marks by your University/InsƟtuƟon, then you can mark the ﬂag ‘PromoƟon/Pass without Marks’ to proceed further with the applicaƟon form. *Only valid for candidates passing out in 2020/2021*",
+      "page": 13
+     }
+    ]
+   },
+   "source": {
+    "notice": "44ef5f772683710947f2a9ae046bb17975fe750f57ef1b1b5e85898a1f912cf2",
+    "url": "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Registration_Guide.pdf",
+    "title": "CAT 2026 Registration Guide",
+    "kind": "notice"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

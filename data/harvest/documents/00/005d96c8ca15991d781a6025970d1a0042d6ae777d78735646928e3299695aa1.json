@@ -13,77 +13,14 @@
   "sha256": "f7e0c03e071a933c17c269988e9d56c8ee5e41997c89eed3e168afce0fc30b45",
   "bytes": 1036695,
   "pages": 3,
-  "chars": 3267,
+  "chars": 4,
   "ocr": true,
-  "ocr_engine": "pytesseract",
   "indic_share": 0.0,
-  "fetched": "2026-10-17T09:59:46+05:30"
+  "fetched": "2026-10-17T12:05:28+05:30"
  },
  "kind": "notice",
- "advertisement_no": "M(3)/(55)/GEN/DOP/Pt.III",
- "fees": [
-  {
-   "categories": [
-    "All candidates"
-   ],
-   "amount": 500,
-   "raw": "Application fee amounting to Rs 500/- only may be paid online through Net Banking or credit and debit card, (Visa/MasterCard)",
-   "page": 2
-  }
- ],
- "eligibility": {
-  "education_levels": [
-   "Doctorate",
-   "Postgraduate",
-   "Graduate"
-  ],
-  "clauses": [
-   {
-    "text": "(A)Minimum Educational Qualification:",
-    "page": 2
-   },
-   {
-    "text": "Master Degree in respective subjects with 55% marks, relaxable by 5% for SC/ST/Differently-abled (Physically & visually) with NE (SLET)/NET/SET or Ph.D (B) Age Limit:",
-    "page": 2
-   },
-   {
-    "text": "Should have attained the age of 21 years, but should not have exceeded 40 years as on 31/12/2023, in terms of Notification No: M(3)/(55)/GEN/DOP/Pt.III dated:",
-    "page": 2
-   },
-   {
-    "text": "(d) | Should have Valid Local Employment Card issued by the appropriate authority of",
-    "page": 2
-   }
-  ]
- },
- "selection": [
-  "Interview"
- ],
- "exam": {
-  "negative_marking": {
-   "value": "Half of the marks assigned for each wrong answer",
-   "page": 3
-  }
- },
- "links": {
-  "other": [
-   "http://spsc.sikkim.gov.in/"
-  ]
- },
- "summary": {
-  "fee": {
-   "min": 500,
-   "max": 500
-  },
-  "education": [
-   "Doctorate",
-   "Postgraduate",
-   "Graduate"
-  ],
-  "selection": "Interview"
- },
  "warnings": [
-  "page 1: OCR failed (no result after 300s)",
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
   "read by OCR: numbers and names may be misread; check against the PDF"
  ]
 }

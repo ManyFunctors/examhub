@@ -1,0 +1,134 @@
+{
+ "schema": 1,
+ "exam": "in-indian-bank-recruitment",
+ "name": "Indian Bank Direct Recruitment (Specialist Officers, Apprentices and others)",
+ "body": "in-indian-bank",
+ "purpose": "recruitment",
+ "cycle": "2025",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 6,
+    "by_category": {
+     "Unreserved": 5,
+     "OBC": 1,
+     "SC": 0,
+     "ST": 0,
+     "EWS": 0,
+     "PwBD-A": 0,
+     "PwBD-B": 0
+    },
+    "rows": [
+     {
+      "label": "Fire SafetyOfficer / Associate Manager – Senior Officer",
+      "total": 6,
+      "by_category": {
+       "SC": 0,
+       "ST": 0,
+       "OBC": 1,
+       "EWS": 0,
+       "Unreserved": 5,
+       "PwBD-A": 0,
+       "PwBD-B": 0
+      },
+      "page": 1
+     }
+    ],
+    "from": "table"
+   },
+   "source": {
+    "notice": "005e2e6b6a10a54b5477a61d556d6838b7b00c97b6748b408afdf6ea354e8884",
+    "url": "https://indianbank.bank.in/documents/20117/34414/Final_Detailed-Advertisement-for-engagement-of-Fire-Safety-Officers-1 (1)2026_05_01_10_00_11.pdf/a88518c3-ffa4-9bbb-c7aa-c81f1e08d0da",
+    "title": "Detailed Advertisement",
+    "kind": "advertisement"
+   }
+  },
+  "dates": {
+   "registration_deadline": {
+    "date": "2025-11-21",
+    "source": {
+     "notice": "005e2e6b6a10a54b5477a61d556d6838b7b00c97b6748b408afdf6ea354e8884",
+     "url": "https://indianbank.bank.in/documents/20117/34414/Final_Detailed-Advertisement-for-engagement-of-Fire-Safety-Officers-1 (1)2026_05_01_10_00_11.pdf/a88518c3-ffa4-9bbb-c7aa-c81f1e08d0da",
+     "title": "Detailed Advertisement",
+     "kind": "advertisement",
+     "page": 3
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2025-11-21"
+   },
+   "source": {
+    "notice": "005e2e6b6a10a54b5477a61d556d6838b7b00c97b6748b408afdf6ea354e8884",
+    "url": "https://indianbank.bank.in/documents/20117/34414/Final_Detailed-Advertisement-for-engagement-of-Fire-Safety-Officers-1 (1)2026_05_01_10_00_11.pdf/a88518c3-ffa4-9bbb-c7aa-c81f1e08d0da",
+    "title": "Detailed Advertisement",
+    "kind": "advertisement",
+    "page": 3
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "Age Minimum Age – 23 years and Maximum Age 40 years (inclusive of all relaxations) Cutoff date for eligibility criteria’s (Age, Experience & Qualification, etc)",
+      "page": 1
+     },
+     {
+      "text": "Educational Qualification and Work Experience",
+      "page": 1
+     },
+     {
+      "text": "Educational Qualification and Work Experience",
+      "page": 2
+     },
+     {
+      "text": "The Bank reserves the right to alter, modify or change the eligibility criteria and / or any of the other terms and conditions spelt out in this notice, including criteria for qualifying/method and procedure for selection",
+      "page": 5
+     },
+     {
+      "text": "Only those candidates who fulfil the eligibility criteria will be called for interview and intimated by email",
+      "page": 5
+     },
+     {
+      "text": "Candidates will have to produce original certificates for educational qualifications, experience, age, category etc. at the time of interview, in support of his/her eligibility, as per the details furnished in the application, failing which the candidate will not be allowed for interview and their…",
+      "page": 5
+     }
+    ]
+   },
+   "source": {
+    "notice": "005e2e6b6a10a54b5477a61d556d6838b7b00c97b6748b408afdf6ea354e8884",
+    "url": "https://indianbank.bank.in/documents/20117/34414/Final_Detailed-Advertisement-for-engagement-of-Fire-Safety-Officers-1 (1)2026_05_01_10_00_11.pdf/a88518c3-ffa4-9bbb-c7aa-c81f1e08d0da",
+    "title": "Detailed Advertisement",
+    "kind": "advertisement"
+   }
+  },
+  "selection": {
+   "value": [
+    "Interview",
+    "Written examination",
+    "Group discussion",
+    "Preliminary examination"
+   ],
+   "source": {
+    "notice": "005e2e6b6a10a54b5477a61d556d6838b7b00c97b6748b408afdf6ea354e8884",
+    "url": "https://indianbank.bank.in/documents/20117/34414/Final_Detailed-Advertisement-for-engagement-of-Fire-Safety-Officers-1 (1)2026_05_01_10_00_11.pdf/a88518c3-ffa4-9bbb-c7aa-c81f1e08d0da",
+    "title": "Detailed Advertisement",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "exam_date",
+  "fee",
+  "age",
+  "pay"
+ ],
+ "older_documents": 0
+}
