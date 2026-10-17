@@ -13,6 +13,10 @@
       devShells.${system}.default = pkgs.mkShell {
         name = "examhub-pipeline";
 
+        # uv's wheels (pymupdf, numpy) link libstdc++, which NixOS keeps off
+        # the default library path; without it pymupdf fails to import.
+        LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [ pkgs.stdenv.cc.cc.lib ];
+
         packages = with pkgs; [
           uv # venv / dependency driver
           hugo # builds and previews site/
