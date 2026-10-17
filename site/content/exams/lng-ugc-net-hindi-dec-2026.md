@@ -11,7 +11,8 @@ title                  = 'UGC National Eligibility Test, December 2026 cycle: Hi
 slug                   = 'lng-ugc-net-hindi-dec-2026'
 title_official         = 'UGC National Eligibility Test, December 2026 cycle: Hindi paper'
 title_series           = 'UGC NET'
-title_aliases          = ['UGC NET', 'UGC NET Hindi']
+title_aliases          = ['UGC NET', 'UGC NET Hindi', 'UGC-NET', 'NTA UGC NET', 'National Eligibility Test (UGC-NET), December 2026 Cycle', 'UGC National Eligibility Test, December 2026 cycle']
+aliases                = ['/exams/d6-nta-ugc-net-december-2026/']
 
 # ═══ who runs it, what it is ═════════════════════════════════════════
 purpose                = 'eligibility'
@@ -363,6 +364,20 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
   document_url       = 'http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf'
   document_archive   = 'not_archived'
 
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://www.nta.ac.in/Download/Notice/Examcalendar.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://nta.ac.in/Download/Notice/Examcalendar.pdf'
+  document_archive   = 'not_archived'
+
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
@@ -394,5 +409,19 @@ provenance_last_checked = 2026-10-17T06:44:57+05:30
   evidence_document = 'http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf'
   evidence_page     = 42
   evidence_words    = 'exam date 2026-12-01'
+  evidence_method   = 'rule'
+
+  [[provenance.evidence]]
+  evidence_field    = 'fee.rows'
+  evidence_document = 'https://www.nta.ac.in/Download/Notice/Examcalendar.pdf'
+  evidence_page     = 0
+  evidence_words    = 'ExamHub record: General 1150; EWS 600; OBC-NCL 600; SC 325; ST 325; PwBD 325; Transgender 325'
+  evidence_method   = 'manual'
+
+  [[provenance.evidence]]
+  evidence_field    = 'none'
+  evidence_document = 'https://nta.ac.in/Download/Notice/Examcalendar.pdf'
+  evidence_page     = 0
+  evidence_words    = 'nothing extracted'
   evidence_method   = 'rule'
 +++

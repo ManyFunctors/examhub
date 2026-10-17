@@ -222,7 +222,8 @@ def _conductor(rec: dict) -> str | None:
 
 def families(recs: dict[str, dict]) -> list[tuple[str, list[str]]]:
     """(combined record, its parts): a record named only for the family, and two or more
-    records of the same body and year named for the family plus a part (UG, PG, Session 1)."""
+    records of the same body and year named for the family plus a part (UG, PG, Session 1, or a
+    subject and "paper")."""
     out = []
     for name, rec in recs.items():
         family = _name_words(rec)
@@ -239,7 +240,8 @@ def families(recs: dict[str, dict]) -> list[tuple[str, list[str]]]:
             if words[: len(family)] != family:
                 continue
             extra = [w for w in words[len(family):] if w != initials]
-            if extra and all(w in _VARIANT for w in extra):
+            # "...cycle: English paper": a subject named, then "paper", is a part too
+            if extra and (all(w in _VARIANT for w in extra) or (extra[-1] == "paper" and len(extra) > 1)):
                 parts.append((other, tuple(extra)))
         if len(parts) >= 2 and len({e for _, e in parts}) == len(parts):
             out.append((name, sorted(p for p, _ in parts)))
