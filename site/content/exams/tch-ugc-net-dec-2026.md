@@ -7,7 +7,7 @@ cycle                  = '2026'
 cycle_status           = 'active'
 
 # ═══ titles (readers) ════════════════════════════════════════════════
-title                  = 'UGC National Eligibility Test, December 2026 cycle'
+title                  = 'UGC NET 2026'
 slug                   = 'tch-ugc-net-dec-2026'
 title_official         = 'UGC National Eligibility Test, December 2026 cycle'
 title_series           = 'UGC NET'

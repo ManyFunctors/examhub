@@ -300,7 +300,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://portal.mcgm.gov.in/'
-link_apply         = 'unknown'
+link_apply         = 'https://dc.crsorgi.gov.in/crs/Auth/admin'
 
   [[links.documents]]
   document_type      = 'other'

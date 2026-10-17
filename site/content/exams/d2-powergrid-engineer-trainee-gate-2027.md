@@ -346,7 +346,7 @@ link_apply         = 'https://careers.powergrid.in/recruitment-nextgen/h/login.a
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.powergrid.in/en/job-opportunities'
-  document_archive   = 'not_archived'
+  document_archive   = 'https://web.archive.org/web/20261017055609/https://www.powergrid.in/en/job-opportunities'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

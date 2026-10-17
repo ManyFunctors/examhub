@@ -307,7 +307,7 @@ link_apply         = 'https://www.gailonline.com/careers/currentOpnning'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.gailonline.com/careers/currentOpnning/GATE-2027-1st-Advertisement-01092026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'https://web.archive.org/web/20261017055416/https://www.gailonline.com/careers/currentOpnning/GATE-2027-1st-Advertisement-01092026.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

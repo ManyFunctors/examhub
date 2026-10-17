@@ -370,7 +370,7 @@ link_apply         = 'https://pfrda.org.in/get-to-know/careers/vacancies'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://pfrda.org.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261006223731/https://www.pfrda.org.in/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

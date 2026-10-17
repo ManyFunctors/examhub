@@ -307,7 +307,7 @@ link_apply         = 'https://cetonline.karnataka.gov.in/kearecruitment2026app/l
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://cetonline.karnataka.gov.in/kea/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20250815180430/https://cetonline.karnataka.gov.in/kea/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

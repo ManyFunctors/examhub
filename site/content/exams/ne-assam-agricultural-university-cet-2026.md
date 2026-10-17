@@ -296,13 +296,20 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://www.aau.ac.in/'
-link_apply         = 'https://admission.aau.ac.in/'
+link_apply         = 'https://appl.aau.ac.in/aau-recruitment-2026'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://admission.aau.ac.in/2026/data/docs/AAU-Information-Bulletin-2026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://admission.aau.ac.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
