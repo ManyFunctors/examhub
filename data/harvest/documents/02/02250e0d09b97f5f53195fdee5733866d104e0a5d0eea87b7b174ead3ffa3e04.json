@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "02250e0d09b97f5f53195fdee5733866d104e0a5d0eea87b7b174ead3ffa3e04",
+  "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat - s યોગ, સ્વાસ્થ અને શારીરિક શિક્ષણ_032026.pdf",
+  "title": "TAT - S યોગ, સ્વાસ્થ અને શારીરિક શિક્ષણ",
+  "body": "gj-seb",
+  "exam": "gj-tat",
+  "feed": "gj-seb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "46e6e65b5c0cf5aba737da5812987226c00b158dbba7e7c762211d60d627692d",
+  "bytes": 280018,
+  "pages": 6,
+  "chars": 10,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T13:37:16+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

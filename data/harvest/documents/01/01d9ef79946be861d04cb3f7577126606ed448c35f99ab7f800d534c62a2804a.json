@@ -1,0 +1,65 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "01d9ef79946be861d04cb3f7577126606ed448c35f99ab7f800d534c62a2804a",
+  "url": "https://indianbank.bank.in/documents/20117/34414/Direct-Recruitment-of-Subordinate-Staff2026_05_02_15_34_23.pdf/acb2c924-17d2-22b4-2f88-0671c77e788b",
+  "title": "Direct Recruitment of Subordinate Staffs",
+  "body": "in-indian-bank",
+  "exam": "in-indian-bank-recruitment",
+  "feed": "in-indian-bank/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "df3a3a801b750ee4f577a0e6cb3222abd5f9f59a70db9b60bb369fbd33460628",
+  "bytes": 863403,
+  "pages": 122,
+  "chars": 67189,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T13:37:18+05:30"
+ },
+ "kind": "advertisement",
+ "schedule": [
+  {
+   "event": "MINUDAS(100224) OBC OBC 8 - COMPASSIONATE APPOINTMENT",
+   "date": "2024-01-02",
+   "page": 11
+  },
+  {
+   "event": "ROHANGUPTA(100590) OBC OBC 18 - COMPASSIONATE APPOINTMENT",
+   "date": "2024-06-18",
+   "page": 17
+  },
+  {
+   "event": "RAHULKUMAR(101535) OBC OBC 19 - APPOINTMENT",
+   "date": "2024-11-04",
+   "page": 17
+  },
+  {
+   "event": "MAKWANADEVPANKAJBHAI(100955) SC SC 2 - APPOINTMENT",
+   "date": "2024-06-18",
+   "page": 35
+  },
+  {
+   "event": "ANILKUMAR(101272) SC SC 3 - COMPASSIONATE APPOINTMENT",
+   "date": "2024-08-27",
+   "page": 37
+  },
+  {
+   "event": "AKASHKUMARRATHI(101285) SC SC 4 - APPOINTMENT",
+   "date": "2024-08-27",
+   "page": 37
+  },
+  {
+   "event": "RAJESHKUMAR(101400) SC SC 5 - COMPASSIONATE APPOINTMENT",
+   "date": "2024-08-27",
+   "page": 37
+  }
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 4
+  }
+ }
+}
