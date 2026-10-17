@@ -1,0 +1,43 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0ceea62cced290c9fc12069c43ab645179a79c29334e5aab56c0efaad44ec463",
+  "url": "https://appsc.gov.in/upload/RECINS001/TGTESL2026RejectedCandidate_20260910_181430.pdf",
+  "title": "Notification of rejection of non-fulfilment of prescribed educational qualification.",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "6dc6cf017b58eb42a085627669247352cfecbf9ff9d4acf108960de311d2a47e",
+  "bytes": 678991,
+  "pages": 1,
+  "chars": 1723,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T23:16:30+05:30"
+ },
+ "kind": "schedule",
+ "advertisement_no": "0212026",
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "PSC-R(A)11912021 dated 24th August, 2026, and in pursuance of the meeting convened with the Department of Education and subsequent Minutes of the Meeting of even no. dated 9th Septemb er 2026, the below mentioned candidate with the educational qualification of B",
+    "page": 1
+   },
+   {
+    "text": "Com in Information System does not fulfil the prescribed educational qualification for TGT (Economics), as Economics was not studied in all semesters of the graduation programme, as required under the relevant Recruitment Rules and Advertisement No. 0212026 dated 23,03.2026 issued for Trained…",
+    "page": 1
+   }
+  ]
+ },
+ "summary": {
+  "education": [
+   "Graduate"
+  ]
+ }
+}

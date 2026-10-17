@@ -5,7 +5,7 @@
  "body": "in-iob",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 1,
+ "documents": 2,
  "documents_in_cycle": 1,
  "fields": {
   "dates": {
@@ -38,6 +38,23 @@
     "title": "(View)",
     "kind": "admit_card"
    }
+  },
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "9 Educational Qualification :",
+      "page": 2
+     }
+    ]
+   },
+   "source": {
+    "notice": "0c62e35ef027b83a44f99ebd15dedd8473f71ca6cdf98df96f18961830bc6484",
+    "url": "https://www.iob.bank.in/documents/d/guest/iob-recruitment-of-office-assistant-rseti-trichy-2025-26-application-form",
+    "title": "Application Form - (View)",
+    "kind": "notice"
+   },
+   "carried_from": "0"
   }
  },
  "gaps": [
@@ -46,8 +63,7 @@
   "fee",
   "age",
   "pay",
-  "eligibility",
   "selection"
  ],
- "older_documents": 0
+ "older_documents": 1
 }
