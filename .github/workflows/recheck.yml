@@ -166,5 +166,6 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      actions: write
     with:
       review_exit: ${{ needs.review.outputs.exit_code }}
