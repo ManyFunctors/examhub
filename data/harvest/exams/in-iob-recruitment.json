@@ -5,9 +5,44 @@
  "body": "in-iob",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 3,
- "documents_in_cycle": 1,
+ "documents": 4,
+ "documents_in_cycle": 2,
  "fields": {
+  "vacancies": {
+   "value": {
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "OBC": 0,
+     "SC": 0,
+     "ST": 0,
+     "EWS": 0,
+     "PwBD": 0
+    },
+    "rows": [
+     {
+      "label": "General Manager – Chief Financial Officer",
+      "total": 1,
+      "by_category": {
+       "SC": 0,
+       "ST": 0,
+       "OBC": 0,
+       "EWS": 0,
+       "Unreserved": 1,
+       "PwBD": 0
+      },
+      "page": 1
+     }
+    ],
+    "from": "table"
+   },
+   "source": {
+    "notice": "114270ac32eb58fbbfdd0a6b48e3571ff44d84b887d3705935ea1207045b0f71",
+    "url": "https://www.iob.bank.in/documents/d/guest/online-advertisement",
+    "title": "(View)",
+    "kind": "schedule"
+   }
+  },
   "dates": {
    "exam_date": {
     "date": "2026-10-22",
@@ -18,6 +53,49 @@
      "kind": "admit_card",
      "page": 1
     }
+   },
+   "payment_deadline": {
+    "date": "2026-08-05",
+    "source": {
+     "notice": "114270ac32eb58fbbfdd0a6b48e3571ff44d84b887d3705935ea1207045b0f71",
+     "url": "https://www.iob.bank.in/documents/d/guest/online-advertisement",
+     "title": "(View)",
+     "kind": "schedule",
+     "page": 1
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-08-05",
+    "source": {
+     "notice": "114270ac32eb58fbbfdd0a6b48e3571ff44d84b887d3705935ea1207045b0f71",
+     "url": "https://www.iob.bank.in/documents/d/guest/online-advertisement",
+     "title": "(View)",
+     "kind": "schedule",
+     "page": 1
+    }
+   },
+   "registration_open": {
+    "date": "2026-07-22",
+    "source": {
+     "notice": "114270ac32eb58fbbfdd0a6b48e3571ff44d84b887d3705935ea1207045b0f71",
+     "url": "https://www.iob.bank.in/documents/d/guest/online-advertisement",
+     "title": "(View)",
+     "kind": "schedule",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-07-22",
+    "until": "2026-08-05"
+   },
+   "source": {
+    "notice": "114270ac32eb58fbbfdd0a6b48e3571ff44d84b887d3705935ea1207045b0f71",
+    "url": "https://www.iob.bank.in/documents/d/guest/online-advertisement",
+    "title": "(View)",
+    "kind": "schedule",
+    "page": 1
    }
   },
   "exam_date": {
@@ -31,13 +109,14 @@
    }
   },
   "advertisement_no": {
-   "value": "HRMD/SS/RECT/01/2026-27",
+   "value": "HRDD/RECT/01/2026-27",
    "source": {
-    "notice": "0c6123d100b691b600871a3b78b10d5b51a0cd01e8a539c050ad9bec710cb5ad",
-    "url": "https://www.iob.bank.in/documents/d/guest/notification-for-online-examination_recruitment-of-security-guards",
+    "notice": "114270ac32eb58fbbfdd0a6b48e3571ff44d84b887d3705935ea1207045b0f71",
+    "url": "https://www.iob.bank.in/documents/d/guest/online-advertisement",
     "title": "(View)",
-    "kind": "admit_card"
-   }
+    "kind": "schedule"
+   },
+   "alternatives": 1
   },
   "eligibility": {
    "value": {
@@ -46,47 +125,72 @@
     ],
     "clauses": [
      {
-      "text": "ELIGIBILITY CRITERIA AND OTHER TERMS & CONDITIONS All the eligibility criteria (Qualification, Age, Experience etc.) for this post shall be computed as on 01.12.2023 (inclusive)",
+      "text": "ELIGIBILITY CRITERIA AND OTHER TERMS & CONDITIONS",
       "page": 1
      },
      {
-      "text": "Mere fulfilling minimum qualification and experience will not vest any right in candidate for being called for interview",
+      "text": "All the eligibility criteria (Qualification, Age, Experience etc.) for this post shall be computed as on 01.07.2026 (inclusive)",
+      "page": 1
+     },
+     {
+      "text": "Please note that the eligibility criteria specified herein are the basic criteria for applying for the post",
       "page": 3
      },
      {
-      "text": "All candidates will have to produce, if called for interview, originals as well as attested photocopies of documents in support of their eligibility such as age, educational qualification, experience or any other required certificate, failing which their candidature will be cancelled",
-      "page": 5
+      "text": "Candidates must produce the relevant documents in original and a photocopy in support of their identity and eligibility pertaining to category, nationality, age, educational qualifications, experience certificates, etc. as indicated in the online application form at the time of Personal Interview…",
+      "page": 3
      },
      {
-      "text": "Candidates who do not satisfy the eligibility criteria and who do not produce (for any reason) the originals as well as attested photocopies of all documents required to be submitted as advised in this notification and Interview call letter, whomsoever, shall not be permitted to attend the…",
+      "text": "Thus, merely fulfilling minimum qualification and experience criteria would not automatically entitle a candidate for the interview and the bank as per decided criteria shall shortlist the candidates for interview and accordingly only such candidates will be allowed to participate in recruitment…",
+      "page": 3
+     },
+     {
+      "text": "Please note that the eligibility criteria specified herein are the basic criteria for applying for the post",
+      "page": 4
+     },
+     {
+      "text": "Candidates must necessarily produce the relevant documents pertaining to category, nationality, age, educational qualifications, work experience, etc. in original along with a photocopy thereof in support of their identity and eligibility as indicated in the online application form",
+      "page": 4
+     },
+     {
+      "text": "The candidates must apply subject to fulfilment of eligibility criteria",
+      "page": 4
+     },
+     {
+      "text": "Mark sheets & relevant certificates for educational qualifications",
       "page": 6
+     },
+     {
+      "text": "f) Before applying, the candidates must ensure that he/she fulfills all the eligibility criteria and other norms mentioned in the advertisement and has in his/her possession the requisite documents and certificates specified by the Bank, and that the particulars furnished in the Online application…",
+      "page": 8
+     },
+     {
+      "text": "Page 9 of 12 SC/ST/OBC/PWBD Category are required to submit originals as well as self-attested photocopies of their caste certificate/certificate of disability issued by the competent authority, in addition to the other certificates in support of their eligibility criteria",
+      "page": 9
      }
     ]
    },
    "source": {
-    "notice": "104607f35ecb97ea3bdd335ece13ecbaa1add413ec204d608113b6dd6b31ade0",
-    "url": "https://www.iob.bank.in/documents/d/guest/iobrecruitment_of_internal_ombudsman_contract_basis_29122023",
-    "title": "Advertisement - (View)",
-    "kind": "advertisement"
-   },
-   "carried_from": "2023"
+    "notice": "114270ac32eb58fbbfdd0a6b48e3571ff44d84b887d3705935ea1207045b0f71",
+    "url": "https://www.iob.bank.in/documents/d/guest/online-advertisement",
+    "title": "(View)",
+    "kind": "schedule"
+   }
   },
   "selection": {
    "value": [
-    "Interview"
+    "Interview",
+    "Preliminary examination"
    ],
    "source": {
-    "notice": "104607f35ecb97ea3bdd335ece13ecbaa1add413ec204d608113b6dd6b31ade0",
-    "url": "https://www.iob.bank.in/documents/d/guest/iobrecruitment_of_internal_ombudsman_contract_basis_29122023",
-    "title": "Advertisement - (View)",
-    "kind": "advertisement"
-   },
-   "carried_from": "2023"
+    "notice": "114270ac32eb58fbbfdd0a6b48e3571ff44d84b887d3705935ea1207045b0f71",
+    "url": "https://www.iob.bank.in/documents/d/guest/online-advertisement",
+    "title": "(View)",
+    "kind": "schedule"
+   }
   }
  },
  "gaps": [
-  "vacancies",
-  "apply",
   "fee",
   "age",
   "pay"
