@@ -1,0 +1,245 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3513d21b1bec155e0bf550bb4b254cb705af612f468c79f452d568cafa578939",
+  "url": "https://www.upsc.gov.in/sites/default/files/AdvtNo-52-2026-Special-Engl-210826.pdf",
+  "title": "Advertisement No.52 - 2026 (Special)",
+  "body": "in-upsc",
+  "exam": "in-upsc-ora",
+  "feed": "in-upsc/recruitment-advts",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "fcbd281c61f4a30fc9c5bc219d9bfb2c656076f32ca0351fdc1a96c0cce11486",
+  "bytes": 1562201,
+  "pages": 29,
+  "chars": 55512,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T18:45:18+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "52/2026",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-09-11",
+   "evidence": "CLOSING DATE FOR SUBMISSION OF ONLINE RECRUITMENT APPLICATION THROUGH WEBSITE IS 1800 HRS ON 11-09-2026",
+   "page": 5,
+   "from": "text"
+  },
+  "exam_date": {
+   "date": "2026-12-20",
+   "evidence": "ASSISTANT PROVIDENT FUND COMMISSIONER SHALL BE CONDUCTED BY THE COMMISSION ON 20.12.2026",
+   "page": 5,
+   "from": "text"
+  },
+  "age_as_on": {
+   "date": "2026-09-11",
+   "evidence": "closing date for receipt of Online Recruitment Application for the post is to be treated as crucial date | CLOSING DATE FOR SUBMISSION OF ONLINE RECRUITMENT APPLICATION THROUGH WEBSITE IS 1800 HRS ON 11-09-2026",
+   "page": 5,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "Women",
+    "SC",
+    "ST",
+    "PwBD"
+   ],
+   "except": true,
+   "amount": 25,
+   "raw": "(a) Candidates (Except Female/SC/ST/Persons with Benchmark Disability Candidates who are exempted from payment of fee) are required to pay a fee of Rs. 25/- (Rupees Twenty five) by using Visa/Master/Rupay Credit/Debit Card/UPI Payment or…",
+   "page": 12
+  },
+  {
+   "categories": [
+    "Women",
+    "SC",
+    "ST",
+    "PwBD"
+   ],
+   "amount": 0,
+   "raw": "(a) Candidates (Except Female/SC/ST/Persons with Benchmark Disability Candidates who are exempted from payment of fee) are required to pay a fee of Rs. 25/- (Rupees Twenty five) by using Visa/Master/Rupay Credit/Debit Card/UPI Payment or…",
+   "page": 12
+  }
+ ],
+ "age": {
+  "as_on": "2026-09-11",
+  "relaxations": [
+   {
+    "categories": [
+     "PwBD"
+    ],
+    "years": 10,
+    "raw": "The age is further relaxable upto 10 years for PwBD (subject to the maximum age limit of 56 years)",
+    "page": 3
+   },
+   {
+    "categories": [
+     "SC",
+     "ST"
+    ],
+    "years": 10,
+    "raw": "Servants up to 5 years as per instructions issued by the Govt. of India from time to time. (This implies that Scheduled Castes/Scheduled Tribes category candidates would get maximum 10 years age…",
+    "page": 13
+   },
+   {
+    "categories": [
+     "ST"
+    ],
+    "years": 5,
+    "raw": "Servants up to 5 years as per instructions issued by the Govt. of India from time to time. (This implies that Scheduled Castes/Scheduled Tribes category candidates would get maximum 10 years age…",
+    "page": 13
+   },
+   {
+    "categories": [
+     "OBC"
+    ],
+    "years": 8,
+    "raw": "Similarly OBC candidates would get maximum upto 8 years including 3 years age relaxation meant for OBC category in respect of the posts reserved for them in accordance with the instructions issued…",
+    "page": 13
+   },
+   {
+    "categories": [
+     "OBC"
+    ],
+    "years": 3,
+    "raw": "Similarly OBC candidates would get maximum upto 8 years including 3 years age relaxation meant for OBC category in respect of the posts reserved for them in accordance with the instructions issued…",
+    "page": 13
+   },
+   {
+    "categories": [
+     "Government Employee"
+    ],
+    "years": 3,
+    "raw": "This relaxation will be admissible to Government servants with 3 years continuous service in Central/U.T",
+    "page": 13
+   },
+   {
+    "categories": [
+     "SC",
+     "ST"
+    ],
+    "years": 15,
+    "raw": "i) Age relaxation of 10 years (This implies that Scheduled Castes/Scheduled Tribes category candidates would get maximum 15 years age relaxation including 5 years meant for their respective categories",
+    "page": 14
+   },
+   {
+    "categories": [
+     "OBC"
+    ],
+    "years": 13,
+    "raw": "Similarly OBC candidates would get maximum upto 13 years including 3 years age relaxation meant for OBC category) in upper age limit shall be allowed to persons suffering from (a) blindness and low…",
+    "page": 14
+   }
+  ]
+ },
+ "pay": [
+  {
+   "levels": [
+    10
+   ],
+   "text": "Pay Level 10",
+   "evidence": "Level- 10 in the Pay Matrix as per 7th CPC",
+   "page": 2
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "clauses": [
+   {
+    "text": "ESSENTIAL QUALIFICATIONS:",
+    "page": 3
+   },
+   {
+    "text": "MINIMUM ESSENTIAL QUALIFICATIONS: All applicants must fulfill the essential requirements of the post and other conditions stipulated in the advertisement",
+    "page": 6
+   },
+   {
+    "text": "They are advised to satisfy themselves before applying that they possess at least the essential qualifications laid down for various posts",
+    "page": 6
+   },
+   {
+    "text": "NOTE-I: The prescribed essential qualifications are the minimum and the mere possession of the same does not entitle candidates to be called for interview",
+    "page": 6
+   },
+   {
+    "text": "(b) On the basis of higher educational qualifications than the minimum prescribed in the advertisement",
+    "page": 7
+   },
+   {
+    "text": "(d) By counting experience before or after the acquisition of essential qualifications",
+    "page": 7
+   },
+   {
+    "text": "(e) By invoking experience even in cases where there is no experience mentioned either as Essential Qualification (EQ) or as Desirable Qualification (DQ)",
+    "page": 7
+   },
+   {
+    "text": "b) Degree/Diploma certificate as proof of educational qualification claimed",
+    "page": 9
+   },
+   {
+    "text": "c) Order/ letter in respect of equivalent Educational Qualifications claimed, indicating the Authority (with number and date) under which it has been so treated, in respect of equivalent clause in Essential Qualifications, if a candidate is claiming a particular qualification as equivalent…",
+    "page": 10
+   },
+   {
+    "text": "x) Candidate should have details of one Photo ID Card viz",
+    "page": 12
+   },
+   {
+    "text": "(iii) The qualification of the Commission’s scribe as well as own scribe will not be more than the minimum qualification criteria of the examination",
+    "page": 15
+   },
+   {
+    "text": "d) In respect of equivalent clause in Essential Qualifications, if a candidate is claiming a particular qualification as equivalent qualification as per the requirement of advertisement, then the candidate is required to produce order/letter in this regard, indicating the Authority (with number…",
+    "page": 21
+   },
+   {
+    "text": "My educational qualification is ………………………………………………",
+    "page": 29
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 19
+  },
+  "negative_marking": {
+   "value": "One-third of the marks assigned for each wrong answer",
+   "page": 23
+  }
+ },
+ "links": {
+  "apply": [
+   "https://upsconline.nic.in/ora/",
+   "https://upsconline.nic.in/ora/.”",
+   "https://upsc.gov.in/recruitment/recruitment-performas"
+  ],
+  "other": [
+   "https://upsc.gov.in/",
+   "https://upsc.gov.in/forms-downloads"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-09-11"
+  },
+  "exam_date": "2026-12-20",
+  "fee": {
+   "min": 0,
+   "max": 25
+  },
+  "pay": "Pay Level 10",
+  "education": [
+   "Graduate",
+   "Diploma / ITI"
+  ]
+ }
+}

@@ -34,7 +34,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-ae"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-cce"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-lecturer"}
-{"cycle": "2024", "documents": 5, "gaps": ["vacancies", "apply", "exam_date", "fee", "age"], "id": "ar-appsc-other"}
+{"cycle": "2024", "documents": 7, "gaps": ["vacancies", "apply", "exam_date", "fee", "age"], "id": "ar-appsc-other"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-apssb-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-police"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "as-aau-cet"}
@@ -565,7 +565,7 @@
 {"cycle": "2026-12", "documents": 85, "gaps": [], "id": "in-ugc-net"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-uiic-ao"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-uiic-assistant"}
-{"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-union-bank-recruitment"}
+{"cycle": "2026", "documents": 1, "gaps": ["exam_date", "fee", "age", "pay"], "id": "in-union-bank-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-upsc-capf-ac"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-upsc-cds"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "eligibility"], "id": "in-upsc-cisf-ac-ldce"}
@@ -577,7 +577,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-upsc-ies-iss"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-upsc-ifos"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-upsc-nda"}
-{"cycle": "2026", "documents": 1, "gaps": ["vacancies", "exam_date", "age"], "id": "in-upsc-ora"}
+{"cycle": "2026", "documents": 2, "gaps": ["vacancies", "age"], "id": "in-upsc-ora"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "eligibility"], "id": "in-upsc-so-steno-ldce"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-viteee"}
 {"cycle": "2023", "documents": 1, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-xat"}

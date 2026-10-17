@@ -1,0 +1,720 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "081bd125df4b4b10eea8a26a6fccb2a43b3914ab8299bf0eb98f28d39208c356",
+  "url": "https://www.unionbankofindia.bank.in/pdf/Union-Bank-Recruitment-Project-2026-27.pdf",
+  "title": "Notification [Union-Bank-Recruitment-Project-2026-27]",
+  "body": "in-union-bank",
+  "exam": "in-union-bank-recruitment",
+  "feed": "in-union-bank/careers-recruitment",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "305349814649427a36087c98a512c204ad114d4cdf1ddca5b5694c25dea4e01d",
+  "bytes": 2471131,
+  "pages": 78,
+  "chars": 155738,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T18:45:22+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "registration_open": {
+   "date": "2026-07-21",
+   "evidence": "Online Registration of applications and Payment of Fees: From 21/07/2026 to",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2026-08-10",
+   "evidence": " The cut-off date for Mandatory certification (as applicable for the posts) will be the last date of online registration given in this notification i.e. 10.08.2026",
+   "page": 44,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2026-08-10",
+   "evidence": "00:00:00 Hrs Last Date for payment of fees / intimation charges and submitting the",
+   "page": 6,
+   "from": "text"
+  },
+  "age_as_on": {
+   "date": "2026-07-01",
+   "evidence": " The Cut-off Date for the purpose of eligibility in Age criteria shall be the 1st day of the month in which online registration commences i.e. 01.07.2026",
+   "page": 44,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 395,
+  "by_category": {
+   "PwBD-A": 5,
+   "PwBD-B": 5
+  },
+  "rows": [
+   {
+    "label": "G01 / CertifiedFraudExaminer",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "G02 / CertifiedAntiMoneyLaundering Specialist",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "G03 / CertifiedFinancialCrimes Investigator",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "G04 / ProjectManagementProfessional",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "G05 / ProjectManagementProfessional",
+    "total": 3,
+    "page": 2
+   },
+   {
+    "label": "G06 / ProjectManagementProfessional",
+    "total": 4,
+    "page": 2
+   },
+   {
+    "label": "G07 / ProjectManagementProfessional",
+    "total": 5,
+    "page": 2
+   },
+   {
+    "label": "G08 / AGM -Taxation(Direct&Indirect)",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "G09 / AGM(IndAS)",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "G10 / AGM(CapitalPlanning&Investor Relations)",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "G11 / DisasterManagementProfessional",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "G12 / DisasterManagementProfessional",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "G13 / PersonalAssistantstoExecutives",
+    "total": 10,
+    "page": 2
+   },
+   {
+    "label": "G14 / PersonalAssistantstoExecutives",
+    "total": 15,
+    "page": 2
+   },
+   {
+    "label": "G15 / GeneralBankingOfficers",
+    "total": 10,
+    "by_category": {
+     "PwBD-A": 1,
+     "PwBD-B": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "G16 / GeneralBankingOfficers",
+    "total": 40,
+    "by_category": {
+     "PwBD-A": 1,
+     "PwBD-B": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "G17 / VendorManagement(NonIT)",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "G18 / VendorManagement(NonIT)",
+    "total": 2,
+    "page": 2
+   },
+   {
+    "label": "G19 / VendorManagement(NonIT)",
+    "total": 2,
+    "page": 2
+   },
+   {
+    "label": "S01 / ForexOfficer",
+    "total": 10,
+    "page": 2
+   },
+   {
+    "label": "S02 / ForexOfficer",
+    "total": 40,
+    "by_category": {
+     "PwBD-A": 1,
+     "PwBD-B": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "S03 / APIManagement",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "S04 / APIManagement",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "S05 / BlockChain/QuantumComputing",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "S06 / CloudAdministrator",
+    "total": 2,
+    "page": 2
+   },
+   {
+    "label": "S07 / Cybersecurity&ForensicAnalyst",
+    "total": 2,
+    "page": 2
+   },
+   {
+    "label": "S08 / Cybersecurity&ForensicAnalyst",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "S09 / DataCentreSpecialist",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "S10 / DataCentreSpecialist",
+    "total": 2,
+    "page": 2
+   },
+   {
+    "label": "S11 / DataCentreSpecialist",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "S12 / DataCentreSpecialist",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "S13 / DataPrivacyOfficer",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "S14 / DataScientist/Analyst",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "S15 / DevSecOPs",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "S16 / DevSecOPs",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S17 / DigitalIdentityandBiometrics",
+    "total": 2,
+    "page": 3
+   },
+   {
+    "label": "S18 / DigitalIdentityandBiometrics",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S19 / DigitalInfra&FintechEco System",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S20 / DigitalJourneys FintechEco , System",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S21 / EnterpriseArchitect",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S22 / EnterpriseArchitect",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S23 / EnterpriseArchitect",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S24 / ETLDeveloper",
+    "total": 2,
+    "page": 3
+   },
+   {
+    "label": "S25 / ETLDeveloper",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S26 / GenAI/MLProfessional",
+    "total": 2,
+    "page": 3
+   },
+   {
+    "label": "S27 / GenAI/MLProfessional",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S28 / GenAI/MLProfessional",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S29 / GenAI/MLProfessional",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S30 / Innovation(R&D)",
+    "total": 2,
+    "page": 3
+   },
+   {
+    "label": "S31 / Innovation(R&D)",
+    "total": 2,
+    "page": 3
+   },
+   {
+    "label": "S32 / IoTandEdgecomputing",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S33 / IoTandEdgecomputing",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S34 / ITInfraManagement",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S35 / ITInfraManagement",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S36 / MobileAppDeveloper",
+    "total": 2,
+    "page": 3
+   },
+   {
+    "label": "S37 / NetworkAdministrator",
+    "total": 2,
+    "page": 3
+   },
+   {
+    "label": "S38 / NetworkAdministrator",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S39 / OpenBankingPlatform",
+    "total": 2,
+    "page": 3
+   },
+   {
+    "label": "S40 / OpenBankingPlatform",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S41 / QualityAssurances",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S42 / QualityAssurances",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S43 / QualityAssurances",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S44 / QualityAssurances",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S45 / RoboticProcessAutomation (RPA)Professional",
+    "total": 2,
+    "page": 3
+   },
+   {
+    "label": "S46 / RoboticProcessAutomation (RPA)Professional",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S47 / SOCAnalyst",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S48 / SOCAnalyst",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S49 / AD/AV/EDR/XDRAdministrator",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S50 / AD/AV/EDR/XDRAdministrator",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S51 / DAM(DatabaseActivity Monitoring)Administrator",
+    "total": 2,
+    "page": 3
+   },
+   {
+    "label": "S52 / DDoSAdministrator",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S53 / EMAILAdministrator",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S54 / FirewallAdministrator",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S55 / FirewallAdministrator",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S56 / FIGMAUIDeveloper",
+    "total": 1,
+    "page": 3
+   },
+   {
+    "label": "S91 / LawOfficer",
+    "total": 5,
+    "page": 5
+   },
+   {
+    "label": "S92 / LawOfficer",
+    "total": 20,
+    "page": 5
+   },
+   {
+    "label": "S93 / Architect",
+    "total": 1,
+    "page": 5
+   },
+   {
+    "label": "S94 / Architect",
+    "total": 1,
+    "page": 5
+   },
+   {
+    "label": "S95 / Architect",
+    "total": 3,
+    "page": 5
+   },
+   {
+    "label": "S96 / CivilEngineer",
+    "total": 2,
+    "page": 5
+   },
+   {
+    "label": "S97 / CivilEngineer",
+    "total": 2,
+    "page": 5
+   },
+   {
+    "label": "S98 / CivilEngineer",
+    "total": 4,
+    "page": 5
+   },
+   {
+    "label": "S99 / CivilEngineer",
+    "total": 2,
+    "page": 5
+   },
+   {
+    "label": "S100 / ElectricalOffice",
+    "total": 1,
+    "page": 5
+   },
+   {
+    "label": "S101 / ElectricalOffice",
+    "total": 3,
+    "page": 5
+   },
+   {
+    "label": "S102 / FireOfficer",
+    "total": 2,
+    "page": 5
+   },
+   {
+    "label": "S103 / FireOfficer",
+    "total": 3,
+    "page": 5
+   },
+   {
+    "label": "S104 / PrintingSpecialist",
+    "total": 1,
+    "page": 5
+   },
+   {
+    "label": "S105 / VendorManagementProfessional (IT)",
+    "total": 1,
+    "page": 5
+   },
+   {
+    "label": "S106 / VendorManagementProfessional (IT)",
+    "total": 1,
+    "page": 5
+   },
+   {
+    "label": "S107 / VendorManagementProfessional (IT)",
+    "total": 2,
+    "page": 5
+   },
+   {
+    "label": "S108 / VendorManagementProfessional (IT)",
+    "total": 1,
+    "page": 5
+   }
+  ],
+  "from": "table"
+ },
+ "age": {
+  "as_on": "2026-07-01",
+  "relaxations": [
+   {
+    "categories": [
+     "SC",
+     "ST",
+     "OBC-NCL",
+     "PwBD"
+    ],
+    "years": 5,
+    "raw": "S.No Category Age relaxation 1 Scheduled Caste / Scheduled Tribe 5 years 2 Other Backward Classes (Non-creamy layer) 3 years 3 Persons with Benchmark Disability (PwBD) as defined under “The Rights…",
+    "page": 45
+   },
+   {
+    "categories": [
+     "SC",
+     "ST",
+     "OBC-NCL",
+     "PwBD"
+    ],
+    "years": 3,
+    "raw": "S.No Category Age relaxation 1 Scheduled Caste / Scheduled Tribe 5 years 2 Other Backward Classes (Non-creamy layer) 3 years 3 Persons with Benchmark Disability (PwBD) as defined under “The Rights…",
+    "page": 45
+   },
+   {
+    "categories": [
+     "PwBD",
+     "Ex-Servicemen"
+    ],
+    "years": 10,
+    "raw": "S.No Category Age relaxation 1 Scheduled Caste / Scheduled Tribe 5 years 2 Other Backward Classes (Non-creamy layer) 3 years 3 Persons with Benchmark Disability (PwBD) as defined under “The Rights…",
+    "page": 45
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "clauses": [
+   {
+    "text": "Application can be made only for one of the following posts and the applicants intending to apply should ensure that they fulfill the eligibility criteria specified herein below before applying",
+    "page": 6
+   },
+   {
+    "text": "Please note that the eligibility criteria specified herein are the basic criteria for applying for the posts",
+    "page": 6
+   },
+   {
+    "text": "Candidates must necessarily produce the relevant documents in original and a photocopy in support of their identity and eligibility pertaining to category, nationality, age, educational qualifications, mandatory certifications, experience certificates etc. as indicated in the online application…",
+    "page": 6
+   },
+   {
+    "text": "(B) Age, Educational Qualification and Post Qualification Work Experience:",
+    "page": 7
+   },
+   {
+    "text": "Post code Post Name Scale Age (in Years) Education Qualification Mandatory Certification Experience G01 Certified Fraud Examiner III Max:35 Min:25 Graduate Degree in any discipline Certified Fraud Examiner (CFE) certification Minimum 5 years experience in Banks/FIs, within which 3 years experience…",
+    "page": 7
+   },
+   {
+    "text": "Post code Post Name Scale Age (in Years) Education Qualification Mandatory Certification Experience Management/B.T ech/BE Agency/Brokerage firm or Risk Advisory Consultancy firm or Analytics Firms Within which, Minimum 05 years in Operational Risk/ Business Continuity Plan (BCP) /IT Risk /…",
+    "page": 10
+   },
+   {
+    "text": "G14 Personal Assistants to Executives II Max:30 Min:22 Graduate Degree in any discipline Nil Minimum 2 years post qualification work experience in Banking",
+    "page": 10
+   },
+   {
+    "text": "G15 General Banking Officers III Max:35 Min:25 Graduate Degree in any discipline Nil Minimum post qualification work experience of 5 years in Banking",
+    "page": 10
+   },
+   {
+    "text": "G16 General Banking Officers II Max:30 Min:22 Graduate Degree in any discipline Nil Minimum post qualification work experience of 2 years in Banking",
+    "page": 10
+   },
+   {
+    "text": "G17 Vendor Management (Non IT) V Max:45 Graduate Degree in any discipline Nil Minimum 10 years of post qualification work experience in Banking, within which 7 years experience in Vendor management function, Procurement & Handling",
+    "page": 10
+   },
+   {
+    "text": "Post code Post Name Scale Age (in Years) Education Qualification Mandatory Certification Experience outsourcing agreements and Vendor Compliance G18 Vendor Management (Non IT) IV Max:40 Graduate Degree in any discipline Nil Minimum 7 years of post qualification work experience in Banking, within…",
+    "page": 11
+   },
+   {
+    "text": "Microsoft Azure Security Engineer (AZ-500) Minimum 5 Years experience Candidates must have experience in one or more of the following:",
+    "page": 17
+   },
+   {
+    "text": "CS/IT/ECE/EE /MCA / M.Sc (CS/IT)/ PG Diploma/PG Degree in Data Engineering / Data Science / Information Systems (from recognized institutions) NIL Minimum experience:",
+    "page": 20
+   },
+   {
+    "text": "NIL 5 Years’ experience in IT company related to Core Banking Solution (CBS) for BFSI sector (OR) IT Infrastructure Software for BFSI sector (OR) Development for BFSI sector S89 Law Officer V Max:45 Bachelor’s degree in law with a minimum of 50% aggregate marks from a University/ Institute…",
+    "page": 38
+   },
+   {
+    "text": "Post code Post Name Scale Age (in Years) Education Qualification Mandatory Certification Experience S90 Law Officer IV Max:40 Bachelor’s degree in law",
+    "page": 39
+   },
+   {
+    "text": "Post code Post Name Scale Age (in Years) Education Qualification Mandatory Certification Experience S94 Architect IV Max:40 Bachelor Degree in Architecture And Valid registration for Council of Architecture NIL Minimum 8 years of post qualification experience as Architect in offices of…",
+    "page": 40
+   },
+   {
+    "text": "or Union Territories/Public Sector Undertaking S102 Fire Officer III Max:35 Min:25 B.E. (Fire) from NFSC, Nagpur (or) B.E./B.Tech (Safety & Fire Enginering) (or) B.E./B.Tech (Fire Technology & Safety Engineering) (or) Equivalent 4 Year Degree in Fire Safety (or) Graduate of Institue of Fire…",
+    "page": 41
+   },
+   {
+    "text": "Post code Post Name Scale Age (in Years) Education Qualification Mandatory Certification Experience S103 Fire Officer II Max:30 Min:22 B.E. (Fire) from NFSC, Nagpur (or) B.E./B.Tech (Safety & Fire Enginering) (or) B.E./B.Tech (Fire Technology & Safety Engineering) (or) Equivalent 4 Year Degree in…",
+    "page": 42
+   },
+   {
+    "text": "Post code Post Name Scale Age (in Years) Education Qualification Mandatory Certification Experience S106 Vendor Management Professional (IT) V Max:45 Full time BE/B Tech degree in any discipline",
+    "page": 43
+   },
+   {
+    "text": " Candidates should ensure that the educational qualification and work experience possessed by them shall be as prescribed in the notification and they must ensure that they fulfill the above eligibility criteria",
+    "page": 44
+   },
+   {
+    "text": " Both the candidate as well as scribe will have to give a suitable undertaking confirming that the scribe fulfils all the stipulated eligibility criteria for a scribe mentioned above",
+    "page": 46
+   },
+   {
+    "text": "The applicants will be called for the Online Examination / Group Discussion/Any other test/assessment (if required), on the basis of the information provided by them in their On-line Applications without verification of their age or qualification or category or any other eligibility criteria",
+    "page": 51
+   },
+   {
+    "text": "(v) Mark sheets and certificates/degree for educational qualifications",
+    "page": 54
+   },
+   {
+    "text": "Therefore, before applying online for the post the candidate should ensure that he / she fulfills each of the eligibility criteria and other norms, including possession of documents, as mentioned in this notification",
+    "page": 60
+   },
+   {
+    "text": "The Bank reserves all the rights to alter, modify or change the eligibility criteria and / or any of the other terms and conditions spelt out in this Notification",
+    "page": 62
+   }
+  ]
+ },
+ "selection": [
+  "Interview",
+  "Computer-based test",
+  "Group discussion",
+  "Preliminary examination",
+  "Written examination"
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 46
+  },
+  "negative_marking": {
+   "value": "One-fourth of the marks assigned for each wrong answer",
+   "page": 50
+  },
+  "duration": {
+   "value": "23:59:59 Hrs",
+   "page": 6
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.unionbankofindia.co.in",
+   "https://www.unionbankofindia.co.in’"
+  ]
+ },
+ "summary": {
+  "vacancies": 395,
+  "apply": {
+   "from": "2026-07-21",
+   "until": "2026-08-10"
+  },
+  "education": [
+   "Postgraduate",
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "selection": "Interview → Computer-based test → Group discussion → Preliminary examination → Written examination"
+ }
+}
