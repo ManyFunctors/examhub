@@ -4,16 +4,16 @@
  "name": "Gujarat HC Civil Judge / Higher Judicial Service Examination",
  "body": "gj-hc",
  "purpose": "recruitment",
- "cycle": null,
- "documents": 5,
- "documents_in_cycle": 5,
+ "cycle": "2022",
+ "documents": 6,
+ "documents_in_cycle": 1,
  "fields": {
   "advertisement_no": {
-   "value": "A/1201/2025",
+   "value": "09/01/2025",
    "source": {
-    "notice": "070bb053784d5a2afe73f68016199990f284bb198532efd24d3b2ddb519a52b5",
-    "url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/miscnotifications/Consequential Notification - Posting of Judicial Officers (District Judge cadre) Gujarat High Court 20122025.pdf",
-    "title": "Consequential Notification - Posting of Judicial Officers (District Judge cadre) Gujarat High Court 20122025",
+    "notice": "09f3e11116c289b9fe07309dbb30acafd6f2b7fe7cd789a4a3ccfe8b13ab7b9c",
+    "url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/miscnotifications/SENIORITY_JD_SIGNED.pdf",
+    "title": "Notification regarding Seniority of Judicial Officers in the cadre of Civil Judge as on 01.06.2022",
     "kind": "notice"
    }
   }
@@ -28,5 +28,5 @@
   "eligibility",
   "selection"
  ],
- "older_documents": 0
+ "older_documents": 5
 }
