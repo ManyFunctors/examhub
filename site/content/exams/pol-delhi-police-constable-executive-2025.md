@@ -357,7 +357,7 @@ link_official_page = 'https://delhipolice.gov.in/'
 link_apply         = 'https://cctns.delhipolice.gov.in/citizenservices/missingpersonregistration.htm'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'schedule'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://delhipolice.gov.in/RecruitmentFile/79001_Postponement%20Notice%20DP%20website.pdf'

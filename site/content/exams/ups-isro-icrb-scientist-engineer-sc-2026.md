@@ -305,7 +305,7 @@ link_official_page = 'https://cdn.digialm.com/EForms/configuredHtml/1258/102146/
 link_apply         = 'https://cdn.digialm.com/EForms/configuredHtml/1258/102146/Registration.html'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2026/August/Bilingual_Advertisement_27082026.pdf'

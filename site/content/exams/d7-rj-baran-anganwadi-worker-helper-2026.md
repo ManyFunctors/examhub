@@ -303,7 +303,7 @@ link_official_page = 'unknown'
 link_apply         = 'https://user.freejobalert.com/login'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.freejobalert.com/articles/rajasthan-anganwadi-recruitment-2026-apply-offline-for-61-for-anganwadi-worker-and-helper-posts-3058545'

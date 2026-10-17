@@ -348,7 +348,7 @@ link_official_page = 'https://delhihighcourt.nic.in/'
 link_apply         = 'https://delhihighcourt.nic.in/web/job-openings'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://delhihighcourt.nic.in/files/2026-09/recuritment/vacancy_circular_for_spa.pdf'

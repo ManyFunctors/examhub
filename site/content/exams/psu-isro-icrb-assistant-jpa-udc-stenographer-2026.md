@@ -303,7 +303,7 @@ link_official_page = 'https://www.isro.gov.in/'
 link_apply         = 'unknown'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2026/July/Bilingual%20Advertisement_Asst_JPA_UDC_Steno_ICRB_2026_27072026.pdf'

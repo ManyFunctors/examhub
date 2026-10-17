@@ -303,7 +303,7 @@ link_official_page = 'https://hssc.gov.in/'
 link_apply         = 'https://adv012026.hryssc.com/'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'press_release'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://hssc.gov.in/file/ac1f23cd-9d9c-1328-819d-bf5dae3c0004/publicNotice'

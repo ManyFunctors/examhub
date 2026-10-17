@@ -348,7 +348,7 @@ link_official_page = 'unknown'
 link_apply         = 'unknown'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://mysuru.dcourts.gov.in/notice-category/recruitments'

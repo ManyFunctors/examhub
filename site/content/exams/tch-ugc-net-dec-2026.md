@@ -11,7 +11,7 @@ title                  = 'UGC National Eligibility Test, December 2026 cycle'
 slug                   = 'tch-ugc-net-dec-2026'
 title_official         = 'UGC National Eligibility Test, December 2026 cycle'
 title_series           = 'UGC NET'
-title_aliases          = ['UGC NET', 'UGC-NET', 'NTA UGC NET', 'National Eligibility Test (UGC-NET), December 2026 Cycle']
+title_aliases          = ['UGC NET', 'UGC-NET', 'NTA UGC NET', 'National Eligibility Test (UGC-NET), December 2026 Cycle', 'UGC NET English', 'UGC National Eligibility Test, December 2026 cycle: English paper', 'UGC NET Hindi', 'UGC National Eligibility Test, December 2026 cycle: Hindi paper', 'UGC NET Library Science', 'UGC National Eligibility Test, December 2026 cycle: Library and Information Science paper', 'UGC NET Linguistics', 'UGC National Eligibility Test, December 2026 cycle: Linguistics paper', 'UGC NET Sanskrit', 'UGC National Eligibility Test, December 2026 cycle: Sanskrit paper']
 aliases                = ['/exams/d6-nta-ugc-net-december-2026/']
 
 # ═══ who runs it, what it is ═════════════════════════════════════════
@@ -358,17 +358,10 @@ link_official_page = 'https://ugcnet.nta.nic.in/'
 link_apply         = 'https://ugcnet.nta.nic.in/'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'calendar'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.nta.ac.in/Download/Notice/Examcalendar.pdf'
-  document_archive   = 'not_archived'
-
-  [[links.documents]]
-  document_type      = 'other'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://nta.ac.in/Download/Notice/Examcalendar.pdf'
   document_archive   = 'not_archived'
 
   [[links.documents]]
@@ -417,4 +410,11 @@ provenance_last_checked = 2026-10-17T06:44:57+05:30
   evidence_page     = 42
   evidence_words    = 'exam date 2026-12-01'
   evidence_method   = 'rule'
+
+  [[provenance.evidence]]
+  evidence_field    = 'fee.rows'
+  evidence_document = 'https://ugcnet.nta.nic.in/'
+  evidence_page     = 0
+  evidence_words    = 'ExamHub record: General 1150; EWS 600; OBC-NCL 600; SC 325; ST 325; PwBD 325; Transgender 325'
+  evidence_method   = 'manual'
 +++

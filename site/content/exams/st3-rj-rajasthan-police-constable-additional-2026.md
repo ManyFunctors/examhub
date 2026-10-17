@@ -299,7 +299,7 @@ link_official_page = 'https://police.rajasthan.gov.in/'
 link_apply         = 'unknown'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://police.rajasthan.gov.in/portal/RecruitmentsResults'

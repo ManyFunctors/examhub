@@ -303,7 +303,7 @@ link_official_page = 'unknown'
 link_apply         = 'unknown'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://apcob.bank.in/wp-content/uploads/2026/07/Notification_Visakhapatnamdccb_SA.pdf'

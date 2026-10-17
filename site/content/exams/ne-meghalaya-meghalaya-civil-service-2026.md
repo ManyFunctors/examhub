@@ -312,7 +312,7 @@ link_official_page = 'https://mpsc.meghalaya.gov.in/'
 link_apply         = 'https://mpsc.meghalaya.gov.in/'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://mpsc.meghalaya.gov.in/advt/Advt10Oct2025a.pdf'

@@ -359,7 +359,7 @@ link_official_page = 'https://pfrda.org.in/get-to-know/careers/vacancies'
 link_apply         = 'https://pfrda.org.in/get-to-know/careers/vacancies'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://pfrda.org.in/documents/33652/212847/Recruitment+of+Officer+Grade+A+%28Assistant+Manager%29-2026.pdf'
