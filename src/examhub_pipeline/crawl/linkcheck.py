@@ -23,13 +23,19 @@ _SOFT_404 = re.compile(r"page\s*not\s*found|pagenotfound|filenotfound|404\s*erro
                        r"|the requested url was not found", re.I)
 _FILE_TYPES = re.compile(r"application/(pdf|msword|vnd\.|zip|octet-stream)|image/", re.I)
 #: link text that sends a candidate to apply
-_APPLY_TEXT = re.compile(r"apply\s*(online|now|here)?|online\s*(application|registration|form)|registration"
+_APPLY_TEXT = re.compile(r"apply\s*(online|now|here)?|(online\s*)?application\s*form|online\s*(application|registration|form)|registration"
                          r"|register|candidate\s*login|log\s*-?\s*in|sign\s*in|one\s*time\s*registration|\bOTR\b",
                          re.I)
 #: form fields that only a login or application form asks for
 _FORM_FIELDS = re.compile(r"password|passwd|otp|captcha|registration.?(no|number|id)|roll.?no|date.?of.?birth|\bdob\b"
                           r"|mobile|user.?(name|id)|login|email", re.I)
 TEXT_KEEP = 1500
+
+
+def _newest_year(text: str) -> int:
+    """The latest year a link's text names; none counts as current, so a plain "Apply Online" stays first."""
+    years = [int(y) for y in re.findall(r"(?<!\d)(20\d{2})(?!\d)", text)]
+    return max(years) if years else 9999
 
 
 def state_of(status: int, url: str, head: str) -> str:
@@ -70,7 +76,8 @@ def classify(url: str, final_url: str, status: int, content_type: str, body: byt
     title = " ".join(sel.css("title::text").get(default="").split())
     h1 = " ".join(" ".join(sel.css("h1 ::text, h2 ::text").getall()[:6]).split())
     body_text = " ".join(" ".join(sel.xpath("//body//text()[not(ancestor::script) and not(ancestor::style)]").getall()).split())
-    applies = []
+    applies: list[str] = []
+    texts: dict[str, str] = {}
     for a in sel.css("a[href]"):
         text = " ".join(" ".join(a.css("::text").getall()).split())
         href = a.attrib.get("href", "")
@@ -78,6 +85,8 @@ def classify(url: str, final_url: str, status: int, content_type: str, body: byt
             target = urljoin(final_url, href)
             if target != final_url and target not in applies:
                 applies.append(target)
+                texts[target] = text
+    applies.sort(key=lambda t: -_newest_year(texts[t]))  # a stale cycle's link sinks; stable otherwise
     info.update(kind="portal" if is_portal(sel) else "page", title=title[:200], text=f"{h1} {body_text}"[:TEXT_KEEP],
                 apply_links=applies[:5], thin=len(body_text) < 200)
     return info

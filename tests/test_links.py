@@ -121,3 +121,10 @@ def test_a_calendar_pdf_is_typed_and_listed_once():
     docs = rec["links"]["documents"]
     assert [(d["document_type"], d["document_url"].rsplit("/", 1)[-1]) for d in docs] == [
         ("calendar", "Examcalendar.pdf"), ("notification", "Notice_1.pdf")]
+
+
+def test_application_form_link_beats_a_stale_cycles_registration_link():
+    html = (b'<html><body><a href="/old">UGC NET December 2021 and June 2022 - Registration</a>'
+            b'<a href="/new">UGC-NET Dec 2026 Application form</a></body></html>')
+    info = classify("https://x.test/", "https://x.test/", 200, "text/html", html)
+    assert info["apply_links"] == ["https://x.test/new", "https://x.test/old"]
