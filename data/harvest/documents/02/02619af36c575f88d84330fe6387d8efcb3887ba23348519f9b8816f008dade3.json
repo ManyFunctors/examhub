@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "02619af36c575f88d84330fe6387d8efcb3887ba23348519f9b8816f008dade3",
+  "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat - s ગુજરાતી પ્રથમ ભાષા(ગુજરાતી માધ્યમમાં ગુજરાતી વિષય માટેનો અભ્યાસક્રમ)_032026.pdf",
+  "title": "TAT - S ગુજરાતી પ્રથમ ભાષા(ગુજરાતી માધ્યમમાં ગુજરાતી વિષય માટેનો અભ્યાસક્રમ)",
+  "body": "gj-seb",
+  "exam": "gj-tat",
+  "feed": "gj-seb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "4e9b995389c3ac993530b2313e18e2e4e70c89bd5558001c88cbcdcf42d989ef",
+  "bytes": 363144,
+  "pages": 8,
+  "chars": 14,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T14:35:43+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "026da8970c89654b122b1ff1b7968754396c65d81c313f42fcfbb29ca0fa26d6",
+  "url": "https://www.sebexam.org/AdvertiseFiles/2026/aeiat mains exam paper-2 -2026 set-a qp_062026.pdf",
+  "title": "AEIAT-2026 મુખ્ય પરીક્ષા પેપર-૨ A સિરીઝનું પ્રશ્નપત્ર",
+  "body": "gj-seb",
+  "exam": "gj-seb-aeiat",
+  "feed": "gj-seb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "64ea28c2c066bcb2461c7f60134eb3c33a2176ee06fdf7b09716c07c2a868e50",
+  "bytes": 1344573,
+  "pages": 16,
+  "chars": 30,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T14:35:47+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
