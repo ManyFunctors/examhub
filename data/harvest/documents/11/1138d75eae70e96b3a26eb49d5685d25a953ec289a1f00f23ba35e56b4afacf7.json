@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1138d75eae70e96b3a26eb49d5685d25a953ec289a1f00f23ba35e56b4afacf7",
+  "url": "https://admission.jmi.ac.in/application/assets/pdfFile/notices/UniversityNotices/2026-27/231_THIRD_Notice_for_Offline_SPOT_registration_for_University_Program.pdf",
+  "title": "10 Aug, 2026 THIRD Notice for Offline SPOT Registration for University Program (Session 2026-27)",
+  "body": "dl-jmi",
+  "exam": "dl-jmi-entrance",
+  "feed": "dl-jmi/admission",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "42bfe6c51b2760fb44c3aa7a96515ccb0b83352fe22ee293fd7aff5a9dded655",
+  "bytes": 202953,
+  "pages": 3,
+  "chars": 4,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T02:18:04+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

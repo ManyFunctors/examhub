@@ -1,0 +1,60 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "10df18f8eb9282de645fea429d45b2f218f1b08096180f0723cda7eb992b7dae",
+  "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat - s 2026 notification_022026.pdf",
+  "title": "શિક્ષક અભિરુચિ કસોટી (માધ્યમિક - TAT- S) - ૨૦૨૬ જાહેરનામું",
+  "body": "gj-seb",
+  "exam": "gj-tat",
+  "feed": "gj-seb/home",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "eda4edfa1d9c6e59265c7a3b6f3e091fdc8b525c50532a0df59aa8e27685ea19",
+  "bytes": 8487724,
+  "pages": 100,
+  "chars": 51223,
+  "ocr": false,
+  "indic_share": 0.43,
+  "fetched": "2026-10-18T02:18:06+05:30"
+ },
+ "kind": "notice",
+ "schedule": [
+  {
+   "event": "જા હરે નામાં પ્રશ સદ્ધ કયાડની તારી ખ ુ",
+   "date": "2026-02-12",
+   "page": 2
+  },
+  {
+   "event": "ઉમદે િારો માટેઓ નલાઈનરજી સર્ િે નફો મડિરિાનો સમયગાળો",
+   "date": "2026-02-18",
+   "page": 2,
+   "until": "2026-02-27"
+  },
+  {
+   "event": "ઓ નલાઈનફી િરિાનો સમયગાળો",
+   "date": "2026-02-18",
+   "page": 2,
+   "until": "2026-02-28"
+  },
+  {
+   "event": "્ર શ ી ્ષ શ ્ ્ ૂ ી પાથમકપર કા(બહિકલપસિરપ)તાર ખ ુ",
+   "date": "2026-04-26",
+   "page": 2
+  }
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 7
+  }
+ },
+ "links": {
+  "apply": [
+   "http://www.sebexam.org/"
+  ],
+  "other": [
+   "http://ojas.gujarat.gov.in/"
+  ]
+ }
+}
