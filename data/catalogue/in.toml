@@ -2321,6 +2321,20 @@ cadence_days = 7
 status = "active"
 
 [[feeds]]
+id = "in-ssc/notices-api"
+body = "in-ssc"
+url = "https://ssc.gov.in/api/general-website/portal/notice-boards?page=1&limit=40&contentType=notice-boards&key=createdAt&order=DESC&isAttachment=true&attributes=id,headline,examId,examYear,contentType,startDate,endDate,language,createdAt"
+adapter = "json_api"
+yields = "notices"
+items_path = "data"
+fields = { title = "headline", url = "path", date = "createdAt" }
+url_template = "https://ssc.gov.in/api/attachment/{url}"
+tier = "hot"
+status = "active"
+notes = "The notice board's own JSON; the HTML page is a script-rendered shell."
+children_path = "attachments"
+
+[[feeds]]
 id = "in-ssc/notice-board"
 body = "in-ssc"
 url = "https://ssc.gov.in/home/notice-board"

@@ -399,28 +399,35 @@ def json_api(feed: dict, page_url: str, body: bytes | str) -> Iterator[dict]:
     items = _dig(data, feed.get("items_path")) or []
     f = feed["fields"]
     tmpl = feed.get("url_template")
-    for it in items:
-        if not isinstance(it, dict):
+    child_path = feed.get("children_path")
+    for parent in items:
+        if not isinstance(parent, dict):
             continue
-        title = clean(str(_dig(it, f.get("title")) or ""))
-        raw_url = _dig(it, f.get("url")) if f.get("url") else None
-        if tmpl:
-            try:
-                vals = {k: _dig(it, v) for k, v in f.items()}
-                vals["url"] = raw_url or ""
-                href = tmpl.format(**vals)
-            except (KeyError, IndexError):
+        # With children_path, each child (an attachment) is its own row; its
+        # fields shadow the parent's, so `url` can come from the child.
+        rows = [{**parent, **c} for c in _dig(parent, child_path) or [] if isinstance(c, dict)] if child_path else [parent]
+        for it in rows:
+            title = clean(str(_dig(it, f.get("title")) or ""))
+            raw_url = _dig(it, f.get("url")) if f.get("url") else None
+            if isinstance(raw_url, str):
+                raw_url = raw_url.replace("\\", "/")
+            if tmpl:
+                try:
+                    vals = {k: _dig(it, v) for k, v in f.items()}
+                    vals["url"] = raw_url or ""
+                    href = tmpl.format(**vals)
+                except (KeyError, IndexError):
+                    continue
+            else:
+                href = str(raw_url or "")
+            if not title or not href:
                 continue
-        else:
-            href = str(raw_url or "")
-        if not title or not href:
-            continue
-        pub = parse_date(str(_dig(it, f["date"]))) if f.get("date") else None
-        if not _keep(feed, title, href) and feed.get("include"):
-            continue
-        row = _row(feed, page_url, href, title, pub)
-        row["raw"] = {k: _dig(it, v) for k, v in f.items()}
-        yield row
+            pub = parse_date(str(_dig(it, f["date"]))) if f.get("date") else None
+            if not _keep(feed, title, href) and feed.get("include"):
+                continue
+            row = _row(feed, page_url, href, title, pub)
+            row["raw"] = {k: _dig(it, v) for k, v in f.items()}
+            yield row
 
 
 def rss(feed: dict, page_url: str, body: bytes | str) -> Iterator[dict]:
