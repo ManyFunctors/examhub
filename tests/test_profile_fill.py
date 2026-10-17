@@ -69,3 +69,23 @@ def test_a_table_whose_columns_do_not_add_up_is_not_trusted():
     p = profile(vacancies={"value": {"total": 705, "from": "table",
                                      "by_category": {"Unreserved": 968, "EWS": 210, "BC": 259}}, "source": SRC})
     assert profile_fill.fill_record(rec(), p, same_cycle_records=1) == []
+
+
+def _vac(rows, total, title="Notification: Detailed CEN"):
+    return {"vacancies": {"value": {"from": "table", "total": total, "rows": [{"label": "x", "total": n} for n in rows]},
+                          "source": {**SRC, "title": title}}}
+
+
+def test_a_zone_table_counts_when_its_rows_add_up():
+    r = rec()
+    profile_fill.fill_record(r, profile(**_vac([60, 40], 100)), same_cycle_records=1)
+    assert r["posts"]["vacancies_total"] == 100
+    r = rec()
+    profile_fill.fill_record(r, profile(**_vac([60, 30], 100)), same_cycle_records=1)
+    assert r["posts"]["vacancies_total"] != "100"
+
+
+def test_a_corrigendum_table_never_sets_the_total():
+    r = rec()
+    profile_fill.fill_record(r, profile(**_vac([60, 40], 100, "Corrigendum no.1 of CEN 02/2026")), same_cycle_records=1)
+    assert r["posts"]["vacancies_total"] != "100"

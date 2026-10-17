@@ -35,7 +35,11 @@ HORIZONTAL = {"PwBD", "ESM", "Freedom Fighter Dependant"}
 def _adds_up(value: dict) -> bool:
     """Whether the vacancy table's category columns sum to its total."""
     cats = value.get("by_category") or {}
-    return bool(cats) and sum(n for k, n in cats.items() if k not in HORIZONTAL and isinstance(n, int)) == value["total"]
+    if cats:
+        return sum(n for k, n in cats.items() if k not in HORIZONTAL and isinstance(n, int)) == value["total"]
+    # a table by zone or post (RRB) has no category columns: its rows must add up instead
+    rows = [r.get("total") for r in value.get("rows") or []]
+    return bool(rows) and all(isinstance(n, int) for n in rows) and sum(rows) == value["total"]
 
 
 def _year(label: Any) -> int | None:
@@ -121,7 +125,9 @@ def fill_record(rec: dict, profile: dict, *, same_cycle_records: int) -> list[st
     # vacancies: a table's total, for an exam with one record this cycle
     vac = fields.get("vacancies")
     posts = rec.get("posts") or {}
-    if (vac and same_cycle_records == 1 and (vac.get("value") or {}).get("from") == "table"
+    # a corrigendum's table may list only the posts it changes, so it never sets a total
+    from_corrigendum = "corrigendum" in str((vac or {}).get("source", {}).get("title", "")).lower()
+    if (vac and not from_corrigendum and same_cycle_records == 1 and (vac.get("value") or {}).get("from") == "table"
             and isinstance(vac["value"].get("total"), int) and _adds_up(vac["value"]) and posts.get("vacancies_total") in SENTINELS):
         record_mod.set_value(rec, "vacancies", str(vac["value"]["total"]))
         _evidence(rec, "posts.vacancies_total", vac.get("source") or {}, vac["value"].get("evidence") or "")
