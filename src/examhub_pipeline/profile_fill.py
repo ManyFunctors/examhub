@@ -96,6 +96,10 @@ def fill_record(rec: dict, profile: dict, *, same_cycle_records: int) -> list[st
     app = (rec.get("dates") or {}).get("application") or {}
     for field, end, key in (("registration_open", "from", "date"), ("registration_deadline", "to", None)):
         got = dates.get(field)
+        if field == "registration_deadline" and not got and (dates.get("registration_open") or {}).get("until"):
+            # a notice that gives the window as one row ("7 Oct to 5 Nov") has no separate deadline
+            opened = dates["registration_open"]
+            got = {"date": opened["until"], "source": opened.get("source"), "provisional": opened.get("provisional")}
         if not got:
             continue
         day = _day(got.get("date") if key else (got.get("until") or got.get("date")))

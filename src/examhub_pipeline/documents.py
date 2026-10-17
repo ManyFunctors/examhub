@@ -465,13 +465,15 @@ def parse_pattern(table: Table) -> list[dict[str, Any]]:
 _EVENT_KEYS: tuple[tuple[re.Pattern[str], str], ...] = tuple(
     (re.compile(p, re.I), k)
     for p, k in (
-        (r"correction|modif|edit", "correction_window"),
+        (r"correction|modif|\bedit", "correction_window"),
         (r"admit|call\s+letter|hall\s+ticket", "admit_card_from"),
         (r"answer\s+key", "answer_key"),
         (r"result", "result_date"),
         (r"(?:fee|payment).*(?:last|clos|end)|(?:last|clos|end).*(?:fee|payment)", "payment_deadline"),
         (r"(?:last|clos|end)\w*.*(?:regist|appl|submi|online)|(?:regist|appl|submi|online).*(?:last|clos|end)", "registration_deadline"),
         (r"(?:open|start|commence|begin)\w*.*(?:regist|appl|submi|online)|(?:regist|appl|submi|online).*(?:open|start|commence|begin)", "registration_open"),
+        # a bare "Online submission of application form" row is the window itself (from .. until)
+        (r"^(?!.*\blate\b)(?:online\s+)?(?:submission|registration|application).*(?:form|application)|^apply\s+online", "registration_open"),
         (r"exam|test|cbt|prelim|mains?\b|interview", "exam_date"),
         (r"as\s+on|cut[-\s]?off\s+date|crucial\s+date", "age_as_on"),
     )
@@ -499,6 +501,66 @@ def parse_schedule(table: Table, reference: dt.date) -> list[dict[str, Any]]:
         if end and end != start:
             item["until"] = end
         out.append(item)
+    return out
+
+
+# A schedule set as two columns and read line by line has its label above its date, and
+# OCR turns the superscript of "07th" into a stray mark ("07™", '05"').
+_SUPERSCRIPT_MARK = re.compile(r"(?<=\d)\s*(?:[\u2122\"\u201d\u201c'\u00b0*]+|TM)(?=\s+(?:[A-Za-z]{3}|\d|and\b|&))")
+_DAY_LIST = re.compile(
+    rf"\b(\d{{1,2}})\w{{0,2}}[,\s]+(?:(\d{{1,2}})\w{{0,2}}[,\s]+)?(?:and|&)\s*(\d{{1,2}})\w{{0,2}}\s+({cand.MONTH_ALT})\.?,?\s+(\d{{4}})\b", re.I)
+_DATE_WORDS = re.compile(rf"(?<=\d)(?:st|nd|rd|th)\b|\b(?:to|and|upto|up\s+to|from|{cand.MONTH_ALT})\b|\d+|[(),.:;\-\u2013]|\bp\.?m\.?|\ba\.?m\.?|\bth\b|\bst\b|\bnd\b|\brd\b", re.I)
+_LABEL_JUNK = re.compile(r"^\s*(?:\(?https?://\S*\)?|www\.\S+|\S{0,3})\s*$", re.I)
+#: a row whose date is not set yet ends its label, so it cannot lend that label to the next row
+_NO_DATE = re.compile(r"\b(?:to|will)\s+be\s+(?:announced|intimated|notified|declared)|\blater\s+on\b", re.I)
+MAX_NOTICE_PAGES = 3
+
+
+def _line_days(line: str, reference: dt.date) -> list[str]:
+    """Every full day a schedule line names, ISO: 'a to b', or a list like '19, 22 and 27 December 2026'."""
+    line = _SUPERSCRIPT_MARK.sub("th", line)
+    m = _DAY_LIST.search(line)
+    if m:
+        month = cand.find_dates(f"1 {m.group(4)} {m.group(5)}", reference)
+        if month:
+            first = month[0].value
+            days = [int(g) for g in (m.group(1), m.group(2), m.group(3)) if g]
+            try:
+                return [dt.date(first.year, first.month, d).isoformat() for d in days]
+            except ValueError:
+                return []
+    return [d.value.isoformat() for d in cand.find_dates(line, reference) if d.is_day]
+
+
+def parse_schedule_lines(pages: Sequence[tuple[int, str]], reference: dt.date) -> list[dict[str, Any]]:
+    """Events from the label-above-date layout of a short notice. Only a notice of a few
+    pages is read this way: in a bulletin the same layout is every other paragraph."""
+    if len(pages) > MAX_NOTICE_PAGES:
+        return []
+    out: list[dict[str, Any]] = []
+    for page, text in pages:
+        label: list[str] = []
+        for raw in text.splitlines():
+            line = " ".join(raw.split())
+            if not line:
+                continue
+            if " | " in line:  # a table row read across: label cell, then its date cell
+                head, line = line.split(" | ", 1)
+                label = [head]
+            days = _line_days(line, reference)
+            if days and len(_DATE_WORDS.sub("", _SUPERSCRIPT_MARK.sub("th", line)).split()) <= 2:
+                words = " ".join(label)
+                key = event_key(words)
+                if key:
+                    item = {"event": words[:160], "key": key, "date": days[0], "page": page}
+                    if days[-1] != days[0]:
+                        item["until"] = days[-1]
+                    out.append(item)
+                label = []
+            elif _NO_DATE.search(line) or line.endswith(":") or len(line) > 110:
+                label = []  # prose or an introduction, not a row label
+            elif not _LABEL_JUNK.match(line):
+                label = (label + [line])[-3:]
     return out
 
 
@@ -878,6 +940,7 @@ def _structure(content: bytes, notice: dict[str, Any], settings: Settings, fetch
     events: list[dict[str, Any]] = []
     for table in by_kind.get("schedule", []) + by_kind.get("keyvalue", []):
         events.extend(parse_schedule(table, reference))
+    events.extend(parse_schedule_lines(pages, reference))
     # A date years before the notice is a citation ("registered on or before
     # 29.09.2015"), not this notice's schedule.
     stale = (reference - dt.timedelta(days=400)).isoformat()

@@ -89,3 +89,11 @@ def test_a_corrigendum_table_never_sets_the_total():
     r = rec()
     profile_fill.fill_record(r, profile(**_vac([60, 40], 100, "Corrigendum no.1 of CEN 02/2026")), same_cycle_records=1)
     assert r["posts"]["vacancies_total"] != "100"
+||||||| parent of a1a352a (Read the schedule of a short notice laid out as label above date)
+
+def test_a_window_given_as_one_row_sets_both_ends():
+    r = rec()
+    p = profile(**dates(registration_open={"date": "2026-10-07", "until": "2026-11-05"}))
+    profile_fill.fill_record(r, p, same_cycle_records=1)
+    assert r["dates"]["application"]["from"] == dt.date(2026, 10, 7)
+    assert r["dates"]["application"]["to"] == dt.date(2026, 11, 5)
