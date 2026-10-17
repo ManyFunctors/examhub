@@ -353,7 +353,7 @@ link_official_page = 'https://csirnet.nta.nic.in/'
 link_apply         = 'https://csirnet.nta.nic.in/'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'calendar'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.nta.ac.in/Download/Notice/Examcalendar.pdf'

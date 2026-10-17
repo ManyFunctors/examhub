@@ -348,7 +348,7 @@ link_official_page = 'https://dsssb.delhi.gov.in/'
 link_apply         = 'https://dsssb.delhi.gov.in/user/login'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_02-2026_1.pdf'

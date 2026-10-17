@@ -299,7 +299,7 @@ link_official_page = 'https://slprb.ap.gov.in/'
 link_apply         = 'unknown'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://slprb.ap.gov.in/UI/recruitments.aspx'

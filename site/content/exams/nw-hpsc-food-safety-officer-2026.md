@@ -366,7 +366,7 @@ link_official_page = 'https://hpsc.gov.in/'
 link_apply         = 'unknown'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://hpsc.gov.in/Portals/0/Advt_25_2026_FSO_18_09_2026.pdf'

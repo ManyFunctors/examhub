@@ -246,6 +246,30 @@ def families(recs: dict[str, dict]) -> list[tuple[str, list[str]]]:
     return out
 
 
+def papers(recs: dict[str, dict]) -> list[tuple[str, list[str]]]:
+    """(the exam's record, its subject-paper records): a record named only for the exam, and
+    records of the same body and year named for the exam plus a subject and "paper" ("...cycle:
+    English paper"). A paper is one choice within the exam, not an exam of its own, and an exam
+    like UGC NET has dozens, so each paper folds into the one record."""
+    out = []
+    for name, rec in recs.items():
+        family = _name_words(rec)
+        if len(family) < 2 or "paper" in family:
+            continue
+        parts = []
+        for other, r in recs.items():
+            if other == name or _year(r.get("cycle")) != _year(rec.get("cycle")):
+                continue
+            if r.get("exam_id") != rec.get("exam_id") or (_conductor(rec) and _conductor(r) != _conductor(rec)):
+                continue
+            words = _name_words(r)
+            if words[: len(family)] == family and len(words) > len(family) + 1 and words[-1] == "paper":
+                parts.append(other)
+        if parts:
+            out.append((name, sorted(parts)))
+    return out
+
+
 def run(exams_dir: Path, *, apply: bool = False, log: Callable[[str], None] = print) -> Result:
     out = Result()
     loaded = {p.name: record_mod.load(p) for p in sorted(exams_dir.glob("*.md"))}
@@ -273,6 +297,27 @@ def run(exams_dir: Path, *, apply: bool = False, log: Callable[[str], None] = pr
             (exams_dir / keep).write_text(record_mod.dumps(merged, body), encoding="utf-8")
             for other in rest:
                 (exams_dir / other).unlink()
+    # subject papers folded into their exam's record, when it keeps every fact
+    live = {n: r for n, r in recs.items() if n not in out.merged}
+    for whole, parts in papers(live):
+        try:
+            merged = live[whole]
+            for part in parts:
+                merged = merge(merged, live[part])
+            missing = [x for n in (whole, *parts) for x in lost(merged, live[n])]
+            if missing:
+                raise Conflict(f"a merge would lose {missing[0]}" + (f" and {len(missing) - 1} more" if len(missing) > 1 else ""))
+        except Conflict as exc:
+            out.conflicts[(whole, *parts)] = [str(exc)]
+            log(f"dedupe: {whole} left apart from its papers {', '.join(parts)}: {exc}")
+            continue
+        for part in parts:
+            out.merged[part] = whole
+        log(f"dedupe: {len(parts)} subject paper(s) folded into {whole}")
+        if apply:
+            (exams_dir / whole).write_text(record_mod.dumps(merged, loaded[whole][1]), encoding="utf-8")
+            for part in parts:
+                (exams_dir / part).unlink()
     # a combined record folded into each of its parts, when each takes every fact
     live = {n: r for n, r in recs.items() if n not in out.merged}
     for whole, parts in families(live):

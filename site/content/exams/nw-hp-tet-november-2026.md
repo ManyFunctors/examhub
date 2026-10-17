@@ -340,7 +340,7 @@ link_official_page = 'https://hpbose.org/OnlineServices/CET/TET/Instructions.asp
 link_apply         = 'https://hpbose.org/AffiliationLogin.aspx'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://hpbose.org/Admin/Upload/Notification%20regarding%20TET.pdf'

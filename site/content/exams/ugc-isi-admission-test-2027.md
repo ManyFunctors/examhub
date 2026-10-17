@@ -299,7 +299,7 @@ link_official_page = 'https://admission.isical.ac.in/'
 link_apply         = 'unknown'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'result'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://admission.isical.ac.in/Documents/IsiAdmission2026/Merit-List/BSTISITest-meritlist-notice.pdf'

@@ -108,3 +108,16 @@ def test_a_host_that_does_not_exist_gives_way_to_the_bodys_site():
     links.fix(rec, CAT, {dead: {"state": "not_found", "error": "CannotResolveHostError"}})
     assert rec["links"]["link_official_page"] == "https://www.upsc.gov.in/"
     assert rec["links"]["link_apply"] == "unknown"
+
+
+def test_a_calendar_pdf_is_typed_and_listed_once():
+    rec = {"bodies": [{"body": "in-upsc", "body_role": "conducts"}],
+           "links": {"link_official_page": "https://www.upsc.gov.in/", "link_apply": "unknown",
+                     "documents": [
+                         {"document_type": "other", "document_url": "https://www.nta.ac.in/Download/Notice/Examcalendar.pdf"},
+                         {"document_type": "other", "document_url": "https://nta.ac.in/Download/Notice/Examcalendar.pdf"},
+                         {"document_type": "notification", "document_url": "https://nta.ac.in/Download/Notice/Notice_1.pdf"}]}}
+    links.fix(rec, CAT)
+    docs = rec["links"]["documents"]
+    assert [(d["document_type"], d["document_url"].rsplit("/", 1)[-1]) for d in docs] == [
+        ("calendar", "Examcalendar.pdf"), ("notification", "Notice_1.pdf")]

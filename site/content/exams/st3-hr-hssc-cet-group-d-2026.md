@@ -303,7 +303,7 @@ link_official_page = 'https://hssc.gov.in/'
 link_apply         = 'https://onetimeregn.haryana.gov.in/'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://hssc.gov.in/file/ac1f23cd-9d9c-1328-819e-da8c1fe70055/advertisements'

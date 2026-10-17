@@ -307,7 +307,7 @@ link_official_page = 'https://psc.wb.gov.in/'
 link_apply         = 'https://psc.wb.gov.in/'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'admit_card'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://psc.wb.gov.in/Download?param1=An_20260903195017_Imp_Announcement_Admitcard_MSRE_2024.pdf&param2=advertisement'

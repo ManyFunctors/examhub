@@ -49,3 +49,22 @@ def test_links_on_two_sites_stop_the_merge():
 
 def test_omr_is_the_narrower_pen_and_paper():
     assert dedupe._merge("pen_paper", "omr", "dates.stages.stage_mode") == "omr"
+
+
+def test_subject_papers_belong_to_the_exams_one_record():
+    def named(slug, official):
+        return rec(slug, title_official=official, bodies=[{"body": "in-nta", "body_role": "conducts"}])
+
+    recs = {
+        "tch.md": named("tch", "UGC National Eligibility Test, December 2026 cycle"),
+        "eng.md": named("eng", "UGC National Eligibility Test, December 2026 cycle: English paper"),
+        "lib.md": named("lib", "UGC National Eligibility Test, December 2026 cycle: Library and Information Science paper"),
+    }
+    assert dedupe.papers(recs) == [("tch.md", ["eng.md", "lib.md"])]
+    assert dedupe.families(recs) == []  # not an exam of its own, so not a family of parts
+
+
+def test_a_different_exam_with_a_longer_name_is_not_a_paper():
+    recs = {"a.md": rec("a", title_official="Combined Test, 2026"),
+            "b.md": rec("b", title_official="Combined Test, 2026: English", exam_id="in-other")}
+    assert dedupe.papers(recs) == []

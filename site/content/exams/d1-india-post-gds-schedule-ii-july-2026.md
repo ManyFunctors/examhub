@@ -348,7 +348,7 @@ link_official_page = 'https://www.indiapost.gov.in/gdsonlineengagement'
 link_apply         = 'https://www.indiapost.gov.in/gdsonlineengagement'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.indiapost.gov.in/gdsonlineengagement/pdf/descriptive-notification.pdf'

@@ -303,7 +303,7 @@ link_official_page = 'https://nationalinsurance.nic.co.in/'
 link_apply         = 'https://nationalinsurance.nic.co.in/retiree-lounge'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://nationalinsurance.nic.co.in/recruitment'

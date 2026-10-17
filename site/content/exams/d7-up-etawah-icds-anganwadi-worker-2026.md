@@ -303,7 +303,7 @@ link_official_page = 'unknown'
 link_apply         = 'https://upanganwadibharti.in/adminpanel/'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://upanganwadibharti.in/'

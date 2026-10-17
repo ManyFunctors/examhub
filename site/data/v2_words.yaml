@@ -8,6 +8,22 @@ all: All
 in_group: Given for the Group
 by_category: Differs by Category
 
+# official document types
+notification: Notification
+corrigendum: Corrigendum
+schedule: Schedule
+admit_card: Admit Card
+answer_key: Answer Key
+result: Result
+press_release: Press Release
+calendar: Exam Calendar
+syllabus: Syllabus
+brochure: Brochure
+counselling: Counselling
+walk_in: Walk-In Interview
+application_status: Application Status
+other: Other
+
 # formats and modes
 written: Written Exam
 physical: Physical Test

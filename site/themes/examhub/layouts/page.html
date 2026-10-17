@@ -102,7 +102,7 @@
   {{- with $p.links.link_official_page }}{{ if hasPrefix . "http" }}<li class="v2-doc v2-doc--site"><a href="{{ . }}" rel="noopener">Official Page</a><span class="v2-sub">{{ (urls.Parse .).Host }}</span></li>{{ end }}{{ end }}
   {{- with $p.links.link_apply }}{{ if hasPrefix . "http" }}<li class="v2-doc v2-doc--apply"><a href="{{ . }}" rel="noopener">Apply Online</a></li>{{ end }}{{ end }}
   {{- range $p.links.documents }}
-    <li class="v2-doc"><a href="{{ .document_url }}" rel="noopener">{{ partial "v2/word.html" .document_type | humanize }}{{ if ne (printf "%v" .document_stage) "all" }}: {{ index $stageName (string .document_stage) }}{{ end }}</a>
+    <li class="v2-doc"><a href="{{ .document_url }}" rel="noopener">{{ partial "v2/word.html" .document_type }}{{ if ne (printf "%v" .document_stage) "all" }}: {{ index $stageName (string .document_stage) }}{{ end }}</a>
       <span class="v2-sub">{{ if not (in (slice "unknown") (printf "%v" .document_published)) }}{{ (partial "v2/day.html" .document_published) }} · {{ end }}PDF</span></li>
   {{- end }}
   </ul>

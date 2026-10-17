@@ -147,11 +147,44 @@ def fix(rec: dict, cat, checks: dict[str, dict] | None = None) -> list[str]:
         notes.append(f"official page {links.get('link_official_page')} -> {new_official}")
         links["link_official_page"] = new_official
     # a sentinel already there ('none': no online application) says more than 'unknown'
+    notes += _tidy_documents(docs, checks)
     if not new_apply and not apply:
         new_apply = links.get("link_apply")
     if (new_apply or "unknown") != links.get("link_apply"):
         notes.append(f"apply link {links.get('link_apply')} -> {new_apply or 'unknown'}")
         links["link_apply"] = new_apply or "unknown"
+    return notes
+
+
+def _same_file(url: str) -> str:
+    """A key that two addresses of one file share: scheme, a leading www. and a trailing slash ignored."""
+    rest = re.sub(r"^https?://(www\.)?", "", url.strip().split("#")[0], flags=re.I)
+    return rest.rstrip("/").lower()
+
+
+def _tidy_documents(docs: list[dict], checks: dict[str, dict]) -> list[str]:
+    """One row per file, and a type for each: a document typed 'other' is typed by what it is
+    called (an Examcalendar.pdf is a calendar), the way a harvested notice is."""
+    notes: list[str] = []
+    seen: dict[str, dict] = {}
+    for d in list(docs):
+        url = d.get("document_url")
+        if not isinstance(url, str):
+            continue
+        key = _same_file(url)
+        if key in seen:
+            keep = seen[key]
+            if url.startswith("https") and not keep["document_url"].startswith("https"):
+                keep["document_url"] = url
+            docs.remove(d)
+            notes.append(f"{url} was a second row for a file already listed")
+            continue
+        seen[key] = d
+        if d.get("document_type") == "other":
+            kind_now = classify_doc_type((checks.get(url) or {}).get("title", ""), url)
+            if kind_now != "other":
+                d["document_type"] = kind_now
+                notes.append(f"{url} typed as {kind_now}")
     return notes
 
 

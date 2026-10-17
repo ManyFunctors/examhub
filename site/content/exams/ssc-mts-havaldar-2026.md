@@ -299,7 +299,7 @@ link_official_page = 'https://ssc.gov.in/'
 link_apply         = 'unknown'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'calendar'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://ssc.gov.in/api/attachment/uploads/masterData/ExamCalendar/Tentative_Calendar2026_27_08012026.pdf'

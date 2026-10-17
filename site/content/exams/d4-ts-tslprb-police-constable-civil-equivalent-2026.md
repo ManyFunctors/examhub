@@ -303,7 +303,7 @@ link_official_page = 'https://www.tgprb.in/'
 link_apply         = 'https://www.tgprb.in/applive/login'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf'

@@ -335,7 +335,7 @@ link_official_page = 'https://www.powergrid.in/en'
 link_apply         = 'https://careers.powergrid.in/recruitment-nextgen/h/login.aspx'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.powergrid.in/sites/default/files/job_opportunities_document/ET2027_Detailed_Advertisement_For%20Website.pdf'

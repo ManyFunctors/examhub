@@ -299,7 +299,7 @@ link_official_page = 'https://tpsc.tripura.gov.in/'
 link_apply         = 'https://tpsc.tripura.gov.in/'
 
   [[links.documents]]
-  document_type      = 'other'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://tpsc.tripura.gov.in/advertisement'
