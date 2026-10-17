@@ -130,11 +130,56 @@ def test_application_form_link_beats_a_stale_cycles_registration_link():
     assert info["apply_links"] == ["https://x.test/new", "https://x.test/old"]
 
 
-def _cat():
+def _rec(apply="unknown", official="https://mcgm.gov.in/", docs=()):
+    return {"title": "BMC Clerk", "bodies": [{"body": "mh-bmc", "body_role": "conducts"}],
+            "links": {"link_official_page": official, "link_apply": apply,
+                      "documents": [{"document_url": d, "document_type": "notification"} for d in docs]}}
+
+
+CAT2 = Catalogue(vocab={}, jurisdictions={}, feeds={}, exams={},
+                 bodies={"mh-bmc": {"id": "mh-bmc", "website": "https://mcgm.gov.in/", "hosts": ["portal.mcgm.gov.in"]}})
+PORTAL = {"state": "ok", "kind": "portal", "title": "Login", "text": "Login Civil Registration", "apply_links": []}
+
+
+def test_an_unrelated_login_a_page_offers_is_not_the_apply_link():
+    home = "https://mcgm.gov.in/"
+    other = "https://dc.crsorgi.gov.in/crs/Auth/admin"
+    checks = {home: {"state": "ok", "kind": "page", "title": "BMC", "text": "BMC jobs", "home": True, "apply_links": [other]},
+              other: PORTAL}
+    rec = _rec()
+    links.fix(rec, CAT2, checks)
+    assert rec["links"]["link_apply"] == "unknown"
+    rec = _rec(apply=other)  # already adopted by an earlier run: dropped again
+    links.fix(rec, CAT2, checks)
+    assert rec["links"]["link_apply"] == "unknown"
+
+
+def test_a_portal_on_a_shared_platform_or_the_bodys_own_site_is_kept():
+    home = "https://mcgm.gov.in/"
+    own = "https://portal.mcgm.gov.in/apply/login"
+    shared = "https://examinationservices.nic.in/ExamSys27/root/home.aspx"
+    for target in (own, shared):
+        checks = {home: {"state": "ok", "kind": "page", "title": "BMC", "text": "BMC jobs", "home": True, "apply_links": [target]},
+                  target: PORTAL}
+        rec = _rec()
+        links.fix(rec, CAT2, checks)
+        assert rec["links"]["link_apply"] == target
+
+
+def test_a_script_rendered_apply_page_on_the_own_site_is_not_dropped():
+    apply = "https://recruitment.mcgm.gov.in/crpd-25/apply"
+    checks = {apply: {"state": "ok", "kind": "page", "title": "", "text": "", "thin": True, "apply_links": []},
+              "https://mcgm.gov.in/": {"state": "ok", "kind": "page", "title": "BMC", "text": "BMC", "home": True, "apply_links": []}}
+    rec = _rec(apply=apply)
+    links.fix(rec, CAT2, checks)
+    assert rec["links"]["link_apply"] == apply
+
+
+def _mini_cat():
     return type("C", (), {"exams": {}, "bodies": {}})()
 
 
-def _rec(**extra):
+def _mini_rec(**extra):
     return {"title": "X Exam", "links": {"link_official_page": "https://x.gov.in/", "link_apply": "unknown",
                                          "documents": [], **extra}}
 
@@ -148,8 +193,8 @@ def test_apply_link_skips_session_urls_and_scribe_portals():
         "https://x.gov.in/login?session_code=abc": {"state": "ok", "kind": "portal"},
         "https://x.gov.in/apply": {"state": "ok", "kind": "portal"},
     }
-    rec = _rec()
-    links.fix(rec, _cat(), checks)
+    rec = _mini_rec()
+    links.fix(rec, _mini_cat(), checks)
     assert rec["links"]["link_apply"] == "https://x.gov.in/apply"
 
 
@@ -157,8 +202,8 @@ def test_apply_link_never_a_job_alert_site():
     checks = {"https://x.gov.in/": {"state": "ok", "kind": "page", "title": "X Exam", "text": "X Exam",
                                     "apply_links": ["https://user.freejobalert.com/login"]},
               "https://user.freejobalert.com/login": {"state": "ok", "kind": "portal"}}
-    rec = _rec()
-    links.fix(rec, _cat(), checks)
+    rec = _mini_rec()
+    links.fix(rec, _mini_cat(), checks)
     assert rec["links"]["link_apply"] == "unknown"
 
 
@@ -166,6 +211,7 @@ def test_official_page_never_a_job_alert_article():
     art = "https://www.freejobalert.com/articles/x-recruitment-2026"
     checks = {"https://x.gov.in/": {"state": "ok", "kind": "page", "title": "Home", "text": "welcome"},
               art: {"state": "ok", "kind": "page", "title": "X Exam recruitment", "text": "X Exam"}}
-    rec = _rec(documents=[{"document_url": art}])
-    links.fix(rec, _cat(), checks)
+    rec = _mini_rec(documents=[{"document_url": art}])
+    links.fix(rec, _mini_cat(), checks)
     assert rec["links"]["link_official_page"] == "https://x.gov.in/"
+
