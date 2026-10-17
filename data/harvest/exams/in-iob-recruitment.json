@@ -5,7 +5,7 @@
  "body": "in-iob",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 2,
+ "documents": 3,
  "documents_in_cycle": 1,
  "fields": {
   "dates": {
@@ -41,20 +41,47 @@
   },
   "eligibility": {
    "value": {
+    "education_levels": [
+     "Graduate"
+    ],
     "clauses": [
      {
-      "text": "9 Educational Qualification :",
-      "page": 2
+      "text": "ELIGIBILITY CRITERIA AND OTHER TERMS & CONDITIONS All the eligibility criteria (Qualification, Age, Experience etc.) for this post shall be computed as on 01.12.2023 (inclusive)",
+      "page": 1
+     },
+     {
+      "text": "Mere fulfilling minimum qualification and experience will not vest any right in candidate for being called for interview",
+      "page": 3
+     },
+     {
+      "text": "All candidates will have to produce, if called for interview, originals as well as attested photocopies of documents in support of their eligibility such as age, educational qualification, experience or any other required certificate, failing which their candidature will be cancelled",
+      "page": 5
+     },
+     {
+      "text": "Candidates who do not satisfy the eligibility criteria and who do not produce (for any reason) the originals as well as attested photocopies of all documents required to be submitted as advised in this notification and Interview call letter, whomsoever, shall not be permitted to attend the…",
+      "page": 6
      }
     ]
    },
    "source": {
-    "notice": "0c62e35ef027b83a44f99ebd15dedd8473f71ca6cdf98df96f18961830bc6484",
-    "url": "https://www.iob.bank.in/documents/d/guest/iob-recruitment-of-office-assistant-rseti-trichy-2025-26-application-form",
-    "title": "Application Form - (View)",
-    "kind": "notice"
+    "notice": "104607f35ecb97ea3bdd335ece13ecbaa1add413ec204d608113b6dd6b31ade0",
+    "url": "https://www.iob.bank.in/documents/d/guest/iobrecruitment_of_internal_ombudsman_contract_basis_29122023",
+    "title": "Advertisement - (View)",
+    "kind": "advertisement"
    },
-   "carried_from": "0"
+   "carried_from": "2023"
+  },
+  "selection": {
+   "value": [
+    "Interview"
+   ],
+   "source": {
+    "notice": "104607f35ecb97ea3bdd335ece13ecbaa1add413ec204d608113b6dd6b31ade0",
+    "url": "https://www.iob.bank.in/documents/d/guest/iobrecruitment_of_internal_ombudsman_contract_basis_29122023",
+    "title": "Advertisement - (View)",
+    "kind": "advertisement"
+   },
+   "carried_from": "2023"
   }
  },
  "gaps": [
@@ -62,8 +89,7 @@
   "apply",
   "fee",
   "age",
-  "pay",
-  "selection"
+  "pay"
  ],
- "older_documents": 1
+ "older_documents": 2
 }
