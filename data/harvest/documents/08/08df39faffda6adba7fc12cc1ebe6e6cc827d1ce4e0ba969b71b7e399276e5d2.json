@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "08df39faffda6adba7fc12cc1ebe6e6cc827d1ce4e0ba969b71b7e399276e5d2",
+  "url": "https://www.sebexam.org/AdvertiseFiles/2026/202-social science (english medium)_052026.pdf",
+  "title": "TAT S SOCIAL SCIENCE ENGLISH MEDIUM",
+  "body": "gj-seb",
+  "exam": "gj-tat",
+  "feed": "gj-seb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "8ba72ef319064451d4b222698b6f321c612cc7e97a01bbd6359b59867c8e05d3",
+  "bytes": 20817576,
+  "pages": 29,
+  "chars": 56,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T19:34:07+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

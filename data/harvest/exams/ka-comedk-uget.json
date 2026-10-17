@@ -1,0 +1,101 @@
+{
+ "schema": 1,
+ "exam": "ka-comedk-uget",
+ "name": "COMEDK Undergraduate Entrance Test",
+ "body": "ka-comedk",
+ "purpose": "admission",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 302000,
+     "raw": "The upper limit of annual tuition fee as agreed between the State Government and the Association of Colleges was Rs.3,02,000/- p.a or Rs.2,15,000/- p.a whichever was opted by the respective institutions",
+     "page": 8
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 215000,
+     "raw": "The upper limit of annual tuition fee as agreed between the State Government and the Association of Colleges was Rs.3,02,000/- p.a or Rs.2,15,000/- p.a whichever was opted by the respective institutions",
+     "page": 8
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 20000,
+     "raw": "Along with the tuition fee, each institution is entitled to collect ‘Other Fees’ not exceeding Rs. 20,000 per annum which will be collected by COMEDK",
+     "page": 8
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 10000,
+     "raw": "• Colleges providing special skill lab facilities may collect Rs. 10,000/-, Rs. 15,000/- and maximum of Rs. 20,000/- per student per annum depending on the facilities provided by the institutions and as approved by the VTU • Applicable…",
+     "page": 8
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 15000,
+     "raw": "• Colleges providing special skill lab facilities may collect Rs. 10,000/-, Rs. 15,000/- and maximum of Rs. 20,000/- per student per annum depending on the facilities provided by the institutions and as approved by the VTU • Applicable…",
+     "page": 8
+    }
+   ],
+   "source": {
+    "notice": "0900f3fb493cd497696410413beb10d282fc8afaf834bd2572fd65888afd7d92",
+    "url": "https://www.comedk.org/uploads/Counselling_Process_Quick_Guide_2026_-_Version_1_0.pdf",
+    "title": "Counselling Process Quick Guide-2026",
+    "kind": "notice",
+    "page": 8
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate",
+     "Class 12"
+    ],
+    "clauses": [
+     {
+      "text": "Candidates with COMEDK UGET 2026 Rank Card, satisfying the following eligibility criteria:",
+      "page": 2
+     },
+     {
+      "text": "The General Merit candidates should have passed 12th/2nd PUC/ equivalent examination with a minimum aggregate of 45% marks (40% in respect of SC, ST and OBC candidates of Karnataka State) in Physics, Chemistry/Biotechnology/ Biology/Electronics/Computer Science and Mathematics and should have…",
+      "page": 2
+     },
+     {
+      "text": "Such candidates will be given an opportunity to upload their passed supplementary exam marks sheet to prove their eligibility before start of Round 3 c) Candidates who have registered themselves for online counselling with a non-refundable registration fee of Rs. 2,000/- d) Candidates who are…",
+      "page": 2
+     },
+     {
+      "text": "a) General Merit candidate with A&U or R&U status in R1 b) KKR candidate with R&U status c) Participated in Round 1 or Round 2 but not allotted any seat d) A Supplementary candidate of 2026 (passed supplementary exam in 2026 (Supplementary candidates have to mandatorily upload 12th std…",
+      "page": 7
+     }
+    ]
+   },
+   "source": {
+    "notice": "0900f3fb493cd497696410413beb10d282fc8afaf834bd2572fd65888afd7d92",
+    "url": "https://www.comedk.org/uploads/Counselling_Process_Quick_Guide_2026_-_Version_1_0.pdf",
+    "title": "Counselling Process Quick Guide-2026",
+    "kind": "notice"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}
