@@ -293,6 +293,13 @@ Hindi-only PDFs typed in legacy fonts such as Kruti Dev have a text layer of
 Latin gibberish, and are read as nothing. Numbers in an OCR'd table can be
 misread, which is why OCR is flagged.
 
+A text layer in a legacy Hindi font is now detected (`extract.is_legacy_hindi`: a
+page of Latin letters and font debris with almost no English words) and the
+document gets the status `legacy_font`, with a note saying which pages and that
+an English edition is needed. It is a final status, so it is not fetched again.
+Checked on the SBI PO 2026-27 advertisement (12 of 13 pages) and on 28 other
+real notices (no false positive).
+
 ## What the first full crawl found, and what was fixed
 
 The first sweep of all 409 feeds:
