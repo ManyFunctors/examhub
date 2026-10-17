@@ -2,7 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-10-17T19:57:38+05:30</updated>
+  <updated>2026-10-17T20:27:57+05:30</updated>
+  <entry>
+    <id>urn:sha256:48b8420956f7f1e834cd760881ad01319ece532b7d0d442b0ab359901336e42b</id>
+    <title>APPLY ONLINE (19.10.2026 TO 09.11.2026)</title>
+    <link href="https://recruitment.sbi.bank.in/crpd-sco-2026-27-30/apply"/>
+    <updated>2026-10-17T20:27:57+05:30</updated>
+    <category term="in-sbi-so"/>
+    <summary>in-sbi-so · other · in-sbi-so/2026</summary>
+  </entry>
   <entry>
     <id>urn:sha256:f21a3e68444e01962b58b5e808bfef03f74aa32ce18c805d8b3b5f9cec806c75</id>
     <title>4. Advertisement For the Post of "Legal Assistant" in the establishment of High Court of Chhattisgarh, Bilaspur. (ADV. NO.-05/Legal Assistant/2026)</title>
@@ -2394,13 +2402,5 @@
     <updated>2026-10-17T09:59:28+05:30</updated>
     <category term="ml-mpsc-ae"/>
     <summary>ml-mpsc-ae · schedule · ml-mpsc-ae/2025-may</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:fbaf74c4dd603a6f98b214e6c74d354e3cbc563fa6ae6f54f0d015bb9fb47838</id>
-    <title>Combined Hindi Translators Examination, 2025: Declaration of result of Paper-II for shortlisting candidates for post of Sub Inspector (Hindi Translator) in CRPF to appear for PET/PST examination</title>
-    <link href="https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/writeup_04062026.pdf"/>
-    <updated>2026-10-17T09:59:28+05:30</updated>
-    <category term="in-ssc-jht"/>
-    <summary>in-ssc-jht · result · in-ssc-jht/2025</summary>
   </entry>
 </feed>

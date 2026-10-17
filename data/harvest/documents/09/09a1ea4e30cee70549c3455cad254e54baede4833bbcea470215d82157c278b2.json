@@ -1,0 +1,158 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "09a1ea4e30cee70549c3455cad254e54baede4833bbcea470215d82157c278b2",
+  "url": "https://www.ceed.iitb.ac.in/2027/downloads/CEED2027_Brochure.pdf",
+  "title": "Information Brochure",
+  "body": "in-iitb",
+  "exam": "in-ceed",
+  "feed": "in-iitb/ceed",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "3b1777d9e3a3b3eced0b6f3ce03f1c838e9e3ddc89d13558f5525b8809b2e0e9",
+  "bytes": 1238318,
+  "pages": 39,
+  "chars": 60982,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T20:28:06+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "exam_date": {
+   "date": "2027-01-17",
+   "evidence": "1.1 Question Paper and Evaluation CEED 2027 will be conducted on Sunday, January 17, 2027 from 9:00 am - 12:00 noon",
+   "page": 5,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2026-10-31",
+   "evidence": "The normal registration fee shown above is applicable till the regular closing date of registration, i.e., October 31, 2026",
+   "page": 13,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "1.5 Eligibility Candidates must have completed a graduate degree/diploma/postgraduate degree program having a minimum duration of THREE years (after class 10+2) or must be appearing for the final examination of such a program by July 2027, or must have passed the 5-year Government Diploma in Art (G",
+    "page": 12
+   },
+   {
+    "text": "Note that the eligibility criteria for admission to various institutes may differ from the one necessary for appearing in CEED",
+    "page": 12
+   },
+   {
+    "text": "Before applying for CEED, candidates must check whether they meet the required eligibility criteria for admission to various institutes",
+    "page": 12
+   },
+   {
+    "text": "The scribe will be two to three academic years below the minimum qualification required for CEED (typically Class XII or first year of under-graduate programme)",
+    "page": 16
+   }
+  ]
+ },
+ "exam_pattern": [
+  {
+   "paper": "NAT",
+   "page": 6,
+   "questions": 8,
+   "marks": 4
+  },
+  {
+   "paper": "MSQ",
+   "page": 6,
+   "questions": 10
+  },
+  {
+   "paper": "MCQ",
+   "page": 6,
+   "questions": 26,
+   "marks": 3
+  },
+  {
+   "paper": "Total",
+   "page": 6,
+   "questions": 44
+  },
+  {
+   "paper": "Sketching",
+   "page": 6,
+   "questions": 1
+  },
+  {
+   "paper": "Creativity",
+   "page": 6,
+   "questions": 1
+  },
+  {
+   "paper": "FormSensitivity",
+   "page": 6,
+   "questions": 1
+  },
+  {
+   "paper": "VisualSensitivity",
+   "page": 6,
+   "questions": 1
+  },
+  {
+   "paper": "Problem Identification",
+   "page": 6,
+   "questions": 1
+  },
+  {
+   "paper": "Total",
+   "page": 6,
+   "questions": 5
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 5
+  },
+  "negative_marking": {
+   "value": "One-fourth of the marks assigned for each wrong answer",
+   "page": 7
+  },
+  "duration": {
+   "value": "Maximum time: 1 hour)",
+   "page": 5
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.ceed.iitb.ac.in/",
+   "https://www.iisc.ac.in/",
+   "https://dm.iisc.ac.in/dm/",
+   "https://www.iitb.ac.in/",
+   "https://www.idc.iitb.ac.in/",
+   "https://home.iitd.ac.in/",
+   "https://design.iitd.ac.in/",
+   "https://iitgn.ac.in/",
+   "https://www.iitg.ac.in/",
+   "https://www.iitg.ac.in/design",
+   "https://www.iith.ac.in/",
+   "https://www.design.iith.ac.in/"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-10-31"
+  },
+  "exam_date": "2027-01-17",
+  "education": [
+   "Postgraduate",
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12"
+  ]
+ }
+}

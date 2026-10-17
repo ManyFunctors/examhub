@@ -4,16 +4,154 @@
  "name": "Common Entrance Examination for Design",
  "body": "in-iitb",
  "purpose": "admission",
- "cycle": "2012",
- "documents": 1,
+ "cycle": "2027",
+ "documents": 2,
  "documents_in_cycle": 1,
- "fields": {},
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2027-01-17",
+    "source": {
+     "notice": "09a1ea4e30cee70549c3455cad254e54baede4833bbcea470215d82157c278b2",
+     "url": "https://www.ceed.iitb.ac.in/2027/downloads/CEED2027_Brochure.pdf",
+     "title": "Information Brochure",
+     "kind": "brochure",
+     "page": 5
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-10-31",
+    "source": {
+     "notice": "09a1ea4e30cee70549c3455cad254e54baede4833bbcea470215d82157c278b2",
+     "url": "https://www.ceed.iitb.ac.in/2027/downloads/CEED2027_Brochure.pdf",
+     "title": "Information Brochure",
+     "kind": "brochure",
+     "page": 13
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2026-10-31"
+   },
+   "source": {
+    "notice": "09a1ea4e30cee70549c3455cad254e54baede4833bbcea470215d82157c278b2",
+    "url": "https://www.ceed.iitb.ac.in/2027/downloads/CEED2027_Brochure.pdf",
+    "title": "Information Brochure",
+    "kind": "brochure",
+    "page": 13
+   }
+  },
+  "exam_date": {
+   "value": "2027-01-17",
+   "source": {
+    "notice": "09a1ea4e30cee70549c3455cad254e54baede4833bbcea470215d82157c278b2",
+    "url": "https://www.ceed.iitb.ac.in/2027/downloads/CEED2027_Brochure.pdf",
+    "title": "Information Brochure",
+    "kind": "brochure",
+    "page": 5
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Postgraduate",
+     "Graduate",
+     "Diploma / ITI",
+     "Class 12"
+    ],
+    "clauses": [
+     {
+      "text": "1.5 Eligibility Candidates must have completed a graduate degree/diploma/postgraduate degree program having a minimum duration of THREE years (after class 10+2) or must be appearing for the final examination of such a program by July 2027, or must have passed the 5-year Government Diploma in Art (G",
+      "page": 12
+     },
+     {
+      "text": "Note that the eligibility criteria for admission to various institutes may differ from the one necessary for appearing in CEED",
+      "page": 12
+     },
+     {
+      "text": "Before applying for CEED, candidates must check whether they meet the required eligibility criteria for admission to various institutes",
+      "page": 12
+     },
+     {
+      "text": "The scribe will be two to three academic years below the minimum qualification required for CEED (typically Class XII or first year of under-graduate programme)",
+      "page": 16
+     }
+    ]
+   },
+   "source": {
+    "notice": "09a1ea4e30cee70549c3455cad254e54baede4833bbcea470215d82157c278b2",
+    "url": "https://www.ceed.iitb.ac.in/2027/downloads/CEED2027_Brochure.pdf",
+    "title": "Information Brochure",
+    "kind": "brochure"
+   }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "NAT",
+     "page": 6,
+     "questions": 8,
+     "marks": 4
+    },
+    {
+     "paper": "MSQ",
+     "page": 6,
+     "questions": 10
+    },
+    {
+     "paper": "MCQ",
+     "page": 6,
+     "questions": 26,
+     "marks": 3
+    },
+    {
+     "paper": "Total",
+     "page": 6,
+     "questions": 44
+    },
+    {
+     "paper": "Sketching",
+     "page": 6,
+     "questions": 1
+    },
+    {
+     "paper": "Creativity",
+     "page": 6,
+     "questions": 1
+    },
+    {
+     "paper": "FormSensitivity",
+     "page": 6,
+     "questions": 1
+    },
+    {
+     "paper": "VisualSensitivity",
+     "page": 6,
+     "questions": 1
+    },
+    {
+     "paper": "Problem Identification",
+     "page": 6,
+     "questions": 1
+    },
+    {
+     "paper": "Total",
+     "page": 6,
+     "questions": 5
+    }
+   ],
+   "source": {
+    "notice": "09a1ea4e30cee70549c3455cad254e54baede4833bbcea470215d82157c278b2",
+    "url": "https://www.ceed.iitb.ac.in/2027/downloads/CEED2027_Brochure.pdf",
+    "title": "Information Brochure",
+    "kind": "brochure"
+   }
+  }
+ },
  "gaps": [
-  "apply",
-  "exam_date",
-  "fee",
-  "eligibility",
-  "exam_pattern"
+  "fee"
  ],
- "older_documents": 0
+ "older_documents": 1
 }
