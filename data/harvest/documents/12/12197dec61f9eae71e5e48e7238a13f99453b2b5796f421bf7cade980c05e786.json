@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "12197dec61f9eae71e5e48e7238a13f99453b2b5796f421bf7cade980c05e786",
+  "url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/miscnotifications/Detailed advertisment for Engagement of LCRA with Link.pdf",
+  "title": "Inviting online applications for engagement as Law Clerk-cum- Research Associates on short-term contractual assignment in the Supreme Court of India during Assignment Term - 2025-2026",
+  "body": "gj-hc",
+  "exam": "gj-hc-staff",
+  "feed": "gj-hc/misc-notifications",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "279156dbd6b99270c781daf5c09b7119c9f917a3618a2bd1e600dcf1761442a3",
+  "bytes": 345160,
+  "pages": 5,
+  "chars": 8327,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T03:05:38+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "exam_date": {
+   "date": "2025-03-09",
+   "evidence": "Written Examination in connection with engagement as Law Clerk-cum- Research Associate to be held on 09.03.2025",
+   "page": 2,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2025-01-14",
+   "evidence": "The application will be accepted through online registration only which is to start from 14.01.2025",
+   "page": 3,
+   "from": "text"
+  }
+ },
+ "age": {
+  "limits": [
+   {
+    "max": 20,
+    "evidence": "The candidate must not be below the age of 20 years and above 32 years as",
+    "page": 2
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "The selection will be made subject to fulfillment of the following essential qualifications and other eligibility conditions",
+    "page": 1
+   },
+   {
+    "text": "Essential Qualifications: -",
+    "page": 1
+   },
+   {
+    "text": "(i) The candidate must be a Law Graduate (before taking up the assignment as Law Clerk) having a Bachelor Degree in Law (including Integrated Degree Course in Law) from any School/College/University/Institution established by law in India and recognized by the Bar Council of India for enrolment as…",
+    "page": 1
+   },
+   {
+    "text": "(iii) The candidate must have research and analytical skills, writing abilities, and knowledge of computers, including retrieval of desired information from various search engines/processes such as e-SCR, Manupatra, SCC Online, LexisNexis, Westlaw etc",
+    "page": 2
+   }
+  ]
+ },
+ "selection": [
+  "Written examination",
+  "Interview"
+ ],
+ "links": {
+  "other": [
+   "https://www.sci.gov.in",
+   "https://cdn3.digialm.com/EForms/configuredHtml/32912/92228/Index.html"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2025-01-14"
+  },
+  "exam_date": "2025-03-09",
+  "age": {
+   "max": 20
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Written examination → Interview"
+ }
+}

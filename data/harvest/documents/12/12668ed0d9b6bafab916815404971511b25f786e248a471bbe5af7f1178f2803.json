@@ -1,0 +1,63 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "12668ed0d9b6bafab916815404971511b25f786e248a471bbe5af7f1178f2803",
+  "url": "https://indianbank.bank.in/documents/20117/34414/FLC-Advertisement2026_05_04_09_00_12.pdf/c7571bc1-a529-83d5-0366-49a2f9159cba",
+  "title": "Application Format Advertisement",
+  "body": "in-indian-bank",
+  "exam": "in-indian-bank-recruitment",
+  "feed": "in-indian-bank/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "5d31da75dfe9d0e6da08b1e3ac835291085488534dcd6663083a73a81cffe4c0",
+  "bytes": 695191,
+  "pages": 4,
+  "chars": 8278,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T03:05:39+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "registration_deadline": {
+   "date": "2024-10-30",
+   "evidence": "IMPORTANT: LAST DATE FOR RECEIPT OF APPLICATION - 30/10/2024",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "age": {
+  "limits": [
+   {
+    "max": 68,
+    "evidence": "Statutory TDS will be deducted as payable by the paying authority 8 Engagement Period Appointment will be on contract basis for a period of 2 years extendable for another 3 years subject to maximum age of 68 years with annual performance…",
+    "page": 2
+   }
+  ]
+ },
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "No Parameters Norms 1 Age No entry Age (Exit upto 68 years) 2 Educational Qualification Retired employee of Financial Institution, RBI, NABARD, SIDBI and Commercial Banks",
+    "page": 2
+   },
+   {
+    "text": "3 Experience Should have served for Five years as Officer in Bank/Financial Institution",
+    "page": 2
+   },
+   {
+    "text": "Should have knowledge in Rural Banking/ latest Govt",
+    "page": 2
+   }
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2024-10-30"
+  },
+  "age": {
+   "max": 68
+  }
+ }
+}

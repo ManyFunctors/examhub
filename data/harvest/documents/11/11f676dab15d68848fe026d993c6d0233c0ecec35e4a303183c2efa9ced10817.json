@@ -1,0 +1,227 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "11f676dab15d68848fe026d993c6d0233c0ecec35e4a303183c2efa9ced10817",
+  "url": "https://bceceboard.bihar.gov.in/pdf_Seat/BC_AGR26_SM.pdf",
+  "title": "Seat Matrix of BCECE[CBA/MBA/MCA/MBA]-2026",
+  "body": "br-bceceb",
+  "exam": "br-bcece",
+  "feed": "br-bceceb/home",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "d7c84a7b1c82710fe547c0f381d672ab11d613f727d60f375c2d13046ce5a6f2",
+  "bytes": 191378,
+  "pages": 1,
+  "chars": 1370,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T03:05:38+05:30"
+ },
+ "kind": "notice",
+ "unmapped_classes": [
+  {
+   "label": "DQ",
+   "page": 1
+  }
+ ],
+ "vacancies": {
+  "total": 610,
+  "by_category": {
+   "Unreserved": 242,
+   "SC": 98,
+   "ST": 10,
+   "EWS": 60,
+   "br:EBC": 110,
+   "br:BC": 74
+  },
+  "rows": [
+   {
+    "label": "BAC SABOUR BHAGALPUR . . . , / AgriSc .",
+    "total": 40,
+    "by_category": {
+     "Unreserved": 16,
+     "SC": 6,
+     "ST": 1,
+     "br:EBC": 7,
+     "br:BC": 5,
+     "EWS": 4
+    },
+    "page": 1
+   },
+   {
+    "label": "MBAC AGWANPUR SAHARSA . . . . , / AgriSc .",
+    "total": 40,
+    "by_category": {
+     "Unreserved": 16,
+     "SC": 7,
+     "ST": 0,
+     "br:EBC": 7,
+     "br:BC": 5,
+     "EWS": 4
+    },
+    "page": 1
+   },
+   {
+    "label": "V K S Collegeof Agri Dumrao . . ., . , Buxar / AgriSc .",
+    "total": 40,
+    "by_category": {
+     "Unreserved": 16,
+     "SC": 6,
+     "ST": 1,
+     "br:EBC": 7,
+     "br:BC": 5,
+     "EWS": 4
+    },
+    "page": 1
+   },
+   {
+    "label": "BPS AgriCollege Purnea . . . . , / AgriSc .",
+    "total": 40,
+    "by_category": {
+     "Unreserved": 16,
+     "SC": 7,
+     "ST": 0,
+     "br:EBC": 7,
+     "br:BC": 5,
+     "EWS": 4
+    },
+    "page": 1
+   },
+   {
+    "label": "DKAC ARRABARI . . . ., , KISHANGANJ / AgriSc .",
+    "total": 40,
+    "by_category": {
+     "Unreserved": 16,
+     "SC": 6,
+     "ST": 1,
+     "br:EBC": 7,
+     "br:BC": 5,
+     "EWS": 4
+    },
+    "page": 1
+   },
+   {
+    "label": "AgricultureSc Total .",
+    "total": 200,
+    "by_category": {
+     "Unreserved": 80,
+     "SC": 32,
+     "ST": 3,
+     "br:EBC": 35,
+     "br:BC": 25,
+     "EWS": 20
+    },
+    "page": 1
+   },
+   {
+    "label": "NCOH NOORSARAINALANDA . . . . , / BSC . (Horticulture)",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 3,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "HorticultureTotal",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 3,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "COLLEGEOFFORESTRYAND ENVIRONMENTALSCIENCES , MUNGER / Forestry& Environmental sciences .",
+    "total": 25,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 5,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "Forestry&EnvironmentalScienceTotal",
+    "total": 25,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 5,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "CollegeofAgricultureBio Technology Sabour Bhagalpur , , / Bio-Tech",
+    "total": 30,
+    "by_category": {
+     "Unreserved": 12,
+     "SC": 5,
+     "ST": 0,
+     "br:EBC": 6,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 1
+   },
+   {
+    "label": "Bio-Tech",
+    "total": 30,
+    "by_category": {
+     "Unreserved": 12,
+     "SC": 5,
+     "ST": 0,
+     "br:EBC": 6,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 1
+   },
+   {
+    "label": "CollegeofAgricultural Engineering Ara Bhojpur , , / AgriEngg .",
+    "total": 30,
+    "by_category": {
+     "Unreserved": 12,
+     "SC": 5,
+     "ST": 1,
+     "br:EBC": 5,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 1
+   },
+   {
+    "label": "AgriEngg Total .",
+    "total": 30,
+    "by_category": {
+     "Unreserved": 12,
+     "SC": 5,
+     "ST": 1,
+     "br:EBC": 5,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "summary": {
+  "vacancies": 610
+ }
+}
