@@ -2324,7 +2324,7 @@ status = "active"
 [[feeds]]
 id = "in-ssc/notices-api"
 body = "in-ssc"
-url = "https://ssc.gov.in/api/general-website/portal/notice-boards?page=1&limit=40&contentType=notice-boards&key=createdAt&order=DESC&isAttachment=true&attributes=id,headline,examId,examYear,contentType,startDate,endDate,language,createdAt"
+url = "https://ssc.gov.in/api/general-website/portal/notice-boards?page=1&limit=100&contentType=notice-boards&key=createdAt&order=DESC&isAttachment=true&attributes=id,headline,examId,examYear,contentType,startDate,endDate,language,createdAt"
 adapter = "json_api"
 yields = "notices"
 items_path = "data"
@@ -2333,6 +2333,36 @@ url_template = "https://ssc.gov.in/api/attachment/{url}"
 tier = "hot"
 status = "active"
 notes = "The notice board's own JSON; the HTML page is a script-rendered shell."
+children_path = "attachments"
+
+[[feeds]]
+id = "in-ssc/notices-api-p2"
+body = "in-ssc"
+url = "https://ssc.gov.in/api/general-website/portal/notice-boards?page=2&limit=100&contentType=notice-boards&key=createdAt&order=DESC&isAttachment=true&attributes=id,headline,examId,examYear,contentType,startDate,endDate,language,createdAt"
+adapter = "json_api"
+yields = "notices"
+items_path = "data"
+fields = { title = "headline", url = "path", date = "createdAt" }
+url_template = "https://ssc.gov.in/api/attachment/{url}"
+tier = "warm"
+cadence_days = 30
+status = "active"
+notes = "Older pages of the notice board JSON (page 1 holds only the newest few); read monthly."
+children_path = "attachments"
+
+[[feeds]]
+id = "in-ssc/notices-api-p3"
+body = "in-ssc"
+url = "https://ssc.gov.in/api/general-website/portal/notice-boards?page=3&limit=100&contentType=notice-boards&key=createdAt&order=DESC&isAttachment=true&attributes=id,headline,examId,examYear,contentType,startDate,endDate,language,createdAt"
+adapter = "json_api"
+yields = "notices"
+items_path = "data"
+fields = { title = "headline", url = "path", date = "createdAt" }
+url_template = "https://ssc.gov.in/api/attachment/{url}"
+tier = "warm"
+cadence_days = 30
+status = "active"
+notes = "Older pages of the notice board JSON (page 1 holds only the newest few); read monthly."
 children_path = "attachments"
 
 [[feeds]]

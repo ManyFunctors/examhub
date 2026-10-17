@@ -32,7 +32,10 @@ def now() -> str:
 def read_jsonl(path: Path) -> list[dict]:
     if not path.exists():
         return []
-    return [json.loads(l) for l in path.read_text("utf-8").splitlines() if l.strip()]
+    # Split on "\n" only: str.splitlines() also cuts at NEL, U+2028 and friends, which turn
+    # up unescaped in a notice's title or URL (a mojibake filename) and would break its line.
+    with path.open(encoding="utf-8", newline="\n") as fh:
+        return [json.loads(l) for l in fh if l.strip()]
 
 
 def write_jsonl(path: Path, rows: Iterable[dict], key: str = "id") -> int:
