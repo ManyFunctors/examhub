@@ -920,9 +920,10 @@ short_name = "RRB"
 jurisdiction = "in"
 kind = "railway_recruitment_board"
 website = "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,7,1281"
-hosts = ["rrbcdg.gov.in", "www.rrbcdg.gov.in", "rrbapply.gov.in", "www.rrbapply.gov.in", "rrb.digialm.com"]
+hosts = ["rrb.indianrailways.gov.in", "rrbcdg.gov.in", "www.rrbcdg.gov.in", "rrbapply.gov.in", "www.rrbapply.gov.in", "rrb.digialm.com"]
 status = "active"
-notes = "21 RRBs publish the same Centralised Employment Notices (CEN); RRB Chandigarh is used as the reading copy."
+notes = "A file asked for without the session cookie of a page visit is rejected, so session_url is visited first. 21 RRBs publish the same Centralised Employment Notices (CEN); RRB Chandigarh is used as the reading copy."
+session_url = "https://rrb.indianrailways.gov.in/chennai"
 
 [[bodies]]
 id = "in-rrb-ahmedabad"
@@ -3706,6 +3707,22 @@ tier = "hot"
 status = "active"
 
 [[feeds]]
+id = "in-rrb/cen-documents"
+body = "in-rrb"
+url = "https://rrb.indianrailways.gov.in/chennai"
+adapter = "html_links"
+yields = "notices"
+include = '^\([^)]*\d{2}/\d{4}\).*\(\d{2}-\d{2}-\d{4}\)'
+keep_chrome = true
+identity = "url_title"
+tier = "hot"
+status = "active"
+notes = "The listing links to one page per CEN and kind; each page holds the PDFs (English and Hindi) in a select box."
+follow = "rrb_cen_table"
+follow_limit = 40
+follow_replace = ["cenum=", "cennum="]
+
+[[feeds]]
 id = "in-cisce/rss"
 body = "in-cisce"
 url = "https://cisce.org/feed/"
@@ -6217,7 +6234,7 @@ conducted_by = "in-rrb"
 frequency = "annual"
 qualification = "class_12"
 streams = ["railways", "clerical"]
-match = { any = ['NTPC.*(under\s*graduate|undergraduate|\bUG\b)', 'non[-\s]*technical.*under\s*graduate'] }
+match = { any = ['NTPC.*(under\s*graduate|undergraduate|\bUG\b)', 'non[-\s]*technical.*under\s*graduate', '\(0?7/2025\)|CEN[\s_-]*0?7[/_]2025'] }
 status = "active"
 
 [[exams]]
@@ -6230,7 +6247,7 @@ conducted_by = "in-rrb"
 frequency = "annual"
 qualification = "diploma"
 streams = ["railways", "technical"]
-match = { any = ['assistant\s*loco\s*pilot', '\bALP\b'] }
+match = { any = ['assistant\s*loco\s*pilot', '\bALP\b', '\(0?1/2026\)|CEN[\s_-]*0?1[/_]2026'] }
 status = "active"
 
 [[exams]]
@@ -6242,7 +6259,7 @@ conducted_by = "in-rrb"
 frequency = "annual"
 qualification = "diploma"
 streams = ["railways", "technical"]
-match = { any = ["technician"] }
+match = { any = ["technician", '\(0?2/2026\)|CEN[\s_-]*0?2[/_]2026'] }
 status = "active"
 
 [[exams]]
@@ -6255,7 +6272,7 @@ conducted_by = "in-rrb"
 frequency = "annual"
 qualification = "diploma"
 streams = ["railways", "engineering"]
-match = { any = ['junior\s*engineer', '\bJE\b', '\bDMS\b', '\bCMA\b'] }
+match = { any = ['junior\s*engineer', '\bJE\b', '\bDMS\b', '\bCMA\b', '\(0?4/2026\)|CEN[\s_-]*0?4[/_]2026'] }
 status = "active"
 
 [[exams]]
@@ -6269,7 +6286,7 @@ conducted_by = "in-rrb"
 frequency = "annual"
 qualification = "class_10"
 streams = ["railways", "multi_tasking"]
-match = { any = ["group\\s*['‘’]?\\s*D\\b", 'level[-\s]*1\b', 'level[-\s]*I\b(?!I)'] }
+match = { any = ["group\\s*['‘’]?\\s*D\\b", 'level[-\s]*1\b', 'level[-\s]*I\b(?!I)', '\(0?9/2025\)|CEN[\s_-]*0?9[/_]2025'] }
 status = "active"
 
 [[exams]]
@@ -6281,7 +6298,7 @@ conducted_by = "in-rrb"
 frequency = "irregular"
 qualification = "class_12"
 streams = ["railways", "allied_health", "nursing"]
-match = { any = ['para[-\s]*medical'] }
+match = { any = ['para[-\s]*medical', '\(0?5/2026\)|CEN[\s_-]*0?5[/_]2026'] }
 status = "active"
 
 [[exams]]

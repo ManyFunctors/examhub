@@ -20,6 +20,7 @@ import scrapy
 from scrapy import signals
 from scrapy.spidermiddlewares.httperror import HttpError
 
+from ... import catalogue as C
 from .. import harvest, ingest
 
 log = logging.getLogger(__name__)
@@ -46,6 +47,7 @@ class DocumentsSpider(scrapy.Spider):
     def __init__(self, limit: str = "40", recent_days: str = str(ingest.RECENT_DAYS),
                  notice: str = "", ocr: str = "1", **kw):
         super().__init__(**kw)
+        self.cat = C.load()
         self.limit = int(limit)
         self.recent_days = int(recent_days) or None
         self.only = set(filter(None, notice.split(",")))
@@ -72,9 +74,33 @@ class DocumentsSpider(scrapy.Spider):
         ingest.WORK_DIR.mkdir(parents=True, exist_ok=True)
         (ingest.WORK_DIR / "fetched.jsonl").unlink(missing_ok=True)
         log.info("documents: %d notice(s) to fetch", len(chosen))
+        # A body behind a session wall (RRB rejects a file asked for cold) gets one
+        # visit to its `session_url` first; the cookie that comes back is the key.
+        by_session: dict[str, list[dict]] = {}
         for n in chosen:
-            yield scrapy.Request(n["url"], callback=self.parse, errback=self.failed,
-                                 cb_kwargs={"notice": n}, dont_filter=True)
+            body = self.cat.bodies.get(n.get("body")) or {}
+            by_session.setdefault(body.get("session_url") or "", []).append(n)
+        for session_url, group in by_session.items():
+            if session_url:
+                yield scrapy.Request(session_url, callback=self._warmed, errback=self._warmed_failed,
+                                     cb_kwargs={"group": group, "session_url": session_url}, dont_filter=True)
+            else:
+                for n in group:
+                    yield self._fetch(n)
+
+    def _fetch(self, n: dict, referer: str | None = None):
+        return scrapy.Request(n["url"], callback=self.parse, errback=self.failed, cb_kwargs={"notice": n},
+                              headers={"Referer": referer} if referer else None, dont_filter=True)
+
+    def _warmed(self, response, group: list[dict], session_url: str):
+        for n in group:
+            yield self._fetch(n, session_url)
+
+    def _warmed_failed(self, failure):
+        # No session: try cold, which fails the usual, recorded way
+        kw = failure.request.cb_kwargs
+        for n in kw["group"]:
+            yield self._fetch(n)
 
     def _row(self, notice: dict, status: str, **extra) -> None:
         self.rows.append({"id": notice["id"], "notice": notice, "status": status,
