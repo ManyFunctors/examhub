@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "exam": "in-ceed",
+ "name": "Common Entrance Examination for Design",
+ "body": "in-iitb",
+ "purpose": "admission",
+ "cycle": "2012",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

@@ -5,9 +5,19 @@
  "body": "gj-hc",
  "purpose": "recruitment",
  "cycle": null,
- "documents": 4,
- "documents_in_cycle": 4,
- "fields": {},
+ "documents": 5,
+ "documents_in_cycle": 5,
+ "fields": {
+  "advertisement_no": {
+   "value": "A/1201/2025",
+   "source": {
+    "notice": "070bb053784d5a2afe73f68016199990f284bb198532efd24d3b2ddb519a52b5",
+    "url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/miscnotifications/Consequential Notification - Posting of Judicial Officers (District Judge cadre) Gujarat High Court 20122025.pdf",
+    "title": "Consequential Notification - Posting of Judicial Officers (District Judge cadre) Gujarat High Court 20122025",
+    "kind": "notice"
+   }
+  }
+ },
  "gaps": [
   "vacancies",
   "apply",
