@@ -1,0 +1,38 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0b56ddd0608f099ddca1e5045eb96060d60d414686b8f2292d51af86a27bcda2",
+  "url": "https://www.iibf.org.in/documents/Brochure/2026/CONTACT_CLASS_WEBSITE_NOTICE_CAIIB_126.pdf",
+  "title": "Apply for CAIIB Contact Class in Online Mode by IIBF, PDC-NZ",
+  "body": "in-iibf",
+  "exam": "in-caiib",
+  "feed": "in-iibf/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "b55a679a901665050b9d99b58a9c4c04cf6912706c53a37fe756c02c670b8bf4",
+  "bytes": 213279,
+  "pages": 2,
+  "chars": 3440,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-17T21:56:02+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2026-02-26",
+   "evidence": "INDIAN INSTITUTE OF BANKING & FINANCE PROFESSIONAL DEVELOPMENT CENTRE, NORTHERN ZONE, NEW DELHI Date: 26.02.2026 Re: Conduct of CAIIB Virtual (Online) Contact Classes",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://iibf.esdsconnect.com/ContactClasses"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-02-26"
+ }
+}

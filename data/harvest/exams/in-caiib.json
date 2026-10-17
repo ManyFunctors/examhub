@@ -1,0 +1,40 @@
+{
+ "schema": 1,
+ "exam": "in-caiib",
+ "name": "Certified Associate of the Indian Institute of Bankers",
+ "body": "in-iibf",
+ "purpose": "certification",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2026-02-26",
+    "source": {
+     "notice": "0b56ddd0608f099ddca1e5045eb96060d60d414686b8f2292d51af86a27bcda2",
+     "url": "https://www.iibf.org.in/documents/Brochure/2026/CONTACT_CLASS_WEBSITE_NOTICE_CAIIB_126.pdf",
+     "title": "Apply for CAIIB Contact Class in Online Mode by IIBF, PDC-NZ",
+     "kind": "schedule",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2026-02-26",
+   "source": {
+    "notice": "0b56ddd0608f099ddca1e5045eb96060d60d414686b8f2292d51af86a27bcda2",
+    "url": "https://www.iibf.org.in/documents/Brochure/2026/CONTACT_CLASS_WEBSITE_NOTICE_CAIIB_126.pdf",
+    "title": "Apply for CAIIB Contact Class in Online Mode by IIBF, PDC-NZ",
+    "kind": "schedule",
+    "page": 1
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "fee",
+  "eligibility"
+ ],
+ "older_documents": 0
+}
