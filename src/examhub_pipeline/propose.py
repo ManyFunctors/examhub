@@ -331,7 +331,7 @@ def _commit_message(bundle: ReviewBundle, branch: str) -> str:
         f"Field verdicts: verified {counts['verified']}, undecided {counts['undecided']}, "
         f"disputed {counts['disputed']}, not model-checked {counts['not_validated']}.",
         "",
-        "Produced by examhub-pipeline. Human-reviewed; not published automatically.",
+        "Produced by examhub-pipeline. Merged automatically when the checks pass.",
     ]
     return "\n".join(lines) + "\n"
 

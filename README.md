@@ -24,7 +24,7 @@ ExamHub tracks recruitment, admission and eligibility exams: central and state, 
 - **Official sources only.** Every value comes from a notice published by the body that runs the exam, and every page links back to it.
 - **Nothing is guessed.** A fact the notice doesn't give is marked as not announced or unknown, never filled in. A day is never invented from a month, and an estimate is never stored as fact.
 - **Every value cites its source.** Each fact keeps the document and page it came from, and documents are saved to the Wayback Machine in case the body takes them down.
-- **Fully automatic.** GitHub Actions crawls, checks and fixes the records every day. Changes to exam pages arrive as pull requests that a person reviews.
+- **Fully automatic.** GitHub Actions crawls, checks and fixes the records every day. Changes to exam pages arrive as pull requests that merge themselves once the tests, catalogue lint and site build pass; a failing one stays open for a person.
 - **Free to run.** Only free tools and services: no paid APIs and no accounts beyond GitHub.
 
 ---
@@ -65,7 +65,7 @@ All run on GitHub Actions, unattended.
 | `site.yml` | on a push to `site/`, and daily at 00:01 IST | builds the site and publishes it |
 | `pr.yml` | on every pull request | tests, lint, and a schema check of every exam page |
 
-Observations (notices, link checks, archive records) live on the `harvest` branch, so `main` only changes through reviewed pull requests.
+Observations (notices, link checks, archive records) live on the `harvest` branch, so `main` only changes through pull requests (merged automatically when the checks pass).
 
 ---
 

@@ -29,6 +29,7 @@ jobs:
     permissions:
       contents: write        # push the pipeline/* branch
       pull-requests: write   # open the pull request
+      actions: write         # start the site build after a merge
     steps:
       - uses: actions/checkout@v7
         with:
@@ -98,7 +99,30 @@ jobs:
           retention-days: 7
           if-no-files-found: ignore
 
+      - name: Install Hugo
+        if: steps.pick.outputs.sources != '' && steps.review.outputs.exit_code == '0'
+        run: |
+          curl -sSLo hugo.deb "https://github.com/gohugoio/hugo/releases/download/v0.166.0/hugo_extended_0.166.0_linux-amd64.deb"
+          sudo dpkg -i hugo.deb
+
+      - name: Gate the change before it is published
+        # A GITHUB_TOKEN pull request triggers no checks, so they run here.
+        if: steps.pick.outputs.sources != '' && steps.review.outputs.exit_code == '0'
+        id: gate
+        run: |
+          set +e
+          ok=true
+          uv pip install -q -e '.[dev]'
+          uv run pytest -q -m "not model" || ok=false
+          uv run python -m examhub_pipeline catalogue lint || ok=false
+          (cd site && TZ=Asia/Kolkata hugo --gc --minify --baseURL "/" && node tools/check-home.mjs public) || ok=false
+          rm -rf site/public site/resources
+          echo "ok=$ok" >> "$GITHUB_OUTPUT"
+          [ "$ok" = true ] || echo "::warning::the gate failed; the pull request stays open for a person"
+          exit 0
+
       - name: Open a pull request
+        id: pr
         if: steps.pick.outputs.sources != '' && steps.review.outputs.exit_code == '0'
         uses: peter-evans/create-pull-request@v8
         with:
@@ -110,20 +134,26 @@ jobs:
           commit-message: |
             pipeline: re-check an exam with a date due within a day
 
-            Produced by examhub-pipeline's hourly check. Human-reviewed; not
-            published automatically.
+            Produced by examhub-pipeline's hourly check. Merged automatically
+            when the gate passes.
           body: |
             Automated same-day re-check: one of these sources has an exam
             with a key date (an application closing, an exam date, a result)
-            within the next day. **Do not merge without reading the diff.**
-
-            - [ ] The diff is read against the source document, not just
-                  skimmed.
-            - [ ] `provenance.last_checked` moved, and the record's
-                  `provenance.source_url` is still the right document.
+            within the next day. It merges itself when the tests, catalogue lint and
+            site build pass; if it is still open, the gate failed (see the
+            run), so read the diff before merging.
 
             Full bundle: the `review-bundle-hourly` artifact from this run.
           labels: |
             automated
-            needs-review
             urgent
+
+      - name: Merge it and publish the site
+        # A merge made with GITHUB_TOKEN starts no push workflow, so the site
+        # build is started by hand.
+        if: steps.gate.outputs.ok == 'true' && steps.pr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr merge "${{ steps.pr.outputs.pull-request-number }}" --squash --delete-branch
+          gh workflow run site.yml --ref main
