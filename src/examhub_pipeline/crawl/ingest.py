@@ -32,6 +32,7 @@ from urllib.parse import urlsplit
 
 from .. import documents
 from ..config import Settings
+from ..extract import LEGACY_FONT_NOTE
 from . import harvest
 
 WORK_DIR = harvest.PROJECT_ROOT / "work" / "documents"
@@ -205,9 +206,12 @@ def index_line(record: dict) -> dict:
     # A scan read with OCR switched off has no text: say so, so a run with
     # OCR picks it up, instead of storing an empty record as done.
     needs_ocr = any("OCR is disabled" in w or "no OCR path" in w for w in record.get("warnings", []))
+    # Hindi in a legacy font reads as Latin gibberish and OCR would not help the
+    # English-label readers: a final status, so it is not fetched again.
+    legacy = any(w.startswith(LEGACY_FONT_NOTE) for w in record.get("warnings", []))
     return {
         "id": notice["id"],
-        "status": "needs_ocr" if needs_ocr else "ok",
+        "status": "needs_ocr" if needs_ocr else "legacy_font" if legacy else "ok",
         "schema": record["schema"],
         "body": notice.get("body"),
         "exam": notice.get("exam"),

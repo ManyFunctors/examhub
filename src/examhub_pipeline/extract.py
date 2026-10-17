@@ -378,6 +378,35 @@ def ocr_pdf(content: bytes, settings: Settings, *, max_pages: int | None = None)
     return pages, engine, warnings
 
 
+#: Words that any English notice is full of. A page of Latin letters with none of
+#: them is not English: it is Hindi typed in a legacy font (Kruti Dev, Chanakya),
+#: whose text layer is Latin gibberish like "Eg~rAmB© Zo BH$moZm°{_Šg".
+_ENGLISH_WORDS = frozenset(
+    "the of and for to in is be are by on or as with from at this that candidates candidate shall will".split()
+)
+_DEVANAGARI = re.compile(r"[\u0900-\u097F]")
+_FONT_DEBRIS = re.compile(r"[A-Za-z][$©°{}~>][A-Za-z]|\$[a-zA-Z]")
+
+
+LEGACY_FONT_NOTE = "text layer is Hindi in a legacy font and unreadable"
+
+
+def is_legacy_hindi(page: str) -> bool:
+    """Whether a page's text layer is Hindi in a legacy font, so unreadable as it stands."""
+    if len(page) < 300 or len(_DEVANAGARI.findall(page)) > 0.05 * len(page):
+        return False
+    words = re.findall(r"[A-Za-z]+", page)
+    if len(words) < 40:
+        return False
+    english = sum(w.lower() in _ENGLISH_WORDS for w in words)
+    return english / len(words) < 0.02 and len(_FONT_DEBRIS.findall(page)) >= 10
+
+
+def legacy_hindi_pages(pages: list[str]) -> list[int]:
+    return [i + 1 for i, page in enumerate(pages) if is_legacy_hindi(page)]
+
+
+
 def pdf_pages(
     content: bytes, settings: Settings, *, force_ocr: bool = False
 ) -> tuple[list[str], bool, str | None, list[str]]:
@@ -431,6 +460,12 @@ def pdf_pages(
             if len(ocr_pages) < len(pages):
                 pages = pages[: len(ocr_pages)]
     else:
+        legacy = legacy_hindi_pages(pages)
+        if legacy and len(legacy) >= max(1, len([p for p in pages if len(p) >= 300]) // 2):
+            warnings.append(
+                f"{LEGACY_FONT_NOTE}: {len(legacy)} of {len(pages)} pages (from page {legacy[0]}); "
+                "an English edition of the notice is needed to read it"
+            )
         pages = [_clean_text(p) for p in pages]
 
     return pages, is_scan, engine, warnings
