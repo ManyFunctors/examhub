@@ -5,7 +5,7 @@
  "body": "in-iob",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 7,
+ "documents": 8,
  "documents_in_cycle": 2,
  "fields": {
   "vacancies": {
@@ -188,6 +188,50 @@
     "title": "(View)",
     "kind": "schedule"
    }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "Manager - Software Engineer - Mobile Apps (MMG II) -",
+     "page": 17,
+     "duration": "Post qualification experience of 04 yearsin- Highproficiencyindevelopmentusing Flutter"
+    },
+    {
+     "paper": "English Language",
+     "page": 34,
+     "questions": 25,
+     "marks": 25,
+     "duration": "30 minutes"
+    },
+    {
+     "paper": "General Awareness with Special reference to Banking Industry",
+     "page": 34,
+     "questions": 25,
+     "marks": 25,
+     "duration": "30 minutes"
+    },
+    {
+     "paper": "Professional Knowledge",
+     "page": 34,
+     "questions": 50,
+     "marks": 50,
+     "duration": "60 minutes"
+    },
+    {
+     "paper": "Total",
+     "page": 34,
+     "questions": 100,
+     "marks": 100,
+     "duration": "2 hours"
+    }
+   ],
+   "source": {
+    "notice": "1fe5246c18fda69f1879701af6f92bb260a0513673368f234f11102a334a1b5c",
+    "url": "https://www.iob.bank.in/documents/d/guest/ioblateral-recruitement-specialist-officers-11092025",
+    "title": "Advertisement - (View)",
+    "kind": "advertisement"
+   },
+   "carried_from": "2025"
   }
  },
  "gaps": [
@@ -195,5 +239,5 @@
   "age",
   "pay"
  ],
- "older_documents": 5
+ "older_documents": 6
 }
