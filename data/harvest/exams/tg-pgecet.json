@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "exam": "tg-pgecet",
+ "name": "Telangana Post Graduate Engineering CET",
+ "body": "tg-tgche",
+ "purpose": "admission",
+ "cycle": "2025",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "admit_card_from": {
+    "date": "2025-12-04",
+    "source": {
+     "notice": "2315f6d7c747b9cb41d4abe4aa2d8a89a351c0e4d9b0fd2d727b0e633e137474",
+     "url": "https://tgche.ac.in/wp-content/uploads/2025/11/Extension-of-M.Pharmacy-Pharm.D.-PB_Category-B-submission_2025.pdf",
+     "title": "TGPGECET 2025 Extension for submission of Admissions lists under category ‘B’ for the Academic year 2025-26",
+     "kind": "corrigendum",
+     "page": 1
+    }
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}
