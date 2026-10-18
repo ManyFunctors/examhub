@@ -1,0 +1,32 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "176b9cb08f07ef7b6c997eee8d6c8ab7c0f7b371aa7338373f37a5ad44ee9d2a",
+  "url": "https://www.nestexam.in/qnsans/NEST-17.pdf",
+  "title": "2017",
+  "body": "in-niser",
+  "exam": "in-nest",
+  "feed": "in-niser/nest",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "60fb364a4bcb3a1a97bb5e8b34647ec42cfc408c5ec171fdd940e66e5491497c",
+  "bytes": 433044,
+  "pages": 29,
+  "chars": 40419,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T10:45:42+05:30"
+ },
+ "kind": "admit_card",
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 1
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 18
+  }
+ }
+}

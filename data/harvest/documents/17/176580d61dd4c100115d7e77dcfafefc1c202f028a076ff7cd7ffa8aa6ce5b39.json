@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "176580d61dd4c100115d7e77dcfafefc1c202f028a076ff7cd7ffa8aa6ce5b39",
+  "url": "https://www.sebexam.org/AdvertiseFiles/2026/201-science & technology-maths (english medium)_052026.pdf",
+  "title": "TAT S SCIENCE & TECHNOLOGY-MATHS ENGLISH MEDIUM",
+  "body": "gj-seb",
+  "exam": "gj-tat",
+  "feed": "gj-seb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "6b9d51a77c17134123040915b91201e6624210326e89c80ee361e11215cea618",
+  "bytes": 20366979,
+  "pages": 29,
+  "chars": 56,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T10:45:47+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
