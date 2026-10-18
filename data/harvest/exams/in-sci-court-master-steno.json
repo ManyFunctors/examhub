@@ -4,25 +4,29 @@
  "name": "Supreme Court Court Master / Senior Personal Assistant / Personal Assistant",
  "body": "in-sci",
  "purpose": "recruitment",
- "cycle": null,
- "documents": 1,
+ "cycle": "2025",
+ "documents": 2,
  "documents_in_cycle": 1,
  "fields": {
-  "age": {
-   "value": {
-    "limits": [
-     {
-      "max": 56,
-      "evidence": "Age Requirement The candidates should not be exceeding 56 years as on the closing date of receipt of applications",
-      "page": 1
-     }
-    ]
-   },
+  "dates": {
+   "exam_date": {
+    "date": "2025-05-01",
+    "source": {
+     "notice": "1ea033d33dbc4fe5b19109ebfa551dc9223994dbbbb0fcecea00e2e7e3acff0f",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2025/04/2025041551.pdf",
+     "title": "Conduct of Shorthand (English) and Written Examination for the posts of Senior Personal Assistant and Personal Assistant regarding",
+     "kind": "schedule",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2025-05-01",
    "source": {
-    "notice": "14de5d3be1697ce6867b33b3b94ddd37309095b2792da0a00aa4ea12fb1c0563",
-    "url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2024/06/2024061891.pdf",
-    "title": "Vacancy circular for the post of Court Master (Shorthand) on deputation basis",
-    "kind": "advertisement",
+    "notice": "1ea033d33dbc4fe5b19109ebfa551dc9223994dbbbb0fcecea00e2e7e3acff0f",
+    "url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2025/04/2025041551.pdf",
+    "title": "Conduct of Shorthand (English) and Written Examination for the posts of Senior Personal Assistant and Personal Assistant regarding",
+    "kind": "schedule",
     "page": 1
    }
   },
@@ -47,7 +51,8 @@
     "url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2024/06/2024061891.pdf",
     "title": "Vacancy circular for the post of Court Master (Shorthand) on deputation basis",
     "kind": "advertisement"
-   }
+   },
+   "carried_from": "0"
   },
   "selection": {
    "value": [
@@ -58,7 +63,8 @@
     "url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2024/06/2024061891.pdf",
     "title": "Vacancy circular for the post of Court Master (Shorthand) on deputation basis",
     "kind": "advertisement"
-   }
+   },
+   "carried_from": "0"
   },
   "pay": {
    "value": [
@@ -75,14 +81,15 @@
     "url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2024/06/2024061891.pdf",
     "title": "Vacancy circular for the post of Court Master (Shorthand) on deputation basis",
     "kind": "advertisement"
-   }
+   },
+   "carried_from": "0"
   }
  },
  "gaps": [
   "vacancies",
   "apply",
-  "exam_date",
-  "fee"
+  "fee",
+  "age"
  ],
- "older_documents": 0
+ "older_documents": 1
 }
