@@ -1,0 +1,54 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1cc940fe3825419b84ef16a305536db05016d305ec690cb22d5eafba4865d447",
+  "url": "https://jkhighcourt.nic.in/upload/recruitment/Applications for filling up of the posts of Court Master.pdf",
+  "title": "Notification regarding Inviting applications for filing up of the post of Crnnit Master (Shorthand) in Level—li (Rs. 67700 — Rs. 20870Q on deputation basis in Supreme Court— reg.",
+  "body": "jk-hc",
+  "exam": "jk-hc-staff",
+  "feed": "jk-hc/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "be049c142e3eb4bb6e5841dd60b3fd17359bffaa79d5a3da4b28f4128ed9a296",
+  "bytes": 136974,
+  "pages": 6,
+  "chars": 5627,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T18:44:41+05:30"
+ },
+ "kind": "notice",
+ "pay": [
+  {
+   "levels": [
+    11
+   ],
+   "initial": 67700,
+   "text": "Pay Level 11, initial basic ₹67,700",
+   "evidence": "/ 2\\ \\, / from eligible candidates working under various High Courts for selection V / _J / '\\ p \\ and appointment of suitable candidates for the post of Court Master (Shorthand) on deputation basis placed in Level 11 of Pay Matrix with initial Basic Pay of Rs. 67,700/- plus allowances as…",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "a) A Degree in Law [including BGL/LL.B (Academic)] of a recognized University in India b) Proficiency in Shorthand with a speed of 120 w.p.m in Shorthand (English) c) Knowledge of Computer Operation with a typing speed of 40 w.p.m on Computer d) I-folding analogous posts in High Court on regular…",
+    "page": 3
+   },
+   {
+    "text": "Educational qualifications",
+    "page": 5
+   }
+  ]
+ },
+ "summary": {
+  "pay": "Pay Level 11, initial basic ₹67,700",
+  "education": [
+   "Graduate"
+  ]
+ }
+}
