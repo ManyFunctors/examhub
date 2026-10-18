@@ -5,29 +5,31 @@
  "body": "in-ntpc-green",
  "purpose": "recruitment",
  "cycle": "2025",
- "documents": 3,
- "documents_in_cycle": 1,
+ "documents": 4,
+ "documents_in_cycle": 2,
  "fields": {
   "dates": {
    "age_as_on": {
     "date": "2025-08-22",
     "source": {
-     "notice": "180855952c9a5ebceb0d3d1f0058e647f456e4a62f6039529c8fb16187ceae0f",
-     "url": "https://ngel.in/public/career/1/a7b5a408b8/a7b5a408b8.pdf",
+     "notice": "1911a335066c6cab669977d52e93b6dc406da4e2d3168b95cdb7ae1494b33d06",
+     "url": "https://ngel.in/public/career/1/4cc8bd7e5e/522fa1b4c1.pdf",
      "title": "Advertisement Application Form",
      "kind": "advertisement",
      "page": 1
-    }
+    },
+    "alternatives": 1
    },
    "registration_deadline": {
     "date": "2025-08-22",
     "source": {
-     "notice": "180855952c9a5ebceb0d3d1f0058e647f456e4a62f6039529c8fb16187ceae0f",
-     "url": "https://ngel.in/public/career/1/a7b5a408b8/a7b5a408b8.pdf",
+     "notice": "1911a335066c6cab669977d52e93b6dc406da4e2d3168b95cdb7ae1494b33d06",
+     "url": "https://ngel.in/public/career/1/4cc8bd7e5e/522fa1b4c1.pdf",
      "title": "Advertisement Application Form",
      "kind": "advertisement",
      "page": 1
-    }
+    },
+    "alternatives": 1
    }
   },
   "apply": {
@@ -36,8 +38,8 @@
     "until": "2025-08-22"
    },
    "source": {
-    "notice": "180855952c9a5ebceb0d3d1f0058e647f456e4a62f6039529c8fb16187ceae0f",
-    "url": "https://ngel.in/public/career/1/a7b5a408b8/a7b5a408b8.pdf",
+    "notice": "1911a335066c6cab669977d52e93b6dc406da4e2d3168b95cdb7ae1494b33d06",
+    "url": "https://ngel.in/public/career/1/4cc8bd7e5e/522fa1b4c1.pdf",
     "title": "Advertisement Application Form",
     "kind": "advertisement",
     "page": 1
@@ -46,34 +48,30 @@
   "eligibility": {
    "value": {
     "education_levels": [
-     "Graduate",
-     "Diploma / ITI"
+     "Graduate"
     ],
     "clauses": [
      {
-      "text": "Diploma/bachelor’s degree in engineering or equivalent from a recognized University/Institute",
+      "text": "Bachelor’s degree in Civil engineering or equivalent from a recognized University/Institute",
       "page": 1
      },
      {
-      "text": "The candidate should have superannuated at a pay scale of E6-E7 level equivalent of NTPC Ltd. from Public Sector Undertakings or Autonomous Organizations of Central/ State Governments",
+      "text": "The candidate should have retired at pay scale of E7 or above level equivalent of NTPC Ltd. from Public Sector Undertakings or Autonomous Organizations of Central/ State Governments or private company of repute",
       "page": 1
      },
      {
-      "text": "Candidates must have more than 20 years of Cumulative experience in relevant field i.e., Power Sector, Renewable Energy Projects related activities and be conversant with the Execution, Commissioning and O&M of utility scale Solar/Wind Projects",
-      "page": 1
-     },
-     {
-      "text": "The candidate should have work experience in SAP and e- office system and knowledge of Microsoft Word, Power Point, Excel etc",
+      "text": "The candidate should have work experience in SAP and e-office system and knowledge of Microsoft Word, Power Point, Excel etc Other Criteria: At least 01 outstanding rating in last three years excluding in year of superannuation",
       "page": 1
      }
     ]
    },
    "source": {
-    "notice": "180855952c9a5ebceb0d3d1f0058e647f456e4a62f6039529c8fb16187ceae0f",
-    "url": "https://ngel.in/public/career/1/a7b5a408b8/a7b5a408b8.pdf",
+    "notice": "1911a335066c6cab669977d52e93b6dc406da4e2d3168b95cdb7ae1494b33d06",
+    "url": "https://ngel.in/public/career/1/4cc8bd7e5e/522fa1b4c1.pdf",
     "title": "Advertisement Application Form",
     "kind": "advertisement"
-   }
+   },
+   "alternatives": 1
   }
  },
  "gaps": [
