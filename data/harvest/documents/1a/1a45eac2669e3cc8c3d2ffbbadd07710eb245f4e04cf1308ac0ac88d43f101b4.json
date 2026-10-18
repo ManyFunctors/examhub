@@ -1,0 +1,108 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1a45eac2669e3cc8c3d2ffbbadd07710eb245f4e04cf1308ac0ac88d43f101b4",
+  "url": "https://indianbank.bank.in/documents/20117/34414/Detailed-Advertisement-for-engagement-of-Chief-Digital-Officer2026_05_04_16_10_06.pdf/57803dfa-1045-d8a4-66ee-11d107134351",
+  "title": "Detailed Advertisement",
+  "body": "in-indian-bank",
+  "exam": "in-indian-bank-recruitment",
+  "feed": "in-indian-bank/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "98fc585313cf4ba6a39a1ea4adfb052d4da8b3ac71699d1bef2a80edbfc4227a",
+  "bytes": 556424,
+  "pages": 6,
+  "chars": 11970,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T14:35:31+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "age_as_on": {
+   "date": "2022-07-01",
+   "evidence": "Age Minimum Age - 35 years and Maximum Age 55 years as on 01.07.2022 Mandatory Qualification B.E./ B.Tech and MBA from a reputed institution Desirable Qualification Certifications in Product Management/Project Management/ Analytics / AI/ ML",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2022-11-25",
+   "evidence": "All eligible and interested candidates should apply in the prescribed application format to reach the address cited above on or before 25.11.2022",
+   "page": 4,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Age",
+   "date": "2022-07-01",
+   "page": 1
+  }
+ ],
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 1000,
+   "raw": "ApplicationFees Rs 1000/ - as application fee (Inclusive of taxes) .",
+   "page": 4
+  }
+ ],
+ "age": {
+  "limits": [
+   {
+    "min": 35,
+    "max": 55,
+    "evidence": "Age Minimum Age – 35 years and Maximum Age 55 years as on 01.07.2022 Mandatory Qualification B.E./ B.Tech and MBA from a reputed institution Desirable Qualification Certifications in Product Management/Project Management/ Analytics / AI/…",
+    "page": 1
+   }
+  ],
+  "as_on": "2022-07-01"
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": " The Bank reserves the right to reject any application not suiting the Bank’s requirements without assigning any reason whatsoever and call only the requisite number of candidates out of those who fulfill the eligibility criteria as may be required for the post",
+    "page": 2
+   },
+   {
+    "text": "The Bank reserves the right to alter, modify or change the eligibility criteria and / or any of the other terms and conditions spelt out in this notice, including criteria for qualifying/method and procedure for selection",
+    "page": 5
+   },
+   {
+    "text": "Only those candidates who fulfil the eligibility criteria will be called for interview and intimated by email",
+    "page": 5
+   },
+   {
+    "text": "Candidates will have to produce original certificates for educational qualifications, experience, age, category etc. at the time of interview, in support of his/her eligibility, as per the details furnished in the application, failing which the candidate will not be allowed for interview and their…",
+    "page": 5
+   }
+  ]
+ },
+ "selection": [
+  "Interview",
+  "Group discussion"
+ ],
+ "summary": {
+  "apply": {
+   "until": "2022-11-25"
+  },
+  "fee": {
+   "min": 1000,
+   "max": 1000
+  },
+  "age": {
+   "min": 35,
+   "max": 55
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Interview → Group discussion"
+ }
+}
