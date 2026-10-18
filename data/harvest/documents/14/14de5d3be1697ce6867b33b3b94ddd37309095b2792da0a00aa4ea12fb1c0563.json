@@ -1,0 +1,68 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "14de5d3be1697ce6867b33b3b94ddd37309095b2792da0a00aa4ea12fb1c0563",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2024/06/2024061891.pdf",
+  "title": "Vacancy circular for the post of Court Master (Shorthand) on deputation basis",
+  "body": "in-sci",
+  "exam": "in-sci-court-master-steno",
+  "feed": "in-sci/recruitment",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "94854333d879d738fbc247def0d6d02d30f754786e9812e85cdadd5ca0a00167",
+  "bytes": 85653,
+  "pages": 4,
+  "chars": 5285,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T07:46:42+05:30"
+ },
+ "kind": "advertisement",
+ "age": {
+  "limits": [
+   {
+    "max": 56,
+    "evidence": "Age Requirement The candidates should not be exceeding 56 years as on the closing date of receipt of applications",
+    "page": 1
+   }
+  ]
+ },
+ "pay": [
+  {
+   "low": 67700,
+   "high": 208700,
+   "text": "₹67,700–208,700",
+   "evidence": "Inviting applications for filing up of the post of Court Master (Shorthand) in Level–11 (Rs. 67700 – Rs. 208700) on deputation basis in Supreme Court– reg",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "a) A Degree in Law [including BGL/LL.B (Academic)] of a recognized University in India b) Proficiency in Shorthand with a speed of 120 w.p.m in Shorthand (English) c) Knowledge of Computer Operation with a typing speed of 40 w.p.m on Computer d) Holding analogous posts in High Court on regular…",
+    "page": 1
+   },
+   {
+    "text": "Educational qualifications",
+    "page": 3
+   }
+  ]
+ },
+ "selection": [
+  "Skill / trade test"
+ ],
+ "summary": {
+  "age": {
+   "max": 56
+  },
+  "pay": "₹67,700–208,700",
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Skill / trade test"
+ }
+}
