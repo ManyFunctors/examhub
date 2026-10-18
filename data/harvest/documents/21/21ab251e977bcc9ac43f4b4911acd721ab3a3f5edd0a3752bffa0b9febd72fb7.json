@@ -1,0 +1,175 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "21ab251e977bcc9ac43f4b4911acd721ab3a3f5edd0a3752bffa0b9febd72fb7",
+  "url": "https://indianbank.bank.in/documents/20117/34414/Detailed-advertisment-for-recruitment-of-Sportspersons-20232026_05_04_15_14_49.pdf/64619e68-abde-6f7d-d8e6-a025f15e0daf",
+  "title": "Detailed advertisment for recruitment of Sportspersons 2023",
+  "body": "in-indian-bank",
+  "exam": "in-indian-bank-recruitment",
+  "feed": "in-indian-bank/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "f95e7b9cee8935b3db922d09a3bf336f6b84c61b4564aa583c4d77c1627e34ae",
+  "bytes": 758774,
+  "pages": 13,
+  "chars": 27110,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T23:48:00+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "registration_deadline": {
+   "date": "2023-09-05",
+   "evidence": "Candidates can apply through online only from 22.08.2023 to 05.09.2023 No other mode of application will be accepted",
+   "page": 8,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2023-08-22",
+   "evidence": "Candidates can apply through online only from 22.08.2023 to 05.09.2023 No other mode of application will be accepted",
+   "page": 8,
+   "from": "text"
+  }
+ },
+ "unmapped_classes": [
+  {
+   "label": "SNo . .",
+   "page": 2
+  }
+ ],
+ "vacancies": {
+  "total": 11,
+  "from": "table"
+ },
+ "age": {
+  "limits": [
+   {
+    "min": 18,
+    "max": 26,
+    "evidence": "Cadre Age Educational Qualification Sports Qualification Officer JMG Scale-I 18 to 26 years Pass in XII Standard examination or equivalent as the case may be  Should have represented the country  For cricket “Should have represented the…",
+    "page": 1
+   },
+   {
+    "min": 18,
+    "max": 20,
+    "evidence": "1.1 Age (a) 18-20 years 10 15 (b) 21-24 years 8 12 (c) 25-26 years 6 9 (d) Above 26 years 1 1",
+    "page": 3
+   }
+  ],
+  "relaxations": [
+   {
+    "for": "ScheduledCaste/ScheduledTribe",
+    "years": 5,
+    "raw": "1 ScheduledCaste/ScheduledTribe 5years",
+    "page": 2
+   },
+   {
+    "categories": [
+     "OBC-NCL"
+    ],
+    "for": "Other Backward Classes (Non-creamy layer)",
+    "years": 3,
+    "raw": "2 Other Backward Classes (Non-creamy layer) 3years",
+    "page": 2
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Discipline Vacancies 1 Basket Ball 3 (Male) 2 Cricket 2 (Male) 3 Hockey 4 (Male) 4 Volley Ball (Setter, Attacker or Blocker) 2 (Male) Total 11 Before applying, Candidates should ensure that they fulfill the eligibility criteria for the post",
+    "page": 1
+   },
+   {
+    "text": "Age, Educational Qualification and Sports Qualification - As on 01/07/2023",
+    "page": 1
+   },
+   {
+    "text": "Cadre Age Educational Qualification Sports Qualification Officer JMG Scale-I 18 to 26 years Pass in XII Standard examination or equivalent as the case may be  Should have represented the country  For cricket “Should have represented the country or should have played Ranji Trophy or Duleep Trophy”",
+    "page": 1
+   },
+   {
+    "text": "Clerks 18 to 26 years Pass in XII Standard examination or equivalent as the case may be  Should have represented the State in junior / senior Nationals / National games or  Should have been a member of the Combined Universities Team or  Should have been a member of the University team in an…",
+    "page": 2
+   },
+   {
+    "text": "All the educational qualifications should be from Government recognized school / institution",
+    "page": 2
+   },
+   {
+    "text": "(Based on eligibility criteria, age, sports performance and achievements)",
+    "page": 3
+   },
+   {
+    "text": "Candidates should have a valid Email-Id and mobile number which should be kept active till the declaration of final result",
+    "page": 6
+   },
+   {
+    "text": "If at any stage, it is found that any information furnished in the application is false/ incorrect or if according to the Bank, the candidate does not satisfy the eligibility criteria, his candidature/ appointment will be cancelled/ terminated",
+    "page": 6
+   },
+   {
+    "text": "All educational qualifications should have been obtained from universities/ institutions recognized by Government of India",
+    "page": 6
+   },
+   {
+    "text": " Mark sheets & certificates for educational qualifications",
+    "page": 7
+   },
+   {
+    "text": "Only those candidates who agree to the terms and conditions stipulated by the Bank and fulfil the eligibility criteria need apply",
+    "page": 11
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "(a) Physicalfitness",
+   "page": 4,
+   "marks": 5
+  },
+  {
+   "paper": "(b) Speedendurance",
+   "page": 4,
+   "marks": 5
+  },
+  {
+   "paper": "(c) GameSkill",
+   "page": 4,
+   "marks": 20
+  },
+  {
+   "paper": "Total(MaximumMarks)",
+   "page": 4
+  }
+ ],
+ "links": {
+  "other": [
+   "http://www.indianbank.in/",
+   "https://www.indianbank.in"
+  ]
+ },
+ "summary": {
+  "vacancies": 11,
+  "apply": {
+   "from": "2023-08-22",
+   "until": "2023-09-05"
+  },
+  "age": {
+   "min": 18,
+   "max": 26
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Interview"
+ }
+}

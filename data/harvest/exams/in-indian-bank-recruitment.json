@@ -5,7 +5,7 @@
  "body": "in-indian-bank",
  "purpose": "recruitment",
  "cycle": "2025",
- "documents": 18,
+ "documents": 19,
  "documents_in_cycle": 3,
  "fields": {
   "vacancies": {
@@ -99,6 +99,36 @@
     "kind": "advertisement"
    },
    "alternatives": 1
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "(a) Physicalfitness",
+     "page": 4,
+     "marks": 5
+    },
+    {
+     "paper": "(b) Speedendurance",
+     "page": 4,
+     "marks": 5
+    },
+    {
+     "paper": "(c) GameSkill",
+     "page": 4,
+     "marks": 20
+    },
+    {
+     "paper": "Total(MaximumMarks)",
+     "page": 4
+    }
+   ],
+   "source": {
+    "notice": "21ab251e977bcc9ac43f4b4911acd721ab3a3f5edd0a3752bffa0b9febd72fb7",
+    "url": "https://indianbank.bank.in/documents/20117/34414/Detailed-advertisment-for-recruitment-of-Sportspersons-20232026_05_04_15_14_49.pdf/64619e68-abde-6f7d-d8e6-a025f15e0daf",
+    "title": "Detailed advertisment for recruitment of Sportspersons 2023",
+    "kind": "advertisement"
+   },
+   "carried_from": "2023"
   }
  },
  "gaps": [
@@ -107,5 +137,5 @@
   "age",
   "pay"
  ],
- "older_documents": 15
+ "older_documents": 16
 }
