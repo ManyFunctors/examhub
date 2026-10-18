@@ -1,0 +1,79 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1c820e65e8b9f88d2118b500ea53be823cea0a37c51282756a1cb1a4855bd7db",
+  "url": "https://indianbank.bank.in/documents/20117/34414/Final_Detailed-Advertisement-on-Data-Protection-Officer-20242026_05_04_09_04_44.pdf/f66ebbe2-5f96-4a52-7952-7b532b856a3a",
+  "title": "Detailed Advertisement",
+  "body": "in-indian-bank",
+  "exam": "in-indian-bank-recruitment",
+  "feed": "in-indian-bank/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "5dd6481d9485802b6ed5b87dc7dff0eb68162ae5f2617302592e9ca477060354",
+  "bytes": 619168,
+  "pages": 6,
+  "chars": 13151,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T18:12:00+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "age_as_on": {
+   "date": "2024-09-01",
+   "evidence": "Age (as on 01.09.2024) Minimum age - 40 years & Maximum Age - 60 years (Inclusive of all relaxations)",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2024-10-14",
+   "evidence": "All eligible and interested candidates should apply in the prescribed application format to reach the address cited above on or before 14.10.2024",
+   "page": 4,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 1,
+  "evidence": "Total Vacancy 1 (UR)",
+  "page": 1,
+  "from": "text"
+ },
+ "age": {
+  "as_on": "2024-09-01"
+ },
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Educational Qualification B.E. / B.Tech. / M.E./ M.Tech in Software Engineering / Computer Science & Engineering/ Information Technology / Computer Technology / Electronics / Electronics & Communications / MCA from a University recognized by the Govt",
+    "page": 1
+   }
+  ]
+ },
+ "selection": [
+  "Interview",
+  "Written examination",
+  "Group discussion"
+ ],
+ "links": {
+  "other": [
+   "https://urldefense.com/v3/__http:/B.Tech__;!!N8Xdb1VRTUMlZeI!m6rUc1_LuufGJj2jVoWywiyhsDMf8n6J5Kb-kSyRM6T9nIbGLLQdq2cp_IzWEWhzpouNYgzg9fRPk_TGvzfpyy9TRSg_RQ$",
+   "https://urldefense.com/v3/__http:/M.Tech__;!!N8Xdb1VRTUMlZeI!m6rUc1_LuufGJj2jVoWywiyhsDMf8n6J5Kb-kSyRM6T9nIbGLLQdq2cp_IzWEWhzpouNYgzg9fRPk_TGvzfpyy9l9Oilhg$"
+  ]
+ },
+ "summary": {
+  "vacancies": 1,
+  "apply": {
+   "until": "2024-10-14"
+  },
+  "education": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "selection": "Interview → Written examination → Group discussion"
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1c9347ae643789c75f7b83b338e812ea177657d3def3e0412faf20046215e6e8",
+  "url": "https://tgche.ac.in/wp-content/uploads/2026/08/TGEdCET-2026_Cat-B-_Managment-quota-Notification_-Guidelines-and-rules.pdf",
+  "title": "TGEdCET-2026 Cat ‘B’ Management Quota Notification Guidelines and Rules",
+  "body": "tg-tgche",
+  "exam": "tg-edcet",
+  "feed": "tg-tgche/home",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "1d6f5c5614493487601eee0067b0c509da699790ae5eda6a7541e83e9b84d991",
+  "bytes": 641829,
+  "pages": 5,
+  "chars": 8249,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T18:11:59+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-09-10",
+   "evidence": "iv) Last date for uploading details of Management of seats in the web portal without Late fee (Rs. 500/- per candidate)",
+   "page": 3,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Candidate should have passed the qualifying examination and shall satisfy the following eligibility criteria for admissions",
+    "page": 1
+   },
+   {
+    "text": "Educational Qualifications & Qualifying marks",
+    "page": 1
+   },
+   {
+    "text": "Candidates should have secured 50% of marks either in the Bachelor’s Degree i.e., B.A. / B.Com/ B.Sc. (Home Science)/ BCA/BBM, B.A. (Oriental languages),BBA, Engineering or in the Master’s Degree or any other qualifications equivalent thereto",
+    "page": 1
+   },
+   {
+    "text": "However, the candidates belonging to reserved categories Viz., SC/ST/BC and other reserved categories should have secured 40% in the qualifying examinations",
+    "page": 1
+   }
+  ]
+ },
+ "exam_pattern": [
+  {
+   "paper": "H T No . .",
+   "page": 4
+  },
+  {
+   "paper": "1 .",
+   "page": 4
+  },
+  {
+   "paper": "2 .",
+   "page": 4
+  }
+ ],
+ "links": {
+  "other": [
+   "https://catb.tgche.ac.in/",
+   "http://www.tsche.ac.in/",
+   "https://www.tgche.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-09-10"
+  },
+  "education": [
+   "Graduate"
+  ]
+ }
+}
