@@ -1,0 +1,374 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1e0b3666b6d9e340bd1e15f04bc1e97244df8043be3101d306962f57756dc637",
+  "url": "https://bceceboard.bihar.gov.in/pdf_Seat/UGAAC26_SM_R2.pdf",
+  "title": "Seat Matrix for UGMAC[AYUSH]-2026 Round-2",
+  "body": "br-bceceb",
+  "exam": "br-pgmac",
+  "feed": "br-bceceb/home",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "379247aee092ceb37e464068c26db8503fdd701d8ccccb1a1806feeb60ac78e8",
+  "bytes": 422583,
+  "pages": 1,
+  "chars": 3090,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T19:34:52+05:30"
+ },
+ "kind": "notice",
+ "unmapped_classes": [
+  {
+   "label": "RCG",
+   "page": 1
+  },
+  {
+   "label": "DQ",
+   "page": 1
+  }
+ ],
+ "vacancies": {
+  "total": 568,
+  "by_category": {
+   "Unreserved": 535,
+   "SC": 11,
+   "ST": 1,
+   "EWS": 6,
+   "br:EBC": 7,
+   "br:BC": 8
+  },
+  "rows": [
+   {
+    "label": "GOVERNMENT / RAC BEGUSARAI . . . / BAMS . . . .",
+    "total": 6,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / RAC PATNA . . . / BAMS . . . .",
+    "total": 6,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / GOVT RBTSHOMOEOPATHICMEDICALCOLLEGE MUZAFFARPUR . . . . , / BHMS . . . .",
+    "total": 18,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 3,
+     "ST": 1,
+     "br:EBC": 3,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / GOVTTIBBICOLLEGE PATNA . , / BUMS . . . .",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 7,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 4,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / ACHARYADHRUBASHAAYURVEDAMEDICALCOLLEGE HOSPITAL ANDRESEARCHCENTER , , SITAMARHI / BAMS . . . .",
+    "total": 47,
+    "by_category": {
+     "Unreserved": 47,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / DAYANANDAYURVEDICMEDICALCOLLEGEANDHOSPITAL SIWAN , / BAMS . . . .",
+    "total": 6,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / DR PRAKASHCHANDRAAYURVEDMEDICALCOLLEGE&HOSPITAL BELA NAUBATPUR PATNA . , , , / BAMS . . . .",
+    "total": 27,
+    "by_category": {
+     "Unreserved": 27,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / HIMALAYAAYURVEDICMEDICALCOLLEGEANDHOSPITAL CHIKSI PALIGANJ , , / BAMS . . . .",
+    "total": 18,
+    "by_category": {
+     "Unreserved": 18,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / JPINSTITUTEOFAYURVEDAMEDICALSCIENCE SARAIMANER PATNA . . , , / BAMS . . . .",
+    "total": 22,
+    "by_category": {
+     "Unreserved": 22,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / NITISHWARAYURVEDMEDICALCOLLEGE&HOSPITAL MUZAFFARPUR , / BAMS . . . .",
+    "total": 13,
+    "by_category": {
+     "Unreserved": 13,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / SRIMOTISINGHJAGESHWARIAYURVEDCOLLEGE&HOSPITAL CHAPRA , / BAMS . . . .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / SWAMIRAGHWENDRACHARYATRIDANDIAYURVEDAMHAVIDYALAYAANDCHIKITSALAYAKARJARA , STATION GAYA , / BAMS . . . .",
+    "total": 13,
+    "by_category": {
+     "Unreserved": 13,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / DR HALIMHOMOEOMEDICALCOLLEGEANDHOSPITALLAHERIASARAI DARBHANGA . , / BHMS . . . .",
+    "total": 35,
+    "by_category": {
+     "Unreserved": 35,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / DR RB SINGHGAYAHOMOEOPATHICMEDICALCOLLEGEANDHOSPITALAMWAN GAYA . . . , / BHMS . . . .",
+    "total": 45,
+    "by_category": {
+     "Unreserved": 45,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / DR YADUBIRSINHAHOMOEOPATHICMEDICALCOLLEGEANDHOSPITALDARBHANGA . / BHMS . . . .",
+    "total": 50,
+    "by_category": {
+     "Unreserved": 50,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / GDMEMORIALHOMOEOPATHICMEDICALCOLLEGE&HOSPITAL(EASTRAMKRISHNANAGAR NEAR , NEW BYPASS KANKARBAGH PATNA-800027) , / BHMS . . . .",
+    "total": 52,
+    "by_category": {
+     "Unreserved": 52,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / KENTHOMOEOPATHICMEDICALCOLLEGE&HOSPITAL HAJIPUR VAISHALI , , / BHMS . . . .",
+    "total": 40,
+    "by_category": {
+     "Unreserved": 40,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / MAHARSHIMENHIHOMOEOMEDICALCOLLEGEANDHOSPITALKATIHAR / BHMS . . . .",
+    "total": 35,
+    "by_category": {
+     "Unreserved": 35,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / MANGLAKAMLAHOMOEOPATHICMEDICALCOLLEGEANDHOSPITALSRINAGAR SIWAN , / BHMS . . . .",
+    "total": 35,
+    "by_category": {
+     "Unreserved": 35,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / PATNAHOMOEOPATHICMEDICALCOLLEGE&HOSPITAL PATNA , / BHMS . . . .",
+    "total": 35,
+    "by_category": {
+     "Unreserved": 35,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / RDKEDIAHOMOEOPATHICMEDICALCOLLEGEANDHOSPITAL MOTIHARI . . , / BHMS . . . .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / NEZAMIAUNANIMEDICALCOLLEGE&HOSPITAL GAYA , / BUMS . . . .",
+    "total": 21,
+    "by_category": {
+     "Unreserved": 21,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / SALFIAUNANIMEDICALCOLLEGE&HOSPITALLAHARIYASARAI DARBHANGA , / BUMS . . . .",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / SUFIAUNANIMEDICALCOLLEGEHOSPITALANDRESEARCHCENTRE BARACHAKIA EAST , , CHAMPARAN / BUMS . . . .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / ZULFEQUARHAIDERUNANIMEDICALCOLLEGEANDHOSPITAL SIWAN , / BUMS . . . .",
+    "total": 19,
+    "by_category": {
+     "Unreserved": 19,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "summary": {
+  "vacancies": 568
+ }
+}

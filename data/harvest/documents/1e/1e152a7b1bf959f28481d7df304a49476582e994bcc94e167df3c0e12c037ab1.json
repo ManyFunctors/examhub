@@ -1,0 +1,39 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1e152a7b1bf959f28481d7df304a49476582e994bcc94e167df3c0e12c037ab1",
+  "url": "https://jharkhandhighcourt.nic.in/display_pdf/recruitment/Notice_Assistant_Civil_Court_29082025.pdf",
+  "title": "Notice regarding conduct of written examination for the post of Assistant/ Clerk of the Civil Court's in the State of Jharkhand under Advt. No. 05/ Admin. Misc./ 2024",
+  "body": "jh-hc",
+  "exam": "jh-hc-staff",
+  "feed": "jh-hc/recruitment-2",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "25e918c188e825e5939cd91e4883bf3df65e464821c3a1f1b2b385b602168dd2",
+  "bytes": 190016,
+  "pages": 1,
+  "chars": 853,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T19:34:51+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "05/Admn",
+ "dates": {
+  "exam_date": {
+   "date": "2025-09-21",
+   "evidence": "Misc./2024 is scheduled to be held on 21st September, 2025, in a single shift from 11:00 AM to 1:00 PM",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.jharkhandhighcourt.nic.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2025-09-21"
+ }
+}
