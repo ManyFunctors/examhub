@@ -5,31 +5,29 @@
  "body": "in-iob",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 8,
- "documents_in_cycle": 2,
+ "documents": 9,
+ "documents_in_cycle": 3,
  "fields": {
   "vacancies": {
    "value": {
-    "total": 1,
+    "total": 25,
     "by_category": {
-     "Unreserved": 1,
-     "OBC": 0,
-     "SC": 0,
+     "Unreserved": 12,
+     "OBC": 7,
+     "SC": 4,
      "ST": 0,
-     "EWS": 0,
-     "PwBD": 0
+     "EWS": 2
     },
     "rows": [
      {
-      "label": "General Manager – Chief Financial Officer",
-      "total": 1,
+      "label": "Security Guard",
+      "total": 25,
       "by_category": {
-       "SC": 0,
+       "SC": 4,
        "ST": 0,
-       "OBC": 0,
-       "EWS": 0,
-       "Unreserved": 1,
-       "PwBD": 0
+       "OBC": 7,
+       "EWS": 2,
+       "Unreserved": 12
       },
       "page": 1
      }
@@ -37,13 +35,82 @@
     "from": "table"
    },
    "source": {
-    "notice": "114270ac32eb58fbbfdd0a6b48e3571ff44d84b887d3705935ea1207045b0f71",
-    "url": "https://www.iob.bank.in/documents/d/guest/online-advertisement",
+    "notice": "1ff33b8289e9fbbfea75a9378f3faf059f5ab9489ea29023f99c0dab93bc5df5",
+    "url": "https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement",
     "title": "(View)",
     "kind": "schedule"
+   },
+   "alternatives": 1
+  },
+  "age": {
+   "value": {
+    "limits": [
+     {
+      "max": 45,
+      "evidence": "SC/ST 31 Years + Actual period of service rendered in the defence forces + 3 Years (Subject to a maximum age limit of 45 Years)",
+      "page": 3
+     }
+    ],
+    "as_on": "2026-08-01",
+    "relaxations": [
+     {
+      "categories": [
+       "Unreserved"
+      ],
+      "for": "General",
+      "years": 26,
+      "raw": "General 26Years+Actualperiodofservicerenderedinthedefenceforces+3 Years (Subjecttoa maximumage limitof45 Years) .",
+      "page": 3
+     },
+     {
+      "categories": [
+       "SC",
+       "ST"
+      ],
+      "for": "SC/ST",
+      "years": 31,
+      "raw": "SC/ST 31Years+Actualperiodofservicerenderedinthedefenceforces+3 Years (Subjecttoa maximumage limitof45 Years) .",
+      "page": 3
+     },
+     {
+      "categories": [
+       "OBC"
+      ],
+      "for": "OBC",
+      "years": 29,
+      "raw": "OBC 29Years+Actualperiodofservicerenderedinthedefenceforces+3 Years (Subjecttoa maximumage limitof45 Years) .",
+      "page": 3
+     },
+     {
+      "categories": [
+       "Ex-Agniveer"
+      ],
+      "for": "Agniveer",
+      "years": 21,
+      "raw": "Agniveer 21 Years + ActualPeriodofservice as Agniveer + 3Years",
+      "page": 3
+     }
+    ]
+   },
+   "source": {
+    "notice": "1ff33b8289e9fbbfea75a9378f3faf059f5ab9489ea29023f99c0dab93bc5df5",
+    "url": "https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement",
+    "title": "(View)",
+    "kind": "schedule",
+    "page": 3
    }
   },
   "dates": {
+   "age_as_on": {
+    "date": "2026-08-01",
+    "source": {
+     "notice": "1ff33b8289e9fbbfea75a9378f3faf059f5ab9489ea29023f99c0dab93bc5df5",
+     "url": "https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement",
+     "title": "(View)",
+     "kind": "schedule",
+     "page": 3
+    }
+   },
    "exam_date": {
     "date": "2026-10-22",
     "source": {
@@ -65,37 +132,39 @@
     }
    },
    "registration_deadline": {
-    "date": "2026-08-05",
+    "date": "2026-09-30",
     "source": {
-     "notice": "114270ac32eb58fbbfdd0a6b48e3571ff44d84b887d3705935ea1207045b0f71",
-     "url": "https://www.iob.bank.in/documents/d/guest/online-advertisement",
+     "notice": "1ff33b8289e9fbbfea75a9378f3faf059f5ab9489ea29023f99c0dab93bc5df5",
+     "url": "https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement",
      "title": "(View)",
      "kind": "schedule",
-     "page": 1
-    }
+     "page": 4
+    },
+    "alternatives": 1
    },
    "registration_open": {
-    "date": "2026-07-22",
+    "date": "2026-08-25",
     "source": {
-     "notice": "114270ac32eb58fbbfdd0a6b48e3571ff44d84b887d3705935ea1207045b0f71",
-     "url": "https://www.iob.bank.in/documents/d/guest/online-advertisement",
+     "notice": "1ff33b8289e9fbbfea75a9378f3faf059f5ab9489ea29023f99c0dab93bc5df5",
+     "url": "https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement",
      "title": "(View)",
      "kind": "schedule",
      "page": 1
-    }
+    },
+    "alternatives": 1
    }
   },
   "apply": {
    "value": {
-    "from": "2026-07-22",
-    "until": "2026-08-05"
+    "from": "2026-08-25",
+    "until": "2026-09-30"
    },
    "source": {
-    "notice": "114270ac32eb58fbbfdd0a6b48e3571ff44d84b887d3705935ea1207045b0f71",
-    "url": "https://www.iob.bank.in/documents/d/guest/online-advertisement",
+    "notice": "1ff33b8289e9fbbfea75a9378f3faf059f5ab9489ea29023f99c0dab93bc5df5",
+    "url": "https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement",
     "title": "(View)",
     "kind": "schedule",
-    "page": 1
+    "page": 4
    }
   },
   "exam_date": {
@@ -109,134 +178,110 @@
    }
   },
   "advertisement_no": {
-   "value": "HRDD/RECT/01/2026-27",
+   "value": "HRMD/SS/RECT/01/2026-27",
    "source": {
-    "notice": "114270ac32eb58fbbfdd0a6b48e3571ff44d84b887d3705935ea1207045b0f71",
-    "url": "https://www.iob.bank.in/documents/d/guest/online-advertisement",
+    "notice": "1ff33b8289e9fbbfea75a9378f3faf059f5ab9489ea29023f99c0dab93bc5df5",
+    "url": "https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement",
+    "title": "(View)",
+    "kind": "schedule"
+   },
+   "alternatives": 2
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate",
+     "Class 10"
+    ],
+    "clauses": [
+     {
+      "text": "Interested Ex-Servicemen/Ex-Agniveers who fulfil the eligibility criteria may apply online from 25.08.2026 to 14.09.2026 by visiting our website www.iob.bank.in No other mode of application will be accepted",
+      "page": 1
+     },
+     {
+      "text": "Before applying candidates are advised to read this advertisement carefully and ensure that they have fulfilled the stipulated eligibility criteria",
+      "page": 1
+     },
+     {
+      "text": "EDUCATIONAL QUALIFICATION:",
+      "page": 4
+     },
+     {
+      "text": "A pass in 10th standard or its equivalent examination but the candidate should not have passed Graduation examination or its equivalent",
+      "page": 4
+     },
+     {
+      "text": "All the educational qualifications mentioned should be from a Board recognized by Government of India/ approved by Government Regulatory Bodies and the final result should have been declared on or before the Cut- off date",
+      "page": 4
+     },
+     {
+      "text": "The medical standards which the candidates must possess should be minimum SHAPE-1 or AYE, whichever is applicable, at the time of valid discharge from the Armed Forces",
+      "page": 5
+     },
+     {
+      "text": "The applicants intending to apply should ensure that they fulfil the eligibility criteria specified and possess the requisite documents / certificates before applying",
+      "page": 5
+     },
+     {
+      "text": "The cut-off date for eligibility such as age, educational qualification and work experience etc., is specified as the first date of the month in which the registration",
+      "page": 5
+     },
+     {
+      "text": "Mark sheets & certificates for educational qualifications",
+      "page": 11
+     },
+     {
+      "text": "Before applying, the candidates must ensure that he fulfils all the eligibility criteria and other norms mentioned in the advertisement and has in his possession the requisite documents and certificates specified by the Bank, and that the particulars furnished in the Online application are true…",
+      "page": 13
+     },
+     {
+      "text": "Candidates belonging to reserved category, are free to apply for vacancies announced for General category, provided they fulfil all the eligibility criteria",
+      "page": 14
+     }
+    ]
+   },
+   "source": {
+    "notice": "1ff33b8289e9fbbfea75a9378f3faf059f5ab9489ea29023f99c0dab93bc5df5",
+    "url": "https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement",
     "title": "(View)",
     "kind": "schedule"
    },
    "alternatives": 1
   },
-  "eligibility": {
-   "value": {
-    "education_levels": [
-     "Graduate"
-    ],
-    "clauses": [
-     {
-      "text": "ELIGIBILITY CRITERIA AND OTHER TERMS & CONDITIONS",
-      "page": 1
-     },
-     {
-      "text": "All the eligibility criteria (Qualification, Age, Experience etc.) for this post shall be computed as on 01.07.2026 (inclusive)",
-      "page": 1
-     },
-     {
-      "text": "Please note that the eligibility criteria specified herein are the basic criteria for applying for the post",
-      "page": 3
-     },
-     {
-      "text": "Candidates must produce the relevant documents in original and a photocopy in support of their identity and eligibility pertaining to category, nationality, age, educational qualifications, experience certificates, etc. as indicated in the online application form at the time of Personal Interview…",
-      "page": 3
-     },
-     {
-      "text": "Thus, merely fulfilling minimum qualification and experience criteria would not automatically entitle a candidate for the interview and the bank as per decided criteria shall shortlist the candidates for interview and accordingly only such candidates will be allowed to participate in recruitment…",
-      "page": 3
-     },
-     {
-      "text": "Please note that the eligibility criteria specified herein are the basic criteria for applying for the post",
-      "page": 4
-     },
-     {
-      "text": "Candidates must necessarily produce the relevant documents pertaining to category, nationality, age, educational qualifications, work experience, etc. in original along with a photocopy thereof in support of their identity and eligibility as indicated in the online application form",
-      "page": 4
-     },
-     {
-      "text": "The candidates must apply subject to fulfilment of eligibility criteria",
-      "page": 4
-     },
-     {
-      "text": "Mark sheets & relevant certificates for educational qualifications",
-      "page": 6
-     },
-     {
-      "text": "f) Before applying, the candidates must ensure that he/she fulfills all the eligibility criteria and other norms mentioned in the advertisement and has in his/her possession the requisite documents and certificates specified by the Bank, and that the particulars furnished in the Online application…",
-      "page": 8
-     },
-     {
-      "text": "Page 9 of 12 SC/ST/OBC/PWBD Category are required to submit originals as well as self-attested photocopies of their caste certificate/certificate of disability issued by the competent authority, in addition to the other certificates in support of their eligibility criteria",
-      "page": 9
-     }
-    ]
-   },
-   "source": {
-    "notice": "114270ac32eb58fbbfdd0a6b48e3571ff44d84b887d3705935ea1207045b0f71",
-    "url": "https://www.iob.bank.in/documents/d/guest/online-advertisement",
-    "title": "(View)",
-    "kind": "schedule"
-   }
-  },
   "selection": {
    "value": [
-    "Interview",
-    "Preliminary examination"
+    "Written examination",
+    "Computer-based test"
    ],
    "source": {
-    "notice": "114270ac32eb58fbbfdd0a6b48e3571ff44d84b887d3705935ea1207045b0f71",
-    "url": "https://www.iob.bank.in/documents/d/guest/online-advertisement",
+    "notice": "1ff33b8289e9fbbfea75a9378f3faf059f5ab9489ea29023f99c0dab93bc5df5",
+    "url": "https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement",
     "title": "(View)",
     "kind": "schedule"
-   }
+   },
+   "alternatives": 1
   },
   "exam_pattern": {
    "value": [
     {
-     "paper": "Manager - Software Engineer - Mobile Apps (MMG II) -",
-     "page": 17,
-     "duration": "Post qualification experience of 04 yearsin- Highproficiencyindevelopmentusing Flutter"
+     "paper": "Psychometric Test",
+     "page": 6
     },
     {
-     "paper": "English Language",
-     "page": 34,
-     "questions": 25,
-     "marks": 25,
-     "duration": "30 minutes"
-    },
-    {
-     "paper": "General Awareness with Special reference to Banking Industry",
-     "page": 34,
-     "questions": 25,
-     "marks": 25,
-     "duration": "30 minutes"
-    },
-    {
-     "paper": "Professional Knowledge",
-     "page": 34,
-     "questions": 50,
-     "marks": 50,
-     "duration": "60 minutes"
-    },
-    {
-     "paper": "Total",
-     "page": 34,
-     "questions": 100,
-     "marks": 100,
-     "duration": "2 hours"
+     "paper": "TOTAL",
+     "page": 6
     }
    ],
    "source": {
-    "notice": "1fe5246c18fda69f1879701af6f92bb260a0513673368f234f11102a334a1b5c",
-    "url": "https://www.iob.bank.in/documents/d/guest/ioblateral-recruitement-specialist-officers-11092025",
-    "title": "Advertisement - (View)",
-    "kind": "advertisement"
-   },
-   "carried_from": "2025"
+    "notice": "1ff33b8289e9fbbfea75a9378f3faf059f5ab9489ea29023f99c0dab93bc5df5",
+    "url": "https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement",
+    "title": "(View)",
+    "kind": "schedule"
+   }
   }
  },
  "gaps": [
   "fee",
-  "age",
   "pay"
  ],
  "older_documents": 6

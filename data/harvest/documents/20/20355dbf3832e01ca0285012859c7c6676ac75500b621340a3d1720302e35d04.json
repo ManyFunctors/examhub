@@ -1,0 +1,45 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "20355dbf3832e01ca0285012859c7c6676ac75500b621340a3d1720302e35d04",
+  "url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/miscnotifications/Corrigendum Notification - Transfer Posting of Judicial Officers (District Judge cadre) Gujarat High Court - 15052025.pdf",
+  "title": "Corrigendum Notification - Transfer Posting of Judicial Officers (District Judge cadre) Gujarat High Court - 15052025",
+  "body": "gj-hc",
+  "exam": "gj-hc-judicial",
+  "feed": "gj-hc/misc-notifications",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "0c3aacf1fd8fb84948b01b847a025eadd4d86d860dc5ae259ec1515dcc7b6cb6",
+  "bytes": 149351,
+  "pages": 2,
+  "chars": 2935,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T22:36:16+05:30"
+ },
+ "kind": "corrigendum",
+ "advertisement_no": "A.1201/2025",
+ "dates": {
+  "correction_window": {
+   "date": "2025-05-10",
+   "evidence": "In view of the Order regarding rectification of the consequential posting Order of the Patan District, passed by the Hon’ble Chief Justice and the Hon’ble Judge",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "In view of the Order regarding rectification of the consequential posting Order of the Patan District, passed by the Hon’ble Chief Justice and the Hon’ble Judge",
+   "key": "correction_window",
+   "date": "2025-05-10",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ }
+}

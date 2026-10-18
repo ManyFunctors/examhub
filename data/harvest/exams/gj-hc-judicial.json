@@ -4,17 +4,29 @@
  "name": "Gujarat HC Civil Judge / Higher Judicial Service Examination",
  "body": "gj-hc",
  "purpose": "recruitment",
- "cycle": "2022",
- "documents": 20,
+ "cycle": "2025",
+ "documents": 21,
  "documents_in_cycle": 1,
  "fields": {
+  "dates": {
+   "correction_window": {
+    "date": "2025-05-10",
+    "source": {
+     "notice": "20355dbf3832e01ca0285012859c7c6676ac75500b621340a3d1720302e35d04",
+     "url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/miscnotifications/Corrigendum Notification - Transfer Posting of Judicial Officers (District Judge cadre) Gujarat High Court - 15052025.pdf",
+     "title": "Corrigendum Notification - Transfer Posting of Judicial Officers (District Judge cadre) Gujarat High Court - 15052025",
+     "kind": "corrigendum",
+     "page": 1
+    }
+   }
+  },
   "advertisement_no": {
-   "value": "09/01/2025",
+   "value": "A.1201/2025",
    "source": {
-    "notice": "09f3e11116c289b9fe07309dbb30acafd6f2b7fe7cd789a4a3ccfe8b13ab7b9c",
-    "url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/miscnotifications/SENIORITY_JD_SIGNED.pdf",
-    "title": "Notification regarding Seniority of Judicial Officers in the cadre of Civil Judge as on 01.06.2022",
-    "kind": "notice"
+    "notice": "20355dbf3832e01ca0285012859c7c6676ac75500b621340a3d1720302e35d04",
+    "url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/miscnotifications/Corrigendum Notification - Transfer Posting of Judicial Officers (District Judge cadre) Gujarat High Court - 15052025.pdf",
+    "title": "Corrigendum Notification - Transfer Posting of Judicial Officers (District Judge cadre) Gujarat High Court - 15052025",
+    "kind": "corrigendum"
    }
   }
  },
@@ -28,5 +40,5 @@
   "eligibility",
   "selection"
  ],
- "older_documents": 19
+ "older_documents": 20
 }
