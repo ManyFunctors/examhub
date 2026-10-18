@@ -1,0 +1,100 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "17f1cf7950b95a9384c24598e86197b722cb6fd27660a9cd688aa2f0f35641bd",
+  "url": "https://www.iob.bank.in/documents/d/guest/recruitment_of_company_secretary_contract_basis_071023",
+  "title": "View (Content: English | Format: PDF | View/Download | Size",
+  "body": "in-iob",
+  "exam": "in-iob-recruitment",
+  "feed": "in-iob/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "368a6200568fdbdbd6e5957cdc5eae33b0af06f3b1525ac378e723aad01fdb16",
+  "bytes": 137744,
+  "pages": 8,
+  "chars": 23131,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T11:41:11+05:30"
+ },
+ "kind": "result",
+ "advertisement_no": "IOB/HRDD/CONTRACT",
+ "dates": {
+  "registration_open": {
+   "date": "2023-10-09",
+   "provisional": true,
+   "evidence": "3.2 Intimation Charges (Non-Refundable) The eligible candidates who are interested to apply have to pay an amount of Rs. 1000/- inclusive of GST as intimation charges, payable from 09.10.2023 to 21.10.2023 (both dates inclusive) through Onl",
+   "page": 4,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2023-10-21",
+   "provisional": true,
+   "evidence": "3.2 Intimation Charges (Non-Refundable) The eligible candidates who are interested to apply have to pay an amount of Rs. 1000/- inclusive of GST as intimation charges, payable from 09.10.2023 to 21.10.2023 (both dates inclusive) through Onl",
+   "page": 4,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 1,
+  "evidence": "VACANCY 01",
+  "page": 1,
+  "from": "text"
+ },
+ "age": {
+  "limits": [
+   {
+    "max": 65,
+    "evidence": "AGE Below 65 years",
+    "page": 1
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "ELIGIBILITY CRITERIA AND OTHER TERMS & CONDITIONS All the eligibility criteria (Qualification, Age, Experience etc.) for this post shall be computed as on 01.10.2023 (inclusive)",
+    "page": 1
+   },
+   {
+    "text": "Short-listing for interview will be on the basis of the details provided by the candidates (regarding educational qualification and work experience) in the online application",
+    "page": 3
+   },
+   {
+    "text": "All candidates will have to produce, if called for interview, originals as well as attested photocopies of documents in support of their eligibility such as age, educational qualification, experience or any other required certificate, failing which their candidature will be cancelled",
+    "page": 6
+   },
+   {
+    "text": "Candidates who do not satisfy the eligibility criteria and who do not produce (for any reason) the originals as well as attested photocopies of all documents required to be submitted as advised in this notification and Interview call letter, whomsoever, shall not be permitted to attend the…",
+    "page": 6
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "links": {
+  "other": [
+   "https://www.iob.in",
+   "https://www.iob.in”"
+  ]
+ },
+ "summary": {
+  "vacancies": 1,
+  "apply": {
+   "from": "2023-10-09",
+   "until": "2023-10-21"
+  },
+  "age": {
+   "max": 65
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Interview"
+ }
+}
