@@ -1,0 +1,585 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "14c7429a7261817f3d8323c2ca17b89aa30e276ff3e1a3dd93550c62f3f0e9b5",
+  "url": "https://bceceboard.bihar.gov.in/pdf_Seat/REV_UGMAC26_SM_R2.pdf",
+  "title": "Second Round Updated Seat Matrix for UGMAC-2026",
+  "body": "br-bceceb",
+  "exam": "br-pgmac",
+  "feed": "br-bceceb/home",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "3e56bbdc492ac6ef619c0a0ab81c616fcfba8759842b1b5abd042d0e787f3d7f",
+  "bytes": 447447,
+  "pages": 2,
+  "chars": 4548,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T07:29:14+05:30"
+ },
+ "kind": "corrigendum",
+ "unmapped_classes": [
+  {
+   "label": "RCG",
+   "page": 2
+  },
+  {
+   "label": "DQ",
+   "page": 2
+  },
+  {
+   "label": "MM",
+   "page": 2
+  },
+  {
+   "label": "SM",
+   "page": 2
+  },
+  {
+   "label": "NRI",
+   "page": 2
+  },
+  {
+   "label": "WQ",
+   "page": 2
+  }
+ ],
+ "vacancies": {
+  "total": 1634,
+  "by_category": {
+   "Unreserved": 1011,
+   "SC": 28,
+   "ST": 5,
+   "EWS": 52,
+   "br:EBC": 77,
+   "br:BC": 59
+  },
+  "rows": [
+   {
+    "label": "GOVERNMENT / ANMMC GAYA . . . . . / MBBS . . . .",
+    "total": 15,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / BMIMSPAWAPURI NALANDA . .. . , , / MBBS . . . .",
+    "total": 10,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 3,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / DMCLAHERIASARAI . . . / MBBS . . . .",
+    "total": 27,
+    "by_category": {
+     "Unreserved": 14,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 7,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / ESICMC&H BIHTA PATNA , , / MBBS . . . .",
+    "total": 9,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 3,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / GMC PURNEA . . . / MBBS . . . .",
+    "total": 14,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / GMC BETTIAH . . ., / MBBS . . . .",
+    "total": 10,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / GovernmentMedicalCollegeChapra Saran , / MBBS . . . .",
+    "total": 43,
+    "by_category": {
+     "Unreserved": 18,
+     "SC": 7,
+     "ST": 1,
+     "br:EBC": 7,
+     "br:BC": 5,
+     "EWS": 4
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / IGIMS PATNA . .. . . / MBBS . . . .",
+    "total": 25,
+    "by_category": {
+     "Unreserved": 13,
+     "SC": 1,
+     "ST": 1,
+     "br:EBC": 2,
+     "br:BC": 3,
+     "EWS": 5
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / JKTMC&H MADHEPURA . . . . . . / MBBS . . . .",
+    "total": 14,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 4,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / JLNMC BHAGALPUR . . . . . / MBBS . . . .",
+    "total": 17,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 1,
+     "br:EBC": 5,
+     "br:BC": 3,
+     "EWS": 5
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / NMC PATNA . . . / MBBS . . . .",
+    "total": 22,
+    "by_category": {
+     "Unreserved": 11,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 5,
+     "br:BC": 4,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / PMCPATNA . . . / MBBS . . . .",
+    "total": 80,
+    "by_category": {
+     "Unreserved": 48,
+     "SC": 8,
+     "ST": 2,
+     "br:EBC": 9,
+     "br:BC": 5,
+     "EWS": 6
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / SKMC MUZAFFARPUR . . . . / MBBS . . . .",
+    "total": 17,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / ShriRamJankiMedicalCollegeandHospital Samastipur , / MBBS . . . .",
+    "total": 42,
+    "by_category": {
+     "Unreserved": 17,
+     "SC": 7,
+     "ST": 0,
+     "br:EBC": 8,
+     "br:BC": 5,
+     "EWS": 4
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / BVC (SELFFINANCE)PATNA . . . / BVSc &AH . . . . .",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / BVC PATNA . . . / BVSc &AH . . . . .",
+    "total": 15,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / COVASKISHANGAJ / BVSc &AH . . . . .",
+    "total": 33,
+    "by_category": {
+     "Unreserved": 14,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 6,
+     "br:BC": 4,
+     "EWS": 5
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / COLLEGEOFFISHERIES KISHANGANJ , / BFSc(SelfFinance) . . .",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / COLLEGEOFFISHERIES KISHANGANJ , / BFSc . . .",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 6,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "GOVERNMENT / PDC Patna . . , / BDS . . .",
+    "total": 16,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 3,
+     "br:BC": 2,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / BUDDHAHOSPITALANDRESEARCHINSTITUTE GAYADOBHIROAD NH22 , - , - , KHARANTIMORE GAYA823004 , - / MBBS . . . .",
+    "total": 32,
+    "by_category": {
+     "Unreserved": 32,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / HIMALAYAMEDICALCOLLEGE&HOSPITAL PALIGANJ PATNA , , / MBBS . . . .",
+    "total": 118,
+    "by_category": {
+     "Unreserved": 90,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / KKMEDICALCOLLEGEANDHOSPITAL LODIPUR CHHABILAPUR RAJGIR , , , , NALANDA / MBBS . . . .",
+    "total": 100,
+    "by_category": {
+     "Unreserved": 85,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / KMC KATIHAR . . . / MBBS . . . .",
+    "total": 48,
+    "by_category": {
+     "Unreserved": 13,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / KURMASANSKRITIMEDICALCOLLEGEANDHOSPITALKURMAJEHANABAD / MBBS . . . .",
+    "total": 50,
+    "by_category": {
+     "Unreserved": 43,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / LORDBUDHAKOSHIMEDICALCOLLEGE&HOSPITAL SAHARSA , / MBBS . . . .",
+    "total": 44,
+    "by_category": {
+     "Unreserved": 21,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / MADHUBANIMEDICALCOLLEGE MADHUBANI , / MBBS . . . .",
+    "total": 69,
+    "by_category": {
+     "Unreserved": 18,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / MahabodhiMedicalCollegeandHospital Naknupa Sherghati GAYAJI , , , / MBBS . . . .",
+    "total": 117,
+    "by_category": {
+     "Unreserved": 87,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / MAMTAMEDICALCOLLEGEANDHOSPITALCHINTAMANPUR DURUNDHA , , , SIWAN / MBBS . . . .",
+    "total": 100,
+    "by_category": {
+     "Unreserved": 90,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / MGMMC&LSKHOS KISHANGANJ , / MBBS . . . .",
+    "total": 45,
+    "by_category": {
+     "Unreserved": 22,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / NMC&H SASARAM . . . , / MBBS . . . .",
+    "total": 74,
+    "by_category": {
+     "Unreserved": 40,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / NETAJISUBHASMEDICALCOLLEGE&HOSPITAL / MBBS . . . .",
+    "total": 60,
+    "by_category": {
+     "Unreserved": 41,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / RDJMMEDICALCOLLEGE&HOSPITAL TURKI MUZAFFARPUR , , / MBBS . . . .",
+    "total": 61,
+    "by_category": {
+     "Unreserved": 34,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / SHRINARAYANMEDICALINSTITUTE&HOSPITAL SAHARSA , / MBBS . . . .",
+    "total": 97,
+    "by_category": {
+     "Unreserved": 67,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / SHRINIVAS(G)EDUCATIONAL&RESEARCHINSTITUTEOFMEDICAL SCIENCES CHAPRA GARKHAHIGHWAY SARAN 841311 , - , - / MBBS . . . .",
+    "total": 36,
+    "by_category": {
+     "Unreserved": 21,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / SHYAMLALCHANDRASHEKHARMEDICALCOLLEGE KHAGARIA , / MBBS . . . .",
+    "total": 41,
+    "by_category": {
+     "Unreserved": 27,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / VIRAATRAMAYANINSTITUTEOFMEDICALSCIENCESKOYLABELWA PS , , CHAKIA EASTCHAMPARAN , / MBBS . . . .",
+    "total": 62,
+    "by_category": {
+     "Unreserved": 40,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PRIVATE / BUDDHAINST OFDENTALSCIENCE&HOSPITAL . / BDS . . .",
+    "total": 13,
+    "by_category": {
+     "Unreserved": 13,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "PRIVATE / MITHILAMINORITYDENTALCOLLEGE&HOSPITAL / BDS . . .",
+    "total": 17,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "PRIVATE / SARJUGDENTALCOLLEGE&HOSPITALLAHERIASARAI / BDS . . .",
+    "total": 11,
+    "by_category": {
+     "Unreserved": 11,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 2
+   }
+  ],
+  "from": "table"
+ },
+ "summary": {
+  "vacancies": 1634
+ }
+}
