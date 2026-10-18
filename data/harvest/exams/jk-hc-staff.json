@@ -4,8 +4,8 @@
  "name": "J&K and Ladakh HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)",
  "body": "jk-hc",
  "purpose": "recruitment",
- "cycle": null,
- "documents": 1,
+ "cycle": "2016",
+ "documents": 2,
  "documents_in_cycle": 1,
  "fields": {
   "eligibility": {
@@ -29,7 +29,8 @@
     "url": "https://jkhighcourt.nic.in/upload/recruitment/Applications for filling up of the posts of Court Master.pdf",
     "title": "Notification regarding Inviting applications for filing up of the post of Crnnit Master (Shorthand) in Level—li (Rs. 67700 — Rs. 20870Q on deputation basis in Supreme Court— reg.",
     "kind": "notice"
-   }
+   },
+   "carried_from": "0"
   },
   "pay": {
    "value": [
@@ -48,7 +49,8 @@
     "url": "https://jkhighcourt.nic.in/upload/recruitment/Applications for filling up of the posts of Court Master.pdf",
     "title": "Notification regarding Inviting applications for filing up of the post of Crnnit Master (Shorthand) in Level—li (Rs. 67700 — Rs. 20870Q on deputation basis in Supreme Court— reg.",
     "kind": "notice"
-   }
+   },
+   "carried_from": "0"
   }
  },
  "gaps": [
@@ -59,5 +61,5 @@
   "age",
   "selection"
  ],
- "older_documents": 0
+ "older_documents": 1
 }
