@@ -1,0 +1,257 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1aaaa557e0df169fa6742a8e9f1b94804c9a620fe7e9b2ae189b8b8dfd31593a",
+  "url": "https://jharkhandhighcourt.nic.in/display_pdf/recruitment/Chaprashi_Rejected_List_with_Remarks_08012025.pdf",
+  "title": "चपरासी के पद के लिए अस्वीकृत आवेदनों की सूची (विज्ञापन संख्याः 02/ स्थापना/ 2023)",
+  "body": "jh-hc",
+  "exam": "jh-hc-staff",
+  "feed": "jh-hc/recruitment-2",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "5b14c4303a2e69def363e25e417682fbc69d225cbc30311a17468badd50f3974",
+  "bytes": 580137,
+  "pages": 127,
+  "chars": 823413,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T15:06:01+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "admit_card_from": {
+   "date": "2004-04-08",
+   "evidence": "AADYASINGH ANILKUMARSINGH AdmitcardNotInPrescribedFormat DDNotAttached ,",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_deadline": {
+   "date": "2005-05-13",
+   "evidence": "RAJESHRAJAL YOGENDARRAJAK ApplicationFormNotAsPrescribedFormat",
+   "page": 4,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "AADYASINGH ANILKUMARSINGH AdmitcardNotInPrescribedFormat DDNotAttached ,",
+   "key": "admit_card_from",
+   "date": "2004-04-08",
+   "page": 1
+  },
+  {
+   "event": "ANSHUKUMARPANDIT AHSOKKUMARPANDIT AdmitcardNotInPrescribedFormat DDNotAttached ,",
+   "key": "admit_card_from",
+   "date": "2004-04-06",
+   "page": 1
+  },
+  {
+   "event": "GHANSHYAMMAHTO BAHANMAHTO ApplicationFormNotAsPrescribedFormat",
+   "date": "2004-10-28",
+   "page": 1
+  },
+  {
+   "event": "KAMLESHMURMU JAGOMURMU ApplicationFormNotAsPrescribedFormat CastCertificateNot , Attached ResidentCertificateNotAttached DDNotAttached , ,",
+   "date": "2005-01-01",
+   "page": 2
+  },
+  {
+   "event": "ASHISHTIGGA ANTHONITIGGA ApplicationFormNotAsPrescribedFormat UnderAge ,",
+   "date": "2005-10-15",
+   "page": 2
+  },
+  {
+   "event": "INDRAMUNIKUMARI SHIBUORAON ApplicationFormNotAsPrescribedFormat",
+   "date": "2005-03-05",
+   "page": 2
+  },
+  {
+   "event": "PRITESHKUMAR DEEPAKSAHU ApplicationFormNotAsPrescribedFormat",
+   "date": "2004-09-23",
+   "page": 2
+  },
+  {
+   "event": "ALIKAKUMARI KAMALNATHMURMU AdmitcardNotInPrescribedFormat CastCertificateNotAttached , , ResidentCertificateNotAttached DDNotAttached ,",
+   "key": "admit_card_from",
+   "date": "2004-03-01",
+   "page": 2
+  },
+  {
+   "event": "NILIMAKUMARI LAKHANASUR ApplicationFormNotAsPrescribedFormat",
+   "date": "2003-12-10",
+   "page": 3
+  },
+  {
+   "event": "ALOKKUMAR JAGLALRAM ApplicationFormNotAsPrescribedFormat",
+   "date": "2004-03-08",
+   "page": 3
+  },
+  {
+   "event": "JAYANTKUMAR ANANDBIHARI ApplicationFormNotAsPrescribedFormat",
+   "date": "2003-12-07",
+   "page": 3
+  },
+  {
+   "event": "WAHIDANSARI SERAJANSARI ApplicationFormNotAsPrescribedFormat",
+   "date": "2003-10-16",
+   "page": 3
+  },
+  {
+   "event": "JENNYHANS LATEJOHNRANJITHANS ApplicationFormNotAsPrescribedFormat UnderAge ,",
+   "date": "2005-08-14",
+   "page": 3
+  },
+  {
+   "event": "NAVJEETHANSDA MANJURAHANSDA AdmitcardNotInPrescribedFormat ResidentCertificateNot , Attached DDNotAttached ,",
+   "key": "admit_card_from",
+   "date": "2004-08-11",
+   "page": 3
+  },
+  {
+   "event": "AASTHAKUMARI MANGALSINGH AdmitcardNotInPrescribedFormat DDNotAttached ,",
+   "key": "admit_card_from",
+   "date": "2005-01-01",
+   "page": 3
+  },
+  {
+   "event": "VINAYPRASAD MAHESHPRASAD ApplicationFormNotAsPrescribedFormat DDNotAttached ,",
+   "date": "2004-10-08",
+   "page": 3
+  },
+  {
+   "event": "PAYALKUMARI LATEASHOKPASWAN ApplicationFormNotAsPrescribedFormat",
+   "date": "2003-05-03",
+   "page": 4
+  },
+  {
+   "event": "SMRITITIRKEY RAJESHLOHRA AdmitcardNotInPrescribedFormat UnderAge DDNotAttached , ,",
+   "key": "admit_card_from",
+   "date": "2005-10-06",
+   "page": 4
+  },
+  {
+   "event": "ABHISHEKNAYAK LATENARAYANNAYAK AdmitcardNotInPrescribedFormat UnderAge DDNotAttached , ,",
+   "key": "admit_card_from",
+   "date": "2006-01-26",
+   "page": 4
+  },
+  {
+   "event": "NITESHKUMAR DINESHMAHTO ApplicationFormNotAsPrescribedFormat AdmitcardNotIn , PrescribedFormat CastCertificateNotAttached ,",
+   "key": "admit_card_from",
+   "date": "2004-01-01",
+   "page": 4
+  },
+  {
+   "event": "SEEMAKUMARI LAKHANKACHHAP ApplicationFormNotAsPrescribedFormat CastCertificateNot , Attached ResidentCertificateNotAttached DDNotAttached , ,",
+   "date": "2004-12-12",
+   "page": 4
+  },
+  {
+   "event": "RAJESHRAJAL YOGENDARRAJAK ApplicationFormNotAsPrescribedFormat",
+   "key": "registration_deadline",
+   "date": "2005-05-13",
+   "page": 4
+  },
+  {
+   "event": "MAMTAKUMARI JAGESHWARMAHTO ApplicationFormNotAsPrescribedFormat",
+   "date": "2003-09-28",
+   "page": 5
+  },
+  {
+   "event": "TASIYATOPNO HABILTOPNO ApplicationFormNotAsPrescribedFormat",
+   "date": "2003-04-17",
+   "page": 5
+  },
+  {
+   "event": "NEETUKUMARIMAHLI KISHANMAHLI ApplicationFormNotAsPrescribedFormat",
+   "date": "2005-05-19",
+   "page": 5
+  },
+  {
+   "event": "MDAHSANRAZA MDFAROOQUENEZAMI ApplicationFormNotAsPrescribedFormat DDNotAttached ,",
+   "date": "2004-11-04",
+   "page": 5
+  },
+  {
+   "event": "MDADNANANSARI MDASLAMANSARI AdmitcardNotInPrescribedFormat UnderAge ,",
+   "key": "admit_card_from",
+   "date": "2005-11-01",
+   "page": 5
+  },
+  {
+   "event": "ELINADHAN PRAVINDHAN ApplicationFormNotAsPrescribedFormat",
+   "date": "2003-08-28",
+   "page": 5
+  },
+  {
+   "event": "AJAYYADAV LALJIYADAV ApplicationFormNotAsPrescribedFormat",
+   "date": "2003-07-04",
+   "page": 6
+  },
+  {
+   "event": "RADHIKAKUMARI BINAYKUMAR ApplicationFormNotAsPrescribedFormat",
+   "date": "2004-10-21",
+   "page": 6
+  },
+  {
+   "event": "RANJUMURMU BUDIRAMMURMU ApplicationFormNotAsPrescribedFormat CastCertificateNot , Attached ResidentCertificateNotAttached DDNotAttached , ,",
+   "date": "2005-04-08",
+   "page": 6
+  },
+  {
+   "event": "JYOTIKUMARI RAMPRAVESHSINGH AdmitcardNotInPrescribedFormat DDNotAttached ,",
+   "key": "admit_card_from",
+   "date": "2004-04-11",
+   "page": 6
+  },
+  {
+   "event": "ADITYAKUMAR RAMNARESHPRASAD ApplicationFormNotAsPrescribedFormat",
+   "date": "2003-12-01",
+   "page": 6
+  },
+  {
+   "event": "ASHISHKUMARYADAV SURAJYADAV AdmitcardNotInPrescribedFormat DDNotAttached CastCertificate , , NotAttached ResidentCertificateNotAttached ,",
+   "key": "admit_card_from",
+   "date": "2004-03-17",
+   "page": 6
+  },
+  {
+   "event": "PANKAJKUMAR RAMESHYADAV ApplicationFormNotAsPrescribedFormat DDNotAttached Cast , , CertificateNotAttached",
+   "date": "2004-04-21",
+   "page": 6
+  },
+  {
+   "event": "MANISHAKUMARI ANILKUMAR ApplicationFormNotAsPrescribedFormat",
+   "date": "2003-12-23",
+   "page": 6
+  },
+  {
+   "event": "SANJOGMUNDA BUDHMUNDA ApplicationFormNotAsPrescribedFormat",
+   "date": "2003-08-15",
+   "page": 7
+  },
+  {
+   "event": "ANKITKUMARSAHU RAJUSAHU ApplicationFormNotAsPrescribedFormat DDNotAttached ,",
+   "date": "2003-07-18",
+   "page": 7
+  },
+  {
+   "event": "NEETUKUMARI ARJUNKUMAR AdmitcardNotInPrescribedFormat DDNotAttached CastCertificate , , NotAttached ResidentCertificateNotAttached ,",
+   "key": "admit_card_from",
+   "date": "2004-04-23",
+   "page": 7
+  },
+  {
+   "event": "KHUSHIKUMARI LATESANJAYPRASADMAHTO AdmitcardNotInPrescribedFormat DDNotAttached Resident , , CertificateNotAttached",
+   "key": "admit_card_from",
+   "date": "2004-02-04",
+   "page": 7
+  }
+ ],
+ "summary": {
+  "apply": {
+   "until": "2005-05-13"
+  }
+ }
+}

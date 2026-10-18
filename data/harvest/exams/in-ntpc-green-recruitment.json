@@ -5,8 +5,8 @@
  "body": "in-ntpc-green",
  "purpose": "recruitment",
  "cycle": "2025",
- "documents": 5,
- "documents_in_cycle": 2,
+ "documents": 6,
+ "documents_in_cycle": 3,
  "fields": {
   "dates": {
    "age_as_on": {
@@ -19,6 +19,16 @@
      "page": 1
     },
     "alternatives": 1
+   },
+   "exam_date": {
+    "date": "2025-06-08",
+    "source": {
+     "notice": "1a5614a478008f455b3f1940a6a422f53aae0b99eb8788d6f310173e3b2c21be",
+     "url": "https://ngel.in/public/career/1/0e2822ce33/cb21b90ca4.pdf",
+     "title": "Advertisement Mock Test Links",
+     "kind": "advertisement",
+     "page": 1
+    }
    },
    "registration_deadline": {
     "date": "2025-08-22",
@@ -43,6 +53,25 @@
     "title": "Advertisement Application Form",
     "kind": "advertisement",
     "page": 1
+   }
+  },
+  "exam_date": {
+   "value": "2025-06-08",
+   "source": {
+    "notice": "1a5614a478008f455b3f1940a6a422f53aae0b99eb8788d6f310173e3b2c21be",
+    "url": "https://ngel.in/public/career/1/0e2822ce33/cb21b90ca4.pdf",
+    "title": "Advertisement Mock Test Links",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "advertisement_no": {
+   "value": "01/25)",
+   "source": {
+    "notice": "1a5614a478008f455b3f1940a6a422f53aae0b99eb8788d6f310173e3b2c21be",
+    "url": "https://ngel.in/public/career/1/0e2822ce33/cb21b90ca4.pdf",
+    "title": "Advertisement Mock Test Links",
+    "kind": "advertisement"
    }
   },
   "eligibility": {
@@ -76,7 +105,6 @@
  },
  "gaps": [
   "vacancies",
-  "exam_date",
   "fee",
   "age",
   "pay",

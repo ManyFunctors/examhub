@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1a792c2117eb024356d04ae34d572786467b459347ffa90a2b3cafa7d6e1f4bb",
+  "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat s english gujarati medium provisionl key_052026.pdf",
+  "title": "TAT S ENGLISH GUJARATI MEDIUM",
+  "body": "gj-seb",
+  "exam": "gj-tat",
+  "feed": "gj-seb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "d5b4c16b9736b33a9c11c2a3c2714d26f806fb0a6b0c65c9f6b34788f827acd1",
+  "bytes": 382195,
+  "pages": 1,
+  "chars": 750,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T15:06:01+05:30"
+ },
+ "kind": "answer_key",
+ "dates": {
+  "answer_key": {
+   "date": "2026-04-03",
+   "evidence": "TAT-S EXAM-2026 PROVISIONAL ANSWER KEY SUBJECT : ENGLISH (GUJARATI MEDIUM) TYPE - A",
+   "page": 1,
+   "from": "table"
+  },
+  "exam_date": {
+   "date": "2026-04-03",
+   "evidence": "TYPE - A EXAM DATE : 03-04-2026",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "TAT-S EXAM-2026 PROVISIONAL ANSWER KEY SUBJECT : ENGLISH (GUJARATI MEDIUM) TYPE - A",
+   "key": "answer_key",
+   "date": "2026-04-03",
+   "page": 1
+  }
+ ],
+ "summary": {
+  "exam_date": "2026-04-03"
+ }
+}
