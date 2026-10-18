@@ -5,9 +5,31 @@
  "body": "ar-appsc",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 19,
- "documents_in_cycle": 1,
+ "documents": 20,
+ "documents_in_cycle": 2,
  "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2026-10-07",
+    "source": {
+     "notice": "172d41ad25a10fa2a2ee1edc2968587e3ff2b6d0fcb11f9df3804766c42a93c9",
+     "url": "https://appsc.gov.in/upload/RECINS001/NotificationregardingSPALDCEEXamination2026_20260907_175623.pdf",
+     "title": "Notification for Senior Personal Assistant (Limited Departmental Competitive Examination ) - 2026",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2026-10-07",
+   "source": {
+    "notice": "172d41ad25a10fa2a2ee1edc2968587e3ff2b6d0fcb11f9df3804766c42a93c9",
+    "url": "https://appsc.gov.in/upload/RECINS001/NotificationregardingSPALDCEEXamination2026_20260907_175623.pdf",
+    "title": "Notification for Senior Personal Assistant (Limited Departmental Competitive Examination ) - 2026",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
   "eligibility": {
    "value": {
     "clauses": [
@@ -27,17 +49,14 @@
   },
   "selection": {
    "value": [
-    "Written examination",
-    "Interview",
-    "Preliminary examination"
+    "Skill / trade test"
    ],
    "source": {
-    "notice": "05be44dc19dcc715e8b999943c962db9641ed6a8b420d6b3d39c42cefec2565a",
-    "url": "https://appsc.gov.in/upload/RECINS001/Advertisement_for_the_post_of_Computer_Programmer_20220412_163708.pdf",
-    "title": "ADVERTISEMENT FOR THE POST OF COMPUTER PROGRAMMER,UNDER THE DEPARTMENT OF AP PUBLIC SERVICE COMISSION.",
-    "kind": "schedule"
-   },
-   "carried_from": "2022"
+    "notice": "172d41ad25a10fa2a2ee1edc2968587e3ff2b6d0fcb11f9df3804766c42a93c9",
+    "url": "https://appsc.gov.in/upload/RECINS001/NotificationregardingSPALDCEEXamination2026_20260907_175623.pdf",
+    "title": "Notification for Senior Personal Assistant (Limited Departmental Competitive Examination ) - 2026",
+    "kind": "advertisement"
+   }
   },
   "exam_pattern": {
    "value": [
@@ -79,7 +98,6 @@
  "gaps": [
   "vacancies",
   "apply",
-  "exam_date",
   "fee",
   "age"
  ],

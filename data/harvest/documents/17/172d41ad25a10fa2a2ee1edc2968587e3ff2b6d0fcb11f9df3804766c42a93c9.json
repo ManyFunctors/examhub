@@ -1,0 +1,43 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "172d41ad25a10fa2a2ee1edc2968587e3ff2b6d0fcb11f9df3804766c42a93c9",
+  "url": "https://appsc.gov.in/upload/RECINS001/NotificationregardingSPALDCEEXamination2026_20260907_175623.pdf",
+  "title": "Notification for Senior Personal Assistant (Limited Departmental Competitive Examination ) - 2026",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "21766ceb82509a5ed6de91223133864d77256e5ee6350d16281942a42086c204",
+  "bytes": 944836,
+  "pages": 2,
+  "chars": 2333,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T10:22:20+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "exam_date": {
+   "date": "2026-10-07",
+   "evidence": "NOTIFICATION This is to notiff that, the Limited Departmental Competitive Examination (LDCE) 2025, for filling up of 7(seven) posts of senior Personal Assistant (sPA) under APSS (General Cadre)through LbCf is scheduled to be held on 7th Oct",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "unmapped_classes": [
+  {
+   "label": "SlNo .",
+   "page": 1
+  }
+ ],
+ "selection": [
+  "Skill / trade test"
+ ],
+ "summary": {
+  "exam_date": "2026-10-07",
+  "selection": "Skill / trade test"
+ }
+}

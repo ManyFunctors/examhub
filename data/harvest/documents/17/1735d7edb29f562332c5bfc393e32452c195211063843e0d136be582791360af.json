@@ -1,0 +1,46 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1735d7edb29f562332c5bfc393e32452c195211063843e0d136be582791360af",
+  "url": "https://www.nestexam.in/qnsans/NEST-2020-Session-1.pdf",
+  "title": "2024 2023 2022 2021 2020 2019",
+  "body": "in-niser",
+  "exam": "in-nest",
+  "feed": "in-niser/nest",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "cf48e28f680ce3e2eb05fc500fc4bd52eb39ee83949e76c9d7ec272a0ce70514",
+  "bytes": 3721639,
+  "pages": 42,
+  "chars": 12811,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T10:22:16+05:30"
+ },
+ "kind": "result",
+ "dates": {
+  "exam_date": {
+   "date": "2020-09-29",
+   "evidence": "TestDate",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "TestDate",
+   "key": "exam_date",
+   "date": "2020-09-29",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "https://cdn3.digialm.com/per/g21/pub/1834/touchstone/AssessmentQ"
+  ]
+ },
+ "summary": {
+  "exam_date": "2020-09-29"
+ }
+}

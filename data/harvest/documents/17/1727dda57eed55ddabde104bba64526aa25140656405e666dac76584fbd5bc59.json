@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1727dda57eed55ddabde104bba64526aa25140656405e666dac76584fbd5bc59",
+  "url": "https://indianbank.bank.in/documents/20117/34414/FLC-Dharmapuri-Advertisement2026_05_02_21_43_09.pdf/02bdd62a-5b33-c45b-1d31-838f0085ca3c",
+  "title": "Application Advertisement",
+  "body": "in-indian-bank",
+  "exam": "in-indian-bank-recruitment",
+  "feed": "in-indian-bank/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "2135e6fc73b5cfd1ffd6c50539d1b76728b4a8401b012df001e2ed1f1f52c91d",
+  "bytes": 260834,
+  "pages": 4,
+  "chars": 6,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T10:22:13+05:30"
+ },
+ "kind": "advertisement",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
