@@ -5,7 +5,7 @@
  "body": "in-union-bank",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 2,
+ "documents": 3,
  "documents_in_cycle": 1,
  "fields": {
   "vacancies": {
@@ -689,13 +689,40 @@
     "title": "Notification [Union-Bank-Recruitment-Project-2026-27]",
     "kind": "advertisement"
    }
+  },
+  "pay": {
+   "value": [
+    {
+     "levels": [
+      10,
+      15
+     ],
+     "text": "Pay Levels 10, 15",
+     "evidence": "Previous coaching experience*# Marks to be awarded (out of 35) Coaching experience at state level 10 marks per completed year (maximum 30) Coaching experience at national level 15 marks per completed year (maximum 30) * Period of 6 months or more shall be treated as a year",
+     "page": 2
+    },
+    {
+     "levels": [
+      1
+     ],
+     "text": "Pay Level 1",
+     "evidence": " Certificate for the level of coaching attained by the candidates (Hockey India Level 1/2 certified coach/ FIH Academy Level 1/2/3 certified coach)",
+     "page": 3
+    }
+   ],
+   "source": {
+    "notice": "1b9e7e37a0c766957f90ad9430dbeccf7a5f8cdf00234b8fbae1b20349f0074b",
+    "url": "https://www.unionbankofindia.bank.in/pdf/Advertisement-for-coach-of-Union-Bank-of-India-Women's-Hockey-team.pdf",
+    "title": "Advertisement for engagement as Coach for Union Bank of India Women's Hockey Team on stipendiary basis",
+    "kind": "advertisement"
+   },
+   "carried_from": "2023"
   }
  },
  "gaps": [
   "exam_date",
   "fee",
-  "age",
-  "pay"
+  "age"
  ],
- "older_documents": 1
+ "older_documents": 2
 }
