@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2039b20b33f329a759243fcf14df3e0b785354690751679664b4fc91e52c606d",
+  "url": "https://indianbank.bank.in/documents/20117/34414/Notice-Recruitment-of-Assistant-General-Manager-System-Administrator-...2026_05_04_17_45_18.pdf/2e9d1c44-8135-82c6-2c80-7e7d0e7d60c9",
+  "title": "Notice – Recruitment of Assistant General Manager System Administrator – AIX, HP-UX, Linux, Windows",
+  "body": "in-indian-bank",
+  "exam": "in-indian-bank-recruitment",
+  "feed": "in-indian-bank/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "7928c9ab56bce0c65c5fb298d6ea0e412067cba5dd7b5f8e80cf784978c53904",
+  "bytes": 308930,
+  "pages": 1,
+  "chars": 1239,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T23:04:10+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "admit_card_from": {
+   "date": "2019-08-06",
+   "evidence": "Nadu, Pin – 600014 Call letter for main interview is sent to the registered email id of the shortlisted candidates. No hard copy of the call letter will be sent",
+   "page": 1,
+   "from": "table"
+  },
+  "exam_date": {
+   "date": "2019-07-30",
+   "evidence": "Preliminary Interviews were held on 30/07/2019",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Nadu, Pin – 600014 Call letter for main interview is sent to the registered email id of the shortlisted candidates. No hard copy of the call letter will be sent",
+   "key": "admit_card_from",
+   "date": "2019-08-06",
+   "page": 1
+  }
+ ],
+ "summary": {
+  "exam_date": "2019-07-30"
+ }
+}
