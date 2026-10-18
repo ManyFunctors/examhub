@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1c78df45efeb278e2b98ae996f29f1a8edc2285fd253b93df20740dcf9ab5967",
+  "url": "https://www.sebexam.org/AdvertiseFiles/2025/sse-2025-26 set-a qp_122025.pdf",
+  "title": "SSE-2025-26 SET-A",
+  "body": "gj-seb",
+  "exam": "gj-nmms-pse",
+  "feed": "gj-seb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "242352bd3df66316664ce040477f8038387f570a403bf64a5c82bd5b536fbd45",
+  "bytes": 1223685,
+  "pages": 24,
+  "chars": 46,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T17:39:12+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
