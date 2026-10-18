@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1ed8a0b3c1a700c9a43beccba48840bb85c61799213bc95ddb13f07f3c672f3b",
+  "url": "https://appsc.gov.in/upload/files/RECINS001/SO_ADVERTISEMENT_20250930_091104.pdf",
+  "title": "Advertisement for the post of Section Officer through Limited Departmental Competitive Examination (LDCE)",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/advertisement",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "9f18dffffae8e0502abb2705fbbdd968407b1f977174cca60be2942349538bf2",
+  "bytes": 1162652,
+  "pages": 3,
+  "chars": 5204,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T20:26:05+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "05/2025",
+ "dates": {
+  "exam_date": {
+   "date": "2025-11-28",
+   "evidence": "(2) Date for Written Examination is scheduled on 28th November 2025 (Friday)",
+   "page": 2,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2025-10-30",
+   "evidence": "( 4) All such duly nominated applications must be submitted in the office of APPSC on or before 30th October, 2025 (Thursday) by 3:00 pm through Cadre Controlling Authority",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "ar:APST"
+   ],
+   "amount": 150,
+   "raw": "(D) Candidates are required to pay fee of ~150/- (Rupees One Hundred Fifty) only for APST candidate and ~ 200/- (Rupees Two Hundred) only for other candidate in form of Treasury challan payable to Secretary, APPSC, Itanagar under Head of…",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 200,
+   "raw": "(D) Candidates are required to pay fee of ~150/- (Rupees One Hundred Fifty) only for APST candidate and ~ 200/- (Rupees Two Hundred) only for other candidate in form of Treasury challan payable to Secretary, APPSC, Itanagar under Head of…",
+   "page": 2
+  }
+ ],
+ "pay": [
+  {
+   "levels": [
+    8
+   ],
+   "text": "Pay Level 8",
+   "evidence": "APPSC-12/37/2024 Dated Itanagar, the 29th September, 2025 ADVERTISEMENT NO. 05/2025 The Arunachal Pradesh Public Service Commission invites application for filling up of 22 (Twenty Two) posts of Section Officer through Limited Departmental Competitive Examination (LDCE) from the Grade of Assistant…",
+   "page": 1
+  }
+ ],
+ "selection": [
+  "Written examination",
+  "Interview"
+ ],
+ "links": {
+  "other": [
+   "https://appsc.gov.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2025-10-30"
+  },
+  "exam_date": "2025-11-28",
+  "fee": {
+   "min": 150,
+   "max": 200
+  },
+  "pay": "Pay Level 8",
+  "selection": "Written examination → Interview"
+ }
+}

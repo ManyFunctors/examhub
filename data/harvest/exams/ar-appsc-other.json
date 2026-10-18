@@ -5,7 +5,7 @@
  "body": "ar-appsc",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 27,
+ "documents": 28,
  "documents_in_cycle": 2,
  "fields": {
   "dates": {
@@ -78,23 +78,20 @@
    "value": [
     {
      "levels": [
-      7
+      8
      ],
-     "low": 44900,
-     "high": 142400,
-     "text": "Pay Level 7, ₹44,900–142,400",
-     "evidence": "ADVERTISEMENT Memo No.PSC-R(.A) / 19 /2021 Dated ltanagar, the 7th April' 20ZZ The Arunachal Pradesh Public Service Commission invites applications online from the citizens of India, for the Post for Trained Graduate Teacher (TGT), Group -'B' (Non- Gazetted), as per details below :- Name of Post…",
+     "text": "Pay Level 8",
+     "evidence": "APPSC-12/37/2024 Dated Itanagar, the 29th September, 2025 ADVERTISEMENT NO. 05/2025 The Arunachal Pradesh Public Service Commission invites application for filling up of 22 (Twenty Two) posts of Section Officer through Limited Departmental Competitive Examination (LDCE) from the Grade of Assistant…",
      "page": 1
     }
    ],
    "source": {
-    "notice": "19a9702cb97d9685ea14eff3622bef7917b7ed68d3dd9654f6382547a76a9a3e",
-    "url": "https://appsc.gov.in/upload/RECINS001/Advertisement_TGT_20220407_162857.pdf",
-    "title": "ADVERTISEMENT FOR THE TRAINED GRADUATE TEACHER (TGT) UNDER THE DEPARTMENT OF EDUCATION ,ARUNACHAL PRADESH.",
+    "notice": "1ed8a0b3c1a700c9a43beccba48840bb85c61799213bc95ddb13f07f3c672f3b",
+    "url": "https://appsc.gov.in/upload/files/RECINS001/SO_ADVERTISEMENT_20250930_091104.pdf",
+    "title": "Advertisement for the post of Section Officer through Limited Departmental Competitive Examination (LDCE)",
     "kind": "advertisement"
    },
-   "alternatives": 1,
-   "carried_from": "2022"
+   "carried_from": "2025"
   }
  },
  "gaps": [
@@ -103,5 +100,5 @@
   "fee",
   "age"
  ],
- "older_documents": 25
+ "older_documents": 26
 }
