@@ -5,8 +5,8 @@
  "body": "br-bceceb",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 8,
- "documents_in_cycle": 8,
+ "documents": 10,
+ "documents_in_cycle": 10,
  "fields": {
   "vacancies": {
    "value": {
@@ -630,6 +630,16 @@
    "alternatives": 2
   },
   "dates": {
+   "payment_deadline": {
+    "date": "2026-10-21",
+    "source": {
+     "notice": "b6c4f362c224fa1416ab288d234eade686ed7f4e166ba5073ff050dc7659acc4",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_14.pdf",
+     "title": "Details for filling online application form and choice filling for Stray Vacancy Round of UGMAC-2026 (Adv. No. BCECEB(UGMAC)-2026/14 Dated 18.10.2026)",
+     "kind": "advertisement",
+     "page": 8
+    }
+   },
    "registration_deadline": {
     "date": "2026-10-28",
     "source": {
@@ -638,12 +648,23 @@
      "title": "Details for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/01 Dated 18.10.2026)",
      "kind": "result",
      "page": 6
+    },
+    "alternatives": 1
+   },
+   "registration_open": {
+    "date": "2026-10-19",
+    "source": {
+     "notice": "b6c4f362c224fa1416ab288d234eade686ed7f4e166ba5073ff050dc7659acc4",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_14.pdf",
+     "title": "Details for filling online application form and choice filling for Stray Vacancy Round of UGMAC-2026 (Adv. No. BCECEB(UGMAC)-2026/14 Dated 18.10.2026)",
+     "kind": "advertisement",
+     "page": 8
     }
    }
   },
   "apply": {
    "value": {
-    "from": null,
+    "from": "2026-10-19",
     "until": "2026-10-28"
    },
    "source": {
@@ -655,14 +676,14 @@
    }
   },
   "advertisement_no": {
-   "value": "BCECEB(PGMAC)-2026/01",
+   "value": "BCECEB(UGMAC)-2026/14",
    "source": {
-    "notice": "63ca9594ebc8684c8953dd1e2bd2ac933b26e9be479f597e4ecc792d659f413d",
-    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGMAC26_01.pdf",
-    "title": "Details for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/01 Dated 18.10.2026)",
-    "kind": "result"
+    "notice": "b9316620170e6f3cfedeb60654589b83170b33f04682917eea1dfe5753786cfa",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_15.pdf",
+    "title": "Notice for filling online application form and choice filling for Stray Vacancy Round of UGMAC-2026 (Adv. No. BCECEB(UGMAC)-2026/15 Dated 18.10.2026)",
+    "kind": "advertisement"
    },
-   "alternatives": 1
+   "alternatives": 2
   },
   "eligibility": {
    "value": {
@@ -671,30 +692,30 @@
     ],
     "clauses": [
      {
-      "text": "Eligibility criteria, instructions and other details are available in the prospectus of PGMAC-2026 which can be downloaded from the Board's website bceceboard.bihar.gov.in by clicking on the link “PGMAC-2026” under Prospectus Section",
-      "page": 1
+      "text": "Eligibility criteria, instructions and other details are available in the Prospectus of UGMAC-2026 which can be downloaded from the Board’s website bceceboard.bihar.gov.in by clicking on the link “UGMAC-2026” under Prospectus Section",
+      "page": 2
      },
      {
-      "text": "* For Eligibility Criteria and other details, required Documents for admission on NRI Quota, candidates are advised to see 'Notice to Candidates Admission Procedure under NRI Quota issued by MCC dt. 27.05.2026 and also Information Bulletin & Counselling Scheme of NEET-PG Counselling 2026' which…",
-      "page": 4
+      "text": "* For Eligibility Criteria and other details, required Documents for admission on NRI Quota, candidates are advised to see ‘Notice to Candidates Admission Procedure under NRI Quota issued by MCC dt",
+      "page": 5
      },
      {
-      "text": "* For Eligibility Criteria and other details, required Documents for admission on (DQ) Quota, candidates are advised to see 'Chapter 4: Persons with Benchmark Disabilities (PwBD) of Information Bulleting & Counselling Scheme of NEET-PG Counselling 2026' which can be seen on MCC Official Website",
-      "page": 4
+      "text": "* For Eligibility Criteria and other details, required Documents for admission on (DQ) Quota, candidates are advised to see ‘Chapter 4: Persons with Benchmark Disabilities (PwBD) of Information Bulleting & Counselling Scheme of NEET(UG) Counselling 2026’ which can be seen on MCC Official Website",
+      "page": 6
      },
      {
       "text": "All the certificates included in the list given below, if applicable, must have to upload at the time of downloading his/ her Provisional Seat Allotment Order and have to submit in original by every candidate at the time of Document Verification & Admission process",
-      "page": 7
+      "page": 8
      }
     ]
    },
    "source": {
-    "notice": "63ca9594ebc8684c8953dd1e2bd2ac933b26e9be479f597e4ecc792d659f413d",
-    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGMAC26_01.pdf",
-    "title": "Details for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/01 Dated 18.10.2026)",
-    "kind": "result"
+    "notice": "b6c4f362c224fa1416ab288d234eade686ed7f4e166ba5073ff050dc7659acc4",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_14.pdf",
+    "title": "Details for filling online application form and choice filling for Stray Vacancy Round of UGMAC-2026 (Adv. No. BCECEB(UGMAC)-2026/14 Dated 18.10.2026)",
+    "kind": "advertisement"
    },
-   "alternatives": 1
+   "alternatives": 3
   }
  },
  "gaps": [

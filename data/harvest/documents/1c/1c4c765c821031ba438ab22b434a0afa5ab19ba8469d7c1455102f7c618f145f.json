@@ -1,0 +1,74 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1c4c765c821031ba438ab22b434a0afa5ab19ba8469d7c1455102f7c618f145f",
+  "url": "https://www.iob.bank.in/documents/d/guest/iob-flc-advertisement",
+  "title": "Advertisement - (View)",
+  "body": "in-iob",
+  "exam": "in-iob-recruitment",
+  "feed": "in-iob/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "525a8fc45ef23b98947e3b377d4d9e90373b00d66879ce439aee54935c4bc70c",
+  "bytes": 572800,
+  "pages": 1,
+  "chars": 1137,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T17:17:14+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "registration_deadline": {
+   "date": "2024-05-31",
+   "evidence": "Eligible candidates may send their resume to Chief Regional Manager in the above mentioned address on or before 31.05.2024",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 13000,
+   "raw": "Emoluments: Remuneration of Rs. 13,000/- + Mobile & Conveyance Charges of Rs. 2,500/- per month",
+   "page": 1
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 2500,
+   "raw": "Emoluments: Remuneration of Rs. 13,000/- + Mobile & Conveyance Charges of Rs. 2,500/- per month",
+   "page": 1
+  }
+ ],
+ "age": {
+  "limits": [
+   {
+    "max": 65,
+    "evidence": "Age: Should not exceed 65 years at the time of joining",
+    "page": 1
+   }
+  ]
+ },
+ "selection": [
+  "Written examination",
+  "Interview"
+ ],
+ "summary": {
+  "apply": {
+   "until": "2024-05-31"
+  },
+  "fee": {
+   "min": 2500,
+   "max": 13000
+  },
+  "age": {
+   "max": 65
+  },
+  "selection": "Written examination → Interview"
+ }
+}

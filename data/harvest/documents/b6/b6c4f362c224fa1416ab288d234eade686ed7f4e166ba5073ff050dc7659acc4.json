@@ -1,0 +1,75 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "b6c4f362c224fa1416ab288d234eade686ed7f4e166ba5073ff050dc7659acc4",
+  "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_14.pdf",
+  "title": "Details for filling online application form and choice filling for Stray Vacancy Round of UGMAC-2026 (Adv. No. BCECEB(UGMAC)-2026/14 Dated 18.10.2026)",
+  "body": "br-bceceb",
+  "exam": "br-pgmac",
+  "feed": "br-bceceb/home",
+  "published": "2026-10-18",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "d72b43520b12d902de421ec3d4d1485d4d8924b92c5bc0fbe07a6760f612c6ba",
+  "bytes": 140894,
+  "pages": 8,
+  "chars": 43035,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T17:17:13+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-10-21",
+   "evidence": "Last date of online Registration .......................................................................... : 21.10.2026 (10.00 pm) 7/8",
+   "page": 7,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2026-10-19",
+   "evidence": "Consent for Stray Vacancy Round with Payment (if any) from such candidates who have already duly submitted the Application Form earlier ......................... : 19.10.2026 to 21.10.2026 (11.59 pm)",
+   "page": 8,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2026-10-21",
+   "evidence": "Consent for Stray Vacancy Round with Payment (if any) from such candidates who have already duly submitted the Application Form earlier ......................... : 19.10.2026 to 21.10.2026 (11.59 pm)",
+   "page": 8,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Eligibility criteria, instructions and other details are available in the Prospectus of UGMAC-2026 which can be downloaded from the Board’s website bceceboard.bihar.gov.in by clicking on the link “UGMAC-2026” under Prospectus Section",
+    "page": 2
+   },
+   {
+    "text": "* For Eligibility Criteria and other details, required Documents for admission on NRI Quota, candidates are advised to see ‘Notice to Candidates Admission Procedure under NRI Quota issued by MCC dt",
+    "page": 5
+   },
+   {
+    "text": "* For Eligibility Criteria and other details, required Documents for admission on (DQ) Quota, candidates are advised to see ‘Chapter 4: Persons with Benchmark Disabilities (PwBD) of Information Bulleting & Counselling Scheme of NEET(UG) Counselling 2026’ which can be seen on MCC Official Website",
+    "page": 6
+   },
+   {
+    "text": "All the certificates included in the list given below, if applicable, must have to upload at the time of downloading his/ her Provisional Seat Allotment Order and have to submit in original by every candidate at the time of Document Verification & Admission process",
+    "page": 8
+   }
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2026-10-19",
+   "until": "2026-10-21"
+  },
+  "education": [
+   "Graduate"
+  ]
+ }
+}
