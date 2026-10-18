@@ -1,0 +1,63 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "63ca9594ebc8684c8953dd1e2bd2ac933b26e9be479f597e4ecc792d659f413d",
+  "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGMAC26_01.pdf",
+  "title": "Details for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/01 Dated 18.10.2026)",
+  "body": "br-bceceb",
+  "exam": "br-pgmac",
+  "feed": "br-bceceb/home",
+  "published": "2026-10-18",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "7b3b5faa15f606b620a9f9fc93cca910370cab8df45895d75fa23f35bf441c73",
+  "bytes": 275144,
+  "pages": 7,
+  "chars": 38923,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T16:49:02+05:30"
+ },
+ "kind": "result",
+ "advertisement_no": "BCECEB(PGMAC)-2026/01",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-10-28",
+   "evidence": "Last date of online Registration (Round-1 & 2) ..................................................... : 28.10.2026 (10.00 pm) iv",
+   "page": 6,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Eligibility criteria, instructions and other details are available in the prospectus of PGMAC-2026 which can be downloaded from the Board's website bceceboard.bihar.gov.in by clicking on the link “PGMAC-2026” under Prospectus Section",
+    "page": 1
+   },
+   {
+    "text": "* For Eligibility Criteria and other details, required Documents for admission on NRI Quota, candidates are advised to see 'Notice to Candidates Admission Procedure under NRI Quota issued by MCC dt. 27.05.2026 and also Information Bulletin & Counselling Scheme of NEET-PG Counselling 2026' which…",
+    "page": 4
+   },
+   {
+    "text": "* For Eligibility Criteria and other details, required Documents for admission on (DQ) Quota, candidates are advised to see 'Chapter 4: Persons with Benchmark Disabilities (PwBD) of Information Bulleting & Counselling Scheme of NEET-PG Counselling 2026' which can be seen on MCC Official Website",
+    "page": 4
+   },
+   {
+    "text": "All the certificates included in the list given below, if applicable, must have to upload at the time of downloading his/ her Provisional Seat Allotment Order and have to submit in original by every candidate at the time of Document Verification & Admission process",
+    "page": 7
+   }
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-10-28"
+  },
+  "education": [
+   "Graduate"
+  ]
+ }
+}

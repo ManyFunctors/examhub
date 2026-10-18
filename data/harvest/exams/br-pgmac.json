@@ -5,8 +5,8 @@
  "body": "br-bceceb",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 6,
- "documents_in_cycle": 6,
+ "documents": 8,
+ "documents_in_cycle": 8,
  "fields": {
   "vacancies": {
    "value": {
@@ -628,13 +628,78 @@
     "kind": "advertisement"
    },
    "alternatives": 2
+  },
+  "dates": {
+   "registration_deadline": {
+    "date": "2026-10-28",
+    "source": {
+     "notice": "63ca9594ebc8684c8953dd1e2bd2ac933b26e9be479f597e4ecc792d659f413d",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGMAC26_01.pdf",
+     "title": "Details for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/01 Dated 18.10.2026)",
+     "kind": "result",
+     "page": 6
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2026-10-28"
+   },
+   "source": {
+    "notice": "63ca9594ebc8684c8953dd1e2bd2ac933b26e9be479f597e4ecc792d659f413d",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGMAC26_01.pdf",
+    "title": "Details for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/01 Dated 18.10.2026)",
+    "kind": "result",
+    "page": 6
+   }
+  },
+  "advertisement_no": {
+   "value": "BCECEB(PGMAC)-2026/01",
+   "source": {
+    "notice": "63ca9594ebc8684c8953dd1e2bd2ac933b26e9be479f597e4ecc792d659f413d",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGMAC26_01.pdf",
+    "title": "Details for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/01 Dated 18.10.2026)",
+    "kind": "result"
+   },
+   "alternatives": 1
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "Eligibility criteria, instructions and other details are available in the prospectus of PGMAC-2026 which can be downloaded from the Board's website bceceboard.bihar.gov.in by clicking on the link “PGMAC-2026” under Prospectus Section",
+      "page": 1
+     },
+     {
+      "text": "* For Eligibility Criteria and other details, required Documents for admission on NRI Quota, candidates are advised to see 'Notice to Candidates Admission Procedure under NRI Quota issued by MCC dt. 27.05.2026 and also Information Bulletin & Counselling Scheme of NEET-PG Counselling 2026' which…",
+      "page": 4
+     },
+     {
+      "text": "* For Eligibility Criteria and other details, required Documents for admission on (DQ) Quota, candidates are advised to see 'Chapter 4: Persons with Benchmark Disabilities (PwBD) of Information Bulleting & Counselling Scheme of NEET-PG Counselling 2026' which can be seen on MCC Official Website",
+      "page": 4
+     },
+     {
+      "text": "All the certificates included in the list given below, if applicable, must have to upload at the time of downloading his/ her Provisional Seat Allotment Order and have to submit in original by every candidate at the time of Document Verification & Admission process",
+      "page": 7
+     }
+    ]
+   },
+   "source": {
+    "notice": "63ca9594ebc8684c8953dd1e2bd2ac933b26e9be479f597e4ecc792d659f413d",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGMAC26_01.pdf",
+    "title": "Details for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/01 Dated 18.10.2026)",
+    "kind": "result"
+   },
+   "alternatives": 1
   }
  },
  "gaps": [
-  "apply",
   "exam_date",
   "fee",
-  "eligibility",
   "exam_pattern"
  ],
  "older_documents": 0
