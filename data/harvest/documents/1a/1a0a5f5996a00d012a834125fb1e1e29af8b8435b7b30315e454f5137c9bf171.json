@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1a0a5f5996a00d012a834125fb1e1e29af8b8435b7b30315e454f5137c9bf171",
+  "url": "https://police.rajasthan.gov.in/old/PoliceUser/UploadUtility/RecruitmentFiles/Recruitment29102021131126.pdf",
+  "title": "Constable Recruitment 2021 Releases",
+  "body": "rj-police",
+  "exam": "rj-police-constable",
+  "feed": "rj-police/recruitment",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "11af5f930b620706e296d34cb59bf098b964818fda59f5d8e281ede99896be96",
+  "bytes": 8383622,
+  "pages": 14,
+  "chars": 26,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T14:09:52+05:30"
+ },
+ "kind": "advertisement",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
