@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "22a1042d7983f011ca3e59355361ace46cceee313cc0adfc305d740209e5ac91",
+  "url": "https://cohsem.nic.in/docs/Notice/OriginalCertificate2025.pdf",
+  "title": "Notified information to all concerned regarding the issuing of Original Certificate of the Higher Secondary Examination, 2025 . Dated 21 st August, 2026. Notified information to all concerned regarding the Extention for the online and offline submission for the ensuing Higher Secondary (Class XII) Examination, 2026-27 . Dated 20 th August, 2026. Notified information to all concerned regarding the Extention for the online submission of Enrollment for Class XI and Class XII, 2026-27 . Dated 17 th ",
+  "body": "mn-cohsem",
+  "exam": "mn-cohsem-class-12",
+  "feed": "mn-cohsem/notice",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "5c816064ee21110d2fd966e58f4af02da13a8ce0a21ab58262860e484ab0b62a",
+  "bytes": 253551,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T00:22:08+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

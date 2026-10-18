@@ -4,16 +4,16 @@
  "name": "APPSC (Arunachal) Assistant Engineer / Engineering Services Examination",
  "body": "ar-appsc",
  "purpose": "recruitment",
- "cycle": null,
- "documents": 1,
+ "cycle": "2025",
+ "documents": 2,
  "documents_in_cycle": 1,
  "fields": {
   "advertisement_no": {
-   "value": "pSC",
+   "value": "APPSCIl/2025",
    "source": {
-    "notice": "215ed7f3aa0a0287fa8ccbd075727eaac33d7850a689a82160309d68f8e0f483",
-    "url": "https://appsc.gov.in/upload/RECINS001/AECAddendum_1_20220607_103111.pdf",
-    "title": "AE(C)-Addendum",
+    "notice": "2296033131a4576e38ec65d8e5e6766b8ba0c50dfb7a4eb1d472f3efcee8c40a",
+    "url": "https://appsc.gov.in/upload/RECINS001/Extension_of_Online_Application_form_for_Arunachal_Engineering_Examination_2025_20250515_172453.pdf",
+    "title": "Extension of Online Application Form for Arunachal Engineering Service Examination-2025",
     "kind": "corrigendum"
    }
   }
@@ -28,5 +28,5 @@
   "eligibility",
   "selection"
  ],
- "older_documents": 0
+ "older_documents": 1
 }

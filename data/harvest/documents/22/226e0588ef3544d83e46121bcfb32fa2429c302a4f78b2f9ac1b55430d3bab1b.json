@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "226e0588ef3544d83e46121bcfb32fa2429c302a4f78b2f9ac1b55430d3bab1b",
+  "url": "https://appsc.gov.in/upload/RECINS001/Notice_regarding_vacancies_20240902_165830.pdf",
+  "title": "Notice regarding vacancies reserved for different categories of posts",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "ab5c9490b0b76c5d5839397631386dfdf734ece5647e438918d078c7a210ff64",
+  "bytes": 154613,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T00:22:07+05:30"
+ },
+ "kind": "advertisement",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
