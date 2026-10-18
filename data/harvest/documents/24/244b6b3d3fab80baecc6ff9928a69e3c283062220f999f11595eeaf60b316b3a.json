@@ -1,0 +1,115 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "244b6b3d3fab80baecc6ff9928a69e3c283062220f999f11595eeaf60b316b3a",
+  "url": "https://appsc.gov.in/upload/RECINS001/Assitant_Audit_Officer_Directorate_of_Audit__Pension_20220418_163225.pdf",
+  "title": "ADVERTISEMENT FOR THE POST OF ASSISTANT AUDIT OFFICER,DIRECTORATE OF AUDIT & PENSION,GOVT OF AP",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/advertisement",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "bb230d25e60f5de2a1fb2bf9d359c866c5c7de09aff29c8c1437582652640af1",
+  "bytes": 2077410,
+  "pages": 3,
+  "chars": 5460,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T02:17:37+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "age_as_on": {
+   "date": "2022-05-20",
+   "evidence": "Department Directorate of Audit & Pension, Govt. of Arunachal Pradesh Pay Scale Pay Matrix Level-7 [Rs.44,900 - Rs.L,42,400), Group-'B' Non-Gazetted Number of Posts/Vacancies No. of posts Reserved for APST Reserved for PwD Un-reserved 06 05",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 150,
+   "raw": "Application Fee APST Rs .150/ -",
+   "page": 3
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 200,
+   "raw": " Other Rs .200/ -",
+   "page": 3
+  }
+ ],
+ "age": {
+  "as_on": "2022-05-20",
+  "relaxations": [
+   {
+    "categories": [
+     "ar:APST"
+    ],
+    "years": 5,
+    "raw": "However, the Upper Age Limit is relaxable by 5 years for APST and another 5 years for regular employees working under Govt. and Semi Govt",
+    "page": 1
+   },
+   {
+    "categories": [
+     "ar:APST",
+     "PwBD"
+    ],
+    "years": 15,
+    "raw": "For APST PwD candidates, upper age limit will be relaxed by 15 years",
+    "page": 1
+   }
+  ]
+ },
+ "pay": [
+  {
+   "levels": [
+    7
+   ],
+   "text": "Pay Level 7",
+   "evidence": "Department Directorate of Audit & Pension, Govt. of Arunachal Pradesh Pay Scale Pay Matrix Level-7 [Rs.44,900 - Rs.L,42,400), Group-'B' Non-Gazetted Number of Posts/Vacancies No. of posts Reserved for APST Reserved for PwD Un-reserved 06 05 Nil 01 Age as on 20th May, 2022 Not less than 18 Years of…",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Educational Qualification B.Com, BBA/MBA[Finance), BA with Economics as one of the subjects and B.Sc. with Mathematics as one of the subjects from a recognized University/AlcTE approved Institute",
+    "page": 1
+   }
+  ]
+ },
+ "selection": [
+  "Written examination",
+  "Interview",
+  "Preliminary examination"
+ ],
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 2
+  }
+ },
+ "summary": {
+  "fee": {
+   "min": 150,
+   "max": 200
+  },
+  "pay": "Pay Level 7",
+  "education": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "selection": "Written examination → Interview → Preliminary examination"
+ }
+}
