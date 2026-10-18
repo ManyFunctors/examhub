@@ -5,7 +5,7 @@
  "body": "ar-appsc",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 25,
+ "documents": 26,
  "documents_in_cycle": 2,
  "fields": {
   "dates": {
@@ -83,16 +83,17 @@
      "low": 44900,
      "high": 142400,
      "text": "Pay Level 7, ₹44,900–142,400",
-     "evidence": "ADVERT SEMENT Memo No.PSC-R (A) / 05 / 2022 Dated [tanagar, the 72th April, Z0ZZ The Arunachal Pradesh Public Service Commission invites applications for filling up ol'post of Computer Programmer as detailed below:- Name of the Post Computer Programmer, Group-'B' Non-Gazetted Department Arunachal…",
+     "evidence": "ADVERTISEMENT Memo No.PSC-R(.A) / 19 /2021 Dated ltanagar, the 7th April' 20ZZ The Arunachal Pradesh Public Service Commission invites applications online from the citizens of India, for the Post for Trained Graduate Teacher (TGT), Group -'B' (Non- Gazetted), as per details below :- Name of Post…",
      "page": 1
     }
    ],
    "source": {
-    "notice": "05be44dc19dcc715e8b999943c962db9641ed6a8b420d6b3d39c42cefec2565a",
-    "url": "https://appsc.gov.in/upload/RECINS001/Advertisement_for_the_post_of_Computer_Programmer_20220412_163708.pdf",
-    "title": "ADVERTISEMENT FOR THE POST OF COMPUTER PROGRAMMER,UNDER THE DEPARTMENT OF AP PUBLIC SERVICE COMISSION.",
-    "kind": "schedule"
+    "notice": "19a9702cb97d9685ea14eff3622bef7917b7ed68d3dd9654f6382547a76a9a3e",
+    "url": "https://appsc.gov.in/upload/RECINS001/Advertisement_TGT_20220407_162857.pdf",
+    "title": "ADVERTISEMENT FOR THE TRAINED GRADUATE TEACHER (TGT) UNDER THE DEPARTMENT OF EDUCATION ,ARUNACHAL PRADESH.",
+    "kind": "advertisement"
    },
+   "alternatives": 1,
    "carried_from": "2022"
   }
  },
@@ -102,5 +103,5 @@
   "fee",
   "age"
  ],
- "older_documents": 23
+ "older_documents": 24
 }

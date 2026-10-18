@@ -1,0 +1,123 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "19a9702cb97d9685ea14eff3622bef7917b7ed68d3dd9654f6382547a76a9a3e",
+  "url": "https://appsc.gov.in/upload/RECINS001/Advertisement_TGT_20220407_162857.pdf",
+  "title": "ADVERTISEMENT FOR THE TRAINED GRADUATE TEACHER (TGT) UNDER THE DEPARTMENT OF EDUCATION ,ARUNACHAL PRADESH.",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/advertisement",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "13ec137104f9790d2c859e172cbc1edbc0c99b6d81dc93611d06aa531ab05dbe",
+  "bytes": 1280260,
+  "pages": 4,
+  "chars": 6043,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T13:42:02+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "age_as_on": {
+   "date": "2022-05-13",
+   "evidence": "259 r97 t2 50 Age as on l3thMay'2O22 Candidates should not be less than 21 years ofage and not more than 33 years of age as on 13.05.2022, However, the upper age limit is relaxed by 5 years for APST and another 5 years for Government and Se",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 150,
+   "raw": "Application Fee APST Applicants Rs 150/ - .",
+   "page": 3
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 200,
+   "raw": " Other Rs .200/ -",
+   "page": 3
+  }
+ ],
+ "age": {
+  "as_on": "2022-05-13",
+  "relaxations": [
+   {
+    "categories": [
+     "ar:APST"
+    ],
+    "years": 5,
+    "raw": "259 r97 t2 50 Age as on l3thMay'2O22 Candidates should not be less than 21 years ofage and not more than 33 years of age as on 13.05.2022, However, the upper age limit is relaxed by 5 years for APST…",
+    "page": 1
+   },
+   {
+    "categories": [
+     "ar:APST",
+     "PwBD"
+    ],
+    "years": 15,
+    "raw": "For APST PwD candidates, upper age limit will be relaxed by 15 years",
+    "page": 1
+   }
+  ]
+ },
+ "pay": [
+  {
+   "levels": [
+    7
+   ],
+   "low": 44900,
+   "high": 142400,
+   "text": "Pay Level 7, ₹44,900–142,400",
+   "evidence": "ADVERTISEMENT Memo No.PSC-R(.A) / 19 /2021 Dated ltanagar, the 7th April' 20ZZ The Arunachal Pradesh Public Service Commission invites applications online from the citizens of India, for the Post for Trained Graduate Teacher (TGT), Group -'B' (Non- Gazetted), as per details below :- Name of Post…",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Educational Qualification How to apply 1 0nly'Online' through APPSC Website www.appsc.gov.in 2 One Time Registration on Commission's Website is mandatory (Once registered, all future applications for any postfvacancy can be submitted using Login ID Password)",
+    "page": 2
+   },
+   {
+    "text": "Znd Class Bachelor Degree in the concerned subject from a recognized University with B.Ed",
+    "page": 2
+   }
+  ]
+ },
+ "selection": [
+  "Written examination",
+  "Interview"
+ ],
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 3
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.appsc.gov.in"
+  ]
+ },
+ "summary": {
+  "fee": {
+   "min": 150,
+   "max": 200
+  },
+  "pay": "Pay Level 7, ₹44,900–142,400",
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Written examination → Interview"
+ }
+}
