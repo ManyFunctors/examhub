@@ -31,7 +31,7 @@
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "ap-tet"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "ar-apbse-class-10"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "ar-apbse-class-12"}
-{"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-ae"}
+{"cycle": null, "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-ae"}
 {"cycle": "2020", "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-cce"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-lecturer"}
 {"cycle": "2026", "documents": 29, "gaps": ["vacancies", "apply", "fee", "age"], "id": "ar-appsc-other"}
@@ -530,7 +530,7 @@
 {"cycle": null, "documents": 3, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sbi-po"}
 {"cycle": "2026", "documents": 57, "gaps": ["exam_date", "fee", "age", "pay"], "id": "in-sbi-so"}
 {"cycle": "2025", "documents": 2, "gaps": ["vacancies", "apply", "fee", "age"], "id": "in-sci-court-master-steno"}
-{"cycle": "2025", "documents": 1, "gaps": ["vacancies", "apply", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sci-jca"}
+{"cycle": "2025", "documents": 2, "gaps": ["vacancies", "apply", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sci-jca"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sci-law-clerk"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sebi-grade-a"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-set-symbiosis"}

@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "exam": "ar-appsc-ae",
+ "name": "APPSC (Arunachal) Assistant Engineer / Engineering Services Examination",
+ "body": "ar-appsc",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "advertisement_no": {
+   "value": "pSC",
+   "source": {
+    "notice": "215ed7f3aa0a0287fa8ccbd075727eaac33d7850a689a82160309d68f8e0f483",
+    "url": "https://appsc.gov.in/upload/RECINS001/AECAddendum_1_20220607_103111.pdf",
+    "title": "AE(C)-Addendum",
+    "kind": "corrigendum"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}
