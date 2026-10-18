@@ -1,0 +1,80 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "255ef60389c9908bbe6949f3fdc5a7db011094669fffa23bdfb554135fd98213",
+  "url": "https://keralapsc.gov.in/sites/default/files/inline-files/report05_12_23_for_publ_0.pdf",
+  "title": "standardization procedure for the Common Preliminary Examinations, 2023 (LGS – Universities, OA – KAT etc)",
+  "body": "kl-kpsc",
+  "exam": "kl-kpsc-common-prelims",
+  "feed": "kl-kpsc/psc-examination-updates",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "360e3614705fbdaaffcc6613bb176c69a9d8c9eb64f5b0141c11681a84db7b5f",
+  "bytes": 64017,
+  "pages": 5,
+  "chars": 5903,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T03:04:54+05:30"
+ },
+ "kind": "result",
+ "exam_pattern": [
+  {
+   "paper": "(5100/11038)= 4620 . . .",
+   "page": 5,
+   "marks": 51
+  },
+  {
+   "paper": "(5100/11277)= 4522 . . .",
+   "page": 5,
+   "marks": 51
+  },
+  {
+   "paper": "(5100/11669)= 4371 . . .",
+   "page": 5,
+   "marks": 51
+  },
+  {
+   "paper": "(5100/10239)= 4981 . . .",
+   "page": 5,
+   "marks": 51
+  },
+  {
+   "paper": "(5100/1)= 5100 . .",
+   "page": 5,
+   "marks": 51
+  },
+  {
+   "paper": "(6000/11038) =5436 . . .",
+   "page": 5,
+   "marks": 60
+  },
+  {
+   "paper": "(6000/11277) =5321 . . .",
+   "page": 5,
+   "marks": 60
+  },
+  {
+   "paper": "(6000/11669) =5142 . . .",
+   "page": 5,
+   "marks": 60
+  },
+  {
+   "paper": "(6000/10239) =5860 . . .",
+   "page": 5,
+   "marks": 60
+  },
+  {
+   "paper": "(6000/1) =6000 . .",
+   "page": 5,
+   "marks": 60
+  }
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "One-fourth of the marks assigned for each wrong answer",
+   "page": 2
+  }
+ }
+}
