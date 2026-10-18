@@ -1,0 +1,74 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "196a66263d119d85eaaeb08e074a068d34d8f9408f73766710869a8cf6740c81",
+  "url": "https://appsc.gov.in/upload/RECINS001/Advt-GDMO(Allo)_compressed.pdf",
+  "title": "GENERAL DUTY MEDICAL OFFICER (Allopathy) UNDER H& FW DEPARTMENT",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/advertisement",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "ad063c66668bae7e6ce1a26234fd967bd8258b13b9b63d61f90a1639dd3d8873",
+  "bytes": 755712,
+  "pages": 4,
+  "chars": 9249,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T13:19:27+05:30"
+ },
+ "kind": "advertisement",
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 50,
+   "raw": "CLOSING DATE : 17.7.2020 Till 1600 Hours EXAMINATION FEES: Candidates are required to pay lee of Rs.l50/- (Rupees one hundred fifty) only through oniine mode only",
+   "page": 3
+  }
+ ],
+ "age": {
+  "relaxations": [
+   {
+    "categories": [
+     "SC",
+     "ST"
+    ],
+    "years": 5,
+    "raw": "Not exceeding 30 years as on 17 /07 /2020 (Relaxable for SC/ST candidates etc by 5 years in accordance with instructions issued by the State GovernmentJ",
+    "page": 1
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Holders of Educational qualification included in the Part-ll of the Third Schedule should also fulfill the condition stipulated in sub-section [3] of the section [13) of the Indian Medical CouncilAct, 1956",
+    "page": 1
+   },
+   {
+    "text": "Their candidature wili be finally accepted on production of PRooF oF HAVING PASSED THE QUALIFYTNG EXAMINATIO}I IN ORIGINAL ON OR BEFORE 'I'HE DATE OF INTERVIEW TO BE FIXED BY THE COMMISSION FAILING WHICH THEY WILL NOT BE ALLOWED TO APPEAR Il{ THE INTERVIEWVIVA-VOCE TEST. if due ro non holding of…",
+    "page": 2
+   }
+  ]
+ },
+ "selection": [
+  "Interview",
+  "Written examination"
+ ],
+ "summary": {
+  "fee": {
+   "min": 50,
+   "max": 50
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Interview → Written examination"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "schema": 1,
+ "exam": "br-bceceb-pgdac",
+ "name": "PGDAC",
+ "body": "br-bceceb",
+ "purpose": "admission",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "Educational Qualification :",
+      "page": 3
+     },
+     {
+      "text": "Residential Qualification :",
+      "page": 3
+     }
+    ]
+   },
+   "source": {
+    "notice": "19476d650b628de0a9c38d7fdd3df4641099f9f72eef2a6ad016090c17b9b0a9",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Web/CHK_BIO_PGDAC26.pdf",
+    "title": "Check Slip & Biometric Form of PGDAC-2026",
+    "kind": "notice"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

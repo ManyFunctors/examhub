@@ -34,7 +34,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-ae"}
 {"cycle": "2020", "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-cce"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-lecturer"}
-{"cycle": "2026", "documents": 23, "gaps": ["vacancies", "apply", "fee", "age"], "id": "ar-appsc-other"}
+{"cycle": "2026", "documents": 25, "gaps": ["vacancies", "apply", "fee", "age"], "id": "ar-appsc-other"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-apssb-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-police"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "as-aau-cet"}
@@ -56,7 +56,7 @@
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "as-tet"}
 {"cycle": "2026", "documents": 3, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "br-bcece"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "br-bcece-le"}
-{"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "br-bceceb-pgdac"}
+{"cycle": "2026", "documents": 1, "gaps": ["apply", "exam_date", "fee", "exam_pattern"], "id": "br-bceceb-pgdac"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "br-bceceb-pgeac"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "br-bceceb-ugeac"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "br-bed-cet"}
@@ -183,7 +183,7 @@
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "gj-seb-rimc-entrance"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "gj-set"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "gj-talati"}
-{"cycle": null, "documents": 12, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "gj-tat"}
+{"cycle": null, "documents": 13, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "gj-tat"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "gj-tet"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "hp-hc-staff"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "hp-hpbose-class-10"}

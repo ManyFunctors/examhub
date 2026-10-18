@@ -1,0 +1,43 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1944c020fdca3b7d029b529dc2a1d835c3f54bbb08579d538d8cb5176ea7e592",
+  "url": "https://appsc.gov.in/upload/RECINS001/Section_officer_pattern_20251106_181559.pdf",
+  "title": "Notification of Schedule/Pattern of Examination for the Post of Section Officer Through LDCE",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/notifications",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "0d5634229d934f454b56e6f87f76257f9c4d7cf105ed8d8669d6c8b3c064d4f0",
+  "bytes": 722555,
+  "pages": 1,
+  "chars": 1787,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T13:19:20+05:30"
+ },
+ "kind": "schedule",
+ "exam_pattern": [
+  {
+   "paper": "2gth",
+   "page": 1,
+   "duration": "3 Hrs"
+  },
+  {
+   "paper": "il*ovember .",
+   "page": 1
+  },
+  {
+   "paper": "Constitution of lndia",
+   "page": 1
+  },
+  {
+   "paper": "Paper-II",
+   "page": 1,
+   "marks": 100,
+   "duration": "2 Hrs"
+  }
+ ]
+}
