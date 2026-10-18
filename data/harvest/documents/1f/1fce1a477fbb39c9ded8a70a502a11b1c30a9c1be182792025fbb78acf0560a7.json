@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1fce1a477fbb39c9ded8a70a502a11b1c30a9c1be182792025fbb78acf0560a7",
+  "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat - hs ઈતિહાસ_022026.pdf",
+  "title": "TAT - HS ઈતિહાસ",
+  "body": "gj-seb",
+  "exam": "gj-tat",
+  "feed": "gj-seb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "3a07685f46dcd9c8953f405dcc42f6f63708828cd49874d1f8dd6493ffa22391",
+  "bytes": 705325,
+  "pages": 18,
+  "chars": 34,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T21:41:21+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
