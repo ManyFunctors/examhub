@@ -5,8 +5,8 @@
  "body": "in-iob",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 9,
- "documents_in_cycle": 3,
+ "documents": 10,
+ "documents_in_cycle": 4,
  "fields": {
   "vacancies": {
    "value": {
@@ -112,14 +112,16 @@
     }
    },
    "exam_date": {
-    "date": "2026-10-22",
+    "date": "2026-10-12",
+    "until": "2026-10-17",
     "source": {
-     "notice": "0c6123d100b691b600871a3b78b10d5b51a0cd01e8a539c050ad9bec710cb5ad",
-     "url": "https://www.iob.bank.in/documents/d/guest/notification-for-online-examination_recruitment-of-security-guards",
+     "notice": "23e54897f3769537886bf48e147f41307ea0f2b11f15032101ff08f4c703136d",
+     "url": "https://www.iob.bank.in/documents/d/guest/pre-examination-training_recruitment-of-security-guards",
      "title": "(View)",
-     "kind": "admit_card",
+     "kind": "schedule",
      "page": 1
-    }
+    },
+    "alternatives": 1
    },
    "payment_deadline": {
     "date": "2026-08-05",
@@ -168,24 +170,24 @@
    }
   },
   "exam_date": {
-   "value": "2026-10-22",
+   "value": "2026-10-12",
    "source": {
-    "notice": "0c6123d100b691b600871a3b78b10d5b51a0cd01e8a539c050ad9bec710cb5ad",
-    "url": "https://www.iob.bank.in/documents/d/guest/notification-for-online-examination_recruitment-of-security-guards",
+    "notice": "23e54897f3769537886bf48e147f41307ea0f2b11f15032101ff08f4c703136d",
+    "url": "https://www.iob.bank.in/documents/d/guest/pre-examination-training_recruitment-of-security-guards",
     "title": "(View)",
-    "kind": "admit_card",
+    "kind": "schedule",
     "page": 1
    }
   },
   "advertisement_no": {
    "value": "HRMD/SS/RECT/01/2026-27",
    "source": {
-    "notice": "1ff33b8289e9fbbfea75a9378f3faf059f5ab9489ea29023f99c0dab93bc5df5",
-    "url": "https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement",
+    "notice": "23e54897f3769537886bf48e147f41307ea0f2b11f15032101ff08f4c703136d",
+    "url": "https://www.iob.bank.in/documents/d/guest/pre-examination-training_recruitment-of-security-guards",
     "title": "(View)",
     "kind": "schedule"
    },
-   "alternatives": 2
+   "alternatives": 3
   },
   "eligibility": {
    "value": {

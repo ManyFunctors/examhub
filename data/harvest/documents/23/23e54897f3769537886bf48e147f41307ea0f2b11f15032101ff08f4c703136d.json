@@ -1,0 +1,56 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "23e54897f3769537886bf48e147f41307ea0f2b11f15032101ff08f4c703136d",
+  "url": "https://www.iob.bank.in/documents/d/guest/pre-examination-training_recruitment-of-security-guards",
+  "title": "(View)",
+  "body": "in-iob",
+  "exam": "in-iob-recruitment",
+  "feed": "in-iob/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "9d2795938684121f2c350dbcd35f348008d59b129aa1928853e22f6907da1f74",
+  "bytes": 63656,
+  "pages": 1,
+  "chars": 923,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T01:47:48+05:30"
+ },
+ "kind": "schedule",
+ "advertisement_no": "HRMD/SS/RECT/01/2026-27",
+ "dates": {
+  "exam_date": {
+   "date": "2026-10-12",
+   "until": "2026-10-17",
+   "evidence": "Reference is invited to our advertisement No. HRMD/SS/RECT/01/2026-27 dated 25.08.2026 on the captioned recruitment process. We hereby inform that the Pre-Exami",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Reference is invited to our advertisement No. HRMD/SS/RECT/01/2026-27 dated 25.08.2026 on the captioned recruitment process. We hereby inform that the Pre-Exami",
+   "key": "exam_date",
+   "date": "2026-10-12",
+   "page": 1,
+   "until": "2026-10-17"
+  }
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.iob.bank.in/",
+   "https://www.iob.bank.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-10-12"
+ }
+}
