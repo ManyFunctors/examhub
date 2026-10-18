@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "exam": "in-fact-recruitment",
+ "name": "FACT Direct Recruitment (non-GATE posts)",
+ "body": "in-fact",
+ "purpose": "recruitment",
+ "cycle": "2020",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "advertisement_no": {
+   "value": "Ad",
+   "source": {
+    "notice": "1359594ff31a852afaea7cc0d1cde18577468e677636bd10ae7a759b2e280fa1",
+    "url": "https://fact.co.in//images/upload/Adtnl-Short-List---Post-Code-06---MT---Chemical---Recruitment-Notification-No.1-2020_769.pdf",
+    "title": "Recruitment Advt 01/2020 - Post Code 06 - Management Trainee (Chemical) - Additional Short List",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}
