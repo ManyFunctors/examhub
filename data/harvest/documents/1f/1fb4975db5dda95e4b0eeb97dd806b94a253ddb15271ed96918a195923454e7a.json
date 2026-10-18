@@ -1,0 +1,79 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1fb4975db5dda95e4b0eeb97dd806b94a253ddb15271ed96918a195923454e7a",
+  "url": "https://indianbank.bank.in/documents/20117/34414/Detailed-advertisement-for-Recruitment-of-Chief-Risk-Officer2026_05_04_16_21_49.pdf/41bc1ad6-c7ea-e40e-b5f6-22c4dc5deec4",
+  "title": "Detailed advertisement for Recruitment of Chief Risk Officer",
+  "body": "in-indian-bank",
+  "exam": "in-indian-bank-recruitment",
+  "feed": "in-indian-bank/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "3f49e1ae9abfd2e885d604c8c16b4502d62257cdb61c1d3a1a26bbaaaec80550",
+  "bytes": 442529,
+  "pages": 6,
+  "chars": 11079,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T21:18:34+05:30"
+ },
+ "kind": "advertisement",
+ "vacancies": {
+  "total": 1,
+  "evidence": "Name of the Post Chief Risk Officer (CRO) Vacancy 1 Nature of employment",
+  "page": 1,
+  "from": "text"
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 1000,
+   "raw": "Age Minimum 40 years and Maximum 57 years as on 01.07. 2022 Application Fee Rs 1000/- (Inclusive of Taxes) Selection procedure  The applications received from the candidates will be screened and shortlisted on the basis of eligibility…",
+   "page": 2
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": " The Bank reserves the right to reject any application not suiting the Bank’s requirements without assigning any reason whatsoever and call only the requisite number of candidates out of those who fulfill the eligibility criteria as may be required for the post",
+    "page": 2
+   },
+   {
+    "text": "Officers working in Indian Bank satisfying the eligibility criteria can also apply for the post",
+    "page": 4
+   },
+   {
+    "text": "The Bank reserves the right to alter, modify or change the eligibility criteria and / or any of the other terms and conditions spelt out in this notice, including criteria for qualifying/method and procedure for selection",
+    "page": 5
+   },
+   {
+    "text": "Only those candidates who fulfill the eligibility criteria will be called for interview and intimated by email",
+    "page": 5
+   },
+   {
+    "text": "Candidates will have to produce original certificates for educational qualifications, experience, age, category etc. at the time of interview, in support of his/her eligibility, as per the details furnished in the application, failing which the candidate will not be allowed for interview and their…",
+    "page": 5
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "summary": {
+  "vacancies": 1,
+  "fee": {
+   "min": 1000,
+   "max": 1000
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Interview"
+ }
+}

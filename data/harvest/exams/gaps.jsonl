@@ -266,7 +266,7 @@
 {"cycle": "2026", "documents": 1, "gaps": ["exam_date"], "id": "in-cbse-class-10"}
 {"cycle": "2026", "documents": 5, "gaps": ["exam_date"], "id": "in-cbse-class-12"}
 {"cycle": "2026", "documents": 3, "gaps": ["exam_date"], "id": "in-cbse-supplementary"}
-{"cycle": "2027", "documents": 4, "gaps": ["fee"], "id": "in-ceed"}
+{"cycle": "2027", "documents": 5, "gaps": ["fee"], "id": "in-ceed"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-cel-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-central-bank-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-cgwb-recruitment"}
@@ -366,7 +366,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-india-post-gds"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "eligibility"], "id": "in-india-post-ldce"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-india-post-mv-driver"}
-{"cycle": "2025", "documents": 14, "gaps": ["exam_date", "fee", "age", "pay"], "id": "in-indian-bank-recruitment"}
+{"cycle": "2025", "documents": 16, "gaps": ["exam_date", "fee", "age", "pay"], "id": "in-indian-bank-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ini-cet"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ini-ss"}
 {"cycle": "2026", "documents": 7, "gaps": ["fee", "age", "pay"], "id": "in-iob-recruitment"}
