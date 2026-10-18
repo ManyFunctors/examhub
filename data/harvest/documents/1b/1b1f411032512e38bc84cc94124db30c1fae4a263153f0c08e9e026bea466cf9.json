@@ -1,0 +1,34 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1b1f411032512e38bc84cc94124db30c1fae4a263153f0c08e9e026bea466cf9",
+  "url": "https://www.ceed.iitb.ac.in/2027/downloads/CEED_2025_Question_Paper.pdf",
+  "title": "Question paper",
+  "body": "in-iitb",
+  "exam": "in-ceed",
+  "feed": "in-iitb/ceed",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "2034a846ef7fe6b030cad0acade36d599b2ccfa0a99e884edb17daba95812c2a",
+  "bytes": 2690938,
+  "pages": 31,
+  "chars": 16552,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-18T15:34:31+05:30"
+ },
+ "kind": "notice",
+ "exam": {
+  "duration": {
+   "value": "The total duration of the examination is 3 hours",
+   "page": 2
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.ceed.iitb.ac.in/QPGIF/CEED2025_GIF/CEED2025_Q20.gif",
+   "https://www.ceed.iitb.ac.in/QPGIF/CEED2025_GIF/CEED2025_Q35.gif"
+  ]
+ }
+}
