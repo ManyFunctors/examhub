@@ -4,27 +4,27 @@
  "name": "NGEL Direct Recruitment (non-GATE posts)",
  "body": "in-ntpc-green",
  "purpose": "recruitment",
- "cycle": "2024",
- "documents": 2,
+ "cycle": "2025",
+ "documents": 3,
  "documents_in_cycle": 1,
  "fields": {
   "dates": {
    "age_as_on": {
-    "date": "2024-10-07",
+    "date": "2025-08-22",
     "source": {
-     "notice": "1506f257c3480ae7912639297a6c0e454640604950b512b6bd71c43ff51a63f0",
-     "url": "https://ngel.in/public/career/1/33db38c53f/1816ee13ee.pdf",
-     "title": "Advertisement Download",
+     "notice": "180855952c9a5ebceb0d3d1f0058e647f456e4a62f6039529c8fb16187ceae0f",
+     "url": "https://ngel.in/public/career/1/a7b5a408b8/a7b5a408b8.pdf",
+     "title": "Advertisement Application Form",
      "kind": "advertisement",
      "page": 1
     }
    },
    "registration_deadline": {
-    "date": "2024-12-11",
+    "date": "2025-08-22",
     "source": {
-     "notice": "1506f257c3480ae7912639297a6c0e454640604950b512b6bd71c43ff51a63f0",
-     "url": "https://ngel.in/public/career/1/33db38c53f/1816ee13ee.pdf",
-     "title": "Advertisement Download",
+     "notice": "180855952c9a5ebceb0d3d1f0058e647f456e4a62f6039529c8fb16187ceae0f",
+     "url": "https://ngel.in/public/career/1/a7b5a408b8/a7b5a408b8.pdf",
+     "title": "Advertisement Application Form",
      "kind": "advertisement",
      "page": 1
     }
@@ -33,12 +33,12 @@
   "apply": {
    "value": {
     "from": null,
-    "until": "2024-12-11"
+    "until": "2025-08-22"
    },
    "source": {
-    "notice": "1506f257c3480ae7912639297a6c0e454640604950b512b6bd71c43ff51a63f0",
-    "url": "https://ngel.in/public/career/1/33db38c53f/1816ee13ee.pdf",
-    "title": "Advertisement Download",
+    "notice": "180855952c9a5ebceb0d3d1f0058e647f456e4a62f6039529c8fb16187ceae0f",
+    "url": "https://ngel.in/public/career/1/a7b5a408b8/a7b5a408b8.pdf",
+    "title": "Advertisement Application Form",
     "kind": "advertisement",
     "page": 1
    }
@@ -46,27 +46,32 @@
   "eligibility": {
    "value": {
     "education_levels": [
-     "Graduate"
+     "Graduate",
+     "Diploma / ITI"
     ],
     "clauses": [
      {
-      "text": "The candidate should have retired at a pay scale of E4 to E8 (AGM) level equivalent of NTPC Ltd. from Public Sector Undertakings or Autonomous Organizations of Central/ State Governments",
+      "text": "Diploma/bachelor’s degree in engineering or equivalent from a recognized University/Institute",
       "page": 1
      },
      {
-      "text": "Candidate must have experience working on materials function in ERP-SAP and must be conversant with raising PR, preparing PO, creation of Vendor Code and other related works",
+      "text": "The candidate should have superannuated at a pay scale of E6-E7 level equivalent of NTPC Ltd. from Public Sector Undertakings or Autonomous Organizations of Central/ State Governments",
       "page": 1
      },
      {
-      "text": "EDUCATIONAL QUALIFICATION Qualification Particulars Subjects Institute / University %, or, CGPA Passing Year A",
-      "page": 2
+      "text": "Candidates must have more than 20 years of Cumulative experience in relevant field i.e., Power Sector, Renewable Energy Projects related activities and be conversant with the Execution, Commissioning and O&M of utility scale Solar/Wind Projects",
+      "page": 1
+     },
+     {
+      "text": "The candidate should have work experience in SAP and e- office system and knowledge of Microsoft Word, Power Point, Excel etc",
+      "page": 1
      }
     ]
    },
    "source": {
-    "notice": "1506f257c3480ae7912639297a6c0e454640604950b512b6bd71c43ff51a63f0",
-    "url": "https://ngel.in/public/career/1/33db38c53f/1816ee13ee.pdf",
-    "title": "Advertisement Download",
+    "notice": "180855952c9a5ebceb0d3d1f0058e647f456e4a62f6039529c8fb16187ceae0f",
+    "url": "https://ngel.in/public/career/1/a7b5a408b8/a7b5a408b8.pdf",
+    "title": "Advertisement Application Form",
     "kind": "advertisement"
    }
   }
@@ -79,5 +84,5 @@
   "pay",
   "selection"
  ],
- "older_documents": 1
+ "older_documents": 2
 }
