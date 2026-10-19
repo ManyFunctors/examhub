@@ -1,0 +1,168 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "27e9cf65c172d245c3f6ff812dfa2aa7ef3e6e018328f592692b85068061aef1",
+  "url": "https://bceceboard.bihar.gov.in/pdf_Pros/PROS_PGDAC26.pdf",
+  "title": "PGDAC",
+  "body": "br-bceceb",
+  "exam": "br-bceceb-pgdac",
+  "feed": "br-bceceb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "4697f66caab312d4672911070284c92b80aef5dfad09152b8ca476f258f0e6b1",
+  "bytes": 4131199,
+  "pages": 32,
+  "chars": 93022,
+  "ocr": false,
+  "indic_share": 0.07,
+  "fetched": "2026-10-19T10:46:44+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-08-20",
+   "evidence": "Choice Filling / Editing of Application Form data (Round-1 & Round-2) ............... : 20.08.2026 iii) Last date of online Registration & submission of Application with payment through Debit Card/ Credit Card/ Net Banking/ UPI by Registere",
+   "page": 11,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 6,
+  "by_category": {
+   "Unreserved": 2,
+   "SC": 1,
+   "ST": 0,
+   "EWS": 1,
+   "br:EBC": 1,
+   "br:BC": 1
+  },
+  "rows": [
+   {
+    "label": "PDC PATNA . . . / ProsthodonticsCrown& Bridge",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 15
+   },
+   {
+    "label": "Oral&MaxilloficialPathology &OralMicrobiology",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 15
+   },
+   {
+    "label": "ConservativeDentistry& Endodontics",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 15
+   },
+   {
+    "label": "OralMedicine&Rediology",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 15
+   },
+   {
+    "label": "Orthodontics&Dentofacial Orthopaedics",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 15
+   }
+  ],
+  "from": "table"
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "(i) The candidates must have passed the BDS Examination from any recognised Dental College of Bihar State included in the schedule of Dental Council of India",
+    "page": 4
+   },
+   {
+    "text": "(iii) The candidates must have completed the rotating Internship on or before 31.05.2026 as per the provision contained in the Information bulletin of NEET(MDS)-2026",
+    "page": 4
+   },
+   {
+    "text": "(iv) The candidates must have obtained Registration from Bihar State Dental Council or Dental Council of India",
+    "page": 4
+   },
+   {
+    "text": "A candidate who is not a permanent resident of Bihar but has passed the BDS Examination from any Dental Colleges of Bihar State included in the Schedule of Dental Council of India, is also eligible",
+    "page": 4
+   },
+   {
+    "text": "* For Eligibility Criteria and other details, required Documents for admission on (DQ) Quota, candidates are advised to see 'Chapter 4: Persons with Benchmark Disabilities (PwBD) of Information Bulleting & Counselling Scheme of NEET-MDS Counselling 2026' which can be seen on MCC Official Website",
+    "page": 9
+   },
+   {
+    "text": "All the certificates included in the list given below, if applicable, must have to upload at the time of downloading his/ her Provisional Seat Allotment Order and have to submit in original by every candidate at the time of Document Verification & Admission process",
+    "page": 11
+   },
+   {
+    "text": "In addition to this, the individual should have a speech discrimination score of more than 60%",
+    "page": 23
+   }
+  ]
+ },
+ "exam": {
+  "negative_marking": {
+   "value": "One-third of the marks assigned for each wrong answer",
+   "page": 5
+  },
+  "duration": {
+   "value": "Duration of MDS courses shall be of 2/3 years duration",
+   "page": 4
+  }
+ },
+ "links": {
+  "other": [
+   "https://bceceboard.bihar.gov.in/"
+  ]
+ },
+ "summary": {
+  "vacancies": 6,
+  "apply": {
+   "until": "2026-08-20"
+  },
+  "education": [
+   "Graduate"
+  ]
+ }
+}
