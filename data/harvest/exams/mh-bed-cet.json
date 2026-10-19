@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "exam": "mh-bed-cet",
+ "name": "MAH B.Ed. / M.Ed. / B.P.Ed. CET",
+ "body": "mh-cet-cell",
+ "purpose": "admission",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}
