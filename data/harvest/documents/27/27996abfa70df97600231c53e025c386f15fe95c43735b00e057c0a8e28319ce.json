@@ -1,0 +1,67 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "27996abfa70df97600231c53e025c386f15fe95c43735b00e057c0a8e28319ce",
+  "url": "https://indianbank.bank.in/documents/20117/34414/Final_Detailed-Advertisement-for-engagement-of-CISO181020242026_05_04_09_02_15.pdf/c715711b-f11f-8a30-6f3c-e2f599545c49",
+  "title": "Detailed Advertisement",
+  "body": "in-indian-bank",
+  "exam": "in-indian-bank-recruitment",
+  "feed": "in-indian-bank/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "62e831396c1a67b8dbc0b00f8d895ac22bdb1c260d89a27eba9c7212e9df17ce",
+  "bytes": 547467,
+  "pages": 5,
+  "chars": 12490,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T09:38:15+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "age_as_on": {
+   "date": "2024-10-01",
+   "evidence": "All certifications / qualifications should be valid as on cut-off date of eligibility i.e. 01.10.2024",
+   "page": 5,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2024-11-02",
+   "evidence": "All eligible and interested candidates should apply in the prescribed application format to reach the address cited above on or before 02.11.2024",
+   "page": 3,
+   "from": "text"
+  }
+ },
+ "age": {
+  "as_on": "2024-10-01",
+  "relaxations": [
+   {
+    "for": "Experience",
+    "years": 15,
+    "raw": "Experience Minimum 15 years in overseeing financial operations preferably financial , information security matters in Banks/ Large Corporates/ PSUs/ FIs/ Financial Services Organizations/ Financial & ",
+    "page": 1
+   }
+  ]
+ },
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "The candidate should have one of the following valid certificates for being eligible for the post:",
+    "page": 1
+   }
+  ]
+ },
+ "selection": [
+  "Interview",
+  "Written examination",
+  "Group discussion",
+  "Preliminary examination"
+ ],
+ "summary": {
+  "apply": {
+   "until": "2024-11-02"
+  },
+  "selection": "Interview → Written examination → Group discussion → Preliminary examination"
+ }
+}
