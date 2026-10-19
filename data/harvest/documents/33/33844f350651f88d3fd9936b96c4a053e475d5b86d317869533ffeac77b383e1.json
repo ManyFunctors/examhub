@@ -1,0 +1,28 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "33844f350651f88d3fd9936b96c4a053e475d5b86d317869533ffeac77b383e1",
+  "url": "https://www.ceed.iitb.ac.in/2027/downloads/CEED2016qp2.pdf",
+  "title": "CEED 2016 Question Paper (Chennai Region)",
+  "body": "in-iitb",
+  "exam": "in-ceed",
+  "feed": "in-iitb/ceed",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "5be7c723487f2ee76dcdf1cc51062cdcbad11dea6bab6fbee4dbe041abc4fc65",
+  "bytes": 1637366,
+  "pages": 24,
+  "chars": 23865,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T02:12:01+05:30"
+ },
+ "kind": "notice",
+ "exam": {
+  "duration": {
+   "value": "The examination is of 3 hours duration",
+   "page": 2
+  }
+ }
+}

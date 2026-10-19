@@ -1,0 +1,28 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "33cce9031d57f5537531ea8c2e119c0c1b40f83d4c2c921b3c3b0c5f95e31e0e",
+  "url": "https://keralapsc.gov.in/sites/default/files/inline-files/report_for_publ.pdf",
+  "title": "Standardization procedure for Degree Level Common Preliminary Examinations, 2023.",
+  "body": "kl-kpsc",
+  "exam": "kl-kpsc-common-prelims",
+  "feed": "kl-kpsc/psc-examination-updates",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "854ee025411039f92420c95f157dd7d924aea9837b5d024d0206d36f2fdfdf61",
+  "bytes": 43904,
+  "pages": 5,
+  "chars": 5663,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T02:11:59+05:30"
+ },
+ "kind": "result",
+ "exam": {
+  "negative_marking": {
+   "value": "One-fourth of the marks assigned for each wrong answer",
+   "page": 2
+  }
+ }
+}
