@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2d42bf005c317434c6a70e2b42c63e0d8828b953e14286770de727998f683bb9",
+  "url": "https://appsc.gov.in/upload/RECINS001/appsc_notification.pdf",
+  "title": "APPSCCE(Mains)-2020 NOTIFICATION",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "6aafee16ac735b1ccd33426ed1e4aae02ee37a58d2b241655fb0bea9aa68989a",
+  "bytes": 1346366,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T20:40:14+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

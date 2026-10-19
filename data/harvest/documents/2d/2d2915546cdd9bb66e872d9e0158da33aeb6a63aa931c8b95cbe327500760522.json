@@ -1,0 +1,688 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2d2915546cdd9bb66e872d9e0158da33aeb6a63aa931c8b95cbe327500760522",
+  "url": "https://www.iob.bank.in/documents/d/guest/iobapprentices_web_ad_final_28082024",
+  "title": "Advertisement - (View)",
+  "body": "in-iob",
+  "exam": "in-iob-recruitment",
+  "feed": "in-iob/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "23fe8b06e4b8cffe22d690673772a4090d189e46608c488a0b8b2903f1af364a",
+  "bytes": 431893,
+  "pages": 15,
+  "chars": 43069,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T20:40:10+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "HRDD/APPR/01/2024-25",
+ "dates": {
+  "registration_open": {
+   "date": "2024-08-28",
+   "evidence": "Interested candidates who fulfil the eligibility criteria may apply online from 28.08.2024 to 10.09.2024 by visiting the website www.iob.in under careers page and click \"Apply Online\" under Engagement of Apprentices (The application link op",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2024-09-10",
+   "evidence": "Interested candidates who fulfil the eligibility criteria may apply online from 28.08.2024 to 10.09.2024 by visiting the website www.iob.in under careers page and click \"Apply Online\" under Engagement of Apprentices (The application link op",
+   "page": 1,
+   "from": "text"
+  },
+  "exam_date": {
+   "date": "2024-09-22",
+   "evidence": "Payment of Application Fee 28.08.2024 to 15.09.2024 Online Examination Date (Tentative)",
+   "page": 1,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2024-09-15",
+   "evidence": "Payment of Application Fee 28.08.2024 to 15.09.2024 Online Examination Date (Tentative)",
+   "page": 1,
+   "from": "text"
+  },
+  "age_as_on": {
+   "date": "2024-08-01",
+   "evidence": "AGE Minimum 20 years and Maximum 28 years as on cut-off date viz. 01.08.2024 for General Category and EWS Candidates, the Date of Birth should fall",
+   "page": 4,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 22,
+  "by_category": {
+   "Unreserved": 284,
+   "OBC": 118,
+   "SC": 78,
+   "ST": 26,
+   "EWS": 44,
+   "PwBD": 11
+  },
+  "rows": [
+   {
+    "label": "ANDAMANAND NICOBARISL .",
+    "total": 0,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 1,
+     "PwBD": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "ANDHRAPRADESH",
+    "total": 1,
+    "by_category": {
+     "SC": 3,
+     "ST": 1,
+     "OBC": 5,
+     "EWS": 2,
+     "Unreserved": 11,
+     "PwBD": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "ARUNACHALPRADESH",
+    "total": 0,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 1,
+     "PwBD": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "ASSAM",
+    "total": 0,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 2,
+     "PwBD": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BIHAR",
+    "total": 0,
+    "by_category": {
+     "SC": 1,
+     "ST": 0,
+     "OBC": 2,
+     "EWS": 1,
+     "Unreserved": 7,
+     "PwBD": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "CHANDIGARH",
+    "total": 0,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 2,
+     "PwBD": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "CHATTISGARH",
+    "total": 0,
+    "by_category": {
+     "SC": 0,
+     "ST": 2,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 5,
+     "PwBD": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "DAMANANDDIU",
+    "total": 0,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 1,
+     "PwBD": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "DELHI",
+    "total": 2,
+    "by_category": {
+     "SC": 5,
+     "ST": 2,
+     "OBC": 9,
+     "EWS": 3,
+     "Unreserved": 17,
+     "PwBD": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "GUJARAT",
+    "total": 1,
+    "by_category": {
+     "SC": 1,
+     "ST": 3,
+     "OBC": 5,
+     "EWS": 2,
+     "Unreserved": 11,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GOA",
+    "total": 0,
+    "by_category": {
+     "SC": 0,
+     "ST": 1,
+     "OBC": 1,
+     "EWS": 0,
+     "Unreserved": 7,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "HIMACHALPRADESH",
+    "total": 0,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 3,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "HARYANA",
+    "total": 0,
+    "by_category": {
+     "SC": 2,
+     "ST": 0,
+     "OBC": 2,
+     "EWS": 1,
+     "Unreserved": 6,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "JAMMUANDKASHMIR",
+    "total": 0,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 1,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "JHARKHAND",
+    "total": 0,
+    "by_category": {
+     "SC": 0,
+     "ST": 1,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 6,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "KARNATAKA",
+    "total": 2,
+    "by_category": {
+     "SC": 8,
+     "ST": 3,
+     "OBC": 13,
+     "EWS": 5,
+     "Unreserved": 21,
+     "PwBD": 2
+    },
+    "page": 2
+   },
+   {
+    "label": "KERALA",
+    "total": 1,
+    "by_category": {
+     "SC": 2,
+     "ST": 0,
+     "OBC": 6,
+     "EWS": 2,
+     "Unreserved": 15,
+     "PwBD": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "MANIPUR",
+    "total": 0,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 1,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "MEGHALAYA",
+    "total": 0,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 1,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "MAHARASHTRA",
+    "total": 2,
+    "by_category": {
+     "SC": 2,
+     "ST": 2,
+     "OBC": 7,
+     "EWS": 2,
+     "Unreserved": 16,
+     "PwBD": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "MIZORAM",
+    "total": 0,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 1,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "MADHYAPRADESH",
+    "total": 0,
+    "by_category": {
+     "SC": 1,
+     "ST": 2,
+     "OBC": 1,
+     "EWS": 1,
+     "Unreserved": 7,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "NAGALAND",
+    "total": 0,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 1,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "ORISSA",
+    "total": 1,
+    "by_category": {
+     "SC": 3,
+     "ST": 4,
+     "OBC": 2,
+     "EWS": 1,
+     "Unreserved": 9,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "PUNJAB",
+    "total": 1,
+    "by_category": {
+     "SC": 4,
+     "ST": 0,
+     "OBC": 3,
+     "EWS": 1,
+     "Unreserved": 8,
+     "PwBD": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "PONDICHERRY",
+    "total": 0,
+    "by_category": {
+     "SC": 2,
+     "ST": 0,
+     "OBC": 3,
+     "EWS": 1,
+     "Unreserved": 8,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "RAJASTHAN",
+    "total": 0,
+    "by_category": {
+     "SC": 2,
+     "ST": 1,
+     "OBC": 2,
+     "EWS": 1,
+     "Unreserved": 7,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "SIKKIM",
+    "total": 0,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 1,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "TELANGANA",
+    "total": 2,
+    "by_category": {
+     "SC": 4,
+     "ST": 2,
+     "OBC": 7,
+     "EWS": 2,
+     "Unreserved": 14,
+     "PwBD": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "TAMILNADU",
+    "total": 6,
+    "by_category": {
+     "SC": 24,
+     "ST": 1,
+     "OBC": 35,
+     "EWS": 13,
+     "Unreserved": 57,
+     "PwBD": 3
+    },
+    "page": 2
+   },
+   {
+    "label": "TRIPURA",
+    "total": 0,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 2,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "UTTARAKHAND",
+    "total": 0,
+    "by_category": {
+     "SC": 1,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 6,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "UTTARPRADESH",
+    "total": 2,
+    "by_category": {
+     "SC": 8,
+     "ST": 0,
+     "OBC": 11,
+     "EWS": 4,
+     "Unreserved": 18,
+     "PwBD": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "WESTBENGAL",
+    "total": 1,
+    "by_category": {
+     "SC": 5,
+     "ST": 1,
+     "OBC": 4,
+     "EWS": 2,
+     "Unreserved": 10,
+     "PwBD": 0
+    },
+    "page": 2
+   }
+  ],
+  "from": "table"
+ },
+ "age": {
+  "as_on": "2024-08-01",
+  "relaxations": [
+   {
+    "for": "ScheduledCaste/ScheduledTribeCandidates",
+    "years": 5,
+    "raw": "1 ScheduledCaste/ScheduledTribeCandidates 5years",
+    "page": 4
+   },
+   {
+    "categories": [
+     "OBC-NCL"
+    ],
+    "for": "Other Backward Classes (Non-Creamy Layer) Candidates",
+    "years": 3,
+    "raw": "2 Other Backward Classes (Non-Creamy Layer) Candidates 3years",
+    "page": 4
+   },
+   {
+    "for": "PersonswithBenchmarkDisabilitiesasdefinedunder“The RightsofPersonswithDisabilitiesAct 2016” ,",
+    "years": 10,
+    "raw": "3 PersonswithBenchmarkDisabilitiesasdefinedunder“The RightsofPersonswithDisabilitiesAct 2016” , 10years",
+    "page": 4
+   },
+   {
+    "for": "Personsaffectedby1984riots",
+    "years": 5,
+    "raw": "4 Personsaffectedby1984riots 5years",
+    "page": 4
+   },
+   {
+    "categories": [
+     "Widow",
+     "Divorcee",
+     "Women"
+    ],
+    "for": "Widows divorced women and women legally separated , fromtheirhusbandswhohavenotremarried",
+    "years": 35,
+    "raw": "5 Widows divorced women and women legally separated , fromtheirhusbandswhohavenotremarried Upto35yearsfor General/EWS 38yearsfor , OBCand40yearsforSC/ST candidates",
+    "page": 4
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Class 10"
+  ],
+  "clauses": [
+   {
+    "text": "Interested candidates who fulfil the eligibility criteria may apply online from 28.08.2024 to 10.09.2024 by visiting the website www.iob.in under careers page and click “Apply Online” under Engagement of Apprentices (The application link open website of BFSI SSC of India) or www.bfsissc.com",
+    "page": 1
+   },
+   {
+    "text": "Before applying, candidates are advised to read this advertisement carefully and ensure that they fulfill the stipulated eligibility criteria",
+    "page": 1
+   },
+   {
+    "text": "Please note that the eligibility criteria specified herein are the basic criteria for applying for the post",
+    "page": 3
+   },
+   {
+    "text": "Candidates must necessarily produce the relevant documents pertaining to category, nationality, age, educational qualifications etc. in original along with a photocopy thereof in support of their identity and eligibility as indicated in the online application form",
+    "page": 3
+   },
+   {
+    "text": "AGE & EDUCATIONAL QUALIFICATION (AS ON 01.08.2024)",
+    "page": 4
+   },
+   {
+    "text": "All the eligibility criteria (Age & Educational Qualification) shall be computed as on 01.08.2024",
+    "page": 4
+   },
+   {
+    "text": "The required Age and Educational Qualification are detailed below:",
+    "page": 4
+   },
+   {
+    "text": "Educational Qualification A Degree (Graduation) in any discipline from a University recognized by the Govt. of India or any equivalent qualifications recognized as such by the Central Government",
+    "page": 4
+   },
+   {
+    "text": "The result of the qualification must have been declared between 01.04.2020 and 01.08.2024 wherein both the dates are inclusive and candidate must produce Mark Sheets and Provisional / Degree Certificate issued from the University / College as and when required by the Bank",
+    "page": 4
+   },
+   {
+    "text": "The candidate should possess a",
+    "page": 4
+   },
+   {
+    "text": "The candidates can apply subject to fulfilment of eligibility criteria",
+    "page": 10
+   },
+   {
+    "text": "f) Candidate, who had training or job experience for a period of one year or more after completing the educational qualifications, shall not be eligible for being engaged as Apprentices",
+    "page": 11
+   },
+   {
+    "text": "e) Candidates who had training or job experience for a period of one year or more after the attainment of requisite educational qualification (i.e., graduation), shall NOT be eligible for being engaged as Apprentices",
+    "page": 13
+   },
+   {
+    "text": "Before applying, the candidates must ensure that he/she fulfills all the eligibility criteria and other norms mentioned in the advertisement and has in his/her possession the requisite documents and certificates specified by the Bank, and that the particulars furnished in the Online application…",
+    "page": 14
+   }
+  ]
+ },
+ "selection": [
+  "Computer-based test",
+  "Written examination"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "General/financialawareness",
+   "page": 9,
+   "questions": 25,
+   "marks": 25
+  },
+  {
+   "paper": "GeneralEnglish",
+   "page": 9,
+   "questions": 25,
+   "marks": 25
+  },
+  {
+   "paper": "Quantitativeandreasoningaptitude",
+   "page": 9,
+   "questions": 25,
+   "marks": 25
+  },
+  {
+   "paper": "Computerorsubjectknowledge",
+   "page": 9,
+   "questions": 25,
+   "marks": 25
+  },
+  {
+   "paper": "Total",
+   "page": 9,
+   "questions": 100,
+   "marks": 100
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  },
+  "duration": {
+   "value": "Total 100 100 Total duration of examination will be 90 minutes",
+   "page": 9
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.iob.in",
+   "https://www.bfsissc.com",
+   "https://nats.education.gov.in"
+  ]
+ },
+ "summary": {
+  "vacancies": 22,
+  "apply": {
+   "from": "2024-08-28",
+   "until": "2024-09-10"
+  },
+  "exam_date": "2024-09-22",
+  "education": [
+   "Graduate",
+   "Class 10"
+  ],
+  "selection": "Computer-based test → Written examination"
+ }
+}
