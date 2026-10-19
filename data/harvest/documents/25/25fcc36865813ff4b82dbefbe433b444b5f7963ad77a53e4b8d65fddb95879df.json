@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "25fcc36865813ff4b82dbefbe433b444b5f7963ad77a53e4b8d65fddb95879df",
+  "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat - hs આંકડાશાસ્ત્ર_022026.pdf",
+  "title": "TAT - HS આંકડાશાસ્ત્ર",
+  "body": "gj-seb",
+  "exam": "gj-tat",
+  "feed": "gj-seb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "1ebb9c9e1a6d20d853b255920e57d5013ddf54316555805b6655a8522a24e7b3",
+  "bytes": 607197,
+  "pages": 18,
+  "chars": 34,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T06:56:15+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
