@@ -1,0 +1,359 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "27ed295fb3f7e9b5f437935e3de0602e96c00e8d957b63fbeeca397212f02a32",
+  "url": "https://bceceboard.bihar.gov.in/pdf_Seat/PGDAC26_SM_R3.pdf",
+  "title": "Seat Matrix for PGDAC-2026 Round-3",
+  "body": "br-bceceb",
+  "exam": "br-bceceb-pgdac",
+  "feed": "br-bceceb/home",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "f4b397aa87a4f52d35998237d46c2c9278a2d005a9999aac3e7d762c4d5376e3",
+  "bytes": 392923,
+  "pages": 1,
+  "chars": 2387,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T11:22:31+05:30"
+ },
+ "kind": "notice",
+ "unmapped_classes": [
+  {
+   "label": "FUR -",
+   "page": 1
+  },
+  {
+   "label": "FSC -",
+   "page": 1
+  },
+  {
+   "label": "FST -",
+   "page": 1
+  },
+  {
+   "label": "FBC -",
+   "page": 1
+  },
+  {
+   "label": "FEBC -",
+   "page": 1
+  },
+  {
+   "label": "RCG",
+   "page": 1
+  },
+  {
+   "label": "FEWS -",
+   "page": 1
+  },
+  {
+   "label": "DQ",
+   "page": 1
+  }
+ ],
+ "vacancies": {
+  "total": 44,
+  "by_category": {
+   "Unreserved": 43,
+   "SC": 0,
+   "ST": 0,
+   "EWS": 0,
+   "br:EBC": 0,
+   "br:BC": 0
+  },
+  "rows": [
+   {
+    "label": "PDC PATNA . . . / CONSERVATIVEDENTISTRY&ENDODONTICS",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PDC PATNA . . . / ORAL&MAXILLOFACIALPATHOLOGYANDORALMICROBIOLOGY",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PDC PATNA . . . / ORALMEDICINE&RADIOLOGY",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PDC PATNA . . . / ORTHODONTICS&DENTOFACIALORTHOPAEDICS",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "PDC PATNA . . . / PROSTHODONTICS CROWNANDBRIDGE",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BUDDHAINST OFDENTALSCIENCE&HOSPITAL . / CONSERVATIVEDENTISTRY&ENDODONTICS",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BUDDHAINST OFDENTALSCIENCE&HOSPITAL . / ORAL&MAXILLOFICIALSURGERY",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BUDDHAINST OFDENTALSCIENCE&HOSPITAL . / ORALMEDICINE&RADIOLOGY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BUDDHAINST OFDENTALSCIENCE&HOSPITAL . / ORALPATHOLOGY&MICROBIOLOGY",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BUDDHAINST OFDENTALSCIENCE&HOSPITAL . / ORTHODONTICS&DENTOFACIALORTHOPAEDICS",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BUDDHAINST OFDENTALSCIENCE&HOSPITAL . / PAEDIATRIC&PREVENTIVEDENTISTRY",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BUDDHAINST OFDENTALSCIENCE&HOSPITAL . / PERIODONTOLOGY",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BUDDHAINST OFDENTALSCIENCE&HOSPITAL . / PROSTHODONTICS CROWNANDBRIDGE",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BUDDHAINST OFDENTALSCIENCE&HOSPITAL . / PUBLICHEALTHDENTISTRY",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "MITHILAMINORITYDENTALCOLLEGE&HOSPITAL / CONSERVATIVEDENTISTRY&ENDODONTICS",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "MITHILAMINORITYDENTALCOLLEGE&HOSPITAL / ORAL&MAXILLOFICIALSURGERY",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "MITHILAMINORITYDENTALCOLLEGE&HOSPITAL / ORALMEDICINE&RADIOLOGY",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "MITHILAMINORITYDENTALCOLLEGE&HOSPITAL / ORTHODONTICS&DENTOFACIALORTHOPAEDICS",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "MITHILAMINORITYDENTALCOLLEGE&HOSPITAL / PAEDIATRIC&PREVENTIVEDENTISTRY",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "MITHILAMINORITYDENTALCOLLEGE&HOSPITAL / PERIODONTOLOGYANDORALIMPLANTOLOGY",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "MITHILAMINORITYDENTALCOLLEGE&HOSPITAL / PROSTHODONTICS CROWNANDBRIDGE",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "MITHILAMINORITYDENTALCOLLEGE&HOSPITAL / PUBLICHEALTHDENTISTRY",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "summary": {
+  "vacancies": 44
+ }
+}

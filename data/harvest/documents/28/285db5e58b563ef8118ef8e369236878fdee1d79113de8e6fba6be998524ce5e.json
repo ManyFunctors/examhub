@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "285db5e58b563ef8118ef8e369236878fdee1d79113de8e6fba6be998524ce5e",
+  "url": "https://www.sebexam.org/AdvertiseFiles/2026/nmms-2026 english medium qp_012026.pdf",
+  "title": "English MEDIUM Set A PAPER",
+  "body": "gj-seb",
+  "exam": "gj-nmms-pse",
+  "feed": "gj-seb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "3997b89d56c71d93660492f8244679fc46f768c06ea65e03780108308d4d91d1",
+  "bytes": 2603279,
+  "pages": 32,
+  "chars": 62,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T11:22:31+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

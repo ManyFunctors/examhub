@@ -1,0 +1,173 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "27ec0425fff9401f0d5774f73bd749932b4e1b6c19c8a80453b154a5b8324326",
+  "url": "https://www.iob.bank.in/documents/d/guest/recruitment_of_fire_officers_specialist_in_jmg_scale-i_2023-24",
+  "title": "View (Content: English | Format: PDF | View/Download | Size",
+  "body": "in-iob",
+  "exam": "in-iob-recruitment",
+  "feed": "in-iob/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "c2b69bad5cd6713c197699194f12bc74a99003cd80d558699dba4c379d44085f",
+  "bytes": 185832,
+  "pages": 15,
+  "chars": 41558,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T11:22:32+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "HRDD/RECT/01/2023-24",
+ "dates": {
+  "registration_open": {
+   "date": "2023-08-09",
+   "evidence": "ACTIVITIES DATES Payment of Application Fee / Intimation Charges 09.08.2023 to 25.08.2023 Opening Date of Online Registration",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2023-08-25",
+   "evidence": "ACTIVITIES DATES Payment of Application Fee / Intimation Charges 09.08.2023 to 25.08.2023 Opening Date of Online Registration",
+   "page": 1,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2023-08-25",
+   "evidence": "ACTIVITIES DATES Payment of Application Fee / Intimation Charges 09.08.2023 to 25.08.2023 Opening Date of Online Registration",
+   "page": 1,
+   "from": "text"
+  },
+  "age_as_on": {
+   "date": "2023-08-01",
+   "evidence": "iii.AGE (AS ON 01.08.2023) All the eligibility criteria (Age, Educational Qualification and Post Qualification Work Experience etc.)",
+   "page": 4,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 1,
+  "by_category": {
+   "Unreserved": 1
+  },
+  "rows": [
+   {
+    "label": "Assistant Manager Fire – Officer / JMGS I -",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "age": {
+  "as_on": "2023-08-01",
+  "relaxations": [
+   {
+    "for": "Personsaffectedby1984riots",
+    "years": 5,
+    "raw": "1 Personsaffectedby1984riots 5years",
+    "page": 4
+   },
+   {
+    "years": 5,
+    "raw": "2 Ex-servicemen Commissioned Officers including ECOs/ SSCOs who , , , haverenderedatleast5yearsmilitaryserviceandhavebeenreleased oncompletionofassignment(includingthosewhoseassignmentisdue tobecomple",
+    "page": 4
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Interested candidates who fulfil the eligibility criteria may apply online from 09.08.2023 to",
+    "page": 1
+   },
+   {
+    "text": "Before applying, candidates are advised to read this advertisement carefully and ensure that they fulfill the stipulated eligibility criteria",
+    "page": 1
+   },
+   {
+    "text": "Please note that the eligibility criteria specified herein are the basic criteria for applying for the post",
+    "page": 2
+   },
+   {
+    "text": "Candidates must necessarily produce the relevant documents pertaining to category, nationality, age, educational qualifications, work experience, etc. in original along with a photocopy thereof in support of their identity and eligibility as indicated in the online application form",
+    "page": 2
+   },
+   {
+    "text": "EDUCATIONAL QUALIFICATION & POST QUALIFICATION WORK EXPERIENCE (AS ON 01.08.2023) Educational Qualifications, Post Qualification Work Experience, Skills required & Nature of Duties to be performed are detailed below",
+    "page": 3
+   },
+   {
+    "text": "Post Code/ Name of the Post(s) Vacancy Nature of Duties to be performed Educational Qualifications Post Qualification Work Experience Skills Required",
+    "page": 3
+   },
+   {
+    "text": "If educational qualification is B.E (Fire Engineering) from National Fire Services College, Nagpur or Divisional Officer Course from National Fire Service College, Nagpur:",
+    "page": 3
+   },
+   {
+    "text": "If educational qualification is B.E (Fire Engineering)/ B.Tech (Safety & Fire Engineering/ B.Tech (Fire Technology & Safety Engineering) from a University / Institution recognized by Government of India other than those specified in point ‘a’:",
+    "page": 3
+   },
+   {
+    "text": "Candidate should have knowledge in,  Fire safety norms and state / central government rules and regulations in fire safety and security",
+    "page": 3
+   },
+   {
+    "text": "iii.AGE (AS ON 01.08.2023) All the eligibility criteria (Age, Educational Qualification and Post Qualification Work Experience etc.)",
+    "page": 4
+   },
+   {
+    "text": "The candidates can apply for the post, subject to fulfilment of eligibility criteria",
+    "page": 7
+   },
+   {
+    "text": "Consolidated Mark sheets & relevant certificates for educational qualifications",
+    "page": 9
+   },
+   {
+    "text": "g) Before applying, the candidates must ensure that he/she fulfills all the eligibility criteria and other norms mentioned in the advertisement and has in his/her possession the requisite documents and certificates specified by the Bank, and that the particulars furnished in the Online application…",
+    "page": 12
+   }
+  ]
+ },
+ "selection": [
+  "Computer-based test",
+  "Interview",
+  "Preliminary examination"
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.iob.in",
+   "https://www.iob.in”"
+  ]
+ },
+ "summary": {
+  "vacancies": 1,
+  "apply": {
+   "from": "2023-08-09",
+   "until": "2023-08-25"
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Computer-based test → Interview → Preliminary examination"
+ }
+}
