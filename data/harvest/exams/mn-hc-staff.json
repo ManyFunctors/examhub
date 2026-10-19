@@ -5,7 +5,7 @@
  "body": "mn-hc",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 2,
+ "documents": 3,
  "documents_in_cycle": 1,
  "fields": {
   "dates": {
@@ -32,16 +32,69 @@
     "kind": "corrigendum",
     "page": 1
    }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Postgraduate",
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "Tech. in Computer Science/rT Masters Degree in Computer Science/IT, OR or B.E./B",
+      "page": 2
+     },
+     {
+      "text": "Every candidate must have attained the age of 18 (Eighteen) Years and not more than:",
+      "page": 2
+     }
+    ]
+   },
+   "source": {
+    "notice": "1a13a308ba2130211b351ef92d11d0ea2fac28c10d525dcf94e4169f2b777853",
+    "url": "https://hcmimphal.nic.in/Documents/System Assistant.pdf",
+    "title": "Advertisement regarding online application for filling up the post (System Assistant) in the High Court of Manipur.",
+    "kind": "advertisement"
+   },
+   "carried_from": "2025"
+  },
+  "selection": {
+   "value": [
+    "Written examination",
+    "Interview"
+   ],
+   "source": {
+    "notice": "1a13a308ba2130211b351ef92d11d0ea2fac28c10d525dcf94e4169f2b777853",
+    "url": "https://hcmimphal.nic.in/Documents/System Assistant.pdf",
+    "title": "Advertisement regarding online application for filling up the post (System Assistant) in the High Court of Manipur.",
+    "kind": "advertisement"
+   },
+   "carried_from": "2025"
+  },
+  "pay": {
+   "value": [
+    {
+     "low": 25500,
+     "high": 81100,
+     "text": "₹25,500–81,100",
+     "evidence": "No. of Posts 0 -OTAL (M) t (MP) Name of the Post Scale of Pay Level – 5 (Rs. 25500 - Rs 81100) of MS(RP),2019 per month plus other allowances as admissible under the Rules System Assistant 3 to 0 7 1 Important Dates:",
+     "page": 1
+    }
+   ],
+   "source": {
+    "notice": "1a13a308ba2130211b351ef92d11d0ea2fac28c10d525dcf94e4169f2b777853",
+    "url": "https://hcmimphal.nic.in/Documents/System Assistant.pdf",
+    "title": "Advertisement regarding online application for filling up the post (System Assistant) in the High Court of Manipur.",
+    "kind": "advertisement"
+   },
+   "carried_from": "2025"
   }
  },
  "gaps": [
   "vacancies",
   "exam_date",
   "fee",
-  "age",
-  "pay",
-  "eligibility",
-  "selection"
+  "age"
  ],
- "older_documents": 1
+ "older_documents": 2
 }

@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1a13a308ba2130211b351ef92d11d0ea2fac28c10d525dcf94e4169f2b777853",
+  "url": "https://hcmimphal.nic.in/Documents/System Assistant.pdf",
+  "title": "Advertisement regarding online application for filling up the post (System Assistant) in the High Court of Manipur.",
+  "body": "mn-hc",
+  "exam": "mn-hc-staff",
+  "feed": "mn-hc/recruitment",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "55e1ff2f0a03933f69d92a38be59f8d217c669ddc1b60a0b730fb859633fb92c",
+  "bytes": 3117403,
+  "pages": 5,
+  "chars": 10006,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T10:11:30+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "registration_deadline": {
+   "date": "2025-12-03",
+   "evidence": "18.11.2025 (11:OO A.M.) > Closing of Online Registration and Submission of Application Forms:",
+   "page": 1,
+   "from": "text"
+  },
+  "age_as_on": {
+   "date": "2025-12-03",
+   "evidence": "age of 18 (Eighteen) Years and not more than: a) 43 (Forty three) Years as on the last date | 18.11.2025 (11:OO A.M.) > Closing of Online Registration and Submission of Application Forms:",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "age": {
+  "as_on": "2025-12-03"
+ },
+ "pay": [
+  {
+   "low": 25500,
+   "high": 81100,
+   "text": "₹25,500–81,100",
+   "evidence": "No. of Posts 0 -OTAL (M) t (MP) Name of the Post Scale of Pay Level – 5 (Rs. 25500 - Rs 81100) of MS(RP),2019 per month plus other allowances as admissible under the Rules System Assistant 3 to 0 7 1 Important Dates:",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Tech. in Computer Science/rT Masters Degree in Computer Science/IT, OR or B.E./B",
+    "page": 2
+   },
+   {
+    "text": "Every candidate must have attained the age of 18 (Eighteen) Years and not more than:",
+    "page": 2
+   }
+  ]
+ },
+ "selection": [
+  "Written examination",
+  "Interview"
+ ],
+ "links": {
+  "other": [
+   "https://www.hcmimphal.nic.in",
+   "https://www.hcrnimphal.nic.in",
+   "https://www.hcnlimphal.nic.in",
+   "https://www.hcmimphai.nic.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2025-12-03"
+  },
+  "pay": "₹25,500–81,100",
+  "education": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "selection": "Written examination → Interview"
+ }
+}
