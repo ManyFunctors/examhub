@@ -1,0 +1,35 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3403504be1436a838b629354db2834e3feba0daf1ed086b9a815155bcfd58eb9",
+  "url": "https://www.nestexam.in/qnsans/NEST-2023-Session-1.pdf",
+  "title": "2024 2023 2022 2021 2020 2019",
+  "body": "in-niser",
+  "exam": "in-nest",
+  "feed": "in-niser/nest",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "b56600233f87022c111e32b8469dd83889c9e08145d3f4e85d27a3c0cd05c1d2",
+  "bytes": 6346357,
+  "pages": 66,
+  "chars": 26251,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T03:10:58+05:30"
+ },
+ "kind": "answer_key",
+ "schedule": [
+  {
+   "event": "Question Paper Name :",
+   "date": "2023-06-24",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "duration": {
+   "value": "41466418 Group Maximum Duration :",
+   "page": 2
+  }
+ }
+}
