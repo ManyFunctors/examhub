@@ -1,0 +1,139 @@
+{
+ "schema": 1,
+ "exam": "od-ojee",
+ "name": "Odisha Joint Entrance Examination",
+ "body": "od-ojee",
+ "purpose": "admission",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 398,
+    "by_category": {
+     "Unreserved": 126,
+     "SC": 54,
+     "ST": 114
+    },
+    "rows": [
+     {
+      "label": "Govt AyurvedaCollege Bolangir . , / BAMS / -",
+      "total": 20,
+      "by_category": {
+       "ST": 7,
+       "SC": 3,
+       "Unreserved": 6
+      },
+      "page": 1
+     },
+     {
+      "label": "KATS AyurvedaCollege Ankuspur . . . . , , Ganjam / BAMS / -",
+      "total": 23,
+      "by_category": {
+       "ST": 5,
+       "SC": 3,
+       "Unreserved": 9
+      },
+      "page": 1
+     },
+     {
+      "label": "GopabandhuAyurveda Mahavidyalaya Puri , / BAMS / -",
+      "total": 13,
+      "by_category": {
+       "ST": 4,
+       "SC": 1,
+       "Unreserved": 6
+      },
+      "page": 1
+     },
+     {
+      "label": "SriSriCollegeofAyurvedicScience andResearchHospital Arilo Cuttack , , / BAMS",
+      "total": 50,
+      "by_category": {
+       "ST": 13,
+       "SC": 6,
+       "Unreserved": 13
+      },
+      "page": 1
+     },
+     {
+      "label": "SSNAyurvedicCollegePaikmal , / BAMS",
+      "total": 41,
+      "by_category": {
+       "ST": 10,
+       "SC": 6,
+       "Unreserved": 10
+      },
+      "page": 1
+     },
+     {
+      "label": "BijuPattanaikHomoeopathicMedical CollegeandHospital Berhampur , / BHMS / -",
+      "total": 11,
+      "by_category": {
+       "ST": 4,
+       "SC": 1,
+       "Unreserved": 4
+      },
+      "page": 1
+     },
+     {
+      "label": "DrAbhinChandraHomoeopathic MedicalCollegeandHospital , Bhubaneswar / BHMS / -",
+      "total": 25,
+      "by_category": {
+       "ST": 7,
+       "SC": 5,
+       "Unreserved": 8
+      },
+      "page": 1
+     },
+     {
+      "label": "OdishaMedicalCollegeof HomoeopathyandResearch , Sambalpur / BHMS / -",
+      "total": 7,
+      "by_category": {
+       "ST": 3,
+       "SC": 2,
+       "Unreserved": 2
+      },
+      "page": 1
+     },
+     {
+      "label": "UtkalmaniHomoeopathicMedical CollegeandHospital Rourkela , / BHMS / -",
+      "total": 9,
+      "by_category": {
+       "ST": 4,
+       "SC": 0,
+       "Unreserved": 5
+      },
+      "page": 1
+     },
+     {
+      "label": "GRANDTOTAL",
+      "total": 199,
+      "by_category": {
+       "ST": 57,
+       "SC": 27,
+       "Unreserved": 63
+      },
+      "page": 1
+     }
+    ],
+    "from": "table"
+   },
+   "source": {
+    "notice": "30a4c2d741188e40cde1d64d0fe48b1e0bb3068d011533b26539f654aeaf9b35",
+    "url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/10/20261009826731220.pdf",
+    "title": "Vacancy Seat matrix of BAMS/BHMS after Round 1, OJEE-2026",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}
