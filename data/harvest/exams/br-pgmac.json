@@ -5,8 +5,8 @@
  "body": "br-bceceb",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 12,
- "documents_in_cycle": 12,
+ "documents": 13,
+ "documents_in_cycle": 13,
  "fields": {
   "vacancies": {
    "value": {
@@ -627,7 +627,7 @@
     "title": "Seat Matrix for Stray Vacancy Round of UGMAC-2026",
     "kind": "advertisement"
    },
-   "alternatives": 3
+   "alternatives": 4
   },
   "dates": {
    "payment_deadline": {
@@ -643,36 +643,37 @@
    "registration_deadline": {
     "date": "2026-10-28",
     "source": {
-     "notice": "63ca9594ebc8684c8953dd1e2bd2ac933b26e9be479f597e4ecc792d659f413d",
-     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGMAC26_01.pdf",
-     "title": "Details for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/01 Dated 18.10.2026)",
+     "notice": "715a35128e77a7e1d17c1519e17f71e43c98bd7a2d6359462785887248f2b723",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Pros/PROS_PGMAC26.pdf",
+     "title": "PGMAC",
      "kind": "result",
-     "page": 6
+     "page": 2
     },
-    "alternatives": 1
+    "alternatives": 2
    },
    "registration_open": {
-    "date": "2026-10-19",
+    "date": "2026-11-17",
     "source": {
-     "notice": "b6c4f362c224fa1416ab288d234eade686ed7f4e166ba5073ff050dc7659acc4",
-     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_14.pdf",
-     "title": "Details for filling online application form and choice filling for Stray Vacancy Round of UGMAC-2026 (Adv. No. BCECEB(UGMAC)-2026/14 Dated 18.10.2026)",
-     "kind": "advertisement",
-     "page": 8
-    }
+     "notice": "715a35128e77a7e1d17c1519e17f71e43c98bd7a2d6359462785887248f2b723",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Pros/PROS_PGMAC26.pdf",
+     "title": "PGMAC",
+     "kind": "result",
+     "page": 64
+    },
+    "alternatives": 1
    }
   },
   "apply": {
    "value": {
-    "from": "2026-10-19",
+    "from": "2026-11-17",
     "until": "2026-10-28"
    },
    "source": {
-    "notice": "63ca9594ebc8684c8953dd1e2bd2ac933b26e9be479f597e4ecc792d659f413d",
-    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGMAC26_01.pdf",
-    "title": "Details for Registration-Cum-Choice filling for Post Graduate Medical Admission Counselling (PGMAC)-2026 (MD/MS/PGD/ DNB(Degree/Diploma) Courses in Govt/Private Medical Colleges of Bihar on the basis of NEET(PG)-2026 (Adv. No. BCECEB(PGMAC)-2026/01 Dated 18.10.2026)",
+    "notice": "715a35128e77a7e1d17c1519e17f71e43c98bd7a2d6359462785887248f2b723",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Pros/PROS_PGMAC26.pdf",
+    "title": "PGMAC",
     "kind": "result",
-    "page": 6
+    "page": 2
    }
   },
   "advertisement_no": {
@@ -715,7 +716,7 @@
     "title": "Details for filling online application form and choice filling for Stray Vacancy Round of UGMAC-2026 (Adv. No. BCECEB(UGMAC)-2026/14 Dated 18.10.2026)",
     "kind": "advertisement"
    },
-   "alternatives": 3
+   "alternatives": 4
   }
  },
  "gaps": [

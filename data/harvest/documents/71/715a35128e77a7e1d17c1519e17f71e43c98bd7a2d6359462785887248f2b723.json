@@ -1,0 +1,1858 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "715a35128e77a7e1d17c1519e17f71e43c98bd7a2d6359462785887248f2b723",
+  "url": "https://bceceboard.bihar.gov.in/pdf_Pros/PROS_PGMAC26.pdf",
+  "title": "PGMAC",
+  "body": "br-bceceb",
+  "exam": "br-pgmac",
+  "feed": "br-bceceb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "110ebc0a1379195e4d4db4f05cdafca6860e09fb429db0d70d60385e4d0fec59",
+  "bytes": 13480930,
+  "pages": 64,
+  "chars": 118236,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T14:18:17+05:30"
+ },
+ "kind": "result",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-10-28",
+   "evidence": "Last date of online Registration (Round-1 & 2) ..................................................... : 28.10.2026 (10.00 pm) iv",
+   "page": 2,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2026-11-17",
+   "evidence": "Registration through Free Exit from Round-1 Counselling",
+   "page": 64,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 386,
+  "by_category": {
+   "Unreserved": 154,
+   "SC": 61,
+   "ST": 4,
+   "EWS": 39,
+   "br:EBC": 70,
+   "br:BC": 47
+  },
+  "rows": [
+   {
+    "label": "PMCPATNA . . . / ANATOMY",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / PHYSIOLOGY",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 1,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / BIOCHEMISTRY",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / PATHOLOGY",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / MICROBIOLOGY",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / PHARMACOLOGY",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / FMT . . .",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / COMMUNITYMEDICINE",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / OPHTHALMOLOGY",
+    "total": 6,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / ENT . . .",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / GEN MEDICINE .",
+    "total": 10,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / DERMATOLOGY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / PSYCHIATRY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / PAEDIATRICS",
+    "total": 10,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / RADIODIAGNOSIS",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / PHYMED&REHAB . . .",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / ANAESTHESIOLOGY",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / GEN SURGERY .",
+    "total": 9,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / ORTHOPAEDICS",
+    "total": 7,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / OBST &GYNAE . .",
+    "total": 10,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 21
+   },
+   {
+    "label": "PMCPATNA . . . / RESPIRATORYMEDICINE",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 21
+   },
+   {
+    "label": "NMC PATNA . . . / ANATOMY",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / PHYSIOLOGY",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 1,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / BIOCHEMISTRY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / PATHOLOGY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / MICROBIOLOGY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / PHARMACOLOGY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / FMT . . .",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / COMMUNITYMEDICINE",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / OPHTHALMOLOGY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / ENT . . .",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / GEN MEDICINE .",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / DERMATOLOGY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / PAEDIATRICS",
+    "total": 6,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / RADIODIAGNOSIS",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / ANAESTHESIOLOGY",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / GEN SURGERY .",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / ORTHOPAEDICS",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / OBST &GYNAE . .",
+    "total": 7,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 22
+   },
+   {
+    "label": "NMC PATNA . . . / RESPIRATORYMEDICINE",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 22
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / ANATOMY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / PHYSIOLOGY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / BIOCHEMISTRY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / PATHOLOGY",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 1,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / MICROBIOLOGY",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / PHARMACOLOGY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / COMMUNITYMEDICINE",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / OPHTHALMOLOGY",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / ENT . . .",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / GEN MEDICINE .",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / DERMATOLOGY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / PSYCHIATRY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / PAEDIATRICS",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / RADIODIAGNOSIS",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / ANAESTHESIOLOGY",
+    "total": 11,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 2,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / GEN SURGERY .",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / ORTHOPAEDICS",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / OBST &GYNAE . .",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / RADIATIONONCOLOGY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 23
+   },
+   {
+    "label": "IGIMS PATNA . .. . . / RESPIRATORYMEDICINE",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 23
+   },
+   {
+    "label": "DMCDARBHANGA . . . / ANATOMY",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 24
+   },
+   {
+    "label": "DMCDARBHANGA . . . / PHYSIOLOGY",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 24
+   },
+   {
+    "label": "DMCDARBHANGA . . . / BIOCHEMISTRY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 24
+   },
+   {
+    "label": "DMCDARBHANGA . . . / PATHOLOGY",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 24
+   },
+   {
+    "label": "DMCDARBHANGA . . . / MICROBIOLOGY",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 24
+   },
+   {
+    "label": "DMCDARBHANGA . . . / PHARMACOLOGY",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 24
+   },
+   {
+    "label": "DMCDARBHANGA . . . / COMMUNITYMEDICINE",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 24
+   },
+   {
+    "label": "DMCDARBHANGA . . . / OPHTHALMOLOGY",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 24
+   },
+   {
+    "label": "DMCDARBHANGA . . . / ENT . . .",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 24
+   },
+   {
+    "label": "DMCDARBHANGA . . . / GEN MEDICINE .",
+    "total": 9,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 1,
+     "ST": 1,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 24
+   },
+   {
+    "label": "DMCDARBHANGA . . . / PAEDIATRICS",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 24
+   },
+   {
+    "label": "DMCDARBHANGA . . . / RADIODIAGNOSIS",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 24
+   },
+   {
+    "label": "DMCDARBHANGA . . . / ANAESTHESIOLOGY",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 24
+   },
+   {
+    "label": "DMCDARBHANGA . . . / GEN SURGERY .",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 24
+   },
+   {
+    "label": "DMCDARBHANGA . . . / ORTHOPAEDICS",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 24
+   },
+   {
+    "label": "DMCDARBHANGA . . . / OBST &GYNAE . .",
+    "total": 10,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 2,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 24
+   },
+   {
+    "label": "DMCDARBHANGA . . . / FMT . . .",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 24
+   },
+   {
+    "label": "DMCDARBHANGA . . . / RESPIRATORYMEDICINE",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 24
+   },
+   {
+    "label": "SKMC MUZAFFARPUR . . . . / ANATOMY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 25
+   },
+   {
+    "label": "SKMC MUZAFFARPUR . . . . / PHYSIOLOGY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "SKMC MUZAFFARPUR . . . . / PATHOLOGY",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "SKMC MUZAFFARPUR . . . . / PHARMACOLOGY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "SKMC MUZAFFARPUR . . . . / COMMUNITYMEDICINE",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "SKMC MUZAFFARPUR . . . . / GEN MEDICINE .",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "SKMC MUZAFFARPUR . . . . / PAEDIATRICS",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "SKMC MUZAFFARPUR . . . . / GEN SURGERY .",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "SKMC MUZAFFARPUR . . . . / OBST &GYNAE . .",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 25
+   },
+   {
+    "label": "ANMMC GAYA . . . . . / ANATOMY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "ANMMC GAYA . . . . . / BIOCHEMISTRY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "ANMMC GAYA . . . . . / PHYSIOLOGY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "ANMMC GAYA . . . . . / PATHOLOGY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "ANMMC GAYA . . . . . / PHARMACOLOGY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "ANMMC GAYA . . . . . / ENT . . .",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 25
+   },
+   {
+    "label": "ANMMC GAYA . . . . . / DERMATOLOGY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 25
+   },
+   {
+    "label": "ANMMC GAYA . . . . . / ANAESTHESIOLOGY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "ANMMC GAYA . . . . . / PAEDIATRICS",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "ANMMC GAYA . . . . . / GEN SURGERY .",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "ANMMC GAYA . . . . . / OBST &GYNAE . .",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "ANMMC GAYA . . . . . / MICROBIOLOGY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "ANMMC GAYA . . . . . / OPHTHALMOLOGY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "ANMMC GAYA . . . . . / ORTHOPAEDICS",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 25
+   },
+   {
+    "label": "JLNMC BHAGALPUR . . . . . / ANATOMY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "JLNMC BHAGALPUR . . . . . / PHYSIOLOGY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "JLNMC BHAGALPUR . . . . . / BIOCHEMISTRY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "JLNMC BHAGALPUR . . . . . / PATHOLOGY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "JLNMC BHAGALPUR . . . . . / MICROBIOLOGY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "JLNMC BHAGALPUR . . . . . / PHARMACOLOGY",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 26
+   },
+   {
+    "label": "JLNMC BHAGALPUR . . . . . / COMMUNITYMEDICINE",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 26
+   },
+   {
+    "label": "JLNMC BHAGALPUR . . . . . / OPHTHALMOLOGY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "JLNMC BHAGALPUR . . . . . / GEN MEDICINE .",
+    "total": 6,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 26
+   },
+   {
+    "label": "JLNMC BHAGALPUR . . . . . / PSYCHIATRY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "JLNMC BHAGALPUR . . . . . / PAEDIATRICS",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "JLNMC BHAGALPUR . . . . . / GEN SURGERY .",
+    "total": 6,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 1,
+     "EWS": 1
+    },
+    "page": 26
+   },
+   {
+    "label": "JLNMC BHAGALPUR . . . . . / ORTHOPAEDICS",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "JLNMC BHAGALPUR . . . . . / OBST &GYNAE . .",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "JLNMC BHAGALPUR . . . . . / RESPIRATORYMEDICINE",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "JLNMC BHAGALPUR . . . . . / PHYMED&REHAB . . .",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "JLNMC BHAGALPUR . . . . . / EMERGENCYMEDICINE",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "BMIMS PAWAPURINALANDA , , / ANATOMY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "BMIMS PAWAPURINALANDA , , / PHYSIOLOGY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "BMIMS PAWAPURINALANDA , , / BIOCHEMISTRY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 26
+   },
+   {
+    "label": "BMIMS PAWAPURINALANDA , , / PHARMACOLOGY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "BMIMS PAWAPURINALANDA , , / GEN MEDICINE .",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "BMIMS PAWAPURINALANDA , , / MICROBIOLOGY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "BMIMS PAWAPURINALANDA , , / GEN SURGERY .",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "BMIMS PAWAPURINALANDA , , / PATHOLOGY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 26
+   },
+   {
+    "label": "GMC BETTIAH . . . / ANATOMY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 27
+   },
+   {
+    "label": "GMC BETTIAH . . . / PHYSIOLOGY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 27
+   },
+   {
+    "label": "GMC BETTIAH . . . / BIOCHEMISTRY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 1,
+     "EWS": 0
+    },
+    "page": 27
+   },
+   {
+    "label": "GMC BETTIAH . . . / MICROBIOLOGY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 1
+    },
+    "page": 27
+   },
+   {
+    "label": "GMC BETTIAH . . . / OPHTHALMOLOGY",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 27
+   },
+   {
+    "label": "GMC BETTIAH . . . / PAEDIATRICS",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 0,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 27
+   },
+   {
+    "label": "GMC BETTIAH . . . / RADIODIAGNOSIS",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 27
+   },
+   {
+    "label": "GMC BETTIAH . . . / OBST &GYNAE . .",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:EBC": 1,
+     "br:BC": 0,
+     "EWS": 0
+    },
+    "page": 27
+   },
+   {
+    "label": "GrandTotal",
+    "total": 386,
+    "by_category": {
+     "Unreserved": 154,
+     "SC": 61,
+     "ST": 4,
+     "br:EBC": 70,
+     "br:BC": 47,
+     "EWS": 39
+    },
+    "page": 27
+   }
+  ],
+  "from": "table"
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "clauses": [
+   {
+    "text": "(i) The candidates must have passed the MBBS Examination from any Medical College of Bihar State which is established or financially aided by the State Government or established and run by private management / Corporation and included in the schedule of Medical Council of India/ National Medical…",
+    "page": 6
+   },
+   {
+    "text": "(iii) The candidates must have completed satisfactorily one year compulsory rotating Internship as on 30.09.2026",
+    "page": 6
+   },
+   {
+    "text": "(iv) The candidates must have obtained permanent Registration from Medical Council of India or Bihar State Medical Council",
+    "page": 6
+   },
+   {
+    "text": "* For Eligibility Criteria and other details, required Documents for admission on NRI Quota, candidates are advised to see 'Notice to Candidates Admission Procedure under NRI Quota issued by MCC dt. 27.05.2026 and also Information Bulletin & Counselling Scheme of NEET-PG Counselling 2026' which…",
+    "page": 13
+   },
+   {
+    "text": "* For Eligibility Criteria and other details, required Documents for admission on (DQ) Quota, candidates are advised to see 'Chapter 4:",
+    "page": 13
+   },
+   {
+    "text": "All the certificates included in the list given below, if applicable, must have to upload at the time of downloading his/ her Provisional Seat Allotment Order and have to submit in original by every candidate at the time of Document Verification & Admission process",
+    "page": 15
+   },
+   {
+    "text": "A candidate who has passed a degree course will not be permitted admission in diploma course of that subject",
+    "page": 17
+   }
+  ]
+ },
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 5
+  }
+ },
+ "summary": {
+  "vacancies": 386,
+  "apply": {
+   "from": "2026-11-17",
+   "until": "2026-10-28"
+  },
+  "education": [
+   "Graduate",
+   "Diploma / ITI"
+  ]
+ }
+}
