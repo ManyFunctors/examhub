@@ -1,0 +1,138 @@
+{
+ "schema": 1,
+ "exam": "sk-spsc-ae",
+ "name": "SPSC Assistant Engineer / Engineering Services Examination",
+ "body": "sk-spsc",
+ "purpose": "recruitment",
+ "cycle": "2024-07",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 500,
+     "raw": "Application fee amounting to Rs 500/- only may be paid online through Net Banking or credit and debit card, (Visa/MasterCard)",
+     "page": 2
+    }
+   ],
+   "source": {
+    "notice": "2f1a33a6410f8d90e3651c47d2e458b80115d3de9ce18a4a9120762bdfa596f4",
+    "url": "https://spscrs.sikkim.gov.in/Uploads/Advertisements/02_SPSC_EXAM_2024_c533c974-ae52.pdf",
+    "title": ">> ASSISTANT ENGINEER (ELECTRICAL) [JULY 2024] (03 Jul 2024)",
+    "kind": "schedule",
+    "page": 2
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2024-06-30",
+    "source": {
+     "notice": "2f1a33a6410f8d90e3651c47d2e458b80115d3de9ce18a4a9120762bdfa596f4",
+     "url": "https://spscrs.sikkim.gov.in/Uploads/Advertisements/02_SPSC_EXAM_2024_c533c974-ae52.pdf",
+     "title": ">> ASSISTANT ENGINEER (ELECTRICAL) [JULY 2024] (03 Jul 2024)",
+     "kind": "schedule",
+     "page": 1
+    }
+   },
+   "exam_date": {
+    "date": "2024-07-03",
+    "source": {
+     "notice": "2f1a33a6410f8d90e3651c47d2e458b80115d3de9ce18a4a9120762bdfa596f4",
+     "url": "https://spscrs.sikkim.gov.in/Uploads/Advertisements/02_SPSC_EXAM_2024_c533c974-ae52.pdf",
+     "title": ">> ASSISTANT ENGINEER (ELECTRICAL) [JULY 2024] (03 Jul 2024)",
+     "kind": "schedule",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2024-07-03",
+   "source": {
+    "notice": "2f1a33a6410f8d90e3651c47d2e458b80115d3de9ce18a4a9120762bdfa596f4",
+    "url": "https://spscrs.sikkim.gov.in/Uploads/Advertisements/02_SPSC_EXAM_2024_c533c974-ae52.pdf",
+    "title": ">> ASSISTANT ENGINEER (ELECTRICAL) [JULY 2024] (03 Jul 2024)",
+    "kind": "schedule",
+    "page": 1
+   }
+  },
+  "advertisement_no": {
+   "value": "02/SPSC/EXAM/2024",
+   "source": {
+    "notice": "2f1a33a6410f8d90e3651c47d2e458b80115d3de9ce18a4a9120762bdfa596f4",
+    "url": "https://spscrs.sikkim.gov.in/Uploads/Advertisements/02_SPSC_EXAM_2024_c533c974-ae52.pdf",
+    "title": ">> ASSISTANT ENGINEER (ELECTRICAL) [JULY 2024] (03 Jul 2024)",
+    "kind": "schedule"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "(A) Minimum Educational Qualification:",
+      "page": 1
+     },
+     {
+      "text": "Degree in Electrical Engineering from a recognized University",
+      "page": 1
+     },
+     {
+      "text": "Should have attained the age of 21 years, but should not have exceeded 40 years as on 30.06.2024, in terms of Notification No: M(3)/ (55)/GEN /DOP /Pt.III dated: 03 /07 /2017",
+      "page": 1
+     },
+     {
+      "text": "(d) Should have Valid Local Employment Card issued by the appropriate authority of the Government of Sikkim",
+      "page": 2
+     }
+    ]
+   },
+   "source": {
+    "notice": "2f1a33a6410f8d90e3651c47d2e458b80115d3de9ce18a4a9120762bdfa596f4",
+    "url": "https://spscrs.sikkim.gov.in/Uploads/Advertisements/02_SPSC_EXAM_2024_c533c974-ae52.pdf",
+    "title": ">> ASSISTANT ENGINEER (ELECTRICAL) [JULY 2024] (03 Jul 2024)",
+    "kind": "schedule"
+   }
+  },
+  "selection": {
+   "value": [
+    "Written examination"
+   ],
+   "source": {
+    "notice": "2f1a33a6410f8d90e3651c47d2e458b80115d3de9ce18a4a9120762bdfa596f4",
+    "url": "https://spscrs.sikkim.gov.in/Uploads/Advertisements/02_SPSC_EXAM_2024_c533c974-ae52.pdf",
+    "title": ">> ASSISTANT ENGINEER (ELECTRICAL) [JULY 2024] (03 Jul 2024)",
+    "kind": "schedule"
+   }
+  },
+  "pay": {
+   "value": [
+    {
+     "levels": [
+      15
+     ],
+     "text": "Pay Level 15",
+     "evidence": "Email: spsc-skm@nic.in Website: www.spsc.sikkim.gov.in Advertisement No.: 02/SPSC/EXAM/2024 Dated: 03/07/2024 Applications are invited from eligible local candidates for filling up 30 (thirty) posts of Assistant Engineer (Electrical) on temporary-regular basis in Level-15 of the Pay Matrix under…",
+     "page": 1
+    }
+   ],
+   "source": {
+    "notice": "2f1a33a6410f8d90e3651c47d2e458b80115d3de9ce18a4a9120762bdfa596f4",
+    "url": "https://spscrs.sikkim.gov.in/Uploads/Advertisements/02_SPSC_EXAM_2024_c533c974-ae52.pdf",
+    "title": ">> ASSISTANT ENGINEER (ELECTRICAL) [JULY 2024] (03 Jul 2024)",
+    "kind": "schedule"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "age"
+ ],
+ "older_documents": 0
+}

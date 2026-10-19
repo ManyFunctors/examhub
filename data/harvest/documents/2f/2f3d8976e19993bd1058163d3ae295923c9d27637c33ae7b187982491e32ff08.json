@@ -1,0 +1,96 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2f3d8976e19993bd1058163d3ae295923c9d27637c33ae7b187982491e32ff08",
+  "url": "https://appsc.gov.in/upload/RECINS001/ADVERTISEMENT_PGT_FOR_WEBSITE_20250816_145554.pdf",
+  "title": "ADVERTISEMENT FOR POST GRADUATE TEACHER (PGT) EXAMINATION-2025",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/advertisement",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "05bc22387c27ae154a46e76ecdf678171ff8615936010c81ef462c02f88d3405",
+  "bytes": 4084118,
+  "pages": 6,
+  "chars": 11626,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T22:18:29+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "DSE-l",
+ "dates": {
+  "exam_date": {
+   "date": "2025-10-12",
+   "evidence": "(1) In case the number of applicants is more than the desired ratio, Recruitment Test wiII be conducted on 12th October,2025 (Sunday)",
+   "page": 4,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "ar:APST"
+   ],
+   "amount": 150,
+   "raw": "(H) APPLICATION FEE (l) Candidates are required to pay fee of <150/- (Rupees One Hundred Fifty) only for APST candidate and t 200/- (Rupees Two Hundred) only for other candidate through online mode onll'",
+   "page": 5
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 200,
+   "raw": "(H) APPLICATION FEE (l) Candidates are required to pay fee of <150/- (Rupees One Hundred Fifty) only for APST candidate and t 200/- (Rupees Two Hundred) only for other candidate through online mode onll'",
+   "page": 5
+  },
+  {
+   "categories": [
+    "PwBD"
+   ],
+   "amount": 0,
+   "raw": "(2) PwD candidates are exempted from payment of application fee as per Section 19 of the Arunachai Pradesh Rights of Persons rvith Disabiiities RLries. 20 i 8",
+   "page": 5
+  }
+ ],
+ "pay": [
+  {
+   "levels": [
+    8
+   ],
+   "text": "Pay Level 8",
+   "evidence": "ADVERTISEMENT POST GRADUATE TEAC}IER EXAMINATION.2O2s The Arunachal Pradesh Public Service Commission invites online application from the citizens of lndia for admission to Post Graduate Teacher Examination-Z021 for filling up 111 (One Hundred Eleven) posts of Post Graduate Teacher (PGT) under…",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "(B) ELIGIBILITY (l) 2\"1 Class Master Degree in the concerned sub.iect fiom a recognized LJniversity with B.Ed",
+    "page": 3
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "https://apgsc.gov.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2025-10-12",
+  "fee": {
+   "min": 0,
+   "max": 200
+  },
+  "pay": "Pay Level 8",
+  "education": [
+   "Postgraduate",
+   "Graduate"
+  ]
+ }
+}

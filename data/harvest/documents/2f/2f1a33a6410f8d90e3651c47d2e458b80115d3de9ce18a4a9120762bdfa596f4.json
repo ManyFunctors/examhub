@@ -1,0 +1,112 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2f1a33a6410f8d90e3651c47d2e458b80115d3de9ce18a4a9120762bdfa596f4",
+  "url": "https://spscrs.sikkim.gov.in/Uploads/Advertisements/02_SPSC_EXAM_2024_c533c974-ae52.pdf",
+  "title": ">> ASSISTANT ENGINEER (ELECTRICAL) [JULY 2024] (03 Jul 2024)",
+  "body": "sk-spsc",
+  "exam": "sk-spsc-ae",
+  "feed": "sk-spsc/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "b29acf41b63f150e2f73eea95b9274afa548de12f4d70c5a9db9e5be8ca487bf",
+  "bytes": 187191,
+  "pages": 2,
+  "chars": 5165,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T22:18:05+05:30"
+ },
+ "kind": "schedule",
+ "advertisement_no": "02/SPSC/EXAM/2024",
+ "dates": {
+  "exam_date": {
+   "date": "2024-07-03",
+   "evidence": "Email: spsc-skm@nic.in Website: www.spsc.sikkim.gov.in Advertisement No.: 02/SPSC/EXAM/2024",
+   "page": 1,
+   "from": "table"
+  },
+  "age_as_on": {
+   "date": "2024-06-30",
+   "evidence": "Should have attained the age of 21 years, but should not have exceeded 40 years as on 30.06.2024, in terms of Notification No: M(3)/ (55)/GEN /DOP /Pt.III dated: 03 /07 /2017",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Email: spsc-skm@nic.in Website: www.spsc.sikkim.gov.in Advertisement No.: 02/SPSC/EXAM/2024",
+   "key": "exam_date",
+   "date": "2024-07-03",
+   "page": 1
+  }
+ ],
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 500,
+   "raw": "Application fee amounting to Rs 500/- only may be paid online through Net Banking or credit and debit card, (Visa/MasterCard)",
+   "page": 2
+  }
+ ],
+ "age": {
+  "as_on": "2024-06-30"
+ },
+ "pay": [
+  {
+   "levels": [
+    15
+   ],
+   "text": "Pay Level 15",
+   "evidence": "Email: spsc-skm@nic.in Website: www.spsc.sikkim.gov.in Advertisement No.: 02/SPSC/EXAM/2024 Dated: 03/07/2024 Applications are invited from eligible local candidates for filling up 30 (thirty) posts of Assistant Engineer (Electrical) on temporary-regular basis in Level-15 of the Pay Matrix under…",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "(A) Minimum Educational Qualification:",
+    "page": 1
+   },
+   {
+    "text": "Degree in Electrical Engineering from a recognized University",
+    "page": 1
+   },
+   {
+    "text": "Should have attained the age of 21 years, but should not have exceeded 40 years as on 30.06.2024, in terms of Notification No: M(3)/ (55)/GEN /DOP /Pt.III dated: 03 /07 /2017",
+    "page": 1
+   },
+   {
+    "text": "(d) Should have Valid Local Employment Card issued by the appropriate authority of the Government of Sikkim",
+    "page": 2
+   }
+  ]
+ },
+ "selection": [
+  "Written examination"
+ ],
+ "links": {
+  "other": [
+   "https://www.spsc.sikkim.gov.in",
+   "http://spsc.sikkim.gov.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2024-07-03",
+  "fee": {
+   "min": 500,
+   "max": 500
+  },
+  "pay": "Pay Level 15",
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Written examination"
+ }
+}

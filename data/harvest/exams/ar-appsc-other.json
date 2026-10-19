@@ -5,7 +5,7 @@
  "body": "ar-appsc",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 37,
+ "documents": 38,
  "documents_in_cycle": 2,
  "fields": {
   "dates": {
@@ -32,20 +32,24 @@
   },
   "eligibility": {
    "value": {
+    "education_levels": [
+     "Postgraduate",
+     "Graduate"
+    ],
     "clauses": [
      {
-      "text": "In case the choice of optional subj ect does not correspond with the Educational Qualification/ Post Choice, the Commission reserves the right to reject their candidature",
-      "page": 1
+      "text": "(B) ELIGIBILITY (l) 2\"1 Class Master Degree in the concerned sub.iect fiom a recognized LJniversity with B.Ed",
+      "page": 3
      }
     ]
    },
    "source": {
-    "notice": "0925f5fd1990611d1f2cf3e9bc87c645a2c4d1f079da3e779591dff82d28328a",
-    "url": "https://appsc.gov.in/upload/RECINS001/Notification_for_Lecturer_DIET_20241015_192239.pdf",
-    "title": "Notification for selection of optional subject for the post of Lecturer(DIET), 2024",
+    "notice": "2f3d8976e19993bd1058163d3ae295923c9d27637c33ae7b187982491e32ff08",
+    "url": "https://appsc.gov.in/upload/RECINS001/ADVERTISEMENT_PGT_FOR_WEBSITE_20250816_145554.pdf",
+    "title": "ADVERTISEMENT FOR POST GRADUATE TEACHER (PGT) EXAMINATION-2025",
     "kind": "advertisement"
    },
-   "carried_from": "2024"
+   "carried_from": "2025"
   },
   "selection": {
    "value": [
@@ -81,16 +85,17 @@
       8
      ],
      "text": "Pay Level 8",
-     "evidence": "APPSC-12/37/2024 Dated Itanagar, the 29th September, 2025 ADVERTISEMENT NO. 05/2025 The Arunachal Pradesh Public Service Commission invites application for filling up of 22 (Twenty Two) posts of Section Officer through Limited Departmental Competitive Examination (LDCE) from the Grade of Assistant…",
+     "evidence": "ADVERTISEMENT POST GRADUATE TEAC}IER EXAMINATION.2O2s The Arunachal Pradesh Public Service Commission invites online application from the citizens of lndia for admission to Post Graduate Teacher Examination-Z021 for filling up 111 (One Hundred Eleven) posts of Post Graduate Teacher (PGT) under…",
      "page": 1
     }
    ],
    "source": {
-    "notice": "1ed8a0b3c1a700c9a43beccba48840bb85c61799213bc95ddb13f07f3c672f3b",
-    "url": "https://appsc.gov.in/upload/files/RECINS001/SO_ADVERTISEMENT_20250930_091104.pdf",
-    "title": "Advertisement for the post of Section Officer through Limited Departmental Competitive Examination (LDCE)",
+    "notice": "2f3d8976e19993bd1058163d3ae295923c9d27637c33ae7b187982491e32ff08",
+    "url": "https://appsc.gov.in/upload/RECINS001/ADVERTISEMENT_PGT_FOR_WEBSITE_20250816_145554.pdf",
+    "title": "ADVERTISEMENT FOR POST GRADUATE TEACHER (PGT) EXAMINATION-2025",
     "kind": "advertisement"
    },
+   "alternatives": 1,
    "carried_from": "2025"
   }
  },
@@ -100,5 +105,5 @@
   "fee",
   "age"
  ],
- "older_documents": 35
+ "older_documents": 36
 }
