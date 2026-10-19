@@ -1,0 +1,62 @@
+{
+ "schema": 1,
+ "exam": "od-hc-staff",
+ "name": "Orissa HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)",
+ "body": "od-hc",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Postgraduate",
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "on such recommendation, if he/she fulfills the eligibility criteria in terms of these Rules",
+      "page": 3
+     },
+     {
+      "text": "(i) A candidate must have acquired LLB degree/LLM degree/any higher qualification in Law from any recognized University/College/School/ Institution within three years from the date of his/her application and should not have put in more than five years of practice, if he/she is a practicing advocate",
+      "page": 4
+     },
+     {
+      "text": "(ii) A candidate must have good working knowledge of computers",
+      "page": 4
+     },
+     {
+      "text": "(iii) The candidate should have of sound mind and body and free from any bodily and mental disability, which render him/her unfit for such assignment",
+      "page": 4
+     },
+     {
+      "text": "Educational Qualification:",
+      "page": 9
+     },
+     {
+      "text": "Candidates must attach with the application form, attested copies of the certificates & mark sheets in support of their age and educational qualifications, extra-curricular activities and also in support of their having computer knowledge",
+      "page": 10
+     }
+    ]
+   },
+   "source": {
+    "notice": "31c3e726e58951e2d75beea49d2b315b5c6564bb3c55d2a753f6f2e10f4f4647",
+    "url": "https://orissahighcourt.nic.in/research-asst.pdf",
+    "title": "Scheme for Selection and Appointment of Research Assistant in the High Court of Orissa",
+    "kind": "notice"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "selection"
+ ],
+ "older_documents": 0
+}

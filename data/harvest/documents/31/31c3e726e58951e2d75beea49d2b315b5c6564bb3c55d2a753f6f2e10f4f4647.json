@@ -1,0 +1,65 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "31c3e726e58951e2d75beea49d2b315b5c6564bb3c55d2a753f6f2e10f4f4647",
+  "url": "https://orissahighcourt.nic.in/research-asst.pdf",
+  "title": "Scheme for Selection and Appointment of Research Assistant in the High Court of Orissa",
+  "body": "od-hc",
+  "exam": "od-hc-staff",
+  "feed": "od-hc/recruitment",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "297b3ce13cd9820b9c372fdbd068efc0fa73be0597ae92d1014783db2dfa8745",
+  "bytes": 286744,
+  "pages": 12,
+  "chars": 17079,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T00:34:10+05:30"
+ },
+ "kind": "notice",
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "on such recommendation, if he/she fulfills the eligibility criteria in terms of these Rules",
+    "page": 3
+   },
+   {
+    "text": "(i) A candidate must have acquired LLB degree/LLM degree/any higher qualification in Law from any recognized University/College/School/ Institution within three years from the date of his/her application and should not have put in more than five years of practice, if he/she is a practicing advocate",
+    "page": 4
+   },
+   {
+    "text": "(ii) A candidate must have good working knowledge of computers",
+    "page": 4
+   },
+   {
+    "text": "(iii) The candidate should have of sound mind and body and free from any bodily and mental disability, which render him/her unfit for such assignment",
+    "page": 4
+   },
+   {
+    "text": "Educational Qualification:",
+    "page": 9
+   },
+   {
+    "text": "Candidates must attach with the application form, attested copies of the certificates & mark sheets in support of their age and educational qualifications, extra-curricular activities and also in support of their having computer knowledge",
+    "page": 10
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "http://orissahighcourt.nic.in"
+  ]
+ },
+ "summary": {
+  "education": [
+   "Postgraduate",
+   "Graduate"
+  ]
+ }
+}
