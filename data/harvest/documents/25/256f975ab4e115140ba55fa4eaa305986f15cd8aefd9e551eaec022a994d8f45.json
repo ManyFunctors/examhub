@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "256f975ab4e115140ba55fa4eaa305986f15cd8aefd9e551eaec022a994d8f45",
+  "url": "https://appsc.gov.in/upload/RECINS001/APPSC_notification_21-4-2020.pdf",
+  "title": "POSTPONEMENT OF APPSCC(PRELIM & MAINS) EXAMINATION-2020",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/notifications",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "0b57c92d03a323c4a09dc8db5338a04711acbdf4c376b210003cb7e4d86078b5",
+  "bytes": 178639,
+  "pages": 1,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T06:16:47+05:30"
+ },
+ "kind": "corrigendum",
+ "warnings": [
+  "no usable text layer (2 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
