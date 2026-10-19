@@ -1,0 +1,22 @@
+{
+ "schema": 1,
+ "exam": "ga-gssc-recruitment",
+ "name": "Goa Staff Selection Commission Group C Recruitment",
+ "body": "ga-gssc",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}

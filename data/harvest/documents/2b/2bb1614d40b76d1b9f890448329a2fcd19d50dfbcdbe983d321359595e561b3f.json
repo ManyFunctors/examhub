@@ -1,0 +1,28 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2bb1614d40b76d1b9f890448329a2fcd19d50dfbcdbe983d321359595e561b3f",
+  "url": "https://hpbose.org/pdf/MatricOMR.pdf",
+  "title": "OMR Specimen Matric",
+  "body": "hp-hpbose",
+  "exam": "hp-hpbose-class-10",
+  "feed": "hp-hpbose/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "53c4508ccdc17a14724e8b66490e3c71f7963ff0c1e2c726229e587456a90283",
+  "bytes": 2945783,
+  "pages": 5,
+  "chars": 5752,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T17:45:21+05:30"
+ },
+ "kind": "notice",
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 2
+  }
+ }
+}
