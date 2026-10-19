@@ -1,0 +1,32 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2bcc4a40d9d158b8c01a5a04e4ba5ee336a99fdae2374c8371fff47183cf0209",
+  "url": "https://www.nestexam.in/qnsans/NEST-10.pdf",
+  "title": "2010",
+  "body": "in-niser",
+  "exam": "in-nest",
+  "feed": "in-niser/nest",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "39a660423c8335038ca231bf401312fb6e5e5fc05c592d68af9382951dcd661d",
+  "bytes": 506121,
+  "pages": 30,
+  "chars": 44122,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T18:36:22+05:30"
+ },
+ "kind": "notice",
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 5
+  },
+  "duration": {
+   "value": "(A) 25 minutes (B) 50 minutes (C) 100 minutes (D) 200 minutes",
+   "page": 28
+  }
+ }
+}
