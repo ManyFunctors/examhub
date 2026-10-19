@@ -1,0 +1,218 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "29f59f367233c3b2223dcbd3f6838b06ea59c26045a6f4821e1ee7ce26bf6c6a",
+  "url": "https://ngel.in/public/career/1/626e136b38/626e136b38.pdf",
+  "title": "Advertisement Instructions for the Candidates Application Link NGEL Medical Norms and Standards of Medical Fitness",
+  "body": "in-ntpc-green",
+  "exam": "in-ntpc-green-recruitment",
+  "feed": "in-ntpc-green/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "8122ac61968d7f148168cb594caffef4d5e6c901de4b423d9de554fb81c08e77",
+  "bytes": 304584,
+  "pages": 4,
+  "chars": 16936,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T12:45:05+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "01/26",
+ "dates": {
+  "age_as_on": {
+   "date": "2017-01-01",
+   "evidence": "Upper Age Limit: 44 years Level/Pay scale of recruitment: E-6 Grade/IDA w.e.f 01.01.2017 (Rs.90,000 - 2,40,000/-) Vacancies: 14 Nos. (UR-08, SC - 01, ST-01, OBC - 03, EWS - 01) Vacancies for PwBD category as per Govt",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2026-05-05",
+   "evidence": "Activity Date Start date of online application 15.04.2026 (From 10:00 Hrs.) Last date of online application",
+   "page": 4,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2026-04-15",
+   "evidence": "Activity Date Start date of online application 15.04.2026 (From 10:00 Hrs.) Last date of online application",
+   "page": 4,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 14,
+  "evidence": "Upper Age Limit: 44 years Level/Pay scale of recruitment: E-6 Grade/IDA w.e.f 01.01.2017 (Rs.90,000 - 2,40,000/-) Vacancies: 14 Nos. (UR-08, SC - 01, ST-01, OBC - 03, EWS - 01) Vacancies for PwBD category as per Govt",
+  "page": 1,
+  "from": "text"
+ },
+ "age": {
+  "limits": [
+   {
+    "max": 44,
+    "evidence": "Upper Age Limit: 44 years Level/Pay scale of recruitment: E-6 Grade/IDA w.e.f 01.01.2017 (Rs.90,000 – 2,40,000/-) Vacancies: 14 Nos. (UR-08, SC – 01, ST-01, OBC – 03, EWS – 01) Vacancies for PwBD category as per Govt",
+    "page": 1
+   },
+   {
+    "max": 30,
+    "evidence": "Experience Profile: Minimum 3 years post qualification experience should be in field of Renewable Energy (Solar and/ or Wind and/ or BESS) Upper Age Limit: 30 years Level/Pay scale of recruitment: E-2 Grade/IDA w.e.f 01.01.2017 (Rs.50,000…",
+    "page": 1
+   }
+  ],
+  "as_on": "2017-01-01",
+  "relaxations": [
+   {
+    "categories": [
+     "SC",
+     "ST",
+     "OBC",
+     "PwBD"
+    ],
+    "years": 5,
+    "raw": "Where there is vacancy identified for such category, upper age limit is relaxed by 5 years for SC/ST candidates, by 3 years for OBC candidates, by 10 years for PwBD candidates",
+    "page": 3
+   },
+   {
+    "categories": [
+     "SC",
+     "ST",
+     "OBC",
+     "PwBD"
+    ],
+    "years": 3,
+    "raw": "Where there is vacancy identified for such category, upper age limit is relaxed by 5 years for SC/ST candidates, by 3 years for OBC candidates, by 10 years for PwBD candidates",
+    "page": 3
+   },
+   {
+    "categories": [
+     "SC",
+     "ST",
+     "OBC",
+     "PwBD"
+    ],
+    "years": 10,
+    "raw": "Where there is vacancy identified for such category, upper age limit is relaxed by 5 years for SC/ST candidates, by 3 years for OBC candidates, by 10 years for PwBD candidates",
+    "page": 3
+   }
+  ]
+ },
+ "pay": [
+  {
+   "low": 90000,
+   "high": 240000,
+   "text": "₹90,000–240,000",
+   "evidence": "Upper Age Limit: 44 years Level/Pay scale of recruitment: E-6 Grade/IDA w.e.f 01.01.2017 (Rs.90,000 – 2,40,000/-) Vacancies: 14 Nos. (UR-08, SC – 01, ST-01, OBC – 03, EWS – 01) Vacancies for PwBD category as per Govt",
+   "page": 1
+  },
+  {
+   "low": 80000,
+   "high": 220000,
+   "text": "₹80,000–220,000",
+   "evidence": "For candidates from Govt/Public Sector undertaking, they should have a minimum Two years’ experience in the scale of Rs. 80,000 – 2,20,000 or above (IDA Pay scale of E-5 Grade or above of DPE effective from 01-01-2017) or equivalent Scale out of the above mentioned Twelve (12) years of Post…",
+   "page": 1
+  },
+  {
+   "low": 50000,
+   "high": 160000,
+   "text": "₹50,000–160,000",
+   "evidence": "Experience Profile: Minimum 3 years post qualification experience should be in field of Renewable Energy (Solar and/ or Wind and/ or BESS) Upper Age Limit: 30 years Level/Pay scale of recruitment: E-2 Grade/IDA w.e.f 01.01.2017 (Rs.50,000 – 160,000/-) Vacancies: 28 Nos. (UR-13, SC – 04, ST-02, OBC…",
+   "page": 1
+  },
+  {
+   "low": 40000,
+   "high": 140000,
+   "text": "₹40,000–140,000",
+   "evidence": "For candidates from Govt/Public Sector undertaking, they should have a minimum Two years’ Experience in the scale of Rs. 40,000 – 1,40,000 or above (IDA Pay scale of E-1 Grade or above of DPE effective from 01-01-2017) or equivalent Scale out of the above mentioned three (03) Years of Post…",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Qualification: Graduate in Engineering (Electrical/ Electrical & Electronics/ Electrical, Instrumentation & Control / Civil/ Mechanical/ Electronics/ Electronics & Telecommunications/ Electronics & Communication) with minimum 60% marks from a recognized University/ Institution are eligible to apply",
+    "page": 1
+   },
+   {
+    "text": "For candidates from Govt/Public Sector undertaking, they should have a minimum Two years’ experience in the scale of Rs. 80,000 – 2,20,000 or above (IDA Pay scale of E-5 Grade or above of DPE effective from 01-01-2017) or equivalent Scale out of the above mentioned Twelve (12) years of Post…",
+    "page": 1
+   },
+   {
+    "text": "Qualification: Graduate in Engineering (Electrical/ Electrical & Electronics/ Electrical, Instrumentation & Control / Civil/ Mechanical/ Electronics/ Electronics & Telecommunications/ Electronics & Communication) with minimum 60% marks from a recognized University/ Institution are eligible to apply",
+    "page": 1
+   },
+   {
+    "text": "For candidates from Govt/Public Sector undertaking, they should have a minimum Two years’ Experience in the scale of Rs. 40,000 – 1,40,000 or above (IDA Pay scale of E-1 Grade or above of DPE effective from 01-01-2017) or equivalent Scale out of the above mentioned three (03) Years of Post…",
+    "page": 1
+   },
+   {
+    "text": "Qualification: Chartered Accountant (CA)/ Cost & Management Accountant (CMA) qualified from institute recognized by appropriate statutory authority in India are eligible to apply",
+    "page": 2
+   },
+   {
+    "text": "For candidates from Govt/Public Sector undertaking, they should have a minimum Two years’ experience in the scale of Rs. 80,000 – 2,20,000 or above (IDA Pay scale of E-5 Grade or above of DPE effective from 01-01-2017) or equivalent Scale out of the above mentioned Twelve (12) years of Post…",
+    "page": 2
+   },
+   {
+    "text": "Qualification: Chartered Accountant (CA)/ Cost & Management Accountant (CMA) qualified from institute recognized by appropriate statutory authority in India are eligible to apply",
+    "page": 2
+   },
+   {
+    "text": "For candidates from Govt/Public Sector undertaking, they should have a minimum Two years’ Experience in the scale of Rs. 40,000 – 1,40,000 or above (IDA Pay scale of E-1 Grade or above of DPE effective from 01-01-2017) or equivalent Scale out of the above mentioned three (03) Years of Post…",
+    "page": 2
+   },
+   {
+    "text": "Documents related to essential qualification (Pass certificate & Mark sheets, mode, duration along with specialization)",
+    "page": 2
+   },
+   {
+    "text": "HEALTH The candidate should have sound health",
+    "page": 3
+   },
+   {
+    "text": "Candidates are therefore requested to verify their eligibility criteria before paying the registration fee",
+    "page": 4
+   }
+  ]
+ },
+ "selection": [
+  "Written examination",
+  "Group discussion",
+  "Interview"
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  },
+  "duration": {
+   "value": "05.05.2026 (Till 23:59 Hrs.)",
+   "page": 4
+  }
+ },
+ "links": {
+  "apply": [
+   "https://ngel.in/career"
+  ],
+  "other": [
+   "https://www.ngel.in"
+  ]
+ },
+ "summary": {
+  "vacancies": 14,
+  "apply": {
+   "from": "2026-04-15",
+   "until": "2026-05-05"
+  },
+  "age": {
+   "max": 44
+  },
+  "pay": "₹90,000–240,000",
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Written examination → Group discussion → Interview"
+ }
+}

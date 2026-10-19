@@ -5,7 +5,7 @@
  "body": "in-ntpc-green",
  "purpose": "recruitment",
  "cycle": "2025",
- "documents": 7,
+ "documents": 8,
  "documents_in_cycle": 4,
  "fields": {
   "dates": {
@@ -102,14 +102,65 @@
     "kind": "advertisement"
    },
    "alternatives": 2
+  },
+  "selection": {
+   "value": [
+    "Written examination",
+    "Group discussion",
+    "Interview"
+   ],
+   "source": {
+    "notice": "29f59f367233c3b2223dcbd3f6838b06ea59c26045a6f4821e1ee7ce26bf6c6a",
+    "url": "https://ngel.in/public/career/1/626e136b38/626e136b38.pdf",
+    "title": "Advertisement Instructions for the Candidates Application Link NGEL Medical Norms and Standards of Medical Fitness",
+    "kind": "advertisement"
+   },
+   "carried_from": "2017"
+  },
+  "pay": {
+   "value": [
+    {
+     "low": 90000,
+     "high": 240000,
+     "text": "₹90,000–240,000",
+     "evidence": "Upper Age Limit: 44 years Level/Pay scale of recruitment: E-6 Grade/IDA w.e.f 01.01.2017 (Rs.90,000 – 2,40,000/-) Vacancies: 14 Nos. (UR-08, SC – 01, ST-01, OBC – 03, EWS – 01) Vacancies for PwBD category as per Govt",
+     "page": 1
+    },
+    {
+     "low": 80000,
+     "high": 220000,
+     "text": "₹80,000–220,000",
+     "evidence": "For candidates from Govt/Public Sector undertaking, they should have a minimum Two years’ experience in the scale of Rs. 80,000 – 2,20,000 or above (IDA Pay scale of E-5 Grade or above of DPE effective from 01-01-2017) or equivalent Scale out of the above mentioned Twelve (12) years of Post…",
+     "page": 1
+    },
+    {
+     "low": 50000,
+     "high": 160000,
+     "text": "₹50,000–160,000",
+     "evidence": "Experience Profile: Minimum 3 years post qualification experience should be in field of Renewable Energy (Solar and/ or Wind and/ or BESS) Upper Age Limit: 30 years Level/Pay scale of recruitment: E-2 Grade/IDA w.e.f 01.01.2017 (Rs.50,000 – 160,000/-) Vacancies: 28 Nos. (UR-13, SC – 04, ST-02, OBC…",
+     "page": 1
+    },
+    {
+     "low": 40000,
+     "high": 140000,
+     "text": "₹40,000–140,000",
+     "evidence": "For candidates from Govt/Public Sector undertaking, they should have a minimum Two years’ Experience in the scale of Rs. 40,000 – 1,40,000 or above (IDA Pay scale of E-1 Grade or above of DPE effective from 01-01-2017) or equivalent Scale out of the above mentioned three (03) Years of Post…",
+     "page": 1
+    }
+   ],
+   "source": {
+    "notice": "29f59f367233c3b2223dcbd3f6838b06ea59c26045a6f4821e1ee7ce26bf6c6a",
+    "url": "https://ngel.in/public/career/1/626e136b38/626e136b38.pdf",
+    "title": "Advertisement Instructions for the Candidates Application Link NGEL Medical Norms and Standards of Medical Fitness",
+    "kind": "advertisement"
+   },
+   "carried_from": "2017"
   }
  },
  "gaps": [
   "vacancies",
   "fee",
-  "age",
-  "pay",
-  "selection"
+  "age"
  ],
- "older_documents": 3
+ "older_documents": 4
 }
