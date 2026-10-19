@@ -4,19 +4,156 @@
  "name": "Meghalaya Health Recruitment (Staff Nurse, ANM, Medical Officer)",
  "body": "ml-health",
  "purpose": "recruitment",
- "cycle": null,
- "documents": 2,
- "documents_in_cycle": 2,
- "fields": {},
+ "cycle": "2025",
+ "documents": 3,
+ "documents_in_cycle": 1,
+ "fields": {
+  "age": {
+   "value": {
+    "limits": [
+     {
+      "max": 70,
+      "evidence": "Age eligibility: Age Limit as on 28.02.2025: not exceeding 70 years of age",
+      "page": 5
+     }
+    ],
+    "as_on": "2025-04-11"
+   },
+   "source": {
+    "notice": "2b735190238e3f435c71c01d42a950d841b9c5ffa0e73d95eb0eba398a698cc0",
+    "url": "https://meghealth.gov.in/news/Advertisement-ContractualFinalAlligned_190325_Rev01 (1).pdf",
+    "title": "Rolling Advertisement for the recruitment of Academic Faculty on contractual basis for the proposed Shillong Medical College",
+    "kind": "advertisement",
+    "page": 5
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2025-04-11",
+    "source": {
+     "notice": "2b735190238e3f435c71c01d42a950d841b9c5ffa0e73d95eb0eba398a698cc0",
+     "url": "https://meghealth.gov.in/news/Advertisement-ContractualFinalAlligned_190325_Rev01 (1).pdf",
+     "title": "Rolling Advertisement for the recruitment of Academic Faculty on contractual basis for the proposed Shillong Medical College",
+     "kind": "advertisement",
+     "page": 1
+    }
+   },
+   "exam_date": {
+    "date": "2025-04-17",
+    "source": {
+     "notice": "2b735190238e3f435c71c01d42a950d841b9c5ffa0e73d95eb0eba398a698cc0",
+     "url": "https://meghealth.gov.in/news/Advertisement-ContractualFinalAlligned_190325_Rev01 (1).pdf",
+     "title": "Rolling Advertisement for the recruitment of Academic Faculty on contractual basis for the proposed Shillong Medical College",
+     "kind": "advertisement",
+     "page": 2
+    }
+   },
+   "registration_open": {
+    "date": "2025-03-19",
+    "source": {
+     "notice": "2b735190238e3f435c71c01d42a950d841b9c5ffa0e73d95eb0eba398a698cc0",
+     "url": "https://meghealth.gov.in/news/Advertisement-ContractualFinalAlligned_190325_Rev01 (1).pdf",
+     "title": "Rolling Advertisement for the recruitment of Academic Faculty on contractual basis for the proposed Shillong Medical College",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2025-03-19",
+    "until": null
+   },
+   "source": {
+    "notice": "2b735190238e3f435c71c01d42a950d841b9c5ffa0e73d95eb0eba398a698cc0",
+    "url": "https://meghealth.gov.in/news/Advertisement-ContractualFinalAlligned_190325_Rev01 (1).pdf",
+    "title": "Rolling Advertisement for the recruitment of Academic Faculty on contractual basis for the proposed Shillong Medical College",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "exam_date": {
+   "value": "2025-04-17",
+   "source": {
+    "notice": "2b735190238e3f435c71c01d42a950d841b9c5ffa0e73d95eb0eba398a698cc0",
+    "url": "https://meghealth.gov.in/news/Advertisement-ContractualFinalAlligned_190325_Rev01 (1).pdf",
+    "title": "Rolling Advertisement for the recruitment of Academic Faculty on contractual basis for the proposed Shillong Medical College",
+    "kind": "advertisement",
+    "page": 2
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Postgraduate",
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "Table 1.3: Eligibility Criteria SL",
+      "page": 2
+     },
+     {
+      "text": "Faculty Monthly Fixed Remuneration (without any added allowance) Eligibility Criteria as per NMC",
+      "page": 2
+     },
+     {
+      "text": "Should have at least four Research publications (at least two as Associate Professor) [only original papers, meta- analysis, systematic reviews, and case series that are published in journals indexed in Medline, PubMed, Central Science Citation Index, Science Citation Index, Expanded Embase,…",
+      "page": 2
+     },
+     {
+      "text": "Faculty Monthly Fixed Remuneration (without any added allowance) Eligibility Criteria as per NMC",
+      "page": 3
+     },
+     {
+      "text": "Should have completed the Basic Course in Biomedical Research from Institutions designated by NMC",
+      "page": 3
+     },
+     {
+      "text": "Medical Colleges within the country, are eligible to apply as per eligibility criteria specified for each post",
+      "page": 3
+     },
+     {
+      "text": "All Candidates must have up-dated Medical (NMC/ State Medical Council) with all post MBBS/ MD/ MS Qualification(s)",
+      "page": 4
+     },
+     {
+      "text": "Even after that, if, candidate is selected, they must have to submit updated Medical Registration Certificate on the time of reporting to join to the Meghalaya Medical Council (MMC)",
+      "page": 4
+     },
+     {
+      "text": "Opportunity of interview given to candidates will be on provisional basis subject to detailed scrutiny of eligibility criteria",
+      "page": 4
+     },
+     {
+      "text": "Educational Qualifications:",
+      "page": 8
+     }
+    ]
+   },
+   "source": {
+    "notice": "2b735190238e3f435c71c01d42a950d841b9c5ffa0e73d95eb0eba398a698cc0",
+    "url": "https://meghealth.gov.in/news/Advertisement-ContractualFinalAlligned_190325_Rev01 (1).pdf",
+    "title": "Rolling Advertisement for the recruitment of Academic Faculty on contractual basis for the proposed Shillong Medical College",
+    "kind": "advertisement"
+   }
+  },
+  "selection": {
+   "value": [
+    "Interview"
+   ],
+   "source": {
+    "notice": "2b735190238e3f435c71c01d42a950d841b9c5ffa0e73d95eb0eba398a698cc0",
+    "url": "https://meghealth.gov.in/news/Advertisement-ContractualFinalAlligned_190325_Rev01 (1).pdf",
+    "title": "Rolling Advertisement for the recruitment of Academic Faculty on contractual basis for the proposed Shillong Medical College",
+    "kind": "advertisement"
+   }
+  }
+ },
  "gaps": [
   "vacancies",
-  "apply",
-  "exam_date",
   "fee",
-  "age",
-  "pay",
-  "eligibility",
-  "selection"
+  "pay"
  ],
- "older_documents": 0
+ "older_documents": 2
 }
