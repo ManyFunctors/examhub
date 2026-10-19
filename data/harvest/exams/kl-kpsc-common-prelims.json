@@ -5,7 +5,7 @@
  "body": "kl-kpsc",
  "purpose": "recruitment",
  "cycle": "2023",
- "documents": 5,
+ "documents": 6,
  "documents_in_cycle": 1,
  "fields": {
   "exam_pattern": {
@@ -67,6 +67,25 @@
     "title": "standardization procedure for the Common Preliminary Examinations, 2023 (LGS – Universities, OA – KAT etc)",
     "kind": "result"
    }
+  },
+  "pay": {
+   "value": [
+    {
+     "levels": [
+      1
+     ],
+     "text": "Pay Level 1",
+     "evidence": "Range of difficulty index(p) Difficulty Level 1 0 ≤ p <0.2 Very difficult 2",
+     "page": 2
+    }
+   ],
+   "source": {
+    "notice": "2f53f35c7a3534a9a8ff00a133040d201ed506a90d1ea4a6f591616c1fee5067",
+    "url": "https://keralapsc.gov.in/sites/default/files/inline-files/degree_prelims_standardisation_report__for_publication.pdf",
+    "title": "standardization procedure for Degree Level Common Preliminary Examinations, 2021.",
+    "kind": "result"
+   },
+   "carried_from": "2021"
   }
  },
  "gaps": [
@@ -75,9 +94,8 @@
   "exam_date",
   "fee",
   "age",
-  "pay",
   "eligibility",
   "selection"
  ],
- "older_documents": 4
+ "older_documents": 5
 }

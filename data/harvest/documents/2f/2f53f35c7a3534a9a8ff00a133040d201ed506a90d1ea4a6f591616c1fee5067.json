@@ -1,0 +1,57 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2f53f35c7a3534a9a8ff00a133040d201ed506a90d1ea4a6f591616c1fee5067",
+  "url": "https://keralapsc.gov.in/sites/default/files/inline-files/degree_prelims_standardisation_report__for_publication.pdf",
+  "title": "standardization procedure for Degree Level Common Preliminary Examinations, 2021.",
+  "body": "kl-kpsc",
+  "exam": "kl-kpsc-common-prelims",
+  "feed": "kl-kpsc/psc-examination-updates",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "c486eb6ff51d662557cb1e1488c3f67af6ace36b6e3a29f7bab7989dc6dbdf2a",
+  "bytes": 39656,
+  "pages": 3,
+  "chars": 5263,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T22:50:37+05:30"
+ },
+ "kind": "result",
+ "pay": [
+  {
+   "levels": [
+    1
+   ],
+   "text": "Pay Level 1",
+   "evidence": "Range of difficulty index(p) Difficulty Level 1 0 ≤ p <0.2 Very difficult 2",
+   "page": 2
+  }
+ ],
+ "exam_pattern": [
+  {
+   "paper": "N 21",
+   "page": 2
+  },
+  {
+   "paper": "N 22",
+   "page": 2
+  },
+  {
+   "paper": "N 23",
+   "page": 2
+  },
+  {
+   "paper": "N 24",
+   "page": 2
+  },
+  {
+   "paper": "N 25",
+   "page": 2
+  }
+ ],
+ "summary": {
+  "pay": "Pay Level 1"
+ }
+}
