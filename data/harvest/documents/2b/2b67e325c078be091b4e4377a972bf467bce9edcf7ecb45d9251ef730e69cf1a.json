@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2b67e325c078be091b4e4377a972bf467bce9edcf7ecb45d9251ef730e69cf1a",
+  "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat - hs ગણિત_022026.pdf",
+  "title": "TAT - HS ગણિત",
+  "body": "gj-seb",
+  "exam": "gj-tat",
+  "feed": "gj-seb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "a089f183683e3f42eafe119c6a83a2c51568883d7225c860bdb1eda4a04700be",
+  "bytes": 373708,
+  "pages": 8,
+  "chars": 14,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T16:02:58+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

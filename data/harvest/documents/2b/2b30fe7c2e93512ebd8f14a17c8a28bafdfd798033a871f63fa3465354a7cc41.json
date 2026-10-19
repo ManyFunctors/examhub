@@ -1,0 +1,40 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2b30fe7c2e93512ebd8f14a17c8a28bafdfd798033a871f63fa3465354a7cc41",
+  "url": "https://appsc.gov.in/upload/RECINS001/Notification_CAS_20250425_212925.pdf",
+  "title": "Notification Regarding Interview for Placement Under Career Advancement Scheme - 2025",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/notifications",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "ffcafa998f92e3e313d9694e0d3690c26c157609cea3e4473e03eaacf0060dd0",
+  "bytes": 257066,
+  "pages": 1,
+  "chars": 1025,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-19T16:03:00+05:30"
+ },
+ "kind": "result",
+ "advertisement_no": "APPSC-12/1/2024",
+ "dates": {
+  "exam_date": {
+   "date": "2025-04-24",
+   "evidence": "Polytechnic from Selection Grade-I to Grade-II under Career Advancement Scheme (CAS) held on 24th and 25th April, 2025 has been kept in abeyance as necessary clarifications has been sought from the Department of Education, Government of Aru",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "summary": {
+  "exam_date": "2025-04-24"
+ }
+}
