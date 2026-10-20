@@ -1,0 +1,118 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3b0ee3b3c6e02167e555162ab93a45234ddf2515eab66d4c7ff49d442e8f7bad",
+  "url": "https://appsc.gov.in/upload/RECINS001/Dental_Specialist_Advertisement_20240607_164818.pdf",
+  "title": "Advertisement for the post of Dental Specialist,Deptt. of Health & Family Welfare, GoAP-2024",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/advertisement",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "48925cc0db49a9e3bbaca1c1dd250fb1e8a27b6e047fe99545c379e3623e18ff",
+  "bytes": 1294421,
+  "pages": 3,
+  "chars": 6455,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T16:23:24+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "HFW-Y89",
+ "dates": {
+  "registration_deadline": {
+   "date": "2024-06-30",
+   "evidence": "NOTE: The online application submission link shall be active from 1100 hours on 08.06.2024 till last date of submission i.e before 1700 hours on 30.06.2024 on the APPSC website",
+   "page": 1,
+   "from": "text"
+  },
+  "age_as_on": {
+   "date": "2024-06-30",
+   "evidence": "(C) AGE LIMIT Not exceeding 40 years as on 30.06.2024 (Relaxable for Govemment servants by 05 years in accordance with instructions issued by the State Covemment)",
+   "page": 2,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 3,
+  "rows": [
+   {
+    "label": "Prosthodontist / NIL",
+    "total": 1,
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "fees": [
+  {
+   "categories": [
+    "ar:APST"
+   ],
+   "amount": 150,
+   "raw": "(F) APPLICATION FEE (l) Candidates are required to pay fee of {150/- (Rupees One Hundred Fifty) only for APST candidate and { 200/- (Rupees Two Hundred) only for other candidate through online mode only",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 200,
+   "raw": "(F) APPLICATION FEE (l) Candidates are required to pay fee of {150/- (Rupees One Hundred Fifty) only for APST candidate and { 200/- (Rupees Two Hundred) only for other candidate through online mode only",
+   "page": 2
+  },
+  {
+   "categories": [
+    "PwBD"
+   ],
+   "amount": 0,
+   "raw": "(2) PwD candidates are exempted from payment of application fee as per Section l9 of the Amnachal Pradesh Rights of Persons with Disabilities Rules,20l8",
+   "page": 2
+  }
+ ],
+ "age": {
+  "as_on": "2024-06-30"
+ },
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "(2) Post-graduate degree in concemed speciality mentioned in Section'A' or Section'B' or Section 'D' as the case may be in Schedule-Vl or equivalent of Arunachal Pradesh Health Services Rules-2000",
+    "page": 2
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 3
+  }
+ },
+ "links": {
+  "other": [
+   "https://appsc.gov.in"
+  ]
+ },
+ "summary": {
+  "vacancies": 3,
+  "apply": {
+   "until": "2024-06-30"
+  },
+  "fee": {
+   "min": 0,
+   "max": 200
+  },
+  "education": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "selection": "Interview"
+ }
+}

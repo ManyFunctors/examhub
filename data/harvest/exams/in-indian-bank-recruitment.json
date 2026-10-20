@@ -5,8 +5,8 @@
  "body": "in-indian-bank",
  "purpose": "recruitment",
  "cycle": "2025",
- "documents": 26,
- "documents_in_cycle": 3,
+ "documents": 27,
+ "documents_in_cycle": 4,
  "fields": {
   "vacancies": {
    "value": {
@@ -47,58 +47,83 @@
   },
   "dates": {
    "registration_deadline": {
-    "date": "2025-01-17",
+    "date": "2025-02-20",
     "source": {
-     "notice": "1f83a7038c5024fe9c9a731569b70840d991aca7599ae17759618c904025f7c4",
-     "url": "https://indianbank.bank.in/documents/20117/34414/NOTIFICATION_ENGAGEMENT_OF_THE_SERVICES_OF_PART-TIME_MEDICAL_CONSULTANT2026_05_02_21_48_24.pdf/e93089ef-a3a9-b6f3-ea26-8f2e7c28afe7",
-     "title": "Guidelines and Application form Advertisement",
+     "notice": "3b3121d16c37cbf8d71bdcaff3d0692149b42c24242a947423850bb04a29d6f7",
+     "url": "https://indianbank.bank.in/documents/20117/34414/FGMO-Bengaluru-Advertisement2026_05_02_21_36_36.pdf/69c8383f-e04f-7d80-0ad6-b14dce47fd04",
+     "title": "Engagement of Authorized Doctor on Contract Basis with Monthly Remuneration at FGMO Bengaluru Advertisement",
      "kind": "advertisement",
      "page": 1
     },
-    "alternatives": 2
+    "alternatives": 3
    }
   },
   "apply": {
    "value": {
     "from": null,
-    "until": "2025-01-17"
+    "until": "2025-02-20"
    },
    "source": {
-    "notice": "1f83a7038c5024fe9c9a731569b70840d991aca7599ae17759618c904025f7c4",
-    "url": "https://indianbank.bank.in/documents/20117/34414/NOTIFICATION_ENGAGEMENT_OF_THE_SERVICES_OF_PART-TIME_MEDICAL_CONSULTANT2026_05_02_21_48_24.pdf/e93089ef-a3a9-b6f3-ea26-8f2e7c28afe7",
-    "title": "Guidelines and Application form Advertisement",
+    "notice": "3b3121d16c37cbf8d71bdcaff3d0692149b42c24242a947423850bb04a29d6f7",
+    "url": "https://indianbank.bank.in/documents/20117/34414/FGMO-Bengaluru-Advertisement2026_05_02_21_36_36.pdf/69c8383f-e04f-7d80-0ad6-b14dce47fd04",
+    "title": "Engagement of Authorized Doctor on Contract Basis with Monthly Remuneration at FGMO Bengaluru Advertisement",
     "kind": "advertisement",
     "page": 1
    }
   },
+  "advertisement_no": {
+   "value": "01/2025",
+   "source": {
+    "notice": "3b3121d16c37cbf8d71bdcaff3d0692149b42c24242a947423850bb04a29d6f7",
+    "url": "https://indianbank.bank.in/documents/20117/34414/FGMO-Bengaluru-Advertisement2026_05_02_21_36_36.pdf/69c8383f-e04f-7d80-0ad6-b14dce47fd04",
+    "title": "Engagement of Authorized Doctor on Contract Basis with Monthly Remuneration at FGMO Bengaluru Advertisement",
+    "kind": "advertisement"
+   }
+  },
   "eligibility": {
    "value": {
+    "education_levels": [
+     "Graduate",
+     "Diploma / ITI"
+    ],
     "clauses": [
      {
-      "text": "S No Post Position Minimum post qualification experience Minimum Qualification",
+      "text": "Candidates should have a minimum of 10 years’ experience (post qualification experience) in any hospital or as Medical Practitioner",
       "page": 1
+     },
+     {
+      "text": "Mere fulfilling the eligibility criteria does not entitle a candidate to be called for interview",
+      "page": 1
+     },
+     {
+      "text": "Educational Qualifications:(Indicate degree / diploma obtained, In the order of highest to least)",
+      "page": 6
+     },
+     {
+      "text": "Attested copies of certificates regarding ID & Address proof, age, educational qualifications, experience etc. should accompany the application",
+      "page": 7
      }
     ]
    },
    "source": {
-    "notice": "1f83a7038c5024fe9c9a731569b70840d991aca7599ae17759618c904025f7c4",
-    "url": "https://indianbank.bank.in/documents/20117/34414/NOTIFICATION_ENGAGEMENT_OF_THE_SERVICES_OF_PART-TIME_MEDICAL_CONSULTANT2026_05_02_21_48_24.pdf/e93089ef-a3a9-b6f3-ea26-8f2e7c28afe7",
-    "title": "Guidelines and Application form Advertisement",
+    "notice": "3b3121d16c37cbf8d71bdcaff3d0692149b42c24242a947423850bb04a29d6f7",
+    "url": "https://indianbank.bank.in/documents/20117/34414/FGMO-Bengaluru-Advertisement2026_05_02_21_36_36.pdf/69c8383f-e04f-7d80-0ad6-b14dce47fd04",
+    "title": "Engagement of Authorized Doctor on Contract Basis with Monthly Remuneration at FGMO Bengaluru Advertisement",
     "kind": "advertisement"
    },
-   "alternatives": 2
+   "alternatives": 3
   },
   "selection": {
    "value": [
     "Interview"
    ],
    "source": {
-    "notice": "009ec279c294a99f7dfb52b9c1d4b99e4df2defbeee55f325fb346941c5bcd2d",
-    "url": "https://indianbank.bank.in/documents/20117/34414/authorised-doctors-advertisement-03.01.20252026_05_02_21_45_04.pdf/c04f4ea8-5b0f-32ca-4440-ddba283c7c91",
-    "title": "Engagement of Authorized Doctor on Contract Basis with Monthly Remuneration at Zonal Office Udaipur Advertisement",
+    "notice": "3b3121d16c37cbf8d71bdcaff3d0692149b42c24242a947423850bb04a29d6f7",
+    "url": "https://indianbank.bank.in/documents/20117/34414/FGMO-Bengaluru-Advertisement2026_05_02_21_36_36.pdf/69c8383f-e04f-7d80-0ad6-b14dce47fd04",
+    "title": "Engagement of Authorized Doctor on Contract Basis with Monthly Remuneration at FGMO Bengaluru Advertisement",
     "kind": "advertisement"
    },
-   "alternatives": 1
+   "alternatives": 2
   },
   "exam_pattern": {
    "value": [

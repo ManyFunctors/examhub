@@ -1,0 +1,74 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3b3121d16c37cbf8d71bdcaff3d0692149b42c24242a947423850bb04a29d6f7",
+  "url": "https://indianbank.bank.in/documents/20117/34414/FGMO-Bengaluru-Advertisement2026_05_02_21_36_36.pdf/69c8383f-e04f-7d80-0ad6-b14dce47fd04",
+  "title": "Engagement of Authorized Doctor on Contract Basis with Monthly Remuneration at FGMO Bengaluru Advertisement",
+  "body": "in-indian-bank",
+  "exam": "in-indian-bank-recruitment",
+  "feed": "in-indian-bank/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "4bb44cf77aab9114123f4bef66fa80cc0d2d033fdbc9430e889d7e7537b99f5e",
+  "bytes": 696657,
+  "pages": 8,
+  "chars": 16634,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T16:23:22+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "01/2025",
+ "dates": {
+  "registration_deadline": {
+   "date": "2025-02-20",
+   "evidence": "The applications from eligible candidates should reach the Chief Manager, FGMO Bengaluru, Indian Bank, 4th Floor, Raheja Towers, East Wing, 26-27, M.G Road, Bengaluru-560001 on or before 05:00 PM of 20.02.2025",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "clauses": [
+   {
+    "text": "Candidates should have a minimum of 10 years’ experience (post qualification experience) in any hospital or as Medical Practitioner",
+    "page": 1
+   },
+   {
+    "text": "Mere fulfilling the eligibility criteria does not entitle a candidate to be called for interview",
+    "page": 1
+   },
+   {
+    "text": "Educational Qualifications:(Indicate degree / diploma obtained, In the order of highest to least)",
+    "page": 6
+   },
+   {
+    "text": "Attested copies of certificates regarding ID & Address proof, age, educational qualifications, experience etc. should accompany the application",
+    "page": 7
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "summary": {
+  "apply": {
+   "until": "2025-02-20"
+  },
+  "education": [
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "selection": "Interview"
+ }
+}
