@@ -1,0 +1,2657 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "36072462923cd3fd3a882d3e13acb477557740b0d4a38e6bba65be4a9d5a0bda",
+  "url": "https://bceceboard.bihar.gov.in/pdf_Seat/BC_PCM26_SM_R3.pdf",
+  "title": "MOP-UP Round Seat Matrix of BCECE[Engineering]-2026",
+  "body": "br-bceceb",
+  "exam": "br-bcece",
+  "feed": "br-bceceb/home",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "73f8b590c94602b06c25e7a4f8c460ffa8dcad4fe111d29666e4f82e4cf8cefa",
+  "bytes": 474759,
+  "pages": 11,
+  "chars": 30770,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T08:33:12+05:30"
+ },
+ "kind": "notice",
+ "unmapped_classes": [
+  {
+   "label": "RCG",
+   "page": 11
+  },
+  {
+   "label": "DQ",
+   "page": 11
+  },
+  {
+   "label": "SMQ",
+   "page": 11
+  },
+  {
+   "label": "E-RCG",
+   "page": 11
+  }
+ ],
+ "vacancies": {
+  "total": 120,
+  "by_category": {
+   "Unreserved": 738,
+   "SC": 899,
+   "ST": 74,
+   "EWS": 182,
+   "br:EBC": 320,
+   "br:BC": 172
+  },
+  "rows": [
+   {
+    "label": "BCE BAKHTIYARPUR . . . / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BCE BAKHTIYARPUR . . . / COMPUTERSC &ENGINEERING .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 2,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 2,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "BCE BAKHTIYARPUR . . . / COMPUTERSCIENCE&ENGG (INTERNETOFTHINGS)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "BCE BAKHTIYARPUR . . . / ELECTRICAL&ELECTRONICS ENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BCE BAKHTIYARPUR . . . / FIRETECHNOLOGY&SAFETY",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 5,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BCE BAKHTIYARPUR . . . / MathematicsandComputing",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BCE BAKHTIYARPUR . . . / MECHANICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "BCE BHAGALPUR . . . / CIVILENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 3,
+     "br:EBC": 2,
+     "EWS": 3
+    },
+    "page": 1
+   },
+   {
+    "label": "BCE BHAGALPUR . . . / COMPUTERSC &ENGINEERING .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 2,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "BCE BHAGALPUR . . . / ELECTRICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BCE BHAGALPUR . . . / ELECTRO &COMMUNICATION ENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 2,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "BCE BHAGALPUR . . . / MathematicsandComputing",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 1,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "BCE BHAGALPUR . . . / MECHANICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BPMCE MADHEPURA . . . . . / 3-D ANIMATION & GRAPHICS",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 5,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 4,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "BPMCE MADHEPURA . . . . . / CIVILENGG WITHCOMPUTER APPLICATION",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 4,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BPMCE MADHEPURA . . . . . / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 2,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BPMCE MADHEPURA . . . . . / COMPUTERSC &ENGINEERING .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BPMCE MADHEPURA . . . . . / (ARTIFICALINTELLIGENCE&MACHINE LEARNING)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 2,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "BPMCE MADHEPURA . . . . . / ELECTRICAL&ELECTRONICS ENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 8,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 0,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "BPMCE MADHEPURA . . . . . / MECHANICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 8,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 1,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "CIPET:IPT BIHTA PATNA , , / CHEMICALENGINEERING(PLASTICAND POLYMER)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 1,
+     "br:BC": 2,
+     "br:EBC": 2,
+     "EWS": 3
+    },
+    "page": 1
+   },
+   {
+    "label": "CIPET:IPT BIHTA PATNA , , / MECHANICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 3,
+     "EWS": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "CIPET:IPT BIHTA PATNA , , / PETROCHEMICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "COLLEGEOFAGRICULTURAL ENGINEERING ARA BHOJPUR , , / AGRICULTUREENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 4,
+     "EWS": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "DCE DARBHANGA . . . / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "DCE DARBHANGA . . . / COMPUTERSC &ENGINEERING .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "DCE DARBHANGA . . . / COMPUTERSCIENCE&ENGG (CYBER SECURITY)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "DCE DARBHANGA . . . / ELECTRICAL&ELECTRONICS ENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 2,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "DCE DARBHANGA . . . / FIRETECHNOLOGY&SAFETY",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 4,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "DCE DARBHANGA . . . / MathematicsandComputing",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 2,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "DCE DARBHANGA . . . / MECHANICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 3,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "DR APJABDULKALAMWOMENS . INST OFTECH . . / BIOINFORMATICS(BI)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 11,
+     "SC": 5,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 4,
+     "EWS": 3
+    },
+    "page": 2
+   },
+   {
+    "label": "DR APJABDULKALAMWOMENS . INST OFTECH . . / COMPUTERSC &ENGINEERING .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 6,
+     "ST": 1,
+     "br:BC": 2,
+     "br:EBC": 4,
+     "EWS": 3
+    },
+    "page": 2
+   },
+   {
+    "label": "DR APJABDULKALAMWOMENS . INST OFTECH . . / IT . .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 5,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 1,
+     "EWS": 2
+    },
+    "page": 2
+   },
+   {
+    "label": "GCE GAYA . . . / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GCE GAYA . . . / COMPUTERSC &ENGINEERING .",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 3,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 3,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GCE GAYA . . . / ELECTRICAL&ELECTRONICS ENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GCE GAYA . . . / MathematicsandComputing",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 2,
+     "ST": 1,
+     "br:BC": 1,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GCE GAYA . . . / MECHANICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 1,
+     "EWS": 2
+    },
+    "page": 2
+   },
+   {
+    "label": "GOVTENGGCOLLEGEW . CHAMPARAN / CIVILENGINEERING",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 3,
+     "ST": 1,
+     "br:BC": 1,
+     "br:EBC": 1,
+     "EWS": 2
+    },
+    "page": 2
+   },
+   {
+    "label": "GOVTENGGCOLLEGEW . CHAMPARAN / COMPUTERSC &ENGINEERING .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GOVTENGGCOLLEGEW . CHAMPARAN / COMPUTERSCIENCE&ENGG (CYBER SECURITY)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 2,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GOVTENGGCOLLEGEW . CHAMPARAN / ELECTRICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 5,
+     "ST": 0,
+     "br:BC": 3,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GOVTENGGCOLLEGEW . CHAMPARAN / ELECTRO &COMMUNICATION ENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 6,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GOVTENGGCOLLEGEW . CHAMPARAN / ELECTRONICSENGG (VLSIDESIGN& . TECHNOLOGY)",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 5,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GOVTENGGCOLLEGEW . CHAMPARAN / MECHANICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 8,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 5,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GOVTENGG COLLEGESHEOHAR . / CIVILENGG WITHCOMPUTER APPLICATION",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 7,
+     "ST": 1,
+     "br:BC": 1,
+     "br:EBC": 3,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "GOVTENGG COLLEGESHEOHAR . / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 6,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 3,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "GOVTENGG COLLEGESHEOHAR . / COMPUTERSCIENCE&ENGG (DATA SCIENCE)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 2,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVTENGG COLLEGESHEOHAR . / ELECTRICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 7,
+     "ST": 1,
+     "br:BC": 2,
+     "br:EBC": 1,
+     "EWS": 1
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVTENGG COLLEGESHEOHAR . / ELECTRO &COMMUNICATION ENGINEERING",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 12,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 2,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVTENGG COLLEGESHEOHAR . / MECHANICALENGINEERING",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 14,
+     "SC": 10,
+     "ST": 1,
+     "br:BC": 3,
+     "br:EBC": 3,
+     "EWS": 2
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGEOF . . LAKHISARAI / CIVILENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 4,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 4,
+     "EWS": 1
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGEOF . . LAKHISARAI / COMPUTERSCIENCE&ENGG (ARTIFICALINTELLIGENCE)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 2,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGEOF . . LAKHISARAI / COMPUTERSCIENCE&ENGG (DATA SCIENCE)",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 6,
+     "ST": 2,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGEOF . . LAKHISARAI / ELECTRICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 5,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 3,
+     "EWS": 1
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGEOF . . LAKHISARAI / MECHANICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 8,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 3,
+     "EWS": 2
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGEOF . . SAMASTIPUR / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGEOF . . SAMASTIPUR / (ARTIFICALINTELLIGENCE&MACHINE LEARNING)",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGEOF . . SAMASTIPUR / COMPUTERSCIENCE&ENGG (CYBER SECURITY)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGEOF . . SAMASTIPUR / ELECTRICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGEOF . . SAMASTIPUR / ELECTRO &COMMUNICATION ENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 5,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGEOF . . SAMASTIPUR / MECHANICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 8,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 2
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGE ARWAL . . , / CIVILENGINEERING",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 2,
+     "br:BC": 0,
+     "br:EBC": 2,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGE ARWAL . . , / COMPUTERSC &ENGINEERING .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 2,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGE ARWAL . . , / COMPUTERSCIENCE&ENGG (DATA SCIENCE)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 3,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGE ARWAL . . , / ELECTRICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 14,
+     "ST": 1,
+     "br:BC": 1,
+     "br:EBC": 3,
+     "EWS": 2
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGE ARWAL . . , / MECHANICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 4,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 1,
+     "EWS": 1
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGE ARWAL . . , / ROBOTICSANDAUTOMATION",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 5,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 3,
+     "EWS": 2
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , AURANGABAD / ARTIFICIALINTELLIGENCE&MACHINE LEARNING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 3,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 1
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , AURANGABAD / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 2
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , AURANGABAD / COMPUTERSCIENCE&ENGG (DATA SCIENCE)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 2,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 3
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , AURANGABAD / ELECTRICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 5,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , AURANGABAD / ELECTRO &COMMUNICATION ENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 8,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , AURANGABAD / MECHANICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 6,
+     "ST": 1,
+     "br:BC": 3,
+     "br:EBC": 1,
+     "EWS": 2
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE BANKA . . , / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 3,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 3,
+     "EWS": 1
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE BANKA . . , / COMPUTERSC &ENGINEERING .",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 2,
+     "EWS": 1
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE BANKA . . , / COMPUTERSCIENCE&ENGG (INTERNETOFTHINGS)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 6,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 2,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE BANKA . . , / ELECTRICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 5,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE BANKA . . , / ELECTRO &COMMUNICATION ENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 9,
+     "ST": 1,
+     "br:BC": 1,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE BANKA . . , / MECHANICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 8,
+     "ST": 1,
+     "br:BC": 2,
+     "br:EBC": 4,
+     "EWS": 4
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE BHOJPUR . . , / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE BHOJPUR . . , / COMPUTERSC &ENGINEERING .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 2,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE BHOJPUR . . , / ELECTRICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 3,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 1,
+     "EWS": 3
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE BHOJPUR . . , / ELECTRO &COMMUNICATION ENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 7,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE BHOJPUR . . , / ELECTRONICSANDINSTRUMENTATION ENGG",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 5,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 1
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE BHOJPUR . . , / MECHANICALENGINEERING",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 7,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE BUXAR . . , / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 3,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE BUXAR . . , / COMPUTERSC &ENGINEERING .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 2,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE BUXAR . . , / ELECTRICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 6,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE BUXAR . . , / ELECTRO &COMMUNICATION ENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 11,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE BUXAR . . , / MECHANICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 8,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , GOPALGANJ / AERONAUTICALENGG",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 5,
+     "ST": 1,
+     "br:BC": 1,
+     "br:EBC": 3,
+     "EWS": 2
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , GOPALGANJ / CIVILENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 6,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , GOPALGANJ / COMPUTERSCIENCE&ENGG (ARTIFICALINTELLIGENCE)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , GOPALGANJ / (INTERNETOFTHINGS&CYBER SECURITYINCLUDING BLOCKCHAIN",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 2,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 4,
+     "EWS": 2
+    },
+    "page": 4
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , GOPALGANJ / ELECTRICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 6,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 1,
+     "EWS": 3
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , GOPALGANJ / ELECTRONICSENGG (VLSIDESIGN& . TECHNOLOGY)",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 10,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 4,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , GOPALGANJ / MECHANICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 5,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE JAMUI . . , / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 1
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE JAMUI . . , / (ARTIFICALINTELLIGENCE&MACHINE LEARNING)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 1,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE JAMUI . . , / COMPUTERSCIENCE&ENGG (DATA SCIENCE)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE JAMUI . . , / COMPUTERSCIENCE&ENGG (INTERNETOFTHINGS)",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 4,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 3,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE JAMUI . . , / ELECTRICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 8,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 2,
+     "EWS": 1
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE JAMUI . . , / ELECTRO &COMMUNICATION ENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 5,
+     "ST": 0,
+     "br:BC": 3,
+     "br:EBC": 4,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE JAMUI . . , / MECHANICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 7,
+     "ST": 1,
+     "br:BC": 2,
+     "br:EBC": 2,
+     "EWS": 2
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , JEHANABAD / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 2,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 4,
+     "EWS": 1
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , JEHANABAD / COMPUTERSCIENCE&ENGG (CYBER SECURITY)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 2,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , JEHANABAD / ELECTRICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 4,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 2,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , JEHANABAD / ELECTRO &COMMUNICATION ENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 6,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , JEHANABAD / MECHANICALENGINEERING",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 6,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 2,
+     "EWS": 1
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE KAIMUR . . , / CIVILENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 4,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 2,
+     "EWS": 1
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE KAIMUR . . , / COMPUTERSCIENCE&ENGG (CYBER SECURITY)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE KAIMUR . . , / COMPUTERSCIENCE&ENGG (NETWORKS)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 7,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 3,
+     "EWS": 1
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE KAIMUR . . , / ELECTRICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 8,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 3,
+     "EWS": 1
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE KAIMUR . . , / ELECTRO &COMMUNICATION ENGINEERING",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 9,
+     "ST": 2,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 3
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE KAIMUR . . , / MECHANICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 9,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 1
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , KHAGARIA / CIVILENGINEERING",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 10,
+     "ST": 1,
+     "br:BC": 3,
+     "br:EBC": 1,
+     "EWS": 2
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , KHAGARIA / (ARTIFICALINTELLIGENCE&MACHINE LEARNING)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 2,
+     "EWS": 0
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , KHAGARIA / COMPUTERSCIENCE&ENGG (INTERNETOFTHINGS)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 9,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 5
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , KHAGARIA / ELECTRICALENGINEERING",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 7,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 2
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , KHAGARIA / MECHANICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 11,
+     "ST": 1,
+     "br:BC": 3,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , MADHUBANI / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 10,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 2,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , MADHUBANI / COMPUTERSC &ENGINEERING .",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 3,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , MADHUBANI / COMPUTERSCIENCE&ENGG (INTERNETOFTHINGS)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 1
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , MADHUBANI / ELECTRICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 7,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , MADHUBANI / MECHANICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 12,
+     "SC": 8,
+     "ST": 1,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE NAWADA . . , / CIVILENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 3,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE NAWADA . . , / COMPUTERSC &ENGINEERING .",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE NAWADA . . , / ELECTRICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 5,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE NAWADA . . , / ELECTRO &COMMUNICATION ENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 6,
+     "ST": 1,
+     "br:BC": 1,
+     "br:EBC": 1,
+     "EWS": 1
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE NAWADA . . , / MECHANICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 5,
+     "ST": 1,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , SHEIKHPURA / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 1,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , SHEIKHPURA / COMPUTERSC &ENGINEERING .",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 2,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , SHEIKHPURA / ELECTRICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 5,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , SHEIKHPURA / ELECTRO &COMMUNICATION ENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 8,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 3,
+     "EWS": 1
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , SHEIKHPURA / MECHANICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 4,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 2,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE . . , SHEIKHPURA / MECHATRONICSENGG",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 5,
+     "ST": 0,
+     "br:BC": 3,
+     "br:EBC": 4,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE SIWAN . . , / CIVILENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE SIWAN . . , / COMPUTERSC &ENGINEERING .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE SIWAN . . , / COMPUTERSCIENCE&ENGG (INTERNETOFTHINGS)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 2,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE SIWAN . . , / ELECTRICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 3,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE SIWAN . . , / ELECTRONICSENGG (VLSIDESIGN& . TECHNOLOGY)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 6,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 2,
+     "EWS": 2
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE SIWAN . . , / MECHANICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 2,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 6
+   },
+   {
+    "label": "GOVT ENGG COLLEGE VAISHALI . . , / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVT ENGG COLLEGE VAISHALI . . , / COMPUTERSC &ENGINEERING .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVT ENGG COLLEGE VAISHALI . . , / COMPUTERSCIENCE&ENGG (INTERNETOFTHINGS)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVT ENGG COLLEGE VAISHALI . . , / ELECTRICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 2,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVT ENGG COLLEGE VAISHALI . . , / ELECTRO &COMMUNICATION ENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 6,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 2
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVT ENGG COLLEGE VAISHALI . . , / ELECTROANDCOMMUNICATION ENGINEERING(ACT)",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 7,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 1
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVT ENGG COLLEGE VAISHALI . . , / FOODTECHNOLOGYAND MANAGEMENT",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 6,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 3,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVT ENGG COLLEGE VAISHALI . . , / MathematicsandComputing",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 6,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVT ENGG COLLEGE VAISHALI . . , / MECHANICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 3,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVT ENGGCOLLEGEMUNGER . . / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 2,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 3
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVT ENGGCOLLEGEMUNGER . . / COMPUTERSCIENCE&ENGG (ARTIFICALINTELLIGENCE)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 1,
+     "br:BC": 1,
+     "br:EBC": 2,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVT ENGGCOLLEGEMUNGER . . / COMPUTERSCIENCE&ENGG (DATA SCIENCE)",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 5,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVT ENGGCOLLEGEMUNGER . . / ELECTRICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 7,
+     "ST": 1,
+     "br:BC": 1,
+     "br:EBC": 4,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVT ENGGCOLLEGEMUNGER . . / MathematicsandComputing",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 10,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 4,
+     "EWS": 2
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVT ENGGCOLLEGEMUNGER . . / MECHANICALENGINEERING",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 7,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 1,
+     "EWS": 1
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVTENGG COLLEGE . . KISHANGANJ / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 2,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVTENGG COLLEGE . . KISHANGANJ / COMPUTERSC &ENGINEERING .",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 1
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVTENGG COLLEGE . . KISHANGANJ / (ARTIFICALINTELLIGENCE&MACHINE LEARNING)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 3,
+     "ST": 1,
+     "br:BC": 2,
+     "br:EBC": 3,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVTENGG COLLEGE . . KISHANGANJ / ELECTRICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 11,
+     "SC": 7,
+     "ST": 1,
+     "br:BC": 2,
+     "br:EBC": 4,
+     "EWS": 2
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVTENGG COLLEGE . . KISHANGANJ / ELECTRO &COMMUNICATION ENGINEERING",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 8,
+     "ST": 0,
+     "br:BC": 3,
+     "br:EBC": 3,
+     "EWS": 3
+    },
+    "page": 7
+   },
+   {
+    "label": "GOVTENGG COLLEGE . . KISHANGANJ / MECHANICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 7,
+     "SC": 10,
+     "ST": 1,
+     "br:BC": 2,
+     "br:EBC": 6,
+     "EWS": 2
+    },
+    "page": 7
+   },
+   {
+    "label": "KCE KATIHAR . . ., / CIVILENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 1,
+     "EWS": 1
+    },
+    "page": 7
+   },
+   {
+    "label": "KCE KATIHAR . . ., / COMPUTERSC &ENGINEERING .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 2,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "KCE KATIHAR . . ., / ELECTRICAL&ELECTRONICS ENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 6,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 7
+   },
+   {
+    "label": "KCE KATIHAR . . ., / ELECTRONICSENGG (VLSIDESIGN& . TECHNOLOGY)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 4,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "KCE KATIHAR . . ., / MECHANICALANDSMART MANUFACTURING",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 6,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 1,
+     "EWS": 1
+    },
+    "page": 8
+   },
+   {
+    "label": "KCE KATIHAR . . ., / MECHANICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 4,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 2,
+     "EWS": 1
+    },
+    "page": 8
+   },
+   {
+    "label": "LNJPIT TECHNOLOGY CHAPRA . .. .. . . / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 1
+    },
+    "page": 8
+   },
+   {
+    "label": "LNJPIT TECHNOLOGY CHAPRA . .. .. . . / COMPUTERSC &ENGINEERING .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 8
+   },
+   {
+    "label": "LNJPIT TECHNOLOGY CHAPRA . .. .. . . / ELECTRICAL&ELECTRONICS ENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 3,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "LNJPIT TECHNOLOGY CHAPRA . .. .. . . / FOODPROCESSING&PRESERVATION",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 11,
+     "SC": 9,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 8,
+     "EWS": 4
+    },
+    "page": 8
+   },
+   {
+    "label": "LNJPIT TECHNOLOGY CHAPRA . .. .. . . / MathematicsandComputing",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "LNJPIT TECHNOLOGY CHAPRA . .. .. . . / MECHANICALENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 2,
+     "EWS": 1
+    },
+    "page": 8
+   },
+   {
+    "label": "M CE MOTIHARI .. . . / CIVILENGG WITHCOMPUTER APPLICATION",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 2,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "M CE MOTIHARI .. . . / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 3,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "M CE MOTIHARI .. . . / COMPUTERSC &ENGINEERING .",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 2,
+     "EWS": 1
+    },
+    "page": 8
+   },
+   {
+    "label": "M CE MOTIHARI .. . . / COMPUTERSCIENCE&ENGG (ARTIFICALINTELLIGENCE)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "M CE MOTIHARI .. . . / ELECTRICAL&ELECTRONICS ENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 0,
+     "ST": 1,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "M CE MOTIHARI .. . . / MECHANICALENGINEERING",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 3,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "MIT MUZAFFARPUR .. . / BIOMEDICALROBOTICENGG",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 4,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "MIT MUZAFFARPUR .. . / CHEMICALENGG",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "MIT MUZAFFARPUR .. . / CHEMICALTECHNOLOGY(LEATHER TECH)",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "SC": 3,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 2,
+     "EWS": 2
+    },
+    "page": 8
+   },
+   {
+    "label": "MIT MUZAFFARPUR .. . / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "MIT MUZAFFARPUR .. . / COMPUTERSC &ENGINEERING .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 2,
+     "EWS": 2
+    },
+    "page": 8
+   },
+   {
+    "label": "MIT MUZAFFARPUR .. . / ELECTRICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "MIT MUZAFFARPUR .. . / ELECTRO &COMMUNICATION ENGINEERING",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 3,
+     "SC": 2,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "MIT MUZAFFARPUR .. . / IT . .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 4,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "MIT MUZAFFARPUR .. . / MathematicsandComputing",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 8
+   },
+   {
+    "label": "MIT MUZAFFARPUR .. . / MECHANICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "ST": 1,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "NALANDACOLLEGE OF . ENGGCHANDI , / AERONAUTICALENGG",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 8,
+     "ST": 0,
+     "br:BC": 3,
+     "br:EBC": 2,
+     "EWS": 1
+    },
+    "page": 9
+   },
+   {
+    "label": "NALANDACOLLEGE OF . ENGGCHANDI , / ARTIFICIALINTELLIGENCE&MACHINE LEARNING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 5,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 0,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "NALANDACOLLEGE OF . ENGGCHANDI , / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 0,
+     "EWS": 1
+    },
+    "page": 9
+   },
+   {
+    "label": "NALANDACOLLEGE OF . ENGGCHANDI , / COMPUTERSC &ENGINEERING .",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 0,
+     "ST": 0,
+     "br:BC": 0,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "NALANDACOLLEGE OF . ENGGCHANDI , / ELECTRICAL&ELECTRONICS ENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "SC": 1,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 2,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "NALANDACOLLEGE OF . ENGGCHANDI , / MECHANICALENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 3,
+     "ST": 0,
+     "br:BC": 1,
+     "br:EBC": 1,
+     "EWS": 0
+    },
+    "page": 9
+   },
+   {
+    "label": "PURNEACOLLEGEOFENGG . / CIVILENGINEERING",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 2,
+     "ST": 0,
+     "br:BC": 2,
+     "br:EBC": 1,
+     "EWS": 1
+    },
+    "page": 9
+   }
+  ],
+  "from": "table"
+ },
+ "summary": {
+  "vacancies": 120
+ }
+}

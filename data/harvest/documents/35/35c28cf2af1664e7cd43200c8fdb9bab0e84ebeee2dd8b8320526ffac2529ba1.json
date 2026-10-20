@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "35c28cf2af1664e7cd43200c8fdb9bab0e84ebeee2dd8b8320526ffac2529ba1",
+  "url": "https://mpscmanipur.gov.in/files/MPSC_26041620560.pdf",
+  "title": "View Advertisement",
+  "body": "mn-mpsc",
+  "exam": "mn-mpsc-other",
+  "feed": "mn-mpsc/advertisements",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "119d781d39d12e213d994e97db23d945b7fb007a4b94731c1aef76e331546005",
+  "bytes": 2517225,
+  "pages": 3,
+  "chars": 4,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T08:33:12+05:30"
+ },
+ "kind": "advertisement",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
