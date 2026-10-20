@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "36733f0fe975f8aabecbbe67067e93c5ad50f9261a1b327513672b6a67c142d0",
+  "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat - hs રાજ્ય શાસ્ત્ર_022026.pdf",
+  "title": "TAT - HS રાજ્ય શાસ્ત્ર",
+  "body": "gj-seb",
+  "exam": "gj-tat",
+  "feed": "gj-seb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "32ffe4f295bcf25b24bd7b2c5fe9a8d511e41f1912968cee64006844d3210844",
+  "bytes": 284635,
+  "pages": 8,
+  "chars": 14,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T09:35:15+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

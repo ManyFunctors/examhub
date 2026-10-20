@@ -5,26 +5,27 @@
  "body": "ml-hc",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 5,
- "documents_in_cycle": 1,
+ "documents": 6,
+ "documents_in_cycle": 2,
  "fields": {
   "dates": {
    "exam_date": {
-    "date": "2026-02-07",
+    "date": "2026-01-17",
     "source": {
-     "notice": "1e26ab1893a9344b5abd6814e16f3441a20bdaadb909923aabc0f485f2469d47",
-     "url": "https://meghalayahighcourt.nic.in/sites/default/files/recruitment/R205.pdf",
+     "notice": "363c9f191eec17aa3847ba7df6358d7690012056084cf85f01ec5ab91d9e6e91",
+     "url": "https://meghalayahighcourt.nic.in/sites/default/files/recruitment/R204.pdf",
      "title": "Click to view/download",
      "kind": "notice",
      "page": 1
-    }
+    },
+    "alternatives": 1
    }
   },
   "exam_date": {
-   "value": "2026-02-07",
+   "value": "2026-01-17",
    "source": {
-    "notice": "1e26ab1893a9344b5abd6814e16f3441a20bdaadb909923aabc0f485f2469d47",
-    "url": "https://meghalayahighcourt.nic.in/sites/default/files/recruitment/R205.pdf",
+    "notice": "363c9f191eec17aa3847ba7df6358d7690012056084cf85f01ec5ab91d9e6e91",
+    "url": "https://meghalayahighcourt.nic.in/sites/default/files/recruitment/R204.pdf",
     "title": "Click to view/download",
     "kind": "notice",
     "page": 1
@@ -33,22 +34,24 @@
   "advertisement_no": {
    "value": "HCM.I1",
    "source": {
-    "notice": "1e26ab1893a9344b5abd6814e16f3441a20bdaadb909923aabc0f485f2469d47",
-    "url": "https://meghalayahighcourt.nic.in/sites/default/files/recruitment/R205.pdf",
+    "notice": "363c9f191eec17aa3847ba7df6358d7690012056084cf85f01ec5ab91d9e6e91",
+    "url": "https://meghalayahighcourt.nic.in/sites/default/files/recruitment/R204.pdf",
     "title": "Click to view/download",
     "kind": "notice"
-   }
+   },
+   "alternatives": 1
   },
   "apply_links": {
    "value": [
     "https://megrecruitment"
    ],
    "source": {
-    "notice": "1e26ab1893a9344b5abd6814e16f3441a20bdaadb909923aabc0f485f2469d47",
-    "url": "https://meghalayahighcourt.nic.in/sites/default/files/recruitment/R205.pdf",
+    "notice": "363c9f191eec17aa3847ba7df6358d7690012056084cf85f01ec5ab91d9e6e91",
+    "url": "https://meghalayahighcourt.nic.in/sites/default/files/recruitment/R204.pdf",
     "title": "Click to view/download",
     "kind": "notice"
-   }
+   },
+   "alternatives": 1
   }
  },
  "gaps": [
