@@ -1,0 +1,78 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3c5e74822be9ffc0eb926f617bc9fab31398576bdb31690fa856139a071d7b2a",
+  "url": "https://www.iob.bank.in/documents/d/guest/iob-recruitment-of-office-assistant-rseti-trichy-2025-26",
+  "title": "Advertisement - (View)",
+  "body": "in-iob",
+  "exam": "in-iob-recruitment",
+  "feed": "in-iob/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "935e45f962483cc7ec16f8a26261d30112d5d9505145cb4e01e0a8cc42ba5f53",
+  "bytes": 200510,
+  "pages": 7,
+  "chars": 14339,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T18:36:32+05:30"
+ },
+ "kind": "advertisement",
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 200,
+   "raw": "Application fee of Rs.200/- for the post of Office Assistant towards the expenditure related to selection process which includes written test and interview has to be credited/sent to respective accounts as follows",
+   "page": 2
+  }
+ ],
+ "age": {
+  "limits": [
+   {
+    "min": 22,
+    "max": 40,
+    "evidence": "Desirable age for all positions is 22-40 years",
+    "page": 1
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Only those candidates who meet the minimum eligibility criteria as outlined above will be considered",
+    "page": 1
+   }
+  ]
+ },
+ "selection": [
+  "Written examination",
+  "Interview",
+  "Medical examination"
+ ],
+ "links": {
+  "other": [
+   "http://www.iob.in/",
+   "https://www.iob.in"
+  ]
+ },
+ "summary": {
+  "fee": {
+   "min": 200,
+   "max": 200
+  },
+  "age": {
+   "min": 22,
+   "max": 40
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Written examination → Interview → Medical examination"
+ }
+}

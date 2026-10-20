@@ -1,0 +1,28 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3c5c54c54462d56a3704e292333c9a8c04a6b444b12533c519dcf8aa45f43d91",
+  "url": "https://appsc.gov.in/upload/RECINS001/MEDICAL_SPECIALIST_RECTRUITMENT_2026_ADVERTISEMENT_20260413_150101.pdf",
+  "title": "ADVERTISEMENT OF MEDICAL SPECIALIST RECRUITMENT-2026 FOR THE POST OF JUNIOR SPECIALIST (ALLOPATHY) AND JUNIOR DENTAL SPECIALIST",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/advertisement",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "48a4fcb70e0315cb9b56d0acb9b25e14e82e1a76be6ff67e7dbe0a681985549e",
+  "bytes": 1795335,
+  "pages": 6,
+  "chars": 782,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T18:36:46+05:30"
+ },
+ "kind": "advertisement",
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 6
+  }
+ }
+}

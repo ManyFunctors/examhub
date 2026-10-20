@@ -34,7 +34,7 @@
 {"cycle": "2025", "documents": 4, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-ae"}
 {"cycle": "2020", "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-cce"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-lecturer"}
-{"cycle": "2026", "documents": 48, "gaps": ["vacancies", "apply", "fee", "age"], "id": "ar-appsc-other"}
+{"cycle": "2026", "documents": 49, "gaps": ["vacancies", "apply", "fee", "age"], "id": "ar-appsc-other"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-apssb-recruitment"}
 {"cycle": null, "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-police"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "as-aau-cet"}
@@ -369,7 +369,7 @@
 {"cycle": "2025", "documents": 27, "gaps": ["exam_date", "fee", "age", "pay"], "id": "in-indian-bank-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ini-cet"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ini-ss"}
-{"cycle": "2026", "documents": 14, "gaps": ["fee", "pay"], "id": "in-iob-recruitment"}
+{"cycle": "2026", "documents": 15, "gaps": ["fee", "pay"], "id": "in-iob-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-iocl-gate-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-iocl-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "eligibility"], "id": "in-ioqm"}
@@ -565,7 +565,7 @@
 {"cycle": "2026-12", "documents": 85, "gaps": [], "id": "in-ugc-net"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-uiic-ao"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-uiic-assistant"}
-{"cycle": "2026", "documents": 7, "gaps": ["exam_date", "fee", "age"], "id": "in-union-bank-recruitment"}
+{"cycle": "2026", "documents": 8, "gaps": ["exam_date", "fee", "age"], "id": "in-union-bank-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-upsc-capf-ac"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-upsc-cds"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "eligibility"], "id": "in-upsc-cisf-ac-ldce"}
@@ -852,7 +852,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "sk-police"}
 {"cycle": "2024-07", "documents": 1, "gaps": ["vacancies", "apply", "age"], "id": "sk-spsc-ae"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "sk-spsc-cce"}
-{"cycle": "2024-01", "documents": 2, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "sk-spsc-lecturer"}
+{"cycle": "2024-01", "documents": 3, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "sk-spsc-lecturer"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "sk-spsc-other"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "sk-teacher-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "tg-bse-class-10"}
