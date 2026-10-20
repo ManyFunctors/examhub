@@ -1,0 +1,52 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3904ffbd69cc5c9c011fb85148fc9b61ba626ee1cf9e042b1a00db997c3403ef",
+  "url": "https://jkhighcourt.nic.in/upload/notices/Interviewnotice_12092023.pdf",
+  "title": "Notification regarding interviews for the post of Research Assistant",
+  "body": "jk-hc",
+  "exam": "jk-hc-staff",
+  "feed": "jk-hc/notifications-2",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "0597740afe32456b0718583c582996bb77e7357242cde0d5cecf19be63934a73",
+  "bytes": 70244,
+  "pages": 1,
+  "chars": 1673,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T12:17:56+05:30"
+ },
+ "kind": "corrigendum",
+ "advertisement_no": "tice",
+ "dates": {
+  "exam_date": {
+   "date": "2023-09-06",
+   "evidence": "JAMMU AND KASHMIR JUDICIAL ACADEMY AT JAMMU INTERVIEW NOTICE No. 02",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "1 . J&K Judicial Academy Mominabad Srinagar for , , thecandidatesof Kashmir Province",
+   "date": "2023-09-23",
+   "page": 1
+  },
+  {
+   "event": "2 . J&K Judicial Academy Janipur Jammu for the , , candidates ofJammuProvince",
+   "date": "2023-09-24",
+   "page": 1
+  },
+  {
+   "event": "JAMMU AND KASHMIR JUDICIAL ACADEMY AT JAMMU INTERVIEW NOTICE No. 02",
+   "key": "exam_date",
+   "date": "2023-09-06",
+   "page": 1
+  }
+ ],
+ "summary": {
+  "exam_date": "2023-09-06"
+ }
+}

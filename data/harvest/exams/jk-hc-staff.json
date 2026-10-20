@@ -4,10 +4,41 @@
  "name": "J&K and Ladakh HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)",
  "body": "jk-hc",
  "purpose": "recruitment",
- "cycle": "2016",
- "documents": 2,
+ "cycle": "2023",
+ "documents": 3,
  "documents_in_cycle": 1,
  "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2023-09-06",
+    "source": {
+     "notice": "3904ffbd69cc5c9c011fb85148fc9b61ba626ee1cf9e042b1a00db997c3403ef",
+     "url": "https://jkhighcourt.nic.in/upload/notices/Interviewnotice_12092023.pdf",
+     "title": "Notification regarding interviews for the post of Research Assistant",
+     "kind": "corrigendum",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2023-09-06",
+   "source": {
+    "notice": "3904ffbd69cc5c9c011fb85148fc9b61ba626ee1cf9e042b1a00db997c3403ef",
+    "url": "https://jkhighcourt.nic.in/upload/notices/Interviewnotice_12092023.pdf",
+    "title": "Notification regarding interviews for the post of Research Assistant",
+    "kind": "corrigendum",
+    "page": 1
+   }
+  },
+  "advertisement_no": {
+   "value": "tice",
+   "source": {
+    "notice": "3904ffbd69cc5c9c011fb85148fc9b61ba626ee1cf9e042b1a00db997c3403ef",
+    "url": "https://jkhighcourt.nic.in/upload/notices/Interviewnotice_12092023.pdf",
+    "title": "Notification regarding interviews for the post of Research Assistant",
+    "kind": "corrigendum"
+   }
+  },
   "eligibility": {
    "value": {
     "education_levels": [
@@ -56,10 +87,9 @@
  "gaps": [
   "vacancies",
   "apply",
-  "exam_date",
   "fee",
   "age",
   "selection"
  ],
- "older_documents": 1
+ "older_documents": 2
 }

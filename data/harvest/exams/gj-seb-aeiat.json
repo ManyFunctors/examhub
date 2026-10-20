@@ -5,15 +5,75 @@
  "body": "gj-seb",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 3,
- "documents_in_cycle": 1,
- "fields": {},
+ "documents": 4,
+ "documents_in_cycle": 2,
+ "fields": {
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "Educational qualification and age limit.- (l) The candidate who possesses the requisite qualification, for the post of Assistant Education Inspector, class III, in the Subordinate Services of the Directorate of Primary Education or Respective District or Municipal School Board or Nagar Shikshan…",
+      "page": 15
+     }
+    ]
+   },
+   "source": {
+    "notice": "38d16684642a79bbcdfa0eea65fddac272e8fea218554fba6ce142c51b04ed8d",
+    "url": "https://www.sebexam.org/AdvertiseFiles/2026/મદદનીશ કેળવણી નિરીક્ષક એપ્ટીટ્યુડ ટેસ્ટ (aeiat) (વર્ગ-૩) (પ્રાથમિક શાળાઓ) – 2026 જાહેરનામું_012026.pdf",
+    "title": "મદદનીશ કેળવણી નિરીક્ષક એપ્ટીટ્યુડ ટેસ્ટ (AEIAT) (વર્ગ-૩) (પ્રાથમિક શાળાઓ) – 2026 જાહેરનામું",
+    "kind": "notice"
+   }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "J",
+     "page": 24
+    },
+    {
+     "paper": ",+",
+     "page": 24
+    },
+    {
+     "paper": ")",
+     "page": 24
+    },
+    {
+     "paper": "l0",
+     "page": 24
+    },
+    {
+     "paper": "1l",
+     "page": 24
+    },
+    {
+     "paper": "t2",
+     "page": 24
+    },
+    {
+     "paper": "IJ",
+     "page": 24
+    },
+    {
+     "paper": "t4",
+     "page": 24
+    }
+   ],
+   "source": {
+    "notice": "38d16684642a79bbcdfa0eea65fddac272e8fea218554fba6ce142c51b04ed8d",
+    "url": "https://www.sebexam.org/AdvertiseFiles/2026/મદદનીશ કેળવણી નિરીક્ષક એપ્ટીટ્યુડ ટેસ્ટ (aeiat) (વર્ગ-૩) (પ્રાથમિક શાળાઓ) – 2026 જાહેરનામું_012026.pdf",
+    "title": "મદદનીશ કેળવણી નિરીક્ષક એપ્ટીટ્યુડ ટેસ્ટ (AEIAT) (વર્ગ-૩) (પ્રાથમિક શાળાઓ) – 2026 જાહેરનામું",
+    "kind": "notice"
+   }
+  }
+ },
  "gaps": [
   "apply",
   "exam_date",
-  "fee",
-  "eligibility",
-  "exam_pattern"
+  "fee"
  ],
  "older_documents": 2
 }
