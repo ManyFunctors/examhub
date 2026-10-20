@@ -1,0 +1,60 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3dbab017dc5ec7b966383e1845a8a96add9eba7f536439a39763411c45a9d77f",
+  "url": "https://keralapsc.gov.in/sites/default/files/inline-files/report26_07_24_1_.pdf",
+  "title": "Standardization procedure for Degree Level Common Preliminary Examinations, 2024",
+  "body": "kl-kpsc",
+  "exam": "kl-kpsc-common-prelims",
+  "feed": "kl-kpsc/psc-examination-updates",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "cbc06d61cca154d39df25ce0844db43dbe5331309f153df04311381ef62fd264",
+  "bytes": 61041,
+  "pages": 5,
+  "chars": 6192,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T20:57:55+05:30"
+ },
+ "kind": "result",
+ "exam_pattern": [
+  {
+   "paper": "(5100/11100) =4595 . . .",
+   "page": 5,
+   "marks": 51
+  },
+  {
+   "paper": "(5100/11105) =4593 . . .",
+   "page": 5,
+   "marks": 51
+  },
+  {
+   "paper": "(5100/10) =5100 . . .",
+   "page": 5,
+   "marks": 51
+  },
+  {
+   "paper": "(6000/11100) =5405 . . .",
+   "page": 5,
+   "marks": 60
+  },
+  {
+   "paper": "(6000/11105) =5403 . . .",
+   "page": 5,
+   "marks": 60
+  },
+  {
+   "paper": "(6000/10) =6000 . . .",
+   "page": 5,
+   "marks": 60
+  }
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "One-fourth of the marks assigned for each wrong answer",
+   "page": 3
+  }
+ }
+}

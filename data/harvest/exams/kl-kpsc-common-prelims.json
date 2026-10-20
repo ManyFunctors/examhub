@@ -4,67 +4,47 @@
  "name": "Kerala PSC Common Preliminary Examinations (10th, 12th, Degree level)",
  "body": "kl-kpsc",
  "purpose": "recruitment",
- "cycle": "2023",
- "documents": 7,
- "documents_in_cycle": 2,
+ "cycle": "2024",
+ "documents": 8,
+ "documents_in_cycle": 1,
  "fields": {
   "exam_pattern": {
    "value": [
     {
-     "paper": "(5100/11038)= 4620 . . .",
+     "paper": "(5100/11100) =4595 . . .",
      "page": 5,
      "marks": 51
     },
     {
-     "paper": "(5100/11277)= 4522 . . .",
+     "paper": "(5100/11105) =4593 . . .",
      "page": 5,
      "marks": 51
     },
     {
-     "paper": "(5100/11669)= 4371 . . .",
+     "paper": "(5100/10) =5100 . . .",
      "page": 5,
      "marks": 51
     },
     {
-     "paper": "(5100/10239)= 4981 . . .",
-     "page": 5,
-     "marks": 51
-    },
-    {
-     "paper": "(5100/1)= 5100 . .",
-     "page": 5,
-     "marks": 51
-    },
-    {
-     "paper": "(6000/11038) =5436 . . .",
+     "paper": "(6000/11100) =5405 . . .",
      "page": 5,
      "marks": 60
     },
     {
-     "paper": "(6000/11277) =5321 . . .",
+     "paper": "(6000/11105) =5403 . . .",
      "page": 5,
      "marks": 60
     },
     {
-     "paper": "(6000/11669) =5142 . . .",
-     "page": 5,
-     "marks": 60
-    },
-    {
-     "paper": "(6000/10239) =5860 . . .",
-     "page": 5,
-     "marks": 60
-    },
-    {
-     "paper": "(6000/1) =6000 . .",
+     "paper": "(6000/10) =6000 . . .",
      "page": 5,
      "marks": 60
     }
    ],
    "source": {
-    "notice": "255ef60389c9908bbe6949f3fdc5a7db011094669fffa23bdfb554135fd98213",
-    "url": "https://keralapsc.gov.in/sites/default/files/inline-files/report05_12_23_for_publ_0.pdf",
-    "title": "standardization procedure for the Common Preliminary Examinations, 2023 (LGS – Universities, OA – KAT etc)",
+    "notice": "3dbab017dc5ec7b966383e1845a8a96add9eba7f536439a39763411c45a9d77f",
+    "url": "https://keralapsc.gov.in/sites/default/files/inline-files/report26_07_24_1_.pdf",
+    "title": "Standardization procedure for Degree Level Common Preliminary Examinations, 2024",
     "kind": "result"
    }
   },
@@ -97,5 +77,5 @@
   "eligibility",
   "selection"
  ],
- "older_documents": 5
+ "older_documents": 7
 }

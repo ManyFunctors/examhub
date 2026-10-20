@@ -1,0 +1,28 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3dac87ccc9ddfa15e69380209396a2e64da1a3b459199dc0492c233844604d92",
+  "url": "https://www.nestexam.in/qnsans/NEST-18.pdf",
+  "title": "2018",
+  "body": "in-niser",
+  "exam": "in-nest",
+  "feed": "in-niser/nest",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "f5b4cb8bc5b701bd03e1f6f5b1a7ab3deb177b9c021f0f4acab8d37ef6cd06e2",
+  "bytes": 2165100,
+  "pages": 41,
+  "chars": 19405,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T20:57:57+05:30"
+ },
+ "kind": "answer_key",
+ "exam": {
+  "duration": {
+   "value": "49410319 Group Maximum Duration :",
+   "page": 1
+  }
+ }
+}

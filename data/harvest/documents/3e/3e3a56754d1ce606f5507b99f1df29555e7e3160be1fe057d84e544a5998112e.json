@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3e3a56754d1ce606f5507b99f1df29555e7e3160be1fe057d84e544a5998112e",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2025/02/2025020434.pdf",
+  "title": "Detailed advertisement for recruitment to the post of Junior Court Assistant in the Supreme Court of India",
+  "body": "in-sci",
+  "exam": "in-sci-jca",
+  "feed": "in-sci/recruitment",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "b2d54ba44e3665f3083c6603f5535f974ba165a6bcfbadc7c8d3d22f8d9bd221",
+  "bytes": 267429,
+  "pages": 8,
+  "chars": 12955,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T20:57:56+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "registration_open": {
+   "date": "2025-02-05",
+   "evidence": "The application will be accepted through online registration only which is likely to start from",
+   "page": 3,
+   "from": "text"
+  }
+ },
+ "age": {
+  "limits": [
+   {
+    "max": 18,
+    "evidence": "Candidates should not be below 18 years and above 30 years of age as",
+    "page": 1
+   }
+  ]
+ },
+ "pay": [
+  {
+   "levels": [
+    6
+   ],
+   "initial": 35400,
+   "text": "Pay Level 6, initial basic ₹35,400",
+   "evidence": "Online applications are invited from Indian citizens who fulfill the following essential qualifications and other eligibility conditions as on 08.03.2025 for preparation of a panel for filling up of 241 vacancies for the post of Junior Court Assistant (Group ‘B’ Non-Gazetted) placed in Level 6 of…",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Online applications are invited from Indian citizens who fulfill the following essential qualifications and other eligibility conditions as on 08.03.2025 for preparation of a panel for filling up of 241 vacancies for the post of Junior Court Assistant (Group ‘B’ Non-Gazetted) placed in Level 6 of…",
+    "page": 1
+   },
+   {
+    "text": "Essential Qualifications :",
+    "page": 1
+   },
+   {
+    "text": "Therefore, Candidates should have a valid personal E-mail ID and mobile number and it should be kept active during the entire recruitment process",
+    "page": 5
+   }
+  ]
+ },
+ "selection": [
+  "Written examination",
+  "Interview"
+ ],
+ "links": {
+  "other": [
+   "http://www.sci.gov.in/",
+   "https://www.sci.gov.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2025-02-05"
+  },
+  "age": {
+   "max": 18
+  },
+  "pay": "Pay Level 6, initial basic ₹35,400",
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Written examination → Interview"
+ }
+}
