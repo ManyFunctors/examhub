@@ -1,0 +1,94 @@
+{
+ "schema": 1,
+ "exam": "ap-hc-staff",
+ "name": "AP High Court Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)",
+ "body": "ap-hc",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "age": {
+   "value": {
+    "limits": [
+     {
+      "max": 56,
+      "evidence": "The candidates should be below 56 years as on 1st August, 2026",
+      "page": 2
+     }
+    ],
+    "as_on": "2026-08-01"
+   },
+   "source": {
+    "notice": "a9f5ca6696927ba6116a7198a9c33f3cd3e66f26f82c8e85c2b0b4a3c2b67cfe",
+    "url": "https://aphc.gov.in/docs/notification_1788854949_0.pdf",
+    "title": "Vacancy Circular received from the Hon'ble Supreme Court of India Delhi Inviting applications from sutable and eligible officers for the post of Assistant Registrar (Computer), on deputation basis.",
+    "kind": "advertisement",
+    "page": 2
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2026-08-01",
+    "source": {
+     "notice": "a9f5ca6696927ba6116a7198a9c33f3cd3e66f26f82c8e85c2b0b4a3c2b67cfe",
+     "url": "https://aphc.gov.in/docs/notification_1788854949_0.pdf",
+     "title": "Vacancy Circular received from the Hon'ble Supreme Court of India Delhi Inviting applications from sutable and eligible officers for the post of Assistant Registrar (Computer), on deputation basis.",
+     "kind": "advertisement",
+     "page": 2
+    }
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate",
+     "Class 10"
+    ],
+    "clauses": [
+     {
+      "text": "Master’s or Bachelor’s degree in Computer Applications or B.E., in Computers or IT or B.Tech. in Computers from a recognized University or equivalent",
+      "page": 1
+     },
+     {
+      "text": "Educational Qualifications (attach copies of certificates from 10th Class onwards duly attested by Gazetted Officer)",
+      "page": 3
+     }
+    ]
+   },
+   "source": {
+    "notice": "a9f5ca6696927ba6116a7198a9c33f3cd3e66f26f82c8e85c2b0b4a3c2b67cfe",
+    "url": "https://aphc.gov.in/docs/notification_1788854949_0.pdf",
+    "title": "Vacancy Circular received from the Hon'ble Supreme Court of India Delhi Inviting applications from sutable and eligible officers for the post of Assistant Registrar (Computer), on deputation basis.",
+    "kind": "advertisement"
+   }
+  },
+  "pay": {
+   "value": [
+    {
+     "levels": [
+      12
+     ],
+     "initial": 78800,
+     "text": "Pay Level 12, initial basic ₹78,800",
+     "evidence": "Applications in the prescribed format are invited from eligible officers under Central Government/State Government/Universities/recognized Research Institutes or any High Court having the following qualifications and other eligibility conditions as on 1st August, 2026 for selection for appointment…",
+     "page": 1
+    }
+   ],
+   "source": {
+    "notice": "a9f5ca6696927ba6116a7198a9c33f3cd3e66f26f82c8e85c2b0b4a3c2b67cfe",
+    "url": "https://aphc.gov.in/docs/notification_1788854949_0.pdf",
+    "title": "Vacancy Circular received from the Hon'ble Supreme Court of India Delhi Inviting applications from sutable and eligible officers for the post of Assistant Registrar (Computer), on deputation basis.",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "selection"
+ ],
+ "older_documents": 0
+}
