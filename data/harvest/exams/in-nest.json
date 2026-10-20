@@ -4,38 +4,168 @@
  "name": "National Entrance Screening Test",
  "body": "in-niser",
  "purpose": "admission",
- "cycle": "2024",
- "documents": 7,
- "documents_in_cycle": 4,
+ "cycle": "2026",
+ "documents": 8,
+ "documents_in_cycle": 1,
  "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "Male",
+      "Unreserved",
+      "OBC"
+     ],
+     "amount": 1400,
+     "raw": "• The application fee for the male candidates of the Unreserved (UR) and OBC categories is ₹1,400/–",
+     "page": 9
+    },
+    {
+     "categories": [
+      "Unreserved",
+      "EWS",
+      "SC",
+      "ST",
+      "PwBD",
+      "Women"
+     ],
+     "amount": 700,
+     "raw": "• The application fee for candidates in the Unreserved-EWS (UR-EWS) and SC/ST/Divyangjan categories and all female candidates is ₹700/–",
+     "page": 9
+    }
+   ],
+   "source": {
+    "notice": "3e6ac2131eee6f8838c923fd32a2b87f77af0ca5a9d27d122c6ee920816e54df",
+    "url": "https://www.nestexam.in/docs/26/NEST2026_Brochure_Syllabus_Updated_12Jan2026.pdf",
+    "title": "information brochure (NEST 2026)",
+    "kind": "brochure",
+    "page": 9
+   }
+  },
   "dates": {
-   "exam_date": {
-    "date": "2020-09-29",
+   "admit_card_from": {
+    "date": "2026-05-15",
     "source": {
-     "notice": "1735d7edb29f562332c5bfc393e32452c195211063843e0d136be582791360af",
-     "url": "https://www.nestexam.in/qnsans/NEST-2020-Session-1.pdf",
-     "title": "2024 2023 2022 2021 2020 2019",
-     "kind": "result",
-     "page": 1
+     "notice": "3e6ac2131eee6f8838c923fd32a2b87f77af0ca5a9d27d122c6ee920816e54df",
+     "url": "https://www.nestexam.in/docs/26/NEST2026_Brochure_Syllabus_Updated_12Jan2026.pdf",
+     "title": "information brochure (NEST 2026)",
+     "kind": "brochure",
+     "page": 9
+    }
+   },
+   "exam_date": {
+    "date": "2026-06-06",
+    "source": {
+     "notice": "3e6ac2131eee6f8838c923fd32a2b87f77af0ca5a9d27d122c6ee920816e54df",
+     "url": "https://www.nestexam.in/docs/26/NEST2026_Brochure_Syllabus_Updated_12Jan2026.pdf",
+     "title": "information brochure (NEST 2026)",
+     "kind": "brochure",
+     "page": 5
+    }
+   },
+   "payment_deadline": {
+    "date": "2026-04-12",
+    "source": {
+     "notice": "3e6ac2131eee6f8838c923fd32a2b87f77af0ca5a9d27d122c6ee920816e54df",
+     "url": "https://www.nestexam.in/docs/26/NEST2026_Brochure_Syllabus_Updated_12Jan2026.pdf",
+     "title": "information brochure (NEST 2026)",
+     "kind": "brochure",
+     "page": 9
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-04-06",
+    "source": {
+     "notice": "3e6ac2131eee6f8838c923fd32a2b87f77af0ca5a9d27d122c6ee920816e54df",
+     "url": "https://www.nestexam.in/docs/26/NEST2026_Brochure_Syllabus_Updated_12Jan2026.pdf",
+     "title": "information brochure (NEST 2026)",
+     "kind": "brochure",
+     "page": 9
     }
    }
   },
-  "exam_date": {
-   "value": "2020-09-29",
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2026-04-06"
+   },
    "source": {
-    "notice": "1735d7edb29f562332c5bfc393e32452c195211063843e0d136be582791360af",
-    "url": "https://www.nestexam.in/qnsans/NEST-2020-Session-1.pdf",
-    "title": "2024 2023 2022 2021 2020 2019",
-    "kind": "result",
-    "page": 1
+    "notice": "3e6ac2131eee6f8838c923fd32a2b87f77af0ca5a9d27d122c6ee920816e54df",
+    "url": "https://www.nestexam.in/docs/26/NEST2026_Brochure_Syllabus_Updated_12Jan2026.pdf",
+    "title": "information brochure (NEST 2026)",
+    "kind": "brochure",
+    "page": 9
+   }
+  },
+  "exam_date": {
+   "value": "2026-06-06",
+   "source": {
+    "notice": "3e6ac2131eee6f8838c923fd32a2b87f77af0ca5a9d27d122c6ee920816e54df",
+    "url": "https://www.nestexam.in/docs/26/NEST2026_Brochure_Syllabus_Updated_12Jan2026.pdf",
+    "title": "information brochure (NEST 2026)",
+    "kind": "brochure",
+    "page": 5
+   }
+  },
+  "apply_links": {
+   "value": [
+    "https://www.nestexam.in"
+   ],
+   "source": {
+    "notice": "3e6ac2131eee6f8838c923fd32a2b87f77af0ca5a9d27d122c6ee920816e54df",
+    "url": "https://www.nestexam.in/docs/26/NEST2026_Brochure_Syllabus_Updated_12Jan2026.pdf",
+    "title": "information brochure (NEST 2026)",
+    "kind": "brochure"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Postgraduate",
+     "Graduate",
+     "Class 12"
+    ],
+    "clauses": [
+     {
+      "text": "Eligibility criteria for admission to the program 4",
+      "page": 2
+     },
+     {
+      "text": "Eligibility Criteria for Admission to the Program • Candidates seeking admission to NISER and UM–DAE CEBS for the Integrated MSc programme 2026–31 should have at least three out of the four disciplines of basic sciences, namely, Biology, Chemistry, Mathematics and Physics, in classes XI and XII",
+      "page": 4
+     },
+     {
+      "text": "• Candidates must have passed the class XII examination from any recognised Board in India in the year 2024 or 2025 or should be appearing for the same in 2026",
+      "page": 4
+     },
+     {
+      "text": "• Candidates appearing for the board examination in 2026 must satisfy the eligibility criteria at the time of admission into the program",
+      "page": 4
+     },
+     {
+      "text": "Note: Necessary certificates supporting the eligibility criteria have to be furnished only at the time of admission",
+      "page": 4
+     },
+     {
+      "text": "Certificates in support of the eligibility criteria need not be produced for appearing in the NEST 2026 examination",
+      "page": 4
+     },
+     {
+      "text": "The class should have been mentioned in the central list of OBCs (http://www.ncbc.nic.in/User_Panel/CentralListStateView.aspx)",
+      "page": 4
+     }
+    ]
+   },
+   "source": {
+    "notice": "3e6ac2131eee6f8838c923fd32a2b87f77af0ca5a9d27d122c6ee920816e54df",
+    "url": "https://www.nestexam.in/docs/26/NEST2026_Brochure_Syllabus_Updated_12Jan2026.pdf",
+    "title": "information brochure (NEST 2026)",
+    "kind": "brochure"
    }
   }
  },
  "gaps": [
-  "apply",
-  "fee",
-  "eligibility",
   "exam_pattern"
  ],
- "older_documents": 3
+ "older_documents": 7
 }

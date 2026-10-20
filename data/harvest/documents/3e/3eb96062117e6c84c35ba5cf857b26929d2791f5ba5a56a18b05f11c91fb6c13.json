@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3eb96062117e6c84c35ba5cf857b26929d2791f5ba5a56a18b05f11c91fb6c13",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3e6c2dc3dee4a51dcec3a876aa2339a78/uploads/2026/04/202604271422154052.pdf",
+  "title": "Amendment to the Maharashtra Zilla Parishads and Panchayat Samitis Act, 1961, regarding the appointment of members by nomination in the Zilla Parishads and Panchayat Samitis within the State.",
+  "body": "mh-zp",
+  "exam": "mh-zp-recruitment",
+  "feed": "mh-zp/home",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "684ac664ea2b356a26792a5e544cefae3ab9f9e948867a6c47e43fbdf4876eaa",
+  "bytes": 3418762,
+  "pages": 10,
+  "chars": 18,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T21:35:27+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

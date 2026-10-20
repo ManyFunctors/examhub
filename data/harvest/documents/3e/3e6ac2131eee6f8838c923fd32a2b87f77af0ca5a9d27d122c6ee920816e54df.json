@@ -1,0 +1,150 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3e6ac2131eee6f8838c923fd32a2b87f77af0ca5a9d27d122c6ee920816e54df",
+  "url": "https://www.nestexam.in/docs/26/NEST2026_Brochure_Syllabus_Updated_12Jan2026.pdf",
+  "title": "information brochure (NEST 2026)",
+  "body": "in-niser",
+  "exam": "in-nest",
+  "feed": "in-niser/nest",
+  "doc_type": "syllabus"
+ },
+ "document": {
+  "sha256": "6977d23e2d1cfb525b92655aaf02ff3baa3d46ee735a84f8ae5366e5c3102833",
+  "bytes": 2229858,
+  "pages": 46,
+  "chars": 80992,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T21:35:18+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "exam_date": {
+   "date": "2026-06-06",
+   "evidence": "NEST 2026 Examination The NEST 2026 examination will be conducted at multiple centres (major towns or cities) all over India in a single session, on June 06, 2026 (Saturday)",
+   "page": 5,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2026-04-06",
+   "evidence": "The online application process closes on April 06, 2026 (11:30 PM), and any pending payments must be completed by April 12, 2026 (11:30 PM)",
+   "page": 9,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2026-04-12",
+   "evidence": "The online application process closes on April 06, 2026 (11:30 PM), and any pending payments must be completed by April 12, 2026 (11:30 PM)",
+   "page": 9,
+   "from": "text"
+  },
+  "admit_card_from": {
+   "date": "2026-05-15",
+   "evidence": "Admit card: The admit card for NEST 2026 can be downloaded by the candidates starting 15 May, 2026 from the NEST website using their respective login credentials",
+   "page": 9,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "Male",
+    "Unreserved",
+    "OBC"
+   ],
+   "amount": 1400,
+   "raw": "• The application fee for the male candidates of the Unreserved (UR) and OBC categories is ₹1,400/–",
+   "page": 9
+  },
+  {
+   "categories": [
+    "Unreserved",
+    "EWS",
+    "SC",
+    "ST",
+    "PwBD",
+    "Women"
+   ],
+   "amount": 700,
+   "raw": "• The application fee for candidates in the Unreserved-EWS (UR-EWS) and SC/ST/Divyangjan categories and all female candidates is ₹700/–",
+   "page": 9
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "Eligibility criteria for admission to the program 4",
+    "page": 2
+   },
+   {
+    "text": "Eligibility Criteria for Admission to the Program • Candidates seeking admission to NISER and UM–DAE CEBS for the Integrated MSc programme 2026–31 should have at least three out of the four disciplines of basic sciences, namely, Biology, Chemistry, Mathematics and Physics, in classes XI and XII",
+    "page": 4
+   },
+   {
+    "text": "• Candidates must have passed the class XII examination from any recognised Board in India in the year 2024 or 2025 or should be appearing for the same in 2026",
+    "page": 4
+   },
+   {
+    "text": "• Candidates appearing for the board examination in 2026 must satisfy the eligibility criteria at the time of admission into the program",
+    "page": 4
+   },
+   {
+    "text": "Note: Necessary certificates supporting the eligibility criteria have to be furnished only at the time of admission",
+    "page": 4
+   },
+   {
+    "text": "Certificates in support of the eligibility criteria need not be produced for appearing in the NEST 2026 examination",
+    "page": 4
+   },
+   {
+    "text": "The class should have been mentioned in the central list of OBCs (http://www.ncbc.nic.in/User_Panel/CentralListStateView.aspx)",
+    "page": 4
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 3
+  },
+  "duration": {
+   "value": "The examination is 3 hours in duration, and will start at 02:00 PM",
+   "page": 8
+  }
+ },
+ "links": {
+  "apply": [
+   "https://www.nestexam.in"
+  ],
+  "other": [
+   "https://socialjustice.gov.in/",
+   "https://tribal.nic.in/downloads/statistics/ListScheduledTribes26092025.pdf",
+   "https://ncert.nic.in/textbook.php",
+   "https://www.niser.ac.in",
+   "https://www.cbs.ac.in",
+   "http://www.ncbc.nic.in/User_Panel/CentralListStateView.aspx",
+   "https://disabilityaffairs.gov.in",
+   "http://disabilityaffairs.gov.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-04-06"
+  },
+  "exam_date": "2026-06-06",
+  "fee": {
+   "min": 700,
+   "max": 1400
+  },
+  "education": [
+   "Postgraduate",
+   "Graduate",
+   "Class 12"
+  ]
+ }
+}

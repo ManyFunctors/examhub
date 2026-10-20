@@ -1,0 +1,22 @@
+{
+ "schema": 1,
+ "exam": "mh-zp-recruitment",
+ "name": "Zilla Parishad Group C Recruitment",
+ "body": "mh-zp",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}
