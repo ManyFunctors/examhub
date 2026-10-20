@@ -1,0 +1,202 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "34a5e56c1704a16d611a0f8423084d3f8f2371fa381eedc20e212d7c344c50cb",
+  "url": "https://bceceboard.bihar.gov.in/pdf_Seat/BC_JT26_SM.pdf",
+  "title": "Seat Matrix of BCECE[PCM/PCB/PCMB]-2026",
+  "body": "br-bceceb",
+  "exam": "br-bcece",
+  "feed": "br-bceceb/home",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "e885b8f98ef41528af6f0fc8586ce0bcc2f9ebc41da8170311b3d7afe5ebda91",
+  "bytes": 163883,
+  "pages": 4,
+  "chars": 4002,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T07:33:29+05:30"
+ },
+ "kind": "notice",
+ "unmapped_classes": [
+  {
+   "label": "DQ",
+   "page": 4
+  },
+  {
+   "label": "SMQ",
+   "page": 1
+  },
+  {
+   "label": "RCG",
+   "page": 4
+  }
+ ],
+ "vacancies": {
+  "total": 740,
+  "by_category": {
+   "Unreserved": 296,
+   "SC": 118,
+   "ST": 8,
+   "EWS": 74,
+   "br:EBC": 133,
+   "br:BC": 89
+  },
+  "rows": [
+   {
+    "label": "G .P .I GULZARBAGH Patna-7 . , / BPharma .",
+    "total": 100,
+    "by_category": {
+     "Unreserved": 40,
+     "EWS": 10,
+     "SC": 16,
+     "ST": 1,
+     "br:EBC": 18,
+     "br:BC": 12
+    },
+    "page": 3
+   },
+   {
+    "label": "MITMUZAFFARPUR .. . / BPharma .",
+    "total": 100,
+    "by_category": {
+     "Unreserved": 40,
+     "EWS": 10,
+     "SC": 16,
+     "ST": 1,
+     "br:EBC": 18,
+     "br:BC": 12
+    },
+    "page": 3
+   },
+   {
+    "label": "BSc NursingCollege NMCH . . , . . . , Patna / BSc Nursing . .",
+    "total": 60,
+    "by_category": {
+     "Unreserved": 24,
+     "EWS": 6,
+     "SC": 10,
+     "ST": 0,
+     "br:EBC": 10,
+     "br:BC": 8
+    },
+    "page": 3
+   },
+   {
+    "label": "BSc NursingCollegeDMCH . . ., Darbhanga / BSc Nursing . .",
+    "total": 60,
+    "by_category": {
+     "Unreserved": 24,
+     "EWS": 6,
+     "SC": 9,
+     "ST": 1,
+     "br:EBC": 11,
+     "br:BC": 7
+    },
+    "page": 3
+   },
+   {
+    "label": "BSc NursingCollegeJLNMCH . . ., Bhagalpur / BSc Nursing . .",
+    "total": 60,
+    "by_category": {
+     "Unreserved": 24,
+     "EWS": 6,
+     "SC": 10,
+     "ST": 1,
+     "br:EBC": 11,
+     "br:BC": 7
+    },
+    "page": 3
+   },
+   {
+    "label": "BSc NursingCollege . . ANMMCH Gaya ., / BSc Nursing . .",
+    "total": 60,
+    "by_category": {
+     "Unreserved": 24,
+     "EWS": 6,
+     "SC": 10,
+     "ST": 0,
+     "br:EBC": 11,
+     "br:BC": 7
+    },
+    "page": 3
+   },
+   {
+    "label": "BSc NursingCollege SKMCH . . , , Muzaffarpur / BSc Nursing . .",
+    "total": 60,
+    "by_category": {
+     "Unreserved": 24,
+     "EWS": 6,
+     "SC": 9,
+     "ST": 1,
+     "br:EBC": 11,
+     "br:BC": 7
+    },
+    "page": 3
+   },
+   {
+    "label": "BSc NursingCollege BMIMS . . , . .. . ., PawapuriNalanda / BSc Nursing . .",
+    "total": 60,
+    "by_category": {
+     "Unreserved": 24,
+     "EWS": 6,
+     "SC": 9,
+     "ST": 1,
+     "br:EBC": 11,
+     "br:BC": 7
+    },
+    "page": 3
+   },
+   {
+    "label": "BSc NursingCollege . . , G MCH Bettiah . . . ., / BSc Nursing . .",
+    "total": 60,
+    "by_category": {
+     "Unreserved": 24,
+     "EWS": 6,
+     "SC": 9,
+     "ST": 1,
+     "br:EBC": 11,
+     "br:BC": 7
+    },
+    "page": 3
+   },
+   {
+    "label": "BSc NursingCollegeGMCH . . . . . . Purnea / BSc Nursing . .",
+    "total": 60,
+    "by_category": {
+     "Unreserved": 24,
+     "EWS": 6,
+     "SC": 10,
+     "ST": 0,
+     "br:EBC": 10,
+     "br:BC": 8
+    },
+    "page": 3
+   },
+   {
+    "label": "BSc NursingCollege GMCH . . , . . . ., Saran Chapra , / BSc Nursing . .",
+    "total": 60,
+    "by_category": {
+     "Unreserved": 24,
+     "EWS": 6,
+     "SC": 10,
+     "ST": 1,
+     "br:EBC": 11,
+     "br:BC": 7
+    },
+    "page": 3
+   }
+  ],
+  "from": "table"
+ },
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 3
+  }
+ },
+ "summary": {
+  "vacancies": 740
+ }
+}

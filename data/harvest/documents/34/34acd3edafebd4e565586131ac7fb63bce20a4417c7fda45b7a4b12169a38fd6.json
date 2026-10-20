@@ -1,0 +1,80 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "34acd3edafebd4e565586131ac7fb63bce20a4417c7fda45b7a4b12169a38fd6",
+  "url": "https://www.iob.bank.in/documents/d/guest/Advertisement-RSETI-13022026",
+  "title": "Advertisement - (View)",
+  "body": "in-iob",
+  "exam": "in-iob-recruitment",
+  "feed": "in-iob/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "9be67d980830f43f15675910e094bd9bd35be192baeedc8fb591ee7762767065",
+  "bytes": 456960,
+  "pages": 5,
+  "chars": 12134,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T07:33:28+05:30"
+ },
+ "kind": "advertisement",
+ "vacancies": {
+  "total": 1,
+  "rows": [
+   {
+    "label": "Attender",
+    "total": 1,
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "age": {
+  "limits": [
+   {
+    "min": 22,
+    "max": 40,
+    "evidence": "Desirable age for all positions is 22-40 years",
+    "page": 1
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Only those candidates who meet the minimum eligibility criteria as outlined above will be considered",
+    "page": 1
+   }
+  ]
+ },
+ "selection": [
+  "Interview",
+  "Medical examination"
+ ],
+ "exam": {
+  "duration": {
+   "value": "From 4 to 8 hrs >8hrs Attender 150 Rs.300/- b",
+   "page": 3
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.iob.bank.in"
+  ]
+ },
+ "summary": {
+  "vacancies": 1,
+  "age": {
+   "min": 22,
+   "max": 40
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Interview → Medical examination"
+ }
+}

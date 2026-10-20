@@ -5,212 +5,174 @@
  "body": "br-bceceb",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 5,
- "documents_in_cycle": 5,
+ "documents": 6,
+ "documents_in_cycle": 6,
  "fields": {
   "vacancies": {
    "value": {
-    "total": 610,
+    "total": 740,
     "by_category": {
-     "Unreserved": 242,
-     "SC": 98,
-     "ST": 10,
-     "EWS": 60,
-     "br:EBC": 110,
-     "br:BC": 74
+     "Unreserved": 296,
+     "SC": 118,
+     "ST": 8,
+     "EWS": 74,
+     "br:EBC": 133,
+     "br:BC": 89
     },
     "rows": [
      {
-      "label": "BAC SABOUR BHAGALPUR . . . , / AgriSc .",
-      "total": 40,
+      "label": "G .P .I GULZARBAGH Patna-7 . , / BPharma .",
+      "total": 100,
       "by_category": {
-       "Unreserved": 16,
-       "SC": 6,
+       "Unreserved": 40,
+       "EWS": 10,
+       "SC": 16,
        "ST": 1,
-       "br:EBC": 7,
-       "br:BC": 5,
-       "EWS": 4
+       "br:EBC": 18,
+       "br:BC": 12
       },
-      "page": 1
+      "page": 3
      },
      {
-      "label": "MBAC AGWANPUR SAHARSA . . . . , / AgriSc .",
-      "total": 40,
+      "label": "MITMUZAFFARPUR .. . / BPharma .",
+      "total": 100,
       "by_category": {
-       "Unreserved": 16,
-       "SC": 7,
+       "Unreserved": 40,
+       "EWS": 10,
+       "SC": 16,
+       "ST": 1,
+       "br:EBC": 18,
+       "br:BC": 12
+      },
+      "page": 3
+     },
+     {
+      "label": "BSc NursingCollege NMCH . . , . . . , Patna / BSc Nursing . .",
+      "total": 60,
+      "by_category": {
+       "Unreserved": 24,
+       "EWS": 6,
+       "SC": 10,
        "ST": 0,
-       "br:EBC": 7,
-       "br:BC": 5,
-       "EWS": 4
+       "br:EBC": 10,
+       "br:BC": 8
       },
-      "page": 1
+      "page": 3
      },
      {
-      "label": "V K S Collegeof Agri Dumrao . . ., . , Buxar / AgriSc .",
-      "total": 40,
+      "label": "BSc NursingCollegeDMCH . . ., Darbhanga / BSc Nursing . .",
+      "total": 60,
       "by_category": {
-       "Unreserved": 16,
-       "SC": 6,
+       "Unreserved": 24,
+       "EWS": 6,
+       "SC": 9,
        "ST": 1,
-       "br:EBC": 7,
-       "br:BC": 5,
-       "EWS": 4
+       "br:EBC": 11,
+       "br:BC": 7
       },
-      "page": 1
+      "page": 3
      },
      {
-      "label": "BPS AgriCollege Purnea . . . . , / AgriSc .",
-      "total": 40,
+      "label": "BSc NursingCollegeJLNMCH . . ., Bhagalpur / BSc Nursing . .",
+      "total": 60,
       "by_category": {
-       "Unreserved": 16,
-       "SC": 7,
+       "Unreserved": 24,
+       "EWS": 6,
+       "SC": 10,
+       "ST": 1,
+       "br:EBC": 11,
+       "br:BC": 7
+      },
+      "page": 3
+     },
+     {
+      "label": "BSc NursingCollege . . ANMMCH Gaya ., / BSc Nursing . .",
+      "total": 60,
+      "by_category": {
+       "Unreserved": 24,
+       "EWS": 6,
+       "SC": 10,
        "ST": 0,
-       "br:EBC": 7,
-       "br:BC": 5,
-       "EWS": 4
+       "br:EBC": 11,
+       "br:BC": 7
       },
-      "page": 1
+      "page": 3
      },
      {
-      "label": "DKAC ARRABARI . . . ., , KISHANGANJ / AgriSc .",
-      "total": 40,
+      "label": "BSc NursingCollege SKMCH . . , , Muzaffarpur / BSc Nursing . .",
+      "total": 60,
       "by_category": {
-       "Unreserved": 16,
-       "SC": 6,
+       "Unreserved": 24,
+       "EWS": 6,
+       "SC": 9,
        "ST": 1,
-       "br:EBC": 7,
-       "br:BC": 5,
-       "EWS": 4
+       "br:EBC": 11,
+       "br:BC": 7
       },
-      "page": 1
+      "page": 3
      },
      {
-      "label": "AgricultureSc Total .",
-      "total": 200,
+      "label": "BSc NursingCollege BMIMS . . , . .. . ., PawapuriNalanda / BSc Nursing . .",
+      "total": 60,
       "by_category": {
-       "Unreserved": 80,
-       "SC": 32,
-       "ST": 3,
-       "br:EBC": 35,
-       "br:BC": 25,
-       "EWS": 20
-      },
-      "page": 1
-     },
-     {
-      "label": "NCOH NOORSARAINALANDA . . . . , / BSC . (Horticulture)",
-      "total": 20,
-      "by_category": {
-       "Unreserved": 7,
-       "SC": 3,
+       "Unreserved": 24,
+       "EWS": 6,
+       "SC": 9,
        "ST": 1,
-       "br:EBC": 4,
-       "br:BC": 3,
-       "EWS": 2
+       "br:EBC": 11,
+       "br:BC": 7
       },
-      "page": 1
+      "page": 3
      },
      {
-      "label": "HorticultureTotal",
-      "total": 20,
+      "label": "BSc NursingCollege . . , G MCH Bettiah . . . ., / BSc Nursing . .",
+      "total": 60,
       "by_category": {
-       "Unreserved": 7,
-       "SC": 3,
+       "Unreserved": 24,
+       "EWS": 6,
+       "SC": 9,
        "ST": 1,
-       "br:EBC": 4,
-       "br:BC": 3,
-       "EWS": 2
+       "br:EBC": 11,
+       "br:BC": 7
       },
-      "page": 1
+      "page": 3
      },
      {
-      "label": "COLLEGEOFFORESTRYAND ENVIRONMENTALSCIENCES , MUNGER / Forestry& Environmental sciences .",
-      "total": 25,
+      "label": "BSc NursingCollegeGMCH . . . . . . Purnea / BSc Nursing . .",
+      "total": 60,
       "by_category": {
-       "Unreserved": 10,
-       "SC": 4,
+       "Unreserved": 24,
+       "EWS": 6,
+       "SC": 10,
        "ST": 0,
-       "br:EBC": 5,
-       "br:BC": 3,
-       "EWS": 2
+       "br:EBC": 10,
+       "br:BC": 8
       },
-      "page": 1
+      "page": 3
      },
      {
-      "label": "Forestry&EnvironmentalScienceTotal",
-      "total": 25,
+      "label": "BSc NursingCollege GMCH . . , . . . ., Saran Chapra , / BSc Nursing . .",
+      "total": 60,
       "by_category": {
-       "Unreserved": 10,
-       "SC": 4,
-       "ST": 0,
-       "br:EBC": 5,
-       "br:BC": 3,
-       "EWS": 2
-      },
-      "page": 1
-     },
-     {
-      "label": "CollegeofAgricultureBio Technology Sabour Bhagalpur , , / Bio-Tech",
-      "total": 30,
-      "by_category": {
-       "Unreserved": 12,
-       "SC": 5,
-       "ST": 0,
-       "br:EBC": 6,
-       "br:BC": 3,
-       "EWS": 3
-      },
-      "page": 1
-     },
-     {
-      "label": "Bio-Tech",
-      "total": 30,
-      "by_category": {
-       "Unreserved": 12,
-       "SC": 5,
-       "ST": 0,
-       "br:EBC": 6,
-       "br:BC": 3,
-       "EWS": 3
-      },
-      "page": 1
-     },
-     {
-      "label": "CollegeofAgricultural Engineering Ara Bhojpur , , / AgriEngg .",
-      "total": 30,
-      "by_category": {
-       "Unreserved": 12,
-       "SC": 5,
+       "Unreserved": 24,
+       "EWS": 6,
+       "SC": 10,
        "ST": 1,
-       "br:EBC": 5,
-       "br:BC": 3,
-       "EWS": 3
+       "br:EBC": 11,
+       "br:BC": 7
       },
-      "page": 1
-     },
-     {
-      "label": "AgriEngg Total .",
-      "total": 30,
-      "by_category": {
-       "Unreserved": 12,
-       "SC": 5,
-       "ST": 1,
-       "br:EBC": 5,
-       "br:BC": 3,
-       "EWS": 3
-      },
-      "page": 1
+      "page": 3
      }
     ],
     "from": "table"
    },
    "source": {
-    "notice": "11f676dab15d68848fe026d993c6d0233c0ecec35e4a303183c2efa9ced10817",
-    "url": "https://bceceboard.bihar.gov.in/pdf_Seat/BC_AGR26_SM.pdf",
-    "title": "Seat Matrix of BCECE[CBA/MBA/MCA/MBA]-2026",
+    "notice": "34a5e56c1704a16d611a0f8423084d3f8f2371fa381eedc20e212d7c344c50cb",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Seat/BC_JT26_SM.pdf",
+    "title": "Seat Matrix of BCECE[PCM/PCB/PCMB]-2026",
     "kind": "notice"
-   }
+   },
+   "alternatives": 1
   }
  },
  "gaps": [
