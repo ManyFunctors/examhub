@@ -310,7 +310,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-epfo-ssa-steno"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-esic-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-exim-mt"}
-{"cycle": "2021", "documents": 2, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-fact-recruitment"}
+{"cycle": "2021", "documents": 3, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-fact-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-fci-category-2-3"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-fci-watchman"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-fdst"}
@@ -369,7 +369,7 @@
 {"cycle": "2025", "documents": 25, "gaps": ["exam_date", "fee", "age", "pay"], "id": "in-indian-bank-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ini-cet"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ini-ss"}
-{"cycle": "2026", "documents": 13, "gaps": ["fee", "pay"], "id": "in-iob-recruitment"}
+{"cycle": "2026", "documents": 14, "gaps": ["fee", "pay"], "id": "in-iob-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-iocl-gate-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-iocl-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "eligibility"], "id": "in-ioqm"}
@@ -862,7 +862,7 @@
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "tg-ecet"}
 {"cycle": "2026", "documents": 1, "gaps": ["exam_date", "fee"], "id": "tg-edcet"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "tg-hc-judicial"}
-{"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "tg-hc-staff"}
+{"cycle": null, "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "tg-hc-staff"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "tg-icet"}
 {"cycle": "2026", "documents": 1, "gaps": ["exam_date", "fee", "eligibility", "exam_pattern"], "id": "tg-lawcet"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "tg-mhsrb-recruitment"}

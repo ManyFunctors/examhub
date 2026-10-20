@@ -1,0 +1,57 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "38af790289d402ceefad8a46d0b1bba00504d33ac2ea5d2dee9692e341d834a2",
+  "url": "https://www.iob.bank.in/documents/d/guest/iob-advertisement-flcc-trichy-30052024",
+  "title": "Advertisement - (View)",
+  "body": "in-iob",
+  "exam": "in-iob-recruitment",
+  "feed": "in-iob/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "9de4997e67224fae8d605ee151f46940b56d6ee21a5db1fbac197cc1925b9f6b",
+  "bytes": 71229,
+  "pages": 1,
+  "chars": 1490,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T11:41:41+05:30"
+ },
+ "kind": "advertisement",
+ "age": {
+  "limits": [
+   {
+    "max": 65,
+    "evidence": "AGE LIMIT: Should not exceed 65 years",
+    "page": 1
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Preference will be given to Graduate/ Postgraduate from a UGC recognized University but in the absence of prescribed educational qualifications, Banking Experience will be taken into consideration of appointment",
+    "page": 1
+   }
+  ]
+ },
+ "selection": [
+  "Written examination",
+  "Interview"
+ ],
+ "summary": {
+  "age": {
+   "max": 65
+  },
+  "education": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "selection": "Written examination → Interview"
+ }
+}
