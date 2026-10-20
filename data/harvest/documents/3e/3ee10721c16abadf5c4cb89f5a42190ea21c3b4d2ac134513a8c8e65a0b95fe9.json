@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3ee10721c16abadf5c4cb89f5a42190ea21c3b4d2ac134513a8c8e65a0b95fe9",
+  "url": "https://indianbank.bank.in/documents/20117/34414/Advertisement (5)2026_05_04_09_50_20.pdf/14ddbb11-3a38-564a-606f-bf4d9697eff7",
+  "title": "Application Form Advertisement",
+  "body": "in-indian-bank",
+  "exam": "in-indian-bank-recruitment",
+  "feed": "in-indian-bank/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "6d655631e42cb0ecaa66c96cc7e7e00c7a08074898c8f1e1654cb79d106f96cd",
+  "bytes": 1373410,
+  "pages": 3,
+  "chars": 4,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T22:06:48+05:30"
+ },
+ "kind": "advertisement",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

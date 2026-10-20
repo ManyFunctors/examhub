@@ -1,0 +1,38 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3ee8d31c807b4ee54c07ad8892a6c15e477c384288ce73ac339446d854fd2910",
+  "url": "https://www.iibf.org.in/documents/Brochure/2026/WEBSITE NOTICE-JAIIB_226.pdf",
+  "title": "Apply for JAIIB/DB&F Contact Class in Online mode by IIBF, PDC-NZ",
+  "body": "in-iibf",
+  "exam": "in-jaiib",
+  "feed": "in-iibf/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "e9a687fd96e3f9278a2536a7994c71c6f43116557b502e19d5d18771dd136b7d",
+  "bytes": 259484,
+  "pages": 2,
+  "chars": 3325,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T22:06:46+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2026-07-01",
+   "evidence": "Re: Conduct of JAIIB/DB&F Contact Classes Date:01.07.2026",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://iibf.esdsconnect.com/ContactClasses"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-07-01"
+ }
+}

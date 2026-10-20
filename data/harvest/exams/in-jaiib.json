@@ -1,0 +1,40 @@
+{
+ "schema": 1,
+ "exam": "in-jaiib",
+ "name": "Junior Associate of the Indian Institute of Bankers",
+ "body": "in-iibf",
+ "purpose": "certification",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2026-07-01",
+    "source": {
+     "notice": "3ee8d31c807b4ee54c07ad8892a6c15e477c384288ce73ac339446d854fd2910",
+     "url": "https://www.iibf.org.in/documents/Brochure/2026/WEBSITE NOTICE-JAIIB_226.pdf",
+     "title": "Apply for JAIIB/DB&F Contact Class in Online mode by IIBF, PDC-NZ",
+     "kind": "schedule",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2026-07-01",
+   "source": {
+    "notice": "3ee8d31c807b4ee54c07ad8892a6c15e477c384288ce73ac339446d854fd2910",
+    "url": "https://www.iibf.org.in/documents/Brochure/2026/WEBSITE NOTICE-JAIIB_226.pdf",
+    "title": "Apply for JAIIB/DB&F Contact Class in Online mode by IIBF, PDC-NZ",
+    "kind": "schedule",
+    "page": 1
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "fee",
+  "eligibility"
+ ],
+ "older_documents": 0
+}

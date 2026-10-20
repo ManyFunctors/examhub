@@ -34,7 +34,7 @@
 {"cycle": "2025", "documents": 4, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-ae"}
 {"cycle": "2020", "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-cce"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-appsc-lecturer"}
-{"cycle": "2026", "documents": 50, "gaps": ["vacancies", "apply", "fee", "age"], "id": "ar-appsc-other"}
+{"cycle": "2026", "documents": 51, "gaps": ["vacancies", "apply", "fee", "age"], "id": "ar-appsc-other"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-apssb-recruitment"}
 {"cycle": null, "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ar-police"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "as-aau-cet"}
@@ -366,7 +366,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-india-post-gds"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "eligibility"], "id": "in-india-post-ldce"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-india-post-mv-driver"}
-{"cycle": "2025", "documents": 27, "gaps": ["exam_date", "fee", "age", "pay"], "id": "in-indian-bank-recruitment"}
+{"cycle": "2025", "documents": 28, "gaps": ["exam_date", "fee", "age", "pay"], "id": "in-indian-bank-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ini-cet"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ini-ss"}
 {"cycle": "2026", "documents": 15, "gaps": ["fee", "pay"], "id": "in-iob-recruitment"}
@@ -385,7 +385,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-isro-centre-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-isro-icrb-scientist"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-itbp-direct-recruitment"}
-{"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "in-jaiib"}
+{"cycle": "2026", "documents": 1, "gaps": ["apply", "fee", "eligibility"], "id": "in-jaiib"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-jam"}
 {"cycle": "2026", "documents": 4, "gaps": ["fee", "exam_pattern"], "id": "in-jee-advanced"}
 {"cycle": "2026-04", "documents": 115, "gaps": ["apply", "exam_date", "fee"], "id": "in-jee-main"}
@@ -716,7 +716,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ml-police-constable"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ml-police-si"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "mn-bosem-class-10"}
-{"cycle": "2026-12", "documents": 31, "gaps": ["exam_date"], "id": "mn-cohsem-class-12"}
+{"cycle": "2026-12", "documents": 32, "gaps": ["exam_date"], "id": "mn-cohsem-class-12"}
 {"cycle": "2026-02", "documents": 5, "gaps": ["vacancies", "apply", "exam_date", "fee", "age"], "id": "mn-hc-staff"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "mn-mpsc-ae"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "mn-mpsc-cce"}
