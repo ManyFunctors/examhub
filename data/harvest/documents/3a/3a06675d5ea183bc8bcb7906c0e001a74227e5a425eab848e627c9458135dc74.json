@@ -1,0 +1,447 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3a06675d5ea183bc8bcb7906c0e001a74227e5a425eab848e627c9458135dc74",
+  "url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/01/202601281538483605.pdf",
+  "title": "INFORMATION BROCHURE FOR OJEE-2026",
+  "body": "od-ojee",
+  "exam": "od-ojee",
+  "feed": "od-ojee/home",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "cfe4618fa19e94d58a3ae05e792c458ea5ff75de1d19eeb9598dd67cf6a21121",
+  "bytes": 1958451,
+  "pages": 44,
+  "chars": 84299,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T14:13:03+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "exam_date": {
+   "date": "2026-05-04",
+   "provisional": true,
+   "evidence": "INTRODUCTION Odisha Joint Entrance Examination (OJEE - 2026) will be conducted in Computer Based Test (CBT) mode tentatively during 4th, 5th, 7th, 8th and 9th of May, 2026 for admission to First Year Degree Courses of B",
+   "page": 4,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2026-01-28",
+   "evidence": "i Start of the Online Application Process",
+   "page": 5,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2026-03-22",
+   "evidence": "ii Last date for Filling-up of Online Application Forms",
+   "page": 5,
+   "from": "text"
+  },
+  "age_as_on": {
+   "date": "2026-12-31",
+   "evidence": "The candidates must be minimum 17 years of age as on dt: 31.12.2026 i.e., the candidate should have been born on or before dt.31.12.2009",
+   "page": 23,
+   "from": "text"
+  }
+ },
+ "unmapped_classes": [
+  {
+   "label": "COURSES",
+   "page": 12
+  },
+  {
+   "label": "SGS",
+   "page": 12
+  }
+ ],
+ "vacancies": {
+  "total": 260,
+  "by_category": {
+   "SC": 80,
+   "ST": 120,
+   "EWS": 60,
+   "PwBD-C": 0,
+   "Women": 180
+  },
+  "rows": [
+   {
+    "label": "B TECH .",
+    "total": 30,
+    "by_category": {
+     "SC": 8,
+     "ST": 12,
+     "EWS": 10,
+     "Women": 30
+    },
+    "page": 12
+   },
+   {
+    "label": "B PLAN .",
+    "total": 30,
+    "by_category": {
+     "SC": 8,
+     "ST": 12,
+     "EWS": 10,
+     "Women": 30
+    },
+    "page": 12
+   },
+   {
+    "label": "B ARCH .",
+    "total": 20,
+    "by_category": {
+     "SC": 8,
+     "ST": 12,
+     "Women": 30
+    },
+    "page": 12
+   },
+   {
+    "label": "MTECH .",
+    "total": 30,
+    "by_category": {
+     "SC": 8,
+     "ST": 12,
+     "EWS": 10,
+     "Women": 0,
+     "PwBD-C": 0
+    },
+    "page": 12
+   },
+   {
+    "label": "M ARCH/MPLAN/ . . M PHARM .",
+    "total": 20,
+    "by_category": {
+     "SC": 8,
+     "ST": 12,
+     "Women": 0,
+     "PwBD-C": 0
+    },
+    "page": 12
+   },
+   {
+    "label": "B PHARM .",
+    "total": 20,
+    "by_category": {
+     "SC": 8,
+     "ST": 12,
+     "Women": 0,
+     "PwBD-C": 0
+    },
+    "page": 12
+   },
+   {
+    "label": "MCA",
+    "total": 30,
+    "by_category": {
+     "SC": 8,
+     "ST": 12,
+     "EWS": 10,
+     "Women": 30,
+     "PwBD-C": 0
+    },
+    "page": 12
+   },
+   {
+    "label": "MBA",
+    "total": 30,
+    "by_category": {
+     "SC": 8,
+     "ST": 12,
+     "EWS": 10,
+     "Women": 30,
+     "PwBD-C": 0
+    },
+    "page": 12
+   },
+   {
+    "label": "IntegratedMBA",
+    "total": 30,
+    "by_category": {
+     "SC": 8,
+     "ST": 12,
+     "EWS": 10,
+     "Women": 30,
+     "PwBD-C": 0
+    },
+    "page": 12
+   },
+   {
+    "label": "LETECH/LE PHARM/LEBSc .",
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "Women": 0,
+     "PwBD-C": 0
+    },
+    "page": 12
+   },
+   {
+    "label": "INT MSc . . .",
+    "total": 20,
+    "by_category": {
+     "SC": 8,
+     "ST": 12,
+     "Women": 0,
+     "PwBD-C": 0
+    },
+    "page": 12
+   }
+  ],
+  "from": "table"
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 1000,
+   "raw": "Application Fees for form with single course is Rs.1000/- and for addition of each course thereafter, Rs.500/- for each course will be added. (Transaction Charges, over and above the prescribed fee, may be charged by Banks as per norm.)…",
+   "page": 7
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 500,
+   "raw": "Application Fees for form with single course is Rs.1000/- and for addition of each course thereafter, Rs.500/- for each course will be added. (Transaction Charges, over and above the prescribed fee, may be charged by Banks as per norm.)…",
+   "page": 7
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 5000,
+   "raw": "5,000/- (for under graduate / post graduate) towards University and Insurance Fees, the balance amount will be adjusted towards the fees, payable at college level while joining the college",
+   "page": 42
+  }
+ ],
+ "age": {
+  "as_on": "2026-12-31"
+ },
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "4.5 Importance of Nativity / Residential Certificate 18 5 Minimum Eligibility Criteria 18-19 6 Rules and Pattern of Examination for OJEE-2026 25-26",
+    "page": 2
+   },
+   {
+    "text": "Candidates are advised to carefully go through this Information Brochure, which contains all the important information relating to OJEE – 2026 including instructions for making online application, important dates and notes for applicants, categories and reservations, eligibility criteria, pattern…",
+    "page": 4
+   },
+   {
+    "text": "“ONE CANDIDATE CAN SUBMIT ONE APPLICATION ONLY * ” (* Candidate wish to appear Test for multiple Courses have to select multiple Course as per their eligibility criteria through Online Candidate Registration System) (www.ojee.nic.in) choosing the option: Odisha Joint Entrance Examination-2026",
+    "page": 6
+   },
+   {
+    "text": "Candidates may choose one or more than one course from the above groups depending on their educational qualification and the minimum eligibility criteria for the selected course(s) (Refer Table 4 – Minimum Eligibility Criteria for all the programs/courses except any of the Nursing programs/courses",
+    "page": 7
+   },
+   {
+    "text": "For M.Tech courses, candidates should make correct choice of examination (M.Tech Specialization) based on their own discipline of Graduation/ Post- Graduation and the eligibility criteria for the selected course. (Refer Table 8 - Course Mapping)",
+    "page": 7
+   },
+   {
+    "text": "on their educational qualification",
+    "page": 9
+   },
+   {
+    "text": "(a) The candidate must have passed/appeared 10+2 examination from any of the recognized institutions in the State of Odisha for taking admission into Bachelor’s Degree Programs",
+    "page": 13
+   },
+   {
+    "text": "The candidate must have passed/ appeared +3 Sc /B.Sc./BCA/ B.Tech/ B.Pharm/ B.Arch Bachelor degree from any of the recognized institutions in the State of Odisha for taking admission into Masters Degree Programs",
+    "page": 13
+   },
+   {
+    "text": "(Besides above, the reservation facility is also applicable to the children/ wards of All India Civil Service Officers serving in the State of Odisha at par with the natives of Odisha, except for any reservation being extended to ST, SC and SEBC categories so far as admission to Professional /…",
+    "page": 13
+   },
+   {
+    "text": "To avail this reserved quota the candidate, have to submit income certificate along with resident/nativity certificate issued online from appropriate authority and it shall be of 2025-26 financial year Eligibility criteria for Tuition Fee Waiver Scheme [TFW]:",
+    "page": 17
+   },
+   {
+    "text": "4.4.2.2 A candidate eligible to avail the reservation under OL Category must have the following documents",
+    "page": 18
+   },
+   {
+    "text": "(ii) The candidate must have passed 10+2 Science examination from outside Odisha",
+    "page": 19
+   },
+   {
+    "text": "Outside state candidates are eligible for admission in Private colleges in B.Tech, B.Pharm, MBA, Integrated MBA, MCA at 1st year level and Private Engineering colleges in B Tech (LE), B Pharm (LE) at 2nd year level, as per their eligibility criteria following the Govt. of Odisha guidelines in this…",
+    "page": 20
+   },
+   {
+    "text": "5 MINIMUM ELIGIBILITY CRITERIA:",
+    "page": 21
+   },
+   {
+    "text": "LE PHARM (3 Years) Passed Diploma examination in a Programme with at least 45% marks (40% marks in case of candidates belonging to reserved category) in appropriate Programme",
+    "page": 22
+   },
+   {
+    "text": "The candidates must be minimum 17 years of age as on dt: 31.12.2026 i.e., the candidate should have been born on or before dt.31.12.2009",
+    "page": 23
+   },
+   {
+    "text": "The in-service candidates must have obtained a “No objection Certificate” from concerned appointing authority",
+    "page": 24
+   },
+   {
+    "text": "The candidate must have minimum one year of work experience after Basic B.Sc",
+    "page": 25
+   },
+   {
+    "text": "The candidate must have one-year clinical experience as a staff Nurse/Nursing officer from the date of joining after registration from the concerned State Nursing Council to last date of submission of application form",
+    "page": 26
+   },
+   {
+    "text": "The Candidates must have passed minimum M.E standard Odia. (Only for Govt",
+    "page": 27
+   },
+   {
+    "text": "IF YOU HAVE DEGREE IN THE DISCIPLINE",
+    "page": 35
+   }
+  ]
+ },
+ "exam_pattern": [
+  {
+   "paper": "B Pharm .",
+   "page": 30
+  },
+  {
+   "paper": "LE -Tech (Diploma)",
+   "page": 30
+  },
+  {
+   "paper": "LE Tech - (BSc/+3Sc)",
+   "page": 30
+  },
+  {
+   "paper": "MCA",
+   "page": 30
+  },
+  {
+   "paper": "MBA",
+   "page": 30
+  },
+  {
+   "paper": "IntegratedMBA",
+   "page": 30
+  },
+  {
+   "paper": "M Tech .",
+   "page": 30
+  },
+  {
+   "paper": "M Arch .",
+   "page": 30
+  },
+  {
+   "paper": "M Plan .",
+   "page": 30
+  },
+  {
+   "paper": "M Pharm .",
+   "page": 30
+  },
+  {
+   "paper": "LE -Pharm",
+   "page": 30
+  },
+  {
+   "paper": "BCAT .",
+   "page": 30
+  },
+  {
+   "paper": "B Tech . (2nd/Special OJEE)",
+   "page": 31
+  },
+  {
+   "paper": "1 .",
+   "page": 31,
+   "questions": 20,
+   "marks": 20
+  },
+  {
+   "paper": "2 .",
+   "page": 31,
+   "questions": 20,
+   "marks": 20
+  },
+  {
+   "paper": "3 .",
+   "page": 31,
+   "questions": 20,
+   "marks": 20
+  },
+  {
+   "paper": "4 .",
+   "page": 31,
+   "questions": 20,
+   "marks": 20
+  },
+  {
+   "paper": "5 .",
+   "page": 31,
+   "questions": 20,
+   "marks": 20
+  },
+  {
+   "paper": "Total",
+   "page": 31,
+   "questions": 100,
+   "marks": 100
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 4
+  },
+  "negative_marking": {
+   "value": "One mark deducted for each wrong answer",
+   "page": 30
+  },
+  "duration": {
+   "value": "7 MBA (2 Years) Passed Bachelor Degree of minimum 3 years duration",
+   "page": 22
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.ojee.nic.in",
+   "https://www.odishajee.com",
+   "https://ojee.nic.in"
+  ]
+ },
+ "summary": {
+  "vacancies": 260,
+  "apply": {
+   "from": "2026-01-28",
+   "until": "2026-03-22"
+  },
+  "exam_date": "2026-05-04",
+  "fee": {
+   "min": 500,
+   "max": 5000
+  },
+  "education": [
+   "Postgraduate",
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12"
+  ]
+ }
+}

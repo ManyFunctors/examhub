@@ -5,135 +5,456 @@
  "body": "od-ojee",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 1,
- "documents_in_cycle": 1,
+ "documents": 2,
+ "documents_in_cycle": 2,
  "fields": {
   "vacancies": {
    "value": {
-    "total": 398,
+    "total": 260,
     "by_category": {
-     "Unreserved": 126,
-     "SC": 54,
-     "ST": 114
+     "SC": 80,
+     "ST": 120,
+     "EWS": 60,
+     "PwBD-C": 0,
+     "Women": 180
     },
     "rows": [
      {
-      "label": "Govt AyurvedaCollege Bolangir . , / BAMS / -",
+      "label": "B TECH .",
+      "total": 30,
+      "by_category": {
+       "SC": 8,
+       "ST": 12,
+       "EWS": 10,
+       "Women": 30
+      },
+      "page": 12
+     },
+     {
+      "label": "B PLAN .",
+      "total": 30,
+      "by_category": {
+       "SC": 8,
+       "ST": 12,
+       "EWS": 10,
+       "Women": 30
+      },
+      "page": 12
+     },
+     {
+      "label": "B ARCH .",
       "total": 20,
       "by_category": {
-       "ST": 7,
-       "SC": 3,
-       "Unreserved": 6
+       "SC": 8,
+       "ST": 12,
+       "Women": 30
       },
-      "page": 1
+      "page": 12
      },
      {
-      "label": "KATS AyurvedaCollege Ankuspur . . . . , , Ganjam / BAMS / -",
-      "total": 23,
+      "label": "MTECH .",
+      "total": 30,
       "by_category": {
-       "ST": 5,
-       "SC": 3,
-       "Unreserved": 9
+       "SC": 8,
+       "ST": 12,
+       "EWS": 10,
+       "Women": 0,
+       "PwBD-C": 0
       },
-      "page": 1
+      "page": 12
      },
      {
-      "label": "GopabandhuAyurveda Mahavidyalaya Puri , / BAMS / -",
-      "total": 13,
+      "label": "M ARCH/MPLAN/ . . M PHARM .",
+      "total": 20,
       "by_category": {
-       "ST": 4,
-       "SC": 1,
-       "Unreserved": 6
+       "SC": 8,
+       "ST": 12,
+       "Women": 0,
+       "PwBD-C": 0
       },
-      "page": 1
+      "page": 12
      },
      {
-      "label": "SriSriCollegeofAyurvedicScience andResearchHospital Arilo Cuttack , , / BAMS",
-      "total": 50,
+      "label": "B PHARM .",
+      "total": 20,
       "by_category": {
-       "ST": 13,
-       "SC": 6,
-       "Unreserved": 13
+       "SC": 8,
+       "ST": 12,
+       "Women": 0,
+       "PwBD-C": 0
       },
-      "page": 1
+      "page": 12
      },
      {
-      "label": "SSNAyurvedicCollegePaikmal , / BAMS",
-      "total": 41,
+      "label": "MCA",
+      "total": 30,
       "by_category": {
-       "ST": 10,
-       "SC": 6,
-       "Unreserved": 10
+       "SC": 8,
+       "ST": 12,
+       "EWS": 10,
+       "Women": 30,
+       "PwBD-C": 0
       },
-      "page": 1
+      "page": 12
      },
      {
-      "label": "BijuPattanaikHomoeopathicMedical CollegeandHospital Berhampur , / BHMS / -",
-      "total": 11,
+      "label": "MBA",
+      "total": 30,
       "by_category": {
-       "ST": 4,
-       "SC": 1,
-       "Unreserved": 4
+       "SC": 8,
+       "ST": 12,
+       "EWS": 10,
+       "Women": 30,
+       "PwBD-C": 0
       },
-      "page": 1
+      "page": 12
      },
      {
-      "label": "DrAbhinChandraHomoeopathic MedicalCollegeandHospital , Bhubaneswar / BHMS / -",
-      "total": 25,
+      "label": "IntegratedMBA",
+      "total": 30,
       "by_category": {
-       "ST": 7,
-       "SC": 5,
-       "Unreserved": 8
+       "SC": 8,
+       "ST": 12,
+       "EWS": 10,
+       "Women": 30,
+       "PwBD-C": 0
       },
-      "page": 1
+      "page": 12
      },
      {
-      "label": "OdishaMedicalCollegeof HomoeopathyandResearch , Sambalpur / BHMS / -",
-      "total": 7,
+      "label": "LETECH/LE PHARM/LEBSc .",
       "by_category": {
-       "ST": 3,
-       "SC": 2,
-       "Unreserved": 2
-      },
-      "page": 1
-     },
-     {
-      "label": "UtkalmaniHomoeopathicMedical CollegeandHospital Rourkela , / BHMS / -",
-      "total": 9,
-      "by_category": {
-       "ST": 4,
        "SC": 0,
-       "Unreserved": 5
+       "ST": 0,
+       "Women": 0,
+       "PwBD-C": 0
       },
-      "page": 1
+      "page": 12
      },
      {
-      "label": "GRANDTOTAL",
-      "total": 199,
+      "label": "INT MSc . . .",
+      "total": 20,
       "by_category": {
-       "ST": 57,
-       "SC": 27,
-       "Unreserved": 63
+       "SC": 8,
+       "ST": 12,
+       "Women": 0,
+       "PwBD-C": 0
       },
-      "page": 1
+      "page": 12
      }
     ],
     "from": "table"
    },
    "source": {
-    "notice": "30a4c2d741188e40cde1d64d0fe48b1e0bb3068d011533b26539f654aeaf9b35",
-    "url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/10/20261009826731220.pdf",
-    "title": "Vacancy Seat matrix of BAMS/BHMS after Round 1, OJEE-2026",
-    "kind": "advertisement"
+    "notice": "3a06675d5ea183bc8bcb7906c0e001a74227e5a425eab848e627c9458135dc74",
+    "url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/01/202601281538483605.pdf",
+    "title": "INFORMATION BROCHURE FOR OJEE-2026",
+    "kind": "brochure"
+   },
+   "alternatives": 1
+  },
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 1000,
+     "raw": "Application Fees for form with single course is Rs.1000/- and for addition of each course thereafter, Rs.500/- for each course will be added. (Transaction Charges, over and above the prescribed fee, may be charged by Banks as per norm.)…",
+     "page": 7
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 500,
+     "raw": "Application Fees for form with single course is Rs.1000/- and for addition of each course thereafter, Rs.500/- for each course will be added. (Transaction Charges, over and above the prescribed fee, may be charged by Banks as per norm.)…",
+     "page": 7
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 5000,
+     "raw": "5,000/- (for under graduate / post graduate) towards University and Insurance Fees, the balance amount will be adjusted towards the fees, payable at college level while joining the college",
+     "page": 42
+    }
+   ],
+   "source": {
+    "notice": "3a06675d5ea183bc8bcb7906c0e001a74227e5a425eab848e627c9458135dc74",
+    "url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/01/202601281538483605.pdf",
+    "title": "INFORMATION BROCHURE FOR OJEE-2026",
+    "kind": "brochure",
+    "page": 7
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2026-12-31",
+    "source": {
+     "notice": "3a06675d5ea183bc8bcb7906c0e001a74227e5a425eab848e627c9458135dc74",
+     "url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/01/202601281538483605.pdf",
+     "title": "INFORMATION BROCHURE FOR OJEE-2026",
+     "kind": "brochure",
+     "page": 23
+    }
+   },
+   "exam_date": {
+    "date": "2026-05-04",
+    "provisional": true,
+    "source": {
+     "notice": "3a06675d5ea183bc8bcb7906c0e001a74227e5a425eab848e627c9458135dc74",
+     "url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/01/202601281538483605.pdf",
+     "title": "INFORMATION BROCHURE FOR OJEE-2026",
+     "kind": "brochure",
+     "page": 4
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-03-22",
+    "source": {
+     "notice": "3a06675d5ea183bc8bcb7906c0e001a74227e5a425eab848e627c9458135dc74",
+     "url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/01/202601281538483605.pdf",
+     "title": "INFORMATION BROCHURE FOR OJEE-2026",
+     "kind": "brochure",
+     "page": 5
+    }
+   },
+   "registration_open": {
+    "date": "2026-01-28",
+    "source": {
+     "notice": "3a06675d5ea183bc8bcb7906c0e001a74227e5a425eab848e627c9458135dc74",
+     "url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/01/202601281538483605.pdf",
+     "title": "INFORMATION BROCHURE FOR OJEE-2026",
+     "kind": "brochure",
+     "page": 5
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-01-28",
+    "until": "2026-03-22"
+   },
+   "source": {
+    "notice": "3a06675d5ea183bc8bcb7906c0e001a74227e5a425eab848e627c9458135dc74",
+    "url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/01/202601281538483605.pdf",
+    "title": "INFORMATION BROCHURE FOR OJEE-2026",
+    "kind": "brochure",
+    "page": 5
+   }
+  },
+  "exam_date": {
+   "value": "2026-05-04",
+   "source": {
+    "notice": "3a06675d5ea183bc8bcb7906c0e001a74227e5a425eab848e627c9458135dc74",
+    "url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/01/202601281538483605.pdf",
+    "title": "INFORMATION BROCHURE FOR OJEE-2026",
+    "kind": "brochure",
+    "page": 4
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Postgraduate",
+     "Graduate",
+     "Diploma / ITI",
+     "Class 12"
+    ],
+    "clauses": [
+     {
+      "text": "4.5 Importance of Nativity / Residential Certificate 18 5 Minimum Eligibility Criteria 18-19 6 Rules and Pattern of Examination for OJEE-2026 25-26",
+      "page": 2
+     },
+     {
+      "text": "Candidates are advised to carefully go through this Information Brochure, which contains all the important information relating to OJEE – 2026 including instructions for making online application, important dates and notes for applicants, categories and reservations, eligibility criteria, pattern…",
+      "page": 4
+     },
+     {
+      "text": "“ONE CANDIDATE CAN SUBMIT ONE APPLICATION ONLY * ” (* Candidate wish to appear Test for multiple Courses have to select multiple Course as per their eligibility criteria through Online Candidate Registration System) (www.ojee.nic.in) choosing the option: Odisha Joint Entrance Examination-2026",
+      "page": 6
+     },
+     {
+      "text": "Candidates may choose one or more than one course from the above groups depending on their educational qualification and the minimum eligibility criteria for the selected course(s) (Refer Table 4 – Minimum Eligibility Criteria for all the programs/courses except any of the Nursing programs/courses",
+      "page": 7
+     },
+     {
+      "text": "For M.Tech courses, candidates should make correct choice of examination (M.Tech Specialization) based on their own discipline of Graduation/ Post- Graduation and the eligibility criteria for the selected course. (Refer Table 8 - Course Mapping)",
+      "page": 7
+     },
+     {
+      "text": "on their educational qualification",
+      "page": 9
+     },
+     {
+      "text": "(a) The candidate must have passed/appeared 10+2 examination from any of the recognized institutions in the State of Odisha for taking admission into Bachelor’s Degree Programs",
+      "page": 13
+     },
+     {
+      "text": "The candidate must have passed/ appeared +3 Sc /B.Sc./BCA/ B.Tech/ B.Pharm/ B.Arch Bachelor degree from any of the recognized institutions in the State of Odisha for taking admission into Masters Degree Programs",
+      "page": 13
+     },
+     {
+      "text": "(Besides above, the reservation facility is also applicable to the children/ wards of All India Civil Service Officers serving in the State of Odisha at par with the natives of Odisha, except for any reservation being extended to ST, SC and SEBC categories so far as admission to Professional /…",
+      "page": 13
+     },
+     {
+      "text": "To avail this reserved quota the candidate, have to submit income certificate along with resident/nativity certificate issued online from appropriate authority and it shall be of 2025-26 financial year Eligibility criteria for Tuition Fee Waiver Scheme [TFW]:",
+      "page": 17
+     },
+     {
+      "text": "4.4.2.2 A candidate eligible to avail the reservation under OL Category must have the following documents",
+      "page": 18
+     },
+     {
+      "text": "(ii) The candidate must have passed 10+2 Science examination from outside Odisha",
+      "page": 19
+     },
+     {
+      "text": "Outside state candidates are eligible for admission in Private colleges in B.Tech, B.Pharm, MBA, Integrated MBA, MCA at 1st year level and Private Engineering colleges in B Tech (LE), B Pharm (LE) at 2nd year level, as per their eligibility criteria following the Govt. of Odisha guidelines in this…",
+      "page": 20
+     },
+     {
+      "text": "5 MINIMUM ELIGIBILITY CRITERIA:",
+      "page": 21
+     },
+     {
+      "text": "LE PHARM (3 Years) Passed Diploma examination in a Programme with at least 45% marks (40% marks in case of candidates belonging to reserved category) in appropriate Programme",
+      "page": 22
+     },
+     {
+      "text": "The candidates must be minimum 17 years of age as on dt: 31.12.2026 i.e., the candidate should have been born on or before dt.31.12.2009",
+      "page": 23
+     },
+     {
+      "text": "The in-service candidates must have obtained a “No objection Certificate” from concerned appointing authority",
+      "page": 24
+     },
+     {
+      "text": "The candidate must have minimum one year of work experience after Basic B.Sc",
+      "page": 25
+     },
+     {
+      "text": "The candidate must have one-year clinical experience as a staff Nurse/Nursing officer from the date of joining after registration from the concerned State Nursing Council to last date of submission of application form",
+      "page": 26
+     },
+     {
+      "text": "The Candidates must have passed minimum M.E standard Odia. (Only for Govt",
+      "page": 27
+     },
+     {
+      "text": "IF YOU HAVE DEGREE IN THE DISCIPLINE",
+      "page": 35
+     }
+    ]
+   },
+   "source": {
+    "notice": "3a06675d5ea183bc8bcb7906c0e001a74227e5a425eab848e627c9458135dc74",
+    "url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/01/202601281538483605.pdf",
+    "title": "INFORMATION BROCHURE FOR OJEE-2026",
+    "kind": "brochure"
+   }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "B Pharm .",
+     "page": 30
+    },
+    {
+     "paper": "LE -Tech (Diploma)",
+     "page": 30
+    },
+    {
+     "paper": "LE Tech - (BSc/+3Sc)",
+     "page": 30
+    },
+    {
+     "paper": "MCA",
+     "page": 30
+    },
+    {
+     "paper": "MBA",
+     "page": 30
+    },
+    {
+     "paper": "IntegratedMBA",
+     "page": 30
+    },
+    {
+     "paper": "M Tech .",
+     "page": 30
+    },
+    {
+     "paper": "M Arch .",
+     "page": 30
+    },
+    {
+     "paper": "M Plan .",
+     "page": 30
+    },
+    {
+     "paper": "M Pharm .",
+     "page": 30
+    },
+    {
+     "paper": "LE -Pharm",
+     "page": 30
+    },
+    {
+     "paper": "BCAT .",
+     "page": 30
+    },
+    {
+     "paper": "B Tech . (2nd/Special OJEE)",
+     "page": 31
+    },
+    {
+     "paper": "1 .",
+     "page": 31,
+     "questions": 20,
+     "marks": 20
+    },
+    {
+     "paper": "2 .",
+     "page": 31,
+     "questions": 20,
+     "marks": 20
+    },
+    {
+     "paper": "3 .",
+     "page": 31,
+     "questions": 20,
+     "marks": 20
+    },
+    {
+     "paper": "4 .",
+     "page": 31,
+     "questions": 20,
+     "marks": 20
+    },
+    {
+     "paper": "5 .",
+     "page": 31,
+     "questions": 20,
+     "marks": 20
+    },
+    {
+     "paper": "Total",
+     "page": 31,
+     "questions": 100,
+     "marks": 100
+    }
+   ],
+   "source": {
+    "notice": "3a06675d5ea183bc8bcb7906c0e001a74227e5a425eab848e627c9458135dc74",
+    "url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/01/202601281538483605.pdf",
+    "title": "INFORMATION BROCHURE FOR OJEE-2026",
+    "kind": "brochure"
    }
   }
  },
- "gaps": [
-  "apply",
-  "exam_date",
-  "fee",
-  "eligibility",
-  "exam_pattern"
- ],
+ "gaps": [],
  "older_documents": 0
 }
