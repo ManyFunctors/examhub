@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "406c31aae677775d318e46be5d4cc4d046da20083bd1e95e753f23a53391f14d",
+  "url": "https://appsc.gov.in/upload/RECINS001/NOTIFICATION.pdf",
+  "title": "WRITTEN EXAMINATION DATE FOR THE POST OF COMPUTER PROGRAMMER",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/notifications",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "ca5bda3bdbae6a4c32cb8260ccd24cd1d743e80b2172d9b899e1070442495f49",
+  "bytes": 339324,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T23:47:30+05:30"
+ },
+ "kind": "schedule",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
