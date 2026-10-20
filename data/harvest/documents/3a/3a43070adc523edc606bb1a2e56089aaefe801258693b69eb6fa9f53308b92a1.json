@@ -1,0 +1,70 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3a43070adc523edc606bb1a2e56089aaefe801258693b69eb6fa9f53308b92a1",
+  "url": "https://indianbank.bank.in/documents/20117/34414/Notification-Faculty-recruitment2026_05_04_09_27_24.pdf/b65f2f75-1b02-bc6b-37cf-7fa916bb12a8",
+  "title": "ENGAGEMENT OF SUPPORT STAFF AT INDIAN BANK RURAL SELF EMPLOYMENT TRAINING INSTITUTE (INDRSETI) Villupuram Notification",
+  "body": "in-indian-bank",
+  "exam": "in-indian-bank-recruitment",
+  "feed": "in-indian-bank/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "70a499c73bcbf43262c67c6112de900ae7a0efbc2847b27f64bc11f245985b5c",
+  "bytes": 701536,
+  "pages": 5,
+  "chars": 7767,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T14:47:07+05:30"
+ },
+ "kind": "notice",
+ "age": {
+  "limits": [
+   {
+    "min": 22,
+    "max": 40,
+    "evidence": "S.No Parameters Eligibility Criteria 1 Age 22 to 40 years 2 Educational Qualification Shall be a graduate / PG viz., (MSW/M.A in Rural Development / M.A in Sociology / Psychology / B.Sc.(Veterinary)/B.Sc.(Horticulture)/B.Sc.(Agri.,)/ B.Sc",
+    "page": 3
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate",
+   "Class 10"
+  ],
+  "clauses": [
+   {
+    "text": "Educational Qualification :( from 10th std onwards – use separate sheet if necessary)",
+    "page": 1
+   },
+   {
+    "text": "Copies of Educational qualifications from 10 th std onwards",
+    "page": 2
+   },
+   {
+    "text": "S.No Parameters Eligibility Criteria 1 Age 22 to 40 years 2 Educational Qualification Shall be a graduate / PG viz., (MSW/M.A in Rural Development / M.A in Sociology / Psychology / B.Sc.(Veterinary)/B.Sc.(Horticulture)/B.Sc.(Agri.,)/ B.Sc",
+    "page": 3
+   }
+  ]
+ },
+ "selection": [
+  "Written examination",
+  "Interview",
+  "Medical examination"
+ ],
+ "summary": {
+  "age": {
+   "min": 22,
+   "max": 40
+  },
+  "education": [
+   "Postgraduate",
+   "Graduate",
+   "Class 10"
+  ],
+  "selection": "Written examination → Interview → Medical examination"
+ }
+}
