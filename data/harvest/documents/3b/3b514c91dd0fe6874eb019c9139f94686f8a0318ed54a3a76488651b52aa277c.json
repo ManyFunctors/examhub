@@ -1,0 +1,70 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3b514c91dd0fe6874eb019c9139f94686f8a0318ed54a3a76488651b52aa277c",
+  "url": "https://ngel.in/public/career/1/bc55988b43/7143e05f03.pdf",
+  "title": "Advertisement Download",
+  "body": "in-ntpc-green",
+  "exam": "in-ntpc-green-recruitment",
+  "feed": "in-ntpc-green/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "ee79bb3c771d80f38324ac3da15a98aeb15463bd27ce5b93d54c91c681bd1de5",
+  "bytes": 425255,
+  "pages": 2,
+  "chars": 2642,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T16:50:21+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "age_as_on": {
+   "date": "2024-05-09",
+   "evidence": "Period of Engagement: For a period of 01 year Upper Age Limit: 62 years on 09.05.2024",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2024-12-31",
+   "evidence": "Last date of application extended till 31.12.2024",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "age": {
+  "limits": [
+   {
+    "max": 62,
+    "evidence": "Period of Engagement: For a period of 01 year Upper Age Limit: 62 years on 09.05.2024",
+    "page": 1
+   }
+  ],
+  "as_on": "2024-05-09"
+ },
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "The candidate should have retired at a pay scale of E6 or above level equivalent of NTPC Ltd. from Public Sector Undertakings or Autonomous Organizations of Central/ State Governments",
+    "page": 1
+   },
+   {
+    "text": "Candidates must have experience in C&M function including Stores",
+    "page": 1
+   },
+   {
+    "text": "EDUCATIONAL QUALIFICATION",
+    "page": 2
+   }
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2024-12-31"
+  },
+  "age": {
+   "max": 62
+  }
+ }
+}
