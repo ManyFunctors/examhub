@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "342fa1e5ab4993c028c1dc3457982de0b829f497038db634a93a05740659cf1a",
+  "url": "https://appsc.gov.in/upload/RECINS001/TGT_NOTIFICATIONrotated_20220422_185148.pdf",
+  "title": "Trained Graduate Teacher Notification",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "242387aea46a6df1f2433f769ae4d25c8f7c222a6ce253b89ea8d52fef1f6d0e",
+  "bytes": 20932,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T06:56:11+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
