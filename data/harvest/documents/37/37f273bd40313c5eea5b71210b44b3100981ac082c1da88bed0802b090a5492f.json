@@ -1,0 +1,53 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "37f273bd40313c5eea5b71210b44b3100981ac082c1da88bed0802b090a5492f",
+  "url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/Recruitment_files/DJ-Oral_Schedule_28201_27433.pdf",
+  "title": "Notice: Re-sheduled dates for the Viva Voce Test (Oral Interview) for Recruitment to the Cadre of District Judges.",
+  "body": "gj-hc",
+  "exam": "gj-hc-judicial",
+  "feed": "gj-hc/results",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "d2524ff30258b7a2f7dc1842b0b483567e270428c81cf3eff393a1bf75eca090",
+  "bytes": 26465,
+  "pages": 1,
+  "chars": 1623,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T11:10:45+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "admit_card_from": {
+   "date": "2016-09-15",
+   "evidence": "Recruitment Cell, Administrative Building ‘B’ Wing, Third Floor, High Court of Gujarat, Sola, Ahmedabad Note : All those short-listed can download their e-Call ",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "01 to 10 Recruitment C ell Ad mi ni strati Buildi ‘B’ ve ng , Wi ng Thi rd Fl oor Hi gh C ourt of G uj arat S ol a , , , , Ah d b d me a a",
+   "date": "2016-09-23",
+   "page": 1
+  },
+  {
+   "event": "11 to 22 23 to 32",
+   "date": "2016-09-24",
+   "page": 1
+  },
+  {
+   "event": "33 to 42",
+   "date": "2016-09-25",
+   "page": 1
+  },
+  {
+   "event": "Recruitment Cell, Administrative Building ‘B’ Wing, Third Floor, High Court of Gujarat, Sola, Ahmedabad Note : All those short-listed can download their e-Call ",
+   "key": "admit_card_from",
+   "date": "2016-09-15",
+   "page": 1
+  }
+ ]
+}

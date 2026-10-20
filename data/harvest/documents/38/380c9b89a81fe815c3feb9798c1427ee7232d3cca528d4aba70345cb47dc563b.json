@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "380c9b89a81fe815c3feb9798c1427ee7232d3cca528d4aba70345cb47dc563b",
+  "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat - hs હિન્દી પ્રથમ ભાષા (હિંદી માધ્યમમાં હિન્દી વિષય માટેનો અભ્યાસક્રમ)_022026.pdf",
+  "title": "TAT - HS હિન્દી પ્રથમ ભાષા (હિંદી માધ્યમમાં હિન્દી વિષય માટેનો અભ્યાસક્રમ)",
+  "body": "gj-seb",
+  "exam": "gj-tat",
+  "feed": "gj-seb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "2a8368321d4ff8afc7cb8f818ec5238d1f43e123e510c0eea2fa5c21dd38db1a",
+  "bytes": 493626,
+  "pages": 6,
+  "chars": 10,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T11:10:45+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

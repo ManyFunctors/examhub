@@ -1,0 +1,2018 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "37bca3ff87e88f03f10cd94fd032d363cd69832dc945712e3f3d34b6b2422e78",
+  "url": "https://bceceboard.bihar.gov.in/pdf_Seat/ITICAT26_SM.pdf",
+  "title": "Seat Matrix of ITICAT-2026",
+  "body": "br-bceceb",
+  "exam": "br-cet-ped",
+  "feed": "br-bceceb/home",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "92486c983d6fc287defb4e932a7325971fdfda98aaadf37aca9f8e7951c0b3e8",
+  "bytes": 908076,
+  "pages": 31,
+  "chars": 118847,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T11:10:49+05:30"
+ },
+ "kind": "notice",
+ "unmapped_classes": [
+  {
+   "label": "Unit",
+   "page": 31
+  },
+  {
+   "label": "Per Unit Size",
+   "page": 31
+  }
+ ],
+ "vacancies": {
+  "total": 8008,
+  "by_category": {
+   "Unreserved": 3208,
+   "SC": 1294,
+   "ST": 82,
+   "EWS": 796,
+   "br:EBC": 1416,
+   "br:BC": 964
+  },
+  "rows": [
+   {
+    "label": "WITIDIGHAGHATPATNA / PATNA / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 48,
+    "by_category": {
+     "Unreserved": 20,
+     "SC": 8,
+     "ST": 0,
+     "br:EBC": 8,
+     "br:BC": 6,
+     "EWS": 4
+    },
+    "page": 24
+   },
+   {
+    "label": "WITIDIGHAGHATPATNA / PATNA / ELECTRICIAN / NCVT / 2Year",
+    "total": 60,
+    "by_category": {
+     "Unreserved": 24,
+     "SC": 9,
+     "ST": 1,
+     "br:EBC": 11,
+     "br:BC": 7,
+     "EWS": 6
+    },
+    "page": 24
+   },
+   {
+    "label": "WITIDIGHAGHATPATNA / PATNA / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 24
+   },
+   {
+    "label": "WITIDIGHAGHATPATNA / PATNA / INTERNETOFTHINGSTECHNICIAN (SMARTHEALTHCARE) / NCVT / 1Year",
+    "total": 48,
+    "by_category": {
+     "Unreserved": 19,
+     "SC": 8,
+     "ST": 0,
+     "br:EBC": 9,
+     "br:BC": 6,
+     "EWS": 5
+    },
+    "page": 24
+   },
+   {
+    "label": "WITIDIGHAGHATPATNA / PATNA / FITTER / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 24
+   },
+   {
+    "label": "WITISIWAN / SIWAN / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 24
+   },
+   {
+    "label": "WITISIWAN / SIWAN / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 48,
+    "by_category": {
+     "Unreserved": 19,
+     "SC": 7,
+     "ST": 1,
+     "br:EBC": 9,
+     "br:BC": 6,
+     "EWS": 5
+    },
+    "page": 24
+   },
+   {
+    "label": "WITISIWAN / SIWAN / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 24
+   },
+   {
+    "label": "WITISIWAN / SIWAN / ADDITIVEMANUFACTURING TECHNICIAN(3DPRINTING) / NCVT / 1Year",
+    "total": 40,
+    "by_category": {
+     "Unreserved": 16,
+     "SC": 7,
+     "ST": 0,
+     "br:EBC": 7,
+     "br:BC": 5,
+     "EWS": 4
+    },
+    "page": 24
+   },
+   {
+    "label": "WITIMUZAFFARPUR / MUZAFFARPUR / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 48,
+    "by_category": {
+     "Unreserved": 19,
+     "SC": 8,
+     "ST": 0,
+     "br:EBC": 9,
+     "br:BC": 6,
+     "EWS": 5
+    },
+    "page": 24
+   },
+   {
+    "label": "WITIMUZAFFARPUR / MUZAFFARPUR / ELECTRICIAN / SCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 24
+   },
+   {
+    "label": "WITIMUZAFFARPUR / MUZAFFARPUR / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 48,
+    "by_category": {
+     "Unreserved": 19,
+     "SC": 7,
+     "ST": 1,
+     "br:EBC": 9,
+     "br:BC": 6,
+     "EWS": 5
+    },
+    "page": 24
+   },
+   {
+    "label": "WITIMUZAFFARPUR / MUZAFFARPUR / MULTIMEDIAANIMATION&SPECIAL EFFECTS / NCVT / 1Year",
+    "total": 48,
+    "by_category": {
+     "Unreserved": 19,
+     "SC": 8,
+     "ST": 1,
+     "br:EBC": 8,
+     "br:BC": 5,
+     "EWS": 5
+    },
+    "page": 24
+   },
+   {
+    "label": "WITIMUZAFFARPUR / MUZAFFARPUR / COMPUTEROPERATORAND PROGRAMMINGASSISTANT(COPA) / NCVT / 1Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 24
+   },
+   {
+    "label": "WITIARAH BHOJPUR , / BHOJPUR / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 24
+   },
+   {
+    "label": "WITIARAH BHOJPUR , / BHOJPUR / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 24
+   },
+   {
+    "label": "WITIARAH BHOJPUR , / BHOJPUR / ADDITIVEMANUFACTURING TECHNICIAN(3DPRINTING) / NCVT / 1Year",
+    "total": 40,
+    "by_category": {
+     "Unreserved": 16,
+     "SC": 6,
+     "ST": 1,
+     "br:EBC": 7,
+     "br:BC": 5,
+     "EWS": 4
+    },
+    "page": 24
+   },
+   {
+    "label": "WITIARAH BHOJPUR , / BHOJPUR / INTERNETOFTHINGSTECHNICIAN (SMARTHEALTHCARE) / NCVT / 1Year",
+    "total": 48,
+    "by_category": {
+     "Unreserved": 19,
+     "SC": 8,
+     "ST": 0,
+     "br:EBC": 9,
+     "br:BC": 6,
+     "EWS": 5
+    },
+    "page": 24
+   },
+   {
+    "label": "WITIDARBHANGA / DARBHANGA / ELECTRICIAN / NCVT / 2Year",
+    "total": 40,
+    "by_category": {
+     "Unreserved": 16,
+     "SC": 6,
+     "ST": 1,
+     "br:EBC": 7,
+     "br:BC": 5,
+     "EWS": 4
+    },
+    "page": 24
+   },
+   {
+    "label": "WITIDARBHANGA / DARBHANGA / FITTER / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 24
+   },
+   {
+    "label": "WITIDARBHANGA / DARBHANGA / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 25
+   },
+   {
+    "label": "WITIDARBHANGA / DARBHANGA / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 25
+   },
+   {
+    "label": "WITIMOTIHARI / EASTCHAMPARAN / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 25
+   },
+   {
+    "label": "WITIMOTIHARI / EASTCHAMPARAN / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 25
+   },
+   {
+    "label": "WITIGAYA / GAYA / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 25
+   },
+   {
+    "label": "WITIGAYA / GAYA / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 25
+   },
+   {
+    "label": "WITIBHAGALPUR / BHAGALPUR / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 25
+   },
+   {
+    "label": "WITIBHAGALPUR / BHAGALPUR / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 25
+   },
+   {
+    "label": "WITIBHAGALPUR / BHAGALPUR / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 25
+   },
+   {
+    "label": "WITISARAN / SARAN / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 25
+   },
+   {
+    "label": "WITISARAN / SARAN / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 25
+   },
+   {
+    "label": "WITISARAN / SARAN / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 25
+   },
+   {
+    "label": "WITISARAN / SARAN / INTERNETOFTHINGSTECHNICIAN (SMARTHEALTHCARE) / NCVT / 1Year",
+    "total": 48,
+    "by_category": {
+     "Unreserved": 19,
+     "SC": 8,
+     "ST": 0,
+     "br:EBC": 9,
+     "br:BC": 6,
+     "EWS": 5
+    },
+    "page": 25
+   },
+   {
+    "label": "WITIPURNEA / PURNIA / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 25
+   },
+   {
+    "label": "WITIPURNEA / PURNIA / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 25
+   },
+   {
+    "label": "WITIPURNEA / PURNIA / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 25
+   },
+   {
+    "label": "WITIPURNEA / PURNIA / COMPUTERAIDEDEMBROIDERY& DESIGN / NCVT / 1Year",
+    "total": 48,
+    "by_category": {
+     "Unreserved": 19,
+     "SC": 8,
+     "ST": 0,
+     "br:EBC": 9,
+     "br:BC": 6,
+     "EWS": 5
+    },
+    "page": 25
+   },
+   {
+    "label": "WITIPURNEA / PURNIA / ADDITIVEMANUFACTURING TECHNICIAN(3DPRINTING) / NCVT / 1Year",
+    "total": 40,
+    "by_category": {
+     "Unreserved": 16,
+     "SC": 6,
+     "ST": 1,
+     "br:EBC": 7,
+     "br:BC": 5,
+     "EWS": 4
+    },
+    "page": 25
+   },
+   {
+    "label": "WITISAHARSA / SAHARSA / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 26
+   },
+   {
+    "label": "WITISAHARSA / SAHARSA / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 26
+   },
+   {
+    "label": "WITISAHARSA / SAHARSA / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 26
+   },
+   {
+    "label": "WITISAHARSA / SAHARSA / INTERNETOFTHINGSTECHNICIAN (SMARTHEALTHCARE) / NCVT / 1Year",
+    "total": 48,
+    "by_category": {
+     "Unreserved": 19,
+     "SC": 8,
+     "ST": 0,
+     "br:EBC": 9,
+     "br:BC": 6,
+     "EWS": 5
+    },
+    "page": 26
+   },
+   {
+    "label": "WITIMUNGER / MUNGER / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 26
+   },
+   {
+    "label": "WITIMUNGER / MUNGER / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 26
+   },
+   {
+    "label": "WITIMUNGER / MUNGER / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 5,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 26
+   },
+   {
+    "label": "WITIMUNGER / MUNGER / ADDITIVEMANUFACTURING TECHNICIAN(3DPRINTING) / NCVT / 1Year",
+    "total": 40,
+    "by_category": {
+     "Unreserved": 16,
+     "SC": 6,
+     "ST": 1,
+     "br:EBC": 7,
+     "br:BC": 5,
+     "EWS": 4
+    },
+    "page": 26
+   },
+   {
+    "label": "WITIBEGUSARAI / BEGUSARAI / ELECTRICIAN / NCVT / 2Year",
+    "total": 40,
+    "by_category": {
+     "Unreserved": 16,
+     "SC": 6,
+     "ST": 1,
+     "br:EBC": 7,
+     "br:BC": 5,
+     "EWS": 4
+    },
+    "page": 26
+   },
+   {
+    "label": "WITIBEGUSARAI / BEGUSARAI / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 26
+   },
+   {
+    "label": "WITIBEGUSARAI / BEGUSARAI / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 26
+   },
+   {
+    "label": "WITIBEGUSARAI / BEGUSARAI / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 5,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 26
+   },
+   {
+    "label": "WITIBEGUSARAI / BEGUSARAI / INTERNETOFTHINGSTECHNICIAN (SMARTHEALTHCARE) / NCVT / 1Year",
+    "total": 48,
+    "by_category": {
+     "Unreserved": 19,
+     "SC": 7,
+     "ST": 1,
+     "br:EBC": 9,
+     "br:BC": 6,
+     "EWS": 5
+    },
+    "page": 26
+   },
+   {
+    "label": "WITI JEHANABAD / JEHANABAD / ELECTRICIAN / NCVT / 2Year",
+    "total": 40,
+    "by_category": {
+     "Unreserved": 16,
+     "SC": 6,
+     "ST": 1,
+     "br:EBC": 7,
+     "br:BC": 5,
+     "EWS": 4
+    },
+    "page": 26
+   },
+   {
+    "label": "WITI JEHANABAD / JEHANABAD / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 26
+   },
+   {
+    "label": "WITI JEHANABAD / JEHANABAD / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 26
+   },
+   {
+    "label": "WITI JEHANABAD / JEHANABAD / INTERNETOFTHINGSTECHNICIAN (SMARTHEALTHCARE) / NCVT / 1Year",
+    "total": 48,
+    "by_category": {
+     "Unreserved": 19,
+     "SC": 8,
+     "ST": 0,
+     "br:EBC": 9,
+     "br:BC": 6,
+     "EWS": 5
+    },
+    "page": 26
+   },
+   {
+    "label": "WITIFORBESGANJ / ARARIA / ELECTRICIAN / NCVT / 2Year",
+    "total": 40,
+    "by_category": {
+     "Unreserved": 16,
+     "SC": 6,
+     "ST": 1,
+     "br:EBC": 7,
+     "br:BC": 5,
+     "EWS": 4
+    },
+    "page": 26
+   },
+   {
+    "label": "WITIFORBESGANJ / ARARIA / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 26
+   },
+   {
+    "label": "WITIFORBESGANJ / ARARIA / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 26
+   },
+   {
+    "label": "WITISUPAUL / SUPAUL / ELECTRICIAN / NCVT / 2Year",
+    "total": 40,
+    "by_category": {
+     "Unreserved": 16,
+     "SC": 6,
+     "ST": 1,
+     "br:EBC": 7,
+     "br:BC": 5,
+     "EWS": 4
+    },
+    "page": 27
+   },
+   {
+    "label": "WITISUPAUL / SUPAUL / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 27
+   },
+   {
+    "label": "WITISUPAUL / SUPAUL / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 27
+   },
+   {
+    "label": "WITIARWAL / ARWAL / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 27
+   },
+   {
+    "label": "WITIARWAL / ARWAL / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 27
+   },
+   {
+    "label": "WITIARWAL / ARWAL / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 27
+   },
+   {
+    "label": "WITIARWAL / ARWAL / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 27
+   },
+   {
+    "label": "WITIJAMUI / JAMUI / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 27
+   },
+   {
+    "label": "WITIJAMUI / JAMUI / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 27
+   },
+   {
+    "label": "WITIJAMUI / JAMUI / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 27
+   },
+   {
+    "label": "WITIJAMUI / JAMUI / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 27
+   },
+   {
+    "label": "WITISITAMARHI / SITAMARHI / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 27
+   },
+   {
+    "label": "WITISITAMARHI / SITAMARHI / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 27
+   },
+   {
+    "label": "WITISITAMARHI / SITAMARHI / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 27
+   },
+   {
+    "label": "WITISITAMARHI / SITAMARHI / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 27
+   },
+   {
+    "label": "WITIBUXAR / BUXAR / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 27
+   },
+   {
+    "label": "WITIBUXAR / BUXAR / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 27
+   },
+   {
+    "label": "WITIBUXAR / BUXAR / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 27
+   },
+   {
+    "label": "WITIBUXAR / BUXAR / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 27
+   },
+   {
+    "label": "WITINAWADA / NAWADA / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 28
+   },
+   {
+    "label": "WITINAWADA / NAWADA / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 28
+   },
+   {
+    "label": "WITINAWADA / NAWADA / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 28
+   },
+   {
+    "label": "WITINAWADA / NAWADA / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 28
+   },
+   {
+    "label": "WITIKATIHAR / KATIHAR / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 28
+   },
+   {
+    "label": "WITIKATIHAR / KATIHAR / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 28
+   },
+   {
+    "label": "WITIKATIHAR / KATIHAR / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 28
+   },
+   {
+    "label": "WITIKATIHAR / KATIHAR / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 28
+   },
+   {
+    "label": "WITIKATIHAR / KATIHAR / INTERNETOFTHINGSTECHNICIAN (SMARTHEALTHCARE) / NCVT / 1Year",
+    "total": 48,
+    "by_category": {
+     "Unreserved": 19,
+     "SC": 8,
+     "ST": 0,
+     "br:EBC": 9,
+     "br:BC": 6,
+     "EWS": 5
+    },
+    "page": 28
+   },
+   {
+    "label": "WITIBETTIAH / PASCHIM CHAMPARAN / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 28
+   },
+   {
+    "label": "WITIBETTIAH / PASCHIM CHAMPARAN / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 28
+   },
+   {
+    "label": "WITIBETTIAH / PASCHIM CHAMPARAN / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 28
+   },
+   {
+    "label": "WITIBETTIAH / PASCHIM CHAMPARAN / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 28
+   },
+   {
+    "label": "WITISHEOHAR / SHEOHAR / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 28
+   },
+   {
+    "label": "WITISHEOHAR / SHEOHAR / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 28
+   },
+   {
+    "label": "WITISHEOHAR / SHEOHAR / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 28
+   },
+   {
+    "label": "WITISHEOHAR / SHEOHAR / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 28
+   },
+   {
+    "label": "WITIVAISHALI / VAISHALI / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 28
+   },
+   {
+    "label": "WITIVAISHALI / VAISHALI / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 28
+   },
+   {
+    "label": "WITIVAISHALI / VAISHALI / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIVAISHALI / VAISHALI / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIMADHUBANI / MADHUBANI / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIMADHUBANI / MADHUBANI / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIMADHUBANI / MADHUBANI / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIMADHUBANI / MADHUBANI / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIAURANGABAD / AURANGABAD / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIAURANGABAD / AURANGABAD / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIAURANGABAD / AURANGABAD / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIAURANGABAD / AURANGABAD / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIKISHANGANJ / KISHANGANJ / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIKISHANGANJ / KISHANGANJ / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIKISHANGANJ / KISHANGANJ / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIKISHANGANJ / KISHANGANJ / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIKISHANGANJ / KISHANGANJ / INTERNETOFTHINGSTECHNICIAN (SMARTHEALTHCARE) / NCVT / 1Year",
+    "total": 48,
+    "by_category": {
+     "Unreserved": 19,
+     "SC": 8,
+     "ST": 0,
+     "br:EBC": 9,
+     "br:BC": 6,
+     "EWS": 5
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIMADHEPURA / MADHEPURA / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIMADHEPURA / MADHEPURA / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIMADHEPURA / MADHEPURA / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIMADHEPURA / MADHEPURA / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 29
+   },
+   {
+    "label": "WITIBANKA / BANKA / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 30
+   },
+   {
+    "label": "WITIBANKA / BANKA / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 30
+   },
+   {
+    "label": "WITIBANKA / BANKA / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 30
+   },
+   {
+    "label": "WITIBANKA / BANKA / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 30
+   },
+   {
+    "label": "WITIKHAGARIA / KHAGARIA / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 30
+   },
+   {
+    "label": "WITIKHAGARIA / KHAGARIA / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 30
+   },
+   {
+    "label": "WITIKHAGARIA / KHAGARIA / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 30
+   },
+   {
+    "label": "WITIKHAGARIA / KHAGARIA / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 30
+   },
+   {
+    "label": "WITILAKHISARAI / LAKHISARAI / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 30
+   },
+   {
+    "label": "WITILAKHISARAI / LAKHISARAI / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 30
+   },
+   {
+    "label": "WITILAKHISARAI / LAKHISARAI / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 30
+   },
+   {
+    "label": "WITILAKHISARAI / LAKHISARAI / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 30
+   },
+   {
+    "label": "WITISHEIKHPURA / SHEKHPURA / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 30
+   },
+   {
+    "label": "WITISHEIKHPURA / SHEKHPURA / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 30
+   },
+   {
+    "label": "WITISHEIKHPURA / SHEKHPURA / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 30
+   },
+   {
+    "label": "WITISHEIKHPURA / SHEKHPURA / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 30
+   },
+   {
+    "label": "WITINALANDA / NALANDA / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 30
+   },
+   {
+    "label": "WITINALANDA / NALANDA / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 30
+   },
+   {
+    "label": "WITINALANDA / NALANDA / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 30
+   },
+   {
+    "label": "WITINALANDA / NALANDA / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 30
+   },
+   {
+    "label": "WITIROHTAS / ROHTAS / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 31
+   },
+   {
+    "label": "WITIROHTAS / ROHTAS / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 31
+   },
+   {
+    "label": "WITIROHTAS / ROHTAS / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 31
+   },
+   {
+    "label": "WITIROHTAS / ROHTAS / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 31
+   },
+   {
+    "label": "WITIKAIMUR / KAIMUR / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 31
+   },
+   {
+    "label": "WITIKAIMUR / KAIMUR / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 31
+   },
+   {
+    "label": "WITIKAIMUR / KAIMUR / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 31
+   },
+   {
+    "label": "WITIKAIMUR / KAIMUR / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 31
+   },
+   {
+    "label": "WITIGOPALGANJ / GOPALGANJ / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 31
+   },
+   {
+    "label": "WITIGOPALGANJ / GOPALGANJ / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 31
+   },
+   {
+    "label": "WITIGOPALGANJ / GOPALGANJ / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 31
+   },
+   {
+    "label": "WITIGOPALGANJ / GOPALGANJ / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 31
+   },
+   {
+    "label": "WITISAMASTIPUR / SAMASTIPUR / ELECTRICIAN / NCVT / 2Year",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "SC": 3,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 2,
+     "EWS": 2
+    },
+    "page": 31
+   },
+   {
+    "label": "WITISAMASTIPUR / SAMASTIPUR / ELECTRONICSMECHANIC / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 9,
+     "SC": 4,
+     "ST": 1,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 3
+    },
+    "page": 31
+   },
+   {
+    "label": "WITISAMASTIPUR / SAMASTIPUR / INFORMATION&COMMUNICATION TECHNOLOGYSYSTEMMAINTENANCE / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 31
+   },
+   {
+    "label": "WITISAMASTIPUR / SAMASTIPUR / MECHANICCONSUMERELECTRONIC APPLIANCES / NCVT / 2Year",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 10,
+     "SC": 4,
+     "ST": 0,
+     "br:EBC": 4,
+     "br:BC": 3,
+     "EWS": 2
+    },
+    "page": 31
+   }
+  ],
+  "from": "table"
+ },
+ "exam": {
+  "negative_marking": {
+   "value": "One-third of the marks assigned for each wrong answer",
+   "page": 31
+  }
+ },
+ "summary": {
+  "vacancies": 8008
+ }
+}
