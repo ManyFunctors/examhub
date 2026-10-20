@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3730f6adb705a70231dfc48079820d1f63891df7819b0c406cfeeb506d290af1",
+  "url": "https://admission.jmi.ac.in/application/assets/pdfFile/notices/UniversityNotices/Notification_PhD_Admission_2026-27.pdf",
+  "title": "Ph.D Admission Notification for (Session 2026-27)",
+  "body": "dl-jmi",
+  "exam": "dl-jmi-entrance",
+  "feed": "dl-jmi/admission",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "cf5b2702476a695015b0ba68831e73b5fb9cebd3e2ddcedea5e8a8435bc81beb",
+  "bytes": 574930,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T10:41:24+05:30"
+ },
+ "kind": "advertisement",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

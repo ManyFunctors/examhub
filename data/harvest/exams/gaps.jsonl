@@ -149,7 +149,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "dl-hc-judicial"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "dl-hc-staff"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "dl-ipu-cet"}
-{"cycle": "2026-08", "documents": 1, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "dl-jmi-entrance"}
+{"cycle": "2026-08", "documents": 2, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "dl-jmi-entrance"}
 {"cycle": "2026", "documents": 1, "gaps": ["apply", "exam_date", "exam_pattern"], "id": "dl-jnu-phd"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "dl-police-mts"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "ga-gbshse-class-10"}
@@ -183,7 +183,7 @@
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "gj-seb-rimc-entrance"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "gj-set"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "gj-talati"}
-{"cycle": "2026", "documents": 22, "gaps": ["apply", "fee", "eligibility", "exam_pattern"], "id": "gj-tat"}
+{"cycle": "2026", "documents": 23, "gaps": ["apply", "fee", "eligibility", "exam_pattern"], "id": "gj-tat"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "gj-tet"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "hp-hc-staff"}
 {"cycle": null, "documents": 1, "gaps": ["exam_date"], "id": "hp-hpbose-class-10"}
@@ -581,7 +581,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "eligibility"], "id": "in-upsc-so-steno-ldce"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-viteee"}
 {"cycle": "2023", "documents": 1, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-xat"}
-{"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "jh-bed-cet"}
+{"cycle": "2023", "documents": 1, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "jh-bed-cet"}
 {"cycle": "2024", "documents": 3, "gaps": ["vacancies", "apply", "fee", "age", "pay", "eligibility", "selection"], "id": "jh-hc-staff"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "jh-jac-class-10"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "jh-jac-class-12"}

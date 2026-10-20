@@ -5,37 +5,39 @@
  "body": "gj-seb",
  "purpose": "eligibility",
  "cycle": "2026",
- "documents": 22,
- "documents_in_cycle": 1,
+ "documents": 23,
+ "documents_in_cycle": 2,
  "fields": {
   "dates": {
    "answer_key": {
     "date": "2026-04-03",
     "source": {
-     "notice": "1a792c2117eb024356d04ae34d572786467b459347ffa90a2b3cafa7d6e1f4bb",
-     "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat s english gujarati medium provisionl key_052026.pdf",
-     "title": "TAT S ENGLISH GUJARATI MEDIUM",
+     "notice": "3793c01b0583362c79c6b657b523c0ef13161f47576d62b5567a6b506da13d3d",
+     "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat s maths- science gujarati medium provisionl key_052026.pdf",
+     "title": "TAT S SCIENCE & TECHNOLOGY-MATHS GUJARATI MEDIUM",
      "kind": "answer_key",
      "page": 1
-    }
+    },
+    "alternatives": 1
    },
    "exam_date": {
     "date": "2026-04-03",
     "source": {
-     "notice": "1a792c2117eb024356d04ae34d572786467b459347ffa90a2b3cafa7d6e1f4bb",
-     "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat s english gujarati medium provisionl key_052026.pdf",
-     "title": "TAT S ENGLISH GUJARATI MEDIUM",
+     "notice": "3793c01b0583362c79c6b657b523c0ef13161f47576d62b5567a6b506da13d3d",
+     "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat s maths- science gujarati medium provisionl key_052026.pdf",
+     "title": "TAT S SCIENCE & TECHNOLOGY-MATHS GUJARATI MEDIUM",
      "kind": "answer_key",
      "page": 1
-    }
+    },
+    "alternatives": 1
    }
   },
   "exam_date": {
    "value": "2026-04-03",
    "source": {
-    "notice": "1a792c2117eb024356d04ae34d572786467b459347ffa90a2b3cafa7d6e1f4bb",
-    "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat s english gujarati medium provisionl key_052026.pdf",
-    "title": "TAT S ENGLISH GUJARATI MEDIUM",
+    "notice": "3793c01b0583362c79c6b657b523c0ef13161f47576d62b5567a6b506da13d3d",
+    "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat s maths- science gujarati medium provisionl key_052026.pdf",
+    "title": "TAT S SCIENCE & TECHNOLOGY-MATHS GUJARATI MEDIUM",
     "kind": "answer_key",
     "page": 1
    }

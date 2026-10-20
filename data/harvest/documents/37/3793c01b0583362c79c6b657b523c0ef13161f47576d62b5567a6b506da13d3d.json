@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3793c01b0583362c79c6b657b523c0ef13161f47576d62b5567a6b506da13d3d",
+  "url": "https://www.sebexam.org/AdvertiseFiles/2026/tat s maths- science gujarati medium provisionl key_052026.pdf",
+  "title": "TAT S SCIENCE & TECHNOLOGY-MATHS GUJARATI MEDIUM",
+  "body": "gj-seb",
+  "exam": "gj-tat",
+  "feed": "gj-seb/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "1bb404b27b5567fbf4765ecee14459a1c491aa71826a49234511efba9a24ef32",
+  "bytes": 382599,
+  "pages": 1,
+  "chars": 756,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-20T10:41:24+05:30"
+ },
+ "kind": "answer_key",
+ "dates": {
+  "answer_key": {
+   "date": "2026-04-03",
+   "evidence": "TAT-S EXAM-2026 PROVISIONAL ANSWER KEY SUBJECT : MATHS/SCIENCE (GUJARATI MEDIUM) TYPE - A",
+   "page": 1,
+   "from": "table"
+  },
+  "exam_date": {
+   "date": "2026-04-03",
+   "evidence": "TYPE - A EXAM DATE : 03-04-2026",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "TAT-S EXAM-2026 PROVISIONAL ANSWER KEY SUBJECT : MATHS/SCIENCE (GUJARATI MEDIUM) TYPE - A",
+   "key": "answer_key",
+   "date": "2026-04-03",
+   "page": 1
+  }
+ ],
+ "summary": {
+  "exam_date": "2026-04-03"
+ }
+}
