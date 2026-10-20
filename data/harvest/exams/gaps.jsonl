@@ -85,7 +85,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-csbc-constable"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-csbc-fireman-driver"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-csbc-si"}
-{"cycle": "2026", "documents": 4, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "br-dcece"}
+{"cycle": "2026", "documents": 5, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "br-dcece"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "br-deled-entrance"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-patna-hc-staff"}
 {"cycle": "2026", "documents": 13, "gaps": ["exam_date", "fee", "exam_pattern"], "id": "br-pgmac"}
@@ -366,7 +366,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-india-post-gds"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "eligibility"], "id": "in-india-post-ldce"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-india-post-mv-driver"}
-{"cycle": "2025", "documents": 24, "gaps": ["exam_date", "fee", "age", "pay"], "id": "in-indian-bank-recruitment"}
+{"cycle": "2025", "documents": 25, "gaps": ["exam_date", "fee", "age", "pay"], "id": "in-indian-bank-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ini-cet"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ini-ss"}
 {"cycle": "2026", "documents": 13, "gaps": ["fee", "pay"], "id": "in-iob-recruitment"}
@@ -480,7 +480,7 @@
 {"cycle": "2026-07", "documents": 29, "gaps": ["fee", "eligibility"], "id": "in-nta-swayam"}
 {"cycle": "2026", "documents": 10, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ntet"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ntpc-gate-recruitment"}
-{"cycle": "2025", "documents": 8, "gaps": ["vacancies", "fee", "age"], "id": "in-ntpc-green-recruitment"}
+{"cycle": "2026", "documents": 9, "gaps": ["exam_date", "fee"], "id": "in-ntpc-green-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ntpc-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-nvs-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-oicl-ao"}
