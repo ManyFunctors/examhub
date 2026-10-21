@@ -1,0 +1,22 @@
+{
+ "schema": 1,
+ "exam": "br-csbc-constable",
+ "name": "CSBC Bihar Police Constable Recruitment",
+ "body": "br-csbc",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}
