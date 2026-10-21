@@ -1,0 +1,61 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "011d324d13814dba86444b5f90ff5e3f671c6ad723d767cae3168a1995134c85",
+  "url": "https://patnahighcourt.gov.in/getfile/MTEwNzE=-LIW6JlwBv5A=",
+  "title": "Notice regarding Regular Mazdoor Recruitment Examination 2025. 11-Sep-2026 15-Sep-2026 View...",
+  "body": "br-patna-hc",
+  "exam": "br-patna-hc-staff",
+  "feed": "br-patna-hc/recruitments",
+  "published": "2026-09-11",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "a20b8f95f00603d67dc82f2b92c33939532792d0d33e2d76d8db1a6c23cda7d6",
+  "bytes": 241429,
+  "pages": 1,
+  "chars": 1188,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-21T10:45:47+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "PHC/01/2025",
+ "dates": {
+  "exam_date": {
+   "date": "2026-09-11",
+   "evidence": "REGULAR MAZDOOR RECRUITMENT EXAMINATION, 2025 NOTICE No.- 72 /R&A",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "REGULAR MAZDOOR RECRUITMENT EXAMINATION, 2025 NOTICE No.- 72 /R&A",
+   "key": "exam_date",
+   "date": "2026-09-11",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "time, have been granted extension of joining time till 10.10.2026 for joining to the post of Regular Mazdoor subject to furnishing of the original SLC/CLC of their educational qualification by them at the time of joining:",
+    "page": 1
+   },
+   {
+    "text": "The aforesaid candidates are informed to report for joining in the Recruitment & Appointment Cell of this Court by 10.10.2026 with all required documents as mentioned in their appointment letters including the original SLC/CLC of their educational qualification",
+    "page": 1
+   }
+  ]
+ },
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "summary": {
+  "exam_date": "2026-09-11"
+ }
+}
