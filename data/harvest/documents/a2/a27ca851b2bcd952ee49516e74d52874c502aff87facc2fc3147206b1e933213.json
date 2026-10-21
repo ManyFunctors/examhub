@@ -1,0 +1,32 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "a27ca851b2bcd952ee49516e74d52874c502aff87facc2fc3147206b1e933213",
+  "url": "https://csbc.bihar.gov.in/Advt/Advt-02-2025-Driver-Constables.pdf",
+  "title": "Advt. No. 02/2025: For Selection of Driver Constables in Bihar Police and Bihar Special Armed Police",
+  "body": "br-csbc",
+  "exam": "br-csbc-fireman-driver",
+  "feed": "br-csbc/home",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "fff81ce980fe09843734a44d14de1f2db9c35dd85c098eac0824328bee97d4d7",
+  "bytes": 933734,
+  "pages": 17,
+  "chars": 43646,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-21T10:14:14+05:30"
+ },
+ "kind": "advertisement",
+ "links": {
+  "other": [
+   "https://csbc.bihar.gov.in½",
+   "https://csbc.bihar.gov.in",
+   "https://state.bihar.gov.in"
+  ]
+ },
+ "warnings": [
+  "text layer is Hindi in a legacy font and unreadable: 11 of 17 pages (from page 2); an English edition of the notice is needed to read it"
+ ]
+}
