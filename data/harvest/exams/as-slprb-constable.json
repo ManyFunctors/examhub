@@ -1,0 +1,57 @@
+{
+ "schema": 1,
+ "exam": "as-slprb-constable",
+ "name": "SLPRB Assam Police Constable Recruitment",
+ "body": "as-slprb",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "registration_deadline": {
+    "date": "2026-02-08",
+    "source": {
+     "notice": "61594af6a6c25321d13a45a7ba2346b186baf6573be736bbedb043b229383619",
+     "url": "https://slprbassam.in/pdf/Notice2026/19012026/Notice_and_Corrigendum.pdf",
+     "title": "Notice regarding enhancement of upper age limit for the post of Constable (AB & UB) in Assam Police and preponement of last date of receiving of online application. Notice",
+     "kind": "corrigendum",
+     "page": 1
+    }
+   },
+   "registration_open": {
+    "date": "2026-01-22",
+    "source": {
+     "notice": "61594af6a6c25321d13a45a7ba2346b186baf6573be736bbedb043b229383619",
+     "url": "https://slprbassam.in/pdf/Notice2026/19012026/Notice_and_Corrigendum.pdf",
+     "title": "Notice regarding enhancement of upper age limit for the post of Constable (AB & UB) in Assam Police and preponement of last date of receiving of online application. Notice",
+     "kind": "corrigendum",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-01-22",
+    "until": "2026-02-08"
+   },
+   "source": {
+    "notice": "61594af6a6c25321d13a45a7ba2346b186baf6573be736bbedb043b229383619",
+    "url": "https://slprbassam.in/pdf/Notice2026/19012026/Notice_and_Corrigendum.pdf",
+    "title": "Notice regarding enhancement of upper age limit for the post of Constable (AB & UB) in Assam Police and preponement of last date of receiving of online application. Notice",
+    "kind": "corrigendum",
+    "page": 1
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}

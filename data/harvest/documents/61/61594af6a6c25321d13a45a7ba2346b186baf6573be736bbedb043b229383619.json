@@ -1,0 +1,48 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "61594af6a6c25321d13a45a7ba2346b186baf6573be736bbedb043b229383619",
+  "url": "https://slprbassam.in/pdf/Notice2026/19012026/Notice_and_Corrigendum.pdf",
+  "title": "Notice regarding enhancement of upper age limit for the post of Constable (AB & UB) in Assam Police and preponement of last date of receiving of online application. Notice",
+  "body": "as-slprb",
+  "exam": "as-slprb-constable",
+  "feed": "as-slprb/home",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "02babc546198a7c68081837cc478ea46442a9fd061f1814a8f4ee6e07801fbee",
+  "bytes": 95878,
+  "pages": 2,
+  "chars": 3764,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-21T06:27:52+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "registration_open": {
+   "date": "2026-01-22",
+   "evidence": "The extended period of receiving of Online Applications against the below mentioned Advertisements shall be w.e.f. 22-01-2026 to 08-02-2026 instead of",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2026-02-08",
+   "evidence": "The extended period of receiving of Online Applications against the below mentioned Advertisements shall be w.e.f. 22-01-2026 to 08-02-2026 instead of",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.assampolice.gov.in/",
+   "https://www.slprbassam.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2026-01-22",
+   "until": "2026-02-08"
+  }
+ }
+}

@@ -1,0 +1,192 @@
+{
+ "schema": 1,
+ "exam": "as-slprb-si",
+ "name": "SLPRB Assam Sub-Inspector Recruitment",
+ "body": "as-slprb",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "age": {
+   "value": {
+    "limits": [
+     {
+      "min": 20,
+      "max": 24,
+      "evidence": "5.5.A Sub Inspector (AB) - The age of the Applicant must be 20-24 years as on 01-01-2026 (i.e., Applicants born not before 01-01-2002 and not later than 01-01-2006)",
+      "page": 2
+     },
+     {
+      "min": 18,
+      "max": 21,
+      "evidence": "5.5.B Constable (AB) - The age of the Applicant must be 18-21 years as on 01-01-2026",
+      "page": 3
+     }
+    ],
+    "as_on": "2026-01-01",
+    "relaxations": [
+     {
+      "categories": [
+       "SC",
+       "as:ST(P)",
+       "as:ST(H)"
+      ],
+      "for": "SC ST (P) and ST (H) ,",
+      "years": 5,
+      "raw": "1 SC ST (P) and ST (H) , 5 years",
+      "page": 3
+     },
+     {
+      "categories": [
+       "OBC",
+       "as:MOBC"
+      ],
+      "for": "OBC/MOBC",
+      "years": 3,
+      "raw": "2 OBC/MOBC 3 years",
+      "page": 3
+     }
+    ]
+   },
+   "source": {
+    "notice": "6ac35bb02a4253af52c1ada702082899a5ecf6e62cd374d60f239cbe1cb3e062",
+    "url": "https://slprbassam.in/pdf/Notice2025/12122025/adv_SI(AB)-CDO_Bn.pdf",
+    "title": "Advertisement for 47 posts of Sub Inspector (AB) & 3 posts of Constable (AB) in Assam Commando Battalions. Advertisement",
+    "kind": "advertisement",
+    "page": 2
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2026-01-01",
+    "source": {
+     "notice": "6ac35bb02a4253af52c1ada702082899a5ecf6e62cd374d60f239cbe1cb3e062",
+     "url": "https://slprbassam.in/pdf/Notice2025/12122025/adv_SI(AB)-CDO_Bn.pdf",
+     "title": "Advertisement for 47 posts of Sub Inspector (AB) & 3 posts of Constable (AB) in Assam Commando Battalions. Advertisement",
+     "kind": "advertisement",
+     "page": 3
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-01-16",
+    "source": {
+     "notice": "6ac35bb02a4253af52c1ada702082899a5ecf6e62cd374d60f239cbe1cb3e062",
+     "url": "https://slprbassam.in/pdf/Notice2025/12122025/adv_SI(AB)-CDO_Bn.pdf",
+     "title": "Advertisement for 47 posts of Sub Inspector (AB) & 3 posts of Constable (AB) in Assam Commando Battalions. Advertisement",
+     "kind": "advertisement",
+     "page": 8
+    }
+   },
+   "registration_open": {
+    "date": "2025-12-16",
+    "source": {
+     "notice": "6ac35bb02a4253af52c1ada702082899a5ecf6e62cd374d60f239cbe1cb3e062",
+     "url": "https://slprbassam.in/pdf/Notice2025/12122025/adv_SI(AB)-CDO_Bn.pdf",
+     "title": "Advertisement for 47 posts of Sub Inspector (AB) & 3 posts of Constable (AB) in Assam Commando Battalions. Advertisement",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2025-12-16",
+    "until": "2026-01-16"
+   },
+   "source": {
+    "notice": "6ac35bb02a4253af52c1ada702082899a5ecf6e62cd374d60f239cbe1cb3e062",
+    "url": "https://slprbassam.in/pdf/Notice2025/12122025/adv_SI(AB)-CDO_Bn.pdf",
+    "title": "Advertisement for 47 posts of Sub Inspector (AB) & 3 posts of Constable (AB) in Assam Commando Battalions. Advertisement",
+    "kind": "advertisement",
+    "page": 8
+   }
+  },
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "5.6 EDUCATIONAL QUALIFICATION:",
+      "page": 3
+     }
+    ]
+   },
+   "source": {
+    "notice": "6ac35bb02a4253af52c1ada702082899a5ecf6e62cd374d60f239cbe1cb3e062",
+    "url": "https://slprbassam.in/pdf/Notice2025/12122025/adv_SI(AB)-CDO_Bn.pdf",
+    "title": "Advertisement for 47 posts of Sub Inspector (AB) & 3 posts of Constable (AB) in Assam Commando Battalions. Advertisement",
+    "kind": "advertisement"
+   }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "For 7 chin ups",
+     "page": 6
+    },
+    {
+     "paper": "For 8 chin ups",
+     "page": 6
+    },
+    {
+     "paper": "For 9 chin ups",
+     "page": 6
+    },
+    {
+     "paper": "For 10 chin ups",
+     "page": 6
+    },
+    {
+     "paper": "For 11 chin ups",
+     "page": 6
+    },
+    {
+     "paper": "For 12 chin ups",
+     "page": 6
+    },
+    {
+     "paper": "For 13 chin ups",
+     "page": 6
+    },
+    {
+     "paper": "For 14 chin ups",
+     "page": 6
+    },
+    {
+     "paper": "For chin ups more than 14 times no extra marks will be awarded",
+     "page": 6
+    }
+   ],
+   "source": {
+    "notice": "6ac35bb02a4253af52c1ada702082899a5ecf6e62cd374d60f239cbe1cb3e062",
+    "url": "https://slprbassam.in/pdf/Notice2025/12122025/adv_SI(AB)-CDO_Bn.pdf",
+    "title": "Advertisement for 47 posts of Sub Inspector (AB) & 3 posts of Constable (AB) in Assam Commando Battalions. Advertisement",
+    "kind": "advertisement"
+   }
+  },
+  "pay": {
+   "value": [
+    {
+     "low": 14000,
+     "high": 70000,
+     "text": "₹14,000–70,000",
+     "evidence": "In pursuance of the directions of the Govt. of Assam, Online Applications are invited for filling up of 47 posts of Sub Inspector (AB) & 3 posts of Constable (AB) in Assam Commando Battalions in the Pay Scale of Rs. 14000-70000/- (Pay Band No. 2) and Grade Pay as shown against each post plus other…",
+     "page": 1
+    }
+   ],
+   "source": {
+    "notice": "6ac35bb02a4253af52c1ada702082899a5ecf6e62cd374d60f239cbe1cb3e062",
+    "url": "https://slprbassam.in/pdf/Notice2025/12122025/adv_SI(AB)-CDO_Bn.pdf",
+    "title": "Advertisement for 47 posts of Sub Inspector (AB) & 3 posts of Constable (AB) in Assam Commando Battalions. Advertisement",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "exam_date",
+  "fee",
+  "selection"
+ ],
+ "older_documents": 0
+}
