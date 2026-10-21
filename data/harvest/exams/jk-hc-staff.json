@@ -4,64 +4,54 @@
  "name": "J&K and Ladakh HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)",
  "body": "jk-hc",
  "purpose": "recruitment",
- "cycle": "2023",
- "documents": 3,
+ "cycle": "2026",
+ "documents": 4,
  "documents_in_cycle": 1,
  "fields": {
-  "dates": {
-   "exam_date": {
-    "date": "2023-09-06",
-    "source": {
-     "notice": "3904ffbd69cc5c9c011fb85148fc9b61ba626ee1cf9e042b1a00db997c3403ef",
-     "url": "https://jkhighcourt.nic.in/upload/notices/Interviewnotice_12092023.pdf",
-     "title": "Notification regarding interviews for the post of Research Assistant",
-     "kind": "corrigendum",
-     "page": 1
-    }
-   }
-  },
-  "exam_date": {
-   "value": "2023-09-06",
-   "source": {
-    "notice": "3904ffbd69cc5c9c011fb85148fc9b61ba626ee1cf9e042b1a00db997c3403ef",
-    "url": "https://jkhighcourt.nic.in/upload/notices/Interviewnotice_12092023.pdf",
-    "title": "Notification regarding interviews for the post of Research Assistant",
-    "kind": "corrigendum",
-    "page": 1
-   }
-  },
-  "advertisement_no": {
-   "value": "tice",
-   "source": {
-    "notice": "3904ffbd69cc5c9c011fb85148fc9b61ba626ee1cf9e042b1a00db997c3403ef",
-    "url": "https://jkhighcourt.nic.in/upload/notices/Interviewnotice_12092023.pdf",
-    "title": "Notification regarding interviews for the post of Research Assistant",
-    "kind": "corrigendum"
-   }
-  },
-  "eligibility": {
+  "age": {
    "value": {
-    "education_levels": [
-     "Graduate"
-    ],
-    "clauses": [
+    "limits": [
      {
-      "text": "a) A Degree in Law [including BGL/LL.B (Academic)] of a recognized University in India b) Proficiency in Shorthand with a speed of 120 w.p.m in Shorthand (English) c) Knowledge of Computer Operation with a typing speed of 40 w.p.m on Computer d) I-folding analogous posts in High Court on regular…",
-      "page": 3
-     },
-     {
-      "text": "Educational qualifications",
-      "page": 5
+      "max": 56,
+      "evidence": "Age Requirement The age of the candidate should not exceed 56 years, as on the closing date of receipt of applications",
+      "page": 1
      }
     ]
    },
    "source": {
-    "notice": "1cc940fe3825419b84ef16a305536db05016d305ec690cb22d5eafba4865d447",
-    "url": "https://jkhighcourt.nic.in/upload/recruitment/Applications for filling up of the posts of Court Master.pdf",
-    "title": "Notification regarding Inviting applications for filing up of the post of Crnnit Master (Shorthand) in Level—li (Rs. 67700 — Rs. 20870Q on deputation basis in Supreme Court— reg.",
-    "kind": "notice"
+    "notice": "66eae216219494e8692670cc9da21e214e7a9551505b557341fd26ebe657f72d",
+    "url": "https://jkhighcourt.nic.in/upload/recruitment/UPLOAD 105-RR-RC.pdf",
+    "title": "Advertisement for Selection of suitable candidates for the post of Court Master (Shorthand), on deputation basis, in Hon'ble Supreme Court of India.",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "Educational qualifications",
+      "page": 3
+     }
+    ]
    },
-   "carried_from": "0"
+   "source": {
+    "notice": "66eae216219494e8692670cc9da21e214e7a9551505b557341fd26ebe657f72d",
+    "url": "https://jkhighcourt.nic.in/upload/recruitment/UPLOAD 105-RR-RC.pdf",
+    "title": "Advertisement for Selection of suitable candidates for the post of Court Master (Shorthand), on deputation basis, in Hon'ble Supreme Court of India.",
+    "kind": "advertisement"
+   }
+  },
+  "selection": {
+   "value": [
+    "Skill / trade test"
+   ],
+   "source": {
+    "notice": "66eae216219494e8692670cc9da21e214e7a9551505b557341fd26ebe657f72d",
+    "url": "https://jkhighcourt.nic.in/upload/recruitment/UPLOAD 105-RR-RC.pdf",
+    "title": "Advertisement for Selection of suitable candidates for the post of Court Master (Shorthand), on deputation basis, in Hon'ble Supreme Court of India.",
+    "kind": "advertisement"
+   }
   },
   "pay": {
    "value": [
@@ -69,27 +59,27 @@
      "levels": [
       11
      ],
+     "low": 67700,
+     "high": 208700,
      "initial": 67700,
-     "text": "Pay Level 11, initial basic ₹67,700",
-     "evidence": "/ 2\\ \\, / from eligible candidates working under various High Courts for selection V / _J / '\\ p \\ and appointment of suitable candidates for the post of Court Master (Shorthand) on deputation basis placed in Level 11 of Pay Matrix with initial Basic Pay of Rs. 67,700/- plus allowances as…",
+     "text": "Pay Level 11, ₹67,700–208,700, initial basic ₹67,700",
+     "evidence": "The post of Court Master (Shorthand) is placed in Level 11 of Pay Matrix, i.e., Rs.67,700 — Rs.2,08,700/- with initial basic pay of Rs.67,700/- plus allowances, as admissible under the Rules",
      "page": 1
     }
    ],
    "source": {
-    "notice": "1cc940fe3825419b84ef16a305536db05016d305ec690cb22d5eafba4865d447",
-    "url": "https://jkhighcourt.nic.in/upload/recruitment/Applications for filling up of the posts of Court Master.pdf",
-    "title": "Notification regarding Inviting applications for filing up of the post of Crnnit Master (Shorthand) in Level—li (Rs. 67700 — Rs. 20870Q on deputation basis in Supreme Court— reg.",
-    "kind": "notice"
-   },
-   "carried_from": "0"
+    "notice": "66eae216219494e8692670cc9da21e214e7a9551505b557341fd26ebe657f72d",
+    "url": "https://jkhighcourt.nic.in/upload/recruitment/UPLOAD 105-RR-RC.pdf",
+    "title": "Advertisement for Selection of suitable candidates for the post of Court Master (Shorthand), on deputation basis, in Hon'ble Supreme Court of India.",
+    "kind": "advertisement"
+   }
   }
  },
  "gaps": [
   "vacancies",
   "apply",
-  "fee",
-  "age",
-  "selection"
+  "exam_date",
+  "fee"
  ],
- "older_documents": 2
+ "older_documents": 3
 }

@@ -1,0 +1,63 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "66eae216219494e8692670cc9da21e214e7a9551505b557341fd26ebe657f72d",
+  "url": "https://jkhighcourt.nic.in/upload/recruitment/UPLOAD 105-RR-RC.pdf",
+  "title": "Advertisement for Selection of suitable candidates for the post of Court Master (Shorthand), on deputation basis, in Hon'ble Supreme Court of India.",
+  "body": "jk-hc",
+  "exam": "jk-hc-staff",
+  "feed": "jk-hc/notifications",
+  "published": "2026-10-21",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "c626cc6ecae81c17bdfed5ee52b8389e30752253f5c11535524a9c43762646c2",
+  "bytes": 2864802,
+  "pages": 4,
+  "chars": 5013,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-21T16:45:30+05:30"
+ },
+ "kind": "advertisement",
+ "age": {
+  "limits": [
+   {
+    "max": 56,
+    "evidence": "Age Requirement The age of the candidate should not exceed 56 years, as on the closing date of receipt of applications",
+    "page": 1
+   }
+  ]
+ },
+ "pay": [
+  {
+   "levels": [
+    11
+   ],
+   "low": 67700,
+   "high": 208700,
+   "initial": 67700,
+   "text": "Pay Level 11, ₹67,700–208,700, initial basic ₹67,700",
+   "evidence": "The post of Court Master (Shorthand) is placed in Level 11 of Pay Matrix, i.e., Rs.67,700 — Rs.2,08,700/- with initial basic pay of Rs.67,700/- plus allowances, as admissible under the Rules",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "Educational qualifications",
+    "page": 3
+   }
+  ]
+ },
+ "selection": [
+  "Skill / trade test"
+ ],
+ "summary": {
+  "age": {
+   "max": 56
+  },
+  "pay": "Pay Level 11, ₹67,700–208,700, initial basic ₹67,700",
+  "selection": "Skill / trade test"
+ }
+}
