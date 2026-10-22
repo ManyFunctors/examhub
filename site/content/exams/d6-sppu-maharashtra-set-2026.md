@@ -303,23 +303,26 @@ link_apply         = 'https://setexam.unipune.ac.in/Login.aspx'
   [[links.documents]]
   document_type      = 'notification'
   document_stage     = 'all'
-  document_published = 2026-07-26
+  document_published = 'unknown'
   document_url       = 'https://setexam.unipune.ac.in/SET_2026/SET_English_Advertisement.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'English Adevrtisement of 41st M-SET Exam to be held on 26th July 2026'
 
   [[links.documents]]
   document_type      = 'notification'
   document_stage     = 'all'
-  document_published = 2026-07-26
+  document_published = 'unknown'
   document_url       = 'https://setexam.unipune.ac.in/SET_2026/SET_Marathi_Advertisement.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Marathi Adevrtisement of 41st M-SET Exam to be held on 26th July 2026'
 
   [[links.documents]]
-  document_type      = 'press_release'
+  document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://setexam.unipune.ac.in/SET_2026/Public_Notice_2026.pdf'
+  document_url       = 'https://setexam.unipune.ac.in/SET_2026/Prospectus_SET_JULY_2026.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Prospectus of SET Exam 26th July, 2026'
 
   [[links.documents]]
   document_type      = 'press_release'
@@ -327,18 +330,20 @@ link_apply         = 'https://setexam.unipune.ac.in/Login.aspx'
   document_published = 'unknown'
   document_url       = 'https://setexam.unipune.ac.in/SET_2026/Extension_SETAppplicationForm_WithLateFee_New.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Extension of filling SET Application Form 2026 with Late Fee'
 
   [[links.documents]]
-  document_type      = 'notification'
+  document_type      = 'press_release'
   document_stage     = 'all'
-  document_published = 2026-07-26
-  document_url       = 'https://setexam.unipune.ac.in/SET_2026/Prospectus_SET_JULY_2026.pdf'
+  document_published = 'unknown'
+  document_url       = 'https://setexam.unipune.ac.in/SET_2026/Public_Notice_2026.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Public Notice'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T13:58:05+05:30
+provenance_last_checked = 2026-10-22T14:15:35+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.stages[1].exam'

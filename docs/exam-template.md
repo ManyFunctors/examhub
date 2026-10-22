@@ -393,7 +393,8 @@ from there.
 47. **Links.** `[links]` holds `link_official_page` and `link_apply` (both
     kept: equal in 171 of 292 ExamHub files), then one `[[links.documents]]`
     per official file for the cycle: `document_type` (the harvest's types
-    plus `'syllabus' | 'brochure'`), `document_stage`, `document_published`,
+    plus `'syllabus' | 'brochure'`), `document_stage`, `document_published`, `document_title` (the file's own name, optional; tells two
+    notifications apart),
     `document_url`, `document_archive` (Wayback). The page writes each
     label from type, stage and date. From the harvest's 51,516 links: result
     8,405, notification 8,263, answer key 4,797, schedule 2,362, press
@@ -1158,7 +1159,15 @@ link_apply         = 'https://ibpsreg.ibps.in/crpcl16jun26/'  # or 'not_announce
   document_stage     = 'all'                 # or a stage_number
   document_published = 2026-08-01            # or 'unknown'
   document_url       = 'https://www.ibps.in/wp-content/uploads/CRP-CSA-XVI.pdf'
+  document_title     = 'Detailed advertisement'   # optional: the file's own name; present in one row only
   document_archive   = 'not_archived'        # Wayback copy, or 'not_archived'
+
+  [[links.documents]]                        # a document without a title is fine
+  document_type      = 'corrigendum'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://www.ibps.in/wp-content/uploads/CRP-CSA-XVI-corrigendum.pdf'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ══════════════════════════════════════
 [provenance]

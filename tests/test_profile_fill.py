@@ -128,3 +128,28 @@ def test_notices_are_listed_as_documents_only_for_the_cycle():
     attach_notices(rec, notices, same_cycle_records=1)
     assert [d["document_url"] for d in rec["links"]["documents"]] == ["https://a.test/Advt_2026.pdf"]
     assert attach_notices(rec, notices, same_cycle_records=2) == []
+
+
+def test_documents_are_ordered_capped_and_titled():
+    from examhub_pipeline.profile_fill import attach_notices
+    rec = {"exam_id": "x", "cycle": "2026", "links": {"documents": []}}
+    notices = [{"exam": "x", "url": f"https://a.test/PR_2026_{i}.pdf", "title": f"Press note {i}",
+                "doc_type": "press_release", "published": f"2026-0{i + 1}-01"} for i in range(6)]
+    notices.append({"exam": "x", "url": "https://a.test/Advt_2026.pdf", "title": "EXAM NAME LONG PREFIX HERE 2026 - Detailed advertisement",
+                    "doc_type": "notification", "published": "2026-01-01", "published_from": "title"})
+    attach_notices(rec, notices, same_cycle_records=1)
+    docs = rec["links"]["documents"]
+    assert [d["document_type"] for d in docs] == ["notification"] + ["press_release"] * 3
+    assert docs[0]["document_title"] == "Detailed advertisement" and docs[0]["document_published"] == "unknown"
+    assert [d["document_title"] for d in docs[1:]] == ["Press note 5", "Press note 4", "Press note 3"]
+
+
+def test_a_date_printed_in_the_title_is_not_the_publication_date():
+    from examhub_pipeline.profile_fill import attach_notices
+    rec = {"exam_id": "x", "cycle": "2026", "links": {"documents": [
+        {"document_type": "notification", "document_published": __import__("datetime").date(2026, 7, 26),
+         "document_url": "https://a.test/P_2026.pdf"}]}}
+    notices = [{"exam": "x", "url": "https://a.test/P_2026.pdf", "title": "Prospectus of SET Exam 26th July, 2026",
+                "doc_type": "notification", "published": "2026-07-26"}]
+    attach_notices(rec, notices, same_cycle_records=1)
+    assert rec["links"]["documents"][0]["document_published"] == "unknown"
