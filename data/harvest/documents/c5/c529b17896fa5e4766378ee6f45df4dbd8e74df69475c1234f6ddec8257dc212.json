@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c529b17896fa5e4766378ee6f45df4dbd8e74df69475c1234f6ddec8257dc212",
+  "url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Districtwise-Vacancies-Class-6-to-8_BPSC-20260922-mojyxr.pdf",
+  "title": "Class 6 to 8",
+  "body": "br-bpsc",
+  "exam": "br-bpsc-other",
+  "feed": "br-bpsc/advertisements",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "ae5b0d55b8ec2d00d6bbdf6b14f0339aca0ebc38f1459f96dfb2ce9db09544b3",
+  "bytes": 483389,
+  "pages": 6,
+  "chars": 10,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-23T03:17:18+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

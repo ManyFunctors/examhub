@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "be086a615f1a69e6a005fe19763f8f01a3847a3d79ac9e18b47cb4b32d83212e",
+  "url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Advertisement-062026-Boiler-Inspector_BPSC-20260112-20f3u6.pdf",
+  "title": "Important Notice Advertisement Experience Proforma",
+  "body": "br-bpsc",
+  "exam": "br-bpsc-other",
+  "feed": "br-bpsc/advertisements",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "7d8bf0f66eec60147192a1fa2e3f22f785421b64cd96e1044ea80a08fc459b99",
+  "bytes": 512669,
+  "pages": 8,
+  "chars": 14,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-23T03:17:16+05:30"
+ },
+ "kind": "advertisement",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
