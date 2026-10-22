@@ -1,0 +1,36 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "9e9797407a4e214a67223506f45ffd94e646961f333d818c67876ac81e040ab2",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210811164150.pdf",
+  "title": "1501 Public Notice Dated: 10.08.2021 Opening of the online portal for submission of Online Application Form for June 2021 UGC-NET Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "published": "2021-08-10",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "02b61f54bd1bac38c27f7aa9a6d4a75fa7082166e7a62a363ee4ea0f046892bb",
+  "bytes": 293637,
+  "pages": 1,
+  "chars": 2095,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-07T08:16:30+05:30"
+ },
+ "kind": "admit_card",
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://ugcnet.nta.nic.in/",
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "06e5f876e60b7d0b7a547317b2c0f2e520375ef2f3416d640bd2fbcdaae5488d",
+  "url": "https://www.mhc.tn.gov.in/recruitment/docs/02_2021_notf.pdf",
+  "title": "Notification for the post of Judicial Member in Tamil Nadu State Consumer Disputes Redressal Commission",
+  "body": "tn-mhc",
+  "exam": "tn-mhc-staff",
+  "feed": "tn-mhc/recruitment-archives",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "7c63dc30629fdbcf2b04cae0d0f77683e3030da94a011dec5d02520ca05e5616",
+  "bytes": 444276,
+  "pages": 5,
+  "chars": 6879,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:03:26+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "02/2021",
+ "dates": {
+  "registration_deadline": {
+   "date": "2021-12-27",
+   "evidence": "or \"https://www.mhc.tn.gov.in\" The duly filled-in application shall be submitted with all their testimonials (self attested) by REGISTERED POST on or before 27.12.2021 by",
+   "page": 3,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "UR"
+   ],
+   "amount": 1000,
+   "raw": "Fees:- A Demand Draft for a sum of Rs.1,000/- (Rupees one thousand only) shall be drawn in favour of ‘The Registrar General, High Court, Madras’ and shall be enclosed with the application",
+   "page": 2
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "2.Age:- (as on 01.07.2021) A Candidate must have attained the age of 40 years",
+    "page": 2
+   },
+   {
+    "text": "(a) The candidate applying for the post notified above, must necessarily know to read, write and speak Tamil (b)The Candidate should possess an experience of atleast 10 years as Presiding Officer of a District Court or of any Tribunal at equivalent level or combined service as such in District…",
+    "page": 2
+   },
+   {
+    "text": "Such shortlisting will be done based on the fulfillment of eligibility criteria, experience and achievements of the candidates, as stated by them, with proof, in their applications",
+    "page": 3
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "links": {
+  "other": [
+   "http://www.consumer.tn.gov.in”",
+   "https://www.scdrc.tn.gov.in",
+   "https://www.mhc.tn.gov.in”"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2021-12-27"
+  },
+  "fee": {
+   "min": 1000,
+   "max": 1000
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Interview"
+ }
+}

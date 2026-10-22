@@ -1,0 +1,246 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3b7ff16a1417c3d5a42f687d290e349be8352652977e5fcad6aec47d094c7f22",
+  "url": "https://polycet.sbtet.telangana.gov.in/\\Downloads\\polycet2026.pdf",
+  "title": "Instruction Booklet",
+  "body": "tg-sbtet",
+  "exam": "tg-polycet",
+  "feed": "tg-sbtet/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "0584a8afbdcf943340fd694664dd27d61d94c9f32885672bee3d5f3f12886b77",
+  "bytes": 7641480,
+  "pages": 74,
+  "chars": 104051,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:38:42+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "registration_open": {
+   "date": "2026-02-02",
+   "provisional": true,
+   "evidence": "Commencement of online registration for POLYCET-2026  [document-level hedge: Tentative Date]",
+   "page": 2,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2026-04-22",
+   "provisional": true,
+   "evidence": "Last date for fee payment, Completion of the application details with Tatkal fee of Rs. 300/-  [document-level hedge: Tentative Date]",
+   "page": 2,
+   "from": "text"
+  },
+  "age_as_on": {
+   "date": "2026-12-31",
+   "provisional": true,
+   "evidence": "In respect of the Diploma Courses offered by PJTAU, PVNRTVU & SKLTGHU, the candidates shall be required to have completed 15 years of age as on the year of admission with an upper age limit of 22 years as on 31.12.2026.  [document-level hed",
+   "page": 2,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 100,
+   "raw": "Last date for online registration with late fee of Rs.100/- 21-04-2026",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 300,
+   "raw": "Last date for fee payment, Completion of the application details with Tatkal fee of Rs. 300/- 22-04-2026",
+   "page": 2
+  }
+ ],
+ "age": {
+  "limits": [
+   {
+    "max": 22,
+    "evidence": "In respect of the Diploma Courses offered by PJTAU, PVNRTVU & SKLTGHU, the candidates shall be required to have completed 15 years of age as on the year of admission with an upper age limit of 22 years as on 31.12.2026.",
+    "page": 2
+   }
+  ],
+  "as_on": "2026-12-31",
+  "relaxations": [
+   {
+    "categories": [
+     "PwBD"
+    ],
+    "years": 5,
+    "raw": "Higher Education (TE) Department – Implementation of 5% Reservation to persons with bench mark disabilities for admission in to higher education of all Government and Aided Institutions and also…",
+    "page": 53
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Class 10"
+  ],
+  "clauses": [
+   {
+    "text": "Eligibility criteria to appear for POLYCET-2026 9",
+    "page": 3
+   },
+   {
+    "text": "3.0 ELIGIBILITY CRITERIA TO APPEAR FOR POLYCET a) The candidate shall be an Indian National.",
+    "page": 10
+   },
+   {
+    "text": "c) The candidates should have passed S.S.C",
+    "page": 10
+   },
+   {
+    "text": "d) Candidates belonging to NIOS/TOSS/CBSE/ICSE/OTHER Examinations recognized as equivalent to SSC by Telangana State SHOULD HAVE PASSED ALL THE SUBJECTS, including Mathematics, Physics, Chemistry, with a minimum of 35% Marks in each subject.",
+    "page": 11
+   },
+   {
+    "text": "3.1 ELIGIBILITY CRITERIA TO APPEAR FOR PJTAU.",
+    "page": 11
+   },
+   {
+    "text": "c) Candidate should have passed SSC Examination conducted by State Board of Secondary Education, T.S./A.P. or any other examination recognized as equivalent thereto by the Board of Secondary Education, T.S./A.P. such as Central Board of Secondary Education (CBSE), Indian Council for Secondary…",
+    "page": 11
+   },
+   {
+    "text": "d) Candidates belonging to NIOS/TOSS/APOSS/CBSE/ICSE/OTHER Examinations recognized as equivalent to S.S.C by Telangana State SHOULD HAVE PASSED ALL THE SUBJECTS including Mathematics, Biology, Physics, and Chemistry with a minimum of 35% Marks in each subject.",
+    "page": 11
+   },
+   {
+    "text": "3.2 ELIGIBILITY CRITERIA TO APPEAR FOR PVNRTVU a) The Candidate shall be an Indian National.",
+    "page": 12
+   },
+   {
+    "text": "f) Candidate should have passed SSC Examination conducted by State Board of Secondary Education, Telangana or any other examination recognized as equivalent thereto by the Board of Secondary Education, Telangana such as Central Board of Secondary Education (CBSE), Indian Council for Secondary…",
+    "page": 13
+   },
+   {
+    "text": "g) The candidates belonging to NIOS/TOSS/CBSE/ICSE/Other Examinations recognized as equivalent to S.S.C. by Telangana State SHOULD HAVE PASSED ALL THE SUBJECTS, including Mathematics, Biology, Physics, and Chemistry, with a minimum of 35% Marks in each subject.",
+    "page": 13
+   },
+   {
+    "text": "9.0 RESULTS OF POLYCET FOR POLYTECHNICS - MPC Rank a) The minimum marks for declaring a candidate to have passed in the Entrance examination shall be thirty percent i.e., 36 marks out of 120.",
+    "page": 23
+   },
+   {
+    "text": "9.1 RESULTS OF POLYCET FOR POLYTECHNICS – MBiPC Rank a) The minimum marks for declaring a candidate to have passed the Entrance examination shall be thirty percent i.e., 36 marks in Maths (60/2), Biology, Physics, and Chemistry put together.",
+    "page": 24
+   }
+  ]
+ },
+ "exam_pattern": [
+  {
+   "paper": "Maths",
+   "page": 12,
+   "questions": 60,
+   "marks": 60,
+   "duration": "150 for M,Bi,P,C"
+  },
+  {
+   "paper": "Physics",
+   "page": 12,
+   "questions": 30,
+   "marks": 30
+  },
+  {
+   "paper": "Chemistry",
+   "page": 12,
+   "questions": 30,
+   "marks": 30
+  },
+  {
+   "paper": "Biology",
+   "page": 12,
+   "questions": 30,
+   "marks": 30
+  },
+  {
+   "paper": "Maths",
+   "page": 17,
+   "questions": 60,
+   "marks": 60
+  },
+  {
+   "paper": "Physics",
+   "page": 17,
+   "questions": 30,
+   "marks": 30
+  },
+  {
+   "paper": "Chemistry",
+   "page": 17,
+   "questions": 30,
+   "marks": 30
+  },
+  {
+   "paper": "Biology",
+   "page": 17,
+   "questions": 30,
+   "marks": 30
+  },
+  {
+   "paper": "Total Marks",
+   "page": 17,
+   "questions": 150,
+   "marks": 150
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 3
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  },
+  "duration": {
+   "value": "c) The Duration of the Examination is 2 1⁄2 hours, i.e., 11:00 AM to 01:30 PM.",
+   "page": 17
+  }
+ },
+ "links": {
+  "apply": [
+   "http://www.tsonline.gov.in/",
+   "https://www.tsonline.gov.in"
+  ],
+  "other": [
+   "http://www.polycet.sbtet.telangana.gov.in/",
+   "http://www.pjtsau.edu.in/",
+   "https://pvnrtvu.ac.in/",
+   "http://skltshu.ac.in/",
+   "http://www.pjtau.edu.in/",
+   "http://www.tsvu.nic.in/",
+   "http://www.sbtet.telangana.gov.in/",
+   "https://www.polycet.sbtet.telangana.gov.in",
+   "https://www.pjtsau.edu.in",
+   "https://www.pjtau.edu.in",
+   "https://www.tsvu.nic.in",
+   "https://www.sbtet.telangana.gov.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2026-02-02"
+  },
+  "fee": {
+   "min": 100,
+   "max": 300
+  },
+  "age": {
+   "max": 22
+  },
+  "education": [
+   "Graduate",
+   "Class 10"
+  ]
+ }
+}

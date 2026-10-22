@@ -1,0 +1,39 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "ba456f3a8ae75d2e0281b598382676db12c518eb34d333623a0bcd798d46ebfe",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210418105910.pdf",
+  "title": "1563 PUBLIC NOTICE: Postponement of the Joint Entrance Examination (Main) - 2021 for the April Session. Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "a89a8f1c48f9158b407a2c322a88784a586da8c72f98f0d06a6c0a6b0ad6c097",
+  "bytes": 910181,
+  "pages": 1,
+  "chars": 1708,
+  "ocr": false,
+  "indic_share": 0.02,
+  "fetched": "2026-10-09T03:02:23+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2021-04-30",
+   "evidence": "The JEE (Main) -2021 April Session is scheduled for 27, 28, and 30 April 2021",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in",
+   "https://jeemain.nta.nic.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2021-04-30"
+ }
+}

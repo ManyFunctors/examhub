@@ -1,0 +1,133 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "2c4e57a9118c52be70ea1574b7295e6230b89a8b009425267489b26c1f7bcd11",
+  "url": "https://tshc.gov.in/documents/NORMAL_Recruitment_2026_01_19T18_26_59.pdf",
+  "title": "Notification No.03/2026 dated 19-01-2026 for recruitment to the posts of Typist under Telangana Judicial Ministerial and Subordinate Service - Regarding.",
+  "body": "tg-hc",
+  "exam": "tg-hc-staff",
+  "feed": "tg-hc/recruitment-2",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "559b2d941712097d9159db1c1ea0f2f7c6f8c54d0f373534a1c15976e1506e18",
+  "bytes": 4824345,
+  "pages": 12,
+  "chars": 19117,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:18:20+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "3/2026",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-01-24",
+   "provisional": true,
+   "evidence": "Starting Date for submission of online Application 24-01-2026 Closing Date for Submission of online Application m Starting Date for submission of online Application for eligible outsourcing and contract employees of the Service of the High ",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "UR",
+    "OBC"
+   ],
+   "amount": 600,
+   "raw": "a) The applicants who belong to OC and BC categories have to pay an amount of Rs.600/- (Rupees Six hundred only), excluding applicable service charges, towards online",
+   "page": 5
+  },
+  {
+   "categories": [
+    "SC",
+    "ST"
+   ],
+   "amount": 400,
+   "raw": "b) Only the applicants belonging to a community recognized as SC/ST in the State of Telangana alone are entitled for the concessional payment of examination fee of Rs.400/-.",
+   "page": 6
+  }
+ ],
+ "pay": [
+  {
+   "low": 24280,
+   "high": 72850,
+   "text": "₹24,280–72,850",
+   "evidence": "Applications are invited through ONLINE for direct recruitment to the posts of Typist in the Judicial Districts of State of Telangana as per the Telangana Judicial Ministerial and Subordinate Service Rules, 2018, carrying scale of pay of Rs.24280-72850.",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "EDUCATIONAL QUALIFICATIONS:",
+    "page": 3
+   },
+   {
+    "text": "a) Must have passed Bachelor's Degree of any University in India established or incorporated by or under a Central Act, State Act or Provincial Act or an Institution recognized by the University Grants Commission or any equivalent qualification.",
+    "page": 3
+   },
+   {
+    "text": "b) Must have passed Telangana Government Technical Examination in English Typewriting by Higher Grade (45 words per minute), or equivalent examination",
+    "page": 3
+   },
+   {
+    "text": "C) Must have knowledge or qualification in computer operation.",
+    "page": 3
+   },
+   {
+    "text": "e) The candidate shall possess the aforesaid Educational Qualifications as on the date of this notification",
+    "page": 3
+   },
+   {
+    "text": "a) As on 01-07-2026, all the candidates (except the ex-service person), must have completed the age of 18 years and must not have completed the age of 46 years.",
+    "page": 3
+   },
+   {
+    "text": "To apply under this category, the aforesaid candidates must have put in at least two years of service by the date of publication of this notification..",
+    "page": 4
+   },
+   {
+    "text": "In case of a tie in age also, the candidate with highest marks in the educational qualifications prescribed would be considered.",
+    "page": 6
+   },
+   {
+    "text": "p) All rights are reserved with the appointing authority to cancel the provisional selection of the candidates if the certificates of the provisionally selected candidates, such as eligibility, educational qualification, social status, local status and physical disability etc., are found to be…",
+    "page": 9
+   }
+  ]
+ },
+ "exam": {
+  "negative_marking": {
+   "value": "One-third of the marks assigned for each wrong answer",
+   "page": 4
+  }
+ },
+ "links": {
+  "other": [
+   "https://tshc.gov.in",
+   "http://tshc.gov.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-01-24"
+  },
+  "fee": {
+   "min": 400,
+   "max": 600
+  },
+  "pay": "₹24,280–72,850",
+  "education": [
+   "Graduate"
+  ]
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

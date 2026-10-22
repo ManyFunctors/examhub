@@ -1,0 +1,41 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "ecc4434b9f934bbe0539245c6a9a5c9cd7b744353ab768a6cbae98d7a08751cf",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230418111506.pdf",
+  "title": "1031 Rescheduling of Graduate Aptitude Test- Biotechnology (GAT-B)/ Biotechnology Eligibility Test (BET) 2023 from 23 April 2023 to 13 May 2023. Read More",
+  "body": "in-nta",
+  "exam": "in-gat-b",
+  "feed": "in-nta/notices",
+  "published": "2023-04-23",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "39631c034002820bc5c8ee2c5c8c99651b3063325a44953ac697f5548eea82de",
+  "bytes": 840626,
+  "pages": 1,
+  "chars": 1556,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-05T16:17:12+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2023-04-23",
+   "evidence": "Biotechnology Eligibility Test (BET) 2023 was scheduled to be held on 23 April 2023",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://dbt.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2023-04-23"
+ }
+}

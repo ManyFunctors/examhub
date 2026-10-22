@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "ecd7f738ea595a25431e9138560eb6715981355a25267d5d8da42fd93cab9384",
+  "url": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/_1737ac5c0e.pdf",
+  "title": "इयत्ता १२ वी फेब्रुवारी–मार्च २०२७ परीक्षेची ऑनलाइन आवेदनपत्रे भरण्याबाबत परिपत्रक (HSC 2027)",
+  "body": "mh-msbshse",
+  "exam": "mh-msbshse-class-12",
+  "feed": "mh-msbshse/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "0f1bc821f8c9025a18d88672e174712e73db4c0ce2a159d8d9a33c2ce7b2453c",
+  "bytes": 611579,
+  "pages": 3,
+  "chars": 4146,
+  "ocr": true,
+  "ocr_engine": "ocrmypdf+tesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:25+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

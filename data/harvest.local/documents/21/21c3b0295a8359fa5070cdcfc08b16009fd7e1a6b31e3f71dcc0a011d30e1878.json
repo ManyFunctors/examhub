@@ -1,0 +1,66 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "21c3b0295a8359fa5070cdcfc08b16009fd7e1a6b31e3f71dcc0a011d30e1878",
+  "url": "https://setexam.unipune.ac.in/SET_2026/SET_English_Advertisement.pdf",
+  "title": "English Adevrtisement of 41st M-SET Exam to be held on 26th July 2026",
+  "body": "mh-sppu-set",
+  "exam": "mh-set",
+  "feed": "mh-sppu-set/home",
+  "published": "2026-07-26",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "3afbe0e9d62583998dfb994967a08de13dff3e27c8b381a182ba64d2e55cb26e",
+  "bytes": 241767,
+  "pages": 1,
+  "chars": 2515,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T13:55:04+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2026-06-19",
+   "evidence": "application forms will be available only “online” on the website https://setexam.unipune.ac.in from 2nd June, 2026 at 11.00 a.m. onwards to 16th June, 2026 till",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "application forms will be available only “online” on the website https://setexam.unipune.ac.in from 2nd June, 2026 at 11.00 a.m. onwards to 16th June, 2026 till",
+   "key": "exam_date",
+   "date": "2026-06-19",
+   "page": 1
+  }
+ ],
+ "fees": [
+  {
+   "categories": [
+    "Unreserved"
+   ],
+   "amount": 1,
+   "raw": "i)OPEN Rs 800/ . - Rs 1 ,300/ . -",
+   "page": 1
+  }
+ ],
+ "links": {
+  "apply": [
+   "http://setexam.unipune.ac.in/",
+   "https://setexam.unipune.ac.in",
+   "https://setexam.unipune.ac.in”"
+  ],
+  "other": [
+   "http://www.unipune.ernet.in/set"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-06-19",
+  "fee": {
+   "min": 1,
+   "max": 1
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "84e96e9cd5cb9b6e82c971d923abed5216a5179d5065852b0269c6446f591473",
+  "url": "https://apsc.nic.in/misc_2022/Notif_AK_DMO_13_2020_25032022.pdf",
+  "title": "Screening Test(OMR Based) for recruitment to the post of District Museum Officer Grade-I (Gazetted) in the Directorate of Museum Under Indigenous and Tribal Faith and Culture Department, Assam vide Advt. No: 13/2020 Dated 17th Dec/2020",
+  "body": "as-apsc",
+  "exam": "as-apsc-other",
+  "feed": "as-apsc/answer-keys",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "88f91808139c4682027ba0c73a6546bdd7068969b8bf51f4b24aaec18e1a4a50",
+  "bytes": 445361,
+  "pages": 1,
+  "chars": 1393,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:18:17+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "13/2020",
+ "dates": {
+  "exam_date": {
+   "date": "2022-03-21",
+   "evidence": "No.13/2020 Dated 17.12.2020) held on 21/03/2022 that the provisional Answer Keys",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.apsc.nic.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-03-21"
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

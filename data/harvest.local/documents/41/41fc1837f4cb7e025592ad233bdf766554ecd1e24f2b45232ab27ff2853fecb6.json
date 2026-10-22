@@ -1,0 +1,66 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "41fc1837f4cb7e025592ad233bdf766554ecd1e24f2b45232ab27ff2853fecb6",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210811164116.pdf",
+  "title": "1502 Public Notice Dated: 10.08.2021 Relaxation in Age Limit of Junior Research Fellowship (JRF) for June, 2021 UGC-NET cycle Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "published": "2021-08-10",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "5ac44520fb671e2ec5d66d8fd429fb34066871261b4af50bc9555574815a82a4",
+  "bytes": 137890,
+  "pages": 1,
+  "chars": 2599,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-07T02:51:20+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "age_as_on": {
+   "date": "2021-10-01",
+   "evidence": "JRF: Not more than 31 years as on 01.10.2021 (October 1, 2021). (This age limit is applicable for the current examination only)",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "age": {
+  "limits": [
+   {
+    "max": 31,
+    "evidence": "JRF: Not more than 31 years as on 01.10.2021 (October 1, 2021). (This age limit is applicable for the current examination only)",
+    "page": 1
+   }
+  ],
+  "as_on": "2021-10-01",
+  "relaxations": [
+   {
+    "categories": [
+     "OBC-NCL",
+     "OBC"
+    ],
+    "years": 5,
+    "raw": "A relaxation of upto 5 years is provided to the candidates belonging to OBC-NCL (as per the Central list of OBC available on website: www.ncbc.nic.in)/SC/ST/PwD/Third gender categories and to women…",
+    "page": 1
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "http://www.ncbc.nic.in/",
+   "https://ugcnet.nta.nic.in/",
+   "http://www.nta.ac.in/",
+   "https://www.ncbc.nic.in",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "age": {
+   "max": 31
+  }
+ }
+}

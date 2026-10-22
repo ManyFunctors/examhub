@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "e6b679a71b772dfab44ca3b975c6dcb11fcfccee9f38e01310e464e40e69f1db",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220704183956.pdf",
+  "title": "1238 Public Notice 04 July 2022 Date and Subject- wise Schedule for UGC-NET December 2021 and June 2022 (Merged Cycles) Phase 1. Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "published": "2022-07-04",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "3a6fc115bc38ac5edb778ec7bd1a4ba9974660b9031d9535956d3da21fd6b89b",
+  "bytes": 264798,
+  "pages": 3,
+  "chars": 3731,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-06T22:41:59+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2022-07-09",
+   "evidence": "The name of subjects and schedule of examination of 09, 11 & 12 July 2022 of UGC-NET December 2021 and June 2022 (Merged Cycles) are available in Annexure-1",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://ugcnet.nta.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-07-09"
+ }
+}

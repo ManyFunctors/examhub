@@ -1,0 +1,36 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d7a769430e88a64e1594be281ca64f383fe107cb5415390395b45a6ffb541b59",
+  "url": "https://ubter.in/assets/Jeep/JEEP2026/JEEP%20Brochure%202026.pdf",
+  "title": "JEEP-2026 INFORMATION BROCHURE",
+  "body": "uk-ubter",
+  "exam": "uk-jeep",
+  "feed": "uk-ubter/home",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "2d48729714c702062d37b2e2ecdb0e0ce4f22818da7adbc03c2333c4968ac718",
+  "bytes": 1639367,
+  "pages": 20,
+  "chars": 44409,
+  "ocr": false,
+  "indic_share": 0.01,
+  "fetched": "2026-10-01T05:39:26+05:30"
+ },
+ "kind": "brochure",
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 16
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.ubterjeep.co.in/",
+   "http://www.ubter.in/",
+   "https://www.ubterjeep.co.in",
+   "https://www.ubter.in"
+  ]
+ }
+}

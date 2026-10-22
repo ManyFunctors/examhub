@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "exam": "ka-neet-counselling",
+ "name": "Karnataka UG/PG Medical and Dental Counselling",
+ "body": "ka-kea",
+ "purpose": "admission",
+ "cycle": null,
+ "documents": 2,
+ "documents_in_cycle": 2,
+ "fields": {},
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

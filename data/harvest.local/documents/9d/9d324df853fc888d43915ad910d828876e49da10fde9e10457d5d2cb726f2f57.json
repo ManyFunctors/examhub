@@ -1,0 +1,49 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "9d324df853fc888d43915ad910d828876e49da10fde9e10457d5d2cb726f2f57",
+  "url": "https://personnel.assam.gov.in/sites/default/files/swf_utility_folder/departments/personnel_webcomindia_org_oid_3/menu/document/apsc_rules_2019-compressed_compressed.pdf",
+  "title": "Assam Public Services Combined Competitive Examination (Amendment) Rules, 2019",
+  "body": "as-apsc",
+  "exam": "as-apsc-cce",
+  "feed": "as-apsc/downloads",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "aba6333041894199576923982c5deeca3d4ac28f027bc40ae6421978b0f5d8f0",
+  "bytes": 18769198,
+  "pages": 105,
+  "chars": 246350,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:38:38+05:30"
+ },
+ "kind": "corrigendum",
+ "fees": [
+  {
+   "categories": [
+    "Women"
+   ],
+   "amount": 0,
+   "raw": "_overnment nrives to have a workforce which re_ens _ender batance, therefore the women can4idates are encouraged to apply and shall be exempted from appIication fee. tn a1I other CaSeS,",
+   "page": 7
+  }
+ ],
+ "exam": {
+  "duration": {
+   "value": "Papers TypeofPaper PVlarhs Duration No. _ inHoun __Paper1__0",
+   "page": 4
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.apsc.nic.in"
+  ]
+ },
+ "summary": {
+  "fee": {
+   "min": 0,
+   "max": 0
+  }
+ }
+}

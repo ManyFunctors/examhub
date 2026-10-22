@@ -1,0 +1,63 @@
+{
+ "schema": 1,
+ "exam": "tg-edcet",
+ "name": "Telangana Education CET (B.Ed.)",
+ "body": "tg-tgche",
+ "purpose": "admission",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "Candidate should have passed the qualifying examination and shall satisfy the following eligibility criteria for admissions.",
+      "page": 1
+     },
+     {
+      "text": "Educational Qualifications & Qualifying marks :",
+      "page": 1
+     },
+     {
+      "text": "Candidates should have secured 50% of marks either in the Bachelor’s Degree i.e., B.A. / B.Com/ B.Sc. (Home Science)/ BCA/BBM, B.A. (Oriental languages),BBA, Engineering or in the Master’s Degree or any other qualifications equivalent thereto",
+      "page": 1
+     },
+     {
+      "text": "However, the candidates belonging to reserved categories Viz., SC/ST/BC and other reserved categories should have secured 40% in the qualifying examinations",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "7dd1442ee7cd660ea0bfe5b3367694272601c3774b0101a374d310e204a914fc",
+    "url": "https://tgche.ac.in/wp-content/uploads/2025/08/TGEDCET_2025_Cat-B-_Notification_-Guidelines-and-rules-2025.pdf",
+    "title": "TGEDCET- CATEGORY-B ADMISSIONS GUIDELINES & RULES FOR THE ACADEMIC YEAR 2025-2026",
+    "kind": "notice"
+   }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "H.T.No",
+     "page": 4
+    }
+   ],
+   "source": {
+    "notice": "7dd1442ee7cd660ea0bfe5b3367694272601c3774b0101a374d310e204a914fc",
+    "url": "https://tgche.ac.in/wp-content/uploads/2025/08/TGEDCET_2025_Cat-B-_Notification_-Guidelines-and-rules-2025.pdf",
+    "title": "TGEDCET- CATEGORY-B ADMISSIONS GUIDELINES & RULES FOR THE ACADEMIC YEAR 2025-2026",
+    "kind": "notice"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee"
+ ],
+ "older_documents": 0
+}

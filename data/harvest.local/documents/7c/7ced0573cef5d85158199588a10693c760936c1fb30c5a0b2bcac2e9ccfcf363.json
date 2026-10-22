@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "7ced0573cef5d85158199588a10693c760936c1fb30c5a0b2bcac2e9ccfcf363",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20191217063949.pdf",
+  "title": "1815 Press Release: Conduct of Joint CSIR-UGC NET December 2019 Read More",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "090cd01ab620072e96b17b05a0d49fc1fc1119bdf4e9c4f441b499a1fe0dda52",
+  "bytes": 210618,
+  "pages": 13,
+  "chars": 23678,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-02T15:08:19+05:30"
+ },
+ "kind": "notice",
+ "unmapped_classes": [
+  {
+   "label": "Gen-EWS",
+   "page": 1
+  },
+  {
+   "label": "Transg ender",
+   "page": 1
+  },
+  {
+   "label": "Gen- EWS",
+   "page": 1
+  }
+ ],
+ "vacancies": {
+  "total": 274345,
+  "by_category": {
+   "Unreserved": 97246,
+   "OBC-NCL": 104379,
+   "SC": 40343,
+   "ST": 14460
+  },
+  "rows": [
+   {
+    "label": "Male",
+    "total": 114884,
+    "by_category": {
+     "Unreserved": 32374,
+     "SC": 20823,
+     "ST": 6967,
+     "OBC-NCL": 45432
+    },
+    "page": 1
+   },
+   {
+    "label": "Female",
+    "total": 159447,
+    "by_category": {
+     "Unreserved": 64866,
+     "SC": 19519,
+     "ST": 7491,
+     "OBC-NCL": 58944
+    },
+    "page": 1
+   },
+   {
+    "label": "Transgender",
+    "total": 14,
+    "by_category": {
+     "Unreserved": 6,
+     "SC": 1,
+     "ST": 2,
+     "OBC-NCL": 3
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "summary": {
+  "vacancies": 274345
+ }
+}

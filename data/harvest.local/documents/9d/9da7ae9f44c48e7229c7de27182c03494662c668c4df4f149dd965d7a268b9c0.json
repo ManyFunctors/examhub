@@ -1,0 +1,55 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "9da7ae9f44c48e7229c7de27182c03494662c668c4df4f149dd965d7a268b9c0",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230210115019.pdf",
+  "title": "1082 Conduct of the Common University Entrance Test [CUET (UG) - 2023] for Admission to Undergraduate Programmes into Central Universities and other participating Universities / Institutions / Organizations / Autonomous Colleges Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "3847843b613c502cb3032afd2dd76ba7708915b4c086552411cd11dceb9ffb4e",
+  "bytes": 1720000,
+  "pages": 3,
+  "chars": 7759,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-07T12:36:05+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2023-05-21",
+   "evidence": "Downloading of Admit Cards from the NTA website Second week of the May 2023 Date of Examination 21 May 2023 onwards Display of Recorded Responses and Answer Keys To be announced later on the website Website(s) www.nta.ac.in, https://cuet.sa",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2023-03-12",
+   "evidence": "Online Submission of Application Form 09 February to 12 March 2023",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://cuet.samarth.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2023-03-12"
+  },
+  "exam_date": "2023-05-21"
+ }
+}

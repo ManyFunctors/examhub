@@ -1,0 +1,40 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "039001f7a8265ef2d587c4cc6675b7d450df55f8bfa365f126042dc0f3d6fc4b",
+  "url": "https://jkhighcourt.nic.in/upload/notices/notice_387_13022025.pdf",
+  "title": "Notification regarding Conduct of Examination for the post of Junior Assistant, advertisement vide Notification No 06 of 2024/Psy dated 28.08.2024.",
+  "body": "jk-hc",
+  "exam": "jk-hc-staff",
+  "feed": "jk-hc/notifications-2",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "4717ed701c8aa1acd4dfc147e18fbc5f26ff6bb4c41a418921fdb6a1a69ba0b1",
+  "bytes": 48338,
+  "pages": 2,
+  "chars": 3482,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:03:20+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "06",
+ "dates": {
+  "exam_date": {
+   "date": "2024-08-28",
+   "evidence": "1) It is notified for the information of all the candidates who have applied for the post of Junior Assistant in the Subordinate Judiciary of UT of Jammu & Kashmir, advertised vide Notification No 06 of 2024/Psy dated 28.08.2024, that their",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 1
+  }
+ },
+ "summary": {
+  "exam_date": "2024-08-28"
+ }
+}

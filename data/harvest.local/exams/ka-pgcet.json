@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "exam": "ka-pgcet",
+ "name": "Karnataka PGCET (MBA, MCA, M.Tech)",
+ "body": "ka-kea",
+ "purpose": "admission",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

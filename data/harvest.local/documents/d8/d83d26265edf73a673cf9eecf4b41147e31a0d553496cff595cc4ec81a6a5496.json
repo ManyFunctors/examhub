@@ -1,0 +1,347 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d83d26265edf73a673cf9eecf4b41147e31a0d553496cff595cc4ec81a6a5496",
+  "url": "https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/UIIC-AO-notification-2026%20final.pdf",
+  "title": "RECRUITMENT OF ADMINISTRATIVE OFFICERS (SCALE I)--GENERALISTS AND HINDI OFFICERS-2026 - Detailed Advertisement--Recruitment of Administrative officers-Generalists and Hindi Officers -2026",
+  "body": "in-uiic",
+  "exam": "in-uiic-ao",
+  "feed": "in-uiic/recruitment",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "61410dd460b7893498db6fc8aab1f5670ee0f32ca29461dfb7812fa6c59df0e6",
+  "bytes": 720928,
+  "pages": 24,
+  "chars": 89197,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T13:47:05+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "age_as_on": {
+   "date": "2026-06-30",
+   "evidence": "c) Age (as on 30.06.2026)",
+   "page": 3,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2026-09-08",
+   "evidence": "APPLICATION PROCEDURE Candidates can apply online only from 08.09.2026 to 28.09.2026 (Both days inclusive) and no other mode of application will be accepted",
+   "page": 18,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2026-09-28",
+   "evidence": "APPLICATION PROCEDURE Candidates can apply online only from 08.09.2026 to 28.09.2026 (Both days inclusive) and no other mode of application will be accepted",
+   "page": 18,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2026-09-28",
+   "evidence": "Last Date for Payment of Application Fees / Service charges",
+   "page": 6,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 225,
+  "rows": [
+   {
+    "label": "1 . / Administrative Officer Generalists -",
+    "total": 200,
+    "page": 1
+   },
+   {
+    "label": "2 . / Administrative Officer Hindi Officers –",
+    "total": 25,
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "age": {
+  "limits": [
+   {
+    "min": 21,
+    "max": 30,
+    "evidence": "A candidate must be of the Minimum Age of 21 years and the Maximum Age of 30 years as on 30.06.2026",
+    "page": 3
+   }
+  ],
+  "as_on": "2026-06-30",
+  "relaxations": [
+   {
+    "categories": [
+     "OBC-NCL"
+    ],
+    "for": "2 . / Other Backward Classes (Non-Creamy Layer)",
+    "years": 3,
+    "raw": "2 . Other Backward Classes (Non-Creamy Layer) 3Years",
+    "page": 3
+   },
+   {
+    "categories": [
+     "PwBD"
+    ],
+    "for": "3 . / Persons With Benchmark Disabilities as defined under “The Rights of Persons withDisabilitiesAct 2016” ,",
+    "years": 10,
+    "raw": "3 . Persons With Benchmark Disabilities as defined under “The Rights of Persons withDisabilitiesAct 2016” , 10Years",
+    "page": 3
+   },
+   {
+    "categories": [
+     "Widow",
+     "Divorcee",
+     "Women"
+    ],
+    "for": "6 . / Widows Divorced women and women legally separated from their Husbands , , whohavenotremarried .",
+    "years": 9,
+    "raw": "6 . Widows Divorced women and women legally separated from their Husbands , , whohavenotremarried . 9Years",
+    "page": 3
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "b) Essential Educational Qualification:",
+    "page": 2
+   },
+   {
+    "text": "Candidates must possess certificate in proof of passing the qualifying examination as on 30.06.2026",
+    "page": 2
+   },
+   {
+    "text": "The minimum Educational Qualification required for the disciplines are:",
+    "page": 2
+   },
+   {
+    "text": "S.no Discipline Minimum Educational Qualification",
+    "page": 2
+   },
+   {
+    "text": "Generalists The minimum Educational Qualification required is Graduate Degree/Post Graduate in any discipline, including but not limited to Engineering, Arts, Science, Commerce, Agriculture, Data Science, etc., from a recognized university and having secured a minimum of 60% marks (55% for…",
+    "page": 2
+   },
+   {
+    "text": "(i) The qualifications mentioned above must have been obtained from a recognized University or Institute in India, duly approved by the UGC / AICTE, as applicable, and recognized by the Central Government",
+    "page": 3
+   },
+   {
+    "text": "The qualification should have been acquired through the prescribed educational pattern of 10+2+3 or an equivalent system",
+    "page": 3
+   },
+   {
+    "text": "(iii) The candidates should have completed the qualification mentioned above on or before 30.06.2026",
+    "page": 3
+   },
+   {
+    "text": "Candidate must have been born not earlier than 30.06.1996 and not later than 30.06.2005 (both days inclusive)",
+    "page": 3
+   },
+   {
+    "text": "The certificate should have been issued after 31.03.2026",
+    "page": 6
+   },
+   {
+    "text": "For Hindi typing, the candidates should have knowledge of the following key-board layout:",
+    "page": 9
+   },
+   {
+    "text": "g) Both the candidate as well as scribe will have to give a suitable undertaking confirming that the scribe fulfils all the stipulated eligibility criteria for a scribe mentioned above",
+    "page": 10
+   },
+   {
+    "text": "c) In case a candidate is called for interview and is found not satisfying the eligibility criteria (Age, Educational Qualification etc.) he/ she will neither be allowed to appear for the interview nor be entitled for reimbursement of any travelling expenses",
+    "page": 13
+   },
+   {
+    "text": "In case it is found at any stage of recruitment the candidate does not fulfill the eligibility criteria and/or he/she has furnished any incorrect/false/incomplete information or has suppressed any material fact(s), his/her candidature will stand cancelled",
+    "page": 16
+   },
+   {
+    "text": "Please note that the eligibility criteria specified herein are the basic criteria for applying for the post",
+    "page": 17
+   },
+   {
+    "text": "Educational Qualification of the scribe:",
+    "page": 22
+   },
+   {
+    "text": "My educational qualification is ___________________",
+    "page": 24
+   }
+  ]
+ },
+ "selection": [
+  "Computer-based test",
+  "Preliminary examination",
+  "Main examination",
+  "Interview"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "TestofEnglishLanguage",
+   "page": 7,
+   "questions": 30,
+   "marks": 30,
+   "duration": "20minutes"
+  },
+  {
+   "paper": "TestofReasoning",
+   "page": 7,
+   "questions": 35,
+   "marks": 35,
+   "duration": "20minutes"
+  },
+  {
+   "paper": "TestofQuantitativeAptitude",
+   "page": 7,
+   "questions": 35,
+   "marks": 35,
+   "duration": "20minutes"
+  },
+  {
+   "paper": "TOTAL",
+   "page": 7,
+   "questions": 100,
+   "marks": 100,
+   "duration": "60minutes"
+  },
+  {
+   "paper": "TestofEnglishLanguage",
+   "page": 7,
+   "questions": 40,
+   "marks": 50,
+   "duration": "30minutes"
+  },
+  {
+   "paper": "TestofReasoning",
+   "page": 7,
+   "questions": 50,
+   "marks": 60,
+   "duration": "40minutes"
+  },
+  {
+   "paper": "TestofQuantitativeAptitude",
+   "page": 7,
+   "questions": 50,
+   "marks": 60,
+   "duration": "40minutes"
+  },
+  {
+   "paper": "TestofGeneralAwareness(withspecial referencetoFinancialSector)",
+   "page": 7,
+   "questions": 40,
+   "marks": 60,
+   "duration": "30minutes"
+  },
+  {
+   "paper": "TestofComputer Knowledge",
+   "page": 7,
+   "questions": 20,
+   "marks": 20,
+   "duration": "10minutes"
+  },
+  {
+   "paper": "Total",
+   "page": 7,
+   "questions": 200,
+   "marks": 250,
+   "duration": "150minutes"
+  },
+  {
+   "paper": "TestofEnglishLanguage",
+   "page": 8,
+   "questions": 25,
+   "marks": 25,
+   "duration": "20minutes"
+  },
+  {
+   "paper": "TestofReasoning",
+   "page": 8,
+   "questions": 25,
+   "marks": 25,
+   "duration": "30minutes"
+  },
+  {
+   "paper": "ProfessionalKnowledge (TestofHindiandEnglishgrammar/ vocabulary&knowledgeofAct/ Rules regardingOfficialLanguage implementation Translation(English , toHindiandHinditoEnglish))",
+   "page": 8,
+   "questions": 50,
+   "marks": 100,
+   "duration": "50minutes"
+  },
+  {
+   "paper": "TestofGeneralAwareness",
+   "page": 8,
+   "questions": 25,
+   "marks": 25,
+   "duration": "10minutes"
+  },
+  {
+   "paper": "TestofComputerKnowledge",
+   "page": 8,
+   "questions": 25,
+   "marks": 25,
+   "duration": "10minutes"
+  },
+  {
+   "paper": "Total",
+   "page": 8,
+   "questions": 150,
+   "marks": 200,
+   "duration": "120minutes"
+  },
+  {
+   "paper": "DescriptiveTest EnglishandHindiLanguage(English Essay 10 marks Hindi Essay 10 – , –",
+   "page": 8,
+   "questions": 5,
+   "marks": 50,
+   "duration": "60minutes"
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  },
+  "negative_marking": {
+   "value": "One-fourth of the marks assigned for each wrong answer",
+   "page": 9
+  },
+  "duration": {
+   "value": "TOTAL 100 100 60 minutes",
+   "page": 7
+  }
+ },
+ "links": {
+  "other": [
+   "https://uiic.co.in/",
+   "https://www.uiic.co.in"
+  ]
+ },
+ "summary": {
+  "vacancies": 225,
+  "apply": {
+   "from": "2026-09-08",
+   "until": "2026-09-28"
+  },
+  "age": {
+   "min": 21,
+   "max": 30
+  },
+  "education": [
+   "Postgraduate",
+   "Graduate",
+   "Class 12"
+  ],
+  "selection": "Computer-based test → Preliminary examination → Main examination → Interview"
+ }
+}

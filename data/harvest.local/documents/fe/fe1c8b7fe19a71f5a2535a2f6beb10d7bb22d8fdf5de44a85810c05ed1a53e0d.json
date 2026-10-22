@@ -1,0 +1,39 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "fe1c8b7fe19a71f5a2535a2f6beb10d7bb22d8fdf5de44a85810c05ed1a53e0d",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230719152856.pdf",
+  "title": "911 Fake Public Notice regarding Postponement of All India Ayush Post Graduate Entrance Examination (AIAPGET)–2023 Read More",
+  "body": "in-nta",
+  "exam": "in-aiapget",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "ad37c57d79234492136748ece008684437b06dc777706e8adb60acc96dd84290",
+  "bytes": 290038,
+  "pages": 1,
+  "chars": 1136,
+  "ocr": false,
+  "indic_share": 0.07,
+  "fetched": "2026-10-07T08:48:48+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2023-07-31",
+   "evidence": "AIAPGET - 2023 will be conducted on the originally scheduled date i.e., 31.07.2023",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2023-07-31"
+ }
+}

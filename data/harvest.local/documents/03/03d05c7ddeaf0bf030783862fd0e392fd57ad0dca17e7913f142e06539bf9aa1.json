@@ -1,0 +1,41 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "03d05c7ddeaf0bf030783862fd0e392fd57ad0dca17e7913f142e06539bf9aa1",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240131230713.pdf",
+  "title": "Advance Intimation for Allotment of Examination City to the Applicants for NIFT Entrance Examination – 2024 Read More",
+  "body": "in-nta",
+  "exam": "in-nift-entrance",
+  "feed": "in-nta/home",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "34586a3a5ce68ccf55b76191964a2894d254eabb9cd4bc3c39e87a189d218c4b",
+  "bytes": 639365,
+  "pages": 1,
+  "chars": 1820,
+  "ocr": false,
+  "indic_share": 0.01,
+  "fetched": "2026-10-02T06:27:24+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2024-02-05",
+   "evidence": "Advance Intimation for Allotment of Examination City for the exam to be held on 5th February 2024 has been hosted",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/NIFT/"
+  ],
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2024-02-05"
+ }
+}

@@ -1,0 +1,464 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "27fca4a719544b8c852927fb8794451ea10fd98adb1e19637db81f3e36b94a30",
+  "url": "https://recruitment.py.gov.in/files/2112/pea-combined-graduate-level-examination",
+  "title": "CGL NOTIFICATION",
+  "body": "py-dpar",
+  "exam": "py-direct-recruitment",
+  "feed": "py-dpar/news-notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "81b703f3c962a28e9251426b9f3ae15d347697a731874ff2143bcdca0a71fca9",
+  "bytes": 928279,
+  "pages": 36,
+  "chars": 70807,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:03:46+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "01",
+ "dates": {
+  "registration_deadline": {
+   "date": "2025-12-14",
+   "evidence": "Closing Date : 14.12.2025 Time: 03:00 pm",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 327,
+  "by_category": {
+   "UR": 142,
+   "EWS": 31,
+   "OBC": 32,
+   "SC": 52,
+   "ST": 2,
+   "MBC": 57,
+   "PwBD": 14
+  },
+  "rows": [
+   {
+    "total": 4,
+    "by_category": {
+     "UR": 5,
+     "MBC": 6,
+     "SC": 7,
+     "OBC": 8,
+     "EWS": 9,
+     "ST": 13,
+     "PwBD": 14
+    },
+    "page": 1
+   },
+   {
+    "label": "2025 / Dept. of Eco. & Stat. Statistical Inspector / Level-6, Group B (Non Gazetted) / --",
+    "total": 26,
+    "by_category": {
+     "UR": 14,
+     "MBC": 4,
+     "SC": 4,
+     "OBC": 2,
+     "EWS": 2,
+     "PwBD": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "2025 / Dept. of Art & Culture Library and Information Assistant / Level-6, Group- B (Non Gazetted) / --",
+    "total": 25,
+    "by_category": {
+     "UR": 9,
+     "MBC": 5,
+     "SC": 4,
+     "OBC": 2,
+     "EWS": 2,
+     "ST": 1,
+     "PwBD": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "2025 / Dept. of Agriculture Agriculture Officer / Level-6, Group-B (Non Gazetted) / --",
+    "total": 23,
+    "by_category": {
+     "UR": 11,
+     "MBC": 4,
+     "SC": 3,
+     "OBC": 3,
+     "EWS": 2,
+     "PwBD": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "2025 / Dept. Of Inds. & Com. Technical Officer / Level-6, Group-B (Non Gazetted) / --",
+    "total": 19,
+    "by_category": {
+     "UR": 10,
+     "MBC": 3,
+     "SC": 3,
+     "OBC": 2,
+     "EWS": 1,
+     "PwBD": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "2025 / Dept. of Agriculture Agriculture Officer (Engineering) / Level-6, Group-B (Non Gazetted) / --",
+    "total": 5,
+    "by_category": {
+     "UR": 3,
+     "MBC": 1,
+     "SC": 1
+    },
+    "page": 1
+   },
+   {
+    "total": 4,
+    "by_category": {
+     "UR": 5,
+     "MBC": 6,
+     "SC": 7,
+     "OBC": 8,
+     "EWS": 9,
+     "ST": 13,
+     "PwBD": 14
+    },
+    "page": 2
+   },
+   {
+    "label": "2025 / Dept. of Agriculture Agriculture Officer (Hydrogeology) / Level-6, Group-B (Non Gazetted) / --",
+    "total": 5,
+    "by_category": {
+     "UR": 3,
+     "MBC": 1,
+     "SC": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "2025 / Dept. of Personnel & Adm. Reforms Upper Division Clerk / Level-4, Group-C",
+    "total": 197,
+    "by_category": {
+     "UR": 78,
+     "MBC": 35,
+     "SC": 32,
+     "OBC": 22,
+     "EWS": 20,
+     "ST": 1,
+     "PwBD": 8
+    },
+    "page": 2
+   },
+   {
+    "label": "2025 / Dept. of Eco. & Stat. Field Supervisor / Level-4, Group-C / --",
+    "total": 27,
+    "by_category": {
+     "UR": 14,
+     "MBC": 4,
+     "SC": 4,
+     "OBC": 1,
+     "EWS": 4,
+     "PwBD": 2
+    },
+    "page": 2
+   }
+  ],
+  "from": "table"
+ },
+ "age": {
+  "relaxations": [
+   {
+    "categories": [
+     "MBC"
+    ],
+    "for": "MBC / 001/2025, 002/2025, 003/2025, 004/2025, 005/2025, 006/2025, 007/2025, 008/2025",
+    "years": 3,
+    "raw": "MBC 3 years 001/2025, 002/2025, 003/2025, 004/2025, 005/2025, 006/2025, 007/2025, 008/2025",
+    "page": 5
+   },
+   {
+    "categories": [
+     "OBC"
+    ],
+    "for": "OBC / 001/2025, 002/2025, 003/2025, 004/2025, 007/2025, 008/2025",
+    "raw": "OBC  001/2025, 002/2025, 003/2025, 004/2025, 007/2025, 008/2025",
+    "page": 5
+   },
+   {
+    "categories": [
+     "SC"
+    ],
+    "for": "SC / 001/2025, 002/2025, 003/2025, 004/2025, 005/2025, 006/2025, 007/2025, 008/2025",
+    "years": 5,
+    "raw": "SC 5 years 001/2025, 002/2025, 003/2025, 004/2025, 005/2025, 006/2025, 007/2025, 008/2025",
+    "page": 5
+   },
+   {
+    "categories": [
+     "ST"
+    ],
+    "for": "ST / 002/2025, 007/2025",
+    "raw": "ST  002/2025, 007/2025",
+    "page": 5
+   },
+   {
+    "categories": [
+     "ESM"
+    ],
+    "for": "Ex-Servicemen (XSM) / For all posts",
+    "years": 3,
+    "raw": "Ex-Servicemen (XSM) Period of military service plus 3 years. For all posts",
+    "page": 5
+   },
+   {
+    "categories": [
+     "Women"
+    ],
+    "for": "Widows / Divorced Women / Women judicially separated from their husbands and who are not remarried. / 007/2025, 008/2025",
+    "raw": "Widows / Divorced Women / Women judicially separated from their husbands and who are not remarried. Upto the age of 35 years (upto 40 years for SC & ST). 007/2025, 008/2025",
+    "page": 6
+   },
+   {
+    "for": "In-service applicant [Refer Para-15] / 001/2025, 002/2025, 003/2025, 004/2025, 005/2025, 006/2025",
+    "years": 5,
+    "raw": "In-service applicant [Refer Para-15] 5 years for Government Servants (in respect of reserved applicants, over and above the admissible relaxation of 5 years for SC/ST and 3 years for MBC / OBC / EBC /",
+    "page": 6
+   },
+   {
+    "for": "In-service applicant (contd.) / 007/2025, 008/2025",
+    "years": 40,
+    "raw": "In-service applicant (contd.) Age relaxation for Government Servants upto 40 years (45 for SC / ST officials) in accordance with the instructions or orders issued by Central Government, provided such ",
+    "page": 7
+   }
+  ]
+ },
+ "pay": [
+  {
+   "levels": [
+    6
+   ],
+   "text": "Pay Level 6",
+   "evidence": "Statistical Inspector Level-6, Group B (Non Gazetted) 26 14 4 4 2 2 -- -- -- -- 1 -- -- 002 /2025 Dept. of Art & Culture Library and Information Assistant Level-6, Group- B (Non Gazetted) 25 9 5 4 2 2 1 1 -- 1 1 -- -- 003 /2025 Dept. of Agriculture Agriculture Officer Level-6, Group-B (Non…",
+   "page": 1
+  },
+  {
+   "levels": [
+    4
+   ],
+   "text": "Pay Level 4",
+   "evidence": "Reforms Upper Division Clerk Level-4, Group-C 197 78 35 32 22 20 4 4 1 1 8 20 10 008 /2025 Dept. of Eco. & Stat",
+   "page": 2
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "clauses": [
+   {
+    "text": "The Applicants should go through the Recruitment Notice carefully before applying for the posts included hereunder, and ensure that they fulfill all the eligibility conditions such as age / Educational qualification / Experience/ category applied for as indicated against the post code in this notice",
+    "page": 2
+   },
+   {
+    "text": "The Applicants shall apply separately for each posts, fulfilling the eligibility criteria for that posts",
+    "page": 3
+   },
+   {
+    "text": "EDUCATIONAL QUALIFICATION FOR ELIGIBILITY:- (For respective post code(s) notified at Para-1)",
+    "page": 3
+   },
+   {
+    "text": "(2) Degree in Library Information Science from a recognized University.",
+    "page": 4
+   },
+   {
+    "text": "003 /2025 Dept. of Agriculture Agriculture Officer 30 Years Degree in Agriculture/Horticulture from a recognized University/institution or equivalent.",
+    "page": 4
+   },
+   {
+    "text": "Desirable:- Degree in Mechanical / Chemical /Electrical / Electronics / Automobile / Industrial / Production Engineering / Computer Science / Information Technology / Textiles from a recognized University.",
+    "page": 4
+   },
+   {
+    "text": "(i) (A) Degree in Agriculture or Mechanical or Civil Engineering from a recognized University or equivalent (or) (B)Diploma in Agricultural Engineering or Mechanical Engineering or Civil Engineering from a recognized University/Institution or equivalent",
+    "page": 4
+   },
+   {
+    "text": "(i) Masters Degree in Geology or Applied Geology of a recognized University or equivalent",
+    "page": 4
+   },
+   {
+    "text": "The Certificate should have been issued for the financial year 2024- 2025 (previous financial year of the closing date) and shall be valid for the year 2025-2026 (current financial year of the closing date).",
+    "page": 9
+   },
+   {
+    "text": "Applicants fulfilling the eligibility criteria as mentioned above are required to apply online only through the official website https://recruitment.py.gov.in from 18.11.2025 (12.00 noon) to 14.12.2025 (03.00 p.m.)",
+    "page": 14
+   },
+   {
+    "text": "21.5 The photograph should have been taken recently, preferably within three months.",
+    "page": 16
+   },
+   {
+    "text": "The application is liable to be rejected if candidate is found to be not fulfilling the eligibility criteria after basic scrutiny",
+    "page": 18
+   },
+   {
+    "text": "Questions may be asked from any topics appropriate for the Educational Qualification level prescribed and shall test the ability of the candidate’s intelligence and general awareness of the environment in and around him / her and its application to the society",
+    "page": 20
+   },
+   {
+    "text": "1.1 Mode of applying for the open written Competitive Examination for Direct Recruitment to the posts mentioned at Para-1 of this advertisement is only through online and the Applicant shall apply separately for each posts, fulfilling the eligibility criteria for that posts",
+    "page": 23
+   },
+   {
+    "text": "The original certificates /documents in support of their educational qualifications and caste/category, etc. shall be sought from the provisionally shortlisted candidates at the time of Certificate Verification",
+    "page": 24
+   },
+   {
+    "text": "The appointment is subject to verification of educational qualification /residence /community and any other special category claimed by the individual including medical fitness",
+    "page": 26
+   },
+   {
+    "text": "Category Candidates must have been born Not earlier than Not later than",
+    "page": 33
+   },
+   {
+    "text": "Category Candidates must have been born Not earlier than Not later than",
+    "page": 34
+   },
+   {
+    "text": "Category Candidates must have been born Not earlier than Not later than",
+    "page": 35
+   },
+   {
+    "text": "Category Candidates must have been born Not earlier than Not later than",
+    "page": 36
+   }
+  ]
+ },
+ "selection": [
+  "Written examination"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "General Intelligence, Reasoning, Quantitative Aptitude.",
+   "page": 21,
+   "questions": 100,
+   "marks": 100,
+   "duration": "2 Hours"
+  },
+  {
+   "paper": "General Studies & Current Affairs",
+   "page": 21
+  },
+  {
+   "paper": "Ethics and Morality",
+   "page": 21
+  },
+  {
+   "paper": "English Language, Grammar &Comprehension",
+   "page": 21
+  },
+  {
+   "paper": "Computer Knowledge",
+   "page": 21
+  },
+  {
+   "paper": "007 /2025",
+   "page": 21,
+   "questions": 100,
+   "marks": 100,
+   "duration": "2 Hours"
+  },
+  {
+   "paper": "001 /2025",
+   "page": 21,
+   "questions": 100,
+   "marks": 100,
+   "duration": "2 Hours"
+  },
+  {
+   "paper": "002 /2025",
+   "page": 22,
+   "questions": 100,
+   "marks": 100,
+   "duration": "2 Hours"
+  },
+  {
+   "paper": "003 /2025",
+   "page": 22,
+   "questions": 100,
+   "marks": 100,
+   "duration": "2 Hours"
+  },
+  {
+   "paper": "004 /2025",
+   "page": 22,
+   "questions": 100,
+   "marks": 100,
+   "duration": "2 Hours"
+  },
+  {
+   "paper": "005 /2025",
+   "page": 22,
+   "questions": 100,
+   "marks": 100,
+   "duration": "2 Hours"
+  },
+  {
+   "paper": "006 /2025",
+   "page": 23,
+   "questions": 100,
+   "marks": 100,
+   "duration": "2 Hours"
+  },
+  {
+   "paper": "008 /2025",
+   "page": 23,
+   "questions": 100,
+   "marks": 100,
+   "duration": "2 Hours"
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Offline",
+   "page": 10
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  },
+  "duration": {
+   "value": "100 2 Hours ..22/-",
+   "page": 21
+  }
+ },
+ "links": {
+  "apply": [
+   "https://recruitment.py.gov.in",
+   "https://recruitment.py.gov.in”",
+   "https://www.recruitment.py.gov.in"
+  ]
+ },
+ "summary": {
+  "vacancies": 327,
+  "apply": {
+   "until": "2025-12-14"
+  },
+  "pay": "Pay Level 6",
+  "education": [
+   "Postgraduate",
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "selection": "Written examination"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "120552902d5eaa864877a3a617580ac1c1626cc5385f13e63d4f16b5b4a7ce79",
+  "url": "https://appsc.gov.in/upload/RECINS001/NOTIFICATION_ASSTT_PROF_BOTANY_20260612_163945.pdf",
+  "title": "Assistant Professor Examination-2026 scrutiny report for Botany subject.",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-lecturer",
+  "feed": "ar-appsc/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "5e212cb8386e084c8afbb111a3453656466a5b9b73f4f0b4d15764a1317b17c9",
+  "bytes": 2052094,
+  "pages": 9,
+  "chars": 8894,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T14:40:35+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "01/2026",
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

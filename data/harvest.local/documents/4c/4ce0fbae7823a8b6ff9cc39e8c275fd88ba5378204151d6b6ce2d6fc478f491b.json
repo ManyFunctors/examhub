@@ -1,0 +1,53 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "4ce0fbae7823a8b6ff9cc39e8c275fd88ba5378204151d6b6ce2d6fc478f491b",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/20260208399987696.pdf",
+  "title": "Inviting online Application Form for National Eligibility-Cum-Entrance Test [NEET (UG)-2026] – reg.",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "16b40d1d17309dc043e65cf78d73713a41db73ded4f130edf2f8b7a36ee2d030",
+  "bytes": 1523915,
+  "pages": 2,
+  "chars": 5403,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T19:54:43+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2026-05-03",
+   "evidence": "The exam will be held on 03rd May 2026 and the duration of the examination will be 18O minutes (OG hourst from O2:OO PM to O5:OO PM (IST)",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 10,
+   "raw": "(upto 11:50 P.M.) Correction in Particulars 10 March 2026 lo L2 March2026 Fees Payable by Candidate Category of Candidate Centres In India {E'ee in",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "https://neet.nta.nic.in/",
+   "https://neet.nta.nic.inl"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-05-03",
+  "fee": {
+   "min": 10,
+   "max": 10
+  }
+ }
+}

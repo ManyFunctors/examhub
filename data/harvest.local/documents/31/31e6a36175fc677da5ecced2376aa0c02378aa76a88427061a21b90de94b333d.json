@@ -1,0 +1,34 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "31e6a36175fc677da5ecced2376aa0c02378aa76a88427061a21b90de94b333d",
+  "url": "https://tpsc.tripura.gov.in/sites/default/files/TCSTPS%20PRE%20GS%202022.pdf",
+  "title": "Preliminary Examination TCS Gr-II & TPS Gr-II, 2022",
+  "body": "tr-tpsc",
+  "exam": "tr-tpsc-tcs",
+  "feed": "tr-tpsc/notice-board",
+  "published": "2033-03-31",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "778fb6233f999d2035a9fbb223245e96cd291d6e0cea7a6c94153d4fae6980a3",
+  "bytes": 17761359,
+  "pages": 20,
+  "chars": 20049,
+  "ocr": true,
+  "ocr_engine": "ocrmypdf+tesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:38:40+05:30"
+ },
+ "kind": "notice",
+ "exam": {
+  "negative_marking": {
+   "value": "One-fourth of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "warnings": [
+  "OCR stopped after 20 of 41 pages: the rest of this document is un-extracted, so nothing from it can be stored",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

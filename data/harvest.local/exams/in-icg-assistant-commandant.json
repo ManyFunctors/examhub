@@ -1,0 +1,269 @@
+{
+ "schema": 1,
+ "exam": "in-icg-assistant-commandant",
+ "name": "Coast Guard Common Admission Test (Assistant Commandant)",
+ "body": "in-icg",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 2,
+ "documents_in_cycle": 1,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 170,
+    "by_category": {
+     "Unreserved": 59,
+     "OBC": 43,
+     "SC": 28,
+     "ST": 28,
+     "EWS": 12
+    },
+    "rows": [
+     {
+      "label": "General Duty (GD)",
+      "total": 140,
+      "by_category": {
+       "SC": 25,
+       "ST": 24,
+       "OBC": 35,
+       "EWS": 10,
+       "Unreserved": 46
+      },
+      "page": 2
+     },
+     {
+      "label": "Tech (Engg/ Elect)",
+      "total": 30,
+      "by_category": {
+       "SC": 3,
+       "ST": 4,
+       "OBC": 8,
+       "EWS": 2,
+       "Unreserved": 13
+      },
+      "page": 2
+     }
+    ],
+    "from": "table"
+   },
+   "source": {
+    "notice": "c1fa104540b054cf4f038dfcd3d8db21432946ad3a7eba1aa665c6980c7fa5da",
+    "url": "https://joinindiancoastguard.cdac.in/cgcat/assets/img/news/Advertisement_for_Asst_Comdt_2027_Batch.pdf",
+    "title": "CGCAT 2027 Advertisement English",
+    "kind": "advertisement"
+   }
+  },
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "SC",
+      "ST"
+     ],
+     "except": true,
+     "amount": 300,
+     "raw": "All candidates (except SC/ST candidates, who are exempted from payment of fee) are required to pay a fee of Rs. 300/- (Rupees Three Hundred Only) through online mode by using net banking or by using Visa/Master/Maestro/RuPay/Credit/Debit…",
+     "page": 8
+    },
+    {
+     "categories": [
+      "SC",
+      "ST"
+     ],
+     "amount": 0,
+     "raw": "All candidates (except SC/ST candidates, who are exempted from payment of fee) are required to pay a fee of Rs. 300/- (Rupees Three Hundred Only) through online mode by using net banking or by using Visa/Master/Maestro/RuPay/Credit/Debit…",
+     "page": 8
+    }
+   ],
+   "source": {
+    "notice": "c1fa104540b054cf4f038dfcd3d8db21432946ad3a7eba1aa665c6980c7fa5da",
+    "url": "https://joinindiancoastguard.cdac.in/cgcat/assets/img/news/Advertisement_for_Asst_Comdt_2027_Batch.pdf",
+    "title": "CGCAT 2027 Advertisement English",
+    "kind": "advertisement",
+    "page": 8
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2026-07-01",
+    "provisional": true,
+    "source": {
+     "notice": "c1fa104540b054cf4f038dfcd3d8db21432946ad3a7eba1aa665c6980c7fa5da",
+     "url": "https://joinindiancoastguard.cdac.in/cgcat/assets/img/news/Advertisement_for_Asst_Comdt_2027_Batch.pdf",
+     "title": "CGCAT 2027 Advertisement English",
+     "kind": "advertisement",
+     "page": 1
+    }
+   },
+   "exam_date": {
+    "date": "2026-07-01",
+    "until": "2001-07-01",
+    "source": {
+     "notice": "c1fa104540b054cf4f038dfcd3d8db21432946ad3a7eba1aa665c6980c7fa5da",
+     "url": "https://joinindiancoastguard.cdac.in/cgcat/assets/img/news/Advertisement_for_Asst_Comdt_2027_Batch.pdf",
+     "title": "CGCAT 2027 Advertisement English",
+     "kind": "advertisement",
+     "page": 1
+    }
+   },
+   "registration_deadline": {
+    "date": "2025-07-27",
+    "provisional": true,
+    "source": {
+     "notice": "c1fa104540b054cf4f038dfcd3d8db21432946ad3a7eba1aa665c6980c7fa5da",
+     "url": "https://joinindiancoastguard.cdac.in/cgcat/assets/img/news/Advertisement_for_Asst_Comdt_2027_Batch.pdf",
+     "title": "CGCAT 2027 Advertisement English",
+     "kind": "advertisement",
+     "page": 16
+    }
+   },
+   "registration_open": {
+    "date": "2025-07-08",
+    "provisional": true,
+    "source": {
+     "notice": "c1fa104540b054cf4f038dfcd3d8db21432946ad3a7eba1aa665c6980c7fa5da",
+     "url": "https://joinindiancoastguard.cdac.in/cgcat/assets/img/news/Advertisement_for_Asst_Comdt_2027_Batch.pdf",
+     "title": "CGCAT 2027 Advertisement English",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2025-07-08",
+    "until": "2025-07-27"
+   },
+   "source": {
+    "notice": "c1fa104540b054cf4f038dfcd3d8db21432946ad3a7eba1aa665c6980c7fa5da",
+    "url": "https://joinindiancoastguard.cdac.in/cgcat/assets/img/news/Advertisement_for_Asst_Comdt_2027_Batch.pdf",
+    "title": "CGCAT 2027 Advertisement English",
+    "kind": "advertisement",
+    "page": 16
+   }
+  },
+  "exam_date": {
+   "value": "2026-07-01",
+   "source": {
+    "notice": "c1fa104540b054cf4f038dfcd3d8db21432946ad3a7eba1aa665c6980c7fa5da",
+    "url": "https://joinindiancoastguard.cdac.in/cgcat/assets/img/news/Advertisement_for_Asst_Comdt_2027_Batch.pdf",
+    "title": "CGCAT 2027 Advertisement English",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Postgraduate",
+     "Graduate",
+     "Diploma / ITI"
+    ],
+    "clauses": [
+     {
+      "text": "Indian citizens having following minimum qualifications are eligible to apply:- Ser",
+      "page": 1
+     },
+     {
+      "text": "Branch Age (Born Between) Gender Educational Qualification (a) General Duty (GD)",
+      "page": 1
+     },
+     {
+      "text": "The candidates who have completed graduation after diploma, are also eligible, provided they should possess a diploma with physics and mathematics in its curriculum.",
+      "page": 1
+     },
+     {
+      "text": "The candidates who have completed graduation after diploma, are also eligible, provided they should possess an diploma with physics and mathematics in its curriculum.",
+      "page": 2
+     },
+     {
+      "text": "Explanation on certain eligibility criteria:",
+      "page": 2
+     },
+     {
+      "text": "(b) Candidates having Integrated Post-Graduation degree are also eligible to apply provided that they are in possession of certificate issued by the respective Institution/ University, certifying that the candidate has passed the qualifying Degree (with percentage/marks clearly mentioned) as a…",
+      "page": 2
+     },
+     {
+      "text": "Additional Eligibility Criteria.",
+      "page": 3
+     },
+     {
+      "text": "(b) Multi options entry scheme: Candidates who fulfil eligibility criteria for both",
+      "page": 6
+     },
+     {
+      "text": "(ii) Candidate holding three years degree in any other non- tech subjects from a recognized university",
+      "page": 6
+     },
+     {
+      "text": "Such candidates will have to undergo the selection procedure including SMB (Special medical Board) afresh provided that they meet the eligibility criteria for the fresh batch.",
+      "page": 13
+     },
+     {
+      "text": "educational qualifications, age, submission of wrong information/document in the application",
+      "page": 14
+     },
+     {
+      "text": "In case of any ambiguity regarding eligibility criteria, date and time of examination and other procedures, the contents given in the Coast Guard recruitment website https://joinindiancoastguard.cdac.in will be final.",
+      "page": 16
+     }
+    ]
+   },
+   "source": {
+    "notice": "c1fa104540b054cf4f038dfcd3d8db21432946ad3a7eba1aa665c6980c7fa5da",
+    "url": "https://joinindiancoastguard.cdac.in/cgcat/assets/img/news/Advertisement_for_Asst_Comdt_2027_Batch.pdf",
+    "title": "CGCAT 2027 Advertisement English",
+    "kind": "advertisement"
+   }
+  },
+  "selection": {
+   "value": [
+    "Document verification",
+    "Computer-based test",
+    "Group discussion"
+   ],
+   "source": {
+    "notice": "c1fa104540b054cf4f038dfcd3d8db21432946ad3a7eba1aa665c6980c7fa5da",
+    "url": "https://joinindiancoastguard.cdac.in/cgcat/assets/img/news/Advertisement_for_Asst_Comdt_2027_Batch.pdf",
+    "title": "CGCAT 2027 Advertisement English",
+    "kind": "advertisement"
+   }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "Combined CGCAT",
+     "page": 3
+    },
+    {
+     "paper": "CGCAT",
+     "page": 3
+    },
+    {
+     "paper": "C:General Science & Mathematical",
+     "page": 3
+    },
+    {
+     "paper": "aptitude",
+     "page": 3
+    },
+    {
+     "paper": "D: General Knowledge",
+     "page": 3
+    }
+   ],
+   "source": {
+    "notice": "c1fa104540b054cf4f038dfcd3d8db21432946ad3a7eba1aa665c6980c7fa5da",
+    "url": "https://joinindiancoastguard.cdac.in/cgcat/assets/img/news/Advertisement_for_Asst_Comdt_2027_Batch.pdf",
+    "title": "CGCAT 2027 Advertisement English",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "age",
+  "pay"
+ ],
+ "older_documents": 1
+}

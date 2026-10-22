@@ -1,0 +1,32 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "640dac52f3debe468c13e0a388cdbb3192a65011d2a4dbf01c8680d76c4145a9",
+  "url": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/_64615b9ac7.pdf",
+  "title": "इयत्ता १० वी फेब्रुवारी–मार्च २०२७ परीक्षेची ऑनलाइन आवेदनपत्रे भरण्याबाबत परिपत्रक (SSC 2027)",
+  "body": "mh-msbshse",
+  "exam": "mh-msbshse-class-10",
+  "feed": "mh-msbshse/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "56057efe95263cbeb5f66ec92126f726b3d0cf851edc564246977b827bc8598c",
+  "bytes": 660030,
+  "pages": 3,
+  "chars": 3658,
+  "ocr": true,
+  "ocr_engine": "ocrmypdf+tesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:38:44+05:30"
+ },
+ "kind": "notice",
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

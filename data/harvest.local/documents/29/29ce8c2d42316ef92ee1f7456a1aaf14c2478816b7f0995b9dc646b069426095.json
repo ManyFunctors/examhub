@@ -1,0 +1,41 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "29ce8c2d42316ef92ee1f7456a1aaf14c2478816b7f0995b9dc646b069426095",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20231107111804.pdf",
+  "title": "832 Rescheduling of Study Webs of Active Learning for Young Aspiring Minds (SWAYAM) July 2023 Semester Exam Read More",
+  "body": "in-nta",
+  "exam": "in-nta-swayam",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "849c1ed6ffef99f7c98cd2e6ce5aa2f256bd3b5bec36c8406fc1f9332160dbcc",
+  "bytes": 325568,
+  "pages": 1,
+  "chars": 1046,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-03T09:56:48+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2023-11-30",
+   "evidence": "SWAYAM July 2023 Semester Exam scheduled for 30 November 2023 is to be shifted to",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://swayam.nta.ac.in/",
+   "https://nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2023-11-30"
+ }
+}

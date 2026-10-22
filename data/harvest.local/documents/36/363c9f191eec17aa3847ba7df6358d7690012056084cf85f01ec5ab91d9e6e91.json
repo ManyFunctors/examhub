@@ -1,0 +1,45 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "363c9f191eec17aa3847ba7df6358d7690012056084cf85f01ec5ab91d9e6e91",
+  "url": "https://meghalayahighcourt.nic.in/sites/default/files/recruitment/R204.pdf",
+  "title": "Click to view/download",
+  "body": "ml-hc",
+  "exam": "ml-hc-staff",
+  "feed": "ml-hc/recruitment-notification",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "717c84da5a67ee57d26ad49717779d07f9b4de932569ce8d17c0d931769fa207",
+  "bytes": 1631165,
+  "pages": 5,
+  "chars": 7234,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T14:40:30+05:30"
+ },
+ "kind": "notice",
+ "advertisement_no": "HCM.I1",
+ "dates": {
+  "exam_date": {
+   "date": "2026-01-17",
+   "evidence": "Examination for the post of System Analyst to be held on 17.01.2026 (Saturday) at 10:30 AM in the Government Girls' Higher Secondary School, Shillong is published for the information of the candidates as follows : - Roll Nos 1001 1002 1003 ",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Offline",
+   "page": 4
+  }
+ },
+ "links": {
+  "apply": [
+   "https://megrecruitment"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-01-17"
+ }
+}

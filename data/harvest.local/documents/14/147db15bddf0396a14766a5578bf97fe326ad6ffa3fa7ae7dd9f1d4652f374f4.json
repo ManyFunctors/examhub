@@ -1,0 +1,58 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "147db15bddf0396a14766a5578bf97fe326ad6ffa3fa7ae7dd9f1d4652f374f4",
+  "url": "https://rrpdocuments.aiimsexams.ac.in/1790403265447-334960236.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVRUVRLXWMSLVSAP7%2F20260928%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260928T215637Z&X-Amz-Expires=604800&X-Amz-Signature=203326aa8e30114cb694d241b484af9a28056ca208603510abf66635ddbbba56&X-Amz-SignedHeaders=host&response-content-type=application%2Fpdf",
+  "title": "Corrigendum No: 39/2026 Regarding Seat position and Eligibility for the INI-SS DM/M.Ch. January 2027 Session",
+  "body": "in-aiims",
+  "exam": "in-ini-ss",
+  "feed": "in-aiims/key-dates",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "9d5b69dd74d52060e5fd5ffd453ea6a5e6bb6c54974848a2aa13659ceaf41a74",
+  "bytes": 520152,
+  "pages": 1,
+  "chars": 2344,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T04:32:21+05:30"
+ },
+ "kind": "corrigendum",
+ "advertisement_no": "F-1-2/125th",
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "With reference to the notification No.F-1-2/125th SAC/2026-(P&T Cell) dated 29th June 2026, regarding the incorporation of MD Emergency Medicine as an eligibility qualification for DM Critical Care Medicine in INI-SS Entrance Examination, the eligibility criterion stands revised as follows:",
+    "page": 1
+   },
+   {
+    "text": "CURRENT ELIGIBILITY CRITERION",
+    "page": 1
+   },
+   {
+    "text": "REVISED ELIGIBILITY CRITERION MD in Anaesthesiology/Medicine/Chest Medicine of this institute or any other university or equivalent degree recognized by the NMC MD in Anaesthesiology/Medicine/Chest Medicine/Emergency Medicine of this institute or any other university or equivalent degree…",
+    "page": 1
+   },
+   {
+    "text": "Important: For Guidelines, number of seats, eligibility criteria, detailed information, etc., please visit the website www.aiimsexams.ac.in",
+    "page": 1
+   }
+  ]
+ },
+ "links": {
+  "apply": [
+   "https://www.aiimsexams.ac.in"
+  ]
+ },
+ "summary": {
+  "education": [
+   "Postgraduate",
+   "Graduate"
+  ]
+ }
+}

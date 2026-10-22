@@ -131,7 +131,7 @@ def clean(text: str | None) -> str:
     # thousand-space runs some table layouts are made of.
     text = " ".join((text or "").split())
     text = _SIZE.sub(" ", text)
-    return " ".join(text.split()).strip(" \t\r\n-–|:•·")
+    return " ".join(text.split()).strip(" \t\r\n-–|:•·❯❮›»")
 
 
 _MONTHS = {m: i for i, m in enumerate(

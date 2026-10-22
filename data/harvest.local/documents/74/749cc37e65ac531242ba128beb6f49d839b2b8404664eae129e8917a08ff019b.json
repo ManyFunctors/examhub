@@ -1,0 +1,52 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "749cc37e65ac531242ba128beb6f49d839b2b8404664eae129e8917a08ff019b",
+  "url": "https://arunpol.nic.in/Recruitment/Recruitment 23/Offer of Appointment CT(d)10-01-2025 .pdf",
+  "title": "Recruitment Notice for Offer of appointment for the post of Constable Driver (Civil Police) in APP. View",
+  "body": "ar-police",
+  "exam": "ar-police",
+  "feed": "ar-police/advertisement",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "4a2f728661a5ac993e76ae55b105d6a0489f6457f093e80df22aa5d71123663f",
+  "bytes": 839516,
+  "pages": 2,
+  "chars": 4796,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:18:13+05:30"
+ },
+ "kind": "advertisement",
+ "pay": [
+  {
+   "levels": [
+    3
+   ],
+   "low": 21769,
+   "high": 69100,
+   "text": "Pay Level 3, ₹21,769–69,100",
+   "evidence": "APSSB-13/12/2023 Dated 09/10/2024 on being found medically fit and subject to satisfactory verification of the character & antecedents, the following personnels are provisionally selected for the post of Constable (Driver) (Civil Police) against the existing temporary vacancies of respective units…",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 2
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.arunpol.nic.in"
+  ]
+ },
+ "summary": {
+  "pay": "Pay Level 3, ₹21,769–69,100"
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3ec633d8b77deeb34c82d90a23540f208e561f6d1695085dcb766a5499cd0658",
+  "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=13769&type=n",
+  "title": "Admission Notification for M.Sc. Nursing Course- 2023 in the Government/Private Colleges/Institutions of the UT of J&K: Conduct of the Common Entrance Test thereof.[M.SC-N-PN-22 Dt. 12.07.2023]",
+  "body": "jk-jkbopee",
+  "exam": "jk-jkbopee-nursing-paramedical",
+  "feed": "jk-jkbopee/notice-board",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "7d8c807fbae9cb660ed6f559849194e754d0619e23fa56c1382f175f50450d46",
+  "bytes": 1004976,
+  "pages": 5,
+  "chars": 6566,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T14:40:31+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "027-BOPEE",
+ "exam": {
+  "mode": {
+   "value": "Offline",
+   "page": 1
+  },
+  "negative_marking": {
+   "value": "One-fourth of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.jkbopee.gov.in",
+   "https://www.jkbopee.gov.in"
+  ]
+ }
+}

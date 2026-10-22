@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "cbe86e75af6b817b860a05e99e792f8b3c26fdda9f5e3b99459a03611497eb99",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20191010041511.pdf",
+  "title": "1841 PUBLIC NOTICE Joint CSIR-UGC NET December 2019 Extension of Last Date Read More",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "cbd9db18d0553b9d93f7f63e7e5485ee3689494a0a8d4cc92c4bfddd9870fbeb",
+  "bytes": 76645,
+  "pages": 1,
+  "chars": 2092,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-08T00:30:02+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "registration_deadline": {
+   "date": "2019-09-09",
+   "evidence": "On-line submission of Application Form 09.09.2019 to 09.10.2019",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2019-09-09",
+   "evidence": "On-line submission of Application Form 09.09.2019 to 09.10.2019",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://csirnet.nta.nic.in/"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2019-09-09",
+   "until": "2019-09-09"
+  }
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3d87052b9a46a40d6783b84d0ed3b0e863e926baf871a31e00bf44040cf6cbc0",
+  "url": "https://sbi.bank.in/documents/77530/43947057/08012025_SBI+_+Detailed+Advt.+PO+24-25_22+-+Hindi+%281%29.pdf/cc5f6922-6d54-42da-5c1b-4ff54d093bdb?t=1736341278033",
+  "title": "DOWNLOAD ADVERTISEMENT( Hindi )/ English )",
+  "body": "in-sbi",
+  "exam": "in-sbi-po",
+  "feed": "in-sbi/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "80c0a25a95fc03642344a33f930744fa6548b5c940bda016dd88f65dbddcc215",
+  "bytes": 436741,
+  "pages": 11,
+  "chars": 65643,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T09:07:01+05:30"
+ },
+ "kind": "advertisement",
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 3
+  }
+ },
+ "links": {
+  "apply": [
+   "https://bank.sbi/web/careers/current-openings",
+   "http://cgrs.ibps.in"
+  ]
+ }
+}

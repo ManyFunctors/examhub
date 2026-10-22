@@ -1,0 +1,250 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "f2677bc8d58b534669533e0384ee73ebe254aa0b55fe4e23a555b32545a97997",
+  "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News & Jobs_30092026_120848.pdf",
+  "title": "Advertisement for engagement of Trade Apprentices (TA) at Bhilai Steel Plant for FY 2026–27",
+  "body": "in-sail",
+  "exam": "in-sail-recruitment",
+  "feed": "in-sail/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "0b4f89c32f5409883b3818b63d37b05224432ecbc3fc7bfab3bf27da7274c9c7",
+  "bytes": 810544,
+  "pages": 4,
+  "chars": 10717,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:05+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "age_as_on": {
+   "date": "2026-10-31",
+   "evidence": "Minimum age NOT Less than 18 years and maximum 28 years as on date 31st October, 2026",
+   "page": 2,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Electrician, Multimedia & Animation Special Effects, Fitter 9:30 AM to 10:30 AM",
+   "date": "2026-10-27",
+   "page": 3,
+   "until": "2026-10-29"
+  },
+  {
+   "event": "Woodwork Technician, HHK, Mason, Instrument Mechanic, Technician Mechatronics, Electronics Mechanic 9:30 AM to 10:30 AM",
+   "date": "2026-10-30",
+   "page": 3,
+   "until": "2026-11-02"
+  },
+  {
+   "event": "Manufacturing Process Control & Automation, Machinist, Turner, Welder, AOCP, Diesel Mechanic 9:30 AM to 10:30 AM",
+   "date": "2026-11-03",
+   "page": 3,
+   "until": "2026-11-05"
+  },
+  {
+   "event": "ICTSM, Tool & Die Maker, LACP, Mechanic Motor Vehicle, Mechanic Refrigeration & AC, Central AC Plant Mechanic 9:30 AM to 10:30 AM",
+   "date": "2026-11-06",
+   "page": 3,
+   "until": "2026-11-09"
+  },
+  {
+   "event": "Refrigeration & Air Conditioning Technician, Stenographer & Secretarial Assistant (Hindi), Information Technology, Ceramic Technology, Chemical, Civil, Computer",
+   "date": "2026-11-10",
+   "page": 3,
+   "until": "2026-11-12"
+  },
+  {
+   "event": "EEE, Electrical, Mechanical/Mechatronics, Metallurgy, Electronics & Telecommunication, Automobile, Electronics & Communication, Electronics & Instrumentation 9:",
+   "date": "2026-11-13",
+   "page": 3,
+   "until": "2026-11-16"
+  },
+  {
+   "event": "Production, B.A., B.Sc., B.Com., BCA, BBA, B.Sc. Nursing, GNM, Diploma in Physiotherapy, DMLT, DRT, DXT, DOTT, DEO, Diploma in Pharmacy 9:30 AM to 10:30 AM",
+   "date": "2026-11-17",
+   "page": 3,
+   "until": "2026-11-21"
+  }
+ ],
+ "vacancies": {
+  "total": 516,
+  "rows": [
+   {
+    "label": "Electrician / ITI Passed out in the respective trade from a Govt. recognized Institute. . / @ Rs. 9600/per month or as per the prescribed rates by MSDE, GoI",
+    "total": 95,
+    "page": 1
+   },
+   {
+    "label": "Fitter",
+    "total": 80,
+    "page": 1
+   },
+   {
+    "label": "Multimedia and animation special effects",
+    "total": 9,
+    "page": 1
+   },
+   {
+    "label": "Technician Mechatronics",
+    "total": 20,
+    "page": 1
+   },
+   {
+    "label": "Electronics Mechanic",
+    "total": 20,
+    "page": 1
+   },
+   {
+    "label": "Manufacturing Process Control & Automation",
+    "total": 25,
+    "page": 1
+   },
+   {
+    "label": "Instrument Mechanic",
+    "total": 35,
+    "page": 1
+   },
+   {
+    "label": "Machinist",
+    "total": 25,
+    "page": 1
+   },
+   {
+    "label": "Turner",
+    "total": 15,
+    "page": 1
+   },
+   {
+    "label": "Welder",
+    "total": 15,
+    "page": 1
+   },
+   {
+    "label": "ICTSM",
+    "total": 15,
+    "page": 1
+   },
+   {
+    "label": "AOCP",
+    "total": 15,
+    "page": 1
+   },
+   {
+    "label": "Diesel Mechanic",
+    "total": 15,
+    "page": 1
+   },
+   {
+    "label": "Tool & Die Maker",
+    "total": 10,
+    "page": 1
+   },
+   {
+    "label": "LACP",
+    "total": 10,
+    "page": 1
+   },
+   {
+    "label": "Mechanic Motor Vehicle",
+    "total": 10,
+    "page": 1
+   },
+   {
+    "label": "Mechanic Refrigeration & AC",
+    "total": 20,
+    "page": 1
+   },
+   {
+    "label": "Central AC Plant Mechanic",
+    "total": 16,
+    "page": 1
+   },
+   {
+    "label": "Wood work Technician",
+    "total": 10,
+    "page": 1
+   },
+   {
+    "label": "Stenographer & Secretarial Assistant (Hindi)",
+    "total": 10,
+    "page": 1
+   },
+   {
+    "label": "Stenographer & Secretarial Assistant (English)",
+    "total": 10,
+    "page": 1
+   },
+   {
+    "label": "Refrigeration and Air Conditioning Technician",
+    "total": 10,
+    "page": 1
+   },
+   {
+    "label": "Hospital House Keeping (HHK)",
+    "total": 6,
+    "page": 1
+   },
+   {
+    "label": "Mason",
+    "total": 10,
+    "page": 1
+   },
+   {
+    "label": "Information Technology (IT)",
+    "total": 10,
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "age": {
+  "limits": [
+   {
+    "min": 18,
+    "evidence": "Minimum age NOT Less than 18 years and maximum 28 years as on date 31st October, 2026",
+    "page": 2
+   }
+  ],
+  "as_on": "2026-10-31"
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Candidates who have passed the qualifying examination in last Five years (2022, 2023, 2024, 2025 & 2026) are ONLY eligible.",
+    "page": 2
+   },
+   {
+    "text": "The candidate must have an active email ID and Mobile Number which must be valid for at least next one year",
+    "page": 2
+   },
+   {
+    "text": " Candidates are advised to carefully read the full advertisement for details of eligibility criteria and selection modalities.",
+    "page": 4
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "https://apprenticeshipindia.org/",
+   "https://nats.education.gov.in/",
+   "http://apprenticeshipindia.org/"
+  ]
+ },
+ "summary": {
+  "vacancies": 516,
+  "age": {
+   "min": 18
+  },
+  "education": [
+   "Graduate"
+  ]
+ }
+}

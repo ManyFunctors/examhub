@@ -1,0 +1,227 @@
+{
+ "schema": 1,
+ "exam": "in-snap",
+ "name": "Symbiosis National Aptitude Test",
+ "body": "in-symbiosis",
+ "purpose": "admission",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 2550,
+     "raw": "Pay the SNAP registration fee of INR 2550 per test (government taxes would be additional as and when applicable) upto November 25, 2026 (Wednesday) as per the instructions mentioned on the website (www.snaptest.org) for Payment of SNAP…",
+     "page": 7
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 1000,
+     "raw": "The programme registration fee is INR 1000 for each programme (government taxes would be additional as and when applicable)",
+     "page": 11
+    }
+   ],
+   "source": {
+    "notice": "bf805f49f0f54f879bf041401672d1ddb6342be05a8a43f09a7f4c9a1886cc73",
+    "url": "https://www.snaptest.org/documents/SNAP-2026-Bulletin.pdf",
+    "title": "SNAP Bulletin 2026",
+    "kind": "brochure",
+    "page": 7
+   }
+  },
+  "advertisement_no": {
+   "value": "F.9-12/2001-U3",
+   "source": {
+    "notice": "bf805f49f0f54f879bf041401672d1ddb6342be05a8a43f09a7f4c9a1886cc73",
+    "url": "https://www.snaptest.org/documents/SNAP-2026-Bulletin.pdf",
+    "title": "SNAP Bulletin 2026",
+    "kind": "brochure"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "Name of the Institute Name of the Programme Eligibility Criteria",
+      "page": 12
+     },
+     {
+      "text": "Candidates are advised to check the eligibility criteria for the programme(s) which they are desirous to pursue, and register for the SNAP accordingly",
+      "page": 16
+     },
+     {
+      "text": "Officers of Armed Forces on Study Leave as authorized by respective Services HQs are granted automatic admission subject to meeting eligibility criteria.",
+      "page": 19
+     },
+     {
+      "text": "While it is the endeavour of SIU that a candidate belonging to SC/ST/PwD category joins a programme as per the SIU norms, s/he has to meet the minimum eligibility criteria",
+      "page": 19
+     },
+     {
+      "text": "Candidates are advised to check the eligibility criteria for the programme(s) which they are desirous to pursue",
+      "page": 21
+     },
+     {
+      "text": "Candidates are advised to check the eligibility criteria for the programme(s) which they are desirous to pursue, and register for the SNAP accordingly",
+      "page": 24
+     },
+     {
+      "text": "Please note that all admissions are provisional and will be confirmed on payment of fees on or before the due date and subject to fulfilment of eligibility criteria of the respective programme(s) and in accordance with the rules of the SIU",
+      "page": 24
+     }
+    ]
+   },
+   "source": {
+    "notice": "bf805f49f0f54f879bf041401672d1ddb6342be05a8a43f09a7f4c9a1886cc73",
+    "url": "https://www.snaptest.org/documents/SNAP-2026-Bulletin.pdf",
+    "title": "SNAP Bulletin 2026",
+    "kind": "brochure"
+   }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "SIBM, Pune",
+     "page": 13
+    },
+    {
+     "paper": "Master of Business Administration (Human Resource Management & Integrated AI Analytics)",
+     "page": 13
+    },
+    {
+     "paper": "SICSR",
+     "page": 13
+    },
+    {
+     "paper": "Master of Business Administration (Technology Management)",
+     "page": 13
+    },
+    {
+     "paper": "SIIB",
+     "page": 13
+    },
+    {
+     "paper": "Master of Business Administration (Agri Business)",
+     "page": 13
+    },
+    {
+     "paper": "Master of Business Administration (Sustainability Management)",
+     "page": 13
+    },
+    {
+     "paper": "SIDTM",
+     "page": 13
+    },
+    {
+     "paper": "SIMC",
+     "page": 13
+    },
+    {
+     "paper": "SCIT",
+     "page": 13
+    },
+    {
+     "paper": "Master of Business Administration (Data Sciences and Data Analytics)",
+     "page": 13
+    },
+    {
+     "paper": "Master of Business Administration (Artificial Intelligence in Business)",
+     "page": 13
+    },
+    {
+     "paper": "SIHS",
+     "page": 13
+    },
+    {
+     "paper": "SSBF",
+     "page": 13
+    },
+    {
+     "paper": "SSSS",
+     "page": 13
+    },
+    {
+     "paper": "SIBM, Bengaluru",
+     "page": 13
+    },
+    {
+     "paper": "SIOM, Nashik",
+     "page": 13
+    },
+    {
+     "paper": "SIBM, Nagpur",
+     "page": 13
+    },
+    {
+     "paper": "SCMHRD",
+     "page": 13
+    },
+    {
+     "paper": "SIMS",
+     "page": 14
+    },
+    {
+     "paper": "SIOM, Nashik",
+     "page": 14
+    },
+    {
+     "paper": "Master of Business Administration (Operations Management) (Dual Degree with Durham University Business School, United Kingdom) #",
+     "page": 14
+    },
+    {
+     "paper": "SSCANS",
+     "page": 14
+    },
+    {
+     "paper": "General English",
+     "page": 21,
+     "questions": 10,
+     "marks": 1
+    },
+    {
+     "paper": "Analytical & Logical Reasoning",
+     "page": 21,
+     "questions": 20,
+     "marks": 1
+    },
+    {
+     "paper": "Quantitative, Data Interpretation & Data Sufficiency",
+     "page": 21,
+     "questions": 20,
+     "marks": 1
+    },
+    {
+     "paper": "Ethics, Morality and Values",
+     "page": 21,
+     "questions": 10,
+     "marks": 1
+    },
+    {
+     "paper": "Total",
+     "page": 21,
+     "questions": 60
+    }
+   ],
+   "source": {
+    "notice": "bf805f49f0f54f879bf041401672d1ddb6342be05a8a43f09a7f4c9a1886cc73",
+    "url": "https://www.snaptest.org/documents/SNAP-2026-Bulletin.pdf",
+    "title": "SNAP Bulletin 2026",
+    "kind": "brochure"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date"
+ ],
+ "older_documents": 0
+}

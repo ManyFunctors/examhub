@@ -1,0 +1,40 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3ddb00eacd1bc237fdfba8dade11ad4c864b4cc563b8472e6ccd279e47e9f211",
+  "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=240&type=n",
+  "title": "Disposal of representations received by the Board against Notification No.059-BOPEE of 2018 Dt.28.06.2018 [CET-PN-058] [Dt.28.06.2018]",
+  "body": "jk-jkbopee",
+  "exam": "jk-jkbopee-cet",
+  "feed": "jk-jkbopee/notice-board",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "fbeee4858450d732a52eb8d308ff51649b8b3c4d7131ebf80f52c358bebddef9",
+  "bytes": 58321,
+  "pages": 2,
+  "chars": 3378,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T14:40:27+05:30"
+ },
+ "kind": "notice",
+ "advertisement_no": "59-BOPEE",
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "One candidate bearing Rank 4516 claims that he should have been allotted seat °5 under RBA in GCET Jammu/Ganderbal/SSM instead of BCET, Samba.",
+    "page": 1
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "https://www.jkbopee.gov.in"
+  ]
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

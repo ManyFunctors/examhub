@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1034c1e41d540032587b226c4bd8c3f6bb582305c0f886a2b0e8cf12a9915522",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210315213727.pdf",
+  "title": "1576 PRESS RELEASE: Conduct of JEE (Main) – 2021 for March (Session-2) Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "a001332e5406bde560fb3b129e713f4b014c4355634a29832a22a5c5ce55fe8a",
+  "bytes": 796193,
+  "pages": 2,
+  "chars": 2534,
+  "ocr": false,
+  "indic_share": 0.02,
+  "fetched": "2026-10-01T10:32:31+05:30"
+ },
+ "kind": "notice",
+ "unmapped_classes": [
+  {
+   "label": "Gen- EWS",
+   "page": 1
+  }
+ ],
+ "vacancies": {
+  "total": 619638,
+  "by_category": {
+   "Unreserved": 276864,
+   "OBC-NCL": 205912,
+   "SC": 54600,
+   "ST": 21787,
+   "PwBD": 1695
+  },
+  "rows": [
+   {
+    "label": "Female",
+    "total": 190748,
+    "by_category": {
+     "Unreserved": 88919,
+     "OBC-NCL": 63673,
+     "SC": 15038,
+     "ST": 6094,
+     "PwBD": 324
+    },
+    "page": 1
+   },
+   {
+    "label": "Male",
+    "total": 428888,
+    "by_category": {
+     "Unreserved": 187944,
+     "OBC-NCL": 142239,
+     "SC": 39562,
+     "ST": 15692,
+     "PwBD": 1371
+    },
+    "page": 1
+   },
+   {
+    "label": "Transgender",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 1,
+     "OBC-NCL": 0,
+     "SC": 0,
+     "ST": 1,
+     "PwBD": 0
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "summary": {
+  "vacancies": 619638
+ }
+}

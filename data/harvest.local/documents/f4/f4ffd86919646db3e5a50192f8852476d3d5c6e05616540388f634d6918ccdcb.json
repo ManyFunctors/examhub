@@ -1,0 +1,38 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "f4ffd86919646db3e5a50192f8852476d3d5c6e05616540388f634d6918ccdcb",
+  "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/docs_0003.pdf",
+  "title": "1 Notice No. 1663 Court Attendant, Court Attendant (S), Court Attendant (L), Room Attendant (H), Security Attendant under post code 801/25 in Delhi High Court Download",
+  "body": "dl-dsssb",
+  "exam": "dl-dsssb-other",
+  "feed": "dl-dsssb/results",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "9989af7f98ec12ec0b61655f783ff779d65d105ae9713f0ad8ad13bb641c204c",
+  "bytes": 507209,
+  "pages": 2,
+  "chars": 4685,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:16+05:30"
+ },
+ "kind": "result",
+ "advertisement_no": "03/25",
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://www.dsssbonline.nic.in"
+  ]
+ }
+}

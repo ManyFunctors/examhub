@@ -1,0 +1,238 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "bf805f49f0f54f879bf041401672d1ddb6342be05a8a43f09a7f4c9a1886cc73",
+  "url": "https://www.snaptest.org/documents/SNAP-2026-Bulletin.pdf",
+  "title": "SNAP Bulletin 2026",
+  "body": "in-symbiosis",
+  "exam": "in-snap",
+  "feed": "in-symbiosis/snap",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "5e618acfbc0664a9065bbf210ea12ffa4281440af6d589fbe109364b7086216b",
+  "bytes": 2193064,
+  "pages": 25,
+  "chars": 68585,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:00+05:30"
+ },
+ "kind": "brochure",
+ "advertisement_no": "F.9-12/2001-U3",
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 2550,
+   "raw": "Pay the SNAP registration fee of INR 2550 per test (government taxes would be additional as and when applicable) upto November 25, 2026 (Wednesday) as per the instructions mentioned on the website (www.snaptest.org) for Payment of SNAP…",
+   "page": 7
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 1000,
+   "raw": "The programme registration fee is INR 1000 for each programme (government taxes would be additional as and when applicable)",
+   "page": 11
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Name of the Institute Name of the Programme Eligibility Criteria",
+    "page": 12
+   },
+   {
+    "text": "Candidates are advised to check the eligibility criteria for the programme(s) which they are desirous to pursue, and register for the SNAP accordingly",
+    "page": 16
+   },
+   {
+    "text": "Officers of Armed Forces on Study Leave as authorized by respective Services HQs are granted automatic admission subject to meeting eligibility criteria.",
+    "page": 19
+   },
+   {
+    "text": "While it is the endeavour of SIU that a candidate belonging to SC/ST/PwD category joins a programme as per the SIU norms, s/he has to meet the minimum eligibility criteria",
+    "page": 19
+   },
+   {
+    "text": "Candidates are advised to check the eligibility criteria for the programme(s) which they are desirous to pursue",
+    "page": 21
+   },
+   {
+    "text": "Candidates are advised to check the eligibility criteria for the programme(s) which they are desirous to pursue, and register for the SNAP accordingly",
+    "page": 24
+   },
+   {
+    "text": "Please note that all admissions are provisional and will be confirmed on payment of fees on or before the due date and subject to fulfilment of eligibility criteria of the respective programme(s) and in accordance with the rules of the SIU",
+    "page": 24
+   }
+  ]
+ },
+ "exam_pattern": [
+  {
+   "paper": "SIBM, Pune",
+   "page": 13
+  },
+  {
+   "paper": "Master of Business Administration (Human Resource Management & Integrated AI Analytics)",
+   "page": 13
+  },
+  {
+   "paper": "SICSR",
+   "page": 13
+  },
+  {
+   "paper": "Master of Business Administration (Technology Management)",
+   "page": 13
+  },
+  {
+   "paper": "SIIB",
+   "page": 13
+  },
+  {
+   "paper": "Master of Business Administration (Agri Business)",
+   "page": 13
+  },
+  {
+   "paper": "Master of Business Administration (Sustainability Management)",
+   "page": 13
+  },
+  {
+   "paper": "SIDTM",
+   "page": 13
+  },
+  {
+   "paper": "SIMC",
+   "page": 13
+  },
+  {
+   "paper": "SCIT",
+   "page": 13
+  },
+  {
+   "paper": "Master of Business Administration (Data Sciences and Data Analytics)",
+   "page": 13
+  },
+  {
+   "paper": "Master of Business Administration (Artificial Intelligence in Business)",
+   "page": 13
+  },
+  {
+   "paper": "SIHS",
+   "page": 13
+  },
+  {
+   "paper": "SSBF",
+   "page": 13
+  },
+  {
+   "paper": "SSSS",
+   "page": 13
+  },
+  {
+   "paper": "SIBM, Bengaluru",
+   "page": 13
+  },
+  {
+   "paper": "SIOM, Nashik",
+   "page": 13
+  },
+  {
+   "paper": "SIBM, Nagpur",
+   "page": 13
+  },
+  {
+   "paper": "SCMHRD",
+   "page": 13
+  },
+  {
+   "paper": "SIMS",
+   "page": 14
+  },
+  {
+   "paper": "SIOM, Nashik",
+   "page": 14
+  },
+  {
+   "paper": "Master of Business Administration (Operations Management) (Dual Degree with Durham University Business School, United Kingdom) #",
+   "page": 14
+  },
+  {
+   "paper": "SSCANS",
+   "page": 14
+  },
+  {
+   "paper": "General English",
+   "page": 21,
+   "questions": 10,
+   "marks": 1
+  },
+  {
+   "paper": "Analytical & Logical Reasoning",
+   "page": 21,
+   "questions": 20,
+   "marks": 1
+  },
+  {
+   "paper": "Quantitative, Data Interpretation & Data Sufficiency",
+   "page": 21,
+   "questions": 20,
+   "marks": 1
+  },
+  {
+   "paper": "Ethics, Morality and Values",
+   "page": 21,
+   "questions": 10,
+   "marks": 1
+  },
+  {
+   "paper": "Total",
+   "page": 21,
+   "questions": 60
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 17
+  },
+  "duration": {
+   "value": "✔​ Duration of the tests is 60 minutes.",
+   "page": 21
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.snaptest.org",
+   "https://whatsapp.com/channel/0029Vb8pnJv9hXF9ZO1Ttp35",
+   "https://www.siu.edu.in/about-us/why-us/student-wellbeing",
+   "https://www.durham.ac.uk/business/courses/management-supply-chain-logistics-n2p909/#entry-requirements",
+   "https://www.aston.ac.uk/study/courses/finance-msc",
+   "https://www.mq.edu.au/study/find-a-course/courses/master-of-banking-and-finance",
+   "http://www.ssbf.edu.in",
+   "http://www.siom.in",
+   "https://www.scie.ac.in/",
+   "https://scie.ac.in/masters-programs-pg",
+   "http://www.scie.ac.in",
+   "https://www.snaptest.org"
+  ]
+ },
+ "summary": {
+  "fee": {
+   "min": 1000,
+   "max": 2550
+  },
+  "education": [
+   "Graduate"
+  ]
+ }
+}

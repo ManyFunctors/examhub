@@ -1,0 +1,41 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d7d1ac92eca4bb1b2e27e5432acee6332c43fe4fb734d491c16137565e97060a",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210903101707.pdf",
+  "title": "1468 Public Notice Dated: 03.09.2021 Rescheduling of the Examination dates for UGC-NET December 2020 and June 2021 cycles Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "published": "2021-09-03",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "0b64c630e509283dae3384bba23fda7ac45da7a1af8c54a563e5d2e81fc478ff",
+  "bytes": 107536,
+  "pages": 1,
+  "chars": 1254,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-08T19:20:18+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2021-10-11",
+   "evidence": "The examination for the University Grants Commission (UGC)-NET December 2020 and June 2021 cycles is scheduled from 06 October to 11 October 2021",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://ugcnet.nta.nic.in/",
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2021-10-11"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "365d0cfd49459058e857b6cfd1a1bbbf5febd676e6c971bd4c6a2ab42be3a3ab",
+  "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=13077&type=n",
+  "title": "Admission Notification for Common Entrance Test for Post Basic B.Sc. Nursing Course-2021 [PBBSCN-NN-065 Dt. 09-06-2021]",
+  "body": "jk-jkbopee",
+  "exam": "jk-jkbopee-nursing-paramedical",
+  "feed": "jk-jkbopee/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "8e4c6386591092fa42351c4166a0612ded0e3b263cf441a503a612744fe717ea",
+  "bytes": 2080735,
+  "pages": 5,
+  "chars": 14465,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T14:40:24+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "065-BOPEE",
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 1000,
+   "raw": "Fee Rs. 1000/- (Rupees one thousand only) to be paid online through national Credit Card/Debit Card/Net Banking.",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "The Board shall on receipt of any such communication from the concerned Authority notify the same, which shall govern the eligibility criteria",
+    "page": 3
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Offline",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.jakbopee.org",
+   "https://www.ikbopee.gov.in",
+   "https://www.jkbopee.gov.in/",
+   "https://www.jakbopee.org"
+  ]
+ },
+ "summary": {
+  "fee": {
+   "min": 1000,
+   "max": 1000
+  }
+ }
+}

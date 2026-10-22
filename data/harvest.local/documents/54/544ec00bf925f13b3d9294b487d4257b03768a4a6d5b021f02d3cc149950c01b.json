@@ -1,0 +1,68 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "544ec00bf925f13b3d9294b487d4257b03768a4a6d5b021f02d3cc149950c01b",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240306171452.pdf",
+  "title": "Extension of Graduate Aptitude Test- Biotechnology (GAT-B) / Biotechnology Eligibility Test (BET) – 2024 Online Application Form Submission Read More",
+  "body": "in-nta",
+  "exam": "in-gat-b",
+  "feed": "in-nta/home",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "092c70e50182410c573154eb6d0b745a2022cb5dca98bbef4f16ed488ed7f7ad",
+  "bytes": 1058526,
+  "pages": 1,
+  "chars": 2224,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-04T00:33:07+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2024-03-10",
+   "until": "2024-03-12",
+   "evidence": "Graduate Aptitude Test- Biotechnology (GAT-B)",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_deadline": {
+   "date": "2024-03-10",
+   "evidence": "Examination Last date for Submission of Online Application Form Last date for payment of Online Application Fee Correction in Application Form (correction Window) Graduate Aptitude Test- Biotechnology (GAT-B) 10 March 2024 (upto 05:00 pm) 1",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Graduate Aptitude Test- Biotechnology (GAT-B)",
+   "key": "exam_date",
+   "date": "2024-03-10",
+   "page": 1,
+   "until": "2024-03-12"
+  },
+  {
+   "event": "Biotechnology Eligibility Test (BET)",
+   "key": "exam_date",
+   "date": "2024-03-10",
+   "page": 1,
+   "until": "2024-03-12"
+  }
+ ],
+ "links": {
+  "apply": [
+   "https://dbt.ntaonline.in"
+  ],
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2024-03-10"
+  },
+  "exam_date": "2024-03-10"
+ }
+}

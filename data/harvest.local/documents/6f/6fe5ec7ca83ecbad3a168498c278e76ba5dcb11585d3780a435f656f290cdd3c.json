@@ -1,0 +1,36 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "6fe5ec7ca83ecbad3a168498c278e76ba5dcb11585d3780a435f656f290cdd3c",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20260115164731.pdf",
+  "title": "Revised Guidelines for Ph.D Admissions of NIFT-2026 -reg. Read More",
+  "body": "in-nta",
+  "exam": "in-nift-entrance",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "a8d23ef857e88f558aaf183def8dfa94d1a01289daf9eafb6789edef283fea7c",
+  "bytes": 564260,
+  "pages": 1,
+  "chars": 1230,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-03T15:29:42+05:30"
+ },
+ "kind": "corrigendum",
+ "age": {
+  "limits": [
+   {
+    "max": 30,
+    "evidence": "The maximum age limit under NTF criteria shall be 30 years",
+    "page": 1
+   }
+  ]
+ },
+ "summary": {
+  "age": {
+   "max": 30
+  }
+ }
+}

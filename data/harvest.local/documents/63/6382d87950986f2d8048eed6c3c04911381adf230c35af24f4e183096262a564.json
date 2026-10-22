@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "6382d87950986f2d8048eed6c3c04911381adf230c35af24f4e183096262a564",
+  "url": "https://jceceb.jharkhand.gov.in/con_notice/518.pdf",
+  "title": "247 Important Notice regarding re-scheduledof 1 st Round Online Counselling of POST-GRADUATE Medical State Quotaseats View",
+  "body": "jh-jceceb",
+  "exam": "jh-pgmat-counselling",
+  "feed": "jh-jceceb/counselling-notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "67369817bbf87710fdeecf237a7276d33df480b3ac1f983f20a8f0e6db3e9d6e",
+  "bytes": 37374,
+  "pages": 1,
+  "chars": 1409,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:18:13+05:30"
+ },
+ "kind": "schedule",
+ "advertisement_no": "JCECEB/60/21-01",
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

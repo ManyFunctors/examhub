@@ -1,0 +1,78 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2415224281ffcd941be7b4061b53dafa6b7cbad543703e506a8bb3015bc63ddf",
+  "url": "https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/uiicl%20%28administrative%20officers%29%20%20IH%20eng%202026.pdf",
+  "title": "RECRUITMENT OF ADMINISTRATIVE OFFICERS (SCALE I)--GENERALISTS AND HINDI OFFICERS-2026 - Information Handout for the Online Preliminary Examination (Tier-I) (English)",
+  "body": "in-uiic",
+  "exam": "in-uiic-ao",
+  "feed": "in-uiic/recruitment",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "ee8c54dee4edc5ad9467bff99b559f10a272556bc1770ae91eec230f98825506",
+  "bytes": 628593,
+  "pages": 6,
+  "chars": 19335,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T13:46:43+05:30"
+ },
+ "kind": "advertisement",
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "(7) Both the candidate as well as scribe will have to give a suitable undertaking confirming that the scribe fulfils all the stipulated eligibility criteria for a scribe mentioned in the official recruitment notification",
+    "page": 5
+   },
+   {
+    "text": "Further in case it later transpires that he/she did not fulfill any laid down eligibility criteria or suppressed material facts the candidature of the applicant will stand cancelled, irrespective of the result of the online examination",
+    "page": 5
+   }
+  ]
+ },
+ "exam_pattern": [
+  {
+   "paper": "Test of English Language",
+   "page": 1,
+   "questions": 30,
+   "marks": 30,
+   "duration": "20 Minutes"
+  },
+  {
+   "paper": "Test of Reasoning",
+   "page": 1,
+   "questions": 35,
+   "marks": 35,
+   "duration": "20 Minutes"
+  },
+  {
+   "paper": "Test of Quantitative Aptitude",
+   "page": 1,
+   "questions": 35,
+   "marks": 35,
+   "duration": "20 Minutes"
+  },
+  {
+   "paper": "Total",
+   "page": 1,
+   "questions": 100,
+   "marks": 100,
+   "duration": "60 Minutes"
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  },
+  "negative_marking": {
+   "value": "One-fourth of the marks assigned for each wrong answer",
+   "page": 1
+  },
+  "duration": {
+   "value": "60 Minutes The total time for the test is 60 minutes",
+   "page": 1
+  }
+ }
+}

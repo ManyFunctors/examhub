@@ -1,0 +1,45 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "80afb559fc45ebbb1016688a214eaeb0b6471dfd9c0c0b8590d9c48617a84a87",
+  "url": "https://nta.ac.in/Download/Notice/20190504084030.pdf",
+  "title": "1886 NEET (UG) 2019 Examination Reschedule in Odisha Read More",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "7098e6cc9dde22c7c8c71239c5a3760507c618445ebb06c5ebf718333a5b1d87",
+  "bytes": 52836,
+  "pages": 1,
+  "chars": 1130,
+  "ocr": false,
+  "indic_share": 0.06,
+  "fetched": "2026-10-05T06:18:40+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2019-05-05",
+   "evidence": "On the request of the State Government of Odisha in the wake of Fani Cyclone, the NEET (UG) - 2019 Examination, which was scheduled to be held on 05.05.2019 (Sunday), has been postponed only for the Candidates having Examination Centres in ",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.ntaneet.nic.in",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2019-05-05"
+ }
+}

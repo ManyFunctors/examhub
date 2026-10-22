@@ -112,8 +112,8 @@ id = "br-bpsc/advertisements"
 body = "br-bpsc"
 url = "https://bpsc.bihar.gov.in/advertisement/"
 adapter = "html_links"
-yields = "notices"
 render = "browser"
+yields = "notices"
 include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
 status = "active"
 

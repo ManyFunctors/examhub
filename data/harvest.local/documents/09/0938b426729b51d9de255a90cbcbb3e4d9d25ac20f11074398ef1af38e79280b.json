@@ -1,0 +1,45 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0938b426729b51d9de255a90cbcbb3e4d9d25ac20f11074398ef1af38e79280b",
+  "url": "https://www.mhc.tn.gov.in/recruitment/docs/information_to_candidates_04112022.pdf",
+  "title": "Information to the candidates who appeared for the Written Examination conducted on 15.10.2022 & 16.10.2022 for the Posts of Reader and Examiner,Driver,etc.,in the Subordinates courts in the State of Tamilnadu(Notification Nos.154 to 209/2022).",
+  "body": "tn-mhc",
+  "exam": "tn-mhc-staff",
+  "feed": "tn-mhc/recruitment-archives",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "fcbbac7ff6a6f46e8a0167bb80634f2199722cc28b00983a22842806231c99c9",
+  "bytes": 633359,
+  "pages": 3,
+  "chars": 3871,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T14:40:22+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "exam_date": {
+   "date": "2022-10-16",
+   "evidence": "Accordingly, the OMR Answer Sheets of all the candidates for the Common Written Examination conducted on 16.10.2022 have been evaluated and the marks secured by the candidates have been hosted",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam_pattern": [
+  {
+   "paper": "B or C",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Offline",
+   "page": 1
+  }
+ },
+ "summary": {
+  "exam_date": "2022-10-16"
+ }
+}

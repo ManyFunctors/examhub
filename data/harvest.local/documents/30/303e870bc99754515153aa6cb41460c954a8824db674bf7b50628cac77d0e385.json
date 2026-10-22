@@ -1,0 +1,41 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "303e870bc99754515153aa6cb41460c954a8824db674bf7b50628cac77d0e385",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220718175038.pdf",
+  "title": "1218 Public Notice Date: 18 July 2022 Urgent announcement regarding CUET (UG)-2022 scheduled on 19 July 2022 - reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/notices",
+  "published": "2022-07-18",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "f7eb416d558164626d398989c014dc28c83cc08d51bd5aa8def5867d0234e8a2",
+  "bytes": 143644,
+  "pages": 1,
+  "chars": 839,
+  "ocr": false,
+  "indic_share": 0.07,
+  "fetched": "2026-10-07T13:17:06+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2022-07-19",
+   "evidence": "Urgent announcement regarding CUET (UG)-2022 scheduled on 19 July 2022 - reg",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://cuet.samarth.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-07-19"
+ }
+}

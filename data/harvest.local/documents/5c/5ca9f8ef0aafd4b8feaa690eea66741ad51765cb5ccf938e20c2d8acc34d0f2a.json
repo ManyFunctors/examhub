@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "5ca9f8ef0aafd4b8feaa690eea66741ad51765cb5ccf938e20c2d8acc34d0f2a",
+  "url": "https://aphc.gov.in/docs/notification_1790770747_0.pdf",
+  "title": "RECRUITMENT – DISTRICT JUDGE (ENTRY LEVEL) UNDER DIRECT RECRUITMENT - Notification inviting applications for recruitment to ten (10) 10 posts of District Judge (Entry Level) under direct recruitment, for the year 2026 – Notified.",
+  "body": "ap-hc",
+  "exam": "ap-hc-judicial",
+  "feed": "ap-hc/recruitment",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "7f43cc536738c9576f6f866151e91d5833ecb07cfc3df3611741d8e209fb6d26",
+  "bytes": 650863,
+  "pages": 20,
+  "chars": 31722,
+  "ocr": true,
+  "ocr_engine": "ocrmypdf+tesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:29+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "364/2026",
+ "dates": {
+  "age_as_on": {
+   "date": "2026-09-01",
+   "evidence": "14. | Age as on 01.09.2026",
+   "page": 12,
+   "from": "text"
+  }
+ },
+ "age": {
+  "as_on": "2026-09-01"
+ },
+ "pay": [
+  {
+   "low": 144840,
+   "high": 194660,
+   "text": "₹144,840–194,660",
+   "evidence": "The scale of pay for the post of District Judge is Rs.144840-194660",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "In case of a tie in age also, the candidate, who possesses higher educational qualification would be considered",
+    "page": 7
+   },
+   {
+    "text": "In case of tie in higher educational qualification also, the candidate with highest marks in the prescribed educational qualification will be considered",
+    "page": 7
+   },
+   {
+    "text": "Years Months Days 15 Educational Qualifications (Give particulars of all examinations passed commencing from S.S.C. or its equivalent examination) (enclose attested copies of certificates)",
+    "page": 12
+   },
+   {
+    "text": "- ' I further declare that I fulfill all the conditions of eligibility including age limit, educational qualifications etc., prescribed for appointment to the post of District Judge and that where copies of documents enclosed to my application are true copies of the originals and the originals are…",
+    "page": 17
+   }
+  ]
+ },
+ "selection": [
+  "Written examination"
+ ],
+ "exam": {
+  "duration": {
+   "value": "The duration of examination will be two (2) hours",
+   "page": 5
+  }
+ },
+ "summary": {
+  "pay": "₹144,840–194,660",
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Written examination"
+ },
+ "warnings": [
+  "OCR stopped after 20 of 23 pages: the rest of this document is un-extracted, so nothing from it can be stored",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

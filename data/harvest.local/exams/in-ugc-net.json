@@ -1,0 +1,207 @@
+{
+ "schema": 1,
+ "exam": "in-ugc-net",
+ "name": "UGC National Eligibility Test",
+ "body": "in-nta",
+ "purpose": "eligibility",
+ "cycle": "2026-12",
+ "documents": 85,
+ "documents_in_cycle": 5,
+ "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "Unreserved"
+     ],
+     "amount": 1150,
+     "raw": "ApplicationFee   General/Unreserved Rs 1150/ . -",
+     "page": 1
+    },
+    {
+     "categories": [
+      "Unreserved",
+      "EWS",
+      "OBC"
+     ],
+     "amount": 600,
+     "raw": "   General -EWS/OBC - Rs 600/ . -",
+     "page": 1
+    },
+    {
+     "categories": [
+      "SC",
+      "ST",
+      "PwBD"
+     ],
+     "amount": 325,
+     "raw": "   SC/ST/PwD/Third Rs 325/ . -",
+     "page": 1
+    }
+   ],
+   "source": {
+    "notice": "ac992f6c0a5a9adf77c5e001bdc71c80fbd714869239eaa38ada15dde4f0e7ba",
+    "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081928217016.pdf",
+    "title": "Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg",
+    "kind": "schedule",
+    "page": 1
+   },
+   "alternatives": 2
+  },
+  "dates": {
+   "exam_date": {
+    "date": "2026-12-01",
+    "provisional": true,
+    "source": {
+     "notice": "86f80b7508c3bc031f964c82187954919e6509c71fe365a0eeeb047d56effd83",
+     "url": "http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf",
+     "title": "Public Notice Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination",
+     "kind": "corrigendum",
+     "page": 42
+    },
+    "alternatives": 4
+   },
+   "payment_deadline": {
+    "date": "2026-10-28",
+    "source": {
+     "notice": "ac992f6c0a5a9adf77c5e001bdc71c80fbd714869239eaa38ada15dde4f0e7ba",
+     "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081928217016.pdf",
+     "title": "Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg",
+     "kind": "schedule",
+     "page": 1
+    },
+    "alternatives": 2
+   },
+   "registration_deadline": {
+    "date": "2026-10-28",
+    "provisional": true,
+    "source": {
+     "notice": "86f80b7508c3bc031f964c82187954919e6509c71fe365a0eeeb047d56effd83",
+     "url": "http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf",
+     "title": "Public Notice Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination",
+     "kind": "corrigendum",
+     "page": 31
+    },
+    "alternatives": 4
+   },
+   "registration_open": {
+    "date": "2026-10-08",
+    "provisional": true,
+    "source": {
+     "notice": "86f80b7508c3bc031f964c82187954919e6509c71fe365a0eeeb047d56effd83",
+     "url": "http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf",
+     "title": "Public Notice Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination",
+     "kind": "corrigendum",
+     "page": 31
+    },
+    "alternatives": 4
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-10-08",
+    "until": "2026-10-28"
+   },
+   "source": {
+    "notice": "86f80b7508c3bc031f964c82187954919e6509c71fe365a0eeeb047d56effd83",
+    "url": "http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf",
+    "title": "Public Notice Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination",
+    "kind": "corrigendum",
+    "page": 31
+   }
+  },
+  "exam_date": {
+   "value": "2026-12-01",
+   "source": {
+    "notice": "86f80b7508c3bc031f964c82187954919e6509c71fe365a0eeeb047d56effd83",
+    "url": "http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf",
+    "title": "Public Notice Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination",
+    "kind": "corrigendum",
+    "page": 42
+   }
+  },
+  "apply_links": {
+   "value": [
+    "https://www.ugcnetonline.in/syllabus-new.php"
+   ],
+   "source": {
+    "notice": "86f80b7508c3bc031f964c82187954919e6509c71fe365a0eeeb047d56effd83",
+    "url": "http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf",
+    "title": "Public Notice Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination",
+    "kind": "corrigendum"
+   },
+   "alternatives": 1
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "Eligibility Criteria for UGC-NET December 2026",
+      "page": 39
+     },
+     {
+      "text": "(c) Candidates belonging to the Third gender category are eligible to draw the same relaxation in fee, age and Eligibility Criteria for NET (i.e",
+      "page": 39
+     },
+     {
+      "text": "(f) The candidates having passed a 4-year/8-semester bachelor’s degree programme should have a minimum of 75% marks in aggregate or its equivalent grade on a point scale wherever the grading system is followed",
+      "page": 39
+     },
+     {
+      "text": "NTA does not verify the information provided by the candidates during online registration and hence candidature will be purely provisional subject to the fulfillment of eligibility criteria",
+      "page": 40
+     },
+     {
+      "text": "The candidate should have the discretion of opting for his own scribe / reader / lab assistant or request the Examination Body for the same",
+      "page": 49
+     },
+     {
+      "text": "No Admit Card shall be issued to the candidates whose applications are found to be incomplete for any reasons (including indistinct/ doubtful photographs/unsigned Applications) or who do not fulfill the eligibility criteria for the examination",
+      "page": 53
+     },
+     {
+      "text": "Step III: In order to be considered, the candidate must have appeared in both the papers and secured at least 40% aggregate marks in both the papers taken together for General (Unreserved) / General-EWS category candidates and at least 35% aggregate marks in both the papers taken together for all…",
+      "page": 65
+     },
+     {
+      "text": "The candidates with Master’s Degree in Geography (with specialization in Population Studies) or Mathematics/ Statistics are also eligible to appear in the subject “Population Studies” (Code 015)",
+      "page": 74
+     },
+     {
+      "text": "‘**’The candidates with Master’s Degree in Humanities (including languages) and Social Sciences are eligible to appear in subject “Women Studies” (Code 074)",
+      "page": 74
+     }
+    ]
+   },
+   "source": {
+    "notice": "86f80b7508c3bc031f964c82187954919e6509c71fe365a0eeeb047d56effd83",
+    "url": "http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf",
+    "title": "Public Notice Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination",
+    "kind": "corrigendum"
+   },
+   "alternatives": 1
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "09:00 am to 12:00 pm (IST)",
+     "page": 1,
+     "questions": 50,
+     "marks": 100
+    }
+   ],
+   "source": {
+    "notice": "7502b1733f20b35c04e474c7500e63763d650bee02f5ca23963db5cfa931d71e",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20210202165520.pdf",
+    "title": "1617 Public Notice: UGC-NET, Dec 2020 Cycle (May 2021) English Read More",
+    "kind": "brochure"
+   },
+   "carried_from": "2021-12"
+  }
+ },
+ "gaps": [],
+ "older_documents": 80
+}

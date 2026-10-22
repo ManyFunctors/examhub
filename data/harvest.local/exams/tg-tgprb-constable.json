@@ -1,0 +1,246 @@
+{
+ "schema": 1,
+ "exam": "tg-tgprb-constable",
+ "name": "TGLPRB Police Constable Recruitment",
+ "body": "tg-tgprb",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 2,
+ "documents_in_cycle": 1,
+ "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "Domicile",
+      "SC",
+      "ST"
+     ],
+     "amount": 50,
+     "raw": "a rebate of Rs.50/- per each additional Post applied for (in excess of 1 Post) on account of the saving incurred due to the conduct of Common Physical Measurement Test and Physical Efficiency Test shall be given, in the total fee payable,…",
+     "page": 4
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 100,
+     "raw": "a rebate of Rs.50/- per each additional Post applied for (in excess of 1 Post) on account of the saving incurred due to the conduct of Common Physical Measurement Test and Physical Efficiency Test shall be given, in the total fee payable,…",
+     "page": 4
+    }
+   ],
+   "source": {
+    "notice": "b85f12bf47d466f5b00aa8f029ceff942bfd8ed7f2f1354679cb23b8132af7a1",
+    "url": "https://doc.tgprb.in/PC+Driver+%26+Mechanic+Notification+2026+dated+29-07-2026.pdf",
+    "title": "SCT PC Mechanic / Driver Notification Supplementary Notification Second Supplementary Notification Category wise breakup of vacancies",
+    "kind": "advertisement",
+    "page": 4
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2026-07-01",
+    "source": {
+     "notice": "b85f12bf47d466f5b00aa8f029ceff942bfd8ed7f2f1354679cb23b8132af7a1",
+     "url": "https://doc.tgprb.in/PC+Driver+%26+Mechanic+Notification+2026+dated+29-07-2026.pdf",
+     "title": "SCT PC Mechanic / Driver Notification Supplementary Notification Second Supplementary Notification Category wise breakup of vacancies",
+     "kind": "advertisement",
+     "page": 13
+    }
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate",
+     "Class 12",
+     "Class 10"
+    ],
+    "clauses": [
+     {
+      "text": "INSTRUCTIONS TO BE READ CAREFULLY The requisite Educational qualification, Age, Physical standards, Procedure to be followed for selection, etc., are given below",
+      "page": 12
+     },
+     {
+      "text": "a) For Post Code No. 35 the Candidate must have attained the age of 18 years and must not have attained the age of 22 years as on 1st July, 2026",
+      "page": 13
+     },
+     {
+      "text": "For Post Code No. 36 the Candidate must have attained the age of 21 years and must not have",
+      "page": 13
+     },
+     {
+      "text": "For Post Code No. 35 such Candidate must have attained the age of 18 years and must not have attained the age of 40 years as on 1st July, 2026 and for Post Code No. 36 such Candidate must have attained the age of 21 years and",
+      "page": 13
+     },
+     {
+      "text": "Educational Qualification:",
+      "page": 14
+     },
+     {
+      "text": "i) For Post Code No. 35: Must have passed SSC or any other examination recognized by the State Government as being equivalent to SSC and must possess an Industrial Training Institutional Certificate in Auto Electrician OR",
+      "page": 14
+     },
+     {
+      "text": "a) Academic Qualification: 1) Intermediate examination or any other examination recognized as its equivalent by the State Board of Intermediate Education as on the date of Notification i.e., 29th July, 2026",
+      "page": 15
+     },
+     {
+      "text": "2) SSC or any other examination recognized by the State Government as being equivalent to SSC and must possess an Industrial Training Institutional Certificate in Auto Electrician OR Mechanic Motor vehicle OR Mechanic Diesel OR Fitter as on the date of Notification i.e., 29th July, 2026",
+      "page": 15
+     },
+     {
+      "text": "b) Technical Qualification:- Must have possessed a valid Heavy Passenger Motor Vehicle (HPMV) and Heavy Goods Vehicle or Transport Vehicle as",
+      "page": 16
+     },
+     {
+      "text": "The Candidate should have a valid Driving License as on the date of Notification, and such License shall have validity at the time of the Driving Test also",
+      "page": 16
+     },
+     {
+      "text": "(ii) The quota under Special Categories, for the Notifications issued by TSLPRB, is applicable only to the Local Candidates of Telangana State as per the definition of Local Candidate given in Presidential Order, 2018, and must possess a Community Certificate issued by the Competent Authorities of…",
+      "page": 26
+     }
+    ]
+   },
+   "source": {
+    "notice": "b85f12bf47d466f5b00aa8f029ceff942bfd8ed7f2f1354679cb23b8132af7a1",
+    "url": "https://doc.tgprb.in/PC+Driver+%26+Mechanic+Notification+2026+dated+29-07-2026.pdf",
+    "title": "SCT PC Mechanic / Driver Notification Supplementary Notification Second Supplementary Notification Category wise breakup of vacancies",
+    "kind": "advertisement"
+   }
+  },
+  "selection": {
+   "value": [
+    "Physical test",
+    "Medical examination",
+    "Preliminary examination",
+    "Written examination"
+   ],
+   "source": {
+    "notice": "b85f12bf47d466f5b00aa8f029ceff942bfd8ed7f2f1354679cb23b8132af7a1",
+    "url": "https://doc.tgprb.in/PC+Driver+%26+Mechanic+Notification+2026+dated+29-07-2026.pdf",
+    "title": "SCT PC Mechanic / Driver Notification Supplementary Notification Second Supplementary Notification Category wise breakup of vacancies",
+    "kind": "advertisement"
+   }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "Setting of Tappet clearance, cylinder head nut tightening in the order of sequence",
+     "page": 20,
+     "marks": 10
+    },
+    {
+     "paper": "Rear & front hub setting usage dial gauge",
+     "page": 20,
+     "marks": 10
+    },
+    {
+     "paper": "Clutch master Cyl./Slave Cyl./Booster Assembly",
+     "page": 20,
+     "marks": 10
+    },
+    {
+     "paper": "Clutch disc changing and adjustment",
+     "page": 20,
+     "marks": 10
+    },
+    {
+     "paper": "Gearbox selector mechanism dismantling and assembly Signals",
+     "page": 20,
+     "marks": 10
+    },
+    {
+     "paper": "Feed pump assembly and injector testing",
+     "page": 20,
+     "marks": 10
+    },
+    {
+     "paper": "Kingpin play adjustment (Leyland)",
+     "page": 20,
+     "marks": 10
+    },
+    {
+     "paper": "Attending Air lock (both rotary & Inline FIP systems)",
+     "page": 20,
+     "marks": 10
+    },
+    {
+     "paper": "Setting of valve timing and Injector timing, Plunger lift setting in Rotary FIP",
+     "page": 20,
+     "marks": 10
+    },
+    {
+     "paper": "4-wheel brake adjustment with manual and automatic slack adjuster",
+     "page": 20,
+     "marks": 10
+    },
+    {
+     "paper": "Total",
+     "page": 20,
+     "marks": 100
+    },
+    {
+     "paper": "Starting a Light Motor Vehicle, such as a Jeep",
+     "page": 21,
+     "marks": 10
+    },
+    {
+     "paper": "Gear changing up & down",
+     "page": 21,
+     "marks": 10
+    },
+    {
+     "paper": "Road sense, general driving, control of vehicle in all conditions of traffic & steering control, anticipation & judgment",
+     "page": 21,
+     "marks": 20
+    },
+    {
+     "paper": "Use of brakes, stopping, parking, and reversing of vehicles",
+     "page": 21,
+     "marks": 10
+    },
+    {
+     "paper": "Following Road Police Signals",
+     "page": 21,
+     "marks": 10
+    },
+    {
+     "paper": "To carry out minor repairs and to attend to breakdown problems",
+     "page": 21,
+     "marks": 15
+    },
+    {
+     "paper": "Knowledge of Motor Vehicle Mechanism",
+     "page": 21,
+     "marks": 15
+    },
+    {
+     "paper": "Knowledge of Preventive Maintenance",
+     "page": 21,
+     "marks": 10
+    },
+    {
+     "paper": "Total",
+     "page": 21,
+     "marks": 100
+    }
+   ],
+   "source": {
+    "notice": "b85f12bf47d466f5b00aa8f029ceff942bfd8ed7f2f1354679cb23b8132af7a1",
+    "url": "https://doc.tgprb.in/PC+Driver+%26+Mechanic+Notification+2026+dated+29-07-2026.pdf",
+    "title": "SCT PC Mechanic / Driver Notification Supplementary Notification Second Supplementary Notification Category wise breakup of vacancies",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "age",
+  "pay"
+ ],
+ "older_documents": 1
+}

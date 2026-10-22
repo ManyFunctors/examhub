@@ -1,0 +1,74 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "406471991ee9d3ef9f729e3bf596f491d205086e1be22ddb03149c6842bb83c6",
+  "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=4300&type=n",
+  "title": "Admission Notification for B.Ed. Kashmir (IASE) & B.Ed. Special Education (CRC) Courses—2019[B.Ed(K)-NN-004]",
+  "body": "jk-jkbopee",
+  "exam": "jk-jkbopee-nursing-paramedical",
+  "feed": "jk-jkbopee/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "21f21aa5c9f042824d4452686e36a1d17b0c439b5b9d0e2fe463af3702204c2b",
+  "bytes": 2507262,
+  "pages": 6,
+  "chars": 14786,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:38:43+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "004",
+ "dates": {
+  "registration_deadline": {
+   "date": "2019-02-15",
+   "evidence": "Last date for filling the online application forms: 15-02-2019.",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 1200,
+   "raw": "Fee Rs. 1200 /- (Rupees one thousand and two hundred only) to be paid online through National Credit Card/Debit Card /Net Banking.",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "The Board .shall, on receipt of any such- :communications from the concerned authority/ university 0 notify the same, which shall govern the eligibility criteria",
+    "page": 3
+   }
+  ]
+ },
+ "exam": {
+  "negative_marking": {
+   "value": "One-fourth of the marks assigned for each wrong answer",
+   "page": 2
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.ikbopee.eov.in",
+   "https://www.jkbopee.gov.in/",
+   "https://www.jakbopee.orq",
+   "https://www.jakbopee.org",
+   "https://www.jkbopee.gov.in/www.jakbopee.ora",
+   "https://www.ikbopee.gov.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2019-02-15"
+  },
+  "fee": {
+   "min": 1200,
+   "max": 1200
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c641a4577e3a4df62eb52cfb263ee779a1dbfe8faedcc5bcd0eabbe1c83e1ca3",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20260524180310.pdf",
+  "title": "Rescheduling of Common University Entrance Test [CUET (UG)] 2026– Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/home",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "4c3e4940ef962e9af1c326b9e2803608f476c1bc737a86f139ee3f90a2d1e406",
+  "bytes": 395174,
+  "pages": 1,
+  "chars": 1231,
+  "ocr": false,
+  "indic_share": 0.07,
+  "fetched": "2026-10-07T14:52:55+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2026-05-28",
+   "evidence": "examinations scheduled to be held on 28.05.2026 in both shifts stand postponed",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://nta.ac.in/",
+   "https://cuet.nta.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-05-28"
+ }
+}

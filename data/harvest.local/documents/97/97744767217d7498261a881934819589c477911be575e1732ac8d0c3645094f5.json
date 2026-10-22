@@ -1,0 +1,39 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "97744767217d7498261a881934819589c477911be575e1732ac8d0c3645094f5",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20260718195817.pdf",
+  "title": "NTA Successfully Conducts Joint CSIR-UGC NET June 2026 Examination Across the Nation Read More",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "7b4f75ddfb7986b1c69858847d43e8eb86106793fbbbce181256c403053f1df7",
+  "bytes": 179193,
+  "pages": 1,
+  "chars": 1869,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-05T12:56:20+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2026-07-17",
+   "evidence": "Conducted in Computer-Based Test (CBT) mode over two days, on 17 and 18 July 2026, the examination determines eligibility for the award of Junior Research Fellowship (JRF), appointment as Assistant Professor, and admission to Ph.D. programm",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "summary": {
+  "exam_date": "2026-07-17"
+ }
+}

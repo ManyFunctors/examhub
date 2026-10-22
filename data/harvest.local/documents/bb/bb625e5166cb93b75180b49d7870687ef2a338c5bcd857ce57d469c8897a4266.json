@@ -1,0 +1,48 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "bb625e5166cb93b75180b49d7870687ef2a338c5bcd857ce57d469c8897a4266",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210303163650.pdf",
+  "title": "1593 PUBLIC NOTICE : Extension of last date for submission of Online Applications for ARPIT-2020. Read More",
+  "body": "in-nta",
+  "exam": "in-nta-arpit",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "e96b291a3fdb7e4201b379353d94b6a9925c581abb4c2041cb2c0f9b9f730d8b",
+  "bytes": 395348,
+  "pages": 1,
+  "chars": 1702,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-05T17:27:05+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "registration_open": {
+   "date": "2021-03-03",
+   "evidence": "As per the request of aspirants regarding extension of registration dates due to server issues, it has been decided by the Competent Authority to extend the last date for online submission of Exam Application Forms of ARPIT-2020 from 03.03.",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2021-03-10",
+   "evidence": "As per the request of aspirants regarding extension of registration dates due to server issues, it has been decided by the Competent Authority to extend the last date for online submission of Exam Application Forms of ARPIT-2020 from 03.03.",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://arpit.nta.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2021-03-03",
+   "until": "2021-03-10"
+  }
+ }
+}

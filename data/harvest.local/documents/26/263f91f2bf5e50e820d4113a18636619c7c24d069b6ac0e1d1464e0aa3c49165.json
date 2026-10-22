@@ -1,0 +1,140 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "263f91f2bf5e50e820d4113a18636619c7c24d069b6ac0e1d1464e0aa3c49165",
+  "url": "https://tshc.gov.in/documents/NORMAL_Recruitment_2026_01_19T18_31_59.pdf",
+  "title": "Notification No.05/2026 dated 19-01-2026 for recruitment to the posts of Examiner under Telangana Judicial Ministerial and Subordinate Service - Regarding.",
+  "body": "tg-hc",
+  "exam": "tg-hc-staff",
+  "feed": "tg-hc/recruitment-2",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "52a76809d673f680b9ef8d2d6cc0a6ff218341573ffd04c43245d5330d5944a4",
+  "bytes": 5403256,
+  "pages": 14,
+  "chars": 20541,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:18:16+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "05/2026",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-01-24",
+   "evidence": "Starting Date for submission of online Application 24-01-2026",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 76,
+  "evidence": "BHADRADRI KOTHAGUDEM Abstract of vacancies Class/Category Number of posts 76C (Blindness or Low 7 1 . ] vision) 7 CITY CIVIL COURT, HYDERABAD Abstract of vacancies Class/Category Number of posts oc 1 - SC (G-Il 1 TOTAL",
+  "page": 10,
+  "from": "text"
+ },
+ "fees": [
+  {
+   "categories": [
+    "SC",
+    "ST"
+   ],
+   "amount": 400,
+   "raw": "b) Only the applicants belonging to a community recognized as SC/ST in the State of Telangana alone are entitled for the concessional payment of examination fee of Rs.400/- (Rupees four hundred only).",
+   "page": 5
+  }
+ ],
+ "pay": [
+  {
+   "low": 22900,
+   "high": 69150,
+   "text": "₹22,900–69,150",
+   "evidence": "Applications are invited through ONLINE for direct recruitment to the posts of Examiner in the Judicial Districts of State of Telangana as per the Telangana Judicial Ministerial and Subordinate Service Rules, 2018, carrying scale of pay of Rs.22900-69150.",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "EDUCATIONAL QUALIFICATION:",
+    "page": 2
+   },
+   {
+    "text": "a) Must have passed Intermediate examination conducted by the State Board of Intermediate Education or its equivalent examination.",
+    "page": 2
+   },
+   {
+    "text": "c) The candidate shall possess the aforesaid Educational Qualifications as on the date of this notification",
+    "page": 2
+   },
+   {
+    "text": "LINGUISTIC QUALIFICATION:",
+    "page": 3
+   },
+   {
+    "text": "a) As on 01-07-2026, all the candidates (except the ex-service person), must have completed the age of 18 years and must not have completed the age of 46 years.",
+    "page": 3
+   },
+   {
+    "text": "To apply under this category, the aforesaid candidates must have put in at least two years of service by the date of publication of this notification",
+    "page": 3
+   },
+   {
+    "text": "a) The computer-based examination will be of the standard consistent with the minimum educational qualification prescribed i.e., Intermediate",
+    "page": 4
+   },
+   {
+    "text": "In case of a tie in age also, the candidate with highest marks in the prescribed educational qualification would be considered.",
+    "page": 6
+   },
+   {
+    "text": "p) All rights are reserved with the appointing authority to cancel the provisional selection of the candidates if the certificates of - the provisionally selected candidates such as eligibility, educational qualification, social status, local status and disability etc., are found to be incorrect…",
+    "page": 9
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  },
+  "negative_marking": {
+   "value": "One-third of the marks assigned for each wrong answer",
+   "page": 4
+  },
+  "duration": {
+   "value": "The duration of the computer-based examination will be 120 minutes.",
+   "page": 4
+  }
+ },
+ "links": {
+  "other": [
+   "https://tshc.gov.in",
+   "http://tshc.gov.in”"
+  ]
+ },
+ "summary": {
+  "vacancies": 76,
+  "apply": {
+   "until": "2026-01-24"
+  },
+  "fee": {
+   "min": 400,
+   "max": 400
+  },
+  "pay": "₹22,900–69,150",
+  "education": [
+   "Graduate",
+   "Class 12"
+  ]
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "schema": 1,
+ "exam": "jk-jkbopee-nursing-paramedical",
+ "name": "JKBOPEE B.Sc. Nursing / Paramedical / B.Ed. Entrance",
+ "body": "jk-jkbopee",
+ "purpose": "admission",
+ "cycle": "2020",
+ "documents": 9,
+ "documents_in_cycle": 1,
+ "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 500,
+     "raw": "Fee Rs. 500 (Rupees five hundred only) to be paid online through National Credit Card/Debit Card /Net Banking.",
+     "page": 1
+    }
+   ],
+   "source": {
+    "notice": "536c96e49e27b77f26343341e1b1c796cb46304b5b7b0a52eff442be2c8ac626",
+    "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=12614&type=n",
+    "title": "Admission Notification for (10th based) Paramedical Courses (FMPHW & MMPHW) -2020 [PM-NN-005]",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "dates": {
+   "registration_deadline": {
+    "date": "2020-04-02",
+    "source": {
+     "notice": "536c96e49e27b77f26343341e1b1c796cb46304b5b7b0a52eff442be2c8ac626",
+     "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=12614&type=n",
+     "title": "Admission Notification for (10th based) Paramedical Courses (FMPHW & MMPHW) -2020 [PM-NN-005]",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2020-04-02"
+   },
+   "source": {
+    "notice": "536c96e49e27b77f26343341e1b1c796cb46304b5b7b0a52eff442be2c8ac626",
+    "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=12614&type=n",
+    "title": "Admission Notification for (10th based) Paramedical Courses (FMPHW & MMPHW) -2020 [PM-NN-005]",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "advertisement_no": {
+   "value": "005",
+   "source": {
+    "notice": "536c96e49e27b77f26343341e1b1c796cb46304b5b7b0a52eff442be2c8ac626",
+    "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=12614&type=n",
+    "title": "Admission Notification for (10th based) Paramedical Courses (FMPHW & MMPHW) -2020 [PM-NN-005]",
+    "kind": "advertisement"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Class 10"
+    ],
+    "clauses": [
+     {
+      "text": "b) have passed 10th Class Examination from a recognized Board/Institution with science and mathematics subject",
+      "page": 3
+     }
+    ]
+   },
+   "source": {
+    "notice": "536c96e49e27b77f26343341e1b1c796cb46304b5b7b0a52eff442be2c8ac626",
+    "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=12614&type=n",
+    "title": "Admission Notification for (10th based) Paramedical Courses (FMPHW & MMPHW) -2020 [PM-NN-005]",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "exam_date",
+  "exam_pattern"
+ ],
+ "older_documents": 8
+}

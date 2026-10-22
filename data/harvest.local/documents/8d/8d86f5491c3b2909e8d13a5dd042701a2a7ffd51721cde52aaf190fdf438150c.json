@@ -1,0 +1,50 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "8d86f5491c3b2909e8d13a5dd042701a2a7ffd51721cde52aaf190fdf438150c",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20241015162120.pdf",
+  "title": "Extension of Date of Registration for National Teachers Eligibility Test (NTET) - 2024. Read More",
+  "body": "in-nta",
+  "exam": "in-ntet",
+  "feed": "in-nta/home",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "1db988734901d1579f1dfc0cf4e2acc68db9d46e05a311b8f3ac5415c169add4",
+  "bytes": 923131,
+  "pages": 1,
+  "chars": 1486,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-03T00:01:36+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "registration_open": {
+   "date": "2024-09-24",
+   "evidence": "Events Existing Dates Revised Dates Online submission of Application Form 24 September 2024 to 14 October 2024 (Up to 11:50 P.M.)",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2024-10-14",
+   "evidence": "Events Existing Dates Revised Dates Online submission of Application Form 24 September 2024 to 14 October 2024 (Up to 11:50 P.M.)",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/NTET/"
+  ],
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2024-09-24",
+   "until": "2024-10-14"
+  }
+ }
+}

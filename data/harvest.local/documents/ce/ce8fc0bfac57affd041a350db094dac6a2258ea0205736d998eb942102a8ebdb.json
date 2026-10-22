@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "ce8fc0bfac57affd041a350db094dac6a2258ea0205736d998eb942102a8ebdb",
+  "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/06/202606121362310226.pdf",
+  "title": "Correction in the Particulars of the Online Application Form for the Indian Council of Agricultural Research (ICAR) AIEEA (PG) and AICE JRF/SRF (Ph.D.) Entrance Examinations – 2026",
+  "body": "in-nta",
+  "exam": "in-icar-aice-phd",
+  "feed": "in-nta/icar",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "4b63a825f2978d9ca2904c5f40d9570236a7a76412dadfc7a174ffc32c097664",
+  "bytes": 774032,
+  "pages": 2,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T22:49:28+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "536c96e49e27b77f26343341e1b1c796cb46304b5b7b0a52eff442be2c8ac626",
+  "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=12614&type=n",
+  "title": "Admission Notification for (10th based) Paramedical Courses (FMPHW & MMPHW) -2020 [PM-NN-005]",
+  "body": "jk-jkbopee",
+  "exam": "jk-jkbopee-nursing-paramedical",
+  "feed": "jk-jkbopee/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "6137781a44e11eddffc7addc58f4e140d58c9ee983dc3bb9086755b124d20752",
+  "bytes": 2477098,
+  "pages": 6,
+  "chars": 14986,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:34+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "005",
+ "dates": {
+  "registration_deadline": {
+   "date": "2020-04-02",
+   "evidence": "Last date for filling the online application forms: 02-04-2020.",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 500,
+   "raw": "Fee Rs. 500 (Rupees five hundred only) to be paid online through National Credit Card/Debit Card /Net Banking.",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Class 10"
+  ],
+  "clauses": [
+   {
+    "text": "b) have passed 10th Class Examination from a recognized Board/Institution with science and mathematics subject",
+    "page": 3
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "http://www.jkbopee.gov.in",
+   "https://www.jkbopee.gov.in/",
+   "https://www.jakbopee.org",
+   "https://www.ikbopee.gov.in",
+   "https://www.iakbopee.org"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2020-04-02"
+  },
+  "fee": {
+   "min": 500,
+   "max": 500
+  },
+  "education": [
+   "Class 10"
+  ]
+ }
+}

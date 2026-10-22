@@ -1,0 +1,69 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "b83296ae625cd0e22ec0abc1afb3ffaf0e0b527c31e7ce7a542afde795dda678",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20241011152301.pdf",
+  "title": "Inviting Online Application Forms for Study Webs of Active Learning for Young Aspiring Minds (SWAYAM) (July 2024 Semester) Exam Read More",
+  "body": "in-nta",
+  "exam": "in-nta-swayam",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "90c040cd27ac3a48c6c05fdc0d5e67cc022fed29cf20cce1b5cb375cfc49d156",
+  "bytes": 879172,
+  "pages": 20,
+  "chars": 44077,
+  "ocr": false,
+  "indic_share": 0.02,
+  "fetched": "2026-10-08T02:10:32+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2024-12-07",
+   "evidence": "01 November 2024 to 03 November 2024 Downloading of Admit Card from NTA Website Will be announced later on NTA website Date of Examination",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2024-10-11",
+   "evidence": "Online Submission of Application Form 11 October 2024 to 31 October 2024 Last date of Successful transaction of fee through Credit/Debit Card/Net Banking/UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2024-10-31",
+   "evidence": "Online Submission of Application Form 11 October 2024 to 31 October 2024 Last date of Successful transaction of fee through Credit/Debit Card/Net Banking/UPI",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "selection": [
+  "Computer-based test"
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/",
+   "https://exams.nta.ac.in/swayam"
+  ],
+  "other": [
+   "https://swayam.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2024-10-11",
+   "until": "2024-10-31"
+  },
+  "exam_date": "2024-12-07",
+  "selection": "Computer-based test"
+ }
+}

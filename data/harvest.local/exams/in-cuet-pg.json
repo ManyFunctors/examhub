@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "exam": "in-cuet-pg",
+ "name": "Common University Entrance Test (PG)",
+ "body": "in-nta",
+ "purpose": "admission",
+ "cycle": "2026-03",
+ "documents": 41,
+ "documents_in_cycle": 5,
+ "fields": {},
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 36
+}

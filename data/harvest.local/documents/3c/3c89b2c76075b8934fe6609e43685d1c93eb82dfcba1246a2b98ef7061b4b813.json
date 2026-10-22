@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3c89b2c76075b8934fe6609e43685d1c93eb82dfcba1246a2b98ef7061b4b813",
+  "url": "https://police.rajasthan.gov.in/old/PoliceUser/UploadUtility/RecruitmentFiles/Recruitment19082021162859.pdf",
+  "title": "Reg. SI recruitment 2016 ( 39 candidates medical)",
+  "body": "rj-police",
+  "exam": "rj-police-si",
+  "feed": "rj-police/recruitment",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "d0a087842c68deeba4ed67125aa25fb0ddd1b597cb9ff99b59b428fd62d3f458",
+  "bytes": 99060,
+  "pages": 2,
+  "chars": 2631,
+  "ocr": true,
+  "ocr_engine": "ocrmypdf+tesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:33+05:30"
+ },
+ "kind": "advertisement",
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

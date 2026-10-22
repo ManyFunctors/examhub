@@ -1,0 +1,46 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d52f9a3ca259c38e7a6c00356ca508e69552a333a247ab45a97ea47cbc5a540c",
+  "url": "https://nta.ac.in/Download/Notice/20190515143813.pdf",
+  "title": "1880 PUBLIC NOTICE AIAPGET 2019 Read More",
+  "body": "in-nta",
+  "exam": "in-aiapget",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "5bce78c5a36ca513f066d8ad7e66b7d1e5996e13663383228cc7546fe7de48a2",
+  "bytes": 60176,
+  "pages": 1,
+  "chars": 1111,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-07T06:25:12+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "exam_date": {
+   "date": "2019-07-14",
+   "evidence": "The NTA will conduct the next AIAPGET 2019 examinations on 14 July 2019",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.ntaaiapget.nic.in",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2019-07-14"
+ }
+}

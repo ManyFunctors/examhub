@@ -1,0 +1,55 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "53d59ef309d74ae8472ed780049257c7270a1c377e2b13e916ab6fae262985a9",
+  "url": "https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/Corrigendum%20-%20Recruitment%20of%20Administrative%20Officers%20%28Scale%20I%29%20-%20Generalists%20and%20Hindi%20Officers-2026_0.pdf",
+  "title": "RECRUITMENT OF ADMINISTRATIVE OFFICERS (SCALE I)--GENERALISTS AND HINDI OFFICERS-2026 - Corrigendum - Recruitment Of Administrative Officers (Scale I)--Generalists And Hindi Officers-2026",
+  "body": "in-uiic",
+  "exam": "in-uiic-ao",
+  "feed": "in-uiic/recruitment",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "32bbb2c303312b87529975ae6b7b5883a9746c15c0636c128a23226bebaac937",
+  "bytes": 200002,
+  "pages": 1,
+  "chars": 1918,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T13:46:51+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "payment_deadline": {
+   "date": "2026-10-01",
+   "evidence": "The date of discharge from service for Ex-servicemen / Disabled Ex-Servicemen candidates should be on or before one year from the last date of registration of a",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_deadline": {
+   "date": "2026-10-01",
+   "evidence": "On account of various payment transaction issues, data upload problems (signature/photo upload) in the application portal, the last date for registration of application and payment of fees is hereby extended to 01.10.2026 (till 23.59 hrs)",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "The date of discharge from service for Ex-servicemen / Disabled Ex-Servicemen candidates should be on or before one year from the last date of registration of a",
+   "key": "payment_deadline",
+   "date": "2026-10-01",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-10-01"
+  }
+ }
+}

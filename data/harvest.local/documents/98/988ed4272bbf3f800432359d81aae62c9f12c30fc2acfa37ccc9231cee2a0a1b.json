@@ -1,0 +1,59 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "988ed4272bbf3f800432359d81aae62c9f12c30fc2acfa37ccc9231cee2a0a1b",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/03/202603121086699841.pdf",
+  "title": "Public Notice: CTET Feb-2026 Key Challenge / Scanned Images of OMR (last Date 15/03/2026,up-to 11:59 PM)",
+  "body": "in-cbse",
+  "exam": "in-ctet",
+  "feed": "in-cbse/ctet",
+  "published": "2026-09-10",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "c4682fa1b51802a874a6fb0f55576af2ef9e899d8d8c1352697fb5b4e9dcb313",
+  "bytes": 173081,
+  "pages": 2,
+  "chars": 2241,
+  "ocr": false,
+  "indic_share": 0.36,
+  "fetched": "2026-10-01T20:49:45+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2026-02-07",
+   "evidence": "PUBLIC NOTICE - CTET EXAMINATION FEBRUARY-2026 Display of scanned images of OMR Answer Sheets & display/Challenge of Answer Keys All the candidates who appeared in CTET Examination held on 07 & 08 February 2026 are informed that the scanned",
+   "page": 2,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 1000,
+   "raw": "A fee of Rs. 1000/- per question is required to be submitted through credit/debit card",
+   "page": 2
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 2
+  }
+ },
+ "links": {
+  "other": [
+   "https://ctet.nic.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-02-07",
+  "fee": {
+   "min": 1000,
+   "max": 1000
+  }
+ }
+}

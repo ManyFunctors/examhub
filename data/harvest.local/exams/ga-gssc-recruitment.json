@@ -1,0 +1,44 @@
+{
+ "schema": 1,
+ "exam": "ga-gssc-recruitment",
+ "name": "Goa Staff Selection Commission Group C Recruitment",
+ "body": "ga-gssc",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2026-10-09",
+    "source": {
+     "notice": "a94fdab4344cc14f9d9fa86e6232fc66c965590027060b7a915f9cbbe04e23a1",
+     "url": "https://gssc.goa.gov.in/wp-content/uploads/2026/09/advertisement-no.-4-of-year-2026-brief-advertisement_compressed.pdf",
+     "title": "Advertisement No. 4 of Year 2026 (Brief Advertisement)",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2026-10-09",
+   "source": {
+    "notice": "a94fdab4344cc14f9d9fa86e6232fc66c965590027060b7a915f9cbbe04e23a1",
+    "url": "https://gssc.goa.gov.in/wp-content/uploads/2026/09/advertisement-no.-4-of-year-2026-brief-advertisement_compressed.pdf",
+    "title": "Advertisement No. 4 of Year 2026 (Brief Advertisement)",
+    "kind": "advertisement",
+    "page": 1
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}

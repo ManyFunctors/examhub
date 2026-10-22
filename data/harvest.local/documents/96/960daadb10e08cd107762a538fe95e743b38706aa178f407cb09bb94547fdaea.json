@@ -1,0 +1,49 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "960daadb10e08cd107762a538fe95e743b38706aa178f407cb09bb94547fdaea",
+  "url": "https://psc.wb.gov.in/Download?param1=An_20250131161008_Advertisement.pdf&param2=advertisement",
+  "title": "Download",
+  "body": "wb-wbpsc",
+  "exam": "wb-wbpsc-other",
+  "feed": "wb-wbpsc/announcement",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "9a3c0ff1d0e73e4f4d8d4fded8a86ccea0eaa82a56e2d59acdfd4e6deab7dc73",
+  "bytes": 392063,
+  "pages": 1,
+  "chars": 1682,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:38:39+05:30"
+ },
+ "kind": "admit_card",
+ "schedule": [
+  {
+   "event": "7(1)/2023 Senior Scientific Officer (Toxicology & Chemistry Section under Chemistry Division) of the West Bengal Forensic Science Laboratory in W.B.G.S. under t",
+   "date": "2025-02-11",
+   "page": 1,
+   "until": "2025-02-18"
+  },
+  {
+   "event": "1(5)/2020 Laboratory Assistant in Civil Engineering in Govt. Polytechnics, W.B. in W.B.G.S. in the Directorate of Technical Education & Training, West Bengal un",
+   "date": "2025-02-27",
+   "page": 1,
+   "until": "2025-03-06"
+  }
+ ],
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "In case, any candidate fails to download his/her own call letter for the interview, he/she may download the complete list of the eligible candidates where his/her name is featuring and appears at the Commission’s office in time for interview with all his/her original testimonials along with…",
+    "page": 1
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "https://psc.wb.gov.in"
+  ]
+ }
+}

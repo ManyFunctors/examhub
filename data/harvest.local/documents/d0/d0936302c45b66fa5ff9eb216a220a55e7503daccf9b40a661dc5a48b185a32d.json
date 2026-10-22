@@ -1,0 +1,50 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d0936302c45b66fa5ff9eb216a220a55e7503daccf9b40a661dc5a48b185a32d",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220725164916.pdf",
+  "title": "1212 PUBLIC NOTICE 25 July 2022 Inviting Online Applications for All India Ayush Post Graduate Entrance Test (AIAPGET) 2022 Read More",
+  "body": "in-nta",
+  "exam": "in-aiapget",
+  "feed": "in-nta/notices",
+  "published": "2022-07-25",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "db44d14b9cb77dfb1de0718a166af8caf4d97587c10f1b1f07a36cc89e018ce2",
+  "bytes": 1117412,
+  "pages": 1,
+  "chars": 2317,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-06T12:44:17+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "registration_open": {
+   "date": "2022-07-25",
+   "evidence": "Online Submission of Application Form through Website (https://aiapget.nta.nic.in/) 25 July 2022 to 18 August 2022 (upto 11:50 P.M.) Last date of successful transaction of fee through Credit/Debit Card/NetBanking/UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2022-08-18",
+   "evidence": "Online Submission of Application Form through Website (https://aiapget.nta.nic.in/) 25 July 2022 to 18 August 2022 (upto 11:50 P.M.) Last date of successful transaction of fee through Credit/Debit Card/NetBanking/UPI",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in",
+   "https://aiapget.nta.nic.in/",
+   "https://nta.ac.in/"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2022-07-25",
+   "until": "2022-08-18"
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "5fb2f1d4bc83624733fee9a08ac57506c02c998e2f94b478dfc97b97dacb5e25",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20260606142500.pdf",
+  "title": "Public Notice regarding Subject-wise Scheduled of UGC-NET June 2026 Examination Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/home",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "67b831ef0c3197a916b1af47ccad5a150809e27a61494717c3797af60a1489a0",
+  "bytes": 1285758,
+  "pages": 3,
+  "chars": 4,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-04T11:22:19+05:30"
+ },
+ "kind": "schedule",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

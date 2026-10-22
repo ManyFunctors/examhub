@@ -1,0 +1,28 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "a299e1fbcbe5ec2947b03f0fdc47cbae87651ba7a6af81fc1e51f6e007c128de",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200825163444.pdf",
+  "title": "1721 Public Notice: Conduct of JEE (Main) April/September 2020 and NEET (UG) May/September 2020. Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "79a9d16e5056d9847429c354742458c3565ae5219d2a4fff19206fe6cb9de00c",
+  "bytes": 300340,
+  "pages": 4,
+  "chars": 5961,
+  "ocr": false,
+  "indic_share": 0.01,
+  "fetched": "2026-10-08T21:18:47+05:30"
+ },
+ "kind": "admit_card",
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ }
+}

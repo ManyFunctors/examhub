@@ -1,0 +1,144 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "60b98ea6a67f09582717f6630857a67ba61d4dba9334c743cda9081e7439c2a0",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20250226173151.pdf",
+  "title": "Subject: Schedule / Date-sheet for the Common University Entrance Test [CUET (PG) - 2025] – reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-pg",
+  "feed": "in-nta/home",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "b45347f7ed5b43e92282bb197f9b343e4cf2e8d363c25b50ad22a0e329a6b9e4",
+  "bytes": 407821,
+  "pages": 5,
+  "chars": 6723,
+  "ocr": false,
+  "indic_share": 0.01,
+  "fetched": "2026-10-03T11:14:14+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2025-03-15",
+   "evidence": "No Exam No Exam HUQP08-Geography SCQP23-Pharmacy",
+   "page": 2,
+   "from": "table"
+  },
+  "registration_deadline": {
+   "date": "2025-03-26",
+   "evidence": "COQP03-B. Ed LAQP36-Telugu COQP14-LLM HUQP15-Painting SCQP03-Applied Microbiology or Microbiology ACQP03-Agama ACQP10-Jain Darshan ACQP13-Krishna Yajurveda ACQP",
+   "page": 3,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "HUQP24-Theatre SCQP07-Botany SCQP27-Statistics HUQP04-Art and Aesthetics SCQP19-Mathematics COQP04-B.Ed. Humanities and Social Sciences MTQP05-Electronics Commu",
+   "date": "2025-03-13",
+   "page": 2
+  },
+  {
+   "event": "No Exam No Exam HUQP08-Geography SCQP23-Pharmacy",
+   "key": "exam_date",
+   "date": "2025-03-15",
+   "page": 2
+  },
+  {
+   "event": "HUQP01-Ancient Indian History Culture and Arch. SCQP05-Biochemistry LAQP02-Hindi MTQP08-Nano Science Nano Technology SCQP02-Agroforestry No Exam",
+   "key": "exam_date",
+   "date": "2025-03-16",
+   "page": 2
+  },
+  {
+   "event": "ACQP08-Hindu Studies COQP22-Healthcare and Hospital Management COQP18-Physical Education HUQP16-Philosophy MTQP06-Food Engineering and Technology SCQP04-Archite",
+   "date": "2025-03-18",
+   "page": 2
+  },
+  {
+   "event": "HUQP05-Dance SCQP12-Food Science and Technology COQP07-B.Ed. Mathematics HUQP06-Development and Labour Studies COQP19-Public Health SCQP14-Geology Earth Science",
+   "date": "2025-03-19",
+   "page": 2
+  },
+  {
+   "event": "COQP16-M.A. Education SCQP13-Forensic Science HUQP10-History of Art HUQP25-Music Percussion LAQP15-Japanese SCQP11-Environmental Sciences COQP01Agri-Business Ma",
+   "date": "2025-03-21",
+   "page": 2
+  },
+  {
+   "event": "COQP05-B.Ed Languages COQP20-Sports Physiology etc HUQP21-Social Work MTQP11-Water Engineering and Management SCQP22-Nanoscience COQP06-B.Ed. Science",
+   "date": "2025-03-22",
+   "page": 2
+  },
+  {
+   "event": "COQP21-Yoga LAQP04-Linguistics HUQP07-Fine Arts LAQP05-Arabic SCQP10-Criminology COQP15-M.Ed.",
+   "date": "2025-03-23",
+   "page": 2
+  },
+  {
+   "event": "COQP13-Library and Information Science COQP09-Disaster Studies HUQP02-Anthropology",
+   "date": "2025-03-24",
+   "page": 2
+  },
+  {
+   "event": "ACQP05-Dharma Shastra Vastu and Paurohitya ACQP12-Jyotish Ganit ACQP14-Nyaya Vaisheshika ACQP22-Veda HUQP18-Political Science MTQP03-Dairy Technology ACQP02-Shi",
+   "date": "2025-03-25",
+   "page": 3
+  },
+  {
+   "event": "COQP03-B. Ed LAQP36-Telugu COQP14-LLM HUQP15-Painting SCQP03-Applied Microbiology or Microbiology ACQP03-Agama ACQP10-Jain Darshan ACQP13-Krishna Yajurveda ACQP",
+   "key": "registration_deadline",
+   "date": "2025-03-26",
+   "page": 3
+  },
+  {
+   "event": "COQP08-Commerce SCQP08-Chemistry SCQP09-Computer Science and Information Technology ACQP01-Shiksha Shastri B.Ed. LAQP12-German MTQP02-Civil Structural and Trans",
+   "date": "2025-03-27",
+   "page": 3
+  },
+  {
+   "event": "COQP10-Economics ACQP06-Dharma Vijnan ACQP11-Jyotish Falit ACQP17-Rigveda ACQP24-Vedanta Sarvadarshan Mimansa Nyaya HUQP09-History HUQP12-Music Karnataka HUQP19",
+   "date": "2025-03-28",
+   "page": 4
+  },
+  {
+   "event": "ACQP09-Indian Knowledge System ACQP16-Puranetihas ACQP23-Vedanta HUQP11-Home Science LAQP37-Urdu MTQP04-Data Science Artificial Intelligence Cyber Security And ",
+   "date": "2025-03-29",
+   "page": 4
+  },
+  {
+   "event": "SCQP24-Physics SCQP25-Plant Biotechnology HUQP13-Museology HUQP23-Textile Design LAQP03-Sanskrit LAQP06-Assamese LAQP11-Garo LAQP14-Hispanic LAQP16-Kannada LAQP",
+   "date": "2025-03-30",
+   "page": 5
+  },
+  {
+   "event": "No Exam ACQP04-Baudha Darshan Or Buddhist Studies ACQP07-Dharmashastra ACQP26-Vyakarana And Sabdabodha Systems HUQP14-Music Hindustani LAQP07-Bengali LAQP10-Fre",
+   "key": "exam_date",
+   "date": "2025-04-01",
+   "page": 5
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/CUET-PG/"
+  ],
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in",
+   "https://nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2025-03-26"
+  },
+  "exam_date": "2025-03-15"
+ }
+}

@@ -1,0 +1,271 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c1fa104540b054cf4f038dfcd3d8db21432946ad3a7eba1aa665c6980c7fa5da",
+  "url": "https://joinindiancoastguard.cdac.in/cgcat/assets/img/news/Advertisement_for_Asst_Comdt_2027_Batch.pdf",
+  "title": "CGCAT 2027 Advertisement English",
+  "body": "in-icg",
+  "exam": "in-icg-assistant-commandant",
+  "feed": "in-icg/cgcat",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "45d1ae56633bc840fbc8f6fcc1037841ac6dffe837a8e49ae64ecabe3c721ce7",
+  "bytes": 936302,
+  "pages": 16,
+  "chars": 40497,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:23+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "exam_date": {
+   "date": "2026-07-01",
+   "until": "2001-07-01",
+   "evidence": "(b) Technical (Mechanical/ Electrical/ Electronics) Male (i) Should hold an Engineering degree from a recognized university in Naval Architecture or Mechanical ",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_open": {
+   "date": "2025-07-08",
+   "provisional": true,
+   "evidence": "APPLICATION WILL BE ACCEPTED 'ONLINE' FROM 08 Jul 2025 (1600 HRS) TO 27 Jul 2025 (2330 HRS)  [document-level hedge: Tentative Schedule]",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2025-07-27",
+   "provisional": true,
+   "evidence": "LAST DATE FOR ONLINE APPLICATION - 27 JUL 2025 CAUTION: SELECTION IN COAST GUARD IS FAIR AND ON MERIT ONLY  [document-level hedge: Tentative Schedule]",
+   "page": 16,
+   "from": "text"
+  },
+  "age_as_on": {
+   "date": "2026-07-01",
+   "provisional": true,
+   "evidence": "21-25 years as on 01 Jul 2026 i.e. born  [document-level hedge: Tentative Schedule]",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "(a) General Duty (GD) Male (i) Should hold a Graduate Degree from a recognised university. (ii) Mathematics and Physics as subject upto Intermediate or class XI",
+   "date": "2026-07-01",
+   "page": 1,
+   "until": "2001-07-01"
+  },
+  {
+   "event": "(b) Technical (Mechanical/ Electrical/ Electronics) Male (i) Should hold an Engineering degree from a recognized university in Naval Architecture or Mechanical ",
+   "key": "exam_date",
+   "date": "2026-07-01",
+   "page": 1,
+   "until": "2001-07-01"
+  }
+ ],
+ "vacancies": {
+  "total": 170,
+  "by_category": {
+   "Unreserved": 59,
+   "OBC": 43,
+   "SC": 28,
+   "ST": 28,
+   "EWS": 12
+  },
+  "rows": [
+   {
+    "label": "General Duty (GD)",
+    "total": 140,
+    "by_category": {
+     "SC": 25,
+     "ST": 24,
+     "OBC": 35,
+     "EWS": 10,
+     "Unreserved": 46
+    },
+    "page": 2
+   },
+   {
+    "label": "Tech (Engg/ Elect)",
+    "total": 30,
+    "by_category": {
+     "SC": 3,
+     "ST": 4,
+     "OBC": 8,
+     "EWS": 2,
+     "Unreserved": 13
+    },
+    "page": 2
+   }
+  ],
+  "from": "table"
+ },
+ "fees": [
+  {
+   "categories": [
+    "SC",
+    "ST"
+   ],
+   "except": true,
+   "amount": 300,
+   "raw": "All candidates (except SC/ST candidates, who are exempted from payment of fee) are required to pay a fee of Rs. 300/- (Rupees Three Hundred Only) through online mode by using net banking or by using Visa/Master/Maestro/RuPay/Credit/Debit…",
+   "page": 8
+  },
+  {
+   "categories": [
+    "SC",
+    "ST"
+   ],
+   "amount": 0,
+   "raw": "All candidates (except SC/ST candidates, who are exempted from payment of fee) are required to pay a fee of Rs. 300/- (Rupees Three Hundred Only) through online mode by using net banking or by using Visa/Master/Maestro/RuPay/Credit/Debit…",
+   "page": 8
+  }
+ ],
+ "age": {
+  "as_on": "2026-07-01",
+  "relaxations": [
+   {
+    "categories": [
+     "Male"
+    ],
+    "years": 5,
+    "raw": "(05 Years relaxation for personnel serving in Coast Guard) Male (i) Should hold an Engineering degree from a recognized university in Naval Architecture or Mechanical or Marine or Automotive or…",
+    "page": 1
+   },
+   {
+    "categories": [
+     "SC",
+     "ST",
+     "OBC-NCL"
+    ],
+    "years": 5,
+    "raw": "(a) Upper age relaxation of 5 years for SC/ST and 3 years for OBC (non-creamy layer)",
+    "page": 2
+   },
+   {
+    "categories": [
+     "SC",
+     "ST",
+     "OBC-NCL"
+    ],
+    "years": 3,
+    "raw": "(a) Upper age relaxation of 5 years for SC/ST and 3 years for OBC (non-creamy layer)",
+    "page": 2
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "clauses": [
+   {
+    "text": "Indian citizens having following minimum qualifications are eligible to apply:- Ser",
+    "page": 1
+   },
+   {
+    "text": "Branch Age (Born Between) Gender Educational Qualification (a) General Duty (GD)",
+    "page": 1
+   },
+   {
+    "text": "The candidates who have completed graduation after diploma, are also eligible, provided they should possess a diploma with physics and mathematics in its curriculum.",
+    "page": 1
+   },
+   {
+    "text": "The candidates who have completed graduation after diploma, are also eligible, provided they should possess an diploma with physics and mathematics in its curriculum.",
+    "page": 2
+   },
+   {
+    "text": "Explanation on certain eligibility criteria:",
+    "page": 2
+   },
+   {
+    "text": "(b) Candidates having Integrated Post-Graduation degree are also eligible to apply provided that they are in possession of certificate issued by the respective Institution/ University, certifying that the candidate has passed the qualifying Degree (with percentage/marks clearly mentioned) as a…",
+    "page": 2
+   },
+   {
+    "text": "Additional Eligibility Criteria.",
+    "page": 3
+   },
+   {
+    "text": "(b) Multi options entry scheme: Candidates who fulfil eligibility criteria for both",
+    "page": 6
+   },
+   {
+    "text": "(ii) Candidate holding three years degree in any other non- tech subjects from a recognized university",
+    "page": 6
+   },
+   {
+    "text": "Such candidates will have to undergo the selection procedure including SMB (Special medical Board) afresh provided that they meet the eligibility criteria for the fresh batch.",
+    "page": 13
+   },
+   {
+    "text": "educational qualifications, age, submission of wrong information/document in the application",
+    "page": 14
+   },
+   {
+    "text": "In case of any ambiguity regarding eligibility criteria, date and time of examination and other procedures, the contents given in the Coast Guard recruitment website https://joinindiancoastguard.cdac.in will be final.",
+    "page": 16
+   }
+  ]
+ },
+ "selection": [
+  "Document verification",
+  "Computer-based test",
+  "Group discussion"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "Combined CGCAT",
+   "page": 3
+  },
+  {
+   "paper": "CGCAT",
+   "page": 3
+  },
+  {
+   "paper": "C:General Science & Mathematical",
+   "page": 3
+  },
+  {
+   "paper": "aptitude",
+   "page": 3
+  },
+  {
+   "paper": "D: General Knowledge",
+   "page": 3
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 5
+  }
+ },
+ "links": {
+  "other": [
+   "https://joinindiancoastguard.cdac.in/"
+  ]
+ },
+ "summary": {
+  "vacancies": 170,
+  "apply": {
+   "from": "2025-07-08",
+   "until": "2025-07-27"
+  },
+  "exam_date": "2026-07-01",
+  "fee": {
+   "min": 0,
+   "max": 300
+  },
+  "education": [
+   "Postgraduate",
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "selection": "Document verification → Computer-based test → Group discussion"
+ }
+}

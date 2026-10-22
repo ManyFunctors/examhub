@@ -1,0 +1,33 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "4a1557be2d65637bdf032da8ce4ba5e791f6d655d5e8eee02a07eb38afe6e879",
+  "url": "https://setexam.unipune.ac.in/SET_2026/SET_Marathi_Advertisement.pdf",
+  "title": "Marathi Adevrtisement of 41st M-SET Exam to be held on 26th July 2026",
+  "body": "mh-sppu-set",
+  "exam": "mh-set",
+  "feed": "mh-sppu-set/home",
+  "published": "2026-07-26",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "fdc7a01ededf681494a420f6032d6d6ab5b2f324a49a3f8c264455d70a061e73",
+  "bytes": 598683,
+  "pages": 1,
+  "chars": 2892,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T13:55:12+05:30"
+ },
+ "kind": "notice",
+ "links": {
+  "apply": [
+   "http://setexam.unipune.ac.in/",
+   "https://setexam.unipune.ac.in",
+   "https://setexam.unipune.ac.in”"
+  ]
+ },
+ "warnings": [
+  "text layer is Hindi in a legacy font and unreadable: 1 of 1 pages (from page 1); an English edition of the notice is needed to read it"
+ ]
+}

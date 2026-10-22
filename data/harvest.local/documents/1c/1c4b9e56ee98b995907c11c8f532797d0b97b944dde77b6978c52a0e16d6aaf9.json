@@ -1,0 +1,48 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1c4b9e56ee98b995907c11c8f532797d0b97b944dde77b6978c52a0e16d6aaf9",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240714163831.pdf",
+  "title": "Conduct of the CUET (UG) – 2024 retest for affected candidates Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "ddfd7dfa8c0ab1a0b16078fa0a045eb3e51e263534931a0c7e1d9d61523c60d3",
+  "bytes": 386009,
+  "pages": 1,
+  "chars": 2465,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-02T09:48:04+05:30"
+ },
+ "kind": "answer_key",
+ "dates": {
+  "exam_date": {
+   "date": "2024-07-19",
+   "evidence": "be conducted for those affected candidates on 19 July 2024 (28 आषाढ़ 1946), Friday, in the Computer-Based Test (CBT) mode",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/CUET-UG/"
+  ],
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2024-07-19"
+ }
+}

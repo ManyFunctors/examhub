@@ -1,0 +1,61 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "01e225776deef1fc476d76b7229cfabb11848a6c844e203df5cc8c33e5db3c3d",
+  "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/07_ECG_Tech_CV_08052019.pdf",
+  "title": "Schedule for certificate verification of ECG Technician – ST Shortfall Vacancies",
+  "body": "tn-mrb",
+  "exam": "tn-mrb-recruitment",
+  "feed": "tn-mrb/notifications",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "0ec5a0fcc39395b5aa27bc7bbfc22e8da64b927ae166cc53df02cf2c910769ec",
+  "bytes": 43757,
+  "pages": 5,
+  "chars": 5519,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:03:18+05:30"
+ },
+ "kind": "schedule",
+ "advertisement_no": "07/MRB/2019",
+ "schedule": [
+  {
+   "event": "1 - 14",
+   "date": "2019-05-15",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "The candidates are called for verification of certificates / documents based on the particulars furnished in their on-line applications such as age, educational qualification, community, etc",
+    "page": 1
+   },
+   {
+    "text": "only after verification/ acceptance of certain documents, educational qualification possessed by him/her, clarification regarding community status and its acceptance, marks / rank list of the candidate etc. as the case may be",
+    "page": 2
+   },
+   {
+    "text": "Evidence and Mark sheets of Educational qualification (SSLC, HSC & One year certificate course in Electro Cardiogram or Treadmill Technician conducted by the Government of Tamil Nadu or its equivalent certificate from any other Institution recognised by the Government of Tamil Nadu) c",
+    "page": 3
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "https://www.mrb.tn.gov.in"
+  ]
+ },
+ "summary": {
+  "education": [
+   "Graduate",
+   "Class 12"
+  ]
+ }
+}

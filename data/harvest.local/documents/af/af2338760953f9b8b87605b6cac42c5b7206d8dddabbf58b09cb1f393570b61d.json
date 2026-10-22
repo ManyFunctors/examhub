@@ -1,0 +1,69 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "af2338760953f9b8b87605b6cac42c5b7206d8dddabbf58b09cb1f393570b61d",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240320100247.pdf",
+  "title": "Inviting Online Application Forms for Study Webs of Active Learning for Young Aspiring Minds (SWAYAM) (January 2024 Semester) Exam Read More",
+  "body": "in-nta",
+  "exam": "in-nta-swayam",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "7932480756d7a6dbb75490a0f8f388d183987c5d76fab2233d1bc5c1ed96c6c6",
+  "bytes": 1789931,
+  "pages": 17,
+  "chars": 37496,
+  "ocr": false,
+  "indic_share": 0.01,
+  "fetched": "2026-10-06T06:35:15+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2024-05-27",
+   "evidence": "will now be conducted on 27th May 2024",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2024-03-19",
+   "evidence": "Online Submission of Application Form 19 March 2024 to 18 April 2024 Last date of Successful transaction of fee through Credit/Debit Card/Net Banking/UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2024-04-18",
+   "evidence": "Online Submission of Application Form 19 March 2024 to 18 April 2024 Last date of Successful transaction of fee through Credit/Debit Card/Net Banking/UPI",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "selection": [
+  "Computer-based test"
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/",
+   "https://exams.nta.ac.in/swayam"
+  ],
+  "other": [
+   "https://swayam.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2024-03-19",
+   "until": "2024-04-18"
+  },
+  "exam_date": "2024-05-27",
+  "selection": "Computer-based test"
+ }
+}

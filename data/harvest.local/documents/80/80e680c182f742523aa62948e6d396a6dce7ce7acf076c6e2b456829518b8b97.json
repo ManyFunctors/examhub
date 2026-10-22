@@ -1,0 +1,62 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "80e680c182f742523aa62948e6d396a6dce7ce7acf076c6e2b456829518b8b97",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230306082627.pdf",
+  "title": "Advance Intimation for Allotment of Examination City to the Applicants of UGC NET December 2022-Phase-IV- Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/home",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "f6ffc41ebda7d634562e257aee24d4206aa5f147b618653b88cff5b7b679715e",
+  "bytes": 753210,
+  "pages": 2,
+  "chars": 3353,
+  "ocr": false,
+  "indic_share": 0.09,
+  "fetched": "2026-10-05T06:18:43+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2023-03-12",
+   "evidence": "The exam for the remaining (09) subjects will be conducted after 12 March 2023, and city intimation about the exam will be published shortly",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Sociology Shift- I",
+   "date": "2023-03-11",
+   "page": 2
+  },
+  {
+   "event": "Computer Science and Applications Shift- II",
+   "date": "2023-03-11",
+   "page": 2
+  },
+  {
+   "event": "Law Shift- I",
+   "date": "2023-03-12",
+   "page": 2
+  },
+  {
+   "event": "Management (including Business Admn. Shift-II",
+   "date": "2023-03-12",
+   "page": 2
+  }
+ ],
+ "links": {
+  "other": [
+   "https://ugcnet.nta.nic.in",
+   "https://ugcnet.nta.nic.in/w.e.f",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2023-03-12"
+ }
+}

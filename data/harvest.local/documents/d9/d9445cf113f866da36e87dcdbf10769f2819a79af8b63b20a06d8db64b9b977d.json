@@ -1,0 +1,668 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d9445cf113f866da36e87dcdbf10769f2819a79af8b63b20a06d8db64b9b977d",
+  "url": "https://sbi.bank.in/documents/77530/57941334/19052026_ENGAGEMENT+OF+APPRENTICE+2026+ADVERTISEMENT+CRPD_APPR_2026-27_07.pdf/fa9015ff-2268-a829-f9e8-8c1b5d55e126?t=1779173730791",
+  "title": "DOWNLOAD ADVERTISEMENT ( Hindi / English ) ( )",
+  "body": "in-sbi",
+  "exam": "in-sbi-apprentice",
+  "feed": "in-sbi/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "38ad1dcfa911c78405e483abcd8d22480ebdce532aa7418fe92a93a1886baeae",
+  "bytes": 688961,
+  "pages": 16,
+  "chars": 67086,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T16:26:13+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "CRPD/APPR/2026-27/07",
+ "dates": {
+  "registration_open": {
+   "date": "2026-05-19",
+   "evidence": "ENGAGEMENT OF APPRENTICES UNDER THE APPRENTICES ACT, 1961 ADVERTISEMENT NO: CRPD/APPR/2026-27/07 ONLINE REGISTRATION OF APPLICATION: FROM 19.05.2026 TO 08.06.2026 (EXTENDED TILL 15.06.2026) ONLINE EXAMINATION: TENTATIVELY IN THE MONTH OF JU",
+   "page": 2,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2026-06-08",
+   "evidence": "ENGAGEMENT OF APPRENTICES UNDER THE APPRENTICES ACT, 1961 ADVERTISEMENT NO: CRPD/APPR/2026-27/07 ONLINE REGISTRATION OF APPLICATION: FROM 19.05.2026 TO 08.06.2026 (EXTENDED TILL 15.06.2026) ONLINE EXAMINATION: TENTATIVELY IN THE MONTH OF JU",
+   "page": 2,
+   "from": "text"
+  },
+  "age_as_on": {
+   "date": "2026-04-01",
+   "evidence": "AGE (as on 01.04.2026 ):",
+   "page": 5,
+   "from": "text"
+  }
+ },
+ "unmapped_classes": [
+  {
+   "label": "PwBD VI",
+   "page": 2
+  },
+  {
+   "label": "PwBD HI",
+   "page": 2
+  },
+  {
+   "label": "PwBD LD",
+   "page": 2
+  }
+ ],
+ "vacancies": {
+  "total": 7150,
+  "by_category": {
+   "Unreserved": 3086,
+   "OBC": 1672,
+   "SC": 1107,
+   "ST": 586,
+   "EWS": 699,
+   "PwBD": 63
+  },
+  "rows": [
+   {
+    "label": "Gujarat / Gujarati",
+    "total": 217,
+    "by_category": {
+     "SC": 15,
+     "ST": 32,
+     "OBC": 58,
+     "EWS": 21,
+     "Unreserved": 91,
+     "PwBD": 2
+    },
+    "page": 2
+   },
+   {
+    "label": "Andhra Pradesh / Telugu/Urdu",
+    "total": 709,
+    "by_category": {
+     "SC": 113,
+     "ST": 49,
+     "OBC": 191,
+     "EWS": 70,
+     "Unreserved": 286,
+     "PwBD": 7
+    },
+    "page": 2
+   },
+   {
+    "label": "Karnataka / Kannada",
+    "total": 276,
+    "by_category": {
+     "SC": 44,
+     "ST": 19,
+     "OBC": 74,
+     "EWS": 27,
+     "Unreserved": 112,
+     "PwBD": 3
+    },
+    "page": 2
+   },
+   {
+    "label": "Chhattisgarh / Hindi",
+    "total": 93,
+    "by_category": {
+     "SC": 11,
+     "ST": 29,
+     "OBC": 5,
+     "EWS": 9,
+     "Unreserved": 39,
+     "PwBD": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "Madhya Pradesh / Hindi",
+    "total": 285,
+    "by_category": {
+     "SC": 42,
+     "ST": 57,
+     "OBC": 42,
+     "EWS": 28,
+     "Unreserved": 116,
+     "PwBD": 3
+    },
+    "page": 2
+   },
+   {
+    "label": "Odisha / Odia",
+    "total": 229,
+    "by_category": {
+     "SC": 36,
+     "ST": 50,
+     "OBC": 27,
+     "EWS": 22,
+     "Unreserved": 94,
+     "PwBD": 2
+    },
+    "page": 2
+   },
+   {
+    "label": "UT Ladakh / Ladakhi/Urdu/Bhoti",
+    "total": 15,
+    "by_category": {
+     "SC": 1,
+     "ST": 1,
+     "OBC": 4,
+     "EWS": 1,
+     "Unreserved": 8,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Himachal Pradesh / Hindi",
+    "total": 180,
+    "by_category": {
+     "SC": 45,
+     "ST": 7,
+     "OBC": 36,
+     "EWS": 18,
+     "Unreserved": 74,
+     "PwBD": 2
+    },
+    "page": 2
+   },
+   {
+    "label": "UT Chandigarh / Hindi/Punjabi",
+    "total": 15,
+    "by_category": {
+     "SC": 2,
+     "ST": 0,
+     "OBC": 4,
+     "EWS": 1,
+     "Unreserved": 8,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Punjab / Punjabi/Hindi",
+    "total": 345,
+    "by_category": {
+     "SC": 100,
+     "ST": 0,
+     "OBC": 72,
+     "EWS": 34,
+     "Unreserved": 139,
+     "PwBD": 3
+    },
+    "page": 2
+   },
+   {
+    "label": "UT Jammu & Kashmir / Urdu/ Hindi",
+    "total": 300,
+    "by_category": {
+     "SC": 24,
+     "ST": 33,
+     "OBC": 81,
+     "EWS": 30,
+     "Unreserved": 132,
+     "PwBD": 3
+    },
+    "page": 2
+   },
+   {
+    "label": "Haryana / Hindi /Punjabi",
+    "total": 320,
+    "by_category": {
+     "SC": 60,
+     "ST": 0,
+     "OBC": 85,
+     "EWS": 32,
+     "Unreserved": 143,
+     "PwBD": 2
+    },
+    "page": 2
+   },
+   {
+    "label": "UT Pondicherry / Tamil",
+    "total": 18,
+    "by_category": {
+     "SC": 2,
+     "ST": 0,
+     "OBC": 4,
+     "EWS": 1,
+     "Unreserved": 11,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Tamil Nadu / Tamil",
+    "total": 396,
+    "by_category": {
+     "SC": 75,
+     "ST": 3,
+     "OBC": 106,
+     "EWS": 39,
+     "Unreserved": 173,
+     "PwBD": 4
+    },
+    "page": 2
+   },
+   {
+    "label": "Arunachal Pradesh / English",
+    "total": 26,
+    "by_category": {
+     "SC": 0,
+     "ST": 11,
+     "OBC": 0,
+     "EWS": 2,
+     "Unreserved": 13,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Nagaland / English",
+    "total": 20,
+    "by_category": {
+     "SC": 0,
+     "ST": 9,
+     "OBC": 0,
+     "EWS": 2,
+     "Unreserved": 9,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Meghalaya / English/Garo/Khasi",
+    "total": 8,
+    "by_category": {
+     "SC": 0,
+     "ST": 3,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 5,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Tripura / Bengali / Kokborok",
+    "total": 88,
+    "by_category": {
+     "SC": 14,
+     "ST": 27,
+     "OBC": 1,
+     "EWS": 8,
+     "Unreserved": 38,
+     "PwBD": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "Assam / Assamese/Bengali/ Bodo",
+    "total": 368,
+    "by_category": {
+     "SC": 25,
+     "ST": 44,
+     "OBC": 99,
+     "EWS": 36,
+     "Unreserved": 164,
+     "PwBD": 3
+    },
+    "page": 2
+   },
+   {
+    "label": "Mizoram / Mizo",
+    "total": 54,
+    "by_category": {
+     "SC": 0,
+     "ST": 24,
+     "OBC": 2,
+     "EWS": 5,
+     "Unreserved": 23,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Manipur / Manipuri, English",
+    "total": 6,
+    "by_category": {
+     "SC": 0,
+     "ST": 2,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 4,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Telangana / Telugu / Urdu",
+    "total": 491,
+    "by_category": {
+     "SC": 78,
+     "ST": 34,
+     "OBC": 132,
+     "EWS": 49,
+     "Unreserved": 198,
+     "PwBD": 5
+    },
+    "page": 2
+   },
+   {
+    "label": "Rajasthan / Hindi",
+    "total": 350,
+    "by_category": {
+     "SC": 59,
+     "ST": 45,
+     "OBC": 70,
+     "EWS": 35,
+     "Unreserved": 141,
+     "PwBD": 3
+    },
+    "page": 2
+   },
+   {
+    "label": "West Bengal / Bengali/ Nepali",
+    "total": 460,
+    "by_category": {
+     "SC": 105,
+     "ST": 23,
+     "OBC": 101,
+     "EWS": 46,
+     "Unreserved": 185,
+     "PwBD": 4
+    },
+    "page": 2
+   },
+   {
+    "label": "UT Andaman & Nicobar Islands / Hindi / English",
+    "total": 42,
+    "by_category": {
+     "SC": 0,
+     "ST": 3,
+     "OBC": 11,
+     "EWS": 4,
+     "Unreserved": 24,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Sikkim / Nepali / English",
+    "total": 50,
+    "by_category": {
+     "SC": 2,
+     "ST": 10,
+     "OBC": 12,
+     "EWS": 5,
+     "Unreserved": 21,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Uttar Pradesh / Hindi / Urdu",
+    "total": 561,
+    "by_category": {
+     "SC": 117,
+     "ST": 5,
+     "OBC": 150,
+     "EWS": 55,
+     "Unreserved": 234,
+     "PwBD": 5
+    },
+    "page": 2
+   },
+   {
+    "label": "Maharashtra / Marathi",
+    "total": 504,
+    "by_category": {
+     "SC": 50,
+     "ST": 44,
+     "OBC": 135,
+     "EWS": 50,
+     "Unreserved": 225,
+     "PwBD": 4
+    },
+    "page": 2
+   },
+   {
+    "label": "Goa / Konkani",
+    "total": 16,
+    "by_category": {
+     "SC": 0,
+     "ST": 1,
+     "OBC": 2,
+     "EWS": 1,
+     "Unreserved": 12,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Uttarakhand / Hindi",
+    "total": 115,
+    "by_category": {
+     "SC": 20,
+     "ST": 3,
+     "OBC": 14,
+     "EWS": 11,
+     "Unreserved": 67,
+     "PwBD": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "Delhi / Hindi",
+    "total": 105,
+    "by_category": {
+     "SC": 15,
+     "ST": 7,
+     "OBC": 28,
+     "EWS": 10,
+     "Unreserved": 45,
+     "PwBD": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "Bihar / Hindi / Urdu",
+    "total": 58,
+    "by_category": {
+     "SC": 9,
+     "ST": 0,
+     "OBC": 15,
+     "EWS": 5,
+     "Unreserved": 29,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Jharkhand / Hindi/ Santhali",
+    "total": 27,
+    "by_category": {
+     "SC": 3,
+     "ST": 7,
+     "OBC": 3,
+     "EWS": 2,
+     "Unreserved": 12,
+     "PwBD": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Keralam / Malayalam",
+    "total": 403,
+    "by_category": {
+     "SC": 40,
+     "ST": 4,
+     "OBC": 108,
+     "EWS": 40,
+     "Unreserved": 211,
+     "PwBD": 4
+    },
+    "page": 2
+   }
+  ],
+  "from": "table"
+ },
+ "fees": [
+  {
+   "categories": [
+    "Unreserved",
+    "OBC",
+    "EWS"
+   ],
+   "amount": 300,
+   "raw": "General/OBC/EWS Rs.300/-",
+   "page": 9
+  },
+  {
+   "categories": [
+    "SC",
+    "ST",
+    "PwBD"
+   ],
+   "amount": 0,
+   "raw": "SC/ST/PwBD NIL",
+   "page": 9
+  }
+ ],
+ "age": {
+  "as_on": "2026-04-01"
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "3 Before applying, candidates are requested to ensure that they fulfill eligibility criteria for engagement on the date of eligibility.",
+    "page": 2
+   },
+   {
+    "text": "Minimum 20 years and maximum 28 years as on 01.04.2026 i.e. candidates must have been born not later than 01.04.2006 and not earlier than 02.04.1998 (both days inclusive)",
+    "page": 5
+   },
+   {
+    "text": "Persons with OA, BA and OAL category should have normal bilateral hand functions",
+    "page": 5
+   },
+   {
+    "text": "D.EDUCATIONAL QUALIFICATION as on 01.04.2026",
+    "page": 7
+   },
+   {
+    "text": "ii) Candidates who had training or job experience for a period of one year or more after the attainment of the educational qualifications, shall NOT be eligible for being engaged as Apprentices.",
+    "page": 9
+   },
+   {
+    "text": "Pre-requisites for Applying Online: Candidates should have valid email ID and mobile no. which should be kept active till the declaration of results",
+    "page": 10
+   },
+   {
+    "text": "My educational qualification is .",
+    "page": 15
+   }
+  ]
+ },
+ "selection": [
+  "Written examination",
+  "Medical examination"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "General/Financial Awareness",
+   "page": 7,
+   "questions": 25,
+   "marks": 25,
+   "duration": "15 minutes"
+  },
+  {
+   "paper": "General English",
+   "page": 7,
+   "questions": 25,
+   "marks": 25,
+   "duration": "15 minutes"
+  },
+  {
+   "paper": "Quantitative Aptitude",
+   "page": 7,
+   "questions": 25,
+   "marks": 25,
+   "duration": "15 minutes"
+  },
+  {
+   "paper": "Reasoning Ability & Computer Aptitude",
+   "page": 7,
+   "questions": 25,
+   "marks": 25,
+   "duration": "15 minutes"
+  },
+  {
+   "paper": "Total",
+   "page": 7,
+   "questions": 100,
+   "marks": 100,
+   "duration": "60 minutes"
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 3
+  },
+  "duration": {
+   "value": "General English 25 25 15 minutes English",
+   "page": 7
+  }
+ },
+ "links": {
+  "apply": [
+   "https://www.sbi.co.in/%20careers",
+   "https://sbi.bank.in/web/careers",
+   "https://bank.sbi/careers",
+   "https://www.sbi.co.in/careers",
+   "https://sbi.bank.in/web/careers/current-openings",
+   "https://sbi.bank.in/careers",
+   "https://cgrs.ibps.in"
+  ],
+  "other": [
+   "https://bfsissc.com/",
+   "https://apprenticeshipindia.gov.in/",
+   "javascript:symArea('2009','adm2",
+   "javascript:symArea('2010','adm2",
+   "javascript:symArea('2015','adm2",
+   "javascript:symArea('2018','adm2",
+   "javascript:symArea('2002','adm2",
+   "javascript:symArea('2005','adm2",
+   "javascript:symArea('2017','adm2",
+   "javascript:symArea('2008','adm2",
+   "javascript:symArea('2007','adm2",
+   "javascript:symArea('2006','adm2"
+  ]
+ },
+ "summary": {
+  "vacancies": 7150,
+  "apply": {
+   "from": "2026-05-19",
+   "until": "2026-06-08"
+  },
+  "fee": {
+   "min": 0,
+   "max": 300
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Written examination → Medical examination"
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "151aa631dfbb7680b4713b928e637a37254a3333b37b2e4b6e818e2fe4cb8bb5",
+  "url": "https://static.tneaonline.org/docs/TNEA-2026-GOVT-ACADEMIC-VACANCY-POSITION-AFTER-SCA-TO-SC-CONVERSION-COUNSELLING.pdf",
+  "title": "Govt. Quota (7.5%) Academic Seat Matrix After SCA to SC Conversion Counselling",
+  "body": "tn-tnea",
+  "exam": "tn-tnea",
+  "feed": "tn-tnea/home",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "5fd1a14431455c5192e0e23c95166a14c0abc2550bb32cadfbbe52347b38cc8c",
+  "bytes": 1570338,
+  "pages": 286,
+  "chars": 663614,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:26+05:30"
+ },
+ "kind": "advertisement",
+ "unmapped_classes": [
+  {
+   "label": "COLLEGE CODE",
+   "page": 40
+  }
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 100
+  }
+ }
+}

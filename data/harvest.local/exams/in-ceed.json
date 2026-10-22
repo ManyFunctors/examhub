@@ -1,0 +1,59 @@
+{
+ "schema": 1,
+ "exam": "in-ceed",
+ "name": "Common Entrance Examination for Design",
+ "body": "in-iitb",
+ "purpose": "admission",
+ "cycle": null,
+ "documents": 2,
+ "documents_in_cycle": 2,
+ "fields": {
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "Numerical answer type (NAT)",
+     "page": 2,
+     "questions": 2,
+     "marks": 6
+    },
+    {
+     "paper": "Numerical answer type (NAT)",
+     "page": 2,
+     "questions": 6,
+     "marks": 3
+    },
+    {
+     "paper": "Multiple select questions (MSQs)",
+     "page": 2,
+     "questions": 2,
+     "marks": 4
+    },
+    {
+     "paper": "Multiple select questions (MSQs)",
+     "page": 2,
+     "questions": 6,
+     "marks": 2
+    },
+    {
+     "paper": "Multiple choice questions (MCQs)",
+     "page": 2,
+     "questions": 25,
+     "marks": 2
+    }
+   ],
+   "source": {
+    "notice": "12fdb146550a184c4d82433e85019eb53fa40aca454be7954623fc72ced3eedd",
+    "url": "https://www.ceed.iitb.ac.in/2026/downloads/CEED2018qp.pdf",
+    "title": "CEED 2018 Question Paper",
+    "kind": "notice"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility"
+ ],
+ "older_documents": 0
+}

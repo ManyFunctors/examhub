@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "053bed0ee9b4e1be47650ea403c12b6fe49977777208488db9188840b0776198",
+  "url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/miscnotifications/Notification_-54_6917.pdf",
+  "title": "Transfer and Posting to the Cadre of District Judge",
+  "body": "gj-hc",
+  "exam": "gj-hc-judicial",
+  "feed": "gj-hc/misc-notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "9baca37e964ed5ddef742c0c3e7485e428190aa66909f4c5a5beb4dc92430da6",
+  "bytes": 213282,
+  "pages": 5,
+  "chars": 11754,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:18:10+05:30"
+ },
+ "kind": "notice",
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

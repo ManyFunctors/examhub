@@ -1,0 +1,44 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1a5614a478008f455b3f1940a6a422f53aae0b99eb8788d6f310173e3b2c21be",
+  "url": "https://ngel.in/public/career/1/0e2822ce33/cb21b90ca4.pdf",
+  "title": "Advertisement Mock Test Links",
+  "body": "in-ntpc-green",
+  "exam": "in-ntpc-green-recruitment",
+  "feed": "in-ntpc-green/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "d3938377705663df38c9299ff7d1e8c35dcf775b71542c8935838fa78cc206bf",
+  "bytes": 315138,
+  "pages": 1,
+  "chars": 419,
+  "ocr": false,
+  "indic_share": 0.36,
+  "fetched": "2026-09-29T14:40:27+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "01/25)",
+ "dates": {
+  "exam_date": {
+   "date": "2025-06-08",
+   "evidence": "No. 01/25) is scheduled on 08th June 2025 (Sunday) - Mock links for familiarizing with the interface of the computer-based test (CBT) for different posts are uploaded.",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "summary": {
+  "exam_date": "2025-06-08"
+ }
+}

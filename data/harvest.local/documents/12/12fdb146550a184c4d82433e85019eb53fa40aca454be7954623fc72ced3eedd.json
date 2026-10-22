@@ -1,0 +1,60 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "12fdb146550a184c4d82433e85019eb53fa40aca454be7954623fc72ced3eedd",
+  "url": "https://www.ceed.iitb.ac.in/2026/downloads/CEED2018qp.pdf",
+  "title": "CEED 2018 Question Paper",
+  "body": "in-iitb",
+  "exam": "in-ceed",
+  "feed": "in-iitb/ceed",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "46f383d38f68bb03786bbc727bfbcfc8bc3eaf366b744b0f1b2a7fd982c1cb68",
+  "bytes": 1976305,
+  "pages": 29,
+  "chars": 25385,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:38:51+05:30"
+ },
+ "kind": "notice",
+ "exam_pattern": [
+  {
+   "paper": "Numerical answer type (NAT)",
+   "page": 2,
+   "questions": 2,
+   "marks": 6
+  },
+  {
+   "paper": "Numerical answer type (NAT)",
+   "page": 2,
+   "questions": 6,
+   "marks": 3
+  },
+  {
+   "paper": "Multiple select questions (MSQs)",
+   "page": 2,
+   "questions": 2,
+   "marks": 4
+  },
+  {
+   "paper": "Multiple select questions (MSQs)",
+   "page": 2,
+   "questions": 6,
+   "marks": 2
+  },
+  {
+   "paper": "Multiple choice questions (MCQs)",
+   "page": 2,
+   "questions": 25,
+   "marks": 2
+  }
+ ],
+ "exam": {
+  "duration": {
+   "value": "The total duration of the examination is 3 hours",
+   "page": 2
+  }
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "schema": 1,
+ "exam": "tn-mhc-staff",
+ "name": "Madras HC Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)",
+ "body": "tn-mhc",
+ "purpose": "recruitment",
+ "cycle": "2022",
+ "documents": 8,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2022-10-16",
+    "source": {
+     "notice": "0938b426729b51d9de255a90cbcbb3e4d9d25ac20f11074398ef1af38e79280b",
+     "url": "https://www.mhc.tn.gov.in/recruitment/docs/information_to_candidates_04112022.pdf",
+     "title": "Information to the candidates who appeared for the Written Examination conducted on 15.10.2022 & 16.10.2022 for the Posts of Reader and Examiner,Driver,etc.,in the Subordinates courts in the State of Tamilnadu(Notification Nos.154 to 209/2022).",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2022-10-16",
+   "source": {
+    "notice": "0938b426729b51d9de255a90cbcbb3e4d9d25ac20f11074398ef1af38e79280b",
+    "url": "https://www.mhc.tn.gov.in/recruitment/docs/information_to_candidates_04112022.pdf",
+    "title": "Information to the candidates who appeared for the Written Examination conducted on 15.10.2022 & 16.10.2022 for the Posts of Reader and Examiner,Driver,etc.,in the Subordinates courts in the State of Tamilnadu(Notification Nos.154 to 209/2022).",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "2.Age:- (as on 01.07.2021) A Candidate must have attained the age of 40 years",
+      "page": 2
+     },
+     {
+      "text": "(a) The candidate applying for the post notified above, must necessarily know to read, write and speak Tamil (b)The Candidate should possess an experience of atleast 10 years as Presiding Officer of a District Court or of any Tribunal at equivalent level or combined service as such in District…",
+      "page": 2
+     },
+     {
+      "text": "Such shortlisting will be done based on the fulfillment of eligibility criteria, experience and achievements of the candidates, as stated by them, with proof, in their applications",
+      "page": 3
+     }
+    ]
+   },
+   "source": {
+    "notice": "06e5f876e60b7d0b7a547317b2c0f2e520375ef2f3416d640bd2fbcdaae5488d",
+    "url": "https://www.mhc.tn.gov.in/recruitment/docs/02_2021_notf.pdf",
+    "title": "Notification for the post of Judicial Member in Tamil Nadu State Consumer Disputes Redressal Commission",
+    "kind": "advertisement"
+   },
+   "alternatives": 1,
+   "carried_from": "2021"
+  },
+  "selection": {
+   "value": [
+    "Interview"
+   ],
+   "source": {
+    "notice": "06e5f876e60b7d0b7a547317b2c0f2e520375ef2f3416d640bd2fbcdaae5488d",
+    "url": "https://www.mhc.tn.gov.in/recruitment/docs/02_2021_notf.pdf",
+    "title": "Notification for the post of Judicial Member in Tamil Nadu State Consumer Disputes Redressal Commission",
+    "kind": "advertisement"
+   },
+   "carried_from": "2021"
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "B or C",
+     "page": 1
+    }
+   ],
+   "source": {
+    "notice": "0938b426729b51d9de255a90cbcbb3e4d9d25ac20f11074398ef1af38e79280b",
+    "url": "https://www.mhc.tn.gov.in/recruitment/docs/information_to_candidates_04112022.pdf",
+    "title": "Information to the candidates who appeared for the Written Examination conducted on 15.10.2022 & 16.10.2022 for the Posts of Reader and Examiner,Driver,etc.,in the Subordinates courts in the State of Tamilnadu(Notification Nos.154 to 209/2022).",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "fee",
+  "age",
+  "pay"
+ ],
+ "older_documents": 7
+}

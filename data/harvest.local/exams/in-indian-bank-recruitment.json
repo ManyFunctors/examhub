@@ -1,0 +1,127 @@
+{
+ "schema": 1,
+ "exam": "in-indian-bank-recruitment",
+ "name": "Indian Bank Direct Recruitment (Specialist Officers, Apprentices and others)",
+ "body": "in-indian-bank",
+ "purpose": "recruitment",
+ "cycle": "2025",
+ "documents": 2,
+ "documents_in_cycle": 2,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 6,
+    "by_category": {
+     "Unreserved": 5,
+     "OBC": 1,
+     "SC": 0,
+     "ST": 0,
+     "EWS": 0,
+     "PwBD-A": 0,
+     "PwBD-B": 0
+    },
+    "rows": [
+     {
+      "label": "Fire Safety Officer / Associate Manager – Senior Officer",
+      "total": 6,
+      "by_category": {
+       "SC": 0,
+       "ST": 0,
+       "OBC": 1,
+       "EWS": 0,
+       "Unreserved": 5,
+       "PwBD-A": 0,
+       "PwBD-B": 0
+      },
+      "page": 1
+     }
+    ],
+    "from": "table"
+   },
+   "source": {
+    "notice": "005e2e6b6a10a54b5477a61d556d6838b7b00c97b6748b408afdf6ea354e8884",
+    "url": "https://indianbank.bank.in/documents/20117/34414/Final_Detailed-Advertisement-for-engagement-of-Fire-Safety-Officers-1 (1)2026_05_01_10_00_11.pdf/a88518c3-ffa4-9bbb-c7aa-c81f1e08d0da",
+    "title": "Detailed Advertisement",
+    "kind": "advertisement"
+   }
+  },
+  "dates": {
+   "registration_deadline": {
+    "date": "2025-01-20",
+    "source": {
+     "notice": "009ec279c294a99f7dfb52b9c1d4b99e4df2defbeee55f325fb346941c5bcd2d",
+     "url": "https://indianbank.bank.in/documents/20117/34414/authorised-doctors-advertisement-03.01.20252026_05_02_21_45_04.pdf/c04f4ea8-5b0f-32ca-4440-ddba283c7c91",
+     "title": "Engagement of Authorized Doctor on Contract Basis with Monthly Remuneration at Zonal Office Udaipur Advertisement",
+     "kind": "advertisement",
+     "page": 1
+    },
+    "alternatives": 1
+   }
+  },
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2025-01-20"
+   },
+   "source": {
+    "notice": "009ec279c294a99f7dfb52b9c1d4b99e4df2defbeee55f325fb346941c5bcd2d",
+    "url": "https://indianbank.bank.in/documents/20117/34414/authorised-doctors-advertisement-03.01.20252026_05_02_21_45_04.pdf/c04f4ea8-5b0f-32ca-4440-ddba283c7c91",
+    "title": "Engagement of Authorized Doctor on Contract Basis with Monthly Remuneration at Zonal Office Udaipur Advertisement",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate",
+     "Diploma / ITI"
+    ],
+    "clauses": [
+     {
+      "text": "Candidates should have a minimum of 10 years’ experience (post qualification experience) in any hospital or as Medical Practitioner.",
+      "page": 1
+     },
+     {
+      "text": "Mere fulfilling the eligibility criteria does not entitle a candidate to be called for interview.",
+      "page": 1
+     },
+     {
+      "text": "Educational Qualifications:(Indicate degree / diploma obtained, In the order of highest to least)",
+      "page": 6
+     },
+     {
+      "text": "Attested copies of certificates regarding ID & Address proof, age, educational qualifications, experience etc. should accompany the application.",
+      "page": 7
+     }
+    ]
+   },
+   "source": {
+    "notice": "009ec279c294a99f7dfb52b9c1d4b99e4df2defbeee55f325fb346941c5bcd2d",
+    "url": "https://indianbank.bank.in/documents/20117/34414/authorised-doctors-advertisement-03.01.20252026_05_02_21_45_04.pdf/c04f4ea8-5b0f-32ca-4440-ddba283c7c91",
+    "title": "Engagement of Authorized Doctor on Contract Basis with Monthly Remuneration at Zonal Office Udaipur Advertisement",
+    "kind": "advertisement"
+   },
+   "alternatives": 1
+  },
+  "selection": {
+   "value": [
+    "Interview"
+   ],
+   "source": {
+    "notice": "009ec279c294a99f7dfb52b9c1d4b99e4df2defbeee55f325fb346941c5bcd2d",
+    "url": "https://indianbank.bank.in/documents/20117/34414/authorised-doctors-advertisement-03.01.20252026_05_02_21_45_04.pdf/c04f4ea8-5b0f-32ca-4440-ddba283c7c91",
+    "title": "Engagement of Authorized Doctor on Contract Basis with Monthly Remuneration at Zonal Office Udaipur Advertisement",
+    "kind": "advertisement"
+   },
+   "alternatives": 1
+  }
+ },
+ "gaps": [
+  "exam_date",
+  "fee",
+  "age",
+  "pay"
+ ],
+ "older_documents": 0
+}

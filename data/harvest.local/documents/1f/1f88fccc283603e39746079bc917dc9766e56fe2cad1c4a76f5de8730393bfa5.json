@@ -1,0 +1,60 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "1f88fccc283603e39746079bc917dc9766e56fe2cad1c4a76f5de8730393bfa5",
+  "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=13082&type=n",
+  "title": "Admission Notification for B.Ed. Course 2021 at Govt. College of Education, Canal Road, Jammu [BEDJ-NN-068 Dt. 16-06-2021]",
+  "body": "jk-jkbopee",
+  "exam": "jk-jkbopee-nursing-paramedical",
+  "feed": "jk-jkbopee/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "90df85dc459785d469fbfeb0c27ea56361b20456b4946215e9518a9eddc4c61f",
+  "bytes": 2052331,
+  "pages": 5,
+  "chars": 13674,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:18:19+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "068-BOPEE",
+ "fees": [
+  {
+   "categories": [
+    "All"
+   ],
+   "amount": 1200,
+   "raw": "Fee Rs. 1200/- (Rupees one thousand two hundred only) to be paid online through national Credit Card/Debit Card/Net Banking.",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "The Board shall receipt of any such communication from the concerned Authority/University notify the same, which shall govern the eligibility criteria",
+    "page": 3
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Offline",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.jakbopee.org",
+   "https://www.jkbopee.gov.in",
+   "https://www.jakbopee.org"
+  ]
+ },
+ "summary": {
+  "fee": {
+   "min": 1200,
+   "max": 1200
+  }
+ }
+}

@@ -2054,6 +2054,7 @@ short_name = "BITS Pilani"
 jurisdiction = "in"
 kind = "institute"
 website = "https://admissions.bits-pilani.ac.in/"
+hosts = ["admissions.bits-pilani.ac.in", "www.bitsadmission.com", "bitsadmission.com"]
 status = "active"
 
 [[bodies]]
@@ -2578,6 +2579,16 @@ url = "https://exams.nta.nic.in/aiapget/"
 adapter = "html_links"
 yields = "notices"
 include = '\.pdf|notice|bulletin|public-notice|Download'
+tier = "hot"
+status = "active"
+
+[[feeds]]
+id = "in-bits/first-degree"
+body = "in-bits"
+url = "https://admissions.bits-pilani.ac.in/FD/FD.html"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf|brochure|eligib|fee|syllab|notice|advert|modality|schedule|result|cut'
 tier = "hot"
 status = "active"
 
@@ -8268,7 +8279,8 @@ conducted_by = "in-bits"
 frequency = "annual"
 qualification = "class_12"
 streams = ["engineering", "pharmacy", "science"]
-official_url = "https://admissions.bits-pilani.ac.in/"
+official_url = "https://admissions.bits-pilani.ac.in/FD/FD.html"
+match = { any = ["BITSAT", 'BITS\s*Admission\s*Test', 'First\s*Degree.*Admission\s*cycle', 'Admission\s*Modality', 'Fee\s*Structure'] }
 status = "active"
 
 [[exams]]

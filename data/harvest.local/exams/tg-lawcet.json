@@ -1,0 +1,44 @@
+{
+ "schema": 1,
+ "exam": "tg-lawcet",
+ "name": "Telangana LAWCET / PGLCET",
+ "body": "tg-tgche",
+ "purpose": "admission",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "registration_deadline": {
+    "date": "2026-10-12",
+    "source": {
+     "notice": "2eaa5fce7fc68abfdb4e6b23a941ea5eee80ed090fc80894f67304e78a9073a4",
+     "url": "https://tgche.ac.in/wp-content/uploads/2026/09/TGLAWCET-Extn-Notice.pdf",
+     "title": "Extension of Last Date to Upload & Submission of Hard Copies of Admitted Lists of Law Courses (LLB and LLM under Category – B",
+     "kind": "corrigendum",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2026-10-12"
+   },
+   "source": {
+    "notice": "2eaa5fce7fc68abfdb4e6b23a941ea5eee80ed090fc80894f67304e78a9073a4",
+    "url": "https://tgche.ac.in/wp-content/uploads/2026/09/TGLAWCET-Extn-Notice.pdf",
+    "title": "Extension of Last Date to Upload & Submission of Hard Copies of Admitted Lists of Law Courses (LLB and LLM under Category – B",
+    "kind": "corrigendum",
+    "page": 1
+   }
+  }
+ },
+ "gaps": [
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

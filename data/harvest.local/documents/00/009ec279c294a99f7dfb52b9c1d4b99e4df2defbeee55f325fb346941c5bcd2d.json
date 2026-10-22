@@ -1,0 +1,67 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "009ec279c294a99f7dfb52b9c1d4b99e4df2defbeee55f325fb346941c5bcd2d",
+  "url": "https://indianbank.bank.in/documents/20117/34414/authorised-doctors-advertisement-03.01.20252026_05_02_21_45_04.pdf/c04f4ea8-5b0f-32ca-4440-ddba283c7c91",
+  "title": "Engagement of Authorized Doctor on Contract Basis with Monthly Remuneration at Zonal Office Udaipur Advertisement",
+  "body": "in-indian-bank",
+  "exam": "in-indian-bank-recruitment",
+  "feed": "in-indian-bank/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "6269362c959a16a390e0f3b0a245f94b89640845ae8b38c4f1f91274b3612e46",
+  "bytes": 764153,
+  "pages": 8,
+  "chars": 16530,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:22+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "registration_deadline": {
+   "date": "2025-01-20",
+   "evidence": "Applications are invited from eligible candidates for empanelment as Authorised Doctor (on contract basis) with fixed monthly Honorarium/remuneration for Indian Bank, UDAIPUR ZONAL OFFICE at Indian Bank, UDAIPUR ZONE, 203/204, SECOND FLOOR,",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "clauses": [
+   {
+    "text": "Candidates should have a minimum of 10 years’ experience (post qualification experience) in any hospital or as Medical Practitioner.",
+    "page": 1
+   },
+   {
+    "text": "Mere fulfilling the eligibility criteria does not entitle a candidate to be called for interview.",
+    "page": 1
+   },
+   {
+    "text": "Educational Qualifications:(Indicate degree / diploma obtained, In the order of highest to least)",
+    "page": 6
+   },
+   {
+    "text": "Attested copies of certificates regarding ID & Address proof, age, educational qualifications, experience etc. should accompany the application.",
+    "page": 7
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "summary": {
+  "apply": {
+   "until": "2025-01-20"
+  },
+  "education": [
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "selection": "Interview"
+ }
+}

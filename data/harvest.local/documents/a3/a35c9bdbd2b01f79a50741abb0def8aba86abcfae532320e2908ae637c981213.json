@@ -1,0 +1,41 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "a35c9bdbd2b01f79a50741abb0def8aba86abcfae532320e2908ae637c981213",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210325211533.pdf",
+  "title": "1574 Public Notice Reg. Opening Online Application for JEE (Main) April 2021 Examination Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "5d1f01ef3deaa3486fafc0f834863537e27b5b1ab6c9564c7ce88f4bc5a46665",
+  "bytes": 768304,
+  "pages": 1,
+  "chars": 2592,
+  "ocr": false,
+  "indic_share": 0.02,
+  "fetched": "2026-10-08T22:01:48+05:30"
+ },
+ "kind": "admit_card",
+ "schedule": [
+  {
+   "event": "Session-3 (April 2021) (B .E ./B .Tech .) (Paper-1) 5April2021 (upto1150pm) . . . Tobeintimatedlateron",
+   "date": "2021-04-30",
+   "page": 1,
+   "until": "2021-03-25"
+  },
+  {
+   "event": "Session-4 (May-2021) (BE/BTech and . . . . BArch/BPlanning) . . . (Paper-1 Paper-2A & , Paper-2B) TobedisplayedontheNTAwebsiteinduecourse",
+   "date": "2021-05-28",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ }
+}

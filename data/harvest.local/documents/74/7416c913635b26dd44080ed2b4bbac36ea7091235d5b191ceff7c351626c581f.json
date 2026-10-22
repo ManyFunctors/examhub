@@ -1,0 +1,73 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "7416c913635b26dd44080ed2b4bbac36ea7091235d5b191ceff7c351626c581f",
+  "url": "https://nta.ac.in/Download/Notice/20190426110401.pdf",
+  "title": "1889 Press Release for NCHM JEE 2019 Read More",
+  "body": "in-nta",
+  "exam": "in-nchm-jee",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "528e7df4fbafd193a27a093dc0475df8607aec08061fd1c4c8afbf94f8ad71b9",
+  "bytes": 68275,
+  "pages": 1,
+  "chars": 1250,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-02T13:24:22+05:30"
+ },
+ "kind": "notice",
+ "vacancies": {
+  "total": 30722,
+  "by_category": {
+   "Unreserved": 19537,
+   "OBC": 7260,
+   "SC": 3191,
+   "ST": 734
+  },
+  "rows": [
+   {
+    "label": "Male",
+    "total": 23311,
+    "by_category": {
+     "Unreserved": 14628,
+     "OBC": 5778,
+     "SC": 2400,
+     "ST": 505
+    },
+    "page": 1
+   },
+   {
+    "label": "Female",
+    "total": 7410,
+    "by_category": {
+     "Unreserved": 4908,
+     "OBC": 1482,
+     "SC": 791,
+     "ST": 229
+    },
+    "page": 1
+   },
+   {
+    "label": "Trans Gender",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "summary": {
+  "vacancies": 30722
+ }
+}

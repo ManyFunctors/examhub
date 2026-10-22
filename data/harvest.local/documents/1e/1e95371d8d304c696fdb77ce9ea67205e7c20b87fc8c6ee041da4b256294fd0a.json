@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1e95371d8d304c696fdb77ce9ea67205e7c20b87fc8c6ee041da4b256294fd0a",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20250203220635.pdf",
+  "title": "Inviting Online Applications for Graduate Aptitude Test- Biotechnology (GAT-B) - 2025 Read More",
+  "body": "in-nta",
+  "exam": "in-gat-b",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "1ae1c30cc1421839243b8d38ece432e1949f822b52268e38c5c751ace7d87620",
+  "bytes": 976467,
+  "pages": 1,
+  "chars": 2129,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-01T14:04:27+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "correction_window": {
+   "date": "2025-03-03",
+   "evidence": "Last date for submission of Examination fee (through Credit",
+   "page": 1,
+   "from": "table"
+  },
+  "exam_date": {
+   "date": "2025-04-20",
+   "evidence": "Date of Examination for GAT-B -2025",
+   "page": 1,
+   "from": "table"
+  },
+  "payment_deadline": {
+   "date": "2025-03-03",
+   "evidence": "upto (05:00 P.M) Last date for submission of Examination fee (through Credit Card/ Debit Card/Net Banking Payment Modes upto (11:50 pm)",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Duration of Online registration and submission of online",
+   "date": "2025-03-03",
+   "page": 1
+  },
+  {
+   "event": "Last date for submission of Examination fee (through Credit",
+   "key": "correction_window",
+   "date": "2025-03-03",
+   "page": 1
+  },
+  {
+   "event": "Correction in the Particulars of Application Form online",
+   "key": "correction_window",
+   "date": "2025-03-05",
+   "page": 1,
+   "until": "2025-03-06"
+  },
+  {
+   "event": "Date of Examination for GAT-B -2025",
+   "key": "exam_date",
+   "date": "2025-04-20",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://dbt2025.ntaonline.in/"
+  ],
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2025-04-20"
+ }
+}

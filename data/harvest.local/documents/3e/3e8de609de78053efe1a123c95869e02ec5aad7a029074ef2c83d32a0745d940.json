@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3e8de609de78053efe1a123c95869e02ec5aad7a029074ef2c83d32a0745d940",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/05/20260530374646310.pdf",
+  "title": "Re-scheduling of examination for the candidates affected due to technical glitch in CUET (UG) – 2026 on 30.05.2026 (Shift-I)-reg.",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/cuet-ug",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "78c2c6da0d62409643e484b4de7dd96172a9e2cb7214e404b4806ae7248422ba",
+  "bytes": 451951,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T19:02:08+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

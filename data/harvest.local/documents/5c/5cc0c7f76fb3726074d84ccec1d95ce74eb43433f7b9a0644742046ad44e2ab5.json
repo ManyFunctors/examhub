@@ -1,0 +1,39 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "5cc0c7f76fb3726074d84ccec1d95ce74eb43433f7b9a0644742046ad44e2ab5",
+  "url": "https://psc.wb.gov.in/Download?param1=An_20250521202106_Announcement_annexture.pdf&param2=advertisement",
+  "title": "Download",
+  "body": "wb-wbpsc",
+  "exam": "wb-wbpsc-other",
+  "feed": "wb-wbpsc/announcement",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "2a7f4934063ea84100202154d718362f2777a29fc7f0614f4c564332c45d2215",
+  "bytes": 350842,
+  "pages": 3,
+  "chars": 2736,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:18:16+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "registration_deadline": {
+   "date": "2025-06-05",
+   "evidence": "Officers of the All India Services who joined the State Government and L.D.As./L.D.Cs./S.Is./Sgts. of the Govt. of West Bengal whose mother tongue is not Bengali are advised to apply in prescribed proforma (available in the Deptts./Dtes. co",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "summary": {
+  "apply": {
+   "until": "2025-06-05"
+  }
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

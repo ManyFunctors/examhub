@@ -1,0 +1,41 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "02339cbd7742e0e223b6d6d51432aa1c419d8d9c01c1b5f57393149024576812",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220808221621.pdf",
+  "title": "1194 PUBLIC NOTICE 08 August 2022 Subject: Scheduling of dates of examination for UGC-NET December 2021 and June 2022 (Merged Cycles) Phase II – Reg Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "published": "2022-08-08",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "f99ce469f84bb21dd6d6162d7d71c0da90b26eeb8670225e585c2d63df1c3120",
+  "bytes": 1125395,
+  "pages": 3,
+  "chars": 4515,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-07T18:40:52+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2022-08-12",
+   "evidence": "Phase II was earlier scheduled to be held on 12, 13 and 14 August 2022",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://ugcnet.nta.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-08-12"
+ }
+}

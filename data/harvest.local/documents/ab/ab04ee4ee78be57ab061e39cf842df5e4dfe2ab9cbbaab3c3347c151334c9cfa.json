@@ -1,0 +1,37 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "ab04ee4ee78be57ab061e39cf842df5e4dfe2ab9cbbaab3c3347c151334c9cfa",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20250422215120.pdf",
+  "title": "CUET (PG) – 2025 की उत्तर कुंजी चुनौती हेतु अनंतिम उत्तर कुंजी, प्रश्न पत्र तथा अभ्यर्थियों की रिकॉर्डेड प्रतिक्रियाएं प्रदर्शित करने के संबंध में। Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-pg",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "c9c7473dab54ec79ab8f66cf65730a6e70d3543a262683730ef105a5ca75753a",
+  "bytes": 427410,
+  "pages": 2,
+  "chars": 4001,
+  "ocr": false,
+  "indic_share": 0.59,
+  "fetched": "2026-10-05T16:17:19+05:30"
+ },
+ "kind": "notice",
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/CUET-PG/"
+  ],
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ }
+}

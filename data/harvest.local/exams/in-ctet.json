@@ -1,0 +1,161 @@
+{
+ "schema": 1,
+ "exam": "in-ctet",
+ "name": "Central Teacher Eligibility Test",
+ "body": "in-cbse",
+ "purpose": "eligibility",
+ "cycle": "2026-09",
+ "documents": 8,
+ "documents_in_cycle": 2,
+ "fields": {
+  "dates": {
+   "registration_deadline": {
+    "date": "2026-09-01",
+    "source": {
+     "notice": "e3d502ed3ef8ab05f416f663d4434e863c42bc97e6f35dfe795d544966019411",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260907461266783.pdf",
+     "title": "PUBLIC NOTICE: CTET SEP-2026 CORRECTION WINDOW (last date 10.09.2026)",
+     "kind": "notice",
+     "page": 1
+    }
+   },
+   "registration_open": {
+    "date": "2026-08-25",
+    "source": {
+     "notice": "e3d502ed3ef8ab05f416f663d4434e863c42bc97e6f35dfe795d544966019411",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260907461266783.pdf",
+     "title": "PUBLIC NOTICE: CTET SEP-2026 CORRECTION WINDOW (last date 10.09.2026)",
+     "kind": "notice",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-08-25",
+    "until": "2026-09-01"
+   },
+   "source": {
+    "notice": "e3d502ed3ef8ab05f416f663d4434e863c42bc97e6f35dfe795d544966019411",
+    "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260907461266783.pdf",
+    "title": "PUBLIC NOTICE: CTET SEP-2026 CORRECTION WINDOW (last date 10.09.2026)",
+    "kind": "notice",
+    "page": 1
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate",
+     "Class 12"
+    ],
+    "clauses": [
+     {
+      "text": "Password must have at least one Upper case, one lower case alphabet and one numeric value and at least one special characters",
+      "page": 3
+     },
+     {
+      "text": "The candidate should satisfy his/her eligibility before applying and shall be personally responsible in case he/she is not eligible to apply as per the given eligibility criteria.",
+      "page": 4
+     },
+     {
+      "text": "Qualifying the CTET would not confer a right on any person for Recruitment/Employment as it is only one of the eligibility criteria for appointment",
+      "page": 5
+     },
+     {
+      "text": "BACKGROUND AND RATIONALE In accordance with the provisions of sub-section (1) of Section 23 of the RTE Act, the National Council for Teacher Education (NCTE) vide Notification dated 23 rd August, 2010 subsequently amended from time to time has laid down the minimum qualifications for a person to…",
+      "page": 7
+     },
+     {
+      "text": "It had been inter alia provided that one of the essential qualifications for a person to be eligible for appointment as a teacher in any of the schools referred to in Clause (n) of section 2 of the RTE Act is that he/she should pass the Teacher Eligibility Test (TET) which will be conducted by the…",
+      "page": 7
+     },
+     {
+      "text": "The rationale for including the TET as a minimum qualification for a person to be eligible for appointment as a teacher is as under:",
+      "page": 7
+     },
+     {
+      "text": "ELIGIBILITY The minimum qualifications for appearing in the CTET are as notified by NCTE",
+      "page": 8
+     },
+     {
+      "text": "The minimum qualifications for the teaching staff should be in accordance with the following:",
+      "page": 8
+     },
+     {
+      "text": "National Council for Teacher Education (Determination of Minimum Qualifications for Persons to be recruited as Education Teachers and Physical Education Teachers in Pre-Primary, Primary, Upper Primary, Secondary, Senior Secondary or Intermediate Schools or Colleges) Regulations as amended and…",
+      "page": 8
+     },
+     {
+      "text": "Minimum qualifications laid down in the Recruitment Rules for the teachers by the Appropriate Government where the school is situated or the Recruitment Rules for the teachers of Kendriya Vidyalaya Sangthan or Navodaya Vidyalaya Samiti.",
+      "page": 8
+     },
+     {
+      "text": "(b) Should give weightage to the CTET scores in the recruitment process however, qualifying the CTET would not confer a right on any person for recruitment/employment as it is only one of the eligibility criteria for appointment",
+      "page": 10
+     },
+     {
+      "text": "(iv) According to CBSE Affiliation Bye-Laws, prescribing the minimum qualifications for teachers to teach various subjects in Classes I to VIII in the schools Affiliated to CBSE stands amended to that extent and it shall be mandatory that the teachers appointed hereinafter i.e. 6th March, 2012 to…",
+      "page": 11
+     },
+     {
+      "text": "The candidate should satisfy his/her eligibility before applying and shall be personally responsible in case he/she is not eligible to apply as per the given eligibility criteria.",
+      "page": 12
+     },
+     {
+      "text": "The candidate should satisfy his/her eligibility before applying and shall be personally responsible in case he/she is not eligible to apply as per the given eligibility criteria.",
+      "page": 28
+     },
+     {
+      "text": "Minimum Educational Qualifications for teaching Classes I to V and VI to VIII Candidate must possess Minimum Educational Qualifications for becoming a teacher for Class I to V and VI to VIII.",
+      "page": 29
+     },
+     {
+      "text": "Password must have at least one Upper case, one lower case alphabet and one numeric value and at least one special characters",
+      "page": 30
+     },
+     {
+      "text": "Qualifying the CTET would not confer a right on any person for Recruitment/Employment as it is only one of the eligibility criteria for appointment",
+      "page": 32
+     }
+    ]
+   },
+   "source": {
+    "notice": "79e904896104e47bcf121c54f8865e9673e7b9c2b40c1cbb3ab5b7e170a76a75",
+    "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/202605111250310617.pdf",
+    "title": "CTET SEPT 2026 INFORMATION BULLETIN",
+    "kind": "brochure"
+   },
+   "alternatives": 1,
+   "carried_from": "2026"
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "(for Social Studies/Social Science teacher)",
+     "page": 10
+    },
+    {
+     "paper": "(iv) Language I (compulsory)",
+     "page": 10
+    },
+    {
+     "paper": "(v) Language II (compulsory)",
+     "page": 10
+    }
+   ],
+   "source": {
+    "notice": "79e904896104e47bcf121c54f8865e9673e7b9c2b40c1cbb3ab5b7e170a76a75",
+    "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/202605111250310617.pdf",
+    "title": "CTET SEPT 2026 INFORMATION BULLETIN",
+    "kind": "brochure"
+   },
+   "carried_from": "2026"
+  }
+ },
+ "gaps": [
+  "exam_date",
+  "fee"
+ ],
+ "older_documents": 6
+}

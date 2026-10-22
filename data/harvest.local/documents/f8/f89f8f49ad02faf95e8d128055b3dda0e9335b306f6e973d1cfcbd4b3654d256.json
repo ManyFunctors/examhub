@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "f89f8f49ad02faf95e8d128055b3dda0e9335b306f6e973d1cfcbd4b3654d256",
+  "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/07/202607222033225850.pdf",
+  "title": "अखिल भारतीय आयुष स्नातकोत्तर प्रवेश परीक्षा (AIAPGET)-2026 में सम्मिलित होने हेतु इंटर्नशिप पूर्ण करने की अंतिम तिथि में विस्तार।",
+  "body": "in-nta",
+  "exam": "in-aiapget",
+  "feed": "in-nta/aiapget",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "3b2f2225a8a11a04a131cfd7056207163f8d37b0b5a1f9e6c0212c17fbaa9197",
+  "bytes": 436971,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T23:44:22+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

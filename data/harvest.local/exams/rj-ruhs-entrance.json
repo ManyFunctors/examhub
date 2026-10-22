@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "exam": "rj-ruhs-entrance",
+ "name": "RUHS Entrance (B.Sc Nursing, Pharmacy, Paramedical, PG)",
+ "body": "rj-ruhs",
+ "purpose": "admission",
+ "cycle": null,
+ "documents": 2,
+ "documents_in_cycle": 2,
+ "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 125000,
+     "raw": "   Rs. 87,500/- + 7500/- (Caution Money)  Rs. 1,25,000/-+ 7500/- (Caution Money)",
+     "page": 1
+    }
+   ],
+   "source": {
+    "notice": "17a9c7c5f7ddfe29181be70c8ff2c03885337612287c387478fcb2a4049acd81",
+    "url": "https://old.ruhsraj.org/cms/uploads/2025/09/Notification_for_Website_M.Pharma._2025_6407.pdf",
+    "title": "Notification M.Pharm Courses Counselling/Admission-2025-26",
+    "kind": "result",
+    "page": 1
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

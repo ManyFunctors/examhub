@@ -1,0 +1,116 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "005e2e6b6a10a54b5477a61d556d6838b7b00c97b6748b408afdf6ea354e8884",
+  "url": "https://indianbank.bank.in/documents/20117/34414/Final_Detailed-Advertisement-for-engagement-of-Fire-Safety-Officers-1 (1)2026_05_01_10_00_11.pdf/a88518c3-ffa4-9bbb-c7aa-c81f1e08d0da",
+  "title": "Detailed Advertisement",
+  "body": "in-indian-bank",
+  "exam": "in-indian-bank-recruitment",
+  "feed": "in-indian-bank/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "437016c3499280fee480dfca119171ca2511f770570a55d5e38fc01b88f19912",
+  "bytes": 542475,
+  "pages": 5,
+  "chars": 11692,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:38:28+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "registration_deadline": {
+   "date": "2025-11-21",
+   "evidence": "All eligible and interested candidates should apply in the prescribed application format to reach the address cited above on or before 21.11.2025",
+   "page": 3,
+   "from": "text"
+  }
+ },
+ "unmapped_classes": [
+  {
+   "label": "OC",
+   "page": 1
+  },
+  {
+   "label": "ID",
+   "page": 1
+  }
+ ],
+ "vacancies": {
+  "total": 6,
+  "by_category": {
+   "Unreserved": 5,
+   "OBC": 1,
+   "SC": 0,
+   "ST": 0,
+   "EWS": 0,
+   "PwBD-A": 0,
+   "PwBD-B": 0
+  },
+  "rows": [
+   {
+    "label": "Fire Safety Officer / Associate Manager – Senior Officer",
+    "total": 6,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 1,
+     "EWS": 0,
+     "Unreserved": 5,
+     "PwBD-A": 0,
+     "PwBD-B": 0
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Age Minimum Age – 23 years and Maximum Age 40 years (inclusive of all relaxations) Cutoff date for eligibility criteria’s (Age, Experience & Qualification, etc)",
+    "page": 1
+   },
+   {
+    "text": "Educational Qualification and Work Experience",
+    "page": 1
+   },
+   {
+    "text": "Educational Qualification and Work Experience",
+    "page": 2
+   },
+   {
+    "text": "The Bank reserves the right to alter, modify or change the eligibility criteria and / or any of the other terms and conditions spelt out in this notice, including criteria for qualifying/method and procedure for selection.",
+    "page": 5
+   },
+   {
+    "text": "Only those candidates who fulfil the eligibility criteria will be called for interview and intimated by email.",
+    "page": 5
+   },
+   {
+    "text": "Candidates will have to produce original certificates for educational qualifications, experience, age, category etc. at the time of interview, in support of his/her eligibility, as per the details furnished in the application, failing which the candidate will not be allowed for interview and their…",
+    "page": 5
+   }
+  ]
+ },
+ "selection": [
+  "Interview",
+  "Written examination",
+  "Group discussion",
+  "Preliminary examination"
+ ],
+ "summary": {
+  "vacancies": 6,
+  "apply": {
+   "until": "2025-11-21"
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Interview → Written examination → Group discussion → Preliminary examination"
+ }
+}

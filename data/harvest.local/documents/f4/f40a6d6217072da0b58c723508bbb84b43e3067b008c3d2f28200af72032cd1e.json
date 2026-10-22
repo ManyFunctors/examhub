@@ -1,0 +1,27 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "f40a6d6217072da0b58c723508bbb84b43e3067b008c3d2f28200af72032cd1e",
+  "url": "https://www.cbse.gov.in/cbsenew/documents/SUBMISSION_FORMS_PRIVATE_XII_2627_07102026.pdf",
+  "title": "Submission of Examination forms by Private Candidates for Senior Secondary (Class XII) Examinations 2026-2027",
+  "body": "in-cbse",
+  "exam": "in-cbse-class-12",
+  "feed": "in-cbse/notices",
+  "published": "2026-10-07",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "613fcbee3e66740c8d5c8aaa3eb603c8dea47334ef09c2d68d159d43e085d40a",
+  "bytes": 6594687,
+  "pages": 17,
+  "chars": 32,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-07T18:23:44+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

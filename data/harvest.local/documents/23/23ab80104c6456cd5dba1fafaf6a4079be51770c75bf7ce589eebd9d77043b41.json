@@ -1,0 +1,39 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "23ab80104c6456cd5dba1fafaf6a4079be51770c75bf7ce589eebd9d77043b41",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20211231145508.pdf",
+  "title": "1369 PUBLIC NOTICE 31 December 2021 Extension of Registration Date of Study Webs of Active–Learning for Young Aspiring Minds (SWAYAM) July 2021 Semester Read More",
+  "body": "in-nta",
+  "exam": "in-nta-swayam",
+  "feed": "in-nta/notices",
+  "published": "2021-12-31",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "88ecd8c2da66848567be4cf791b146e54f17ce424de47c50c5985684fa595074",
+  "bytes": 629020,
+  "pages": 1,
+  "chars": 1922,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-06T15:15:42+05:30"
+ },
+ "kind": "corrigendum",
+ "schedule": [
+  {
+   "event": "SWAYAM - 2021 July Semester",
+   "date": "2022-01-10",
+   "page": 1,
+   "until": "2022-01-11"
+  }
+ ],
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://swayam.nta.ac.in/",
+   "https://nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ }
+}

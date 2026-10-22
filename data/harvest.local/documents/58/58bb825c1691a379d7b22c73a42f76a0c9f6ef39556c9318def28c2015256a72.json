@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "58bb825c1691a379d7b22c73a42f76a0c9f6ef39556c9318def28c2015256a72",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/06/20260619304486804.pdf",
+  "title": "Change of Venue of Examination for Candidates Scheduled to Appear in Harivansh Rai Bachchan Cultural Centre; University of Allahabad, Prayagraj (UP) for NEET(UG) 2026, Scheduled on 21 June 2026 – reg.",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "12b4ad8bb1adeff605c051a2699c0cb01b8367b914fae137d2a81e2e7dbd5759",
+  "bytes": 456349,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T21:26:18+05:30"
+ },
+ "kind": "schedule",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

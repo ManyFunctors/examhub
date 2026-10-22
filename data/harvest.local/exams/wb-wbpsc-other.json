@@ -1,0 +1,80 @@
+{
+ "schema": 1,
+ "exam": "wb-wbpsc-other",
+ "name": "WBPSC Recruitment to other posts (umbrella)",
+ "body": "wb-wbpsc",
+ "purpose": "recruitment",
+ "cycle": "2025",
+ "documents": 3,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "registration_deadline": {
+    "date": "2025-06-05",
+    "source": {
+     "notice": "5cc0c7f76fb3726074d84ccec1d95ce74eb43433f7b9a0644742046ad44e2ab5",
+     "url": "https://psc.wb.gov.in/Download?param1=An_20250521202106_Announcement_annexture.pdf&param2=advertisement",
+     "title": "Download",
+     "kind": "notice",
+     "page": 1,
+     "ocr": true
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2025-06-05"
+   },
+   "source": {
+    "notice": "5cc0c7f76fb3726074d84ccec1d95ce74eb43433f7b9a0644742046ad44e2ab5",
+    "url": "https://psc.wb.gov.in/Download?param1=An_20250521202106_Announcement_annexture.pdf&param2=advertisement",
+    "title": "Download",
+    "kind": "notice",
+    "page": 1,
+    "ocr": true
+   }
+  },
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "In case, any candidate fails to download his/her own call letter for the interview, he/she may download the complete list of the eligible candidates where his/her name is featuring and appears at the Commission’s office in time for interview with all his/her original testimonials along with…",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "960daadb10e08cd107762a538fe95e743b38706aa178f407cb09bb94547fdaea",
+    "url": "https://psc.wb.gov.in/Download?param1=An_20250131161008_Advertisement.pdf&param2=advertisement",
+    "title": "Download",
+    "kind": "admit_card"
+   },
+   "carried_from": "0"
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "SC(LD&CP)",
+     "page": 1
+    }
+   ],
+   "source": {
+    "notice": "470255961fa1e5e9b25c6f4dd3c3ac4618213f4b1d85d8210d279f668319cdaf",
+    "url": "https://psc.wb.gov.in/Download?param1=20231003175445_ListBCS20SC1LDCP1.pdf&param2=advertisement",
+    "title": "Download",
+    "kind": "result"
+   },
+   "carried_from": "0"
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "selection"
+ ],
+ "older_documents": 2
+}

@@ -1,0 +1,41 @@
+{
+ "schema": 1,
+ "exam": "in-neet-ug",
+ "name": "National Eligibility cum Entrance Test (UG)",
+ "body": "in-nta",
+ "purpose": "admission",
+ "cycle": "2026-06",
+ "documents": 104,
+ "documents_in_cycle": 7,
+ "fields": {
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Class 12",
+     "Class 10"
+    ],
+    "clauses": [
+     {
+      "text": "Educational qualification details (Class X and Class XII) State/UT from where 12tt /Equivalent Passed/Appearing Category Sub-category/PwD Signature Number of attempts in NEET (UG) 111.",
+      "page": 2
+     }
+    ]
+   },
+   "source": {
+    "notice": "37f72cf26d0446d55ff0d34dbcafaad07b74eb013cd78d62359718d8457623fa",
+    "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/03/20260311404208011.pdf",
+    "title": "Correction in Particulars for the National Eligibility-cum-Entrance Test [(NEET (UG)] 2026 – Reg.",
+    "kind": "brochure"
+   },
+   "alternatives": 1,
+   "carried_from": "2026"
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "exam_pattern"
+ ],
+ "older_documents": 97
+}

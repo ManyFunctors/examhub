@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "exam": "tg-pecet",
+ "name": "Telangana Physical Education CET",
+ "body": "tg-tgche",
+ "purpose": "admission",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate",
+     "Class 12"
+    ],
+    "clauses": [
+     {
+      "text": "Educational qualification / Eligibility criteria i) Any degree from a recognised university in India in 10+2+3 for B.P.Ed and 2 year Intermediate course or Intermediate Vocational course in any field conducted by the Board of Intermediate Education, Telangana or any other examination recognised as…",
+      "page": 1
+     },
+     {
+      "text": "There is no upper age limit for admissions into B.P.Ed / U.G.D.P.Ed courses, However, the candidate should have completed 19 years for B.P.Ed and 16 years for U.G.D.P.Ed",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "2f29ef8e80ace42f9789d3becd483b258b74e732cb3cbf2cc575b8c2b62f03ca",
+    "url": "https://tgche.ac.in/wp-content/uploads/2025/08/TGPECET_Cat-B-Notification_Guidelines-Rules_2025-1.pdf",
+    "title": "TGPECET- (BPED & UGDPED) CATEGORY-B ADMISSION GUIDELINES & RULES FOR THE ACADEMIC YEAR 2025-2026",
+    "kind": "notice"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "exam": "in-gat-b",
+ "name": "Graduate Aptitude Test - Biotechnology and Biotechnology Eligibility Test",
+ "body": "in-nta",
+ "purpose": "admission",
+ "cycle": "2026",
+ "documents": 15,
+ "documents_in_cycle": 5,
+ "fields": {},
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 10
+}

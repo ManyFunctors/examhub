@@ -1,0 +1,48 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "22ea1be9330ba851fefc976ca109e866309a78a324ba2e8d68467a413436d794",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220321101642.pdf",
+  "title": "1332 PUBLIC NOTICE14March2022Sub: Rescheduling the Datesfor Joint Entrance Examination(Main) –2022 Session 1 -Reg Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "published": "2022-03-14",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "8e72c8756566b44e470ae1f38806fd451eee9d0dd61a4354e833cd71ddbb8a55",
+  "bytes": 869862,
+  "pages": 1,
+  "chars": 1750,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-08T14:18:10+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2022-04-21",
+   "evidence": "JEE (Main) 2022 – Session1 21 24 25 29 , , , A pril and 1 4 , May 2022 First week of April 2022 Second week April 2022",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "JEE (Main) 2022 – Session1 21 24 25 29 , , , A pril and 1 4 , May 2022 First week of April 2022 Second week April 2022",
+   "key": "exam_date",
+   "date": "2022-04-21",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "https://www.nta.ac.in",
+   "https://jeemain.nta.nic.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-04-21"
+ }
+}

@@ -1,0 +1,804 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "7945114fdab0402e9f1f5761d6d4183f3da836664f1b67ce37cb2b2a27e94550",
+  "url": "https://sssb.punjab.gov.in/wp-content/uploads/2026/09/ਸ਼ੁੱਧੀ-ਪੱਤਰ-ਗਰੁੱਪ-ਡੀ.pdf",
+  "title": "Corrigendum regarding increase in Posts and extension for applying online application and fee payment for Group D posts (Advt. No. 04 of 2026)",
+  "body": "pb-psssb",
+  "exam": "pb-psssb-group-d",
+  "feed": "pb-psssb/home",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "9c52b7e43540d0776ec0799eebaa888f0c96e7ae085c8cc423c252362d536531",
+  "bytes": 517260,
+  "pages": 4,
+  "chars": 7781,
+  "ocr": false,
+  "indic_share": 0.06,
+  "fetched": "2026-10-01T05:39:25+05:30"
+ },
+ "kind": "corrigendum",
+ "unmapped_classes": [
+  {
+   "label": "ESM (Gen) T",
+   "page": 4
+  },
+  {
+   "label": "ESM (Gen) W",
+   "page": 4
+  },
+  {
+   "label": "ESM SC (M&B) T",
+   "page": 4
+  },
+  {
+   "label": "ESM SC (M&B) W",
+   "page": 4
+  },
+  {
+   "label": "ESM SC (R&O) T",
+   "page": 4
+  },
+  {
+   "label": "ESM SC (R&O) W",
+   "page": 4
+  },
+  {
+   "label": "ESM BC T",
+   "page": 4
+  },
+  {
+   "label": "ESM BC W",
+   "page": 4
+  },
+  {
+   "label": "PH(VI) T",
+   "page": 4
+  },
+  {
+   "label": "PH(VI) W",
+   "page": 4
+  },
+  {
+   "label": "PH(HI) T",
+   "page": 4
+  },
+  {
+   "label": "PH(HI) W",
+   "page": 4
+  }
+ ],
+ "vacancies": {
+  "total": 705,
+  "by_category": {
+   "Unreserved": 968,
+   "EWS": 210,
+   "pb:SC(M&B)": 366,
+   "pb:SC(R&O)": 256,
+   "pb:BC": 259,
+   "PwBD": 61,
+   "Freedom Fighter Dependant": 28
+  },
+  "rows": [
+   {
+    "label": "Deputy Commissioner Roopnagar / Sewadar",
+    "total": 18,
+    "by_category": {
+     "Unreserved": 30,
+     "pb:SC(M&B)": 8,
+     "pb:SC(R&O)": 6,
+     "pb:BC": 7,
+     "PwBD": 1,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 8
+    },
+    "page": 2
+   },
+   {
+    "label": "Deputy Commissioner Roopnagar / Safai Sewak",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 3,
+     "pb:SC(M&B)": 2,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Deputy Commissioner Roopnagar / Safai sewak-cum- chowkidar",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "pb:SC(M&B)": 0,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 1,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Deputy Commissioner Roopnagar / Maali-Cum- Chowkidar",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "pb:SC(M&B)": 1,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Deputy Commissioner Roopnagar / Chowkidar",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "pb:SC(M&B)": 0,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 1,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "Deputy Commissioner Gurdaspur / Sewadar",
+    "total": 10,
+    "by_category": {
+     "Unreserved": 11,
+     "pb:SC(M&B)": 0,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 2,
+     "Freedom Fighter Dependant": 1,
+     "EWS": 7
+    },
+    "page": 2
+   },
+   {
+    "label": "Director Youth Services, Punjab / Sewadar",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 0,
+     "pb:SC(M&B)": 1,
+     "pb:SC(R&O)": 2,
+     "pb:BC": 2,
+     "PwBD": 2,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Director Youth Services, Punjab / Sewadar-cum- chowkidar",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 1,
+     "pb:SC(M&B)": 0,
+     "pb:SC(R&O)": 3,
+     "pb:BC": 2,
+     "PwBD": 2,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Director Youth Services, Punjab / Chowkidar",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "pb:SC(M&B)": 0,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Directorate of Tourism, Punjab / Sewadar",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 0,
+     "pb:SC(M&B)": 2,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Directorate of Tourism, Punjab / Chowkidar",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "pb:SC(M&B)": 2,
+     "pb:SC(R&O)": 1,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Department of Jails / Safai sawek",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "pb:SC(M&B)": 0,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Department of Jails / Sewadar",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 0,
+     "pb:SC(M&B)": 0,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Deputy Commissioner Sangrur / Sewadar",
+    "total": 10,
+    "by_category": {
+     "Unreserved": 7,
+     "pb:SC(M&B)": 6,
+     "pb:SC(R&O)": 17,
+     "pb:BC": 4,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 1,
+     "EWS": 3
+    },
+    "page": 2
+   },
+   {
+    "label": "Deputy Commissioner Barnala / Sewadar",
+    "total": 6,
+    "by_category": {
+     "Unreserved": 0,
+     "pb:SC(M&B)": 2,
+     "pb:SC(R&O)": 2,
+     "pb:BC": 4,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 2
+    },
+    "page": 2
+   },
+   {
+    "label": "Director Local Government / Sewadar",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 7,
+     "pb:SC(M&B)": 2,
+     "pb:SC(R&O)": 2,
+     "pb:BC": 3,
+     "PwBD": 1,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "Director Defence welfare / Sewadar",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "pb:SC(M&B)": 2,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Director Defence welfare / Chowkidar",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "pb:SC(M&B)": 0,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Sewadar(Head office)",
+    "total": 4,
+    "by_category": {
+     "Unreserved": 10,
+     "pb:SC(M&B)": 3,
+     "pb:SC(R&O)": 1,
+     "pb:BC": 2,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Sewadar(Filed office)",
+    "total": 8,
+    "by_category": {
+     "Unreserved": 20,
+     "pb:SC(M&B)": 3,
+     "pb:SC(R&O)": 1,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Baildar-cum- attendant",
+    "total": 2,
+    "by_category": {
+     "Unreserved": 4,
+     "pb:SC(M&B)": 2,
+     "pb:SC(R&O)": 1,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Cattle Attendant",
+    "total": 9,
+    "by_category": {
+     "Unreserved": 17,
+     "pb:SC(M&B)": 8,
+     "pb:SC(R&O)": 2,
+     "pb:BC": 3,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Pig Attendant",
+    "total": 15,
+    "by_category": {
+     "Unreserved": 17,
+     "pb:SC(M&B)": 8,
+     "pb:SC(R&O)": 7,
+     "pb:BC": 6,
+     "PwBD": 2,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 6
+    },
+    "page": 3
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Animal Attendant",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 3,
+     "pb:SC(M&B)": 1,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Sheep Attendant",
+    "total": 7,
+    "by_category": {
+     "Unreserved": 7,
+     "pb:SC(M&B)": 3,
+     "pb:SC(R&O)": 3,
+     "pb:BC": 0,
+     "PwBD": 1,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 2
+    },
+    "page": 3
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Khetibhari Baildar",
+    "total": 11,
+    "by_category": {
+     "Unreserved": 15,
+     "pb:SC(M&B)": 6,
+     "pb:SC(R&O)": 2,
+     "pb:BC": 4,
+     "PwBD": 2,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 2
+    },
+    "page": 3
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Cultivator Baildar",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 5,
+     "pb:SC(M&B)": 2,
+     "pb:SC(R&O)": 1,
+     "pb:BC": 0,
+     "PwBD": 1,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Maali",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 2,
+     "pb:SC(M&B)": 0,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Cook",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "pb:SC(M&B)": 0,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Sweeper-Cum- Chowkidar",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 5,
+     "pb:SC(M&B)": 2,
+     "pb:SC(R&O)": 1,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Chowkidar",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 15,
+     "pb:SC(M&B)": 6,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Sweeper-cum- Attendant",
+    "total": 120,
+    "by_category": {
+     "Unreserved": 159,
+     "pb:SC(M&B)": 63,
+     "pb:SC(R&O)": 49,
+     "pb:BC": 50,
+     "PwBD": 7,
+     "Freedom Fighter Dependant": 3,
+     "EWS": 36
+    },
+    "page": 3
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Sweeper",
+    "total": 47,
+    "by_category": {
+     "Unreserved": 64,
+     "pb:SC(M&B)": 25,
+     "pb:SC(R&O)": 14,
+     "pb:BC": 18,
+     "PwBD": 5,
+     "Freedom Fighter Dependant": 1,
+     "EWS": 15
+    },
+    "page": 3
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Water carrier- cum-Sweeper",
+    "total": 128,
+    "by_category": {
+     "Unreserved": 180,
+     "pb:SC(M&B)": 66,
+     "pb:SC(R&O)": 49,
+     "pb:BC": 52,
+     "PwBD": 11,
+     "Freedom Fighter Dependant": 5,
+     "EWS": 42
+    },
+    "page": 3
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Water carrier",
+    "total": 24,
+    "by_category": {
+     "Unreserved": 24,
+     "pb:SC(M&B)": 10,
+     "pb:SC(R&O)": 6,
+     "pb:BC": 5,
+     "PwBD": 3,
+     "Freedom Fighter Dependant": 1,
+     "EWS": 5
+    },
+    "page": 3
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Bull Attendant",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 29,
+     "pb:SC(M&B)": 12,
+     "pb:SC(R&O)": 6,
+     "pb:BC": 5,
+     "PwBD": 2,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 3
+    },
+    "page": 3
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Gate Man",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "pb:SC(M&B)": 0,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Director, Animal Husbandry, SAS Nagar / Packer-cum- Attendant",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 1,
+     "pb:SC(M&B)": 1,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Fisheries / Fisherman",
+    "total": 31,
+    "by_category": {
+     "Unreserved": 20,
+     "pb:SC(M&B)": 8,
+     "pb:SC(R&O)": 8,
+     "pb:BC": 10,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 4,
+     "EWS": 6
+    },
+    "page": 3
+   },
+   {
+    "label": "Fisheries / Maali-Cum- Chowkidar",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "pb:SC(M&B)": 2,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Fisheries / Chowkidar",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 0,
+     "pb:SC(M&B)": 2,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Fisheries / sweepar-cum- Chowkidar",
+    "total": 3,
+    "by_category": {
+     "Unreserved": 4,
+     "pb:SC(M&B)": 2,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "DC Moga / sewadar",
+    "total": 18,
+    "by_category": {
+     "Unreserved": 18,
+     "pb:SC(M&B)": 0,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 6,
+     "PwBD": 1,
+     "Freedom Fighter Dependant": 1,
+     "EWS": 10
+    },
+    "page": 3
+   },
+   {
+    "label": "DC Moga / Sweeper",
+    "total": 1,
+    "by_category": {
+     "Unreserved": 4,
+     "pb:SC(M&B)": 0,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "DC Moga / Sweeper-cum- Malli",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "pb:SC(M&B)": 0,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "DC Moga / Malli",
+    "total": 0,
+    "by_category": {
+     "Unreserved": 1,
+     "pb:SC(M&B)": 0,
+     "pb:SC(R&O)": 0,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "Excise and Taxation department / Chowidar-Cum- malli",
+    "total": 7,
+    "by_category": {
+     "Unreserved": 11,
+     "pb:SC(M&B)": 8,
+     "pb:SC(R&O)": 3,
+     "pb:BC": 2,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "Excise and Taxation department / sewadar(field Office)",
+    "total": 146,
+    "by_category": {
+     "Unreserved": 217,
+     "pb:SC(M&B)": 73,
+     "pb:SC(R&O)": 58,
+     "pb:BC": 62,
+     "PwBD": 16,
+     "Freedom Fighter Dependant": 8,
+     "EWS": 55
+    },
+    "page": 4
+   },
+   {
+    "label": "Excise and Taxation department / Sweeper",
+    "total": 7,
+    "by_category": {
+     "Unreserved": 18,
+     "pb:SC(M&B)": 6,
+     "pb:SC(R&O)": 3,
+     "pb:BC": 0,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 0
+    },
+    "page": 4
+   },
+   {
+    "label": "Excise and Taxation department / Chowidar-cum- sweeper",
+    "total": 16,
+    "by_category": {
+     "Unreserved": 20,
+     "pb:SC(M&B)": 10,
+     "pb:SC(R&O)": 5,
+     "pb:BC": 4,
+     "PwBD": 0,
+     "Freedom Fighter Dependant": 0,
+     "EWS": 2
+    },
+    "page": 4
+   },
+   {
+    "label": "Excise and Taxation department / sewadar(Head office)",
+    "total": 10,
+    "by_category": {
+     "Unreserved": 10,
+     "pb:SC(M&B)": 6,
+     "pb:SC(R&O)": 3,
+     "pb:BC": 7,
+     "PwBD": 1,
+     "Freedom Fighter Dependant": 3,
+     "EWS": 3
+    },
+    "page": 4
+   }
+  ],
+  "from": "table"
+ },
+ "summary": {
+  "vacancies": 705
+ }
+}

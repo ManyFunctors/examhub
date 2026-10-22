@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "exam": "as-apsc-other",
+ "name": "APSC (Assam) Recruitment to other posts (umbrella)",
+ "body": "as-apsc",
+ "purpose": "recruitment",
+ "cycle": "2022",
+ "documents": 3,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2022-03-21",
+    "source": {
+     "notice": "84e96e9cd5cb9b6e82c971d923abed5216a5179d5065852b0269c6446f591473",
+     "url": "https://apsc.nic.in/misc_2022/Notif_AK_DMO_13_2020_25032022.pdf",
+     "title": "Screening Test(OMR Based) for recruitment to the post of District Museum Officer Grade-I (Gazetted) in the Directorate of Museum Under Indigenous and Tribal Faith and Culture Department, Assam vide Advt. No: 13/2020 Dated 17th Dec/2020",
+     "kind": "advertisement",
+     "page": 1,
+     "ocr": true
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2022-03-21",
+   "source": {
+    "notice": "84e96e9cd5cb9b6e82c971d923abed5216a5179d5065852b0269c6446f591473",
+    "url": "https://apsc.nic.in/misc_2022/Notif_AK_DMO_13_2020_25032022.pdf",
+    "title": "Screening Test(OMR Based) for recruitment to the post of District Museum Officer Grade-I (Gazetted) in the Directorate of Museum Under Indigenous and Tribal Faith and Culture Department, Assam vide Advt. No: 13/2020 Dated 17th Dec/2020",
+    "kind": "advertisement",
+    "page": 1,
+    "ocr": true
+   }
+  },
+  "advertisement_no": {
+   "value": "13/2020",
+   "source": {
+    "notice": "84e96e9cd5cb9b6e82c971d923abed5216a5179d5065852b0269c6446f591473",
+    "url": "https://apsc.nic.in/misc_2022/Notif_AK_DMO_13_2020_25032022.pdf",
+    "title": "Screening Test(OMR Based) for recruitment to the post of District Museum Officer Grade-I (Gazetted) in the Directorate of Museum Under Indigenous and Tribal Faith and Culture Department, Assam vide Advt. No: 13/2020 Dated 17th Dec/2020",
+    "kind": "advertisement",
+    "ocr": true
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 2
+}

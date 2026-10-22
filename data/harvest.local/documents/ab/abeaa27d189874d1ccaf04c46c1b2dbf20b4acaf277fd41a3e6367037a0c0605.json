@@ -1,0 +1,51 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "abeaa27d189874d1ccaf04c46c1b2dbf20b4acaf277fd41a3e6367037a0c0605",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210826200852.pdf",
+  "title": "1475 Public Notice 26.08.2021 Extension of last date for submission of online application forms for JNUEE-2021 Read More",
+  "body": "in-nta",
+  "exam": "in-nta-jnuee",
+  "feed": "in-nta/notices",
+  "published": "2021-08-26",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "55c8b03915e0073bea0c645e711d580f1618f548a13e3d4ef7375402bd922f9d",
+  "bytes": 182994,
+  "pages": 1,
+  "chars": 1156,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-07T10:35:09+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "registration_deadline": {
+   "date": "2021-08-31",
+   "evidence": "Last date for submission of online applications 31.08.2021 ( upto 5.00 pm) Last date for payment of fee online",
+   "page": 1,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2021-08-31",
+   "evidence": "Last date for submission of online applications 31.08.2021 ( upto 5.00 pm) Last date for payment of fee online",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "apply": [
+   "https://jnuexams.nta.ac.in/"
+  ],
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2021-08-31"
+  }
+ }
+}

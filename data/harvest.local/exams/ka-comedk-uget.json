@@ -1,0 +1,59 @@
+{
+ "schema": 1,
+ "exam": "ka-comedk-uget",
+ "name": "COMEDK Undergraduate Entrance Test",
+ "body": "ka-comedk",
+ "purpose": "admission",
+ "cycle": "2025",
+ "documents": 2,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2025-05-10",
+    "source": {
+     "notice": "6519495b38bae5147d4c9e0255f35b6a385eb279108c8b5b0e947e001bfdddec",
+     "url": "https://www.comedk.org/uploads/01-Notification-of-UG-Entrance-Test-Date.pdf",
+     "title": "Notification UG Entrance Test",
+     "kind": "schedule",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2025-05-10",
+   "source": {
+    "notice": "6519495b38bae5147d4c9e0255f35b6a385eb279108c8b5b0e947e001bfdddec",
+    "url": "https://www.comedk.org/uploads/01-Notification-of-UG-Entrance-Test-Date.pdf",
+    "title": "Notification UG Entrance Test",
+    "kind": "schedule",
+    "page": 1
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "A detailed calendar of events and the information Brochure along with eligibility criteria in this behalf would be hosted on the website (www.comedk.org) in due course",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "6519495b38bae5147d4c9e0255f35b6a385eb279108c8b5b0e947e001bfdddec",
+    "url": "https://www.comedk.org/uploads/01-Notification-of-UG-Entrance-Test-Date.pdf",
+    "title": "Notification UG Entrance Test",
+    "kind": "schedule"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "fee",
+  "exam_pattern"
+ ],
+ "older_documents": 1
+}

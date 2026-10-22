@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c6df65472e1d6d96cdfb781ac3625e4e27dea18dc9b4a6ddb53f5c1fca591831",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200823050117.pdf",
+  "title": "1723 Public Notice: Re-opening of the online portal for submission of Online Application Form for Joint CSIR- UGC NET June 2020 Examination. Read More",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "32dba3e96f791f9c7a84dfef5d95507e17e09d22ba4f0af4f963d0a8ec817cb3",
+  "bytes": 65272,
+  "pages": 1,
+  "chars": 2058,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-08T00:05:49+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "registration_open": {
+   "date": "2020-09-11",
+   "evidence": "Accordingly, the corrections in the particulars and Centre Cities in Online Application Forms will be operational for a week, i.e. 11.09.2020 to 17.09.2020 (correction upto 5.00 PM and payment of fees, if any, upto 11.50 PM)",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2020-09-17",
+   "evidence": "Accordingly, the corrections in the particulars and Centre Cities in Online Application Forms will be operational for a week, i.e. 11.09.2020 to 17.09.2020 (correction upto 5.00 PM and payment of fees, if any, upto 11.50 PM)",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2020-09-11",
+   "until": "2020-09-17"
+  }
+ }
+}

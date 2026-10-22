@@ -1,0 +1,283 @@
+{
+ "schema": 1,
+ "exam": "in-ntpc-green-recruitment",
+ "name": "NGEL Direct Recruitment (non-GATE posts)",
+ "body": "in-ntpc-green",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 9,
+ "documents_in_cycle": 2,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 114,
+    "by_category": {
+     "Unreserved": 49,
+     "OBC": 30,
+     "SC": 16,
+     "ST": 8,
+     "EWS": 11
+    },
+    "rows": [
+     {
+      "label": "Assistant Engineer – RE (Asset Management/Operation & Maintenance)",
+      "total": 100,
+      "by_category": {
+       "Unreserved": 41,
+       "SC": 15,
+       "ST": 7,
+       "OBC": 27,
+       "EWS": 10
+      },
+      "page": 1
+     },
+     {
+      "label": "Deputy General Manager-RE",
+      "total": 14,
+      "by_category": {
+       "Unreserved": 8,
+       "SC": 1,
+       "ST": 1,
+       "OBC": 3,
+       "EWS": 1
+      },
+      "page": 2
+     }
+    ],
+    "from": "table"
+   },
+   "source": {
+    "notice": "34fd7b8ca922f7dc6bd9e100aedaaf4a221de43142d34ea768815afdbc067840",
+    "url": "https://ngel.in/public/career/1/f61734f728/f61734f728.pdf",
+    "title": "Advertisement Application Link Instructions for the Applicants NGEL Medical Norms and Standards of Medical Fitness",
+    "kind": "advertisement"
+   },
+   "alternatives": 1
+  },
+  "age": {
+   "value": {
+    "limits": [
+     {
+      "max": 40,
+      "evidence": "Upper Age Limit: 40 years",
+      "page": 1
+     },
+     {
+      "max": 44,
+      "evidence": "Upper Age Limit: 44 years",
+      "page": 1
+     }
+    ],
+    "relaxations": [
+     {
+      "categories": [
+       "SC",
+       "ST",
+       "OBC",
+       "PwBD"
+      ],
+      "years": 5,
+      "raw": "Candidates claiming to belong to any particular category should necessarily have the applicable year’s valid EWS/OBC/SC/ST/Disability certificate, as the case may be, from the Competent Authority…",
+      "page": 2
+     },
+     {
+      "categories": [
+       "SC",
+       "ST",
+       "OBC",
+       "PwBD"
+      ],
+      "years": 3,
+      "raw": "Candidates claiming to belong to any particular category should necessarily have the applicable year’s valid EWS/OBC/SC/ST/Disability certificate, as the case may be, from the Competent Authority…",
+      "page": 2
+     },
+     {
+      "categories": [
+       "SC",
+       "ST",
+       "OBC",
+       "PwBD"
+      ],
+      "years": 10,
+      "raw": "Candidates claiming to belong to any particular category should necessarily have the applicable year’s valid EWS/OBC/SC/ST/Disability certificate, as the case may be, from the Competent Authority…",
+      "page": 2
+     }
+    ]
+   },
+   "source": {
+    "notice": "34fd7b8ca922f7dc6bd9e100aedaaf4a221de43142d34ea768815afdbc067840",
+    "url": "https://ngel.in/public/career/1/f61734f728/f61734f728.pdf",
+    "title": "Advertisement Application Link Instructions for the Applicants NGEL Medical Norms and Standards of Medical Fitness",
+    "kind": "advertisement",
+    "page": 1
+   },
+   "alternatives": 1
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2017-01-01",
+    "source": {
+     "notice": "29f59f367233c3b2223dcbd3f6838b06ea59c26045a6f4821e1ee7ce26bf6c6a",
+     "url": "https://ngel.in/public/career/1/626e136b38/626e136b38.pdf",
+     "title": "Advertisement Instructions for the Candidates Application Link NGEL Medical Norms and Standards of Medical Fitness",
+     "kind": "advertisement",
+     "page": 1
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-07-31",
+    "source": {
+     "notice": "34fd7b8ca922f7dc6bd9e100aedaaf4a221de43142d34ea768815afdbc067840",
+     "url": "https://ngel.in/public/career/1/f61734f728/f61734f728.pdf",
+     "title": "Advertisement Application Link Instructions for the Applicants NGEL Medical Norms and Standards of Medical Fitness",
+     "kind": "advertisement",
+     "page": 4
+    },
+    "alternatives": 1
+   },
+   "registration_open": {
+    "date": "2026-07-11",
+    "source": {
+     "notice": "34fd7b8ca922f7dc6bd9e100aedaaf4a221de43142d34ea768815afdbc067840",
+     "url": "https://ngel.in/public/career/1/f61734f728/f61734f728.pdf",
+     "title": "Advertisement Application Link Instructions for the Applicants NGEL Medical Norms and Standards of Medical Fitness",
+     "kind": "advertisement",
+     "page": 4
+    },
+    "alternatives": 1
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-07-11",
+    "until": "2026-07-31"
+   },
+   "source": {
+    "notice": "34fd7b8ca922f7dc6bd9e100aedaaf4a221de43142d34ea768815afdbc067840",
+    "url": "https://ngel.in/public/career/1/f61734f728/f61734f728.pdf",
+    "title": "Advertisement Application Link Instructions for the Applicants NGEL Medical Norms and Standards of Medical Fitness",
+    "kind": "advertisement",
+    "page": 4
+   }
+  },
+  "advertisement_no": {
+   "value": "01/26",
+   "source": {
+    "notice": "29f59f367233c3b2223dcbd3f6838b06ea59c26045a6f4821e1ee7ce26bf6c6a",
+    "url": "https://ngel.in/public/career/1/626e136b38/626e136b38.pdf",
+    "title": "Advertisement Instructions for the Candidates Application Link NGEL Medical Norms and Standards of Medical Fitness",
+    "kind": "advertisement"
+   }
+  },
+  "apply_links": {
+   "value": [
+    "https://ngel.in/career"
+   ],
+   "source": {
+    "notice": "34fd7b8ca922f7dc6bd9e100aedaaf4a221de43142d34ea768815afdbc067840",
+    "url": "https://ngel.in/public/career/1/f61734f728/f61734f728.pdf",
+    "title": "Advertisement Application Link Instructions for the Applicants NGEL Medical Norms and Standards of Medical Fitness",
+    "kind": "advertisement"
+   },
+   "alternatives": 1
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate",
+     "Diploma / ITI"
+    ],
+    "clauses": [
+     {
+      "text": "Qualification: Fulltime Regular Diploma in Engineering (Electrical/ Mechanical /Electronics/ Electrical & Electronics / Instrumentation) from State Technical Board or AICTE/UGC Recognized Institute with pass marks, are eligible to apply",
+      "page": 1
+     },
+     {
+      "text": "Qualification: Fulltime Graduate in Engineering (Electrical/ Electrical & Electronics/ Electronics/ Control & Instrumentation/ Civil/ Mechanical) with minimum 60% marks from a recognized Indian University/ Institute recognized by appropriate statutory authority",
+      "page": 1
+     },
+     {
+      "text": "The applicant should possess minimum Site experience of at least 2 years in 50 MW or more, grid connected Solar and / or Wind Project(s) in the area of Project Construction/ Erection/Project Commissioning (or a combination thereof)",
+      "page": 1
+     },
+     {
+      "text": "For candidates from Govt/Public Sector undertaking, they should have a minimum of 02 years’ experience in the scale of Rs. 80,000 – 2,20,000 or above (IDA Pay scale of E-5 Grade or above of DPE effective from 01-01-2017) or equivalent Scale out of the above mentioned Twelve (12) years of Post…",
+      "page": 2
+     },
+     {
+      "text": "HEALTH The candidate should have sound health",
+      "page": 2
+     },
+     {
+      "text": "Candidates are therefore requested to verify their eligibility criteria before paying the registration fee",
+      "page": 3
+     },
+     {
+      "text": "Candidates are required to arrange and upload all experience-related documents organization-wise and in chronological order, beginning with the Current/Recent employer and continuing up to the First employer, to facilitate verification of the claimed experience and eligibility criteria",
+      "page": 4
+     }
+    ]
+   },
+   "source": {
+    "notice": "34fd7b8ca922f7dc6bd9e100aedaaf4a221de43142d34ea768815afdbc067840",
+    "url": "https://ngel.in/public/career/1/f61734f728/f61734f728.pdf",
+    "title": "Advertisement Application Link Instructions for the Applicants NGEL Medical Norms and Standards of Medical Fitness",
+    "kind": "advertisement"
+   },
+   "alternatives": 1
+  },
+  "selection": {
+   "value": [
+    "Written examination",
+    "Group discussion",
+    "Interview"
+   ],
+   "source": {
+    "notice": "34fd7b8ca922f7dc6bd9e100aedaaf4a221de43142d34ea768815afdbc067840",
+    "url": "https://ngel.in/public/career/1/f61734f728/f61734f728.pdf",
+    "title": "Advertisement Application Link Instructions for the Applicants NGEL Medical Norms and Standards of Medical Fitness",
+    "kind": "advertisement"
+   },
+   "alternatives": 1
+  },
+  "pay": {
+   "value": [
+    {
+     "low": 30000,
+     "high": 120000,
+     "initial": 40000,
+     "text": "₹30,000–120,000, initial basic ₹40,000",
+     "evidence": "Compensation Package: Selected Candidates will be placed in the pay scale of Rs.30,000 –120,000/- (E-0 Grade) with initial Basic pay of Rs.40000/-",
+     "page": 1
+    },
+    {
+     "low": 90000,
+     "high": 240000,
+     "initial": 90000,
+     "text": "₹90,000–240,000, initial basic ₹90,000",
+     "evidence": "Compensation Package: Selected Candidates will be placed in the pay scale of Rs.90,000 –240,000/- (E-6 Grade) with initial Basic pay of Rs.90000/-",
+     "page": 2
+    },
+    {
+     "low": 80000,
+     "high": 220000,
+     "text": "₹80,000–220,000",
+     "evidence": "For candidates from Govt/Public Sector undertaking, they should have a minimum of 02 years’ experience in the scale of Rs. 80,000 – 2,20,000 or above (IDA Pay scale of E-5 Grade or above of DPE effective from 01-01-2017) or equivalent Scale out of the above mentioned Twelve (12) years of Post…",
+     "page": 2
+    }
+   ],
+   "source": {
+    "notice": "34fd7b8ca922f7dc6bd9e100aedaaf4a221de43142d34ea768815afdbc067840",
+    "url": "https://ngel.in/public/career/1/f61734f728/f61734f728.pdf",
+    "title": "Advertisement Application Link Instructions for the Applicants NGEL Medical Norms and Standards of Medical Fitness",
+    "kind": "advertisement"
+   },
+   "alternatives": 1
+  }
+ },
+ "gaps": [
+  "exam_date",
+  "fee"
+ ],
+ "older_documents": 7
+}

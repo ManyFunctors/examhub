@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "a55bb7b1472d2938a458f1e703fbf87e5b2fc03d101e3106b42f47278d102517",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/04/202604291441667113.pdf",
+  "title": "Advisory for Biometric Exception in NEET (UG) – 2026 -reg.",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "096844cb7e5e14d2e8cfe718ae3f90df7997052eab71cb5ec580c1edd8d9251e",
+  "bytes": 523194,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-02T00:12:13+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

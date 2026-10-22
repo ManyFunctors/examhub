@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "3ab3621c60984c9993435a9305330627b22c4980d9a61f17449b58b373974f7b",
+  "url": "https://apsc.nic.in/misc_2019/anskey_JIO_1June2019.pdf",
+  "title": "Screening Test for Junior Information & Public Relation Officer under Information & Public Relation Department vide Advt. No. 03/2018",
+  "body": "as-apsc",
+  "exam": "as-apsc-other",
+  "feed": "as-apsc/answer-keys",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "8033734b59030c2276f354227b90fdc9ea62f6404cddececb35e2f523c680543",
+  "bytes": 314000,
+  "pages": 1,
+  "chars": 1611,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:18:06+05:30"
+ },
+ "kind": "advertisement",
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 1
+  }
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

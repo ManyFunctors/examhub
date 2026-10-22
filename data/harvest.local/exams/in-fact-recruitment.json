@@ -1,0 +1,60 @@
+{
+ "schema": 1,
+ "exam": "in-fact-recruitment",
+ "name": "FACT Direct Recruitment (non-GATE posts)",
+ "body": "in-fact",
+ "purpose": "recruitment",
+ "cycle": "2021",
+ "documents": 7,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "correction_window": {
+    "date": "2021-09-13",
+    "source": {
+     "notice": "60aea7695548fca29ab0bca60f0443c5b3812f7ace81e6dada9e4233cc0c6415",
+     "url": "https://fact.co.in//images/upload/Schedule---Practical-Test---09-2021_96.pdf",
+     "title": "Schedule for Practical Skill Test - Draughtsman in various disciplines - Recruitment Notification No.09/2021",
+     "kind": "schedule",
+     "page": 1
+    }
+   }
+  },
+  "advertisement_no": {
+   "value": "09/2021",
+   "source": {
+    "notice": "60aea7695548fca29ab0bca60f0443c5b3812f7ace81e6dada9e4233cc0c6415",
+    "url": "https://fact.co.in//images/upload/Schedule---Practical-Test---09-2021_96.pdf",
+    "title": "Schedule for Practical Skill Test - Draughtsman in various disciplines - Recruitment Notification No.09/2021",
+    "kind": "schedule"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "Candidates are shortlisted based on the declaration made in the application that they meet the eligibility criteria prescribed in the notification",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "bebb1e0784344c7f701cfc05d99f39716373177b5efd0be0e245462d58d5cbaf",
+    "url": "https://fact.co.in//images/upload/Recruitment-Notification-06-2020---Short-List-for-online-VC-Interview_130.pdf",
+    "title": "Short Listing of Candidates to the post of Senior Manager (Sales) and Sales Officer on Fixed Tenure Contract (Adhoc basis)",
+    "kind": "result"
+   },
+   "carried_from": "0"
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "selection"
+ ],
+ "older_documents": 6
+}

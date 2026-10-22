@@ -1,0 +1,172 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2ca3c4c8e0d41445451d79d65b6cb4b0d0d950a18034873543b77ca248ad9047",
+  "url": "https://www.unionbankofindia.bank.in/pdf/Advertisement_01.04.2022.pdf",
+  "title": "for Corrigendum/Revised Notification",
+  "body": "in-union-bank",
+  "exam": "in-union-bank-recruitment",
+  "feed": "in-union-bank/careers-recruitment",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "f80db31ce6c981b2a49cd6561ca29435d9ef8921d9e7743fb64a915127edb644",
+  "bytes": 176649,
+  "pages": 5,
+  "chars": 10116,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T14:40:35+05:30"
+ },
+ "kind": "corrigendum",
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 42500,
+   "raw": " Within 120 days Rs. 37,500/- Rs. 42,500/- ",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 40000,
+   "raw": " Within 150 days Rs. 35,000/- Rs. 40,000/- ",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 35000,
+   "raw": " Within 180 days Rs. 30,000/- Rs. 35,000/- ",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 55000,
+   "raw": "IV & V Within 90 days Rs. 50,000/- Rs. 55,000/- ",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 52500,
+   "raw": " Within 120 days Rs. 47,500/- Rs. 52,500/- ",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 50000,
+   "raw": " Within 150 days Rs. 45,000/- Rs. 50,000/- ",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 45000,
+   "raw": " Within 180 days Rs. 40,000/- Rs. 45,000/- ",
+   "page": 2
+  },
+  {
+   "categories": [
+    "PwBD-A"
+   ],
+   "amount": 65000,
+   "raw": "VI & VII Within 90 days N.A. Rs. 65,000/- ",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 62500,
+   "raw": " Within 120 days N.A. Rs. 62,500/- ",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 60000,
+   "raw": " Within 150 days N.A. Rs. 60,000/- ",
+   "page": 2
+  }
+ ],
+ "age": {
+  "limits": [
+   {
+    "max": 65,
+    "evidence": "The applicant should not be more than 65 years of age at the time of his/her empanelment",
+    "page": 1
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "The interested and willing applicant should have retired from a Public Sector Bank, in a cadre not less than that of SMGS-IV",
+    "page": 1
+   },
+   {
+    "text": "The applicant should have worked in different areas of Banking and Human Resources or Industrial Relations or have experience of handling departmental inquiries as Inquiring Authority / Presenting Officer",
+    "page": 1
+   },
+   {
+    "text": "The applicant should have a flair for writing reports",
+    "page": 1
+   },
+   {
+    "text": "Applicants are required to submit all relevant documents (i.e. brief resume as per the enclosed format, self-attested photo ID & address proof, age proof, educational qualification, experience etc.) failing which their application/candidature will not be considered for shortlisting/ interview",
+    "page": 1
+   },
+   {
+    "text": "Before applying, the applicants should ensure that they fulfill the eligibility criteria for the post as on the date of eligibility",
+    "page": 2
+   },
+   {
+    "text": "In case an applicant is called for interview and is found to be not satisfying the eligibility criteria (Age, Experience etc.) he/she will not be allowed to appear for the interview",
+    "page": 2
+   },
+   {
+    "text": "Further, if, at any stage, it is found that any information furnished in the application is false/incorrect or if according to the Bank, the applicant does not satisfy the eligibility criteria for the post, his/her candidature will be cancelled and he/she will not be allowed to appear for the…",
+    "page": 2
+   },
+   {
+    "text": "➢ The Bank reserves the right to alter, modify or change the eligibility criteria and / or any of the other terms and conditions spelt out in this Notification.",
+    "page": 4
+   },
+   {
+    "text": "Educational Qualification",
+    "page": 5
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "summary": {
+  "fee": {
+   "min": 35000,
+   "max": 65000
+  },
+  "age": {
+   "max": 65
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Interview"
+ }
+}

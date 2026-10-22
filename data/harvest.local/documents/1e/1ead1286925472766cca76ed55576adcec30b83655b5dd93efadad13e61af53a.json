@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1ead1286925472766cca76ed55576adcec30b83655b5dd93efadad13e61af53a",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/03/20260312579267972.pdf",
+  "title": "Re-opening of Online Application Portal-Joint Entrance Examination (Main) 2026 Session-2- reg.",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/jeemain",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "212751776ae7d98f8337f92fdc53255130e6257a16eb6ed8a03228a26e50de66",
+  "bytes": 557407,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T12:03:52+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

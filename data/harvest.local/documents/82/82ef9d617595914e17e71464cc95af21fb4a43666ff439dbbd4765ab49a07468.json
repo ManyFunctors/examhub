@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "82ef9d617595914e17e71464cc95af21fb4a43666ff439dbbd4765ab49a07468",
+  "url": "https://aphc.gov.in/docs/notification_1790334152_0.pdf",
+  "title": "Stage-I written examination for the post of Assistant Editor scheduled on 04.10.2026",
+  "body": "ap-hc",
+  "exam": "ap-hc-staff",
+  "feed": "ap-hc/recruitment",
+  "published": "2026-10-04",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "3e540f66b78484c64ec017527f8ef870465535a91e2a8591558edc544efb2b90",
+  "bytes": 638634,
+  "pages": 7,
+  "chars": 5570,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T04:32:26+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2026-10-04",
+   "evidence": "scheduled to be conducted on 04.10.2026 from 10:30 A.M",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Offline",
+   "page": 1
+  },
+  "duration": {
+   "value": "of 2 Hours 30 Minutes",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://aphc.gov.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-10-04"
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

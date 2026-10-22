@@ -1,0 +1,107 @@
+{
+ "schema": 1,
+ "exam": "jk-jkbopee-cet",
+ "name": "JKBOPEE Common Entrance Test (Polytechnic, Lateral Entry)",
+ "body": "jk-jkbopee",
+ "purpose": "admission",
+ "cycle": "2019",
+ "documents": 2,
+ "documents_in_cycle": 1,
+ "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 1200,
+     "raw": "Fee Rs. 1200/- (Rupees one thousand and two hundred only) to be paid online through national Credit Card/Debit Card/Net Banking.",
+     "page": 1
+    }
+   ],
+   "source": {
+    "notice": "540a239c34335b095661610599313e4d8fa01d7e36c152cc6c8679c685c65c64",
+    "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=4305&type=n",
+    "title": "Admission Notification for Common Entrance Test-2019 (Bachelor of Engineering & Technology Courses Only) [CET-NN-006]",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "dates": {
+   "exam_date": {
+    "date": "2019-04-28",
+    "source": {
+     "notice": "540a239c34335b095661610599313e4d8fa01d7e36c152cc6c8679c685c65c64",
+     "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=4305&type=n",
+     "title": "Admission Notification for Common Entrance Test-2019 (Bachelor of Engineering & Technology Courses Only) [CET-NN-006]",
+     "kind": "advertisement",
+     "page": 5
+    }
+   },
+   "registration_deadline": {
+    "date": "2019-02-28",
+    "source": {
+     "notice": "540a239c34335b095661610599313e4d8fa01d7e36c152cc6c8679c685c65c64",
+     "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=4305&type=n",
+     "title": "Admission Notification for Common Entrance Test-2019 (Bachelor of Engineering & Technology Courses Only) [CET-NN-006]",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2019-02-28"
+   },
+   "source": {
+    "notice": "540a239c34335b095661610599313e4d8fa01d7e36c152cc6c8679c685c65c64",
+    "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=4305&type=n",
+    "title": "Admission Notification for Common Entrance Test-2019 (Bachelor of Engineering & Technology Courses Only) [CET-NN-006]",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "exam_date": {
+   "value": "2019-04-28",
+   "source": {
+    "notice": "540a239c34335b095661610599313e4d8fa01d7e36c152cc6c8679c685c65c64",
+    "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=4305&type=n",
+    "title": "Admission Notification for Common Entrance Test-2019 (Bachelor of Engineering & Technology Courses Only) [CET-NN-006]",
+    "kind": "advertisement",
+    "page": 5
+   }
+  },
+  "advertisement_no": {
+   "value": "006-BOPEE",
+   "source": {
+    "notice": "540a239c34335b095661610599313e4d8fa01d7e36c152cc6c8679c685c65c64",
+    "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=4305&type=n",
+    "title": "Admission Notification for Common Entrance Test-2019 (Bachelor of Engineering & Technology Courses Only) [CET-NN-006]",
+    "kind": "advertisement"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "One candidate bearing Rank 4516 claims that he should have been allotted seat °5 under RBA in GCET Jammu/Ganderbal/SSM instead of BCET, Samba.",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "3ddb00eacd1bc237fdfba8dade11ad4c864b4cc563b8472e6ccd279e47e9f211",
+    "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=240&type=n",
+    "title": "Disposal of representations received by the Board against Notification No.059-BOPEE of 2018 Dt.28.06.2018 [CET-PN-058] [Dt.28.06.2018]",
+    "kind": "notice",
+    "ocr": true
+   },
+   "carried_from": "0"
+  }
+ },
+ "gaps": [
+  "exam_pattern"
+ ],
+ "older_documents": 1
+}

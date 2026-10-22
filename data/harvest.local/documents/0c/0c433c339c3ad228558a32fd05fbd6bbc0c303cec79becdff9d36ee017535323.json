@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "0c433c339c3ad228558a32fd05fbd6bbc0c303cec79becdff9d36ee017535323",
+  "url": "https://apsc.nic.in/misc_2019/AK_eng_20Nov2019.pdf",
+  "title": "Screening Test(OMR based) for the post of Assistant Professor(Tech & Non Tech) and Librarian in the Engineering colleges of Assam. Civil Engineering Mechanical Engineering Electronics and Telecommunication Engineering MCA Electrical Engineering Industrial and Production Engineering Instrumentation Engineering Computer Science Engineering Chemical Engineering Physics English Humanities (Accountancy) Chemistry Mathematics Library Science/Information Science/ Documentation Science",
+  "body": "as-apsc",
+  "exam": "as-apsc-lecturer",
+  "feed": "as-apsc/answer-keys",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "eea1dd279833ae17e4dd9d33c636f17e2b5bad8ecf399719463306c3166732d7",
+  "bytes": 322776,
+  "pages": 1,
+  "chars": 2057,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:03:22+05:30"
+ },
+ "kind": "notice",
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 1
+  }
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

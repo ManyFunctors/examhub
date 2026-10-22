@@ -1,0 +1,146 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "04daa86c64c18725280694e381fa75cab002b413e3e7be1f39dc9c77e535b57e",
+  "url": "https://sssb.punjab.gov.in/wp-content/uploads/2026/09/Corrigendum-Regarding-Posts-of-Stenotypist.pdf",
+  "title": "Corrigendum Regarding Advertisment No. 05/2026 Stenotypist Recruitment",
+  "body": "pb-psssb",
+  "exam": "pb-psssb-other",
+  "feed": "pb-psssb/home",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "35e1625cdf8b0c6b942d38152de585f8898d5ec86d5cc0e7ca0287cc85331fc1",
+  "bytes": 262366,
+  "pages": 4,
+  "chars": 2562,
+  "ocr": false,
+  "indic_share": 0.35,
+  "fetched": "2026-10-01T05:38:46+05:30"
+ },
+ "kind": "corrigendum",
+ "vacancies": {
+  "total": 18,
+  "by_category": {
+   "Women": 6
+  },
+  "rows": [
+   {
+    "label": "General",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "ESM General",
+    "total": 1,
+    "by_category": {
+     "Women": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "Physically Handicapped (Ortho)",
+    "total": 1,
+    "by_category": {
+     "Women": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "General",
+    "total": 3,
+    "by_category": {
+     "Women": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "SC (R&O)",
+    "total": 1,
+    "by_category": {
+     "Women": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "SC (M&B)",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "Physically Handicapped (Ortho)",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "EWS",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "General",
+    "total": 3,
+    "by_category": {
+     "Women": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "SC (M&B)",
+    "total": 1,
+    "by_category": {
+     "Women": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "SC (R&O)",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "Physical Handicapped (VI)",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "ESM General",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "ESM BC",
+    "total": 1,
+    "page": 2
+   },
+   {
+    "label": "General",
+    "total": 4,
+    "by_category": {
+     "Women": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "SC (R&O)",
+    "total": 3,
+    "by_category": {
+     "Women": 1
+    },
+    "page": 2
+   },
+   {
+    "label": "BC",
+    "total": 1,
+    "by_category": {
+     "Women": 1
+    },
+    "page": 2
+   }
+  ],
+  "from": "table"
+ },
+ "summary": {
+  "vacancies": 18
+ }
+}

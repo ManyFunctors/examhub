@@ -1,0 +1,197 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "02168479d391fe2407c0baa72fa8b7b152a2b96ecb84a4248f539fb9c7721afa",
+  "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/MRB_Detailed_Notification_08_Lab_Technician_Grade_II.pdf",
+  "title": "Notification for Lab. Technician Grade II",
+  "body": "tn-mrb",
+  "exam": "tn-mrb-recruitment",
+  "feed": "tn-mrb/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "ffabbbb9137fe507b5ede89d297df2061f457dcd85470d1b10acd1232545a650",
+  "bytes": 958792,
+  "pages": 41,
+  "chars": 54681,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:03:23+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "payment_deadline": {
+   "date": "2016-02-17",
+   "evidence": "Last date for submission of Application (Online Registration & Online payment)",
+   "page": 2,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Date of Notification",
+   "date": "2016-01-31",
+   "page": 2
+  },
+  {
+   "event": "Last date for submission of Application (Online Registration & Online payment)",
+   "key": "payment_deadline",
+   "date": "2016-02-17",
+   "page": 2
+  },
+  {
+   "event": "Last date for offline payment of fee through Indian Bank",
+   "key": "payment_deadline",
+   "date": "2016-02-19",
+   "page": 2
+  }
+ ],
+ "vacancies": {
+  "total": 524,
+  "by_category": {
+   "PwBD": 16
+  },
+  "rows": [
+   {
+    "label": "GT",
+    "total": 173,
+    "by_category": {
+     "PwBD": 16
+    },
+    "page": 1
+   },
+   {
+    "label": "BC",
+    "total": 134,
+    "page": 1
+   },
+   {
+    "label": "BC(M)",
+    "total": 18,
+    "page": 1
+   },
+   {
+    "label": "MBC/DC",
+    "total": 102,
+    "page": 1
+   },
+   {
+    "label": "SC",
+    "total": 76,
+    "page": 1
+   },
+   {
+    "label": "SC(A)",
+    "total": 16,
+    "page": 1
+   },
+   {
+    "label": "ST / -",
+    "total": 5,
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "fees": [
+  {
+   "categories": [
+    "All"
+   ],
+   "amount": 15,
+   "raw": "In addition, candidates have to pay the applicable service charges to the Indian Bank (in case of offline payment @Rs.15/- (Rupees Fifteen only) or Net Banking / Credit / Debit Card / Mobile Wallet charges over and above the mandatory fee",
+   "page": 7
+  }
+ ],
+ "age": {
+  "limits": [
+   {
+    "max": 53,
+    "evidence": "Persons who have been demobilized from the Army, Navy or Air Force, (i) Who will be below 53 years of age in the case of Scheduled Castes, Scheduled Castes (Arunthathiyars), Scheduled Tribes, Most Backward Classes / Denotified…",
+    "page": 16
+   }
+  ]
+ },
+ "pay": [
+  {
+   "low": 9300,
+   "high": 34800,
+   "text": "₹9,300–34,800",
+   "evidence": "Scale of pay of Rs 9,300-34,800 + GP 4,200",
+   "page": 3
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12",
+   "Class 10"
+  ],
+  "clauses": [
+   {
+    "text": "Category Minimum Age (should have completed) ( in years) Maximum Age (in years) a",
+    "page": 4
+   },
+   {
+    "text": "EDUCATIONAL QUALIFICATION:",
+    "page": 5
+   },
+   {
+    "text": "CONDITIONS AND QUALIFICATION:",
+    "page": 5
+   },
+   {
+    "text": "Minimum educational qualification required for the post Weightage for marks* Diploma DMLT (two year) HSC/ P.U.C SSLC / 10th a",
+    "page": 6
+   },
+   {
+    "text": "Wherever the basic essential qualification for a technical post is a Diploma and admission to such a programme has been changed from SSLC to HSC, in all such cases the weightage may be restricted to marks obtained in SSLC and the technical certificate.",
+    "page": 6
+   },
+   {
+    "text": "Evidence and Mark sheet of Educational qualification (SSLC / HSC / Diploma in Medical Laboratory Technology – Two Years Course (DMLT) or Certificate in Medical Laboratory Technology – One Year Course (CMLT) or Provisional certificate etc.) [DMLT or CMLT should be from a Government or Government…",
+    "page": 18
+   },
+   {
+    "text": "Community Certificate should have been issued by the competent authorities referred to above, in whose jurisdiction the candidate claims to have permanent residence, after personal enquiries and proper verification",
+    "page": 20
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.mrb.tn.gov.in/",
+   "http://www.mrb.tn.gov.in/pdf/MRB_LIST_COMMUNITIES_020614.pdf",
+   "https://www.mrb.tn.gov.in",
+   "https://www.twitter.com/mrb_tn"
+  ]
+ },
+ "summary": {
+  "vacancies": 524,
+  "fee": {
+   "min": 15,
+   "max": 15
+  },
+  "age": {
+   "max": 53
+  },
+  "pay": "₹9,300–34,800",
+  "education": [
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12",
+   "Class 10"
+  ],
+  "selection": "Interview"
+ }
+}

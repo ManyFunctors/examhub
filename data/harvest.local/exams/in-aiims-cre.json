@@ -1,0 +1,100 @@
+{
+ "schema": 1,
+ "exam": "in-aiims-cre",
+ "name": "AIIMS Common Recruitment Examination (Group B and C)",
+ "body": "in-aiims",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 7,
+    "by_category": {
+     "UR": 3,
+     "EWS": 0,
+     "OBC": 4,
+     "SC": 0,
+     "ST": 0,
+     "ESM": 0,
+     "PwBD": 0
+    },
+    "rows": [
+     {
+      "label": "Lower Division Clerk",
+      "total": 4,
+      "by_category": {
+       "UR": 2,
+       "EWS": 0,
+       "OBC": 2,
+       "SC": 0,
+       "ST": 0,
+       "ESM": 0,
+       "PwBD": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Lower Division Clerk",
+      "total": 3,
+      "by_category": {
+       "UR": 1,
+       "EWS": 0,
+       "OBC": 2,
+       "SC": 0,
+       "ST": 0,
+       "ESM": 0,
+       "PwBD": 0
+      },
+      "page": 1
+     }
+    ],
+    "from": "table"
+   },
+   "source": {
+    "notice": "a2350d279bbbfc01d150f8585dee826bc89cad86a51e51f17669a3ca5f7328ed",
+    "url": "https://rrpdocuments.aiimsexams.ac.in/1790591424088-312764043.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVRUVRLXWMSLVSAP7%2F20260928%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260928T215637Z&X-Amz-Expires=604800&X-Amz-Signature=fc0c54eb1292bd3c0ff995b6da7d7d242886d70931f66b1c348b119c948101be&X-Amz-SignedHeaders=host&response-content-type=application%2Fpdf",
+    "title": "Corrigendum No.40/2026: Common Recruitment Examination-5(CRE-5)",
+    "kind": "corrigendum"
+   }
+  },
+  "apply_links": {
+   "value": [
+    "http://www.aiimsexams.ac.in/",
+    "https://www.aiimsexams.ac.in"
+   ],
+   "source": {
+    "notice": "a2350d279bbbfc01d150f8585dee826bc89cad86a51e51f17669a3ca5f7328ed",
+    "url": "https://rrpdocuments.aiimsexams.ac.in/1790591424088-312764043.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVRUVRLXWMSLVSAP7%2F20260928%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260928T215637Z&X-Amz-Expires=604800&X-Amz-Signature=fc0c54eb1292bd3c0ff995b6da7d7d242886d70931f66b1c348b119c948101be&X-Amz-SignedHeaders=host&response-content-type=application%2Fpdf",
+    "title": "Corrigendum No.40/2026: Common Recruitment Examination-5(CRE-5)",
+    "kind": "corrigendum"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "Important: For Guidelines, the number of seats, eligibility criteria, detailed information, etc. please visit the website www.aiimsexams.ac.in",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "a2350d279bbbfc01d150f8585dee826bc89cad86a51e51f17669a3ca5f7328ed",
+    "url": "https://rrpdocuments.aiimsexams.ac.in/1790591424088-312764043.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVRUVRLXWMSLVSAP7%2F20260928%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260928T215637Z&X-Amz-Expires=604800&X-Amz-Signature=fc0c54eb1292bd3c0ff995b6da7d7d242886d70931f66b1c348b119c948101be&X-Amz-SignedHeaders=host&response-content-type=application%2Fpdf",
+    "title": "Corrigendum No.40/2026: Common Recruitment Examination-5(CRE-5)",
+    "kind": "corrigendum"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "selection"
+ ],
+ "older_documents": 0
+}
