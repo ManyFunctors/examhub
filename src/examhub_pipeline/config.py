@@ -264,9 +264,9 @@ class Settings:
         return Path(__file__).resolve().parents[2] / "data" / "devset"
 
     def content_rel(self, rel: str) -> Path:
-        """Resolve a repo-relative content path, refusing to escape the repo."""
+        """Resolve a repo-relative path ('content/exams/x.md'), refusing to leave content/."""
         root = (self.repo_dir / "content").resolve()
-        target = (root / rel).resolve()
+        target = (self.repo_dir / rel).resolve()
         if root != target and root not in target.parents:
             raise ValueError(f"path escapes content/: {rel!r}")
         return target

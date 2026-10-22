@@ -41,6 +41,7 @@ from typing import Any, Sequence
 from . import record, template
 from .candidates import adjudicate, find_candidates
 from .config import Settings
+from .crawl.adapters import UNINFORMATIVE
 from .extract import ExtractionError
 from .fetch import FetchedDoc, Pipeline, resolve_sources
 from .http import BudgetExhausted, FetchError, RobotsDenied
@@ -424,6 +425,10 @@ def _collect_pairs(
             entry = record_map(settings).entry_for(group[0])
             body_name = source.body_name if source else _body_name(group[0])
             title = entry.get("title") or group[0].title or group[0].url
+            if UNINFORMATIVE.match(title):
+                # "Read More" says nothing about the exam; a page named after it is junk
+                _echo(f"   (skipped) {path}: the title {title!r} does not name an exam")
+                continue
             _echo(f"   (new record proposed) {path}  body={body_name}")
             baseline, page = record.skeleton(title=title, slug=Path(path).stem, body=body_name), ""
         else:
