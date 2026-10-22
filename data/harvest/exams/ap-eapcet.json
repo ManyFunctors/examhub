@@ -5,8 +5,8 @@
  "body": "ap-apsche",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 3,
- "documents_in_cycle": 1,
+ "documents": 4,
+ "documents_in_cycle": 2,
  "fields": {
   "fee": {
    "value": [
@@ -44,78 +44,52 @@
     }
    ],
    "source": {
-    "notice": "905e5830c15ff8fd91ebb2d027526b8f415c70114280cf36729fcd6f26a86679",
-    "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/APEAPCET2026_Instruction_Booklet_Agriculture_Pharmacy_V4.pdf",
-    "title": "Instruction Booklet for Agriculture , Pharmacy",
+    "notice": "942f53ab061c1d1c06c022bcbe69552c3a23362a19b255be5a4e902c82d41421",
+    "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/APEAPCET2026_Instruction_Booklet_Engineering_V4.pdf",
+    "title": "Instruction Booklet for Engineering",
     "kind": "notice",
     "page": 2
-   }
+   },
+   "alternatives": 1
   },
   "age": {
    "value": {
     "limits": [
      {
       "max": 22,
-      "evidence": "ii) Candidates should have completed 17 years of age as of 31st December of the year of admission (2026) and an upper age limit of 22 years for all the candidates and 25 years in respect of SC/ST candidates as of 31st December of the year…",
+      "evidence": "Engg), candidates should have completed 17 years of age as of 31st December of the year of admission (2026) and an upper age limit is 22 years for all the candidates and 25 years in respect of Scheduled Caste and Scheduled Tribe…",
       "page": 5
-     },
-     {
-      "min": 17,
-      "evidence": "The minimum age for admission shall be 17 years on 31st December of the year in which admission is sought",
-      "page": 6
-     },
-     {
-      "max": 35,
-      "evidence": "The maximum age limit for admission shall be 35 years",
-      "page": 6
-     }
-    ],
-    "relaxations": [
-     {
-      "categories": [
-       "SC",
-       "ST"
-      ],
-      "years": 3,
-      "raw": "There shall be a relaxation of 3 (three) years in upper age for S.C., S.T., and B.C., candidates",
-      "page": 6
-     },
-     {
-      "categories": [
-       "PwBD"
-      ],
-      "years": 5,
-      "raw": "The upper age limit shall be relaxed by 5 (five) years for disabled candidates",
-      "page": 6
      }
     ]
    },
    "source": {
-    "notice": "905e5830c15ff8fd91ebb2d027526b8f415c70114280cf36729fcd6f26a86679",
-    "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/APEAPCET2026_Instruction_Booklet_Agriculture_Pharmacy_V4.pdf",
-    "title": "Instruction Booklet for Agriculture , Pharmacy",
+    "notice": "942f53ab061c1d1c06c022bcbe69552c3a23362a19b255be5a4e902c82d41421",
+    "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/APEAPCET2026_Instruction_Booklet_Engineering_V4.pdf",
+    "title": "Instruction Booklet for Engineering",
     "kind": "notice",
     "page": 5
-   }
+   },
+   "alternatives": 1
   },
   "dates": {
    "exam_date": {
-    "date": "2026-05-19",
+    "date": "2026-05-12",
     "source": {
-     "notice": "905e5830c15ff8fd91ebb2d027526b8f415c70114280cf36729fcd6f26a86679",
-     "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/APEAPCET2026_Instruction_Booklet_Agriculture_Pharmacy_V4.pdf",
-     "title": "Instruction Booklet for Agriculture , Pharmacy",
+     "notice": "942f53ab061c1d1c06c022bcbe69552c3a23362a19b255be5a4e902c82d41421",
+     "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/APEAPCET2026_Instruction_Booklet_Engineering_V4.pdf",
+     "title": "Instruction Booklet for Engineering",
      "kind": "notice",
      "page": 4
-    }
+    },
+    "alternatives": 1
    }
   },
   "exam_date": {
-   "value": "2026-05-19",
+   "value": "2026-05-12",
    "source": {
-    "notice": "905e5830c15ff8fd91ebb2d027526b8f415c70114280cf36729fcd6f26a86679",
-    "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/APEAPCET2026_Instruction_Booklet_Agriculture_Pharmacy_V4.pdf",
-    "title": "Instruction Booklet for Agriculture , Pharmacy",
+    "notice": "942f53ab061c1d1c06c022bcbe69552c3a23362a19b255be5a4e902c82d41421",
+    "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/APEAPCET2026_Instruction_Booklet_Engineering_V4.pdf",
+    "title": "Instruction Booklet for Engineering",
     "kind": "notice",
     "page": 4
    }
@@ -123,51 +97,47 @@
   "eligibility": {
    "value": {
     "education_levels": [
-     "Graduate",
      "Diploma / ITI",
      "Class 12"
     ],
     "clauses": [
      {
-      "text": "Candidates should have passed intermediate examination (10+2 pattern) or any examination recognized as equivalent there to by the Board of Intermediate Education,",
+      "text": "Candidate should have obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the subjects specified taken together in the qualifying examination",
       "page": 4
      },
      {
-      "text": "ii) Candidates should have completed 17 years of age as of 31st December of the year of admission (2026) and an upper age limit of 22 years for all the candidates and 25 years in respect of SC/ST candidates as of 31st December of the year of admission (2026)",
+      "text": "(i) Candidates should have passed Intermediate Examination (10+2 pattern) with Mathematics, Physics, and Chemistry as options or related vocational courses in the fields of Engineering and Technology, conducted by the Board of Intermediate Education, Andhra Pradesh, along with bridge course or…",
       "page": 5
      },
      {
-      "text": "Candidates should have passed the intermediate examination (10+2 pattern) with Biology, Physics, and Chemistry as options, conducted by the Board of Intermediate Education, Andhra Pradesh or equivalent",
+      "text": "OR (ii) Candidates should have passed the Diploma examination in Engineering conducted by the State Board of Technical Education and Training, Andhra Pradesh or any other examination recognized as equivalent there to by the State Board of Technical Education and Training, Andhra Pradesh",
+      "page": 5
+     },
+     {
+      "text": "Engg), candidates should have completed 17 years of age as of 31st December of the year of admission (2026) and an upper age limit is 22 years for all the candidates and 25 years in respect of Scheduled Caste and Scheduled Tribe candidates as on 31st December of the year of Admissions (2026)",
+      "page": 5
+     },
+     {
+      "text": "D course candidates should have passed the Intermediate Examination (10+2 pattern) with Physics, Chemistry, and Mathematics as options conducted by the Board of Intermediate Education, Andhra Pradesh, or any other examination recognized by the Board of Intermediate Education, Andhra Pradesh or…",
+      "page": 5
+     },
+     {
+      "text": "(ii) The candidates should have completed 17 years of age as of 31st December of the year of admission (2026) to the above course",
       "page": 6
      },
      {
-      "text": "Candidates should have completed 16 years of age by the date of commencement of admission or on such other date as may be notified by the CET committee",
-      "page": 6
-     },
-     {
-      "text": "Candidates should have passed the intermediate examination (10+2 pattern) with Biology, Physics, and Chemistry as options",
-      "page": 6
-     },
-     {
-      "text": "Candidates should have passed Intermediate Examination (10+2 pattern) with Physics, Chemistry, and Biology as optional conducted by the Board of Intermediate Education, Andhra Pradesh or equivalent there to or should have passed or appeared at the final year of the diploma examination in pharmacy…",
-      "page": 6
-     },
-     {
-      "text": "The candidates should have completed 17 years of age as of 31st December of the year of admission (2026) to the above course",
-      "page": 6
-     },
-     {
-      "text": "The candidate has to fulfill the eligibility criteria laid down in the",
+      "text": "The candidate has to fulfill the eligibility criteria laid down in the relevant G.O at the time of admission",
       "page": 9
      }
     ]
    },
    "source": {
-    "notice": "905e5830c15ff8fd91ebb2d027526b8f415c70114280cf36729fcd6f26a86679",
-    "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/APEAPCET2026_Instruction_Booklet_Agriculture_Pharmacy_V4.pdf",
-    "title": "Instruction Booklet for Agriculture , Pharmacy",
+    "notice": "942f53ab061c1d1c06c022bcbe69552c3a23362a19b255be5a4e902c82d41421",
+    "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/APEAPCET2026_Instruction_Booklet_Engineering_V4.pdf",
+    "title": "Instruction Booklet for Engineering",
     "kind": "notice"
-   }
+   },
+   "alternatives": 1
   }
  },
  "gaps": [

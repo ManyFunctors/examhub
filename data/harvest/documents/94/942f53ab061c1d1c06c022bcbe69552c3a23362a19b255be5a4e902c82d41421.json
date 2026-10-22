@@ -1,0 +1,140 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "942f53ab061c1d1c06c022bcbe69552c3a23362a19b255be5a4e902c82d41421",
+  "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/APEAPCET2026_Instruction_Booklet_Engineering_V4.pdf",
+  "title": "Instruction Booklet for Engineering",
+  "body": "ap-apsche",
+  "exam": "ap-eapcet",
+  "feed": "ap-apsche/eapcet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "0ad3eeda012ebd85150c5de7f68d0fa1397f7429313b22d767183b80cabebbc0",
+  "bytes": 1412789,
+  "pages": 36,
+  "chars": 82203,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T21:18:57+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2026-05-12",
+   "evidence": " The Test will be conducted from 12-05-2026 to 18-05-2026 (No Sessions on 16th & 17 th May 2026) in two sessions every day i.e. 9.00 A.M. to 12.00 P.M. and",
+   "page": 4,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 1000,
+   "raw": "WITH LATE FEE Rs .1000/ - 28 03 2026 - -",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 2000,
+   "raw": "WITH LATE FEE Rs .2000/ - 01 04 2026 - -",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 4000,
+   "raw": "WITH LATE FEE Rs .4000/ - 06 04 2026 - -",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 10000,
+   "raw": "WITH LATE FEE Rs 10000/ . - 10 04 2026 - -",
+   "page": 2
+  }
+ ],
+ "age": {
+  "limits": [
+   {
+    "max": 22,
+    "evidence": "Engg), candidates should have completed 17 years of age as of 31st December of the year of admission (2026) and an upper age limit is 22 years for all the candidates and 25 years in respect of Scheduled Caste and Scheduled Tribe…",
+    "page": 5
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Diploma / ITI",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "Candidate should have obtained at least 45% marks (40% in case of candidate belonging to reserved category) in the subjects specified taken together in the qualifying examination",
+    "page": 4
+   },
+   {
+    "text": "(i) Candidates should have passed Intermediate Examination (10+2 pattern) with Mathematics, Physics, and Chemistry as options or related vocational courses in the fields of Engineering and Technology, conducted by the Board of Intermediate Education, Andhra Pradesh, along with bridge course or…",
+    "page": 5
+   },
+   {
+    "text": "OR (ii) Candidates should have passed the Diploma examination in Engineering conducted by the State Board of Technical Education and Training, Andhra Pradesh or any other examination recognized as equivalent there to by the State Board of Technical Education and Training, Andhra Pradesh",
+    "page": 5
+   },
+   {
+    "text": "Engg), candidates should have completed 17 years of age as of 31st December of the year of admission (2026) and an upper age limit is 22 years for all the candidates and 25 years in respect of Scheduled Caste and Scheduled Tribe candidates as on 31st December of the year of Admissions (2026)",
+    "page": 5
+   },
+   {
+    "text": "D course candidates should have passed the Intermediate Examination (10+2 pattern) with Physics, Chemistry, and Mathematics as options conducted by the Board of Intermediate Education, Andhra Pradesh, or any other examination recognized by the Board of Intermediate Education, Andhra Pradesh or…",
+    "page": 5
+   },
+   {
+    "text": "(ii) The candidates should have completed 17 years of age as of 31st December of the year of admission (2026) to the above course",
+    "page": 6
+   },
+   {
+    "text": "The candidate has to fulfill the eligibility criteria laid down in the relevant G.O at the time of admission",
+    "page": 9
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 8
+  },
+  "negative_marking": {
+   "value": "No negative marking",
+   "page": 13
+  }
+ },
+ "links": {
+  "other": [
+   "https://cets.apsche.ap.gov.in/",
+   "http://www.sche.ap.gov.in/eamcet",
+   "http://www.sche.ap.gov.in/eapcet"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-05-12",
+  "fee": {
+   "min": 1000,
+   "max": 10000
+  },
+  "age": {
+   "max": 22
+  },
+  "education": [
+   "Diploma / ITI",
+   "Class 12"
+  ]
+ }
+}
