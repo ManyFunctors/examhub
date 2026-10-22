@@ -31,8 +31,8 @@ concurrency:
 
 jobs:
   crawl:
-    runs-on: ubuntu-latest
-    timeout-minutes: 180
+    runs-on: ubuntu-24.04
+    timeout-minutes: 240
     steps:
       - uses: actions/checkout@v7
         with:
@@ -66,6 +66,8 @@ jobs:
           mode: restore
 
       - name: Crawl every feed
+        timeout-minutes: 80
+        continue-on-error: true
         env:
           EXAMHUB_HTTPCACHE: "0"
           EXAMHUB_HOST_DELAY: "3"
@@ -94,6 +96,8 @@ jobs:
           uv run python -m examhub_pipeline documents build
 
       - name: Check the records' links
+        timeout-minutes: 30
+        continue-on-error: true
         # What each official page, apply link and document really is (file, portal,
         # page), read by the links step in the nightly recheck. Polite, like every crawl.
         env:
@@ -101,6 +105,7 @@ jobs:
         run: uv run scrapy crawl links -s LOG_LEVEL=INFO -s LOG_FILE=work/links.log || true
 
       - name: Archive the PDFs read
+        timeout-minutes: 20
         # A Wayback Machine copy of each document, since notices get moved or deleted.
         # Free, no key. Gap-driven and rate-limited; a failure never fails the crawl.
         run: uv run python -m examhub_pipeline archive --limit 40 || echo "::warning::archive step failed; see the log"
@@ -109,6 +114,8 @@ jobs:
         run: uv run python -m examhub_pipeline.crawl.notify
 
       - name: Check catalogue URLs
+        timeout-minutes: 30
+        continue-on-error: true
         run: |
           args=()
           if [ -n "${{ inputs.jurisdiction }}" ]; then
@@ -117,6 +124,8 @@ jobs:
           uv run scrapy crawl verify "${args[@]}" -s LOG_LEVEL=INFO -s LOG_FILE=work/verify.log || true
 
       - name: Discover new sources
+        timeout-minutes: 30
+        continue-on-error: true
         if: inputs.discover || github.event_name == 'schedule'
         env:
           CERTSPOTTER_API_KEY: ${{ secrets.CERTSPOTTER_API_KEY }}
@@ -124,11 +133,15 @@ jobs:
         run: uv run scrapy crawl discover -s LOG_LEVEL=INFO -s LOG_FILE=work/discover.log || true
 
       - name: Propose exams and sources
+        timeout-minutes: 10
+        continue-on-error: true
         # Offline: reads the harvest, writes exam-/match-/source-proposals.jsonl.
         # Adopting one is a reviewed catalogue change on main, never automatic.
         run: uv run python -m examhub_pipeline catalogue discover
 
-      - uses: ./.github/actions/harvest-state
+      # always(): a slow step above must never cost the whole night's harvest
+      - if: always()
+        uses: ./.github/actions/harvest-state
         with:
           mode: save
           message: "crawl: daily sweep"
