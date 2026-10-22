@@ -1,9 +1,9 @@
 +++
-title = "AP LAWCET"
+title = "AP EdCET"
 section = 'tracked'
-slug = "ap-lawcet"
-exam_id = "ap-lawcet"
-name = "AP Law Common Entrance Test / PGLCET"
+slug = "edcet"
+exam_id = "ap-edcet"
+name = "AP Education Common Entrance Test (B.Ed.)"
 body_name = "APSCHE"
 body_url = "https://cets.apsche.ap.gov.in/"
 frequency = "annual"
