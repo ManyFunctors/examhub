@@ -35,7 +35,8 @@ _TIERS = {"hot": {"hot"}, "warm": {"hot", "warm"}, "all": {"hot", "warm", "cold"
 
 
 _WAYBACK = "https://web.archive.org/web/2id_/"   # the latest capture, bytes as served
-_SAVE = "https://web.archive.org/save/"
+_SAVE = "https://web.archive.org/save"   # Save Page Now 2: needs a free archive.org key pair
+_SAVE_STATUS = "https://web.archive.org/save/status/"
 _SNAPSHOT = re.compile(r"/web/(\d{14})")
 #: a host that never answered (as opposed to one that answered with "no"): the
 #: Internet Archive may hold a copy
@@ -67,10 +68,13 @@ class FeedsSpider(scrapy.Spider):
         self.not_modified = 0
         # A feed its host will not answer is read from the Internet Archive's copy
         # instead. A capture older than the stale limit is refreshed first (Save Page
-        # Now, free, no key), up to a few per run.
+        # Now 2, free but needs an archive.org S3 key pair in IA_ACCESS_KEY and IA_SECRET_KEY),
+        # up to a few per run. Without the keys the latest capture is read as it is.
         self.wayback = os.environ.get("EXAMHUB_WAYBACK", "1") == "1"
         self.saves_left = int(os.environ.get("EXAMHUB_WAYBACK_SAVES", "20"))
-        self.stale_days = int(os.environ.get("EXAMHUB_WAYBACK_STALE_DAYS", "7"))
+        self.stale_days = int(os.environ.get("EXAMHUB_WAYBACK_STALE_DAYS", "1"))
+        key, secret = os.environ.get("IA_ACCESS_KEY", ""), os.environ.get("IA_SECRET_KEY", "")
+        self.ia_auth = f"LOW {key}:{secret}" if key and secret else ""
 
     @classmethod
     def from_crawler(cls, crawler, *a, **kw):
@@ -143,10 +147,42 @@ class FeedsSpider(scrapy.Spider):
         log.info("feed %s: %s, trying the Internet Archive", f["id"], why[:80])
         return self._wayback_request(f)
 
-    def _saved(self, response_or_failure):
+    def _spn_headers(self):
+        return {"Authorization": self.ia_auth, "Accept": "application/json"}
+
+    def _after_save(self, response_or_failure):
         """Save Page Now has run (or failed): read whatever the latest capture is now."""
         meta = getattr(response_or_failure, "meta", None) or response_or_failure.request.meta
         yield self._wayback_request(meta["feed"], saved=True)
+
+    def _spn_started(self, response):
+        f = response.meta["feed"]
+        try:
+            job = response.json().get("job_id")
+        except ValueError:
+            job = None
+        if not job:
+            log.info("feed %s: Save Page Now refused (%s)", f["id"], response.text[:100])
+            yield from self._after_save(response)
+            return
+        yield self._spn_poll(f, job, 0)
+
+    def _spn_poll(self, f, job, polls):
+        return scrapy.Request(_SAVE_STATUS + job, headers=self._spn_headers(), callback=self._spn_status,
+                              errback=self._after_save, dont_filter=True,
+                              meta={"feed": f, "wayback": True, "saved": True, "job": job, "polls": polls,
+                                    "download_timeout": 60, "handle_httpstatus_list": [400, 404, 429, 500, 502, 503]})
+
+    def _spn_status(self, response):
+        f, polls = response.meta["feed"], response.meta["polls"]
+        try:
+            status = response.json().get("status")
+        except ValueError:
+            status = "error"
+        if status == "pending" and polls < 24:
+            yield self._spn_poll(f, response.meta["job"], polls + 1)
+            return
+        yield from self._after_save(response)
 
     def parse_feed(self, response):
         f = response.meta["feed"]
@@ -214,12 +250,14 @@ class FeedsSpider(scrapy.Spider):
         m = _SNAPSHOT.search(response.url)
         taken = datetime.strptime(m[1], "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc) if m else None
         age = (datetime.now(timezone.utc) - taken).days if taken else None
-        if (age is not None and age > self.stale_days and self.saves_left > 0
+        if (self.ia_auth and age is not None and age >= self.stale_days and self.saves_left > 0
                 and not response.meta.get("saved")):
             self.saves_left -= 1
-            yield scrapy.Request(_SAVE + f["url"], callback=self._saved, errback=self._saved, dont_filter=True,
-                                 meta={"feed": f, "wayback": True, "saved": True, "download_timeout": 120,
-                                       "handle_httpstatus_list": [400, 403, 404, 429, 500, 502, 503, 504]})
+            yield scrapy.FormRequest(
+                _SAVE, formdata={"url": f["url"], "skip_first_archive": "1", "if_not_archived_within": "1d"},
+                headers=self._spn_headers(), callback=self._spn_started, errback=self._after_save, dont_filter=True,
+                meta={"feed": f, "wayback": True, "saved": True, "download_timeout": 60,
+                      "handle_httpstatus_list": [400, 401, 403, 429, 500, 502, 503]})
             return
         try:
             rows = adapters.run(f, f["url"], response.body)

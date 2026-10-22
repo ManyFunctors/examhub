@@ -72,6 +72,8 @@ jobs:
           EXAMHUB_HTTPCACHE: "0"
           EXAMHUB_HOST_DELAY: "2"
           MOZ_HEADLESS: "1"
+          # an archived copy is old: the nightly crawl reads those, not the 10-minute poll
+          EXAMHUB_WAYBACK: "0"
         run: |
           uv run scrapy crawl feeds -a tier=${{ steps.tier.outputs.tier }} \
             -s LOG_LEVEL=INFO -s LOG_FILE=work/watch.log -s DOWNLOAD_TIMEOUT=30 -s RETRY_TIMES=1 || true
