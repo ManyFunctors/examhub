@@ -337,6 +337,14 @@ link_apply         = 'unknown'
   [[links.documents]]
   document_type      = 'schedule'
   document_stage     = 'all'
+  document_published = 2026-09-10
+  document_title     = 'Important Notice: Regarding Date of the HMV Driving Efficiency Test for HMV Licence Holder Candidates Whose…'
+  document_url       = 'https://csbc.bihar.gov.in/Advt/Notice-02-2025-HMV-DET-12-09-2025.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'schedule'
+  document_stage     = 'all'
   document_published = 2026-08-29
   document_title     = 'Important Notice: Regarding Physical Standard Test (PST) and Document Verification (DV) for the Post of…'
   document_url       = 'https://csbc.bihar.gov.in/Advt/Notice-01-2026-PST & DV-29-08-2026.pdf'
@@ -350,18 +358,10 @@ link_apply         = 'unknown'
   document_url       = 'https://csbc.bihar.gov.in/Advt/Notice-02-2025-DET & DV-31-07-2026.pdf'
   document_archive   = 'not_archived'
 
-  [[links.documents]]
-  document_type      = 'schedule'
-  document_stage     = 'all'
-  document_published = 2026-01-29
-  document_title     = 'Important Notice: Regarding Physical Efficiency Test (PET) for the Post of Driver Constable in Bihar Police.'
-  document_url       = 'https://csbc.bihar.gov.in/Advt/Notice-29-01-2026-PET Driver.pdf'
-  document_archive   = 'not_archived'
-
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:22+05:30
+provenance_last_checked = 2026-10-23T02:51:07+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

@@ -7,7 +7,7 @@ cycle                  = '2026'
 cycle_status           = 'active'
 
 # ═══ titles (readers) ════════════════════════════════════════════════
-title                  = 'Bihar PG Medical Admission Counselling / UGMAC 2026'
+title                  = 'BCECEB PG Medical Admission Counselling 2026'
 slug                   = 'pgmac-2026'
 title_official         = 'Bihar PG Medical Admission Counselling / UGMAC 2026'
 title_series           = 'unknown'

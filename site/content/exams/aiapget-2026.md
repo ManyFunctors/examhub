@@ -295,7 +295,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://nta.ac.in/'
-link_apply         = 'unknown'
+link_apply         = 'https://nta.ac.in/Centre/Login'
 
   [[links.documents]]
   document_type      = 'notification'

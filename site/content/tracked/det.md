@@ -5,6 +5,6 @@ slug = "det"
 exam_id = "od-det"
 name = "Odisha Diploma Entrance Test"
 body_name = "SCTE&VT Odisha"
-body_url = "https://scteodisha.org/"
+body_url = "https://dtet.odisha.gov.in/"
 frequency = "annual"
 +++

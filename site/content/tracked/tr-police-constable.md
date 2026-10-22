@@ -5,6 +5,6 @@ slug = "tr-police-constable"
 exam_id = "tr-police-constable"
 name = "Tripura Police Police Constable Recruitment"
 body_name = "Tripura Police"
-body_url = "https://tripurapolice.gov.in/"
+body_url = "https://police.tripura.gov.in/"
 frequency = "irregular"
 +++

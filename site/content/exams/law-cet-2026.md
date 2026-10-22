@@ -7,7 +7,7 @@ cycle                  = '2026'
 cycle_status           = 'active'
 
 # ═══ titles (readers) ════════════════════════════════════════════════
-title                  = 'MAH LL.B. CET (3-year and 5-year) 2026'
+title                  = 'Maharashtra CET Cell MAH LL.B. CET 2026'
 slug                   = 'law-cet-2026'
 title_official         = 'MAH LL.B. CET (3-year and 5-year) 2026'
 title_series           = 'unknown'
