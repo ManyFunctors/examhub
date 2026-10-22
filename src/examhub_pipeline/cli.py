@@ -1063,6 +1063,10 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--apply", action="store_true", help="write the stubs (default: print them)")
     p.set_defaults(func=cmd_tracked)
 
+    p = sub.add_parser("promote", help="write a page for each tracked exam whose current cycle has dates")
+    p.add_argument("--apply", action="store_true", help="write the pages (default: print them)")
+    p.set_defaults(func=cmd_promote)
+
     p = sub.add_parser("sources", help="print the seed source registry")
     _add_common(p)
     p.set_defaults(func=cmd_sources)
@@ -1133,6 +1137,16 @@ def cmd_tracked(args: argparse.Namespace) -> int:
         return EXIT_OK if tracked.fill(apply=args.apply, log=_echo) else EXIT_NO_CHANGE
     except (OSError, KeyError) as exc:
         _echo(f"tracked failed: {exc}")
+        return EXIT_ERROR
+
+
+def cmd_promote(args: argparse.Namespace) -> int:
+    """Exit 0 when a page was (or would be) written, 2 when none, 1 on an error."""
+    from . import promote
+    try:
+        return EXIT_OK if promote.fill(apply=args.apply, log=_echo) else EXIT_NO_CHANGE
+    except (OSError, ValueError, KeyError) as exc:
+        _echo(f"promote failed: {exc}")
         return EXIT_ERROR
 
 

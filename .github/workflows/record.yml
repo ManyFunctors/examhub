@@ -110,6 +110,18 @@ jobs:
           if [ "$code" = 1 ]; then echo "::warning::linking Wayback copies failed; records left unchanged"; fi
           exit 0
 
+      - name: Give live tracked exams a page
+        # A catalogue exam whose current cycle has dates in the crawl's profile gets
+        # a blank record here; the next steps fill it (see promote.py).
+        id: promote
+        run: |
+          set +e
+          uv run python -m examhub_pipeline promote --apply
+          code=$?
+          if [ "$code" = 0 ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
+          if [ "$code" = 1 ]; then echo "::warning::promoting tracked exams failed; nothing added"; fi
+          exit 0
+
       - name: Fill dates and vacancies from the PDFs
         # The crawl's per-exam profiles, written into the records only where the
         # cycle matches and the record has no value of its own (see profile_fill.py).
@@ -200,7 +212,7 @@ jobs:
 
       - name: Open a pull request
         # The whole point. Nothing changed, nothing is opened.
-        if: inputs.review_exit == '0' || steps.names.outputs.changed == 'true' || steps.dedupe.outputs.changed == 'true' || steps.wayback.outputs.changed == 'true' || steps.fill.outputs.changed == 'true' || steps.links.outputs.changed == 'true' || steps.aliases.outputs.changed == 'true' || steps.readme.outputs.changed == 'true' || steps.tracked.outputs.changed == 'true'
+        if: inputs.review_exit == '0' || steps.names.outputs.changed == 'true' || steps.dedupe.outputs.changed == 'true' || steps.wayback.outputs.changed == 'true' || steps.fill.outputs.changed == 'true' || steps.promote.outputs.changed == 'true' || steps.links.outputs.changed == 'true' || steps.aliases.outputs.changed == 'true' || steps.readme.outputs.changed == 'true' || steps.tracked.outputs.changed == 'true'
         id: pr
         uses: peter-evans/create-pull-request@v8
         with:
@@ -257,5 +269,5 @@ jobs:
           gh workflow run site.yml --ref main
 
       - name: No pull request needed
-        if: inputs.review_exit == '2' && steps.names.outputs.changed != 'true' && steps.dedupe.outputs.changed != 'true' && steps.wayback.outputs.changed != 'true' && steps.fill.outputs.changed != 'true' && steps.links.outputs.changed != 'true' && steps.aliases.outputs.changed != 'true' && steps.tracked.outputs.changed != 'true'
+        if: inputs.review_exit == '2' && steps.names.outputs.changed != 'true' && steps.dedupe.outputs.changed != 'true' && steps.wayback.outputs.changed != 'true' && steps.fill.outputs.changed != 'true' && steps.promote.outputs.changed != 'true' && steps.links.outputs.changed != 'true' && steps.aliases.outputs.changed != 'true' && steps.tracked.outputs.changed != 'true'
         run: echo "Nothing changed. No pull request, which is the point."

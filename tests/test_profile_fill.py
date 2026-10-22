@@ -171,3 +171,22 @@ def test_every_listed_document_is_titled_by_notice_or_file_name_but_portals_are_
     titles = {d["document_url"].rsplit("/", 1)[-1]: d.get("document_title") for d in rec["links"]["documents"]}
     assert titles == {"Detailed-Notification_CRP-PO-XVI_V1.pdf": "Detailed Notification CRP PO XVI V1",
                       "login": None, "Notice_20260924172919.pdf": None}
+
+
+def test_profile_ignores_fees_in_answer_key_notices():
+    from examhub_pipeline.profiles import terms
+
+    rows = [{"kind": "answer_key"}, {"kind": "result"}, {"kind": "brochure"}, {"kind": "admit_card"}]
+    assert terms(rows) == [{"kind": "brochure"}]
+
+
+def test_promote_wants_a_live_cycle():
+    import datetime as dt
+
+    from examhub_pipeline.promote import live
+
+    today = dt.date(2026, 10, 22)
+    assert live({"documents_in_cycle": 3, "fields": {"exam_date": {"value": "2026-08-22"}}}, today)
+    assert not live({"documents_in_cycle": 3, "fields": {"exam_date": {"value": "2025-08-22"}}}, today)
+    assert not live({"documents_in_cycle": 0, "fields": {"exam_date": {"value": "2026-08-22"}}}, today)
+    assert not live({"documents_in_cycle": 2, "fields": {}}, today)

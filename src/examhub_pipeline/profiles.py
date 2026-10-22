@@ -57,6 +57,14 @@ _DEFAULT_EXPECTED = ("apply", "exam_date")
 
 _KIND_RANK = {"advertisement": 3, "brochure": 3, "corrigendum": 2}
 
+#: Notices that follow the exam and never set its terms: a fee in an answer-key
+#: notice is the challenge fee, a clause in a result is about counselling.
+_NOT_TERMS = frozenset({"answer_key", "result", "admit_card", "counselling"})
+
+
+def terms(records: list[dict]) -> list[dict]:
+    return [r for r in records if r.get("kind") not in _NOT_TERMS]
+
 
 def cycle_key(label: str | None) -> tuple[int, int]:
     """'2026-mar' -> (2026, 3); '2025' -> (2025, 0); unknown -> (0, 0)."""
@@ -137,15 +145,15 @@ def build_profile(exam: dict, records: list[dict], cycles: dict[str, str]) -> di
     # -- per-cycle fields
     put("vacancies", _pick([
         (_term_rank(r, r["vacancies"].get("from") == "table"), r["vacancies"], _source(r, r["vacancies"].get("page")))
-        for r in current if r.get("vacancies", {}).get("total")
+        for r in terms(current) if r.get("vacancies", {}).get("total")
     ]))
     put("fee", _pick([
         (_term_rank(r, "for" in json.dumps(r["fees"]) or len(r["fees"]) > 1), r["fees"], _source(r, r["fees"][0].get("page")))
-        for r in current if r.get("fees")
+        for r in terms(current) if r.get("fees")
     ]))
     put("age", _pick([
         (_term_rank(r, False), r["age"], _source(r, (r["age"].get("limits") or [{}])[0].get("page")))
-        for r in current if (r.get("age") or {}).get("limits")
+        for r in terms(current) if (r.get("age") or {}).get("limits")
     ]))
     dates: dict[str, Any] = {}
     for key in sorted({k for r in current for k in r.get("dates", {})}):
@@ -181,14 +189,14 @@ def build_profile(exam: dict, records: list[dict], cycles: dict[str, str]) -> di
         ("exam_pattern", lambda r: r.get("exam_pattern") or None),
         ("pay", lambda r: r.get("pay") or None),
     ):
-        picked = _pick([(_term_rank(r, name == "exam_pattern"), getter(r), _source(r)) for r in current if getter(r)])
+        picked = _pick([(_term_rank(r, name == "exam_pattern"), getter(r), _source(r)) for r in terms(current) if getter(r)])
         if picked:
             put(name, picked)
             continue
         for k in sorted(by_cycle, reverse=True):
             if k == current_key:
                 continue
-            picked = _pick([(_term_rank(r, False), getter(r), _source(r)) for r in by_cycle[k] if getter(r)])
+            picked = _pick([(_term_rank(r, False), getter(r), _source(r)) for r in terms(by_cycle[k]) if getter(r)])
             if picked:
                 put(name, picked, carried=k)
                 break
