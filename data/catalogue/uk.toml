@@ -243,7 +243,7 @@ conducted_by = "uk-uksssc"
 frequency = "multiple"
 qualification = "class_12"
 streams = ["general"]
-match = { any = ["group\\s*['‘’]?\\s*C\\b", "advt|advertisement|recruitment|vacanc"] }
+match = { any = ["group\\s*['‘’]?\\s*C\\b", "advt|advertisement|recruitment|vacanc", "पदनाम", 'प्रवेश\s*पत्र', "साक्षात्कार", "परीक्षा"] }
 status = "active"
 
 [[exams]]
@@ -304,7 +304,7 @@ conducted_by = "uk-ukmssb"
 frequency = "irregular"
 qualification = "diploma"
 streams = ["nursing", "medical", "allied_health"]
-match = { any = ['nursing\s*officer', 'medical\s*officer', "technician", "recruitment|advt"] }
+match = { any = ['nursing\s*officer', 'medical\s*officer', "technician", "recruitment|advt", 'चिकित्सा\s*अधिकारी', "नर्सिंग", 'स्वास्थ्य\s*कार्यकर्ता', "हाइजीनिस्ट", 'अभिलेख\s*सत्यापन', "परीक्षा"] }
 status = "active"
 
 [[exams]]

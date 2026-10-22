@@ -537,7 +537,7 @@ conducted_by = "br-bceceb"
 frequency = "annual"
 qualification = "class_10"
 streams = ["engineering"]
-match = { any = ['\bDCECE\b', "polytechnic"] }
+match = { any = ['\bDCECE\b', '\bDECE\b', "polytechnic"] }
 status = "active"
 
 [[exams]]
@@ -634,6 +634,18 @@ frequency = "irregular"
 qualification = "diploma"
 streams = ["engineering", "medical", "nursing"]
 match = { any = ['junior\s*engineer', 'medical\s*officer', 'staff\s*nurse|\bGNM\b|\bANM\b', "pharmacist", "recruitment|advt"] }
+status = "active"
+
+[[exams]]
+id = "br-pgpac"
+name = "Bihar Post Graduate Pharmacy Admission Counselling (PGPAC)"
+jurisdiction = "br"
+purpose = "admission"
+conducted_by = "br-bceceb"
+frequency = "annual"
+qualification = "graduate"
+streams = ["medical"]
+match = { any = ['\bPGPAC\b', 'post\s*graduate\s*pharmacy'] }
 status = "active"
 
 [[exams]]

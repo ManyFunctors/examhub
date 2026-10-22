@@ -232,7 +232,7 @@ conducted_by = "hp-hpbose"
 frequency = "biannual"
 qualification = "class_8"
 streams = ["school"]
-match = { any = ["HPSOS", 'open\s*school'] }
+match = { any = ["HPSOS", 'open\s*school', '\bSOS\b'] }
 status = "active"
 
 [[exams]]
