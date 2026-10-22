@@ -366,7 +366,7 @@ _KEY_ORDER = {
                "website", "hosts", "wikidata", "status", "successor", "notes"],
     "feeds": ["id", "body", "url", "adapter", "render", "yields", "item_selector",
               "link_selector", "title_selector", "date_selector", "include", "exclude",
-              "detail_include", "detail_link_include", "detail_item_selector", "detail_limit", "items_path", "fields", "url_template", "keep_chrome", "identity", "match_scope", "notify", "tier", "cadence_days", "status", "notes"],
+              "detail_include", "detail_link_include", "detail_item_selector", "detail_limit", "items_path", "fields", "url_template", "keep_chrome", "identity", "match_scope", "notify", "tier", "cadence_days", "timeout_seconds", "status", "notes"],
     "exams": ["id", "name", "short_name", "known_as", "jurisdiction", "purpose",
               "conducted_by", "owned_by", "allocated_by", "frequency", "qualification",
               "streams", "official_url", "match", "wikidata", "status", "successor", "notes"],

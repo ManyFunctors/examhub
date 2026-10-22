@@ -1,0 +1,59 @@
+# Read chosen feeds once from a GitHub runner and show what came back.
+#
+# A government site can answer a laptop and time out a runner, so access has to
+# be checked from here (see docs/day-to-day.md). Nothing is saved: the harvest
+# branch is neither read nor written, and the result is in the job log.
+name: probe-feeds
+
+on:
+  workflow_dispatch:
+    inputs:
+      feeds:
+        description: "feed id(s), comma separated, e.g. in-upsc/exam-notifications,in-rrb/updates"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+
+      - uses: astral-sh/setup-uv@v10.2.0
+        with:
+          enable-cache: true
+
+      - name: Install
+        run: |
+          uv python install 3.12
+          uv venv --python 3.12
+          uv pip install -e '.[crawl]'
+
+      - name: Firefox and geckodriver
+        run: |
+          firefox --version
+          ls "$GECKOWEBDRIVER"
+
+      - name: Read the feeds
+        env:
+          FEEDS: ${{ inputs.feeds }}
+          MOZ_HEADLESS: "1"
+          EXAMHUB_HTTPCACHE: "0"
+        run: |
+          mkdir -p data/harvest work
+          uv run scrapy crawl feeds -a feed="$FEEDS" -s LOG_LEVEL=INFO -s LOG_FILE=work/probe.log || true
+          tail -n 5 work/probe.log
+          echo "## feed health" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          python3 - >> "$GITHUB_STEP_SUMMARY" <<'PY'
+          import json
+          for l in open("data/harvest/feed-health.jsonl"):
+              r = json.loads(l)
+              print(r["id"], "ok" if r.get("ok") else "FAILED", "count", r.get("count"), "status", r.get("status"), r.get("error", "")[:200])
+          PY
+          echo '```' >> "$GITHUB_STEP_SUMMARY"

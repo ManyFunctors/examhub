@@ -96,6 +96,7 @@ class FeedsSpider(scrapy.Spider):
                 f["url"], callback=self.parse_feed, errback=self.failed,
                 headers=self._conditional(f),
                 meta={"feed": f, "render": f.get("render", "http"),
+                      **({"download_timeout": int(f["timeout_seconds"])} if f.get("timeout_seconds") else {}),
                       # Let redirects be followed; see every other status.
                       "handle_httpstatus_list": [304, 400, 401, 403, 404, 410, 429, 500, 502, 503, 504]},
                 dont_filter=True,
