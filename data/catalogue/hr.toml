@@ -68,6 +68,7 @@ body = "hr-hssc"
 url = "https://hssc.gov.in/advertisement"
 adapter = "html_links"
 yields = "notices"
+item_selector = "table tr"
 include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
 status = "active"
 
@@ -77,6 +78,7 @@ body = "hr-hssc"
 url = "https://hssc.gov.in/publicNotice"
 adapter = "html_links"
 yields = "notices"
+item_selector = "table tr"
 include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
 status = "active"
 
