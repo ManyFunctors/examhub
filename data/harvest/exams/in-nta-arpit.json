@@ -4,32 +4,10 @@
  "name": "Annual Refresher Programme in Teaching Examination",
  "body": "in-nta",
  "purpose": "certification",
- "cycle": "2021-08",
+ "cycle": "2021",
  "documents": 4,
  "documents_in_cycle": 1,
  "fields": {
-  "dates": {
-   "exam_date": {
-    "date": "2021-04-04",
-    "source": {
-     "notice": "d470221949e28ce3298c048a2759fd764812a95231da97679997b8f6319bbd39",
-     "url": "https://nta.ac.in/Download/Notice/Notice_20210805173422.pdf",
-     "title": "1508 PUBLIC NOTICE 05 August 2021 Rescheduling of Postponed ARPIT-2020 Examination Read More",
-     "kind": "corrigendum",
-     "page": 1
-    }
-   }
-  },
-  "exam_date": {
-   "value": "2021-04-04",
-   "source": {
-    "notice": "d470221949e28ce3298c048a2759fd764812a95231da97679997b8f6319bbd39",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20210805173422.pdf",
-    "title": "1508 PUBLIC NOTICE 05 August 2021 Rescheduling of Postponed ARPIT-2020 Examination Read More",
-    "kind": "corrigendum",
-    "page": 1
-   }
-  },
   "pay": {
    "value": [
     {
@@ -46,11 +24,13 @@
     "url": "https://nta.ac.in/Download/Notice/Notice_20210805173422.pdf",
     "title": "1508 PUBLIC NOTICE 05 August 2021 Rescheduling of Postponed ARPIT-2020 Examination Read More",
     "kind": "corrigendum"
-   }
+   },
+   "carried_from": "2020"
   }
  },
  "gaps": [
   "apply",
+  "exam_date",
   "fee",
   "eligibility"
  ],

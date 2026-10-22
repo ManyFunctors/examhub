@@ -1,0 +1,28 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "341a271391414613c0363c11b8410ce5c7facf1b476de19ecd2c169bdcba9b3e",
+  "url": "https://admissions.bits-pilani.ac.in/FD/downloads/Poster_BITSAT-2026.pdf?22122025",
+  "title": "BITSAT Advertisement",
+  "body": "in-bits",
+  "exam": "in-bitsat",
+  "feed": "in-bits/bitsat",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "6d07ee150022e813ac32b4a4ab4dba13ce5d3bec25ab3502ad09ef94fae6a680",
+  "bytes": 1542042,
+  "pages": 1,
+  "chars": 3404,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T16:29:30+05:30"
+ },
+ "kind": "advertisement",
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ }
+}
