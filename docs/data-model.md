@@ -114,6 +114,10 @@ parameters. Adding a body is a TOML edit; a site redesign is a selector edit.
 | `date_selector` | css | | Within an item, the element holding the published date |
 | `include` | regex | | Keep a link only if URL or title matches |
 | `exclude` | regex | | Drop a link if URL or title matches (applied after `include`) |
+| `detail_include` | regex | | Listing rows whose URL matches are fetched too, and the documents listed on those pages become notices titled `<row title> - <doc title>` |
+| `detail_link_include` | regex | | On a detail page, keep only links matching this (default: `include`) |
+| `detail_item_selector` | css | | On a detail page, scope to this element (e.g. `table tr`); skips the menu/footer filter |
+| `detail_limit` | int | | Most detail pages read per run. Default 10 |
 | `items_path` | text | | `json_api`: dotted path to the list, e.g. `data` |
 | `fields` | table | | `json_api`: `{title = "examName", url = "navigationUrl", date = "…"}` |
 | `url_template` | text | | `json_api`: builds an absolute URL from a field, e.g. `https://ssc.gov.in{url}` |

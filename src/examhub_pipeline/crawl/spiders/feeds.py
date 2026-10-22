@@ -53,6 +53,8 @@ class FeedsSpider(scrapy.Spider):
         self.prev = {r["id"]: r for r in harvest.read_jsonl(harvest.HARVEST_DIR / "feed-health.jsonl")}
         self.rows: list[dict] = []
         self.health: list[dict] = []
+        # feeds with a detail page that failed: their notice set is incomplete
+        self.partial: set[str] = set()
         self.not_modified = 0
 
     @classmethod
@@ -161,6 +163,49 @@ class FeedsSpider(scrapy.Spider):
         self.rows.extend(rows)
         for r in rows:
             yield r
+        yield from self._detail_requests(f, response, rows)
+
+    def _detail_requests(self, f, response, rows):
+        """Listing rows whose URL matches ``detail_include`` are pages that
+        themselves list the notice's documents (UIIC's /recruitment/details/N);
+        read each one with the feed's own recipe."""
+        pattern = f.get("detail_include")
+        if not pattern:
+            return
+        limit = int(f.get("detail_limit", 10))
+        for r in [r for r in rows if re.search(pattern, r["url"], re.I)][:limit]:
+            yield scrapy.Request(
+                r["url"], callback=self.parse_detail, errback=self.detail_failed,
+                meta={"feed": f, "parent": r, "render": f.get("render", "http")},
+                dont_filter=True,
+            )
+
+    def parse_detail(self, response):
+        f, parent = response.meta["feed"], response.meta["parent"]
+        if response.status >= 400:
+            self.partial.add(f["id"])
+            return
+        # `detail_link_include` replaces `include`: a detail page also carries
+        # the site's footer documents, which are not this notice's.
+        sub = {**f, "include": f.get("detail_link_include") or f.get("include"),
+               "item_selector": f.get("detail_item_selector"), "link_selector": None}
+        try:
+            rows = adapters.run(sub, response.url, response.body)
+        except (ValueError, json.JSONDecodeError, KeyError):
+            self.partial.add(f["id"])
+            return
+        for r in rows:
+            if r["url"] == parent["url"]:
+                continue
+            # The document's own title ("Information Handout") rarely names
+            # the exam; the listing row's title does.
+            r["title"] = f"{parent['title']} - {r['title']}"[:500]
+            r["published"] = r.get("published") or parent.get("published")
+            self.rows.append(r)
+            yield r
+
+    def detail_failed(self, failure):
+        self.partial.add(failure.request.meta["feed"]["id"])
 
     def failed(self, failure):
         req = failure.request
@@ -176,7 +221,7 @@ class FeedsSpider(scrapy.Spider):
 
     def _closed(self, spider, reason):
         # Only a feed that answered with links can say a notice has gone.
-        ran = {h["id"] for h in self.health if h.get("ok") and h.get("count")}
+        ran = {h["id"] for h in self.health if h.get("ok") and h.get("count")} - self.partial
         counts = harvest.merge_notices(self.cat, self.rows, ran)
         new_ids = counts.pop("new_ids")
         alerts = harvest.write_health(self.health)
