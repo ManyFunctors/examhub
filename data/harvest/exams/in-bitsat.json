@@ -4,16 +4,221 @@
  "name": "BITS Admission Test",
  "body": "in-bits",
  "purpose": "admission",
- "cycle": null,
- "documents": 2,
- "documents_in_cycle": 2,
- "fields": {},
+ "cycle": "2026",
+ "documents": 3,
+ "documents_in_cycle": 1,
+ "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 100,
+     "raw": "Parent(s)/LegalGuardian(s)ona₹100 Non-Judicial Stamp Paper and duly notarised in the prescribed format , . amount of fees for students' union fee , students' aid fund hostel fee and mess & , electricityadvance",
+     "page": 37
+    }
+   ],
+   "source": {
+    "notice": "98c03d3185b2f736233f06c0c6d434e02f6e9f5886e25af258cdb5925d95e1a7",
+    "url": "https://admissions.bits-pilani.ac.in/FD/downloads/Admission_Modality_FD.pdf?02122025",
+    "title": "Admission Modality",
+    "kind": "notice",
+    "page": 37
+   }
+  },
+  "dates": {
+   "payment_deadline": {
+    "date": "2026-07-31",
+    "source": {
+     "notice": "98c03d3185b2f736233f06c0c6d434e02f6e9f5886e25af258cdb5925d95e1a7",
+     "url": "https://admissions.bits-pilani.ac.in/FD/downloads/Admission_Modality_FD.pdf?02122025",
+     "title": "Admission Modality",
+     "kind": "notice",
+     "page": 23
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-06-30",
+    "source": {
+     "notice": "98c03d3185b2f736233f06c0c6d434e02f6e9f5886e25af258cdb5925d95e1a7",
+     "url": "https://admissions.bits-pilani.ac.in/FD/downloads/Admission_Modality_FD.pdf?02122025",
+     "title": "Admission Modality",
+     "kind": "notice",
+     "page": 7
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2026-06-30"
+   },
+   "source": {
+    "notice": "98c03d3185b2f736233f06c0c6d434e02f6e9f5886e25af258cdb5925d95e1a7",
+    "url": "https://admissions.bits-pilani.ac.in/FD/downloads/Admission_Modality_FD.pdf?02122025",
+    "title": "Admission Modality",
+    "kind": "notice",
+    "page": 7
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Doctorate",
+     "Postgraduate",
+     "Graduate",
+     "Class 12"
+    ],
+    "clauses": [
+     {
+      "text": "Dual Degree Programme: This involves the Five-year Integrated Dual Degree in Engineering and Management programme with admissions governed by the BITS-BITSoM admission schemes",
+      "page": 2
+     },
+     {
+      "text": "For admission to all the integrated first-degree programmes candidates should have passed the 12th examination of 10+2 system from a recognized Central or State board or its equivalent with adequate proficiency in English",
+      "page": 2
+     },
+     {
+      "text": "Environmental and Sustainability Engineering the candidates should have Physics, Chemistry, and Mathematics as subjects",
+      "page": 2
+     },
+     {
+      "text": "Environmental and Sustainability Engineering), candidates should have Physics, Chemistry, and either Biology or Mathematics as subjects",
+      "page": 2
+     },
+     {
+      "text": "The candidate should have obtained a minimum of aggregate 75% marks in Physics, Chemistry and Mathematics subjects (if he/she has taken Mathematics in BITSAT) or a minimum of aggregate 75% marks in Physics, Chemistry and Biology subjects (if he/she has taken Biology in BITSAT) in 12th grade…",
+      "page": 2
+     },
+     {
+      "text": "For BITSAT–2026, students who are appearing for the 12th examination in 2026 or who have passed the 12th Examination in 2025 are eligible",
+      "page": 2
+     },
+     {
+      "text": "Students should have appeared in/ passed the 12th examination of the 10+2 system from a recognized Central/ State board",
+      "page": 3
+     },
+     {
+      "text": "Such transfers are subject to the prescribed eligibility criteria, approval from both the home and host campuses, availability of the required courses and hostel accommodation at the host campus, and clearance of all financial and disciplinary requirements",
+      "page": 6
+     },
+     {
+      "text": "A student should have completed at least one semester at the home campus before becoming eligible to apply for such a transfer",
+      "page": 6
+     },
+     {
+      "text": "Students admitted in the first semester to any of the M.Sc. programmes - Biological Sciences, Chemistry, Economics, Mathematics, Physics, or Semiconductor and Nanoscience- will be accommodated in a second degree in one of the B.E. programmes under the Institute’s dual degree scheme, subject to the…",
+      "page": 6
+     },
+     {
+      "text": "Moreover, they should have obtained the minimum marks in PCM/PCB subjects in 12th examination, as per the eligibility criteria described above",
+      "page": 7
+     },
+     {
+      "text": "Such international candidates should meet the following eligibility criteria",
+      "page": 8
+     },
+     {
+      "text": "Candidates who have passed the qualifying 12th standard examination in 2025 or 2026 are eligible to apply under this scheme",
+      "page": 9
+     },
+     {
+      "text": "The applicant has passed the 12th examination of 10+2 system from a recognized Central or State board or its equivalent with Physics, Chemistry and Mathematics (PCM) and adequate proficiency in English",
+      "page": 10
+     },
+     {
+      "text": "The applicant has passed the 12th examination of 10+2 system from a recognized Central or State board or its equivalent with Physics, Chemistry and Mathematics (PCM) and adequate proficiency in English",
+      "page": 13
+     },
+     {
+      "text": "(i) The applicant has passed the 12th examination of 10+2 system from a recognized Central or State board or its equivalent with Physics, Chemistry and Mathematics (PCM) and adequate proficiency in English",
+      "page": 15
+     },
+     {
+      "text": "In order to progress to the University at Buffalo as part of the BITS-UB International Collaboration Programme, students should have at the end of their first two years a CGPA of at least 5.0 on the BITS grading scale, with no BITS course fulfilling a UB degree requirement having a BITS grade…",
+      "page": 16
+     },
+     {
+      "text": "Students can pursue a dual degree programme whereby they can obtain an engineering degree from BITS Pilani and a bachelor’s degree in engineering from CentraleSupélec Paris (CSP) upon successful completion of the programme requirements",
+      "page": 17
+     },
+     {
+      "text": "(i) The applicant has passed the 12th examination of 10+2 system from a recognized Central or State board or its equivalent with Physics, Chemistry and Mathematics (PCM) and adequate proficiency in English",
+      "page": 18
+     },
+     {
+      "text": "In order to progress to the CentraleSuplec Paris as part of the BITS-CSP International Collaboration Programme, students should have at the end of their first two years a CGPA of at least 5.0 on the BITS grading scale, with no BITS course fulfilling a CentraleSuplec Paris degree requirement having…",
+      "page": 19
+     },
+     {
+      "text": "(i) The applicant has passed the 12th examination of 10+2 system from a recognized Central or State board or its equivalent with Physics, Chemistry and Mathematics (PCM) and adequate proficiency in English",
+      "page": 21
+     },
+     {
+      "text": "Those who meet the specified eligibility criteria may transition into the dual degree track",
+      "page": 23
+     },
+     {
+      "text": "• The eligibility criteria for admission to the the Five-year Integrated BE-MBA Dual Degree programme through",
+      "page": 24
+     },
+     {
+      "text": "Students with backlog at the end of second year may get a chance provided they successfully clear all such backlogs by the end of the third year and fulfill the required credit and academic eligibility criteria",
+      "page": 25
+     },
+     {
+      "text": "• Meeting the minimum eligibility criteria does not guarantee admission into the Ph.D",
+      "page": 28
+     },
+     {
+      "text": "This experience prompts the Institute often to describe the prior preparation for another degree in the same tier or a degree in a higher tier in terms of not only a minimum qualification but also specific courses which they should have done",
+      "page": 29
+     },
+     {
+      "text": "The Institute may offer direct admission to a limited number of children of the staff of BITS and BET and also to some meritorious students from the schools of BET in Pilani to non-professional programmes with a proviso that the students admitted to these programmes will not be eligible for any of…",
+      "page": 30
+     },
+     {
+      "text": "In order to apply for admission to the Integrated First Degree programmes, the candidate should have appeared in the online computer-based test (BITSAT) as per the announcement made by the Institute through separate advertisement and brochures",
+      "page": 31
+     },
+     {
+      "text": "Scholarship policy for First Degree International students admitted through ISA Scheme All the international students admitted under the scheme will be provided merit scholarships in the form of tuition fee waiver as follows:",
+      "page": 55
+     },
+     {
+      "text": "These scholarships will be awarded as per the same eligibility criteria, and merit lists applicable to BITSAT-admitted students",
+      "page": 57
+     },
+     {
+      "text": "BITS-CSP 2+2 International Collaborative Programme (CS) or BITS-RPI 2+2 International Collaborative programme (RP) or Five- year Integrated Dual Degree in Engineering and Management programme (MM) and the last character indicates the campus which a student belongs to",
+      "page": 58
+     }
+    ]
+   },
+   "source": {
+    "notice": "98c03d3185b2f736233f06c0c6d434e02f6e9f5886e25af258cdb5925d95e1a7",
+    "url": "https://admissions.bits-pilani.ac.in/FD/downloads/Admission_Modality_FD.pdf?02122025",
+    "title": "Admission Modality",
+    "kind": "notice"
+   }
+  },
+  "selection": {
+   "value": [
+    "Interview"
+   ],
+   "source": {
+    "notice": "98c03d3185b2f736233f06c0c6d434e02f6e9f5886e25af258cdb5925d95e1a7",
+    "url": "https://admissions.bits-pilani.ac.in/FD/downloads/Admission_Modality_FD.pdf?02122025",
+    "title": "Admission Modality",
+    "kind": "notice"
+   }
+  }
+ },
  "gaps": [
-  "apply",
   "exam_date",
-  "fee",
-  "eligibility",
   "exam_pattern"
  ],
- "older_documents": 0
+ "older_documents": 2
 }
