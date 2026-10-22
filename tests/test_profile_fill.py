@@ -207,3 +207,17 @@ def test_promote_only_makes_pages_for_recurring_exams():
     assert eligible({"name": "AIAPGET", "frequency": "annual"})
     assert not eligible({"name": "Gujarat HC Staff Recruitment", "frequency": "irregular"})
     assert not eligible({"name": "Umbrella drives", "frequency": "annual"} | {"name": "X (umbrella)"})
+
+
+def test_born_between_dates_fill_the_age_rule():
+    from examhub_pipeline.profile_fill import _fill_born
+
+    text = ("A candidate must have attained the age of 21 years and must not have attained the age of 32 years "
+            "on the 1st of August, 2026 i.e., the candidate must have been born not earlier than 2nd August, 1994 "
+            "and not later than 1st August, 2005")
+    rec = {"eligibility": [{"age": {"applies": "unknown", "age_as_of": "unknown", "age_born_from": "unknown", "age_born_to": "unknown"}}],
+           "provenance": {"evidence": []}}
+    notes = _fill_born(rec, {"value": {"clauses": [{"text": text, "page": 3}]}, "source": {}}, 2026)
+    age = rec["eligibility"][0]["age"]
+    assert notes and str(age["age_born_from"]) == "1994-08-02" and str(age["age_born_to"]) == "2005-08-01"
+    assert str(age["age_as_of"]) == "2026-08-01" and age["applies"] == "yes"

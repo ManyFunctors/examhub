@@ -82,7 +82,9 @@ service_posting_area                = 'none'
 city_slip_separate = 'unknown'
 
   [dates.application]
-  status       = 'not_announced'
+  from         = 2026-06-02
+  to           = 2026-06-16
+  status       = 'confirmed'
   change       = 'none'
   changed_from = 'none'
 
@@ -343,7 +345,7 @@ link_apply         = 'https://setexam.unipune.ac.in/Login.aspx'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:15:35+05:30
+provenance_last_checked = 2026-10-22T16:10:12+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.stages[1].exam'
@@ -351,4 +353,18 @@ provenance_last_checked = 2026-10-22T14:15:35+05:30
   evidence_page     = 0
   evidence_words    = 'ExamHub record: exam_date 2026-10-25'
   evidence_method   = 'manual'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.application.from'
+  evidence_document = 'https://setexam.unipune.ac.in/SET_2026/SET_English_Advertisement.pdf'
+  evidence_page     = 1
+  evidence_words    = 'registration open 2026-06-02'
+  evidence_method   = 'rule'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.application.to'
+  evidence_document = 'https://setexam.unipune.ac.in/SET_2026/SET_English_Advertisement.pdf'
+  evidence_page     = 1
+  evidence_words    = 'registration deadline 2026-06-16'
+  evidence_method   = 'rule'
 +++
