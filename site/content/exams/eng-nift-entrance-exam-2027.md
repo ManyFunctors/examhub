@@ -353,7 +353,7 @@ link_apply         = 'https://exams.nta.nic.in/niftee/'
   document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Notice_20261016183525.pdf'
   document_archive   = 'not_archived'
-  document_title     = 'Inviting Online Applications for the National Institute of Fashion Technology Entrance Examination (NIFTEE)–20'
+  document_title     = 'Inviting Online Applications for the National Institute of Fashion Technology Entrance Examination…'
 
   [[links.documents]]
   document_type      = 'other'
@@ -365,7 +365,7 @@ link_apply         = 'https://exams.nta.nic.in/niftee/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:13:31+05:30
+provenance_last_checked = 2026-10-22T14:24:15+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.stages[1].exam'

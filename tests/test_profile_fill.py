@@ -153,3 +153,9 @@ def test_a_date_printed_in_the_title_is_not_the_publication_date():
                 "doc_type": "notification", "published": "2026-07-26"}]
     attach_notices(rec, notices, same_cycle_records=1)
     assert rec["links"]["documents"][0]["document_published"] == "unknown"
+
+
+def test_a_long_title_is_cut_at_a_word():
+    from examhub_pipeline.profile_fill import _short_title
+    out = _short_title("Public Notice regarding Addition of Examination Cities and Expansion of City Choice Options for UGC-NET June 2026 Examination")
+    assert out.endswith("…") and not out.endswith("June 2…") and len(out) <= 111

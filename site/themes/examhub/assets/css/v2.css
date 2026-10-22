@@ -81,14 +81,18 @@ dl, dt, dd { min-width: 0; overflow-wrap: anywhere; }
 
 /* official documents */
 .v2-docs { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--sp-1); }
-.v2-doc { display: flex; justify-content: space-between; gap: var(--sp-3); padding: var(--sp-2) var(--sp-3); border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); }
-.v2-doc a { font-weight: 600; }
+.v2-doc { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: var(--sp-3); padding: var(--sp-2) var(--sp-3); border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); }
+.v2-doc a { font-weight: 600; white-space: nowrap; }
+/* the file's own name: a full-width second line, at most two lines, never pushing the label */
+.v2-doc__title { flex: 1 0 100%; min-width: 0; color: var(--text-muted); font-size: .9em; line-height: 1.35;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
 .v2-doc--site, .v2-doc--apply { background: color-mix(in srgb, var(--accent) 8%, var(--base)); }
 .v2-checked { color: var(--text-muted); font-size: var(--fs-sm); margin-top: var(--sp-3); }
 
 @media (max-width: 640px) {
   .v2-elig__row { grid-template-columns: 1fr; gap: 2px; }
-  .v2-doc { flex-direction: column; gap: 0; }
+  .v2-doc { flex-direction: column; align-items: stretch; gap: 0; }
+  .v2-doc__title { flex: 0 0 auto; }
 }
 
 /* ── Key Dates box and the collapsed sections below it ───────────────── */

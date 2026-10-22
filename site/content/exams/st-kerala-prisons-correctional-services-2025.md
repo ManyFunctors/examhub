@@ -299,6 +299,30 @@ link_official_page = 'https://keralapsc.gov.in/'
 link_apply         = 'https://keralapsc.gov.in/'
 
   [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-10-05
+  document_title     = '2026, Featured Latest, Thrissur LP SCHOOL TEACHER (MALAYALAM MEDIUM)RECRUITMENT BY TRANSFER (Cat.No.…'
+  document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-10/1142025_08_0_0-1.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-09-24
+  document_title     = '2026, Featured Latest, Kannur LP SCHOOL TEACHER (MALAYALAM MEDIUM)RECRUITMENT BY TRANSFER (Cat.No. 114/2025)…'
+  document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-09/1142025_13_0_0.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-02-02
+  document_title     = 'Civil Excise Officer Driver (Part II - Recruitment by Transfer) in Kerala Excise and Prohibition Department…'
+  document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-09/nil_notification_387.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
@@ -308,7 +332,7 @@ link_apply         = 'https://keralapsc.gov.in/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:24:16+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'

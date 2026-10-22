@@ -301,12 +301,35 @@ training_offered_for          = 'unknown'
 [links]
 link_official_page = 'https://csbc.bihar.gov.in/'
 link_apply         = 'unknown'
-documents          = []
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-04-25
+  document_title     = 'Important Notice: Regarding the Correction Letter Related to the Notice Published on 25-04-2026 for…'
+  document_url       = 'https://csbc.bihar.gov.in/Advt/Notice-01-2025-27-04-2026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-03-19
+  document_title     = 'Important Notice: Regarding Fake News Related to Constable Recruitment'
+  document_url       = 'https://csbc.bihar.gov.in/Advt/Notice-19-03-2026-Reg. Fake News.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_title     = 'Advt. No. 02/2026: For Selection to the Post of Constable (Operator) in Bihar Police.'
+  document_url       = 'https://csbc.bihar.gov.in/Advt/Advt-02-2026-Constable(Operator).pdf'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:24:15+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

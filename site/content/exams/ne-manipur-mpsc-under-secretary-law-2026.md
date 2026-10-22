@@ -297,12 +297,19 @@ training_offered_for          = 'unknown'
 [links]
 link_official_page = 'https://mpscmanipur.gov.in/Recruitment_Advertisement.html'
 link_apply         = 'https://mpscmanipur.gov.in/'
-documents          = []
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_title     = 'View Advertisement'
+  document_url       = 'https://mpscmanipur.gov.in/files/AE_Recuitment_2026.pdf'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:24:16+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'
