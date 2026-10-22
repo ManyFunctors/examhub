@@ -6273,7 +6273,7 @@ conducted_by = "in-rrb"
 frequency = "annual"
 qualification = "graduate"
 streams = ["railways", "clerical"]
-match = { any = ['NTPC.*(graduate|level\s*[56])', 'non[-\s]*technical\s*popular\s*categor(y|ies)\s*\(?\s*graduate'], none = ['under\s*graduate|undergraduate'] }
+match = { any = ['NTPC.*(graduate|level\s*[56])', 'non[-\s]*technical\s*popular\s*categor(y|ies)\s*\(?\s*graduate', '\(0?6/2025\)|CEN[\s_-]*0?6[/_]2025'], none = ['under\s*graduate|undergraduate'] }
 status = "active"
 
 [[exams]]
@@ -6362,7 +6362,7 @@ conducted_by = "in-rrb"
 frequency = "irregular"
 qualification = "graduate"
 streams = ["railways", "teaching", "clerical"]
-match = { any = ["ministerial", "isolated"] }
+match = { any = ["ministerial", "isolated", '\(0?8/2025\)|CEN[\s_-]*0?8[/_]2025'] }
 status = "active"
 
 [[exams]]
