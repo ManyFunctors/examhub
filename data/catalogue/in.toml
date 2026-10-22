@@ -2583,7 +2583,7 @@ tier = "hot"
 status = "active"
 
 [[feeds]]
-id = "in-bits/first-degree"
+id = "in-bits/bitsat"
 body = "in-bits"
 url = "https://admissions.bits-pilani.ac.in/FD/FD.html"
 adapter = "html_links"
