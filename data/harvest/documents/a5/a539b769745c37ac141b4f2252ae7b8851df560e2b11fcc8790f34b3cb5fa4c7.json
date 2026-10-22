@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "a539b769745c37ac141b4f2252ae7b8851df560e2b11fcc8790f34b3cb5fa4c7",
+  "url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Districtwise-Vacancies-Class-9-to-10_BPSC-20260818-eja4u7.pdf",
+  "title": "Class 9 to 10",
+  "body": "br-bpsc",
+  "exam": "br-bpsc-other",
+  "feed": "br-bpsc/advertisements",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "13d0d1de0adb4dbb0eac6cb87a2528fe53ff11a1c518428fef1e118b2f6dfbfe",
+  "bytes": 438956,
+  "pages": 10,
+  "chars": 18,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-23T01:19:47+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
