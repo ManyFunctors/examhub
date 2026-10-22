@@ -64,10 +64,10 @@ status = "active"
 [[feeds]]
 id = "mp-esb/home"
 body = "mp-esb"
-url = "https://esb.mp.gov.in/"
+url = "https://esb.mp.gov.in/home_n.html"
 adapter = "html_links"
 yields = "notices"
-include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
+include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam|rule\s*book'
 status = "active"
 
 [[feeds]]
