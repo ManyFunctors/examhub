@@ -25,6 +25,7 @@ from urllib.parse import urlsplit
 from . import catalogue as catalogue_mod
 from . import names as names_mod
 from . import record as record_mod
+from .crawl.adapters import UNINFORMATIVE
 
 #: stands for "not known yet", so a known value replaces it
 _FILLABLE = {"unknown", "not_announced", ""}
@@ -273,6 +274,13 @@ def papers(recs: dict[str, dict]) -> list[tuple[str, list[str]]]:
 def run(exams_dir: Path, *, apply: bool = False, log: Callable[[str], None] = print) -> Result:
     out = Result()
     loaded = {p.name: record_mod.load(p) for p in sorted(exams_dir.glob("*.md"))}
+    # pages named "Read More" that name no exam are junk from a bare feed link
+    for name in [n for n, v in loaded.items()
+                 if UNINFORMATIVE.match(str(v[0].get("title", ""))) and v[0].get("exam_id") == "unknown"]:
+        log(f"dedupe: {name} removed, its title names no exam")
+        if apply:
+            (exams_dir / name).unlink()
+        del loaded[name]
     recs = {k: v[0] for k, v in loaded.items()}
     for group in groups(recs, catalogue_mod.load()):
         # the fullest file is kept; a tie keeps the first name

@@ -286,3 +286,13 @@ def test_fee_table_takes_the_regular_column_and_tolerates_spaced_thousands():
         ["ii) OBC/DT(A)(VJ)/NT(B)/NT(C)/NT(D)/ SEBC/(for Non Creamy Layer)*/ Open(EWS)/ PwD/SC/ST", "Rs. 650/-", "Rs. 1,150/-"]])
     assert [f["amount"] for f in documents.parse_fee_table(table)] == [800, 650]
     assert documents.amounts_in("Rs 1 ,300/ . -")[0][1] == 1300
+
+
+def test_dedupe_removes_a_read_more_page(tmp_path):
+    from examhub_pipeline import dedupe, record
+
+    page = tmp_path / "nta-read-more.md"
+    rec = record.skeleton(title="Read More", slug="nta-read-more", body="NTA")
+    page.write_text(record.dumps(rec, ""), encoding="utf-8")
+    dedupe.run(tmp_path, apply=True, log=lambda _m: None)
+    assert not page.exists()
