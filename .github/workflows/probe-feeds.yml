@@ -74,6 +74,8 @@ jobs:
           FEEDS: ${{ inputs.feeds }}
           MOZ_HEADLESS: "1"
           EXAMHUB_HTTPCACHE: "0"
+          IA_ACCESS_KEY: ${{ secrets.IA_ACCESS_KEY }}
+          IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
         run: |
           mkdir -p data/harvest work
           uv run scrapy crawl feeds -a feed="$FEEDS" -s LOG_LEVEL=INFO -s LOG_FILE=work/probe.log || true

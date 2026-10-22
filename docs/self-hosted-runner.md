@@ -38,9 +38,13 @@ The three workflows that use this runner only start on a schedule or by hand, ne
 A feed whose host never answers the runner (timeout, refused or reset
 connection, TLS failure) or answers 403/429/5xx is read from the Internet
 Archive's latest capture instead (`web.archive.org/web/2id_/<url>`, the page as
-served). If the capture is older than `EXAMHUB_WAYBACK_STALE_DAYS` (7), Save
-Page Now is asked for a fresh one first, at most `EXAMHUB_WAYBACK_SAVES` (20)
-times per run. `EXAMHUB_WAYBACK=0` turns it off.
+served). With the repository secrets `IA_ACCESS_KEY` and `IA_SECRET_KEY` (a free
+archive.org account, keys at archive.org/account/s3.php) the pipeline first
+asks Save Page Now 2 for a fresh capture of any feed whose latest capture is a
+day old or more, at most `EXAMHUB_WAYBACK_SAVES` (20) per run, and waits for it.
+Without the keys it reads the latest capture as it is. (Anonymous Save Page Now
+no longer works: "You need to be logged in".) archive.today has no API and
+answers automated requests with a captcha, so it is not used. `EXAMHUB_WAYBACK=0` turns it off.
 
 Such a feed is marked `via = "wayback"` in `feed-health.jsonl` with the capture
 time and age. Its notices are added but never marked gone, because an archived

@@ -331,6 +331,7 @@ def test_wayback_fallback_reads_the_archived_copy_against_the_original_url():
     from examhub_pipeline.crawl.spiders.feeds import FeedsSpider
     sp = FeedsSpider(feed="in-kvs/notices")
     sp.saves_left = 0
+    sp.ia_auth = ""
     f = {"id": "t/x", "body": "t", "url": "https://blocked.example.in/notices", "adapter": "html_links",
          "include": r"\.pdf"}
     req = sp._wayback_request(f)
