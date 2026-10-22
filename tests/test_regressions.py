@@ -316,5 +316,5 @@ def test_download_pdf_title_attribute_falls_back_to_row_text():
     from examhub_pipeline.crawl.adapters import html_links
     html = ('<table><tr><td>Final Answer Key for Primary Teacher</td><td>2026-09-10</td>'
             '<td><a href="/file/x/publicNotice" title="Download PDF"><i></i></a></td></tr></table>')
-    rows = list(html_links({"item_selector": "table tr"}, "https://hssc.gov.in/publicNotice", html))
+    rows = list(html_links({"id": "t/x", "body": "t", "item_selector": "table tr"}, "https://hssc.gov.in/publicNotice", html))
     assert rows and rows[0]["title"].startswith("Final Answer Key")

@@ -4317,7 +4317,7 @@ conducted_by = "in-ibps"
 frequency = "annual"
 qualification = "graduate"
 streams = ["banking"]
-match = { any = ['(RRB|regional\s*rural).*officers?\s*scale[-\s]*I\b(?!I)', 'RRB\s*PO'] }
+match = { any = ['(RRB|regional\s*rural).*officers?\s*scale[-\s]*I\b(?!I)', 'RRB\s*PO', 'CRP[-–\s]*RRBs?[-–\s]*[IVX]+\b'] }
 status = "active"
 
 [[exams]]
