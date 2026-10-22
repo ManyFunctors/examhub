@@ -28,8 +28,8 @@ body_role = 'conducts'
 
 # ═══ posts and vacancies ═════════════════════════════════════════════
 [posts]
-vacancies_total            = 'not_announced'
-vacancies_status           = 'not_announced'
+vacancies_total            = 225
+vacancies_status           = 'confirmed'
 posts_per_candidate        = 'unknown'
 posts_waiting_list_percent = 'unknown'
 posts_join_in_batches      = 'unknown'
@@ -179,16 +179,23 @@ eligibility_parts = 'all'
   children_counted_from = 'none'
 
   [eligibility.age]
-  applies                   = 'unknown'
-  age_as_of                 = 'unknown'
-  age_min                   = 'unknown'
-  age_max                   = 'unknown'
+  applies                   = 'yes'
+  age_as_of                 = 2026-06-30
+  age_min                   = 21
+  age_max                   = 30
   age_born_from             = 'unknown'
   age_born_to               = 'unknown'
   age_relaxation_cumulative = 'unknown'
   age_relaxation_max_age    = 'none'
-  relaxations               = 'none'
   age_by_category           = 'none'
+
+    [[eligibility.age.relaxations]]
+    relaxation_category = 'OBC-NCL'
+    relaxation          = '+3'
+
+    [[eligibility.age.relaxations]]
+    relaxation_category = 'PwBD'
+    relaxation          = '+10'
 
   [eligibility.education]
   applies               = 'unknown'
@@ -330,12 +337,18 @@ training_offered_for          = 'unknown'
 [links]
 link_official_page = 'https://uiic.co.in/'
 link_apply         = 'https://uiic.co.in/web/careers/recruitment'
-documents          = []
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/UIIC-AO-notification-2026%20final.pdf'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T13:48:38+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'
@@ -364,4 +377,18 @@ provenance_last_checked = 2026-09-27T19:36:16+05:30
   evidence_page     = 0
   evidence_words    = 'ExamHub record: All candidates 1000; SC 0; ST 0; PwBD 0'
   evidence_method   = 'manual'
+
+  [[provenance.evidence]]
+  evidence_field    = 'posts.vacancies_total'
+  evidence_document = 'https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/UIIC-AO-notification-2026%20final.pdf'
+  evidence_page     = 0
+  evidence_words    = ''
+  evidence_method   = 'rule'
+
+  [[provenance.evidence]]
+  evidence_field    = 'eligibility.age'
+  evidence_document = 'https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/UIIC-AO-notification-2026%20final.pdf'
+  evidence_page     = 3
+  evidence_words    = 'A candidate must be of the Minimum Age of 21 years and the Maximum Age of 30 years as on 30.06.2026'
+  evidence_method   = 'rule'
 +++
