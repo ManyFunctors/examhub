@@ -82,7 +82,9 @@ service_posting_area                = 'unknown'
 city_slip_separate = 'unknown'
 
   [dates.application]
-  status       = 'not_announced'
+  from         = 'unknown'
+  to           = 2026-05-05
+  status       = 'confirmed'
   change       = 'none'
   changed_from = 'none'
 
@@ -129,7 +131,9 @@ city_slip_separate = 'unknown'
     changed_from = 'none'
 
     [dates.stages.exam]
-    status       = 'not_announced'
+    from         = 2026-05-17
+    to           = 'unknown'
+    status       = 'confirmed'
     change       = 'none'
     changed_from = 'none'
 
@@ -309,12 +313,26 @@ link_apply         = 'https://mpscmanipur.gov.in/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:24:16+05:30
+provenance_last_checked = 2026-10-22T16:35:41+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'
   evidence_document = 'https://mpscmanipur.gov.in/Recruitment_Advertisement.html'
   evidence_page     = 0
   evidence_words    = 'nothing extracted'
+  evidence_method   = 'rule'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.application.to'
+  evidence_document = 'https://mpscmanipur.gov.in/files/MPSC_26041620561.pdf'
+  evidence_page     = 2
+  evidence_words    = 'registration deadline 2026-05-05'
+  evidence_method   = 'rule'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.stages[1].exam.from'
+  evidence_document = 'https://mpscmanipur.gov.in/files/MPSC_26041620561.pdf'
+  evidence_page     = 3
+  evidence_words    = 'exam date 2026-05-17'
   evidence_method   = 'rule'
 +++

@@ -366,6 +366,14 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
   document_title     = 'Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination – reg'
 
   [[links.documents]]
+  document_type      = 'corrigendum'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_title     = 'Public Notice Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination'
+  document_url       = 'http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
   document_type      = 'calendar'
   document_stage     = 'all'
   document_published = 'unknown'
@@ -408,7 +416,7 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T16:06:39+05:30
+provenance_last_checked = 2026-10-22T16:35:44+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'fee.rows'
