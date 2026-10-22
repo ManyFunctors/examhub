@@ -266,7 +266,7 @@ conducted_by = "kl-kpsc"
 frequency = "multiple"
 qualification = "graduate"
 streams = ["general"]
-match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+match = { any = ["advt|advertisement|recruitment|vacanc|notification", 'cat(egory)?\.?\s*no\b', 'rank\s*list'] }
 status = "active"
 notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
 
