@@ -317,7 +317,7 @@ conducted_by = "br-bpsc"
 frequency = "irregular"
 qualification = "graduate"
 streams = ["teaching"]
-match = { any = ['\bTRE\b', 'teacher\s*recruitment', 'school\s*teacher', 'head\s*(teacher|master)'] }
+match = { any = ['\bTRE\b', '[\w.-]*TRE[-_ ]?\d(\.\d)?[\w.-]*', 'teacher\s*recruitment', 'school\s*teacher', 'head\s*(teacher|master)'] }
 status = "active"
 
 [[exams]]
