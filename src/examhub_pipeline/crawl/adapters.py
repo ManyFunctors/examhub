@@ -28,9 +28,9 @@ _SKIP_SCHEMES = ("mailto:", "javascript:", "tel:", "#", "data:")
 #: Anchor text that says nothing about the document. The row text is used
 #: instead when a link is labelled like this.
 UNINFORMATIVE = re.compile(
-    r"^\s*(read\s*more|click\s*here|(download|view)(\s*(pdf|file|document|advertisement|notice))?|details?|here|link|pdf|"
+    r"^\s*(read\s*more|view\s*more|click\s*here|(download|view)(\s*(pdf|file|document|advertisement|notice))?|details?|here|link|pdf|"
     r"document(\s*(notice|notification|file))?|rule\s*book|notice|notification|advertisement|"
-    r"file|open|more|new|english|hindi|कृपया.*|डाउनलोड|देखें|"
+    r"file|open|more|new|english|hindi|कृपया.*|डाउनलोड(\s*करें)?|देखें|"
     r"\(?\d+(\.\d+)?\s*(kb|mb)\)?)\s*[.>»]*\s*$",
     re.I,
 )
