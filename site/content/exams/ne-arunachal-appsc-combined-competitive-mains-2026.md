@@ -82,7 +82,9 @@ service_posting_area                = 'unknown'
 city_slip_separate = 'unknown'
 
   [dates.application]
-  status       = 'not_announced'
+  from         = 'unknown'
+  to           = 2026-10-20
+  status       = 'confirmed'
   change       = 'none'
   changed_from = 'none'
 
@@ -173,10 +175,10 @@ eligibility_parts = 'all'
   children_counted_from = 'none'
 
   [eligibility.age]
-  applies                   = 'unknown'
-  age_as_of                 = 'unknown'
-  age_min                   = 'unknown'
-  age_max                   = 'unknown'
+  applies                   = 'yes'
+  age_as_of                 = 2026-10-20
+  age_min                   = 21
+  age_max                   = 35
   age_born_from             = 'unknown'
   age_born_to               = 'unknown'
   age_relaxation_cumulative = 'unknown'
@@ -317,12 +319,26 @@ link_apply         = 'https://appsc.gov.in/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:24+05:30
+provenance_last_checked = 2026-10-22T16:10:14+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'
   evidence_document = 'https://appsc.gov.in/upload/files/RECINS001/EXAMINATION_CALLENDAR_20251223_114711.pdf'
   evidence_page     = 0
   evidence_words    = 'nothing extracted'
+  evidence_method   = 'rule'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.application.to'
+  evidence_document = 'https://appsc.gov.in/upload/RECINS001/APPSCCE_2026_ADVERTISEMENT.pdf'
+  evidence_page     = 3
+  evidence_words    = 'registration deadline 2026-10-20'
+  evidence_method   = 'rule'
+
+  [[provenance.evidence]]
+  evidence_field    = 'eligibility.age'
+  evidence_document = 'https://appsc.gov.in/upload/RECINS001/APPSCCE_2026_ADVERTISEMENT.pdf'
+  evidence_page     = 4
+  evidence_words    = '(1) A candidates should not be less than 21 years and not more than 35 years of age 85 on last date of receipt of online application form i.e. 20 October, 2026'
   evidence_method   = 'rule'
 +++

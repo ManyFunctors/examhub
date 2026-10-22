@@ -146,6 +146,7 @@ def fill_record(rec: dict, profile: dict, *, same_cycle_records: int) -> list[st
         notes.append(f"posts.vacancies_total = {vac['value']['total']}")
 
     notes += _fill_age(rec, fields.get("age"), dates.get("age_as_on"), cycle)
+    notes += _fill_born(rec, fields.get("eligibility"), cycle)
 
     if notes:
         record_mod.touch(rec)
@@ -302,6 +303,45 @@ def _fill_age(rec: dict, age: dict | None, as_on: dict | None, cycle: int) -> li
         rule["relaxations"] = relax
     _evidence(rec, "eligibility.age", {**source, "page": lim.get("page") or source.get("page")}, lim.get("evidence") or "")
     return [f"eligibility.age = {lim['min']}-{lim['max']} as on {day.isoformat()}"]
+
+
+_MONTH = {m: i for i, m in enumerate(
+    ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"], 1)}
+_DAY = r"(\d{1,2})(?:st|nd|rd|th)?\s*(?:of\s+)?,?\s*([A-Za-z]{3,9})\.?,?\s*(20\d{2}|19\d{2})"
+_BORN = re.compile(rf"born\s+not\s+earlier\s+than\s+(?:the\s+)?{_DAY}\s+and\s+not\s+later\s+than\s+(?:the\s+)?{_DAY}", re.I)
+_ON = re.compile(rf"\bon\s+(?:the\s+)?{_DAY}\s*,?\s*i\.?\s?e", re.I)
+
+
+def _date(d: str, m: str, y: str) -> dt.date | None:
+    month = _MONTH.get(m.lower()) or next((n for k, n in _MONTH.items() if k.startswith(m.lower()[:3])), None)
+    try:
+        return dt.date(int(y), month, int(d)) if month else None
+    except ValueError:
+        return None
+
+
+def _fill_born(rec: dict, eligibility: dict | None, cycle: int) -> list[str]:
+    """'born not earlier than 2nd August, 1994 and not later than 1st August, 2005' (UPSC's
+    way of stating the age limit) into the birth-date fields of a record whose age rule is unknown."""
+    rows = rec.get("eligibility") if isinstance(rec.get("eligibility"), list) else []
+    if len(rows) != 1 or not isinstance(rows[0].get("age"), dict):
+        return []
+    rule = rows[0]["age"]
+    if any(rule.get(k) not in SENTINELS for k in ("age_born_from", "age_born_to", "age_as_of")):
+        return []
+    for clause in ((eligibility or {}).get("value") or {}).get("clauses") or []:
+        m = _BORN.search(clause.get("text") or "")
+        if not m:
+            continue
+        first, last = _date(*m.group(1, 2, 3)), _date(*m.group(4, 5, 6))
+        on = _ON.search(clause["text"])
+        as_of = _date(*on.group(1, 2, 3)) if on else None
+        if not first or not last or first >= last or not (cycle - 45 <= first.year and last.year <= cycle - 10) or not as_of or abs(as_of.year - cycle) > YEAR_SLACK:
+            continue
+        rule.update(applies="yes", age_as_of=as_of, age_born_from=first, age_born_to=last)
+        _evidence(rec, "eligibility.age", {**((eligibility or {}).get("source") or {}), "page": clause.get("page")}, clause["text"][:300])
+        return [f"eligibility.age born {first.isoformat()} to {last.isoformat()} as on {as_of.isoformat()}"]
+    return []
 
 
 def fill(exams_dir: Path, *, apply: bool = False, directory: Path = HARVEST_DIR,

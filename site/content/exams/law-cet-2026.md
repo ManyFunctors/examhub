@@ -58,7 +58,9 @@ service_posting_area                = 'unknown'
 city_slip_separate = 'unknown'
 
   [dates.application]
-  status       = 'not_announced'
+  from         = 2026-06-11
+  to           = 2026-07-13
+  status       = 'confirmed'
   change       = 'none'
   changed_from = 'none'
 
@@ -105,7 +107,9 @@ city_slip_separate = 'unknown'
     changed_from = 'none'
 
     [dates.stages.exam]
-    status       = 'not_announced'
+    from         = 2026-07-17
+    to           = 'unknown'
+    status       = 'confirmed'
     change       = 'none'
     changed_from = 'none'
 
@@ -290,13 +294,72 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'unknown'
+link_official_page = 'https://cetcell.mahacet.org/'
 link_apply         = 'unknown'
-documents          = []
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://cetcell.mahacet.org/wp-content/uploads/2026/08/CAP-Round-I-LLB-3-Yrs_2026.pdf'
+  document_archive   = 'not_archived'
+  document_title     = '15 LLB 3 Yrs. Centralized Admission Process (CAP) Schedule for LLB 3 Yrs Course Academic Year 2026-27…'
+
+  [[links.documents]]
+  document_type      = 'schedule'
+  document_stage     = 'all'
+  document_published = 2026-08-14
+  document_title     = '5 LLB 5 Yrs. Centralized Admission Process (CAP) Schedule for LLB 5 Yrs Integrated Course Academic Year…'
+  document_url       = 'https://cetcell.mahacet.org/wp-content/uploads/2026/08/CAP-Round-I-LLB-5-Yrs_2026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'press_release'
+  document_stage     = 'all'
+  document_published = 2026-08-14
+  document_title     = '6 LLB.5 Yrs. & LLB.3 Yrs. PUBLIC NOTICE : Regarding Lock-In / Final Submission of the Option Form for Law 5…'
+  document_url       = 'https://cetcell.mahacet.org/wp-content/uploads/2026/08/Public-Notice-Ext-to-LLB-3-5-for-option-form-filling_2026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'press_release'
+  document_stage     = 'all'
+  document_published = 2026-08-13
+  document_title     = '7 LLB.5 Yrs. & LLB.3 Yrs. PUBLIC NOTICE : LL.B. 3 Years and LL.B. 5 Years – Centralised Admission Process…'
+  document_url       = 'https://cetcell.mahacet.org/wp-content/uploads/2026/08/Public-Notice-LLB-3-5-for-option-form-filling_2026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'press_release'
+  document_stage     = 'all'
+  document_published = 2026-08-07
+  document_title     = '10 LL.B. 5 yrs and LL.B. 3 yrs Public Notice: Admissions to Three-Year LL.B. and Five-Year Integrated LL.B.…'
+  document_url       = 'https://cetcell.mahacet.org/wp-content/uploads/2026/08/Public-Notice-LLB-3-LLB-5-Yrs_2026.pdf'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
-provenance_retrieved    = 'unknown'
-provenance_last_checked = 'unknown'
-evidence                = []
+provenance_retrieved    = 2026-10-22T16:05:43+05:30
+provenance_last_checked = 2026-10-22T16:05:43+05:30
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.application.from'
+  evidence_document = 'https://cetcell.mahacet.org/wp-content/uploads/2026/08/CAP-Round-I-LLB-3-Yrs_2026.pdf'
+  evidence_page     = 1
+  evidence_words    = 'registration open 2026-06-11'
+  evidence_method   = 'rule'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.application.to'
+  evidence_document = 'https://cetcell.mahacet.org/wp-content/uploads/2026/08/CAP-Round-I-LLB-3-Yrs_2026.pdf'
+  evidence_page     = 1
+  evidence_words    = 'registration deadline 2026-07-13'
+  evidence_method   = 'rule'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.stages[1].exam.from'
+  evidence_document = 'https://cetcell.mahacet.org/wp-content/uploads/2026/08/CAP-Round-I-LLB-3-Yrs_2026.pdf'
+  evidence_page     = 1
+  evidence_words    = 'exam date 2026-07-17'
+  evidence_method   = 'rule'
 +++

@@ -179,12 +179,12 @@ eligibility_parts = 'all'
   children_counted_from = 'none'
 
   [eligibility.age]
-  applies                   = 'unknown'
-  age_as_of                 = 'unknown'
+  applies                   = 'yes'
+  age_as_of                 = 2027-01-01
   age_min                   = 'unknown'
   age_max                   = 'unknown'
-  age_born_from             = 'unknown'
-  age_born_to               = 'unknown'
+  age_born_from             = 1997-01-02
+  age_born_to               = 2006-01-01
   age_relaxation_cumulative = 'unknown'
   age_relaxation_max_age    = 'none'
   relaxations               = 'none'
@@ -354,12 +354,12 @@ link_apply         = 'unknown'
   document_published = 'unknown'
   document_url       = 'https://www.upsc.gov.in/sites/default/files/Notif-ESEP-2027-Engl-160926.pdf'
   document_archive   = 'not_archived'
-  document_title     = 'Document Notice [Notif-ESEP-2027-Engl-160926]'
+  document_title     = 'Download Notification Notice'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:28+05:30
+provenance_last_checked = 2026-10-22T16:06:40+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'
@@ -381,4 +381,11 @@ provenance_last_checked = 2026-10-22T14:28:28+05:30
   evidence_page     = 0
   evidence_words    = 'ExamHub record: All candidates 200; SC 0; ST 0; PwBD 0; Women 0'
   evidence_method   = 'manual'
+
+  [[provenance.evidence]]
+  evidence_field    = 'eligibility.age'
+  evidence_document = 'https://www.upsc.gov.in/sites/default/files/Notif-ESEP-2027-Engl-160926.pdf'
+  evidence_page     = 10
+  evidence_words    = '(a) A candidate for this examination must have attained the age of 21 years and must not have attained the age of 30 years on the 1st January, 2027 i.e., he/she must have been born not earlier than 2nd January, 1997 and not later than 1st January, 2006'
+  evidence_method   = 'rule'
 +++
