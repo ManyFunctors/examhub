@@ -64,7 +64,8 @@ name = "State Council for Technical Education and Vocational Training, Odisha"
 short_name = "SCTE&VT Odisha"
 jurisdiction = "od"
 kind = "testing_agency"
-website = "https://scteodisha.org/"
+website = "https://dtet.odisha.gov.in/"
+hosts = ["dtet.odisha.gov.in", "sctevt.odisha.gov.in", "scteodisha.org"]
 status = "active"
 
 [[bodies]]
@@ -144,7 +145,7 @@ status = "active"
 [[feeds]]
 id = "od-scte/home"
 body = "od-scte"
-url = "https://scteodisha.org/"
+url = "https://dtet.odisha.gov.in/en/notice-board"
 adapter = "html_links"
 yields = "notices"
 include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
