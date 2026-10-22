@@ -4419,7 +4419,7 @@ frequency = "annual"
 qualification = "class_12"
 streams = ["general"]
 official_url = "https://cuet.nta.nic.in/"
-match = { any = ['CUET\s*[-\(]?\s*UG', 'common\s*university\s*entrance\s*test\s*\(?\s*UG'] }
+match = { any = ['CUET[-\s\(]*UG', 'common\s*university\s*entrance\s*test[-\s\[\(]*(CUET[-\s\(]*)?UG'] }
 status = "active"
 
 [[exams]]
@@ -4434,7 +4434,7 @@ frequency = "annual"
 qualification = "graduate"
 streams = ["general"]
 official_url = "https://exams.nta.nic.in/cuet-pg/"
-match = { any = ['CUET\s*[-\(]?\s*PG'] }
+match = { any = ['CUET[-\s\(]*PG', 'common\s*university\s*entrance\s*test[-\s\[\(]*(CUET[-\s\(]*)?PG'] }
 status = "active"
 
 [[exams]]
