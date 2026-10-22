@@ -29,7 +29,7 @@ _SKIP_SCHEMES = ("mailto:", "javascript:", "tel:", "#", "data:")
 #: instead when a link is labelled like this.
 UNINFORMATIVE = re.compile(
     r"^\s*(read\s*more|click\s*here|(download|view)(\s*(pdf|file|document))?|details?|here|link|pdf|"
-    r"document(\s*(notice|notification|file))?|notice|notification|advertisement|"
+    r"document(\s*(notice|notification|file))?|rule\s*book|notice|notification|advertisement|"
     r"file|open|more|new|english|hindi|कृपया.*|डाउनलोड|देखें|"
     r"\(?\d+(\.\d+)?\s*(kb|mb)\)?)\s*[.>»]*\s*$",
     re.I,
@@ -131,7 +131,7 @@ def clean(text: str | None) -> str:
     # thousand-space runs some table layouts are made of.
     text = " ".join((text or "").split())
     text = _SIZE.sub(" ", text)
-    return " ".join(text.split()).strip(" \t\r\n-–|:•·❯❮›»")
+    return " ".join(text.split()).strip(" \t\r\n-–|:•·❯❮›»\ufffd")
 
 
 _MONTHS = {m: i for i, m in enumerate(
