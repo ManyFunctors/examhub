@@ -10,7 +10,12 @@ on:
     inputs:
       feeds:
         description: "feed id(s), comma separated, e.g. in-upsc/exam-notifications,in-rrb/updates"
-        required: true
+        required: false
+        default: ""
+      pages:
+        description: "page URL(s), comma separated: print the status and every link a plain fetch sees"
+        required: false
+        default: ""
 
 permissions:
   contents: read
@@ -28,6 +33,25 @@ jobs:
         with:
           enable-cache: true
 
+      - name: Look at pages
+        if: inputs.pages != ''
+        env:
+          PAGES: ${{ inputs.pages }}
+        run: |
+          python3 - <<'PY'
+          import os, re, urllib.request
+          for url in os.environ["PAGES"].split(","):
+              req = urllib.request.Request(url.strip(), headers={"User-Agent": "Mozilla/5.0"})
+              try:
+                  r = urllib.request.urlopen(req, timeout=60)
+                  html = r.read().decode("utf-8", "ignore")
+              except Exception as e:
+                  print(url, "ERROR", repr(e)[:200]); continue
+              print(url, r.status, len(html), "bytes")
+              for href, text in re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', html, re.S)[:150]:
+                  print("  ", href[:110], "|", re.sub(r"<[^>]+>|\s+", " ", text).strip()[:80])
+          PY
+
       - name: Install
         run: |
           uv python install 3.12
@@ -40,6 +64,7 @@ jobs:
           ls "$GECKOWEBDRIVER"
 
       - name: Read the feeds
+        if: inputs.feeds != ''
         env:
           FEEDS: ${{ inputs.feeds }}
           MOZ_HEADLESS: "1"
