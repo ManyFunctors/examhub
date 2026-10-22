@@ -51,7 +51,7 @@ jobs:
             python3 - <<'PY'
           import re
           html = open("work_page.html", errors="ignore").read()
-          for m in re.finditer(r"[^\n]{0,120}(?:bpsc-notification|bscFrontend|action['"]?\s*[:=]|fetch\(|axios|XMLHttp)[^\n]{0,160}", html):
+          for m in re.finditer(r"[^\n]{0,120}(?:bpsc-notification|bscFrontend|action[\x27\x22]?\s*[:=]|fetch\(|axios|XMLHttp)[^\n]{0,160}", html):
               print("  SCRIPT:", m.group(0).strip()[:260])
           for href, text in re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', html, re.S)[:0]:
               print("  ", href[:110], "|", re.sub(r"<[^>]+>|\s+", " ", text).strip()[:80])
