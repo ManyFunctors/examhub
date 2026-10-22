@@ -1,0 +1,43 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "af9659201bc7a164aba5ecec72174c2f4a58eabcf44ec7e766d2c21b7ebfaad1",
+  "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News & Jobs_22102026_120743.pdf",
+  "title": "Notification for left out candidates due to portal malfunctioning in engagement of Apprentices for FY 2026–27",
+  "body": "in-sail",
+  "exam": "in-sail-recruitment",
+  "feed": "in-sail/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "231aa0ac6c754a57ef38a13450687add095e6b2b33eb9d81b1487de41efe804c",
+  "bytes": 561201,
+  "pages": 1,
+  "chars": 3022,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T12:42:53+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-10-20",
+   "evidence": "Candidates Unable to Apply Online: The last date for online application was 20.10.2026",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "Eligibility: Candidates must have passed the qualifying examination as regular candidates during 2022–2026",
+    "page": 1
+   }
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-10-20"
+  }
+ }
+}

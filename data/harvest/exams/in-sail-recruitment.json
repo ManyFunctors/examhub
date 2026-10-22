@@ -1,0 +1,62 @@
+{
+ "schema": 1,
+ "exam": "in-sail-recruitment",
+ "name": "SAIL Direct Recruitment (non-GATE posts)",
+ "body": "in-sail",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "registration_deadline": {
+    "date": "2026-10-20",
+    "source": {
+     "notice": "af9659201bc7a164aba5ecec72174c2f4a58eabcf44ec7e766d2c21b7ebfaad1",
+     "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News & Jobs_22102026_120743.pdf",
+     "title": "Notification for left out candidates due to portal malfunctioning in engagement of Apprentices for FY 2026–27",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2026-10-20"
+   },
+   "source": {
+    "notice": "af9659201bc7a164aba5ecec72174c2f4a58eabcf44ec7e766d2c21b7ebfaad1",
+    "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News & Jobs_22102026_120743.pdf",
+    "title": "Notification for left out candidates due to portal malfunctioning in engagement of Apprentices for FY 2026–27",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "Eligibility: Candidates must have passed the qualifying examination as regular candidates during 2022–2026",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "af9659201bc7a164aba5ecec72174c2f4a58eabcf44ec7e766d2c21b7ebfaad1",
+    "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News & Jobs_22102026_120743.pdf",
+    "title": "Notification for left out candidates due to portal malfunctioning in engagement of Apprentices for FY 2026–27",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "selection"
+ ],
+ "older_documents": 0
+}
