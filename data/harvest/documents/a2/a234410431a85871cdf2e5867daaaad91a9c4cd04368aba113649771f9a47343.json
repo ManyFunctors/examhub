@@ -1,0 +1,30 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "a234410431a85871cdf2e5867daaaad91a9c4cd04368aba113649771f9a47343",
+  "url": "https://admissions.cusat.ac.in/files/1792660586.pdf",
+  "title": "CAT 2026 - Branch/College Transfer for the Academic Year 2026-27",
+  "body": "kl-cusat",
+  "exam": "kl-cusat-cat",
+  "feed": "kl-cusat/home",
+  "published": "2026-10-22",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "e62d679fbc4845ff03e3f0f383cfa3ffae0027bf6c9fa4176f9a927dfda0ad30",
+  "bytes": 38132,
+  "pages": 2,
+  "chars": 3003,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T15:18:59+05:30"
+ },
+ "kind": "schedule",
+ "advertisement_no": "IRAA.A1/BRANCH",
+ "exam": {
+  "negative_marking": {
+   "value": "One-fourth of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ }
+}

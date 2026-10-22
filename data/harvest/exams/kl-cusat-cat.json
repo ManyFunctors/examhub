@@ -4,96 +4,17 @@
  "name": "CUSAT Common Admission Test",
  "body": "kl-cusat",
  "purpose": "admission",
- "cycle": "2025",
- "documents": 1,
+ "cycle": "2026",
+ "documents": 2,
  "documents_in_cycle": 1,
  "fields": {
-  "fee": {
-   "value": [
-    {
-     "categories": [
-      "All candidates"
-     ],
-     "amount": 1500,
-     "raw": "Application fee to appear for a maximum of two test codes is |1500/- (Rupees",
-     "page": 16
-    },
-    {
-     "categories": [
-      "All candidates"
-     ],
-     "amount": 5700,
-     "raw": "for a maximum of two test codes application fee will be |5700/- (Rupees Five",
-     "page": 16
-    },
-    {
-     "categories": [
-      "All candidates"
-     ],
-     "amount": 700,
-     "raw": "fee will be |1500/- (Rupees One thousand five hundred Only) and |700/- (Rupees",
-     "page": 17
-    },
-    {
-     "categories": [
-      "All candidates"
-     ],
-     "amount": 9100,
-     "raw": "They are required to pay an application fee of INR 9,100, along with the first-year tuition fee",
-     "page": 112
-    }
-   ],
+  "advertisement_no": {
+   "value": "IRAA.A1/BRANCH",
    "source": {
-    "notice": "3622d4dd378efcd27ced8c47cab17add74b57d03613086bbd3cc4e44ebf1c877",
-    "url": "https://admissions.cusat.ac.in/Prospectus/Prospectus2025.pdf",
-    "title": "CAT 2025",
-    "kind": "notice",
-    "page": 16
-   }
-  },
-  "age": {
-   "value": {
-    "limits": [
-     {
-      "max": 25,
-      "evidence": "• Maximum age limit prescribed is 25 years as on 1st September of the year of ad- mission",
-      "page": 29
-     },
-     {
-      "max": 40,
-      "evidence": "Maximum age of sponsored candidates is fixed as 40 years as on 1st August of the year of admission",
-      "page": 120
-     },
-     {
-      "max": 45,
-      "evidence": "The maximum age limit for “Sponsored Candidates” is 45 years as on 1st September of the year of admission except for M.Sc",
-      "page": 122
-     },
-     {
-      "max": 30,
-      "evidence": "Electronic Science for which the maximum age limit is 30 years and for M.C.A. and all M.Tech. programmes the maximum age limit is 40 years as on 1st August of the year of admission",
-      "page": 122
-     }
-    ]
-   },
-   "source": {
-    "notice": "3622d4dd378efcd27ced8c47cab17add74b57d03613086bbd3cc4e44ebf1c877",
-    "url": "https://admissions.cusat.ac.in/Prospectus/Prospectus2025.pdf",
-    "title": "CAT 2025",
-    "kind": "notice",
-    "page": 29
-   }
-  },
-  "apply_links": {
-   "value": [
-    "https://exams.nta.ac",
-    "https://cuetpg.ntaonline.in/"
-   ],
-   "source": {
-    "notice": "3622d4dd378efcd27ced8c47cab17add74b57d03613086bbd3cc4e44ebf1c877",
-    "url": "https://admissions.cusat.ac.in/Prospectus/Prospectus2025.pdf",
-    "title": "CAT 2025",
-    "kind": "notice"
+    "notice": "a234410431a85871cdf2e5867daaaad91a9c4cd04368aba113649771f9a47343",
+    "url": "https://admissions.cusat.ac.in/files/1792660586.pdf",
+    "title": "CAT 2026 - Branch/College Transfer for the Academic Year 2026-27",
+    "kind": "schedule"
    }
   },
   "eligibility": {
@@ -337,7 +258,8 @@
     "url": "https://admissions.cusat.ac.in/Prospectus/Prospectus2025.pdf",
     "title": "CAT 2025",
     "kind": "notice"
-   }
+   },
+   "carried_from": "2025"
   },
   "selection": {
    "value": [
@@ -349,7 +271,8 @@
     "url": "https://admissions.cusat.ac.in/Prospectus/Prospectus2025.pdf",
     "title": "CAT 2025",
     "kind": "notice"
-   }
+   },
+   "carried_from": "2025"
   },
   "exam_pattern": {
    "value": [
@@ -395,12 +318,14 @@
     "url": "https://admissions.cusat.ac.in/Prospectus/Prospectus2025.pdf",
     "title": "CAT 2025",
     "kind": "notice"
-   }
+   },
+   "carried_from": "2025"
   }
  },
  "gaps": [
   "apply",
-  "exam_date"
+  "exam_date",
+  "fee"
  ],
- "older_documents": 0
+ "older_documents": 1
 }
