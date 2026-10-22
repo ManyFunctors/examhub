@@ -343,3 +343,15 @@ def test_wayback_fallback_reads_the_archived_copy_against_the_original_url():
     assert [r["url"] for r in rows] == ["https://blocked.example.in/files/advt-2026.pdf"]
     h = sp.health[-1]
     assert h["via"] == "wayback" and h["snapshot"] == "20250101000000" and h["ok"]
+
+
+def test_aggregator_leads_are_never_read_as_documents():
+    from examhub_pipeline.crawl.ingest import wanted
+    base = {"exam": "in-ssc-cgl", "doc_type": "notification"}
+    assert wanted({**base, "url": "https://ssc.gov.in/files/cgl.pdf"})
+    assert not wanted({**base, "url": "https://www.freejobalert.com/articles/ssc-cgl-2026-1"})
+
+
+def test_get_details_label_uses_row_text():
+    from examhub_pipeline.crawl.adapters import UNINFORMATIVE
+    assert UNINFORMATIVE.match("Get Details")

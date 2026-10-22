@@ -86,9 +86,15 @@ def load_index(directory: Path = harvest.HARVEST_DIR) -> dict[str, dict]:
     return {r["id"]: r for r in harvest.read_jsonl(directory / "documents" / "index.jsonl")}
 
 
+#: Third-party aggregators: they name notices (a lead) but are not a record's source.
+LEAD_ONLY_HOSTS = ("freejobalert.com",)
+
+
 def wanted(notice: dict) -> bool:
     """A notice whose document is worth structuring."""
     if not notice.get("exam") or notice.get("gone_since"):
+        return False
+    if any(h in (notice.get("url") or "") for h in LEAD_ONLY_HOSTS):
         return False
     if notice.get("doc_type") in SKIP_TYPES or _SKIP_TITLE.search(notice.get("title") or ""):
         return False
