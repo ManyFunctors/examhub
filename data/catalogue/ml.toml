@@ -180,6 +180,18 @@ match = { any = ["lecturer", 'assistant\s*professor', "principal"] }
 status = "active"
 
 [[exams]]
+id = "ml-mpsc-half-yearly-departmental"
+name = "Meghalaya Half Yearly Departmental Examinations (IAS, IPS, MCS and other services)"
+jurisdiction = "ml"
+purpose = "recruitment"
+conducted_by = "ml-mpsc"
+frequency = "biannual"
+qualification = "graduate"
+streams = ["general"]
+match = { any = ['half\s*yearly\s*depart\w*'] }
+status = "active"
+
+[[exams]]
 id = "ml-mpsc-other"
 name = "MPSC (Meghalaya) Recruitment to other posts (umbrella)"
 jurisdiction = "ml"
@@ -188,7 +200,7 @@ conducted_by = "ml-mpsc"
 frequency = "multiple"
 qualification = "graduate"
 streams = ["general"]
-match = { any = ["advt|advertisement|recruitment|vacanc|notification"] }
+match = { any = ["advt|advertisement|recruitment|vacanc|notification", 'screening\s*test', 'personal\s*interview', 'answer\s*keys?', 'programme\s*(for|of)', 'viewing\s*of\s*marks', 'result\s*of'] }
 status = "active"
 notes = "Catches post-specific advertisements that are not a recurring named series. Notices matched only here are candidates for new series."
 
