@@ -173,6 +173,12 @@ def _date_in_title(day: dt.date | None, title: str) -> bool:
     return bool(re.search(rf"(?<!\d){day.day}(?:st|nd|rd|th)?\W+(?:{month}|{month[:3]})\b", title, re.I))
 
 
+def _titled(title: str) -> str:
+    """The short title, or nothing when it says nothing ('2026', 'Notice')."""
+    short = _short_title(title)
+    return short if re.search(r"[A-Za-z]{4}", short) else ""
+
+
 def order_documents(docs: list[dict]) -> None:
     """Notifications, then corrigenda, schedules, press releases, admit cards, the rest;
     newest first within a kind, a document with no date after those with one."""
@@ -227,16 +233,17 @@ def attach_notices(rec: dict, notices: list[dict], *, same_cycle_records: int) -
         published = _day(n.get("published"))
         if n.get("published_from") or _date_in_title(published, n.get("title") or ""):
             published = None
+        title = _titled(n.get("title") or "")
         docs.append({"document_type": n["doc_type"], "document_stage": "all",
                      "document_published": published or "unknown",
-                     "document_title": _short_title(n.get("title") or ""),
+                     **({"document_title": title} if title else {}),
                      "document_url": url, "document_archive": "not_archived"})
         added.append(url)
     by_url = {n.get("url"): n for n in notices if n.get("exam") == exam}
     for d in docs:  # a document listed before titles existed gets its title now
         n = by_url.get(d.get("document_url"))
-        if n and not d.get("document_title") and n.get("title"):
-            d["document_title"] = _short_title(n["title"])
+        if n and not d.get("document_title") and _titled(n.get("title") or ""):
+            d["document_title"] = _titled(n["title"])
         if n and d.get("document_published") == _day(n.get("published")) and (
                 n.get("published_from") or _date_in_title(_day(n.get("published")), n.get("title") or "")):
             d["document_published"] = "unknown"  # an earlier run took a date out of the title
