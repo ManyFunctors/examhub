@@ -153,6 +153,15 @@ include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|ans
 status = "active"
 
 [[feeds]]
+id = "ap-apsche/eapcet"
+body = "ap-apsche"
+url = "https://cets.apsche.ap.gov.in/EAPCET"
+adapter = "html_links"
+yields = "notices"
+include = '\.pdf'
+status = "active"
+
+[[feeds]]
 id = "ap-apset/home"
 body = "ap-apset"
 url = "https://apset.net.in/"
