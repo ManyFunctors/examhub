@@ -63,7 +63,7 @@ status = "active"
 [[feeds]]
 id = "jk-jkssb/advertisements"
 body = "jk-jkssb"
-url = "https://jkssb.nic.in/Home/JobAdvertisement"
+url = "https://jkssb.nic.in/Advertisement.html"
 adapter = "html_links"
 yields = "notices"
 include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'

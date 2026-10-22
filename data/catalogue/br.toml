@@ -120,7 +120,7 @@ status = "active"
 [[feeds]]
 id = "br-bpsc/notices"
 body = "br-bpsc"
-url = "https://bpsc.bihar.gov.in/notices/"
+url = "https://bpsc.bihar.gov.in/"
 adapter = "html_links"
 yields = "notices"
 include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'

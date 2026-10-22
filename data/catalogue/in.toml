@@ -2560,7 +2560,7 @@ status = "active"
 [[feeds]]
 id = "in-nta/cmat"
 body = "in-nta"
-url = "https://exams.nta.nic.in/cmat/"
+url = "https://cmat.nta.nic.in/"
 adapter = "html_links"
 yields = "notices"
 include = '\.pdf|notice|bulletin|public-notice|Download'
@@ -2907,7 +2907,7 @@ status = "active"
 [[feeds]]
 id = "in-jipmer/notices"
 body = "in-jipmer"
-url = "https://jipmer.edu.in/announcements/jobs"
+url = "https://jipmer.edu.in/announcement/entrance-examinations-admissions"
 adapter = "html_links"
 yields = "notices"
 include = '\.pdf|notice|recruitment|result'
@@ -3044,7 +3044,7 @@ status = "active"
 [[feeds]]
 id = "in-icai/exam-announcements"
 body = "in-icai"
-url = "https://www.icai.org/category/exam-announcements"
+url = "https://www.icai.org/category/announcements"
 adapter = "html_links"
 yields = "notices"
 item_selector = "li, tr"

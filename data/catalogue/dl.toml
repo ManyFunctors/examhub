@@ -138,7 +138,7 @@ status = "active"
 [[feeds]]
 id = "dl-police/recruitment"
 body = "dl-police"
-url = "https://delhipolice.gov.in/recruitment"
+url = "https://www.delhipolice.gov.in/vacancies.html"
 adapter = "html_links"
 yields = "notices"
 include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
