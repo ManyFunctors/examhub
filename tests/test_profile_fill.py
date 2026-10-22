@@ -112,3 +112,19 @@ def test_age_band_fills_an_unknown_age_rule_with_plain_relaxations():
     assert rule["relaxations"] == [{"relaxation_category": "OBC-NCL", "relaxation": "+3"}]
     # a real value is never overwritten
     assert fill_record(rec, profile, same_cycle_records=1) == []
+
+
+def test_notices_are_listed_as_documents_only_for_the_cycle():
+    from examhub_pipeline.profile_fill import attach_notices
+    rec = {"exam_id": "x", "cycle": "2026", "links": {"documents": []}}
+    notices = [
+        {"exam": "x", "url": "https://a.test/Advt_2026.pdf", "title": "Advt", "doc_type": "notification"},
+        {"exam": "x", "url": "https://a.test/Notice_20260924.pdf", "title": "Notice", "doc_type": "notification"},
+        {"exam": "x", "url": "https://a.test/Old_2025.pdf", "title": "Old", "doc_type": "notification"},
+        {"exam": "x", "url": "https://a.test/Gone_2026.pdf", "title": "Gone", "doc_type": "notification", "gone_since": "t"},
+        {"exam": "y", "url": "https://a.test/Other_2026.pdf", "title": "Other", "doc_type": "notification"},
+        {"exam": "x", "url": "https://a.test/Res_2026.pdf", "title": "Res", "doc_type": "result"},
+    ]
+    attach_notices(rec, notices, same_cycle_records=1)
+    assert [d["document_url"] for d in rec["links"]["documents"]] == ["https://a.test/Advt_2026.pdf"]
+    assert attach_notices(rec, notices, same_cycle_records=2) == []

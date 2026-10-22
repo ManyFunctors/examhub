@@ -500,7 +500,7 @@ conducted_by = "mh-sppu-set"
 frequency = "annual"
 qualification = "postgraduate"
 streams = ["teaching"]
-match = { any = ['\bSET\b'] }
+match = { any = ['\bSET\b', 'setexam\.unipune\.ac\.in'] }
 status = "active"
 
 [[exams]]

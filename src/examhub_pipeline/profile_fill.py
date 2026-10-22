@@ -19,11 +19,12 @@ come from garbled text, so a value is written only when
 from __future__ import annotations
 
 import datetime as dt
+import re
 from pathlib import Path
 from typing import Any, Callable
 
 from . import record as record_mod
-from .crawl.harvest import HARVEST_DIR
+from .crawl.harvest import HARVEST_DIR, read_jsonl
 
 #: A date may sit this many years from the cycle's year.
 YEAR_SLACK = 1
@@ -147,6 +148,38 @@ def fill_record(rec: dict, profile: dict, *, same_cycle_records: int) -> list[st
     return notes
 
 
+#: Notice kinds worth listing on the page as the cycle's documents.
+LISTED_DOC_TYPES = {"notification", "corrigendum", "press_release", "schedule", "calendar"}
+
+
+def attach_notices(rec: dict, notices: list[dict], *, same_cycle_records: int) -> list[str]:
+    """List the exam's matched notice PDFs for this cycle as the record's documents.
+
+    A notice counts when it is a file of a listed kind, still online, and names the
+    cycle's year in its title or address; an exam with several records in one cycle
+    (a series split into posts) cannot say which record a notice belongs to."""
+    year = _year(rec.get("cycle"))
+    exam = rec.get("exam_id")
+    if year is None or same_cycle_records != 1 or exam in SENTINELS:
+        return []
+    links = rec.setdefault("links", {})
+    docs = links.get("documents") if isinstance(links.get("documents"), list) else []
+    have = {d.get("document_url") for d in docs}
+    added = []
+    for n in notices:
+        url = n.get("url") or ""
+        if (n.get("exam") != exam or n.get("gone_since") or n.get("doc_type") not in LISTED_DOC_TYPES
+                or not url.lower().endswith(".pdf") or url in have
+                or not re.search(rf"(?<!\d){year}(?!\d)", f"{n.get('title', '')} {url}")):
+            continue
+        docs.append({"document_type": n["doc_type"], "document_stage": "all",
+                     "document_published": _day(n.get("published")) or "unknown",
+                     "document_url": url, "document_archive": "not_archived"})
+        added.append(url)
+    links["documents"] = docs
+    return [f"links.documents += {u.rsplit('/', 1)[-1]}" for u in added]
+
+
 def _fill_age(rec: dict, age: dict | None, as_on: dict | None, cycle: int) -> list[str]:
     """One age band (min, max, reference date) and its plain relaxations, into a
     record whose age rule is still unknown. Several bands (by post) are left alone."""
@@ -176,6 +209,7 @@ def fill(exams_dir: Path, *, apply: bool = False, directory: Path = HARVEST_DIR,
          log: Callable[[str], None] = print) -> int:
     """Fill every record the profiles can fill. Returns how many records changed."""
     profiles = load_profiles(directory)
+    notices = read_jsonl(directory / "notices.jsonl")
     loaded: list[tuple[Path, dict, str]] = []
     for path in sorted(exams_dir.glob("*.md")):
         try:
@@ -194,7 +228,11 @@ def fill(exams_dir: Path, *, apply: bool = False, directory: Path = HARVEST_DIR,
         profile = profiles.get(rec.get("exam_id"))
         if not profile:
             continue
-        notes = fill_record(rec, profile, same_cycle_records=per_cycle[(rec.get("exam_id"), _year(rec.get("cycle")))])
+        count = per_cycle[(rec.get("exam_id"), _year(rec.get("cycle")))]
+        notes = fill_record(rec, profile, same_cycle_records=count)
+        notes += attach_notices(rec, notices, same_cycle_records=count)
+        if notes:
+            record_mod.touch(rec)
         if notes:
             changed += 1
             log(f"fill: {path.name}: {'; '.join(notes)}")
