@@ -21,6 +21,7 @@ from __future__ import annotations
 import re
 from pathlib import Path
 from typing import Callable
+from urllib.parse import urlsplit
 
 from . import catalogue as catalogue_mod
 from . import record as record_mod
@@ -38,6 +39,37 @@ ANCILLARY = re.compile(r"scribe|grievance|helpdesk|forgot|reset|admit|call.?lett
 THIRD_PARTY = re.compile(r"freejobalert|sarkari|jagran|careers360|shiksha\.com|adda247|testbook|oliveboard|"
                          r"naukri|linkedin|indeed\.|facebook|twitter|youtube|whatsapp|telegram", re.I)
 _YEAR = re.compile(r"(?<!\d)(19|20)\d{2}(-\d{2,4})?(?!\d)")
+
+
+#: Hosts that run application forms for many bodies, so a portal there says nothing by its address.
+SHARED_PLATFORMS = {"examinationservices.nic.in", "digialm.com", "onlinereg.in", "sso.rajasthan.gov.in",
+                    "recruitmentrrb.in", "rrbapply.gov.in"}
+_SECOND_LEVEL = {"gov", "nic", "ac", "co", "org", "edu", "res", "bank", "net"}
+_APPLY_PATH = re.compile(r"/apply\b|/apply[-_/]|registration|/register\b", re.I)
+_SESSION_URL = re.compile(r"session_code|execution=|jsessionid|[?&]sid=", re.I)
+
+
+def domain_of(url: str) -> str:
+    """The registrable-ish domain: 'a.b.gov.in' -> 'b.gov.in', 'x.example.org' -> 'example.org'."""
+    labels = (urlsplit(url).hostname or "").lower().split(".")
+    keep = 3 if len(labels) > 2 and labels[-2] in _SECOND_LEVEL else 2
+    return ".".join(labels[-keep:])
+
+
+#: Logins of civic services a jobs page happens to link to; none is an application form.
+_CIVIC_SERVICE = re.compile(r"admin|domicile|certificate|civil\s*registration|digilocker|aadhaar|ration\s*card|pension|property\s*tax|rti\b|citizens?\b|help\s*hub|grievance", re.I)
+
+
+def related(url: str, anchors: list[str], info: dict | None, called: list[str]) -> bool:
+    """Whether a portal found on a page can be this exam's. One on a shared application platform
+    or naming the exam can; any other must not look like a civic service's login, whatever
+    site it is on (a civil-registration admin login on a municipal jobs page, a domicile
+    portal on a state's own domain)."""
+    if domain_of(url) in SHARED_PLATFORMS:
+        return True
+    if info and called and names_exam(info, called):
+        return True
+    return not _CIVIC_SERVICE.search(f"{url} {(info or {}).get('title', '')}")
 
 
 def load_checks(directory: Path = HARVEST_DIR) -> dict[str, dict]:
@@ -114,15 +146,35 @@ def fix(rec: dict, cat, checks: dict[str, dict] | None = None) -> list[str]:
 
     # the apply link: a portal among the links, or one a page links to for applying
     offered = [t for u in urls for t in (checks.get(u) or {}).get("apply_links") or []]
-    portals = list(dict.fromkeys(u for u in [*urls, *offered]
-                                 if kind(u, checks) == "portal" and not VOLATILE.search(u)
-                                 and not THIRD_PARTY.search(u)))
+    anchors = [u for u in urls if u != apply]
+    for b in rec.get("bodies") or []:
+        body = cat.bodies.get((b or {}).get("body")) or {}
+        anchors += [h if h.startswith("http") else f"https://{h}/" for h in body.get("hosts") or []]
+        if body.get("website"):
+            anchors.append(body["website"])
+
+    def fits(u: str) -> bool:
+        return related(u, anchors, checks.get(u), called)
+
+    # a page on the record's own site whose address says "apply" is as good a candidate as a
+    # checked portal: a form can be script-rendered or down for maintenance when it is read
+    def apply_like(u: str) -> bool:
+        return (kind(u, checks) == "page" and bool(_APPLY_PATH.search(urlsplit(u).path)) and not _SESSION_URL.search(u)
+                and domain_of(u) in {domain_of(a) for a in anchors})
+
+    portals = list(dict.fromkeys(
+        u for u in [*urls, *offered] if not _SESSION_URL.search(u) and not VOLATILE.search(u) and not THIRD_PARTY.search(u)
+        # the record's own other links were put there for a reason; the current apply link and
+        # anything a page offers must prove they are this exam's
+        if (kind(u, checks) == "portal" and (fits(u) or (u in urls and u != apply))) or (u in urls and apply_like(u))))
     # a portal for scribes, results and the like is not where one applies; keep one only if it is the link already there
     portals = [u for u in portals if not ANCILLARY.search(u)] or [u for u in portals if u == apply]
     portals.sort(key=lambda u: u not in urls)  # the record's own link before one a page offers
     new_apply = apply
     if portals:
         new_apply = apply if apply in portals else portals[0]
+    elif apply and kind(apply, checks) == "portal" and not fits(apply):
+        new_apply = None  # a login that is not this exam's: no link beats a wrong one
     elif apply and (VOLATILE.search(apply) or kind(apply, checks) in ("file", "broken")):
         new_apply = None
     elif apply and kind(apply, checks) == "page" and not checks[apply].get("apply_links"):
@@ -144,9 +196,12 @@ def fix(rec: dict, cat, checks: dict[str, dict] | None = None) -> list[str]:
         new_official = official
 
     # every link not placed stays, as a document
+    unrelated = apply if new_apply is None and apply and kind(apply, checks) == "portal" and not fits(apply) else None
     for u in urls:
-        if u in (new_official, new_apply) or any(d.get("document_url") == u for d in docs):
+        if u in (new_official, new_apply, unrelated) or any(d.get("document_url") == u for d in docs):
             continue
+        if _SESSION_URL.search(u):
+            continue  # a login session's address is good for one visit, not a link to keep
         dtype = classify_doc_type((checks.get(u) or {}).get("title", ""), u)
         if dtype == "other" and kind(u, checks) == "file":
             dtype = "notification"  # ExamHub's own source for the cycle, which was its notification
