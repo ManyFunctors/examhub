@@ -338,10 +338,17 @@ link_apply         = 'unknown'
   document_url       = 'https://www.ibps.in/'
   document_archive   = 'http://web.archive.org/web/20261004100528/https://www.ibps.in/'
 
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-06-30
+  document_url       = 'https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf'
+  document_archive   = 'not_archived'
+
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T13:58:05+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

@@ -371,10 +371,87 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
   document_url       = 'http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf'
   document_archive   = 'not_archived'
 
+  [[links.documents]]
+  document_type      = 'corrigendum'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'press_release'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260924172919.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'press_release'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260520174345.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'press_release'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260507122133.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'schedule'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260606142500.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'press_release'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260508131923.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'press_release'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260514174819.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'press_release'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260618113547.PDF'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'press_release'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260527175411.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'press_release'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/09/20260924982245914.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'press_release'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260526121738.pdf'
+  document_archive   = 'not_archived'
+
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-17T06:44:57+05:30
+provenance_last_checked = 2026-10-22T13:58:05+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'fee.rows'

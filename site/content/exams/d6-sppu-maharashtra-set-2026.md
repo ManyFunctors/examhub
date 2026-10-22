@@ -299,12 +299,46 @@ training_offered_for          = 'unknown'
 [links]
 link_official_page = 'https://setexam.unipune.ac.in/'
 link_apply         = 'https://setexam.unipune.ac.in/Login.aspx'
-documents          = []
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-07-26
+  document_url       = 'https://setexam.unipune.ac.in/SET_2026/SET_English_Advertisement.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-07-26
+  document_url       = 'https://setexam.unipune.ac.in/SET_2026/SET_Marathi_Advertisement.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'press_release'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://setexam.unipune.ac.in/SET_2026/Public_Notice_2026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'press_release'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://setexam.unipune.ac.in/SET_2026/Extension_SETAppplicationForm_WithLateFee_New.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-07-26
+  document_url       = 'https://setexam.unipune.ac.in/SET_2026/Prospectus_SET_JULY_2026.pdf'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T13:58:05+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.stages[1].exam'
