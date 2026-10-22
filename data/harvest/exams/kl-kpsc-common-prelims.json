@@ -7,73 +7,14 @@
  "cycle": "2024",
  "documents": 8,
  "documents_in_cycle": 1,
- "fields": {
-  "exam_pattern": {
-   "value": [
-    {
-     "paper": "(5100/11100) =4595 . . .",
-     "page": 5,
-     "marks": 51
-    },
-    {
-     "paper": "(5100/11105) =4593 . . .",
-     "page": 5,
-     "marks": 51
-    },
-    {
-     "paper": "(5100/10) =5100 . . .",
-     "page": 5,
-     "marks": 51
-    },
-    {
-     "paper": "(6000/11100) =5405 . . .",
-     "page": 5,
-     "marks": 60
-    },
-    {
-     "paper": "(6000/11105) =5403 . . .",
-     "page": 5,
-     "marks": 60
-    },
-    {
-     "paper": "(6000/10) =6000 . . .",
-     "page": 5,
-     "marks": 60
-    }
-   ],
-   "source": {
-    "notice": "3dbab017dc5ec7b966383e1845a8a96add9eba7f536439a39763411c45a9d77f",
-    "url": "https://keralapsc.gov.in/sites/default/files/inline-files/report26_07_24_1_.pdf",
-    "title": "Standardization procedure for Degree Level Common Preliminary Examinations, 2024",
-    "kind": "result"
-   }
-  },
-  "pay": {
-   "value": [
-    {
-     "levels": [
-      1
-     ],
-     "text": "Pay Level 1",
-     "evidence": "Range of difficulty index(p) Difficulty Level 1 0 ≤ p <0.2 Very difficult 2",
-     "page": 2
-    }
-   ],
-   "source": {
-    "notice": "2f53f35c7a3534a9a8ff00a133040d201ed506a90d1ea4a6f591616c1fee5067",
-    "url": "https://keralapsc.gov.in/sites/default/files/inline-files/degree_prelims_standardisation_report__for_publication.pdf",
-    "title": "standardization procedure for Degree Level Common Preliminary Examinations, 2021.",
-    "kind": "result"
-   },
-   "carried_from": "2021"
-  }
- },
+ "fields": {},
  "gaps": [
   "vacancies",
   "apply",
   "exam_date",
   "fee",
   "age",
+  "pay",
   "eligibility",
   "selection"
  ],
