@@ -212,6 +212,30 @@ match = { any = ['post\s*code', '\bJOA\b', "clerk", "patwari", '\bTGT\b', '\bJBT
 status = "active"
 
 [[exams]]
+id = "hp-deled-cet"
+name = "HP D.El.Ed Common Entrance Test"
+jurisdiction = "hp"
+purpose = "admission"
+conducted_by = "hp-hpbose"
+frequency = "annual"
+qualification = "class_12"
+streams = ["teaching"]
+match = { any = ['D\.?\s*El\.?\s*Ed'] }
+status = "active"
+
+[[exams]]
+id = "hp-hpsos-board"
+name = "HP State Open School (HPSOS) Examinations"
+jurisdiction = "hp"
+purpose = "school_board"
+conducted_by = "hp-hpbose"
+frequency = "biannual"
+qualification = "class_8"
+streams = ["school"]
+match = { any = ["HPSOS", 'open\s*school'] }
+status = "active"
+
+[[exams]]
 id = "hp-hpbose-class-10"
 name = "HPBOSE Matric Examination"
 jurisdiction = "hp"

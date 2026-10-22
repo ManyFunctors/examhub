@@ -7205,7 +7205,7 @@ conducted_by = "in-ongc"
 frequency = "irregular"
 qualification = "diploma"
 streams = ["technical", "engineering"]
-match = { any = ["recruitment", "apprentice", "advertisement", "vacanc"], none = ["GATE"] }
+match = { any = ["recruitment", "apprentice", "advertisement", "vacanc", "advt", "engagement", 'walk[-\s]*in', 'post\s*of', 'final\s*result'], none = ["GATE"] }
 status = "active"
 
 [[exams]]
