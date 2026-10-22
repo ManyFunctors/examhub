@@ -364,7 +364,7 @@ jurisdiction = "jh"
 purpose = "admission"
 conducted_by = "jh-jceceb"
 frequency = "irregular"
-match = { any = ['(?<![A-Za-z])ANM[\s\-_./()]*Entrance[\s\-_./()]*Competitive[\s\-_./()]*Examination(?![A-Za-z])'] }
+match = { any = ['(?<![A-Za-z])ANM[\s\-_./()]*Entrance[\s\-_./()]*Competitive[\s\-_./()]*Examination(?![A-Za-z])', 'ए[०0.\s]*एन[०0.\s]*एम[०0.\s]*\s*प्रवेश'] }
 status = "active"
 notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
 
@@ -375,6 +375,6 @@ jurisdiction = "jh"
 purpose = "admission"
 conducted_by = "jh-jceceb"
 frequency = "irregular"
-match = { any = ['(?<![A-Za-z])GNM[\s\-_./()]*Entrance[\s\-_./()]*Competitive[\s\-_./()]*Examination(?![A-Za-z])'] }
+match = { any = ['(?<![A-Za-z])GNM[\s\-_./()]*Entrance[\s\-_./()]*Competitive[\s\-_./()]*Examination(?![A-Za-z])', 'जी[०0.\s]*एन[०0.\s]*एम[०0.\s]*\s*प्रवेश'] }
 status = "active"
 notes = "Adopted from discovery (2026-09); evidence in the harvest's exam-proposals history."
