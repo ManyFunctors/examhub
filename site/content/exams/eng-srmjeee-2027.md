@@ -296,7 +296,14 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://applications.srmist.edu.in/'
-link_apply         = 'https://applications.srmap.edu.in/b-tech-phase-3-application-form'
+link_apply         = 'https://www.srmist.edu.in/'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://applications.srmap.edu.in/b-tech-phase-3-application-form'
+  document_archive   = 'not_archived'
 
   [[links.documents]]
   document_type      = 'other'
@@ -305,17 +312,10 @@ link_apply         = 'https://applications.srmap.edu.in/b-tech-phase-3-applicati
   document_url       = 'https://www.srmap.edu.in/admission/engineering/srmjeee-b-tech/'
   document_archive   = 'not_archived'
 
-  [[links.documents]]
-  document_type      = 'other'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://www.srmist.edu.in/'
-  document_archive   = 'not_archived'
-
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:50+05:30
+provenance_last_checked = 2026-10-23T02:51:09+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'

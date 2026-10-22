@@ -323,6 +323,30 @@ link_apply         = 'https://keralapsc.gov.in/'
   document_archive   = 'not_archived'
 
   [[links.documents]]
+  document_type      = 'schedule'
+  document_stage     = 'all'
+  document_published = 2026-10-16
+  document_title     = '2026, Featured Latest, Thiruvananthapuram LP SCHOOL TEACHER (MALAYALAM MEDIUM)(Ist NCA for : SCHEDULED…'
+  document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-10/2402025_01_0_0.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'schedule'
+  document_stage     = 'all'
+  document_published = 2026-10-06
+  document_title     = '2026, Featured Latest, Alappuzha FULL TIME JUNIOR LANGUAGE TEACHER (ARABIC) -LPS (VIII NCA-SCHEDULED CASTE)…'
+  document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-10/0722025_04_0_0-1.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'schedule'
+  document_stage     = 'all'
+  document_published = 2026-10-06
+  document_title     = '2026, Featured Latest, Eranakulam FULL TIME JUNIOR LANGUAGE TEACHER (ARABIC) -LPS (VI NCA-SCHEDULED CASTE)…'
+  document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-10/4042025_07_0_0.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
@@ -333,7 +357,7 @@ link_apply         = 'https://keralapsc.gov.in/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:26+05:30
+provenance_last_checked = 2026-10-23T02:51:11+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'

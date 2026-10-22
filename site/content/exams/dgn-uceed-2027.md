@@ -82,7 +82,9 @@ service_posting_area                = 'none'
 city_slip_separate = 'unknown'
 
   [dates.application]
-  status       = 'not_announced'
+  from         = 'unknown'
+  to           = 2026-10-31
+  status       = 'tentative'
   change       = 'none'
   changed_from = 'none'
 
@@ -354,7 +356,7 @@ link_apply         = 'https://www.uceed.iitb.ac.in/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:23+05:30
+provenance_last_checked = 2026-10-23T02:51:08+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.stages[1].exam'
@@ -369,4 +371,11 @@ provenance_last_checked = 2026-10-22T14:28:23+05:30
   evidence_page     = 0
   evidence_words    = 'ExamHub record: All candidates 4000; SC 2000; ST 2000; PwBD 2000; Women 2000'
   evidence_method   = 'manual'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.application.to'
+  evidence_document = 'https://www.uceed.iitb.ac.in/2027/assets/downloads/docs/UCEED2027_Information_Brochure.pdf'
+  evidence_page     = 25
+  evidence_words    = 'registration deadline 2026-10-31'
+  evidence_method   = 'rule'
 +++
