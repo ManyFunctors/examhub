@@ -130,6 +130,7 @@ body = "up-uppsc"
 url = "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx"
 adapter = "html_links"
 yields = "notices"
+item_selector = "table tr"
 include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
 status = "active"
 
