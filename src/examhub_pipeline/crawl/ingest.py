@@ -139,7 +139,7 @@ def select(
         if status == "ok":
             if done.get("schema", 0) < documents.SCHEMA_VERSION:
                 redo.append(n)
-        elif (status == "needs_ocr" and ocr) or (
+        elif (status in ("needs_ocr", "legacy_font") and ocr) or (
             status == "failed"
             and done.get("attempts", 0) < MAX_ATTEMPTS
             and done.get("tried", "") < yesterday
@@ -212,8 +212,8 @@ def index_line(record: dict) -> dict:
     # A scan read with OCR switched off has no text: say so, so a run with
     # OCR picks it up, instead of storing an empty record as done.
     needs_ocr = any("OCR is disabled" in w or "no OCR path" in w for w in record.get("warnings", []))
-    # Hindi in a legacy font reads as Latin gibberish and OCR would not help the
-    # English-label readers: a final status, so it is not fetched again.
+    # Hindi in a legacy font reads as Latin gibberish; with OCR the page is read as
+    # an image instead, so a run with OCR picks it up again.
     legacy = any(w.startswith(LEGACY_FONT_NOTE) for w in record.get("warnings", []))
     return {
         "id": notice["id"],
