@@ -8477,7 +8477,7 @@ conducted_by = "in-bob"
 frequency = "irregular"
 qualification = "graduate"
 streams = ["banking"]
-match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of'] }
+match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of', "handout", 'interview\s*schedule', "scribe", '\b[JM]MGS\b', 'call\s*letter'] }
 status = "active"
 
 [[exams]]
@@ -8490,7 +8490,7 @@ conducted_by = "in-pnb"
 frequency = "irregular"
 qualification = "graduate"
 streams = ["banking"]
-match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of'] }
+match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of', "handout", 'interview\s*schedule', "scribe", '\b[JM]MGS\b', 'call\s*letter'] }
 status = "active"
 
 [[exams]]
@@ -8503,7 +8503,7 @@ conducted_by = "in-canara"
 frequency = "irregular"
 qualification = "graduate"
 streams = ["banking"]
-match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of'] }
+match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of', "handout", 'interview\s*schedule', "scribe", '\b[JM]MGS\b', 'call\s*letter'] }
 status = "active"
 
 [[exams]]
@@ -8516,7 +8516,7 @@ conducted_by = "in-union-bank"
 frequency = "irregular"
 qualification = "graduate"
 streams = ["banking"]
-match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of'] }
+match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of', "handout", 'interview\s*schedule', "scribe", '\b[JM]MGS\b', 'call\s*letter'] }
 status = "active"
 
 [[exams]]
@@ -8529,7 +8529,7 @@ conducted_by = "in-indian-bank"
 frequency = "irregular"
 qualification = "graduate"
 streams = ["banking"]
-match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of'] }
+match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of', "handout", 'interview\s*schedule', "scribe", '\b[JM]MGS\b', 'call\s*letter'] }
 status = "active"
 
 [[exams]]
@@ -8542,7 +8542,7 @@ conducted_by = "in-boi"
 frequency = "irregular"
 qualification = "graduate"
 streams = ["banking"]
-match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of'] }
+match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of', "handout", 'interview\s*schedule', "scribe", '\b[JM]MGS\b', 'call\s*letter'] }
 status = "active"
 
 [[exams]]
@@ -8555,7 +8555,7 @@ conducted_by = "in-central-bank"
 frequency = "irregular"
 qualification = "graduate"
 streams = ["banking"]
-match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of'] }
+match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of', "handout", 'interview\s*schedule', "scribe", '\b[JM]MGS\b', 'call\s*letter'] }
 status = "active"
 
 [[exams]]
@@ -8568,7 +8568,7 @@ conducted_by = "in-iob"
 frequency = "irregular"
 qualification = "graduate"
 streams = ["banking"]
-match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of'] }
+match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of', "handout", 'interview\s*schedule', "scribe", '\b[JM]MGS\b', 'call\s*letter'] }
 status = "active"
 
 [[exams]]
@@ -8581,7 +8581,7 @@ conducted_by = "in-uco"
 frequency = "irregular"
 qualification = "graduate"
 streams = ["banking"]
-match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of'] }
+match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of', "handout", 'interview\s*schedule', "scribe", '\b[JM]MGS\b', 'call\s*letter'] }
 status = "active"
 
 [[exams]]
@@ -8594,7 +8594,7 @@ conducted_by = "in-bom"
 frequency = "irregular"
 qualification = "graduate"
 streams = ["banking"]
-match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of'] }
+match = { any = ["recruitment", 'specialist\s*officers?', "(?<![A-Za-z])SO(?![A-Za-z])", "apprentices?", "advertisement", 'engagement\s*of', "handout", 'interview\s*schedule', "scribe", '\b[JM]MGS\b', 'call\s*letter'] }
 status = "active"
 
 [[exams]]
