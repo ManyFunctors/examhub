@@ -1,5 +1,4 @@
 """A build that runs out of time still saves its index and profiles."""
-import json
 
 from examhub_pipeline.crawl import harvest, ingest
 

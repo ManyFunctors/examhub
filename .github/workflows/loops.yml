@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   plan:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     outputs:
       loops: ${{ steps.plan.outputs.loops }}
@@ -43,7 +43,7 @@ jobs:
 
   loop:
     needs: plan
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     # 20 is the Free plan's concurrent-job limit (docs.github.com/en/actions/reference/limits).
     timeout-minutes: 120
     strategy:
@@ -95,7 +95,7 @@ jobs:
   aggregate:
     needs: loop
     if: always()
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     # The model review of every loop's documents took over 60 minutes in the first run.
     timeout-minutes: 150
     permissions:

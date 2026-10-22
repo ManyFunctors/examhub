@@ -96,3 +96,19 @@ def test_a_window_given_as_one_row_sets_both_ends():
     profile_fill.fill_record(r, p, same_cycle_records=1)
     assert r["dates"]["application"]["from"] == dt.date(2026, 10, 7)
     assert r["dates"]["application"]["to"] == dt.date(2026, 11, 5)
+
+
+def test_age_band_fills_an_unknown_age_rule_with_plain_relaxations():
+    from examhub_pipeline.profile_fill import fill_record
+    rec = {"cycle": "2026", "eligibility": [{"age": {"applies": "unknown", "age_as_of": "unknown", "age_min": "unknown",
+                                                    "age_max": "unknown", "relaxations": "none"}}]}
+    age = {"value": {"limits": [{"min": 21, "max": 30, "evidence": "min 21 max 30", "page": 3}], "as_on": "2026-06-30",
+                     "relaxations": [{"categories": ["OBC-NCL"], "years": 3}, {"categories": ["Widow", "Women"], "years": 9}]},
+           "source": {"url": "https://x.test/a.pdf", "page": 3}}
+    profile = {"cycle": "2026", "fields": {"age": age}}
+    assert fill_record(rec, profile, same_cycle_records=1)
+    rule = rec["eligibility"][0]["age"]
+    assert (rule["age_min"], rule["age_max"], rule["applies"]) == (21, 30, "yes")
+    assert rule["relaxations"] == [{"relaxation_category": "OBC-NCL", "relaxation": "+3"}]
+    # a real value is never overwritten
+    assert fill_record(rec, profile, same_cycle_records=1) == []

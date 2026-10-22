@@ -128,3 +128,44 @@ def test_application_form_link_beats_a_stale_cycles_registration_link():
             b'<a href="/new">UGC-NET Dec 2026 Application form</a></body></html>')
     info = classify("https://x.test/", "https://x.test/", 200, "text/html", html)
     assert info["apply_links"] == ["https://x.test/new", "https://x.test/old"]
+
+
+def _cat():
+    return type("C", (), {"exams": {}, "bodies": {}})()
+
+
+def _rec(**extra):
+    return {"title": "X Exam", "links": {"link_official_page": "https://x.gov.in/", "link_apply": "unknown",
+                                         "documents": [], **extra}}
+
+
+def test_apply_link_skips_session_urls_and_scribe_portals():
+    checks = {
+        "https://x.gov.in/": {"state": "ok", "kind": "page", "title": "X Exam", "text": "X Exam",
+                              "apply_links": ["https://x.gov.in/scribereg", "https://x.gov.in/login?session_code=abc",
+                                              "https://x.gov.in/apply"]},
+        "https://x.gov.in/scribereg": {"state": "ok", "kind": "portal"},
+        "https://x.gov.in/login?session_code=abc": {"state": "ok", "kind": "portal"},
+        "https://x.gov.in/apply": {"state": "ok", "kind": "portal"},
+    }
+    rec = _rec()
+    links.fix(rec, _cat(), checks)
+    assert rec["links"]["link_apply"] == "https://x.gov.in/apply"
+
+
+def test_apply_link_never_a_job_alert_site():
+    checks = {"https://x.gov.in/": {"state": "ok", "kind": "page", "title": "X Exam", "text": "X Exam",
+                                    "apply_links": ["https://user.freejobalert.com/login"]},
+              "https://user.freejobalert.com/login": {"state": "ok", "kind": "portal"}}
+    rec = _rec()
+    links.fix(rec, _cat(), checks)
+    assert rec["links"]["link_apply"] == "unknown"
+
+
+def test_official_page_never_a_job_alert_article():
+    art = "https://www.freejobalert.com/articles/x-recruitment-2026"
+    checks = {"https://x.gov.in/": {"state": "ok", "kind": "page", "title": "Home", "text": "welcome"},
+              art: {"state": "ok", "kind": "page", "title": "X Exam recruitment", "text": "X Exam"}}
+    rec = _rec(documents=[{"document_url": art}])
+    links.fix(rec, _cat(), checks)
+    assert rec["links"]["link_official_page"] == "https://x.gov.in/"

@@ -218,7 +218,8 @@ class TestBaseline:
         assert load_baseline(settings, "../../../etc/passwd") is None
 
     def test_a_good_baseline_loads(self, settings: Settings):
-        target = settings.content_rel("content/exams/good.md")
+        # where the site really keeps records: <repo_dir>/content/exams/, not content/content/
+        target = settings.repo_dir / "content" / "exams" / "good.md"
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(rec_ops.dumps(record("2027-06-15"), "Body text.\n"), encoding="utf-8")
         loaded, body = load_baseline(settings, "content/exams/good.md")

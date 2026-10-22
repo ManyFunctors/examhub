@@ -2978,6 +2978,10 @@ url = "https://uiic.co.in/web/careers/recruitment"
 adapter = "html_links"
 yields = "notices"
 include = '\.pdf|recruitment|officer|assistant|result|notice'
+detail_include = "/recruitment/details/"
+detail_link_include = "Recruitment_UiiC|ibps"
+detail_item_selector = "table tr"
+detail_limit = 5
 status = "active"
 
 [[feeds]]

@@ -29,6 +29,14 @@ from .crawl.harvest import HARVEST_DIR, read_jsonl
 
 #: the one fact an address gives away: a file extension
 FILE = re.compile(r"\.(pdf|docx?|xlsx?|zip|jpe?g|png)(?:$|[?#&])", re.I)
+#: an address that works once: a login session or a one-time code in it
+VOLATILE = re.compile(r"session_?code|sessionid|jsessionid|execution=|[?&](token|sid|otp)=|login-actions", re.I)
+#: portals for something other than applying (scribe, grievance, admit card, result, status...)
+ANCILLARY = re.compile(r"scribe|grievance|helpdesk|forgot|reset|admit|call.?letter|result|status|print|"
+                       r"payment|challan|correction|withdraw|feedback", re.I)
+#: job-alert and coaching sites: never an official application portal
+THIRD_PARTY = re.compile(r"freejobalert|sarkari|jagran|careers360|shiksha\.com|adda247|testbook|oliveboard|"
+                         r"naukri|linkedin|indeed\.|facebook|twitter|youtube|whatsapp|telegram", re.I)
 _YEAR = re.compile(r"(?<!\d)(19|20)\d{2}(-\d{2,4})?(?!\d)")
 
 
@@ -106,21 +114,27 @@ def fix(rec: dict, cat, checks: dict[str, dict] | None = None) -> list[str]:
 
     # the apply link: a portal among the links, or one a page links to for applying
     offered = [t for u in urls for t in (checks.get(u) or {}).get("apply_links") or []]
-    portals = list(dict.fromkeys(u for u in [*urls, *offered] if kind(u, checks) == "portal"))
+    portals = list(dict.fromkeys(u for u in [*urls, *offered]
+                                 if kind(u, checks) == "portal" and not VOLATILE.search(u)
+                                 and not THIRD_PARTY.search(u)))
+    # a portal for scribes, results and the like is not where one applies; keep one only if it is the link already there
+    portals = [u for u in portals if not ANCILLARY.search(u)] or [u for u in portals if u == apply]
+    portals.sort(key=lambda u: u not in urls)  # the record's own link before one a page offers
     new_apply = apply
     if portals:
         new_apply = apply if apply in portals else portals[0]
-    elif apply and kind(apply, checks) in ("file", "broken"):
+    elif apply and (VOLATILE.search(apply) or kind(apply, checks) in ("file", "broken")):
         new_apply = None
     elif apply and kind(apply, checks) == "page" and not checks[apply].get("apply_links"):
         new_apply = None  # a page with no way to apply on it
 
     # the official page: a page that names the exam, a specific one before the front page
-    named = [u for u in urls if kind(u, checks) == "page" and names_exam(checks[u], called)]
+    named = [u for u in urls if kind(u, checks) == "page" and not THIRD_PARTY.search(u)
+             and names_exam(checks[u], called)]
     named.sort(key=lambda u: (bool(checks[u].get("home")), u != official))
     if named:
         new_official = named[0]
-    elif official and kind(official, checks) in ("page", "unknown"):
+    elif official and not THIRD_PARTY.search(official) and kind(official, checks) in ("page", "unknown"):
         new_official = official
     elif checks or (official and kind(official, checks) == "file"):
         # A file as the official page is always wrong, so it is replaced even unchecked.
