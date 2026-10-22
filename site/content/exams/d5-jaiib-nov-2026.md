@@ -133,7 +133,9 @@ city_slip_separate = 'unknown'
     changed_from = 'none'
 
     [dates.stages.exam]
-    status       = 'not_announced'
+    from         = 2026-07-01
+    to           = 'unknown'
+    status       = 'confirmed'
     change       = 'none'
     changed_from = 'none'
 
@@ -301,12 +303,19 @@ training_offered_for          = 'unknown'
 [links]
 link_official_page = 'https://iibf.org.in/'
 link_apply         = 'https://portal.iibf.org.in/candidate/login/nonmem'
-documents          = []
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://www.iibf.org.in/documents/Brochure/2026/WEBSITE NOTICE-JAIIB_226.pdf'
+  document_archive   = 'not_archived'
+  document_title     = 'Apply for JAIIB/DB&F Contact Class in Online mode by IIBF, PDC-NZ'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:24:15+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'
@@ -314,4 +323,11 @@ provenance_last_checked = 2026-09-27T19:36:16+05:30
   evidence_page     = 0
   evidence_words    = 'ExamHub record: registration 2026-08-12 to 2026-09-06'
   evidence_method   = 'manual'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.stages[1].exam.from'
+  evidence_document = 'https://www.iibf.org.in/documents/Brochure/2026/WEBSITE NOTICE-JAIIB_226.pdf'
+  evidence_page     = 1
+  evidence_words    = 'exam date 2026-07-01'
+  evidence_method   = 'rule'
 +++

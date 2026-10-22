@@ -337,12 +337,43 @@ training_offered_for          = 'unknown'
 [links]
 link_official_page = 'https://iimcat.ac.in/'
 link_apply         = 'https://cdn.digialm.com/EForms/configuredHtml/32842/101262/login.html'
-documents          = []
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-07-26
+  document_title     = 'CAT 2026 English Advertisement 26-07-2026'
+  document_url       = 'https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_English_Advertisement_26-07-2026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-07-26
+  document_title     = 'CAT 2026 Hindi Advertisement 26-07-2026'
+  document_url       = 'https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Hindi_Advertisement_26-07-2026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-07-26
+  document_title     = 'CAT 2026 Information Bulletin 26-07-26'
+  document_url       = 'https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'press_release'
+  document_stage     = 'all'
+  document_published = 2026-07-26
+  document_title     = 'CAT 2026 Press Release 26-07-2026'
+  document_url       = 'https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:24:16+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

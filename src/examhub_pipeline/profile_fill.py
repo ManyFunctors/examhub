@@ -161,7 +161,10 @@ def _short_title(title: str) -> str:
     """A listing title built as 'EXAM NAME - Document name' keeps only the document's name."""
     head, sep, tail = title.partition(" - ")
     title = tail if sep and len(head) > 30 else title
-    return re.sub(r"\s*\bRead\s*More\s*$", "", " ".join(title.split()), flags=re.I)[:110]
+    title = re.sub(r"\s*\bRead\s*More\s*$", "", " ".join(title.split()), flags=re.I)
+    if len(title) > 110:  # cut at a word, not in the middle of one
+        title = title[:110].rsplit(" ", 1)[0].rstrip(",;:-– ") + "…"
+    return title
 
 
 def _date_in_title(day: dt.date | None, title: str) -> bool:

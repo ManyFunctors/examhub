@@ -299,6 +299,13 @@ link_official_page = 'https://appsc.gov.in/'
 link_apply         = 'https://appsc.gov.in/'
 
   [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://appsc.gov.in/upload/RECINS001/APPSCCE_2026_ADVERTISEMENT.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
@@ -308,7 +315,7 @@ link_apply         = 'https://appsc.gov.in/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:24:16+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'
