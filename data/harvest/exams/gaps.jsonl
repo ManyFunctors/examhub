@@ -10,7 +10,7 @@
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "ap-bieap-class-12"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "ap-bseap-class-10"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ap-dsc"}
-{"cycle": null, "documents": 2, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "ap-eapcet"}
+{"cycle": "2026", "documents": 3, "gaps": ["apply", "exam_pattern"], "id": "ap-eapcet"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "ap-ecet"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "ap-edcet"}
 {"cycle": "2026", "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ap-hc-judicial"}
@@ -64,8 +64,8 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpsc-cce"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpsc-judicial"}
 {"cycle": null, "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpsc-lecturer"}
-{"cycle": null, "documents": 3, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpsc-other"}
-{"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpsc-tre"}
+{"cycle": null, "documents": 5, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpsc-other"}
+{"cycle": null, "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpsc-tre"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpssc-asi-steno"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpssc-excise-si"}
 {"cycle": "2025", "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpssc-si"}

@@ -1,0 +1,22 @@
+{
+ "schema": 1,
+ "exam": "br-bpsc-tre",
+ "name": "BPSC Teacher Recruitment Examination (TRE)",
+ "body": "br-bpsc",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}

@@ -1,0 +1,176 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "905e5830c15ff8fd91ebb2d027526b8f415c70114280cf36729fcd6f26a86679",
+  "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/APEAPCET2026_Instruction_Booklet_Agriculture_Pharmacy_V4.pdf",
+  "title": "Instruction Booklet for Agriculture , Pharmacy",
+  "body": "ap-apsche",
+  "exam": "ap-eapcet",
+  "feed": "ap-apsche/eapcet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "53c7e6810ba670051e480b5ace84d3dadad67843741915551edc28a1b2e2bd41",
+  "bytes": 1418063,
+  "pages": 43,
+  "chars": 95164,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T20:45:26+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2026-05-19",
+   "evidence": " The Test will be conducted from 19-05-2026 to 20-05-2026 in two sessions every day i.e. 9:00 A.M. to 12:00 Noon. and 2:00 P.M to 5:00 P.M through Online Test mode only",
+   "page": 4,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 1000,
+   "raw": "WITH LATE FEE Rs .1000/ - 28 03 2026 - -",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 2000,
+   "raw": "WITH LATE FEE Rs .2000/ - 01 04 2026 - -",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 4000,
+   "raw": "WITH LATE FEE Rs .4000/ - 06 04 2026 - -",
+   "page": 2
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 10000,
+   "raw": "WITH LATE FEE Rs 10000/ . - 10 04 2026 - -",
+   "page": 2
+  }
+ ],
+ "age": {
+  "limits": [
+   {
+    "max": 22,
+    "evidence": "ii) Candidates should have completed 17 years of age as of 31st December of the year of admission (2026) and an upper age limit of 22 years for all the candidates and 25 years in respect of SC/ST candidates as of 31st December of the year…",
+    "page": 5
+   },
+   {
+    "min": 17,
+    "evidence": "The minimum age for admission shall be 17 years on 31st December of the year in which admission is sought",
+    "page": 6
+   },
+   {
+    "max": 35,
+    "evidence": "The maximum age limit for admission shall be 35 years",
+    "page": 6
+   }
+  ],
+  "relaxations": [
+   {
+    "categories": [
+     "SC",
+     "ST"
+    ],
+    "years": 3,
+    "raw": "There shall be a relaxation of 3 (three) years in upper age for S.C., S.T., and B.C., candidates",
+    "page": 6
+   },
+   {
+    "categories": [
+     "PwBD"
+    ],
+    "years": 5,
+    "raw": "The upper age limit shall be relaxed by 5 (five) years for disabled candidates",
+    "page": 6
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "Candidates should have passed intermediate examination (10+2 pattern) or any examination recognized as equivalent there to by the Board of Intermediate Education,",
+    "page": 4
+   },
+   {
+    "text": "ii) Candidates should have completed 17 years of age as of 31st December of the year of admission (2026) and an upper age limit of 22 years for all the candidates and 25 years in respect of SC/ST candidates as of 31st December of the year of admission (2026)",
+    "page": 5
+   },
+   {
+    "text": "Candidates should have passed the intermediate examination (10+2 pattern) with Biology, Physics, and Chemistry as options, conducted by the Board of Intermediate Education, Andhra Pradesh or equivalent",
+    "page": 6
+   },
+   {
+    "text": "Candidates should have completed 16 years of age by the date of commencement of admission or on such other date as may be notified by the CET committee",
+    "page": 6
+   },
+   {
+    "text": "Candidates should have passed the intermediate examination (10+2 pattern) with Biology, Physics, and Chemistry as options",
+    "page": 6
+   },
+   {
+    "text": "Candidates should have passed Intermediate Examination (10+2 pattern) with Physics, Chemistry, and Biology as optional conducted by the Board of Intermediate Education, Andhra Pradesh or equivalent there to or should have passed or appeared at the final year of the diploma examination in pharmacy…",
+    "page": 6
+   },
+   {
+    "text": "The candidates should have completed 17 years of age as of 31st December of the year of admission (2026) to the above course",
+    "page": 6
+   },
+   {
+    "text": "The candidate has to fulfill the eligibility criteria laid down in the",
+    "page": 9
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 4
+  },
+  "negative_marking": {
+   "value": "No negative marking",
+   "page": 14
+  }
+ },
+ "links": {
+  "other": [
+   "https://cets.apsche.ap.gov.in/",
+   "http://www.sche.ap.gov.in/eamcet",
+   "http://www.sche.ap.gov.in/eapcet"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-05-19",
+  "fee": {
+   "min": 1000,
+   "max": 10000
+  },
+  "age": {
+   "min": 17,
+   "max": 22
+  },
+  "education": [
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12"
+  ]
+ }
+}

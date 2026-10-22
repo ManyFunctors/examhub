@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "342adf0288cca3f70f58ed65e7fb3a99ef97738c384f6b6bb7e78848cb790372",
+  "url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/8-8-25-9-Advertisement-802025-Principal-in-EC_BPSC-20250808-bo5mug.pdf",
+  "title": "Important Notices Advertisement",
+  "body": "br-bpsc",
+  "exam": "br-bpsc-other",
+  "feed": "br-bpsc/advertisements",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "7ebba9a93010e085699ebdeb88ae8cca7b97271e082fd0b2400a47acd43ad7e1",
+  "bytes": 663968,
+  "pages": 10,
+  "chars": 18,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T20:45:30+05:30"
+ },
+ "kind": "advertisement",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
