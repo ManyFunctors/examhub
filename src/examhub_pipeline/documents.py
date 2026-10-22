@@ -21,6 +21,7 @@ could not be read are absent, not guessed.
 
 from __future__ import annotations
 
+import dataclasses
 import datetime as dt
 import hashlib
 import re
@@ -29,7 +30,7 @@ from dataclasses import dataclass
 from typing import Any, Iterable, Sequence
 
 from . import candidates as cand
-from . import reservation
+from . import languages, reservation
 from .config import Settings
 from .extract import _pymupdf, pdf_pages
 
@@ -879,7 +880,10 @@ def structure(
     fetched: str | None = None,
 ) -> dict[str, Any]:
     """One notice's PDF -> one record. Raises ExtractionError on a bad PDF."""
-    token = _JURISDICTION.set(jurisdiction_of(notice))
+    jurisdiction = jurisdiction_of(notice)
+    token = _JURISDICTION.set(jurisdiction)
+    # a state's notice is scanned in its own language beside English
+    settings = dataclasses.replace(settings, ocr_langs=languages.ocr_langs(jurisdiction, settings.ocr_langs))
     try:
         return _structure(content, notice, settings, fetched)
     finally:

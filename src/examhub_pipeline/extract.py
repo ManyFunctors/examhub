@@ -31,6 +31,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
+from . import languages
 from .config import Settings
 
 log = logging.getLogger(__name__)
@@ -99,7 +100,7 @@ class ExtractedDoc:
 
 
 def _clean_text(text: str) -> str:
-    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    text = languages.normalise(text).replace("\r\n", "\n").replace("\r", "\n")
     text = _WS_RE.sub(" ", text)
     lines = [line.strip() for line in text.split("\n")]
     # Drop runs of blank lines; keep single blank lines as paragraph marks.
@@ -303,7 +304,7 @@ def _ocr_image_bytes(png: bytes, settings: Settings) -> str:
             "ocrmypdf is not on PATH"
         ) from exc
     image = _open_png(png)
-    return pytesseract.image_to_string(image, lang=settings.ocr_langs, config="--psm 6")
+    return pytesseract.image_to_string(image, lang=languages.usable(settings.ocr_langs), config="--psm 6")
 
 
 def _ocr_via_ocrmypdf(png: bytes, settings: Settings) -> str:
@@ -316,7 +317,7 @@ def _ocr_via_ocrmypdf(png: bytes, settings: Settings) -> str:
             "ocrmypdf",
             "--force-ocr",   # the page is an image; --skip-text would conflict
             "-l",
-            settings.ocr_langs,
+            languages.usable(settings.ocr_langs),
             "--output-type",
             "pdf",
             "--optimize",
@@ -346,7 +347,8 @@ def _open_png(png: bytes):
     return Image.open(io.BytesIO(png))
 
 
-def ocr_pdf(content: bytes, settings: Settings, *, max_pages: int | None = None) -> tuple[list[str], str, list[str]]:
+def ocr_pdf(content: bytes, settings: Settings, *, max_pages: int | None = None,
+            only: set[int] | None = None) -> tuple[list[str], str, list[str]]:
     """OCR a scanned PDF page by page.
 
     Returns ``(page_texts, engine, warnings)``. Page-by-page rather than
@@ -369,6 +371,9 @@ def ocr_pdf(content: bytes, settings: Settings, *, max_pages: int | None = None)
     engine = shutil.which("ocrmypdf") and "ocrmypdf+tesseract" or "pytesseract"
     pages: list[str] = []
     for number in range(min(total, limit)):
+        if only is not None and number + 1 not in only:
+            pages.append("")
+            continue
         try:
             png = _render_page_png(content, number)
             pages.append(_clean_text(_ocr_image_bytes(png, settings)))
@@ -461,6 +466,13 @@ def pdf_pages(
                 pages = pages[: len(ocr_pages)]
     else:
         legacy = legacy_hindi_pages(pages)
+        if legacy and settings.enable_ocr and languages.installed():
+            # the text layer is a legacy font's Latin gibberish: read the page image instead
+            ocr_pages, engine, ocr_warnings = ocr_pdf(content, settings, only=set(legacy))
+            warnings.extend(ocr_warnings)
+            pages = [ocr if n in legacy and ocr else text for n, (text, ocr) in enumerate(zip(pages, ocr_pages), 1)]
+            is_scan = True
+            legacy = [n for n in legacy if not ocr_pages[n - 1]]
         if legacy and len(legacy) >= max(1, len([p for p in pages if len(p) >= 300]) // 2):
             warnings.append(
                 f"{LEGACY_FONT_NOTE}: {len(legacy)} of {len(pages)} pages (from page {legacy[0]}); "
@@ -631,7 +643,7 @@ def extract_image(content: bytes, url: str, settings: Settings) -> ExtractedDoc:
     from PIL import Image
 
     image = Image.open(io.BytesIO(content))
-    text = _clean_text(pytesseract.image_to_string(image, lang=settings.ocr_langs, config="--psm 6"))
+    text = _clean_text(pytesseract.image_to_string(image, lang=languages.usable(settings.ocr_langs), config="--psm 6"))
     chunks = [
         Chunk(index=i, text=piece, page=None, section=None, is_ocr=True)
         for i, piece in enumerate(_chunk_text(text, settings.chunk_chars, settings.chunk_overlap_chars))

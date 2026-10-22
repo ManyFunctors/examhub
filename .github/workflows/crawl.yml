@@ -86,12 +86,10 @@ jobs:
         timeout-minutes: 45
         continue-on-error: true
         # New notification PDFs, failures due a retry, and scans the fast
-        # loop read without OCR. tesseract with the Indic scripts the state
+        # loop read without OCR. tesseract with the Indic models for the state
         # bodies print in; `documents build` OCRs only pages with no text.
-        env:
-          EXAMHUB_OCR_LANGS: eng+hin
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-hin >/dev/null
+          sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-eng tesseract-ocr-hin tesseract-ocr-mar tesseract-ocr-ben tesseract-ocr-guj tesseract-ocr-kan tesseract-ocr-mal tesseract-ocr-ori tesseract-ocr-pan tesseract-ocr-tam tesseract-ocr-tel tesseract-ocr-asm tesseract-ocr-urd >/dev/null
           uv run scrapy crawl documents -a limit=150 -s LOG_LEVEL=INFO -s LOG_FILE=work/documents.log || true
           uv run python -m examhub_pipeline documents build
 
