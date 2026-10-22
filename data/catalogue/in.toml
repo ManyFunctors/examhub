@@ -2918,6 +2918,7 @@ body = "in-sbi"
 url = "https://sbi.co.in/web/careers/current-openings"
 adapter = "html_links"
 yields = "notices"
+item_selector = "#jobLinks .card"
 include = '\.pdf|recruitment|advertisement|result|call letter|notice|PO|clerk|junior'
 tier = "hot"
 status = "active"
