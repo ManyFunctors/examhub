@@ -185,7 +185,7 @@ conducted_by = "nl-nssb"
 frequency = "multiple"
 qualification = "class_12"
 streams = ["clerical"]
-match = { any = ["recruitment", "advt|advertisement", "combined"] }
+match = { any = ["recruitment", "advt|advertisement", "combined", "notification", "interview", 'marks\s*disclosure'] }
 status = "active"
 
 [[exams]]

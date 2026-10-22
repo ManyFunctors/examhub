@@ -4115,7 +4115,7 @@ conducted_by = "in-ssc"
 frequency = "annual"
 qualification = "class_10"
 streams = ["paramilitary", "police"]
-match = { any = ['constable\s*\(?\s*GD\s*\)?', '\bSSC\s*GD\b', '\bGD\b.*CAPF'] }
+match = { any = ['constable\s*\(?\s*GD\s*\)?', '\bSSC\s*GD\b', '\bGD\b.*CAPF', 'कां?स्?‍?टेबल\s*\(\s*जीडी\s*\)'] }
 status = "active"
 
 [[exams]]
