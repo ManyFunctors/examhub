@@ -1,0 +1,49 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3e4332a2d122cfd5cb7652848b56094313ac490246d7faecb649df9fb59ab9a3",
+  "url": "https://gssc.goa.gov.in/docs/whats_new/notice-reg-cbt-on-07-11-2026-14-11-2026-15-11-2026-21-11-2026-and-22-11-2026-for-the-various-posts-advertisement-no-3-of-year-2026.pdf",
+  "title": "Notice reg. CBT on 07.11.2026, 14.11.2026, 15.11.2026, 21.11.2026 and 22.11.2026 for the various posts - Advertisement No. 3 of Year 2026",
+  "body": "ga-gssc",
+  "exam": "ga-gssc-recruitment",
+  "feed": "ga-gssc/home",
+  "published": "2026-10-22",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "72730906ec389fa1245dd8cabf04c7b5c5931fcb1c47abc9da93bc4db22aa521",
+  "bytes": 130512,
+  "pages": 1,
+  "chars": 1520,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T13:58:44+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "exam_date": {
+   "date": "2026-11-14",
+   "evidence": "e Advertisement No.3 of Year 2026 da o conduct Two Tier CBT-I examinatio aturday), 14/11/2026 (Saturday), 15/",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://gssc.goa.go"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-11-14"
+ }
+}

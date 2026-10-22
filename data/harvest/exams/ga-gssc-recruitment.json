@@ -5,13 +5,35 @@
  "body": "ga-gssc",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 1,
- "documents_in_cycle": 1,
- "fields": {},
+ "documents": 2,
+ "documents_in_cycle": 2,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2026-11-14",
+    "source": {
+     "notice": "3e4332a2d122cfd5cb7652848b56094313ac490246d7faecb649df9fb59ab9a3",
+     "url": "https://gssc.goa.gov.in/docs/whats_new/notice-reg-cbt-on-07-11-2026-14-11-2026-15-11-2026-21-11-2026-and-22-11-2026-for-the-various-posts-advertisement-no-3-of-year-2026.pdf",
+     "title": "Notice reg. CBT on 07.11.2026, 14.11.2026, 15.11.2026, 21.11.2026 and 22.11.2026 for the various posts - Advertisement No. 3 of Year 2026",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2026-11-14",
+   "source": {
+    "notice": "3e4332a2d122cfd5cb7652848b56094313ac490246d7faecb649df9fb59ab9a3",
+    "url": "https://gssc.goa.gov.in/docs/whats_new/notice-reg-cbt-on-07-11-2026-14-11-2026-15-11-2026-21-11-2026-and-22-11-2026-for-the-various-posts-advertisement-no-3-of-year-2026.pdf",
+    "title": "Notice reg. CBT on 07.11.2026, 14.11.2026, 15.11.2026, 21.11.2026 and 22.11.2026 for the various posts - Advertisement No. 3 of Year 2026",
+    "kind": "advertisement",
+    "page": 1
+   }
+  }
+ },
  "gaps": [
   "vacancies",
   "apply",
-  "exam_date",
   "fee",
   "age",
   "pay",
