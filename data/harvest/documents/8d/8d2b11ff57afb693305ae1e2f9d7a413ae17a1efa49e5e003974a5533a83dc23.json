@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "8d2b11ff57afb693305ae1e2f9d7a413ae17a1efa49e5e003974a5533a83dc23",
+  "url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Districtwise-Vacancies-for-Transgender-Candidates_BPSC-20260818-19w827.pdf",
+  "title": "Transgender Candidates",
+  "body": "br-bpsc",
+  "exam": "br-bpsc-other",
+  "feed": "br-bpsc/advertisements",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "553b78049cdb83e171f81b9d82dc10711ddb0bd75cd77ed9274aff60fb895a00",
+  "bytes": 590466,
+  "pages": 21,
+  "chars": 40,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-23T00:01:05+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
