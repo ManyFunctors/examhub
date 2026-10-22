@@ -283,7 +283,7 @@ conducted_by = "jk-jkssb"
 frequency = "multiple"
 qualification = "class_10"
 streams = ["general"]
-match = { any = ["advt|advertisement|recruitment|vacanc|OMR|CBT"] }
+match = { any = ["advt|advertisement|recruitment|vacanc|OMR|CBT", 'score[-\s]*sheet', 'written\s*(test|examination)', 'driving\s*test', 'document\s*verification'] }
 status = "active"
 
 [[exams]]
