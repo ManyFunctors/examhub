@@ -64,7 +64,7 @@
 {"cycle": null, "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpsc-cce"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpsc-judicial"}
 {"cycle": null, "documents": 2, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpsc-lecturer"}
-{"cycle": null, "documents": 17, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpsc-other"}
+{"cycle": null, "documents": 19, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpsc-other"}
 {"cycle": "2026", "documents": 4, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpsc-tre"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpssc-asi-steno"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "br-bpssc-excise-si"}
@@ -569,7 +569,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-uiic-ao"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-uiic-assistant"}
 {"cycle": "2026", "documents": 8, "gaps": ["exam_date", "fee", "age"], "id": "in-union-bank-recruitment"}
-{"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-upsc-capf-ac"}
+{"cycle": "2026", "documents": 1, "gaps": ["vacancies", "pay"], "id": "in-upsc-capf-ac"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-upsc-cds"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "eligibility"], "id": "in-upsc-cisf-ac-ldce"}
 {"cycle": "2026", "documents": 1, "gaps": ["vacancies", "age"], "id": "in-upsc-cms"}

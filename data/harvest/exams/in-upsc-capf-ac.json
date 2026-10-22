@@ -1,0 +1,230 @@
+{
+ "schema": 1,
+ "exam": "in-upsc-capf-ac",
+ "name": "Central Armed Police Forces (Assistant Commandants) Examination",
+ "body": "in-upsc",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "Women",
+      "SC",
+      "ST"
+     ],
+     "except": true,
+     "amount": 200,
+     "raw": "Candidates (except Female/SC/ST Candidates who are exempted from payment of fee) are required to pay fee of Rs.200/- (Rupees Two Hundred only) either by using Net Banking Facility of any Bank or by using Visa/Master/RuPay/Credit/Debit…",
+     "page": 8
+    },
+    {
+     "categories": [
+      "Women",
+      "SC",
+      "ST"
+     ],
+     "amount": 0,
+     "raw": "Candidates (except Female/SC/ST Candidates who are exempted from payment of fee) are required to pay fee of Rs.200/- (Rupees Two Hundred only) either by using Net Banking Facility of any Bank or by using Visa/Master/RuPay/Credit/Debit…",
+     "page": 8
+    },
+    {
+     "categories": [
+      "SC",
+      "ST",
+      "Women"
+     ],
+     "except": true,
+     "amount": 200,
+     "raw": "• Candidates (except SC/ST/Female Candidates who are exempted from payment of fee) are required to pay fee of Rs.200/- (Rupees Two Hundred only) either by using Net Banking Facility of any Bank or by using Visa/Master/RuPay/Credit/Debit…",
+     "page": 15
+    },
+    {
+     "categories": [
+      "SC",
+      "ST",
+      "Women"
+     ],
+     "amount": 0,
+     "raw": "• Candidates (except SC/ST/Female Candidates who are exempted from payment of fee) are required to pay fee of Rs.200/- (Rupees Two Hundred only) either by using Net Banking Facility of any Bank or by using Visa/Master/RuPay/Credit/Debit…",
+     "page": 15
+    }
+   ],
+   "source": {
+    "notice": "95fd1f44aa8ff82d04ee04bf1d411942d2dd2a871f988949a2556b60628ffb25",
+    "url": "https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf",
+    "title": "Central Armed Police Forces (ACs) Examination, 2026 - Download Notification Notice",
+    "kind": "notice",
+    "page": 8
+   }
+  },
+  "age": {
+   "value": {
+    "limits": [
+     {
+      "min": 18,
+      "max": 35,
+      "evidence": "18-35 years b) Axial-length - 21-26 mm",
+      "page": 21
+     }
+    ]
+   },
+   "source": {
+    "notice": "95fd1f44aa8ff82d04ee04bf1d411942d2dd2a871f988949a2556b60628ffb25",
+    "url": "https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf",
+    "title": "Central Armed Police Forces (ACs) Examination, 2026 - Download Notification Notice",
+    "kind": "notice",
+    "page": 21
+   }
+  },
+  "dates": {
+   "exam_date": {
+    "date": "2026-07-19",
+    "source": {
+     "notice": "95fd1f44aa8ff82d04ee04bf1d411942d2dd2a871f988949a2556b60628ffb25",
+     "url": "https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf",
+     "title": "Central Armed Police Forces (ACs) Examination, 2026 - Download Notification Notice",
+     "kind": "notice",
+     "page": 13
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-03-12",
+    "source": {
+     "notice": "95fd1f44aa8ff82d04ee04bf1d411942d2dd2a871f988949a2556b60628ffb25",
+     "url": "https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf",
+     "title": "Central Armed Police Forces (ACs) Examination, 2026 - Download Notification Notice",
+     "kind": "notice",
+     "page": 7
+    }
+   },
+   "registration_open": {
+    "date": "2026-02-20",
+    "source": {
+     "notice": "95fd1f44aa8ff82d04ee04bf1d411942d2dd2a871f988949a2556b60628ffb25",
+     "url": "https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf",
+     "title": "Central Armed Police Forces (ACs) Examination, 2026 - Download Notification Notice",
+     "kind": "notice",
+     "page": 3
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-02-20",
+    "until": "2026-03-12"
+   },
+   "source": {
+    "notice": "95fd1f44aa8ff82d04ee04bf1d411942d2dd2a871f988949a2556b60628ffb25",
+    "url": "https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf",
+    "title": "Central Armed Police Forces (ACs) Examination, 2026 - Download Notification Notice",
+    "kind": "notice",
+    "page": 7
+   }
+  },
+  "exam_date": {
+   "value": "2026-07-19",
+   "source": {
+    "notice": "95fd1f44aa8ff82d04ee04bf1d411942d2dd2a871f988949a2556b60628ffb25",
+    "url": "https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf",
+    "title": "Central Armed Police Forces (ACs) Examination, 2026 - Download Notification Notice",
+    "kind": "notice",
+    "page": 13
+   }
+  },
+  "apply_links": {
+   "value": [
+    "https://upsconline.nic.in/",
+    "https://upsconline.nic.in.”"
+   ],
+   "source": {
+    "notice": "95fd1f44aa8ff82d04ee04bf1d411942d2dd2a871f988949a2556b60628ffb25",
+    "url": "https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf",
+    "title": "Central Armed Police Forces (ACs) Examination, 2026 - Download Notification Notice",
+    "kind": "notice"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "2.2 The candidates should have details of one Photo ID Card viz",
+      "page": 2
+     },
+     {
+      "text": "SC/ST/OBC/ EWS/Ex-Servicemen], educational qualification, preferences of Services/Forces etc. as may be sought by the Commission alongwith the Common Application Form",
+      "page": 4
+     },
+     {
+      "text": "All the candidates qualified for Physical Standards Tests/ Physical Efficiency Tests shall be required to mandatorily login to the portal (https://upsconline.nic.in) during this period and shall be required to update their details/educational qualification status (whether appearing/appeared)…",
+      "page": 4
+     },
+     {
+      "text": "NOTE-1: In addition to Para 2.1 (b) above, the candidates (wherever applicable) are required to update the Correspondence/Permanent Postal Address, Higher Educational Qualification, Achievement in different fields (if any), Employment details/Service Experience, details of the Service/Force…",
+      "page": 4
+     },
+     {
+      "text": "Short biodata of the candidates with their educational qualifications, contact numbers, details including their percentile (not absolute or percentage marks), etc. will also be made accessible on this dedicated Portal",
+      "page": 6
+     },
+     {
+      "text": "(a) A candidate must have attained the age of 20 years and must not have attained the age of 25 years on 1st August, 2026, i.e. he/she must have been born not earlier than 2nd August, 2001 and not later than 1st August, 2006",
+      "page": 6
+     },
+     {
+      "text": "(IV) Minimum Educational Qualifications:",
+      "page": 7
+     },
+     {
+      "text": "NOTE II: In exceptional cases, the Commission may treat a candidate who does not have any of the foregoing qualifications as a qualified candidate, provided that he/she has passed an examination conducted by the other Institutions, the standard of which in the opinion of the Commission justifies…",
+      "page": 8
+     },
+     {
+      "text": " Before filling up Online Application Form, a candidate must have his/her photograph and signature duly scanned in the .jpg format in such a manner that photograph file should not exceed 200 KB and must not be less than 20 KB in size and signature file should not exceed 100 KB and must not be…",
+      "page": 15
+     },
+     {
+      "text": " The candidate should have details of one Photo ID viz",
+      "page": 15
+     },
+     {
+      "text": "06 months (post operative period mandatory (Candidate must have completed 06 months after LASIK surgery while considering for recruitment in CAPFs)",
+      "page": 21
+     },
+     {
+      "text": "(f) Teeth: Candidate must possess sufficient number of sound teeth for efficient mastication",
+      "page": 22
+     }
+    ]
+   },
+   "source": {
+    "notice": "95fd1f44aa8ff82d04ee04bf1d411942d2dd2a871f988949a2556b60628ffb25",
+    "url": "https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf",
+    "title": "Central Armed Police Forces (ACs) Examination, 2026 - Download Notification Notice",
+    "kind": "notice"
+   }
+  },
+  "selection": {
+   "value": [
+    "Written examination"
+   ],
+   "source": {
+    "notice": "95fd1f44aa8ff82d04ee04bf1d411942d2dd2a871f988949a2556b60628ffb25",
+    "url": "https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf",
+    "title": "Central Armed Police Forces (ACs) Examination, 2026 - Download Notification Notice",
+    "kind": "notice"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "pay"
+ ],
+ "older_documents": 0
+}
