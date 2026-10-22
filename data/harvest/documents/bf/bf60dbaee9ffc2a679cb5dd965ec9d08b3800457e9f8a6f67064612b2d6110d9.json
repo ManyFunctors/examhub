@@ -1,0 +1,202 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "bf60dbaee9ffc2a679cb5dd965ec9d08b3800457e9f8a6f67064612b2d6110d9",
+  "url": "https://www.uceed.iitb.ac.in/2027/assets/downloads/docs/UCEED2027_Information_Brochure.pdf",
+  "title": "Information Brochure",
+  "body": "in-iitb",
+  "exam": "in-uceed",
+  "feed": "in-iitb/uceed",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "9a4bdf833e69ae9592eab08666ff72d1a8654a8ec29dd0275f5789f7b75ffb01",
+  "bytes": 1780264,
+  "pages": 74,
+  "chars": 117548,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T17:59:48+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "exam_date": {
+   "date": "2027-01-17",
+   "provisional": true,
+   "evidence": "14.1 Exam date and time: Sunday, 17 January 2027, 9.00 am - 12.00 noon  [document-level hedge: Note: The dates for the seat allotment rounds are tentative]",
+   "page": 31,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2026-10-31",
+   "provisional": true,
+   "evidence": "● The registration fee given in the Table above is applicable till the closing date of registration, October 31, 2026  [document-level hedge: Note: The dates for the seat allotment rounds are tentative]",
+   "page": 25,
+   "from": "text"
+  }
+ },
+ "pay": [
+  {
+   "levels": [
+    1,
+    4
+   ],
+   "text": "Pay Levels 1, 4",
+   "evidence": "The B.Des. curriculum has a four-level structure leading to a gradual movement from general, foundational courses at level 1 to more specialized inputs at level 4",
+   "page": 12
+  },
+  {
+   "levels": [
+    1,
+    2
+   ],
+   "text": "Pay Levels 1, 2",
+   "evidence": "As the student moves upwards from level 1 to level 2, the student graduates to choosing between courses which offer different kinds of skills from soft to hard",
+   "page": 12
+  },
+  {
+   "levels": [
+    1
+   ],
+   "text": "Pay Level 1",
+   "evidence": "The courses at level 1 would help the students to choose the mix of skills they prefer to acquire",
+   "page": 12
+  },
+  {
+   "levels": [
+    3
+   ],
+   "text": "Pay Level 3",
+   "evidence": "At level 3, it is hoped that the student is ready to fine tune a certain mix or a set of skills into a specialization",
+   "page": 12
+  },
+  {
+   "levels": [
+    4
+   ],
+   "text": "Pay Level 4",
+   "evidence": "At Level 4, the student employs all that has been gained regarding skills and understanding and applies or uses them in independent projects",
+   "page": 12
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "ELIGIBILITY CRITERIA FOR APPEARING IN UCEED 2027 18 8",
+    "page": 4
+   },
+   {
+    "text": "ADMISSION 21 ELIGIBILITY CRITERIA FOR APPLYING FOR B.DES",
+    "page": 4
+   },
+   {
+    "text": "Only those students who have passed Class XII (or equivalent) in the year 2026 or are appearing in the year 2027, in ANY STREAM (Science, Commerce, or Arts & Humanities) for the first time are eligible to appear for the UCEED 2027 [For complete details, see the “ELIGIBILITY CRITERIA FOR APPEARING…",
+    "page": 5
+   },
+   {
+    "text": "However, the aspirants should have qualified UCEED in the same year",
+    "page": 10
+   },
+   {
+    "text": "6.12 To be considered for seat allocation, foreign national candidates should have an All India Rank (AIR) and satisfy all the eligibility requirements meant for an OPEN category candidate",
+    "page": 21
+   },
+   {
+    "text": "ELIGIBILITY CRITERIA FOR APPEARING IN UCEED 2027 A candidate, including a foreign national, must simultaneously fulfil every one of the following three criteria to appear in UCEED 2027",
+    "page": 22
+   },
+   {
+    "text": "The candidate should have been born on or after October 1, 2002, if belonging to the OPEN/EWS/OBC-NCL category and born on or after October 1, 1997, if belonging to the SC, ST or PwD category",
+    "page": 22
+   },
+   {
+    "text": "(i) A candidate should have appeared for the Class XII (or equivalent) examination for the first time in either 2026 OR 2027 to be eligible for attempting UCEED 2027",
+    "page": 22
+   },
+   {
+    "text": "However, if the examination Board of Class XII (or equivalent) declared the results for the academic year 2024-25 on or after September 30, 2025, then the candidates of that Board who appeared for their Class XII (or equivalent) examination in 2025 are also eligible to appear in UCEED 2027,…",
+    "page": 22
+   },
+   {
+    "text": "● In case the Class XII examination is not a public examination, the candidate must have already passed at least one public (Board or Pre-University) examination before appearing for UCEED",
+    "page": 23
+   },
+   {
+    "text": "9.2 Candidates should simultaneously satisfy ALL the THREE eligibility criteria [Refer ELIGIBILITY CRITERIA FOR APPEARING IN UCEED 2027]",
+    "page": 24
+   },
+   {
+    "text": "ELIGIBILITY CRITERIA FOR APPLYING FOR B.DES",
+    "page": 44
+   },
+   {
+    "text": "(b) Proof of having passed the qualifying examination with required eligibility is to be submitted by September 30, 2027 to the admitting institute",
+    "page": 45
+   },
+   {
+    "text": "23.12 To be considered for seat allocation, foreign national candidates should have an All- India Rank (AIR) and satisfy all the eligibility requirements meant for an OPEN category candidate",
+    "page": 49
+   }
+  ]
+ },
+ "exam_pattern": [
+  {
+   "paper": "1 -",
+   "page": 34
+  },
+  {
+   "paper": "071 - .",
+   "page": 34,
+   "marks": 3
+  },
+  {
+   "paper": "Total",
+   "page": 34
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 32
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 19
+  },
+  "duration": {
+   "value": "14.9 Candidates have to remain in the examination hall for the entire duration of the examination",
+   "page": 32
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.uceed.iitb.ac.in/",
+   "https://www.idc.iitb.ac.in/",
+   "https://design.iitd.ac.in/",
+   "http://www.iitg.ac.in/design",
+   "https://design.iith.ac.in/",
+   "https://www.iiti.ac.in/page/school-of-innovation",
+   "https://design.iitr.ac.in/",
+   "http://design.iiitdmj.ac.in/",
+   "http://www.ncbc.nic.in/",
+   "https://socialjustice.gov.in/",
+   "https://ncst.nic.in/",
+   "http://www.aiu.ac.in/"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-10-31"
+  },
+  "exam_date": "2027-01-17",
+  "pay": "Pay Levels 1, 4",
+  "education": [
+   "Graduate",
+   "Class 12"
+  ]
+ }
+}
