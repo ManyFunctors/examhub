@@ -54,7 +54,8 @@ name = "Tripura Police"
 short_name = "Tripura Police"
 jurisdiction = "tr"
 kind = "police_recruitment_board"
-website = "https://tripurapolice.gov.in/"
+website = "https://police.tripura.gov.in/"
+hosts = ["police.tripura.gov.in", "tripurapolice.gov.in"]
 status = "active"
 
 [[bodies]]
@@ -143,7 +144,7 @@ status = "active"
 [[feeds]]
 id = "tr-police/home"
 body = "tr-police"
-url = "https://tripurapolice.gov.in/"
+url = "https://police.tripura.gov.in/recruitment"
 adapter = "html_links"
 yields = "notices"
 include = '\.pdf|notif|advt|advertisement|recruit|result|admit|hall\s*ticket|answer|key|schedule|calendar|notice|exam'
