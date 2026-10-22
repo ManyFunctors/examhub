@@ -1,0 +1,45 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "5cbebe4024b80762ecb6d16a47868004f95e887f518a6a9ae7ae8f18b98bf29f",
+  "url": "https://gssc.goa.gov.in/docs/whats_new/notice-reg-physical-efficiency-tests-pet-for-various-posts-advertisement-no-2-of-year-2026-from-02-11-2026.pdf",
+  "title": "Notice reg. Physical Efficiency Tests (PET) for various posts - Advertisement No. 2 of Year 2026 - from 02.11.2026",
+  "body": "ga-gssc",
+  "exam": "ga-gssc-recruitment",
+  "feed": "ga-gssc/home",
+  "published": "2026-10-22",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "64720033a7907336133ec7e79599361e358689545cd87a37e6db396ac9131cb0",
+  "bytes": 113094,
+  "pages": 1,
+  "chars": 1391,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-23T02:18:04+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "result_date": {
+   "date": "2026-10-22",
+   "evidence": "The eligible candidat result slip issued during P identity during PET.",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "The eligible candidat result slip issued during P identity during PET.",
+   "key": "result_date",
+   "date": "2026-10-22",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ }
+}
