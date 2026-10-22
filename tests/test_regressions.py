@@ -302,7 +302,6 @@ def test_clean_drops_link_arrows():
     from examhub_pipeline.crawl.adapters import clean
 
     assert clean("BITSAT Syllabus  ❯") == "BITSAT Syllabus"
-||||||| parent of b352295c (Vacancy totals ignore overlapping columns; a date's year no longer names the cycle)
 
 def test_cycle_label_ignores_the_year_in_a_date():
     from examhub_pipeline.catalogue import cycle_label
