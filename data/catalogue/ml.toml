@@ -266,6 +266,18 @@ match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
 status = "active"
 
 [[exams]]
+id = "ml-health-admission-counselling"
+name = "Meghalaya Health Courses Admission Counselling (MBBS, BDS, BAMS, B.Sc Nursing, Allied)"
+jurisdiction = "ml"
+purpose = "admission"
+conducted_by = "ml-health"
+frequency = "annual"
+qualification = "class_12"
+streams = ["medical"]
+match = { any = ["counsell?ing", '\bMBBS\b', '\bBDS\b', '\bBAMS\b', 'B\.?\s*Sc\.?\s*Nursing', 'state\s*quota', "allied"] }
+status = "active"
+
+[[exams]]
 id = "ml-health-recruitment"
 name = "Meghalaya Health Recruitment (Staff Nurse, ANM, Medical Officer)"
 jurisdiction = "ml"

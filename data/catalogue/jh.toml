@@ -330,7 +330,7 @@ conducted_by = "jh-jceceb"
 frequency = "annual"
 qualification = "class_12"
 streams = ["nursing", "allied_health", "agriculture"]
-match = { any = ["nursing", "paramedical", "agriculture|veterinary|horticulture"] }
+match = { any = ["nursing", "paramedical", "agriculture|veterinary|horticulture", "नर्सिंग", 'पारा\s*मेडिकल', "कृषि"] }
 status = "active"
 
 [[exams]]

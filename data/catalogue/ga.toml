@@ -137,7 +137,7 @@ conducted_by = "ga-gssc"
 frequency = "multiple"
 qualification = "class_12"
 streams = ["general"]
-match = { any = ["advt|advertisement|recruitment|vacanc|group\\s*['‘’]?\\s*C\\b"] }
+match = { any = ["advt|advertisement|recruitment|vacanc|group\\s*['‘’]?\\s*C\\b", 'eligibility\s*list', 'physical\s*(standard|endurance|efficiency)', '\bPET\b', "addendum"] }
 status = "active"
 
 [[exams]]
