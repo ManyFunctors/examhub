@@ -304,11 +304,12 @@ link_apply         = 'https://admission.jmi.ac.in/CDOE/Admissions?rtextcrs=mTZZQ
   document_published = 'unknown'
   document_url       = 'https://admission.jmi.ac.in/application/assets/pdfFile/notices/UniversityNotices/2026-27/University_Entrance_Test_Dates_2026_2027.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'University Entrance Test Dates 2026 2027'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:27+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'

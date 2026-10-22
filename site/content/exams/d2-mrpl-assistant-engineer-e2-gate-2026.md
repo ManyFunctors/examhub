@@ -362,11 +362,12 @@ link_apply         = 'https://www.mrpl.co.in/careers'
   document_published = 'unknown'
   document_url       = 'https://admin.mrpl.co.in/img/UploadedFiles/Career/Files/English/d1d02079ba3c43dabb9d8ee84cbcdf43.pdf'
   document_archive   = 'https://web.archive.org/web/20261001002802/https://admin.mrpl.co.in/img/UploadedFiles/Career/Files/English/d1d02079ba3c43dabb9d8ee84cbcdf43.pdf'
+  document_title     = 'd1d02079ba3c43dabb9d8ee84cbcdf43'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:21+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

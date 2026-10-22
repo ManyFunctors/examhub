@@ -344,11 +344,12 @@ link_apply         = 'https://ctet.nic.in/'
   document_published = 'unknown'
   document_url       = 'https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260914325514446.pdf'
   document_archive   = 'http://web.archive.org/web/20260914180528/https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260914325514446.pdf'
+  document_title     = 'PUBLIC NOTICE: Exam Dates for 22nd edition of CTET'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:27+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

@@ -718,11 +718,12 @@ link_apply         = 'not_announced'
   document_published = 2026-09-16
   document_url       = 'https://slprb.ap.gov.in/2026_PDFS/SLPRB_AP_PC_COMM_Notification_2026.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'SLPRB AP PC COMM Notification 2026'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-30T10:00:00+05:30
-provenance_last_checked = 2026-09-30T10:00:00+05:30
+provenance_last_checked = 2026-10-22T14:28:20+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

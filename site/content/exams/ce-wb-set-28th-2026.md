@@ -306,11 +306,12 @@ link_apply         = 'unknown'
   document_published = 'unknown'
   document_url       = 'https://wbcsc.org.in/wbcsc/PDFDOC/NOTICESET28th10032026.pdf'
   document_archive   = 'http://web.archive.org/web/20260420040422/https://wbcsc.org.in/wbcsc/PDFDOC/NOTICESET28th10032026.pdf'
+  document_title     = 'NOTICESET28th10032026'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:21+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.stages[1].exam'

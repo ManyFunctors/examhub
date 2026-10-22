@@ -303,22 +303,17 @@ link_apply         = 'unknown'
   document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20261008083141.pdf'
-  document_archive   = 'not_archived'
-
-  [[links.documents]]
-  document_type      = 'notification'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20261008212430.pdf'
-  document_archive   = 'not_archived'
-
-  [[links.documents]]
-  document_type      = 'notification'
-  document_stage     = 'all'
-  document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Notice_20261009123259.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Inviting Online Application Form for Study Webs of Active Learning for Young Aspiring Minds [SWAYAM-2026…'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20261008083141.pdf'
+  document_archive   = 'not_archived'
+  document_title     = 'Inviting Online Application for Joint CSIR UGC-NET December 2026'
 
   [[links.documents]]
   document_type      = 'notification'
@@ -326,11 +321,20 @@ link_apply         = 'unknown'
   document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Notice_20261016183525.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Inviting Online Applications for the National Institute of Fashion Technology Entrance Examination…'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20261008212430.pdf'
+  document_archive   = 'not_archived'
+  document_title     = 'Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026…'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-10-19T02:45:23+05:30
-provenance_last_checked = 2026-10-19T02:45:23+05:30
+provenance_last_checked = 2026-10-22T14:28:25+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.fee_payment.to'

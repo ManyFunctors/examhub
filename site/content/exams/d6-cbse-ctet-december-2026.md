@@ -301,23 +301,25 @@ link_official_page = 'https://ctet.nic.in/'
 link_apply         = 'https://ctet.nic.in/'
 
   [[links.documents]]
-  document_type      = 'other'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260914325514446.pdf'
-  document_archive   = 'http://web.archive.org/web/20260914180528/https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260914325514446.pdf'
-
-  [[links.documents]]
   document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260907461266783.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'PUBLIC NOTICE: CTET SEP-2026 CORRECTION WINDOW (last date 10.09.2026)'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260914325514446.pdf'
+  document_archive   = 'http://web.archive.org/web/20260914180528/https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260914325514446.pdf'
+  document_title     = 'PUBLIC NOTICE: Exam Dates for 22nd edition of CTET'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-17T06:44:57+05:30
+provenance_last_checked = 2026-10-22T14:28:22+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'

@@ -346,6 +346,7 @@ link_apply         = 'https://upsconline.nic.in/candidate/realms/candidate-porta
   document_published = 'unknown'
   document_url       = 'https://www.upsc.gov.in/sites/default/files/AdvtNo-52-2026-Special-Engl-210826.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Advertisement No.52 - 2026 (Special)'
 
   [[links.documents]]
   document_type      = 'other'
@@ -353,6 +354,7 @@ link_apply         = 'https://upsconline.nic.in/candidate/realms/candidate-porta
   document_published = 'unknown'
   document_url       = 'https://upsconline.nic.in/ora/'
   document_archive   = 'not_archived'
+  document_title     = 'Online Recruitment Application (ORA)'
 
   [[links.documents]]
   document_type      = 'other'
@@ -364,7 +366,7 @@ link_apply         = 'https://upsconline.nic.in/candidate/realms/candidate-porta
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:54+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

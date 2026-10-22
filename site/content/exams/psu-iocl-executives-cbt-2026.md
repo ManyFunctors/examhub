@@ -308,11 +308,12 @@ link_apply         = 'https://iocl.com/'
   document_published = 'unknown'
   document_url       = 'https://iocl.com/admin/img/UploadedFiles/LatestJobOpening/Files/DetailedAd14082026.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'DetailedAd14082026'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:25+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

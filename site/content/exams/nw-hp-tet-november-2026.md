@@ -342,8 +342,25 @@ link_apply         = 'https://hpbose.org/AffiliationLogin.aspx'
   [[links.documents]]
   document_type      = 'notification'
   document_stage     = 'all'
+  document_published = 2026-04-30
+  document_title     = 'Notification Regarding TET June 2026'
+  document_url       = 'https://hpbose.org/Admin/Upload/NOTITETJUNE2026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://hpbose.org/Admin/Upload/Notification%20regarding%20TET.pdf'
+  document_archive   = 'not_archived'
+  document_title     = 'Notification regarding TET'
+
+  [[links.documents]]
+  document_type      = 'schedule'
+  document_stage     = 'all'
+  document_published = 2025-12-10
+  document_title     = 'Notification regarding the schedule of EMRSST, Teacher Eligibility Test, and D.El.Ed (CET) for the year 2026'
+  document_url       = 'https://hpbose.org/Admin/Upload/Notification_tet_10-12-2025.pdf'
   document_archive   = 'not_archived'
 
   [[links.documents]]
@@ -356,7 +373,7 @@ link_apply         = 'https://hpbose.org/AffiliationLogin.aspx'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:51+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

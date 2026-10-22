@@ -359,6 +359,7 @@ link_apply         = 'unknown'
   document_published = 'unknown'
   document_url       = 'https://www.nta.ac.in/Download/Notice/Examcalendar.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Examcalendar'
 
   [[links.documents]]
   document_type      = 'other'
@@ -370,7 +371,7 @@ link_apply         = 'unknown'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:24+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'fee.rows'

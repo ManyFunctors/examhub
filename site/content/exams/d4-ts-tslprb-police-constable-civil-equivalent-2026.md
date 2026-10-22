@@ -308,11 +308,12 @@ link_apply         = 'https://www.tgprb.in/applive/login'
   document_published = 'unknown'
   document_url       = 'https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf'
   document_archive   = 'https://web.archive.org/web/20261001003136/https://www.tgprb.in/SI_PC_2026/PC%20(Civil%20et%20al)%202026%20Notification%20dated%2029-07-2026.pdf'
+  document_title     = 'PC (Civil et al) 2026 Notification dated 29 07 2026'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:22+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

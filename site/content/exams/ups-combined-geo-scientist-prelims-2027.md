@@ -344,20 +344,22 @@ link_apply         = 'https://upsconline.nic.in/candidate/realms/candidate-porta
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf'
+  document_url       = 'https://upsconline.nic.in/'
   document_archive   = 'not_archived'
+  document_title     = 'Apply Online'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://upsconline.nic.in/'
+  document_url       = 'https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Notif CGSPE 2027 Engl 020926'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:28+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

@@ -342,9 +342,17 @@ link_apply         = 'https://uiic.co.in/web/careers/recruitment'
   document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
+  document_url       = 'https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/3.%20PET%20-%20Notice.pdf'
+  document_archive   = 'not_archived'
+  document_title     = '3. PET Notice'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
   document_url       = 'https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/UIIC-AO-notification-2026%20final.pdf'
   document_archive   = 'not_archived'
-  document_title     = 'Detailed Advertisement--Recruitment of Administrative officers-Generalists and Hindi Officers -2026'
+  document_title     = 'UIIC AO notification 2026 final'
 
   [[links.documents]]
   document_type      = 'notification'
@@ -352,15 +360,7 @@ link_apply         = 'https://uiic.co.in/web/careers/recruitment'
   document_published = 'unknown'
   document_url       = 'https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/uiic-AO-notification-2026%20Hindi.pdf'
   document_archive   = 'not_archived'
-  document_title     = 'Detailed Advertisement--Recruitment of Administrative officers-Generalists and Hindi Officers -2026 - Hindi Ve'
-
-  [[links.documents]]
-  document_type      = 'notification'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/uiicl%20%28administrative%20officers%29%20%20IH%20eng%202026.pdf'
-  document_archive   = 'not_archived'
-  document_title     = 'Information Handout for the Online Preliminary Examination (Tier-I) (English)'
+  document_title     = 'uiic AO notification 2026 Hindi'
 
   [[links.documents]]
   document_type      = 'notification'
@@ -368,15 +368,15 @@ link_apply         = 'https://uiic.co.in/web/careers/recruitment'
   document_published = 'unknown'
   document_url       = 'https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/uiicl%20%28administrative%20officers%29%20%20IH%20Hindi%202026.pdf'
   document_archive   = 'not_archived'
-  document_title     = 'Information Handout for the Online Preliminary Examination (Tier-I) (Hindi)'
+  document_title     = 'uiicl (administrative officers) IH Hindi 2026'
 
   [[links.documents]]
   document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/3.%20PET%20-%20Notice.pdf'
+  document_url       = 'https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/uiicl%20%28administrative%20officers%29%20%20IH%20eng%202026.pdf'
   document_archive   = 'not_archived'
-  document_title     = 'Notice regarding Pre-Recruitment Examination Training for SC/ST/OBC & PwBD Candidates.'
+  document_title     = 'uiicl (administrative officers) IH eng 2026'
 
   [[links.documents]]
   document_type      = 'corrigendum'
@@ -384,12 +384,12 @@ link_apply         = 'https://uiic.co.in/web/careers/recruitment'
   document_published = 'unknown'
   document_url       = 'https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/Corrigendum%20-%20Recruitment%20of%20Administrative%20Officers%20%28Scale%20I%29%20-%20Generalists%20and%20Hindi%20Officers-2026_0.pdf'
   document_archive   = 'not_archived'
-  document_title     = 'Corrigendum - Recruitment Of Administrative Officers (Scale I)--Generalists And Hindi Officers-2026'
+  document_title     = 'Corrigendum Recruitment of Administrative Officers (Scale I) Generalists and Hindi Officers 2026 0'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:13:31+05:30
+provenance_last_checked = 2026-10-22T14:28:20+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

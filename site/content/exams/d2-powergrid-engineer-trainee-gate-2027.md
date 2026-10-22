@@ -340,6 +340,7 @@ link_apply         = 'https://careers.powergrid.in/recruitment-nextgen/h/login.a
   document_published = 'unknown'
   document_url       = 'https://www.powergrid.in/sites/default/files/job_opportunities_document/ET2027_Detailed_Advertisement_For%20Website.pdf'
   document_archive   = 'https://web.archive.org/web/20261001002832/https://www.powergrid.in/sites/default/files/job_opportunities_document/ET2027_Detailed_Advertisement_For%20Website.pdf'
+  document_title     = 'ET2027 Detailed Advertisement For Website'
 
   [[links.documents]]
   document_type      = 'other'
@@ -351,7 +352,7 @@ link_apply         = 'https://careers.powergrid.in/recruitment-nextgen/h/login.a
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:47+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'fee.rows'

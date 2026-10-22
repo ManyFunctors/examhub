@@ -353,11 +353,12 @@ link_apply         = 'https://delhihighcourt.nic.in/web/job-openings'
   document_published = 'unknown'
   document_url       = 'https://delhihighcourt.nic.in/files/2026-09/recuritment/vacancy_circular_for_spa.pdf'
   document_archive   = 'http://web.archive.org/web/20260920055751/https://www.delhihighcourt.nic.in/files/2026-09/recuritment/vacancy_circular_for_spa.pdf'
+  document_title     = 'vacancy circular for spa'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:21+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

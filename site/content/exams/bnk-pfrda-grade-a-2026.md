@@ -364,6 +364,7 @@ link_apply         = 'https://pfrda.org.in/get-to-know/careers/vacancies'
   document_published = 'unknown'
   document_url       = 'https://pfrda.org.in/documents/33652/212847/Recruitment+of+Officer+Grade+A+%28Assistant+Manager%29-2026.pdf'
   document_archive   = 'http://web.archive.org/web/20260924171134/https://pfrda.org.in/documents/33652/212847/Recruitment+of+Officer+Grade+A+%28Assistant+Manager%29-2026.pdf'
+  document_title     = 'Recruitment of Officer Grade A (Assistant Manager) 2026'
 
   [[links.documents]]
   document_type      = 'other'
@@ -375,7 +376,7 @@ link_apply         = 'https://pfrda.org.in/get-to-know/careers/vacancies'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:47+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

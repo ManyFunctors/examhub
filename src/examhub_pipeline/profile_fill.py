@@ -22,6 +22,7 @@ import datetime as dt
 import re
 from pathlib import Path
 from typing import Any, Callable
+from urllib.parse import unquote
 
 from . import record as record_mod
 from .crawl.harvest import HARVEST_DIR, read_jsonl
@@ -182,6 +183,17 @@ def _titled(title: str) -> str:
     return short if re.search(r"[A-Za-z]{4}", short) else ""
 
 
+def _file_title(url: str) -> str:
+    """A title from the file's own name when no notice gave one: 'Detailed-Notification_CRP-PO-XVI.pdf'
+    -> 'Detailed Notification CRP PO XVI'. Names that are only a number or a stamp give nothing."""
+    if not re.search(r"\.(?:pdf|docx?|xlsx?|zip)(?:[?#]|$)", url, re.I):
+        return ""  # a portal or a page is not a file with a name of its own
+    stem = unquote(url.split("?")[0].rstrip("/").rsplit("/", 1)[-1])
+    stem = re.sub(r"\.[A-Za-z0-9]{2,4}$", "", stem)
+    words = re.sub(r"[-_+\s]+", " ", stem).strip()
+    return words if len(re.findall(r"[A-Za-z]{4,}", words)) >= 1 and not re.fullmatch(r"[\d\W_]*(?:notice|doc|file)?[\d\W_]*", words, re.I) else ""
+
+
 def order_documents(docs: list[dict]) -> None:
     """Notifications, then corrigenda, schedules, press releases, admit cards, the rest;
     newest first within a kind, a document with no date after those with one."""
@@ -219,14 +231,15 @@ def attach_notices(rec: dict, notices: list[dict], *, same_cycle_records: int) -
     (a series split into posts) cannot say which record a notice belongs to."""
     year = _year(rec.get("cycle"))
     exam = rec.get("exam_id")
-    if year is None or same_cycle_records != 1 or exam in SENTINELS:
+    can_add = not (year is None or same_cycle_records != 1 or exam in SENTINELS)
+    links = rec.get("links")
+    if not isinstance(links, dict) or not isinstance(links.get("documents"), list):
         return []
-    links = rec.setdefault("links", {})
-    docs = links.get("documents") if isinstance(links.get("documents"), list) else []
+    docs = links["documents"]
     have = {d.get("document_url") for d in docs}
     snapshot = [dict(d) for d in docs]
     added = []
-    for n in notices:
+    for n in notices if can_add else ():
         url = n.get("url") or ""
         if (n.get("exam") != exam or n.get("gone_since") or n.get("doc_type") not in LISTED_DOC_TYPES
                 or not url.lower().endswith(".pdf") or url in have
@@ -242,11 +255,14 @@ def attach_notices(rec: dict, notices: list[dict], *, same_cycle_records: int) -
                      **({"document_title": title} if title else {}),
                      "document_url": url, "document_archive": "not_archived"})
         added.append(url)
-    by_url = {n.get("url"): n for n in notices if n.get("exam") == exam}
-    for d in docs:  # a document listed before titles existed gets its title now
+    by_url = {n.get("url"): n for n in notices}
+    for d in docs:  # every listed document is titled: by its notice, else by its file name
         n = by_url.get(d.get("document_url"))
-        if n and _titled(n.get("title") or ""):
-            d["document_title"] = _titled(n["title"])  # derived from the notice, so it follows the rule as it improves
+        title = (_titled(n.get("title") or "") if n else "") or _file_title(d.get("document_url") or "")
+        if title:
+            d["document_title"] = title  # derived, so it follows the rule as it improves
+        else:
+            d.pop("document_title", None)
         if n and d.get("document_published") == _day(n.get("published")) and (
                 n.get("published_from") or _date_in_title(_day(n.get("published")), n.get("title") or "")):
             d["document_published"] = "unknown"  # an earlier run took a date out of the title
@@ -306,10 +322,8 @@ def fill(exams_dir: Path, *, apply: bool = False, directory: Path = HARVEST_DIR,
     changed = 0
     for path, rec, body in loaded:
         profile = profiles.get(rec.get("exam_id"))
-        if not profile:
-            continue
         count = per_cycle[(rec.get("exam_id"), _year(rec.get("cycle")))]
-        notes = fill_record(rec, profile, same_cycle_records=count)
+        notes = fill_record(rec, profile, same_cycle_records=count) if profile else []
         notes += attach_notices(rec, notices, same_cycle_records=count)
         if notes:
             record_mod.touch(rec)

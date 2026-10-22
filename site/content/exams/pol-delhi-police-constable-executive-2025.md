@@ -357,11 +357,20 @@ link_official_page = 'https://delhipolice.gov.in/'
 link_apply         = 'https://cctns.delhipolice.gov.in/citizenservices/missingpersonregistration.htm'
 
   [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-02-25
+  document_title     = 'Revised vacancies regarding'
+  document_url       = 'https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice1_25022026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
   document_type      = 'schedule'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://delhipolice.gov.in/RecruitmentFile/79001_Postponement%20Notice%20DP%20website.pdf'
   document_archive   = 'not_archived'
+  document_title     = '79001 Postponement Notice DP website'
 
   [[links.documents]]
   document_type      = 'other'
@@ -369,11 +378,12 @@ link_apply         = 'https://cctns.delhipolice.gov.in/citizenservices/missingpe
   document_published = 'unknown'
   document_url       = 'https://ssc.gov.in/'
   document_archive   = 'not_archived'
+  document_title     = 'Selection Posts Examination, 2026'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:25+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

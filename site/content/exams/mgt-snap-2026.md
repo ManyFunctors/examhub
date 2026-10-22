@@ -310,11 +310,12 @@ link_apply         = 'https://snap2026.ishinfosys.com/SN026ADY27/Apply/Index.asp
   document_published = 'unknown'
   document_url       = 'https://www.snaptest.org/documents/SNAP-2026-Bulletin.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'SNAP Bulletin 2026'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:24+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

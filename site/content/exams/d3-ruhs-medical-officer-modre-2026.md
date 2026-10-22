@@ -303,12 +303,51 @@ training_offered_for          = 'unknown'
 [links]
 link_official_page = 'https://www.ruhsraj.org/'
 link_apply         = 'https://online.ruhsraj.org/'
-documents          = []
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-07-29
+  document_title     = 'Information booklet CE Recruitment-2026 Dated 29-7-2026'
+  document_url       = 'https://old.ruhsraj.org/cms/uploads/2026/07/Information%20booklet%20CE%20Recruitment-2026%20dated%2029-7-2026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-07-29
+  document_title     = 'Notification-CE-Recruitment-2026 dated 29-07-2026'
+  document_url       = 'https://old.ruhsraj.org/cms/uploads/2026/07/Notification-CE-Recruitment-2026%20dated%2029-07-2026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_title     = 'Letter to all Private Colleges for Recruitment of Faculty through FMS and Grievance Redress on FMS'
+  document_url       = 'https://old.ruhsraj.org/cms/uploads/2026/01/FMS_All_Pvt_Colleges_for_Recruitment_and_Grievance_3530.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_title     = 'Medical Officer Direct Recruitment Examination 2026'
+  document_url       = 'https://old.ruhsraj.org/cms/uploads/2026/08/MO_600_2435.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_title     = 'RUHS Teaching Recruitment-2023 Fee Refund Process.'
+  document_url       = 'https://old.ruhsraj.org/cms/uploads/2026/05/Notification_and_Format_for_Fee_Refund_2026_dated_8_5_2026_web_3317.pdf'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:21+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

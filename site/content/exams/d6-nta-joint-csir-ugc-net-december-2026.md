@@ -304,11 +304,12 @@ link_apply         = 'https://csirnet.nta.nic.in/'
   document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Examcalendar.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Exam Calendar'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:22+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'

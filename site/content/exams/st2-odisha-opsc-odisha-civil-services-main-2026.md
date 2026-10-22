@@ -308,7 +308,7 @@ link_apply         = 'https://opsc.gov.in/Public/Pages/View_Content.aspx?id=KzBC
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:53+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'

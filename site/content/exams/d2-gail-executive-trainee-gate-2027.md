@@ -308,11 +308,12 @@ link_apply         = 'https://www.gailonline.com/careers/currentOpnning'
   document_published = 'unknown'
   document_url       = 'https://www.gailonline.com/careers/currentOpnning/GATE-2027-1st-Advertisement-01092026.pdf'
   document_archive   = 'https://web.archive.org/web/20261017055416/https://www.gailonline.com/careers/currentOpnning/GATE-2027-1st-Advertisement-01092026.pdf'
+  document_title     = 'GATE 2027 1st Advertisement 01092026'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:21+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'
