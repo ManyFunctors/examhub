@@ -33,30 +33,28 @@ jobs:
         with:
           enable-cache: true
 
-      - name: Look at pages
-        if: inputs.pages != ''
-        env:
-          PAGES: ${{ inputs.pages }}
-        run: |
-          python3 - <<'PY'
-          import os, re, urllib.request
-          for url in os.environ["PAGES"].split(","):
-              req = urllib.request.Request(url.strip(), headers={"User-Agent": "Mozilla/5.0"})
-              try:
-                  r = urllib.request.urlopen(req, timeout=60)
-                  html = r.read().decode("utf-8", "ignore")
-              except Exception as e:
-                  print(url, "ERROR", repr(e)[:200]); continue
-              print(url, r.status, len(html), "bytes")
-              for href, text in re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', html, re.S)[:150]:
-                  print("  ", href[:110], "|", re.sub(r"<[^>]+>|\s+", " ", text).strip()[:80])
-          PY
-
       - name: Install
         run: |
           uv python install 3.12
           uv venv --python 3.12
           uv pip install -e '.[crawl]'
+
+      - name: Look at pages
+        if: inputs.pages != ''
+        env:
+          PAGES: ${{ inputs.pages }}
+        run: |
+          # fetched the way the crawler fetches (its own TLS settings)
+          for url in ${PAGES//,/ }; do
+            uv run scrapy fetch --nolog "$url" > work_page.html || echo "$url FAILED"
+            echo "$url $(wc -c < work_page.html) bytes"
+            python3 - <<'PY'
+          import re
+          html = open("work_page.html", errors="ignore").read()
+          for href, text in re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', html, re.S)[:150]:
+              print("  ", href[:110], "|", re.sub(r"<[^>]+>|\s+", " ", text).strip()[:80])
+          PY
+          done
 
       - name: Firefox and geckodriver
         run: |
