@@ -351,6 +351,13 @@ link_apply         = 'unknown'
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
+  document_url       = 'https://recruitment.sbi.bank.in/crpd-sco-2026-27-25/apply'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
   document_url       = 'https://sbi.bank.in/csfile/18062026_1_Detailed_Adv.2026.pdf'
   document_archive   = 'http://web.archive.org/web/20260717102356/https://sbi.bank.in/csfile/18062026_1_Detailed_Adv.2026.pdf'
 
@@ -361,17 +368,10 @@ link_apply         = 'unknown'
   document_url       = 'https://sbi.co.in/careers'
   document_archive   = 'http://web.archive.org/web/20260624045512/https://sbi.co.in/careers/'
 
-  [[links.documents]]
-  document_type      = 'other'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://recruitment.sbi.bank.in/crpd-sco-2026-27-25/apply'
-  document_archive   = 'not_archived'
-
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:13:31+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

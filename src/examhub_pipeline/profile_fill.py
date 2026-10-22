@@ -152,6 +152,62 @@ def fill_record(rec: dict, profile: dict, *, same_cycle_records: int) -> list[st
 LISTED_DOC_TYPES = {"notification", "corrigendum", "press_release", "schedule", "calendar"}
 
 
+#: Most useful first: the notice itself, then changes to it, then the rest.
+_DOC_RANK = {"notification": 0, "brochure": 0, "corrigendum": 1, "schedule": 2, "calendar": 2,
+             "press_release": 3, "admit_card": 4}
+
+
+def _short_title(title: str) -> str:
+    """A listing title built as 'EXAM NAME - Document name' keeps only the document's name."""
+    head, sep, tail = title.partition(" - ")
+    title = tail if sep and len(head) > 30 else title
+    return re.sub(r"\s*\bRead\s*More\s*$", "", " ".join(title.split()), flags=re.I)[:110]
+
+
+def _date_in_title(day: dt.date | None, title: str) -> bool:
+    """Whether the title itself prints the date ("... Exam 26th July, 2026"): that is the
+    event's date, not the day the file was published."""
+    if day is None:
+        return False
+    month = day.strftime("%B")
+    return bool(re.search(rf"(?<!\d){day.day}(?:st|nd|rd|th)?\W+(?:{month}|{month[:3]})\b", title, re.I))
+
+
+def _titled(title: str) -> str:
+    """The short title, or nothing when it says nothing ('2026', 'Notice')."""
+    short = _short_title(title)
+    return short if re.search(r"[A-Za-z]{4}", short) else ""
+
+
+def order_documents(docs: list[dict]) -> None:
+    """Notifications, then corrigenda, schedules, press releases, admit cards, the rest;
+    newest first within a kind, a document with no date after those with one."""
+    docs.sort(key=lambda d: (_DOC_RANK.get(d.get("document_type"), 9),
+                             -(_day(d.get("document_published")) or dt.date.min).toordinal(),
+                             str(d.get("document_title") or d.get("document_url"))))
+
+
+#: Most documents of one kind a page lists: a press release a week would bury the notification.
+DOC_CAPS = {"notification": 6, "corrigendum": 6, "schedule": 3, "calendar": 3, "press_release": 3}
+
+
+def cap_documents(docs: list[dict]) -> None:
+    """Keep the first few of each kind (call after order_documents), dropping repeats of one title."""
+    seen: dict[str, int] = {}
+    titles: set[tuple] = set()
+    keep = []
+    for d in docs:
+        kind = d.get("document_type")
+        key = (kind, str(d.get("document_title") or "").lower())
+        if d.get("document_title") and key in titles:
+            continue
+        titles.add(key)
+        seen[kind] = seen.get(kind, 0) + 1
+        if seen[kind] <= DOC_CAPS.get(kind, 99):
+            keep.append(d)
+    docs[:] = keep
+
+
 def attach_notices(rec: dict, notices: list[dict], *, same_cycle_records: int) -> list[str]:
     """List the exam's matched notice PDFs for this cycle as the record's documents.
 
@@ -165,6 +221,7 @@ def attach_notices(rec: dict, notices: list[dict], *, same_cycle_records: int) -
     links = rec.setdefault("links", {})
     docs = links.get("documents") if isinstance(links.get("documents"), list) else []
     have = {d.get("document_url") for d in docs}
+    snapshot = [dict(d) for d in docs]
     added = []
     for n in notices:
         url = n.get("url") or ""
@@ -172,12 +229,32 @@ def attach_notices(rec: dict, notices: list[dict], *, same_cycle_records: int) -
                 or not url.lower().endswith(".pdf") or url in have
                 or not re.search(rf"(?<!\d){year}(?!\d)", f"{n.get('title', '')} {url}")):
             continue
+        # a date the pipeline guessed from the title (an exam date in "to be held on ...") is no publication date
+        published = _day(n.get("published"))
+        if n.get("published_from") or _date_in_title(published, n.get("title") or ""):
+            published = None
+        title = _titled(n.get("title") or "")
         docs.append({"document_type": n["doc_type"], "document_stage": "all",
-                     "document_published": _day(n.get("published")) or "unknown",
+                     "document_published": published or "unknown",
+                     **({"document_title": title} if title else {}),
                      "document_url": url, "document_archive": "not_archived"})
         added.append(url)
+    by_url = {n.get("url"): n for n in notices if n.get("exam") == exam}
+    for d in docs:  # a document listed before titles existed gets its title now
+        n = by_url.get(d.get("document_url"))
+        if n and _titled(n.get("title") or ""):
+            d["document_title"] = _titled(n["title"])  # derived from the notice, so it follows the rule as it improves
+        if n and d.get("document_published") == _day(n.get("published")) and (
+                n.get("published_from") or _date_in_title(_day(n.get("published")), n.get("title") or "")):
+            d["document_published"] = "unknown"  # an earlier run took a date out of the title
+    order_documents(docs)
+    cap_documents(docs)  # a document the cap drops is not added again on the next run
     links["documents"] = docs
-    return [f"links.documents += {u.rsplit('/', 1)[-1]}" for u in added]
+    kept = {d.get("document_url") for d in docs}
+    notes = [f"links.documents += {u.rsplit('/', 1)[-1]}" for u in added if u in kept]
+    if not notes and docs != snapshot:
+        notes.append("links.documents ordered")
+    return notes
 
 
 def _fill_age(rec: dict, age: dict | None, as_on: dict | None, cycle: int) -> list[str]:

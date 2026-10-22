@@ -203,7 +203,7 @@ def unwrap_soft_breaks(text: str) -> str:
                 _CELL_RE.match(following)
                 or _CELL_RE.match(current)
                 or _NOTE_CELL_RE.match(following)
-                or (_HAS_FULL_DATE.search(current) and _HAS_FULL_DATE.search(following))
+                or (len(current) < 120 and _HAS_FULL_DATE.search(current) and _HAS_FULL_DATE.search(following))
             )
         )
         if soft:
@@ -234,7 +234,7 @@ AMBIGUOUS_DATE_COUNT = 3
 
 
 _INR = r"(?:rs\.?|inr|\u20b9|rupees?)"
-_NUM = r"(\d{1,3}(?:,\d{2,3})+|\d+(?:\.\d+)?)"
+_NUM = r"(\d{1,3}(?:\s?,\d{2,3})+|\d+(?:\.\d+)?)"  # "1 ,300": a table cell's spacing
 
 
 # --------------------------------------------------------------------------
@@ -624,6 +624,11 @@ class Candidate:
 # Label patterns
 # --------------------------------------------------------------------------
 
+#: A clause about the application window: its dates are never the exam's.
+_APPLY_WINDOW = re.compile(
+    r"\bapplication\s+forms?\b[^.]{0,80}?\b(?:available|submitted|submission|accepted|open)\b|"
+    r"\b(?:online\s+)?applications?\b[^.]{0,60}?\b(?:from|between)\b[^.]{0,40}?\bto\b", re.I)
+
 #: Each entry is (field key, pattern, base hint). The pattern is matched
 #: against a *clause* (a line, or a sentence), never the whole page, so
 #: "last date" on one line cannot attach a date printed two clauses later.
@@ -645,6 +650,10 @@ _LABEL_PATTERNS: tuple[tuple[str, re.Pattern[str], float], ...] = (
         r"\bexamination\s+will\s+be\b|\bfrom\s+(?:\d{1,2}(?:st|nd|rd|th)?[\s,]+)?(?:January|February|March|April|"
         r"May|June|July|August|September|October|November|December|Jan\.?|Feb\.?|Mar\.?|Apr\.?|"
         r"Jun\.?|Jul\.?|Aug\.?|Sep\.?|Sept\.?|Oct\.?|Nov\.?|Dec\.?)\b", re.I), 0.75),
+    # "SPPU will conduct the 41st SET examination at centres in <long list> on Sunday, 26th July, 2026"
+    ("exam_date", re.compile(
+        r"\bconduct\w*\b[^.;]{0,300}?\b(?:examination|exam|test)\b[^.;]{0,300}?"
+        r"\bon\s+(?:mon|tues|wednes|thurs|fri|satur|sun)day\b,?", re.I), 0.85),
     # A bare "Examination ... on <date>" is common and usually right, but it
     # is also the shape a stray date takes, so it scores below the labels.
     ("exam_date", re.compile(
@@ -693,6 +702,9 @@ _LABEL_PATTERNS: tuple[tuple[str, re.Pattern[str], float], ...] = (
     # 10/08/2026" -- the "from" date opens the window, the "to" date closes it.
     ("registration_open", re.compile(
         r"\bregistration\b[^.;\n]{0,80}?[:\-]?\s*\bfrom\b", re.I), 0.85),
+    # "The examination application forms will be available only online on <site> from 2nd June, 2026 ... to 16th June"
+    ("registration_open", re.compile(
+        r"\bapplication\s+forms?\b[^.;]{0,160}?\bavailable\b[^.;]{0,160}?\bfrom\b", re.I), 0.85),
     ("registration_open", re.compile(
         r"\b(commence\w*\s+(?:of\s+|from\s+|on\s+)?(?:the\s+)?(?:online\s+)?"
         r"(?:registration|application|filing|filling)|"
@@ -979,7 +991,9 @@ _RANGE_LABEL = re.compile(
 _RANGE_OTHER = re.compile(
     r"\b(?:correction|edit|late\s+fee|admit|hall\s+ticket|exam(?:ination)?\s+(?:date|will)|"
     r"result|answer\s+key|counsell?ing)\b", re.I)
-_RANGE_JOIN = re.compile(r"^\s*(?:\([^)]{0,30}\)\s*)?(?:to|till|until|up\s*to|–|-)\s*$", re.I)
+_RANGE_JOIN = re.compile(
+    r"^\s*(?:\([^)]{0,30}\)\s*)?(?:(?:at\s+)?\d{1,2}[.:]\d{2}\s*[ap]\.?m\.?\s*(?:onwards\s*)?)?"
+    r"(?:to|till|until|up\s*to|–|-)\s*$", re.I)
 
 
 def _range_candidates(clause: str, day_dates: Sequence[ParsedDate], page: int | None,
@@ -1192,6 +1206,10 @@ def _candidates_in_unit(
                 continue
             for label_match in pattern.finditer(clause):
                 if _label_is_reference(clause, label_match):
+                    continue
+                # "The examination application forms will be available from 2nd June to ...":
+                # the window is for applying, whatever word sits before "application"
+                if key == "exam_date" and _APPLY_WINDOW.search(clause):
                     continue
                 # a bare "from <month>" is an exam date only beside an exam word
                 if (key == "exam_date" and label_match.group(0).lower().startswith("from")

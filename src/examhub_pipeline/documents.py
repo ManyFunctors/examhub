@@ -144,7 +144,7 @@ def amounts_in(text: str) -> list[tuple[int, int]]:
     out = []
     for m in _AMOUNT.finditer(text):
         raw = next(g for g in m.groups() if g)
-        value = cand.parse_int(raw.replace(",", "").split(".")[0])
+        value = cand.parse_int(re.sub(r"[,\s]", "", raw).split(".")[0])
         if value is not None:
             out.append((m.start(), value))
     return out
@@ -383,13 +383,17 @@ def parse_fee_table(table: Table) -> list[dict[str, Any]]:
     money_cols = {i for i, h in enumerate(table.header) if _FEE_HEAD.search(h)}
     for row in table.rows:
         text = " ".join(row)
-        if max(len(c) for c in row) > 60:
+        if any(len(c) > 60 and amounts_in(c) for c in row):
             # A sentence in a box ("Fee payable: Rs 100/- for male
             # candidates of UR ..."), not a cell.
             out.extend(fees_prose([(table.page, text)]))
             continue
         amount = None
-        for i in reversed(range(len(row))):
+        # "Regular Fee | Late Fee": the fee is the regular column, not the last
+        late = {i for i, h in enumerate(table.header) if re.search(r"\blate\b|\bpenalt", h, re.I)}
+        for i in (range(len(row)) if late else reversed(range(len(row)))):
+            if i in late:
+                continue
             amount = _amount_of(row[i], bare=i in money_cols)
             if amount is not None:
                 break
@@ -475,6 +479,9 @@ _EVENT_KEYS: tuple[tuple[re.Pattern[str], str], ...] = tuple(
         (r"(?:open|start|commence|begin)\w*.*(?:regist|appl|submi|online)|(?:regist|appl|submi|online).*(?:open|start|commence|begin)", "registration_open"),
         # a bare "Online submission of application form" row is the window itself (from .. until)
         (r"^(?!.*\blate\b)(?:online\s+)?(?:submission|registration|application).*(?:form|application)|^apply\s+online", "registration_open"),
+        # "The examination application forms will be available ... from 2nd June to 16th June"
+        (r"\bapplication\s+forms?\b.*\b(?:available|submi\w+|accept\w*)|\bapplications?\s+(?:will\s+be\s+)?(?:available|accepted|received)",
+         "registration_open"),
         (r"exam|test|cbt|prelim|mains?\b|interview", "exam_date"),
         (r"as\s+on|cut[-\s]?off\s+date|crucial\s+date", "age_as_on"),
     )
@@ -551,7 +558,8 @@ def parse_schedule_lines(pages: Sequence[tuple[int, str]], reference: dt.date) -
             days = _line_days(line, reference)
             if days and len(_DATE_WORDS.sub("", _SUPERSCRIPT_MARK.sub("th", line)).split()) <= 2:
                 words = " ".join(label)
-                key = event_key(words)
+                # a label that carries dates of its own is a sentence cut across lines, not a row label
+                key = None if cand._HAS_FULL_DATE.search(words) else event_key(words)
                 if key:
                     item = {"event": words[:160], "key": key, "date": days[0], "page": page}
                     if days[-1] != days[0]:

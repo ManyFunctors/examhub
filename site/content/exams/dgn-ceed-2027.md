@@ -339,23 +339,23 @@ link_official_page = 'https://www.ceed.iitb.ac.in/'
 link_apply         = 'https://www.ceed.iitb.ac.in/'
 
   [[links.documents]]
-  document_type      = 'other'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://www.ceed.iitb.ac.in/2026/'
-  document_archive   = 'not_archived'
-
-  [[links.documents]]
   document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.ceed.iitb.ac.in/2027/downloads/CEED2027_Brochure.pdf'
   document_archive   = 'not_archived'
 
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://www.ceed.iitb.ac.in/2026/'
+  document_archive   = 'not_archived'
+
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-18T02:43:21+05:30
+provenance_last_checked = 2026-10-22T14:13:31+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.stages[1].exam'

@@ -332,23 +332,24 @@ link_official_page = 'https://www.ibps.in/index.php/specialist-officers-xvi/'
 link_apply         = 'unknown'
 
   [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-06-30
+  document_url       = 'https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf'
+  document_archive   = 'not_archived'
+  document_title     = '01 Jul 26 Notification for Common Recruitment Process for CRP- SPL-XVI'
+
+  [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.ibps.in/'
   document_archive   = 'http://web.archive.org/web/20261004100528/https://www.ibps.in/'
 
-  [[links.documents]]
-  document_type      = 'notification'
-  document_stage     = 'all'
-  document_published = 2026-06-30
-  document_url       = 'https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf'
-  document_archive   = 'not_archived'
-
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T13:58:05+05:30
+provenance_last_checked = 2026-10-22T14:13:31+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

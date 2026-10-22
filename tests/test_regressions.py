@@ -255,3 +255,34 @@ class TestLabelPatterns:
 
         pattern = next(p for k, p, _ in _LABEL_PATTERNS if k == "registration_deadline")
         assert bool(pattern.search(text)) is expected
+
+
+SPPU_AD = (
+    "Savitribai Phule Pune University, the State Agency will conduct 41st SET examination at\n"
+    "centres located in the cities Mumbai, Pune, Kolhapur, Solapur, Ahilyanagar, Nasik, Dhule,\n"
+    "Jalgaon, Nanded, Amravati, Nagpur, Chandrapur & Panjim (Goa) on Sunday, 26th July, 2026. The examination\n"
+    "application forms will be available only “online” on the website https://setexam.unipune.ac.in\n"
+    "from 2nd June, 2026 at 11.00 a.m. onwards to 16th June, 2026 till 6.00 p.m. with regular fee.\n"
+    "Period for submitting online Application form with late fee will be 17th June, 2026 at 11.00\n"
+    "a.m. onwards to 19th June, 2026 till 6.00 p.m.\n"
+)
+
+
+def test_application_window_sentence_is_not_the_exam_date():
+    import datetime as dt
+
+    from examhub_pipeline import candidates as cand
+    found = cand.adjudicate(cand.find_candidates(SPPU_AD, "u", pages=[(1, SPPU_AD, False)],
+                                                 reference=dt.date(2026, 6, 1)))
+    assert found["exam_date"].chosen.value == "2026-07-26"
+    assert found["registration_open"].chosen.value == "2026-06-02"
+    assert found["registration_deadline"].chosen.value == "2026-06-16"
+
+
+def test_fee_table_takes_the_regular_column_and_tolerates_spaced_thousands():
+    from examhub_pipeline import documents
+    table = documents.Table(page=1, header=["Category", "Regular Fee", "Late Fee"], rows=[
+        ["i) OPEN", "Rs. 800/-", "Rs. 1,300/-"],
+        ["ii) OBC/DT(A)(VJ)/NT(B)/NT(C)/NT(D)/ SEBC/(for Non Creamy Layer)*/ Open(EWS)/ PwD/SC/ST", "Rs. 650/-", "Rs. 1,150/-"]])
+    assert [f["amount"] for f in documents.parse_fee_table(table)] == [800, 650]
+    assert documents.amounts_in("Rs 1 ,300/ . -")[0][1] == 1300

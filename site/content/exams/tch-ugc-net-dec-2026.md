@@ -358,18 +358,12 @@ link_official_page = 'https://ugcnet.nta.nic.in/'
 link_apply         = 'https://ugcnet.nta.nic.in/'
 
   [[links.documents]]
-  document_type      = 'calendar'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://www.nta.ac.in/Download/Notice/Examcalendar.pdf'
-  document_archive   = 'not_archived'
-
-  [[links.documents]]
   document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Public Notice Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination'
 
   [[links.documents]]
   document_type      = 'corrigendum'
@@ -377,19 +371,21 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
   document_published = 'unknown'
   document_url       = 'https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination – reg'
 
   [[links.documents]]
-  document_type      = 'press_release'
+  document_type      = 'schedule'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260924172919.pdf'
+  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260606142500.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Public Notice regarding Subject-wise Scheduled of UGC-NET June 2026 Examination'
 
   [[links.documents]]
-  document_type      = 'press_release'
+  document_type      = 'calendar'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260520174345.pdf'
+  document_url       = 'https://www.nta.ac.in/Download/Notice/Examcalendar.pdf'
   document_archive   = 'not_archived'
 
   [[links.documents]]
@@ -398,20 +394,7 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
   document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260507122133.pdf'
   document_archive   = 'not_archived'
-
-  [[links.documents]]
-  document_type      = 'schedule'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260606142500.pdf'
-  document_archive   = 'not_archived'
-
-  [[links.documents]]
-  document_type      = 'press_release'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260508131923.pdf'
-  document_archive   = 'not_archived'
+  document_title     = 'Public Notice for Advisory for completion of application process of UGC-NET June 2026 examination'
 
   [[links.documents]]
   document_type      = 'press_release'
@@ -419,13 +402,7 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
   document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260514174819.pdf'
   document_archive   = 'not_archived'
-
-  [[links.documents]]
-  document_type      = 'press_release'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260618113547.PDF'
-  document_archive   = 'not_archived'
+  document_title     = 'Public Notice for Second Advisory for completion of application process of UGC-NET June 2026 examination'
 
   [[links.documents]]
   document_type      = 'press_release'
@@ -433,25 +410,12 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
   document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260527175411.pdf'
   document_archive   = 'not_archived'
-
-  [[links.documents]]
-  document_type      = 'press_release'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/09/20260924982245914.pdf'
-  document_archive   = 'not_archived'
-
-  [[links.documents]]
-  document_type      = 'press_release'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260526121738.pdf'
-  document_archive   = 'not_archived'
+  document_title     = 'Public Notice regarding Addition of Examination Cities and Expansion of City Choice Options for UGC-NET June 2'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T13:58:05+05:30
+provenance_last_checked = 2026-10-22T14:19:25+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'fee.rows'
