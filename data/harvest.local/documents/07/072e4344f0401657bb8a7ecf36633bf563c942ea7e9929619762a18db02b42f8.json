@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "072e4344f0401657bb8a7ecf36633bf563c942ea7e9929619762a18db02b42f8",
+  "url": "https://cohsem.nic.in/docs/Notice/Venue_update_2025.pdf",
+  "title": "Notice for the students regarding the examination Centre/venue change for the particular students for ensuing Higher Secondary Examinations, 2025. Dated 11 th February, 2025. Notice for modification regarding the examination Centre/venue for ensuing Higher Secondary Examinations, 2025. Dated 10 th February, 2025. Notice for the students regarding the examination Centre/venue change for the particular students for ensuing Higher Secondary Examinations, 2025. Dated 10 th February, 2025. Notice for",
+  "body": "mn-cohsem",
+  "exam": "mn-cohsem-class-12",
+  "feed": "mn-cohsem/notice",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "02fdf4f5975ee4af5dcb0feac003ccf66d220c4baf6a0113062479fbc58891b6",
+  "bytes": 418113,
+  "pages": 1,
+  "chars": 1719,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:18:07+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2025-01-22",
+   "evidence": "NOTIFICATION Imphal, the 11\" February, 2025 No.2/61/97-HSC(Vol-I):/85 76 In pursuance of Resolution No.2.2 of the Examination Committee meeting of the Council held on 22/01/2025 there is a partial modification of this office",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "summary": {
+  "exam_date": "2025-01-22"
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

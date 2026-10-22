@@ -1,0 +1,265 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "e2187ffac0f2c8d915cefe9da817537ca63876592a0b7f270f1a0ed1a857e1ec",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20260423195407.pdf",
+  "title": "JEE (Main) 2026 Session -1 and Session-2 for Paper-1 (B.E/ B. Tech) Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "683971413ae81c3210eb58a3751e9f49cefb67fc4160c0bd472ca764a04e3e1d",
+  "bytes": 1517735,
+  "pages": 48,
+  "chars": 82113,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-09T06:58:54+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2026-01-21",
+   "evidence": "Exam date & Shift Male Female Total GEN EWS OBC SC ST GEN EWS OBC SC ST",
+   "page": 2,
+   "from": "text"
+  }
+ },
+ "unmapped_classes": [
+  {
+   "label": "Male OBC",
+   "page": 2
+  },
+  {
+   "label": "Female OBC",
+   "page": 2
+  }
+ ],
+ "vacancies": {
+  "total": 2466197,
+  "by_category": {
+   "Unreserved": 863468,
+   "SC": 254588,
+   "ST": 87421,
+   "EWS": 302682
+  },
+  "rows": [
+   {
+    "label": "21012026 . . / S1",
+    "total": 134054,
+    "by_category": {
+     "Unreserved": 45750,
+     "EWS": 16872,
+     "SC": 13708,
+     "ST": 4622
+    },
+    "page": 2
+   },
+   {
+    "label": "21012026 . . / S2",
+    "total": 135072,
+    "by_category": {
+     "Unreserved": 46375,
+     "EWS": 16829,
+     "SC": 13743,
+     "ST": 4631
+    },
+    "page": 2
+   },
+   {
+    "label": "22012026 . . / S1",
+    "total": 135921,
+    "by_category": {
+     "Unreserved": 46838,
+     "EWS": 16911,
+     "SC": 13734,
+     "ST": 4628
+    },
+    "page": 2
+   },
+   {
+    "label": "22012026 . . / S2",
+    "total": 136021,
+    "by_category": {
+     "Unreserved": 46913,
+     "EWS": 16896,
+     "SC": 13755,
+     "ST": 4629
+    },
+    "page": 2
+   },
+   {
+    "label": "23012026 . . / S1",
+    "total": 131918,
+    "by_category": {
+     "Unreserved": 43798,
+     "EWS": 16806,
+     "SC": 13277,
+     "ST": 4597
+    },
+    "page": 2
+   },
+   {
+    "label": "23012026 . . / S2",
+    "total": 131133,
+    "by_category": {
+     "Unreserved": 43684,
+     "EWS": 16891,
+     "SC": 12837,
+     "ST": 4601
+    },
+    "page": 2
+   },
+   {
+    "label": "24012026 . . / S1",
+    "total": 137955,
+    "by_category": {
+     "Unreserved": 48835,
+     "EWS": 16899,
+     "SC": 13835,
+     "ST": 4635
+    },
+    "page": 2
+   },
+   {
+    "label": "24012026 . . / S2",
+    "total": 138019,
+    "by_category": {
+     "Unreserved": 48213,
+     "EWS": 16892,
+     "SC": 14184,
+     "ST": 4650
+    },
+    "page": 2
+   },
+   {
+    "label": "28012026 . . / S1",
+    "total": 137984,
+    "by_category": {
+     "Unreserved": 48107,
+     "EWS": 16906,
+     "SC": 14213,
+     "ST": 4655
+    },
+    "page": 2
+   },
+   {
+    "label": "28012026 . . / S2",
+    "total": 137216,
+    "by_category": {
+     "Unreserved": 47955,
+     "EWS": 16690,
+     "SC": 14106,
+     "ST": 4602
+    },
+    "page": 2
+   },
+   {
+    "label": "02042026 . . / S1",
+    "total": 123416,
+    "by_category": {
+     "Unreserved": 44171,
+     "EWS": 14899,
+     "SC": 12992,
+     "ST": 4548
+    },
+    "page": 2
+   },
+   {
+    "label": "02042026 . . / S2",
+    "total": 123137,
+    "by_category": {
+     "Unreserved": 43928,
+     "EWS": 14865,
+     "SC": 13001,
+     "ST": 4566
+    },
+    "page": 2
+   },
+   {
+    "label": "04042026 . . / S1",
+    "total": 123572,
+    "by_category": {
+     "Unreserved": 44230,
+     "EWS": 14900,
+     "SC": 13017,
+     "ST": 4558
+    },
+    "page": 2
+   },
+   {
+    "label": "04042026 . . / S2",
+    "total": 123214,
+    "by_category": {
+     "Unreserved": 44003,
+     "EWS": 14873,
+     "SC": 13010,
+     "ST": 4544
+    },
+    "page": 2
+   },
+   {
+    "label": "05042026 . . / S1",
+    "total": 123311,
+    "by_category": {
+     "Unreserved": 44109,
+     "EWS": 14893,
+     "SC": 13007,
+     "ST": 4550
+    },
+    "page": 2
+   },
+   {
+    "label": "05042026 . . / S2",
+    "total": 123109,
+    "by_category": {
+     "Unreserved": 43830,
+     "EWS": 14928,
+     "SC": 13030,
+     "ST": 4539
+    },
+    "page": 2
+   },
+   {
+    "label": "06042026 . . / S1",
+    "total": 123463,
+    "by_category": {
+     "Unreserved": 44135,
+     "EWS": 14900,
+     "SC": 13018,
+     "ST": 4632
+    },
+    "page": 2
+   },
+   {
+    "label": "06042026 . . / S2",
+    "total": 123605,
+    "by_category": {
+     "Unreserved": 44144,
+     "EWS": 14914,
+     "SC": 13021,
+     "ST": 4679
+    },
+    "page": 2
+   },
+   {
+    "label": "08042026 . . / S2",
+    "total": 124077,
+    "by_category": {
+     "Unreserved": 44450,
+     "EWS": 14918,
+     "SC": 13100,
+     "ST": 4555
+    },
+    "page": 2
+   }
+  ],
+  "from": "table"
+ },
+ "summary": {
+  "vacancies": 2466197,
+  "exam_date": "2026-01-21"
+ }
+}

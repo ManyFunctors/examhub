@@ -1,0 +1,128 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "ba1d49a9b74f8acb4735c2633141cf61271954a05f552378faa5ffee4a98705a",
+  "url": "https://setexam.unipune.ac.in/SET_2026/Prospectus_SET_JULY_2026.pdf",
+  "title": "Prospectus of SET Exam 26th July, 2026",
+  "body": "mh-sppu-set",
+  "exam": "mh-set",
+  "feed": "mh-sppu-set/home",
+  "published": "2026-07-26",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "edd76726e37651ad7e78145363846cd0c6483da84a2f07c0a8f5b93636faade4",
+  "bytes": 1625297,
+  "pages": 27,
+  "chars": 48084,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T13:55:36+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "registration_open": {
+   "date": "2026-06-02",
+   "evidence": " Commencement of online Application",
+   "page": 3,
+   "from": "text"
+  },
+  "exam_date": {
+   "date": "2026-07-26",
+   "evidence": "These updated syllabi will be applicable for SET to be conducted on 26th July,2026",
+   "page": 12,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "The candidates must have Master’s Degree recognized by U.G.C., in a subject of SET",
+    "page": 5
+   },
+   {
+    "text": "Nodal Agency do not verify the information provided by the candidates in their application form, hence candidature of all applicants will be purely provisional subject to the fulfillment of eligibility criteria",
+    "page": 6
+   },
+   {
+    "text": "*The candidates with Master's Degree in Public Services are eligible to appear in subject 'Political Science'",
+    "page": 9
+   },
+   {
+    "text": "The candidates to be considered for determining qualifying slots subject-wise, category-wise, must have appeared in both the papers & secured at least 40% aggregate marks in both the papers taken together for General Category candidates &at least 35% aggregate marks in both the papers taken…",
+    "page": 13
+   },
+   {
+    "text": "Such candidates have to produce the scribe before the concerned Center Superintendent along with his/her certificates of educational qualifications at least one day before the test",
+    "page": 15
+   },
+   {
+    "text": "Before applying Online, the candidates must possess the scanned images as below: -  Passport size photograph with both ears visible with white background in JPG/ JPEG format of maximum 50kb",
+    "page": 17
+   }
+  ]
+ },
+ "selection": [
+  "Written examination"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "First",
+   "page": 11,
+   "duration": "1hour(1000am to1100am) . . . . . ."
+  },
+  {
+   "paper": "Second",
+   "page": 11,
+   "duration": "2hours(1130am to130pm) . . . . . ."
+  },
+  {
+   "paper": "OPEN/EWS/General",
+   "page": 13,
+   "marks": 40
+  },
+  {
+   "paper": "*SC/ST/PwD(Disability40%or more)/Trans-genders/Orphans * OBC/DT(A)(VJ)/NT(B)/NT(C)/ NT(D)/SEBC/(NonCreamyLayer only)",
+   "page": 13,
+   "marks": 35
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 2
+  },
+  "negative_marking": {
+   "value": "No negative marking",
+   "page": 11
+  }
+ },
+ "links": {
+  "apply": [
+   "http://setexam.unipune.ac.in/",
+   "https://setexam.unipune.ac.in/",
+   "https://www.ugcnetonline.in/syllabus-new.php",
+   "https://setexam.unipune.ac.in/SyllabusOfPapers.aspx",
+   "https://www.ugcnetonline.in/"
+  ],
+  "other": [
+   "https://csirhrdg.res.in/",
+   "https://www.aiu.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2026-06-02"
+  },
+  "exam_date": "2026-07-26",
+  "education": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "selection": "Written examination"
+ }
+}

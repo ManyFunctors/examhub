@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0bba5134d24b3c91c32edf2545409fa7469f487eba8401e593aa562b8545b8c5",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20191215133103.pdf",
+  "title": "1817 Public Notice Regarding filling in the Application of NEET (UG)-2020 by the aspirants from Kashmir Valley and Leh (15 December 2019) Read More",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/notices",
+  "published": "2019-12-15",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "c584898baba636ea37fbff877ac3afcb2d49c4a01ac6818b2abaf22a160141d0",
+  "bytes": 476425,
+  "pages": 12,
+  "chars": 19527,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-07T23:26:23+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2020-05-03",
+   "evidence": "The NEET (UG)-2020 is scheduled to be conducted on 3 May 2020",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "Unreserved"
+   ],
+   "amount": 1500,
+   "raw": "Fee Payable byCandidate   General   Rs 1500/ . -",
+   "page": 2
+  },
+  {
+   "categories": [
+    "Unreserved",
+    "EWS",
+    "OBC-NCL"
+   ],
+   "amount": 1400,
+   "raw": "  General -EWS/OBC -NCL*   Rs 1400/ . - ",
+   "page": 2
+  },
+  {
+   "categories": [
+    "SC",
+    "ST",
+    "PwBD",
+    "Transgender"
+   ],
+   "amount": 800,
+   "raw": "   SC/ST/PwD/Transgender   Rs 800/ . -",
+   "page": 2
+  }
+ ],
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "The Information Bulletin containing detailed information of the Test, syllabus, eligibility criteria to appear/admission, reservation, classification of seats, examination fee, cities of examination, State Code of eligibility, age etc., is available on website ntaneet.nic.in",
+    "page": 2
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "https://plus.codes/8J6P2VRJ+H3",
+   "https://www.ncbc.nic.in",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2020-05-03",
+  "fee": {
+   "min": 800,
+   "max": 1500
+  }
+ }
+}

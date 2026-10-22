@@ -1,0 +1,47 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "99985f31385113b2cddcfc17f71e3fa7888c8037cf2032e8c51e9a266a2e13ee",
+  "url": "https://www.du.ac.in/uploads/advt/01022021_ramanujan_advt_corrigendum.pdf",
+  "title": "Corrigendum for permanent non-teaching posts - Ramanujan College",
+  "body": "dl-du",
+  "exam": "dl-du-recruitment",
+  "feed": "dl-du/jobs-opportunities",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "26cdb10b6d50fce219285e0e739f3c6aa023c3bbb92dc5e0913bfaccd926db79",
+  "bytes": 375566,
+  "pages": 1,
+  "chars": 1368,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:18:19+05:30"
+ },
+ "kind": "corrigendum",
+ "advertisement_no": "NTS/01/2021/01",
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Lib.Sc./M.L.L Sc. or equivalent OR Master's Degree in Arts/Science/commerce or any other discipline and B",
+    "page": 1
+   }
+  ]
+ },
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "summary": {
+  "education": [
+   "Postgraduate",
+   "Graduate"
+  ]
+ }
+}

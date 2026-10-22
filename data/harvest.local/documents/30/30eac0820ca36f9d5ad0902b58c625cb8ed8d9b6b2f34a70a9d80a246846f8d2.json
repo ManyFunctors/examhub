@@ -1,0 +1,236 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "30eac0820ca36f9d5ad0902b58c625cb8ed8d9b6b2f34a70a9d80a246846f8d2",
+  "url": "https://www.uceed.iitb.ac.in/2026/assets/downloads/docs/UCEED2026_Information_Brochure.pdf",
+  "title": "Information Brochure",
+  "body": "in-iitb",
+  "exam": "in-uceed",
+  "feed": "in-iitb/uceed",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "32ef35885460ee5ca9a0e0e539a1206307b9b802ae447944d0ccb6db54636937",
+  "bytes": 1261980,
+  "pages": 71,
+  "chars": 111647,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:29+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "exam_date": {
+   "date": "2026-01-18",
+   "provisional": true,
+   "evidence": "14.1 Exam date and time: Sunday, 18 January 2026, 9.00 am - 12.00 noon.  [document-level hedge: Note: The dates for the seat allotment rounds are tentative]",
+   "page": 30,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2025-10-31",
+   "provisional": true,
+   "evidence": "• The above registration fee is applicable till the closing date of October 31, 2025.  [document-level hedge: Note: The dates for the seat allotment rounds are tentative]",
+   "page": 24,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "Unreserved",
+    "EWS",
+    "OBC-NCL"
+   ],
+   "amount": 60000,
+   "raw": "They will be directed to an online payment system to remit the Seat Acceptance Fee of ₹ 60,000/- (Rupees Sixty Thousand only) for GEN/EWS/OBC- NCL and ₹ 15,000/- (Rupees Fifteen Thousand only) for SC/ST/PwD",
+   "page": 50
+  },
+  {
+   "categories": [
+    "SC",
+    "ST",
+    "PwBD"
+   ],
+   "amount": 15000,
+   "raw": "They will be directed to an online payment system to remit the Seat Acceptance Fee of ₹ 60,000/- (Rupees Sixty Thousand only) for GEN/EWS/OBC- NCL and ₹ 15,000/- (Rupees Fifteen Thousand only) for SC/ST/PwD",
+   "page": 50
+  }
+ ],
+ "pay": [
+  {
+   "levels": [
+    1,
+    4
+   ],
+   "text": "Pay Levels 1, 4",
+   "evidence": "The BDes curriculum has a four-level structure leading to a gradual movement from general, foundational courses at level 1 to more specialized inputs at level 4",
+   "page": 11
+  },
+  {
+   "levels": [
+    1,
+    2
+   ],
+   "text": "Pay Levels 1, 2",
+   "evidence": "As the student moves upwards from level 1 to level 2, the student graduates to choosing between courses which offer different kinds of skills from soft to hard",
+   "page": 11
+  },
+  {
+   "levels": [
+    1
+   ],
+   "text": "Pay Level 1",
+   "evidence": "The courses at level 1 would help the students to choose the mix of skills they prefer to acquire",
+   "page": 11
+  },
+  {
+   "levels": [
+    3
+   ],
+   "text": "Pay Level 3",
+   "evidence": "At level 3, it is hoped that the student is ready to fine tune a certain mix or a set of skills into a specialization",
+   "page": 11
+  },
+  {
+   "levels": [
+    4
+   ],
+   "text": "Pay Level 4",
+   "evidence": "At Level 4, the student employs all that has been gained regarding skills and understanding and applies or uses them in independent projects",
+   "page": 11
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "ELIGIBILITY CRITERIA FOR APPEARING IN UCEED 2026 __________________________ 18",
+    "page": 3
+   },
+   {
+    "text": "ELIGIBILITY CRITERIA FOR APPLYING FOR BDes _________________________________ 38",
+    "page": 3
+   },
+   {
+    "text": "Only those students who have passed Class XII (or equivalent) in the year 2025 or are appearing in the year 2026, in ANY STREAM (Science, Commerce, or Arts & Humanities) for the first time are eligible to appear for the UCEED 2026 [See ELIGIBILITY CRITERIA FOR APPEARING IN UCEED for complete…",
+    "page": 4
+   },
+   {
+    "text": "However, the aspirants should have qualified UCEED in the same year",
+    "page": 9
+   },
+   {
+    "text": "6.13 To be considered for seat allocation, foreign national candidates should have an All India Rank (AIR) and satisfy all the eligibility requirements meant for an OPEN category candidate",
+    "page": 19
+   },
+   {
+    "text": "ELIGIBILITY CRITERIA FOR APPEARING IN UCEED 2026 A candidate, including a foreign national, must simultaneously fulfil every one of the following three criteria to appear in UCEED 2026",
+    "page": 21
+   },
+   {
+    "text": "The candidate should have been born on or after October 1, 2001, if belonging to the OPEN/EWS/OBC-NCL category and born on or after October 1, 1996, if belonging to the SC, ST or PwD category",
+    "page": 21
+   },
+   {
+    "text": "(i) A candidate should have appeared for the Class XII (or equivalent) examination for the first time in either 2025 OR 2026 to be eligible for attempting UCEED 2026",
+    "page": 21
+   },
+   {
+    "text": "However, if the examination Board of Class XII (or equivalent) declared the results for the academic year 2023-24 on or after September 30, 2024, then the candidates of that Board who appeared for their Class XII (or equivalent) examination in 2024 are also eligible to appear in UCEED 2026,…",
+    "page": 21
+   },
+   {
+    "text": "• In case the Class XII examination is not a public examination, the candidate must have already passed at least one public (Board or Pre-University) examination before appearing for UCEED.",
+    "page": 22
+   },
+   {
+    "text": "9.2 Candidates should simultaneously satisfy ALL the THREE eligibility criteria [Refer ELIGIBILITY CRITERIA FOR APPEARING IN UCEED 2026].",
+    "page": 23
+   },
+   {
+    "text": "ELIGIBILITY CRITERIA FOR APPLYING FOR BDes",
+    "page": 41
+   },
+   {
+    "text": "However, in exceptional cases where the qualifying examination is expected to be held after the date of application for admission, candidates must contact UCEED office by email addressed to uceed@iitb.ac.in (b) proof of having passed the qualifying examination with required eligibility is…",
+    "page": 42
+   },
+   {
+    "text": "23.13 To be considered for seat allocation, foreign national candidates should have an All-India Rank (AIR) and satisfy all the eligibility requirements meant for an OPEN category candidate",
+    "page": 46
+   }
+  ]
+ },
+ "exam_pattern": [
+  {
+   "paper": "Numerical An- swer Type (NAT)",
+   "page": 33,
+   "questions": 0,
+   "marks": 4
+  },
+  {
+   "paper": "Multiple Select Question (MSQ)",
+   "page": 33,
+   "questions": 0
+  },
+  {
+   "paper": "Multiple Choice Ques- tion (MCQ)",
+   "page": 33,
+   "questions": 0,
+   "marks": 3
+  },
+  {
+   "paper": "Total",
+   "page": 33
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 31
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 18
+  },
+  "duration": {
+   "value": "14.8 Candidates have to remain in the examination hall for the entire duration of the examination.",
+   "page": 31
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.uceed.iitb.ac.in/",
+   "https://www.idc.iitb.ac.in/",
+   "https://design.iitd.ac.in/",
+   "http://www.iitg.ac.in/design",
+   "https://design.iith.ac.in/",
+   "https://www.iiti.ac.in/page/school-of-innovation",
+   "https://design.iitr.ac.in/",
+   "http://design.iiitdmj.ac.in/",
+   "http://www.ncbc.nic.in/",
+   "https://socialjustice.gov.in/",
+   "https://ncst.nic.in/",
+   "https://www.aiu.ac.in/"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2025-10-31"
+  },
+  "exam_date": "2026-01-18",
+  "fee": {
+   "min": 15000,
+   "max": 60000
+  },
+  "pay": "Pay Levels 1, 4",
+  "education": [
+   "Graduate",
+   "Class 12"
+  ]
+ }
+}

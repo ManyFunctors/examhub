@@ -1,0 +1,46 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "6f70e8ce2b7f885f47ef76d205620bb0d7366512f463fd82ad6776a4644ec4ac",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20211110190844.pdf",
+  "title": "1400 Subject Line: - Display of Scanned Image of OMR Answer Sheet for NEET (UG) – 2021 Read More",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "541b64196dece49237640afe8e189447c7e2f54571f9bedd58330ed5bef01442",
+  "bytes": 471799,
+  "pages": 1,
+  "chars": 1617,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-03T15:15:19+05:30"
+ },
+ "kind": "answer_key",
+ "dates": {
+  "exam_date": {
+   "date": "2021-09-12",
+   "evidence": "The National Eligibility cum Entrance Test (UG) - 2021 was conducted in pen and paper mode on 12 September 2021 (Sunday) from 02:00 to 05:00 P.M in 202 cities at 3858 Centres throughout the",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://ntaresults.nic.in/resultservices/NEET-2021-auth",
+   "https://nta.ac.in/Download/Notice/Notice_20211101205130.pdf",
+   "https://neet.nta.nic.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2021-09-12"
+ }
+}

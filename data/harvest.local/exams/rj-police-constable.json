@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "exam": "rj-police-constable",
+ "name": "Rajasthan Police Police Constable Recruitment",
+ "body": "rj-police",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "apply_links": {
+   "value": [
+    "http://recruitment2.rajasthan.gov.in"
+   ],
+   "source": {
+    "notice": "1a0a5f5996a00d012a834125fb1e1e29af8b8435b7b30315e454f5137c9bf171",
+    "url": "https://police.rajasthan.gov.in/old/PoliceUser/UploadUtility/RecruitmentFiles/Recruitment29102021131126.pdf",
+    "title": "Constable Recruitment 2021 Releases",
+    "kind": "advertisement",
+    "ocr": true
+   }
+  },
+  "pay": {
+   "value": [
+    {
+     "levels": [
+      5
+     ],
+     "text": "Pay Level 5",
+     "evidence": "AIad da9 AT &7 RwRen & TR DI Ug BT AT 909 ggen geo—5 (Pay matrix-Level-5) da U4 fFAomER e ¥ < BT",
+     "page": 7
+    }
+   ],
+   "source": {
+    "notice": "1a0a5f5996a00d012a834125fb1e1e29af8b8435b7b30315e454f5137c9bf171",
+    "url": "https://police.rajasthan.gov.in/old/PoliceUser/UploadUtility/RecruitmentFiles/Recruitment29102021131126.pdf",
+    "title": "Constable Recruitment 2021 Releases",
+    "kind": "advertisement",
+    "ocr": true
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}

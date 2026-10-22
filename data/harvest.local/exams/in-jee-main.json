@@ -1,0 +1,59 @@
+{
+ "schema": 1,
+ "exam": "in-jee-main",
+ "name": "Joint Entrance Examination (Main)",
+ "body": "in-nta",
+ "purpose": "admission",
+ "cycle": "2026-04",
+ "documents": 115,
+ "documents_in_cycle": 2,
+ "fields": {
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "Educational qualification details (Class 10 and Class 12)",
+      "page": 2
+     },
+     {
+      "text": "Educational qualification details (Class 10 and Class 12)",
+      "page": 2
+     },
+     {
+      "text": "Educational qualification details (Class 10 and Class 12)",
+      "page": 2
+     }
+    ]
+   },
+   "source": {
+    "notice": "ba5998424bde5969c07c693717fd0e17eb9a37197d3581d8e0f9a10a02b2eeb6",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20240303184111.pdf",
+    "title": "Extending the Registration Window and Correction in Particulars for the Joint Entrance Examination (Main) – 2024 Session 2 Read More",
+    "kind": "notice"
+   },
+   "alternatives": 1,
+   "carried_from": "2024"
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "0 Unanswered/Unanswered andmarkedfor review",
+     "page": 4
+    }
+   ],
+   "source": {
+    "notice": "ad0385cdef5e784cf780bce965cae36f5404ae273d4651dbc2fb7146cc4f1a68",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20220622111256.pdf",
+    "title": "1264 Advisory and Instructions for the Candidates of Joint Entrance Examination (Main) – 2022 Session 1 (June 2022) - Reg. Read More",
+    "kind": "admit_card"
+   },
+   "carried_from": "2022-06"
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee"
+ ],
+ "older_documents": 113
+}

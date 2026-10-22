@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "a2719215cd18cda649961e4c401a2ae88c3f33ff8138f1d58121a6e86cb8b94c",
+  "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/06/202606061809556710.pdf",
+  "title": "Public Notice regarding Subject-wise Scheduled of UGC-NET June 2026 Examination",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/ugcnet",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "67b831ef0c3197a916b1af47ccad5a150809e27a61494717c3797af60a1489a0",
+  "bytes": 1285758,
+  "pages": 3,
+  "chars": 4,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-08T18:16:16+05:30"
+ },
+ "kind": "schedule",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "6fd70055f72e320f8b80f3024c1960946e04f2033acbe70c6e266984ab6b20fa",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230525093249.pdf",
+  "title": "990 Announcement of the City of Examination for CUET (UG) -2023 for the examination scheduled on 29, 30, 31 May and 01, 02 June 2023 – reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/notices",
+  "published": "2023-06-02",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "9917d70e6dc31b6ce4a1e0fb68bda6ca8ceda53c2fe037b615105f0ac3cd8c3c",
+  "bytes": 320625,
+  "pages": 1,
+  "chars": 2375,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-07T02:51:17+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2023-06-01",
+   "evidence": "24 May 2023 Subject: Announcement of the City of Examination for CUET (UG) -2023 for the examination scheduled on 29, 30, 31 May and 01, 02 June 2023 - reg",
+   "page": 1,
+   "from": "text"
+  },
+  "admit_card_from": {
+   "date": "2023-05-28",
+   "evidence": "City Intimation Slip and Admit Card for CUET (UG) - 2023 for the candidates scheduled on 21 to 28 May 2023 has already been released",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://cuet.samarth.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2023-06-01"
+ }
+}

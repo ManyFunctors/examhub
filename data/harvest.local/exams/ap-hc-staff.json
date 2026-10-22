@@ -1,0 +1,47 @@
+{
+ "schema": 1,
+ "exam": "ap-hc-staff",
+ "name": "AP High Court Staff Recruitment (Clerk, Stenographer, Typist, Peon, and district courts)",
+ "body": "ap-hc",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 2,
+ "documents_in_cycle": 2,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2026-10-04",
+    "source": {
+     "notice": "82ef9d617595914e17e71464cc95af21fb4a43666ff439dbbd4765ab49a07468",
+     "url": "https://aphc.gov.in/docs/notification_1790334152_0.pdf",
+     "title": "Stage-I written examination for the post of Assistant Editor scheduled on 04.10.2026",
+     "kind": "schedule",
+     "page": 1,
+     "ocr": true
+    },
+    "alternatives": 1
+   }
+  },
+  "exam_date": {
+   "value": "2026-10-04",
+   "source": {
+    "notice": "82ef9d617595914e17e71464cc95af21fb4a43666ff439dbbd4765ab49a07468",
+    "url": "https://aphc.gov.in/docs/notification_1790334152_0.pdf",
+    "title": "Stage-I written examination for the post of Assistant Editor scheduled on 04.10.2026",
+    "kind": "schedule",
+    "page": 1,
+    "ocr": true
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}

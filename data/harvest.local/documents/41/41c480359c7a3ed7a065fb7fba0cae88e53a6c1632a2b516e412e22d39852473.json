@@ -1,0 +1,177 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "41c480359c7a3ed7a065fb7fba0cae88e53a6c1632a2b516e412e22d39852473",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220327205829.pdf",
+  "title": "1327 PUBLIC NOTICE: CUET (UG) - 2022 Dated: 26.03.2022 Conduct of the Common University Entrance Test CUET (UG)-2022 for Under Graduate Programmes in Central Universities for the Academic Session 2022-23 Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/notices",
+  "published": "2022-03-26",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "b440cb36ffe8dbaa7f7fc3c151f8eb6d40148c22cdde279ec51051f4ac9707c7",
+  "bytes": 341401,
+  "pages": 3,
+  "chars": 9701,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-07T23:26:19+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "registration_open": {
+   "date": "2022-04-02",
+   "evidence": "Application will be open from 02.04.2022 to 30.04.2022",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2022-04-30",
+   "evidence": "Application will be open from 02.04.2022 to 30.04.2022",
+   "page": 1,
+   "from": "text"
+  },
+  "admit_card_from": {
+   "date": "2022-04-02",
+   "evidence": "on different types of passages-Factual, Literary and Narrative [Literary Aptitude & Vocabulary] Section II : As per NCERT model syllabus as applicable to Class XII only Section III : General Knowledge, Current Affairs, General Mental Abilit",
+   "page": 3,
+   "from": "text"
+  }
+ },
+ "exam_pattern": [
+  {
+   "paper": "SectionIA",
+   "page": 1,
+   "duration": "45Minutes foreach language"
+  },
+  {
+   "paper": "-",
+   "page": 1
+  },
+  {
+   "paper": "Languages",
+   "page": 1
+  },
+  {
+   "paper": "SectionIB - Languages",
+   "page": 1
+  },
+  {
+   "paper": "passages–Factual ,",
+   "page": 1
+  },
+  {
+   "paper": "Literary and Narrative ,",
+   "page": 1
+  },
+  {
+   "paper": "[Literary Aptitude and",
+   "page": 1
+  },
+  {
+   "paper": "Vocabulary]",
+   "page": 1
+  },
+  {
+   "paper": "maximum of Six (06)",
+   "page": 2
+  },
+  {
+   "paper": "Domains as desired by the",
+   "page": 2
+  },
+  {
+   "paper": "applicable University/",
+   "page": 2
+  },
+  {
+   "paper": "Universities .",
+   "page": 2
+  },
+  {
+   "paper": "Section III - General Test",
+   "page": 2
+  },
+  {
+   "paper": "forMCQBased",
+   "page": 2
+  },
+  {
+   "paper": "Questions",
+   "page": 2
+  },
+  {
+   "paper": "•GeneralKnowledge ,",
+   "page": 2
+  },
+  {
+   "paper": "CurrentAffairs ,",
+   "page": 2
+  },
+  {
+   "paper": "GeneralMentalAbility ,",
+   "page": 2
+  },
+  {
+   "paper": "NumericalAbility ,",
+   "page": 2
+  },
+  {
+   "paper": "QuantitativeReasoning",
+   "page": 2
+  },
+  {
+   "paper": "(Simpleapplicationof",
+   "page": 2
+  },
+  {
+   "paper": "basicmathematical",
+   "page": 2
+  },
+  {
+   "paper": "concepts",
+   "page": 2
+  },
+  {
+   "paper": "arithmetic/algebra",
+   "page": 2
+  },
+  {
+   "paper": "geometry/mensuration/s",
+   "page": 2
+  },
+  {
+   "paper": "tattaughttillGrade8) ,",
+   "page": 2
+  },
+  {
+   "paper": "LogicalandAnalytical",
+   "page": 2
+  },
+  {
+   "paper": "Reasoning",
+   "page": 2
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://cuet.samarth.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2022-04-02",
+   "until": "2022-04-30"
+  }
+ }
+}

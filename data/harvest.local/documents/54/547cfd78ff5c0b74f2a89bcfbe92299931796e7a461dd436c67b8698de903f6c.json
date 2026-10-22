@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "547cfd78ff5c0b74f2a89bcfbe92299931796e7a461dd436c67b8698de903f6c",
+  "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/02/202602121857239958.pdf",
+  "title": "Inviting Online Applications for National Common Entrance Test (NCET) 2026 for admission to 4-Year Integrated Teacher Education Programme (ITEP)- Reg.",
+  "body": "in-nta",
+  "exam": "in-ncet",
+  "feed": "in-nta/ncet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "0f85e9f56b3d4374cbb8af6d4e4f6fce38558b17ab2fc80f492a2a3e50bf0bcc",
+  "bytes": 911643,
+  "pages": 2,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T21:26:28+05:30"
+ },
+ "kind": "schedule",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

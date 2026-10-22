@@ -1,0 +1,61 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "443924afd8a4430ced85fcaab1820c165ccf207760c6c4ec86a68ea5120b5183",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20191010041417.pdf",
+  "title": "1839 PUBLIC NOTICE UGC-NET December 2019 Extension of Last Date Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "0803b258d37406006bb73418f51bb3947c5e1a236ecf654c78318b800badd023",
+  "bytes": 76480,
+  "pages": 1,
+  "chars": 2051,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-01T22:14:56+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "registration_open": {
+   "date": "2019-10-09",
+   "evidence": "of online application form, is extended from 09th Oct. 2019 to 15th Oct. 2019, in order to enable the aspiring candidates who have not been able to apply in the Online Application Form",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2019-09-09",
+   "evidence": "On-line submission of Application Form 09.09.2019 to 09.10.2019",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "On-line submission of Application Form",
+   "date": "2019-09-09",
+   "page": 1,
+   "until": "2019-10-09"
+  },
+  {
+   "event": "Successful final transaction of fee",
+   "date": "2019-09-09",
+   "page": 1,
+   "until": "2019-10-10"
+  }
+ ],
+ "links": {
+  "other": [
+   "https://ugcnet.nta.nic.in/"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2019-10-09",
+   "until": "2019-09-09"
+  }
+ }
+}

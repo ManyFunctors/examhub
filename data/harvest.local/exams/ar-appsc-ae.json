@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "exam": "ar-appsc-ae",
+ "name": "APPSC (Arunachal) Assistant Engineer / Engineering Services Examination",
+ "body": "ar-appsc",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "advertisement_no": {
+   "value": "PSC-R(B)I1",
+   "source": {
+    "notice": "1c6135b5f9d64a8683d774abdd7f74afc7d4ab431105e9db3a8c151428fe519c",
+    "url": "https://appsc.gov.in/upload/RECINS001/MSyllabusAE2025_NOTICE_20250618_174357.pdf",
+    "title": "MODIFIED SYLLABUS OF ASSISTANT ENGINEER",
+    "kind": "syllabus"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}

@@ -1,0 +1,73 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "10253223f596644c63e2dce3c6b11b79c0327c688298fc45d10e09803162f0b8",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20241230130039.pdf",
+  "title": "PUBLIC NOTICE ONLINE APPLICATION FORM OF JOINT CSIR-UGC NET DECEMBER 2024 CYCLE Read More",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/home",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "b1d6545891dface63612c2d40d6c67db291ebb26b1fb5a375a0606c2108502fb",
+  "bytes": 972935,
+  "pages": 1,
+  "chars": 2864,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-01T10:32:27+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "registration_deadline": {
+   "date": "2024-12-30",
+   "evidence": "Submission of Online Application Form 09 December, 2024 to 30 December, 2024 Last date for Payment of Fee",
+   "page": 1,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2024-12-31",
+   "evidence": "Submission of Online Application Form 09 December, 2024 to 30 December, 2024 Last date for Payment of Fee",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2024-12-09",
+   "evidence": "Submission of Online Application Form 09 December, 2024 to 30 December, 2024 Last date for Payment of Fee",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "Details of Course Code, Eligibility Criteria, Pattern of Question Paper, Fee, etc. are available in the Information Bulletin hosted on the website https://csirnet.nta.ac.in",
+    "page": 1
+   },
+   {
+    "text": "Before applying for Joint CSIR-UGC NET Examination December-2024, candidates are advised to check the eligibility criteria as mentioned in the Information Bulletin carefully",
+    "page": 1
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://csirnet.nta.ac.in/",
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2024-12-09",
+   "until": "2024-12-30"
+  }
+ }
+}

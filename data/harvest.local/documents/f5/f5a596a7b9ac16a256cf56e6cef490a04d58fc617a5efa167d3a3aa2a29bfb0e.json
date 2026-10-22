@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "f5a596a7b9ac16a256cf56e6cef490a04d58fc617a5efa167d3a3aa2a29bfb0e",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20250203220814.pdf",
+  "title": "Public Notice regarding Schedule of Exam of AISSEE-2025 Read More",
+  "body": "in-nta",
+  "exam": "in-aissee",
+  "feed": "in-nta/home",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "3c396d0b60b228a44cd0ad428ebf137d33a96b7b16550c262ce6ae68f9272f52",
+  "bytes": 379899,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-05T21:53:48+05:30"
+ },
+ "kind": "schedule",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

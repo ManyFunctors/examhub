@@ -1,0 +1,40 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "a0c8bb3e49224f7d56b4458649f9df6fd6ea9a8e441b43e6e5ba9020e4776293",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210406131243.pdf",
+  "title": "1566 PUBLIC NOTICE: Extending the Correction window for JEE (Main) - 2021 – Reg Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "4f0e47fc4a0f6980226e9d3f47bca0185bd57c82b937c9dc9031886637020884",
+  "bytes": 658185,
+  "pages": 1,
+  "chars": 1279,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-08T00:29:59+05:30"
+ },
+ "kind": "admit_card",
+ "schedule": [
+  {
+   "event": "Session-3 (April -2021) (B .E ./B .Tech .) (Paper-1) A pril 06 to 07 2021 ( upto 11 :50 , ) pm Tobeintimatedlateron",
+   "date": "2021-04-30",
+   "page": 1
+  },
+  {
+   "event": "Session-4 (May-2021) (BE/BTech and . . . . BArch/BPlanning) . . . (Paper-1 Paper-2A & , Paper-2B) TobedisplayedontheNTAwebsiteinduecourse",
+   "date": "2021-05-28",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ }
+}

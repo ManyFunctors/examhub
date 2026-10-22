@@ -1,0 +1,27 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "5ee232518ab0f6c644df2972f8906fe79e351131b1783f3333c7821f831d98af",
+  "url": "https://www.cbse.gov.in/cbsenew/documents/Private_Online_Submission_XII_Supplementary_2026_30062026.pdf",
+  "title": "Online submission of forms by Private Candidates of Class XII, Supplementary Examination- 2026 for Compartment (3rd chance) reg.",
+  "body": "in-cbse",
+  "exam": "in-cbse-supplementary",
+  "feed": "in-cbse/notices",
+  "published": "2026-06-30",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "8ae440c1cb318ed0522a47b9c1cba782c3181b83fd0bb72825907f30ec49c1b3",
+  "bytes": 4165478,
+  "pages": 10,
+  "chars": 18,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T21:09:03+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

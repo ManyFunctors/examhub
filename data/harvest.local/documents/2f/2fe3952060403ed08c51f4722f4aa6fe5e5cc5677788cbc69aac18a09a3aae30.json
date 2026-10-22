@@ -1,0 +1,189 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "2fe3952060403ed08c51f4722f4aa6fe5e5cc5677788cbc69aac18a09a3aae30",
+  "url": "https://mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/EEG_TECHNICIAN_Notification_2023.pdf",
+  "title": "Notification for the post of EEG Technician",
+  "body": "tn-mrb",
+  "exam": "tn-mrb-recruitment",
+  "feed": "tn-mrb/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "8c1ab479679af828c7549f2f2088a4b198f2a250a8a78b47517df2c07a39fd6e",
+  "bytes": 1253482,
+  "pages": 36,
+  "chars": 56880,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:03:20+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "14/MRB/2023",
+ "dates": {
+  "payment_deadline": {
+   "date": "2023-12-18",
+   "evidence": "Last date for submission of Application (Online Registration & Online payment)",
+   "page": 2,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Date of Notification",
+   "date": "2023-11-28",
+   "page": 2
+  },
+  {
+   "event": "Last date for submission of Application (Online Registration & Online payment)",
+   "key": "payment_deadline",
+   "date": "2023-12-18",
+   "page": 2
+  }
+ ],
+ "vacancies": {
+  "total": 10,
+  "by_category": {
+   "PwBD": 1
+  },
+  "rows": [
+   {
+    "label": "GT / -",
+    "total": 2,
+    "page": 1
+   },
+   {
+    "label": "BC / -",
+    "total": 3,
+    "page": 1
+   },
+   {
+    "label": "BC(M) / -",
+    "total": 1,
+    "page": 1
+   },
+   {
+    "label": "MBC / DNC / -",
+    "total": 2,
+    "page": 1
+   },
+   {
+    "label": "SC / -",
+    "total": 2,
+    "by_category": {
+     "PwBD": 1
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "age": {
+  "limits": [
+   {
+    "max": 55,
+    "evidence": "Persons who have been demobilized from the Army, Navy or Air Force, (i) Who will be below 55 years of age in the case of Scheduled Castes, Scheduled Castes (Arunthathiyar), Scheduled Tribes, Most Backward Classes / Denotified Communities,…",
+    "page": 16
+   }
+  ]
+ },
+ "pay": [
+  {
+   "low": 19500,
+   "high": 71900,
+   "text": "₹19,500–71,900",
+   "evidence": "The selected candidates will be paid scale of pay of Level – 8(Rs.19500 -71900) of 7th Pay Commission",
+   "page": 27
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Class 12",
+   "Class 10"
+  ],
+  "clauses": [
+   {
+    "text": "h) Person Studied in Tamil Medium (PSTM) Section 2 (d) of the Tamil Nadu Appointment on Preferential Basis in the Services under the State of Persons Studied in Tamil Medium (Amendment) Act, 2020, states that Person studied in Tamil medium means a person who has studied through Tamil medium of…",
+    "page": 4
+   },
+   {
+    "text": "Category Minimum Age (should have completed) ( in years) Maximum Age (in years)",
+    "page": 4
+   },
+   {
+    "text": "EDUCATIONAL QUALIFICATION:",
+    "page": 6
+   },
+   {
+    "text": "Must have passed the one year Certificate course in EEG/EMG conducted in Government Medical Institutions under the control of Director of Medical Education (or) in any other institution recognized by the State / Central Government.",
+    "page": 6
+   },
+   {
+    "text": "CONDITIONS AND QUALIFICATION:",
+    "page": 6
+   },
+   {
+    "text": "Page 7 of 36 6 Minimum educational qualification required for the post Weightage of marks Certificate Course HSC / P.U.C SSLC / 10th EEG Technician 50% 30% 20% b",
+    "page": 7
+   },
+   {
+    "text": "Incomplete applications and applications containing wrong claims or incorrect particulars relating to category of reservation / eligibility / age / gender / communal category / educational qualification / medium of instruction / physical qualification other basic qualifications and other basic…",
+    "page": 8
+   },
+   {
+    "text": "I) Section 2 (d) of the Tamil Nadu Appointment on Preferential Basis in the Services under the State of Persons Studied in Tamil Medium (Amendment) Act, 2020, states that ‗Person studied in Tamil medium means a person who has studied through Tamil medium of instruction upto the educational…",
+    "page": 18
+   },
+   {
+    "text": "III) Candidates must upload / produce documents at the time of submission of online application as evidence of having studied in the Tamil medium, all educational qualification upto the educational qualification prescribed",
+    "page": 18
+   },
+   {
+    "text": "IV) If no such document as evidence for Person Studied in Tamil Medium‘ is available, a certificate from the Principal/Head Master/ District Educational Officer / Chief Educational Officer / District Adidravidar Welfare Officer/Registrar/Controller of Examinations / Head / Director of the…",
+    "page": 18
+   },
+   {
+    "text": "Evidence and Mark sheet of Educational qualification (SSLC / HSC / Certificate course in EEG/EMG Technician) c",
+    "page": 20
+   },
+   {
+    "text": "Community Certificate should have been issued by the competent authorities referred to above, in whose jurisdiction the candidate claims to have permanent residence, after personal enquiries and proper verification",
+    "page": 22
+   },
+   {
+    "text": "DISQUALIFICATION / DEBARMENT Disqualification:",
+    "page": 24
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.mrb.tn.gov.in/",
+   "http://www.mrb.tn.gov.in/pdf/MRB_LIST_COMMUNITIES_020614.pdf",
+   "https://www.mrb.tn.gov.in"
+  ]
+ },
+ "summary": {
+  "vacancies": 10,
+  "age": {
+   "max": 55
+  },
+  "pay": "₹19,500–71,900",
+  "education": [
+   "Graduate",
+   "Class 12",
+   "Class 10"
+  ],
+  "selection": "Interview"
+ }
+}

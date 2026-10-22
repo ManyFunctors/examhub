@@ -1,0 +1,45 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "a06a46f1b3333cd19d4ceb65a95e7d86c0574831fb411b724c701fb378d01e0b",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/07/202607201141028453.pdf",
+  "title": "Notice on Fake, Altered, or AI-Generated NEET (UG) 2026 Documents",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "5fa99484437f4c4d2ab9b084baed39fcb735c774f0c7a005e458ed43017d1cba",
+  "bytes": 313479,
+  "pages": 2,
+  "chars": 7753,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T23:44:23+05:30"
+ },
+ "kind": "answer_key",
+ "dates": {
+  "exam_date": {
+   "date": "2026-06-21",
+   "evidence": "The National Testing Agency conducted NEET (UG) 2026 on 21st June 2026, and has, in accordance with the prescribed transparency mechanism, uploaded on its website the provisional answer keys, the recorded responses and the scanned images of",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in",
+   "https://neet.nta.nic.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-06-21"
+ }
+}

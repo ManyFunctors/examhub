@@ -1,0 +1,39 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "6a3c054fc48b492ba585eb7a36670fe3f55a4d3759f0aa0c00f71aec4cae2c1d",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/06/20260618620515611.pdf",
+  "title": "Advisory for Biometric Verification and Exception Protocol for NEET (UG)-2026 Re Examination- reg.",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "8102c627cc17421afedbed5674c7a9efa310e649579a062af4c19cbacacf2a0d",
+  "bytes": 282381,
+  "pages": 1,
+  "chars": 2992,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-01T22:14:56+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2026-06-21",
+   "evidence": "National Testing Agency (NTA) will conduct the National Eligibility-cum-Entrance Test [NEET (UG)]-2026 Re-Examination on 21.06.2026 at designated examination centres across India",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in",
+   "https://neet.nta.nic.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-06-21"
+ }
+}

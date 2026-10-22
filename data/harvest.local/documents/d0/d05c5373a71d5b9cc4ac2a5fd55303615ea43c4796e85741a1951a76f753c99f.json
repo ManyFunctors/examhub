@@ -1,0 +1,50 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d05c5373a71d5b9cc4ac2a5fd55303615ea43c4796e85741a1951a76f753c99f",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210906191207.pdf",
+  "title": "1460 Public Notice Dated: 06.09.2021 Extension of last date for submission of Online Application Form for Babasaheb Bhimrao Ambedkar University (BBAU) Entrance Test - 2021 Read More",
+  "body": "in-nta",
+  "exam": "in-nta-bbau",
+  "feed": "in-nta/notices",
+  "published": "2021-09-06",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "b29f9bd9bc0d4c5b09c218ec17a3ba74328acc1aac7c7daf2e730e77009ac6f6",
+  "bytes": 45760,
+  "pages": 1,
+  "chars": 2191,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-05T19:23:29+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "registration_open": {
+   "date": "2021-09-06",
+   "evidence": "Application Form has been extended from 06 September 2021 to 12 September 2021",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2021-09-12",
+   "evidence": "Application Form has been extended from 06 September 2021 to 12 September 2021",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://bbauet.nta.nic.in/",
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2021-09-06",
+   "until": "2021-09-12"
+  }
+ }
+}

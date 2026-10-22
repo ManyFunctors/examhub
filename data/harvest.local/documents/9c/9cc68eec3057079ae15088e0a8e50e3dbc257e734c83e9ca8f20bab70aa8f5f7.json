@@ -1,0 +1,37 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "9cc68eec3057079ae15088e0a8e50e3dbc257e734c83e9ca8f20bab70aa8f5f7",
+  "url": "https://apsc.nic.in/misc_2019/Notif_Anskey_AsstProf_20Nov2019.pdf",
+  "title": "Screening Test(OMR based) for the post of Assistant Professor(Tech & Non Tech) and Librarian in the Engineering colleges of Assam.",
+  "body": "as-apsc",
+  "exam": "as-apsc-lecturer",
+  "feed": "as-apsc/answer-keys",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "ba82cf6f8186fffafe6aa39c52051d4e6debfd1c32a6dc1af077a907af2efe5e",
+  "bytes": 195068,
+  "pages": 1,
+  "chars": 1725,
+  "ocr": true,
+  "ocr_engine": "ocrmypdf+tesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:30+05:30"
+ },
+ "kind": "answer_key",
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.apsc.nic.in"
+  ]
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

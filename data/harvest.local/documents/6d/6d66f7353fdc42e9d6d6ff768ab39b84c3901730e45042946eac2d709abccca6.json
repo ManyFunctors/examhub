@@ -1,0 +1,40 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "6d66f7353fdc42e9d6d6ff768ab39b84c3901730e45042946eac2d709abccca6",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/05/20260510635720867.pdf",
+  "title": "Press Release for NEET (UG) – 2026 dated 10 May 2026",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "published": "2026-05-10",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "12038c39b1e0bbb03621cf4e41de19502cdd4428107809d7bbc4c91320f73408",
+  "bytes": 1015747,
+  "pages": 1,
+  "chars": 2862,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-02T01:41:52+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2026-05-03",
+   "evidence": "The examination on 3 May 2026 was conducted as scheduled and under a full security protocol",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in",
+   "https://neet.nta.nic.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-05-03"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "5231a92633dce9b02950276dd18d6b051127d5c9332e72aa5288082361ec3a29",
+  "url": "https://setexam.unipune.ac.in/SET_2026/UPSC_GeneralMerit_List.pdf",
+  "title": "Entrance Examination for UPSC guidance programme under the UGC SCHEME 2025 - 26 GENERAL MERIT LIST",
+  "body": "mh-sppu-set",
+  "exam": "mh-set",
+  "feed": "mh-sppu-set/home",
+  "published": "2026-07-26",
+  "doc_type": "result"
+ },
+ "document": {
+  "sha256": "125591e74cdef2d100f6ea1053a36b660143125489bc7f4dc2b2a4c2bf739b57",
+  "bytes": 9513069,
+  "pages": 18,
+  "chars": 34,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T13:55:18+05:30"
+ },
+ "kind": "result",
+ "warnings": [
+  "page 1: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "page 2: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "page 3: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "page 4: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "page 5: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "page 6: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "page 7: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "page 8: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "page 9: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "page 10: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "page 11: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "page 12: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "page 13: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "page 14: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "page 15: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "page 16: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "page 17: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "page 18: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

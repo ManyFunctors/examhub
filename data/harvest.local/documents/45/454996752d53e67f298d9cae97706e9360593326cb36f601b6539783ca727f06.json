@@ -1,0 +1,43 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "454996752d53e67f298d9cae97706e9360593326cb36f601b6539783ca727f06",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240305112629.pdf",
+  "title": "Schedule for Stage 2 (Descriptive) Type Exam for Central University Recruitment Examination CURE 2023 Read More",
+  "body": "in-nta",
+  "exam": "in-nta-cure",
+  "feed": "in-nta/home",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "3f8174a83f98e0d8a1b44373f1239642970c657499696c4199e70f23231c3885",
+  "bytes": 357523,
+  "pages": 2,
+  "chars": 3997,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-01T22:15:00+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2024-03-19",
+   "provisional": true,
+   "evidence": "(The Exams shall be conducted in Hyderabad, Patna, Bathinda & Kangra) DAY 3 (19.03.24)  [document-level hedge: tentative schedule]",
+   "page": 2,
+   "from": "text"
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/CUREC/"
+  ],
+  "other": [
+   "https://nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2024-03-19"
+ }
+}

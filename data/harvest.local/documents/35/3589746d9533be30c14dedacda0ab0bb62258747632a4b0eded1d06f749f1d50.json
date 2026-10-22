@@ -1,0 +1,61 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3589746d9533be30c14dedacda0ab0bb62258747632a4b0eded1d06f749f1d50",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20201203121436.pdf",
+  "title": "1640 PUBLIC NOTICE: Extension of last date for submission of online applications for The All India Sainik School Exam (AISSEE) 2021 Read More",
+  "body": "in-nta",
+  "exam": "in-aissee",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "f53b45269f476828231bbaa1ba9267c680014b9603e3e77b79b85357c1e8074f",
+  "bytes": 104968,
+  "pages": 1,
+  "chars": 2004,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-02T15:24:48+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "registration_deadline": {
+   "date": "2020-12-18",
+   "evidence": "Last date for submission of online applications",
+   "page": 1,
+   "from": "table"
+  },
+  "payment_deadline": {
+   "date": "2020-12-18",
+   "evidence": "Last date for payment of fee online",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Last date for submission of online applications",
+   "key": "registration_deadline",
+   "date": "2020-12-18",
+   "page": 1
+  },
+  {
+   "event": "Last date for payment of fee online",
+   "key": "payment_deadline",
+   "date": "2020-12-18",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "https://aissee.nta.nic.in",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2020-12-18"
+  }
+ }
+}

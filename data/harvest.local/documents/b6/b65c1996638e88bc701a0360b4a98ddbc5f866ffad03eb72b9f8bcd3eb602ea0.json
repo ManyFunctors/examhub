@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "b65c1996638e88bc701a0360b4a98ddbc5f866ffad03eb72b9f8bcd3eb602ea0",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/02/202602211726839591.pdf",
+  "title": "Correction in Particulars for the Joint Entrance Examination (Main)-2026 Session 2 – Reg.",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/jeemain",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "01470c40d79684c61763aabc7df21d2524b18bb3aa900829381dbefa50d87558",
+  "bytes": 1073878,
+  "pages": 2,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-02T01:14:05+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

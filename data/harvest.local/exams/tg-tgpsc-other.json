@@ -1,0 +1,619 @@
+{
+ "schema": 1,
+ "exam": "tg-tgpsc-other",
+ "name": "TGPSC Recruitment to other posts (umbrella)",
+ "body": "tg-tgpsc",
+ "purpose": "recruitment",
+ "cycle": "2017",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 2271,
+    "by_category": {
+     "Unreserved": 664,
+     "SC": 195,
+     "ST": 1010,
+     "tg:BC-A": 92,
+     "tg:BC-B": 140,
+     "tg:BC-C": 17,
+     "tg:BC-D": 98,
+     "tg:BC-E": 55
+    },
+    "rows": [
+     {
+      "label": "Hyderabad & Ranga Reddy / Hyderabad",
+      "total": 54,
+      "by_category": {
+       "Unreserved": 26,
+       "SC": 7,
+       "ST": 3,
+       "tg:BC-A": 4,
+       "tg:BC-B": 6,
+       "tg:BC-C": 1,
+       "tg:BC-D": 4,
+       "tg:BC-E": 3
+      },
+      "page": 11
+     },
+     {
+      "label": "Mahabubnagar",
+      "total": 66,
+      "by_category": {
+       "Unreserved": 33,
+       "SC": 10,
+       "ST": 3,
+       "tg:BC-A": 4,
+       "tg:BC-B": 7,
+       "tg:BC-C": 1,
+       "tg:BC-D": 5,
+       "tg:BC-E": 3
+      },
+      "page": 11
+     },
+     {
+      "label": "Achampet",
+      "total": 88,
+      "by_category": {
+       "Unreserved": 43,
+       "SC": 12,
+       "ST": 7,
+       "tg:BC-A": 7,
+       "tg:BC-B": 9,
+       "tg:BC-C": 1,
+       "tg:BC-D": 6,
+       "tg:BC-E": 3
+      },
+      "page": 11
+     },
+     {
+      "label": "Achampet",
+      "total": 50,
+      "by_category": {
+       "ST": 50
+      },
+      "page": 11
+     },
+     {
+      "label": "Mahabubnagar District Total",
+      "total": 154,
+      "by_category": {
+       "Unreserved": 76,
+       "SC": 22,
+       "ST": 10,
+       "tg:BC-A": 11,
+       "tg:BC-B": 16,
+       "tg:BC-C": 2,
+       "tg:BC-D": 11,
+       "tg:BC-E": 6
+      },
+      "page": 11
+     },
+     {
+      "label": "Mahabubnagar District Total",
+      "total": 50,
+      "by_category": {
+       "ST": 50
+      },
+      "page": 11
+     },
+     {
+      "label": "Mahabubnagar District Total",
+      "total": 204,
+      "by_category": {
+       "Unreserved": 76,
+       "SC": 22,
+       "ST": 60,
+       "tg:BC-A": 11,
+       "tg:BC-B": 16,
+       "tg:BC-C": 2,
+       "tg:BC-D": 11,
+       "tg:BC-E": 6
+      },
+      "page": 11
+     },
+     {
+      "label": "Nalgonda",
+      "total": 97,
+      "by_category": {
+       "Unreserved": 47,
+       "SC": 15,
+       "ST": 6,
+       "tg:BC-A": 7,
+       "tg:BC-B": 10,
+       "tg:BC-C": 1,
+       "tg:BC-D": 7,
+       "tg:BC-E": 4
+      },
+      "page": 11
+     },
+     {
+      "label": "Nizamabad / Kamareddy",
+      "total": 89,
+      "by_category": {
+       "Unreserved": 45,
+       "SC": 14,
+       "ST": 4,
+       "tg:BC-A": 6,
+       "tg:BC-B": 8,
+       "tg:BC-C": 1,
+       "tg:BC-D": 7,
+       "tg:BC-E": 4
+      },
+      "page": 11
+     },
+     {
+      "label": "Nizamabad",
+      "total": 87,
+      "by_category": {
+       "Unreserved": 45,
+       "SC": 11,
+       "ST": 6,
+       "tg:BC-A": 6,
+       "tg:BC-B": 10,
+       "tg:BC-C": 1,
+       "tg:BC-D": 5,
+       "tg:BC-E": 3
+      },
+      "page": 11
+     },
+     {
+      "label": "Nizamabad District Total",
+      "total": 176,
+      "by_category": {
+       "Unreserved": 90,
+       "SC": 25,
+       "ST": 10,
+       "tg:BC-A": 12,
+       "tg:BC-B": 18,
+       "tg:BC-C": 2,
+       "tg:BC-D": 12,
+       "tg:BC-E": 7
+      },
+      "page": 11
+     },
+     {
+      "label": "Medak",
+      "total": 116,
+      "by_category": {
+       "Unreserved": 55,
+       "SC": 18,
+       "ST": 7,
+       "tg:BC-A": 9,
+       "tg:BC-B": 12,
+       "tg:BC-C": 2,
+       "tg:BC-D": 8,
+       "tg:BC-E": 5
+      },
+      "page": 11
+     },
+     {
+      "label": "Khammam / Bhadrachalam (N)",
+      "total": 32,
+      "by_category": {
+       "ST": 32
+      },
+      "page": 11
+     },
+     {
+      "label": "Kothagudem",
+      "total": 56,
+      "by_category": {
+       "ST": 56
+      },
+      "page": 11
+     },
+     {
+      "label": "Paloncha",
+      "total": 7,
+      "by_category": {
+       "Unreserved": 3,
+       "SC": 1,
+       "tg:BC-A": 1,
+       "tg:BC-D": 1,
+       "tg:BC-E": 1
+      },
+      "page": 11
+     },
+     {
+      "label": "Paloncha",
+      "total": 100,
+      "by_category": {
+       "ST": 100
+      },
+      "page": 11
+     },
+     {
+      "label": "Khammam",
+      "total": 37,
+      "by_category": {
+       "Unreserved": 19,
+       "SC": 6,
+       "ST": 1,
+       "tg:BC-A": 1,
+       "tg:BC-B": 5,
+       "tg:BC-C": 1,
+       "tg:BC-D": 3,
+       "tg:BC-E": 1
+      },
+      "page": 11
+     },
+     {
+      "label": "Khammam",
+      "total": 42,
+      "by_category": {
+       "ST": 42
+      },
+      "page": 11
+     },
+     {
+      "label": "Khammam District Total",
+      "total": 44,
+      "by_category": {
+       "Unreserved": 22,
+       "SC": 7,
+       "ST": 1,
+       "tg:BC-A": 2,
+       "tg:BC-B": 5,
+       "tg:BC-C": 1,
+       "tg:BC-D": 4,
+       "tg:BC-E": 2
+      },
+      "page": 11
+     },
+     {
+      "label": "Khammam District Total",
+      "total": 230,
+      "by_category": {
+       "ST": 230
+      },
+      "page": 11
+     },
+     {
+      "label": "Khammam District Total",
+      "total": 274,
+      "by_category": {
+       "Unreserved": 22,
+       "SC": 7,
+       "ST": 231,
+       "tg:BC-A": 2,
+       "tg:BC-B": 5,
+       "tg:BC-C": 1,
+       "tg:BC-D": 4,
+       "tg:BC-E": 2
+      },
+      "page": 11
+     },
+     {
+      "label": "Adilabad",
+      "total": 23,
+      "by_category": {
+       "Unreserved": 10,
+       "SC": 4,
+       "ST": 2,
+       "tg:BC-A": 2,
+       "tg:BC-B": 2,
+       "tg:BC-D": 2,
+       "tg:BC-E": 1
+      },
+      "page": 11
+     },
+     {
+      "label": "Adilabad",
+      "total": 86,
+      "by_category": {
+       "ST": 86
+      },
+      "page": 11
+     },
+     {
+      "label": "Mancherial",
+      "total": 75,
+      "by_category": {
+       "Unreserved": 37,
+       "SC": 11,
+       "ST": 5,
+       "tg:BC-A": 5,
+       "tg:BC-B": 8,
+       "tg:BC-D": 6,
+       "tg:BC-E": 3
+      },
+      "page": 11
+     },
+     {
+      "label": "Mancherial",
+      "total": 6,
+      "by_category": {
+       "ST": 6
+      },
+      "page": 11
+     },
+     {
+      "label": "Jannaram",
+      "total": 28,
+      "by_category": {
+       "Unreserved": 15,
+       "SC": 3,
+       "ST": 2,
+       "tg:BC-A": 2,
+       "tg:BC-B": 3,
+       "tg:BC-D": 2,
+       "tg:BC-E": 1
+      },
+      "page": 11
+     }
+    ],
+    "from": "table"
+   },
+   "source": {
+    "notice": "5ed0170dcfa0422882f79a8771e63d84ef270b23fc0a38328db221c5c6b5c8b3",
+    "url": "https://websitenew.tgpsc.gov.in/preview/RElSRUNUUkVDUlVJVE1FTlROT1RJLzQ4MjAxNy5wZGY=r95v17a0y2d8i13v",
+    "title": "NOTIFICATION NO. 48/2017, FOREST BEAT OFFICER IN FOREST DEPARTMENT (EFS&T) (GENERAL RECRUITMENT)",
+    "kind": "advertisement"
+   }
+  },
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 3,
+     "raw": "State Bank Group (6 Banks)  All amounts Rs.3/-per transaction +Taxes",
+     "page": 13
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 5,
+     "raw": "All other Banks List-A (21 Banks) All amounts Rs.5/-per transaction +Taxes",
+     "page": 13
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 8,
+     "raw": " List-B (7 Banks) All amounts Rs.8/-per transaction +Taxes",
+     "page": 13
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 12,
+     "raw": " List-C (7 Banks) All amounts Rs.12/-per transaction +Taxes",
+     "page": 13
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 7,
+     "raw": "IMPS – Mobile payments  All Amounts Rs. 7/- of the transaction Amount + Taxes",
+     "page": 13
+    }
+   ],
+   "source": {
+    "notice": "5ed0170dcfa0422882f79a8771e63d84ef270b23fc0a38328db221c5c6b5c8b3",
+    "url": "https://websitenew.tgpsc.gov.in/preview/RElSRUNUUkVDUlVJVE1FTlROT1RJLzQ4MjAxNy5wZGY=r95v17a0y2d8i13v",
+    "title": "NOTIFICATION NO. 48/2017, FOREST BEAT OFFICER IN FOREST DEPARTMENT (EFS&T) (GENERAL RECRUITMENT)",
+    "kind": "advertisement",
+    "page": 13
+   }
+  },
+  "age": {
+   "value": {
+    "limits": [
+     {
+      "min": 18,
+      "evidence": "Minimum Age (18 years): A Candidate should not be born after 01/07/1999",
+      "page": 3
+     },
+     {
+      "max": 31,
+      "evidence": "Maximum Age (31 years): A candidate should not be born before 02/07/1986",
+      "page": 3
+     },
+     {
+      "min": 18,
+      "max": 31,
+      "evidence": "a) SC, ST & BC candidates of Telangana State b) Unemployed applicants in the age group of 18 to 31 years of Telangana State (They have to submit declaration at an appropriate time to the Commission that they are unemployed).",
+      "page": 3
+     }
+    ],
+    "as_on": "2017-07-01",
+    "relaxations": [
+     {
+      "for": "Retrenched temporary employees in the State Census Department with a minimum service of 6 months.",
+      "years": 3,
+      "raw": "1. Retrenched temporary employees in the State Census Department with a minimum service of 6 months. 3 Years",
+      "page": 3
+     },
+     {
+      "categories": [
+       "Government Employee"
+      ],
+      "for": "Telangana State Government Employees (Employees of TSRTC, Corporations, Municipalities etc. are not eligible).",
+      "years": 5,
+      "raw": "2. Telangana State Government Employees (Employees of TSRTC, Corporations, Municipalities etc. are not eligible). 5 Years based on the length of regular service.",
+      "page": 3
+     },
+     {
+      "categories": [
+       "Ex-Servicemen"
+      ],
+      "for": "Ex-Service men",
+      "years": 3,
+      "raw": "3. Ex-Service men 3 years & length of service rendered in the armed forces.",
+      "page": 3
+     },
+     {
+      "for": "N.C.C.(who have worked as Instructor in N.C.C.)",
+      "years": 3,
+      "raw": "4. N.C.C.(who have worked as Instructor in N.C.C.) 3 Years & length of service rendered in the N.C.C.",
+      "page": 3
+     },
+     {
+      "categories": [
+       "SC",
+       "ST"
+      ],
+      "for": "SC/ST and BCs",
+      "years": 5,
+      "raw": "5. SC/ST and BCs 5 Years",
+      "page": 3
+     }
+    ]
+   },
+   "source": {
+    "notice": "5ed0170dcfa0422882f79a8771e63d84ef270b23fc0a38328db221c5c6b5c8b3",
+    "url": "https://websitenew.tgpsc.gov.in/preview/RElSRUNUUkVDUlVJVE1FTlROT1RJLzQ4MjAxNy5wZGY=r95v17a0y2d8i13v",
+    "title": "NOTIFICATION NO. 48/2017, FOREST BEAT OFFICER IN FOREST DEPARTMENT (EFS&T) (GENERAL RECRUITMENT)",
+    "kind": "advertisement",
+    "page": 3
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2017-07-01",
+    "source": {
+     "notice": "5ed0170dcfa0422882f79a8771e63d84ef270b23fc0a38328db221c5c6b5c8b3",
+     "url": "https://websitenew.tgpsc.gov.in/preview/RElSRUNUUkVDUlVJVE1FTlROT1RJLzQ4MjAxNy5wZGY=r95v17a0y2d8i13v",
+     "title": "NOTIFICATION NO. 48/2017, FOREST BEAT OFFICER IN FOREST DEPARTMENT (EFS&T) (GENERAL RECRUITMENT)",
+     "kind": "advertisement",
+     "page": 1
+    }
+   },
+   "exam_date": {
+    "date": "2017-10-29",
+    "provisional": true,
+    "source": {
+     "notice": "5ed0170dcfa0422882f79a8771e63d84ef270b23fc0a38328db221c5c6b5c8b3",
+     "url": "https://websitenew.tgpsc.gov.in/preview/RElSRUNUUkVDUlVJVE1FTlROT1RJLzQ4MjAxNy5wZGY=r95v17a0y2d8i13v",
+     "title": "NOTIFICATION NO. 48/2017, FOREST BEAT OFFICER IN FOREST DEPARTMENT (EFS&T) (GENERAL RECRUITMENT)",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2017-10-29",
+   "source": {
+    "notice": "5ed0170dcfa0422882f79a8771e63d84ef270b23fc0a38328db221c5c6b5c8b3",
+    "url": "https://websitenew.tgpsc.gov.in/preview/RElSRUNUUkVDUlVJVE1FTlROT1RJLzQ4MjAxNy5wZGY=r95v17a0y2d8i13v",
+    "title": "NOTIFICATION NO. 48/2017, FOREST BEAT OFFICER IN FOREST DEPARTMENT (EFS&T) (GENERAL RECRUITMENT)",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "advertisement_no": {
+   "value": "48/2017",
+   "source": {
+    "notice": "5ed0170dcfa0422882f79a8771e63d84ef270b23fc0a38328db221c5c6b5c8b3",
+    "url": "https://websitenew.tgpsc.gov.in/preview/RElSRUNUUkVDUlVJVE1FTlROT1RJLzQ4MjAxNy5wZGY=r95v17a0y2d8i13v",
+    "title": "NOTIFICATION NO. 48/2017, FOREST BEAT OFFICER IN FOREST DEPARTMENT (EFS&T) (GENERAL RECRUITMENT)",
+    "kind": "advertisement"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Postgraduate",
+     "Graduate",
+     "Class 12",
+     "Class 10"
+    ],
+    "clauses": [
+     {
+      "text": "Educational Qualification details i.e., SSC, INTERMEDIATE, DEGREE, POST GRADUATION etc. and their Roll numbers, Year of passing etc.",
+      "page": 1
+     },
+     {
+      "text": "4) EDUCATIONAL QUALIFICATIONS:",
+      "page": 1
+     },
+     {
+      "text": "Applicants must possess the qualifications from a recognized University as detailed below or equivalent thereto, as specified in the relevant Service Rules, indented by the departments as on the Date of Notification",
+      "page": 1
+     },
+     {
+      "text": "2 Post Code Name of the Post Educational Qualifications 1 Forest Beat Officer",
+      "page": 2
+     },
+     {
+      "text": "Must have passed Intermediate examination or its equivalent",
+      "page": 2
+     },
+     {
+      "text": "d) The candidate should possess normal Eye sight apart from the Physical requirements prescribed above",
+      "page": 2
+     },
+     {
+      "text": "Proof of Educational Qualifications.",
+      "page": 5
+     },
+     {
+      "text": "Unless such Degrees had been recognised by the relevant Statutory Authority, they will not be accepted for purpose of Educational Qualification",
+      "page": 7
+     },
+     {
+      "text": "and other eligibility criteria",
+      "page": 16
+     },
+     {
+      "text": "(a) The scribe should be from an academic discipline other than that of the candidate and the academic qualification of the scribe should be one grade lower than the stipulated eligibility criteria.",
+      "page": 17
+     }
+    ]
+   },
+   "source": {
+    "notice": "5ed0170dcfa0422882f79a8771e63d84ef270b23fc0a38328db221c5c6b5c8b3",
+    "url": "https://websitenew.tgpsc.gov.in/preview/RElSRUNUUkVDUlVJVE1FTlROT1RJLzQ4MjAxNy5wZGY=r95v17a0y2d8i13v",
+    "title": "NOTIFICATION NO. 48/2017, FOREST BEAT OFFICER IN FOREST DEPARTMENT (EFS&T) (GENERAL RECRUITMENT)",
+    "kind": "advertisement"
+   }
+  },
+  "selection": {
+   "value": [
+    "Written examination",
+    "Medical examination"
+   ],
+   "source": {
+    "notice": "5ed0170dcfa0422882f79a8771e63d84ef270b23fc0a38328db221c5c6b5c8b3",
+    "url": "https://websitenew.tgpsc.gov.in/preview/RElSRUNUUkVDUlVJVE1FTlROT1RJLzQ4MjAxNy5wZGY=r95v17a0y2d8i13v",
+    "title": "NOTIFICATION NO. 48/2017, FOREST BEAT OFFICER IN FOREST DEPARTMENT (EFS&T) (GENERAL RECRUITMENT)",
+    "kind": "advertisement"
+   }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "Paper. I. General Knowledge",
+     "page": 14
+    },
+    {
+     "paper": "Paper. II. General Mathematics",
+     "page": 14
+    },
+    {
+     "paper": "Total",
+     "page": 14
+    }
+   ],
+   "source": {
+    "notice": "5ed0170dcfa0422882f79a8771e63d84ef270b23fc0a38328db221c5c6b5c8b3",
+    "url": "https://websitenew.tgpsc.gov.in/preview/RElSRUNUUkVDUlVJVE1FTlROT1RJLzQ4MjAxNy5wZGY=r95v17a0y2d8i13v",
+    "title": "NOTIFICATION NO. 48/2017, FOREST BEAT OFFICER IN FOREST DEPARTMENT (EFS&T) (GENERAL RECRUITMENT)",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "pay"
+ ],
+ "older_documents": 0
+}

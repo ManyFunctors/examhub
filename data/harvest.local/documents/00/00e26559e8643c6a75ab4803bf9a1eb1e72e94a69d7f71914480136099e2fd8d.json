@@ -1,0 +1,189 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "00e26559e8643c6a75ab4803bf9a1eb1e72e94a69d7f71914480136099e2fd8d",
+  "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Pharmacist_Notification_2025.pdf",
+  "title": "Notification for Pharmacist",
+  "body": "tn-mrb",
+  "exam": "tn-mrb-recruitment",
+  "feed": "tn-mrb/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "aa2cb19e30865fc1922135cb2306e7b7d1dfdb1dfddced349a288f4210eab6e3",
+  "bytes": 656726,
+  "pages": 37,
+  "chars": 60745,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:03:15+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "04/MRB/2025",
+ "dates": {
+  "payment_deadline": {
+   "date": "2025-03-10",
+   "evidence": "Last date for submission of Application (Online Registration & Online Payment)",
+   "page": 1,
+   "from": "table"
+  },
+  "exam_date": {
+   "date": "2025-03-10",
+   "evidence": "10.03.2025 Date of Examination Will be intimated later",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Date of Notification",
+   "date": "2025-02-17",
+   "page": 1
+  },
+  {
+   "event": "Last date for submission of Application (Online Registration & Online Payment)",
+   "key": "payment_deadline",
+   "date": "2025-03-10",
+   "page": 1
+  }
+ ],
+ "vacancies": {
+  "total": 425,
+  "evidence": "DISTRIBUTION OF VACANCIES:425",
+  "page": 1,
+  "from": "text"
+ },
+ "age": {
+  "limits": [
+   {
+    "max": 55,
+    "evidence": "Persons who have been demobilized from the Army, Navy or Air Force, (i) Who will be below 55 years of age in the case of Scheduled Castes, Scheduled Castes (Arunthathiyar), Scheduled Tribes, Most Backward Classes / Denotified Communities,…",
+    "page": 20
+   }
+  ]
+ },
+ "pay": [
+  {
+   "levels": [
+    11
+   ],
+   "low": 35400,
+   "high": 130400,
+   "text": "Pay Level 11, ₹35,400–130,400",
+   "evidence": "Pharmacist Rs.35,400 – 1,30,400 (Pay Matrix Level-11)",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "g) Person Studied in Tamil Medium (PSTM) Section 2 (d) of the Tamil Nadu Appointment on Preferential Basis in the Services under the State of Persons Studied in Tamil Medium (Amendment) Act, 2020, states that Person studied in Tamil medium means a person who has studied through Tamil medium of…",
+    "page": 3
+   },
+   {
+    "text": "Category Minimum Age (should have completed) ( in years) Maximum Age (in years) a",
+    "page": 3
+   },
+   {
+    "text": "EDUCATIONAL QUALIFICATION:",
+    "page": 4
+   },
+   {
+    "text": "Must have registered with Tamil Nadu Pharmacy Council and must keep the registration alive by renewing it regularly every year",
+    "page": 4
+   },
+   {
+    "text": "CONDITIONS AND QUALIFICATION:",
+    "page": 5
+   },
+   {
+    "text": "Whenever Computer Based Examination is conducted in multiple sessions based on the same syllabus, same pattern for candidates having same eligibility criteria, the raw marks obtained by the candidates in different sessions will be converted to normalized marks",
+    "page": 6
+   },
+   {
+    "text": "(d) The Pharmacists should have worked in Government Medical Institutions / Local Bodies like Greater Chennai Corporation during COVID PANDEMIC period.",
+    "page": 8
+   },
+   {
+    "text": "Reservation for Person Studied in Tamil Medium Section 2 (d) of the Tamil Nadu Appointment on Preferential Basis in the Services under the State of Persons Studied in Tamil Medium (Amendment) Act, 2020, states that ‗Person studied in Tamil medium means a person who has studied through Tamil medium…",
+    "page": 19
+   },
+   {
+    "text": "• Candidates must upload / produce documents at the time of submission of online application as evidence of having studied in the Tamil medium, all educational qualification up to the educational qualification prescribed.",
+    "page": 19
+   },
+   {
+    "text": "• If no such document as evidence for Person Studied in Tamil Medium„ is available, a certificate from the Principal/Head Master/ District Educational Officer / Chief Educational Officer / District Adi dravidar Welfare Officer/Registrar/Controller of Examinations / Head / Director of the…",
+    "page": 19
+   },
+   {
+    "text": "Evidence and Mark sheet of Educational qualification (SSLC / HSC / Diploma Course in Pharmacy/ Bachelor of Pharmacy or Pharm.D).",
+    "page": 22
+   },
+   {
+    "text": "Community Certificate should have been issued by the competent authorities referred to above, in whose jurisdiction the candidate claims to have permanent residence, after personal enquiries and proper verification",
+    "page": 23
+   },
+   {
+    "text": "They should have registered their names on or before the Notification date",
+    "page": 24
+   },
+   {
+    "text": "DISQUALIFICATION / DEBARMENT Disqualification:",
+    "page": 26
+   }
+  ]
+ },
+ "selection": [
+  "Written examination",
+  "Computer-based test",
+  "Interview"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "Tamil language Eligibility Test (SSLC Standard) @",
+   "page": 5,
+   "marks": 50,
+   "duration": "1 hour"
+  },
+  {
+   "paper": "Computer Based Examination (CBT) for Pharmacist",
+   "page": 5,
+   "marks": 100,
+   "duration": "2 hours"
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.mrb.tn.gov.in/",
+   "http://www.mrb.tn.gov.in./",
+   "http://www.mrb.tn.gov.in/pdf/MRB_LIST_COMMUNITIES_020614.pdf",
+   "https://www.mrb.tn.gov.in"
+  ]
+ },
+ "summary": {
+  "vacancies": 425,
+  "exam_date": "2025-03-10",
+  "age": {
+   "max": 55
+  },
+  "pay": "Pay Level 11, ₹35,400–130,400",
+  "education": [
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12"
+  ],
+  "selection": "Written examination → Computer-based test → Interview"
+ }
+}

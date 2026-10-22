@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "exam": "in-sbi-po",
+ "name": "SBI Probationary Officers",
+ "body": "in-sbi",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 3,
+ "documents_in_cycle": 3,
+ "fields": {
+  "apply_links": {
+   "value": [
+    "https://bank.sbi/web/careers/current-openings",
+    "http://cgrs.ibps.in"
+   ],
+   "source": {
+    "notice": "afdc615f85f42165eec2941eae202c99280ad9f09f91f2a6aafa8d9503183a03",
+    "url": "https://sbi.bank.in/documents/77530/52947104/PO+25-26_04+-+Hindi.pdf/fca712fa-9613-4da0-765f-97ef7f552cba?t=1752651096600",
+    "title": "DOWNLOAD ADVERTISEMENT( English / Hindi )",
+    "kind": "advertisement"
+   },
+   "alternatives": 2
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}

@@ -1,0 +1,39 @@
+{
+ "schema": 1,
+ "exam": "in-icar-aice-phd",
+ "name": "ICAR All India Competitive Examination for JRF/SRF (PhD)",
+ "body": "in-nta",
+ "purpose": "admission",
+ "cycle": "2026",
+ "documents": 26,
+ "documents_in_cycle": 9,
+ "fields": {
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "Subject of specialization Eligibility Qualifications for SAUs / CAUs etc. and/or ICAR-DUs (Master’s Degree in) Additional Eligibility Qualification at Bachelor’s level for",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "acc0e74ec7b9aa4cfc13e4530bdf9348640578569bb39d04aa289e9ea1f5e54e",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20230615174035.pdf",
+    "title": "944 Public Notice for Incorporation, Corrections in PhD Information Bulletin for ICAR(PhD)-2023 Read More",
+    "kind": "brochure"
+   },
+   "carried_from": "2023"
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "exam_pattern"
+ ],
+ "older_documents": 17
+}

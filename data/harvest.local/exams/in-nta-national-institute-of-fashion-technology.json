@@ -1,0 +1,77 @@
+{
+ "schema": 1,
+ "exam": "in-nta-national-institute-of-fashion-technology",
+ "name": "NIFT Entrance Examination",
+ "body": "in-nta",
+ "purpose": "admission",
+ "cycle": "2027",
+ "documents": 3,
+ "documents_in_cycle": 2,
+ "fields": {
+  "dates": {
+   "registration_deadline": {
+    "date": "2026-11-21",
+    "source": {
+     "notice": "f6749aca5c7772b421cbb28afb7e3ab053600327b0d574b61b350109559eb45c",
+     "url": "https://nta.ac.in/Download/Notice/Notice_20261016183525.pdf",
+     "title": "Inviting Online Applications for the National Institute of Fashion Technology Entrance Examination (NIFTEE)–2027 for Admissions to UG, PG, NLEA, Artisans and Ph.D. Programmes-reg. Read More",
+     "kind": "schedule",
+     "page": 1
+    },
+    "alternatives": 1
+   }
+  },
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2026-11-21"
+   },
+   "source": {
+    "notice": "f6749aca5c7772b421cbb28afb7e3ab053600327b0d574b61b350109559eb45c",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20261016183525.pdf",
+    "title": "Inviting Online Applications for the National Institute of Fashion Technology Entrance Examination (NIFTEE)–2027 for Admissions to UG, PG, NLEA, Artisans and Ph.D. Programmes-reg. Read More",
+    "kind": "schedule",
+    "page": 1
+   }
+  },
+  "apply_links": {
+   "value": [
+    "https://exams.nta.nic.in/niftee/"
+   ],
+   "source": {
+    "notice": "f6749aca5c7772b421cbb28afb7e3ab053600327b0d574b61b350109559eb45c",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20261016183525.pdf",
+    "title": "Inviting Online Applications for the National Institute of Fashion Technology Entrance Examination (NIFTEE)–2027 for Admissions to UG, PG, NLEA, Artisans and Ph.D. Programmes-reg. Read More",
+    "kind": "schedule"
+   },
+   "alternatives": 1
+  },
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "Candidates must carefully check the eligibility requirements, including age, educational qualifications, subject combinations (where applicable) and category-specific criteria mentioned in the NIFT Admissions Guidelines–2027 and the NIFTEE–2027 Information Bulletin",
+      "page": 1
+     },
+     {
+      "text": "For the programme-wise examination pattern, eligibility criteria, syllabus, scheme of examination and examination cities, candidates should refer to the NIFT Admissions Guidelines–2027 and the NIFTEE–2027 Information Bulletin available on the official websites of NIFT/NTA",
+      "page": 2
+     }
+    ]
+   },
+   "source": {
+    "notice": "f6749aca5c7772b421cbb28afb7e3ab053600327b0d574b61b350109559eb45c",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20261016183525.pdf",
+    "title": "Inviting Online Applications for the National Institute of Fashion Technology Entrance Examination (NIFTEE)–2027 for Admissions to UG, PG, NLEA, Artisans and Ph.D. Programmes-reg. Read More",
+    "kind": "schedule"
+   },
+   "alternatives": 1
+  }
+ },
+ "gaps": [
+  "exam_date",
+  "fee",
+  "exam_pattern"
+ ],
+ "older_documents": 1
+}

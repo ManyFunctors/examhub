@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2f7bb62750194f17d07517e52cbc1efa36c8cf47e47d7d2b9b52608a90fbe9e9",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/03/202603211564081245.pdf",
+  "title": "Advance Intimation for Allotment of Examination City to the Applicants of Joint Entrance Examination (Main) – 2026 Session 2 – Reg.",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/jeemain",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "ac878631fe149ee09a770a3b94e1e9db04cf96140ccb844d27e8ca817a89381d",
+  "bytes": 448668,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T16:26:08+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

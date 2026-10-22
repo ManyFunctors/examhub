@@ -1,0 +1,46 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c2ad2674da3d50c0b10d52fca751191cc1d6b573df5fa94b4e412c59c6ccd112",
+  "url": "https://arunpol.nic.in/Recruitment/Recruitment 23/Offer of Appointmet HC(RT).PDF",
+  "title": "Offer of appointment for the post of Head Constable (Radio Technician) (Civil Police & IRBn) in Arunachal Pradesh Police View",
+  "body": "ar-police",
+  "exam": "ar-police",
+  "feed": "ar-police/advertisement",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "595bbfd009c6b8529946a410fba1bb1dc9e4abee4e7b11ee5a82aa2e50d64518",
+  "bytes": 826404,
+  "pages": 2,
+  "chars": 4846,
+  "ocr": true,
+  "ocr_engine": "ocrmypdf+tesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:06+05:30"
+ },
+ "kind": "result",
+ "pay": [
+  {
+   "levels": [
+    4
+   ],
+   "low": 25500,
+   "high": 81100,
+   "text": "Pay Level 4, ₹25,500–81,100",
+   "evidence": "APSSB-13/12/2023 Dated 09/10/2024 on being found medically fit and subject to satisfactory verification of the character & antecedents, the following personnels are provisionally selected for the post of Head Constable (RT) (Civil Police & IRBn) against the existing temporary vacancies of…",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "https://www.arunpol.nic.in"
+  ]
+ },
+ "summary": {
+  "pay": "Pay Level 4, ₹25,500–81,100"
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

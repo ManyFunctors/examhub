@@ -1,0 +1,28 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "1f16bd8d1c81e2abe8630ce183b245592f4086b3cdf5b839074b5be03aba6919",
+  "url": "https://meghealth.gov.in/news/List-Eligible-MedicalOfficerHomeopathy.pdf",
+  "title": "Medical Officer Homeopathy",
+  "body": "ml-health",
+  "exam": "ml-health-recruitment",
+  "feed": "ml-health/notifications",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "bb76fa387d1d918cbc1311e86e5e67083952d92f0179adf0f33818559750d798",
+  "bytes": 135963,
+  "pages": 6,
+  "chars": 5072,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:03:20+05:30"
+ },
+ "kind": "notice",
+ "exam": {
+  "mode": {
+   "value": "Offline",
+   "page": 1
+  }
+ }
+}

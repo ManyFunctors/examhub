@@ -1,0 +1,58 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "03e43d29b29752a2f56c46c4f61bc2d17b13d5ce08920ef3d2243d431ea59def",
+  "url": "https://www.mhc.tn.gov.in/recruitment/docs/guidelines_researchfellow.pdf",
+  "title": "GUIDELINES FOR THE APPOINTMENT OF RESEARCH FELLOW AND RESEARCH ASSISTANT IN THE TAMILNADU STATE JUDICIAL ACADEMY",
+  "body": "tn-mhc",
+  "exam": "tn-mhc-staff",
+  "feed": "tn-mhc/recruitment-archives",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "fa26fa70fe8c8ef7441916a4701a6683b6e33f95829ebadd1e45a7e2195c4218",
+  "bytes": 155009,
+  "pages": 6,
+  "chars": 10247,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:03:18+05:30"
+ },
+ "kind": "notice",
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "5.Minimum eligibility criteria for Research Fellow and Research Assistant :- ‘ (1).Candidate should be a Post Graduate in Law (Under 10+2+3+342 or j 10+2+5+2 pattern) from the recognized Universities in the Indian Union and",
+    "page": 2
+   },
+   {
+    "text": "Note:- Educational Qualifications and other eligibility criteria may be relaxed in case",
+    "page": 2
+   },
+   {
+    "text": "(v).Candidates pursuing Post Graduate Degree in Law or any other",
+    "page": 2
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "summary": {
+  "education": [
+   "Postgraduate",
+   "Graduate",
+   "Class 12"
+  ],
+  "selection": "Interview"
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

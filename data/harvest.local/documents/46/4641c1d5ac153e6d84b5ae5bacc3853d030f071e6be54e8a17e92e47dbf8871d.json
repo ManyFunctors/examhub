@@ -1,0 +1,41 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "4641c1d5ac153e6d84b5ae5bacc3853d030f071e6be54e8a17e92e47dbf8871d",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220823093629.pdf",
+  "title": "1182 PRESS RELEASE 22 August 2022 Subject: Conduct of the Phase 5 of Common University Entrance Examination CUET (UG) – 2022 – Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/notices",
+  "published": "2022-08-22",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "1265f43f21380af277afbc4ff92a65f4fcae692d84c805ea3312e3acd1311921",
+  "bytes": 1255533,
+  "pages": 1,
+  "chars": 2052,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-07T09:08:33+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2022-08-26",
+   "evidence": "Admit Cards to the candidates for Phase 6 to be conducted on 24, 25, and 26 August 2022 have",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in",
+   "https://cuet.samarth.ac.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-08-26"
+ }
+}

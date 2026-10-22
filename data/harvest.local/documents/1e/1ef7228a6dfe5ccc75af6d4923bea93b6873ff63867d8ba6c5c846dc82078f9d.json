@@ -1,0 +1,135 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1ef7228a6dfe5ccc75af6d4923bea93b6873ff63867d8ba6c5c846dc82078f9d",
+  "url": "https://tancet.annauniv.edu/tancet/Information Brochure 2026.pdf",
+  "title": "INFORMATION BROCHURE",
+  "body": "tn-anna-univ",
+  "exam": "tn-tancet",
+  "feed": "tn-anna-univ/home",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "95b1b0c7ac97b0ebc36ca5f21334d0f3dea798518c971109dd0878552e4f2145",
+  "bytes": 600594,
+  "pages": 11,
+  "chars": 16513,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:46+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "exam_date": {
+   "date": "2026-05-07",
+   "until": "2026-05-08",
+   "evidence": "Chennai Centre for Entrance Examinations Anna University, Chennai – 25.",
+   "page": 6,
+   "from": "table"
+  },
+  "registration_deadline": {
+   "date": "2026-04-10",
+   "evidence": " Last date for applying is 10.04.2026 (Friday)",
+   "page": 10,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "TANCET - M.C.A. 10.00 a.m. to 12.00 noon",
+   "date": "2026-05-09",
+   "page": 4
+  },
+  {
+   "event": "TANCET - M.B.A. 02.30 p.m. to 04.30 p.m.",
+   "date": "2026-05-09",
+   "page": 4
+  },
+  {
+   "event": "CEETA-PG 10.00 a.m. to 12.00 noon",
+   "date": "2026-05-10",
+   "page": 4
+  },
+  {
+   "event": "Chennai Centre for Entrance Examinations Anna University, Chennai – 25.",
+   "key": "exam_date",
+   "date": "2026-05-07",
+   "page": 6,
+   "until": "2026-05-08"
+  }
+ ],
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 1000,
+   "raw": "TANCET - M.C.A. Rs.500/-  Rs.1000/-",
+   "page": 4
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "(iii) Master’s Degree in the relevant branch of Science / Arts, which are prescribed.",
+    "page": 3
+   }
+  ]
+ },
+ "exam_pattern": [
+  {
+   "paper": "M.B.A.",
+   "page": 7,
+   "questions": 100,
+   "marks": 1
+  },
+  {
+   "paper": "M.C.A.",
+   "page": 7,
+   "questions": 100,
+   "marks": 1
+  },
+  {
+   "paper": "M.E.",
+   "page": 7
+  },
+  {
+   "paper": "Part - I",
+   "page": 7,
+   "questions": 10,
+   "marks": 1
+  }
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "One-fourth of the marks assigned for each wrong answer",
+   "page": 7
+  },
+  "duration": {
+   "value": "Course Duration of the Test Syllabi 1 M.B.A.",
+   "page": 6
+  }
+ },
+ "links": {
+  "other": [
+   "https://tancet.annauniv.edu/",
+   "https://tancet.annauniv.edu/tancet/ALL.pdf"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-04-10"
+  },
+  "exam_date": "2026-05-07",
+  "fee": {
+   "min": 1000,
+   "max": 1000
+  },
+  "education": [
+   "Graduate"
+  ]
+ }
+}

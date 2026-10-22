@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "a2f313dfdc355deaba35f861e93cb64b8e48e4874ac74cd96a1a6f086d391d18",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210326122404.pdf",
+  "title": "1573 Refund of Duplicate Fees to concerned Candidates of JEE (Main) - 2021 Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "67fbeccaa3583d9c6a4ffde18f049b4a80dea76ddd9c4a6866b2785b0a7c6bc1",
+  "bytes": 668744,
+  "pages": 1,
+  "chars": 2165,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-08T21:35:14+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "registration_open": {
+   "date": "2020-12-16",
+   "evidence": "The application period for February Session was from 16 December 2020 to 23 January 2021 and fee payment for this",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2021-01-23",
+   "evidence": "The application period for February Session was from 16 December 2020 to 23 January 2021 and fee payment for this",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2020-12-16",
+   "until": "2021-01-23"
+  }
+ }
+}

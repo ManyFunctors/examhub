@@ -1,0 +1,27 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "002a368383e1b3d7bfe0779c18f57e95eb537b002461e428f8a8de9fa24234e0",
+  "url": "https://setexam.unipune.ac.in/SET_2026/AdmitCard_Prakatan_2026.pdf",
+  "title": "Jahir Prakatan for Student Admit Card",
+  "body": "mh-sppu-set",
+  "exam": "mh-set",
+  "feed": "mh-sppu-set/home",
+  "doc_type": "admit_card"
+ },
+ "document": {
+  "sha256": "e3a933e2802295ecf6a03c8dd4ae287038a9247fc872e6a162ea3117d52681de",
+  "bytes": 283214,
+  "pages": 1,
+  "chars": 1631,
+  "ocr": false,
+  "indic_share": 0.66,
+  "fetched": "2026-10-22T13:54:52+05:30"
+ },
+ "kind": "admit_card",
+ "links": {
+  "apply": [
+   "https://setexam.unipune.ac.in/"
+  ]
+ }
+}

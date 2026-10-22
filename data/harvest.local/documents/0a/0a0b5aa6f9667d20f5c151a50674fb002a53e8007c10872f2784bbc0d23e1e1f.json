@@ -1,0 +1,75 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "0a0b5aa6f9667d20f5c151a50674fb002a53e8007c10872f2784bbc0d23e1e1f",
+  "url": "https://jkbopee.gov.in/Pdf/Downloader.ashx?nid=12720&type=n",
+  "title": "Admission Notification for Common Entrance Test-2020 (B.Sc. Nursing/Post Basic B.Sc. Nursing/B.Sc. Para-medical Courses).[BSCN-NN-29]",
+  "body": "jk-jkbopee",
+  "exam": "jk-jkbopee-nursing-paramedical",
+  "feed": "jk-jkbopee/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "48e5919d1b92cbf4bc94404ddd06e777d80152c876dc16aa45b935e4887d0b30",
+  "bytes": 1615151,
+  "pages": 7,
+  "chars": 20450,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:03:30+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "029-BOPEE",
+ "fees": [
+  {
+   "categories": [
+    "All"
+   ],
+   "amount": 1000,
+   "raw": "Fee Rs. 1000/- (Rupees one thousand only) to be paid online through national Credit Card/Debit Card/Net Banking.",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "(iii) have passed 10+2 or equivalent examination individually in the subjects Physics ,Chemistry, Biology and English Core/English Elective and must have obtained minimum of 45% marks taken together in PCB subjects from Recognised Board Under AISSCE/CBSE/ICSE/SSCE/HSCE or other equivalent Board or…",
+    "page": 3
+   },
+   {
+    "text": "The Board shall on receipt of any such communication from the concerned authority/University notify the same, which shall govern the eligibility criteria",
+    "page": 5
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Offline",
+   "page": 1
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 6
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.jakbopee.org",
+   "https://www.jkbopee.gov.in",
+   "https://www.jakbopee.org",
+   "https://www.ikbopee.gov.in"
+  ]
+ },
+ "summary": {
+  "fee": {
+   "min": 1000,
+   "max": 1000
+  },
+  "education": [
+   "Class 12"
+  ]
+ }
+}

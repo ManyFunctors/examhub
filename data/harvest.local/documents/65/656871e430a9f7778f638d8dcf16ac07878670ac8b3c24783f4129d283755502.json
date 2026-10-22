@@ -1,0 +1,268 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "656871e430a9f7778f638d8dcf16ac07878670ac8b3c24783f4129d283755502",
+  "url": "https://sbi.bank.in/documents/77530/57941334/14052026_FINAL+AD-IAD-SCO-2026-27-08.pdf/52171408-97f3-d8ea-ce32-9948ae0f0b45?t=1778749404359",
+  "title": "DOWNLOAD ADVERTISEMENT( Hindi/ English ) ( )",
+  "body": "in-sbi",
+  "exam": "in-sbi-so",
+  "feed": "in-sbi/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "21b73f308e55feb0fa2b77b03bce23640ce1a29f65508120ce410b207d1ccede",
+  "bytes": 566376,
+  "pages": 3,
+  "chars": 27344,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T11:36:45+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "CRPD/RS/2026-27/08",
+ "dates": {
+  "registration_open": {
+   "date": "2026-05-14",
+   "evidence": "ENGAGEMENT OF RETIRED BANK OFFICERS OF SBI ON CONTRACT BASIS ADVERTISEMENT NO: CRPD/RS/2026-27/08 ONLINE REGISTRATION OF APPLICATION FROM 14.05.2026 TO 11.06.2026 State Bank of India invites Online applications for engagement of retired off",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2026-06-11",
+   "evidence": "ENGAGEMENT OF RETIRED BANK OFFICERS OF SBI ON CONTRACT BASIS ADVERTISEMENT NO: CRPD/RS/2026-27/08 ONLINE REGISTRATION OF APPLICATION FROM 14.05.2026 TO 11.06.2026 State Bank of India invites Online applications for engagement of retired off",
+   "page": 1,
+   "from": "text"
+  },
+  "age_as_on": {
+   "date": "2026-05-14",
+   "evidence": "As such, maximum age as on date of advertisement i.e., on 14.05.2026 should be 63 years for fresh engagement.",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "unmapped_classes": [
+  {
+   "label": "PwBD HI",
+   "page": 3
+  },
+  {
+   "label": "PwBD LD",
+   "page": 3
+  }
+ ],
+ "vacancies": {
+  "total": 18,
+  "by_category": {
+   "PwBD": 18
+  },
+  "rows": [
+   {
+    "label": "Amaravati",
+    "total": 1,
+    "by_category": {
+     "PwBD": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Bengaluru",
+    "total": 1,
+    "by_category": {
+     "PwBD": 2
+    },
+    "page": 3
+   },
+   {
+    "label": "Bhopal",
+    "total": 1,
+    "by_category": {
+     "PwBD": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Bhubaneswar",
+    "total": 1,
+    "by_category": {
+     "PwBD": 2
+    },
+    "page": 3
+   },
+   {
+    "label": "Chandigarh",
+    "total": 1,
+    "by_category": {
+     "PwBD": 2
+    },
+    "page": 3
+   },
+   {
+    "label": "Chennai",
+    "total": 1,
+    "by_category": {
+     "PwBD": 2
+    },
+    "page": 3
+   },
+   {
+    "label": "Gandhinagar",
+    "total": 1,
+    "by_category": {
+     "PwBD": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Guwahati",
+    "total": 1,
+    "by_category": {
+     "PwBD": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Hyderabad",
+    "total": 1,
+    "by_category": {
+     "PwBD": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Jaipur",
+    "total": 2,
+    "by_category": {
+     "PwBD": 2
+    },
+    "page": 3
+   },
+   {
+    "label": "Kolkata",
+    "total": 1,
+    "by_category": {
+     "PwBD": 2
+    },
+    "page": 3
+   },
+   {
+    "label": "Lucknow",
+    "total": 1,
+    "by_category": {
+     "PwBD": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Maharashtra",
+    "total": 1,
+    "by_category": {
+     "PwBD": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Mumbai Metro",
+    "total": 1,
+    "by_category": {
+     "PwBD": 2
+    },
+    "page": 3
+   },
+   {
+    "label": "New Delhi",
+    "total": 1,
+    "by_category": {
+     "PwBD": 2
+    },
+    "page": 3
+   },
+   {
+    "label": "Patna",
+    "total": 1,
+    "by_category": {
+     "PwBD": 0
+    },
+    "page": 3
+   },
+   {
+    "label": "Thiruvananthapuram",
+    "total": 1,
+    "by_category": {
+     "PwBD": 2
+    },
+    "page": 3
+   }
+  ],
+  "from": "table"
+ },
+ "age": {
+  "as_on": "2026-05-14"
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Before applying, candidates are requested to ensure that they fulfil the eligibility criteria for the post as on the date of eligibility.",
+    "page": 1
+   },
+   {
+    "text": "In case a candidate is called for interview and is found not satisfying the eligibility criteria he/ she will not be allowed to appear for the interview.",
+    "page": 1
+   },
+   {
+    "text": "Educational Qualification / Experience Required - Education:",
+    "page": 1
+   },
+   {
+    "text": "Eligibility Criteria for fresh engagement (As",
+    "page": 1
+   },
+   {
+    "text": "The officer should have retired from the Bank’s service only on attaining superannuation at the age of 60 years",
+    "page": 1
+   },
+   {
+    "text": "Officers should have good track record of performance and thorough knowledge of Bank’s systems and procedures.",
+    "page": 1
+   },
+   {
+    "text": "No punishment/ penalty (Censure or higher) should have been inflicted on the official during the five years of his service preceding to his/her retirement.",
+    "page": 1
+   },
+   {
+    "text": "The applicant should have been retired as on the date of submitting of the application",
+    "page": 1
+   },
+   {
+    "text": "Shortlisting: -Mere fulfilling minimum qualification and experience will not vest any right in candidate for being called for interview",
+    "page": 1
+   },
+   {
+    "text": "HOW TO APPLY: Candidates should have valid email ID which should be kept active till the declaration of result",
+    "page": 2
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "links": {
+  "apply": [
+   "https://www.sbi.bank.in/web/careers/current-openings",
+   "https://sbi.bank.in/web/careers/"
+  ]
+ },
+ "summary": {
+  "vacancies": 18,
+  "apply": {
+   "from": "2026-05-14",
+   "until": "2026-06-11"
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Interview"
+ }
+}

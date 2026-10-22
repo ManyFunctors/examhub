@@ -1,0 +1,92 @@
+{
+ "schema": 1,
+ "exam": "br-pgmac",
+ "name": "Bihar PG Medical Admission Counselling / UGMAC",
+ "body": "br-bceceb",
+ "purpose": "admission",
+ "cycle": "2026",
+ "documents": 2,
+ "documents_in_cycle": 2,
+ "fields": {
+  "dates": {
+   "payment_deadline": {
+    "date": "2026-10-06",
+    "source": {
+     "notice": "43f91f1c77d192051672f27dc52db193fa4f3f9434b714f2dbce18ec7d61104d",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_09.pdf",
+     "title": "Details for filling online application form and choice filling for Round-3 of UGMAC-2026 (Adv. No. BCECEB(UGMAC)-2026/09 Dated 30.09.2026)",
+     "kind": "notice",
+     "page": 7
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-10-06",
+    "source": {
+     "notice": "43f91f1c77d192051672f27dc52db193fa4f3f9434b714f2dbce18ec7d61104d",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_09.pdf",
+     "title": "Details for filling online application form and choice filling for Round-3 of UGMAC-2026 (Adv. No. BCECEB(UGMAC)-2026/09 Dated 30.09.2026)",
+     "kind": "notice",
+     "page": 7
+    }
+   },
+   "registration_open": {
+    "date": "2026-10-03",
+    "source": {
+     "notice": "43f91f1c77d192051672f27dc52db193fa4f3f9434b714f2dbce18ec7d61104d",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_09.pdf",
+     "title": "Details for filling online application form and choice filling for Round-3 of UGMAC-2026 (Adv. No. BCECEB(UGMAC)-2026/09 Dated 30.09.2026)",
+     "kind": "notice",
+     "page": 7
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-10-03",
+    "until": "2026-10-06"
+   },
+   "source": {
+    "notice": "43f91f1c77d192051672f27dc52db193fa4f3f9434b714f2dbce18ec7d61104d",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_09.pdf",
+    "title": "Details for filling online application form and choice filling for Round-3 of UGMAC-2026 (Adv. No. BCECEB(UGMAC)-2026/09 Dated 30.09.2026)",
+    "kind": "notice",
+    "page": 7
+   }
+  },
+  "advertisement_no": {
+   "value": "BCECEB(UGMAC)-2026/09",
+   "source": {
+    "notice": "0eac6a1d0a49b0c966e3577ad5d75e3036c4b67c87aaccd5cc16e143f284fea7",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_10.pdf",
+    "title": "Notice for filling online application form and choice filling for Round-3 of UGMAC-2026 (Adv. No. BCECEB(UGMAC)-2026/10 Dated 30.09.2026)",
+    "kind": "notice"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "Eligibility criteria for counselling / admission Fee payment precedure, instructions and other details for filling up online applications form-cum-choice filling are available in the Prospectus of UGMAC- 2026 and the related Advertisement No.-BCECEB(UGMAC)-2026/09 dated 30.09.2026, which can be…",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "0eac6a1d0a49b0c966e3577ad5d75e3036c4b67c87aaccd5cc16e143f284fea7",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_10.pdf",
+    "title": "Notice for filling online application form and choice filling for Round-3 of UGMAC-2026 (Adv. No. BCECEB(UGMAC)-2026/10 Dated 30.09.2026)",
+    "kind": "notice"
+   },
+   "alternatives": 1
+  }
+ },
+ "gaps": [
+  "exam_date",
+  "fee",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

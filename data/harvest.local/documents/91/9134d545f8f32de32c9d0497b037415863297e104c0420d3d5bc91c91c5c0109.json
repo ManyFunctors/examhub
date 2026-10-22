@@ -1,0 +1,105 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "9134d545f8f32de32c9d0497b037415863297e104c0420d3d5bc91c91c5c0109",
+  "url": "https://nta.ac.in/Download/Notice/PressReleaseJEE(Main).pdf",
+  "title": "1903 Press Release JEE (Main) Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "8899a8f306da053247c27f6ff2f639b159b528eecf82116fc80eb1047606a54a",
+  "bytes": 87030,
+  "pages": 2,
+  "chars": 3158,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-03T00:51:17+05:30"
+ },
+ "kind": "notice",
+ "vacancies": {
+  "total": 1109250,
+  "by_category": {
+   "Unreserved": 536912,
+   "OBC": 424380,
+   "SC": 104034,
+   "ST": 43924
+  },
+  "rows": [
+   {
+    "label": "Male",
+    "total": 660487,
+    "by_category": {
+     "Unreserved": 319834,
+     "SC": 63152,
+     "ST": 25506,
+     "OBC": 251995
+    },
+    "page": 1
+   },
+   {
+    "label": "Female",
+    "total": 286706,
+    "by_category": {
+     "Unreserved": 132638,
+     "SC": 22913,
+     "ST": 9369,
+     "OBC": 103786
+    },
+    "page": 1
+   },
+   {
+    "label": "Transgender",
+    "total": 5,
+    "by_category": {
+     "Unreserved": 2,
+     "SC": 1,
+     "OBC": 2
+    },
+    "page": 1
+   },
+   {
+    "label": "Male",
+    "total": 104393,
+    "by_category": {
+     "Unreserved": 47481,
+     "SC": 11949,
+     "ST": 6055,
+     "OBC": 38908
+    },
+    "page": 1
+   },
+   {
+    "label": "Female",
+    "total": 75658,
+    "by_category": {
+     "Unreserved": 36957,
+     "SC": 6019,
+     "ST": 2994,
+     "OBC": 29688
+    },
+    "page": 1
+   },
+   {
+    "label": "Transgender",
+    "total": 1,
+    "by_category": {
+     "OBC": 1
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "summary": {
+  "vacancies": 1109250
+ }
+}

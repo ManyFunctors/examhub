@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "07c1b1c50f4f9505a22025966334820967b595d6b44e0e0506500c876868f61b",
+  "url": "https://www.mhc.tn.gov.in/recruitment/docs/infn_oa_sc.pdf",
+  "title": "INFORMATION TO THE CANDIDATES - III APPEARED FOR THE WRITTEN EXAMINATION HELD ON 31.07.2021[SATURDAY] AND 01.08.2021[SUNDAY] FOR THE POSTS OF OFFICE ASSISTANT, SANITARY WORKER, ETC., ,",
+  "body": "tn-mhc",
+  "exam": "tn-mhc-staff",
+  "feed": "tn-mhc/recruitment-archives",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "17b252a79b8d1c5f07bf3c849816ee5e0270a67c4d4eaa97cdf15a51229f9128",
+  "bytes": 266221,
+  "pages": 6,
+  "chars": 4284,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:18:07+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "exam_date": {
+   "date": "2021-07-31",
+   "evidence": "Obiections received with regard to the Written Examination conducted on 31.07.2021 - 'A' Series",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Offline",
+   "page": 1
+  }
+ },
+ "summary": {
+  "exam_date": "2021-07-31"
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

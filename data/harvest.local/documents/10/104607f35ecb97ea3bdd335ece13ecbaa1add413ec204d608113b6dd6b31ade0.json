@@ -1,0 +1,125 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "104607f35ecb97ea3bdd335ece13ecbaa1add413ec204d608113b6dd6b31ade0",
+  "url": "https://www.iob.bank.in/documents/d/guest/iobrecruitment_of_internal_ombudsman_contract_basis_29122023",
+  "title": "Advertisement - (View)",
+  "body": "in-iob",
+  "exam": "in-iob-recruitment",
+  "feed": "in-iob/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "cffcc6bf4dc0b0327e424c319e15ce0bf1e226c354f385a4ed0e393b8ca1121d",
+  "bytes": 337568,
+  "pages": 8,
+  "chars": 23024,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:03:21+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "IOB/HRDD/CONTRACT",
+ "dates": {
+  "payment_deadline": {
+   "date": "2024-01-07",
+   "evidence": "Last Date for Online Registration and payment of intimation charges through online mode",
+   "page": 1,
+   "from": "table"
+  },
+  "age_as_on": {
+   "date": "2023-12-01",
+   "provisional": true,
+   "evidence": "Age Shall not be over 65 Years of age as on 01.12.2023  [document-level hedge: Tentative date]",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Online Registration of Applications",
+   "date": "2023-12-30",
+   "page": 1,
+   "until": "2024-01-07"
+  },
+  {
+   "event": "Payment of non-refundable Intimation Charges (Rs.1000/- inclusive of GST) - Online Mode",
+   "date": "2023-12-30",
+   "page": 1,
+   "until": "2024-01-07"
+  },
+  {
+   "event": "Last Date for Online Registration and payment of intimation charges through online mode",
+   "key": "payment_deadline",
+   "date": "2024-01-07",
+   "page": 1
+  },
+  {
+   "event": "Age",
+   "date": "2023-12-01",
+   "page": 1
+  }
+ ],
+ "vacancies": {
+  "total": 1,
+  "evidence": "Post Internal Ombudsman Vacancies 01 Job description IO will be reporting directly to the MD & CEO / Executive Director of the Bank handling customer grievances and shall be the focal point for Internal Grievance Redressal System in terms o",
+  "page": 1,
+  "from": "text"
+ },
+ "age": {
+  "as_on": "2023-12-01",
+  "relaxations": [
+   {
+    "for": "Contract Tenure",
+    "years": 3,
+    "raw": "Contract Tenure Tenure of IO shall be a fixed term of 3 years, subject to Annual Review of Performance. IO shall not be eligible for reappointment or for extension of term. The contract can be termina",
+    "page": 2
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "ELIGIBILITY CRITERIA AND OTHER TERMS & CONDITIONS All the eligibility criteria (Qualification, Age, Experience etc.) for this post shall be computed as on 01.12.2023 (inclusive)",
+    "page": 1
+   },
+   {
+    "text": "Mere fulfilling minimum qualification and experience will not vest any right in candidate for being called for interview",
+    "page": 3
+   },
+   {
+    "text": "All candidates will have to produce, if called for interview, originals as well as attested photocopies of documents in support of their eligibility such as age, educational qualification, experience or any other required certificate, failing which their candidature will be cancelled",
+    "page": 5
+   },
+   {
+    "text": "Candidates who do not satisfy the eligibility criteria and who do not produce (for any reason) the originals as well as attested photocopies of all documents required to be submitted as advised in this notification and Interview call letter, whomsoever, shall not be permitted to attend the…",
+    "page": 6
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.iob.in",
+   "https://www.iob.in”"
+  ]
+ },
+ "summary": {
+  "vacancies": 1,
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Interview"
+ }
+}

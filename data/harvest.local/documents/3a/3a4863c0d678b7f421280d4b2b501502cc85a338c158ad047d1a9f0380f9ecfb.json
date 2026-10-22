@@ -1,0 +1,66 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3a4863c0d678b7f421280d4b2b501502cc85a338c158ad047d1a9f0380f9ecfb",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20241231112431.pdf",
+  "title": "Extension of Last Date for Submission of Online Application Form for Joint CSIR-UGC NET December 2024 Read More",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/home",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "f1b50f5a140895edf14a284779b87fc09f5e3ac7ac4447670a8208d621ff462f",
+  "bytes": 1181506,
+  "pages": 2,
+  "chars": 3556,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-01T20:32:23+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "payment_deadline": {
+   "date": "2024-12-31",
+   "until": "2025-01-03",
+   "evidence": "Last date for Payment of Fee",
+   "page": 1,
+   "from": "table"
+  },
+  "correction_window": {
+   "date": "2025-01-01",
+   "until": "2025-01-02",
+   "evidence": "*Correction in the Particulars in Online Application Form",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Online Submission of Application Form",
+   "date": "2024-12-30",
+   "page": 1,
+   "until": "2025-01-02"
+  },
+  {
+   "event": "Last date for Payment of Fee",
+   "key": "payment_deadline",
+   "date": "2024-12-31",
+   "page": 1,
+   "until": "2025-01-03"
+  },
+  {
+   "event": "*Correction in the Particulars in Online Application Form",
+   "key": "correction_window",
+   "date": "2025-01-01",
+   "page": 1,
+   "until": "2025-01-02"
+  }
+ ],
+ "links": {
+  "other": [
+   "https://csirnet.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ }
+}

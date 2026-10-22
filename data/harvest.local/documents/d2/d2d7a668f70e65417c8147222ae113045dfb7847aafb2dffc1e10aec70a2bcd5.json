@@ -1,0 +1,110 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d2d7a668f70e65417c8147222ae113045dfb7847aafb2dffc1e10aec70a2bcd5",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200128080422.pdf",
+  "title": "1799 Press Release: Conduct of CMAT-GPAT - January 2020 Read More",
+  "body": "in-nta",
+  "exam": "in-cmat",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "02249321a16e23e34171beb650b1922421166c69cb7e7eddae45ca1cf8a339c6",
+  "bytes": 218145,
+  "pages": 1,
+  "chars": 2022,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-05T22:58:43+05:30"
+ },
+ "kind": "notice",
+ "vacancies": {
+  "total": 125233,
+  "by_category": {
+   "Unreserved": 70319,
+   "OBC": 37535,
+   "SC": 9717,
+   "ST": 2624,
+   "EWS": 5038
+  },
+  "rows": [
+   {
+    "label": "Male",
+    "total": 40846,
+    "by_category": {
+     "Unreserved": 25879,
+     "EWS": 2187,
+     "OBC": 9947,
+     "SC": 2228,
+     "ST": 605
+    },
+    "page": 1
+   },
+   {
+    "label": "Female",
+    "total": 33636,
+    "by_category": {
+     "Unreserved": 23877,
+     "EWS": 1010,
+     "OBC": 6672,
+     "SC": 1594,
+     "ST": 483
+    },
+    "page": 1
+   },
+   {
+    "label": "Transgender",
+    "total": 4,
+    "by_category": {
+     "OBC": 2,
+     "SC": 1,
+     "ST": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "Male",
+    "total": 22775,
+    "by_category": {
+     "Unreserved": 8807,
+     "EWS": 958,
+     "OBC": 9480,
+     "SC": 2797,
+     "ST": 733
+    },
+    "page": 1
+   },
+   {
+    "label": "Female",
+    "total": 27971,
+    "by_category": {
+     "Unreserved": 11756,
+     "EWS": 883,
+     "OBC": 11433,
+     "SC": 3097,
+     "ST": 802
+    },
+    "page": 1
+   },
+   {
+    "label": "Transgender",
+    "total": 1,
+    "by_category": {
+     "OBC": 1
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "summary": {
+  "vacancies": 125233
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "17a9c7c5f7ddfe29181be70c8ff2c03885337612287c387478fcb2a4049acd81",
+  "url": "https://old.ruhsraj.org/cms/uploads/2025/09/Notification_for_Website_M.Pharma._2025_6407.pdf",
+  "title": "Notification M.Pharm Courses Counselling/Admission-2025-26",
+  "body": "rj-ruhs",
+  "exam": "rj-ruhs-entrance",
+  "feed": "rj-ruhs/home",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "97633812502318984867f6f5c79187833ba33f111e8d4eb50a0c907044b7859c",
+  "bytes": 658592,
+  "pages": 1,
+  "chars": 2437,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:24+05:30"
+ },
+ "kind": "result",
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 125000,
+   "raw": "   Rs. 87,500/- + 7500/- (Caution Money)  Rs. 1,25,000/-+ 7500/- (Caution Money)",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "https://www.ruhsraj.org"
+  ]
+ },
+ "summary": {
+  "fee": {
+   "min": 125000,
+   "max": 125000
+  }
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "60314322cf31ba0063fb58920110667149c6ab470b2e1a2c0d41aa9e7f666ce7",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240406114934.pdf",
+  "title": "Advance Intimation for Allotment of Examination City to the Applicants for Stage-II Examination for the NIFT Bachelor’s Programmes (Regular, NLEA, Artisans) Read More",
+  "body": "in-nta",
+  "exam": "in-nift-entrance",
+  "feed": "in-nta/home",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "35186714c7b81a5695e1a496eef4742117cbf985c416f2de5230a21b8b8e1ae7",
+  "bytes": 262337,
+  "pages": 1,
+  "chars": 1753,
+  "ocr": false,
+  "indic_share": 0.01,
+  "fetched": "2026-10-04T11:22:23+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2024-04-13",
+   "evidence": "B.Des. (Regular) Situation Test 10:00 AM to 12:00 Noon",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "B.Des. (Regular) Situation Test 10:00 AM to 12:00 Noon",
+   "key": "exam_date",
+   "date": "2024-04-13",
+   "page": 1
+  },
+  {
+   "event": "B.Des. (Artisan) Studio Test 10:00 AM to 12:00 Noon",
+   "key": "exam_date",
+   "date": "2024-04-13",
+   "page": 1
+  },
+  {
+   "event": "Personal Interview 02:00 PM Onwards",
+   "key": "exam_date",
+   "date": "2024-04-13",
+   "page": 1
+  },
+  {
+   "event": "B.Des. (NLEA) Studio Test 10:00 AM to 12:00 Noon",
+   "key": "exam_date",
+   "date": "2024-04-13",
+   "page": 1
+  },
+  {
+   "event": "Personal Interview 02:00 PM Onwards",
+   "key": "exam_date",
+   "date": "2024-04-13",
+   "page": 1
+  },
+  {
+   "event": "B.F. Tech. (NLEA) Technical Ability Test 10:00 AM to 11:00 AM",
+   "key": "exam_date",
+   "date": "2024-04-13",
+   "page": 1
+  },
+  {
+   "event": "Personal Interview 02:00 PM Onwards",
+   "key": "exam_date",
+   "date": "2024-04-13",
+   "page": 1
+  }
+ ],
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/NIFT/"
+  ],
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2024-04-13"
+ }
+}

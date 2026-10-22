@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "exam": "mn-cohsem-class-12",
+ "name": "COHSEM Higher Secondary (HSE) Examination",
+ "body": "mn-cohsem",
+ "purpose": "school_board",
+ "cycle": "2026",
+ "documents": 9,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2026-06-05",
+    "source": {
+     "notice": "036bebc105196cc7f30762c3f4ef3ffa3f228df19127bcde36388565a1fa9a2f",
+     "url": "https://cohsem.nic.in/docs/Notice/DanceCorrigendum2026.pdf",
+     "title": "Corrigendum regarding the chane of the subject \"MANIPURI DANCE\" to \"DANCE\". Dated 16 th June, 2026. Notified information to all concerned regarding the revised marking scheme for the subjects Fines Arts, Manipuri Dance, Music, Thang-Ta and Statistics.. Dated 6 nd June, 2026. Notification for Original Marksheet issue of Higher Secondary (Class-XII) Improvement Examination, 2026. Dated 2 nd June, 2026. Notified information to all the Principals/Head of institutions under COHSEM regarding generatio",
+     "kind": "corrigendum",
+     "page": 1,
+     "ocr": true
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2026-06-05",
+   "source": {
+    "notice": "036bebc105196cc7f30762c3f4ef3ffa3f228df19127bcde36388565a1fa9a2f",
+    "url": "https://cohsem.nic.in/docs/Notice/DanceCorrigendum2026.pdf",
+    "title": "Corrigendum regarding the chane of the subject \"MANIPURI DANCE\" to \"DANCE\". Dated 16 th June, 2026. Notified information to all concerned regarding the revised marking scheme for the subjects Fines Arts, Manipuri Dance, Music, Thang-Ta and Statistics.. Dated 6 nd June, 2026. Notification for Original Marksheet issue of Higher Secondary (Class-XII) Improvement Examination, 2026. Dated 2 nd June, 2026. Notified information to all the Principals/Head of institutions under COHSEM regarding generatio",
+    "kind": "corrigendum",
+    "page": 1,
+    "ocr": true
+   }
+  }
+ },
+ "gaps": [],
+ "older_documents": 8
+}

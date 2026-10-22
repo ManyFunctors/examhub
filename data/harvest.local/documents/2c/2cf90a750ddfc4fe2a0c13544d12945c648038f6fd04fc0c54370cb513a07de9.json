@@ -1,0 +1,40 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2cf90a750ddfc4fe2a0c13544d12945c648038f6fd04fc0c54370cb513a07de9",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220804011258.pdf",
+  "title": "1206 PUBLIC NOTICE: Urgent Attention for Candidates appearing in Kerala State for Common University Entrance Test [CUET (UG)-2022] Examination Scheduled on 04, 05 and 06 August 2022– Regarding. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/notices",
+  "published": "2022-08-06",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "150afade13aeb837ba00bdb91693d0b0eea1922acc4cbe598d78f380f54039e6",
+  "bytes": 1103329,
+  "pages": 1,
+  "chars": 1703,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-08T07:50:03+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2022-08-04",
+   "evidence": "03 August 2022 Subject: Urgent Attention for Candidates appearing in Kerala State for Common University Entrance Test [CUET (UG)-2022] Examination Scheduled on 04, 05 and 06 August 2022- Regarding",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in",
+   "https://cuet.samarth.ac.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-08-04"
+ }
+}

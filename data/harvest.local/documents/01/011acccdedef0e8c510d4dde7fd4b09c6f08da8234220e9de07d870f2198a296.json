@@ -1,0 +1,142 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "011acccdedef0e8c510d4dde7fd4b09c6f08da8234220e9de07d870f2198a296",
+  "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf",
+  "title": "Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination – reg",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/ugcnet",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "4c535ef8c8e6f0b00408ee5ff4602c85549c471a0e3cf00cd1facf2054501e36",
+  "bytes": 8779761,
+  "pages": 126,
+  "chars": 126008,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-16T18:51:37+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "registration_open": {
+   "date": "2026-10-08",
+   "provisional": true,
+   "evidence": "EVENTS DATES Online registration and submission of Application Form (complete in all respects) through NTA Website: https://ugcnet.nta.nic.in/ 08 October 2026 to 28 October 2026  [document-level hedge: table header: Proposed Date]",
+   "page": 31,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2026-10-28",
+   "provisional": true,
+   "evidence": "EVENTS DATES Online registration and submission of Application Form (complete in all respects) through NTA Website: https://ugcnet.nta.nic.in/ 08 October 2026 to 28 October 2026  [document-level hedge: table header: Proposed Date]",
+   "page": 31,
+   "from": "text"
+  },
+  "exam_date": {
+   "date": "2026-12-01",
+   "provisional": true,
+   "evidence": "A relaxation of up to 5 years is provided to the candidates who have served in the armed forces subject to the length of service in the armed forces up to the first day of the month in which the concerned UGC-NET is, conducted, i.e., 01.12.",
+   "page": 42,
+   "from": "text"
+  }
+ },
+ "age": {
+  "relaxations": [
+   {
+    "categories": [
+     "OBC-NCL",
+     "OBC"
+    ],
+    "years": 5,
+    "raw": "a) A relaxation of up to 5 years is provided to the candidates belonging to OBC-NCL (as per the Central list of OBC available",
+    "page": 41
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Eligibility Criteria for UGC-NET December 2026",
+    "page": 39
+   },
+   {
+    "text": "(c) Candidates belonging to the Third gender category are eligible to draw the same relaxation in fee, age and Eligibility Criteria for NET (i.e",
+    "page": 39
+   },
+   {
+    "text": "(f) The candidates having passed a 4-year/8-semester bachelor’s degree programme should have a minimum of 75% marks in aggregate or its equivalent grade on a point scale wherever the grading system is followed",
+    "page": 39
+   },
+   {
+    "text": "NTA does not verify the information provided by the candidates during online registration and hence candidature will be purely provisional subject to the fulfillment of eligibility criteria",
+    "page": 40
+   },
+   {
+    "text": "The candidate should have the discretion of opting for his own scribe / reader / lab assistant or request the Examination Body for the same",
+    "page": 49
+   },
+   {
+    "text": "No Admit Card shall be issued to the candidates whose applications are found to be incomplete for any reasons (including indistinct/ doubtful photographs/unsigned Applications) or who do not fulfill the eligibility criteria for the examination",
+    "page": 53
+   },
+   {
+    "text": "Step III: In order to be considered, the candidate must have appeared in both the papers and secured at least 40% aggregate marks in both the papers taken together for General (Unreserved) / General-EWS category candidates and at least 35% aggregate marks in both the papers taken together for all…",
+    "page": 65
+   },
+   {
+    "text": "The candidates with Master’s Degree in Geography (with specialization in Population Studies) or Mathematics/ Statistics are also eligible to appear in the subject “Population Studies” (Code 015)",
+    "page": 74
+   },
+   {
+    "text": "‘**’The candidates with Master’s Degree in Humanities (including languages) and Social Sciences are eligible to appear in subject “Women Studies” (Code 074)",
+    "page": 74
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 30
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 31
+  },
+  "duration": {
+   "value": "Name of Examination Proposed Date(s) Duration UGC-NET December 2026 14 December 2026 to 18 December 2026 and",
+   "page": 55
+  }
+ },
+ "links": {
+  "apply": [
+   "https://www.ugcnetonline.in/syllabus-new.php"
+  ],
+  "other": [
+   "https://ugcnet.nta.nic.in/",
+   "https://nta.ac.in/",
+   "http://www.ncbc.nic.in/",
+   "http://www.ugc.ac.in/",
+   "https://www.ugc.gov.in/pdfnews/0909572_Minimum-Standards-and-Procedure-for-Award-of-PhD-Degree.pdf",
+   "https://www.ncbc.nic.in",
+   "https://www.ugc.ac.in",
+   "https://www.ugc.gov.in/pdfnews/0909572_Minimum-Standards-and-Procedure-for-Award-of-",
+   "https://cdnbbsr.s3waas.gov.in/s3e58aea67b01fa747687f038dfde066f6/uploads/2023/10",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2026-10-08",
+   "until": "2026-10-28"
+  },
+  "exam_date": "2026-12-01",
+  "education": [
+   "Graduate"
+  ]
+ }
+}

@@ -1,0 +1,173 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "40d043d92095a36db68e83caa03f9af4ad6872957f0d8e6cc74a578ef668f39b",
+  "url": "https://tpsc.tripura.gov.in/sites/default/files/Advt_03_2026_070526.pdf",
+  "title": "Advertisement for recruitment to the post of Junior Engineer, Grade-I & II, Electrical Engineering, R.D. Department [Advt. No-03/2026]",
+  "body": "tr-tpsc",
+  "exam": "tr-tpsc-other",
+  "feed": "tr-tpsc/advertisement",
+  "published": "2033-03-31",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "086f2e4f5ad5b0ed2744fb0194d2f2aeb3800897cd713b996fe2ef13d1de9476",
+  "bytes": 5664334,
+  "pages": 16,
+  "chars": 28122,
+  "ocr": true,
+  "ocr_engine": "ocrmypdf+tesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:38:47+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "03/2026",
+ "fees": [
+  {
+   "categories": [
+    "Unreserved"
+   ],
+   "amount": 350,
+   "raw": "(3) Rate of Recruitment Fees (a) i) Group-B Gazetted posts:-Rs. 350/-(Rupees three hundred and fifty) for General Candidates and Rs.250/-(Rupees two hundred & fifty) only for ST/SC/ BPL card holders/Physically Handicapped Candidates.",
+   "page": 5
+  },
+  {
+   "categories": [
+    "ST",
+    "SC",
+    "BPL",
+    "PwBD"
+   ],
+   "amount": 250,
+   "raw": "(3) Rate of Recruitment Fees (a) i) Group-B Gazetted posts:-Rs. 350/-(Rupees three hundred and fifty) for General Candidates and Rs.250/-(Rupees two hundred & fifty) only for ST/SC/ BPL card holders/Physically Handicapped Candidates.",
+   "page": 5
+  }
+ ],
+ "age": {
+  "limits": [
+   {
+    "min": 18,
+    "max": 40,
+    "evidence": "Age:- 18-40 years as on 12-06-2026",
+    "page": 1
+   }
+  ],
+  "relaxations": [
+   {
+    "categories": [
+     "ST",
+     "SC",
+     "PwBD",
+     "Government Employee"
+    ],
+    "years": 5,
+    "raw": "Upper age limit is relaxable by 5(five) years in case of ST/SC/PH candidates and Government servants",
+    "page": 1
+   },
+   {
+    "categories": [
+     "ST",
+     "SC",
+     "PwBD"
+    ],
+    "years": 5,
+    "raw": "Provided that Govt. servants belonging to ST/SC/PH category shall not get this relexation over and above the general relaxation of 5(five) years available to them",
+    "page": 1
+   }
+  ]
+ },
+ "pay": [
+  {
+   "levels": [
+    13
+   ],
+   "text": "Pay Level 13",
+   "evidence": "Ee—re 1 of Level-13 Junior Engineer, Gr-lI Pay of 34,700 2 (Diploma),Electrical Tripura pay ol 1 5 3 UR-0 o1 0 0 0",
+   "page": 6
+  },
+  {
+   "levels": [
+    10
+   ],
+   "text": "Pay Level 10",
+   "evidence": "ST-0 1 of Level-10 0111",
+   "page": 6
+  },
+  {
+   "levels": [
+    10,
+    13
+   ],
+   "text": "Pay Levels 10, 13",
+   "evidence": "Pay of 47,600 e ——— T — 1 (Degree), Electrical Tripura pay Group B, Gazetted matrix,2018, Cell-1 of 1 1 3 S 1 0 0 1 Level -13 Junior Engineer, Gr-Il Pay of 34,700 (Diploma),Electrical Tripura pay i Level -10 ‘L'{le% \\,\\( £V [Er",
+   "page": 7
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "clauses": [
+   {
+    "text": "Essential:- i) Degree in Electrical Engineering from a recognized University/Institution",
+    "page": 1
+   },
+   {
+    "text": "Essential: i) Must have a Diploma in Electrical Branch of Engineering or its equivalent academic qualification from a recognized University /Institution.",
+    "page": 2
+   },
+   {
+    "text": "Further, provided that, in the list of recommendation, merit position of candidates securing equal marks in aggregate and also of the same age will be decided on the basis of percentage of marks obtained in the minimum educational qualification prescribed in Recruitment Rules.",
+    "page": 4
+   },
+   {
+    "text": "2. (a) Candidates are not required to upload/submit with their respective applications any certificate in support of their claims regarding Age, Educational Qualifications, Scheduled Castes/ Scheduled Tribes etc.",
+    "page": 4
+   },
+   {
+    "text": "(b) Applicants must be in possession of the prescribed minimum qualification(s) & others for the post on the closing date for submission of application as mentioned in the advertisement",
+    "page": 4
+   },
+   {
+    "text": "10) Any kind of enquiry regarding eligibility criteria, candidates are advised to approach the concerned Government Department",
+    "page": 5
+   }
+  ]
+ },
+ "selection": [
+  "Preliminary examination",
+  "Main examination",
+  "Interview"
+ ],
+ "exam": {
+  "duration": {
+   "value": "The paper will carry 100 Marks and will be of 2(two) hours duration.",
+   "page": 2
+  }
+ },
+ "links": {
+  "other": [
+   "https://tpsc.tripura.gov.in"
+  ]
+ },
+ "summary": {
+  "fee": {
+   "min": 250,
+   "max": 350
+  },
+  "age": {
+   "min": 18,
+   "max": 40
+  },
+  "pay": "Pay Level 13",
+  "education": [
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "selection": "Preliminary examination → Main examination → Interview"
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

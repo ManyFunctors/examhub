@@ -1,0 +1,93 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "4f4b4b1bf6e5e0c7a0ae800f627974f8c547cc336d170e43c734f3ae6f94c46d",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20231013152942.pdf",
+  "title": "849 Inviting Online Application Forms for Study Webs of Active Learning for Young Aspiring Minds (SWAYAM) (July 2023 Semester) Exam Read More",
+  "body": "in-nta",
+  "exam": "in-nta-swayam",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "974277becbe23e6a5bc02737c20d65a28eb4e1fdb2c3758581e53758af7c9e65",
+  "bytes": 654782,
+  "pages": 10,
+  "chars": 23917,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-02T20:33:24+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "payment_deadline": {
+   "date": "2023-10-31",
+   "evidence": "Last date of Successful transaction of fee through",
+   "page": 1,
+   "from": "table"
+  },
+  "correction_window": {
+   "date": "2023-11-03",
+   "evidence": "Correction of Particulars of Application Form on",
+   "page": 1,
+   "from": "table"
+  },
+  "exam_date": {
+   "date": "2023-12-01",
+   "evidence": "Date of Examination",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_open": {
+   "date": "2023-10-12",
+   "evidence": "Online Submission of Application Form 12 October 2023 to 30 October 2023 Last date of Successful transaction of fee through Credit/Debit Card/Net Banking/UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2023-10-30",
+   "evidence": "Online Submission of Application Form 12 October 2023 to 30 October 2023 Last date of Successful transaction of fee through Credit/Debit Card/Net Banking/UPI",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Online Submission of Application Form",
+   "date": "2023-10-12",
+   "page": 1,
+   "until": "2023-10-30"
+  },
+  {
+   "event": "Last date of Successful transaction of fee through",
+   "key": "payment_deadline",
+   "date": "2023-10-31",
+   "page": 1
+  },
+  {
+   "event": "Correction of Particulars of Application Form on",
+   "key": "correction_window",
+   "date": "2023-11-03",
+   "page": 1
+  },
+  {
+   "event": "Date of Examination",
+   "key": "exam_date",
+   "date": "2023-12-01",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "https://swayam.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2023-10-12",
+   "until": "2023-10-30"
+  },
+  "exam_date": "2023-12-01"
+ }
+}

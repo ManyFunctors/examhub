@@ -1,0 +1,59 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1b306cdc99cb2372ce777d3b89be2cb724065ccb7ecbc02a205a1ef3727baea8",
+  "url": "https://ngel.in/public/career/1/a70a15523b/a70a15523b.pdf",
+  "title": "Advertisement Application Form",
+  "body": "in-ntpc-green",
+  "exam": "in-ntpc-green-recruitment",
+  "feed": "in-ntpc-green/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "af57858cc1e51ad4deb3e60c0b36be4e86380241d0c7489cbd99653a781bfce8",
+  "bytes": 131073,
+  "pages": 1,
+  "chars": 1808,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T14:40:31+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "registration_deadline": {
+   "date": "2025-08-22",
+   "evidence": "Last date of application 22.08.2025",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "clauses": [
+   {
+    "text": "Diploma/bachelor’s degree in engineering or equivalent from a recognized University/Institute",
+    "page": 1
+   },
+   {
+    "text": "The candidate should have superannuated at a pay scale of E6-E7 level equivalent of NTPC Ltd. from Public Sector Undertakings or Autonomous Organizations of Central/ State Governments",
+    "page": 1
+   },
+   {
+    "text": "Candidates must have more than 15 years of experience in relevant field i.e., Power Sector, Renewable Energy Projects related activities and be conversant with the Billing & Realization, Various RE policies/Regulations",
+    "page": 1
+   }
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2025-08-22"
+  },
+  "education": [
+   "Graduate",
+   "Diploma / ITI"
+  ]
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "38b03a1b8c1d4adb84013f4ee9c31c0a11d06950dea9ff7f088e2b626002be50",
+  "url": "https://tshc.gov.in/documents/NORMAL_Recruitment_2026_08_05T13_27_21.pdf",
+  "title": "Notification Regarding schedule of written examination for recruitment to the posts of Process Server and Office Subordinate in Telangana Judicial Ministerial and Subordinate Services - Reg.",
+  "body": "tg-hc",
+  "exam": "tg-hc-staff",
+  "feed": "tg-hc/recruitment-2",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "48d77cda577cb64cf7ef18a188790ee46678613d0a1d5f398e70222b21a26c99",
+  "bytes": 389104,
+  "pages": 1,
+  "chars": 1403,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T14:40:42+05:30"
+ },
+ "kind": "schedule",
+ "advertisement_no": "0s.08/2026",
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://tshc.gov.in"
+  ]
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

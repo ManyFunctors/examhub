@@ -1,0 +1,33 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "a37b1686aa46edf9041ead7d7fd457337f4b2c31faa32950e51e77446f732ee3",
+  "url": "https://jceceb.jharkhand.gov.in/con_notice/568.pdf",
+  "title": "205 Advt. No. 99 dated (Very important information related to Revised Schedule for conduct of second round of online counselling for admission in M.B.B.S.,B.D.S. and B.H.M.S. Courses) View",
+  "body": "jh-jceceb",
+  "exam": "jh-pgmat-counselling",
+  "feed": "jh-jceceb/counselling-notices",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "0441a9c31cf88ea7cf88da98bde79569b9b7e68ee590c1dfebb2857fcd3a5a62",
+  "bytes": 582961,
+  "pages": 2,
+  "chars": 2847,
+  "ocr": true,
+  "ocr_engine": "ocrmypdf+tesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:22+05:30"
+ },
+ "kind": "corrigendum",
+ "advertisement_no": "JCECEB/61/22",
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

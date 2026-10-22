@@ -1,0 +1,35 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "f619f6e554f9bb1ce8be8a027099e66785d360a66195776140d618f5efed5188",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/04/202604161250694206.pdf",
+  "title": "Portal for opting their own scribe details from concerned PwD/PwBD candidates of NEET (UG) – 2026 – reg.",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "ba750cc3969933200a690b0ae08702b574d7dd29d91932e711be2c0ad664339e",
+  "bytes": 762105,
+  "pages": 1,
+  "chars": 2204,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-02T00:58:46+05:30"
+ },
+ "kind": "schedule",
+ "exam": {
+  "mode": {
+   "value": "Offline",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.inl",
+   "https://www.nta.ac.in",
+   "https://neet.nta.nic.inl"
+  ]
+ }
+}

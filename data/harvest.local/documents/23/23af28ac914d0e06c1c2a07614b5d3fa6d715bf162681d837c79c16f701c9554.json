@@ -1,0 +1,59 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "23af28ac914d0e06c1c2a07614b5d3fa6d715bf162681d837c79c16f701c9554",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20211128112836.pdf",
+  "title": "1392 PUBLIC NOTICE 27 November 2021 Subject: Urgent Attention to the Candidates of NEET (UG) – 2021 - Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/notices",
+  "published": "2021-11-27",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "e1161db9cbc99decdcefbc45e53275b86c2a6cdc396ba9ea30c49e2e7205815c",
+  "bytes": 444585,
+  "pages": 1,
+  "chars": 3275,
+  "ocr": false,
+  "indic_share": 0.02,
+  "fetched": "2026-10-08T08:06:54+05:30"
+ },
+ "kind": "result",
+ "dates": {
+  "exam_date": {
+   "date": "2021-09-12",
+   "evidence": "The National Testing Agency (NTA) has conducted the National Eligibility cum Entrance Test (UG) - 2021 on 12 September 2021 (Sunday) and has declared the result on 01.11.2021",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "The responsibility of NTA is to conduct the examination and declare the result based on eligibility criteria provided by National Medical Commission",
+    "page": 1
+   },
+   {
+    "text": "During counselling, the eligibility criteria, self-declaration, various documents, etc. of the eligible candidates shall be verified as per norms specified by the respective authorities and/or Medical / Dental Colleges",
+    "page": 1
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://neet.nta.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2021-09-12",
+  "education": [
+   "Graduate"
+  ]
+ }
+}

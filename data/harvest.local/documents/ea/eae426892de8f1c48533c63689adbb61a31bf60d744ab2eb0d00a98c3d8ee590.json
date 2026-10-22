@@ -1,0 +1,27 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "eae426892de8f1c48533c63689adbb61a31bf60d744ab2eb0d00a98c3d8ee590",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20260614184440.pdf",
+  "title": "Opening of Bank Account Re-confirmation/Correction Window for Refund of NEET (UG) 2026 Examination Fee (Examination held on 03 May 2026) - OTP-Based Two-Factor Authentication Mandatory Read More",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/home",
+  "published": "2026-05-03",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "b363be6d69aea575efc36bd84086fc34a1b1c11fc0c26a47823c4ea1b84347a8",
+  "bytes": 799918,
+  "pages": 2,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-08T19:01:25+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

@@ -1,0 +1,527 @@
+{
+ "schema": 1,
+ "exam": "tg-tgpsc-lecturer",
+ "name": "TGPSC Lecturer / Assistant Professor Recruitment",
+ "body": "tg-tgpsc",
+ "purpose": "recruitment",
+ "cycle": "2017",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 190,
+    "by_category": {
+     "Unreserved": 108,
+     "SC": 37,
+     "ST": 13,
+     "tg:BC-A": 18,
+     "tg:BC-B": 9,
+     "tg:BC-C": 4,
+     "tg:BC-D": 1,
+     "tg:BC-E": 0
+    },
+    "rows": [
+     {
+      "label": "Anatomy",
+      "total": 17,
+      "by_category": {
+       "Unreserved": 10,
+       "tg:BC-A": 1,
+       "tg:BC-B": 1,
+       "tg:BC-C": 1,
+       "SC": 3,
+       "ST": 1
+      },
+      "page": 13
+     },
+     {
+      "label": "Physiology",
+      "total": 18,
+      "by_category": {
+       "Unreserved": 10,
+       "tg:BC-A": 1,
+       "tg:BC-B": 1,
+       "tg:BC-C": 1,
+       "tg:BC-D": 1,
+       "SC": 3,
+       "ST": 1
+      },
+      "page": 13
+     },
+     {
+      "label": "Bio-Chemistry",
+      "total": 8,
+      "by_category": {
+       "Unreserved": 4,
+       "tg:BC-A": 1,
+       "SC": 2,
+       "ST": 1
+      },
+      "page": 13
+     },
+     {
+      "label": "pharmacology",
+      "total": 9,
+      "by_category": {
+       "Unreserved": 5,
+       "tg:BC-A": 1,
+       "SC": 2,
+       "ST": 1
+      },
+      "page": 13
+     },
+     {
+      "label": "Pathology",
+      "total": 10,
+      "by_category": {
+       "Unreserved": 5,
+       "tg:BC-A": 1,
+       "tg:BC-B": 1,
+       "SC": 2,
+       "ST": 1
+      },
+      "page": 13
+     },
+     {
+      "label": "Microbiology",
+      "total": 11,
+      "by_category": {
+       "Unreserved": 6,
+       "tg:BC-A": 1,
+       "tg:BC-B": 1,
+       "SC": 2,
+       "ST": 1
+      },
+      "page": 13
+     },
+     {
+      "label": "Forensic Medicine",
+      "total": 8,
+      "by_category": {
+       "Unreserved": 4,
+       "tg:BC-A": 1,
+       "SC": 2,
+       "ST": 1
+      },
+      "page": 13
+     },
+     {
+      "label": "Community Medicine (SPM)",
+      "total": 12,
+      "by_category": {
+       "Unreserved": 7,
+       "tg:BC-A": 1,
+       "tg:BC-B": 1,
+       "SC": 2,
+       "ST": 1
+      },
+      "page": 13
+     },
+     {
+      "label": "Transfusion Medicine / -",
+      "total": 1,
+      "by_category": {
+       "Unreserved": 1
+      },
+      "page": 13
+     },
+     {
+      "label": "General Medicine",
+      "total": 8,
+      "by_category": {
+       "Unreserved": 4,
+       "tg:BC-A": 1,
+       "SC": 2,
+       "ST": 1
+      },
+      "page": 15
+     },
+     {
+      "label": "General Surgery",
+      "total": 4,
+      "by_category": {
+       "Unreserved": 2,
+       "tg:BC-A": 1,
+       "SC": 1
+      },
+      "page": 15
+     },
+     {
+      "label": "Anaesthesia",
+      "total": 17,
+      "by_category": {
+       "Unreserved": 10,
+       "tg:BC-A": 1,
+       "tg:BC-B": 1,
+       "tg:BC-C": 1,
+       "SC": 3,
+       "ST": 1
+      },
+      "page": 15
+     },
+     {
+      "label": "Paediatrics",
+      "total": 14,
+      "by_category": {
+       "Unreserved": 8,
+       "tg:BC-A": 1,
+       "tg:BC-B": 1,
+       "tg:BC-C": 1,
+       "SC": 2,
+       "ST": 1
+      },
+      "page": 15
+     },
+     {
+      "label": "Orthopaedics",
+      "total": 4,
+      "by_category": {
+       "Unreserved": 2,
+       "tg:BC-A": 1,
+       "SC": 1
+      },
+      "page": 15
+     },
+     {
+      "label": "TB & CD",
+      "total": 5,
+      "by_category": {
+       "Unreserved": 3,
+       "tg:BC-A": 1,
+       "SC": 1
+      },
+      "page": 15
+     },
+     {
+      "label": "Psychiatry",
+      "total": 13,
+      "by_category": {
+       "Unreserved": 8,
+       "tg:BC-A": 1,
+       "tg:BC-B": 1,
+       "SC": 2,
+       "ST": 1
+      },
+      "page": 15
+     },
+     {
+      "label": "Radio-Diagnosis",
+      "total": 7,
+      "by_category": {
+       "Unreserved": 4,
+       "tg:BC-A": 1,
+       "SC": 2
+      },
+      "page": 15
+     },
+     {
+      "label": "Radio-theraphy / -",
+      "total": 1,
+      "by_category": {
+       "Unreserved": 1
+      },
+      "page": 15
+     },
+     {
+      "label": "Obst. &Gynec",
+      "total": 11,
+      "by_category": {
+       "Unreserved": 6,
+       "tg:BC-A": 1,
+       "tg:BC-B": 1,
+       "SC": 2,
+       "ST": 1
+      },
+      "page": 15
+     },
+     {
+      "label": "ENT / -",
+      "total": 2,
+      "by_category": {
+       "Unreserved": 1,
+       "SC": 1
+      },
+      "page": 15
+     },
+     {
+      "label": "DVL / -",
+      "total": 1,
+      "by_category": {
+       "Unreserved": 1
+      },
+      "page": 15
+     },
+     {
+      "label": "Opthalmology",
+      "total": 5,
+      "by_category": {
+       "Unreserved": 3,
+       "tg:BC-A": 1,
+       "SC": 1
+      },
+      "page": 15
+     },
+     {
+      "label": "Hospital Admn / -",
+      "total": 1,
+      "by_category": {
+       "Unreserved": 1
+      },
+      "page": 15
+     },
+     {
+      "label": "Emergency Medicine",
+      "total": 3,
+      "by_category": {
+       "Unreserved": 2,
+       "SC": 1
+      },
+      "page": 15
+     }
+    ],
+    "from": "table"
+   },
+   "source": {
+    "notice": "3dac8a803da7600b0fc0f6930783c6722d916f8d7d87c0d6fd2a56aedb85a098",
+    "url": "https://websitenew.tgpsc.gov.in/preview/RElSRUNUUkVDUlVJVE1FTlROT1RJLzQ5MjAxNy5wZGY=r95v17a0y2d8i13v",
+    "title": "NOTIFICATION NO. 49/2017, ASSISTANT PROFESSORS IN DIRECTOR OF MEDICAL EDUCATION (HM&FW DEPARTMENT) (GENERAL RECRUITMENT)",
+    "kind": "advertisement"
+   }
+  },
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 3,
+     "raw": "State Bank Group (6 Banks)  All amounts Rs.3/-per transaction +Taxes",
+     "page": 18
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 5,
+     "raw": "All other Banks List-A (21 Banks) All amounts Rs.5/-per transaction +Taxes",
+     "page": 18
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 8,
+     "raw": " List-B (7 Banks) All amounts Rs.8/-per transaction +Taxes",
+     "page": 18
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 12,
+     "raw": " List-C (7 Banks) All amounts Rs.12/-per transaction +Taxes",
+     "page": 18
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 7,
+     "raw": "IMPS – Mobile payments  All Amounts Rs. 7/- of the transaction Amount + Taxes",
+     "page": 18
+    }
+   ],
+   "source": {
+    "notice": "3dac8a803da7600b0fc0f6930783c6722d916f8d7d87c0d6fd2a56aedb85a098",
+    "url": "https://websitenew.tgpsc.gov.in/preview/RElSRUNUUkVDUlVJVE1FTlROT1RJLzQ5MjAxNy5wZGY=r95v17a0y2d8i13v",
+    "title": "NOTIFICATION NO. 49/2017, ASSISTANT PROFESSORS IN DIRECTOR OF MEDICAL EDUCATION (HM&FW DEPARTMENT) (GENERAL RECRUITMENT)",
+    "kind": "advertisement",
+    "page": 18
+   }
+  },
+  "age": {
+   "value": {
+    "limits": [
+     {
+      "min": 18,
+      "evidence": "Minimum Age (18 years): A Candidate should not be born after 01/07/1999",
+      "page": 8
+     },
+     {
+      "max": 44,
+      "evidence": "Maximum Age (44 years): A candidate should not be born before 02/07/1973",
+      "page": 8
+     }
+    ],
+    "as_on": "2017-07-01",
+    "relaxations": [
+     {
+      "for": "Retrenched temporary employees in the State Census Department with a minimum service of 6 months.",
+      "years": 3,
+      "raw": "1. Retrenched temporary employees in the State Census Department with a minimum service of 6 months. 3 Years",
+      "page": 8
+     },
+     {
+      "categories": [
+       "Government Employee"
+      ],
+      "for": "Telangana State Government Employees (Employees of TSRTC, Corporations, Municipalities etc. are not eligible).",
+      "years": 5,
+      "raw": "2. Telangana State Government Employees (Employees of TSRTC, Corporations, Municipalities etc. are not eligible). 5 Years based on the length of regular service.",
+      "page": 8
+     },
+     {
+      "categories": [
+       "Ex-Servicemen"
+      ],
+      "for": "Ex-Service men",
+      "years": 3,
+      "raw": "3. Ex-Service men 3 years & length of service rendered in the armed forces.",
+      "page": 8
+     },
+     {
+      "for": "N.C.C.(who have worked as Instructor in N.C.C.)",
+      "years": 3,
+      "raw": "4. N.C.C.(who have worked as Instructor in N.C.C.) 3 Years & length of service rendered in the N.C.C.",
+      "page": 8
+     },
+     {
+      "categories": [
+       "SC",
+       "ST"
+      ],
+      "for": "SC/ST and BCs",
+      "years": 5,
+      "raw": "5. SC/ST and BCs 5 Years",
+      "page": 8
+     }
+    ]
+   },
+   "source": {
+    "notice": "3dac8a803da7600b0fc0f6930783c6722d916f8d7d87c0d6fd2a56aedb85a098",
+    "url": "https://websitenew.tgpsc.gov.in/preview/RElSRUNUUkVDUlVJVE1FTlROT1RJLzQ5MjAxNy5wZGY=r95v17a0y2d8i13v",
+    "title": "NOTIFICATION NO. 49/2017, ASSISTANT PROFESSORS IN DIRECTOR OF MEDICAL EDUCATION (HM&FW DEPARTMENT) (GENERAL RECRUITMENT)",
+    "kind": "advertisement",
+    "page": 8
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2017-07-01",
+    "source": {
+     "notice": "3dac8a803da7600b0fc0f6930783c6722d916f8d7d87c0d6fd2a56aedb85a098",
+     "url": "https://websitenew.tgpsc.gov.in/preview/RElSRUNUUkVDUlVJVE1FTlROT1RJLzQ5MjAxNy5wZGY=r95v17a0y2d8i13v",
+     "title": "NOTIFICATION NO. 49/2017, ASSISTANT PROFESSORS IN DIRECTOR OF MEDICAL EDUCATION (HM&FW DEPARTMENT) (GENERAL RECRUITMENT)",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  },
+  "advertisement_no": {
+   "value": "49/2017",
+   "source": {
+    "notice": "3dac8a803da7600b0fc0f6930783c6722d916f8d7d87c0d6fd2a56aedb85a098",
+    "url": "https://websitenew.tgpsc.gov.in/preview/RElSRUNUUkVDUlVJVE1FTlROT1RJLzQ5MjAxNy5wZGY=r95v17a0y2d8i13v",
+    "title": "NOTIFICATION NO. 49/2017, ASSISTANT PROFESSORS IN DIRECTOR OF MEDICAL EDUCATION (HM&FW DEPARTMENT) (GENERAL RECRUITMENT)",
+    "kind": "advertisement"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Doctorate",
+     "Postgraduate",
+     "Graduate",
+     "Class 12",
+     "Class 10"
+    ],
+    "clauses": [
+     {
+      "text": "Educational Qualification details i.e., SSC, INTERMEDIATE, DEGREE, POST GRADUATION etc. and their Roll numbers, Year of passing etc.",
+      "page": 1
+     },
+     {
+      "text": "3) EDUCATIONAL QUALIFICATIONS:",
+      "page": 1
+     },
+     {
+      "text": "Applicants must possess the qualifications from MCI recognized medical College and Experience as detailed below or equivalent thereto, as specified in the relevant Service Rules, indented by the department as on the Date of Notification",
+      "page": 1
+     },
+     {
+      "text": "Subject Qualification Teaching/Research Experience (common to all subjects) 1 Anatomy Must possess M.S. (Anatomy)/ M.D.(Anatomy)/ MBBS with M.Sc. (Anatomy)/ M.Sc. (Med",
+      "page": 2
+     },
+     {
+      "text": "2 Physiology Must possess M.D. (Physiology)/ MBBS with M.Sc.(Physiology) / M.Sc.(Med",
+      "page": 2
+     },
+     {
+      "text": "3 Bio-Chemistry Must possess M.D. (Biochemistry)/ MBBS with M.Sc. (Med",
+      "page": 2
+     },
+     {
+      "text": "4 Pharmacology Must possess M.D.(Pharmacology)/ MBBS with Ph",
+      "page": 2
+     },
+     {
+      "text": "Must possess M.D.(Pathology) / Ph.D (Pathology)/D.Sc.( Pathology)",
+      "page": 2
+     },
+     {
+      "text": "6 Microbiology Must possess M.D. (Bacteriology)/ M.D.",
+      "page": 2
+     },
+     {
+      "text": "7 Community Medicine (SPM) Must possess M.D.(Social & Preventive Medicine) / MD (Community Med.) recognized degree Or equivalent qualification for Community Medicine (SPM) (DNB Community Medicine/ SPM) ** as per MCI’s Teachers Eligibility Qualifications Regulations 1998 including the prevailing…",
+      "page": 3
+     },
+     {
+      "text": "4 Paediatrics Must possess M.D.(Paediatrics) recognized degree or a equivalent qualification for Pediatrics (DNB Pediatrics) ** as per MCI’s Teachers Eligibility Qualifications Regulations 1998 including the prevailing amendments .",
+      "page": 4
+     },
+     {
+      "text": "13 Ophthal mology Must possess M.S.",
+      "page": 5
+     },
+     {
+      "text": "4 Medical Gastroenterology Must possess D.M.",
+      "page": 6
+     },
+     {
+      "text": "12 Plastic Surgery Must possess M.Ch.(Plastic & Reconstructive Surgery)/M.Ch.(Plastic Surgery) recognized degree OR equivalent qualification for Plastic Surgery (DNB Plastic Surgery)** as per MCI’s Teachers Eligibility Qualifications Regulations 1998 including the prevailing amendments .",
+      "page": 7
+     },
+     {
+      "text": "Proof of Educational Qualifications.",
+      "page": 9
+     }
+    ]
+   },
+   "source": {
+    "notice": "3dac8a803da7600b0fc0f6930783c6722d916f8d7d87c0d6fd2a56aedb85a098",
+    "url": "https://websitenew.tgpsc.gov.in/preview/RElSRUNUUkVDUlVJVE1FTlROT1RJLzQ5MjAxNy5wZGY=r95v17a0y2d8i13v",
+    "title": "NOTIFICATION NO. 49/2017, ASSISTANT PROFESSORS IN DIRECTOR OF MEDICAL EDUCATION (HM&FW DEPARTMENT) (GENERAL RECRUITMENT)",
+    "kind": "advertisement"
+   }
+  },
+  "selection": {
+   "value": [
+    "Interview"
+   ],
+   "source": {
+    "notice": "3dac8a803da7600b0fc0f6930783c6722d916f8d7d87c0d6fd2a56aedb85a098",
+    "url": "https://websitenew.tgpsc.gov.in/preview/RElSRUNUUkVDUlVJVE1FTlROT1RJLzQ5MjAxNy5wZGY=r95v17a0y2d8i13v",
+    "title": "NOTIFICATION NO. 49/2017, ASSISTANT PROFESSORS IN DIRECTOR OF MEDICAL EDUCATION (HM&FW DEPARTMENT) (GENERAL RECRUITMENT)",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "pay"
+ ],
+ "older_documents": 0
+}

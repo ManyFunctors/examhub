@@ -1,0 +1,22 @@
+{
+ "schema": 1,
+ "exam": "in-concor-recruitment",
+ "name": "CONCOR Direct Recruitment (non-GATE posts)",
+ "body": "in-concor",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}

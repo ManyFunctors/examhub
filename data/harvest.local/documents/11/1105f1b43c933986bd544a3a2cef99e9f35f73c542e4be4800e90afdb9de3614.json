@@ -1,0 +1,56 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1105f1b43c933986bd544a3a2cef99e9f35f73c542e4be4800e90afdb9de3614",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20260311164514.pdf",
+  "title": "Correction in Particulars for the National Eligibility-cum-Entrance Test [(NEET (UG)] 2026 - Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "77c3faddb025241a51cb5f662bbc8f3fa587852663f38853ca80392da4296788",
+  "bytes": 1292777,
+  "pages": 2,
+  "chars": 4167,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T10:49:53+05:30"
+ },
+ "kind": "brochure",
+ "eligibility": {
+  "education_levels": [
+   "Class 12",
+   "Class 10"
+  ],
+  "clauses": [
+   {
+    "text": "Educational qualification details (Class X and Class XII) State/UT from where 12tt /Equivalent Passed/Appearing Category Sub-category/PwD Signature Number of attempts in NEET (UG) 111.",
+    "page": 2
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Offline",
+   "page": 1
+  },
+  "duration": {
+   "value": "(Up to 23:50 Hrs) As per Annenrre-I (Exams)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in",
+   "https://neet.nta.nic.inl"
+  ]
+ },
+ "summary": {
+  "education": [
+   "Class 12",
+   "Class 10"
+  ]
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "50672dee6d3e3dee8c9e0d6daf62534ede29800b6a533d4e55a0e0a1e0aaae17",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/06/20260619457888100.pdf",
+  "title": "National Testing Agency (NTA) – Official WhatsApp Updates for NEET (UG) 2026 Re- Examination",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "192c41fe42eb60bbc8c7b826d990fa2ec963c19eddef0fb8ac0b731465d48bf2",
+  "bytes": 753215,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T20:16:58+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

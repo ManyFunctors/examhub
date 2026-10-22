@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "423a34c5d6f473e7df8581f1f19311d085d879a42be0369348776eae5dc0195c",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/06/2026061533684089.pdf",
+  "title": "NTA Launches Dedicated Platform to Report Suspicious Claims Regarding NEET (UG)- 2026 Examination-reg.",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "660af92569726296c772fced641e707faf885d791bcccf148d779b0ebc6c2c32",
+  "bytes": 574919,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T19:35:00+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "0f7fe3807879ed9e16613175cef718e413a787764c94ab0b6cb5f235b5b7ada2",
+  "url": "https://ngel.in/public/career/1/f08ced9a39/e80b56116d.pdf",
+  "title": "Advertisement Application Form",
+  "body": "in-ntpc-green",
+  "exam": "in-ntpc-green-recruitment",
+  "feed": "in-ntpc-green/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "8df2eee82e48cb9cf248110f0a8ad0cdfe356d6e8bc1832344bd53abddf2f162",
+  "bytes": 114203,
+  "pages": 1,
+  "chars": 2503,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:03:15+05:30"
+ },
+ "kind": "advertisement",
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Master’s degree in Chemistry from a recognized University/Institute",
+    "page": 1
+   },
+   {
+    "text": "The candidate should have retired at pay scale of E7 or above level equivalent of NTPC Ltd. from Public Sector Undertakings or Autonomous Organizations of Central/ State Governments or private company of repute",
+    "page": 1
+   },
+   {
+    "text": "The candidate should have work experience in SAP and e-office system and knowledge of Microsoft Word, Power Point, Excel etc Other Criteria: At least 01 outstanding rating in last three years excluding in year of superannuation",
+    "page": 1
+   }
+  ]
+ },
+ "summary": {
+  "education": [
+   "Graduate"
+  ]
+ }
+}

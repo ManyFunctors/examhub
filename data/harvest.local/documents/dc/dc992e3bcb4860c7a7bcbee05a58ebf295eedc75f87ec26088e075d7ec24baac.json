@@ -1,0 +1,46 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "dc992e3bcb4860c7a7bcbee05a58ebf295eedc75f87ec26088e075d7ec24baac",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20250514161031.pdf",
+  "title": "Cancellation of CUET (UG) 2025 examination scheduled at Kite Polytechnic, Vawoosa, Rangreth, Srinagar, Jammu and Kashmir, India, 190007, on 13.05.2025 (Shift –II) for 76 candidates – reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/home",
+  "published": "2025-05-13",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "123069cdad2d62be6f39167bd477ceb44437b89dd6a3dc482e26b3f08adc9de9",
+  "bytes": 289596,
+  "pages": 1,
+  "chars": 1678,
+  "ocr": false,
+  "indic_share": 0.11,
+  "fetched": "2026-10-07T21:09:23+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2025-05-13",
+   "evidence": "Due to technical glitches occurred during the examination process at Kite Polytechnic, Vawoosa, Rangreth, Srinagar, Jammu and Kashmir, India, 190007, of CUET (UG) 2025 examination scheduled on 13.05.2025 (Shift - II) in CBT mode could not b",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://nta.ac.in/",
+   "https://cuet.nta.nic.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2025-05-13"
+ }
+}

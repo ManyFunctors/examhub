@@ -1,0 +1,45 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "67395612b85119988a4a4167a48000496d0c4a1b64307d63053a5eea43250559",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20191123134608.pdf",
+  "title": "1828 Public Notice: Date and Subject wise Schedule for UGC-NET December 2019 Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "0b8e89df1f83f1f7686df46f0dc9a2dd1263dd4c50a44fdfa0872d76cefa5f11",
+  "bytes": 85457,
+  "pages": 4,
+  "chars": 5261,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-03T13:15:51+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2019-12-02",
+   "evidence": "The National Testing Agency (NTA) will conduct UGC-NET December 2019 for Junior Research Fellowship and eligibility for Assistant Professor between 02 and 06 December 2019 for 10,34,872 candidates, covering 81 subjects in Computer Based Tes",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in",
+   "https://ugcnet.nta.nic.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2019-12-02"
+ }
+}

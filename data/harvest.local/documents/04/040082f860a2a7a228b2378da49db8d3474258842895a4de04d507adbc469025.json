@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "040082f860a2a7a228b2378da49db8d3474258842895a4de04d507adbc469025",
+  "url": "https://appsc.gov.in/upload/RECINS001/NOTIFICATION_FOR_THE_POST_LADY_ASSISTANT_JAILOR_20220829_164605.pdf",
+  "title": "NOTIFICATION FOR THE POST LADY ASSISTANT JAILOR",
+  "body": "ar-appsc",
+  "exam": "ar-appsc-other",
+  "feed": "ar-appsc/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "c10cb735d3ad9eebbf58269855bd70cec291c7ab620948d75fb43edf180da34c",
+  "bytes": 521256,
+  "pages": 2,
+  "chars": 2095,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:03:20+05:30"
+ },
+ "kind": "advertisement",
+ "age": {
+  "limits": [
+   {
+    "min": 20,
+    "max": 25,
+    "evidence": "Particulars As per Advertisement 1- Age Between 20-25 years Between 27-26 years 2 Minimum Physical Standards a Height 5 Feet l lnch 157 cm (Non-APST), 152 cm (APST) b",
+    "page": 1
+   }
+  ]
+ },
+ "summary": {
+  "age": {
+   "min": 20,
+   "max": 25
+  }
+ }
+}

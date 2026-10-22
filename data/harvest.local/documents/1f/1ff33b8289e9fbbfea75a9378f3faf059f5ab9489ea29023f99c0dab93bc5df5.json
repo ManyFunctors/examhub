@@ -1,0 +1,232 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1ff33b8289e9fbbfea75a9378f3faf059f5ab9489ea29023f99c0dab93bc5df5",
+  "url": "https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement",
+  "title": "(View)",
+  "body": "in-iob",
+  "exam": "in-iob-recruitment",
+  "feed": "in-iob/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "28f41de900d621412d60f707259806e7996524f2fad0bb73219a1f5e54f77c8a",
+  "bytes": 350815,
+  "pages": 20,
+  "chars": 42957,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:38:55+05:30"
+ },
+ "kind": "schedule",
+ "advertisement_no": "HRMD/SS/RECT/01/2026-27",
+ "dates": {
+  "registration_open": {
+   "date": "2026-08-25",
+   "evidence": "Opening Date of Online Registration",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_deadline": {
+   "date": "2026-09-14",
+   "evidence": "Closing Date of Online Registration",
+   "page": 1,
+   "from": "table"
+  },
+  "age_as_on": {
+   "date": "2026-08-01",
+   "evidence": "Age (as on 01.08.2026) - Minimum 18 Years, Maximum 26 Years",
+   "page": 3,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Opening Date of Online Registration",
+   "key": "registration_open",
+   "date": "2026-08-25",
+   "page": 1
+  },
+  {
+   "event": "Closing Date of Online Registration",
+   "key": "registration_deadline",
+   "date": "2026-09-14",
+   "page": 1
+  }
+ ],
+ "vacancies": {
+  "total": 25,
+  "by_category": {
+   "Unreserved": 12,
+   "OBC": 7,
+   "SC": 4,
+   "ST": 0,
+   "EWS": 2
+  },
+  "rows": [
+   {
+    "label": "Security Guard",
+    "total": 25,
+    "by_category": {
+     "SC": 4,
+     "ST": 0,
+     "OBC": 7,
+     "EWS": 2,
+     "Unreserved": 12
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "age": {
+  "limits": [
+   {
+    "max": 45,
+    "evidence": "SC/ST 31 Years + Actual period of service rendered in the defence forces + 3 Years (Subject to a maximum age limit of 45 Years)",
+    "page": 3
+   }
+  ],
+  "as_on": "2026-08-01",
+  "relaxations": [
+   {
+    "categories": [
+     "Unreserved"
+    ],
+    "for": "General",
+    "years": 26,
+    "raw": "General 26 Years + Actual period of service rendered in the defence forces + 3 Years (Subject to a maximum age limit of 45 Years).",
+    "page": 3
+   },
+   {
+    "categories": [
+     "SC",
+     "ST"
+    ],
+    "for": "SC/ST",
+    "years": 31,
+    "raw": "SC/ST 31 Years + Actual period of service rendered in the defence forces + 3 Years (Subject to a maximum age limit of 45 Years).",
+    "page": 3
+   },
+   {
+    "categories": [
+     "OBC"
+    ],
+    "for": "OBC",
+    "years": 29,
+    "raw": "OBC 29 Years + Actual period of service rendered in the defence forces + 3 Years (Subject to a maximum age limit of 45 Years).",
+    "page": 3
+   },
+   {
+    "categories": [
+     "Ex-Agniveer"
+    ],
+    "for": "Agniveer",
+    "years": 21,
+    "raw": "Agniveer 21 Years + Actual Period of service as Agniveer + 3 Years",
+    "page": 3
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Class 10"
+  ],
+  "clauses": [
+   {
+    "text": "Interested Ex-Servicemen/Ex-Agniveers who fulfil the eligibility criteria may apply online from 25.08.2026 to 14.09.2026 by visiting our website www.iob.bank.in No other mode of application will be accepted",
+    "page": 1
+   },
+   {
+    "text": "Before applying candidates are advised to read this advertisement carefully and ensure that they have fulfilled the stipulated eligibility criteria",
+    "page": 1
+   },
+   {
+    "text": "EDUCATIONAL QUALIFICATION:",
+    "page": 4
+   },
+   {
+    "text": "A pass in 10th standard or its equivalent examination but the candidate should not have passed Graduation examination or its equivalent.",
+    "page": 4
+   },
+   {
+    "text": "All the educational qualifications mentioned should be from a Board recognized by Government of India/ approved by Government Regulatory Bodies and the final result should have been declared on or before the Cut- off date",
+    "page": 4
+   },
+   {
+    "text": "The medical standards which the candidates must possess should be minimum SHAPE-1 or AYE, whichever is applicable, at the time of valid discharge from the Armed Forces",
+    "page": 5
+   },
+   {
+    "text": "The applicants intending to apply should ensure that they fulfil the eligibility criteria specified and possess the requisite documents / certificates before applying.",
+    "page": 5
+   },
+   {
+    "text": "The cut-off date for eligibility such as age, educational qualification and work experience etc., is specified as the first date of the month in which the registration",
+    "page": 5
+   },
+   {
+    "text": "Mark sheets & certificates for educational qualifications.",
+    "page": 11
+   },
+   {
+    "text": "Before applying, the candidates must ensure that he fulfils all the eligibility criteria and other norms mentioned in the advertisement and has in his possession the requisite documents and certificates specified by the Bank, and that the particulars furnished in the Online application are true…",
+    "page": 13
+   },
+   {
+    "text": "Candidates belonging to reserved category, are free to apply for vacancies announced for General category, provided they fulfil all the eligibility criteria.",
+    "page": 14
+   }
+  ]
+ },
+ "selection": [
+  "Written examination",
+  "Computer-based test"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "Psychometric Test",
+   "page": 6
+  },
+  {
+   "paper": "TOTAL",
+   "page": 6
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 6
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  },
+  "duration": {
+   "value": "Timing / Duration <4 minutes 4m to 5m 5m to 6m >6m Scores 30 20 10 Fail",
+   "page": 7
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.iob.bank.in/",
+   "https://www.iob.bank.in"
+  ]
+ },
+ "summary": {
+  "vacancies": 25,
+  "apply": {
+   "from": "2026-08-25",
+   "until": "2026-09-14"
+  },
+  "age": {
+   "max": 45
+  },
+  "education": [
+   "Graduate",
+   "Class 10"
+  ],
+  "selection": "Written examination → Computer-based test"
+ }
+}

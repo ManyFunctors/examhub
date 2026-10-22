@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "19ca2ec0bc92cf12c8607bdc08c896f0f31989bb7ae304079b80486b9b9393fc",
+  "url": "https://ngel.in/public/career/1/0ff9713fbf/16d2ddd09e.pdf",
+  "title": "Advertisement Indicative Syllabus",
+  "body": "in-ntpc-green",
+  "exam": "in-ntpc-green-recruitment",
+  "feed": "in-ntpc-green/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "ed9ced2f798409257f97f1cca8dbc4419f7c25a4f99fc048a84e42a46f27f9b5",
+  "bytes": 112346,
+  "pages": 1,
+  "chars": 540,
+  "ocr": false,
+  "indic_share": 0.39,
+  "fetched": "2026-09-29T05:18:14+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "01/25",
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ }
+}

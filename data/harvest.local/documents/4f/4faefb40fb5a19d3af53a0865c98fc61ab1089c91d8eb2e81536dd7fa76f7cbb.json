@@ -1,0 +1,294 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "4faefb40fb5a19d3af53a0865c98fc61ab1089c91d8eb2e81536dd7fa76f7cbb",
+  "url": "https://recruitment.py.gov.in/files/2132/chsl-notification",
+  "title": "CHSL NOTIFICATION",
+  "body": "py-dpar",
+  "exam": "py-direct-recruitment",
+  "feed": "py-dpar/news-notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "c3b20ea4aa71f09f1abcd210d824693a06427326aad5262ff32ed19c098ef58c",
+  "bytes": 785753,
+  "pages": 25,
+  "chars": 53696,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:18:47+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "02",
+ "dates": {
+  "registration_deadline": {
+   "date": "2025-12-14",
+   "evidence": "Closing Date : 14.12.2025 Time: 03:00 pm",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 130,
+  "by_category": {
+   "UR": 53,
+   "EWS": 13,
+   "OBC": 14,
+   "SC": 21,
+   "ST": 1,
+   "MBC": 23,
+   "PwBD": 5
+  },
+  "rows": [
+   {
+    "total": 4,
+    "by_category": {
+     "UR": 5,
+     "MBC": 6,
+     "SC": 7,
+     "OBC": 8,
+     "EWS": 9,
+     "ST": 13,
+     "PwBD": 14
+    },
+    "page": 1
+   },
+   {
+    "label": "2025 / Dept. of Art & Culture Artist / Level-4 / --",
+    "total": 1,
+    "by_category": {
+     "UR": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "2025 / Dept. of Personnel & Adm. Reforms Lower Division Clerk / Level-2",
+    "total": 129,
+    "by_category": {
+     "UR": 52,
+     "MBC": 23,
+     "SC": 21,
+     "OBC": 14,
+     "EWS": 13,
+     "ST": 1,
+     "PwBD": 5
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "age": {
+  "relaxations": [
+   {
+    "categories": [
+     "MBC",
+     "OBC"
+    ],
+    "for": "MBC / OBC / EBC / BCM / BT [Mention only the categories for which vacancies has been earmarked]",
+    "years": 3,
+    "raw": "MBC / OBC / EBC / BCM / BT [Mention only the categories for which vacancies has been earmarked] 3 years",
+    "page": 4
+   },
+   {
+    "categories": [
+     "SC",
+     "ST"
+    ],
+    "for": "SC / ST [Mention only the categories for which vacancies has been earmarked]",
+    "years": 5,
+    "raw": "SC / ST [Mention only the categories for which vacancies has been earmarked] 5 years",
+    "page": 4
+   },
+   {
+    "categories": [
+     "ESM"
+    ],
+    "for": "Ex-Servicemen (XSM)",
+    "years": 3,
+    "raw": "Ex-Servicemen (XSM) Period of military service plus 3 years.",
+    "page": 4
+   },
+   {
+    "categories": [
+     "UR"
+    ],
+    "for": "Meritorious Sports Persons (MSP) [For method of selection refer Part-II of General Instruction to candidates]",
+    "years": 5,
+    "raw": "Meritorious Sports Persons (MSP) [For method of selection refer Part-II of General Instruction to candidates] 5 years (over and above the admissible relaxation of 5 years for SC / ST). Applicable only",
+    "page": 4
+   },
+   {
+    "categories": [
+     "Women"
+    ],
+    "for": "Widows / Divorced Women / Women judicially separated from their husbands and who are not remarried.",
+    "raw": "Widows / Divorced Women / Women judicially separated from their husbands and who are not remarried. Upto the age of 35 years (upto 40 years for SC & ST).",
+    "page": 4
+   },
+   {
+    "for": "In-service applicant [Refer Para-15]",
+    "years": 40,
+    "raw": "In-service applicant [Refer Para-15] Age relaxation for Government Servants upto 40 years (45 for SC / ST officials) in accordance with the instructions or orders issued by Central Government, provide",
+    "page": 4
+   }
+  ]
+ },
+ "pay": [
+  {
+   "levels": [
+    4
+   ],
+   "text": "Pay Level 4",
+   "evidence": "of vacan- cies UR Reservation Vertical Horizontal MBC SC OBC EWS EBC BCM BT ST PwBD XSM MSP 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 009 /2025 Dept. of Art & Culture Artist Level-4 01 01 -- -- -- -- -- -- -- -- -- -- -- 010 /2025 Dept. of Personnel & Adm",
+   "page": 1
+  },
+  {
+   "levels": [
+    2
+   ],
+   "text": "Pay Level 2",
+   "evidence": "Reforms Lower Division Clerk Level-2 129 52 23 21 14 13 2 2 1 1 5 12 6",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "conditions such as age / Educational qualification / Experience/ category applied for as indicated against the post code in this notice",
+    "page": 2
+   },
+   {
+    "text": "The Applicant shall apply separately for each posts, fulfilling the eligibility criteria for that posts",
+    "page": 2
+   },
+   {
+    "text": "EDUCATIONAL QUALIFICATION FOR ELIGIBILITY:- (For respective post code(s) notified at Para-1)",
+    "page": 3
+   },
+   {
+    "text": "Note:- Candidates who have passed the written examination shall also pass the typing speed test on computer for final selection for appointment to the post",
+    "page": 3
+   },
+   {
+    "text": "However, those who have passed the Typewriting Lower Grade Examination in English / Tamil / Malayalam / Telugu conducted by Government / Board of Technical Education need not undergo the typing speed test.",
+    "page": 3
+   },
+   {
+    "text": "The Certificate should have been issued for the financial year 2024- 2025 (previous financial year of the closing date) and shall be valid for the year 2025-2026 (current financial year of the closing date).",
+    "page": 6
+   },
+   {
+    "text": "Applicants fulfilling the eligibility criteria as mentioned above are required to apply online only through the official website https://recruitment.py.gov.in from 18.11.2025 (8.00 p.m.) to 14.12.2025 (03.00 p.m.)",
+    "page": 12
+   },
+   {
+    "text": "21.5 The photograph should have been taken recently, preferably within three months",
+    "page": 13
+   },
+   {
+    "text": "Questions may be asked from any topics appropriate for the Educational Qualification level prescribed and shall test the ability of the candidate’s intelligence and general awareness of the environment in and around him / her and its application to the society",
+    "page": 17
+   },
+   {
+    "text": "In case of specific subjects indicated, the question may be asked to test knowledge of the candidates in that subject as per the level of educational qualification prescribed",
+    "page": 17
+   },
+   {
+    "text": "1.1 Mode of applying for the open written Competitive Examination for Direct Recruitment to the posts mentioned at Para-1 of this advertisement is only through online and the Applicant shall apply separately for each posts, fulfilling the eligibility criteria for that posts",
+    "page": 19
+   },
+   {
+    "text": "The appointment is subject to verification of educational qualification /residence /community and any other special category claimed by the individual including medical fitness",
+    "page": 22
+   },
+   {
+    "text": "Category Candidates must have been born Not earlier than Not later than 1",
+    "page": 25
+   }
+  ]
+ },
+ "selection": [
+  "Skill / trade test",
+  "Written examination"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "General Intelligence, Reasoning, Quantitative Aptitude.",
+   "page": 18,
+   "questions": 100,
+   "marks": 100,
+   "duration": "2 Hours"
+  },
+  {
+   "paper": "General Studies & Current Affairs",
+   "page": 18
+  },
+  {
+   "paper": "Ethics and Morality",
+   "page": 18
+  },
+  {
+   "paper": "English Language, Grammar & Comprehension",
+   "page": 18
+  },
+  {
+   "paper": "Computer Knowledge",
+   "page": 18
+  },
+  {
+   "paper": "Physics",
+   "page": 18,
+   "questions": 100,
+   "marks": 100,
+   "duration": "2 Hours"
+  },
+  {
+   "paper": "Commerce",
+   "page": 18
+  },
+  {
+   "paper": "Indian History & World History",
+   "page": 18
+  },
+  {
+   "paper": "Practical Test designed for selection of Artist would be conducted to test the capabilities to showcase his/her creative interpretation in Character or object design, Asset creation, Animation, Concept art task, Observational drawing, Design task, Logo design, On-site project, Test piece, Style replication Technical skill, Creative problem – solving, Intentionality, Process, Adaptability.",
+   "page": 18,
+   "duration": "2 Hours"
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Offline",
+   "page": 3
+  },
+  "negative_marking": {
+   "value": "One-fourth of the marks assigned for each wrong answer",
+   "page": 8
+  },
+  "duration": {
+   "value": "Total Maximum Marks : 100 2 Hours",
+   "page": 18
+  }
+ },
+ "links": {
+  "apply": [
+   "https://recruitment.py.gov.in",
+   "https://www.recruitment.py.gov.in"
+  ]
+ },
+ "summary": {
+  "vacancies": 130,
+  "apply": {
+   "until": "2025-12-14"
+  },
+  "pay": "Pay Level 4",
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Skill / trade test → Written examination"
+ }
+}

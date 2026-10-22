@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "f11d026949f6aa91ac80053ae5e33c684e0760792231ebdaff580e1c3a52c6c3",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20191201170520.pdf",
+  "title": "1826 PUBLIC NOTICE CMAT - 2020 Extension of Last Date Read More",
+  "body": "in-nta",
+  "exam": "in-cmat",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "3b5ec73f12d8a5f18202a32de3b371da5d9df74be74f8cc27a6e69cdfff38159",
+  "bytes": 76954,
+  "pages": 1,
+  "chars": 1911,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-07T07:24:05+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "registration_deadline": {
+   "date": "2019-11-01",
+   "evidence": "On-line submission of Application Form 01.11.2019 to 30.11.2019",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2019-11-01",
+   "evidence": "On-line submission of Application Form 01.11.2019 to 30.11.2019",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://cmat.nta.nic.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2019-11-01",
+   "until": "2019-11-01"
+  }
+ }
+}

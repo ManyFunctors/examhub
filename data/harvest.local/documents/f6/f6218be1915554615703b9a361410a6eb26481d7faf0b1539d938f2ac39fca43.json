@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "f6218be1915554615703b9a361410a6eb26481d7faf0b1539d938f2ac39fca43",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/01/20260102510938658.pdf",
+  "title": "Advisory for Candidates Regarding Mismatch of Photographs with the Submitted Identity Proof Documents for Joint Entrance Examination (Main) 2026",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/jeemain",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "f5c43d5e07756ffc7c201178e64e04787fb52782f50802d2a588ebd3576edc28",
+  "bytes": 503768,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-02T01:42:04+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

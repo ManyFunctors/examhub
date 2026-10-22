@@ -1,0 +1,38 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "aaac1fb0aac4c8e88c8ceabe063e28d8581e3e2bfd2b86a50348687f38579e4a",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200716081754.pdf",
+  "title": "1738 Public Notice: Correction in the Particulars, Choice of Centre Cities, Photograph and Signature in the Online Application Forms for JOINT ENTRANCE EXAMINATION JEE (Main) April–2020 Scheduled during (01 - 06) September to be conducted by the National Testing Agency (NTA). Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "0e8d20720bbd902fab857a6d305ed189413ef7ea4da2e4674c9eb50815a65ca8",
+  "bytes": 153428,
+  "pages": 2,
+  "chars": 5020,
+  "ocr": false,
+  "indic_share": 0.01,
+  "fetched": "2026-10-08T22:36:36+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2020-09-06",
+   "evidence": "Examination (I), 2020 being conducted by UPSC on 6 September 2020 are informed to also update as 'YES', in their Online Application Form, during the correction period so that there is no clash of their schedule of JEE (Main) with N.D.A. & N",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2020-09-06"
+ }
+}

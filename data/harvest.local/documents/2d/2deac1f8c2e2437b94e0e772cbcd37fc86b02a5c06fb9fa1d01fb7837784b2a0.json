@@ -1,0 +1,82 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2deac1f8c2e2437b94e0e772cbcd37fc86b02a5c06fb9fa1d01fb7837784b2a0",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230810093306.pdf",
+  "title": "890 Inviting Online Applications for Ph.D. Entrance Test for DU, JNU, BHU and BBAU - 2023 Read More",
+  "body": "in-nta",
+  "exam": "in-nta-bbau",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "ac403b8698bf32ee5502d807ba17da3cca6af53885c4de129310113983cefeb1",
+  "bytes": 1100015,
+  "pages": 1,
+  "chars": 2130,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-03T10:14:26+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "payment_deadline": {
+   "date": "2023-09-08",
+   "evidence": "Last date of successful transaction of fee through",
+   "page": 1,
+   "from": "table"
+  },
+  "correction_window": {
+   "date": "2023-09-09",
+   "until": "2023-09-11",
+   "evidence": "Correction in Particulars of Application Form on the",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_open": {
+   "date": "2023-08-09",
+   "evidence": "Online Submission of Application Form through Website (https://phd-entrance.samarth.ac.in/) 09.08.2023 to 08.09.2023 (upto 09:00 P.M.) Last date of successful transaction of fee through Credit/Debit Card/NetBanking/UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2023-09-08",
+   "evidence": "Online Submission of Application Form through Website (https://phd-entrance.samarth.ac.in/) 09.08.2023 to 08.09.2023 (upto 09:00 P.M.) Last date of successful transaction of fee through Credit/Debit Card/NetBanking/UPI",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Online Submission of Application Form through",
+   "date": "2023-08-09",
+   "page": 1,
+   "until": "2023-09-08"
+  },
+  {
+   "event": "Last date of successful transaction of fee through",
+   "key": "payment_deadline",
+   "date": "2023-09-08",
+   "page": 1
+  },
+  {
+   "event": "Correction in Particulars of Application Form on the",
+   "key": "correction_window",
+   "date": "2023-09-09",
+   "page": 1,
+   "until": "2023-09-11"
+  }
+ ],
+ "links": {
+  "other": [
+   "https://www.nta.ac.in",
+   "https://phd-entrance.samarth.ac.in/"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2023-08-09",
+   "until": "2023-09-08"
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "fa47c9a69dfc5dee0a766e7764c5d1aac34a4ff8730e35b96196a93135fa0163",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/06/202606121235115637.pdf",
+  "title": "Student-Friendly Measures Introduced for NEET (UG)-2026 Examination-reg.",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "05976e50cec2f3f5283c4fa4686c8fb08305360b22120cf324179a587a0fe690",
+  "bytes": 539469,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-02T00:58:51+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

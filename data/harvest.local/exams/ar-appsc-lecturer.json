@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "exam": "ar-appsc-lecturer",
+ "name": "APPSC (Arunachal) Lecturer / Assistant Professor Recruitment",
+ "body": "ar-appsc",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "advertisement_no": {
+   "value": "01/2026",
+   "source": {
+    "notice": "120552902d5eaa864877a3a617580ac1c1626cc5385f13e63d4f16b5b4a7ce79",
+    "url": "https://appsc.gov.in/upload/RECINS001/NOTIFICATION_ASSTT_PROF_BOTANY_20260612_163945.pdf",
+    "title": "Assistant Professor Examination-2026 scrutiny report for Botany subject.",
+    "kind": "advertisement",
+    "ocr": true
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}

@@ -1,0 +1,123 @@
+{
+ "schema": 1,
+ "exam": "mh-set",
+ "name": "Maharashtra State Eligibility Test",
+ "body": "mh-sppu-set",
+ "purpose": "eligibility",
+ "cycle": "2026-10",
+ "documents": 13,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2026-10-25",
+    "source": {
+     "notice": "4954c245a82c152d04760741cdfdbc7a9348be3e51ddb31a0b67f35fc49a4976",
+     "url": "https://setexam.unipune.ac.in/SET_2026/CandidateList_October_2026.pdf",
+     "title": "List of candidates who have paid prescribed fee for SET to be held on 25th October 2026",
+     "kind": "notice",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2026-10-25",
+   "source": {
+    "notice": "4954c245a82c152d04760741cdfdbc7a9348be3e51ddb31a0b67f35fc49a4976",
+    "url": "https://setexam.unipune.ac.in/SET_2026/CandidateList_October_2026.pdf",
+    "title": "List of candidates who have paid prescribed fee for SET to be held on 25th October 2026",
+    "kind": "notice",
+    "page": 1
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Postgraduate",
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "The candidates must have Master’s Degree recognized by U.G.C., in a subject of SET",
+      "page": 5
+     },
+     {
+      "text": "Nodal Agency do not verify the information provided by the candidates in their application form, hence candidature of all applicants will be purely provisional subject to the fulfillment of eligibility criteria",
+      "page": 6
+     },
+     {
+      "text": "*The candidates with Master's Degree in Public Services are eligible to appear in subject 'Political Science'",
+      "page": 9
+     },
+     {
+      "text": "The candidates to be considered for determining qualifying slots subject-wise, category-wise, must have appeared in both the papers & secured at least 40% aggregate marks in both the papers taken together for General Category candidates &at least 35% aggregate marks in both the papers taken…",
+      "page": 13
+     },
+     {
+      "text": "Such candidates have to produce the scribe before the concerned Center Superintendent along with his/her certificates of educational qualifications at least one day before the test",
+      "page": 15
+     },
+     {
+      "text": "Before applying Online, the candidates must possess the scanned images as below: -  Passport size photograph with both ears visible with white background in JPG/ JPEG format of maximum 50kb",
+      "page": 17
+     }
+    ]
+   },
+   "source": {
+    "notice": "ba1d49a9b74f8acb4735c2633141cf61271954a05f552378faa5ffee4a98705a",
+    "url": "https://setexam.unipune.ac.in/SET_2026/Prospectus_SET_JULY_2026.pdf",
+    "title": "Prospectus of SET Exam 26th July, 2026",
+    "kind": "brochure"
+   },
+   "carried_from": "2026-07"
+  },
+  "selection": {
+   "value": [
+    "Written examination"
+   ],
+   "source": {
+    "notice": "ba1d49a9b74f8acb4735c2633141cf61271954a05f552378faa5ffee4a98705a",
+    "url": "https://setexam.unipune.ac.in/SET_2026/Prospectus_SET_JULY_2026.pdf",
+    "title": "Prospectus of SET Exam 26th July, 2026",
+    "kind": "brochure"
+   },
+   "carried_from": "2026-07"
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "First",
+     "page": 11,
+     "duration": "1hour(1000am to1100am) . . . . . ."
+    },
+    {
+     "paper": "Second",
+     "page": 11,
+     "duration": "2hours(1130am to130pm) . . . . . ."
+    },
+    {
+     "paper": "OPEN/EWS/General",
+     "page": 13,
+     "marks": 40
+    },
+    {
+     "paper": "*SC/ST/PwD(Disability40%or more)/Trans-genders/Orphans * OBC/DT(A)(VJ)/NT(B)/NT(C)/ NT(D)/SEBC/(NonCreamyLayer only)",
+     "page": 13,
+     "marks": 35
+    }
+   ],
+   "source": {
+    "notice": "ba1d49a9b74f8acb4735c2633141cf61271954a05f552378faa5ffee4a98705a",
+    "url": "https://setexam.unipune.ac.in/SET_2026/Prospectus_SET_JULY_2026.pdf",
+    "title": "Prospectus of SET Exam 26th July, 2026",
+    "kind": "brochure"
+   },
+   "carried_from": "2026-07"
+  }
+ },
+ "gaps": [
+  "apply",
+  "fee"
+ ],
+ "older_documents": 12
+}

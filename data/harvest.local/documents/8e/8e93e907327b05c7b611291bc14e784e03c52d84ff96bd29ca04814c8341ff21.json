@@ -1,0 +1,36 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "8e93e907327b05c7b611291bc14e784e03c52d84ff96bd29ca04814c8341ff21",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200522044811.pdf",
+  "title": "1756 Public Notice: Union HRD Minister launches launches AI-powered mobile app for mock tests of JEE Main, NEET 2020, other competitive exams Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "34d6772e1a3aea3c2cb6e15c457d398a8e9199b80e8414a9a46acb6d458f06c5",
+  "bytes": 175085,
+  "pages": 2,
+  "chars": 4587,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-06T08:16:09+05:30"
+ },
+ "kind": "notice",
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  }
+ },
+ "links": {
+  "other": [
+   "https://nta.ac.in/abhyas/help",
+   "https://www.nta.ac.in/Abhyas",
+   "https://play.google.com/store/apps/details?id=com.abhyas.nta.com",
+   "https://www.nta.ac.in/Abhyas/help"
+  ]
+ }
+}

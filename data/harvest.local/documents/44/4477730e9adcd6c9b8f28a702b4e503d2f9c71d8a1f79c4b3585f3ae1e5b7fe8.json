@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "4477730e9adcd6c9b8f28a702b4e503d2f9c71d8a1f79c4b3585f3ae1e5b7fe8",
+  "url": "https://aphc.gov.in/docs/notification_1790770770_0.pdf",
+  "title": "RECRUITMENT – DISTRICT JUDGE THROUGH A LIMITED DEPARTMENTAL COMPETITIVE EXAMINATION (LDCE) - Notification inviting applications for recruitment to thirty (30) posts of District Judge through a Limited Departmental Competitive Examination (LDCE) among the category of Civil Judge (Senior Division), for the year 2026 – Notified.",
+  "body": "ap-hc",
+  "exam": "ap-hc-judicial",
+  "feed": "ap-hc/recruitment",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "7080f251cba4bd2dd63d30a346fd26c14fa053a0c9c8fff33854068cc9f89ef3",
+  "bytes": 447021,
+  "pages": 13,
+  "chars": 16813,
+  "ocr": true,
+  "ocr_engine": "ocrmypdf+tesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:04+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "age_as_on": {
+   "date": "2026-09-01",
+   "evidence": "Age as on 01.09.2026 Educational Qualifications",
+   "page": 8,
+   "from": "text"
+  }
+ },
+ "age": {
+  "as_on": "2026-09-01"
+ },
+ "pay": [
+  {
+   "low": 144840,
+   "high": 194660,
+   "text": "₹144,840–194,660",
+   "evidence": "The scale of pay for the post of District Judge is Rs.144840-194660",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "In case of a tie in age also, the candidate, who possesses higher educational qualification would be considered",
+    "page": 5
+   },
+   {
+    "text": "In case of tie in higher educational qualification also, the candidate with highest marks in the prescribed educational gualification will be considered",
+    "page": 5
+   },
+   {
+    "text": "Age as on 01.09.2026 Educational Qualifications",
+    "page": 8
+   }
+  ]
+ },
+ "selection": [
+  "Written examination"
+ ],
+ "exam": {
+  "duration": {
+   "value": "The duration of examination will be two (2) hours",
+   "page": 3
+  }
+ },
+ "links": {
+  "other": [
+   "https://aphc.gov.in"
+  ]
+ },
+ "summary": {
+  "pay": "₹144,840–194,660",
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Written examination"
+ },
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

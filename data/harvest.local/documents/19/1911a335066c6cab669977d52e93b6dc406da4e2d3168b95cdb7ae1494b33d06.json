@@ -1,0 +1,57 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "1911a335066c6cab669977d52e93b6dc406da4e2d3168b95cdb7ae1494b33d06",
+  "url": "https://ngel.in/public/career/1/4cc8bd7e5e/522fa1b4c1.pdf",
+  "title": "Advertisement Application Form",
+  "body": "in-ntpc-green",
+  "exam": "in-ntpc-green-recruitment",
+  "feed": "in-ntpc-green/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "2189dccc07a161c33d891eb214c37669b09dc738db6179737ef8501e042e8c26",
+  "bytes": 113093,
+  "pages": 1,
+  "chars": 2500,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:18:10+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "registration_deadline": {
+   "date": "2025-08-22",
+   "evidence": "Last date of application 22.08.2025",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Bachelor’s degree in Civil engineering or equivalent from a recognized University/Institute",
+    "page": 1
+   },
+   {
+    "text": "The candidate should have retired at pay scale of E7 or above level equivalent of NTPC Ltd. from Public Sector Undertakings or Autonomous Organizations of Central/ State Governments or private company of repute",
+    "page": 1
+   },
+   {
+    "text": "The candidate should have work experience in SAP and e-office system and knowledge of Microsoft Word, Power Point, Excel etc Other Criteria: At least 01 outstanding rating in last three years excluding in year of superannuation",
+    "page": 1
+   }
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2025-08-22"
+  },
+  "education": [
+   "Graduate"
+  ]
+ }
+}

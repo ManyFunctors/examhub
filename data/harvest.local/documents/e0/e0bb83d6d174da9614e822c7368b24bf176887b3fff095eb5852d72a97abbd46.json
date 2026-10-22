@@ -1,0 +1,71 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "e0bb83d6d174da9614e822c7368b24bf176887b3fff095eb5852d72a97abbd46",
+  "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/10/20261016429881227.pdf",
+  "title": "Inviting Online Applications for the National Institute of Fashion Technology Entrance Examination (NIFTEE)–2027 for Admissions to UG, PG, NLEA, Artisans and Ph.D. Programmes-reg.",
+  "body": "in-nta",
+  "exam": "in-nta-national-institute-of-fashion-technology",
+  "feed": "in-nta/niftee",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "564c8669b23f33cfe9a5b47871a35a8057771793d432d1c3fda6ad97336f271d",
+  "bytes": 608210,
+  "pages": 2,
+  "chars": 4614,
+  "ocr": false,
+  "indic_share": 0.06,
+  "fetched": "2026-10-16T18:04:05+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-11-21",
+   "evidence": "Last d ate f or sub mission of online application with l ate f ees of ₹ 5000/ - (in additionto th eapplicabl eapplicationf ee)",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Last d ate f or sub mission of online application with l ate f ees of ₹ 5000/ - (in additionto th eapplicabl eapplicationf ee)",
+   "key": "registration_deadline",
+   "date": "2026-11-21",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "Candidates must carefully check the eligibility requirements, including age, educational qualifications, subject combinations (where applicable) and category-specific criteria mentioned in the NIFT Admissions Guidelines–2027 and the NIFTEE–2027 Information Bulletin",
+    "page": 1
+   },
+   {
+    "text": "For the programme-wise examination pattern, eligibility criteria, syllabus, scheme of examination and examination cities, candidates should refer to the NIFT Admissions Guidelines–2027 and the NIFTEE–2027 Information Bulletin available on the official websites of NIFT/NTA",
+    "page": 2
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.nic.in/niftee/"
+  ],
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in/",
+   "https://www.nift.ac.in/"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-11-21"
+  }
+ }
+}

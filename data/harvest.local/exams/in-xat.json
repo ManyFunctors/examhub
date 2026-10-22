@@ -1,0 +1,108 @@
+{
+ "schema": 1,
+ "exam": "in-xat",
+ "name": "Xavier Aptitude Test",
+ "body": "in-xlri",
+ "purpose": "admission",
+ "cycle": "2023",
+ "documents": 2,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2023-03-26",
+    "source": {
+     "notice": "cf4ae1781f0449acc7264f660697193289f4b2d7e6a7f8ecbdacbf73a8044570",
+     "url": "https://xatonline.in//assets/pdf/XAT-2024.pdf",
+     "title": "2024",
+     "kind": "answer_key",
+     "page": 55
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2023-03-26",
+   "source": {
+    "notice": "cf4ae1781f0449acc7264f660697193289f4b2d7e6a7f8ecbdacbf73a8044570",
+    "url": "https://xatonline.in//assets/pdf/XAT-2024.pdf",
+    "title": "2024",
+    "kind": "answer_key",
+    "page": 55
+   }
+  },
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "1. p and q must have opposite signs",
+      "page": 8
+     },
+     {
+      "text": "4. r and q must have same signs",
+      "page": 8
+     },
+     {
+      "text": "None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In which of the following over numbers, the team MUST have scored the least number of runs",
+      "page": 16
+     },
+     {
+      "text": "Nobody in that group have their reports up to date, as they should have",
+      "page": 38
+     },
+     {
+      "text": "If she has not mastered knowledge, she must have not reflected on information.",
+      "page": 42
+     }
+    ]
+   },
+   "source": {
+    "notice": "cf4ae1781f0449acc7264f660697193289f4b2d7e6a7f8ecbdacbf73a8044570",
+    "url": "https://xatonline.in//assets/pdf/XAT-2024.pdf",
+    "title": "2024",
+    "kind": "answer_key"
+   }
+  },
+  "pay": {
+   "value": [
+    {
+     "levels": [
+      1,
+      2,
+      3
+     ],
+     "text": "Pay Levels 1, 2, 3",
+     "evidence": "Industry safety regulations divide the pipeline network into three levels: Level 3 is the part under the seabed, Level 2 is the part above the seabed but in the deep sea, while Level 1 is near the surface",
+     "page": 34
+    },
+    {
+     "levels": [
+      3
+     ],
+     "text": "Pay Level 3",
+     "evidence": "In the DeepSea Network, 30% of the valves are located at Level 3, which is the deepest level",
+     "page": 34
+    },
+    {
+     "levels": [
+      1
+     ],
+     "text": "Pay Level 1",
+     "evidence": "At Level 1, the chance of a pressure rise is much lesser compared to the other two levels.",
+     "page": 36
+    }
+   ],
+   "source": {
+    "notice": "cf4ae1781f0449acc7264f660697193289f4b2d7e6a7f8ecbdacbf73a8044570",
+    "url": "https://xatonline.in//assets/pdf/XAT-2024.pdf",
+    "title": "2024",
+    "kind": "answer_key"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "fee",
+  "exam_pattern"
+ ],
+ "older_documents": 1
+}

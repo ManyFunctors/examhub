@@ -1,0 +1,73 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d5417b18d2beed05de27c2a050b216ed35bbcceebbcf215b3c560bf42274e177",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20250211174104.pdf",
+  "title": "Inviting Online Applications for Joint Integrated Programme in Management Admission Test (JIPMAT) - 2025 -reg. Read More",
+  "body": "in-nta",
+  "exam": "in-jipmat",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "fd002bc05457d3a9ee5fd59f00222db284afd53cd2f003af5e120cfd6a813814",
+  "bytes": 1027278,
+  "pages": 2,
+  "chars": 4841,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-06T00:17:36+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2025-04-26",
+   "evidence": "Jli GAYA --..--- (An Autonomous Oroanization under the Department of Hioher Educafo M' • trv f Ed t' G I n lnlS 0 uca1on t f India) overnmen o Downloading Admit Card from NT A website To be announced later on website Mode of exam Computer B",
+   "page": 2,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 2000,
+   "raw": "General/O BC(NCL )/ Rs .2000/ Rs I 0 ,000/ (through - . - ",
+   "page": 1
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 1000,
+   "raw": "Credit SC/ST/PwD/ EWS Rs . 1000/ - ",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/JIPMAT/"
+  ],
+  "other": [
+   "https://www.nta.ac.i11/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2025-04-26",
+  "fee": {
+   "min": 1000,
+   "max": 2000
+  }
+ }
+}

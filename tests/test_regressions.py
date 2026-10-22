@@ -296,3 +296,9 @@ def test_dedupe_removes_a_read_more_page(tmp_path):
     page.write_text(record.dumps(rec, ""), encoding="utf-8")
     dedupe.run(tmp_path, apply=True, log=lambda _m: None)
     assert not page.exists()
+
+
+def test_clean_drops_link_arrows():
+    from examhub_pipeline.crawl.adapters import clean
+
+    assert clean("BITSAT Syllabus  ❯") == "BITSAT Syllabus"

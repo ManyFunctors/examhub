@@ -1,0 +1,60 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2b51545bd9d391e7ad6f31468d0be628d3cdbe850ea5f81997fcb52b04202000",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20200304083502.pdf",
+  "title": "1791 PRESS RELEASE: JAWAHARLAL NEHRU UNIVERSITY ENTRANCE EXAMINATION (JNUEE)-2020 Read More",
+  "body": "in-nta",
+  "exam": "in-nta-jnuee",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "482f67c5be5ab9938380fd6569eeda2ded71228672f3c634f94dcc4e68d02df9",
+  "bytes": 80928,
+  "pages": 1,
+  "chars": 1293,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T17:15:46+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "exam_date": {
+   "date": "2020-05-11",
+   "evidence": "The NTA will conduct the JNUEE - 2020 from 11th May 2020 to 14th May 2020 for admission to various courses at JNU as per the list available in the Information Bulletin",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2020-03-02",
+   "evidence": "The candidates are required to apply online between 02 March 2020 to 31 March 2020 (5:00",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2020-03-31",
+   "evidence": "The candidates are required to apply online between 02 March 2020 to 31 March 2020 (5:00",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2020-03-02",
+   "until": "2020-03-31"
+  },
+  "exam_date": "2020-05-11"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "schema": 1,
+ "exam": "as-apsc-cce",
+ "name": "Assam Combined Competitive Examination",
+ "body": "as-apsc",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "Women"
+     ],
+     "amount": 0,
+     "raw": "_overnment nrives to have a workforce which re_ens _ender batance, therefore the women can4idates are encouraged to apply and shall be exempted from appIication fee. tn a1I other CaSeS,",
+     "page": 7
+    }
+   ],
+   "source": {
+    "notice": "9d324df853fc888d43915ad910d828876e49da10fde9e10457d5d2cb726f2f57",
+    "url": "https://personnel.assam.gov.in/sites/default/files/swf_utility_folder/departments/personnel_webcomindia_org_oid_3/menu/document/apsc_rules_2019-compressed_compressed.pdf",
+    "title": "Assam Public Services Combined Competitive Examination (Amendment) Rules, 2019",
+    "kind": "corrigendum",
+    "page": 7
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}

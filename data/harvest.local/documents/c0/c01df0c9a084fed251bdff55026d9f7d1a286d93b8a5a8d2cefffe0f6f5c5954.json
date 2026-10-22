@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c01df0c9a084fed251bdff55026d9f7d1a286d93b8a5a8d2cefffe0f6f5c5954",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/07/202607161539405935.pdf",
+  "title": "KEY DATA POINTS OF NEET (UG) OVER YEARS",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "178865723550efb7daa5c0d146c65e21309d80c2bc02bfcc67569ad165b6b0f1",
+  "bytes": 4955616,
+  "pages": 4,
+  "chars": 6,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-02T00:28:12+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

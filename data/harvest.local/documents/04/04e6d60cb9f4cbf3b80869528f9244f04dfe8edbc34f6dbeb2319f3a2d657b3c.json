@@ -1,0 +1,41 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "04e6d60cb9f4cbf3b80869528f9244f04dfe8edbc34f6dbeb2319f3a2d657b3c",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220818091236.pdf",
+  "title": "1189 PRESS RELEASE 17 August 2022 Subject: Conduct of the Phase 4 of Common University Entrance Examination CUET (UG) – 2022 – Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/notices",
+  "published": "2022-08-17",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "5d4e909b81044aad12100e1c3aff00288ae4b3d585c41b5350bc00a9c0b2ed29",
+  "bytes": 1296920,
+  "pages": 3,
+  "chars": 5824,
+  "ocr": false,
+  "indic_share": 0.01,
+  "fetched": "2026-10-07T10:35:12+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2022-07-15",
+   "evidence": "National Testing Agency is conducting Common University Entrance Test [CUET (UG)] - 2022 from 15 July 2022 onwards at 489 Examination Centres located in 259 cities across India and 09 cities outside India as per the following schedule:",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in",
+   "https://cuet.samarth.ac.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-07-15"
+ }
+}

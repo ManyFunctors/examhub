@@ -1,0 +1,51 @@
+{
+ "schema": 1,
+ "exam": "pb-pspcl-recruitment",
+ "name": "PSPCL Recruitment (ALM, AE, LDC, JE)",
+ "body": "pb-pspcl",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 2,
+ "documents_in_cycle": 2,
+ "fields": {
+  "advertisement_no": {
+   "value": "CONT./DSL/02I2026",
+   "source": {
+    "notice": "5e7bc9fbf841ce2fdea2f5ec796c51cbcf68761f4a8c055662cff3d7023160d4",
+    "url": "https://pspcl.in/media/short_Notice_dsl_10426.pdf",
+    "title": "Short Notice for recruitment of Deputy Secretary/Legal on contractual basis in PSPCL against advertisement no. Cont./DSL/02/2026 - 10.04.2026",
+    "kind": "advertisement"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate",
+     "Class 10"
+    ],
+    "clauses": [
+     {
+      "text": "Knowledgel Qualification of Punjabi Minimum period for appointment on contract shall be 1 year and on the basis of satisfactory service, contractual period can be extended maximum to total The candidates must have passed Punjabi of at least Matriculation or its equivalent level.",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "5e7bc9fbf841ce2fdea2f5ec796c51cbcf68761f4a8c055662cff3d7023160d4",
+    "url": "https://pspcl.in/media/short_Notice_dsl_10426.pdf",
+    "title": "Short Notice for recruitment of Deputy Secretary/Legal on contractual basis in PSPCL against advertisement no. Cont./DSL/02/2026 - 10.04.2026",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "selection"
+ ],
+ "older_documents": 0
+}

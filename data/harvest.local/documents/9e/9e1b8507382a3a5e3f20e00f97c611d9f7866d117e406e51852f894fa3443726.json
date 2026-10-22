@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "9e1b8507382a3a5e3f20e00f97c611d9f7866d117e406e51852f894fa3443726",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20230419163620.pdf",
+  "title": "1031 Extending the Registration for online Application Form of the Common University Entrance Test [CUET (PG)] - 2023 Examination – reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-pg",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "5447faa934809514d6474feee62a5cfaf634c7a3e18a4124e0ff391c0eef53cd",
+  "bytes": 420878,
+  "pages": 1,
+  "chars": 3035,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-06T12:06:55+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "registration_deadline": {
+   "date": "2023-05-05",
+   "evidence": "Activities Date Last date for submission of online Application Form 05 May 2023 (Up to 09:50 P.M.) Last date for payment of fee online",
+   "page": 1,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2023-05-05",
+   "evidence": "Activities Date Last date for submission of online Application Form 05 May 2023 (Up to 09:50 P.M.) Last date for payment of fee online",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://cuet.nta.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2023-05-05"
+  }
+ }
+}

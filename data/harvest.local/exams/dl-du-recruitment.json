@@ -1,0 +1,99 @@
+{
+ "schema": 1,
+ "exam": "dl-du-recruitment",
+ "name": "University of Delhi Non-Teaching Recruitment",
+ "body": "dl-du",
+ "purpose": "recruitment",
+ "cycle": "2021",
+ "documents": 3,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2021-01-11",
+    "source": {
+     "notice": "2dbffd4571f6f7ca95d576df9e8bee848f476e7a8110491301f3fe764e778b3a",
+     "url": "https://www.du.ac.in/uploads/09012021-Notice%20for cancellation of interview for the post of Assistant Professor, Department of Bio-Physics.pdf",
+     "title": "Notice regarding cancellation of interview for the post of Assistant Professor in the department of Bio-Physics under direct recruitment",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2021-01-11",
+   "source": {
+    "notice": "2dbffd4571f6f7ca95d576df9e8bee848f476e7a8110491301f3fe764e778b3a",
+    "url": "https://www.du.ac.in/uploads/09012021-Notice%20for cancellation of interview for the post of Assistant Professor, Department of Bio-Physics.pdf",
+    "title": "Notice regarding cancellation of interview for the post of Assistant Professor in the department of Bio-Physics under direct recruitment",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "advertisement_no": {
+   "value": "Estab",
+   "source": {
+    "notice": "2dbffd4571f6f7ca95d576df9e8bee848f476e7a8110491301f3fe764e778b3a",
+    "url": "https://www.du.ac.in/uploads/09012021-Notice%20for cancellation of interview for the post of Assistant Professor, Department of Bio-Physics.pdf",
+    "title": "Notice regarding cancellation of interview for the post of Assistant Professor in the department of Bio-Physics under direct recruitment",
+    "kind": "advertisement"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate",
+     "Class 12"
+    ],
+    "clauses": [
+     {
+      "text": "Candidates fulfilling the eligibility criteria may fill the online Application Form available on the college website www.ramanujancollege.ac.in The PwD candidate can fill the form offline also which is also available on the college website",
+      "page": 1
+     },
+     {
+      "text": "ESSENTIAL QUALIFICATIONS FOR NON-TEACHING POSTS.",
+      "page": 2
+     },
+     {
+      "text": "Or Equivalent Or Master’s Degree in Arts/Science/Commerce or any other discipline and B.Lib",
+      "page": 3
+     },
+     {
+      "text": "(a) Should have passed Senior Secondary (10+2) or an equivalent examination with Science Subjects",
+      "page": 3
+     },
+     {
+      "text": "(a) Passed 10t or equivalent examination from any State Education Board or Government recognized Institution (b) Certificate in Library Science/Library & Information Science from a recognised Institution",
+      "page": 3
+     },
+     {
+      "text": "(@) Should have passed 10\" or an equivalent examination with Science Subjects from recognize Board.",
+      "page": 4
+     },
+     {
+      "text": "8 The upper age limit for the posts advertised shall be determined as on last date of submission of applications i.e. 19/02/2021 9 All candidates should have fulfilled the minimum eligibility (education qualifications and",
+      "page": 5
+     }
+    ]
+   },
+   "source": {
+    "notice": "d579975569db3d4f507662fe27ed60ca9ed00db876644e73526df12a980cf78a",
+    "url": "https://www.du.ac.in/uploads/advt/20012021_ramanujan_Revised Advertisement.pdf",
+    "title": "Ramanujan College - Advertisement of Non-Teaching Staff",
+    "kind": "advertisement",
+    "ocr": true
+   },
+   "alternatives": 1,
+   "carried_from": "0"
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "fee",
+  "age",
+  "pay",
+  "selection"
+ ],
+ "older_documents": 2
+}

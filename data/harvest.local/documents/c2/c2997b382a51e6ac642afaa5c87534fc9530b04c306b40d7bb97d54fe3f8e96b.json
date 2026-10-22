@@ -1,0 +1,145 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c2997b382a51e6ac642afaa5c87534fc9530b04c306b40d7bb97d54fe3f8e96b",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20231205174109.pdf",
+  "title": "NIFT ADMISSIONS-2024 Read More",
+  "body": "in-nta",
+  "exam": "in-nift-entrance",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "55d5cdfad32675f22169a3790947730d83ef13b669fd9e7ab2aa4a5c9f6ee54e",
+  "bytes": 655654,
+  "pages": 1,
+  "chars": 2402,
+  "ocr": false,
+  "indic_share": 0.01,
+  "fetched": "2026-10-05T20:03:17+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "registration_open": {
+   "date": "2023-12-05",
+   "evidence": "INR 2250 Dates for submission of online application forms From 05.12.2023 to 03.01.2024 Last date for submission of online application forms with late fees of Rs. 5000/-",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2024-01-03",
+   "evidence": "INR 2250 Dates for submission of online application forms From 05.12.2023 to 03.01.2024 Last date for submission of online application forms with late fees of Rs. 5000/-",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "Unreserved",
+    "EWS",
+    "OBC-NCL"
+   ],
+   "amount": 3000,
+   "raw": " Open / Open-EWS/OBC(NCL) INR 3000",
+   "page": 1
+  },
+  {
+   "categories": [
+    "SC",
+    "ST",
+    "PwBD"
+   ],
+   "amount": 1500,
+   "raw": " SC / ST / PwD INR 1500",
+   "page": 1
+  },
+  {
+   "categories": [
+    "Unreserved",
+    "EWS",
+    "OBC-NCL"
+   ],
+   "amount": 4500,
+   "raw": " Open/Open-EWS/OBC (NCL) applying for INR 4500",
+   "page": 1
+  },
+  {
+   "categories": [
+    "SC",
+    "ST",
+    "PwBD"
+   ],
+   "amount": 2250,
+   "raw": " SC / ST / PwD applying for two INR 2250",
+   "page": 1
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 5000,
+   "raw": "with late fees of Rs 5000/ . -  ",
+   "page": 1
+  }
+ ],
+ "age": {
+  "limits": [
+   {
+    "max": 24,
+    "evidence": "For Bachelor’s Programmes (B.Des & B.F.Tech), the maximum age should be less than 24 years as on 1st August of the year of admission",
+    "page": 1
+   }
+  ],
+  "relaxations": [
+   {
+    "categories": [
+     "SC",
+     "ST",
+     "PwBD"
+    ],
+    "years": 5,
+    "raw": "The upper age limit may be relaxed by a period of 5 (five) years for candidates of SC/ST/PWD categories",
+    "page": 1
+   }
+  ]
+ },
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "Scheme/duration/medium/syllabus of examination, programme wise intake, reservation of seats, exam cities, eligibility criteria, education qualification, passing requirements, important dates, etc., relating to the exam are contained in the Prospectus hosted on www.nta.ac.in /…",
+    "page": 1
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/NIFT/"
+  ],
+  "other": [
+   "http://www.nta.ac.in/",
+   "http://www.nift.ac.in/",
+   "https://www.nta.ac.in",
+   "https://www.nift.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2023-12-05",
+   "until": "2024-01-03"
+  },
+  "fee": {
+   "min": 1500,
+   "max": 5000
+  },
+  "age": {
+   "max": 24
+  }
+ }
+}

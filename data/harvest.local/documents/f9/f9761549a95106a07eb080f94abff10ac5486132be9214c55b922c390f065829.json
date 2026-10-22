@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "f9761549a95106a07eb080f94abff10ac5486132be9214c55b922c390f065829",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20260401211359.pdf",
+  "title": "Press Release for JEE(Main) - 2026 [Session- II] Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/home",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "5b54456e051b559498fe7e07fe783c20cd5ae5608e0ec8839945cbdb71592cdb",
+  "bytes": 1543615,
+  "pages": 8,
+  "chars": 14,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-09T07:50:29+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "exam": "jk-jkbopee-counselling",
+ "name": "JKBOPEE MBBS/BDS/PG Medical Counselling",
+ "body": "jk-jkbopee",
+ "purpose": "admission",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

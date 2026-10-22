@@ -1,0 +1,222 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "3eb83d6da338928c3cffe77d564fd13b269040cf637ae79d26771d72531fbab1",
+  "url": "https://recruitment.py.gov.in/files/2113/pea-combined-secondary-level-examination",
+  "title": "CSL NOTIFICATION",
+  "body": "py-dpar",
+  "exam": "py-direct-recruitment",
+  "feed": "py-dpar/news-notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "fae460600aa505925dc33ff991ac213edcc0c872a8f47acf18eca0c6b9c3fd17",
+  "bytes": 801418,
+  "pages": 23,
+  "chars": 50749,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:18:44+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "03",
+ "dates": {
+  "registration_deadline": {
+   "date": "2025-12-14",
+   "evidence": "Closing Date : 14.12.2025 Time: 03:00 pm",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 27,
+  "by_category": {
+   "UR": 15,
+   "EWS": 2,
+   "OBC": 2,
+   "SC": 4,
+   "MBC": 4,
+   "PwBD": 1
+  },
+  "rows": [
+   {
+    "total": 4,
+    "by_category": {
+     "UR": 5,
+     "MBC": 6,
+     "SC": 7,
+     "OBC": 8,
+     "EWS": 9,
+     "ST": 13,
+     "PwBD": 14
+    },
+    "page": 1
+   },
+   {
+    "label": "2025 / Dept. of Art & Culture Junior Library Attendant / Level-1 Group C / --",
+    "total": 26,
+    "by_category": {
+     "UR": 14,
+     "MBC": 4,
+     "SC": 4,
+     "OBC": 2,
+     "EWS": 2,
+     "PwBD": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "2025 / Dept. of Art & Culture Gallery Assistant / Level-1 Group C / --",
+    "total": 1,
+    "by_category": {
+     "UR": 1
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "age": {
+  "relaxations": [
+   {
+    "categories": [
+     "UR"
+    ],
+    "for": "Meritorious Sports Persons (MSP) [For method of selection refer Part-II of General Instruction to candidates]",
+    "years": 5,
+    "raw": "Meritorious Sports Persons (MSP) [For method of selection refer Part-II of General Instruction to candidates] 5 years (over and above the admissible relaxation of 5 years for SC / ST). Applicable only",
+    "page": 3
+   },
+   {
+    "categories": [
+     "Women"
+    ],
+    "for": "Widows / Divorced Women / Women judicially separated from their husbands and who are not remarried.",
+    "raw": "Widows / Divorced Women / Women judicially separated from their husbands and who are not remarried. Upto the age of 35 years (upto 40 years for SC & ST).",
+    "page": 4
+   },
+   {
+    "for": "In-service applicant [Refer Para-15]",
+    "years": 40,
+    "raw": "In-service applicant [Refer Para-15] Age relaxation for Government Servants upto 40 years (45 for SC / ST officials) in accordance with the instructions or orders issued by Central Government, provide",
+    "page": 4
+   }
+  ]
+ },
+ "pay": [
+  {
+   "levels": [
+    1
+   ],
+   "text": "Pay Level 1",
+   "evidence": "of vacan- cies UR Reservation Vertical Horizontal MBC SC OBC EWS EBC BCM BT ST PwBD XSM MSP 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 011 /2025 Dept. of Art & Culture Junior Library Attendant Level-1 Group C 26 14 04 04 02 02 -- -- -- -- 01 02 01 012 /2025 Dept. of Art & Culture Gallery Assistant…",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "applying for the posts included hereunder, and ensure that they fulfill all the eligibility conditions such as age / Educational qualification / Experience/ category applied for as indicated against the post code in this notice",
+    "page": 2
+   },
+   {
+    "text": "The Applicant shall apply separately for each posts, fulfilling the eligibility criteria for that posts",
+    "page": 2
+   },
+   {
+    "text": "EDUCATIONAL QUALIFICATION FOR ELIGIBILITY:- (For respective post code(s) notified at Para-1)",
+    "page": 3
+   },
+   {
+    "text": "The Certificate should have been issued for the financial year 2024- 2025 (previous financial year of the closing date) and shall be valid for the year 2025-2026 (current financial year of the closing date).",
+    "page": 6
+   },
+   {
+    "text": "Applicants fulfilling the eligibility criteria as mentioned above are required to apply online only through the official website https://recruitment.py.gov.in from 18.11.2025(12.00 noon) to 14.12.2025 (03.00 p.m.)",
+    "page": 11
+   },
+   {
+    "text": "21.5 The photograph should have been taken recently, preferably within three months.",
+    "page": 13
+   },
+   {
+    "text": "Questions may be asked from any topics appropriate for the Educational Qualification level prescribed and shall test the ability of the candidate’s intelligence and general awareness of the environment in and around him / her and its application to the society",
+    "page": 16
+   },
+   {
+    "text": "In case of specific subjects indicated, the question may be asked to test knowledge of the candidates in that subject as per the level of educational qualification prescribed",
+    "page": 16
+   },
+   {
+    "text": "1.1 Mode of applying for the open written Competitive Examination for Direct Recruitment to the posts mentioned at Para-1 of this advertisement is only through online and the Applicant shall apply separately for each posts, fulfilling the eligibility criteria for that posts",
+    "page": 17
+   },
+   {
+    "text": "1.3 Candidates must go through the requirements of educational qualification, experience, age, etc. and satisfy themselves that they are eligible for the post",
+    "page": 17
+   },
+   {
+    "text": "1.7 The Provisionally shortlisted candidates shall attend the Certificate verification process at the place and date/time indicated in notice issued for the same The original certificates /documents in support of their educational qualifications and caste/category, etc. shall be sought from the…",
+    "page": 18
+   },
+   {
+    "text": "The appointment is subject to verification of educational qualification /residence /community and any other special category claimed by the individual including medical fitness",
+    "page": 20
+   },
+   {
+    "text": "Category Candidates must have been born Not earlier than Not later than 1 General / Unreserved",
+    "page": 23
+   }
+  ]
+ },
+ "exam_pattern": [
+  {
+   "paper": "General Intelligence & Reasoning",
+   "page": 17,
+   "questions": 100,
+   "marks": 100,
+   "duration": "2 Hours"
+  },
+  {
+   "paper": "General Science & Social Science",
+   "page": 17
+  },
+  {
+   "paper": "General Studies & Current Affairs",
+   "page": 17
+  },
+  {
+   "paper": "English Language & Grammar",
+   "page": 17
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Offline",
+   "page": 7
+  },
+  "negative_marking": {
+   "value": "One-fourth of the marks assigned for each wrong answer",
+   "page": 8
+  }
+ },
+ "links": {
+  "apply": [
+   "https://recruitment.py.gov.in",
+   "https://www.recruitment.py.gov.in"
+  ]
+ },
+ "summary": {
+  "vacancies": 27,
+  "apply": {
+   "until": "2025-12-14"
+  },
+  "pay": "Pay Level 1",
+  "education": [
+   "Graduate"
+  ]
+ }
+}

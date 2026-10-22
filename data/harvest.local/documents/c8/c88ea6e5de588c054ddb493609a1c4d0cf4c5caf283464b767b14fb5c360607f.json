@@ -1,0 +1,40 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c88ea6e5de588c054ddb493609a1c4d0cf4c5caf283464b767b14fb5c360607f",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/06/20260608323708178.pdf",
+  "title": "Successful Conduct of Common University Entrance Test (UG) – CUET (UG) 2026-reg.",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/cuet-ug",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "04cbd32c69a20654b863d946132dd70d2ec27e34cb6ce713c62e0671d9f10389",
+  "bytes": 389862,
+  "pages": 2,
+  "chars": 4037,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-02T00:12:18+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2026-05-31",
+   "evidence": "The National Testing Agency (NTA) successfully conducted the Common University Entrance Test (Undergraduate) [CUET (UG)] 2026 from 11 May to 31 May 2026 and 06-",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in",
+   "https://cuet.nta.nic.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-05-31"
+ }
+}

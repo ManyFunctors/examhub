@@ -1,0 +1,112 @@
+{
+ "schema": 1,
+ "exam": "in-ncet",
+ "name": "National Common Entrance Test (ITEP)",
+ "body": "in-nta",
+ "purpose": "admission",
+ "cycle": "2026",
+ "documents": 17,
+ "documents_in_cycle": 6,
+ "fields": {
+  "apply_links": {
+   "value": [
+    "https://exams.nta.nic.in/ncet/"
+   ],
+   "source": {
+    "notice": "5953abe8a8b1d32cb4df6d5d9d2bee9fbd0603f5b29e89b9b738ff732faf0f8d",
+    "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/03/202603122136517187.pdf",
+    "title": "Correction in the particulars of the online Application Form of National Common Entrance Test (NCET) 2026 – reg.",
+    "kind": "notice"
+   },
+   "alternatives": 1
+  },
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "• Details of Programmes / Courses offered by the above-mentioned Universities/Institutions along with their Eligibility Criteria are available at the respective Universities/Institutions' websites.",
+      "page": 15
+     }
+    ]
+   },
+   "source": {
+    "notice": "383540563d59cf6690bab2e3bbcfb4c2beb948263153e75ee55986c4eb3baf37",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20250220192110.pdf",
+    "title": "Inviting Online Applications for National Common Entrance Test [NCET] 2025 for admission to 4-Year Integrated Teacher Education Programme (ITEP)- Reg. Read More",
+    "kind": "schedule"
+   },
+   "carried_from": "2025"
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "Language 1",
+     "page": 3,
+     "questions": 23
+    },
+    {
+     "paper": "(38 languages).",
+     "page": 3
+    },
+    {
+     "paper": "Language 2",
+     "page": 3,
+     "questions": 23
+    },
+    {
+     "paper": "Teaching Aptitude",
+     "page": 3,
+     "questions": 23
+    },
+    {
+     "paper": "General Test",
+     "page": 3,
+     "questions": 28
+    },
+    {
+     "paper": "Domain Specific Subject 1",
+     "page": 3,
+     "questions": 28
+    },
+    {
+     "paper": "Domain-Specific Subjects)",
+     "page": 3
+    },
+    {
+     "paper": "Domain Specific Subject 2",
+     "page": 3
+    },
+    {
+     "paper": "Subjects 1 from Section 2.",
+     "page": 3
+    },
+    {
+     "paper": "Domain Specific Subject 3",
+     "page": 3
+    },
+    {
+     "paper": "Subjects 1 and 2 from Section 2.",
+     "page": 3
+    },
+    {
+     "paper": "Total Questions",
+     "page": 3,
+     "questions": 181
+    }
+   ],
+   "source": {
+    "notice": "383540563d59cf6690bab2e3bbcfb4c2beb948263153e75ee55986c4eb3baf37",
+    "url": "https://nta.ac.in/Download/Notice/Notice_20250220192110.pdf",
+    "title": "Inviting Online Applications for National Common Entrance Test [NCET] 2025 for admission to 4-Year Integrated Teacher Education Programme (ITEP)- Reg. Read More",
+    "kind": "schedule"
+   },
+   "carried_from": "2025"
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee"
+ ],
+ "older_documents": 11
+}

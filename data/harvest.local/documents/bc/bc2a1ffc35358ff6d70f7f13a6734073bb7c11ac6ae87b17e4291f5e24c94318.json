@@ -1,0 +1,41 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "bc2a1ffc35358ff6d70f7f13a6734073bb7c11ac6ae87b17e4291f5e24c94318",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20211227095337.pdf",
+  "title": "1373 Public Notice Dated: 27.12.2021 Rescheduling of the Examination dates for Joint CSIR-UGC NET Examination June-2021 Read More",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/notices",
+  "published": "2021-12-27",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "3227293d8f4bf57a393193f7c296ab0a292333a280bd28e5d432b2cdaa521e9b",
+  "bytes": 114868,
+  "pages": 1,
+  "chars": 1048,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-08T01:53:09+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2022-02-05",
+   "evidence": "Rescheduling of the Examination dates for Joint CSIR-UGC NET Examination June-2021 In light of the representations received from candidates seeking rescheduling of dates of the Joint CSIR-UGC NET Examination June-2021 due to clash with some",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://csirnet.nta.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2022-02-05"
+ }
+}

@@ -1,0 +1,338 @@
+{
+ "schema": 1,
+ "exam": "in-sbi-so",
+ "name": "SBI Specialist Cadre Officers",
+ "body": "in-sbi",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 57,
+ "documents_in_cycle": 2,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 18,
+    "by_category": {
+     "PwBD": 18
+    },
+    "rows": [
+     {
+      "label": "Amaravati",
+      "total": 1,
+      "by_category": {
+       "PwBD": 0
+      },
+      "page": 3
+     },
+     {
+      "label": "Bengaluru",
+      "total": 1,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     },
+     {
+      "label": "Bhopal",
+      "total": 1,
+      "by_category": {
+       "PwBD": 0
+      },
+      "page": 3
+     },
+     {
+      "label": "Bhubaneswar",
+      "total": 1,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     },
+     {
+      "label": "Chandigarh",
+      "total": 1,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     },
+     {
+      "label": "Chennai",
+      "total": 1,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     },
+     {
+      "label": "Gandhinagar",
+      "total": 1,
+      "by_category": {
+       "PwBD": 0
+      },
+      "page": 3
+     },
+     {
+      "label": "Guwahati",
+      "total": 1,
+      "by_category": {
+       "PwBD": 0
+      },
+      "page": 3
+     },
+     {
+      "label": "Hyderabad",
+      "total": 1,
+      "by_category": {
+       "PwBD": 0
+      },
+      "page": 3
+     },
+     {
+      "label": "Jaipur",
+      "total": 2,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     },
+     {
+      "label": "Kolkata",
+      "total": 1,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     },
+     {
+      "label": "Lucknow",
+      "total": 1,
+      "by_category": {
+       "PwBD": 0
+      },
+      "page": 3
+     },
+     {
+      "label": "Maharashtra",
+      "total": 1,
+      "by_category": {
+       "PwBD": 0
+      },
+      "page": 3
+     },
+     {
+      "label": "Mumbai Metro",
+      "total": 1,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     },
+     {
+      "label": "New Delhi",
+      "total": 1,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     },
+     {
+      "label": "Patna",
+      "total": 1,
+      "by_category": {
+       "PwBD": 0
+      },
+      "page": 3
+     },
+     {
+      "label": "Thiruvananthapuram",
+      "total": 1,
+      "by_category": {
+       "PwBD": 2
+      },
+      "page": 3
+     }
+    ],
+    "from": "table"
+   },
+   "source": {
+    "notice": "656871e430a9f7778f638d8dcf16ac07878670ac8b3c24783f4129d283755502",
+    "url": "https://sbi.bank.in/documents/77530/57941334/14052026_FINAL+AD-IAD-SCO-2026-27-08.pdf/52171408-97f3-d8ea-ce32-9948ae0f0b45?t=1778749404359",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi/ English ) ( )",
+    "kind": "advertisement"
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2026-08-31",
+    "source": {
+     "notice": "7ce3eade465e2e516cb20dd0f01d65929b800ea46673b0fa255428cf43ab56b8",
+     "url": "https://sbi.bank.in/documents/77530/57941334/04092026_FINAL+ADVT+SCO+_21_+GROUP+CISO.pdf/92a8bf33-5351-6edc-ff5b-0bd27b3a61cf?t=1788521056853",
+     "title": "DOWNLOAD ADVERTISEMENT( Hindi / English ) ( )",
+     "kind": "advertisement",
+     "page": 2
+    },
+    "alternatives": 1
+   },
+   "payment_deadline": {
+    "date": "2026-09-24",
+    "source": {
+     "notice": "7ce3eade465e2e516cb20dd0f01d65929b800ea46673b0fa255428cf43ab56b8",
+     "url": "https://sbi.bank.in/documents/77530/57941334/04092026_FINAL+ADVT+SCO+_21_+GROUP+CISO.pdf/92a8bf33-5351-6edc-ff5b-0bd27b3a61cf?t=1788521056853",
+     "title": "DOWNLOAD ADVERTISEMENT( Hindi / English ) ( )",
+     "kind": "advertisement",
+     "page": 2
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-09-24",
+    "source": {
+     "notice": "7ce3eade465e2e516cb20dd0f01d65929b800ea46673b0fa255428cf43ab56b8",
+     "url": "https://sbi.bank.in/documents/77530/57941334/04092026_FINAL+ADVT+SCO+_21_+GROUP+CISO.pdf/92a8bf33-5351-6edc-ff5b-0bd27b3a61cf?t=1788521056853",
+     "title": "DOWNLOAD ADVERTISEMENT( Hindi / English ) ( )",
+     "kind": "advertisement",
+     "page": 2
+    },
+    "alternatives": 1
+   },
+   "registration_open": {
+    "date": "2026-09-04",
+    "source": {
+     "notice": "7ce3eade465e2e516cb20dd0f01d65929b800ea46673b0fa255428cf43ab56b8",
+     "url": "https://sbi.bank.in/documents/77530/57941334/04092026_FINAL+ADVT+SCO+_21_+GROUP+CISO.pdf/92a8bf33-5351-6edc-ff5b-0bd27b3a61cf?t=1788521056853",
+     "title": "DOWNLOAD ADVERTISEMENT( Hindi / English ) ( )",
+     "kind": "advertisement",
+     "page": 2
+    },
+    "alternatives": 1
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-09-04",
+    "until": "2026-09-24"
+   },
+   "source": {
+    "notice": "7ce3eade465e2e516cb20dd0f01d65929b800ea46673b0fa255428cf43ab56b8",
+    "url": "https://sbi.bank.in/documents/77530/57941334/04092026_FINAL+ADVT+SCO+_21_+GROUP+CISO.pdf/92a8bf33-5351-6edc-ff5b-0bd27b3a61cf?t=1788521056853",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi / English ) ( )",
+    "kind": "advertisement",
+    "page": 2
+   }
+  },
+  "advertisement_no": {
+   "value": "CRPD/SCO/2026-27/21)",
+   "source": {
+    "notice": "7ce3eade465e2e516cb20dd0f01d65929b800ea46673b0fa255428cf43ab56b8",
+    "url": "https://sbi.bank.in/documents/77530/57941334/04092026_FINAL+ADVT+SCO+_21_+GROUP+CISO.pdf/92a8bf33-5351-6edc-ff5b-0bd27b3a61cf?t=1788521056853",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi / English ) ( )",
+    "kind": "advertisement"
+   },
+   "alternatives": 1
+  },
+  "apply_links": {
+   "value": [
+    "https://sbi.bank.in/web/careers",
+    "https://sbi.bank.in/web/careers/current-openings"
+   ],
+   "source": {
+    "notice": "7ce3eade465e2e516cb20dd0f01d65929b800ea46673b0fa255428cf43ab56b8",
+    "url": "https://sbi.bank.in/documents/77530/57941334/04092026_FINAL+ADVT+SCO+_21_+GROUP+CISO.pdf/92a8bf33-5351-6edc-ff5b-0bd27b3a61cf?t=1788521056853",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi / English ) ( )",
+    "kind": "advertisement"
+   },
+   "alternatives": 1
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Postgraduate",
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "Tech/ B.E. in Computer Science/ Computer Science & Engineering/ Software Engineering/ Information Technology/ Electronics/ Electronics & Communications Engineering/Cyber Security or Equivalent Degree in above specified disciplines with minimum 50% score Or MCA Or M",
+      "page": 2
+     },
+     {
+      "text": "Sc in Computer Science/ Computer Science & Engineering/ Information Technology/ Software Engineering/ Electronics/ Electronics & Communications Engineering/Cyber Security or Equivalent Degree in above specified disciplines.",
+      "page": 2
+     },
+     {
+      "text": "Essential Experience (As on 31.08.2026): The applicant must have at least 15-20 years post qualification experience in Information Technology/ Information Security in Banks/ Large Corporates/ PSUs/ FIs/ Financial Services Organizations/ Financial & Technology Consulting firms, of which minimum 5…",
+      "page": 2
+     },
+     {
+      "text": "Before applying, candidates are requested to ensure that they fulfil the eligibility criteria for the Post as on the date of eligibility.",
+      "page": 2
+     },
+     {
+      "text": "Candidates are required to upload all required documents (resume, ID proof, age proof, PwBD Certificate (if applicable), educational qualification, experience etc.) failing which their application/candidature will not be considered for shortlisting/ interview.",
+      "page": 2
+     },
+     {
+      "text": "In case a candidate is called for interview and is found not satisfying the eligibility criteria (Age, Educational Qualification and Experience etc.) he/ she will neither be allowed to appear for the interview nor be entitled for reimbursement of any travelling expenses.",
+      "page": 2
+     },
+     {
+      "text": "II) DETAILS OF EDUCATIONAL QUALIFICATION, EXPERIENCE, SKILLS, BRIEF JOB PROFILE & KEY RESPONSIBILITY AREA:",
+      "page": 3
+     },
+     {
+      "text": "Tech/ B.E. in Computer Science/ Computer Science & Engineering/ Software Engineering/ Information Technology/ Electronics/ Electronics & Communications Engineering/Cyber Security or Equivalent Degree in above specified disciplines with minimum 50% score.",
+      "page": 3
+     },
+     {
+      "text": "Sc in Computer Science/ Computer Science & Engineering/ Information Technology/ Software Engineering/ Electronics/ Electronics & Communications Engineering/Cyber Security or Equivalent Degree in above specified disciplines.",
+      "page": 3
+     },
+     {
+      "text": "The applicant must have at least 15-20 years post qualification experience in Information Technology/ Information Security in Banks/ Large Corporates/ PSUs/ FIs/ Financial Services Organizations/ Financial & Technology Consulting firms, of which minimum 5 years should be in the core domain area of…",
+      "page": 3
+     },
+     {
+      "text": "i) The educational qualification prescribed for the post is minimum",
+      "page": 4
+     },
+     {
+      "text": "xi) MERE FULFILLING MINIMUM QUALIFICATION AND EXPERIENCE WILL NOT VEST ANY RIGHT IN CANDIDATE FOR BEING CALLED FOR INTERVIEW",
+      "page": 5
+     },
+     {
+      "text": "❖ Shortlisting: Mere fulfilling minimum qualification and experience will not vest any right in candidate for being called for interview",
+      "page": 6
+     },
+     {
+      "text": "HOW TO APPLY: Candidates should have valid email ID which should be kept active till the declaration of result",
+      "page": 7
+     }
+    ]
+   },
+   "source": {
+    "notice": "7ce3eade465e2e516cb20dd0f01d65929b800ea46673b0fa255428cf43ab56b8",
+    "url": "https://sbi.bank.in/documents/77530/57941334/04092026_FINAL+ADVT+SCO+_21_+GROUP+CISO.pdf/92a8bf33-5351-6edc-ff5b-0bd27b3a61cf?t=1788521056853",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi / English ) ( )",
+    "kind": "advertisement"
+   },
+   "alternatives": 1
+  },
+  "selection": {
+   "value": [
+    "Interview"
+   ],
+   "source": {
+    "notice": "7ce3eade465e2e516cb20dd0f01d65929b800ea46673b0fa255428cf43ab56b8",
+    "url": "https://sbi.bank.in/documents/77530/57941334/04092026_FINAL+ADVT+SCO+_21_+GROUP+CISO.pdf/92a8bf33-5351-6edc-ff5b-0bd27b3a61cf?t=1788521056853",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi / English ) ( )",
+    "kind": "advertisement"
+   },
+   "alternatives": 1
+  }
+ },
+ "gaps": [
+  "exam_date",
+  "fee",
+  "age",
+  "pay"
+ ],
+ "older_documents": 55
+}

@@ -1,0 +1,39 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "5a670a71eaa755a5a2f253fc9cfb1a1f80d3cd9b4b9a22d4d0394115315e9b54",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260914325514446.pdf",
+  "title": "PUBLIC NOTICE: Exam Dates for 22nd edition of CTET",
+  "body": "in-cbse",
+  "exam": "in-ctet",
+  "feed": "in-cbse/ctet",
+  "published": "2026-09-10",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "a6f21bff9e2130f53ab15b6f255a6aca74ac471f1cfd8657a365ec965978b3ef",
+  "bytes": 356150,
+  "pages": 1,
+  "chars": 758,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T19:54:44+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2026-12-12",
+   "evidence": "It is hereby informed that the 22nd edition of the Central Teacher Eligibility Test (CTET) will be conducted on 12th and 13th December 2026",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.cbse.gov.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-12-12"
+ }
+}

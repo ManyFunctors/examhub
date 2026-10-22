@@ -1,0 +1,39 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "f4bbebca42ee4682f244e5729e63517a82ec1fb9b87b023bb36ba4f9a22caff8",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20191214142532.pdf",
+  "title": "1820 Public Notice: Joint CSIR-UGC NET December 2019 Exam Postponed in Assam and Meghalaya Read More",
+  "body": "in-nta",
+  "exam": "in-csir-net",
+  "feed": "in-nta/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "d89e14f8e8d53a48abe80981e6efdb2cb9cd91602807f26249ac3a6838e89c32",
+  "bytes": 78713,
+  "pages": 1,
+  "chars": 1180,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-08T21:18:51+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2019-12-15",
+   "evidence": "In other States/UTs, the Examination shall be held on 15 December 2019 as per schedule intimated earlier",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.nta.ac.in",
+   "https://csirnet.nta.nic.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2019-12-15"
+ }
+}

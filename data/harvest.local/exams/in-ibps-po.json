@@ -1,0 +1,228 @@
+{
+ "schema": 1,
+ "exam": "in-ibps-po",
+ "name": "Common Recruitment Process for Probationary Officers / Management Trainees",
+ "body": "in-ibps",
+ "purpose": "recruitment",
+ "cycle": "2026-01",
+ "documents": 3,
+ "documents_in_cycle": 1,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 2025,
+    "evidence": "RECRUITMENT OF PROBATIONARY OFFICERS/ MANAGEMENT TRAINEES IN PARTICIPATING BANKS (CRP PO/MT-XIV for Vacancies of 2025-26) Official Website: www.ibps.in In case of queries / complaints please log in to https://cgrs.ibps.in",
+    "page": 1,
+    "from": "text"
+   },
+   "source": {
+    "notice": "8842e91b5deadbdcac8a2313a991d7fa058c2c30a559fc3cb5b6b03ca3bd21c1",
+    "url": "https://www.ibps.in/wp-content/uploads/PO-MT-XIV-Notice-15.1.2026.pdf",
+    "title": "15 Jan 26 Notice dated 15.01.2026 in connection with CRP-PO/MT-XIV",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "apply_links": {
+   "value": [
+    "http://www.ibps.in/",
+    "https://cgrs.ibps.in/",
+    "https://www.ibps.in"
+   ],
+   "source": {
+    "notice": "8842e91b5deadbdcac8a2313a991d7fa058c2c30a559fc3cb5b6b03ca3bd21c1",
+    "url": "https://www.ibps.in/wp-content/uploads/PO-MT-XIV-Notice-15.1.2026.pdf",
+    "title": "15 Jan 26 Notice dated 15.01.2026 in connection with CRP-PO/MT-XIV",
+    "kind": "advertisement"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "EDUCATIONAL QUALIFICATIONS 10 C",
+      "page": 2
+     },
+     {
+      "text": "Prospective candidates will have to apply at official IBPS website www.ibps.in after carefully reading the notification regarding the process of examinations, interview and provisional allotment, eligibility criteria, online registration processes, payment of prescribed application fee/ intimation…",
+      "page": 4
+     },
+     {
+      "text": "Candidates intending to apply for CRP-PO/MT-XVI are advised to read the detailed Notification carefully and ensure that they fulfil the minimum eligibility criteria specified by IBPS in the notification on the stipulated dates before registering online",
+      "page": 5
+     },
+     {
+      "text": "Candidates may please note that the eligibility criteria specified is the basic criteria for appointment to the aforesaid posts in the Participating Banks",
+      "page": 5
+     },
+     {
+      "text": "Please note that the eligibility criteria specified herein is the basic criteria for applying for the post",
+      "page": 5
+     },
+     {
+      "text": "Candidates must necessarily produce the relevant documents in original and a photocopy in support of their identity and eligibility -pertaining to category, nationality, age, educational qualifications etc. as indicated in the online application form at the time of interview and any subsequent…",
+      "page": 5
+     },
+     {
+      "text": "Please note that no change of category and other eligibility criteria will be permitted at any stage after registration of the online application and expiry of ‘Edit Window’ for candidates to Modify/ Correct Application Form",
+      "page": 5
+     },
+     {
+      "text": "A candidate must have been born not earlier than 02.07.1996 and not later than 01.07.2006 (both dates inclusive)",
+      "page": 6
+     },
+     {
+      "text": "The candidate should possess a valid OBC certificate with a Non-creamy layer clause as per the Government of India guidelines, from time to time",
+      "page": 7
+     },
+     {
+      "text": " Both the candidate as well as scribe will have to give a suitable undertaking confirming that the scribe fulfils all the stipulated eligibility criteria for a scribe mentioned above",
+      "page": 10
+     },
+     {
+      "text": "EDUCATIONAL QUALIFICATIONS (As on 21.07.2026):",
+      "page": 13
+     },
+     {
+      "text": "(1) All the educational qualifications mentioned should be from a University/ Institution/ Board recognised by Govt",
+      "page": 14
+     },
+     {
+      "text": "All documents like Educational Qualification, Caste Certificates including OBC Non Creamy Layer certificate, EWS Certificate, Disability Certificate etc. will be verified with the concerned issuing authority to ensure the veracity and validity of the same as and when required",
+      "page": 20
+     },
+     {
+      "text": "Verification of documents with regard to eligibility criteria will be carried out by the participating banks",
+      "page": 21
+     },
+     {
+      "text": "(5) Before applying for the post, the candidate should ensure that he/she fulfils the eligibility criteria and other norms mentioned in this notification",
+      "page": 29
+     },
+     {
+      "text": "My educational qualification is .",
+      "page": 54
+     }
+    ]
+   },
+   "source": {
+    "notice": "1ac7930fbb8685e302f21cf0ec1adfaa16ac7ea14c4b37d2a6b7641cbc9eb667",
+    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+    "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- PO/MTs-XVI",
+    "kind": "advertisement"
+   },
+   "carried_from": "2026"
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "English Language",
+     "page": 15,
+     "questions": 30,
+     "marks": 30,
+     "duration": "20 minutes"
+    },
+    {
+     "paper": "Quantitative Aptitude",
+     "page": 15,
+     "questions": 35,
+     "marks": 30,
+     "duration": "20 minutes"
+    },
+    {
+     "paper": "Reasoning Ability",
+     "page": 15,
+     "questions": 35,
+     "marks": 40,
+     "duration": "20 minutes"
+    },
+    {
+     "paper": "Total",
+     "page": 15,
+     "questions": 100,
+     "marks": 100,
+     "duration": "60 Minutes"
+    },
+    {
+     "paper": "Reasoning",
+     "page": 15,
+     "questions": 40,
+     "marks": 60,
+     "duration": "45 minutes"
+    },
+    {
+     "paper": "General/ Economy/",
+     "page": 15,
+     "questions": 50,
+     "marks": 60,
+     "duration": "35 minutes"
+    },
+    {
+     "paper": "Banking",
+     "page": 15
+    },
+    {
+     "paper": "Awareness /",
+     "page": 15
+    },
+    {
+     "paper": "Digital/ Financial",
+     "page": 15
+    },
+    {
+     "paper": "Awareness",
+     "page": 15
+    },
+    {
+     "paper": "including RBI",
+     "page": 15
+    },
+    {
+     "paper": "circulars",
+     "page": 15
+    },
+    {
+     "paper": "English Language",
+     "page": 15,
+     "questions": 40,
+     "marks": 20,
+     "duration": "35 minutes"
+    },
+    {
+     "paper": "Data Analysis & Interpretation",
+     "page": 15,
+     "questions": 40,
+     "marks": 60,
+     "duration": "45 minutes"
+    },
+    {
+     "paper": "Interpretation",
+     "page": 15
+    },
+    {
+     "paper": "TOTAL",
+     "page": 15
+    }
+   ],
+   "source": {
+    "notice": "1ac7930fbb8685e302f21cf0ec1adfaa16ac7ea14c4b37d2a6b7641cbc9eb667",
+    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+    "title": "01 Jul 26 Notification for Common Recruitment Process for CRP- PO/MTs-XVI",
+    "kind": "advertisement"
+   },
+   "carried_from": "2026"
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "selection"
+ ],
+ "older_documents": 2
+}

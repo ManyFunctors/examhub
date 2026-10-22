@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "ad5d8f2455f8593880063e208765563c7e08d32927b1eddc2976948f0c843729",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220102203810.pdf",
+  "title": "1368 Public Notice Dated: 02.01.2022 Re-examination of Subject “Kannada” of UGC-NET December 2020 and June 2021 cycles for the candidates who could not submit their Test Paper as per Audit Trail. Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "published": "2022-01-02",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "afef01d0d4a8f5f18ee04d8a8ee396cc98b1dd866ad582dd503d5dca491ed64e",
+  "bytes": 284668,
+  "pages": 1,
+  "chars": 1078,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-07T20:16:24+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2021-12-26",
+   "evidence": "Due to technical issues at some centres of UGC-NET December 2020 and June 2021 examination in Subject \"Kannada\" held on 26.12.2021 (Shift-1) in CBT mode, the scheduled examination could not be conducted",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://ugcnet.nta.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2021-12-26"
+ }
+}

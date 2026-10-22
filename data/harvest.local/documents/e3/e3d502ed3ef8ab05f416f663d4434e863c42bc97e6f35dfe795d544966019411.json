@@ -1,0 +1,48 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "e3d502ed3ef8ab05f416f663d4434e863c42bc97e6f35dfe795d544966019411",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/09/20260907461266783.pdf",
+  "title": "PUBLIC NOTICE: CTET SEP-2026 CORRECTION WINDOW (last date 10.09.2026)",
+  "body": "in-cbse",
+  "exam": "in-ctet",
+  "feed": "in-cbse/ctet",
+  "published": "2026-09-10",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "004812bcd86def3cbbac64141e3da7b21006baee69830e3636465ce6a3a5bfee",
+  "bytes": 187953,
+  "pages": 2,
+  "chars": 2059,
+  "ocr": false,
+  "indic_share": 0.24,
+  "fetched": "2026-10-01T21:26:08+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "registration_open": {
+   "date": "2026-08-25",
+   "evidence": "application portal was opened from 25.08.2026 to 01.09.2026",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2026-09-01",
+   "evidence": "application portal was opened from 25.08.2026 to 01.09.2026",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://ctet.nic.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2026-08-25",
+   "until": "2026-09-01"
+  }
+ }
+}

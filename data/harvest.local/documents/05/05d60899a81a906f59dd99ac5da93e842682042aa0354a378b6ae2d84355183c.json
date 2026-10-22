@@ -1,0 +1,79 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "05d60899a81a906f59dd99ac5da93e842682042aa0354a378b6ae2d84355183c",
+  "url": "https://www.mhc.tn.gov.in/recruitment/docs/not_152_2020.pdf",
+  "title": "NOTIFICATION 152/2020 - POST OF RESEARCH FELLOW AND RESEARCH ASSISTANT IN THE TAMILNADU STATE JUDICIAL ACADEMY",
+  "body": "tn-mhc",
+  "exam": "tn-mhc-staff",
+  "feed": "tn-mhc/recruitment-archives",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "f0e97843c76507ec8acb549e18a133d7f4baf9541f3a591422425c812564dd4b",
+  "bytes": 74122,
+  "pages": 4,
+  "chars": 8056,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:03:22+05:30"
+ },
+ "kind": "schedule",
+ "advertisement_no": "152/2020",
+ "dates": {
+  "registration_deadline": {
+   "date": "2021-01-22",
+   "evidence": "The filled-in printout of the downloaded application form along with required enclosures shall be sent by Registered Post to \"The Registrar (Recruitment), High Court, Madras - 600 104\" on or before 22.01.2021, by 05.00.p.m.. (OR) The candid",
+   "page": 2,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 4,
+  "rows": [
+   {
+    "label": "Research Fellow / Rs.45,000/- per month",
+    "total": 1,
+    "page": 1
+   },
+   {
+    "label": "Research Assistant / Rs.30,000/- per month",
+    "total": 3,
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Minimum eligibility criteria for Research Fellow and Research Assistant :-",
+    "page": 1
+   },
+   {
+    "text": "Candidates pursuing Post Graduate Degree in Law or any other Degrees or Programmes requiring their compulsory attendance elsewhere are not eligible to apply for the assignment as Research Fellow and Research Assistant",
+    "page": 1
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "https://www.tnsja.tn.gov.in",
+   "https://www.mhc.tn.gov.in"
+  ]
+ },
+ "summary": {
+  "vacancies": 4,
+  "apply": {
+   "until": "2021-01-22"
+  },
+  "education": [
+   "Postgraduate",
+   "Graduate"
+  ]
+ }
+}

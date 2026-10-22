@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2f096408cf0e8fe47cf3769b8b4067a588211d65437a94b15006d36ae93a513d",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/06/20260614362415118.pdf",
+  "title": "Opening of Bank Account Re-confirmation/Correction Window for Refund of NEET (UG) 2026 Examination Fee (Examination held on 03 May 2026) – OTP-Based Two-Factor Authentication Mandatory",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "b363be6d69aea575efc36bd84086fc34a1b1c11fc0c26a47823c4ea1b84347a8",
+  "bytes": 799918,
+  "pages": 2,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T16:42:53+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

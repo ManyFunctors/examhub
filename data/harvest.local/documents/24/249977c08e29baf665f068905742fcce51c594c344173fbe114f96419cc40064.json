@@ -1,0 +1,51 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "249977c08e29baf665f068905742fcce51c594c344173fbe114f96419cc40064",
+  "url": "https://www.jnu.ac.in/sites/default/files/admission/AdmissionNotice_PhD_2067-27.pdf",
+  "title": "Admission Notice for inviting applications for Ph.D. programme from Foreign National Candidate under In-absentia Category for the A.Y. 2026-27. (Last Date: 09.10.2026)",
+  "body": "dl-jnu",
+  "exam": "dl-jnu-phd",
+  "feed": "dl-jnu/home",
+  "published": "2026-10-09",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "d8514d6a1e06df35beb49637f91806da357898671d461d5dc79d265636f0072a",
+  "bytes": 462834,
+  "pages": 2,
+  "chars": 3267,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:38:26+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-09-24",
+   "evidence": "Start date for submission of Application Form - 24.09.2026",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "For detailed information regarding programmes/courses and their eligibility criteria please check e-Prospectus 2026-27 already uploaded on the official website of JNU www.jnu.ac.in or direct link https://www.jnu.ac.in/Admission/International",
+    "page": 1
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "http://www.jnu.ac.in/",
+   "https://www.jnu.ac.in/Admission/International",
+   "https://www.jnu.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-09-24"
+  }
+ }
+}

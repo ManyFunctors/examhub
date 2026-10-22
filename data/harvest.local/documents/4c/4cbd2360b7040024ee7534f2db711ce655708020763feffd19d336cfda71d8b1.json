@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "4cbd2360b7040024ee7534f2db711ce655708020763feffd19d336cfda71d8b1",
+  "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/06/20260612671810384.pdf",
+  "title": "भारतीय कृषि अनुसंधान परिषद (आईसीएआर) की ICAR AIEEA (PG) तथा AICE JRF/SRF (Ph.D.) – 2026 के ऑनलाइन आवेदन-पत्र में विवरणों के संशोधन के संबंध में।",
+  "body": "in-nta",
+  "exam": "in-icar-aice-phd",
+  "feed": "in-nta/icar",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "a3f599e5b783736870f17c4c44c126d2c646703c652a602f5ce2b755a54c727d",
+  "bytes": 776271,
+  "pages": 2,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T17:00:21+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

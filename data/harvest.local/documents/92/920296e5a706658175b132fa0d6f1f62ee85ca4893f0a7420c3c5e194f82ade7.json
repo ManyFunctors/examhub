@@ -1,0 +1,40 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "920296e5a706658175b132fa0d6f1f62ee85ca4893f0a7420c3c5e194f82ade7",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210730142623.pdf",
+  "title": "1517 Public Notice 30 July 2021 Rescheduling of Joint Integrated Programme in Management Admission Test (JIPMAT) from 20 June 2021 to 10 August 2021. Read More",
+  "body": "in-nta",
+  "exam": "in-jipmat",
+  "feed": "in-nta/notices",
+  "published": "2021-07-30",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "e622a4bba2dc8a366f366d8eb3770b1b8bbb0c53b29f58bd101af77a1f3d67af",
+  "bytes": 199472,
+  "pages": 1,
+  "chars": 1346,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-06T14:34:27+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2021-06-20",
+   "evidence": "The Joint Integrated Programme in Management Admission Test (JIPMAT) 2021 which was to be conducted on 20 June 2021 had to be postponed due to the extraordinary",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2021-06-20"
+ }
+}

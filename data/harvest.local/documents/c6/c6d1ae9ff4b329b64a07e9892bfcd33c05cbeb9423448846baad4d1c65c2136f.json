@@ -1,0 +1,105 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c6d1ae9ff4b329b64a07e9892bfcd33c05cbeb9423448846baad4d1c65c2136f",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240606162848.pdf",
+  "title": "Press Release of National Council of Hotel Management Joint Entrance Exam (NCHMJEE) 2024. Read More",
+  "body": "in-nta",
+  "exam": "in-nchm-jee",
+  "feed": "in-nta/home",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "045b7c979ecc261ea9f2586ee8134765aced7bebbbaea05927cdada9be77b60a",
+  "bytes": 282661,
+  "pages": 2,
+  "chars": 3073,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-08T02:10:35+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2024-05-11",
+   "evidence": "The National Council of Hotel Management Joint Entrance Examination (NCHMJEE) -2024 was conducted by National Testing Agency in the Computer Based Test (CBT) mode on 11.05.2024 as per the details given below:",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "unmapped_classes": [
+  {
+   "label": "Gen- EWS",
+   "page": 1
+  }
+ ],
+ "vacancies": {
+  "total": 21600,
+  "by_category": {
+   "Unreserved": 11124,
+   "OBC-NCL": 5857,
+   "SC": 2781,
+   "ST": 740,
+   "PwBD": 161
+  },
+  "rows": [
+   {
+    "label": "NCHMJEE 2024 -",
+    "total": 12738,
+    "by_category": {
+     "Unreserved": 6541,
+     "OBC-NCL": 3429,
+     "SC": 1672,
+     "ST": 460,
+     "PwBD": 90
+    },
+    "page": 1
+   },
+   {
+    "label": "NCHMJEE 2024 -",
+    "total": 8862,
+    "by_category": {
+     "Unreserved": 4583,
+     "OBC-NCL": 2428,
+     "SC": 1109,
+     "ST": 280,
+     "PwBD": 71
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "The eligibility criteria, self-declaration, various documents, etc. of the eligible candidates will be verified as per norms specified by NCHM/Institution where admission is sought, at subsequent stages of the admission process",
+    "page": 2
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "http://www.nchm.nic.in/",
+   "https://www.nta.ac.in",
+   "https://www.nchm.nic.in"
+  ]
+ },
+ "summary": {
+  "vacancies": 21600,
+  "exam_date": "2024-05-11",
+  "education": [
+   "Graduate"
+  ]
+ }
+}

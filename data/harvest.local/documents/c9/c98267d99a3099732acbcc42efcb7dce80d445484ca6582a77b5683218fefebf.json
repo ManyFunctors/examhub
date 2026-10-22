@@ -1,0 +1,27 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c98267d99a3099732acbcc42efcb7dce80d445484ca6582a77b5683218fefebf",
+  "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/05/202605122066418251.pdf",
+  "title": "Press Release for NEET (UG) – 2026 dated 12 May 2026",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/neet",
+  "published": "2026-05-12",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "ffec9ca164b1cfa48d2d5054c7a3786f2e6629aa59d7d0ac7d7a733aa2be3374",
+  "bytes": 843864,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-02T01:26:01+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

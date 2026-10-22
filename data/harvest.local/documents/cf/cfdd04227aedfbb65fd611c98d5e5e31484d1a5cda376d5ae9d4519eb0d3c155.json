@@ -1,0 +1,40 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "cfdd04227aedfbb65fd611c98d5e5e31484d1a5cda376d5ae9d4519eb0d3c155",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210707163931.pdf",
+  "title": "1539 Public Notice : Fake Public Notice regarding the Conduct of National Eligibility Cum Entrance Test NEET (UG) – 2021 – Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "abfb49c05aa2fb73dbe386b9005778881660b99ef5af890d0d610d045ab456b6",
+  "bytes": 862879,
+  "pages": 1,
+  "chars": 1935,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-07T18:23:45+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2021-09-05",
+   "evidence": "It is vehemently denied that no such Public Notice, declaring the conduct of NEET (UG) on 5th Sep 2021, has been issued by the National Testing Agency so far",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://ntaneet.nic.in",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2021-09-05"
+ }
+}

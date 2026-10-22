@@ -1,0 +1,72 @@
+{
+ "schema": 1,
+ "exam": "dl-jnu-phd",
+ "name": "JNU PhD Admission (JNUEE / NET-based)",
+ "body": "dl-jnu",
+ "purpose": "admission",
+ "cycle": "2026",
+ "documents": 2,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "registration_deadline": {
+    "date": "2026-09-24",
+    "source": {
+     "notice": "249977c08e29baf665f068905742fcce51c594c344173fbe114f96419cc40064",
+     "url": "https://www.jnu.ac.in/sites/default/files/admission/AdmissionNotice_PhD_2067-27.pdf",
+     "title": "Admission Notice for inviting applications for Ph.D. programme from Foreign National Candidate under In-absentia Category for the A.Y. 2026-27. (Last Date: 09.10.2026)",
+     "kind": "schedule",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2026-09-24"
+   },
+   "source": {
+    "notice": "249977c08e29baf665f068905742fcce51c594c344173fbe114f96419cc40064",
+    "url": "https://www.jnu.ac.in/sites/default/files/admission/AdmissionNotice_PhD_2067-27.pdf",
+    "title": "Admission Notice for inviting applications for Ph.D. programme from Foreign National Candidate under In-absentia Category for the A.Y. 2026-27. (Last Date: 09.10.2026)",
+    "kind": "schedule",
+    "page": 1
+   }
+  },
+  "eligibility": {
+   "value": {
+    "clauses": [
+     {
+      "text": "For detailed information regarding programmes/courses and their eligibility criteria please check e-Prospectus 2026-27 already uploaded on the official website of JNU www.jnu.ac.in or direct link https://www.jnu.ac.in/Admission/International",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "249977c08e29baf665f068905742fcce51c594c344173fbe114f96419cc40064",
+    "url": "https://www.jnu.ac.in/sites/default/files/admission/AdmissionNotice_PhD_2067-27.pdf",
+    "title": "Admission Notice for inviting applications for Ph.D. programme from Foreign National Candidate under In-absentia Category for the A.Y. 2026-27. (Last Date: 09.10.2026)",
+    "kind": "schedule"
+   }
+  },
+  "selection": {
+   "value": [
+    "Interview",
+    "Document verification"
+   ],
+   "source": {
+    "notice": "02406d66a3c2ad8a7d63e6661204d34a66a6cc2e05955b26aef110fb25dc3832",
+    "url": "https://www.jnu.ac.in/sites/default/files/admission/eProspectus_PhD2026-27.pdf",
+    "title": "PhD e-Prospectus 2026-27",
+    "kind": "brochure"
+   },
+   "carried_from": "0"
+  }
+ },
+ "gaps": [
+  "exam_date",
+  "fee",
+  "exam_pattern"
+ ],
+ "older_documents": 1
+}

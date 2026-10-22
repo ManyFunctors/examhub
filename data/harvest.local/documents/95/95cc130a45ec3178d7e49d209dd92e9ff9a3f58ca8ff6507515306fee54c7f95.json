@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "95cc130a45ec3178d7e49d209dd92e9ff9a3f58ca8ff6507515306fee54c7f95",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20250305163232.pdf",
+  "title": "Reminder for NEET(UG) 2025 Registration Read More",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "9268e27efe4552a1d1762a9dc1772b850db9a1baeb6c9d2adc7b3d12c0811b59",
+  "bytes": 250023,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-03T01:24:06+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

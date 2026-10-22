@@ -1,0 +1,41 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "e461f81a62b92024556aa34be8db08d8968c98eee06c040d2743a64a3682f96a",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20210312190724.pdf",
+  "title": "1582 Public Notice: Correction in the Online Application Form of UGC-NET December 2020 Cycle (May 2021) Examination Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "8c508fa4eb7aea8d2212cf56bc69a4b137ed3f7793cae70aa91a26cc35d992a7",
+  "bytes": 569661,
+  "pages": 1,
+  "chars": 2571,
+  "ocr": false,
+  "indic_share": 0.02,
+  "fetched": "2026-10-07T16:19:52+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "registration_deadline": {
+   "date": "2021-03-10",
+   "evidence": "Please note that the correction facility is available only to those candidates who have already successfully submitted the application form along with the requisite fee on or before 10 March 2021",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2021-03-10"
+  }
+ }
+}

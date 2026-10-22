@@ -1,0 +1,124 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2701ffa9c4d9122ea260a75e8e994b723c41f0bf46640e6444f2d424749fd5ae",
+  "url": "https://www.uceed.iitb.ac.in/2026/assets/downloads/docs/BDES2026_Seat_Allotment_Round_5.pdf",
+  "title": "BDES2026_Seat_Allotment_Round_5",
+  "body": "in-iitb",
+  "exam": "in-uceed",
+  "feed": "in-iitb/uceed",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "9a2b2d4bca211bcbadc5cade9141927536784e55e520e1bc1b10f6c7bfab7fc3",
+  "bytes": 288455,
+  "pages": 4,
+  "chars": 6964,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T05:39:02+05:30"
+ },
+ "kind": "schedule",
+ "unmapped_classes": [
+  {
+   "label": "Open Opening",
+   "page": 4
+  },
+  {
+   "label": "Open Closing",
+   "page": 4
+  }
+ ],
+ "vacancies": {
+  "total": 1212,
+  "by_category": {
+   "OBC-NCL": 558,
+   "SC": 260,
+   "ST": 189,
+   "EWS": 205
+  },
+  "rows": [
+   {
+    "label": "IIT Bombay / -",
+    "total": 45,
+    "by_category": {
+     "EWS": 7,
+     "OBC-NCL": 22,
+     "SC": 10,
+     "ST": 6
+    },
+    "page": 4
+   },
+   {
+    "label": "IIT Delhi / -",
+    "total": 108,
+    "by_category": {
+     "EWS": 12,
+     "OBC-NCL": 49,
+     "SC": 28,
+     "ST": 19
+    },
+    "page": 4
+   },
+   {
+    "label": "IIT Guwahati / -",
+    "total": 137,
+    "by_category": {
+     "EWS": 23,
+     "OBC-NCL": 65,
+     "SC": 31,
+     "ST": 18
+    },
+    "page": 4
+   },
+   {
+    "label": "IIT Hyderabad / -",
+    "total": 150,
+    "by_category": {
+     "EWS": 23,
+     "OBC-NCL": 79,
+     "SC": 22,
+     "ST": 26
+    },
+    "page": 4
+   },
+   {
+    "label": "IIT Indore / -",
+    "total": 217,
+    "by_category": {
+     "EWS": 40,
+     "OBC-NCL": 93,
+     "SC": 48,
+     "ST": 36
+    },
+    "page": 4
+   },
+   {
+    "label": "IIT Roorkee / -",
+    "total": 220,
+    "by_category": {
+     "EWS": 35,
+     "OBC-NCL": 106,
+     "SC": 48,
+     "ST": 31
+    },
+    "page": 4
+   },
+   {
+    "label": "IIITDM Jabalpur / -",
+    "total": 335,
+    "by_category": {
+     "EWS": 65,
+     "OBC-NCL": 144,
+     "SC": 73,
+     "ST": 53
+    },
+    "page": 4
+   }
+  ],
+  "from": "table"
+ },
+ "summary": {
+  "vacancies": 1212
+ }
+}

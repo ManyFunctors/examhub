@@ -1,0 +1,54 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "28f9452b972d7cdcb60dae057518fc4f8f2cb0be068f22d78c02af070c43052e",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220720183505.pdf",
+  "title": "1214 Public Notice_Inviting Online Applications ICAR_UG_PG_PhD_2022 Read More",
+  "body": "in-nta",
+  "exam": "in-icar-aice-phd",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "c76502b8562db9382428e57aadb39280c25fde53bdf46bb8818f250a4a73cea0",
+  "bytes": 901896,
+  "pages": 1,
+  "chars": 2601,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-01T16:42:46+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "registration_deadline": {
+   "date": "2022-08-19",
+   "evidence": "Candidates who are desirous of applying for the exam may go through the Information Bulletin and apply online at https://icar.nta.nic.in/ only during the period from 20.07.2022 to 19.08.2022 and also pay the applicable fee, online, through ",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2022-07-20",
+   "evidence": "Candidates who are desirous of applying for the exam may go through the Information Bulletin and apply online at https://icar.nta.nic.in/ only during the period from 20.07.2022 to 19.08.2022 and also pay the applicable fee, online, through ",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://icar.nta.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2022-07-20",
+   "until": "2022-08-19"
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d82676ccd961b396c2093be0a47fdd941394bdd24b5746a957c37f26c7c51bdd",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/11/20251120574269616.pdf",
+  "title": "Correction in Particulars of the Online Application Form of Joint Entrance Examination (Main)-2026 Session 1 – Reg.",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/jeemain",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "f966bf85a74601b1ed82e8663c3492231138bacb31774f4b34e550542f2f6884",
+  "bytes": 238173,
+  "pages": 2,
+  "chars": 8,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-02T01:41:57+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (6 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

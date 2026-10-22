@@ -1,0 +1,36 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "b84b25d52fcaf0ee6439851e53ab9bf5803f6939075b8af3f3acd05641d72742",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220508001202.pdf",
+  "title": "1296 PUBLIC NOTICE 05.05.2022 Extension of the last date for submission of online applications for the Common University Entrance Test (UG)-2022 Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-ug",
+  "feed": "in-nta/notices",
+  "published": "2022-05-05",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "6c10620e439ff275a72d81441a63a7e3f97ac7ed8ffbf41791ef66739d2013be",
+  "bytes": 1103407,
+  "pages": 2,
+  "chars": 4401,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-08T12:40:08+05:30"
+ },
+ "kind": "corrigendum",
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://cuet.samarth.ac.in/",
+   "https://www.nta.ac.in"
+  ]
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "726d483271c959156f98d1eed9dd30b08ffa0fcc88eb99612234a2ed2192a477",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220625213724.pdf",
+  "title": "1255 PUBLIC NOTICE 25 June 2022 Sub: Examination dates for UGC-NET December 2021 and June 2022 merged cycles Read More",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/notices",
+  "published": "2022-06-25",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "238e2e4c3e3dca9986a3fc609bd3d359a99a6c3287d8275b2ab349e901157728",
+  "bytes": 920993,
+  "pages": 1,
+  "chars": 1119,
+  "ocr": false,
+  "indic_share": 0.07,
+  "fetched": "2026-10-07T19:02:32+05:30"
+ },
+ "kind": "schedule",
+ "schedule": [
+  {
+   "event": "Dates",
+   "date": "2022-07-12",
+   "page": 1,
+   "until": "2022-08-14"
+  }
+ ],
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://ugcnet.nta.nic.in/",
+   "https://ugcnet.nta.nic/",
+   "https://www.nta.ac.in"
+  ]
+ }
+}

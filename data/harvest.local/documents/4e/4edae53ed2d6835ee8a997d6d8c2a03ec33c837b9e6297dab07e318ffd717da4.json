@@ -1,0 +1,36 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "4edae53ed2d6835ee8a997d6d8c2a03ec33c837b9e6297dab07e318ffd717da4",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20220724171823.pdf",
+  "title": "1212 Advisory and Instructions for the Candidates of Joint Entrance Examination (Main) – 2022 Session 2 (July 2022) - Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "5231f25518892cef8fdf3aa9e5d54cde3690f9ea290ada8a9e583920a91a268f",
+  "bytes": 1874503,
+  "pages": 10,
+  "chars": 19649,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-02T20:33:18+05:30"
+ },
+ "kind": "admit_card",
+ "exam": {
+  "negative_marking": {
+   "value": "-1 mark for each wrong answer",
+   "page": 4
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "http://www.jeemain.nta.nic.in/",
+   "https://www.nta.ac.in",
+   "https://jeemain.nta.nic.in/"
+  ]
+ }
+}

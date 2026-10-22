@@ -1,0 +1,48 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "acbcb2cccf71f9bfd75e77ff84553b236df0916ebc70d5509907685de7336e58",
+  "url": "https://sbi.bank.in/documents/77530/57941334/23062026_SBI+_+Detailed+Advt.+PO+26-27_09+-+Hindi.pdf/0f0ff4e1-2ef6-1e3f-719f-bb95ec1a2e13?t=1782216346313",
+  "title": "DOWNLOAD ADVERTISEMENT ( Hindi / English ) ( )",
+  "body": "in-sbi",
+  "exam": "in-sbi-po",
+  "feed": "in-sbi/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "17c6f726502a40634e9f79295377244142b5e11e7c7d1376fba768f7190279c0",
+  "bytes": 521344,
+  "pages": 13,
+  "chars": 73677,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T13:24:51+05:30"
+ },
+ "kind": "advertisement",
+ "schedule": [
+  {
+   "event": "Cå_rXdma Ûmam Amdí`H$ gånmXZ/g§emoYZ g{hV AmdoXZ H$m Am°ZbmBZ n§OrH$aU",
+   "date": "2026-06-18",
+   "page": 3,
+   "until": "2026-07-08"
+  },
+  {
+   "event": "AmdoXZ ewëH$ H$m ^wJVmZ",
+   "date": "2026-06-18",
+   "page": 3,
+   "until": "2026-07-08"
+  }
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 2
+  }
+ },
+ "links": {
+  "apply": [
+   "https://sbi.bank.in/web/careers/current-openings",
+   "http://cgrs.ibps.in"
+  ]
+ }
+}

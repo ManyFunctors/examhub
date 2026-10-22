@@ -1,0 +1,34 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "57a1ea8e3708946edc8cec43ea47a6c5d58f8b6af9bfbecaf1f935fbd2f95498",
+  "url": "https://sbi.bank.in/documents/77530/52947104/SBI+-+CRPD-SCO-2025-26_15+-+Hindi.pdf/8a8910df-60ae-70fd-d34e-e6577804fd85?t=1762840134808",
+  "title": "DOWNLOAD ADVERTISEMENT( Hindi / English )",
+  "body": "in-sbi",
+  "exam": "in-sbi-so",
+  "feed": "in-sbi/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "b4a1e15521693f9652f69734cff0b975f0e671f5d2d3e3e64be811d1e58b5f75",
+  "bytes": 546300,
+  "pages": 12,
+  "chars": 53539,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T11:07:15+05:30"
+ },
+ "kind": "advertisement",
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 4
+  }
+ },
+ "links": {
+  "apply": [
+   "https://sbi.bank.in/web/careers/current-openings",
+   "https://sbi.bank.in/web/careers"
+  ]
+ }
+}

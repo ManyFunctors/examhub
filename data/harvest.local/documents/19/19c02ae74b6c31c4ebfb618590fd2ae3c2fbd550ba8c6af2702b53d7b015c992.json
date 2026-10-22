@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "19c02ae74b6c31c4ebfb618590fd2ae3c2fbd550ba8c6af2702b53d7b015c992",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20260128103930.pdf",
+  "title": "Correction in particulars of the Online Application Form for CUET (PG) 2026. Read More",
+  "body": "in-nta",
+  "exam": "in-cuet-pg",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "a8e8eb65426c43c5f58aa95ab6d7178a108a48c4d320b01df87cb67f11726c1e",
+  "bytes": 995100,
+  "pages": 2,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-01T12:50:05+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

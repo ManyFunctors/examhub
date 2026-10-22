@@ -1,0 +1,94 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "ce2408bfe37d9fa628886c72bd981627bdbca4281dca774ee406e5bad0d7a7b0",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20240211105313.pdf",
+  "title": "748 Online Application Form for the National Eligibility-cum-Entrance Test [(NEET (UG)] 2024 – Reg. Read More",
+  "body": "in-nta",
+  "exam": "in-neet-ug",
+  "feed": "in-nta/notices",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "b7aa2bebb0558c8902c578a61efa48421eb99a1eedf7ee4f05c5ee9463ad7af3",
+  "bytes": 412520,
+  "pages": 2,
+  "chars": 5256,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-07T17:54:50+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "registration_open": {
+   "date": "2024-02-09",
+   "evidence": "Online Submission of Application Form 09 February 2024 to 09 March 2024 2024 (up to 09:00 PM) Last date of successful transaction of fee through Credit/Debit Card/Net-Banking/UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2024-03-09",
+   "evidence": "Online Submission of Application Form 09 February 2024 to 09 March 2024 2024 (up to 09:00 PM) Last date of successful transaction of fee through Credit/Debit Card/Net-Banking/UPI",
+   "page": 1,
+   "from": "text"
+  },
+  "exam_date": {
+   "date": "2024-05-05",
+   "evidence": "Senior Director (Exams) Announcement of the City of Examination To be intimated later on the website Downloading Admit Cards from the NTA website To be intimated later on the website Date of Examination",
+   "page": 2,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "Unreserved"
+   ],
+   "amount": 1700,
+   "raw": " Candidate  General ₹1700/ -",
+   "page": 1
+  },
+  {
+   "categories": [
+    "Unreserved",
+    "EWS",
+    "OBC-NCL"
+   ],
+   "amount": 1600,
+   "raw": "   General -EWS/OBC -NCL* ₹1600/ -",
+   "page": 1
+  },
+  {
+   "categories": [
+    "SC",
+    "ST",
+    "PwBD"
+   ],
+   "amount": 1000,
+   "raw": "   SC/ST/PwBD/ThirdGender ₹1000/ -",
+   "page": 1
+  }
+ ],
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/NEET",
+   "https://exams.nta.nic.in/NEET"
+  ],
+  "other": [
+   "http://www.nta.ac.in/",
+   "http://www.ncbc.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2024-02-09",
+   "until": "2024-03-09"
+  },
+  "exam_date": "2024-05-05",
+  "fee": {
+   "min": 1000,
+   "max": 1700
+  }
+ }
+}

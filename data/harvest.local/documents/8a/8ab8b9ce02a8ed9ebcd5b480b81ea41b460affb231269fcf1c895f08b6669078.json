@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "8ab8b9ce02a8ed9ebcd5b480b81ea41b460affb231269fcf1c895f08b6669078",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20251204175253.pdf",
+  "title": "Release of Examination Schedule of Common Management Admission Test (CMAT)-2026-reg. Read More",
+  "body": "in-nta",
+  "exam": "in-cmat",
+  "feed": "in-nta/home",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "0791e1e112dc53421536b261cf1334634f4bcf65f4506024d15be56549ef2a1e",
+  "bytes": 416842,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-05T11:21:40+05:30"
+ },
+ "kind": "schedule",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

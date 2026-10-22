@@ -1,0 +1,62 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "9e941ebe6a387847e85af9863b840f3e8dc8bc66dea90fd17fa29c448e22d870",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20201117074342.pdf",
+  "title": "1655 Public Notice:Extension of last date for submission of online applications for The All India Sainik School Exam (AISSEE) 2021 Read More",
+  "body": "in-nta",
+  "exam": "in-aissee",
+  "feed": "in-nta/notices",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "6425bf331c8028e237b9fc21b2cadc8c6b069a6acb76b01ed4e40f56bdadb583",
+  "bytes": 124587,
+  "pages": 1,
+  "chars": 1992,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-05T21:18:56+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2021-01-10",
+   "evidence": "AISSEE 2021 is scheduled to be held on 10.01.2021",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2020-10-20",
+   "evidence": "Submission of online applications From 20.10.2020 to 03.12.2020 (upto",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2020-12-03",
+   "evidence": "5.00 pm) Last date for payment of fee online 03.12.2020 (upto 11.50 pm) Correction window",
+   "page": 1,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2020-12-03",
+   "evidence": "5.00 pm) Last date for payment of fee online 03.12.2020 (upto 11.50 pm) Correction window",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.nta.ac.in/",
+   "https://aissee.nta.nic.in/",
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2020-10-20",
+   "until": "2020-12-03"
+  },
+  "exam_date": "2021-01-10"
+ }
+}

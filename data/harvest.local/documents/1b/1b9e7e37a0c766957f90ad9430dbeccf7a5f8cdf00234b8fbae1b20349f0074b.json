@@ -1,0 +1,94 @@
+{
+ "schema": 1,
+ "notice": {
+  "id": "1b9e7e37a0c766957f90ad9430dbeccf7a5f8cdf00234b8fbae1b20349f0074b",
+  "url": "https://www.unionbankofindia.bank.in/pdf/Advertisement-for-coach-of-Union-Bank-of-India-Women's-Hockey-team.pdf",
+  "title": "Advertisement for engagement as Coach for Union Bank of India Women's Hockey Team on stipendiary basis",
+  "body": "in-union-bank",
+  "exam": "in-union-bank-recruitment",
+  "feed": "in-union-bank/careers-recruitment",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "84caaf59a3ae643ba369c0b567a5c0c392f40adba3e367527fd6452a03bb4444",
+  "bytes": 510458,
+  "pages": 6,
+  "chars": 9735,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-09-29T05:03:37+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "registration_open": {
+   "date": "2023-08-21",
+   "evidence": "Start Date for submitting the Application",
+   "page": 3,
+   "from": "table"
+  },
+  "registration_deadline": {
+   "date": "2023-08-31",
+   "evidence": "Last Date for submitting the Application",
+   "page": 3,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Start Date for submitting the Application",
+   "key": "registration_open",
+   "date": "2023-08-21",
+   "page": 3
+  },
+  {
+   "event": "Last Date for submitting the Application",
+   "key": "registration_deadline",
+   "date": "2023-08-31",
+   "page": 3
+  }
+ ],
+ "pay": [
+  {
+   "levels": [
+    10,
+    15
+   ],
+   "text": "Pay Levels 10, 15",
+   "evidence": "Previous coaching experience*# Marks to be awarded (out of 35) Coaching experience at state level 10 marks per completed year (maximum 30) Coaching experience at national level 15 marks per completed year (maximum 30) * Period of 6 months or more shall be treated as a year.",
+   "page": 2
+  },
+  {
+   "levels": [
+    1
+   ],
+   "text": "Pay Level 1",
+   "evidence": " Certificate for the level of coaching attained by the candidates (Hockey India Level 1/2 certified coach/ FIH Academy Level 1/2/3 certified coach).",
+   "page": 3
+  }
+ ],
+ "eligibility": {
+  "clauses": [
+   {
+    "text": " Should have minimum one year experience of coaching state/national level teams as of 01.08.2023.",
+    "page": 1
+   },
+   {
+    "text": "Communication Address Permanent Address Educational Qualification Certification Level in Coaching Kindly Tick the appropriate column:",
+    "page": 5
+   }
+  ]
+ },
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 2
+  }
+ },
+ "summary": {
+  "apply": {
+   "from": "2023-08-21",
+   "until": "2023-08-31"
+  },
+  "pay": "Pay Levels 10, 15"
+ }
+}

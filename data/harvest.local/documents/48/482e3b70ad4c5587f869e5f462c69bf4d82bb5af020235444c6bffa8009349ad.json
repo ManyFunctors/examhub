@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "482e3b70ad4c5587f869e5f462c69bf4d82bb5af020235444c6bffa8009349ad",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20250610162807.pdf",
+  "title": "Correction in the particulars of the online Application Form of AIAPGET– 2025. Read More",
+  "body": "in-nta",
+  "exam": "in-aiapget",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "a41292399c5c2ad5f89d03f272bba27e80aaefaf44f4c684a656668ef7815847",
+  "bytes": 590468,
+  "pages": 2,
+  "chars": 3740,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-10-02T19:02:53+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "exam_date": {
+   "date": "2025-07-04",
+   "evidence": "National Testing Agency is going to conduct AIAPGET - 2025 on 04 July 2025 at various examination Centres located in different cities across India in Computer Based Test (CBT) mode",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://exams.nta.ac.in/AIAPGET/"
+  ],
+  "other": [
+   "https://www.nta.ac.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2025-07-04"
+ }
+}

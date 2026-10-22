@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "6e01e1006852c123f762c1d2069d7bacf34199ff0dd55f95caaf496c01fb7e70",
+  "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/05/20260514166723442.pdf",
+  "title": "Second Advisory for completion of application process of UGC-NET June 2026",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/ugcnet",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "6ff777d8e6de773ba62db57559896dab37c6a42077c485937582ed0ee637b210",
+  "bytes": 1193399,
+  "pages": 3,
+  "chars": 4,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-12T13:25:46+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c6bc39dd92b672377b9a817fa63e5c93c28237b78a897a8f36d18b8aa389210c",
+  "url": "https://setexam.unipune.ac.in/SET_2026/Jahir_Nivedan_2026.pdf",
+  "title": "Jahir Nivedan",
+  "body": "mh-sppu-set",
+  "exam": "mh-set",
+  "feed": "mh-sppu-set/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "cbd05f3b30777e1651178efda7342cf9c7d6d84b4df6ee871af8256fd7352f8a",
+  "bytes": 249212,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T13:55:39+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "page 1: OCR failed (tesseract is not installed or it's not in your PATH. See README file for more information.)",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
