@@ -32,6 +32,9 @@ YEAR_SLACK = 1
 SENTINELS = {"unknown", "not_announced", "none", None}
 #: Reservations that overlap the main categories rather than add to them.
 HORIZONTAL = {"PwBD", "ESM", "Freedom Fighter Dependant"}
+#: Reservation columns that cut across the main categories (PwBD-A, Ex-Servicemen, Disabled Ex-Servicemen):
+#: their people are already counted under a main category, so they never add to the total.
+_HORIZONTAL_NAME = re.compile(r"^(?:PwBD|PwD|PH\b|Ex-?\s*Servicem[ae]n|Disabled|ESM|Freedom|Women|Sports)", re.I)
 #: Relaxation categories safe to copy as read; the reader has mislabelled the rest
 #: (a widows-only relaxation came out as "Women").
 RELAXATION_CATEGORIES = {"SC", "ST", "OBC-NCL", "OBC", "EWS", "PwBD", "Ex-Servicemen"}
@@ -41,7 +44,7 @@ def _adds_up(value: dict) -> bool:
     """Whether the vacancy table's category columns sum to its total."""
     cats = value.get("by_category") or {}
     if cats:
-        return sum(n for k, n in cats.items() if k not in HORIZONTAL and isinstance(n, int)) == value["total"]
+        return sum(n for k, n in cats.items() if k not in HORIZONTAL and not _HORIZONTAL_NAME.match(k) and isinstance(n, int)) == value["total"]
     # a table by zone or post (RRB) has no category columns: its rows must add up instead
     rows = [r.get("total") for r in value.get("rows") or []]
     return bool(rows) and all(isinstance(n, int) for n in rows) and sum(rows) == value["total"]

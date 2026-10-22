@@ -28,8 +28,8 @@ body_role = 'conducts'
 
 # ═══ posts and vacancies ═════════════════════════════════════════════
 [posts]
-vacancies_total            = 'not_announced'
-vacancies_status           = 'not_announced'
+vacancies_total            = 1123
+vacancies_status           = 'confirmed'
 posts_per_candidate        = 'unknown'
 posts_waiting_list_percent = 'unknown'
 posts_join_in_batches      = 'unknown'
@@ -341,6 +341,14 @@ link_official_page = 'https://www.ibps.in/'
 link_apply         = 'unknown'
 
   [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://www.ibps.in/wp-content/uploads/Annexure_Corrigendum_29.09.2026.pdf'
+  document_archive   = 'not_archived'
+  document_title     = '29 Sep 26 Updated Vacancies as on 29.09.2026 for Common Recruitment Process for CRP-CSA-XVI'
+
+  [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
@@ -350,7 +358,7 @@ link_apply         = 'unknown'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:46+05:30
+provenance_last_checked = 2026-10-22T15:40:46+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'
@@ -379,4 +387,11 @@ provenance_last_checked = 2026-10-22T14:28:46+05:30
   evidence_page     = 0
   evidence_words    = 'ExamHub record: All candidates 850; SC 175; ST 175; PwBD 175; Ex-Servicemen 175'
   evidence_method   = 'manual'
+
+  [[provenance.evidence]]
+  evidence_field    = 'posts.vacancies_total'
+  evidence_document = 'https://www.ibps.in/wp-content/uploads/Annexure_Corrigendum_29.09.2026.pdf'
+  evidence_page     = 0
+  evidence_words    = ''
+  evidence_method   = 'rule'
 +++

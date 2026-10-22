@@ -302,3 +302,12 @@ def test_clean_drops_link_arrows():
     from examhub_pipeline.crawl.adapters import clean
 
     assert clean("BITSAT Syllabus  ❯") == "BITSAT Syllabus"
+||||||| parent of b352295c (Vacancy totals ignore overlapping columns; a date's year no longer names the cycle)
+
+def test_cycle_label_ignores_the_year_in_a_date():
+    from examhub_pipeline.catalogue import cycle_label
+
+    assert cycle_label("Final Vacancies of Combined Graduate Level Examination, 2025 (as on 06.03.2026)") == "2025"
+    assert cycle_label("Vacancies as on 29.09.2026 for CRP CSA XV") == "2026"  # only a date to go on
+    assert cycle_label("Exam held on 12 January 2026") == "2026-jan"  # only a date to go on
+    assert cycle_label("Admit card for CGLE 2025 published 9 January 2026") == "2025"

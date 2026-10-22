@@ -336,22 +336,35 @@ _CYCLE_PATTERNS = (
 _SESSION = re.compile(r"\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|june?|july?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\b", re.I)
 
 
+#: A full date ("as on 06.03.2026", "12 Jan 2026"): its year says when, not which cycle.
+_FULL_DATE = re.compile(
+    r"(?<!\d)\d{1,2}\s*[./-]\s*\d{1,2}\s*[./-]\s*20\d{2}(?!\d)"
+    r"|(?<!\d)\d{1,2}(?:st|nd|rd|th)?\s+[A-Za-z]{3,9}\.?,?\s+20\d{2}(?!\d)"
+    r"|\b[A-Za-z]{3,9}\.?\s+\d{1,2}(?:st|nd|rd|th)?,?\s+20\d{2}(?!\d)"
+)
+
+
 def cycle_label(title: str) -> str | None:
     """The cycle a notice title names, e.g. ``2026`` or ``2026-dec``.
 
     Only what the title states. No year is guessed from a filename or a
     fetch date, because a 2027 notification published in 2026 is common.
     """
-    years = []
-    for pat in _CYCLE_PATTERNS:
-        for m in pat.finditer(title):
-            years.append(m.group(1))
+    years, used = [], title
+    # "Examination, 2025 (as on 06.03.2026)" is the 2025 cycle; dates only count when nothing else names a year
+    for text in (_FULL_DATE.sub(" ", title), title):
+        for pat in _CYCLE_PATTERNS:
+            for m in pat.finditer(text):
+                years.append(m.group(1))
+            if years:
+                break
         if years:
+            used = text
             break
     if not years:
         return None
     year = max(years)
-    sess = _SESSION.search(title)
+    sess = _SESSION.search(used)
     if sess:
         return f"{year}-{sess.group(1)[:3].lower()}"
     return year

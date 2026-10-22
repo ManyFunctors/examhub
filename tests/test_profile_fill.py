@@ -190,3 +190,12 @@ def test_promote_wants_a_live_cycle():
     assert not live({"documents_in_cycle": 3, "fields": {"exam_date": {"value": "2025-08-22"}}}, today)
     assert not live({"documents_in_cycle": 0, "fields": {"exam_date": {"value": "2026-08-22"}}}, today)
     assert not live({"documents_in_cycle": 2, "fields": {}}, today)
+
+
+def test_vacancy_total_ignores_overlapping_reservation_columns():
+    from examhub_pipeline.profile_fill import _adds_up
+
+    cats = {"Unreserved": 6459, "OBC": 3834, "SC": 2223, "ST": 1134, "EWS": 1475,
+            "PwBD-A": 154, "PwBD-B": 155, "Ex-Servicemen": 354}
+    assert _adds_up({"total": 15125, "by_category": cats})
+    assert not _adds_up({"total": 15000, "by_category": cats})
