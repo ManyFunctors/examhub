@@ -318,3 +318,9 @@ def test_download_pdf_title_attribute_falls_back_to_row_text():
             '<td><a href="/file/x/publicNotice" title="Download PDF"><i></i></a></td></tr></table>')
     rows = list(html_links({"id": "t/x", "body": "t", "item_selector": "table tr"}, "https://hssc.gov.in/publicNotice", html))
     assert rows and rows[0]["title"].startswith("Final Answer Key")
+
+
+def test_view_more_and_hindi_download_labels_use_row_text():
+    from examhub_pipeline.crawl.adapters import UNINFORMATIVE
+    for label in ("View More", "डाउनलोड करें", "Download PDF"):
+        assert UNINFORMATIVE.match(label), label
