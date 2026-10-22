@@ -121,6 +121,7 @@ parameters. Adding a body is a TOML edit; a site redesign is a selector edit.
 | `items_path` | text | | `json_api`: dotted path to the list, e.g. `data` |
 | `fields` | table | | `json_api`: `{title = "examName", url = "navigationUrl", date = "…"}` |
 | `url_template` | text | | `json_api`: builds an absolute URL from a field, e.g. `https://ssc.gov.in{url}` |
+| `timeout_seconds` | int | | Wait this long for the page (default 30); for a slow government host |
 | `cadence_days` | int | | How often it is worth re-reading. Default 1 |
 | `keep_chrome` | bool | | Keep links inside menus, headers and footers (for sites whose notice list *is* a menu) |
 | `tier` | `hot` \| `warm` \| `cold` | | Pin the polling tier. Absent: derived from recent activity |
