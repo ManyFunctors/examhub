@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3f3cde72719ab52fb5d339d96ccef87f331230d7d01c93fdfc7208505955a234",
+  "url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/8-8-25-6-Important-Notice-792025-Principal-in-GP-GWP_BPSC-20250808-94undw.pdf",
+  "title": "Important Notices",
+  "body": "br-bpsc",
+  "exam": "br-bpsc-lecturer",
+  "feed": "br-bpsc/advertisements",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "52baa3da69e8b98c84c9c9fbafe3091b6303da2086aef0619d899328ff82b247",
+  "bytes": 23539,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T20:07:24+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "22fe0b76b35ede33afd4fedb4e7b13a9eed9bcff57dc9f0cd1b782b982408557",
+  "url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Advertisement-052026-Deputy-Director_BPSC-20260112-zq1bpc.pdf",
+  "title": "Important Notice Advertisement",
+  "body": "br-bpsc",
+  "exam": "br-bpsc-other",
+  "feed": "br-bpsc/advertisements",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "fa494097cf288fc0743f110848b2b6311db043ab1fb170ca3b14f0f52db09a34",
+  "bytes": 516428,
+  "pages": 7,
+  "chars": 12,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T20:07:21+05:30"
+ },
+ "kind": "advertisement",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
