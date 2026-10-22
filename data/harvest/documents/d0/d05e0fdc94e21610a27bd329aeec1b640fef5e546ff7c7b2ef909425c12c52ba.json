@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d05e0fdc94e21610a27bd329aeec1b640fef5e546ff7c7b2ef909425c12c52ba",
+  "url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Important-Notice-Integrated-72th-CCE-PT_BPSC-20260505-tc547k.pdf",
+  "title": "Important Notice",
+  "body": "br-bpsc",
+  "exam": "br-bpsc-cce",
+  "feed": "br-bpsc/advertisements",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "c591a1a84dbf2e2eb69f0a444346b950ef4913a30a45a9dba7e82232cda773c7",
+  "bytes": 32126,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T23:35:40+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
