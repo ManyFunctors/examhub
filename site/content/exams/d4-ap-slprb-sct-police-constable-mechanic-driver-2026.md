@@ -304,6 +304,7 @@ link_apply         = 'unknown'
   document_published = 'unknown'
   document_url       = 'https://slprb.ap.gov.in/2026_PDFS/SLPRB_AP_PC_DRIVERANDMECHANIC_Notification_2026.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'SLPRB AP PC DRIVERANDMECHANIC Notification 2026'
 
   [[links.documents]]
   document_type      = 'other'
@@ -315,7 +316,7 @@ link_apply         = 'unknown'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:48+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'

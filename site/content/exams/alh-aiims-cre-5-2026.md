@@ -353,11 +353,12 @@ link_apply         = 'unknown'
   document_published = 'unknown'
   document_url       = 'https://aiimskalyani.edu.in/aiimsapi/uploads/documents/general/cre_5_notification_20260615_141827_e4c6ba23.pdf'
   document_archive   = 'https://web.archive.org/web/20261001002216/https://aiimskalyani.edu.in/aiimsapi/uploads/documents/general/cre_5_notification_20260615_141827_e4c6ba23.pdf'
+  document_title     = 'cre 5 notification 20260615 141827 e4c6ba23'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:20+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

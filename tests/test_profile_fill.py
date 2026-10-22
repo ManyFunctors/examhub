@@ -159,3 +159,15 @@ def test_a_long_title_is_cut_at_a_word():
     from examhub_pipeline.profile_fill import _short_title
     out = _short_title("Public Notice regarding Addition of Examination Cities and Expansion of City Choice Options for UGC-NET June 2026 Examination")
     assert out.endswith("…") and not out.endswith("June 2…") and len(out) <= 111
+
+
+def test_every_listed_document_is_titled_by_notice_or_file_name_but_portals_are_not():
+    from examhub_pipeline.profile_fill import attach_notices
+    rec = {"exam_id": None, "cycle": "unknown", "links": {"documents": [
+        {"document_type": "other", "document_url": "https://a.test/files/Detailed-Notification_CRP-PO-XVI_V1.pdf"},
+        {"document_type": "other", "document_url": "https://a.test/login", "document_title": "Login"},
+        {"document_type": "other", "document_url": "https://a.test/n/Notice_20260924172919.pdf"}]}}
+    attach_notices(rec, [], same_cycle_records=1)
+    titles = {d["document_url"].rsplit("/", 1)[-1]: d.get("document_title") for d in rec["links"]["documents"]}
+    assert titles == {"Detailed-Notification_CRP-PO-XVI_V1.pdf": "Detailed Notification CRP PO XVI V1",
+                      "login": None, "Notice_20260924172919.pdf": None}

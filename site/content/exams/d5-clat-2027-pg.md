@@ -311,11 +311,12 @@ link_apply         = 'https://consortiumofnlus.ac.in/clat-2027/'
   document_published = 'unknown'
   document_url       = 'https://consortiumofnlus.ac.in/clat-2027/notifications/Press_Release_CLAT_2027.pdf'
   document_archive   = 'https://web.archive.org/web/20261001003242/https://consortiumofnlus.ac.in/clat-2027/notifications/Press_Release_CLAT_2027.pdf'
+  document_title     = 'CLAT 2027 Press Release — Click to read the official press release'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:22+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

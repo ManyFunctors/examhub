@@ -353,11 +353,12 @@ link_apply         = 'https://www.indiapost.gov.in/gdsonlineengagement'
   document_published = 'unknown'
   document_url       = 'https://www.indiapost.gov.in/gdsonlineengagement/pdf/descriptive-notification.pdf'
   document_archive   = 'http://web.archive.org/web/20260918045901/https://www.indiapost.gov.in/gdsonlineengagement/pdf/descriptive-notification.pdf'
+  document_title     = 'descriptive notification'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:21+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

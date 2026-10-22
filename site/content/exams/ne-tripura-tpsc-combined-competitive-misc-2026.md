@@ -306,11 +306,12 @@ link_apply         = 'https://tpsc.tripura.gov.in/'
   document_published = 'unknown'
   document_url       = 'https://tpsc.tripura.gov.in/sites/default/files/R_Pre_Misc_18_25_030826.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'R Pre Misc 18 25 030826'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:24+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.stages[1].exam'

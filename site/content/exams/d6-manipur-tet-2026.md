@@ -306,6 +306,7 @@ link_apply         = 'http://www.ptregistrationedusmanipur.com'
   document_published = 'unknown'
   document_url       = 'https://manipureducation.gov.in/wp-content/uploads/2026/09/Date-of-Exam-TET.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Date of Exam TET'
 
   [[links.documents]]
   document_type      = 'other'
@@ -317,7 +318,7 @@ link_apply         = 'http://www.ptregistrationedusmanipur.com'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:49+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.stages[1].exam'

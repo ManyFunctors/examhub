@@ -348,16 +348,25 @@ link_official_page = 'https://ssc.gov.in/'
 link_apply         = 'unknown'
 
   [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-06-18
+  document_title     = 'Final Vacancies of Combined Higher Secondary (10+2) Level Examination, 2025 (as on 18.06.2026)'
+  document_url       = 'https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/final_vacancies_18062026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2026.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Notice of adv chsl 2026'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:26+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

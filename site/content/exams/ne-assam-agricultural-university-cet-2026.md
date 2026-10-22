@@ -304,6 +304,7 @@ link_apply         = 'https://appl.aau.ac.in/aau-recruitment-2026'
   document_published = 'unknown'
   document_url       = 'https://admission.aau.ac.in/2026/data/docs/AAU-Information-Bulletin-2026.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'AAU Information Bulletin 2026'
 
   [[links.documents]]
   document_type      = 'other'
@@ -315,7 +316,7 @@ link_apply         = 'https://appl.aau.ac.in/aau-recruitment-2026'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:50+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'fee.rows'

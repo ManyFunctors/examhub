@@ -312,7 +312,7 @@ link_apply         = 'https://npsc.nagaland.gov.in/applicant/register'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:51+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

@@ -308,11 +308,12 @@ link_apply         = 'unknown'
   document_published = 'unknown'
   document_url       = 'https://www.aiimsjammu.edu.in/wp-content/uploads/2026/09/Advt-SR-Cycle-2-2026.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Advt SR Cycle 2 2026'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:21+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

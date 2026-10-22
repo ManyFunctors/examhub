@@ -349,6 +349,7 @@ link_apply         = 'https://natboard.edu.in/viewnbeexam?exam=gpat'
   document_published = 'unknown'
   document_url       = 'https://nbe.edu.in/IB/Information%20bulletin%20GPAT%202026.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Information bulletin GPAT 2026'
 
   [[links.documents]]
   document_type      = 'other'
@@ -360,7 +361,7 @@ link_apply         = 'https://natboard.edu.in/viewnbeexam?exam=gpat'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:50+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'fee.rows'

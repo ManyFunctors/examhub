@@ -308,11 +308,12 @@ link_apply         = 'https://onetimeregn.haryana.gov.in/'
   document_published = 'unknown'
   document_url       = 'https://hssc.gov.in/file/ac1f23cd-9d9c-1328-819e-da8c1fe70055/advertisements'
   document_archive   = 'not_archived'
+  document_title     = 'Download PDF'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:27+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

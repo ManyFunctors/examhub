@@ -304,11 +304,12 @@ link_apply         = 'unknown'
   document_published = 'unknown'
   document_url       = 'https://cetonline.karnataka.gov.in/keawebentry456/vdptrecnhk2025/VER_REC_NOTE_31082026english.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'VER REC NOTE 31082026english'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:25+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'

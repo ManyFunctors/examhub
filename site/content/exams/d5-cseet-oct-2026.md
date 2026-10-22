@@ -308,6 +308,7 @@ link_apply         = 'https://www.icsi.edu/'
   document_published = 'unknown'
   document_url       = 'https://www.icsi.edu/media/webmodules/STUDENT_SERVICE/CSEET_October_2026_Announcement.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'CSEET October 2026 Announcement'
 
   [[links.documents]]
   document_type      = 'other'
@@ -319,7 +320,7 @@ link_apply         = 'https://www.icsi.edu/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:48+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

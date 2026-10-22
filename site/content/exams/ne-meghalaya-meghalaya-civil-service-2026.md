@@ -317,11 +317,20 @@ link_apply         = 'https://mpsc.meghalaya.gov.in/'
   document_published = 'unknown'
   document_url       = 'https://mpsc.meghalaya.gov.in/advt/Advt10Oct2025a.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'On behalf of the Government of Meghalaya, Applications are invited on (Online-mode) from citizens of India as…'
+
+  [[links.documents]]
+  document_type      = 'calendar'
+  document_stage     = 'all'
+  document_published = 2026-07-29
+  document_title     = 'TENTATIVE PROGRAMME FOR THE MONTH OF SEPTEMBER 2026. MEGHALAYA CIVIL SERVICE (MCS) [OCTOBER 2025]'
+  document_url       = 'https://mpsc.meghalaya.gov.in/programme/Notice29July2026a.pdf'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:24+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

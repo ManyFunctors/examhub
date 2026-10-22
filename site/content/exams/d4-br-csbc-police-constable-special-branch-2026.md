@@ -322,16 +322,17 @@ link_apply         = 'unknown'
   document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_title     = 'Advt. No. 01/2026: For Selection of Constables (General Duty Close Cadre) in Special Branch of Bihar Police'
-  document_url       = 'https://csbc.bihar.gov.in/Advt/Advt-01-2026-Special Branch Constable.pdf'
-  document_archive   = 'not_archived'
+  document_url       = 'https://csbc.bihar.gov.in/Advt/Advt-01-2026-Special%20Branch%20Constable.pdf'
+  document_archive   = 'http://web.archive.org/web/20260216024146/https://csbc.bihar.gov.in/Advt/Advt-01-2026-Special%20Branch%20Constable.pdf'
+  document_title     = 'Advt 01 2026 Special Branch Constable'
 
   [[links.documents]]
   document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://csbc.bihar.gov.in/Advt/Advt-01-2026-Special%20Branch%20Constable.pdf'
-  document_archive   = 'http://web.archive.org/web/20260216024146/https://csbc.bihar.gov.in/Advt/Advt-01-2026-Special%20Branch%20Constable.pdf'
+  document_title     = 'Advt. No. 01/2026: For Selection of Constables (General Duty Close Cadre) in Special Branch of Bihar Police'
+  document_url       = 'https://csbc.bihar.gov.in/Advt/Advt-01-2026-Special Branch Constable.pdf'
+  document_archive   = 'not_archived'
 
   [[links.documents]]
   document_type      = 'schedule'
@@ -360,7 +361,7 @@ link_apply         = 'unknown'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:24:15+05:30
+provenance_last_checked = 2026-10-22T14:28:22+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

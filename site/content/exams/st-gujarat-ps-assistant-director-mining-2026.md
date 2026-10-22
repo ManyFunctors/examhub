@@ -362,6 +362,7 @@ link_apply         = 'https://gpsc-ojas.gujarat.gov.in/ScribeApplication.aspx'
   document_published = 'unknown'
   document_url       = 'https://ojas.gujarat.gov.in/AdvtDetailFiles/GPSC_202627_54.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'GPSC 202627 54'
 
   [[links.documents]]
   document_type      = 'other'
@@ -373,7 +374,7 @@ link_apply         = 'https://gpsc-ojas.gujarat.gov.in/ScribeApplication.aspx'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:52+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

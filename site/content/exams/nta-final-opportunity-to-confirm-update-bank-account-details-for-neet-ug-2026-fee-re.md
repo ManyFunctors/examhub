@@ -305,7 +305,7 @@ link_apply         = 'unknown'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-10-18T02:42:54+05:30
-provenance_last_checked = 2026-10-18T02:42:54+05:30
+provenance_last_checked = 2026-10-22T14:28:51+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.stages[1].exam'

@@ -353,11 +353,12 @@ link_apply         = 'https://kpsc.kar.nic.in/'
   document_published = 'unknown'
   document_url       = 'https://kpsc.kar.nic.in/SAAD%20HK%20Notification%20dt%2027-08-2026.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'SAAD HK Notification dt 27 08 2026'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:25+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

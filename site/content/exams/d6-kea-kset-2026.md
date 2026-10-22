@@ -358,11 +358,12 @@ link_apply         = 'https://cetonline.karnataka.gov.in/kset2026/Account/Login'
   document_published = 'unknown'
   document_url       = 'https://cetonline.karnataka.gov.in/keawebentry456/kset2026/KSET_NOTI_KAN_10082026kannada.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'KSET NOTI KAN 10082026kannada'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:22+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

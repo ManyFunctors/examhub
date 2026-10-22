@@ -310,6 +310,7 @@ link_apply         = 'https://cdn.digialm.com/EForms/configuredHtml/1258/102146/
   document_published = 'unknown'
   document_url       = 'https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2026/August/Bilingual_Advertisement_27082026.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Bilingual Advertisement 27082026'
 
   [[links.documents]]
   document_type      = 'notification'
@@ -321,7 +322,7 @@ link_apply         = 'https://cdn.digialm.com/EForms/configuredHtml/1258/102146/
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:54+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

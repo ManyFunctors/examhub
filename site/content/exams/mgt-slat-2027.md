@@ -315,6 +315,7 @@ link_apply         = 'https://www.slat-test.org/register.php'
   document_published = 'unknown'
   document_url       = 'https://www.slat-test.org/docs/SLAT%202027%20bulletin.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'SLAT 2027 bulletin'
 
   [[links.documents]]
   document_type      = 'other'
@@ -326,7 +327,7 @@ link_apply         = 'https://www.slat-test.org/register.php'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:50+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

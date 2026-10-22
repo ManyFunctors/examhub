@@ -919,6 +919,7 @@ link_apply         = 'none'
   document_published = 2026-07-01
   document_url       = 'https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf'
   document_archive   = 'not_archived'
+  document_title     = '01 Jul 26 Notification for Common Recruitment Process for CRP- PO/MTs-XVI'
 
   [[links.documents]]
   document_type      = 'schedule'
@@ -926,11 +927,12 @@ link_apply         = 'none'
   document_published = 2026-06-30
   document_url       = 'https://www.ibps.in/wp-content/uploads/PO_SPL_Combined_Window_CRP-XVI.pdf'
   document_archive   = 'not_archived'
+  document_title     = '30 Jun 26 Window Notification for CRP-PO/MTs -XVI and SPL-XVI'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-30T10:00:00+05:30
-provenance_last_checked = 2026-09-30T10:00:00+05:30
+provenance_last_checked = 2026-10-22T14:28:24+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

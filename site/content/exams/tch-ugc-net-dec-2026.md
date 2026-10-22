@@ -374,19 +374,20 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
   document_title     = 'Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination – reg'
 
   [[links.documents]]
+  document_type      = 'calendar'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://www.nta.ac.in/Download/Notice/Examcalendar.pdf'
+  document_archive   = 'not_archived'
+  document_title     = 'Examcalendar'
+
+  [[links.documents]]
   document_type      = 'schedule'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260606142500.pdf'
   document_archive   = 'not_archived'
   document_title     = 'Public Notice regarding Subject-wise Scheduled of UGC-NET June 2026 Examination'
-
-  [[links.documents]]
-  document_type      = 'calendar'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://www.nta.ac.in/Download/Notice/Examcalendar.pdf'
-  document_archive   = 'not_archived'
 
   [[links.documents]]
   document_type      = 'press_release'
@@ -415,7 +416,7 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:24:16+05:30
+provenance_last_checked = 2026-10-22T14:28:27+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'fee.rows'

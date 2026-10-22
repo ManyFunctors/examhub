@@ -304,6 +304,7 @@ link_apply         = 'https://sso.sikkim.gov.in/account/register'
   document_published = 'unknown'
   document_url       = 'https://www.sikkim.gov.in/uploads/Notifications/EMPLOYMENT_NEWS_34_20260622.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'EMPLOYMENT NEWS 34 20260622'
 
   [[links.documents]]
   document_type      = 'other'
@@ -315,7 +316,7 @@ link_apply         = 'https://sso.sikkim.gov.in/account/register'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:51+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'

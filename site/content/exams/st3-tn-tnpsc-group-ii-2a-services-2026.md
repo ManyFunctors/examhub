@@ -337,6 +337,7 @@ link_apply         = 'unknown'
   document_published = 'unknown'
   document_url       = 'https://tnpsc.gov.in/document/english/07_2026%20Dated_11.08.2026%20English%20version.pdf'
   document_archive   = 'not_archived'
+  document_title     = '07 2026 Dated 11.08.2026 English version'
 
   [[links.documents]]
   document_type      = 'other'
@@ -348,7 +349,7 @@ link_apply         = 'unknown'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-22T14:28:54+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

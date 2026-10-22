@@ -299,11 +299,12 @@ link_apply         = 'unknown'
   document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Examcalendar.pdf'
   document_archive   = 'not_archived'
+  document_title     = 'Exam Calendar'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-10-19T02:42:53+05:30
-provenance_last_checked = 2026-10-19T02:42:53+05:30
+provenance_last_checked = 2026-10-22T14:28:25+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'posts.vacancies_total'
