@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "60b48090964ed710902a06fc6348f6cec185d70af98a23e12e6ae675bc5a4b49",
+  "url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Districtwise-Vacancies-Class-1-to-5_BPSC-20260818-smxlit.pdf",
+  "title": "Class 1 to 5",
+  "body": "br-bpsc",
+  "exam": "br-bpsc-other",
+  "feed": "br-bpsc/advertisements",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "16dcb71a97de40bbd6e559448ba7b3a83480c641f3c00128742d10068bbc17ab",
+  "bytes": 229914,
+  "pages": 3,
+  "chars": 4,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T23:00:42+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

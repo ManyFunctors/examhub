@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "cbe0ac7e8caa54548fb380f782b2731b2eaa4828fb994f25094204841a9dc10c",
+  "url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Important-Notice-152026-TRE-4.0-Advertisement_BPSC-20260922-vn0ekm.pdf",
+  "title": "Important Notice",
+  "body": "br-bpsc",
+  "exam": "br-bpsc-tre",
+  "feed": "br-bpsc/advertisements",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "0aff8f1d269f327dd24ffbbae5f239ae4bd9b6ea1e76405600b334c123af8d8e",
+  "bytes": 25884,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-22T23:00:46+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
