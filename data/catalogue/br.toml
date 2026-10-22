@@ -401,7 +401,7 @@ conducted_by = "br-csbc"
 frequency = "irregular"
 qualification = "class_12"
 streams = ["police"]
-match = { any = ['fire\s*man|fireman', 'driver\s*constable', 'excise|prohibition|madya\s*nishedh', 'special\s*branch', "operator"] }
+match = { any = ['fire\s*man|fireman', 'driver\s*constable', 'driving\s*efficiency\s*test|\bHMV\b', 'excise|prohibition|madya\s*nishedh', 'special\s*branch', "operator"] }
 status = "active"
 
 [[exams]]
