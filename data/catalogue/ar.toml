@@ -184,7 +184,7 @@ conducted_by = "ar-apssb"
 frequency = "multiple"
 qualification = "class_12"
 streams = ["clerical"]
-match = { any = ["combined", "recruitment", "advt|advertisement", "group\\s*['‘’]?\\s*C\\b", 'non[-\\s]*ministerial', '\\b(CGLE|CSLE|CHSLE)\\b', "constable", 'laboratory\\s*assistant', "stenograph"] }
+match = { any = ["combined", "recruitment", "advt|advertisement", "group\\s*['‘’]?\\s*C\\b", 'non[-\s]*ministerial', '\b(CGLE|CSLE|CHSLE)\b', "constable", 'laboratory\s*assistant', "stenograph"] }
 status = "active"
 
 [[exams]]
