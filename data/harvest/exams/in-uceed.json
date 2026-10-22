@@ -1,0 +1,210 @@
+{
+ "schema": 1,
+ "exam": "in-uceed",
+ "name": "Undergraduate Common Entrance Examination for Design",
+ "body": "in-iitb",
+ "purpose": "admission",
+ "cycle": "2027",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2027-01-17",
+    "provisional": true,
+    "source": {
+     "notice": "bf60dbaee9ffc2a679cb5dd965ec9d08b3800457e9f8a6f67064612b2d6110d9",
+     "url": "https://www.uceed.iitb.ac.in/2027/assets/downloads/docs/UCEED2027_Information_Brochure.pdf",
+     "title": "Information Brochure",
+     "kind": "brochure",
+     "page": 31
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-10-31",
+    "provisional": true,
+    "source": {
+     "notice": "bf60dbaee9ffc2a679cb5dd965ec9d08b3800457e9f8a6f67064612b2d6110d9",
+     "url": "https://www.uceed.iitb.ac.in/2027/assets/downloads/docs/UCEED2027_Information_Brochure.pdf",
+     "title": "Information Brochure",
+     "kind": "brochure",
+     "page": 25
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2026-10-31"
+   },
+   "source": {
+    "notice": "bf60dbaee9ffc2a679cb5dd965ec9d08b3800457e9f8a6f67064612b2d6110d9",
+    "url": "https://www.uceed.iitb.ac.in/2027/assets/downloads/docs/UCEED2027_Information_Brochure.pdf",
+    "title": "Information Brochure",
+    "kind": "brochure",
+    "page": 25
+   }
+  },
+  "exam_date": {
+   "value": "2027-01-17",
+   "source": {
+    "notice": "bf60dbaee9ffc2a679cb5dd965ec9d08b3800457e9f8a6f67064612b2d6110d9",
+    "url": "https://www.uceed.iitb.ac.in/2027/assets/downloads/docs/UCEED2027_Information_Brochure.pdf",
+    "title": "Information Brochure",
+    "kind": "brochure",
+    "page": 31
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate",
+     "Class 12"
+    ],
+    "clauses": [
+     {
+      "text": "ELIGIBILITY CRITERIA FOR APPEARING IN UCEED 2027 18 8",
+      "page": 4
+     },
+     {
+      "text": "ADMISSION 21 ELIGIBILITY CRITERIA FOR APPLYING FOR B.DES",
+      "page": 4
+     },
+     {
+      "text": "Only those students who have passed Class XII (or equivalent) in the year 2026 or are appearing in the year 2027, in ANY STREAM (Science, Commerce, or Arts & Humanities) for the first time are eligible to appear for the UCEED 2027 [For complete details, see the “ELIGIBILITY CRITERIA FOR APPEARING…",
+      "page": 5
+     },
+     {
+      "text": "However, the aspirants should have qualified UCEED in the same year",
+      "page": 10
+     },
+     {
+      "text": "6.12 To be considered for seat allocation, foreign national candidates should have an All India Rank (AIR) and satisfy all the eligibility requirements meant for an OPEN category candidate",
+      "page": 21
+     },
+     {
+      "text": "ELIGIBILITY CRITERIA FOR APPEARING IN UCEED 2027 A candidate, including a foreign national, must simultaneously fulfil every one of the following three criteria to appear in UCEED 2027",
+      "page": 22
+     },
+     {
+      "text": "The candidate should have been born on or after October 1, 2002, if belonging to the OPEN/EWS/OBC-NCL category and born on or after October 1, 1997, if belonging to the SC, ST or PwD category",
+      "page": 22
+     },
+     {
+      "text": "(i) A candidate should have appeared for the Class XII (or equivalent) examination for the first time in either 2026 OR 2027 to be eligible for attempting UCEED 2027",
+      "page": 22
+     },
+     {
+      "text": "However, if the examination Board of Class XII (or equivalent) declared the results for the academic year 2024-25 on or after September 30, 2025, then the candidates of that Board who appeared for their Class XII (or equivalent) examination in 2025 are also eligible to appear in UCEED 2027,…",
+      "page": 22
+     },
+     {
+      "text": "● In case the Class XII examination is not a public examination, the candidate must have already passed at least one public (Board or Pre-University) examination before appearing for UCEED",
+      "page": 23
+     },
+     {
+      "text": "9.2 Candidates should simultaneously satisfy ALL the THREE eligibility criteria [Refer ELIGIBILITY CRITERIA FOR APPEARING IN UCEED 2027]",
+      "page": 24
+     },
+     {
+      "text": "ELIGIBILITY CRITERIA FOR APPLYING FOR B.DES",
+      "page": 44
+     },
+     {
+      "text": "(b) Proof of having passed the qualifying examination with required eligibility is to be submitted by September 30, 2027 to the admitting institute",
+      "page": 45
+     },
+     {
+      "text": "23.12 To be considered for seat allocation, foreign national candidates should have an All- India Rank (AIR) and satisfy all the eligibility requirements meant for an OPEN category candidate",
+      "page": 49
+     }
+    ]
+   },
+   "source": {
+    "notice": "bf60dbaee9ffc2a679cb5dd965ec9d08b3800457e9f8a6f67064612b2d6110d9",
+    "url": "https://www.uceed.iitb.ac.in/2027/assets/downloads/docs/UCEED2027_Information_Brochure.pdf",
+    "title": "Information Brochure",
+    "kind": "brochure"
+   }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "1 -",
+     "page": 34
+    },
+    {
+     "paper": "071 - .",
+     "page": 34,
+     "marks": 3
+    },
+    {
+     "paper": "Total",
+     "page": 34
+    }
+   ],
+   "source": {
+    "notice": "bf60dbaee9ffc2a679cb5dd965ec9d08b3800457e9f8a6f67064612b2d6110d9",
+    "url": "https://www.uceed.iitb.ac.in/2027/assets/downloads/docs/UCEED2027_Information_Brochure.pdf",
+    "title": "Information Brochure",
+    "kind": "brochure"
+   }
+  },
+  "pay": {
+   "value": [
+    {
+     "levels": [
+      1,
+      4
+     ],
+     "text": "Pay Levels 1, 4",
+     "evidence": "The B.Des. curriculum has a four-level structure leading to a gradual movement from general, foundational courses at level 1 to more specialized inputs at level 4",
+     "page": 12
+    },
+    {
+     "levels": [
+      1,
+      2
+     ],
+     "text": "Pay Levels 1, 2",
+     "evidence": "As the student moves upwards from level 1 to level 2, the student graduates to choosing between courses which offer different kinds of skills from soft to hard",
+     "page": 12
+    },
+    {
+     "levels": [
+      1
+     ],
+     "text": "Pay Level 1",
+     "evidence": "The courses at level 1 would help the students to choose the mix of skills they prefer to acquire",
+     "page": 12
+    },
+    {
+     "levels": [
+      3
+     ],
+     "text": "Pay Level 3",
+     "evidence": "At level 3, it is hoped that the student is ready to fine tune a certain mix or a set of skills into a specialization",
+     "page": 12
+    },
+    {
+     "levels": [
+      4
+     ],
+     "text": "Pay Level 4",
+     "evidence": "At Level 4, the student employs all that has been gained regarding skills and understanding and applies or uses them in independent projects",
+     "page": 12
+    }
+   ],
+   "source": {
+    "notice": "bf60dbaee9ffc2a679cb5dd965ec9d08b3800457e9f8a6f67064612b2d6110d9",
+    "url": "https://www.uceed.iitb.ac.in/2027/assets/downloads/docs/UCEED2027_Information_Brochure.pdf",
+    "title": "Information Brochure",
+    "kind": "brochure"
+   }
+  }
+ },
+ "gaps": [
+  "fee"
+ ],
+ "older_documents": 0
+}

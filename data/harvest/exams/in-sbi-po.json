@@ -4,22 +4,21 @@
  "name": "SBI Probationary Officers",
  "body": "in-sbi",
  "purpose": "recruitment",
- "cycle": null,
+ "cycle": "2026",
  "documents": 3,
- "documents_in_cycle": 3,
+ "documents_in_cycle": 1,
  "fields": {
   "apply_links": {
    "value": [
-    "https://bank.sbi/web/careers/current-openings",
+    "https://sbi.bank.in/web/careers/current-openings",
     "http://cgrs.ibps.in"
    ],
    "source": {
-    "notice": "afdc615f85f42165eec2941eae202c99280ad9f09f91f2a6aafa8d9503183a03",
-    "url": "https://sbi.bank.in/documents/77530/52947104/PO+25-26_04+-+Hindi.pdf/fca712fa-9613-4da0-765f-97ef7f552cba?t=1752651096600",
-    "title": "DOWNLOAD ADVERTISEMENT( English / Hindi )",
+    "notice": "acbcb2cccf71f9bfd75e77ff84553b236df0916ebc70d5509907685de7336e58",
+    "url": "https://sbi.bank.in/documents/77530/57941334/23062026_SBI+_+Detailed+Advt.+PO+26-27_09+-+Hindi.pdf/0f0ff4e1-2ef6-1e3f-719f-bb95ec1a2e13?t=1782216346313",
+    "title": "DOWNLOAD ADVERTISEMENT ( Hindi / English ) ( )",
     "kind": "advertisement"
-   },
-   "alternatives": 2
+   }
   }
  },
  "gaps": [
@@ -32,5 +31,5 @@
   "eligibility",
   "selection"
  ],
- "older_documents": 0
+ "older_documents": 2
 }

@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "exam": "ap-eapcet",
+ "name": "AP Engineering, Agriculture and Pharmacy Common Entrance Test",
+ "body": "ap-apsche",
+ "purpose": "admission",
+ "cycle": null,
+ "documents": 2,
+ "documents_in_cycle": 2,
+ "fields": {},
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}
