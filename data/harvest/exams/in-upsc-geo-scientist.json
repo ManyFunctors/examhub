@@ -1,0 +1,364 @@
+{
+ "schema": 1,
+ "exam": "in-upsc-geo-scientist",
+ "name": "Combined Geo-Scientist Examination",
+ "body": "in-upsc",
+ "purpose": "recruitment",
+ "cycle": "2027",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "Women",
+      "SC",
+      "ST",
+      "PwBD"
+     ],
+     "except": true,
+     "amount": 200,
+     "raw": "Candidates (except Female/SC/ST/Persons with Benchmark Disability Candidates who are exempted from payment of fee) are required to pay fee of Rs. 200/- (Rupees Two Hundred only), either by using net banking facility of any bank or by…",
+     "page": 14
+    },
+    {
+     "categories": [
+      "Women",
+      "SC",
+      "ST",
+      "PwBD"
+     ],
+     "amount": 0,
+     "raw": "Candidates (except Female/SC/ST/Persons with Benchmark Disability Candidates who are exempted from payment of fee) are required to pay fee of Rs. 200/- (Rupees Two Hundred only), either by using net banking facility of any bank or by…",
+     "page": 14
+    },
+    {
+     "categories": [
+      "PwBD"
+     ],
+     "amount": 0,
+     "raw": "Persons with benchmark disability are exempted from the payment of fee provided they are otherwise eligible for appointment to the Posts to be filled on the results of this Examination on the basis of the standards of medical fitness for…",
+     "page": 14
+    },
+    {
+     "categories": [
+      "SC",
+      "ST",
+      "Women",
+      "PwBD"
+     ],
+     "except": true,
+     "amount": 200,
+     "raw": " The candidates are required to pay a fee of Rs.200/- (Rupees Two Hundred only) [except SC/ST/ Female/Persons with Benchmark Disability candidates who are exempted from payment of fee] either by using net banking facility of any bank or…",
+     "page": 47
+    },
+    {
+     "categories": [
+      "SC",
+      "ST",
+      "Women",
+      "PwBD"
+     ],
+     "amount": 0,
+     "raw": " The candidates are required to pay a fee of Rs.200/- (Rupees Two Hundred only) [except SC/ST/ Female/Persons with Benchmark Disability candidates who are exempted from payment of fee] either by using net banking facility of any bank or…",
+     "page": 47
+    }
+   ],
+   "source": {
+    "notice": "4fc1aa0564548de73cbc7f87451d40a2a29d34c0cc533a35d9eca4c2ee9e35db",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
+    "title": "Combined Geo-Scientist (Preliminary) Examination, 2027 - Download Notification Notice",
+    "kind": "notice",
+    "page": 14
+   }
+  },
+  "dates": {
+   "exam_date": {
+    "date": "2027-06-19",
+    "source": {
+     "notice": "4fc1aa0564548de73cbc7f87451d40a2a29d34c0cc533a35d9eca4c2ee9e35db",
+     "url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
+     "title": "Combined Geo-Scientist (Preliminary) Examination, 2027 - Download Notification Notice",
+     "kind": "notice",
+     "page": 6
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-09-22",
+    "source": {
+     "notice": "4fc1aa0564548de73cbc7f87451d40a2a29d34c0cc533a35d9eca4c2ee9e35db",
+     "url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
+     "title": "Combined Geo-Scientist (Preliminary) Examination, 2027 - Download Notification Notice",
+     "kind": "notice",
+     "page": 4
+    }
+   },
+   "registration_open": {
+    "date": "2026-09-02",
+    "source": {
+     "notice": "4fc1aa0564548de73cbc7f87451d40a2a29d34c0cc533a35d9eca4c2ee9e35db",
+     "url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
+     "title": "Combined Geo-Scientist (Preliminary) Examination, 2027 - Download Notification Notice",
+     "kind": "notice",
+     "page": 4
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-09-02",
+    "until": "2026-09-22"
+   },
+   "source": {
+    "notice": "4fc1aa0564548de73cbc7f87451d40a2a29d34c0cc533a35d9eca4c2ee9e35db",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
+    "title": "Combined Geo-Scientist (Preliminary) Examination, 2027 - Download Notification Notice",
+    "kind": "notice",
+    "page": 4
+   }
+  },
+  "exam_date": {
+   "value": "2027-06-19",
+   "source": {
+    "notice": "4fc1aa0564548de73cbc7f87451d40a2a29d34c0cc533a35d9eca4c2ee9e35db",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
+    "title": "Combined Geo-Scientist (Preliminary) Examination, 2027 - Download Notification Notice",
+    "kind": "notice",
+    "page": 6
+   }
+  },
+  "apply_links": {
+   "value": [
+    "https://upsconline.nic.in/",
+    "http://www.upsconline.nic.in/"
+   ],
+   "source": {
+    "notice": "4fc1aa0564548de73cbc7f87451d40a2a29d34c0cc533a35d9eca4c2ee9e35db",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
+    "title": "Combined Geo-Scientist (Preliminary) Examination, 2027 - Download Notification Notice",
+    "kind": "notice"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Postgraduate",
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "(a) A candidate must have attained the age of 21 years and must not have attained the age of 32 years on the first day of the month of January of the year in which the Examination is to be held [i.e. as on 1st January, 2027] i.e. he/she must have been born not earlier than 2nd January, 1995 and…",
+      "page": 9
+     },
+     {
+      "text": "N.B.: Candidates should ensure that they meet the age eligibility criteria for each post mentioned above for which they are applying",
+      "page": 9
+     },
+     {
+      "text": "(III) Minimum Educational Qualifications :",
+      "page": 12
+     },
+     {
+      "text": "(i) For Geologist Group ‘A’ in Geological Survey of India Master’s degree in Geological Science or Geology or Applied Geology or Geo- Exploration or Mineral Exploration or Engineering Geology or Marine Geology or Earth Science and Resource Management or Oceanography and Coastal Areas Studies or…",
+      "page": 12
+     },
+     {
+      "text": "Master’s degree in Geology or applied Geology or Marine Geology or Hydrogeology from a University incorporated by an Act of the Central or State Legislature in India or other educational Institutes established by an Act of Parliament or declared to be deemed as Universities under Section 3 of the…",
+      "page": 12
+     },
+     {
+      "text": "(vi) For Assistant Geologist Group ‘B’ in Geological Survey of India Master’s degree or Integrated Master’s degree in Geology or Applied Geology or Mineral Exploration or Marine Geology or Earth Science from a recognized University or Institute",
+      "page": 12
+     },
+     {
+      "text": "NOTE II: Master's degree in respective discipline means the post graduate degree of minimum two years duration after graduation from aforesaid University or Institute in the respective discipline, whether be it an integrated course or otherwise",
+      "page": 13
+     },
+     {
+      "text": "The Commission shall provide a window of 10 days after the declaration of result of Main/Stage-II part of Combined Geo-Scientist Examination to the candidates qualified for Personality Test/Interview and who have filled their status of educational qualification",
+      "page": 13
+     },
+     {
+      "text": "The candidates, who do not have the prescribed Educational qualification at the time of the Online Application, shall be required to update their details and to upload the proof of passing of the requisite qualifying examination on the Common Application Form (CAF) Module, failing which such…",
+      "page": 13
+     },
+     {
+      "text": "NOTE VII: In exceptional cases, the Commission may treat a candidate who does not possess any of the qualifications prescribed in this rule, as educationally qualified provided that he/she has passed examinations conducted by other institutions, the standard of which in the opinion of the…",
+      "page": 14
+     },
+     {
+      "text": "SC/ST/OBC/ EWS/PwBD/Ex-Servicemen], educational qualification, etc. as may be sought by the Commission along with the Universal Registration Number (URN), Common application Form (CAF) and the fourth module i.e",
+      "page": 15
+     },
+     {
+      "text": "Certificate of Educational Qualification",
+      "page": 17
+     },
+     {
+      "text": "Provided further that the persons with Benchmark Disabilities shall also be required to meet special eligibility criteria in terms of physical requirements/functional classification (abilities/ disabilities) consistent with requirements of the identified Service/Post as under:- (A) Geological…",
+      "page": 20
+     },
+     {
+      "text": "Short biodata of the candidates with their educational qualifications, contact numbers, details including their percentile (not absolute or percentage marks) etc. will also be made accessible on this dedicated Portal",
+      "page": 21
+     },
+     {
+      "text": "4.3 The qualification of the Commission’s scribe as well as own scribe will not be more than the minimum qualification criteria of the Examination",
+      "page": 27
+     },
+     {
+      "text": " The candidate should have details of one Photo ID viz",
+      "page": 47
+     },
+     {
+      "text": "My educational qualification is ……………………………………………",
+      "page": 58
+     }
+    ]
+   },
+   "source": {
+    "notice": "4fc1aa0564548de73cbc7f87451d40a2a29d34c0cc533a35d9eca4c2ee9e35db",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
+    "title": "Combined Geo-Scientist (Preliminary) Examination, 2027 - Download Notification Notice",
+    "kind": "notice"
+   }
+  },
+  "selection": {
+   "value": [
+    "Interview"
+   ],
+   "source": {
+    "notice": "4fc1aa0564548de73cbc7f87451d40a2a29d34c0cc533a35d9eca4c2ee9e35db",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
+    "title": "Combined Geo-Scientist (Preliminary) Examination, 2027 - Download Notification Notice",
+    "kind": "notice"
+   }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "Paper-I : General Studies",
+     "page": 24,
+     "duration": "2 Hours"
+    },
+    {
+     "paper": "Paper-II : Geophysics",
+     "page": 24,
+     "duration": "2 Hours"
+    },
+    {
+     "paper": "Total",
+     "page": 24
+    },
+    {
+     "paper": "Paper-I : General Studies",
+     "page": 24,
+     "duration": "2 Hours"
+    },
+    {
+     "paper": "Paper-II : Chemistry",
+     "page": 24,
+     "duration": "2 Hours"
+    },
+    {
+     "paper": "Total",
+     "page": 24
+    },
+    {
+     "paper": "Paper-I : General Studies",
+     "page": 24,
+     "duration": "2 Hours"
+    },
+    {
+     "paper": "Paper-II : Geology/Hydrogeology",
+     "page": 24,
+     "duration": "2 Hours"
+    },
+    {
+     "paper": "Total",
+     "page": 25
+    },
+    {
+     "paper": "Stream-II : Geophysicist Group ‘A’ and Assistant Geophysicist Group ‘B’ in GSI and Scientist ‘B’ (Geophysics) Group ‘A’ & Assistant Geophysicist Group ‘B’ in CGWB",
+     "page": 25
+    },
+    {
+     "paper": "Subject",
+     "page": 25,
+     "duration": "Duration"
+    },
+    {
+     "paper": "Paper-I : Geophysics",
+     "page": 25,
+     "duration": "3 Hours"
+    },
+    {
+     "paper": "Paper-II : Geophysics",
+     "page": 25,
+     "duration": "3 Hours"
+    },
+    {
+     "paper": "Paper-III : Geophysics",
+     "page": 25,
+     "duration": "3 Hours"
+    },
+    {
+     "paper": "Stream-III : Chemist Group ‘A’ and Assistant Chemist Group ‘B’ in GSI and Scientist ‘B’ (Chemical) Group ‘A’ & Assistant Chemist Group ‘B’ in CGWB",
+     "page": 25
+    },
+    {
+     "paper": "Subject",
+     "page": 25,
+     "duration": "Duration"
+    },
+    {
+     "paper": "Paper-I : Chemistry",
+     "page": 25,
+     "duration": "3 Hours"
+    },
+    {
+     "paper": "Paper-I : Chemistry",
+     "page": 25,
+     "duration": "3 Hours"
+    },
+    {
+     "paper": "Stream-IV : Scientist ‘B’ (Hydrogeology) Group ‘A’ & Assistant Hydrogeologist Group ‘B’ in CGWB",
+     "page": 26
+    },
+    {
+     "paper": "Subject",
+     "page": 26
+    },
+    {
+     "paper": "Paper-I : Geology",
+     "page": 26
+    },
+    {
+     "paper": "Paper-II : Geology",
+     "page": 26
+    },
+    {
+     "paper": "Paper-III : Hydrogeology",
+     "page": 26
+    },
+    {
+     "paper": "Total",
+     "page": 26
+    }
+   ],
+   "source": {
+    "notice": "4fc1aa0564548de73cbc7f87451d40a2a29d34c0cc533a35d9eca4c2ee9e35db",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
+    "title": "Combined Geo-Scientist (Preliminary) Examination, 2027 - Download Notification Notice",
+    "kind": "notice"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "age",
+  "pay"
+ ],
+ "older_documents": 0
+}

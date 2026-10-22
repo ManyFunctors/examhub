@@ -1,0 +1,342 @@
+{
+ "schema": 1,
+ "exam": "in-niacl-ao",
+ "name": "NIACL Administrative Officers (Scale I)",
+ "body": "in-niacl",
+ "purpose": "recruitment",
+ "cycle": "2023",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 450,
+    "by_category": {
+     "Unreserved": 184,
+     "OBC": 121,
+     "SC": 67,
+     "ST": 33,
+     "EWS": 45,
+     "PwBD": 5
+    },
+    "rows": [
+     {
+      "label": "Risk Engineers",
+      "total": 36,
+      "by_category": {
+       "SC": 5,
+       "ST": 3,
+       "OBC": 10,
+       "EWS": 3,
+       "Unreserved": 15,
+       "PwBD": 1
+      },
+      "page": 1
+     },
+     {
+      "label": "Automobile engineers",
+      "total": 96,
+      "by_category": {
+       "SC": 14,
+       "ST": 7,
+       "OBC": 26,
+       "EWS": 10,
+       "Unreserved": 39,
+       "PwBD": 1
+      },
+      "page": 1
+     },
+     {
+      "label": "Legal",
+      "total": 70,
+      "by_category": {
+       "SC": 10,
+       "ST": 5,
+       "OBC": 19,
+       "EWS": 7,
+       "Unreserved": 29,
+       "PwBD": 1
+      },
+      "page": 1
+     },
+     {
+      "label": "Accounts",
+      "total": 30,
+      "by_category": {
+       "SC": 5,
+       "ST": 2,
+       "OBC": 8,
+       "EWS": 3,
+       "Unreserved": 12,
+       "PwBD": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Health",
+      "total": 75,
+      "by_category": {
+       "SC": 11,
+       "ST": 5,
+       "OBC": 20,
+       "EWS": 8,
+       "Unreserved": 31,
+       "PwBD": 1
+      },
+      "page": 1
+     },
+     {
+      "label": "IT",
+      "total": 23,
+      "by_category": {
+       "SC": 4,
+       "ST": 2,
+       "OBC": 6,
+       "EWS": 2,
+       "Unreserved": 9,
+       "PwBD": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Generalists",
+      "total": 120,
+      "by_category": {
+       "SC": 18,
+       "ST": 9,
+       "OBC": 32,
+       "EWS": 12,
+       "Unreserved": 49,
+       "PwBD": 1
+      },
+      "page": 1
+     }
+    ],
+    "from": "table"
+   },
+   "source": {
+    "notice": "56897e3eecc3f99394efbca0d0b182ea826ddab75e7ce1eaddcccaa8654972c3",
+    "url": "https://www.newindia.co.in/cms/3bebcbfa-feaa-4e19-ace7-2de62d1de0af/DETAILEDADVERTISEMENT-NIACLAODRRE2023(1).pdf?guest=true",
+    "title": "DETAILED ADVERTISEMENT- RECRUITMENT OF 450 ADMINISTRATIVE OFFICERS (GENERALISTS & SPECIALISTS) (SCALE-I) 2023 (PDF, 1, ( PDF , English )",
+    "kind": "advertisement"
+   }
+  },
+  "age": {
+   "value": {
+    "limits": [
+     {
+      "min": 21,
+      "max": 30,
+      "evidence": "Minimum Age: 21 years and Maximum Age: 30 years, as on 01.08.2023",
+      "page": 3
+     }
+    ],
+    "as_on": "2023-08-01",
+    "relaxations": [
+     {
+      "for": "ScheduledCaste/ScheduledTribe",
+      "years": 5,
+      "raw": "1 ScheduledCaste/ScheduledTribe 5years",
+      "page": 3
+     },
+     {
+      "for": "OtherBackwardClasses(Noncreamylayer)",
+      "years": 3,
+      "raw": "2 OtherBackwardClasses(Noncreamylayer) 3years",
+      "page": 3
+     },
+     {
+      "for": "PersonswithBenchmarkDisabilitiesasdefinedunder“TheRights ofPersonswithDisabilitiesAct 2016” ,",
+      "years": 10,
+      "raw": "3 PersonswithBenchmarkDisabilitiesasdefinedunder“TheRights ofPersonswithDisabilitiesAct 2016” , 10years",
+      "page": 3
+     }
+    ]
+   },
+   "source": {
+    "notice": "56897e3eecc3f99394efbca0d0b182ea826ddab75e7ce1eaddcccaa8654972c3",
+    "url": "https://www.newindia.co.in/cms/3bebcbfa-feaa-4e19-ace7-2de62d1de0af/DETAILEDADVERTISEMENT-NIACLAODRRE2023(1).pdf?guest=true",
+    "title": "DETAILED ADVERTISEMENT- RECRUITMENT OF 450 ADMINISTRATIVE OFFICERS (GENERALISTS & SPECIALISTS) (SCALE-I) 2023 (PDF, 1, ( PDF , English )",
+    "kind": "advertisement",
+    "page": 3
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2023-08-01",
+    "source": {
+     "notice": "56897e3eecc3f99394efbca0d0b182ea826ddab75e7ce1eaddcccaa8654972c3",
+     "url": "https://www.newindia.co.in/cms/3bebcbfa-feaa-4e19-ace7-2de62d1de0af/DETAILEDADVERTISEMENT-NIACLAODRRE2023(1).pdf?guest=true",
+     "title": "DETAILED ADVERTISEMENT- RECRUITMENT OF 450 ADMINISTRATIVE OFFICERS (GENERALISTS & SPECIALISTS) (SCALE-I) 2023 (PDF, 1, ( PDF , English )",
+     "kind": "advertisement",
+     "page": 3
+    }
+   },
+   "payment_deadline": {
+    "date": "2023-08-21",
+    "source": {
+     "notice": "56897e3eecc3f99394efbca0d0b182ea826ddab75e7ce1eaddcccaa8654972c3",
+     "url": "https://www.newindia.co.in/cms/3bebcbfa-feaa-4e19-ace7-2de62d1de0af/DETAILEDADVERTISEMENT-NIACLAODRRE2023(1).pdf?guest=true",
+     "title": "DETAILED ADVERTISEMENT- RECRUITMENT OF 450 ADMINISTRATIVE OFFICERS (GENERALISTS & SPECIALISTS) (SCALE-I) 2023 (PDF, 1, ( PDF , English )",
+     "kind": "advertisement",
+     "page": 8
+    }
+   },
+   "registration_deadline": {
+    "date": "2023-08-21",
+    "source": {
+     "notice": "56897e3eecc3f99394efbca0d0b182ea826ddab75e7ce1eaddcccaa8654972c3",
+     "url": "https://www.newindia.co.in/cms/3bebcbfa-feaa-4e19-ace7-2de62d1de0af/DETAILEDADVERTISEMENT-NIACLAODRRE2023(1).pdf?guest=true",
+     "title": "DETAILED ADVERTISEMENT- RECRUITMENT OF 450 ADMINISTRATIVE OFFICERS (GENERALISTS & SPECIALISTS) (SCALE-I) 2023 (PDF, 1, ( PDF , English )",
+     "kind": "advertisement",
+     "page": 8
+    }
+   },
+   "registration_open": {
+    "date": "2023-08-01",
+    "source": {
+     "notice": "56897e3eecc3f99394efbca0d0b182ea826ddab75e7ce1eaddcccaa8654972c3",
+     "url": "https://www.newindia.co.in/cms/3bebcbfa-feaa-4e19-ace7-2de62d1de0af/DETAILEDADVERTISEMENT-NIACLAODRRE2023(1).pdf?guest=true",
+     "title": "DETAILED ADVERTISEMENT- RECRUITMENT OF 450 ADMINISTRATIVE OFFICERS (GENERALISTS & SPECIALISTS) (SCALE-I) 2023 (PDF, 1, ( PDF , English )",
+     "kind": "advertisement",
+     "page": 8
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2023-08-01",
+    "until": "2023-08-21"
+   },
+   "source": {
+    "notice": "56897e3eecc3f99394efbca0d0b182ea826ddab75e7ce1eaddcccaa8654972c3",
+    "url": "https://www.newindia.co.in/cms/3bebcbfa-feaa-4e19-ace7-2de62d1de0af/DETAILEDADVERTISEMENT-NIACLAODRRE2023(1).pdf?guest=true",
+    "title": "DETAILED ADVERTISEMENT- RECRUITMENT OF 450 ADMINISTRATIVE OFFICERS (GENERALISTS & SPECIALISTS) (SCALE-I) 2023 (PDF, 1, ( PDF , English )",
+    "kind": "advertisement",
+    "page": 8
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Postgraduate",
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "1 Please note that the eligibility criteria specified herein are the basic criteria for applying for the post",
+      "page": 1
+     },
+     {
+      "text": "At the time of interview, the Candidates must necessarily produce the relevant documents in original and a self- attested photocopy in support of their identity and eligibility pertaining to category, nationality, age, educational qualifications etc. as indicated in the online application form",
+      "page": 1
+     },
+     {
+      "text": "Educational Qualification (as on 01.08.2023) Generalists: A candidate must possess the minimum qualification of a graduate/post graduate in any discipline from a recognised University or any equivalent qualification recognised as such by Central Government with at least 60% marks in either of the…",
+      "page": 2
+     },
+     {
+      "text": "Specialists: A candidate must possess the minimum qualification as follows",
+      "page": 2
+     },
+     {
+      "text": "The qualification should be from a recognised University or any equivalent qualification recognised as such by Central Government Specialization Minimum Qualification Risk Engineers Engineering (Graduation/ Post-graduation) in any discipline with min 60% (55% for SC/ST/PwBD) Note: Risk Engineering…",
+      "page": 2
+     },
+     {
+      "text": "3 Note a) Educational qualifications should be from a University/ Institution/ Board recognised by Govt",
+      "page": 3
+     },
+     {
+      "text": "Regulatory Bodies and the result should have been declared on or before",
+      "page": 3
+     },
+     {
+      "text": "c) The candidate must possess valid Mark-sheet / Degree Certificate of the necessary qualification as on 01.08.2023",
+      "page": 3
+     },
+     {
+      "text": "i.e. a candidate must have been born not earlier than 2nd Aug-1993 and not",
+      "page": 3
+     },
+     {
+      "text": " Both the candidate as well as scribe will have to give a suitable undertaking confirming that the scribe fulfills all the stipulated eligibility criteria for a scribe mentioned above",
+      "page": 4
+     },
+     {
+      "text": "The certificate should have been issued after 31.03.2023",
+      "page": 5
+     },
+     {
+      "text": "The certificate should be based on the income for the preceding three financial years i.e., FY 2020-21, 2021-22 and 2022- 23 (and should have been issued after 31.03.2023)",
+      "page": 12
+     },
+     {
+      "text": "Educational Qualification of the Scribe:",
+      "page": 28
+     },
+     {
+      "text": "My educational qualification is _____________________",
+      "page": 30
+     }
+    ]
+   },
+   "source": {
+    "notice": "56897e3eecc3f99394efbca0d0b182ea826ddab75e7ce1eaddcccaa8654972c3",
+    "url": "https://www.newindia.co.in/cms/3bebcbfa-feaa-4e19-ace7-2de62d1de0af/DETAILEDADVERTISEMENT-NIACLAODRRE2023(1).pdf?guest=true",
+    "title": "DETAILED ADVERTISEMENT- RECRUITMENT OF 450 ADMINISTRATIVE OFFICERS (GENERALISTS & SPECIALISTS) (SCALE-I) 2023 (PDF, 1, ( PDF , English )",
+    "kind": "advertisement"
+   }
+  },
+  "selection": {
+   "value": [
+    "Preliminary examination",
+    "Main examination",
+    "Interview",
+    "Computer-based test"
+   ],
+   "source": {
+    "notice": "56897e3eecc3f99394efbca0d0b182ea826ddab75e7ce1eaddcccaa8654972c3",
+    "url": "https://www.newindia.co.in/cms/3bebcbfa-feaa-4e19-ace7-2de62d1de0af/DETAILEDADVERTISEMENT-NIACLAODRRE2023(1).pdf?guest=true",
+    "title": "DETAILED ADVERTISEMENT- RECRUITMENT OF 450 ADMINISTRATIVE OFFICERS (GENERALISTS & SPECIALISTS) (SCALE-I) 2023 (PDF, 1, ( PDF , English )",
+    "kind": "advertisement"
+   }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "EnglishLanguage",
+     "page": 5,
+     "marks": 30
+    },
+    {
+     "paper": "ReasoningAbility",
+     "page": 5,
+     "marks": 35
+    },
+    {
+     "paper": "QuantitativeAptitude",
+     "page": 5,
+     "marks": 35
+    },
+    {
+     "paper": "Total",
+     "page": 5,
+     "marks": 100
+    }
+   ],
+   "source": {
+    "notice": "56897e3eecc3f99394efbca0d0b182ea826ddab75e7ce1eaddcccaa8654972c3",
+    "url": "https://www.newindia.co.in/cms/3bebcbfa-feaa-4e19-ace7-2de62d1de0af/DETAILEDADVERTISEMENT-NIACLAODRRE2023(1).pdf?guest=true",
+    "title": "DETAILED ADVERTISEMENT- RECRUITMENT OF 450 ADMINISTRATIVE OFFICERS (GENERALISTS & SPECIALISTS) (SCALE-I) 2023 (PDF, 1, ( PDF , English )",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "exam_date",
+  "fee",
+  "pay"
+ ],
+ "older_documents": 0
+}
