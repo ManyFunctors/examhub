@@ -379,7 +379,7 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
   document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260606142500.pdf'
   document_archive   = 'not_archived'
-  document_title     = 'Public Notice regarding Subject-wise Scheduled of UGC-NET June 2026 Examination Read More'
+  document_title     = 'Public Notice regarding Subject-wise Scheduled of UGC-NET June 2026 Examination'
 
   [[links.documents]]
   document_type      = 'calendar'
@@ -394,7 +394,7 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
   document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260507122133.pdf'
   document_archive   = 'not_archived'
-  document_title     = 'Public Notice for Advisory for completion of application process of UGC-NET June 2026 examination Read More'
+  document_title     = 'Public Notice for Advisory for completion of application process of UGC-NET June 2026 examination'
 
   [[links.documents]]
   document_type      = 'press_release'
@@ -402,7 +402,7 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
   document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260514174819.pdf'
   document_archive   = 'not_archived'
-  document_title     = 'Public Notice for Second Advisory for completion of application process of UGC-NET June 2026 examination Read '
+  document_title     = 'Public Notice for Second Advisory for completion of application process of UGC-NET June 2026 examination'
 
   [[links.documents]]
   document_type      = 'press_release'
@@ -415,7 +415,7 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:15:09+05:30
+provenance_last_checked = 2026-10-22T14:19:25+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'fee.rows'

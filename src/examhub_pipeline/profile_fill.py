@@ -242,8 +242,8 @@ def attach_notices(rec: dict, notices: list[dict], *, same_cycle_records: int) -
     by_url = {n.get("url"): n for n in notices if n.get("exam") == exam}
     for d in docs:  # a document listed before titles existed gets its title now
         n = by_url.get(d.get("document_url"))
-        if n and not d.get("document_title") and _titled(n.get("title") or ""):
-            d["document_title"] = _titled(n["title"])
+        if n and _titled(n.get("title") or ""):
+            d["document_title"] = _titled(n["title"])  # derived from the notice, so it follows the rule as it improves
         if n and d.get("document_published") == _day(n.get("published")) and (
                 n.get("published_from") or _date_in_title(_day(n.get("published")), n.get("title") or "")):
             d["document_published"] = "unknown"  # an earlier run took a date out of the title
