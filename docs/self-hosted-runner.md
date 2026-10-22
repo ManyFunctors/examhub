@@ -32,3 +32,17 @@ they build the site and open pull requests, and need no Indian address.
 ## Safety
 
 The three workflows that use this runner only start on a schedule or by hand, never from a pull request, so a fork cannot run code on the VM.
+
+## Without a runner in India: the Internet Archive fallback
+
+A feed whose host never answers the runner (timeout, refused or reset
+connection, TLS failure) or answers 403/429/5xx is read from the Internet
+Archive's latest capture instead (`web.archive.org/web/2id_/<url>`, the page as
+served). If the capture is older than `EXAMHUB_WAYBACK_STALE_DAYS` (7), Save
+Page Now is asked for a fresh one first, at most `EXAMHUB_WAYBACK_SAVES` (20)
+times per run. `EXAMHUB_WAYBACK=0` turns it off.
+
+Such a feed is marked `via = "wayback"` in `feed-health.jsonl` with the capture
+time and age. Its notices are added but never marked gone, because an archived
+copy is old. Detail pages are not followed. A host the Archive has never
+captured (or that blocks it too) stays empty.

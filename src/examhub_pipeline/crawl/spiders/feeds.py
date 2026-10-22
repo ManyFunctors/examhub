@@ -19,7 +19,9 @@ from __future__ import annotations
 import hashlib
 import json
 import logging
+import os
 import re
+from datetime import datetime, timezone
 
 import scrapy
 from scrapy import signals
@@ -31,6 +33,13 @@ log = logging.getLogger(__name__)
 
 _TIERS = {"hot": {"hot"}, "warm": {"hot", "warm"}, "all": {"hot", "warm", "cold"}}
 
+
+_WAYBACK = "https://web.archive.org/web/2id_/"   # the latest capture, bytes as served
+_SAVE = "https://web.archive.org/save/"
+_SNAPSHOT = re.compile(r"/web/(\d{14})")
+#: a host that never answered (as opposed to one that answered with "no"): the
+#: Internet Archive may hold a copy
+_UNREACHABLE = re.compile(r"Timeout|ConnectionRefused|ConnectionLost|ConnectError|TCPTimedOut|SSL|ConnectionDone|ResponseNeverReceived|ProxyConnect")
 
 #: failures from a reply the server sent but got wrong, not from one it never sent
 _MALFORMED = re.compile(r"InvalidHeader|ResponseFailed|BadHttpHeader|ParseError|_DataLoss")
@@ -56,6 +65,12 @@ class FeedsSpider(scrapy.Spider):
         # feeds with a detail page that failed: their notice set is incomplete
         self.partial: set[str] = set()
         self.not_modified = 0
+        # A feed its host will not answer is read from the Internet Archive's copy
+        # instead. A capture older than the stale limit is refreshed first (Save Page
+        # Now, free, no key), up to a few per run.
+        self.wayback = os.environ.get("EXAMHUB_WAYBACK", "1") == "1"
+        self.saves_left = int(os.environ.get("EXAMHUB_WAYBACK_SAVES", "20"))
+        self.stale_days = int(os.environ.get("EXAMHUB_WAYBACK_STALE_DAYS", "7"))
 
     @classmethod
     def from_crawler(cls, crawler, *a, **kw):
@@ -115,8 +130,33 @@ class FeedsSpider(scrapy.Spider):
                 out[key] = v.decode("latin1")
         return out
 
+    def _wayback_request(self, f, **meta):
+        return scrapy.Request(
+            _WAYBACK + f["url"], callback=self.parse_feed, errback=self.failed, dont_filter=True,
+            meta={"feed": f, "wayback": True, "download_timeout": 90,
+                  "handle_httpstatus_list": [304, 400, 401, 403, 404, 410, 429, 500, 502, 503, 504], **meta})
+
+    def _try_wayback(self, f, req, why):
+        """The Internet Archive's copy of a feed the host would not answer, once."""
+        if not (self.wayback and not req.meta.get("wayback") and f["adapter"] != "json_api"):
+            return None
+        log.info("feed %s: %s, trying the Internet Archive", f["id"], why[:80])
+        return self._wayback_request(f)
+
+    def _saved(self, response_or_failure):
+        """Save Page Now has run (or failed): read whatever the latest capture is now."""
+        meta = getattr(response_or_failure, "meta", None) or response_or_failure.request.meta
+        yield self._wayback_request(meta["feed"], saved=True)
+
     def parse_feed(self, response):
         f = response.meta["feed"]
+        wb = response.meta.get("wayback")
+        if wb:
+            yield from self._parse_wayback(f, response)
+            return
+        if response.status in (403, 429, 500, 502, 503, 504) and (req := self._try_wayback(f, response.request, f"status {response.status}")):
+            yield req
+            return
         if response.status == 304:
             self.not_modified += 1
             self._health(f, ok=True, not_modified=True, **self._validators(response))
@@ -165,6 +205,31 @@ class FeedsSpider(scrapy.Spider):
         for r in rows:
             yield r
         yield from self._detail_requests(f, response, rows)
+
+    def _parse_wayback(self, f, response):
+        if response.status >= 400:
+            self._health(f, ok=False, status=response.status, count=0, via="wayback",
+                         error=f"no Internet Archive capture (status {response.status})")
+            return
+        m = _SNAPSHOT.search(response.url)
+        taken = datetime.strptime(m[1], "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc) if m else None
+        age = (datetime.now(timezone.utc) - taken).days if taken else None
+        if (age is not None and age > self.stale_days and self.saves_left > 0
+                and not response.meta.get("saved")):
+            self.saves_left -= 1
+            yield scrapy.Request(_SAVE + f["url"], callback=self._saved, errback=self._saved, dont_filter=True,
+                                 meta={"feed": f, "wayback": True, "saved": True, "download_timeout": 120,
+                                       "handle_httpstatus_list": [400, 403, 404, 429, 500, 502, 503, 504]})
+            return
+        try:
+            rows = adapters.run(f, f["url"], response.body)
+        except (ValueError, json.JSONDecodeError, KeyError) as exc:
+            self._health(f, ok=False, status=response.status, count=0, via="wayback", error=str(exc)[:300])
+            return
+        self._health(f, ok=True, status=response.status, count=len(rows), via="wayback",
+                     snapshot=m[1] if m else None, snapshot_age_days=age)
+        self.rows.extend(rows)
+        yield from rows
 
     def _detail_requests(self, f, response, rows):
         """Listing rows whose URL matches ``detail_include`` are pages that
@@ -218,11 +283,15 @@ class FeedsSpider(scrapy.Spider):
             log.info("feed %s: malformed reply (%s), trying Firefox", f["id"], error[:120])
             yield req.replace(dont_filter=True, meta={**req.meta, "render": "browser", "auto_browser": True})
             return
+        if _UNREACHABLE.search(error) and (retry := self._try_wayback(f, req, error)):
+            yield retry
+            return
         self._health(f, ok=False, count=0, error=error[:300])
 
     def _closed(self, spider, reason):
         # Only a feed that answered with links can say a notice has gone.
-        ran = {h["id"] for h in self.health if h.get("ok") and h.get("count")} - self.partial
+        # (an archived copy is old: it never says a notice has gone)
+        ran = {h["id"] for h in self.health if h.get("ok") and h.get("count") and not h.get("via")} - self.partial
         counts = harvest.merge_notices(self.cat, self.rows, ran)
         new_ids = counts.pop("new_ids")
         alerts = harvest.write_health(self.health)

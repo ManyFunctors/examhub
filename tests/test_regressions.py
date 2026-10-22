@@ -324,3 +324,21 @@ def test_view_more_and_hindi_download_labels_use_row_text():
     from examhub_pipeline.crawl.adapters import UNINFORMATIVE
     for label in ("View More", "डाउनलोड करें", "Download PDF"):
         assert UNINFORMATIVE.match(label), label
+
+
+def test_wayback_fallback_reads_the_archived_copy_against_the_original_url():
+    from scrapy.http import HtmlResponse, Request
+    from examhub_pipeline.crawl.spiders.feeds import FeedsSpider
+    sp = FeedsSpider(feed="in-kvs/notices")
+    sp.saves_left = 0
+    f = {"id": "t/x", "body": "t", "url": "https://blocked.example.in/notices", "adapter": "html_links",
+         "include": r"\.pdf"}
+    req = sp._wayback_request(f)
+    assert req.url == "https://web.archive.org/web/2id_/https://blocked.example.in/notices"
+    html = b'<a href="/files/advt-2026.pdf">Advertisement 2026</a>'
+    resp = HtmlResponse(url="https://web.archive.org/web/20250101000000id_/https://blocked.example.in/notices",
+                        body=html, request=Request(req.url, meta=req.meta), encoding="utf-8")
+    rows = list(sp._parse_wayback(f, resp))
+    assert [r["url"] for r in rows] == ["https://blocked.example.in/files/advt-2026.pdf"]
+    h = sp.health[-1]
+    assert h["via"] == "wayback" and h["snapshot"] == "20250101000000" and h["ok"]
