@@ -1,0 +1,45 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "72c0866b7f765f62f48c523e16e387ca212a704b9b9a6f7dcfbe21317bb9f475",
+  "url": "https://gssc.goa.gov.in/docs/whats_new/notice-reg-physical-standards-tests-grievances-advertisement-no-2-of-year-2026.pdf",
+  "title": "Notice reg. Physical Standards Tests - Grievances - Advertisement No. 2 of Year 2026",
+  "body": "ga-gssc",
+  "exam": "ga-gssc-recruitment",
+  "feed": "ga-gssc/home",
+  "published": "2026-10-22",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "093b2a84cd27563d771bc7b4b5d2acdc9359b743e466f83f68d07ef8a9df9600",
+  "bytes": 106355,
+  "pages": 1,
+  "chars": 1092,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-23T02:50:18+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "result_date": {
+   "date": "2026-10-22",
+   "evidence": "If any candidate has any gr vis-vis the result slip availab hard copy of the result slip i",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "If any candidate has any gr vis-vis the result slip availab hard copy of the result slip i",
+   "key": "result_date",
+   "date": "2026-10-22",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ }
+}
