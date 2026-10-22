@@ -355,3 +355,14 @@ def test_aggregator_leads_are_never_read_as_documents():
 def test_get_details_label_uses_row_text():
     from examhub_pipeline.crawl.adapters import UNINFORMATIVE
     assert UNINFORMATIVE.match("Get Details")
+
+
+def test_tre_advertisement_file_outranks_the_umbrella_exam():
+    from examhub_pipeline.catalogue import Matcher, load
+
+    hits = Matcher(load()).match(
+        "br-bpsc",
+        "Important Notice Advertisement Self Declaration Form for STET 2026",
+        "https://bpsc.bihar.gov.in/x/Advertisement-152026-TRE-4.0_BPSC-20260922-dbsf04.pdf",
+    )
+    assert hits == ["br-bpsc-tre"]
