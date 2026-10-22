@@ -10,7 +10,12 @@ on:
     inputs:
       feeds:
         description: "feed id(s), comma separated, e.g. in-upsc/exam-notifications,in-rrb/updates"
-        required: true
+        required: false
+        default: ""
+      pages:
+        description: "page URL(s), comma separated: print the status and every link a plain fetch sees"
+        required: false
+        default: ""
 
 permissions:
   contents: read
@@ -34,12 +39,34 @@ jobs:
           uv venv --python 3.12
           uv pip install -e '.[crawl]'
 
+      - name: Look at pages
+        if: inputs.pages != ''
+        env:
+          PAGES: ${{ inputs.pages }}
+        run: |
+          # fetched the way the crawler fetches (its own TLS settings)
+          for url in ${PAGES//,/ }; do
+            uv run scrapy fetch --nolog "$url" > work_page.html || echo "$url FAILED"
+            echo "$url $(wc -c < work_page.html) bytes"
+            python3 - <<'PY'
+          import re
+          html = open("work_page.html", errors="ignore").read()
+          for m in re.finditer(r"action[\x27\x22]?\s*[:=]\s*[\x27\x22](\w+)[\x27\x22]", html):
+              print("  ACTION:", html[max(0, m.start() - 150):m.end() + 350].replace("\n", " ")[:520])
+          for m in re.finditer(r"(?:pageGroup|selectedCategory|currentTerm|itemsPerPage|selectedSubcategory|page_group)\s*[=:]\s*[^;\n]{0,100}", html):
+              print("  VAR:", m.group(0)[:140])
+          for href, text in re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', html, re.S)[:0]:
+              print("  ", href[:110], "|", re.sub(r"<[^>]+>|\s+", " ", text).strip()[:80])
+          PY
+          done
+
       - name: Firefox and geckodriver
         run: |
           firefox --version
           ls "$GECKOWEBDRIVER"
 
       - name: Read the feeds
+        if: inputs.feeds != ''
         env:
           FEEDS: ${{ inputs.feeds }}
           MOZ_HEADLESS: "1"
