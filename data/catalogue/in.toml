@@ -1454,6 +1454,17 @@ website = "https://careers.ntpc.co.in/"
 status = "active"
 
 [[bodies]]
+id = "in-freejobalert"
+name = "FreeJobAlert (third-party notice aggregator)"
+short_name = "FreeJobAlert"
+jurisdiction = "in"
+kind = "other"
+website = "https://www.freejobalert.com/"
+hosts = ["freejobalert.com", "www.freejobalert.com"]
+status = "active"
+notes = "Not an official source. Read only as a lead: it names new notices of bodies whose own sites the runner cannot reach, so the catalogue discovery and the match rules see them. Its pages are never a record's source."
+
+[[bodies]]
 id = "in-ongc"
 name = "Oil and Natural Gas Corporation Ltd."
 short_name = "ONGC"
@@ -3167,6 +3178,43 @@ url = "https://recruitment.itbpolice.nic.in/"
 adapter = "html_links"
 yields = "notices"
 include = '\.pdf|recruitment|notification|advertisement|result|admit|vacanc'
+status = "active"
+
+[[feeds]]
+id = "in-freejobalert/latest-notifications"
+body = "in-freejobalert"
+url = "https://www.freejobalert.com/latest-notifications/"
+adapter = "html_links"
+yields = "notices"
+item_selector = "tr"
+link_selector = "a[href*='/articles/']"
+include = "articles/"
+match_scope = "all"
+status = "active"
+notes = "Recruitment board, post and last date in one table row."
+
+[[feeds]]
+id = "in-freejobalert/admit-card"
+body = "in-freejobalert"
+url = "https://www.freejobalert.com/admit-card/"
+adapter = "html_links"
+yields = "notices"
+item_selector = "tr"
+link_selector = "a[href*='/articles/']"
+include = "articles/"
+match_scope = "all"
+status = "active"
+
+[[feeds]]
+id = "in-freejobalert/answer-key"
+body = "in-freejobalert"
+url = "https://www.freejobalert.com/answer-key/"
+adapter = "html_links"
+yields = "notices"
+item_selector = "tr"
+link_selector = "a[href*='/articles/']"
+include = "articles/"
+match_scope = "all"
 status = "active"
 
 [[feeds]]
