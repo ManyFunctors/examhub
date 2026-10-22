@@ -2,14 +2,14 @@
 
 # ═══ identity (pipeline) ═════════════════════════════════════════════
 section                = 'exams'
-exam_id                = 'in-iob-recruitment'
+exam_id                = 'mh-law-cet'
 cycle                  = '2026'
 cycle_status           = 'active'
 
 # ═══ titles (readers) ════════════════════════════════════════════════
-title                  = 'IOB Recruitment 2026'
-slug                   = 'iob-recruitment-2026'
-title_official         = 'IOB Recruitment 2026'
+title                  = 'MAH LL.B. CET (3-year and 5-year) 2026'
+slug                   = 'law-cet-2026'
+title_official         = 'MAH LL.B. CET (3-year and 5-year) 2026'
 title_series           = 'unknown'
 title_aliases          = 'none'
 
@@ -26,13 +26,13 @@ pay                    = []
 # ═══ who runs it ═════════════════════════════════════════════════════
 
 [[bodies]]
-body      = 'in-iob'
+body      = 'mh-cet-cell'
 body_role = 'conducts'
 
 # ═══ posts and vacancies ═════════════════════════════════════════════
 [posts]
-vacancies_total            = 25
-vacancies_status           = 'confirmed'
+vacancies_total            = 'unknown'
+vacancies_status           = 'unknown'
 posts_per_candidate        = 'unknown'
 posts_waiting_list_percent = 'unknown'
 posts_join_in_batches      = 'unknown'
@@ -58,9 +58,7 @@ service_posting_area                = 'unknown'
 city_slip_separate = 'unknown'
 
   [dates.application]
-  from         = 2026-08-25
-  to           = 2026-09-30
-  status       = 'confirmed'
+  status       = 'not_announced'
   change       = 'none'
   changed_from = 'none'
 
@@ -107,9 +105,7 @@ city_slip_separate = 'unknown'
     changed_from = 'none'
 
     [dates.stages.exam]
-    from         = 2026-10-12
-    to           = 'unknown'
-    status       = 'confirmed'
+    status       = 'not_announced'
     change       = 'none'
     changed_from = 'none'
 
@@ -294,47 +290,13 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://www.iob.bank.in/'
+link_official_page = 'unknown'
 link_apply         = 'unknown'
-
-  [[links.documents]]
-  document_type      = 'notification'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement'
-  document_archive   = 'not_archived'
-  document_title     = '(View)'
+documents          = []
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
-provenance_retrieved    = 2026-10-22T14:56:19+05:30
-provenance_last_checked = 2026-10-22T14:56:19+05:30
-
-  [[provenance.evidence]]
-  evidence_field    = 'dates.application.from'
-  evidence_document = 'https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement'
-  evidence_page     = 1
-  evidence_words    = 'registration open 2026-08-25'
-  evidence_method   = 'rule'
-
-  [[provenance.evidence]]
-  evidence_field    = 'dates.application.to'
-  evidence_document = 'https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement'
-  evidence_page     = 4
-  evidence_words    = 'registration deadline 2026-09-30'
-  evidence_method   = 'rule'
-
-  [[provenance.evidence]]
-  evidence_field    = 'dates.stages[1].exam.from'
-  evidence_document = 'https://www.iob.bank.in/documents/d/guest/pre-examination-training_recruitment-of-security-guards'
-  evidence_page     = 1
-  evidence_words    = 'exam date 2026-10-12'
-  evidence_method   = 'rule'
-
-  [[provenance.evidence]]
-  evidence_field    = 'posts.vacancies_total'
-  evidence_document = 'https://www.iob.bank.in/documents/d/guest/recruitment-of-security-guards_advertisement'
-  evidence_page     = 0
-  evidence_words    = ''
-  evidence_method   = 'rule'
+provenance_retrieved    = 'unknown'
+provenance_last_checked = 'unknown'
+evidence                = []
 +++

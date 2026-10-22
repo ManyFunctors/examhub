@@ -28,8 +28,8 @@ body_role = 'conducts'
 
 # ═══ posts and vacancies ═════════════════════════════════════════════
 [posts]
-vacancies_total            = 'not_announced'
-vacancies_status           = 'not_announced'
+vacancies_total            = 1699
+vacancies_status           = 'confirmed'
 posts_per_candidate        = 'unknown'
 posts_waiting_list_percent = 'unknown'
 posts_join_in_batches      = 'unknown'
@@ -356,6 +356,14 @@ link_apply         = 'unknown'
   document_archive   = 'not_archived'
 
   [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/JE_Tentative_Vacancy_08102026.pdf'
+  document_archive   = 'not_archived'
+  document_title     = 'Tentative Vacancies of Junior Engineer Examination, 2026.'
+
+  [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
@@ -366,7 +374,7 @@ link_apply         = 'unknown'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:26+05:30
+provenance_last_checked = 2026-10-22T15:40:51+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'
@@ -381,4 +389,11 @@ provenance_last_checked = 2026-10-22T14:28:26+05:30
   evidence_page     = 0
   evidence_words    = 'ExamHub record: All candidates 100; SC 0; ST 0; PwBD 0; Ex-Servicemen 0; Women 0'
   evidence_method   = 'manual'
+
+  [[provenance.evidence]]
+  evidence_field    = 'posts.vacancies_total'
+  evidence_document = 'https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/JE_Tentative_Vacancy_08102026.pdf'
+  evidence_page     = 0
+  evidence_words    = ''
+  evidence_method   = 'rule'
 +++

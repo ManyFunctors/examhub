@@ -24,6 +24,15 @@ from .crawl.harvest import HARVEST_DIR
 
 RECENT_DAYS = 120
 
+#: Only a recurring, named exam is one page per cycle. A body's rolling recruitment
+#: ("HC Staff", "Direct Recruitment") is a new drive with every notice, so a page
+#: for it would mix unrelated advertisements.
+RECURRING = {"annual", "biannual", "quarterly", "monthly"}
+
+
+def eligible(exam: dict) -> bool:
+    return exam.get("frequency") in RECURRING and "umbrella" not in str(exam.get("name", ""))
+
 
 def _last_date(profile: dict) -> dt.date | None:
     fields = profile.get("fields") or {}
@@ -40,6 +49,27 @@ def _last_date(profile: dict) -> dt.date | None:
 def live(profile: dict, today: dt.date) -> bool:
     last = _last_date(profile)
     return bool(profile.get("documents_in_cycle")) and last is not None and (today - last).days <= RECENT_DAYS
+
+
+def prune(exams_dir: Path, cat, *, apply: bool, log: Callable[[str], None]) -> int:
+    """Remove pages this step made for a rolling recruitment (recognised by the bare title
+    it gives them: the exam's short name and the year)."""
+    gone = 0
+    for path in sorted(exams_dir.glob("*.md")):
+        try:
+            rec, _ = record_mod.load(path)
+        except (OSError, ValueError):
+            continue
+        exam = cat.exams.get(str(rec.get("exam_id")))
+        if exam is None or eligible(exam):
+            continue
+        short = exam.get("short_name") or exam.get("name") or ""
+        if rec.get("title") == f"{short} {rec.get('cycle')}" and rec.get("title_series") == "unknown":
+            gone += 1
+            log(f"promote: {'removing' if apply else 'would remove'} {path.name} (a rolling recruitment is not one exam)")
+            if apply:
+                path.unlink()
+    return gone
 
 
 def fill(exams_dir: Path = tracked_mod.EXAMS_DIR, *, directory: Path = HARVEST_DIR, apply: bool = False,
@@ -59,8 +89,8 @@ def fill(exams_dir: Path = tracked_mod.EXAMS_DIR, *, directory: Path = HARVEST_D
         if not year.isdigit() or not live(profile, today):
             continue
         exam = cat.exams[eid]
-        if "umbrella" in str(exam.get("name", "")):
-            continue  # a catch-all for many unrelated drives, not one exam
+        if not eligible(exam):
+            continue
         short = exam.get("short_name") or exam.get("name") or eid
         slug = f"{slugs[eid]}-{year}"
         target = exams_dir / f"{slug}.md"
@@ -72,5 +102,6 @@ def fill(exams_dir: Path = tracked_mod.EXAMS_DIR, *, directory: Path = HARVEST_D
             rec = record_mod.skeleton(title=f"{short} {year}", slug=slug, body=exam.get("conducted_by") or "unknown",
                                       exam_id=eid, cycle=year)
             target.write_text(record_mod.dumps(rec, ""), encoding="utf-8")
-    log(f"promote: {made} exam(s) {'given a page' if apply else 'would be given a page (dry run)'}")
-    return made
+    removed = prune(exams_dir, cat, apply=apply, log=log)
+    log(f"promote: {made} exam(s) {'given a page' if apply else 'would be given a page (dry run)'}, {removed} page(s) removed")
+    return made + removed
