@@ -60,3 +60,4 @@ def test_no_documents_means_every_expected_field_is_a_gap():
     assert p["documents"] == 0 and p["gaps"] == list(P.EXPECTED["recruitment"])
     board = P.build_profile({**EXAM, "purpose": "school_board"}, [], {})
     assert board["gaps"] == ["exam_date"]
+

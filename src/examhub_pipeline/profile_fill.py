@@ -30,6 +30,9 @@ YEAR_SLACK = 1
 SENTINELS = {"unknown", "not_announced", "none", None}
 #: Reservations that overlap the main categories rather than add to them.
 HORIZONTAL = {"PwBD", "ESM", "Freedom Fighter Dependant"}
+#: Relaxation categories safe to copy as read; the reader has mislabelled the rest
+#: (a widows-only relaxation came out as "Women").
+RELAXATION_CATEGORIES = {"SC", "ST", "OBC-NCL", "OBC", "EWS", "PwBD", "Ex-Servicemen"}
 
 
 def _adds_up(value: dict) -> bool:
@@ -137,9 +140,36 @@ def fill_record(rec: dict, profile: dict, *, same_cycle_records: int) -> list[st
         _evidence(rec, "posts.vacancies_total", vac.get("source") or {}, vac["value"].get("evidence") or "")
         notes.append(f"posts.vacancies_total = {vac['value']['total']}")
 
+    notes += _fill_age(rec, fields.get("age"), dates.get("age_as_on"), cycle)
+
     if notes:
         record_mod.touch(rec)
     return notes
+
+
+def _fill_age(rec: dict, age: dict | None, as_on: dict | None, cycle: int) -> list[str]:
+    """One age band (min, max, reference date) and its plain relaxations, into a
+    record whose age rule is still unknown. Several bands (by post) are left alone."""
+    value = (age or {}).get("value") or {}
+    limits = value.get("limits") or []
+    rows = rec.get("eligibility") if isinstance(rec.get("eligibility"), list) else []
+    if len(limits) != 1 or len(rows) != 1 or not isinstance(rows[0].get("age"), dict):
+        return []
+    lim, rule = limits[0], rows[0]["age"]
+    day = _day(value.get("as_on") or (as_on or {}).get("date"))
+    ok = all(isinstance(lim.get(k), int) for k in ("min", "max")) and 14 <= lim["min"] < lim["max"] <= 70
+    if (not ok or day is None or abs(day.year - cycle) > YEAR_SLACK
+            or any(rule.get(k) not in SENTINELS for k in ("age_min", "age_max", "age_as_of"))):
+        return []
+    source = (age or {}).get("source") or {}
+    rule.update(applies="yes", age_as_of=day, age_min=lim["min"], age_max=lim["max"])
+    relax = [{"relaxation_category": c, "relaxation": f"+{r['years']}"}
+             for r in value.get("relaxations") or [] if isinstance(r.get("years"), int) and len(r.get("categories") or []) == 1
+             for c in r["categories"] if c in RELAXATION_CATEGORIES]
+    if relax and rule.get("relaxations") in SENTINELS:
+        rule["relaxations"] = relax
+    _evidence(rec, "eligibility.age", {**source, "page": lim.get("page") or source.get("page")}, lim.get("evidence") or "")
+    return [f"eligibility.age = {lim['min']}-{lim['max']} as on {day.isoformat()}"]
 
 
 def fill(exams_dir: Path, *, apply: bool = False, directory: Path = HARVEST_DIR,
