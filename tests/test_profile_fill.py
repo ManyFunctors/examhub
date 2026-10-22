@@ -199,3 +199,11 @@ def test_vacancy_total_ignores_overlapping_reservation_columns():
             "PwBD-A": 154, "PwBD-B": 155, "Ex-Servicemen": 354}
     assert _adds_up({"total": 15125, "by_category": cats})
     assert not _adds_up({"total": 15000, "by_category": cats})
+
+
+def test_promote_only_makes_pages_for_recurring_exams():
+    from examhub_pipeline.promote import eligible
+
+    assert eligible({"name": "AIAPGET", "frequency": "annual"})
+    assert not eligible({"name": "Gujarat HC Staff Recruitment", "frequency": "irregular"})
+    assert not eligible({"name": "Umbrella drives", "frequency": "annual"} | {"name": "X (umbrella)"})
