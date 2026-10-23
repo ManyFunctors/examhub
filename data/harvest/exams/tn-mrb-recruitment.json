@@ -1,0 +1,108 @@
+{
+ "schema": 1,
+ "exam": "tn-mrb-recruitment",
+ "name": "TN MRB Recruitment (Assistant Surgeon, Nurse, Pharmacist, Lab Technician)",
+ "body": "tn-mrb",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 3695,
+    "rows": [
+     {
+      "label": "Pharmacist / Work in Progress",
+      "total": 630,
+      "page": 1
+     },
+     {
+      "label": "Health Inspector Grade-II / PSL published on 13 01 2026 . .",
+      "total": 1429,
+      "page": 1
+     },
+     {
+      "label": "Field Assistant / PSL published on 30 01 2026 . .",
+      "total": 41,
+      "page": 1
+     },
+     {
+      "label": "Assistant Surgeon (General) with speciality qualifications / PSL published on 05 03 2026 . .",
+      "total": 299,
+      "page": 1
+     },
+     {
+      "label": "Audiometrician / PSL published on 06 02 2026 . .",
+      "total": 9,
+      "page": 1
+     },
+     {
+      "label": "Nursing Assistant Grade-II / Interim Stay – W P Nos 13922 & 13925 of . . . 2026",
+      "total": 999,
+      "page": 1
+     },
+     {
+      "label": "Radiographer / Interim Stay - W P Nos 13922 & 13925 of . . . 2026",
+      "total": 67,
+      "page": 1
+     },
+     {
+      "label": "Laboratory Technician Grade-II / Work in Progress",
+      "total": 60,
+      "page": 1
+     },
+     {
+      "label": "Dental Mechanic / Interim Stay – W P Nos 13922 & 13925 of . . . 2026",
+      "total": 43,
+      "page": 1
+     },
+     {
+      "label": "Pharmacist(Homoeopathy) / Interim Stay – W P Nos 13922 & 13925 of . . . 2026",
+      "total": 1,
+      "page": 1
+     },
+     {
+      "label": "Dark Room Assistant / Interim Stay – W P Nos 13922 & 13925 of . . . 2026",
+      "total": 27,
+      "page": 1
+     },
+     {
+      "label": "Ophthalmic Assistant / PSL Published on 08 01 2026 . .",
+      "total": 90,
+      "page": 1
+     }
+    ],
+    "from": "table"
+   },
+   "source": {
+    "notice": "2ff32e4da24c6edc4874dcde4fda6d6af5c7eb784b592240a44b8c6e781f5263",
+    "url": "https://www.mrb.tn.gov.in/uploads/tami_800/subpage_files/Updated Annual_Planner 02.07.2026.pdf",
+    "title": "Annual Recruitment Planner",
+    "kind": "advertisement"
+   }
+  },
+  "dates": {
+   "admit_card_from": {
+    "date": "2026-01-13",
+    "source": {
+     "notice": "2ff32e4da24c6edc4874dcde4fda6d6af5c7eb784b592240a44b8c6e781f5263",
+     "url": "https://www.mrb.tn.gov.in/uploads/tami_800/subpage_files/Updated Annual_Planner 02.07.2026.pdf",
+     "title": "Annual Recruitment Planner",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}
