@@ -306,6 +306,7 @@ link_apply         = 'https://rpsc.rajasthan.gov.in/scribereg'
   document_published = 'unknown'
   document_url       = 'https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/D749D009176A4B9D93D5C6491C33EA24.pdf'
   document_archive   = 'not_archived'
+  document_title     = '9 18/12/2025 PROTECTION OFFICER 2025 Advt. No. 13/2025-26 For Protection Officer Exam 2025'
 
   [[links.documents]]
   document_type      = 'other'
@@ -317,7 +318,7 @@ link_apply         = 'https://rpsc.rajasthan.gov.in/scribereg'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:53+05:30
+provenance_last_checked = 2026-10-24T02:49:17+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.stages[1].exam'

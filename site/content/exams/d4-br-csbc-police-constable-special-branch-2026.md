@@ -308,7 +308,7 @@ link_apply         = 'unknown'
   document_published = 2026-06-16
   document_title     = 'Important Notice: Regarding Rebuttal of Fake News Related to Prohibition Constable, Jail Warder & Mobile…'
   document_url       = 'https://csbc.bihar.gov.in/Advt/Notice-03-2025-Rebuttal-FakeNews-16-06-2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261022135737/https://csbc.bihar.gov.in/Advt/Notice-03-2025-Rebuttal-FakeNews-16-06-2026.pdf'
 
   [[links.documents]]
   document_type      = 'notification'
@@ -316,7 +316,7 @@ link_apply         = 'unknown'
   document_published = 2026-04-09
   document_title     = 'Important Notice: Regarding Fake News Related to Driver Constable Recruitment'
   document_url       = 'https://csbc.bihar.gov.in/Advt/Notice-09-04-2026-Reg. Fake News.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260518214053/https://csbc.bihar.gov.in/Advt/Notice-09-04-2026-Reg.%20Fake%20News.pdf'
 
   [[links.documents]]
   document_type      = 'notification'
@@ -332,7 +332,7 @@ link_apply         = 'unknown'
   document_published = 'unknown'
   document_title     = 'Advt. No. 01/2026: For Selection of Constables (General Duty Close Cadre) in Special Branch of Bihar Police'
   document_url       = 'https://csbc.bihar.gov.in/Advt/Advt-01-2026-Special Branch Constable.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260216024146/https://csbc.bihar.gov.in/Advt/Advt-01-2026-Special%20Branch%20Constable.pdf'
 
   [[links.documents]]
   document_type      = 'schedule'
@@ -340,7 +340,7 @@ link_apply         = 'unknown'
   document_published = 2026-09-10
   document_title     = 'Important Notice: Regarding Date of the HMV Driving Efficiency Test for HMV Licence Holder Candidates Whose…'
   document_url       = 'https://csbc.bihar.gov.in/Advt/Notice-02-2025-HMV-DET-12-09-2025.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261009003429/https://csbc.bihar.gov.in/Advt/Notice-02-2025-HMV-DET-12-09-2025.pdf'
 
   [[links.documents]]
   document_type      = 'schedule'
@@ -348,7 +348,7 @@ link_apply         = 'unknown'
   document_published = 2026-08-29
   document_title     = 'Important Notice: Regarding Physical Standard Test (PST) and Document Verification (DV) for the Post of…'
   document_url       = 'https://csbc.bihar.gov.in/Advt/Notice-01-2026-PST & DV-29-08-2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261022135805/https://csbc.bihar.gov.in/Advt/Notice-01-2026-PST%20&%20DV-29-08-2026.pdf'
 
   [[links.documents]]
   document_type      = 'schedule'
@@ -356,7 +356,7 @@ link_apply         = 'unknown'
   document_published = 2026-07-31
   document_title     = 'Important Notice: Regarding Driving Efficiency Test (DET) and Document Verification (DV) for the Post of…'
   document_url       = 'https://csbc.bihar.gov.in/Advt/Notice-02-2025-DET & DV-31-07-2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261022135919/https://csbc.bihar.gov.in/Advt/Notice-02-2025-DET%20&%20DV-31-07-2026.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

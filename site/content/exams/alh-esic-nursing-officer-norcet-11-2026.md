@@ -357,6 +357,14 @@ link_apply         = 'unknown'
   document_archive   = 'http://web.archive.org/web/20260605133003/https://esic.gov.in/recruitments'
 
   [[links.documents]]
+  document_type      = 'corrigendum'
+  document_stage     = 'all'
+  document_published = 2026-06-05
+  document_title     = 'Corrigendum for advertisement No. 532/GLBMC/A/12/12/RCT-SR/2025, dated 29.05.2026, Console No.…'
+  document_url       = 'https://www.esic.gov.in/attachments/recruitmentfile/Corrigendum_for_advertisement_No_532_GLBMC_A_12_12_RCT_SR_2025_dated_29_05_2026_Console_No_12177_2026_English_1780655092.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
@@ -366,7 +374,7 @@ link_apply         = 'unknown'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:46+05:30
+provenance_last_checked = 2026-10-24T02:49:08+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

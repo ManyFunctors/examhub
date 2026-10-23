@@ -82,7 +82,9 @@ service_posting_area                = 'unknown'
 city_slip_separate = 'unknown'
 
   [dates.application]
-  status       = 'not_announced'
+  from         = 'unknown'
+  to           = 2026-08-30
+  status       = 'confirmed'
   change       = 'none'
   changed_from = 'none'
 
@@ -297,17 +299,31 @@ training_offered_for          = 'unknown'
 [links]
 link_official_page = 'https://jkssb.nic.in/'
 link_apply         = 'https://jkssb.nic.in/dynamic-jkssb-test/pages/login.aspx'
-documents          = []
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://jkssb.nic.in/Pdf/Advt_06OF2026_06072026.pdf'
+  document_archive   = 'not_archived'
+  document_title     = 'Advt 06OF2026 06072026'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-24T02:49:17+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'
   evidence_document = 'https://jkssb.nic.in/'
   evidence_page     = 0
   evidence_words    = 'nothing extracted'
+  evidence_method   = 'rule'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.application.to'
+  evidence_document = 'https://jkssb.nic.in/Pdf/Advt_06OF2026_06072026.pdf'
+  evidence_page     = 1
+  evidence_words    = 'registration deadline 2026-08-30'
   evidence_method   = 'rule'
 +++

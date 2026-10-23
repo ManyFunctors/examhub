@@ -302,7 +302,7 @@ link_apply         = 'https://nta.ac.in/Centre/Login'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260818202733.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260822145012/https://nta.ac.in/Download/Notice/Notice_20260818202733.pdf'
   document_title     = 'Release of Admit Cards for All India Ayush Post Graduate Entrance Test (AIAPGET) – 2026'
 
   [[links.documents]]
@@ -310,7 +310,7 @@ link_apply         = 'https://nta.ac.in/Centre/Login'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260710141109.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261022134305/https://nta.ac.in/Download/Notice/Notice_20260710141109.pdf'
 
   [[links.documents]]
   document_type      = 'press_release'
@@ -318,7 +318,7 @@ link_apply         = 'https://nta.ac.in/Centre/Login'
   document_published = 'unknown'
   document_title     = 'Public Notice regarding Correction in particulars of the Online Application Form for AIAPGET 2026'
   document_url       = 'https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/08/202608011180992762.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260801201934/https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/08/202608011180992762.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

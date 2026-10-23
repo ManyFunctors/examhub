@@ -325,6 +325,14 @@ link_apply         = 'https://keralapsc.gov.in/'
   [[links.documents]]
   document_type      = 'schedule'
   document_stage     = 'all'
+  document_published = 2026-10-22
+  document_title     = '2026, Featured Latest, Kannur NURSE GR II (AYURVEDA) (I NCA for :SCHEDULED CASTE) (Category No. 248/2025) in…'
+  document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-10/2482025_13_0_0.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'schedule'
+  document_stage     = 'all'
   document_published = 2026-10-16
   document_title     = '2026, Featured Latest, Thiruvananthapuram LP SCHOOL TEACHER (MALAYALAM MEDIUM)(Ist NCA for : SCHEDULED…'
   document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-10/2402025_01_0_0.pdf'
@@ -339,14 +347,6 @@ link_apply         = 'https://keralapsc.gov.in/'
   document_archive   = 'not_archived'
 
   [[links.documents]]
-  document_type      = 'schedule'
-  document_stage     = 'all'
-  document_published = 2026-10-06
-  document_title     = '2026, Featured Latest, Eranakulam FULL TIME JUNIOR LANGUAGE TEACHER (ARABIC) -LPS (VI NCA-SCHEDULED CASTE)…'
-  document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-10/4042025_07_0_0.pdf'
-  document_archive   = 'not_archived'
-
-  [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
@@ -357,7 +357,7 @@ link_apply         = 'https://keralapsc.gov.in/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-23T02:51:11+05:30
+provenance_last_checked = 2026-10-24T02:49:16+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'

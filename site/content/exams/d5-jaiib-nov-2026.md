@@ -309,7 +309,7 @@ link_apply         = 'https://portal.iibf.org.in/candidate/login/nonmem'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.iibf.org.in/documents/Brochure/2026/WEBSITE NOTICE-JAIIB_226.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261022140215/https://www.iibf.org.in/documents/Brochure/2026/WEBSITE%20NOTICE-JAIIB_226.pdf'
   document_title     = 'Apply for JAIIB/DB&F Contact Class in Online mode by IIBF, PDC-NZ'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

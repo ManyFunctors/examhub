@@ -307,7 +307,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.icsi.edu/student_rpn/restrucseet'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260219010332/https://www.icsi.edu/student_rpn/restrucseet/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
