@@ -328,6 +328,7 @@ def test_view_more_and_hindi_download_labels_use_row_text():
 
 def test_wayback_fallback_reads_the_archived_copy_against_the_original_url():
     from scrapy.http import HtmlResponse, Request
+
     from examhub_pipeline.crawl.spiders.feeds import FeedsSpider
     sp = FeedsSpider(feed="in-kvs/notices")
     sp.saves_left = 0
