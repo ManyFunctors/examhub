@@ -5,7 +5,7 @@
  "body": "tn-mrb",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 1,
+ "documents": 2,
  "documents_in_cycle": 1,
  "fields": {
   "vacancies": {
@@ -93,16 +93,112 @@
      "page": 1
     }
    }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate",
+     "Diploma / ITI",
+     "Class 12",
+     "Class 10"
+    ],
+    "clauses": [
+     {
+      "text": "Minimum Age (should have completed) ( in years) Maximum Age (in years) 18 57",
+      "page": 2
+     },
+     {
+      "text": "EDUCATIONAL QUALIFICATION:",
+      "page": 3
+     },
+     {
+      "text": "Must have registered with Tamil Nadu Pharmacy Council and must keep the registration alive by renewing it regularly every year",
+      "page": 3
+     },
+     {
+      "text": "CONDITIONS AND QUALIFICATION:",
+      "page": 3
+     },
+     {
+      "text": "Minimum educational qualification required for the post Weightage of marks Diploma Course HSC / P.U.C SSLC / 10th Diploma in Pharmacy 50% 30% 20%",
+      "page": 4
+     },
+     {
+      "text": "ii) Wherever the basic essential qualification for a technical post is a Diploma and admission to such a programme been changed from SSLC to HSC, in all such cases the weightage will be restricted to marks obtained in SSLC and the technical Diploma",
+      "page": 4
+     },
+     {
+      "text": "Evidence and Mark sheet of Educational qualification (SSLC / HSC / Diploma Course in Pharmacy)",
+      "page": 14
+     },
+     {
+      "text": "Community Certificate should have been issued by the competent authorities referred to above, in whose jurisdiction the candidate claims to have permanent residence, after personal enquiries and proper verification",
+      "page": 15
+     }
+    ]
+   },
+   "source": {
+    "notice": "081d62780d34b9a57e44cf5b79f9d594171667298b3b832462ea5364d0b47f8d",
+    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/03_Pharmacist_Shortfall_15022019.pdf",
+    "title": "Notification for Pharmacist – SC & ST Shortfall Vacancies",
+    "kind": "advertisement"
+   },
+   "carried_from": "2019"
+  },
+  "selection": {
+   "value": [
+    "Interview"
+   ],
+   "source": {
+    "notice": "081d62780d34b9a57e44cf5b79f9d594171667298b3b832462ea5364d0b47f8d",
+    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/03_Pharmacist_Shortfall_15022019.pdf",
+    "title": "Notification for Pharmacist – SC & ST Shortfall Vacancies",
+    "kind": "advertisement"
+   },
+   "carried_from": "2019"
+  },
+  "pay": {
+   "value": [
+    {
+     "levels": [
+      11
+     ],
+     "text": "Pay Level 11",
+     "evidence": "Pharmacist 35,400 – 1,12,400 (Pay Matrix Level-11)",
+     "page": 1
+    },
+    {
+     "levels": [
+      11
+     ],
+     "low": 35400,
+     "high": 112400,
+     "text": "Pay Level 11, ₹35,400–112,400",
+     "evidence": "Scale of pay of Rs Rs. 35,400 – 1,12,400 (Pay Matrix Level-11)",
+     "page": 2
+    },
+    {
+     "low": 35400,
+     "high": 112400,
+     "text": "₹35,400–112,400",
+     "evidence": "The selected candidates will be paid scale of pay of Rs. 35,400 – 1,12,400 i) Successful candidate shall join duty within 30 days the date of receipt of appointment order and shall not claim extension of joining time citing that he/she is undergoing higher studies or for any other reason",
+     "page": 20
+    }
+   ],
+   "source": {
+    "notice": "081d62780d34b9a57e44cf5b79f9d594171667298b3b832462ea5364d0b47f8d",
+    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/03_Pharmacist_Shortfall_15022019.pdf",
+    "title": "Notification for Pharmacist – SC & ST Shortfall Vacancies",
+    "kind": "advertisement"
+   },
+   "carried_from": "2019"
   }
  },
  "gaps": [
   "apply",
   "exam_date",
   "fee",
-  "age",
-  "pay",
-  "eligibility",
-  "selection"
+  "age"
  ],
- "older_documents": 0
+ "older_documents": 1
 }

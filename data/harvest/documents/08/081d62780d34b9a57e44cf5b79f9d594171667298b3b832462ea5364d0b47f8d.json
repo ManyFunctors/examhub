@@ -1,0 +1,172 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "081d62780d34b9a57e44cf5b79f9d594171667298b3b832462ea5364d0b47f8d",
+  "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/03_Pharmacist_Shortfall_15022019.pdf",
+  "title": "Notification for Pharmacist – SC & ST Shortfall Vacancies",
+  "body": "tn-mrb",
+  "exam": "tn-mrb-recruitment",
+  "feed": "tn-mrb/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "27cc7c9524c072e84fc3c8e3c06fa60510dc043a1f79183e61aee3a07c8297e7",
+  "bytes": 173912,
+  "pages": 21,
+  "chars": 28887,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-23T19:04:52+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "03/MRB/2019",
+ "dates": {
+  "registration_deadline": {
+   "date": "2019-03-07",
+   "evidence": "Last date for submission of Application (Online Registration & Online payment)",
+   "page": 2,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2019-03-11",
+   "evidence": "Last date for offline payment of fee through Indian Bank",
+   "page": 2,
+   "from": "text"
+  },
+  "age_as_on": {
+   "date": "2019-07-01",
+   "evidence": "AGE (as on 01.07.2019):",
+   "page": 2,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 28,
+  "by_category": {
+   "SC": 27,
+   "ST": 1
+  },
+  "rows": [
+   {
+    "label": "Number of Vacancies",
+    "total": 28,
+    "by_category": {
+     "SC": 27,
+     "ST": 1
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 300,
+   "raw": "Fee: Rs.300/- The details regarding on-line/off-line remittance can be seen in Annexure-1",
+   "page": 4
+  }
+ ],
+ "age": {
+  "as_on": "2019-07-01"
+ },
+ "pay": [
+  {
+   "levels": [
+    11
+   ],
+   "text": "Pay Level 11",
+   "evidence": "Pharmacist 35,400 – 1,12,400 (Pay Matrix Level-11)",
+   "page": 1
+  },
+  {
+   "levels": [
+    11
+   ],
+   "low": 35400,
+   "high": 112400,
+   "text": "Pay Level 11, ₹35,400–112,400",
+   "evidence": "Scale of pay of Rs Rs. 35,400 – 1,12,400 (Pay Matrix Level-11)",
+   "page": 2
+  },
+  {
+   "low": 35400,
+   "high": 112400,
+   "text": "₹35,400–112,400",
+   "evidence": "The selected candidates will be paid scale of pay of Rs. 35,400 – 1,12,400 i) Successful candidate shall join duty within 30 days the date of receipt of appointment order and shall not claim extension of joining time citing that he/she is undergoing higher studies or for any other reason",
+   "page": 20
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12",
+   "Class 10"
+  ],
+  "clauses": [
+   {
+    "text": "Minimum Age (should have completed) ( in years) Maximum Age (in years) 18 57",
+    "page": 2
+   },
+   {
+    "text": "EDUCATIONAL QUALIFICATION:",
+    "page": 3
+   },
+   {
+    "text": "Must have registered with Tamil Nadu Pharmacy Council and must keep the registration alive by renewing it regularly every year",
+    "page": 3
+   },
+   {
+    "text": "CONDITIONS AND QUALIFICATION:",
+    "page": 3
+   },
+   {
+    "text": "Minimum educational qualification required for the post Weightage of marks Diploma Course HSC / P.U.C SSLC / 10th Diploma in Pharmacy 50% 30% 20%",
+    "page": 4
+   },
+   {
+    "text": "ii) Wherever the basic essential qualification for a technical post is a Diploma and admission to such a programme been changed from SSLC to HSC, in all such cases the weightage will be restricted to marks obtained in SSLC and the technical Diploma",
+    "page": 4
+   },
+   {
+    "text": "Evidence and Mark sheet of Educational qualification (SSLC / HSC / Diploma Course in Pharmacy)",
+    "page": 14
+   },
+   {
+    "text": "Community Certificate should have been issued by the competent authorities referred to above, in whose jurisdiction the candidate claims to have permanent residence, after personal enquiries and proper verification",
+    "page": 15
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "links": {
+  "other": [
+   "https://www.mrb.tn.gov.in",
+   "https://www.twitter.com/mrb_tn",
+   "http://www.mrb.tn.gov.in/pdf/MRB_LIST_COMMUNITIES_020614.pdf"
+  ]
+ },
+ "summary": {
+  "vacancies": 28,
+  "apply": {
+   "until": "2019-03-07"
+  },
+  "fee": {
+   "min": 300,
+   "max": 300
+  },
+  "pay": "Pay Level 11",
+  "education": [
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12",
+   "Class 10"
+  ],
+  "selection": "Interview"
+ }
+}
