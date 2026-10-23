@@ -7,6 +7,7 @@
   "body": "mh-sppu-set",
   "exam": "mh-set",
   "feed": "mh-sppu-set/home",
+  "published": "2026-10-25",
   "doc_type": "other"
  },
  "document": {
@@ -15,13 +16,12 @@
   "pages": 1,
   "chars": 0,
   "ocr": true,
-  "ocr_engine": "pytesseract",
   "indic_share": 0.0,
-  "fetched": "2026-10-23T04:38:33+05:30"
+  "fetched": "2026-10-23T07:19:43+05:30"
  },
  "kind": "notice",
  "warnings": [
-  "page 1: OCR failed (no result after 300s)",
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
   "read by OCR: numbers and names may be misread; check against the PDF"
  ]
 }

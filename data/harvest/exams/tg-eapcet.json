@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "exam": "tg-eapcet",
+ "name": "Telangana Engineering, Agriculture and Pharmacy CET",
+ "body": "tg-tgche",
+ "purpose": "admission",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

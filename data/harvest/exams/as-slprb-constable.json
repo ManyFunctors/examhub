@@ -5,42 +5,185 @@
  "body": "as-slprb",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 1,
- "documents_in_cycle": 1,
+ "documents": 2,
+ "documents_in_cycle": 2,
  "fields": {
+  "age": {
+   "value": {
+    "limits": [
+     {
+      "min": 20,
+      "max": 24,
+      "evidence": "5.5.A For the post of Sub-Officer: The age of the Applicant must be 20-24 years as on 01-01-2026 (i.e., Applicants born not before 01-01-2002 and not later than 01-01-2006)",
+      "page": 5
+     },
+     {
+      "min": 18,
+      "max": 40,
+      "evidence": "5.5.B For Constable (Grade-III), Bandman (Constable), Bugler, Forester Grade-I, Game Watcher & Forest Guard : The age of the Applicant must be 18-40 years as on 01-01-2026 (i.e., Applicants born not before 01-01-1986 and not later than…",
+      "page": 5
+     },
+     {
+      "min": 18,
+      "max": 25,
+      "evidence": "5.5.C For AFPF Constable, Constable (WO/WT), Constable (UB), Fireman & Emergency Rescuer & Boatman : The age of the Applicant must be 18-25 years as on 01-01-2026 (i.e., Applicants born not before 01-01-2001 and not later than 01-01-2008)",
+      "page": 5
+     }
+    ],
+    "relaxations": [
+     {
+      "categories": [
+       "SC",
+       "as:ST(P)",
+       "as:ST(H)"
+      ],
+      "for": "SC ST (P) and ST (H) ,",
+      "years": 5,
+      "raw": "1 SC ST (P) and ST (H) , 5 years",
+      "page": 5
+     },
+     {
+      "categories": [
+       "OBC",
+       "as:MOBC"
+      ],
+      "for": "OBC/MOBC",
+      "years": 3,
+      "raw": "2 OBC/MOBC 3 years",
+      "page": 5
+     },
+     {
+      "years": 3,
+      "raw": "3 Trained Home Guards who have served for a period of 3 (three) years or more [only for the . posts of Constables in APRO] Additional 3 (three) years",
+      "page": 5
+     }
+    ]
+   },
+   "source": {
+    "notice": "67f9d97b6dbed75cc076081134a1feaa429dc56d75e1fead9405dea3adfe8773",
+    "url": "https://slprbassam.in/pdf/Notice2026/16012026/adv_forest-guard_apro-constable.pdf",
+    "title": "Advertisement for 211 posts of Forester Grade-I, 504 posts of Forest Guard, 74 posts of Game Watcher, 405 posts of AFPF Constable in Forest Department, 642 posts of Constable (WO/WT) & 1 post of Constable (UB) in APRO, 1 post of Sub-Officer, 337 posts of Fireman & 41 posts of Emergency Rescuer in F & ES, 733 posts of Constable (Grade-III), 11 posts of Bandman (Constable) & 2 posts of Bugler under DGCD & CGHG and 10 posts of Boatman in Assam Police Advertisement",
+    "kind": "advertisement",
+    "page": 5
+   }
+  },
   "dates": {
    "registration_deadline": {
-    "date": "2026-02-08",
+    "date": "2026-02-22",
     "source": {
-     "notice": "61594af6a6c25321d13a45a7ba2346b186baf6573be736bbedb043b229383619",
-     "url": "https://slprbassam.in/pdf/Notice2026/19012026/Notice_and_Corrigendum.pdf",
-     "title": "Notice regarding enhancement of upper age limit for the post of Constable (AB & UB) in Assam Police and preponement of last date of receiving of online application. Notice",
-     "kind": "corrigendum",
-     "page": 1
-    }
+     "notice": "67f9d97b6dbed75cc076081134a1feaa429dc56d75e1fead9405dea3adfe8773",
+     "url": "https://slprbassam.in/pdf/Notice2026/16012026/adv_forest-guard_apro-constable.pdf",
+     "title": "Advertisement for 211 posts of Forester Grade-I, 504 posts of Forest Guard, 74 posts of Game Watcher, 405 posts of AFPF Constable in Forest Department, 642 posts of Constable (WO/WT) & 1 post of Constable (UB) in APRO, 1 post of Sub-Officer, 337 posts of Fireman & 41 posts of Emergency Rescuer in F & ES, 733 posts of Constable (Grade-III), 11 posts of Bandman (Constable) & 2 posts of Bugler under DGCD & CGHG and 10 posts of Boatman in Assam Police Advertisement",
+     "kind": "advertisement",
+     "page": 11
+    },
+    "alternatives": 1
    },
    "registration_open": {
     "date": "2026-01-22",
     "source": {
-     "notice": "61594af6a6c25321d13a45a7ba2346b186baf6573be736bbedb043b229383619",
-     "url": "https://slprbassam.in/pdf/Notice2026/19012026/Notice_and_Corrigendum.pdf",
-     "title": "Notice regarding enhancement of upper age limit for the post of Constable (AB & UB) in Assam Police and preponement of last date of receiving of online application. Notice",
-     "kind": "corrigendum",
+     "notice": "67f9d97b6dbed75cc076081134a1feaa429dc56d75e1fead9405dea3adfe8773",
+     "url": "https://slprbassam.in/pdf/Notice2026/16012026/adv_forest-guard_apro-constable.pdf",
+     "title": "Advertisement for 211 posts of Forester Grade-I, 504 posts of Forest Guard, 74 posts of Game Watcher, 405 posts of AFPF Constable in Forest Department, 642 posts of Constable (WO/WT) & 1 post of Constable (UB) in APRO, 1 post of Sub-Officer, 337 posts of Fireman & 41 posts of Emergency Rescuer in F & ES, 733 posts of Constable (Grade-III), 11 posts of Bandman (Constable) & 2 posts of Bugler under DGCD & CGHG and 10 posts of Boatman in Assam Police Advertisement",
+     "kind": "advertisement",
      "page": 1
-    }
+    },
+    "alternatives": 1
    }
   },
   "apply": {
    "value": {
     "from": "2026-01-22",
-    "until": "2026-02-08"
+    "until": "2026-02-22"
    },
    "source": {
-    "notice": "61594af6a6c25321d13a45a7ba2346b186baf6573be736bbedb043b229383619",
-    "url": "https://slprbassam.in/pdf/Notice2026/19012026/Notice_and_Corrigendum.pdf",
-    "title": "Notice regarding enhancement of upper age limit for the post of Constable (AB & UB) in Assam Police and preponement of last date of receiving of online application. Notice",
-    "kind": "corrigendum",
-    "page": 1
+    "notice": "67f9d97b6dbed75cc076081134a1feaa429dc56d75e1fead9405dea3adfe8773",
+    "url": "https://slprbassam.in/pdf/Notice2026/16012026/adv_forest-guard_apro-constable.pdf",
+    "title": "Advertisement for 211 posts of Forester Grade-I, 504 posts of Forest Guard, 74 posts of Game Watcher, 405 posts of AFPF Constable in Forest Department, 642 posts of Constable (WO/WT) & 1 post of Constable (UB) in APRO, 1 post of Sub-Officer, 337 posts of Fireman & 41 posts of Emergency Rescuer in F & ES, 733 posts of Constable (Grade-III), 11 posts of Bandman (Constable) & 2 posts of Bugler under DGCD & CGHG and 10 posts of Boatman in Assam Police Advertisement",
+    "kind": "advertisement",
+    "page": 11
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "Note: The age relaxation and special provision regarding educational qualification for ex- servicemen shall be governed by “The Assam Ex-servicemen (Reservation of Posts in State Services and Posts of Grade-III and Grade-IV) Rules 2021” for Grade-III Posts",
+      "page": 3
+     },
+     {
+      "text": "5.6 EDUCATIONAL QUALIFICATION:",
+      "page": 6
+     },
+     {
+      "text": "5.6.A Forester Grade-I: Bachelor Degree in any discipline from recognized University or equivalent",
+      "page": 6
+     },
+     {
+      "text": "The Candidates must have obtained pass marks in Physics, Chemistry & Mathematics (PCM) in H.S. (Science) examination to apply for these posts",
+      "page": 6
+     },
+     {
+      "text": "5.6.F.1.A Passed HSLC or equivalent examination under any Govt. recognized board",
+      "page": 6
+     },
+     {
+      "text": "5.6.F.2.A Higher Educational qualifications",
+      "page": 6
+     }
+    ]
+   },
+   "source": {
+    "notice": "67f9d97b6dbed75cc076081134a1feaa429dc56d75e1fead9405dea3adfe8773",
+    "url": "https://slprbassam.in/pdf/Notice2026/16012026/adv_forest-guard_apro-constable.pdf",
+    "title": "Advertisement for 211 posts of Forester Grade-I, 504 posts of Forest Guard, 74 posts of Game Watcher, 405 posts of AFPF Constable in Forest Department, 642 posts of Constable (WO/WT) & 1 post of Constable (UB) in APRO, 1 post of Sub-Officer, 337 posts of Fireman & 41 posts of Emergency Rescuer in F & ES, 733 posts of Constable (Grade-III), 11 posts of Bandman (Constable) & 2 posts of Bugler under DGCD & CGHG and 10 posts of Boatman in Assam Police Advertisement",
+    "kind": "advertisement"
+   }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "Total",
+     "page": 14
+    },
+    {
+     "paper": "Total",
+     "page": 14
+    },
+    {
+     "paper": "Boating & Swimming Test/Trade Proficiency Test",
+     "page": 14
+    },
+    {
+     "paper": "Total",
+     "page": 14
+    }
+   ],
+   "source": {
+    "notice": "67f9d97b6dbed75cc076081134a1feaa429dc56d75e1fead9405dea3adfe8773",
+    "url": "https://slprbassam.in/pdf/Notice2026/16012026/adv_forest-guard_apro-constable.pdf",
+    "title": "Advertisement for 211 posts of Forester Grade-I, 504 posts of Forest Guard, 74 posts of Game Watcher, 405 posts of AFPF Constable in Forest Department, 642 posts of Constable (WO/WT) & 1 post of Constable (UB) in APRO, 1 post of Sub-Officer, 337 posts of Fireman & 41 posts of Emergency Rescuer in F & ES, 733 posts of Constable (Grade-III), 11 posts of Bandman (Constable) & 2 posts of Bugler under DGCD & CGHG and 10 posts of Boatman in Assam Police Advertisement",
+    "kind": "advertisement"
+   }
+  },
+  "pay": {
+   "value": [
+    {
+     "low": 14000,
+     "high": 70000,
+     "text": "₹14,000–70,000",
+     "evidence": "In pursuance of the directions of the Govt. of Assam, Online Applications are invited for filling up of 211 posts of Forester Grade-I, 504 posts of Forest Guard, 74 posts of Game Watcher, 405 posts of AFPF Constable in Forest Department, 642 posts of Constable (WO/WT) & 1 post of Constable (UB) in…",
+     "page": 1
+    }
+   ],
+   "source": {
+    "notice": "67f9d97b6dbed75cc076081134a1feaa429dc56d75e1fead9405dea3adfe8773",
+    "url": "https://slprbassam.in/pdf/Notice2026/16012026/adv_forest-guard_apro-constable.pdf",
+    "title": "Advertisement for 211 posts of Forester Grade-I, 504 posts of Forest Guard, 74 posts of Game Watcher, 405 posts of AFPF Constable in Forest Department, 642 posts of Constable (WO/WT) & 1 post of Constable (UB) in APRO, 1 post of Sub-Officer, 337 posts of Fireman & 41 posts of Emergency Rescuer in F & ES, 733 posts of Constable (Grade-III), 11 posts of Bandman (Constable) & 2 posts of Bugler under DGCD & CGHG and 10 posts of Boatman in Assam Police Advertisement",
+    "kind": "advertisement"
    }
   }
  },
@@ -48,9 +191,6 @@
   "vacancies",
   "exam_date",
   "fee",
-  "age",
-  "pay",
-  "eligibility",
   "selection"
  ],
  "older_documents": 0

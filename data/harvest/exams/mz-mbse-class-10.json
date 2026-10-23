@@ -5,7 +5,7 @@
  "body": "mz-mbse",
  "purpose": "school_board",
  "cycle": "2027",
- "documents": 1,
+ "documents": 2,
  "documents_in_cycle": 1,
  "fields": {
   "fee": {
@@ -123,5 +123,5 @@
  "gaps": [
   "exam_date"
  ],
- "older_documents": 0
+ "older_documents": 1
 }

@@ -1,0 +1,31 @@
+{
+ "schema": 1,
+ "exam": "mh-set",
+ "name": "Maharashtra State Eligibility Test",
+ "body": "mh-sppu-set",
+ "purpose": "eligibility",
+ "cycle": "2026",
+ "documents": 2,
+ "documents_in_cycle": 2,
+ "fields": {
+  "apply_links": {
+   "value": [
+    "https://setexam.unipune.ac.in/"
+   ],
+   "source": {
+    "notice": "759e730595d32dd1b28a9ae677c4b779d1896524e1215e0e3449c83f67376707",
+    "url": "https://setexam.unipune.ac.in/SET_2026/ShuddhiPatrak_Adhisuchana.pdf",
+    "title": "41st SET Exam ShuddhiPatrak Adhisuchana",
+    "kind": "notice"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

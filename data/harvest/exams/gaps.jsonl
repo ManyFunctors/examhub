@@ -50,7 +50,7 @@
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "as-hslc"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "as-nhm-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "as-slet-ne"}
-{"cycle": "2026", "documents": 1, "gaps": ["vacancies", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "as-slprb-constable"}
+{"cycle": "2026", "documents": 2, "gaps": ["vacancies", "exam_date", "fee", "selection"], "id": "as-slprb-constable"}
 {"cycle": "2026", "documents": 1, "gaps": ["vacancies", "exam_date", "fee", "selection"], "id": "as-slprb-si"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "as-teacher-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "as-tet"}
@@ -151,7 +151,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "dl-hc-staff"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "dl-ipu-cet"}
 {"cycle": "2026", "documents": 2, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "dl-jmi-entrance"}
-{"cycle": "2026", "documents": 1, "gaps": ["apply", "exam_date", "exam_pattern"], "id": "dl-jnu-phd"}
+{"cycle": "2026", "documents": 2, "gaps": ["apply", "exam_date"], "id": "dl-jnu-phd"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "dl-police-mts"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "ga-gbshse-class-10"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "ga-gbshse-class-12"}
@@ -269,7 +269,7 @@
 {"cycle": "2026", "documents": 1, "gaps": ["exam_date"], "id": "in-cbse-class-10"}
 {"cycle": "2026", "documents": 5, "gaps": ["exam_date"], "id": "in-cbse-class-12"}
 {"cycle": "2026", "documents": 3, "gaps": ["exam_date"], "id": "in-cbse-supplementary"}
-{"cycle": "2027", "documents": 8, "gaps": ["fee"], "id": "in-ceed"}
+{"cycle": "2027", "documents": 9, "gaps": ["fee"], "id": "in-ceed"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-cel-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-central-bank-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-cgwb-recruitment"}
@@ -372,7 +372,7 @@
 {"cycle": "2025", "documents": 29, "gaps": ["exam_date", "fee", "age", "pay"], "id": "in-indian-bank-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ini-cet"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-ini-ss"}
-{"cycle": "2026", "documents": 15, "gaps": ["fee", "pay"], "id": "in-iob-recruitment"}
+{"cycle": "2026", "documents": 16, "gaps": ["fee", "pay"], "id": "in-iob-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-iocl-gate-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-iocl-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "eligibility"], "id": "in-ioqm"}
@@ -531,7 +531,7 @@
 {"cycle": "2025", "documents": 1, "gaps": ["apply", "exam_date", "pay"], "id": "in-sbi-cbo"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sbi-clerk"}
 {"cycle": "2026", "documents": 3, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sbi-po"}
-{"cycle": "2026", "documents": 57, "gaps": ["exam_date", "fee", "age", "pay"], "id": "in-sbi-so"}
+{"cycle": "2026", "documents": 58, "gaps": ["exam_date", "fee", "age", "pay"], "id": "in-sbi-so"}
 {"cycle": "2025", "documents": 4, "gaps": ["vacancies", "apply", "fee", "age"], "id": "in-sci-court-master-steno"}
 {"cycle": "2026", "documents": 5, "gaps": ["vacancies", "apply", "exam_date", "fee", "age"], "id": "in-sci-jca"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sci-law-clerk"}
@@ -622,7 +622,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "jk-jkssb-other"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "jk-jkssb-police-constable"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "jk-jkssb-si"}
-{"cycle": "2026", "documents": 1, "gaps": ["apply", "exam_date", "exam_pattern"], "id": "ka-comedk-uget"}
+{"cycle": "2026", "documents": 2, "gaps": ["apply", "exam_date", "exam_pattern"], "id": "ka-comedk-uget"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "ka-dcet"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ka-gpstr"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ka-hc-judicial"}
@@ -657,7 +657,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-ldc"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-lecturer"}
 {"cycle": "2023", "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-lgs"}
-{"cycle": "2026", "documents": 5, "gaps": ["vacancies", "exam_date", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-other"}
+{"cycle": "2026", "documents": 6, "gaps": ["vacancies", "exam_date", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-other"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-police"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-staff-nurse"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-teacher"}
@@ -702,7 +702,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "mh-police-si"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "mh-police-srpf-driver"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "eligibility"], "id": "mh-scholarship-5-8"}
-{"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "mh-set"}
+{"cycle": "2026", "documents": 2, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "mh-set"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "mh-tait"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "mh-talathi"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "mh-van-rakshak"}
@@ -751,7 +751,7 @@
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "mp-mppsc-set"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "mp-mppsc-sfs"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "mp-mppsc-sse"}
-{"cycle": "2027", "documents": 1, "gaps": ["exam_date"], "id": "mz-mbse-class-10"}
+{"cycle": "2027", "documents": 2, "gaps": ["exam_date"], "id": "mz-mbse-class-10"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "mz-mbse-class-12"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "mz-mcs"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "mz-mpsc-ae"}
@@ -863,7 +863,7 @@
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "tg-bse-class-10"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "tg-cpget"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "tg-dsc"}
-{"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "tg-eapcet"}
+{"cycle": null, "documents": 1, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "tg-eapcet"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "tg-ecet"}
 {"cycle": "2026", "documents": 1, "gaps": ["exam_date", "fee"], "id": "tg-edcet"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "tg-hc-judicial"}
@@ -934,7 +934,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "tr-tpsc-tcs"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "tr-ttet"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "uk-hc-staff"}
-{"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "uk-jeep"}
+{"cycle": null, "documents": 1, "gaps": ["apply", "exam_date", "fee", "exam_pattern"], "id": "uk-jeep"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "uk-ubse-class-10"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "uk-ubse-class-12"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "uk-ubter-recruitment"}

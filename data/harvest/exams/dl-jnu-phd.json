@@ -5,7 +5,7 @@
  "body": "dl-jnu",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 1,
+ "documents": 2,
  "documents_in_cycle": 1,
  "fields": {
   "fee": {
@@ -406,12 +406,42 @@
     "title": "PhD e-Prospectus 2026-27",
     "kind": "brochure"
    }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "Centre for Internation",
+     "page": 21
+    },
+    {
+     "paper": "al Politics , Organisati on and Disarmam ent (CIPOD)",
+     "page": 21
+    },
+    {
+     "paper": "Sl . No .",
+     "page": 21
+    },
+    {
+     "paper": "Centre for",
+     "page": 21
+    },
+    {
+     "paper": "Russian and Central Asian Studies (CR&CAS)",
+     "page": 21
+    }
+   ],
+   "source": {
+    "notice": "58d1cfa73ba963f049f03d8913977e57cf7ce61ed8babb3b420d0eb56025a4de",
+    "url": "https://www.jnu.ac.in/sites/default/files/admission/eProspectus_PhD2025-26_Phase-II_WS.pdf",
+    "title": "PhD e-Prospectus 2025-26 - Phase-II(Winter Semester)",
+    "kind": "brochure"
+   },
+   "carried_from": "2025"
   }
  },
  "gaps": [
   "apply",
-  "exam_date",
-  "exam_pattern"
+  "exam_date"
  ],
- "older_documents": 0
+ "older_documents": 1
 }
