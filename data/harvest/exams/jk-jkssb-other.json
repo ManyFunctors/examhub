@@ -5,42 +5,44 @@
  "body": "jk-jkssb",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 1,
- "documents_in_cycle": 1,
+ "documents": 2,
+ "documents_in_cycle": 2,
  "fields": {
   "dates": {
    "registration_deadline": {
-    "date": "2026-08-25",
+    "date": "2026-08-30",
     "source": {
-     "notice": "01354acb67551526e5c3f91825c9a89aa39dbf09c7d64795a7a03103be38fe5b",
-     "url": "https://jkssb.nic.in/Pdf/Advt_05OF2026_06072026.pdf",
-     "title": "05 of 2026 -- (06/07/2026)",
+     "notice": "0e5a3e7a016aa42cd91c81c08f9c237c2d5f79cdc20eb4e87afb3273fbdd81e1",
+     "url": "https://jkssb.nic.in/Pdf/Advt_06OF2026_06072026.pdf",
+     "title": "06 of 2026 -- (06/07/2026)",
      "kind": "result",
-     "page": 2
-    }
+     "page": 1
+    },
+    "alternatives": 1
    }
   },
   "apply": {
    "value": {
     "from": null,
-    "until": "2026-08-25"
+    "until": "2026-08-30"
    },
    "source": {
-    "notice": "01354acb67551526e5c3f91825c9a89aa39dbf09c7d64795a7a03103be38fe5b",
-    "url": "https://jkssb.nic.in/Pdf/Advt_05OF2026_06072026.pdf",
-    "title": "05 of 2026 -- (06/07/2026)",
+    "notice": "0e5a3e7a016aa42cd91c81c08f9c237c2d5f79cdc20eb4e87afb3273fbdd81e1",
+    "url": "https://jkssb.nic.in/Pdf/Advt_06OF2026_06072026.pdf",
+    "title": "06 of 2026 -- (06/07/2026)",
     "kind": "result",
-    "page": 2
+    "page": 1
    }
   },
   "advertisement_no": {
    "value": "tification",
    "source": {
-    "notice": "01354acb67551526e5c3f91825c9a89aa39dbf09c7d64795a7a03103be38fe5b",
-    "url": "https://jkssb.nic.in/Pdf/Advt_05OF2026_06072026.pdf",
-    "title": "05 of 2026 -- (06/07/2026)",
+    "notice": "0e5a3e7a016aa42cd91c81c08f9c237c2d5f79cdc20eb4e87afb3273fbdd81e1",
+    "url": "https://jkssb.nic.in/Pdf/Advt_06OF2026_06072026.pdf",
+    "title": "06 of 2026 -- (06/07/2026)",
     "kind": "result"
-   }
+   },
+   "alternatives": 1
   }
  },
  "gaps": [

@@ -1,0 +1,39 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0e5c9d8b2dfa9ae74aeacef9f7725f69f60967ae8c88c85bdecc8685b8d97fb7",
+  "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/LT_Gr_III_CV_Reschedule_16082018.pdf",
+  "title": "Rescheduling of certificate verification for Laboratory Technician Grade III (17.08.2018)",
+  "body": "tn-mrb",
+  "exam": "tn-mrb-recruitment",
+  "feed": "tn-mrb/notifications",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "e12422f269993c3f63e8887cfdf73751b5641a2a04c6a1a7a26f57d15b9f3211",
+  "bytes": 21025,
+  "pages": 1,
+  "chars": 429,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T02:32:52+05:30"
+ },
+ "kind": "corrigendum",
+ "advertisement_no": "1/MRB/2016",
+ "dates": {
+  "exam_date": {
+   "date": "2018-08-17",
+   "evidence": "Certificate Verification for the post of Laboratory Technician Grade III scheduled on 17.08.2018 is postponed and the same is re-scheduled on 29.08.2018",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.mrb.tn.gov.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2018-08-17"
+ }
+}
