@@ -1,0 +1,222 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0a48432b23c63d5a95bf5c8764519c3df9f1bce8a010e38b127d86dc88912997",
+  "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Assistant_Surgeon_2020_Notification_22052020.pdf",
+  "title": "Notification for Assistant Surgeon (General)",
+  "body": "tn-mrb",
+  "exam": "tn-mrb-recruitment",
+  "feed": "tn-mrb/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "0db1a381d02f30aac49a934b1b9bc9df676fd9fbeae5b1c9f7d1708dedb20dbb",
+  "bytes": 195851,
+  "pages": 27,
+  "chars": 45740,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-23T22:09:24+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "02/MRB/2020",
+ "dates": {
+  "registration_open": {
+   "date": "2020-05-22",
+   "evidence": "Date of commencement of online Registration",
+   "page": 2,
+   "from": "text"
+  },
+  "age_as_on": {
+   "date": "2020-07-01",
+   "evidence": "AGE (as on 01.07.2020) :",
+   "page": 3,
+   "from": "text"
+  }
+ },
+ "unmapped_classes": [
+  {
+   "label": "W",
+   "page": 1
+  }
+ ],
+ "vacancies": {
+  "total": 223,
+  "by_category": {
+   "PwBD": 25
+  },
+  "rows": [
+   {
+    "label": "GT / -",
+    "total": 67,
+    "by_category": {
+     "PwBD": 8
+    },
+    "page": 1
+   },
+   {
+    "label": "BC / -",
+    "total": 58,
+    "by_category": {
+     "PwBD": 8
+    },
+    "page": 1
+   },
+   {
+    "label": "BCM / -",
+    "total": 8,
+    "by_category": {
+     "PwBD": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "MBC&DNC / -",
+    "total": 43,
+    "by_category": {
+     "PwBD": 4
+    },
+    "page": 1
+   },
+   {
+    "label": "SC / -",
+    "total": 34,
+    "by_category": {
+     "PwBD": 4
+    },
+    "page": 1
+   },
+   {
+    "label": "SCA / -",
+    "total": 6,
+    "page": 1
+   },
+   {
+    "label": "ST / -",
+    "total": 7,
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "age": {
+  "as_on": "2020-07-01"
+ },
+ "pay": [
+  {
+   "levels": [
+    22
+   ],
+   "low": 56100,
+   "high": 177500,
+   "text": "Pay Level 22, ₹56,100–177,500",
+   "evidence": "4.SCALE OF PAY(in Rs.): Level-22 Rs.56100-177500 (Details can be seen in Annexure-6 of this Notification)",
+   "page": 2
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "EDUCATIONAL QUALIFICATION:",
+    "page": 6
+   },
+   {
+    "text": "Candidates should possess the following or its equivalent qualification awarded by a University or Institution recognised by the University Grants Commission for the purpose of its grants",
+    "page": 6
+   },
+   {
+    "text": "The courses must have been approved by the Medical Council of India",
+    "page": 6
+   },
+   {
+    "text": "- MBBS Degree In addition to the above, the candidates",
+    "page": 6
+   },
+   {
+    "text": "Must have served as House Surgeon (CRRI) for a period of not less than twelve months",
+    "page": 6
+   },
+   {
+    "text": "Candidates should have registered their name in the Tamil Nadu Medical Council on or before the date of the Competitive Examination (Computer Based Test)",
+    "page": 6
+   },
+   {
+    "text": "If a candidate claims that the educational qualification possessed by him/her is equivalent though not the same as those prescribed for the appointment, the onus of proof rests with the candidate",
+    "page": 6
+   },
+   {
+    "text": "Candidate on the date of the Board’s Notification for the post should possess adequate knowledge in Tamil",
+    "page": 6
+   },
+   {
+    "text": "CONDITIONS AND QUALIFICATION:",
+    "page": 7
+   },
+   {
+    "text": "Candidates who consider themselves eligible to appear in an examination may apply and write the examination at their own risk, with an undertaking/declaration to that effect viz. before appearing for the examination, it should be ensured by the candidate that on the date ofCompetitive Examination…",
+    "page": 7
+   },
+   {
+    "text": "Evidence of Educational qualification (SSLC, HSC,CRRI completion certificate, MBBS and PG Diploma / PG Degree if any)",
+    "page": 17
+   },
+   {
+    "text": "Community Certificate should have been issued by the competent authorities referred to above, in whose jurisdiction the candidate claims to have permanent residence, after personal enquiries and proper verification",
+    "page": 18
+   },
+   {
+    "text": "They should have registered their names on or before the date of the Competitive Examination (Computer Based Test)",
+    "page": 19
+   }
+  ]
+ },
+ "selection": [
+  "Written examination"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "Computer based examination Objective type single paper Exam for Assistant Surgeon (General)",
+   "page": 8,
+   "marks": 90,
+   "duration": "2:00 Hours"
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  },
+  "duration": {
+   "value": "Subject Duration Written Test Maximum Marks Minimum Qualifying marks for 100",
+   "page": 8
+  }
+ },
+ "links": {
+  "apply": [
+   "http://www.mrb.tn.gov.in/syllabus/Syllabus_Assistant_Surgeon_Exam.pdf"
+  ],
+  "other": [
+   "https://www.mrb.tn.gov.in",
+   "http://www.mrb.tn.gov.in",
+   "http://www.mrb.tn.gov.in/pdf/MRB_LIST_COMMUNITIES_020614.pdf"
+  ]
+ },
+ "summary": {
+  "vacancies": 223,
+  "apply": {
+   "from": "2020-05-22"
+  },
+  "pay": "Pay Level 22, ₹56,100–177,500",
+  "education": [
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12"
+  ],
+  "selection": "Written examination"
+ }
+}
