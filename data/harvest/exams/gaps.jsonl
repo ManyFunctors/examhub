@@ -532,7 +532,10 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sbi-clerk"}
 {"cycle": "2026", "documents": 3, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sbi-po"}
 {"cycle": "2026", "documents": 58, "gaps": ["exam_date", "fee", "age", "pay"], "id": "in-sbi-so"}
+{"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sci-court-assistant"}
+{"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sci-court-attendant"}
 {"cycle": "2025", "documents": 4, "gaps": ["vacancies", "apply", "fee", "age"], "id": "in-sci-court-master-steno"}
+{"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sci-ex-cadre"}
 {"cycle": "2026", "documents": 5, "gaps": ["vacancies", "apply", "exam_date", "fee", "age"], "id": "in-sci-jca"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sci-law-clerk"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sebi-grade-a"}
@@ -878,9 +881,12 @@
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "tg-set"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "tg-tet"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "tg-tgbie-class-12"}
+{"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "tg-tgprb-app"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "tg-tgprb-constable"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "tg-tgprb-fire-warder"}
+{"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "tg-tgprb-fsl"}
 {"cycle": "2026", "documents": 2, "gaps": ["apply", "exam_date", "age", "pay"], "id": "tg-tgprb-si"}
+{"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "tg-tgprb-tgsrtc"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "tg-tgpsc-ae"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "tg-tgpsc-group-1"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "tg-tgpsc-group-2"}
