@@ -318,7 +318,7 @@ link_apply         = 'https://online.ruhsraj.org/'
   document_published = 2026-07-29
   document_title     = 'Notification-CE-Recruitment-2026 dated 29-07-2026'
   document_url       = 'https://old.ruhsraj.org/cms/uploads/2026/07/Notification-CE-Recruitment-2026%20dated%2029-07-2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261012015259/https://old.ruhsraj.org/cms/uploads/2026/07/Notification-CE-Recruitment-2026%20dated%2029-07-2026.pdf'
 
   [[links.documents]]
   document_type      = 'notification'

@@ -330,12 +330,12 @@ link_apply         = 'https://onlineapp.bseodisha.ac.in/osstetI2026'
   document_published = 'unknown'
   document_url       = 'https://bseodisha.ac.in/images12/noti14082026.pdf'
   document_archive   = 'https://web.archive.org/web/20261001003500/https://bseodisha.ac.in/images12/noti14082026.pdf'
-  document_title     = 'noti14082026'
+  document_title     = '2026-08-14 Date Extended Notification Regarding OSSTET-2026'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:22+05:30
+provenance_last_checked = 2026-10-24T02:49:10+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

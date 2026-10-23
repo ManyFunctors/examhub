@@ -380,10 +380,34 @@ link_apply         = 'unknown'
   document_url       = 'https://www.rrbapply.gov.in/'
   document_archive   = 'not_archived'
 
+  [[links.documents]]
+  document_type      = 'schedule'
+  document_stage     = 'all'
+  document_published = 2026-03-11
+  document_title     = 'TC-38197, KSM Solutions पटना में 18-02-2026 को निर्धारित सीबीटी के पुनर्निर्धारण की तिथि'
+  document_url       = 'https://www.rrbcdg.gov.in/uploads/2025/01-ALP/012025ALP-CBT1_Reschedule_Patna-Hi.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'schedule'
+  document_stage     = 'all'
+  document_published = 2026-02-18
+  document_title     = 'Regarding rescheduling of CBT-1 scheduled on 18-02-2026 at TC-38197, KSM Solutions, Patna'
+  document_url       = 'https://www.rrbcdg.gov.in/uploads/2025/01-ALP/012025ALP-CBT1_Reschedule_Patna.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'schedule'
+  document_stage     = 'all'
+  document_published = 2026-02-18
+  document_title     = 'TC-38197, KSM Solutions, पटना में 18-02-2026 को निर्धारित CBT-1 (शिफ्ट 2 व 3) के पुनर्निर्धारण के संबंध में…'
+  document_url       = 'https://www.rrbcdg.gov.in/uploads/2025/01-ALP/012025ALP-CBT1_Reschedule_TC38197.pdf'
+  document_archive   = 'not_archived'
+
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:52+05:30
+provenance_last_checked = 2026-10-24T02:49:15+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

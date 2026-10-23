@@ -373,6 +373,7 @@ link_apply         = 'https://sso.rajasthan.gov.in/signin'
   document_published = 'unknown'
   document_url       = 'https://rpsc.rajasthan.gov.in/examdashboard'
   document_archive   = 'not_archived'
+  document_title     = 'Exam Dashboard'
 
   [[links.documents]]
   document_type      = 'other'
@@ -391,7 +392,7 @@ link_apply         = 'https://sso.rajasthan.gov.in/signin'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:51+05:30
+provenance_last_checked = 2026-10-24T02:49:15+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

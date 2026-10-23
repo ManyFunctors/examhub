@@ -301,12 +301,19 @@ training_offered_for          = 'unknown'
 [links]
 link_official_page = 'https://esb.mp.gov.in/'
 link_apply         = 'https://esb.mponline.gov.in/'
-documents          = []
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-09-22
+  document_title     = 'Online Form - Police Constable (G.D.) Recruitment Test - 2026 Start Date:22/09/2026 Rulebook Rulebook Revised…'
+  document_url       = 'https://esb.mp.gov.in/Rulebooks/RB_2026/PCRT_GD_2026_RuleBook_09092026.pdf'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-24T02:49:08+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

@@ -918,7 +918,7 @@ link_apply         = 'none'
   document_stage     = 'all'
   document_published = 2026-07-01
   document_url       = 'https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260721161836/https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf'
   document_title     = '01 Jul 26 Notification for Common Recruitment Process for CRP- PO/MTs-XVI'
 
   [[links.documents]]

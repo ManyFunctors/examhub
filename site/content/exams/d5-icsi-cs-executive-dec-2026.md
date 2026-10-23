@@ -315,7 +315,7 @@ link_apply         = 'https://smash.icsi.edu/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.icsi.edu/exam/exams-cs-executive-professional'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261017235110/https://www.icsi.edu/exam/exams-cs-executive-professional'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

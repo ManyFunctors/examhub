@@ -345,7 +345,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.ibps.in/wp-content/uploads/Annexure_Corrigendum_29.09.2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261022134340/https://www.ibps.in/wp-content/uploads/Annexure_Corrigendum_29.09.2026.pdf'
   document_title     = '29 Sep 26 Updated Vacancies as on 29.09.2026 for Common Recruitment Process for CRP-CSA-XVI'
 
   [[links.documents]]
