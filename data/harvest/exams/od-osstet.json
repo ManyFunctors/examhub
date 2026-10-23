@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "exam": "od-osstet",
+ "name": "Odisha Secondary School Teacher Eligibility Test",
+ "body": "od-bse",
+ "purpose": "eligibility",
+ "cycle": "2023",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}
