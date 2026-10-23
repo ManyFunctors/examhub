@@ -1,0 +1,180 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "09e03174a5e0e940c6137af1b5315e59e106c71048240c2c33e2a37a9e006d50",
+  "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Homoeopathy_Notification_250222.pdf",
+  "title": "Recruitment Notification for Pharmacist (Homoeopathy)",
+  "body": "tn-mrb",
+  "exam": "tn-mrb-recruitment",
+  "feed": "tn-mrb/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "caf9b8d4a44b6ca658f564d0af35bd3fc4bbf5264c8ba3ec54c0b274de2fabf7",
+  "bytes": 1153199,
+  "pages": 30,
+  "chars": 43799,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-23T21:02:08+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "06/MRB/2022",
+ "dates": {
+  "registration_deadline": {
+   "date": "2022-03-17",
+   "evidence": "Last date for submission of Application (Online Registration & Online payment)",
+   "page": 2,
+   "from": "text"
+  },
+  "age_as_on": {
+   "date": "2022-07-01",
+   "evidence": "AGE (as on 01.07.2022):",
+   "page": 4,
+   "from": "text"
+  }
+ },
+ "unmapped_classes": [
+  {
+   "label": "W",
+   "page": 1
+  }
+ ],
+ "vacancies": {
+  "total": 3,
+  "by_category": {
+   "PwBD": 1
+  },
+  "rows": [
+   {
+    "label": "GT / -",
+    "total": 1,
+    "by_category": {
+     "PwBD": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "BC / -",
+    "total": 1,
+    "page": 1
+   },
+   {
+    "label": "SC",
+    "total": 1,
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "age": {
+  "limits": [
+   {
+    "max": 53,
+    "evidence": "Persons who have been demobilized from the Army, Navy or Air Force, (i) Who will be below 53 years of age in the case of Scheduled Castes, Scheduled Castes (Arunthathiyar), Scheduled Tribes, Most Backward Classes / Denotified Communities,…",
+    "page": 15
+   }
+  ],
+  "as_on": "2022-07-01"
+ },
+ "pay": [
+  {
+   "levels": [
+    11
+   ],
+   "text": "Pay Level 11",
+   "evidence": "35400-112400 (Pay Matrix Level 11)",
+   "page": 1
+  },
+  {
+   "levels": [
+    11
+   ],
+   "low": 35400,
+   "high": 112400,
+   "text": "Pay Level 11, ₹35,400–112,400",
+   "evidence": "Scale of pay of Rs. 35400 – 112400 (Pay Matrix Level 11)",
+   "page": 2
+  },
+  {
+   "low": 35400,
+   "high": 112400,
+   "text": "₹35,400–112,400",
+   "evidence": "The selected candidates will be paid scale of pay of Rs. 35400 – 112400(Level-II)",
+   "page": 24
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12",
+   "Class 10"
+  ],
+  "clauses": [
+   {
+    "text": "Category Minimum Age (should have completed) ( in years) Maximum Age (in years) a",
+    "page": 4
+   },
+   {
+    "text": "EDUCATIONAL QUALIFICATION:",
+    "page": 5
+   },
+   {
+    "text": "CONDITIONS AND QUALIFICATION:",
+    "page": 5
+   },
+   {
+    "text": "Minimum educational qualification required for the post Weightage of marks Diploma HSC / P.U.C SSLC / 10th Diploma in Indian System of Medicine",
+    "page": 6
+   },
+   {
+    "text": "ii) Wherever the basic essential qualification for a technical post is a Diploma and admission to such a programme has been changed from SSLC to HSC, in all such cases the weightage may be restricted to marks obtained in SSLC and the technical certificate",
+    "page": 6
+   },
+   {
+    "text": "Evidence and Mark sheet of Educational qualification (SSLC / HSC / Diploma Course in Indian System of Medicine / Pharmacy (Homoeopathy) / Integrated Pharmacy conducted by Government of Tamil Nadu",
+    "page": 17
+   },
+   {
+    "text": "Community Certificate should have been issued by the competent authorities referred to above, in whose jurisdiction the candidate claims to have permanent residence, after personal enquiries and proper verification",
+    "page": 19
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "Diploma in Indian System of Medicine",
+   "page": 6
+  }
+ ],
+ "links": {
+  "other": [
+   "http://www.mrb.tn.gov.in/",
+   "http://www.mrb.tn.gov.in/pdf/MRB_LIST_COMMUNITIES_020614.pdf",
+   "https://www.mrb.tn.gov.in",
+   "https://www.twitter.com/mrb_tn",
+   "http://www.mrb.tn.gov.in/pdf/MRB_LIST_COMMUNITIES_020614.pdf,they"
+  ]
+ },
+ "summary": {
+  "vacancies": 3,
+  "apply": {
+   "until": "2022-03-17"
+  },
+  "age": {
+   "max": 53
+  },
+  "pay": "Pay Level 11",
+  "education": [
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12",
+   "Class 10"
+  ],
+  "selection": "Interview"
+ }
+}
