@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "28749c3af2e1bba782878c6cdfea2ec2d3f1399d4f3b5e8e7455b766e91b8a80",
+  "url": "https://updeled.gov.in/PDFFile/Minority_Schedule_26.pdf",
+  "title": "Minority Direct Allotment Will Be Expected After",
+  "body": "up-pnp",
+  "exam": "up-deled-exam",
+  "feed": "up-pnp/home",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "04d787a3ea79a577f3458a79e88fb5202ba87b54b6b6bf865fa72e7bfb9262e8",
+  "bytes": 406590,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-23T19:47:36+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

@@ -1,0 +1,309 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "08a1dfe517fdc4a90c5e35cda523222d7b20a4f5fb0a45876b57eddffb48691e",
+  "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/notification_AS_spl_091114.pdf",
+  "title": "Walk-in Selection Notification for Assistant Surgeon (Speciality)",
+  "body": "tn-mrb",
+  "exam": "tn-mrb-recruitment",
+  "feed": "tn-mrb/notifications",
+  "doc_type": "walk_in"
+ },
+ "document": {
+  "sha256": "4abf51f8661765f638cdd364b64d9a7e24b7b39e961c6a1dab739afa1e05c66d",
+  "bytes": 178488,
+  "pages": 19,
+  "chars": 42774,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-23T19:47:36+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "07/2014",
+ "dates": {
+  "age_as_on": {
+   "date": "2015-07-01",
+   "evidence": "AGE (as on 01.07.2015) :",
+   "page": 3,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 1727,
+  "rows": [
+   {
+    "label": "1 . / ANAESTHESIOLOGY",
+    "total": 453,
+    "page": 1
+   },
+   {
+    "label": "2 . / ANATOMY",
+    "total": 23,
+    "page": 1
+   },
+   {
+    "label": "3 . / BIOCHEMISTRY",
+    "total": 11,
+    "page": 1
+   },
+   {
+    "label": "4 . / DERMATOLOGY",
+    "total": 16,
+    "page": 1
+   },
+   {
+    "label": "DIABETOLOGY",
+    "total": 1,
+    "page": 1
+   },
+   {
+    "label": "ENT",
+    "total": 9,
+    "page": 1
+   },
+   {
+    "label": "FORENSICMEDICINE",
+    "total": 29,
+    "page": 1
+   },
+   {
+    "label": "GENERALMEDICINE",
+    "total": 100,
+    "page": 1
+   },
+   {
+    "label": "GENERALSURGERY",
+    "total": 63,
+    "page": 1
+   },
+   {
+    "label": "GERIATRICS",
+    "total": 1,
+    "page": 1
+   },
+   {
+    "label": "MICROBIOLOGY",
+    "total": 5,
+    "page": 1
+   },
+   {
+    "label": "OBSTETRICS&GYNAECOLOGY",
+    "total": 557,
+    "page": 1
+   },
+   {
+    "label": "OPHTALMOLOGY",
+    "total": 17,
+    "page": 1
+   },
+   {
+    "label": "ORTHOPAEDICS",
+    "total": 27,
+    "page": 1
+   },
+   {
+    "label": "PAEDIATRICS",
+    "total": 84,
+    "page": 1
+   },
+   {
+    "label": "PATHOLOGY",
+    "total": 27,
+    "page": 1
+   },
+   {
+    "label": "PHARMACOLOGY",
+    "total": 20,
+    "page": 1
+   },
+   {
+    "label": "PHYSICALANDREHABMEDICINE",
+    "total": 10,
+    "page": 1
+   },
+   {
+    "label": "PHYSIOLOGY",
+    "total": 14,
+    "page": 1
+   },
+   {
+    "label": "PSYCHIATRY",
+    "total": 14,
+    "page": 1
+   },
+   {
+    "label": "RADIODIAGNOSIS",
+    "total": 33,
+    "page": 1
+   },
+   {
+    "label": "RADIOTHERAPY",
+    "total": 7,
+    "page": 1
+   },
+   {
+    "label": "SOCIALPREVENTIVEMEDICINE",
+    "total": 28,
+    "page": 1
+   },
+   {
+    "label": "TB&CHESTDISEASE",
+    "total": 16,
+    "page": 1
+   },
+   {
+    "label": "CARDIOLOGY",
+    "total": 20,
+    "page": 1
+   },
+   {
+    "label": "GASTROENTEROLOGY",
+    "total": 1,
+    "page": 1
+   },
+   {
+    "label": "MEDICALONCOLOGY",
+    "total": 4,
+    "page": 1
+   },
+   {
+    "label": "NEPHROLOGY",
+    "total": 18,
+    "page": 1
+   },
+   {
+    "label": "NEUROLOGY",
+    "total": 18,
+    "page": 1
+   },
+   {
+    "label": "CARDIOTHORACICSURGERY",
+    "total": 10,
+    "page": 1
+   },
+   {
+    "label": "NEUROSURGERY",
+    "total": 23,
+    "page": 1
+   },
+   {
+    "label": "PAEDIATRICSURGERY",
+    "total": 22,
+    "page": 1
+   },
+   {
+    "label": "PLASTICSURGERY",
+    "total": 17,
+    "page": 1
+   },
+   {
+    "label": "SURGICALONCOLOGY",
+    "total": 5,
+    "page": 1
+   },
+   {
+    "label": "UROLOGY",
+    "total": 19,
+    "page": 1
+   },
+   {
+    "label": "VASCULARSURGERY",
+    "total": 5,
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "age": {
+  "limits": [
+   {
+    "max": 53,
+    "evidence": "Persons who have been demobilized from the Army, Navy or Air Force, (i) Who will be below 53 years of age in the case of Scheduled Castes, Scheduled Castes (Arunthathiyars), Scheduled Tribes, Most Backward Classes / Denotified…",
+    "page": 3
+   }
+  ],
+  "as_on": "2015-07-01"
+ },
+ "pay": [
+  {
+   "low": 15600,
+   "high": 39100,
+   "text": "₹15,600–39,100",
+   "evidence": "SCALE OF PAY: Rs.15,600-39,100 + Grade Pay Rs. 5,400",
+   "page": 2
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Doctorate",
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "EDUCATIONAL QUALIFICATION:",
+    "page": 4
+   },
+   {
+    "text": "Candidates should possess the following or its equivalent qualification awarded by a University or Institution recognised by the University Grants Commission for the purpose of its grants",
+    "page": 4
+   },
+   {
+    "text": "The courses must have been approved by the Medical Council of India",
+    "page": 4
+   },
+   {
+    "text": "Must have served as House Surgeon (CRRI) for a period of not less than twelve months",
+    "page": 4
+   },
+   {
+    "text": "Candidates should have registered their names in the Tamil Nadu Medical Council on or before the date of this notification",
+    "page": 5
+   },
+   {
+    "text": "If a candidate claims that the educational qualification possessed by him/her is equivalent though not the same as those prescribed for the appointment, the onus of proof rests with the candidate",
+    "page": 5
+   },
+   {
+    "text": "Candidate on the date of the Board’s Notification for the post should possess adequate knowledge in Tamil",
+    "page": 5
+   },
+   {
+    "text": "CONDITIONS AND QUALIFICATION:",
+    "page": 6
+   },
+   {
+    "text": "Candidates who consider themselves eligible to appear in the walk in selection may apply and appear at their own risk, with an undertaking/declaration to that effect viz. before appearing for the walk in selection, it should be ensured by the candidates that on the date of notification of a post…",
+    "page": 6
+   },
+   {
+    "text": "Evidence of Educational qualification (SSLC / HSC / MBBS/BDS/ PG Diploma / PG Degree / Ph.D",
+    "page": 14
+   },
+   {
+    "text": "Thottia Naicker (including Rajakambalam, Gollavar, Sillavar, Thockalavar, Thozhuva Naicker and Erragollar) included in the list of MBC/DC) Head Quarters Deputy Tahsildar Community Certificate should have been issued by the competent authorities referred to above, in whose jurisdiction the…",
+    "page": 15
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "https://www.mrb.tn.gov.in",
+   "http://www.mrb.tn.gov.in/pdf/MRB_LIST_COMMUNITIES_020614.pdf"
+  ]
+ },
+ "summary": {
+  "vacancies": 1727,
+  "age": {
+   "max": 53
+  },
+  "pay": "₹15,600–39,100",
+  "education": [
+   "Doctorate",
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12"
+  ]
+ }
+}
