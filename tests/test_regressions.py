@@ -366,3 +366,20 @@ def test_tre_advertisement_file_outranks_the_umbrella_exam():
         "https://bpsc.bihar.gov.in/x/Advertisement-152026-TRE-4.0_BPSC-20260922-dbsf04.pdf",
     )
     assert hits == ["br-bpsc-tre"]
+
+
+@pytest.mark.parametrize(
+    ("body", "title", "url", "exam"),
+    [
+        ("tg-tgprb", "Second Supplementary Notification", "https://www.tgprb.in/SI_PC_2026/Second Supplementary Notification 2026.pdf", "tg-tgprb-constable"),
+        ("tg-tgprb", "TST — Selection Cut-Offs", "https://www.tgprb.in/STRTC_PDF/TST_2025_Selection_CutOffs.pdf", "tg-tgprb-tgsrtc"),
+        ("tg-tgprb", "Selection Cut-Offs", "https://www.tgprb.in/FSL_PDF/FSL_2025_Selection_CutOffs.pdf", "tg-tgprb-fsl"),
+        ("in-sail", "Walk-in Interview for Engagement of Consultants (Sports Coach) at DSP-2026", "https://x/DSP_Jobs.pdf", "in-sail-recruitment"),
+        ("br-csbc", "Important Notice: Regarding Submission of Original Documents", "https://csbc.bihar.gov.in/Advt/Notice-02-2025-17-10-2026.pdf", "br-csbc-fireman-driver"),
+        ("br-bpssc", "Important Notice-Ref.:Advt. No.-07/2026: Regarding Postponement of Examination", "https://bpssc.bihar.gov.in/Notices/x.pdf", "br-bpssc-si"),
+    ],
+)
+def test_current_notices_that_used_to_stay_unmatched_reach_their_exam(body, title, url, exam):
+    from examhub_pipeline.catalogue import Matcher, load
+
+    assert Matcher(load()).match(body, title, url) == [exam]

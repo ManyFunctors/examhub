@@ -7207,6 +7207,42 @@ match = { any = ['court\s*master', 'personal\s*assistant', "stenographer"] }
 status = "active"
 
 [[exams]]
+id = "in-sci-court-assistant"
+name = "Supreme Court Court Assistant (Technical Assistant-cum-Programmer)"
+jurisdiction = "in"
+purpose = "recruitment"
+conducted_by = "in-sci"
+frequency = "irregular"
+qualification = "graduate"
+streams = ["judiciary", "technical"]
+match = { any = ['court\s*assistant'] }
+status = "active"
+
+[[exams]]
+id = "in-sci-court-attendant"
+name = "Supreme Court Junior Court Attendant"
+jurisdiction = "in"
+purpose = "recruitment"
+conducted_by = "in-sci"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["judiciary", "multi_tasking"]
+match = { any = ['court\s*attendant'] }
+status = "active"
+
+[[exams]]
+id = "in-sci-ex-cadre"
+name = "Supreme Court Ex-cadre Posts (Additional Registrar / Assistant Editor SCR / Assistant Director)"
+jurisdiction = "in"
+purpose = "recruitment"
+conducted_by = "in-sci"
+frequency = "irregular"
+qualification = "professional"
+streams = ["judiciary", "law"]
+match = { any = ['ex[-\s]*cadre', 'additional\s*registrar', 'assistant\s*editor'] }
+status = "active"
+
+[[exams]]
 id = "in-ntpc-gate-recruitment"
 name = "NTPC Executive / Engineer Trainee Recruitment through GATE"
 known_as = ["NTPC ET through GATE"]
@@ -7440,7 +7476,7 @@ conducted_by = "in-sail"
 frequency = "annual"
 qualification = "graduate"
 streams = ["engineering"]
-match = { any = ["GATE", '(executive|engineer(ing)?|management)\s*trainee'] }
+match = { any = ["GATE", '(executive|engineer(ing)?|management)\s*trainee', "CutOffMTT"] }
 status = "active"
 
 [[exams]]
@@ -7452,7 +7488,7 @@ conducted_by = "in-sail"
 frequency = "irregular"
 qualification = "diploma"
 streams = ["technical", "engineering"]
-match = { any = ["recruitment", "apprentice", "advertisement", "vacanc"], none = ["GATE"] }
+match = { any = ["recruitment", "apprentice", "advertisement", "vacanc", 'young\s*professional', 'walk[-\s]*in', "consultant", 'selection\s*of\s*trainees', 'proficiency\s*training', "GNM"], none = ["GATE"] }
 status = "active"
 
 [[exams]]

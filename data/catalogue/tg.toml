@@ -342,7 +342,7 @@ conducted_by = "tg-tgprb"
 frequency = "irregular"
 qualification = "class_12"
 streams = ["police"]
-match = { any = ["constable", "sipahi|sepoy", '\bPC\b'] }
+match = { any = ["constable", "sipahi|sepoy", '\bPC\b', "SI_PC_2026", 'police\s*recruitment', '\bSCT\b(?!\s*ASI)', 'driver\s*mechanic'] }
 status = "active"
 
 [[exams]]
@@ -354,7 +354,7 @@ conducted_by = "tg-tgprb"
 frequency = "irregular"
 qualification = "graduate"
 streams = ["police"]
-match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga"] }
+match = { any = ['sub[-\s]*inspector', '\bS\.?I\.?\b', "daroga", '\bASI\b'] }
 status = "active"
 
 [[exams]]
@@ -367,6 +367,42 @@ frequency = "irregular"
 qualification = "class_12"
 streams = ["police"]
 match = { any = ['fire\s*man|fireman', "warder", "transport"] }
+status = "active"
+
+[[exams]]
+id = "tg-tgprb-fsl"
+name = "Telangana Forensic Science Laboratory (Technical Posts) Recruitment"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-tgprb"
+frequency = "irregular"
+qualification = "postgraduate"
+streams = ["science", "technical"]
+match = { any = ['FSL[_\s]', "forensic"] }
+status = "active"
+
+[[exams]]
+id = "tg-tgprb-app"
+name = "Telangana Assistant Public Prosecutor Recruitment"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-tgprb"
+frequency = "irregular"
+qualification = "professional"
+streams = ["law", "judiciary"]
+match = { any = ['\bAPP\b', 'public\s*prosecutor'] }
+status = "active"
+
+[[exams]]
+id = "tg-tgprb-tgsrtc"
+name = "TGSRTC Driver / Shramik / Supervisor Trainee Recruitment"
+jurisdiction = "tg"
+purpose = "recruitment"
+conducted_by = "tg-tgprb"
+frequency = "irregular"
+qualification = "class_10"
+streams = ["technical"]
+match = { any = ["TGSRTC", "RVR_PDF|Shramik", '\b(TST|MST)\b', 'supervisor\s*trainee', "STRTC_PDF"] }
 status = "active"
 
 [[exams]]
