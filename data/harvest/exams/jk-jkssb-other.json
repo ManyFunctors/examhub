@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "exam": "jk-jkssb-other",
+ "name": "JKSSB other recruitment (umbrella)",
+ "body": "jk-jkssb",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "registration_deadline": {
+    "date": "2026-08-25",
+    "source": {
+     "notice": "01354acb67551526e5c3f91825c9a89aa39dbf09c7d64795a7a03103be38fe5b",
+     "url": "https://jkssb.nic.in/Pdf/Advt_05OF2026_06072026.pdf",
+     "title": "05 of 2026 -- (06/07/2026)",
+     "kind": "result",
+     "page": 2
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2026-08-25"
+   },
+   "source": {
+    "notice": "01354acb67551526e5c3f91825c9a89aa39dbf09c7d64795a7a03103be38fe5b",
+    "url": "https://jkssb.nic.in/Pdf/Advt_05OF2026_06072026.pdf",
+    "title": "05 of 2026 -- (06/07/2026)",
+    "kind": "result",
+    "page": 2
+   }
+  },
+  "advertisement_no": {
+   "value": "tification",
+   "source": {
+    "notice": "01354acb67551526e5c3f91825c9a89aa39dbf09c7d64795a7a03103be38fe5b",
+    "url": "https://jkssb.nic.in/Pdf/Advt_05OF2026_06072026.pdf",
+    "title": "05 of 2026 -- (06/07/2026)",
+    "kind": "result"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}
