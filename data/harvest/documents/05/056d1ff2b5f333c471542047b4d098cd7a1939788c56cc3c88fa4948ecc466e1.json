@@ -1,0 +1,27 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "056d1ff2b5f333c471542047b4d098cd7a1939788c56cc3c88fa4948ecc466e1",
+  "url": "https://setexam.unipune.ac.in/SET_2026/Jahir_Prakatan_New.pdf",
+  "title": "Jahir Prakatan",
+  "body": "mh-sppu-set",
+  "exam": "mh-set",
+  "feed": "mh-sppu-set/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "ce2bdfaddc7fa80fccc7ba35d2203835384175f8fba3ffe2874d196aba0385ff",
+  "bytes": 297500,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-23T04:38:33+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "page 1: OCR failed (no result after 300s)",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

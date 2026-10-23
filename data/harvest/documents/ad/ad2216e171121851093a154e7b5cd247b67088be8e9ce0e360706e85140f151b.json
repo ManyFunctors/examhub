@@ -1,0 +1,99 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "ad2216e171121851093a154e7b5cd247b67088be8e9ce0e360706e85140f151b",
+  "url": "https://ubter.in/assets/guidelines/guidelines.pdf",
+  "title": "Polytechnic Establishment / Strengthening Guidelines",
+  "body": "uk-ubter",
+  "exam": "uk-jeep",
+  "feed": "uk-ubter/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "ede45a74278399bc1e7edcf2379b91a0197c7a88b0abdbbd121987fa7950daca",
+  "bytes": 6492175,
+  "pages": 348,
+  "chars": 666935,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-23T04:38:38+05:30"
+ },
+ "kind": "notice",
+ "pay": [
+  {
+   "levels": [
+    3
+   ],
+   "text": "Pay Level 3",
+   "evidence": "Bluetooth Module: Bluetooth protocol: v2.0 Frequency: 2.4 GHz, Speed: Asynchronous: 2.1 Mbps (Max) / 160 kbps, Synchronous: 1Mbps/1Mbps, Logic level: 3.3V,Power supply: 3.6V to 6V, Current: 50mA",
+   "page": 102
+  },
+  {
+   "low": 0,
+   "high": 10000,
+   "evidence": "23 Rheostats Wire wound Rheostats( Approx. of following rating ) 440 ohm, 3A 10 Rheostats Wire wound Rheostats( Approx. of following rating )110 ohm 8A 10 24 Tachometer Digital non contact type tachometers 0- 10,000 rpm , 3 1/2 digit 10 25 Stroboscope with calibrated dial for frequency/rpm…",
+   "page": 193
+  }
+ ],
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "An institution should possess a total administrative area of minimum 750 sq. m. for an approved intake up to 300",
+    "page": 4
+   },
+   {
+    "text": "An institution should possess a total administrative area of minimum 500 sq. m. for an approved intake up to 300",
+    "page": 4
+   },
+   {
+    "text": "16 Logic Probe Logic 1 : Signal input level TTL: > 2.3V ±0.02V CMOS: > 70% Vcc ± 10% Logic 0 : Signal input level TTL: < 0.08V ±0.02V CMOS: < 30% Vcc ± 10% Max supply voltage withstand : 20 V Power supply range : 5 - 15 V, Signal input impedance : 1 MΩ Max input signal frequency : 20 MHz, Minimum…",
+    "page": 94
+   },
+   {
+    "text": "*Must have built in signal generator & accessories as a speaker detector Technical Specification :",
+    "page": 103
+   },
+   {
+    "text": "Must Have following Functions: DC/AC voltage, DC/AC current, resistance, diode voltage, diode continuity, Measurement of Capacitance, inductance",
+    "page": 119
+   },
+   {
+    "text": "Must Have following Functions: DC/AC voltage, DC/AC current, resistance, diode voltage, diode continuity, Measurement of Capacitance, inductance",
+    "page": 126
+   },
+   {
+    "text": "On/Off Switch and Socket 15 Amp -02 Nos 02 14 Digital Multimeter (DMM) Must Have following Functions: DC/AC voltage, DC/AC current, resistance, diode voltage, diode continuity, Measurement of Capacitance, inductance Resolution: 3-1/2 digits LCD Display with a maximum reading of 1999",
+    "page": 206
+   },
+   {
+    "text": "Required 1 GSM Trainer/ Demonstrator Kit The Trainer should have the following Provisions :-",
+    "page": 217
+   },
+   {
+    "text": "16 Logic Probe Logic 1 : Signal input level TTL: > 2.3V ±0.02V CMOS: > 70% Vcc ± 10% Logic 0 : Signal input level TTL: < 0.08V ±0.02V CMOS: < 30% Vcc ± 10% Max supply voltage withstand : 20 V Power supply range : 5 - 15 V, Signal input impedance : 1 MΩ Max input signal frequency : 20 MHz, Minimum…",
+    "page": 226
+   },
+   {
+    "text": "Jacket provided with 1 inch dia. steam inlet, 1.5 inch outlet connection, spring loaded pressure release valve of 1 inch size, pressure indicator connection, 0.5 inch vent valve should have flange connection at the bottom 1.2 inch size",
+    "page": 245
+   },
+   {
+    "text": "12 Sieve Plate Distillation Column Column Height: The column should have a height sufficient to achieve the desired separation",
+    "page": 246
+   }
+  ]
+ },
+ "exam": {
+  "negative_marking": {
+   "value": "One-fourth of the marks assigned for each wrong answer",
+   "page": 87
+  },
+  "duration": {
+   "value": "Standard speed is 6, 12, 24 hours, but alternative speeds are available",
+   "page": 261
+  }
+ },
+ "summary": {
+  "pay": "Pay Level 3"
+ }
+}

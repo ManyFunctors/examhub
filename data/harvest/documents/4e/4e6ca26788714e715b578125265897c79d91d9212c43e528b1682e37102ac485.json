@@ -1,0 +1,41 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "4e6ca26788714e715b578125265897c79d91d9212c43e528b1682e37102ac485",
+  "url": "https://www.mbse.edu.in/wp-content/uploads/2025/10/HSLC-2026-Exam-Routine.pdf",
+  "title": "HSLC Examination 2026 Routine",
+  "body": "mz-mbse",
+  "exam": "mz-mbse-class-10",
+  "feed": "mz-mbse/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "909c1bad0e494f864c36e59bc67c9e80f5a6076aca07585853e707d543355e79",
+  "bytes": 818644,
+  "pages": 2,
+  "chars": 3315,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-23T04:38:40+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2026-02-11",
+   "evidence": "Practical Examination shall be held as per the programme given below –",
+   "page": 2,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Practical Examination shall be held as per the programme given below –",
+   "key": "exam_date",
+   "date": "2026-02-11",
+   "page": 2
+  }
+ ],
+ "summary": {
+  "exam_date": "2026-02-11"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "4c625fc5660fd0fa6f9a6779a74bf9099e93499c513c41a05a642d9ebcd12dfa",
+  "url": "https://www.iob.bank.in/documents/d/guest/iobflc_tirunelveli_advertisement_29052024",
+  "title": "Advertisement - (View)",
+  "body": "in-iob",
+  "exam": "in-iob-recruitment",
+  "feed": "in-iob/careers",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "d6f5058595b6e4322f53903f3ff1429bf9f74e62a0cb1c53c8a401e96dbc8900",
+  "bytes": 48573,
+  "pages": 1,
+  "chars": 1138,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-23T04:38:38+05:30"
+ },
+ "kind": "advertisement",
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 15000,
+   "raw": "Emoluments: Remuneration of Rs.15,000/- + Mobile & Conveyance Charges of Rs. 2,500/- per month",
+   "page": 1
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 2500,
+   "raw": "Emoluments: Remuneration of Rs.15,000/- + Mobile & Conveyance Charges of Rs. 2,500/- per month",
+   "page": 1
+  }
+ ],
+ "age": {
+  "limits": [
+   {
+    "max": 65,
+    "evidence": "Age: Should not exceed 65 years at the time of joining",
+    "page": 1
+   }
+  ]
+ },
+ "selection": [
+  "Written examination",
+  "Interview"
+ ],
+ "summary": {
+  "fee": {
+   "min": 2500,
+   "max": 15000
+  },
+  "age": {
+   "max": 65
+  },
+  "selection": "Written examination → Interview"
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "4354ccdc15b975d0447a2bbcf103c4a4649cb24fcd7527e4c588ebef3ae9f53e",
+  "url": "https://www.ceed.iitb.ac.in/2027/downloads/CEED2016qp1.pdf",
+  "title": "CEED 2016 Question Paper (Rest of India)",
+  "body": "in-iitb",
+  "exam": "in-ceed",
+  "feed": "in-iitb/ceed",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "c9f77854dadc3adc463887970998a20eb03b812f861b9ed09edec968d4476e8b",
+  "bytes": 1298306,
+  "pages": 23,
+  "chars": 25867,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-23T04:38:38+05:30"
+ },
+ "kind": "notice",
+ "exam": {
+  "duration": {
+   "value": "The examination is of 3 hours duration",
+   "page": 2
+  }
+ }
+}
