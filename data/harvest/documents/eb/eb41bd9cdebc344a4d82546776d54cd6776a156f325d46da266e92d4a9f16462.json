@@ -1,0 +1,60 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "eb41bd9cdebc344a4d82546776d54cd6776a156f325d46da266e92d4a9f16462",
+  "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/CertificateVerificationScheduleforthepostofVillageHealthNursePhaseIII.pdf",
+  "title": "Certificate Verification Schedule for the post of Village Health Nurse Phase III",
+  "body": "tn-mrb",
+  "exam": "tn-mrb-recruitment",
+  "feed": "tn-mrb/notifications",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "07cededbbe57ccd17d9482f64d9ac793693afe800e081d0591df9554f1fc231f",
+  "bytes": 256561,
+  "pages": 6,
+  "chars": 6737,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T11:44:50+05:30"
+ },
+ "kind": "schedule",
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "The candidates are called for verification of certificates / documents based on the marks secured by the candidates in the Computer Based Test and particulars furnished in their on-line applications such as age, educational qualification, community, etc and other relevant rules in vogue",
+    "page": 2
+   },
+   {
+    "text": "The provisional selection of candidates will be made only after verification/ acceptance of certain documents, educational qualification possessed by him/her, clarification regarding community status and its acceptance, marks / rank list of the candidate, genuineness of the Incentive marks for…",
+    "page": 2
+   },
+   {
+    "text": "Evidence and Mark sheet of Educational qualification (SSLC,HSC and Certificate Course in Auxiliary Nurse Midwife / Village Health Nurse) c",
+    "page": 3
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.mrb.tn.gov.in/",
+   "https://www.mrb.tn.gov.in"
+  ]
+ },
+ "summary": {
+  "education": [
+   "Graduate",
+   "Class 12"
+  ]
+ }
+}
