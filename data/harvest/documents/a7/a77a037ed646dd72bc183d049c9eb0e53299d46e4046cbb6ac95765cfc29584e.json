@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "a77a037ed646dd72bc183d049c9eb0e53299d46e4046cbb6ac95765cfc29584e",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/01/2025012056.pdf",
+  "title": "Advisory and Instructions for the Candidates of JEE(Main) – 2025 Session-1",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/jeemain",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "504466f79c9c759fdd5e7f29ba115339cdf5a1da36b951b86e23f15bc9f91e3a",
+  "bytes": 4848342,
+  "pages": 7,
+  "chars": 12,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T14:58:46+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
