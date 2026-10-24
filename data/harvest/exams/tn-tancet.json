@@ -1,0 +1,111 @@
+{
+ "schema": 1,
+ "exam": "tn-tancet",
+ "name": "Tamil Nadu Common Entrance Test (MBA, MCA)",
+ "body": "tn-anna-univ",
+ "purpose": "admission",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 1000,
+     "raw": "TANCET M C A - . . . Rs .500/ -  Rs .1000/ -",
+     "page": 4
+    }
+   ],
+   "source": {
+    "notice": "1ef7228a6dfe5ccc75af6d4923bea93b6873ff63867d8ba6c5c846dc82078f9d",
+    "url": "https://tancet.annauniv.edu/tancet/Information Brochure 2026.pdf",
+    "title": "INFORMATION BROCHURE",
+    "kind": "brochure",
+    "page": 4
+   }
+  },
+  "dates": {
+   "registration_deadline": {
+    "date": "2026-04-10",
+    "source": {
+     "notice": "1ef7228a6dfe5ccc75af6d4923bea93b6873ff63867d8ba6c5c846dc82078f9d",
+     "url": "https://tancet.annauniv.edu/tancet/Information Brochure 2026.pdf",
+     "title": "INFORMATION BROCHURE",
+     "kind": "brochure",
+     "page": 10
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2026-04-10"
+   },
+   "source": {
+    "notice": "1ef7228a6dfe5ccc75af6d4923bea93b6873ff63867d8ba6c5c846dc82078f9d",
+    "url": "https://tancet.annauniv.edu/tancet/Information Brochure 2026.pdf",
+    "title": "INFORMATION BROCHURE",
+    "kind": "brochure",
+    "page": 10
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "(iii) Master’s Degree in the relevant branch of Science / Arts, which are prescribed",
+      "page": 3
+     }
+    ]
+   },
+   "source": {
+    "notice": "1ef7228a6dfe5ccc75af6d4923bea93b6873ff63867d8ba6c5c846dc82078f9d",
+    "url": "https://tancet.annauniv.edu/tancet/Information Brochure 2026.pdf",
+    "title": "INFORMATION BROCHURE",
+    "kind": "brochure"
+   }
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "M B A . . .",
+     "page": 7,
+     "questions": 100,
+     "marks": 1
+    },
+    {
+     "paper": "M C A . . .",
+     "page": 7,
+     "questions": 100,
+     "marks": 1
+    },
+    {
+     "paper": "M E /M Tech",
+     "page": 7
+    },
+    {
+     "paper": "Part I -",
+     "page": 7,
+     "questions": 10,
+     "marks": 1
+    }
+   ],
+   "source": {
+    "notice": "1ef7228a6dfe5ccc75af6d4923bea93b6873ff63867d8ba6c5c846dc82078f9d",
+    "url": "https://tancet.annauniv.edu/tancet/Information Brochure 2026.pdf",
+    "title": "INFORMATION BROCHURE",
+    "kind": "brochure"
+   }
+  }
+ },
+ "gaps": [
+  "exam_date"
+ ],
+ "older_documents": 0
+}

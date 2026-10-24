@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "exam": "ap-bieap-class-12",
+ "name": "BIEAP Intermediate Examination",
+ "body": "ap-bieap",
+ "purpose": "school_board",
+ "cycle": "2027-03",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2027-01-27",
+    "source": {
+     "notice": "0091d84c54e954f2c449362de15f4db3858ac1d634baf2e4c9815e15b751e542",
+     "url": "https://api.apfd.apcfss.in/socialwelfaredms/jnanabhumi/file-download/bucket/swfileuploads/BIE/CIRCULARS/CIRCULAR-1792734492509.pdf",
+     "title": "TT 2nd Yr Voc IPE March 2027 INTERMEDIATE VOCATIONAL 2nd YEAR PUBLIC THEORY EXAMINATIONS, FEBRUARY/MARCH- 2027",
+     "kind": "corrigendum",
+     "page": 3
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2027-01-27",
+   "source": {
+    "notice": "0091d84c54e954f2c449362de15f4db3858ac1d634baf2e4c9815e15b751e542",
+    "url": "https://api.apfd.apcfss.in/socialwelfaredms/jnanabhumi/file-download/bucket/swfileuploads/BIE/CIRCULARS/CIRCULAR-1792734492509.pdf",
+    "title": "TT 2nd Yr Voc IPE March 2027 INTERMEDIATE VOCATIONAL 2nd YEAR PUBLIC THEORY EXAMINATIONS, FEBRUARY/MARCH- 2027",
+    "kind": "corrigendum",
+    "page": 3
+   }
+  },
+  "pay": {
+   "value": [
+    {
+     "levels": [
+      4
+     ],
+     "text": "Pay Level 4",
+     "evidence": "5) Samagra Shiksha Vocational Trade Examination (NSQF Level-4)(Theory) shall be conducted on 17-02-2027( Wednesday) from 10.00AM to 12.00PM",
+     "page": 3
+    }
+   ],
+   "source": {
+    "notice": "0091d84c54e954f2c449362de15f4db3858ac1d634baf2e4c9815e15b751e542",
+    "url": "https://api.apfd.apcfss.in/socialwelfaredms/jnanabhumi/file-download/bucket/swfileuploads/BIE/CIRCULARS/CIRCULAR-1792734492509.pdf",
+    "title": "TT 2nd Yr Voc IPE March 2027 INTERMEDIATE VOCATIONAL 2nd YEAR PUBLIC THEORY EXAMINATIONS, FEBRUARY/MARCH- 2027",
+    "kind": "corrigendum"
+   }
+  }
+ },
+ "gaps": [],
+ "older_documents": 0
+}

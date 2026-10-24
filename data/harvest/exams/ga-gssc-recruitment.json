@@ -5,19 +5,20 @@
  "body": "ga-gssc",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 4,
- "documents_in_cycle": 4,
+ "documents": 5,
+ "documents_in_cycle": 5,
  "fields": {
   "dates": {
    "exam_date": {
-    "date": "2026-11-14",
+    "date": "2026-09-01",
     "source": {
-     "notice": "3e4332a2d122cfd5cb7652848b56094313ac490246d7faecb649df9fb59ab9a3",
-     "url": "https://gssc.goa.gov.in/docs/whats_new/notice-reg-cbt-on-07-11-2026-14-11-2026-15-11-2026-21-11-2026-and-22-11-2026-for-the-various-posts-advertisement-no-3-of-year-2026.pdf",
-     "title": "Notice reg. CBT on 07.11.2026, 14.11.2026, 15.11.2026, 21.11.2026 and 22.11.2026 for the various posts - Advertisement No. 3 of Year 2026",
-     "kind": "advertisement",
+     "notice": "7c42f84a5173e4f20ec007aca0957c36685b73ac285b12e8366a076feb2c0d36",
+     "url": "https://gssc.goa.gov.in/docs/whats_new/notice-reg-physical-standards-test-for-various-posts-for-candidates-who-could-not-attend-the-first-phase.pdf",
+     "title": "Notice reg. Physical Standards Test for various posts – for candidates who could not attend the first phase",
+     "kind": "admit_card",
      "page": 1
-    }
+    },
+    "alternatives": 1
    },
    "result_date": {
     "date": "2026-10-22",
@@ -32,12 +33,12 @@
    }
   },
   "exam_date": {
-   "value": "2026-11-14",
+   "value": "2026-09-01",
    "source": {
-    "notice": "3e4332a2d122cfd5cb7652848b56094313ac490246d7faecb649df9fb59ab9a3",
-    "url": "https://gssc.goa.gov.in/docs/whats_new/notice-reg-cbt-on-07-11-2026-14-11-2026-15-11-2026-21-11-2026-and-22-11-2026-for-the-various-posts-advertisement-no-3-of-year-2026.pdf",
-    "title": "Notice reg. CBT on 07.11.2026, 14.11.2026, 15.11.2026, 21.11.2026 and 22.11.2026 for the various posts - Advertisement No. 3 of Year 2026",
-    "kind": "advertisement",
+    "notice": "7c42f84a5173e4f20ec007aca0957c36685b73ac285b12e8366a076feb2c0d36",
+    "url": "https://gssc.goa.gov.in/docs/whats_new/notice-reg-physical-standards-test-for-various-posts-for-candidates-who-could-not-attend-the-first-phase.pdf",
+    "title": "Notice reg. Physical Standards Test for various posts – for candidates who could not attend the first phase",
+    "kind": "admit_card",
     "page": 1
    }
   }

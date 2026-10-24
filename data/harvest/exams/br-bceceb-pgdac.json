@@ -5,8 +5,8 @@
  "body": "br-bceceb",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 3,
- "documents_in_cycle": 3,
+ "documents": 4,
+ "documents_in_cycle": 4,
  "fields": {
   "vacancies": {
    "value": {
@@ -319,72 +319,65 @@
   },
   "dates": {
    "registration_deadline": {
-    "date": "2026-08-20",
+    "date": "2026-11-01",
     "source": {
-     "notice": "27e9cf65c172d245c3f6ff812dfa2aa7ef3e6e018328f592692b85068061aef1",
-     "url": "https://bceceboard.bihar.gov.in/pdf_Pros/PROS_PGDAC26.pdf",
-     "title": "PGDAC",
-     "kind": "notice",
-     "page": 11
+     "notice": "188cdd0596cb8b73cff9ea34594ccab77696a0e6b70bf7e5611d5db97fb87bbe",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGDAC26_06.pdf",
+     "title": "Details for Extesion of Date for Registration-cum-Choice Filling for Admission in Round-3 of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/06 Dated 23.10.2026)",
+     "kind": "corrigendum",
+     "page": 1
+    },
+    "alternatives": 1
+   },
+   "registration_open": {
+    "date": "2026-10-24",
+    "source": {
+     "notice": "188cdd0596cb8b73cff9ea34594ccab77696a0e6b70bf7e5611d5db97fb87bbe",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGDAC26_06.pdf",
+     "title": "Details for Extesion of Date for Registration-cum-Choice Filling for Admission in Round-3 of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/06 Dated 23.10.2026)",
+     "kind": "corrigendum",
+     "page": 1
     }
    }
   },
   "apply": {
    "value": {
-    "from": null,
-    "until": "2026-08-20"
+    "from": "2026-10-24",
+    "until": "2026-11-01"
    },
    "source": {
-    "notice": "27e9cf65c172d245c3f6ff812dfa2aa7ef3e6e018328f592692b85068061aef1",
-    "url": "https://bceceboard.bihar.gov.in/pdf_Pros/PROS_PGDAC26.pdf",
-    "title": "PGDAC",
-    "kind": "notice",
-    "page": 11
+    "notice": "188cdd0596cb8b73cff9ea34594ccab77696a0e6b70bf7e5611d5db97fb87bbe",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGDAC26_06.pdf",
+    "title": "Details for Extesion of Date for Registration-cum-Choice Filling for Admission in Round-3 of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/06 Dated 23.10.2026)",
+    "kind": "corrigendum",
+    "page": 1
+   }
+  },
+  "advertisement_no": {
+   "value": "BCECEB(PGDAC)-2026/06",
+   "source": {
+    "notice": "188cdd0596cb8b73cff9ea34594ccab77696a0e6b70bf7e5611d5db97fb87bbe",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGDAC26_06.pdf",
+    "title": "Details for Extesion of Date for Registration-cum-Choice Filling for Admission in Round-3 of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/06 Dated 23.10.2026)",
+    "kind": "corrigendum"
    }
   },
   "eligibility": {
    "value": {
-    "education_levels": [
-     "Graduate"
-    ],
     "clauses": [
      {
-      "text": "(i) The candidates must have passed the BDS Examination from any recognised Dental College of Bihar State included in the schedule of Dental Council of India",
-      "page": 4
-     },
-     {
-      "text": "(iii) The candidates must have completed the rotating Internship on or before 31.05.2026 as per the provision contained in the Information bulletin of NEET(MDS)-2026",
-      "page": 4
-     },
-     {
-      "text": "(iv) The candidates must have obtained Registration from Bihar State Dental Council or Dental Council of India",
-      "page": 4
-     },
-     {
-      "text": "A candidate who is not a permanent resident of Bihar but has passed the BDS Examination from any Dental Colleges of Bihar State included in the Schedule of Dental Council of India, is also eligible",
-      "page": 4
-     },
-     {
-      "text": "* For Eligibility Criteria and other details, required Documents for admission on (DQ) Quota, candidates are advised to see 'Chapter 4: Persons with Benchmark Disabilities (PwBD) of Information Bulleting & Counselling Scheme of NEET-MDS Counselling 2026' which can be seen on MCC Official Website",
-      "page": 9
-     },
-     {
-      "text": "All the certificates included in the list given below, if applicable, must have to upload at the time of downloading his/ her Provisional Seat Allotment Order and have to submit in original by every candidate at the time of Document Verification & Admission process",
-      "page": 11
-     },
-     {
-      "text": "In addition to this, the individual should have a speech discrimination score of more than 60%",
-      "page": 23
+      "text": "Eligibility criteria for counselling, Fee payment procedure, instructions and other details are available in the prospectus of PGDAC-2026 and Advertisement No",
+      "page": 1
      }
     ]
    },
    "source": {
-    "notice": "27e9cf65c172d245c3f6ff812dfa2aa7ef3e6e018328f592692b85068061aef1",
-    "url": "https://bceceboard.bihar.gov.in/pdf_Pros/PROS_PGDAC26.pdf",
-    "title": "PGDAC",
-    "kind": "notice"
+    "notice": "188cdd0596cb8b73cff9ea34594ccab77696a0e6b70bf7e5611d5db97fb87bbe",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGDAC26_06.pdf",
+    "title": "Details for Extesion of Date for Registration-cum-Choice Filling for Admission in Round-3 of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/06 Dated 23.10.2026)",
+    "kind": "corrigendum"
    },
-   "alternatives": 1
+   "alternatives": 2
   }
  },
  "gaps": [

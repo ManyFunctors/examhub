@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "exam": "ml-health-admission-counselling",
+ "name": "Meghalaya Health Courses Admission Counselling (MBBS, BDS, BAMS, B.Sc Nursing, Allied)",
+ "body": "ml-health",
+ "purpose": "admission",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

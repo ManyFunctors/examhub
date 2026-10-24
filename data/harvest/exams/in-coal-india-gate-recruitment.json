@@ -1,0 +1,313 @@
+{
+ "schema": 1,
+ "exam": "in-coal-india-gate-recruitment",
+ "name": "Coal India Executive / Engineer Trainee Recruitment through GATE",
+ "body": "in-coal-india",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 656,
+    "by_category": {
+     "Unreserved": 275,
+     "OBC-NCL": 169,
+     "SC": 93,
+     "ST": 45,
+     "EWS": 61
+    },
+    "rows": [
+     {
+      "label": "Civil (11) / OBC(NCL) 02 - , ST 02 - Total -04 / (a) HH -6",
+      "total": 178,
+      "by_category": {
+       "Unreserved": 72,
+       "EWS": 17,
+       "SC": 26,
+       "ST": 13,
+       "OBC-NCL": 46
+      },
+      "page": 4
+     },
+     {
+      "label": "Electrical (12) / NIL / (a) HH 7 –",
+      "total": 221,
+      "by_category": {
+       "Unreserved": 91,
+       "EWS": 22,
+       "SC": 33,
+       "ST": 16,
+       "OBC-NCL": 59
+      },
+      "page": 4
+     },
+     {
+      "label": "Mechanical (13) / NIL / ( / (a) HH 3 –",
+      "total": 145,
+      "by_category": {
+       "Unreserved": 61,
+       "EWS": 14,
+       "SC": 21,
+       "ST": 10,
+       "OBC-NCL": 39
+      },
+      "page": 4
+     },
+     {
+      "label": "System (14) / NIL / (a)LV -15 (b)",
+      "total": 43,
+      "by_category": {
+       "Unreserved": 19,
+       "EWS": 4,
+       "SC": 6,
+       "ST": 3,
+       "OBC-NCL": 11
+      },
+      "page": 4
+     },
+     {
+      "label": "Electronics & Communication (15) / NIL / (a) HH -3 (b)",
+      "total": 38,
+      "by_category": {
+       "Unreserved": 18,
+       "EWS": 3,
+       "SC": 5,
+       "ST": 2,
+       "OBC-NCL": 10
+      },
+      "page": 4
+     },
+     {
+      "label": "Geology (16) / SC 1 - / (a) HH -0",
+      "total": 15,
+      "by_category": {
+       "Unreserved": 7,
+       "EWS": 1,
+       "SC": 2,
+       "ST": 1,
+       "OBC-NCL": 3
+      },
+      "page": 4
+     },
+     {
+      "label": "Industrial Engineering (17) / SC 02 - , / (a) HH -0",
+      "total": 11,
+      "by_category": {
+       "Unreserved": 4
+      },
+      "page": 4
+     },
+     {
+      "label": "Rajbhasha (Hindi) (18) / ST 01 - / (a) B LV -01 , ,",
+      "total": 5,
+      "by_category": {
+       "Unreserved": 3,
+       "OBC-NCL": 1
+      },
+      "page": 4
+     }
+    ],
+    "from": "table"
+   },
+   "source": {
+    "notice": "6dc4502b97c980f57707a09c1b78905fc794eadd59feb5394f81524c7991b5b2",
+    "url": "https://d3u7ubx0okog7j.cloudfront.net/documents/Advertisement_03_2026_dated_05.05.2026.pdf",
+    "title": "Detailed Advertisement No 03/2026 for Recruitment of Management Trainees through Computer Based Test (CBT-26)",
+    "kind": "advertisement"
+   }
+  },
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "SC",
+      "ST",
+      "PwBD"
+     ],
+     "amount": 0,
+     "raw": "SC / ST / PwBD candidates / Employees of Coal India Limited and its Subsidiaries are exempted from payment of application fee",
+     "page": 7
+    }
+   ],
+   "source": {
+    "notice": "6dc4502b97c980f57707a09c1b78905fc794eadd59feb5394f81524c7991b5b2",
+    "url": "https://d3u7ubx0okog7j.cloudfront.net/documents/Advertisement_03_2026_dated_05.05.2026.pdf",
+    "title": "Detailed Advertisement No 03/2026 for Recruitment of Management Trainees through Computer Based Test (CBT-26)",
+    "kind": "advertisement",
+    "page": 7
+   }
+  },
+  "age": {
+   "value": {
+    "limits": [
+     {
+      "max": 30,
+      "evidence": "The Upper Age Limit is 30 Years as on 30th April 2026 for General (UR) & EWS category candidates",
+      "page": 7
+     }
+    ],
+    "as_on": "2026-04-30"
+   },
+   "source": {
+    "notice": "6dc4502b97c980f57707a09c1b78905fc794eadd59feb5394f81524c7991b5b2",
+    "url": "https://d3u7ubx0okog7j.cloudfront.net/documents/Advertisement_03_2026_dated_05.05.2026.pdf",
+    "title": "Detailed Advertisement No 03/2026 for Recruitment of Management Trainees through Computer Based Test (CBT-26)",
+    "kind": "advertisement",
+    "page": 7
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2026-04-30",
+    "source": {
+     "notice": "6dc4502b97c980f57707a09c1b78905fc794eadd59feb5394f81524c7991b5b2",
+     "url": "https://d3u7ubx0okog7j.cloudfront.net/documents/Advertisement_03_2026_dated_05.05.2026.pdf",
+     "title": "Detailed Advertisement No 03/2026 for Recruitment of Management Trainees through Computer Based Test (CBT-26)",
+     "kind": "advertisement",
+     "page": 7
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-06-11",
+    "source": {
+     "notice": "6dc4502b97c980f57707a09c1b78905fc794eadd59feb5394f81524c7991b5b2",
+     "url": "https://d3u7ubx0okog7j.cloudfront.net/documents/Advertisement_03_2026_dated_05.05.2026.pdf",
+     "title": "Detailed Advertisement No 03/2026 for Recruitment of Management Trainees through Computer Based Test (CBT-26)",
+     "kind": "advertisement",
+     "page": 1
+    }
+   },
+   "registration_open": {
+    "date": "2026-05-12",
+    "source": {
+     "notice": "6dc4502b97c980f57707a09c1b78905fc794eadd59feb5394f81524c7991b5b2",
+     "url": "https://d3u7ubx0okog7j.cloudfront.net/documents/Advertisement_03_2026_dated_05.05.2026.pdf",
+     "title": "Detailed Advertisement No 03/2026 for Recruitment of Management Trainees through Computer Based Test (CBT-26)",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-05-12",
+    "until": "2026-06-11"
+   },
+   "source": {
+    "notice": "6dc4502b97c980f57707a09c1b78905fc794eadd59feb5394f81524c7991b5b2",
+    "url": "https://d3u7ubx0okog7j.cloudfront.net/documents/Advertisement_03_2026_dated_05.05.2026.pdf",
+    "title": "Detailed Advertisement No 03/2026 for Recruitment of Management Trainees through Computer Based Test (CBT-26)",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "advertisement_no": {
+   "value": "03/2026",
+   "source": {
+    "notice": "6dc4502b97c980f57707a09c1b78905fc794eadd59feb5394f81524c7991b5b2",
+    "url": "https://d3u7ubx0okog7j.cloudfront.net/documents/Advertisement_03_2026_dated_05.05.2026.pdf",
+    "title": "Detailed Advertisement No 03/2026 for Recruitment of Management Trainees through Computer Based Test (CBT-26)",
+    "kind": "advertisement"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Postgraduate",
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "QUALIFICATION & ELIGIBILITY CRITERIA:",
+      "page": 2
+     },
+     {
+      "text": "POST CODE Name of Discipline Minimum Qualification 11 Civil Degree in the relevant branch of Engg",
+      "page": 2
+     },
+     {
+      "text": "With a minimum of 60% marks 12 Electrical Degree in the relevant branch of Engg",
+      "page": 2
+     },
+     {
+      "text": "With a minimum of 60% marks 13 Mechanical Degree in the relevant branch of Engg",
+      "page": 2
+     },
+     {
+      "text": "With a minimum of 60% marks 14 System Recognized 1st Class Degree in BE/ B.Tech/ B.Sc (Engg.) in Computer Science / Computer Engineering / I.T or any 1st Class Degree with MCA 15 E&T BE/B.tech/B.Sc (Engg) in relevant branch of Engineering with minimum 60% marks",
+      "page": 2
+     },
+     {
+      "text": "16 Geology M.Sc. / M.Tech. in Geology or Applied Geology or Geophysics or Applied Geophysics with minimum 60% marks 17 Industrial Engineering Degree in the relevant branch of Engg",
+      "page": 2
+     },
+     {
+      "text": "Apart from the other required documents, the candidates of final year / semester / trimester will have to upload their all marksheet upto latest year / semester wise/ trimester mark sheet / marks transcript of relevant minimum educational qualification",
+      "page": 3
+     },
+     {
+      "text": "b) Before applying the candidates should ensure that they fulfil all the eligibility criteria",
+      "page": 6
+     },
+     {
+      "text": "If shortlisted, Candidature will be subject to verification of details/documents and if at any stage, it is found that candidate has submitted false information /fabricated document/ suppressed any fact or does not fulfill minimum eligibility criteria, his candidature will be cancelled without any…",
+      "page": 6
+     },
+     {
+      "text": "The candidates shall apply through online mode available on CIL website www.coalindia.in only under Career with CIL >>>> Jobs at Coal India section as per the qualification and eligibility criteria indicated above",
+      "page": 11
+     },
+     {
+      "text": "c) If any information provided by the candidate is found to be false or incorrect or is not in conformity with the eligibility criteria, then his / her candidature is liable to be rejected at any stage of the recruitment process or even after recruitment or joining without any notice",
+      "page": 13
+     },
+     {
+      "text": "i) has provided wrong information or submitted false documents or ii) has suppressed relevant information or iii) does not meet the eligibility criteria for this recruitment or iv) has resorted to unfair means during selection process or v) is found guilty of impersonation",
+      "page": 14
+     }
+    ]
+   },
+   "source": {
+    "notice": "6dc4502b97c980f57707a09c1b78905fc794eadd59feb5394f81524c7991b5b2",
+    "url": "https://d3u7ubx0okog7j.cloudfront.net/documents/Advertisement_03_2026_dated_05.05.2026.pdf",
+    "title": "Detailed Advertisement No 03/2026 for Recruitment of Management Trainees through Computer Based Test (CBT-26)",
+    "kind": "advertisement"
+   }
+  },
+  "selection": {
+   "value": [
+    "Computer-based test",
+    "Interview"
+   ],
+   "source": {
+    "notice": "6dc4502b97c980f57707a09c1b78905fc794eadd59feb5394f81524c7991b5b2",
+    "url": "https://d3u7ubx0okog7j.cloudfront.net/documents/Advertisement_03_2026_dated_05.05.2026.pdf",
+    "title": "Detailed Advertisement No 03/2026 for Recruitment of Management Trainees through Computer Based Test (CBT-26)",
+    "kind": "advertisement"
+   }
+  },
+  "pay": {
+   "value": [
+    {
+     "low": 60000,
+     "high": 180000,
+     "text": "₹60,000–180,000",
+     "evidence": "a) COMPENSATION / PAY: Selected candidates will be placed as Management Trainee in E-1 Grade in the scale of pay of ₹. 60,000 – 1,80,000/- at the initial Basic of ₹. 60,000/- per month during the training period",
+     "page": 10
+    }
+   ],
+   "source": {
+    "notice": "6dc4502b97c980f57707a09c1b78905fc794eadd59feb5394f81524c7991b5b2",
+    "url": "https://d3u7ubx0okog7j.cloudfront.net/documents/Advertisement_03_2026_dated_05.05.2026.pdf",
+    "title": "Detailed Advertisement No 03/2026 for Recruitment of Management Trainees through Computer Based Test (CBT-26)",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "exam_date"
+ ],
+ "older_documents": 0
+}

@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "exam": "dl-du-recruitment",
+ "name": "University of Delhi Non-Teaching Recruitment",
+ "body": "dl-du",
+ "purpose": "recruitment",
+ "cycle": "2021",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2021-01-11",
+    "source": {
+     "notice": "2dbffd4571f6f7ca95d576df9e8bee848f476e7a8110491301f3fe764e778b3a",
+     "url": "https://www.du.ac.in/uploads/09012021-Notice%20for cancellation of interview for the post of Assistant Professor, Department of Bio-Physics.pdf",
+     "title": "Notice regarding cancellation of interview for the post of Assistant Professor in the department of Bio-Physics under direct recruitment",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2021-01-11",
+   "source": {
+    "notice": "2dbffd4571f6f7ca95d576df9e8bee848f476e7a8110491301f3fe764e778b3a",
+    "url": "https://www.du.ac.in/uploads/09012021-Notice%20for cancellation of interview for the post of Assistant Professor, Department of Bio-Physics.pdf",
+    "title": "Notice regarding cancellation of interview for the post of Assistant Professor in the department of Bio-Physics under direct recruitment",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "advertisement_no": {
+   "value": "Estab",
+   "source": {
+    "notice": "2dbffd4571f6f7ca95d576df9e8bee848f476e7a8110491301f3fe764e778b3a",
+    "url": "https://www.du.ac.in/uploads/09012021-Notice%20for cancellation of interview for the post of Assistant Professor, Department of Bio-Physics.pdf",
+    "title": "Notice regarding cancellation of interview for the post of Assistant Professor in the department of Bio-Physics under direct recruitment",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}

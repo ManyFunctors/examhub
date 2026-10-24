@@ -1,0 +1,88 @@
+{
+ "schema": 1,
+ "exam": "tg-tgprb-constable",
+ "name": "TGLPRB Police Constable Recruitment",
+ "body": "tg-tgprb",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 27,
+    "by_category": {
+     "Unreserved": 10,
+     "ST": 3,
+     "EWS": 2,
+     "tg:BC-A": 2,
+     "tg:BC-B": 3,
+     "tg:BC-C": 0,
+     "tg:BC-D": 2,
+     "tg:BC-E": 1,
+     "tg:SC-I": 0,
+     "tg:SC-II": 2,
+     "tg:SC-III": 2,
+     "Sportsperson": 0
+    },
+    "rows": [
+     {
+      "label": "Police Transport Organi zation",
+      "total": 7,
+      "by_category": {
+       "Unreserved": 2,
+       "EWS": 0,
+       "Sportsperson": 0,
+       "tg:BC-A": 1,
+       "tg:BC-B": 0,
+       "tg:BC-C": 0,
+       "tg:BC-D": 1,
+       "tg:BC-E": 1,
+       "tg:SC-I": 0,
+       "tg:SC-II": 0,
+       "tg:SC-III": 1,
+       "ST": 1
+      },
+      "page": 1
+     },
+     {
+      "label": "Police Transport Organi zation",
+      "total": 20,
+      "by_category": {
+       "Unreserved": 8,
+       "EWS": 2,
+       "Sportsperson": 0,
+       "tg:BC-A": 1,
+       "tg:BC-B": 3,
+       "tg:BC-C": 0,
+       "tg:BC-D": 1,
+       "tg:BC-E": 0,
+       "tg:SC-I": 0,
+       "tg:SC-II": 2,
+       "tg:SC-III": 1,
+       "ST": 2
+      },
+      "page": 1
+     }
+    ],
+    "from": "table"
+   },
+   "source": {
+    "notice": "00320abfa14009226caac2c2d4b86f182be17aecbf2ae549fad77c228cc27e87",
+    "url": "https://www.tgprb.in/SI_PC_2026/Driver Mechanic Vertical Rosters 2026.pdf",
+    "title": "Category wise breakup of vacancies",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}
