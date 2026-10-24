@@ -1,0 +1,71 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d774da9a79c4435ef3cf687c91790b8461d661a295085e01a861f759d131a1b7",
+  "url": "https://www.unionbankofindia.bank.in/pdf/union-bank-of-india-generalist-specialist-officers-dp-ih-eng-oct-26.pdf",
+  "title": "Information Handout-English",
+  "body": "in-union-bank",
+  "exam": "in-union-bank-recruitment",
+  "feed": "in-union-bank/careers-recruitment",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "7c037e242ce870ba6e7212ac1208c63687b3d6918e9be6de94aa094c49843fc9",
+  "bytes": 333867,
+  "pages": 5,
+  "chars": 16486,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T10:46:42+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "exam_date": {
+   "date": "2026-10-31",
+   "evidence": "(DATE OF EXAMINATION: 31.10.2026) Post Code Name of the Post Scale",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "Before appearing for the online examination you should strictly ensure yourself that you fulfill the eligibility criteria stipulated in the advertisement in all respects",
+    "page": 2
+   }
+  ]
+ },
+ "selection": [
+  "Computer-based test"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "Professionalknowledge (DescriptivePaper)",
+   "page": 2,
+   "questions": 5,
+   "marks": 100,
+   "duration": "120Minutes"
+  },
+  {
+   "paper": "Total",
+   "page": 2,
+   "questions": 5,
+   "marks": 100,
+   "duration": "120Minutes"
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  },
+  "duration": {
+   "value": "120 Minutes *All questions will be compulsory",
+   "page": 2
+  }
+ },
+ "summary": {
+  "exam_date": "2026-10-31",
+  "selection": "Computer-based test"
+ }
+}
