@@ -309,7 +309,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://joinindianarmy.nic.in/contact-us.htm'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20211126120815/https://www.joinindianarmy.nic.in/contact-us.htm'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

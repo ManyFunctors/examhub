@@ -334,7 +334,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://yadgir.dcourts.gov.in/notice-category/recruitments/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20241206111410/https://yadgir.dcourts.gov.in/notice-category/recruitments/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

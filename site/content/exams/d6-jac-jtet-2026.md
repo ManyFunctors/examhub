@@ -352,7 +352,7 @@ link_apply         = 'https://jtet.jacportal.in/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://jac.jharkhand.gov.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261010212659/https://jac.jharkhand.gov.in/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

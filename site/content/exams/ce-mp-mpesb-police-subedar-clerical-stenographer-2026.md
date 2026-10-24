@@ -308,7 +308,7 @@ link_apply         = 'https://esb.mponline.gov.in/'
   document_published = 2026-09-24
   document_title     = 'Online Form - Subedar (Stenographer) & Asst. Sub-Inspector Recruitment Test For Police H.Q., Home (Police)…'
   document_url       = 'https://esb.mp.gov.in/Rulebooks/RB_2026/Steno_ASI_2026_Rulebook_17092026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261012030342/http://esb.mp.gov.in/Rulebooks/RB_2026/Steno_ASI_2026_Rulebook_17092026.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

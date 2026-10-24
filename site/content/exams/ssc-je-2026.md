@@ -364,17 +364,25 @@ link_apply         = 'unknown'
   document_title     = 'Tentative Vacancies of Junior Engineer Examination, 2026.'
 
   [[links.documents]]
+  document_type      = 'corrigendum'
+  document_stage     = 'all'
+  document_published = 2026-09-10
+  document_title     = 'Addendum- Notice of Junior Engineer Examination, 2026'
+  document_url       = 'https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Addendum_JE_10092026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_je_2026.pdf'
   document_archive   = 'not_archived'
-  document_title     = 'Notice of adv je 2026'
+  document_title     = 'Notice of Junior Engineer Examination, 2026'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T15:40:51+05:30
+provenance_last_checked = 2026-10-25T02:43:26+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

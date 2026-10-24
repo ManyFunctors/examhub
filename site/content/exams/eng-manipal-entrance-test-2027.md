@@ -303,7 +303,7 @@ link_apply         = 'https://login.microsoftonline.com/common/oauth2/authorize?
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://manipal.edu/admissions/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20150131082303/http://manipal.edu:80/Admissions'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

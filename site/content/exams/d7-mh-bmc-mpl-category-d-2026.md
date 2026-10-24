@@ -307,7 +307,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://portal.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2F6b24cfc8a981ecd7d877601622c34785&guest_user=english'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20250418210027/https://portal.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl://6b24cfc8a981ecd7d877601622c34785&guest_user=english'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

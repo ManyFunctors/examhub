@@ -330,7 +330,7 @@ link_apply         = 'https://admissions.nic.in/OJEE/Applicant/Root/Home.aspx?en
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://ojee.nic.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261019235834/https://ojee.nic.in/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

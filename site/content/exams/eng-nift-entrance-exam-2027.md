@@ -352,7 +352,7 @@ link_apply         = 'https://exams.nta.nic.in/niftee/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Notice_20261016183525.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261016183744/https://nta.ac.in/Download/Notice/Notice_20261016183525.pdf'
   document_title     = 'Inviting Online Applications for the National Institute of Fashion Technology Entrance Examination…'
 
   [[links.documents]]
@@ -360,7 +360,7 @@ link_apply         = 'https://exams.nta.nic.in/niftee/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260916195948.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261015162839/https://nta.ac.in/Download/Notice/Notice_20260916195948.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

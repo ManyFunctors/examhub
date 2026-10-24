@@ -352,12 +352,12 @@ link_apply         = 'unknown'
   document_published = 'unknown'
   document_url       = 'https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_capf_2026.pdf'
   document_archive   = 'not_archived'
-  document_title     = 'Notice of adv capf 2026'
+  document_title     = 'Notice of Sub-Inspector in Delhi Police and Central Armed Police Forces Examination, 2026.'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:26+05:30
+provenance_last_checked = 2026-10-25T02:43:26+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

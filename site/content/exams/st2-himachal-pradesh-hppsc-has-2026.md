@@ -300,13 +300,20 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://hppsc.hp.gov.in/'
-link_apply         = 'https://hppsconline.hp.gov.in/HPPSC/ApplicantRegistration/Home/Login'
+link_apply         = 'unknown'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://hppsc.hp.gov.in/Home/HomeWhatsNew'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://hppsconline.hp.gov.in/HPPSC/ApplicantRegistration/Home/Login'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

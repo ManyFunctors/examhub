@@ -357,7 +357,7 @@ link_apply         = 'https://stureg.nata-app.org/auth/login'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.nata.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260512102756/http://www.nata.in/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

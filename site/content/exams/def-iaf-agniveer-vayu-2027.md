@@ -307,7 +307,7 @@ link_apply         = 'https://indianairforce.nic.in/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://agnipathvayu.cdac.in/AV/psl'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20240827154442/https://agnipathvayu.cdac.in/AV/psl'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
