@@ -1,0 +1,67 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "59073e57f23dd306b7bf197510a2d0c67796d82f77bbe565ca1d46f0b5be5af5",
+  "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGAAC26_06.pdf",
+  "title": "Details for Online Application and Choice Filling for UGMAC[AYUSH]-2026 Round-3(Adv. No. BCECEB[UGMAC(Ayush)]-2026/06 Dated 24.10.2026)",
+  "body": "br-bceceb",
+  "exam": "br-pgmac",
+  "feed": "br-bceceb/notice-board",
+  "published": "2026-10-24",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "74317aeae80f05e43af473afc7c8a65983eab027add120f0a1432d358b842668",
+  "bytes": 268870,
+  "pages": 7,
+  "chars": 34715,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T15:58:20+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-11-01",
+   "evidence": "Last date of online Registration .......................................................................... : 01.11.2026 (10.00 pm) iv",
+   "page": 6,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2026-10-28",
+   "evidence": "Consent for Round-3 with Payment (if any) from such candidates who have alreadyduly submitted the Application Form earlier............................................ : 28.10.2026 to 01.11.2026 (11.59 pm) vi",
+   "page": 6,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2026-11-01",
+   "evidence": "Consent for Round-3 with Payment (if any) from such candidates who have alreadyduly submitted the Application Form earlier............................................ : 28.10.2026 to 01.11.2026 (11.59 pm) vi",
+   "page": 6,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Eligibility criteria, instructions and other details are available in the Prospectus of UGMAC(Ayush)-2026 which can be downloaded from the Board’s website bceceboard.bihar.gov.in by clicking on the link “UGMAC(Ayush)-2026” under Prospectus Section",
+    "page": 1
+   },
+   {
+    "text": "* For Eligibility Criteria and other details, required Documents for admission on (DQ) Quota, candidates are advised to see 'Annexure-I' of Information Bulletin of AACCC which can be seen on AACCC Official Website",
+    "page": 4
+   }
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2026-10-28",
+   "until": "2026-11-01"
+  },
+  "education": [
+   "Graduate"
+  ]
+ }
+}
