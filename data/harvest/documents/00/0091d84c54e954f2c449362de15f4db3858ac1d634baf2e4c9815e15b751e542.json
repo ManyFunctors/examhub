@@ -1,0 +1,45 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0091d84c54e954f2c449362de15f4db3858ac1d634baf2e4c9815e15b751e542",
+  "url": "https://api.apfd.apcfss.in/socialwelfaredms/jnanabhumi/file-download/bucket/swfileuploads/BIE/CIRCULARS/CIRCULAR-1792734492509.pdf",
+  "title": "TT 2nd Yr Voc IPE March 2027 INTERMEDIATE VOCATIONAL 2nd YEAR PUBLIC THEORY EXAMINATIONS, FEBRUARY/MARCH- 2027",
+  "body": "ap-bieap",
+  "exam": "ap-bieap-class-12",
+  "feed": "ap-bieap/home",
+  "published": "2026-10-23",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "4c9795cb3ef9de15608667d3525008c997b7eb75307e988339936ef029c73aed",
+  "bytes": 178622,
+  "pages": 3,
+  "chars": 4982,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T04:39:45+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2027-01-27",
+   "evidence": "2) Ethics and Human Values Examination shall be conducted on 27-01-2027 (Wednesday) from",
+   "page": 3,
+   "from": "text"
+  }
+ },
+ "pay": [
+  {
+   "levels": [
+    4
+   ],
+   "text": "Pay Level 4",
+   "evidence": "5) Samagra Shiksha Vocational Trade Examination (NSQF Level-4)(Theory) shall be conducted on 17-02-2027( Wednesday) from 10.00AM to 12.00PM",
+   "page": 3
+  }
+ ],
+ "summary": {
+  "exam_date": "2027-01-27",
+  "pay": "Pay Level 4"
+ }
+}

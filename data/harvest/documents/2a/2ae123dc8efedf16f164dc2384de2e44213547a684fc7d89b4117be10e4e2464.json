@@ -1,0 +1,27 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2ae123dc8efedf16f164dc2384de2e44213547a684fc7d89b4117be10e4e2464",
+  "url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Regarding_postpone_72nd_BPSC_BPSC-20260720-u768lx.pdf",
+  "title": "Important Notice :- Regarding Postponement of 72nd CCE (Preliminary) Competitive Examination.",
+  "body": "br-bpsc",
+  "exam": "br-bpsc-cce",
+  "feed": "br-bpsc/notices",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "fe0f5fa2d26d6fea8df8f177b9398691fb0e2bdb7bf76bdba4eb90bbc647f5df",
+  "bytes": 66428,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T04:40:25+05:30"
+ },
+ "kind": "corrigendum",
+ "warnings": [
+  "page 1: OCR failed (no result after 300s)",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "00320abfa14009226caac2c2d4b86f182be17aecbf2ae549fad77c228cc27e87",
+  "url": "https://www.tgprb.in/SI_PC_2026/Driver Mechanic Vertical Rosters 2026.pdf",
+  "title": "Category wise breakup of vacancies",
+  "body": "tg-tgprb",
+  "exam": "tg-tgprb-constable",
+  "feed": "tg-tgprb/home",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "47eda17bb032a57b02436877d1ffeb516152d96ad42a8ed874746d4730c3920a",
+  "bytes": 172577,
+  "pages": 1,
+  "chars": 510,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T04:39:37+05:30"
+ },
+ "kind": "advertisement",
+ "unmapped_classes": [
+  {
+   "label": "ExS",
+   "page": 1
+  }
+ ],
+ "vacancies": {
+  "total": 27,
+  "by_category": {
+   "Unreserved": 10,
+   "ST": 3,
+   "EWS": 2,
+   "tg:BC-A": 2,
+   "tg:BC-B": 3,
+   "tg:BC-C": 0,
+   "tg:BC-D": 2,
+   "tg:BC-E": 1,
+   "tg:SC-I": 0,
+   "tg:SC-II": 2,
+   "tg:SC-III": 2,
+   "Sportsperson": 0
+  },
+  "rows": [
+   {
+    "label": "Police Transport Organi zation",
+    "total": 7,
+    "by_category": {
+     "Unreserved": 2,
+     "EWS": 0,
+     "Sportsperson": 0,
+     "tg:BC-A": 1,
+     "tg:BC-B": 0,
+     "tg:BC-C": 0,
+     "tg:BC-D": 1,
+     "tg:BC-E": 1,
+     "tg:SC-I": 0,
+     "tg:SC-II": 0,
+     "tg:SC-III": 1,
+     "ST": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "Police Transport Organi zation",
+    "total": 20,
+    "by_category": {
+     "Unreserved": 8,
+     "EWS": 2,
+     "Sportsperson": 0,
+     "tg:BC-A": 1,
+     "tg:BC-B": 3,
+     "tg:BC-C": 0,
+     "tg:BC-D": 1,
+     "tg:BC-E": 0,
+     "tg:SC-I": 0,
+     "tg:SC-II": 2,
+     "tg:SC-III": 1,
+     "ST": 2
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "summary": {
+  "vacancies": 27
+ }
+}

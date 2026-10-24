@@ -1,0 +1,342 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "538aeff56ebc1bc2ac1f7eea24bd0903769abe6cbec9ac928bcb1145c0cc4249",
+  "url": "https://www.upsc.gov.in/sites/default/files/Notif-CGeoScnstPre-26-Engl.pdf",
+  "title": "Combined Geo-Scientist (Preliminary) Examination, 2026 - Download Notification Notice",
+  "body": "in-upsc",
+  "exam": "in-upsc-geo-scientist",
+  "feed": "in-upsc/active-exams",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "dbde77e280c9db24913603a85337e44829a9701f0829be35c1c9eb93a8516392",
+  "bytes": 1480578,
+  "pages": 43,
+  "chars": 162208,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T04:39:41+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2026-06-20",
+   "evidence": "The Main Examination will be held on 20th & 21st June, 2026 The Main Examination will be held on the following Centres:",
+   "page": 3,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2025-09-23",
+   "evidence": "Such applicants who are unable to pay by cash on the closing date i.e. during banking hours at SBI Branch, for reasons whatsoever, even if holding valid pay-in-slip will have no other offline option but to opt for available online Debit/Cre",
+   "page": 8,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2025-09-03",
+   "evidence": "on all working days during the application window i.e from 03.09.2025 to 23.09.2025",
+   "page": 2,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "Women",
+    "SC",
+    "ST",
+    "PwBD"
+   ],
+   "except": true,
+   "amount": 200,
+   "raw": "Candidates (excepting Female/SC/ST/Persons with Benchmark Disability Candidates who are exempted from payment of fee) are required to pay fee of Rs. 200/- (Rupees Two Hundred only), alongwith the submission of On-line Application Form,…",
+   "page": 8
+  },
+  {
+   "categories": [
+    "Women",
+    "SC",
+    "ST",
+    "PwBD"
+   ],
+   "amount": 0,
+   "raw": "Candidates (excepting Female/SC/ST/Persons with Benchmark Disability Candidates who are exempted from payment of fee) are required to pay fee of Rs. 200/- (Rupees Two Hundred only), alongwith the submission of On-line Application Form,…",
+   "page": 8
+  },
+  {
+   "categories": [
+    "PwBD"
+   ],
+   "amount": 0,
+   "raw": "Persons with benchmark disability are exempted from the payment of fee provided they are otherwise eligible for appointment to the Posts to be filled on the results of this Examination on the basis of the standards of medical fitness for…",
+   "page": 8
+  },
+  {
+   "categories": [
+    "SC",
+    "ST",
+    "Women",
+    "PwBD"
+   ],
+   "except": true,
+   "amount": 200,
+   "raw": "The candidates are required to pay a fee of Rs.200/- Rupees Two Hundred only) [excepting SC/ST/ Female/Persons with Benchmark Disability candidates who are exempted from payment of fee] either by remitting the money in any branch of State…",
+   "page": 34
+  },
+  {
+   "categories": [
+    "SC",
+    "ST",
+    "Women",
+    "PwBD"
+   ],
+   "amount": 0,
+   "raw": "The candidates are required to pay a fee of Rs.200/- Rupees Two Hundred only) [excepting SC/ST/ Female/Persons with Benchmark Disability candidates who are exempted from payment of fee] either by remitting the money in any branch of State…",
+   "page": 34
+  }
+ ],
+ "age": {
+  "relaxations": [
+   {
+    "categories": [
+     "Government Employee"
+    ],
+    "years": 7,
+    "raw": "(b) The upper age limit will be relaxable upto a maximum of 7 years in the case of Government servants, if they are employed in a Department mentioned in Column I below and apply for the…",
+    "page": 5
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "SC/ST/OBC/ EWS/PwBD/Ex-Servicemen], educational qualification, etc. as may be sought by the Commission along with the Common Application Form (CAF)",
+    "page": 1
+   },
+   {
+    "text": "Candidate should have details of one Photo ID Card viz",
+    "page": 1
+   },
+   {
+    "text": "(II) Age Limits: (a) A candidate must have attained the age of 21 years and must not have attained the age of 32 years on the first day of the month of January of the year in which the Examination is to be held [i.e. as on 1st January, 2026] i.e. he/she must have been born not earlier than 2nd…",
+    "page": 5
+   },
+   {
+    "text": "NB: Candidates should ensure that they meet the age eligibility criteria for each post mentioned above for which they are applying",
+    "page": 5
+   },
+   {
+    "text": "(iii) Minimum Educational Qualification A candidate must have:",
+    "page": 7
+   },
+   {
+    "text": "(i) For Geologist Group ‘A’ in Geological Survey of India Master’s degree in Geological Science or Geology or Applied Geology or Geo- Exploration or Mineral Exploration or Engineering Geology or Marine Geology or Earth Science and Resource Management or Oceanography and Coastal Areas Studies or…",
+    "page": 7
+   },
+   {
+    "text": "Master’s degree in Geology or applied Geology or Marine Geology or Hydrogeology from a University incorporated by an Act of the Central or State Legislature in India or other educational Institutes established by an act of Parliament or declared to be deemed as Universities under Section 3 of the…",
+    "page": 7
+   },
+   {
+    "text": "Note II: Master's degree in respective d i s c i p l i n e m e a n s t h e p o s t g r a d u a t e d e g r e e o f m i n i m u m t w o y e a r s d u r a t i o n a f t e r graduation from aforesaid University or Institute in the respective discipline, whether be it an integrated course or otherwise",
+    "page": 7
+   },
+   {
+    "text": "However, all such candidates, who are declared qualified by the Commission for Interview/Personality Test, will be required to produce proof of passing of the requisite qualifying examination within the time limit which is as under:- The Commission shall provide a window after the declaration of…",
+    "page": 7
+   },
+   {
+    "text": "The candidates, who do not have the prescribed Educational qualification at the time of the Online Application, shall be required to update their details and to upload the proof of passing of the requisite qualifying examination on the Common Application Form (CAF), failing which such candidates…",
+    "page": 7
+   },
+   {
+    "text": "SC/ST/OBC/ EWS/PwBD/Ex-Servicemen], educational qualification, etc. as may be sought by the Commission along with the Common application Form (CAF)",
+    "page": 9
+   },
+   {
+    "text": "Certificate of Educational Qualification",
+    "page": 10
+   },
+   {
+    "text": "Provided further that the persons with Benchmark Disabilities shall also be required to meet special eligibility criteria in terms of physical requirements/functional classification (abilities/ disabilities) consistent with requirements of the identified Service/Post as under:- Geologist Gr ‘A’:",
+    "page": 12
+   },
+   {
+    "text": "4.3 The qualification of the Commission’s scribe as well as own scribe will not be more than the minimum qualification criteria of the Examination",
+    "page": 17
+   },
+   {
+    "text": " Before start filling up Online Application, a candidate must have his photograph and signature duly scanned in the .jpg format in such a manner that each file should not exceed 300 KB each and must not be less than 20 KB in size for the photograph and signature",
+    "page": 34
+   },
+   {
+    "text": "My educational qualification is ……………………………………………",
+    "page": 43
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "Paper-I : General Studies",
+   "page": 15,
+   "duration": "2 Hours"
+  },
+  {
+   "paper": "Paper-II : Geology/Hydrogeology",
+   "page": 15,
+   "duration": "2 Hours"
+  },
+  {
+   "paper": "Total",
+   "page": 15
+  },
+  {
+   "paper": "Paper-I : General Studies",
+   "page": 15,
+   "duration": "2 Hours"
+  },
+  {
+   "paper": "Paper-II : Geophysics",
+   "page": 15,
+   "duration": "2 Hours"
+  },
+  {
+   "paper": "Total",
+   "page": 15
+  },
+  {
+   "paper": "Paper-I : General Studies",
+   "page": 15,
+   "duration": "2 Hours"
+  },
+  {
+   "paper": "Paper-II : Chemistry",
+   "page": 15,
+   "duration": "2 Hours"
+  },
+  {
+   "paper": "Total",
+   "page": 15
+  },
+  {
+   "paper": "Total",
+   "page": 16
+  },
+  {
+   "paper": "Stream-II : Geophysicist Group ‘A’ in GSI and Scientist ‘B’ (Geophysics) Group ‘A’ & Assistant Geophysicist Group ‘B’ in CGWB",
+   "page": 16
+  },
+  {
+   "paper": "Subject",
+   "page": 16,
+   "duration": "Duration"
+  },
+  {
+   "paper": "Paper-I : Geophysics",
+   "page": 16,
+   "duration": "3 Hours"
+  },
+  {
+   "paper": "Paper-II : Geophysics",
+   "page": 16,
+   "duration": "3 Hours"
+  },
+  {
+   "paper": "Paper-III : Geophysics",
+   "page": 16,
+   "duration": "3 Hours"
+  },
+  {
+   "paper": "Stream-III : Chemist Group ‘A’ in GSI and Scientist ‘B’ (Chemical) Group ‘A’ & Assistant Chemist Group ‘B’ in CGWB",
+   "page": 16
+  },
+  {
+   "paper": "Subject",
+   "page": 16,
+   "duration": "Duration"
+  },
+  {
+   "paper": "Paper-I : Chemistry",
+   "page": 16,
+   "duration": "3 Hours"
+  },
+  {
+   "paper": "Paper-II : Chemistry",
+   "page": 16,
+   "duration": "3 Hours"
+  },
+  {
+   "paper": "Paper-III : Chemistry",
+   "page": 16,
+   "duration": "3 Hours"
+  },
+  {
+   "paper": "Stream-IV : Scientist ‘B’(Hydrogeology) Group ‘A’ & Assistant Hydrogeologist Group ‘B’ in CGWB",
+   "page": 16
+  },
+  {
+   "paper": "Subject",
+   "page": 16,
+   "duration": "Duration"
+  },
+  {
+   "paper": "Paper-I : Geology",
+   "page": 16,
+   "duration": "3 Hours"
+  },
+  {
+   "paper": "Paper-II : Geology",
+   "page": 16,
+   "duration": "3 Hours"
+  },
+  {
+   "paper": "Paper-III : Hydrogeology",
+   "page": 16,
+   "duration": "3 Hours"
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 2
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://upsconline.nic.in/",
+   "http://www.upsconline.nic.in/",
+   "http://upsconline/nic/in/miscellaneous/QPRep/"
+  ],
+  "other": [
+   "http://www.upsc.gov.in/",
+   "https://www.upsc.gov.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2025-09-03",
+   "until": "2025-09-23"
+  },
+  "exam_date": "2026-06-20",
+  "fee": {
+   "min": 0,
+   "max": 200
+  },
+  "education": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "selection": "Interview"
+ }
+}

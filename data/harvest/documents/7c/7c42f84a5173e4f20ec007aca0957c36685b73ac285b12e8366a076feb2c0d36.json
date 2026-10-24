@@ -1,0 +1,45 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "7c42f84a5173e4f20ec007aca0957c36685b73ac285b12e8366a076feb2c0d36",
+  "url": "https://gssc.goa.gov.in/docs/whats_new/notice-reg-physical-standards-test-for-various-posts-for-candidates-who-could-not-attend-the-first-phase.pdf",
+  "title": "Notice reg. Physical Standards Test for various posts – for candidates who could not attend the first phase",
+  "body": "ga-gssc",
+  "exam": "ga-gssc-recruitment",
+  "feed": "ga-gssc/home",
+  "published": "2026-10-23",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "9d28fd9348ea17e31789056c686eecf483d3101f7da2dff46a029e2b20b73e4d",
+  "bytes": 120279,
+  "pages": 1,
+  "chars": 2214,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T04:42:50+05:30"
+ },
+ "kind": "admit_card",
+ "dates": {
+  "exam_date": {
+   "date": "2026-09-01",
+   "evidence": "6, dated 20/02/2026, the Physical ight and chest of male candidates, st of Range Forest Officer, Platoon e (Male/Female), Police Constable ), Constable (Greaser), Constable t (Male), Warden (Male), Matron s conducted by the Goa Police per e",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://citizen.goapol"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-09-01"
+ }
+}

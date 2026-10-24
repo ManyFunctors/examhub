@@ -1,0 +1,56 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0fadea40de1f5a4c7976910ee05bf8b8285ef3a361f882fd268f1db125e636e4",
+  "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Pharmacist_Ayurveda_CV_25022019.pdf",
+  "title": "Schedule for certificate verification of Pharmacist (Ayurveda)",
+  "body": "tn-mrb",
+  "exam": "tn-mrb-recruitment",
+  "feed": "tn-mrb/notifications",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "ac18a77b8bcac5817f5a8d6c16a93e74527f3940f9ceb8568c4236dbfffd64bd",
+  "bytes": 55614,
+  "pages": 7,
+  "chars": 8640,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T04:39:36+05:30"
+ },
+ "kind": "schedule",
+ "advertisement_no": "02/MRB/2018",
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "The candidates are called for verification of certificates / documents based on the particulars furnished in their on-line applications such as age, educational qualification, community, etc",
+    "page": 1
+   },
+   {
+    "text": "The provisional selection of candidates will be made only after verification/ acceptance of certain documents, educational qualification possessed by him/her, clarification regarding community status and its acceptance, marks / rank list of the candidate etc. as the case may be",
+    "page": 1
+   },
+   {
+    "text": "Evidence and Mark sheets of Educational qualification (SSLC, HSC and Diploma course in Indian System of Medicine / Diploma in Pharmacy (Ayurveda) / Diploma in Integrated Pharmacy conducted by Government of Tamil Nadu) c",
+    "page": 3
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "https://www.mrb.tn.gov.in"
+  ]
+ },
+ "summary": {
+  "education": [
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12"
+  ]
+ }
+}

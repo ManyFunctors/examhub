@@ -1,0 +1,52 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "188cdd0596cb8b73cff9ea34594ccab77696a0e6b70bf7e5611d5db97fb87bbe",
+  "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGDAC26_06.pdf",
+  "title": "Details for Extesion of Date for Registration-cum-Choice Filling for Admission in Round-3 of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/06 Dated 23.10.2026)",
+  "body": "br-bceceb",
+  "exam": "br-bceceb-pgdac",
+  "feed": "br-bceceb/notice-board",
+  "published": "2026-10-23",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "58fb12686d947a2fb93818d6a0d680eab201c04517afe5f31bd1fa784f9df33b",
+  "bytes": 308226,
+  "pages": 1,
+  "chars": 4423,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T04:39:51+05:30"
+ },
+ "kind": "corrigendum",
+ "advertisement_no": "BCECEB(PGDAC)-2026/06",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-11-01",
+   "evidence": "Last date of online Registration ............................................................................. : 01.11.2026 (10:00 pm) iv",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2026-10-24",
+   "evidence": "Consent for Round-3 with Payment (if any) through (Debit Card / Credit Card / Net Banking / UPI) / Editing of Application Form data / Choice Filling / Editing of Choices from such candidates who have already duly submitted the Application F",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "Eligibility criteria for counselling, Fee payment procedure, instructions and other details are available in the prospectus of PGDAC-2026 and Advertisement No",
+    "page": 1
+   }
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2026-10-24",
+   "until": "2026-11-01"
+  }
+ }
+}
