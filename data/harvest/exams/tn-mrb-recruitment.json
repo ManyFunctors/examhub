@@ -5,8 +5,8 @@
  "body": "tn-mrb",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 8,
- "documents_in_cycle": 1,
+ "documents": 10,
+ "documents_in_cycle": 2,
  "fields": {
   "vacancies": {
    "value": {
@@ -92,6 +92,26 @@
      "kind": "advertisement",
      "page": 1
     }
+   },
+   "exam_date": {
+    "date": "2026-01-25",
+    "source": {
+     "notice": "0e5143ce966027afb0d07c897244c4df347ec6107a8509f91db6273be6f32ed7",
+     "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/CertificateVerificationScheduleforthepostofAssistantSurgeonGeneral.pdf",
+     "title": "Certificate Verification Schedule for the post of Assistant Surgeon (General",
+     "kind": "schedule",
+     "page": 5
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2026-01-25",
+   "source": {
+    "notice": "0e5143ce966027afb0d07c897244c4df347ec6107a8509f91db6273be6f32ed7",
+    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/CertificateVerificationScheduleforthepostofAssistantSurgeonGeneral.pdf",
+    "title": "Certificate Verification Schedule for the post of Assistant Surgeon (General",
+    "kind": "schedule",
+    "page": 5
    }
   },
   "eligibility": {
@@ -99,47 +119,29 @@
     "education_levels": [
      "Graduate",
      "Diploma / ITI",
-     "Class 12",
-     "Class 10"
+     "Class 12"
     ],
     "clauses": [
      {
-      "text": "Category Minimum Age (should have completed) ( in years) Maximum Age (in years) a",
-      "page": 4
+      "text": "on the marks secured by the candidates in the Computer Based Test and particulars furnished in their on-line applications such as age, educational qualification, community, etc and other relevant rules in vogue",
+      "page": 2
      },
      {
-      "text": "EDUCATIONAL QUALIFICATION:",
-      "page": 5
+      "text": "The provisional selection of candidates will be made only after verification/ acceptance of certain documents, educational qualification possessed by him / her, clarification regarding community status and its acceptance marks / rank list of the candidate etc. as the case may be",
+      "page": 2
      },
      {
-      "text": "CONDITIONS AND QUALIFICATION:",
-      "page": 5
-     },
-     {
-      "text": "Minimum educational qualification required for the post Weightage of marks Diploma HSC / P.U.C SSLC / 10th Diploma in Indian System of Medicine",
-      "page": 6
-     },
-     {
-      "text": "ii) Wherever the basic essential qualification for a technical post is a Diploma and admission to such a programme has been changed from SSLC to HSC, in all such cases the weightage may be restricted to marks obtained in SSLC and the technical certificate",
-      "page": 6
-     },
-     {
-      "text": "Evidence and Mark sheet of Educational qualification (SSLC / HSC / Diploma Course in Indian System of Medicine / Pharmacy (Homoeopathy) / Integrated Pharmacy conducted by Government of Tamil Nadu",
-      "page": 17
-     },
-     {
-      "text": "Community Certificate should have been issued by the competent authorities referred to above, in whose jurisdiction the candidate claims to have permanent residence, after personal enquiries and proper verification",
-      "page": 19
+      "text": "SSLC / HSC) 2 Community certificate from the competent authority of Government of Tamil Nadu (Permanent Community Certificate) 3 Evidence of Educational qualification SSLC, HSC, CRRI completion certificate MBBS and PG Diploma / PG Degree if any).as prescribed in the notification",
+      "page": 3
      }
     ]
    },
    "source": {
-    "notice": "09e03174a5e0e940c6137af1b5315e59e106c71048240c2c33e2a37a9e006d50",
-    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Homoeopathy_Notification_250222.pdf",
-    "title": "Recruitment Notification for Pharmacist (Homoeopathy)",
-    "kind": "advertisement"
-   },
-   "carried_from": "2022"
+    "notice": "0e5143ce966027afb0d07c897244c4df347ec6107a8509f91db6273be6f32ed7",
+    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/CertificateVerificationScheduleforthepostofAssistantSurgeonGeneral.pdf",
+    "title": "Certificate Verification Schedule for the post of Assistant Surgeon (General",
+    "kind": "schedule"
+   }
   },
   "selection": {
    "value": [
@@ -207,9 +209,8 @@
  },
  "gaps": [
   "apply",
-  "exam_date",
   "fee",
   "age"
  ],
- "older_documents": 7
+ "older_documents": 8
 }

@@ -1,0 +1,71 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0e5143ce966027afb0d07c897244c4df347ec6107a8509f91db6273be6f32ed7",
+  "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/CertificateVerificationScheduleforthepostofAssistantSurgeonGeneral.pdf",
+  "title": "Certificate Verification Schedule for the post of Assistant Surgeon (General",
+  "body": "tn-mrb",
+  "exam": "tn-mrb-recruitment",
+  "feed": "tn-mrb/notifications",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "12e604dfae374957d7c69f62e3f8ef27b5ece06d7c2aef7500c7bff0b46d4805",
+  "bytes": 1372591,
+  "pages": 28,
+  "chars": 43823,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T07:51:50+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "exam_date": {
+   "date": "2026-01-25",
+   "evidence": "List of candidates called for certificate verification for the post of Assistant Surgeon (General) based on their claim in the online application and marks scored in the subject paper of Computer Based Test conducted on 25.01.2026",
+   "page": 5,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "on the marks secured by the candidates in the Computer Based Test and particulars furnished in their on-line applications such as age, educational qualification, community, etc and other relevant rules in vogue",
+    "page": 2
+   },
+   {
+    "text": "The provisional selection of candidates will be made only after verification/ acceptance of certain documents, educational qualification possessed by him / her, clarification regarding community status and its acceptance marks / rank list of the candidate etc. as the case may be",
+    "page": 2
+   },
+   {
+    "text": "SSLC / HSC) 2 Community certificate from the competent authority of Government of Tamil Nadu (Permanent Community Certificate) 3 Evidence of Educational qualification SSLC, HSC, CRRI completion certificate MBBS and PG Diploma / PG Degree if any).as prescribed in the notification",
+    "page": 3
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  }
+ },
+ "links": {
+  "other": [
+   "http://www.mrb.tn.gov.in/",
+   "https://www.mrb.tn.gov.in"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-01-25",
+  "education": [
+   "Graduate",
+   "Diploma / ITI",
+   "Class 12"
+  ]
+ }
+}
