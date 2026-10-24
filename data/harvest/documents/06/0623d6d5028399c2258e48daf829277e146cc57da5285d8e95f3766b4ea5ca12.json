@@ -1,0 +1,181 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0623d6d5028399c2258e48daf829277e146cc57da5285d8e95f3766b4ea5ca12",
+  "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/10_MRB_ECG_Technician_Notification.pdf",
+  "title": "Notification for ECG Technician",
+  "body": "tn-mrb",
+  "exam": "tn-mrb-recruitment",
+  "feed": "tn-mrb/notifications",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "fdab5e88c385e3bb1c55309b2066502074c37693eb6d40548fae543f2503e3fe",
+  "bytes": 229786,
+  "pages": 34,
+  "chars": 49467,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T19:29:26+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "10/MRB/2017",
+ "dates": {
+  "registration_deadline": {
+   "date": "2017-09-11",
+   "evidence": "Last date for submission of Application (Online Registration & Online payment)",
+   "page": 2,
+   "from": "text"
+  },
+  "payment_deadline": {
+   "date": "2017-09-13",
+   "evidence": "Last date for offline payment of fee through Indian Bank",
+   "page": 2,
+   "from": "text"
+  },
+  "age_as_on": {
+   "date": "2017-07-01",
+   "evidence": "AGE (as on 01.07.2017):",
+   "page": 4,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 9,
+  "by_category": {
+   "PwBD": 1,
+   "Destitute Widow": 4
+  },
+  "rows": [
+   {
+    "label": "GT / -",
+    "total": 3,
+    "by_category": {
+     "Destitute Widow": 1,
+     "PwBD": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "BC / -",
+    "total": 2,
+    "by_category": {
+     "Destitute Widow": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "MBC/DNC / -",
+    "total": 2,
+    "by_category": {
+     "Destitute Widow": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "SC / -",
+    "total": 1,
+    "page": 1
+   },
+   {
+    "label": "SC(A) / -",
+    "total": 1,
+    "by_category": {
+     "Destitute Widow": 1
+    },
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "age": {
+  "limits": [
+   {
+    "max": 53,
+    "evidence": "Persons who have been demobilized from the Army, Navy or Air Force, (i) Who will be below 53 years of age in the case of Scheduled Castes, Scheduled Castes (Arunthathiyars), Scheduled Tribes, Most Backward Classes / Denotified…",
+    "page": 17
+   }
+  ],
+  "as_on": "2017-07-01"
+ },
+ "pay": [
+  {
+   "low": 5200,
+   "high": 20200,
+   "text": "₹5,200–20,200",
+   "evidence": "Scale of pay of Rs.5,200-20,200 + Grade Pay Rs.2,400",
+   "page": 2
+  }
+ ],
+ "eligibility": {
+  "education_levels": [
+   "Class 12",
+   "Class 10"
+  ],
+  "clauses": [
+   {
+    "text": "Category Minimum Age (should have completed) ( in years) Maximum Age (in years) a",
+    "page": 4
+   },
+   {
+    "text": "EDUCATIONAL QUALIFICATION:",
+    "page": 6
+   },
+   {
+    "text": "TECHNICIAN i) Must have passed PUC under old regulations",
+    "page": 6
+   },
+   {
+    "text": "and ii) Must have passed one year certificate course in Electro Cardiogram or Treadmill Technician conducted by the Government of Tamil Nadu",
+    "page": 6
+   },
+   {
+    "text": "CONDITIONS AND QUALIFICATION:",
+    "page": 6
+   },
+   {
+    "text": "Minimum educational qualification required for the post Weightage of marks Certificate HSC/ P.U.C SSLC / 10th Certificate in Electro Cardiogram or Treadmill Technician with HSC / PUC 50% 30% 20%",
+    "page": 7
+   },
+   {
+    "text": "Evidence and Mark sheet of Educational qualification (SSLC / HSC / PUC/ Electro Cardiogram or Treadmill Technician certificate etc.) [Certificate course in Electro Cardiogram or Treadmill Technician conducted by the Government of Tamil Nadu]",
+    "page": 19
+   },
+   {
+    "text": "Community Certificate should have been issued by the competent authorities referred to above, in whose jurisdiction the candidate claims to have permanent residence, after personal enquiries and proper verification",
+    "page": 21
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "Certificate in Electro Cardiogramor Treadmill Technician with HSC",
+   "page": 7
+  }
+ ],
+ "links": {
+  "other": [
+   "https://www.mrb.tn.gov.in",
+   "https://www.twitter.com/mrb_tn",
+   "http://www.mrb.tn.gov.in/pdf/MRB_LIST_COMMUNITIES_020614.pdf"
+  ]
+ },
+ "summary": {
+  "vacancies": 9,
+  "apply": {
+   "until": "2017-09-11"
+  },
+  "age": {
+   "max": 53
+  },
+  "pay": "₹5,200–20,200",
+  "education": [
+   "Class 12",
+   "Class 10"
+  ],
+  "selection": "Interview"
+ }
+}
