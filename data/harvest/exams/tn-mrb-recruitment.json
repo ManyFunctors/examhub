@@ -5,7 +5,7 @@
  "body": "tn-mrb",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 27,
+ "documents": 28,
  "documents_in_cycle": 3,
  "fields": {
   "vacancies": {
@@ -147,30 +147,40 @@
   },
   "selection": {
    "value": [
+    "Written examination",
+    "Computer-based test",
     "Interview"
    ],
    "source": {
-    "notice": "09e03174a5e0e940c6137af1b5315e59e106c71048240c2c33e2a37a9e006d50",
-    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Homoeopathy_Notification_250222.pdf",
-    "title": "Recruitment Notification for Pharmacist (Homoeopathy)",
+    "notice": "00e26559e8643c6a75ab4803bf9a1eb1e72e94a69d7f71914480136099e2fd8d",
+    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Pharmacist_Notification_2025.pdf",
+    "title": "Notification for Pharmacist",
     "kind": "advertisement"
    },
-   "carried_from": "2022"
+   "carried_from": "2025"
   },
   "exam_pattern": {
    "value": [
     {
-     "paper": "Diploma in Indian System of Medicine",
-     "page": 6
+     "paper": "Tamil languageEligibility Test (SSLC Standard) @",
+     "page": 5,
+     "marks": 50,
+     "duration": "1 hour"
+    },
+    {
+     "paper": "Computer BasedExamination (CBT) for Pharmacist",
+     "page": 5,
+     "marks": 100,
+     "duration": "2 hours"
     }
    ],
    "source": {
-    "notice": "09e03174a5e0e940c6137af1b5315e59e106c71048240c2c33e2a37a9e006d50",
-    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Homoeopathy_Notification_250222.pdf",
-    "title": "Recruitment Notification for Pharmacist (Homoeopathy)",
+    "notice": "00e26559e8643c6a75ab4803bf9a1eb1e72e94a69d7f71914480136099e2fd8d",
+    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Pharmacist_Notification_2025.pdf",
+    "title": "Notification for Pharmacist",
     "kind": "advertisement"
    },
-   "carried_from": "2022"
+   "carried_from": "2025"
   },
   "pay": {
    "value": [
@@ -178,35 +188,20 @@
      "levels": [
       11
      ],
-     "text": "Pay Level 11",
-     "evidence": "35400-112400 (Pay Matrix Level 11)",
+     "low": 35400,
+     "high": 130400,
+     "text": "Pay Level 11, ₹35,400–130,400",
+     "evidence": "Pharmacist Rs.35,400 – 1,30,400 (Pay Matrix Level-11)",
      "page": 1
-    },
-    {
-     "levels": [
-      11
-     ],
-     "low": 35400,
-     "high": 112400,
-     "text": "Pay Level 11, ₹35,400–112,400",
-     "evidence": "Scale of pay of Rs. 35400 – 112400 (Pay Matrix Level 11)",
-     "page": 2
-    },
-    {
-     "low": 35400,
-     "high": 112400,
-     "text": "₹35,400–112,400",
-     "evidence": "The selected candidates will be paid scale of pay of Rs. 35400 – 112400(Level-II)",
-     "page": 24
     }
    ],
    "source": {
-    "notice": "09e03174a5e0e940c6137af1b5315e59e106c71048240c2c33e2a37a9e006d50",
-    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Homoeopathy_Notification_250222.pdf",
-    "title": "Recruitment Notification for Pharmacist (Homoeopathy)",
+    "notice": "00e26559e8643c6a75ab4803bf9a1eb1e72e94a69d7f71914480136099e2fd8d",
+    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Pharmacist_Notification_2025.pdf",
+    "title": "Notification for Pharmacist",
     "kind": "advertisement"
    },
-   "carried_from": "2022"
+   "carried_from": "2025"
   }
  },
  "gaps": [
@@ -214,5 +209,5 @@
   "fee",
   "age"
  ],
- "older_documents": 24
+ "older_documents": 25
 }
