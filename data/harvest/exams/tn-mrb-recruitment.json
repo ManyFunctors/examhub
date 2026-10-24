@@ -5,7 +5,7 @@
  "body": "tn-mrb",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 34,
+ "documents": 35,
  "documents_in_cycle": 3,
  "fields": {
   "vacancies": {
@@ -148,59 +148,62 @@
   "selection": {
    "value": [
     "Written examination",
-    "Computer-based test",
-    "Interview"
+    "Interview",
+    "Computer-based test"
    ],
    "source": {
-    "notice": "00e26559e8643c6a75ab4803bf9a1eb1e72e94a69d7f71914480136099e2fd8d",
-    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Pharmacist_Notification_2025.pdf",
-    "title": "Notification for Pharmacist",
+    "notice": "06ee12ce79c46c12e25faf15ddb4e6a0be4e608875af1b371c85bf68d08be9a7",
+    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/NotificationforthepostofAssistantSurgeonGeneralwithSpecialityQualification.pdf",
+    "title": "Notification for the post of Assistant Surgeon (General) with Speciality Qualification",
     "kind": "advertisement"
    },
+   "alternatives": 1,
    "carried_from": "2025"
   },
   "exam_pattern": {
    "value": [
     {
-     "paper": "Tamil languageEligibility Test (SSLC Standard) @",
-     "page": 5,
+     "paper": "Tamil Language Eligibility Test* (10th Standard Level)",
+     "page": 8,
      "marks": 50,
-     "duration": "1 hour"
+     "duration": "1:00 Hour"
     },
     {
-     "paper": "Computer BasedExamination (CBT) for Pharmacist",
-     "page": 5,
+     "paper": "Computer Based TestObjective type single paper Exam for Assistant Surgeon (General) with Speciality Qualification",
+     "page": 8,
      "marks": 100,
-     "duration": "2 hours"
+     "duration": "2:00 Hours"
     }
    ],
    "source": {
-    "notice": "00e26559e8643c6a75ab4803bf9a1eb1e72e94a69d7f71914480136099e2fd8d",
-    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Pharmacist_Notification_2025.pdf",
-    "title": "Notification for Pharmacist",
+    "notice": "06ee12ce79c46c12e25faf15ddb4e6a0be4e608875af1b371c85bf68d08be9a7",
+    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/NotificationforthepostofAssistantSurgeonGeneralwithSpecialityQualification.pdf",
+    "title": "Notification for the post of Assistant Surgeon (General) with Speciality Qualification",
     "kind": "advertisement"
    },
+   "alternatives": 1,
    "carried_from": "2025"
   },
   "pay": {
    "value": [
     {
      "levels": [
-      11
+      22
      ],
-     "low": 35400,
-     "high": 130400,
-     "text": "Pay Level 11, ₹35,400–130,400",
-     "evidence": "Pharmacist Rs.35,400 – 1,30,400 (Pay Matrix Level-11)",
-     "page": 1
+     "low": 56100,
+     "high": 205700,
+     "text": "Pay Level 22, ₹56,100–205,700",
+     "evidence": "SCALE OF PAY (in Rs.): Level-22 Rs.56100-205700/- (Details can be seen in Annexure-6 of this Notification)",
+     "page": 2
     }
    ],
    "source": {
-    "notice": "00e26559e8643c6a75ab4803bf9a1eb1e72e94a69d7f71914480136099e2fd8d",
-    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Pharmacist_Notification_2025.pdf",
-    "title": "Notification for Pharmacist",
+    "notice": "06ee12ce79c46c12e25faf15ddb4e6a0be4e608875af1b371c85bf68d08be9a7",
+    "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/NotificationforthepostofAssistantSurgeonGeneralwithSpecialityQualification.pdf",
+    "title": "Notification for the post of Assistant Surgeon (General) with Speciality Qualification",
     "kind": "advertisement"
    },
+   "alternatives": 1,
    "carried_from": "2025"
   }
  },
@@ -209,5 +212,5 @@
   "fee",
   "age"
  ],
- "older_documents": 31
+ "older_documents": 32
 }
