@@ -1,0 +1,48 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "5ceb8897a5ae421f999b5dc6f5ef9836e4f05c1aade53eb6170774f6a4896d25",
+  "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/CVSchedule.pdf",
+  "title": "Certificate Verification Schedule for the post of Pharmacist (Unani)- List 2",
+  "body": "tn-mrb",
+  "exam": "tn-mrb-recruitment",
+  "feed": "tn-mrb/notifications",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "59efb15a6537f6869c1d5d3e4eef8d54bd6c7d2630dd154137f3c3119992e285",
+  "bytes": 600082,
+  "pages": 5,
+  "chars": 5405,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T08:48:05+05:30"
+ },
+ "kind": "schedule",
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "The candidates are called for verification of certificates / documents based on the marks secured by the candidates as claimed for in their online applications such as age, educational qualification, community, etc and other relevant rules in vogue",
+    "page": 2
+   },
+   {
+    "text": "The provisional selection of candidates will be made only after verification / acceptance of certain documents, educational qualification possessed by him / her, clarification regarding community status and its acceptance, marks / rank list of the candidate etc. as the case may be",
+    "page": 2
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "http://www.mrb.tn.gov.in/",
+   "https://www.mrb.tn.gov.in"
+  ]
+ },
+ "summary": {
+  "education": [
+   "Graduate"
+  ]
+ }
+}

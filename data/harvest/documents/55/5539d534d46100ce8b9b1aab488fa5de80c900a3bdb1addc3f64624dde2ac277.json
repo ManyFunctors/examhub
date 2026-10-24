@@ -1,0 +1,59 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "5539d534d46100ce8b9b1aab488fa5de80c900a3bdb1addc3f64624dde2ac277",
+  "url": "https://mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/ASGSQCV.pdf",
+  "title": "Certificate Verification Schedule for the post of Assistant Surgeon (General) with Speciality Qualification",
+  "body": "tn-mrb",
+  "exam": "tn-mrb-recruitment",
+  "feed": "tn-mrb/notifications",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "f94f986aabf419c309f735c4008257b77e4cbf1800ea34d951c307500c48206e",
+  "bytes": 890172,
+  "pages": 11,
+  "chars": 16805,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T08:48:05+05:30"
+ },
+ "kind": "schedule",
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Class 12"
+  ],
+  "clauses": [
+   {
+    "text": "The candidates are called for verification of certificates / documents based on the marks secured by the candidates in the Computer Based Test and particulars furnished in their on-line applications such as age, educational qualification, community, etc and other relevant rules in vogue",
+    "page": 2
+   },
+   {
+    "text": "The provisional selection of candidates will be made only after verification/ acceptance of certain documents, educational qualification possessed by him / her, clarification regarding community status and its acceptance marks / rank list of the candidate etc. as the case may be",
+    "page": 2
+   },
+   {
+    "text": "SSLC / HSC) 2 Community certificate from the competent authority of Government of Tamil Nadu (Permanent Community Certificate) 3 Evidence of Educational qualification (SSLC",
+    "page": 3
+   }
+  ]
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.mrb.tn.gov.in"
+  ]
+ },
+ "summary": {
+  "education": [
+   "Graduate",
+   "Class 12"
+  ]
+ }
+}
