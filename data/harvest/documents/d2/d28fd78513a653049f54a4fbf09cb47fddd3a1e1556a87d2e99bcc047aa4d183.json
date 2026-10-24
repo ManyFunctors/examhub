@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "d28fd78513a653049f54a4fbf09cb47fddd3a1e1556a87d2e99bcc047aa4d183",
+  "url": "https://cdnbbsr.s3waas.gov.in/s32dbf21633f03afcf882eaf10e4b5caca/uploads/2026/10/202610241931183766.pdf",
+  "title": "Bio Matric Attendence & Terms and Conditions",
+  "body": "uk-ubse",
+  "exam": "uk-ubse-class-10",
+  "feed": "uk-ubse/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "f3825422849b6ae7b348ad938253692ebfa1f1eb128c9749fd33607b9d7ea550",
+  "bytes": 6466256,
+  "pages": 16,
+  "chars": 30,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T12:21:18+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

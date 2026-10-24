@@ -1,0 +1,15 @@
+{
+ "schema": 1,
+ "exam": "uk-ubse-class-10",
+ "name": "UBSE High School Examination",
+ "body": "uk-ubse",
+ "purpose": "school_board",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {},
+ "gaps": [
+  "exam_date"
+ ],
+ "older_documents": 0
+}
