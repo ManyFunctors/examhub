@@ -307,7 +307,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://apcob.bank.in/wp-content/uploads/2026/07/Notification_Visakhapatnamdccb_SA.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'https://web.archive.org/web/20261024002355/https://apcob.bank.in/wp-content/uploads/2026/07/Notification_Visakhapatnamdccb_SA.pdf'
   document_title     = 'Notification Visakhapatnamdccb SA'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

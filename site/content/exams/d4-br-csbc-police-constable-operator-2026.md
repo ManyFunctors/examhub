@@ -332,7 +332,7 @@ link_apply         = 'unknown'
   document_published = 2025-10-05
   document_title     = 'Important Notice: Regarding Submission of Original Documents for Document Verification and Physical Presence…'
   document_url       = 'https://csbc.bihar.gov.in/Advt/Notice-01-2025-10-05-2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260608110840/https://csbc.bihar.gov.in/Advt/Notice-01-2025-10-05-2026.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

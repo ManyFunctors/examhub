@@ -307,7 +307,7 @@ link_apply         = 'https://upanganwadibharti.in/adminpanel/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://upanganwadibharti.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260516211102/https://upanganwadibharti.in/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

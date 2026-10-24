@@ -356,6 +356,14 @@ link_apply         = 'unknown'
   document_archive   = 'not_archived'
 
   [[links.documents]]
+  document_type      = 'corrigendum'
+  document_stage     = 'all'
+  document_published = 2026-08-19
+  document_title     = 'Corrigendum to First Round of Tentative Allocation (FRTA) dated 17.08.2026 of Combined Higher Secondary…'
+  document_url       = 'https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/corrigendum_19082026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
@@ -366,7 +374,7 @@ link_apply         = 'unknown'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:26+05:30
+provenance_last_checked = 2026-10-25T02:43:26+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

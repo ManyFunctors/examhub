@@ -365,6 +365,14 @@ link_apply         = 'https://cctns.delhipolice.gov.in/citizenservices/missingpe
   document_archive   = 'not_archived'
 
   [[links.documents]]
+  document_type      = 'corrigendum'
+  document_stage     = 'all'
+  document_published = 2026-09-03
+  document_title     = 'Constable (Executive) Male and Female in the Delhi Police Examination, 2025: Corrigendum- Conduct of PE and…'
+  document_url       = 'https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Corrigendum_DPCE2025_03092026.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
   document_type      = 'schedule'
   document_stage     = 'all'
   document_published = 'unknown'
@@ -383,7 +391,7 @@ link_apply         = 'https://cctns.delhipolice.gov.in/citizenservices/missingpe
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:25+05:30
+provenance_last_checked = 2026-10-25T02:43:25+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

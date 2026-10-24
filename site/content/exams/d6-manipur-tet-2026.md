@@ -305,7 +305,7 @@ link_apply         = 'http://www.ptregistrationedusmanipur.com'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://manipureducation.gov.in/wp-content/uploads/2026/09/Date-of-Exam-TET.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261018000211/https://manipureducation.gov.in/wp-content/uploads/2026/09/Date-of-Exam-TET.pdf'
   document_title     = 'Date of Exam TET'
 
   [[links.documents]]
@@ -313,7 +313,7 @@ link_apply         = 'http://www.ptregistrationedusmanipur.com'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://manipureducation.gov.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261017060101/https://manipureducation.gov.in/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

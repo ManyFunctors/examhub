@@ -303,14 +303,14 @@ link_apply         = 'https://www.srmist.edu.in/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://applications.srmap.edu.in/b-tech-phase-3-application-form'
-  document_archive   = 'not_archived'
+  document_archive   = 'https://web.archive.org/web/20261024002806/https://applications.srmap.edu.in/b-tech-phase-3-application-form'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.srmap.edu.in/admission/engineering/srmjeee-b-tech/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260314194622/https://www.srmap.edu.in/admission/engineering/srmjeee-b-tech/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

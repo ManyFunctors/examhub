@@ -344,14 +344,14 @@ link_apply         = 'https://www.uceed.iitb.ac.in/'
   document_published = 'unknown'
   document_title     = 'Information Brochure'
   document_url       = 'https://www.uceed.iitb.ac.in/2027/assets/downloads/docs/UCEED2027_Information_Brochure.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261008224051/https://www.uceed.iitb.ac.in/2027/assets/downloads/docs/UCEED2027_Information_Brochure.pdf'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.uceed.iitb.ac.in/2026/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260526104000/https://www.uceed.iitb.ac.in/2026/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

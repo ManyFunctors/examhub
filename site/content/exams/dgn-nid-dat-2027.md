@@ -376,7 +376,7 @@ link_apply         = 'https://admissions.nid.edu/NIDA2027/Login.aspx'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://admissions.nid.edu/NIDA2027/download/BDES_IntegratedPathway_AdmissionsHandbook2027_28.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261018003147/https://admissions.nid.edu/NIDA2027/download/BDES_IntegratedPathway_AdmissionsHandbook2027_28.pdf'
   document_title     = '5.5 Year Professional Education Master of Design (Integrated Pathway)/ Bachelor of Design'
 
   [[links.documents]]
@@ -384,7 +384,7 @@ link_apply         = 'https://admissions.nid.edu/NIDA2027/Login.aspx'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://admissions.nid.edu/NIDA2027/Default.aspx'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261003030114/https://admissions.nid.edu./NIDA2027/Default.aspx'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

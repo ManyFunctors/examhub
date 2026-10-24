@@ -384,7 +384,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://jeemain.nta.nic.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261018003808/https://jeemain.nta.nic.in/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

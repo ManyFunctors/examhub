@@ -308,7 +308,7 @@ link_apply         = 'https://esb.mponline.gov.in/'
   document_published = 2026-09-22
   document_title     = 'Online Form - Police Constable (G.D.) Recruitment Test - 2026 Start Date:22/09/2026 Rulebook Rulebook Revised…'
   document_url       = 'https://esb.mp.gov.in/Rulebooks/RB_2026/PCRT_GD_2026_RuleBook_09092026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260922102026/https://esb.mp.gov.in/Rulebooks/RB_2026/PCRT_GD_2026_RuleBook_09092026.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

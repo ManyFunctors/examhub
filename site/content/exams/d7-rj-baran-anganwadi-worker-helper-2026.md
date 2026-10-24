@@ -307,7 +307,7 @@ link_apply         = 'https://user.freejobalert.com/login'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.freejobalert.com/articles/rajasthan-anganwadi-recruitment-2026-apply-offline-for-61-for-anganwadi-worker-and-helper-posts-3058545'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261018001908/https://www.freejobalert.com/articles/rajasthan-anganwadi-recruitment-2026-apply-offline-for-61-for-anganwadi-worker-and-helper-posts-3058545'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

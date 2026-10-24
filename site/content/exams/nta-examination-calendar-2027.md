@@ -298,7 +298,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Examcalendar.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261018000545/https://nta.ac.in/Download/Notice/Examcalendar.pdf'
   document_title     = 'Exam Calendar'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

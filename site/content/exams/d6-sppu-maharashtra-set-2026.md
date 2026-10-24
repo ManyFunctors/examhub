@@ -307,7 +307,7 @@ link_apply         = 'https://setexam.unipune.ac.in/Login.aspx'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://setexam.unipune.ac.in/SET_2026/SET_English_Advertisement.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260618072227/https://setexam.unipune.ac.in/SET_2026/SET_English_Advertisement.pdf'
   document_title     = 'English Adevrtisement of 41st M-SET Exam to be held on 26th July 2026'
 
   [[links.documents]]
@@ -315,7 +315,7 @@ link_apply         = 'https://setexam.unipune.ac.in/Login.aspx'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://setexam.unipune.ac.in/SET_2026/SET_Marathi_Advertisement.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260618083130/https://setexam.unipune.ac.in/SET_2026/SET_Marathi_Advertisement.pdf'
   document_title     = 'Marathi Adevrtisement of 41st M-SET Exam to be held on 26th July 2026'
 
   [[links.documents]]
@@ -323,7 +323,7 @@ link_apply         = 'https://setexam.unipune.ac.in/Login.aspx'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://setexam.unipune.ac.in/SET_2026/Prospectus_SET_JULY_2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260618084058/https://setexam.unipune.ac.in/SET_2026/Prospectus_SET_JULY_2026.pdf'
   document_title     = 'Prospectus of SET Exam 26th July, 2026'
 
   [[links.documents]]

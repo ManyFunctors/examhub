@@ -9,11 +9,11 @@ ExamHub tracks recruitment, admission and eligibility exams: central and state, 
 <!-- stats:start -->
 | | |
 |---|---|
-| Exam pages | 307 |
+| Exam pages | 308 |
 | Exams in the catalogue | 1,028 |
 | Conducting bodies | 463 |
 | Feeds crawled daily | 476 |
-| Notices seen so far | 96,000+ |
+| Notices seen so far | 104,000+ |
 <!-- stats:end -->
 <!-- Kept current by the nightly recheck workflow (readme_stats.py); don't hand-edit the numbers above. -->
 
