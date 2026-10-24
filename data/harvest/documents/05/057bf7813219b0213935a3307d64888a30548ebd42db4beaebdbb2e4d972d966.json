@@ -1,0 +1,51 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "057bf7813219b0213935a3307d64888a30548ebd42db4beaebdbb2e4d972d966",
+  "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/CV_Schedule_Pharmacist_Siddha_2023.pdf",
+  "title": "Schedule for Certificate Verification of Pharmacist (Siddha)",
+  "body": "tn-mrb",
+  "exam": "tn-mrb-recruitment",
+  "feed": "tn-mrb/notifications",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "252753e1004bda0271847e349bd70830184cb8b9504d16efbe0454779ceb8711",
+  "bytes": 266105,
+  "pages": 6,
+  "chars": 9970,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-24T18:25:04+05:30"
+ },
+ "kind": "schedule",
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "The candidates are called for verification of certificates / documents based on the particulars furnished in their on-line applications such as age, educational qualification, community, etc",
+    "page": 1
+   },
+   {
+    "text": "only after verification/ acceptance of certain documents, educational qualification possessed by him/her, clarification regarding community status and its acceptance, marks / rank list of the candidate etc. as the case may be",
+    "page": 2
+   },
+   {
+    "text": "Evidence and Mark sheet of Educational qualification (SSLC",
+    "page": 3
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "https://www.mrb.tn.gov.in"
+  ]
+ },
+ "summary": {
+  "education": [
+   "Graduate"
+  ]
+ }
+}
