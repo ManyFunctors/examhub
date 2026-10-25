@@ -352,7 +352,7 @@ link_apply         = 'https://cdn.digialm.com/EForms/configuredHtml/32842/101262
   document_published = 2026-07-26
   document_title     = 'CAT 2026 Hindi Advertisement 26-07-2026'
   document_url       = 'https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Hindi_Advertisement_26-07-2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'https://web.archive.org/web/20261025003209/https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Hindi_Advertisement_26-07-2026.pdf'
 
   [[links.documents]]
   document_type      = 'notification'

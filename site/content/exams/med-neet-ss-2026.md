@@ -303,7 +303,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://natboard.edu.in/viewNotice.php?NBE=dkU5K0VnZjY0ellZSTh2dlF4UnNUdz09'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260516141704/https://www.natboard.edu.in/viewNotice.php?NBE=dkU5K0VnZjY0ellZSTh2dlF4UnNUdz09'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

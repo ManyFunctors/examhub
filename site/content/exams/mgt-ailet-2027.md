@@ -340,7 +340,7 @@ link_apply         = 'https://nationallawuniversitydelhi.in/'
   document_published = 2026-08-07
   document_title     = '23-07-2026 AILET 2027 Notification'
   document_url       = 'https://nationallawuniversitydelhi.in/notification/AILET_2027.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260724034800/https://nationallawuniversitydelhi.in/notification/AILET_2027.pdf'
 
   [[links.documents]]
   document_type      = 'other'

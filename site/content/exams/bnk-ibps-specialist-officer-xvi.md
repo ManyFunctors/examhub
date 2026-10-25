@@ -328,7 +328,7 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://www.ibps.in/index.php/specialist-officers-xvi/'
+link_official_page = 'https://www.ibps.in/'
 link_apply         = 'unknown'
 
   [[links.documents]]
@@ -343,13 +343,14 @@ link_apply         = 'unknown'
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://www.ibps.in/'
-  document_archive   = 'http://web.archive.org/web/20261004100528/https://www.ibps.in/'
+  document_url       = 'https://www.ibps.in/index.php/specialist-officers-xvi/'
+  document_archive   = 'not_archived'
+  document_title     = '22 Oct 26 Scores of Online Preliminary Examination for CRP-SPL-XVI'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:47+05:30
+provenance_last_checked = 2026-10-26T02:44:28+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

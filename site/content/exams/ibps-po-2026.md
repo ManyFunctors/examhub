@@ -926,7 +926,7 @@ link_apply         = 'none'
   document_stage     = 'all'
   document_published = 2026-06-30
   document_url       = 'https://www.ibps.in/wp-content/uploads/PO_SPL_Combined_Window_CRP-XVI.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260710125617/https://www.ibps.in/wp-content/uploads/PO_SPL_Combined_Window_CRP-XVI.pdf'
   document_title     = '30 Jun 26 Window Notification for CRP-PO/MTs -XVI and SPL-XVI'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

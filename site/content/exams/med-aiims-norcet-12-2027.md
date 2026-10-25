@@ -303,7 +303,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://aiimsexams.ac.in/landingpage/key-dates'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261017075430/https://aiimsexams.ac.in/landingpage/key-dates'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

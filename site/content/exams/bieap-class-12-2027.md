@@ -292,7 +292,7 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'unknown'
+link_official_page = 'https://bie.ap.gov.in/'
 link_apply         = 'unknown'
 
   [[links.documents]]
@@ -300,7 +300,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://api.apfd.apcfss.in/socialwelfaredms/jnanabhumi/file-download/bucket/swfileuploads/BIE/CIRCULARS/CIRCULAR-1792734492509.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'https://web.archive.org/web/20261025001639/https://api.apfd.apcfss.in/socialwelfaredms/jnanabhumi/file-download/bucket/swfileuploads/BIE/CIRCULARS/CIRCULAR-1792734492509.pdf'
   document_title     = 'TT 2nd Yr Voc IPE March 2027 INTERMEDIATE VOCATIONAL 2nd YEAR PUBLIC THEORY EXAMINATIONS, FEBRUARY/MARCH- 2027'
 
   [[links.documents]]
@@ -309,7 +309,7 @@ link_apply         = 'unknown'
   document_published = 2026-10-23
   document_title     = 'I.P.E, February/ March 2027 – Tentative Time Table for First and Second year Intermediate Public…'
   document_url       = 'https://api.apfd.apcfss.in/socialwelfaredms/jnanabhumi/file-download/bucket/swfileuploads/BIE/CIRCULARS/CIRCULAR-1792734044358.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'https://web.archive.org/web/20261025001706/https://api.apfd.apcfss.in/socialwelfaredms/jnanabhumi/file-download/bucket/swfileuploads/BIE/CIRCULARS/CIRCULAR-1792734044358.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

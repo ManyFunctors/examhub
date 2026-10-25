@@ -303,7 +303,7 @@ link_apply         = 'https://wbscc.wb.gov.in/Applicant_Registration'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://wbjeeb.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261011111038/https://wbjeeb.in/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

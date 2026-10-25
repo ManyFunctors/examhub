@@ -348,7 +348,7 @@ link_apply         = 'https://natboard.edu.in/viewnbeexam?exam=gpat'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://nbe.edu.in/IB/Information%20bulletin%20GPAT%202026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260315210849/https://nbe.edu.in/IB/Information%20bulletin%20GPAT%202026.pdf'
   document_title     = 'Information bulletin GPAT 2026'
 
   [[links.documents]]
@@ -356,7 +356,7 @@ link_apply         = 'https://natboard.edu.in/viewnbeexam?exam=gpat'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://natboard.edu.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260912160638/https://www.natboard.edu.in/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
