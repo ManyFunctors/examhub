@@ -356,7 +356,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.aiimsexams.ac.in/landingpage/courses/advertisement/68dbf0b6d6fe8f55c65468aa'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260317005025/https://www.aiimsexams.ac.in/landingpage/courses/advertisement/68dbf0b6d6fe8f55c65468aa'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

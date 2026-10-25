@@ -302,7 +302,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://cetcell.mahacet.org/wp-content/uploads/2026/08/CAP-Round-I-LLB-3-Yrs_2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260830012433/https://cetcell.mahacet.org/wp-content/uploads/2026/08/CAP-Round-I-LLB-3-Yrs_2026.pdf'
   document_title     = '15 LLB 3 Yrs. Centralized Admission Process (CAP) Schedule for LLB 3 Yrs Course Academic Year 2026-27…'
 
   [[links.documents]]
@@ -311,7 +311,7 @@ link_apply         = 'unknown'
   document_published = 2026-08-14
   document_title     = '5 LLB 5 Yrs. Centralized Admission Process (CAP) Schedule for LLB 5 Yrs Integrated Course Academic Year…'
   document_url       = 'https://cetcell.mahacet.org/wp-content/uploads/2026/08/CAP-Round-I-LLB-5-Yrs_2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260824195827/https://cetcell.mahacet.org/wp-content/uploads/2026/08/CAP-Round-I-LLB-5-Yrs_2026.pdf'
 
   [[links.documents]]
   document_type      = 'press_release'
@@ -319,7 +319,7 @@ link_apply         = 'unknown'
   document_published = 2026-08-14
   document_title     = '6 LLB.5 Yrs. & LLB.3 Yrs. PUBLIC NOTICE : Regarding Lock-In / Final Submission of the Option Form for Law 5…'
   document_url       = 'https://cetcell.mahacet.org/wp-content/uploads/2026/08/Public-Notice-Ext-to-LLB-3-5-for-option-form-filling_2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260824195826/https://cetcell.mahacet.org/wp-content/uploads/2026/08/Public-Notice-Ext-to-LLB-3-5-for-option-form-filling_2026.pdf'
 
   [[links.documents]]
   document_type      = 'press_release'
@@ -327,7 +327,7 @@ link_apply         = 'unknown'
   document_published = 2026-08-13
   document_title     = '7 LLB.5 Yrs. & LLB.3 Yrs. PUBLIC NOTICE : LL.B. 3 Years and LL.B. 5 Years – Centralised Admission Process…'
   document_url       = 'https://cetcell.mahacet.org/wp-content/uploads/2026/08/Public-Notice-LLB-3-5-for-option-form-filling_2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'https://web.archive.org/web/20261025002719/https://cetcell.mahacet.org/wp-content/uploads/2026/08/Public-Notice-LLB-3-5-for-option-form-filling_2026.pdf'
 
   [[links.documents]]
   document_type      = 'press_release'
@@ -335,7 +335,7 @@ link_apply         = 'unknown'
   document_published = 2026-08-07
   document_title     = '10 LL.B. 5 yrs and LL.B. 3 yrs Public Notice: Admissions to Three-Year LL.B. and Five-Year Integrated LL.B.…'
   document_url       = 'https://cetcell.mahacet.org/wp-content/uploads/2026/08/Public-Notice-LLB-3-LLB-5-Yrs_2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'https://web.archive.org/web/20261025002749/https://cetcell.mahacet.org/wp-content/uploads/2026/08/Public-Notice-LLB-3-LLB-5-Yrs_2026.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

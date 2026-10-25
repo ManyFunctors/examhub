@@ -311,7 +311,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://slprb.ap.gov.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20230323200335/https://slprb.ap.gov.in/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

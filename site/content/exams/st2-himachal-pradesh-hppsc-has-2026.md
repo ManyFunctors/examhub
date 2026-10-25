@@ -314,7 +314,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://hppsconline.hp.gov.in/HPPSC/ApplicantRegistration/Home/Login'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260126122421/https://hppsconline.hp.gov.in/HPPSC/ApplicantRegistration/Home/Login'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

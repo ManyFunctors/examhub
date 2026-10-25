@@ -299,9 +299,15 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://hppsc.hp.gov.in/hppsc'
+link_official_page = 'https://hppsc.hp.gov.in/'
 link_apply         = 'unknown'
-documents          = []
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://hppsc.hp.gov.in/hppsc'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
