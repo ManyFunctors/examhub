@@ -775,7 +775,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "nl-police-constable"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "nl-police-si"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "od-bse-class-10"}
-{"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "od-bse-madhyama"}
+{"cycle": "2024", "documents": 1, "gaps": ["exam_date"], "id": "od-bse-madhyama"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "eligibility"], "id": "od-bse-national-rural-talent-scholarship"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "od-bse-oav-omav"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility"], "id": "od-bse-odisha-state-open-school-certificate"}
