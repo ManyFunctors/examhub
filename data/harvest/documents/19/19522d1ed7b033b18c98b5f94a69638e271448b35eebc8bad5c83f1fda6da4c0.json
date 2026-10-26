@@ -1,0 +1,65 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "19522d1ed7b033b18c98b5f94a69638e271448b35eebc8bad5c83f1fda6da4c0",
+  "url": "https://keralapsc.gov.in/sites/default/files/2026-10/6232025_11_0_0.pdf",
+  "title": "2026, Featured Latest, Kozhikkode HIGH SCHOOL TEACHER (ENGLISH) (Recruitment-By Transfer) (Category No. 623/2025) in General Education Department in Kozhikode District. Ranked List No. : 750/2026/SS III wef 23.10.2026. HIGH SCHOOL TEACHER (ENGLISH) (Recruitment-By Transfer) (Category No. 623/2025) in General Education Department in Kozhikode District. Download 24-10-2026",
+  "body": "kl-kpsc",
+  "exam": "kl-kpsc-teacher",
+  "feed": "kl-kpsc/ranked-lists",
+  "published": "2026-10-23",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "0a61b07f5efd48eaa7f1f6aaf61d452c3e862018d2e98ff0bc8091ad80af2126",
+  "bytes": 110536,
+  "pages": 3,
+  "chars": 5142,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-26T04:36:11+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-11-07",
+   "evidence": "A period of 15 (Fifteen) days time to apply for print out of answer sheet will be allowed to candidates with effect from the date on which the Ranked List is uploaded in the website of the Commission (ie on or before 07/11/2026)",
+   "page": 2,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 335,
+   "raw": "Candidates who wish to obtain a print out of their Answer sheets relating to this selection shall submit online application through their One Time Registration profile from the official website of the Commission, www.keralapsc.gov.in by…",
+   "page": 2
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 2
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.keralapsc.gov.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-11-07"
+  },
+  "fee": {
+   "min": 335,
+   "max": 335
+  }
+ }
+}
