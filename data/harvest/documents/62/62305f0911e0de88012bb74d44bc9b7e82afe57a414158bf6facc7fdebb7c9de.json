@@ -1,0 +1,65 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "62305f0911e0de88012bb74d44bc9b7e82afe57a414158bf6facc7fdebb7c9de",
+  "url": "https://keralapsc.gov.in/sites/default/files/2026-10/5992024_10_0_0.pdf",
+  "title": "2026, Featured Latest, Malappuram HIGH SCHOOL TEACHER (MATHEMATICS) -MALAYALAM MEDIUM (Category No.599/2024) in EDUCATION DEPARTMENT IN MALAPPURAM DISTRICT. Ranked List No. : 757/2026/SS II wef 26/10/2026. HIGH SCHOOL TEACHER (MATHEMATICS) -MALAYALAM MEDIUM (Category No.599/2024) in EDUCATION DEPARTMENT IN MALAPPURAM DISTRICT. Download 26-10-2026",
+  "body": "kl-kpsc",
+  "exam": "kl-kpsc-teacher",
+  "feed": "kl-kpsc/ranked-lists",
+  "published": "2026-10-26",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "d4bd9f6fd9da669ab281eed6db22c8106000c0a6d5aede4e042c5181f72762e5",
+  "bytes": 149075,
+  "pages": 16,
+  "chars": 29803,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-26T19:49:21+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-11-09",
+   "evidence": "A period of 15 (Fifteen) days time to apply for rechecking of Answer scripts will be allowed to candidates with effect from the date on which the Ranked List is uploaded in the website of the Commission (on or before 09/11/2026) NOTE (3):- ",
+   "page": 15,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 85,
+   "raw": "But Answer scripts will be rechecked if the candidates apply for through their One Time Registration profile from the Commission's official website www.keralapsc.gov.in by remitting the prescribed fee of Rs. 85 (Rupees Eighty Five only)",
+   "page": 15
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 15
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 3
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.keralapsc.gov.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-11-09"
+  },
+  "fee": {
+   "min": 85,
+   "max": 85
+  }
+ }
+}
