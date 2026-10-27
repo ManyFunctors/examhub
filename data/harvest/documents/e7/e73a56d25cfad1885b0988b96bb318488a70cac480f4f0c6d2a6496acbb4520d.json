@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "e73a56d25cfad1885b0988b96bb318488a70cac480f4f0c6d2a6496acbb4520d",
+  "url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Advertisement-092026-Auditor-Main-Written-Examination_BPSC-20261026-tfda2u.pdf",
+  "title": "Advertisement Important Notice",
+  "body": "br-bpsc",
+  "exam": "br-bpsc-other",
+  "feed": "br-bpsc/advertisements",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "4dc380e72c89b24edfd97d7405fa588952c1206c0b5b9a460f7092a489188999",
+  "bytes": 284625,
+  "pages": 4,
+  "chars": 6,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-10-27T07:22:03+05:30"
+ },
+ "kind": "advertisement",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
