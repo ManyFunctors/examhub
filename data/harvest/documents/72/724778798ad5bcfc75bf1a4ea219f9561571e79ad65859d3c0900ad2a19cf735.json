@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "724778798ad5bcfc75bf1a4ea219f9561571e79ad65859d3c0900ad2a19cf735",
+  "url": "https://hpbose.org/Admin/Upload/Notification%20sos.pdf",
+  "title": "Notification regarding online form filling dates HPSOS March 2027",
+  "body": "hp-hpbose",
+  "exam": "hp-hpsos-board",
+  "feed": "hp-hpbose/notifications",
+  "published": "2026-10-27",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "2b676db6bb696f8273b38d9ce373ed04eabadcc703edd695a1197b4c160091ba",
+  "bytes": 1114456,
+  "pages": 2,
+  "chars": 5858,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-27T15:52:52+05:30"
+ },
+ "kind": "result",
+ "dates": {
+  "registration_open": {
+   "date": "2026-11-02",
+   "evidence": "CHAL PRADES 1 2 3 4 5 Himachal Pradesh Board of School Education Dharamshala, Himachal Pradesh Registration and online admission Dates 02-11-2026 to 30-11-2026 01-12- 2026 to 31-12-2026 \"Notification\" 01-01-2027 to 30-01-2027 The schedule f",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2026-11-30",
+   "evidence": "CHAL PRADES 1 2 3 4 5 Himachal Pradesh Board of School Education Dharamshala, Himachal Pradesh Registration and online admission Dates 02-11-2026 to 30-11-2026 01-12- 2026 to 31-12-2026 \"Notification\" 01-01-2027 to 30-01-2027 The schedule f",
+   "page": 1,
+   "from": "text"
+  },
+  "exam_date": {
+   "date": "2027-02-01",
+   "evidence": "Further. for the March 2027 Examination Session. attendance in PersonalL Contact Programme (PCP) Classes shall be mandatory for all learners enrolled under the Fresh Admission and Additional Subject categories, The PCP Classes shall be cond",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Fee Categories Withoutlatefee 1. AppearingTypes Fresh Admission (Direct",
+   "date": "2026-11-02",
+   "page": 1,
+   "until": "2026-11-30"
+  },
+  {
+   "event": "Withlatefee of 1000/ Fresh Admission (Availing TOc/Re",
+   "date": "2026-12-01",
+   "page": 1,
+   "until": "2026-12-31"
+  },
+  {
+   "event": "Withlatefee of 2000/ 3 . AdditionalSubject .",
+   "date": "2027-01-01",
+   "page": 1,
+   "until": "2027-01-30"
+  }
+ ],
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "CHAL pR All eligible candidates applying under HPSOS for Classes 8, 10\" and 12 must carefully read the instructions eligibility criteria, Rule regarding Special Marks Improvement Exam\" and passing requirements before submitting their online applications through the HPSOS study centres",
+    "page": 2
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "https://wwW.hpbose.org",
+   "https://www.hpbose.org"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "from": "2026-11-02",
+   "until": "2026-11-30"
+  },
+  "exam_date": "2027-02-01"
+ }
+}
