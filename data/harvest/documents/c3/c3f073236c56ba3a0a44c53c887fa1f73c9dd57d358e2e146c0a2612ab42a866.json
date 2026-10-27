@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "c3f073236c56ba3a0a44c53c887fa1f73c9dd57d358e2e146c0a2612ab42a866",
+  "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News & Jobs_27102026_152820.pdf",
+  "title": "Advertisement No. Advisor-HR-CS/2026-27/1325, dtd.27/10/2026 inviting applications for the engagement of Advisor/Consultant for HR -Canteen Services.",
+  "body": "in-sail",
+  "exam": "in-sail-recruitment",
+  "feed": "in-sail/careers",
+  "published": "2026-10-27",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "598eb8085c3715cd99a7880b27729bc1db3377d185b89bc722b7a778b45f8ca1",
+  "bytes": 758115,
+  "pages": 3,
+  "chars": 4079,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-28T02:03:59+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "Advisor-HR-CS/2026-27/1325",
+ "dates": {
+  "exam_date": {
+   "date": "2026-11-10",
+   "evidence": "Eligible and interested candidates would be required to submit their applications in soft copy through e-mail at ecellbsp.new@gmail.com or by post addressed to ",
+   "page": 2,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Eligible and interested candidates would be required to submit their applications in soft copy through e-mail at ecellbsp.new@gmail.com or by post addressed to ",
+   "key": "exam_date",
+   "date": "2026-11-10",
+   "page": 2
+  }
+ ],
+ "age": {
+  "limits": [
+   {
+    "max": 65,
+    "evidence": "Age Limit: The upper age limit for engagement under these guidelines will be 65 years",
+    "page": 1
+   }
+  ]
+ },
+ "eligibility": {
+  "clauses": [
+   {
+    "text": " Should possess knowledge related to:",
+    "page": 1
+   },
+   {
+    "text": "II) ELIGIBILITY CRITERIA:",
+    "page": 1
+   },
+   {
+    "text": "Performance: The candidate should have no 'C' grading during last three years of service with SAIL before superannuation",
+    "page": 1
+   },
+   {
+    "text": "Effectiveness & Integrity: He/She should have good service record without any ongoing disciplinary/vigilance proceedings at the time of engagement/extension",
+    "page": 1
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 2
+  }
+ },
+ "summary": {
+  "exam_date": "2026-11-10",
+  "age": {
+   "max": 65
+  },
+  "selection": "Interview"
+ }
+}

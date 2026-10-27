@@ -5,10 +5,38 @@
  "body": "in-sail",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 1,
- "documents_in_cycle": 1,
+ "documents": 2,
+ "documents_in_cycle": 2,
  "fields": {
+  "age": {
+   "value": {
+    "limits": [
+     {
+      "max": 65,
+      "evidence": "Age Limit: The upper age limit for engagement under these guidelines will be 65 years",
+      "page": 1
+     }
+    ]
+   },
+   "source": {
+    "notice": "c3f073236c56ba3a0a44c53c887fa1f73c9dd57d358e2e146c0a2612ab42a866",
+    "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News & Jobs_27102026_152820.pdf",
+    "title": "Advertisement No. Advisor-HR-CS/2026-27/1325, dtd.27/10/2026 inviting applications for the engagement of Advisor/Consultant for HR -Canteen Services.",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
   "dates": {
+   "exam_date": {
+    "date": "2026-11-10",
+    "source": {
+     "notice": "c3f073236c56ba3a0a44c53c887fa1f73c9dd57d358e2e146c0a2612ab42a866",
+     "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News & Jobs_27102026_152820.pdf",
+     "title": "Advertisement No. Advisor-HR-CS/2026-27/1325, dtd.27/10/2026 inviting applications for the engagement of Advisor/Consultant for HR -Canteen Services.",
+     "kind": "advertisement",
+     "page": 2
+    }
+   },
    "registration_deadline": {
     "date": "2026-10-20",
     "source": {
@@ -33,30 +61,70 @@
     "page": 1
    }
   },
+  "exam_date": {
+   "value": "2026-11-10",
+   "source": {
+    "notice": "c3f073236c56ba3a0a44c53c887fa1f73c9dd57d358e2e146c0a2612ab42a866",
+    "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News & Jobs_27102026_152820.pdf",
+    "title": "Advertisement No. Advisor-HR-CS/2026-27/1325, dtd.27/10/2026 inviting applications for the engagement of Advisor/Consultant for HR -Canteen Services.",
+    "kind": "advertisement",
+    "page": 2
+   }
+  },
+  "advertisement_no": {
+   "value": "Advisor-HR-CS/2026-27/1325",
+   "source": {
+    "notice": "c3f073236c56ba3a0a44c53c887fa1f73c9dd57d358e2e146c0a2612ab42a866",
+    "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News & Jobs_27102026_152820.pdf",
+    "title": "Advertisement No. Advisor-HR-CS/2026-27/1325, dtd.27/10/2026 inviting applications for the engagement of Advisor/Consultant for HR -Canteen Services.",
+    "kind": "advertisement"
+   }
+  },
   "eligibility": {
    "value": {
     "clauses": [
      {
-      "text": "Eligibility: Candidates must have passed the qualifying examination as regular candidates during 2022–2026",
+      "text": " Should possess knowledge related to:",
+      "page": 1
+     },
+     {
+      "text": "II) ELIGIBILITY CRITERIA:",
+      "page": 1
+     },
+     {
+      "text": "Performance: The candidate should have no 'C' grading during last three years of service with SAIL before superannuation",
+      "page": 1
+     },
+     {
+      "text": "Effectiveness & Integrity: He/She should have good service record without any ongoing disciplinary/vigilance proceedings at the time of engagement/extension",
       "page": 1
      }
     ]
    },
    "source": {
-    "notice": "af9659201bc7a164aba5ecec72174c2f4a58eabcf44ec7e766d2c21b7ebfaad1",
-    "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News & Jobs_22102026_120743.pdf",
-    "title": "Notification for left out candidates due to portal malfunctioning in engagement of Apprentices for FY 2026–27",
+    "notice": "c3f073236c56ba3a0a44c53c887fa1f73c9dd57d358e2e146c0a2612ab42a866",
+    "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News & Jobs_27102026_152820.pdf",
+    "title": "Advertisement No. Advisor-HR-CS/2026-27/1325, dtd.27/10/2026 inviting applications for the engagement of Advisor/Consultant for HR -Canteen Services.",
+    "kind": "advertisement"
+   },
+   "alternatives": 1
+  },
+  "selection": {
+   "value": [
+    "Interview"
+   ],
+   "source": {
+    "notice": "c3f073236c56ba3a0a44c53c887fa1f73c9dd57d358e2e146c0a2612ab42a866",
+    "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News & Jobs_27102026_152820.pdf",
+    "title": "Advertisement No. Advisor-HR-CS/2026-27/1325, dtd.27/10/2026 inviting applications for the engagement of Advisor/Consultant for HR -Canteen Services.",
     "kind": "advertisement"
    }
   }
  },
  "gaps": [
   "vacancies",
-  "exam_date",
   "fee",
-  "age",
-  "pay",
-  "selection"
+  "pay"
  ],
  "older_documents": 0
 }

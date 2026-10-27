@@ -5,8 +5,8 @@
  "body": "in-nta",
  "purpose": "eligibility",
  "cycle": "2026-12",
- "documents": 85,
- "documents_in_cycle": 5,
+ "documents": 87,
+ "documents_in_cycle": 7,
  "fields": {
   "fee": {
    "value": [
@@ -62,27 +62,26 @@
     "alternatives": 4
    },
    "payment_deadline": {
-    "date": "2026-10-28",
+    "date": "2026-10-31",
     "source": {
-     "notice": "ac992f6c0a5a9adf77c5e001bdc71c80fbd714869239eaa38ada15dde4f0e7ba",
-     "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081928217016.pdf",
-     "title": "Opening of the online registration portal for submission of Online Application Form for UGC-NET December 2026 examination – reg",
-     "kind": "schedule",
+     "notice": "2945b3427f54ef27d92832912fd853ec7e459d28ac302c04634ff20a201b629f",
+     "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/20261027659788738.pdf",
+     "title": "Extension of Last Date for Submission of Online Application Form for UGC-NET December 2026 Examination – Reg.",
+     "kind": "corrigendum",
      "page": 1
     },
-    "alternatives": 2
+    "alternatives": 4
    },
    "registration_deadline": {
-    "date": "2026-10-28",
-    "provisional": true,
+    "date": "2026-10-31",
     "source": {
-     "notice": "86f80b7508c3bc031f964c82187954919e6509c71fe365a0eeeb047d56effd83",
-     "url": "http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf",
-     "title": "Public Notice Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination",
+     "notice": "2945b3427f54ef27d92832912fd853ec7e459d28ac302c04634ff20a201b629f",
+     "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/20261027659788738.pdf",
+     "title": "Extension of Last Date for Submission of Online Application Form for UGC-NET December 2026 Examination – Reg.",
      "kind": "corrigendum",
-     "page": 31
+     "page": 1
     },
-    "alternatives": 4
+    "alternatives": 6
    },
    "registration_open": {
     "date": "2026-10-08",
@@ -100,14 +99,14 @@
   "apply": {
    "value": {
     "from": "2026-10-08",
-    "until": "2026-10-28"
+    "until": "2026-10-31"
    },
    "source": {
-    "notice": "86f80b7508c3bc031f964c82187954919e6509c71fe365a0eeeb047d56effd83",
-    "url": "http://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610161905649093.pdf",
-    "title": "Public Notice Corrigendum to the Information Bulletin of UGC-NET December 2026 Examination",
+    "notice": "2945b3427f54ef27d92832912fd853ec7e459d28ac302c04634ff20a201b629f",
+    "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/20261027659788738.pdf",
+    "title": "Extension of Last Date for Submission of Online Application Form for UGC-NET December 2026 Examination – Reg.",
     "kind": "corrigendum",
-    "page": 31
+    "page": 1
    }
   },
   "exam_date": {

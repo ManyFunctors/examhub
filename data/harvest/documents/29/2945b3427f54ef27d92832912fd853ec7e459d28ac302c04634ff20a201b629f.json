@@ -1,0 +1,61 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2945b3427f54ef27d92832912fd853ec7e459d28ac302c04634ff20a201b629f",
+  "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/20261027659788738.pdf",
+  "title": "Extension of Last Date for Submission of Online Application Form for UGC-NET December 2026 Examination – Reg.",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/ugcnet",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "abf6b8a9cebd6653bb26cb70f5ffc742c76fe915d98ef3d83462727308abcbad",
+  "bytes": 398322,
+  "pages": 1,
+  "chars": 1856,
+  "ocr": false,
+  "indic_share": 0.06,
+  "fetched": "2026-10-28T02:04:03+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-10-31",
+   "evidence": "Activity Revised Date Last date for submission of Online Application Form",
+   "page": 1,
+   "from": "table"
+  },
+  "payment_deadline": {
+   "date": "2026-10-31",
+   "evidence": "Last date for successful transaction of examination fee",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Activity Revised Date Last date for submission of Online Application Form",
+   "key": "registration_deadline",
+   "date": "2026-10-31",
+   "page": 1
+  },
+  {
+   "event": "Last date for successful transaction of examination fee",
+   "key": "payment_deadline",
+   "date": "2026-10-31",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "https://ugcnet.nta.nic.in",
+   "https://nta.ac.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-10-31"
+  }
+ }
+}
