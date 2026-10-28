@@ -302,7 +302,7 @@ link_apply         = 'https://keralapsc.gov.in/'
   document_type      = 'notification'
   document_stage     = 'all'
   document_published = 2026-10-05
-  document_title     = '2026, Featured Latest, Thrissur LP SCHOOL TEACHER (MALAYALAM MEDIUM)RECRUITMENT BY TRANSFER (Cat.No.…'
+  document_title     = 'Featured Latest, 2026, Thrissur LP SCHOOL TEACHER (MALAYALAM MEDIUM)RECRUITMENT BY TRANSFER (Cat.No.…'
   document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-10/1142025_08_0_0-1.pdf'
   document_archive   = 'not_archived'
 
@@ -310,7 +310,7 @@ link_apply         = 'https://keralapsc.gov.in/'
   document_type      = 'notification'
   document_stage     = 'all'
   document_published = 2026-09-24
-  document_title     = '2026, Featured Latest, Kannur LP SCHOOL TEACHER (MALAYALAM MEDIUM)RECRUITMENT BY TRANSFER (Cat.No. 114/2025)…'
+  document_title     = 'Featured Latest, 2026, Kannur LP SCHOOL TEACHER (MALAYALAM MEDIUM)RECRUITMENT BY TRANSFER (Cat.No. 114/2025)…'
   document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-09/1142025_13_0_0.pdf'
   document_archive   = 'not_archived'
 
@@ -326,7 +326,7 @@ link_apply         = 'https://keralapsc.gov.in/'
   document_type      = 'schedule'
   document_stage     = 'all'
   document_published = 2026-10-22
-  document_title     = '2026, Featured Latest, Kannur NURSE GR II (AYURVEDA) (I NCA for :SCHEDULED CASTE) (Category No. 248/2025) in…'
+  document_title     = 'Featured Latest, 2026, Kannur NURSE GR II (AYURVEDA) (I NCA for :SCHEDULED CASTE) (Category No. 248/2025) in…'
   document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-10/2482025_13_0_0.pdf'
   document_archive   = 'not_archived'
 
@@ -334,7 +334,7 @@ link_apply         = 'https://keralapsc.gov.in/'
   document_type      = 'schedule'
   document_stage     = 'all'
   document_published = 2026-10-16
-  document_title     = '2026, Featured Latest, Thiruvananthapuram LP SCHOOL TEACHER (MALAYALAM MEDIUM)(Ist NCA for : SCHEDULED…'
+  document_title     = 'Featured Latest, 2026, Thiruvananthapuram LP SCHOOL TEACHER (MALAYALAM MEDIUM)(Ist NCA for : SCHEDULED…'
   document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-10/2402025_01_0_0.pdf'
   document_archive   = 'not_archived'
 
@@ -342,7 +342,7 @@ link_apply         = 'https://keralapsc.gov.in/'
   document_type      = 'schedule'
   document_stage     = 'all'
   document_published = 2026-10-06
-  document_title     = '2026, Featured Latest, Alappuzha FULL TIME JUNIOR LANGUAGE TEACHER (ARABIC) -LPS (VIII NCA-SCHEDULED CASTE)…'
+  document_title     = 'Featured Latest, 2026, Alappuzha FULL TIME JUNIOR LANGUAGE TEACHER (ARABIC) -LPS (VIII NCA-SCHEDULED CASTE)…'
   document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-10/0722025_04_0_0-1.pdf'
   document_archive   = 'not_archived'
 
@@ -357,7 +357,7 @@ link_apply         = 'https://keralapsc.gov.in/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-24T02:49:16+05:30
+provenance_last_checked = 2026-10-28T05:39:54+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'

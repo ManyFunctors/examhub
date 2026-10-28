@@ -316,7 +316,7 @@ link_apply         = 'https://mpsc.meghalaya.gov.in/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://mpsc.meghalaya.gov.in/advt/Advt10Oct2025a.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260210060928/http://www.mpsc.meghalaya.gov.in/advt/Advt10Oct2025a.pdf'
   document_title     = 'On behalf of the Government of Meghalaya, Applications are invited on (Online-mode) from citizens of India as…'
 
   [[links.documents]]

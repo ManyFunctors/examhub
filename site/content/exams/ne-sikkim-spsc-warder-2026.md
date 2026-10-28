@@ -303,7 +303,7 @@ link_apply         = 'https://sso.sikkim.gov.in/account/register'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.sikkim.gov.in/uploads/Notifications/EMPLOYMENT_NEWS_34_20260622.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'https://web.archive.org/web/20261027002136/https://www.sikkim.gov.in/uploads/Notifications/EMPLOYMENT_NEWS_34_20260622.pdf'
   document_title     = 'EMPLOYMENT NEWS 34 20260622'
 
   [[links.documents]]
@@ -311,7 +311,7 @@ link_apply         = 'https://sso.sikkim.gov.in/account/register'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://spsc.sikkim.gov.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260217061856/http://spsc.sikkim.gov.in/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

@@ -393,6 +393,14 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
   document_type      = 'press_release'
   document_stage     = 'all'
   document_published = 'unknown'
+  document_title     = 'Extension of Last Date for Submission of Online Application Form for UGC-NET December 2026 Examination – Reg.'
+  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20261027235155.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'press_release'
+  document_stage     = 'all'
+  document_published = 'unknown'
   document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260507122133.pdf'
   document_archive   = 'not_archived'
   document_title     = 'Public Notice for Advisory for completion of application process of UGC-NET June 2026 examination'
@@ -405,18 +413,10 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
   document_archive   = 'not_archived'
   document_title     = 'Public Notice for Second Advisory for completion of application process of UGC-NET June 2026 examination'
 
-  [[links.documents]]
-  document_type      = 'press_release'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_url       = 'https://nta.ac.in/Download/Notice/Notice_20260527175411.pdf'
-  document_archive   = 'not_archived'
-  document_title     = 'Public Notice regarding Addition of Examination Cities and Expansion of City Choice Options for UGC-NET June…'
-
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-27T02:52:28+05:30
+provenance_last_checked = 2026-10-28T05:39:56+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'fee.rows'
