@@ -1,0 +1,47 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "2c66d9afc4cdd38ac0369c739e2ad184342cca5a753cd5833e108d1e5b27a194",
+  "url": "https://nta.ac.in/Download/Notice/Notice_20261028220547.pdf",
+  "title": "Advisory and Instructions regarding registration process for Joint Entrance Examination (Main) – 2027 (Session 1) Read More",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "d24733397846ca61d0ef44f7ab3eda31f09851b48e9a661d95953f37561b53c3",
+  "bytes": 714120,
+  "pages": 1,
+  "chars": 1777,
+  "ocr": false,
+  "indic_share": 0.05,
+  "fetched": "2026-10-29T02:59:37+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2026-10-28",
+   "evidence": "Fifth Floor, Government of India Press Building, Minto Road, New Delhi – 110002 फ़ोन/Telephone: 011-40759000 वेबसाइट/Website: https://jeemain.nta.nic.in/ ई-मेल/e",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Fifth Floor, Government of India Press Building, Minto Road, New Delhi – 110002 फ़ोन/Telephone: 011-40759000 वेबसाइट/Website: https://jeemain.nta.nic.in/ ई-मेल/e",
+   "key": "exam_date",
+   "date": "2026-10-28",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/20261027585104236.pdf",
+   "https://jeemain.nta.nic.in/"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-10-28"
+ }
+}

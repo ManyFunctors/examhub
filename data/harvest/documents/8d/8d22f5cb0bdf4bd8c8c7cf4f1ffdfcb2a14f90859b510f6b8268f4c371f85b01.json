@@ -1,0 +1,66 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "8d22f5cb0bdf4bd8c8c7cf4f1ffdfcb2a14f90859b510f6b8268f4c371f85b01",
+  "url": "https://keralapsc.gov.in/sites/default/files/2026-10/6012024_14_0_0.pdf",
+  "title": "Featured Latest, 2026, Kasaragod High School Teacher (Malayalam) (Cat.No.601/2024) in Education Department in Kasaragod District. Ranked List No. : 762/2026/SSIII wef 28.10.2026. High School Teacher (Malayalam) (Cat.No.601/2024) in Education Department in Kasaragod District. Download 28-10-2026",
+  "body": "kl-kpsc",
+  "exam": "kl-kpsc-teacher",
+  "feed": "kl-kpsc/ranked-lists",
+  "published": "2026-10-28",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "357fc60a14cca69ed3e4a9511e2b5f4f0039aec96481b1ba77c7181aa8542965",
+  "bytes": 123799,
+  "pages": 7,
+  "chars": 14242,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-29T02:59:38+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-11-11",
+   "evidence": "A period of 15 (Fifteen) days time to apply for rechecking of Answer scripts will be allowed to candidates with effect from the date on which the Ranked List is uploaded in the website of the Commission (on or before 11.11.2026)",
+   "page": 6,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 85,
+   "raw": "But Answer scripts will be rechecked if the candidates apply for through their One Time Registration profile from the Commission's official website www.kerala psc.gov.in by remitting the prescribed fee of Rs. 85/- (Rupees Eighty Five only)",
+   "page": 6
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 6
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.kerala",
+   "https://www.keralapsc.gov.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-11-11"
+  },
+  "fee": {
+   "min": 85,
+   "max": 85
+  }
+ }
+}

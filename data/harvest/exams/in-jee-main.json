@@ -4,10 +4,33 @@
  "name": "Joint Entrance Examination (Main)",
  "body": "in-nta",
  "purpose": "admission",
- "cycle": "2026-04",
- "documents": 116,
+ "cycle": "2027",
+ "documents": 118,
  "documents_in_cycle": 2,
  "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2026-10-28",
+    "source": {
+     "notice": "4e865f5fdd5b0db58bf8215c5ec9f2ba266cf9af949eb7f97ff7feefd617cdf3",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610281658843201.pdf",
+     "title": "Advisory and Instructions regarding registration process for Joint Entrance Examination (Main) – 2027 (Session 1)",
+     "kind": "notice",
+     "page": 1
+    },
+    "alternatives": 1
+   }
+  },
+  "exam_date": {
+   "value": "2026-10-28",
+   "source": {
+    "notice": "4e865f5fdd5b0db58bf8215c5ec9f2ba266cf9af949eb7f97ff7feefd617cdf3",
+    "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610281658843201.pdf",
+    "title": "Advisory and Instructions regarding registration process for Joint Entrance Examination (Main) – 2027 (Session 1)",
+    "kind": "notice",
+    "page": 1
+   }
+  },
   "eligibility": {
    "value": {
     "clauses": [
@@ -91,8 +114,7 @@
  },
  "gaps": [
   "apply",
-  "exam_date",
   "fee"
  ],
- "older_documents": 114
+ "older_documents": 116
 }
