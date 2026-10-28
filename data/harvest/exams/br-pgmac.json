@@ -5,8 +5,8 @@
  "body": "br-bceceb",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 19,
- "documents_in_cycle": 19,
+ "documents": 21,
+ "documents_in_cycle": 21,
  "fields": {
   "vacancies": {
    "value": {
@@ -629,6 +629,65 @@
    },
    "alternatives": 6
   },
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 65000000,
+     "raw": "MDGeneral 1 Medicine USD6645000 , . 30000000 , , . 5000000 , . 30000000 , , . USD6645000+ , . INR65000000 , , .",
+     "page": 2
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 984000,
+     "raw": ",11 st Year Rs 82 ,000/ . - Rs 9 ,84 ,000/ . -",
+     "page": 2
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 1082400,
+     "raw": "2' Year Rs 90 ,200/ . - Rs 10 ,82 ,400/ . -",
+     "page": 2
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 1190640,
+     "raw": "3rd Year Rs 99 ,220/ . - Rs 11 ,90 ,640/ . -",
+     "page": 2
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 3257040,
+     "raw": "Total perstudent Rs 32 ,57 ,040/ . -",
+     "page": 2
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 1085680,
+     "raw": "Averageyearlystipendperstudent Rs 10 ,85 ,680/ . -",
+     "page": 2
+    }
+   ],
+   "source": {
+    "notice": "42caeaef0e5a8bbdb0906d937b5669adee1c451e43d39ff8e3e716e6b3a659c9",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Web/TEMP_PGMAC26_FSTR.pdf",
+    "title": "Fee Structure of PGMAC-2026",
+    "kind": "notice",
+    "page": 2
+   }
+  },
   "dates": {
    "payment_deadline": {
     "date": "2026-11-01",
@@ -722,7 +781,6 @@
  },
  "gaps": [
   "exam_date",
-  "fee",
   "exam_pattern"
  ],
  "older_documents": 0

@@ -1,0 +1,115 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "50cc2c224f27afa3f4f3e9db87ae046d134ac94a67ba43b57beb2bda680a603a",
+  "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BSP_News & Jobs_28102026_095823.pdf",
+  "title": "BSL: WALK-IN-INTERVIEW FOR ENGAGEMENT OF CONSULTANTS (DOCTORS IN MEDICAL DISCIPLINE) FOR BOKARO GENERAL HOSPITAL",
+  "body": "in-sail",
+  "exam": "in-sail-recruitment",
+  "feed": "in-sail/careers",
+  "doc_type": "walk_in"
+ },
+ "document": {
+  "sha256": "15d7f3c9a81502304e52cd8449d2eb51bc7910c143517ff28092cb4627b13444",
+  "bytes": 952088,
+  "pages": 4,
+  "chars": 13114,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-28T15:40:13+05:30"
+ },
+ "kind": "schedule",
+ "advertisement_no": "BSL/R-C/2026-09",
+ "dates": {
+  "age_as_on": {
+   "date": "2026-10-27",
+   "evidence": "Age limit 69 years as on date of advertisement i.e. 27/10/2026",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2026-11-12",
+   "evidence": "Time, date, venue of Walk-in-Interview & Contact Person 09:30 AM on 12/11/2026 Office of the ED (M&HS), Bokaro General Hospital, Bokaro, Jharkhand-827004 Registration: From 9:30 AM to 2:00 PM on the same day at the concerned venue",
+   "page": 2,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "3 . Agelimit",
+   "date": "2026-10-27",
+   "page": 1
+  },
+  {
+   "event": "5 .",
+   "date": "2026-10-27",
+   "page": 1
+  }
+ ],
+ "age": {
+  "as_on": "2026-10-27"
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "clauses": [
+   {
+    "text": "Essential Qualification & Remuneration as on the date of advertisement i.e. 27/10/2026",
+    "page": 1
+   },
+   {
+    "text": "The essential qualification and corresponding remuneration rates of the Consultants to be engaged under the scheme shall be as under:",
+    "page": 1
+   },
+   {
+    "text": "Essential Qualification Rate of Consolidated Remuneration (per month) GDMO",
+    "page": 1
+   },
+   {
+    "text": "MBBS from a University/ Institute recognized by MCI/NMC/SMC ₹ 90,000/- Specialists MBBS from a University/ Institute recognized by MCI/NMC/SMC with PG Diploma in respective speciality ₹ 1,20,000/- MBBS from a University/ Institute recognized by MCI/NMC/SMC with PG Degree in respective speciality ₹…",
+    "page": 1
+   },
+   {
+    "text": "The essential qualification and work experience, if any, shall be taken into account as on the date of advertisement i.e. 27/10/2026",
+    "page": 1
+   },
+   {
+    "text": "MBBS ₹350/- per month MBBS with PG Diploma/Degree in a speciality ₹500/- per month e) In case of ex-employee of SAIL, the medical benefits as applicable/ available for ex-employees will continue",
+    "page": 2
+   },
+   {
+    "text": "b) Pass certificate & mark sheets for educational qualification",
+    "page": 3
+   },
+   {
+    "text": "Candidature of an applicant is liable to be rejected at any stage of the selection process or after selection, if any information provided by the candidate is found to be false or is found not to be in conformity with requisite eligibility criteria mentioned in the advertisement",
+    "page": 3
+   },
+   {
+    "text": "(12) Educational Qualifications (From Professional Qualification onwards) as on 27.10.2026:",
+    "page": 4
+   }
+  ]
+ },
+ "selection": [
+  "Interview"
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 2
+  }
+ },
+ "summary": {
+  "apply": {
+   "from": "2026-11-12"
+  },
+  "education": [
+   "Graduate",
+   "Diploma / ITI"
+  ],
+  "selection": "Interview"
+ }
+}

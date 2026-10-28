@@ -5,8 +5,8 @@
  "body": "in-sail",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 2,
- "documents_in_cycle": 2,
+ "documents": 3,
+ "documents_in_cycle": 3,
  "fields": {
   "age": {
    "value": {
@@ -27,6 +27,16 @@
    }
   },
   "dates": {
+   "age_as_on": {
+    "date": "2026-10-27",
+    "source": {
+     "notice": "50cc2c224f27afa3f4f3e9db87ae046d134ac94a67ba43b57beb2bda680a603a",
+     "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BSP_News & Jobs_28102026_095823.pdf",
+     "title": "BSL: WALK-IN-INTERVIEW FOR ENGAGEMENT OF CONSULTANTS (DOCTORS IN MEDICAL DISCIPLINE) FOR BOKARO GENERAL HOSPITAL",
+     "kind": "schedule",
+     "page": 1
+    }
+   },
    "exam_date": {
     "date": "2026-11-10",
     "source": {
@@ -46,11 +56,21 @@
      "kind": "advertisement",
      "page": 1
     }
+   },
+   "registration_open": {
+    "date": "2026-11-12",
+    "source": {
+     "notice": "50cc2c224f27afa3f4f3e9db87ae046d134ac94a67ba43b57beb2bda680a603a",
+     "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BSP_News & Jobs_28102026_095823.pdf",
+     "title": "BSL: WALK-IN-INTERVIEW FOR ENGAGEMENT OF CONSULTANTS (DOCTORS IN MEDICAL DISCIPLINE) FOR BOKARO GENERAL HOSPITAL",
+     "kind": "schedule",
+     "page": 2
+    }
    }
   },
   "apply": {
    "value": {
-    "from": null,
+    "from": "2026-11-12",
     "until": "2026-10-20"
    },
    "source": {
@@ -78,7 +98,8 @@
     "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News & Jobs_27102026_152820.pdf",
     "title": "Advertisement No. Advisor-HR-CS/2026-27/1325, dtd.27/10/2026 inviting applications for the engagement of Advisor/Consultant for HR -Canteen Services.",
     "kind": "advertisement"
-   }
+   },
+   "alternatives": 1
   },
   "eligibility": {
    "value": {
@@ -107,7 +128,7 @@
     "title": "Advertisement No. Advisor-HR-CS/2026-27/1325, dtd.27/10/2026 inviting applications for the engagement of Advisor/Consultant for HR -Canteen Services.",
     "kind": "advertisement"
    },
-   "alternatives": 1
+   "alternatives": 2
   },
   "selection": {
    "value": [
@@ -118,7 +139,8 @@
     "url": "https://aima-web-images.s3.ap-south-1.amazonaws.com/sailcareers.com/Downloads/BHILAI_News & Jobs_27102026_152820.pdf",
     "title": "Advertisement No. Advisor-HR-CS/2026-27/1325, dtd.27/10/2026 inviting applications for the engagement of Advisor/Consultant for HR -Canteen Services.",
     "kind": "advertisement"
-   }
+   },
+   "alternatives": 1
   }
  },
  "gaps": [
