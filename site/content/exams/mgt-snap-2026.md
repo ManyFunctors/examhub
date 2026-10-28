@@ -309,7 +309,7 @@ link_apply         = 'https://snap2026.ishinfosys.com/SN026ADY27/Apply/Index.asp
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.snaptest.org/documents/SNAP-2026-Bulletin.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261026001408/https://www.snaptest.org/documents/SNAP-2026-Bulletin.pdf'
   document_title     = 'SNAP Bulletin 2026'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

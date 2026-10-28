@@ -300,13 +300,20 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://npsc.nagaland.gov.in/advertisement/178713486224731'
-link_apply         = 'https://npsc.nagaland.gov.in/applicant/register'
+link_apply         = 'https://npsc.nagaland.gov.in/applicant/login'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://npsc.nagaland.gov.in/'
+  document_archive   = 'http://web.archive.org/web/20250212114913/https://npsc.nagaland.gov.in/'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://npsc.nagaland.gov.in/applicant/register'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

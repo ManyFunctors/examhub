@@ -352,7 +352,7 @@ link_apply         = 'https://dsssb.delhi.gov.in/user/login'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt-03-2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260623223643/https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt-03-2026.pdf'
   document_title     = 'final advt 03 2026'
 
   [[links.documents]]
@@ -360,7 +360,7 @@ link_apply         = 'https://dsssb.delhi.gov.in/user/login'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://dsssb.delhi.gov.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260720101911/https://dsssb.delhi.gov.in/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

@@ -372,7 +372,7 @@ link_apply         = 'https://sso.rajasthan.gov.in/signin'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://rpsc.rajasthan.gov.in/examdashboard'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260516181319/https://rpsc.rajasthan.gov.in/examdashboard'
   document_title     = 'Exam Dashboard'
 
   [[links.documents]]
@@ -380,7 +380,7 @@ link_apply         = 'https://sso.rajasthan.gov.in/signin'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://rpsc.rajasthan.gov.in/scribereg'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260608205825/https://rpsc.rajasthan.gov.in/scribereg'
 
   [[links.documents]]
   document_type      = 'other'

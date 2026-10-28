@@ -303,7 +303,7 @@ link_apply         = 'https://mpsc.meghalaya.gov.in/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://mpsc.meghalaya.gov.in/notifications-st.html'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260711121951/http://www.mpsc.meghalaya.gov.in/notifications-st.html'
   document_title     = 'Notifications for Screening Tests/Written Examinations'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

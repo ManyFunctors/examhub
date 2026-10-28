@@ -322,7 +322,7 @@ link_apply         = 'https://www.slat-test.org/register.php'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.slat-test.org/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261009052008/https://www.slat-test.org/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

@@ -322,14 +322,14 @@ link_apply         = 'https://keralapsc.gov.in/'
   document_type      = 'schedule'
   document_stage     = 'all'
   document_published = 2026-09-23
-  document_title     = '2026, Featured Latest, Statewide ASSISTANT PROFESSOR IN LAW (Special Recruitment for SCHEDULED TRIBES ONLY)…'
+  document_title     = 'Featured Latest, Statewide, 2026 ASSISTANT PROFESSOR IN LAW (Special Recruitment for SCHEDULED TRIBES ONLY)…'
   document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-09/0332025_00_0_0.pdf'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:26+05:30
+provenance_last_checked = 2026-10-28T05:39:53+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

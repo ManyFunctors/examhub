@@ -300,7 +300,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://npsc.nagaland.gov.in/'
-link_apply         = 'https://npsc.nagaland.gov.in/applicant/register'
+link_apply         = 'https://npsc.nagaland.gov.in/applicant/login'
 
   [[links.documents]]
   document_type      = 'other'
@@ -309,6 +309,13 @@ link_apply         = 'https://npsc.nagaland.gov.in/applicant/register'
   document_url       = 'https://npsc.nagaland.gov.in/notification/179032099496984'
   document_archive   = 'not_archived'
   document_title     = 'Notification NO.NPSC.ADVT-1/04(VOL-1) dt. 25.09.2026 (CTSE 2026 Microbiology Exam cancelled )'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://npsc.nagaland.gov.in/applicant/register'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

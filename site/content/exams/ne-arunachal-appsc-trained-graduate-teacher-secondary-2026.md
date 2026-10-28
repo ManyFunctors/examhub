@@ -303,7 +303,7 @@ link_apply         = 'https://appsc.gov.in/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://appsc.gov.in/upload/files/RECINS001/EXAMINATION_CALLENDAR_20251223_114711.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260211023921/https://appsc.gov.in/upload/files/RECINS001/EXAMINATION_CALLENDAR_20251223_114711.pdf'
   document_title     = 'EXAMINATION CALLENDAR 20251223 114711'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

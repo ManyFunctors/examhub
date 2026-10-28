@@ -352,7 +352,7 @@ link_apply         = 'https://hpbose.org/AffiliationLogin.aspx'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://hpbose.org/Admin/Upload/Notification%20regarding%20TET.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260925055441/https://hpbose.org/Admin/Upload/Notification%20regarding%20TET.pdf'
   document_title     = 'Notification regarding TET'
 
   [[links.documents]]
@@ -361,14 +361,14 @@ link_apply         = 'https://hpbose.org/AffiliationLogin.aspx'
   document_published = 2025-12-10
   document_title     = 'Notification regarding the schedule of EMRSST, Teacher Eligibility Test, and D.El.Ed (CET) for the year 2026'
   document_url       = 'https://hpbose.org/Admin/Upload/Notification_tet_10-12-2025.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260213043959/https://hpbose.org/Admin/Upload/Notification_tet_10-12-2025.pdf'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://hpbose.org/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261016123552/https://hpbose.org/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

@@ -351,7 +351,7 @@ link_apply         = 'https://recruitment.sbi.bank.in/crpd-sco-2026-27-25/apply'
   document_type      = 'corrigendum'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_title     = 'RECRUITMENT OF PROBATIONARY OFFICERS (MAIN EXAMINATION RESULT ANNOUNCED) ADVERTISEMENT NO:CRPD/PO/2026-27/09…'
+  document_title     = 'RECRUITMENT OF PROBATIONARY OFFICERS (NOTICE FOR ONLINE PSYCHOMETRIC TEST IN REMOTE PROCTORED (RPA) MODE)…'
   document_url       = 'https://sbi.bank.in/documents/77530/59067274/02092026SBIPOMainsEnglish.pdf'
   document_archive   = 'not_archived'
 
@@ -373,7 +373,7 @@ link_apply         = 'https://recruitment.sbi.bank.in/crpd-sco-2026-27-25/apply'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-23T02:51:07+05:30
+provenance_last_checked = 2026-10-28T05:39:46+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'
