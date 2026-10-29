@@ -1,0 +1,68 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "160d34837b083e0af84a1bece4abb4039ca7c552777ebd735cc0a4273fa62572",
+  "url": "https://keralapsc.gov.in/sites/default/files/2026-10/5132025_04_0_0.pdf",
+  "title": "Featured Latest, 2026, Alappuzha FULL TIME JUNIOR LANGUAGE TEACHER (ARABIC) UPS (1st NCA for : EZHAVA/THIYYA/BILLAVA) (Category No. 513/2025) in Education Department in Alappuzha District. Ranked List No. : 760/2026/SS II wef 27.10.2026. FULL TIME JUNIOR LANGUAGE TEACHER (ARABIC) UPS (1st NCA for : EZHAVA/THIYYA/BILLAVA) (Category No. 513/2025) in Education Department in Alappuzha District. Download 28-10-2026",
+  "body": "kl-kpsc",
+  "exam": "kl-kpsc-other",
+  "feed": "kl-kpsc/ranked-lists",
+  "published": "2026-10-27",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "9d482edd8d3529fe8a701e54363999d6ea9fc2437dd38e5bca7e0ebc493d9e4d",
+  "bytes": 110657,
+  "pages": 3,
+  "chars": 5495,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-30T05:16:40+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-11-11",
+   "evidence": "A period of 15 (Fifteen) days to apply for rechecking of Answer Scripts will be allowed to candidates with effect from the date on which the Ranked list is uploaded in the website of the Commission(on or before 11.11.2026)",
+   "page": 2,
+   "from": "text"
+  },
+  "exam_date": {
+   "date": "2026-04-27",
+   "evidence": "NOTE (5) :- The A part and B part of OMR scripts will be destroyed after completing six months period from the date of finalisation of last Ranked List included in the common test held on 27-04-2026",
+   "page": 2,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 85,
+   "raw": "But answer scripts will be rechecked if the candidates apply for through their One Time Registration profile from the Commission`s official Website www.keralapsc.gov.in by remitting the prescribed fee of Rs. 85/- (Rupees Eighty Five Only)",
+   "page": 2
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 2
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.keralapsc.gov.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-11-11"
+  },
+  "exam_date": "2026-04-27",
+  "fee": {
+   "min": 85,
+   "max": 85
+  }
+ }
+}
