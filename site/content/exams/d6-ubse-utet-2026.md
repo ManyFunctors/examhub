@@ -338,8 +338,14 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://ubse.uk.gov.in/document-category/utet/'
-link_apply         = 'https://ukutet.com/'
-documents          = []
+link_apply         = 'https://ubse.org/'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://ukutet.com/'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

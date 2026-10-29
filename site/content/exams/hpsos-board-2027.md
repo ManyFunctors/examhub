@@ -294,7 +294,7 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'unknown'
+link_official_page = 'https://hpbose.org/'
 link_apply         = 'unknown'
 
   [[links.documents]]
