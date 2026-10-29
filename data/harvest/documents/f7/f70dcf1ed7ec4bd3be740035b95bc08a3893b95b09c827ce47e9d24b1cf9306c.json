@@ -1,0 +1,27 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "f70dcf1ed7ec4bd3be740035b95bc08a3893b95b09c827ce47e9d24b1cf9306c",
+  "url": "https://www.jnu.ac.in/sites/default/files/inline-files/Notice_28-10-2026.pdf",
+  "title": "Notice reg viva-voce for admission to PhD prog",
+  "body": "dl-jnu",
+  "exam": "dl-jnu-phd",
+  "feed": "dl-jnu/home",
+  "published": "2026-10-28",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "e0edf7a2711e6f8b33c90b84fc2a786d5bc5503e5b539ca57e8f6fbebb08f087",
+  "bytes": 102700,
+  "pages": 1,
+  "chars": 690,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-29T07:49:31+05:30"
+ },
+ "kind": "schedule",
+ "warnings": [
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
