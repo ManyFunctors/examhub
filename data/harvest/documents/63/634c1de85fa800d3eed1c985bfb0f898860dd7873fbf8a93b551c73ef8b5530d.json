@@ -1,0 +1,45 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "634c1de85fa800d3eed1c985bfb0f898860dd7873fbf8a93b551c73ef8b5530d",
+  "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/docs_0001.pdf",
+  "title": "11 NOTICE NO: 205 POST: TRANSLATOR (HINDI) POST CODE- 07/24 LEGISLATIVE ASSEMBLY SECRETARIAT Download",
+  "body": "dl-dsssb",
+  "exam": "dl-dsssb-other",
+  "feed": "dl-dsssb/results",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "57cc70844ad85f39ceb60709b82fcf3807307224ae8ccb609001459324741116",
+  "bytes": 524020,
+  "pages": 2,
+  "chars": 5118,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-29T10:19:55+05:30"
+ },
+ "kind": "corrigendum",
+ "advertisement_no": "04124",
+ "dates": {
+  "exam_date": {
+   "date": "2026-07-02",
+   "evidence": "The online examination for Tier-ll was conducted on 02.07.2026, wherein 78 candidates out of TO7 shortlisted candidates appeared",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 1
+  }
+ },
+ "links": {
+  "apply": [
+   "https://www.dsssbonline.nic"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-07-02"
+ }
+}

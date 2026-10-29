@@ -1,0 +1,64 @@
+{
+ "schema": 1,
+ "exam": "dl-dsssb-other",
+ "name": "DSSSB other recruitment (umbrella, by advertisement number)",
+ "body": "dl-dsssb",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 2,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2026-07-02",
+    "source": {
+     "notice": "634c1de85fa800d3eed1c985bfb0f898860dd7873fbf8a93b551c73ef8b5530d",
+     "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/docs_0001.pdf",
+     "title": "11 NOTICE NO: 205 POST: TRANSLATOR (HINDI) POST CODE- 07/24 LEGISLATIVE ASSEMBLY SECRETARIAT Download",
+     "kind": "corrigendum",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2026-07-02",
+   "source": {
+    "notice": "634c1de85fa800d3eed1c985bfb0f898860dd7873fbf8a93b551c73ef8b5530d",
+    "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/docs_0001.pdf",
+    "title": "11 NOTICE NO: 205 POST: TRANSLATOR (HINDI) POST CODE- 07/24 LEGISLATIVE ASSEMBLY SECRETARIAT Download",
+    "kind": "corrigendum",
+    "page": 1
+   }
+  },
+  "advertisement_no": {
+   "value": "04124",
+   "source": {
+    "notice": "634c1de85fa800d3eed1c985bfb0f898860dd7873fbf8a93b551c73ef8b5530d",
+    "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/docs_0001.pdf",
+    "title": "11 NOTICE NO: 205 POST: TRANSLATOR (HINDI) POST CODE- 07/24 LEGISLATIVE ASSEMBLY SECRETARIAT Download",
+    "kind": "corrigendum"
+   }
+  },
+  "apply_links": {
+   "value": [
+    "https://www.dsssbonline.nic"
+   ],
+   "source": {
+    "notice": "634c1de85fa800d3eed1c985bfb0f898860dd7873fbf8a93b551c73ef8b5530d",
+    "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/docs_0001.pdf",
+    "title": "11 NOTICE NO: 205 POST: TRANSLATOR (HINDI) POST CODE- 07/24 LEGISLATIVE ASSEMBLY SECRETARIAT Download",
+    "kind": "corrigendum"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 1
+}
