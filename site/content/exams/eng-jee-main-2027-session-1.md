@@ -129,7 +129,9 @@ city_slip_separate = 'unknown'
     changed_from = 'none'
 
     [dates.stages.exam]
-    status       = 'not_announced'
+    from         = 2026-10-28
+    to           = 'unknown'
+    status       = 'confirmed'
     change       = 'none'
     changed_from = 'none'
 
@@ -380,6 +382,14 @@ link_official_page = 'https://jeemain.nta.nic.in/'
 link_apply         = 'unknown'
 
   [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610281658843201.pdf'
+  document_archive   = 'not_archived'
+  document_title     = 'Advisory and Instructions regarding registration process for Joint Entrance Examination (Main) – 2027…'
+
+  [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
@@ -389,7 +399,7 @@ link_apply         = 'unknown'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-09-27T19:36:16+05:30
+provenance_last_checked = 2026-10-29T06:07:23+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'fee.rows'
@@ -397,4 +407,11 @@ provenance_last_checked = 2026-09-27T19:36:16+05:30
   evidence_page     = 0
   evidence_words    = 'ExamHub record: General 1000; General 800; EWS 900; EWS 800; OBC-NCL 900; OBC 800; SC 500; ST 500; PwBD 500; Transgender 500'
   evidence_method   = 'manual'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.stages[1].exam.from'
+  evidence_document = 'https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610281658843201.pdf'
+  evidence_page     = 1
+  evidence_words    = 'exam date 2026-10-28'
+  evidence_method   = 'rule'
 +++

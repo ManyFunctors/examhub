@@ -306,14 +306,38 @@ link_apply         = 'https://mpscmanipur.gov.in/'
   document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_title     = 'View Advertisement'
+  document_title     = 'Advt. No. 01/2026 Open PDF Advertisement for direct recruitment of 130 posts of Assistant Engineer/ Manager…'
   document_url       = 'https://mpscmanipur.gov.in/files/AE_Recuitment_2026.pdf'
   document_archive   = 'http://web.archive.org/web/20260617155349/http://mpscmanipur.gov.in/files/AE_Recuitment_2026.pdf'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_title     = 'Advt. No. 02/2026 Open PDF Notification for recruitment of Under Secretary (Law) and Law Officer in Law &…'
+  document_url       = 'https://mpscmanipur.gov.in/files/MPSC_26041620561.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_title     = 'Advt. No. 03/2026 Open PDF Notification for recruitment of Research Assistant in Planning Department on…'
+  document_url       = 'https://mpscmanipur.gov.in/files/MPSC_26041620560.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_title     = 'Advt. No. 04/2026 Open PDF Notification for recruitment of 13 posts of Dental Surgeon (MHS Grade-IV) in the…'
+  document_url       = 'https://mpscmanipur.gov.in/files/MPSC_26092317020.pdf'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T16:35:41+05:30
+provenance_last_checked = 2026-10-29T06:07:25+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'
