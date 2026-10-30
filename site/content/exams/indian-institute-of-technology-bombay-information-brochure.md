@@ -302,12 +302,13 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.ceed.iitb.ac.in/2027/downloads/CEED2027_Brochure.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261009005353/https://www.ceed.iitb.ac.in/2027/downloads/CEED2027_Brochure.pdf'
+  document_title     = 'Information Brochure'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-10-30T03:20:19+05:30
-provenance_last_checked = 2026-10-30T03:20:19+05:30
+provenance_last_checked = 2026-10-30T06:06:47+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.stages[1].admit_card.from'

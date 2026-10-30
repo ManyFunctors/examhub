@@ -362,7 +362,7 @@ link_apply         = 'https://cctns.delhipolice.gov.in/citizenservices/missingpe
   document_published = 2026-02-25
   document_title     = 'Revised vacancies regarding'
   document_url       = 'https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice1_25022026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260615023432/https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice1_25022026.pdf'
 
   [[links.documents]]
   document_type      = 'corrigendum'
@@ -370,14 +370,14 @@ link_apply         = 'https://cctns.delhipolice.gov.in/citizenservices/missingpe
   document_published = 2026-09-03
   document_title     = 'Constable (Executive) Male and Female in the Delhi Police Examination, 2025: Corrigendum- Conduct of PE and…'
   document_url       = 'https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Corrigendum_DPCE2025_03092026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261028031407/https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Corrigendum_DPCE2025_03092026.pdf'
 
   [[links.documents]]
   document_type      = 'schedule'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://delhipolice.gov.in/RecruitmentFile/79001_Postponement%20Notice%20DP%20website.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260919014815/https://delhipolice.gov.in/RecruitmentFile/79001_Postponement%20Notice%20DP%20website.pdf'
   document_title     = '79001 Postponement Notice DP website'
 
   [[links.documents]]
@@ -385,7 +385,7 @@ link_apply         = 'https://cctns.delhipolice.gov.in/citizenservices/missingpe
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://ssc.gov.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261022085454/https://ssc.gov.in/'
   document_title     = 'Selection Posts Examination, 2026'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

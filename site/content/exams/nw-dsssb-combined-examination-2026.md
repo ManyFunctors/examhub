@@ -353,7 +353,7 @@ link_apply         = 'https://dsssb.delhi.gov.in/user/login'
   document_published = 'unknown'
   document_url       = 'https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_01-2026.pdf'
   document_archive   = 'not_archived'
-  document_title     = 'final advt 01 2026'
+  document_title     = 'II (GNCTDSS) / ASSISTANT SECTION OFFICER Date: 20-02-2026 | Download'
 
   [[links.documents]]
   document_type      = 'other'
@@ -365,7 +365,7 @@ link_apply         = 'https://dsssb.delhi.gov.in/user/login'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:51+05:30
+provenance_last_checked = 2026-10-30T06:06:48+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

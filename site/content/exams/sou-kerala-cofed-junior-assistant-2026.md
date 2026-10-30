@@ -307,7 +307,7 @@ link_apply         = 'https://keralapsc.gov.in/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-08/noti-134-26.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261028032620/https://keralapsc.gov.in/sites/default/files/2026-08/noti-134-26.pdf'
   document_title     = 'noti 134 26'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

@@ -303,7 +303,7 @@ link_apply         = 'https://bpsconline.bihar.gov.in/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://bpsconline.bihar.gov.in/candidate/login'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261011111433/https://bpsconline.bihar.gov.in/candidate/login'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

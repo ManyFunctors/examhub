@@ -133,7 +133,9 @@ city_slip_separate = 'unknown'
     changed_from = 'none'
 
     [dates.stages.exam]
-    status       = 'not_announced'
+    from         = 2026-07-02
+    to           = 'unknown'
+    status       = 'confirmed'
     change       = 'none'
     changed_from = 'none'
 
@@ -351,9 +353,17 @@ link_apply         = 'https://dsssb.delhi.gov.in/user/login'
   document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
+  document_url       = 'https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/docs_0001.pdf'
+  document_archive   = 'not_archived'
+  document_title     = '13 NOTICE NO: 205 POST: TRANSLATOR (HINDI) POST CODE- 07/24 LEGISLATIVE ASSEMBLY SECRETARIAT Download'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
   document_url       = 'https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_02-2026_1.pdf'
   document_archive   = 'not_archived'
-  document_title     = 'final advt 02 2026 1'
+  document_title     = '28/03/2026 Date: 25-02-2026 | Download'
 
   [[links.documents]]
   document_type      = 'other'
@@ -365,7 +375,7 @@ link_apply         = 'https://dsssb.delhi.gov.in/user/login'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:51+05:30
+provenance_last_checked = 2026-10-30T06:06:48+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'
@@ -387,4 +397,11 @@ provenance_last_checked = 2026-10-22T14:28:51+05:30
   evidence_page     = 0
   evidence_words    = 'ExamHub record: All candidates 100; SC 0; ST 0; PwBD 0; Ex-Servicemen 0; Women 0'
   evidence_method   = 'manual'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.stages[1].exam.from'
+  evidence_document = 'https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/docs_0001.pdf'
+  evidence_page     = 1
+  evidence_words    = 'exam date 2026-07-02'
+  evidence_method   = 'rule'
 +++

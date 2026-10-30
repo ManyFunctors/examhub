@@ -345,7 +345,7 @@ link_apply         = 'https://ubse.org/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://ukutet.com/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261006012854/https://ukutet.com/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

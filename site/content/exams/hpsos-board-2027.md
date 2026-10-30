@@ -303,14 +303,14 @@ link_apply         = 'unknown'
   document_published = 2026-10-27
   document_title     = 'Prospectus HPSOS for the March 2027 session'
   document_url       = 'https://hpbose.org/Admin/Upload/ROSPECTUS%20M%202027_compressed.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261028030814/https://hpbose.org/Admin/Upload/ROSPECTUS%20M%202027_compressed.pdf'
 
   [[links.documents]]
   document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://hpbose.org/Admin/Upload/Notification%20sos.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261028030843/https://hpbose.org/Admin/Upload/Notification%20sos.pdf'
   document_title     = 'Notification regarding online form filling dates HPSOS March 2027'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

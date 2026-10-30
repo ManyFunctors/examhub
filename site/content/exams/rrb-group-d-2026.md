@@ -307,14 +307,14 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.rrbapply.gov.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20240530133719/https://rrbapply.gov.in/'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://rrbajmer.gov.in/Upload_PDF/Final-Detailed%20CEN%2009-2025%20Level-1-updated%20on%2030012026-639054049190206941.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260316232920/https://rrbajmer.gov.in/Upload_PDF/Final-Detailed%20CEN%2009-2025%20Level-1-updated%20on%2030012026-639054049190206941.pdf'
   document_title     = 'Final Detailed CEN 09 2025 Level 1 updated on 30012026 639054049190206941'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

@@ -304,7 +304,7 @@ link_apply         = 'https://mpscmanipur.gov.in/'
   document_published = 'unknown'
   document_title     = 'Advt. No. 01/2026 Open PDF Advertisement for direct recruitment of 130 posts of Assistant Engineer/ Manager…'
   document_url       = 'https://mpscmanipur.gov.in/files/AE_Recuitment_2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260617155349/http://mpscmanipur.gov.in/files/AE_Recuitment_2026.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

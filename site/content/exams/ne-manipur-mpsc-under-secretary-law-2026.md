@@ -316,7 +316,7 @@ link_apply         = 'https://mpscmanipur.gov.in/'
   document_published = 'unknown'
   document_title     = 'Advt. No. 02/2026 Open PDF Notification for recruitment of Under Secretary (Law) and Law Officer in Law &…'
   document_url       = 'https://mpscmanipur.gov.in/files/MPSC_26041620561.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260617171442/http://mpscmanipur.gov.in/files/MPSC_26041620561.pdf'
 
   [[links.documents]]
   document_type      = 'notification'
@@ -324,7 +324,7 @@ link_apply         = 'https://mpscmanipur.gov.in/'
   document_published = 'unknown'
   document_title     = 'Advt. No. 03/2026 Open PDF Notification for recruitment of Research Assistant in Planning Department on…'
   document_url       = 'https://mpscmanipur.gov.in/files/MPSC_26041620560.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260617165406/http://mpscmanipur.gov.in/files/MPSC_26041620560.pdf'
 
   [[links.documents]]
   document_type      = 'notification'
@@ -332,7 +332,7 @@ link_apply         = 'https://mpscmanipur.gov.in/'
   document_published = 'unknown'
   document_title     = 'Advt. No. 04/2026 Open PDF Notification for recruitment of 13 posts of Dental Surgeon (MHS Grade-IV) in the…'
   document_url       = 'https://mpscmanipur.gov.in/files/MPSC_26092317020.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'https://web.archive.org/web/20261029033101/https://mpscmanipur.gov.in/files/MPSC_26092317020.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

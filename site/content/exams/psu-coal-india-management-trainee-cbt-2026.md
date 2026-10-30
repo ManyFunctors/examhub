@@ -353,7 +353,7 @@ link_apply         = 'unknown'
   document_published = 'unknown'
   document_title     = 'Detailed Advertisement No 01/2026 for Recruitment of Management Trainees based on GATE-2025 Score'
   document_url       = 'https://d3u7ubx0okog7j.cloudfront.net/documents/Detailed_Advertisement_01_2026_dated_05.05.2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261028031438/https://d3u7ubx0okog7j.cloudfront.net/documents/Detailed_Advertisement_01_2026_dated_05.05.2026.pdf'
 
   [[links.documents]]
   document_type      = 'notification'
@@ -361,14 +361,14 @@ link_apply         = 'unknown'
   document_published = 'unknown'
   document_title     = 'Detailed Advertisement No 03/2026 for Recruitment of Management Trainees through Computer Based Test (CBT-26)'
   document_url       = 'https://d3u7ubx0okog7j.cloudfront.net/documents/Advertisement_03_2026_dated_05.05.2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260809212344/https://d3u7ubx0okog7j.cloudfront.net/documents/Advertisement_03_2026_dated_05.05.2026.pdf'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.coalindia.in/career-cil/jobs-coal-india'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260420220507/https://www.coalindia.in/career-cil/jobs-coal-india/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
