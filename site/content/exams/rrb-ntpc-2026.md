@@ -307,14 +307,14 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.rrbapply.gov.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20240530133719/https://rrbapply.gov.in/'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://rrbahmedabad.gov.in/wp-content/uploads/2025/10/Citi-Intimation-Slip-Notice-CEN-07-2025-English.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260521050738/https://rrbahmedabad.gov.in/wp-content/uploads/2025/10/Citi-Intimation-Slip-Notice-CEN-07-2025-English.pdf'
   document_title     = 'Citi Intimation Slip Notice CEN 07 2025 English'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

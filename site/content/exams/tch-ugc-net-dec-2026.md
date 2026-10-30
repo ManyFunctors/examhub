@@ -416,7 +416,7 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-29T06:07:30+05:30
+provenance_last_checked = 2026-10-30T06:06:52+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'fee.rows'

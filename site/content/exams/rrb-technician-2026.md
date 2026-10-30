@@ -307,14 +307,14 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.rrbapply.gov.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20240530133719/https://rrbapply.gov.in/'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://rrbranchi.gov.in/upload/files/pdf/09_07_06pm04776926682e2fd15200721eacbac1c3.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260726154057/https://rrbranchi.gov.in/upload/files/pdf/09_07_06pm04776926682e2fd15200721eacbac1c3.pdf'
   document_title     = '09 07 06pm04776926682e2fd15200721eacbac1c3'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

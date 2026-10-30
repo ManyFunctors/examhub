@@ -352,7 +352,7 @@ link_apply         = 'https://kpsc.kar.nic.in/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://kpsc.kar.nic.in/SAAD%20HK%20Notification%20dt%2027-08-2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260904060851/https://kpsc.kar.nic.in/SAAD%20HK%20Notification%20dt%2027-08-2026.pdf'
   document_title     = 'SAAD HK Notification dt 27 08 2026'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

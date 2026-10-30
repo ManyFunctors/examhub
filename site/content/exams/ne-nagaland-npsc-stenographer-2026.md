@@ -314,7 +314,7 @@ link_apply         = 'https://npsc.nagaland.gov.in/applicant/login'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://npsc.nagaland.gov.in/applicant/register'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20240921054347/https://npsc.nagaland.gov.in/applicant/register'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

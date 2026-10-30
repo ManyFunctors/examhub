@@ -378,7 +378,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.rrbapply.gov.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20240530133719/https://rrbapply.gov.in/'
 
   [[links.documents]]
   document_type      = 'schedule'
@@ -386,7 +386,7 @@ link_apply         = 'unknown'
   document_published = 2026-03-11
   document_title     = 'TC-38197, KSM Solutions पटना में 18-02-2026 को निर्धारित सीबीटी के पुनर्निर्धारण की तिथि'
   document_url       = 'https://www.rrbcdg.gov.in/uploads/2025/01-ALP/012025ALP-CBT1_Reschedule_Patna-Hi.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260411024524/https://www.rrbcdg.gov.in/uploads/2025/01-ALP/012025ALP-CBT1_Reschedule_Patna-Hi.pdf'
 
   [[links.documents]]
   document_type      = 'schedule'
@@ -394,7 +394,7 @@ link_apply         = 'unknown'
   document_published = 2026-02-18
   document_title     = 'Regarding rescheduling of CBT-1 scheduled on 18-02-2026 at TC-38197, KSM Solutions, Patna'
   document_url       = 'https://www.rrbcdg.gov.in/uploads/2025/01-ALP/012025ALP-CBT1_Reschedule_Patna.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260411023658/https://www.rrbcdg.gov.in/uploads/2025/01-ALP/012025ALP-CBT1_Reschedule_Patna.pdf'
 
   [[links.documents]]
   document_type      = 'schedule'
@@ -402,7 +402,7 @@ link_apply         = 'unknown'
   document_published = 2026-02-18
   document_title     = 'TC-38197, KSM Solutions, पटना में 18-02-2026 को निर्धारित CBT-1 (शिफ्ट 2 व 3) के पुनर्निर्धारण के संबंध में…'
   document_url       = 'https://www.rrbcdg.gov.in/uploads/2025/01-ALP/012025ALP-CBT1_Reschedule_TC38197.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260311093014/https://www.rrbcdg.gov.in/uploads/2025/01-ALP/012025ALP-CBT1_Reschedule_TC38197.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

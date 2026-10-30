@@ -307,7 +307,7 @@ link_apply         = 'https://iocl.com/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://iocl.com/admin/img/UploadedFiles/LatestJobOpening/Files/DetailedAd14082026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260829151116/https://iocl.com/admin/img/UploadedFiles/LatestJobOpening/Files/DetailedAd14082026.pdf'
   document_title     = 'DetailedAd14082026'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

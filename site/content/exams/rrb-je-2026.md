@@ -352,7 +352,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.rrbapply.gov.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20240530133719/https://rrbapply.gov.in/'
 
   [[links.documents]]
   document_type      = 'schedule'
@@ -360,7 +360,7 @@ link_apply         = 'unknown'
   document_published = 2026-02-20
   document_title     = 'TC-38197, KSM Solutions, पटना में 19 और 20-02-2026 को होने वाले CBT-1 (सभी शिफ्ट) के पुनर्निर्धारण के संबंध…'
   document_url       = 'https://www.rrbcdg.gov.in/uploads/2025/05-JE/052025-CBT1_Reschedule_TC38197.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260311091927/https://www.rrbcdg.gov.in/uploads/2025/05-JE/052025-CBT1_Reschedule_TC38197.pdf'
 
   [[links.documents]]
   document_type      = 'other'

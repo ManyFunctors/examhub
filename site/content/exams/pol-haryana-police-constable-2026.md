@@ -307,14 +307,14 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://hssc.gov.in/file/ac1f23cd-9d9c-1328-819d-bf5dae3c0004/publicNotice'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260511185401/https://hssc.gov.in/file/ac1f23cd-9d9c-1328-819d-bf5dae3c0004/publicNotice'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://adv012026.hryssc.com/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260903144158/https://adv012026.hryssc.com/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

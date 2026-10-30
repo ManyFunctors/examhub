@@ -300,7 +300,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://bceceboard.bihar.gov.in/pdf_Pros/PROS_PGMAC26.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'https://web.archive.org/web/20261029033135/https://bceceboard.bihar.gov.in/pdf_Pros/PROS_PGMAC26.pdf'
   document_title     = 'PGMAC'
 
   [[links.documents]]
@@ -317,7 +317,7 @@ link_apply         = 'unknown'
   document_published = 2026-08-31
   document_title     = 'Notice for Extension in Date for First Round Document Verification of UGMAC-2026 (Adv. No.…'
   document_url       = 'https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_04.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261028031222/https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_04.pdf'
 
   [[links.documents]]
   document_type      = 'schedule'
@@ -325,7 +325,7 @@ link_apply         = 'unknown'
   document_published = 2026-08-25
   document_title     = 'Notice for First Round Document Verification of UGMAC-2026 (Adv. No. BCECEB(UGMAC)-2026/03 Dated 25.08.2026)'
   document_url       = 'https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_03.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261028031324/https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_03.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
