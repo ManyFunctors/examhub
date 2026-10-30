@@ -1,0 +1,55 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3196e574bfcb846a796109063bdf3c6ef92526e684be06569291b4c1761297af",
+  "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610302102025182.pdf",
+  "title": "Clarification regarding submission of a fresh Online Application Form for JEE (Main) – 2027 (Session 1)",
+  "body": "in-nta",
+  "exam": "in-jee-main",
+  "feed": "in-nta/jeemain",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "6dc3b0379b42a405aa8f3bab63851ac718d392ec049732eb60088e52b4128a19",
+  "bytes": 280246,
+  "pages": 1,
+  "chars": 2689,
+  "ocr": false,
+  "indic_share": 0.04,
+  "fetched": "2026-10-30T21:51:50+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "exam_date": {
+   "date": "2026-10-30",
+   "evidence": "Fifth Floor, Government of India Press Building, Minto Road, New Delhi – 110002 फ़ोन/Telephone: 011-40759000 िेबसाइट/Website: https://jeemain.nta.nic.in/ ई-मेल/e",
+   "page": 1,
+   "from": "table"
+  },
+  "registration_deadline": {
+   "date": "2026-11-22",
+   "evidence": "Last date: Fresh applications must be completed, including fee payment, on or before 22nd November 2026",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Fifth Floor, Government of India Press Building, Minto Road, New Delhi – 110002 फ़ोन/Telephone: 011-40759000 िेबसाइट/Website: https://jeemain.nta.nic.in/ ई-मेल/e",
+   "key": "exam_date",
+   "date": "2026-10-30",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "https://jeemain.nta.nic.in/"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-11-22"
+  },
+  "exam_date": "2026-10-30"
+ }
+}

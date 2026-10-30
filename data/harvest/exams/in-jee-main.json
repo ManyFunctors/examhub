@@ -5,28 +5,52 @@
  "body": "in-nta",
  "purpose": "admission",
  "cycle": "2027",
- "documents": 118,
- "documents_in_cycle": 2,
+ "documents": 120,
+ "documents_in_cycle": 4,
  "fields": {
   "dates": {
    "exam_date": {
-    "date": "2026-10-28",
+    "date": "2026-10-30",
     "source": {
-     "notice": "4e865f5fdd5b0db58bf8215c5ec9f2ba266cf9af949eb7f97ff7feefd617cdf3",
-     "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610281658843201.pdf",
-     "title": "Advisory and Instructions regarding registration process for Joint Entrance Examination (Main) – 2027 (Session 1)",
+     "notice": "3196e574bfcb846a796109063bdf3c6ef92526e684be06569291b4c1761297af",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610302102025182.pdf",
+     "title": "Clarification regarding submission of a fresh Online Application Form for JEE (Main) – 2027 (Session 1)",
+     "kind": "notice",
+     "page": 1
+    },
+    "alternatives": 3
+   },
+   "registration_deadline": {
+    "date": "2026-11-22",
+    "source": {
+     "notice": "3196e574bfcb846a796109063bdf3c6ef92526e684be06569291b4c1761297af",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610302102025182.pdf",
+     "title": "Clarification regarding submission of a fresh Online Application Form for JEE (Main) – 2027 (Session 1)",
      "kind": "notice",
      "page": 1
     },
     "alternatives": 1
    }
   },
-  "exam_date": {
-   "value": "2026-10-28",
+  "apply": {
+   "value": {
+    "from": null,
+    "until": "2026-11-22"
+   },
    "source": {
-    "notice": "4e865f5fdd5b0db58bf8215c5ec9f2ba266cf9af949eb7f97ff7feefd617cdf3",
-    "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610281658843201.pdf",
-    "title": "Advisory and Instructions regarding registration process for Joint Entrance Examination (Main) – 2027 (Session 1)",
+    "notice": "3196e574bfcb846a796109063bdf3c6ef92526e684be06569291b4c1761297af",
+    "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610302102025182.pdf",
+    "title": "Clarification regarding submission of a fresh Online Application Form for JEE (Main) – 2027 (Session 1)",
+    "kind": "notice",
+    "page": 1
+   }
+  },
+  "exam_date": {
+   "value": "2026-10-30",
+   "source": {
+    "notice": "3196e574bfcb846a796109063bdf3c6ef92526e684be06569291b4c1761297af",
+    "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610302102025182.pdf",
+    "title": "Clarification regarding submission of a fresh Online Application Form for JEE (Main) – 2027 (Session 1)",
     "kind": "notice",
     "page": 1
    }
@@ -113,7 +137,6 @@
   }
  },
  "gaps": [
-  "apply",
   "fee"
  ],
  "older_documents": 116
