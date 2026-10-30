@@ -1,0 +1,47 @@
+{
+ "schema": 1,
+ "exam": "dh-direct-recruitment",
+ "name": "DNH&DD Direct Recruitment (teachers, clerks, police)",
+ "body": "dh-admin",
+ "purpose": "recruitment",
+ "cycle": null,
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "pay": {
+   "value": [
+    {
+     "low": 29200,
+     "high": 92300,
+     "text": "₹29,200–92,300",
+     "evidence": "General Central Services Group \"C\" (Non-Gazetted, Non-Ministerial) Level-s in the Pay Matrix (Rs. 29,200-92,300) Selection- Cum Seniority Not Applicable l'lot ApPlicabie Whether age & education qualifications pr€scrib€d for direct rec.uits rYill apply in the casc of promotes Period probation any…",
+     "page": 2
+    },
+    {
+     "levels": [
+      4
+     ],
+     "text": "Pay Level 4",
+     "evidence": "Not Applicable Not Applicable 100% by Promotion looo/o Prcmotion Head Constable in Pay Mabix Level-4 (25,500-81,100) with 5 years reqular service in the grade and having undergone the prescribed Training course for Head Constable",
+     "page": 2
+    }
+   ],
+   "source": {
+    "notice": "d4634bec7e5a1054eb54faf0ae4eeedd0f0c978f493401145913b61a8aaebf24",
+    "url": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2026/10/202610301980497324.pdf",
+    "title": "Police Department of Dadra & Nagar Haveli and Daman & Diu: Proposed Recruitment Rules for the posts of Assistant Sub-Inspector under the UT Administration of DNH&DD",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "exam_date",
+  "fee",
+  "age",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}

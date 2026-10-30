@@ -1,0 +1,73 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "68e6227ed70c7028def7aafae359714606d22ab85c6b414a91548954cfbfc01b",
+  "url": "https://keralapsc.gov.in/sites/default/files/2026-10/0242025_05_0_0.pdf",
+  "title": "Featured Latest, 2026, Kottayam High School Teacher (Social Science) Malayalam Medium (Category No . 024/2025) in Education Department in Kottayam District. Ranked List No. : 776/2026/SSIII wef 30.10.2026. High School Teacher (Social Science) Malayalam Medium (Category No . 024/2025) in Education Department in Kottayam District. Download 30-10-2026",
+  "body": "kl-kpsc",
+  "exam": "kl-kpsc-teacher",
+  "feed": "kl-kpsc/ranked-lists",
+  "published": "2026-10-30",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "db24aff03bf75c0c721e361d27697fef05711a5eb1a4d1d2c54538f92a778392",
+  "bytes": 121336,
+  "pages": 6,
+  "chars": 12766,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-30T15:09:24+05:30"
+ },
+ "kind": "notice",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-11-13",
+   "evidence": "A period of 15 (Fifteen) days time to apply for rechecking of Answer scripts will be allowed to candidates with effect from the date on which the Ranked List is uploaded in the website of the Commission (on or before 13.11.2026) NOTE (4) :-",
+   "page": 5,
+   "from": "text"
+  },
+  "exam_date": {
+   "date": "2025-11-04",
+   "evidence": "NOTE (7):- The A part and B part of OMR scripts will be destroyed after completing six months period from the date of finalisation of last Ranked List included in the common test held on 04.11.2025 E - Ezhava/Thiyya/Billava, SC - Scheduled ",
+   "page": 6,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 85,
+   "raw": "But Answer scripts will be rechecked if the candidates apply for through their One Time Registration profile from the Commission's official website www.kerala psc.gov.in by remitting the prescribed fee of Rs. 85 (Rupees Eighty Five only)",
+   "page": 5
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 5
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.kerala",
+   "https://www.keralapsc.gov.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-11-13"
+  },
+  "exam_date": "2025-11-04",
+  "fee": {
+   "min": 85,
+   "max": 85
+  }
+ }
+}
