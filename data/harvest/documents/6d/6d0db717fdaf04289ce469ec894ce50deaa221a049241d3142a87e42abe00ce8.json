@@ -15,12 +15,13 @@
   "pages": 1,
   "chars": 0,
   "ocr": true,
+  "ocr_engine": "pytesseract",
   "indic_share": 0.0,
-  "fetched": "2026-10-29T10:19:47+05:30"
+  "fetched": "2026-10-30T07:52:03+05:30"
  },
  "kind": "notice",
  "warnings": [
-  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "page 1: OCR failed (no result after 300s)",
   "read by OCR: numbers and names may be misread; check against the PDF"
  ]
 }
