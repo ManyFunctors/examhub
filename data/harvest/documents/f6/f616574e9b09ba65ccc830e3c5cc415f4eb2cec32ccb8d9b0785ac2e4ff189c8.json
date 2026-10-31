@@ -1,0 +1,62 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "f616574e9b09ba65ccc830e3c5cc415f4eb2cec32ccb8d9b0785ac2e4ff189c8",
+  "url": "https://api.apfd.apcfss.in/socialwelfaredms/jnanabhumi/file-download/bucket/swfileuploads/BIE/CIRCULARS/CIRCULAR-1793355992543.pdf",
+  "title": "Lr to Ppl on extension of exam fee due date BIE,AP– IPE March 2027 – Extension of Due dates for Payment of Examination fee for 1st and 2nd year Intermediate students of both General and Vocational streams – Communicated-Reg",
+  "body": "ap-bieap",
+  "exam": "ap-bieap-class-12",
+  "feed": "ap-bieap/home",
+  "published": "2026-10-30",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "c9b86588d692faa36479e268bfb8ef1d1667ce73be197fd5ffcdcd4e4489b4b6",
+  "bytes": 169406,
+  "pages": 1,
+  "chars": 1817,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-10-31T16:53:59+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2026-11-10",
+   "evidence": "To pay Examination fee & remit the same in the Bank. Payment of examination fee without fine",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "To pay Examination fee & remit the same in the Bank. Payment of examination fee without fine",
+   "key": "exam_date",
+   "date": "2026-11-10",
+   "page": 1
+  },
+  {
+   "event": "Payment of examination fee with a fine of ₹1,000/-",
+   "key": "exam_date",
+   "date": "2026-11-17",
+   "page": 1
+  }
+ ],
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 1,
+   "raw": "2 Payment of examination fee with a fine of ₹1 000/ , - 17 11 2026 - -",
+   "page": 1
+  }
+ ],
+ "summary": {
+  "exam_date": "2026-11-10",
+  "fee": {
+   "min": 1,
+   "max": 1
+  }
+ }
+}

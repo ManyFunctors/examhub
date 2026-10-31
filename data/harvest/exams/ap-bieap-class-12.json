@@ -5,29 +5,49 @@
  "body": "ap-bieap",
  "purpose": "school_board",
  "cycle": "2027-03",
- "documents": 1,
- "documents_in_cycle": 1,
+ "documents": 2,
+ "documents_in_cycle": 2,
  "fields": {
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 1,
+     "raw": "2 Payment of examination fee with a fine of ₹1 000/ , - 17 11 2026 - -",
+     "page": 1
+    }
+   ],
+   "source": {
+    "notice": "f616574e9b09ba65ccc830e3c5cc415f4eb2cec32ccb8d9b0785ac2e4ff189c8",
+    "url": "https://api.apfd.apcfss.in/socialwelfaredms/jnanabhumi/file-download/bucket/swfileuploads/BIE/CIRCULARS/CIRCULAR-1793355992543.pdf",
+    "title": "Lr to Ppl on extension of exam fee due date BIE,AP– IPE March 2027 – Extension of Due dates for Payment of Examination fee for 1st and 2nd year Intermediate students of both General and Vocational streams – Communicated-Reg",
+    "kind": "corrigendum",
+    "page": 1
+   }
+  },
   "dates": {
    "exam_date": {
-    "date": "2027-01-27",
+    "date": "2026-11-10",
     "source": {
-     "notice": "0091d84c54e954f2c449362de15f4db3858ac1d634baf2e4c9815e15b751e542",
-     "url": "https://api.apfd.apcfss.in/socialwelfaredms/jnanabhumi/file-download/bucket/swfileuploads/BIE/CIRCULARS/CIRCULAR-1792734492509.pdf",
-     "title": "TT 2nd Yr Voc IPE March 2027 INTERMEDIATE VOCATIONAL 2nd YEAR PUBLIC THEORY EXAMINATIONS, FEBRUARY/MARCH- 2027",
+     "notice": "f616574e9b09ba65ccc830e3c5cc415f4eb2cec32ccb8d9b0785ac2e4ff189c8",
+     "url": "https://api.apfd.apcfss.in/socialwelfaredms/jnanabhumi/file-download/bucket/swfileuploads/BIE/CIRCULARS/CIRCULAR-1793355992543.pdf",
+     "title": "Lr to Ppl on extension of exam fee due date BIE,AP– IPE March 2027 – Extension of Due dates for Payment of Examination fee for 1st and 2nd year Intermediate students of both General and Vocational streams – Communicated-Reg",
      "kind": "corrigendum",
-     "page": 3
-    }
+     "page": 1
+    },
+    "alternatives": 1
    }
   },
   "exam_date": {
-   "value": "2027-01-27",
+   "value": "2026-11-10",
    "source": {
-    "notice": "0091d84c54e954f2c449362de15f4db3858ac1d634baf2e4c9815e15b751e542",
-    "url": "https://api.apfd.apcfss.in/socialwelfaredms/jnanabhumi/file-download/bucket/swfileuploads/BIE/CIRCULARS/CIRCULAR-1792734492509.pdf",
-    "title": "TT 2nd Yr Voc IPE March 2027 INTERMEDIATE VOCATIONAL 2nd YEAR PUBLIC THEORY EXAMINATIONS, FEBRUARY/MARCH- 2027",
+    "notice": "f616574e9b09ba65ccc830e3c5cc415f4eb2cec32ccb8d9b0785ac2e4ff189c8",
+    "url": "https://api.apfd.apcfss.in/socialwelfaredms/jnanabhumi/file-download/bucket/swfileuploads/BIE/CIRCULARS/CIRCULAR-1793355992543.pdf",
+    "title": "Lr to Ppl on extension of exam fee due date BIE,AP– IPE March 2027 – Extension of Due dates for Payment of Examination fee for 1st and 2nd year Intermediate students of both General and Vocational streams – Communicated-Reg",
     "kind": "corrigendum",
-    "page": 3
+    "page": 1
    }
   },
   "pay": {

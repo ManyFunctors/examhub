@@ -1,0 +1,248 @@
+{
+ "schema": 1,
+ "exam": "in-ongc-recruitment",
+ "name": "ONGC Direct Recruitment (non-GATE posts)",
+ "body": "in-ongc",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 332,
+    "rows": [
+     {
+      "label": "Dehradun / ComputerOperatorandProgrammingAssistant / NAPS",
+      "total": 20,
+      "page": 1
+     },
+     {
+      "label": "Electrician / NAPS",
+      "total": 9,
+      "page": 1
+     },
+     {
+      "label": "ElectronicsMechanic / NAPS",
+      "total": 5,
+      "page": 1
+     },
+     {
+      "label": "Fitter / NAPS",
+      "total": 8,
+      "page": 1
+     },
+     {
+      "label": "LabChemist/Analyst -PetroleumProducts / NAPS",
+      "total": 21,
+      "page": 1
+     },
+     {
+      "label": "SecretarialOfficeAssistant –Oil&Gas / NAPS",
+      "total": 35,
+      "page": 1
+     },
+     {
+      "label": "AccountsExecutive / NATS",
+      "total": 15,
+      "page": 1
+     },
+     {
+      "label": "CivilExecutive(Graduate) / NATS",
+      "total": 5,
+      "page": 1
+     },
+     {
+      "label": "CivilExecutive(Diploma) / NATS",
+      "total": 5,
+      "page": 1
+     },
+     {
+      "label": "PetroleumExecutive / NATS",
+      "total": 15,
+      "page": 1
+     },
+     {
+      "label": "SubTotal",
+      "total": 138,
+      "page": 1
+     },
+     {
+      "label": "Delhi / SecretarialOfficeAssistant –Oil&Gas / NAPS",
+      "total": 18,
+      "page": 1
+     },
+     {
+      "label": "FireSafetyTechnician(Oil&Gas) / NAPS",
+      "total": 2,
+      "page": 1
+     },
+     {
+      "label": "AccountsExecutive / NATS",
+      "total": 4,
+      "page": 1
+     },
+     {
+      "label": "ElectricalExecutive(Oil&Gas) / NAPS",
+      "total": 2,
+      "page": 1
+     },
+     {
+      "label": "CivilExecutive / NATS",
+      "total": 2,
+      "page": 1
+     },
+     {
+      "label": "SubTotal",
+      "total": 28,
+      "page": 1
+     }
+    ],
+    "from": "table"
+   },
+   "source": {
+    "notice": "27475d4f9bc777d013b826b338db2bacdbe80b0bf8e3ea84edc669efc9be1e0c",
+    "url": "https://ongcindia.com/documents/77751/2660534/Advertisement-engagement-Apprentices2026-27.pdf/e926a825-c08b-6403-60f1-ea0232bcaab8",
+    "title": "Advertisement for engagement of apprentices under The Apprentices Act, 1961, for FY 2026-27",
+    "kind": "advertisement"
+   }
+  },
+  "dates": {
+   "age_as_on": {
+    "date": "2026-11-29",
+    "source": {
+     "notice": "27475d4f9bc777d013b826b338db2bacdbe80b0bf8e3ea84edc669efc9be1e0c",
+     "url": "https://ongcindia.com/documents/77751/2660534/Advertisement-engagement-Apprentices2026-27.pdf/e926a825-c08b-6403-60f1-ea0232bcaab8",
+     "title": "Advertisement for engagement of apprentices under The Apprentices Act, 1961, for FY 2026-27",
+     "kind": "advertisement",
+     "page": 17
+    }
+   },
+   "registration_deadline": {
+    "date": "2026-11-20",
+    "source": {
+     "notice": "27475d4f9bc777d013b826b338db2bacdbe80b0bf8e3ea84edc669efc9be1e0c",
+     "url": "https://ongcindia.com/documents/77751/2660534/Advertisement-engagement-Apprentices2026-27.pdf/e926a825-c08b-6403-60f1-ea0232bcaab8",
+     "title": "Advertisement for engagement of apprentices under The Apprentices Act, 1961, for FY 2026-27",
+     "kind": "advertisement",
+     "page": 1
+    }
+   },
+   "registration_open": {
+    "date": "2026-10-29",
+    "source": {
+     "notice": "27475d4f9bc777d013b826b338db2bacdbe80b0bf8e3ea84edc669efc9be1e0c",
+     "url": "https://ongcindia.com/documents/77751/2660534/Advertisement-engagement-Apprentices2026-27.pdf/e926a825-c08b-6403-60f1-ea0232bcaab8",
+     "title": "Advertisement for engagement of apprentices under The Apprentices Act, 1961, for FY 2026-27",
+     "kind": "advertisement",
+     "page": 19
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-10-29",
+    "until": "2026-11-20"
+   },
+   "source": {
+    "notice": "27475d4f9bc777d013b826b338db2bacdbe80b0bf8e3ea84edc669efc9be1e0c",
+    "url": "https://ongcindia.com/documents/77751/2660534/Advertisement-engagement-Apprentices2026-27.pdf/e926a825-c08b-6403-60f1-ea0232bcaab8",
+    "title": "Advertisement for engagement of apprentices under The Apprentices Act, 1961, for FY 2026-27",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "advertisement_no": {
+   "value": "ONGC/APPR/1/2026",
+   "source": {
+    "notice": "27475d4f9bc777d013b826b338db2bacdbe80b0bf8e3ea84edc669efc9be1e0c",
+    "url": "https://ongcindia.com/documents/77751/2660534/Advertisement-engagement-Apprentices2026-27.pdf/e926a825-c08b-6403-60f1-ea0232bcaab8",
+    "title": "Advertisement for engagement of apprentices under The Apprentices Act, 1961, for FY 2026-27",
+    "kind": "advertisement"
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate",
+     "Diploma / ITI",
+     "Class 10"
+    ],
+    "clauses": [
+     {
+      "text": "Location and Tentative no. of vacancies Candidate to choose trade / location as per his / her choice subject to meeting all eligibility criteria (Academic qualification, Age, Domicile, etc)",
+      "page": 1
+     },
+     {
+      "text": "QUALIFICATION & ELIGIBILITY CRITERIA",
+      "page": 13
+     },
+     {
+      "text": "QUALIFICATION REQUIREMENT Scheme 1 Library Assistant Passed 10th class examination NAPS 2 Computer Operator and Programming Assistant (COPA) ITI in COPA Trade",
+      "page": 13
+     },
+     {
+      "text": "25 Instrumentation Executive (Oil & Gas) NAPS 26 Mechanical Executive (Oil & Gas) NAPS 27 Accounts Executive Bachelor’s degree (Graduation) in Commerce NATS 28 Store Keeper (Petroleum Products) Graduate NATS 29 Computer Science Executive (Graduate) Degree in the respective discipline of…",
+      "page": 14
+     },
+     {
+      "text": "Note 2: Candidates need to apply only if they possess essential minimum qualification",
+      "page": 14
+     },
+     {
+      "text": "The candidate with B.A / B.Com / B.B.A/ B.E. / B.Tech, must possess qualification recognized by the relevant statutory bodies UGC/ AICTE etc",
+      "page": 14
+     },
+     {
+      "text": "The data shall be segregated trade-wise/discipline-wise, qualification-wise and work-centre-wise, as applicable, in accordance with the notified vacancies",
+      "page": 15
+     },
+     {
+      "text": "The scrutiny shall include verification of the prescribed educational qualification, age limit, applicable age relaxation, eligibility of the candidate under the relevant apprenticeship scheme and other conditions specified in the advertisement",
+      "page": 15
+     },
+     {
+      "text": "Incomplete applications, duplicate applications, or applications not meeting the prescribed eligibility criteria shall be dealt with in accordance with the applicable recruitment guidelines",
+      "page": 15
+     },
+     {
+      "text": "Candidates are advised to carefully read the full advertisement for details of eligibility criteria and selection modalities before submission of application",
+      "page": 17
+     },
+     {
+      "text": "Check Eligibility Before Applying: Candidates are advised to carefully read the eligibility criteria specified in Para C of the advertisement and ensure that they possess the prescribed educational qualifications and fulfil all other eligibility conditions",
+      "page": 18
+     },
+     {
+      "text": "Note: A candidate is considered to belong to the operational area if he/she is a resident (domicile) of, or has obtained his / her essential qualification from above mentioned District",
+      "page": 20
+     }
+    ]
+   },
+   "source": {
+    "notice": "27475d4f9bc777d013b826b338db2bacdbe80b0bf8e3ea84edc669efc9be1e0c",
+    "url": "https://ongcindia.com/documents/77751/2660534/Advertisement-engagement-Apprentices2026-27.pdf/e926a825-c08b-6403-60f1-ea0232bcaab8",
+    "title": "Advertisement for engagement of apprentices under The Apprentices Act, 1961, for FY 2026-27",
+    "kind": "advertisement"
+   }
+  },
+  "selection": {
+   "value": [
+    "Document verification"
+   ],
+   "source": {
+    "notice": "27475d4f9bc777d013b826b338db2bacdbe80b0bf8e3ea84edc669efc9be1e0c",
+    "url": "https://ongcindia.com/documents/77751/2660534/Advertisement-engagement-Apprentices2026-27.pdf/e926a825-c08b-6403-60f1-ea0232bcaab8",
+    "title": "Advertisement for engagement of apprentices under The Apprentices Act, 1961, for FY 2026-27",
+    "kind": "advertisement"
+   }
+  }
+ },
+ "gaps": [
+  "exam_date",
+  "fee",
+  "age",
+  "pay"
+ ],
+ "older_documents": 0
+}
