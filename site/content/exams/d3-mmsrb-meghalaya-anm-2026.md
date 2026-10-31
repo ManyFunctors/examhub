@@ -304,7 +304,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://meghealth.gov.in/'
-link_apply         = 'https://megedistrict.gov.in/directApply.do?serviceId=1386'
+link_apply         = 'https://mmsrb.in/MMSRB/login'
 
   [[links.documents]]
   document_type      = 'notification'
@@ -312,6 +312,13 @@ link_apply         = 'https://megedistrict.gov.in/directApply.do?serviceId=1386'
   document_published = 'unknown'
   document_url       = 'https://mmsrb.in/'
   document_archive   = 'http://web.archive.org/web/20260711112516/https://mmsrb.in/'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://megedistrict.gov.in/directApply.do?serviceId=1386'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
