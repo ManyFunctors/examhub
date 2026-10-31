@@ -1,0 +1,28 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "9cdbef582ef8898db2a11b0eb4bcbb9f2dac988ff1c04032313ed09e945f092f",
+  "url": "https://mpsc.meghalaya.gov.in/notify/Notice30Oct2026a.pdf",
+  "title": "NOTICE This is for general information to all the concerned candidates that the Personal Interview for the Post(s) of Publicity Assistant-cum-Khasi Translator under the Directorate of Sericulture & Weaving Department of Textiles [March 2026]",
+  "body": "ml-mpsc",
+  "exam": "ml-mpsc-other",
+  "feed": "ml-mpsc/home",
+  "published": "2026-10-30",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "e602084fef1ae39fa8a27ed0ef5f173dca80152a587b9c7a16e1307edd7562d0",
+  "bytes": 155955,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-10-31T07:39:18+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "page 1: OCR failed (no result after 300s)",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
