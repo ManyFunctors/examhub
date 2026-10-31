@@ -311,10 +311,18 @@ link_apply         = 'unknown'
   document_url       = 'https://api.apfd.apcfss.in/socialwelfaredms/jnanabhumi/file-download/bucket/swfileuploads/BIE/CIRCULARS/CIRCULAR-1792734044358.pdf'
   document_archive   = 'https://web.archive.org/web/20261025001706/https://api.apfd.apcfss.in/socialwelfaredms/jnanabhumi/file-download/bucket/swfileuploads/BIE/CIRCULARS/CIRCULAR-1792734044358.pdf'
 
+  [[links.documents]]
+  document_type      = 'press_release'
+  document_stage     = 'all'
+  document_published = 2026-10-30
+  document_title     = 'Lr to Ppl on extension of exam fee due date BIE,AP– IPE March 2027 – Extension of Due dates for Payment of…'
+  document_url       = 'https://api.apfd.apcfss.in/socialwelfaredms/jnanabhumi/file-download/bucket/swfileuploads/BIE/CIRCULARS/CIRCULAR-1793355992543.pdf'
+  document_archive   = 'not_archived'
+
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-10-25T02:43:16+05:30
-provenance_last_checked = 2026-10-25T02:43:17+05:30
+provenance_last_checked = 2026-10-31T05:46:35+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.stages[1].exam.from'
