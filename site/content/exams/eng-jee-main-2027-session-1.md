@@ -82,7 +82,9 @@ service_posting_area                = 'none'
 city_slip_separate = 'unknown'
 
   [dates.application]
-  status       = 'not_announced'
+  from         = 'unknown'
+  to           = 2026-11-22
+  status       = 'confirmed'
   change       = 'none'
   changed_from = 'none'
 
@@ -390,6 +392,14 @@ link_apply         = 'unknown'
   document_title     = 'Advisory and Instructions regarding registration process for Joint Entrance Examination (Main) – 2027…'
 
   [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610302102025182.pdf'
+  document_archive   = 'not_archived'
+  document_title     = 'Clarification regarding submission of a fresh Online Application Form for JEE (Main) – 2027 (Session 1)'
+
+  [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
@@ -399,7 +409,7 @@ link_apply         = 'unknown'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-29T06:07:23+05:30
+provenance_last_checked = 2026-10-31T05:46:39+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'fee.rows'
@@ -413,5 +423,12 @@ provenance_last_checked = 2026-10-29T06:07:23+05:30
   evidence_document = 'https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610281658843201.pdf'
   evidence_page     = 1
   evidence_words    = 'exam date 2026-10-28'
+  evidence_method   = 'rule'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.application.to'
+  evidence_document = 'https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2026/10/202610302102025182.pdf'
+  evidence_page     = 1
+  evidence_words    = 'registration deadline 2026-11-22'
   evidence_method   = 'rule'
 +++
