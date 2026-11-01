@@ -1,0 +1,48 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "74cb904298f0e4707beb15bb5e7380409d2324ac10301e62b4c0a22870a47e2e",
+  "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Important notice_revised_dated_26_10_2026.pdf",
+  "title": "Important Notice - Revised dates for Junior Engineer Examination, 2026 and Sub-Inspector in Delhi Police and Central Armed Police Forces Examination, 2026.",
+  "body": "in-ssc",
+  "exam": "in-ssc-cpo",
+  "feed": "in-ssc/notices-api",
+  "published": "2026-10-26",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "009a5b07560ffa9f4eac6cec4821e5b76e6dc2af8b389e98f1f508868c683ca4",
+  "bytes": 376378,
+  "pages": 1,
+  "chars": 774,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-11-01T07:05:02+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "exam_date": {
+   "date": "2026-11-06",
+   "evidence": "Junior Engineer Examination, 2026 Paper-I (CBE)",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Junior Engineer Examination, 2026 Paper-I (CBE)",
+   "key": "exam_date",
+   "date": "2026-11-06",
+   "page": 1
+  },
+  {
+   "event": "Police Forces Examination, 2026.",
+   "key": "exam_date",
+   "date": "2026-11-28",
+   "page": 1
+  }
+ ],
+ "summary": {
+  "exam_date": "2026-11-06"
+ }
+}
