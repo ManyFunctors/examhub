@@ -549,7 +549,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ssb-direct-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ssc-cgl"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ssc-chsl"}
-{"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ssc-cpo"}
+{"cycle": "2026", "documents": 1, "gaps": ["vacancies", "apply", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ssc-cpo"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ssc-delhi-police-constable"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ssc-delhi-police-driver"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-ssc-delhi-police-hc"}
@@ -652,7 +652,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kdrb-recruitment"}
 {"cycle": "2024", "documents": 1, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "kl-keam"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "kl-kmat"}
-{"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-ae"}
+{"cycle": "2027", "documents": 1, "gaps": ["vacancies", "exam_date", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-ae"}
 {"cycle": "2024", "documents": 8, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-common-prelims"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "eligibility"], "id": "kl-kpsc-departmental"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-forest"}

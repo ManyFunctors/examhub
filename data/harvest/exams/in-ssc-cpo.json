@@ -1,0 +1,44 @@
+{
+ "schema": 1,
+ "exam": "in-ssc-cpo",
+ "name": "Sub-Inspector in Delhi Police and Central Armed Police Forces Examination",
+ "body": "in-ssc",
+ "purpose": "recruitment",
+ "cycle": "2026",
+ "documents": 1,
+ "documents_in_cycle": 1,
+ "fields": {
+  "dates": {
+   "exam_date": {
+    "date": "2026-11-06",
+    "source": {
+     "notice": "74cb904298f0e4707beb15bb5e7380409d2324ac10301e62b4c0a22870a47e2e",
+     "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Important notice_revised_dated_26_10_2026.pdf",
+     "title": "Important Notice - Revised dates for Junior Engineer Examination, 2026 and Sub-Inspector in Delhi Police and Central Armed Police Forces Examination, 2026.",
+     "kind": "corrigendum",
+     "page": 1
+    }
+   }
+  },
+  "exam_date": {
+   "value": "2026-11-06",
+   "source": {
+    "notice": "74cb904298f0e4707beb15bb5e7380409d2324ac10301e62b4c0a22870a47e2e",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Important notice_revised_dated_26_10_2026.pdf",
+    "title": "Important Notice - Revised dates for Junior Engineer Examination, 2026 and Sub-Inspector in Delhi Police and Central Armed Police Forces Examination, 2026.",
+    "kind": "corrigendum",
+    "page": 1
+   }
+  }
+ },
+ "gaps": [
+  "vacancies",
+  "apply",
+  "fee",
+  "age",
+  "pay",
+  "eligibility",
+  "selection"
+ ],
+ "older_documents": 0
+}
