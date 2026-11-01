@@ -1,0 +1,44 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "ee8881a657310fb62fdf6439419c9f694ded56d0e082b9aaaf31c7a3072b4575",
+  "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/11/202611011602362868.pdf",
+  "title": "Extension of Last Date for Successful Transaction of Examination Fee for UGC-NET December 2026 Examination – Reg.",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/ugcnet",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "5124f76a27644e210e49d71be51a100e6536d8addc76768b7a451c84c92e7ebd",
+  "bytes": 302261,
+  "pages": 1,
+  "chars": 2183,
+  "ocr": false,
+  "indic_share": 0.03,
+  "fetched": "2026-11-01T14:52:15+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "payment_deadline": {
+   "date": "2026-11-01",
+   "evidence": "Last date for successful transaction of examination fee (only for candidates who have already submitted their Online Application Form)",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Last date for successful transaction of examination fee (only for candidates who have already submitted their Online Application Form)",
+   "key": "payment_deadline",
+   "date": "2026-11-01",
+   "page": 1
+  }
+ ],
+ "links": {
+  "other": [
+   "https://nta.ac.in",
+   "https://ugcnet.nta.nic.in"
+  ]
+ }
+}
