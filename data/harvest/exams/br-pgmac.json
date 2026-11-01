@@ -5,8 +5,8 @@
  "body": "br-bceceb",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 23,
- "documents_in_cycle": 23,
+ "documents": 24,
+ "documents_in_cycle": 24,
  "fields": {
   "vacancies": {
    "value": {
@@ -701,15 +701,15 @@
     "alternatives": 1
    },
    "registration_deadline": {
-    "date": "2026-11-01",
+    "date": "2026-11-03",
     "source": {
-     "notice": "59073e57f23dd306b7bf197510a2d0c67796d82f77bbe565ca1d46f0b5be5af5",
-     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGAAC26_06.pdf",
-     "title": "Details for Online Application and Choice Filling for UGMAC[AYUSH]-2026 Round-3(Adv. No. BCECEB[UGMAC(Ayush)]-2026/06 Dated 24.10.2026)",
-     "kind": "notice",
-     "page": 6
+     "notice": "b20f304a984025aaf36d78920f704cd3a50254fb1b021ff18912df5991d0eec4",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGAAC26_08.pdf",
+     "title": "Notice for Extesion of Date for Registration-cum-Choice Filling for Admission in Round-3 of UGMAC[AYUSH]-2026 (Adv. No. BCECEB[UGMAC(Ayush)]-2026/08 Dated 01.11.2026)",
+     "kind": "corrigendum",
+     "page": 1
     },
-    "alternatives": 4
+    "alternatives": 5
    },
    "registration_open": {
     "date": "2026-10-28",
@@ -726,14 +726,14 @@
   "apply": {
    "value": {
     "from": "2026-10-28",
-    "until": "2026-11-01"
+    "until": "2026-11-03"
    },
    "source": {
-    "notice": "59073e57f23dd306b7bf197510a2d0c67796d82f77bbe565ca1d46f0b5be5af5",
-    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGAAC26_06.pdf",
-    "title": "Details for Online Application and Choice Filling for UGMAC[AYUSH]-2026 Round-3(Adv. No. BCECEB[UGMAC(Ayush)]-2026/06 Dated 24.10.2026)",
-    "kind": "notice",
-    "page": 6
+    "notice": "b20f304a984025aaf36d78920f704cd3a50254fb1b021ff18912df5991d0eec4",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGAAC26_08.pdf",
+    "title": "Notice for Extesion of Date for Registration-cum-Choice Filling for Admission in Round-3 of UGMAC[AYUSH]-2026 (Adv. No. BCECEB[UGMAC(Ayush)]-2026/08 Dated 01.11.2026)",
+    "kind": "corrigendum",
+    "page": 1
    }
   },
   "advertisement_no": {

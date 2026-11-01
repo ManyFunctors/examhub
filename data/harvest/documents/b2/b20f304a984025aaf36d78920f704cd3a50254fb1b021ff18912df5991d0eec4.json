@@ -1,0 +1,36 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "b20f304a984025aaf36d78920f704cd3a50254fb1b021ff18912df5991d0eec4",
+  "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGAAC26_08.pdf",
+  "title": "Notice for Extesion of Date for Registration-cum-Choice Filling for Admission in Round-3 of UGMAC[AYUSH]-2026 (Adv. No. BCECEB[UGMAC(Ayush)]-2026/08 Dated 01.11.2026)",
+  "body": "br-bceceb",
+  "exam": "br-pgmac",
+  "feed": "br-bceceb/notice-board",
+  "published": "2026-11-01",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "39c3579d5fc378645eb90ba22ffd1ef31132c25debd0b051fc80ac98fbc3210b",
+  "bytes": 217041,
+  "pages": 1,
+  "chars": 2262,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-11-01T21:42:01+05:30"
+ },
+ "kind": "corrigendum",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-11-03",
+   "evidence": "Last date of online Registration ................................................................. : 03.11.2026 (10.00 pm) ii",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-11-03"
+  }
+ }
+}

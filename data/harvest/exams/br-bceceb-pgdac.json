@@ -5,8 +5,8 @@
  "body": "br-bceceb",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 4,
- "documents_in_cycle": 4,
+ "documents": 5,
+ "documents_in_cycle": 5,
  "fields": {
   "vacancies": {
    "value": {
@@ -319,15 +319,15 @@
   },
   "dates": {
    "registration_deadline": {
-    "date": "2026-11-01",
+    "date": "2026-11-04",
     "source": {
-     "notice": "188cdd0596cb8b73cff9ea34594ccab77696a0e6b70bf7e5611d5db97fb87bbe",
-     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGDAC26_06.pdf",
-     "title": "Details for Extesion of Date for Registration-cum-Choice Filling for Admission in Round-3 of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/06 Dated 23.10.2026)",
+     "notice": "9153f4e112efc13ae7b26f1d937504deb21e0a23ceac05e2fd3ac8803017a58c",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGDAC26_08.pdf",
+     "title": "Notice for Extesion of Date for Registration-cum-Choice Filling for Admission in Round-3 of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/08 Dated 01.11.2026)",
      "kind": "corrigendum",
      "page": 1
     },
-    "alternatives": 1
+    "alternatives": 2
    },
    "registration_open": {
     "date": "2026-10-24",
@@ -343,24 +343,25 @@
   "apply": {
    "value": {
     "from": "2026-10-24",
-    "until": "2026-11-01"
+    "until": "2026-11-04"
    },
    "source": {
-    "notice": "188cdd0596cb8b73cff9ea34594ccab77696a0e6b70bf7e5611d5db97fb87bbe",
-    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGDAC26_06.pdf",
-    "title": "Details for Extesion of Date for Registration-cum-Choice Filling for Admission in Round-3 of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/06 Dated 23.10.2026)",
+    "notice": "9153f4e112efc13ae7b26f1d937504deb21e0a23ceac05e2fd3ac8803017a58c",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGDAC26_08.pdf",
+    "title": "Notice for Extesion of Date for Registration-cum-Choice Filling for Admission in Round-3 of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/08 Dated 01.11.2026)",
     "kind": "corrigendum",
     "page": 1
    }
   },
   "advertisement_no": {
-   "value": "BCECEB(PGDAC)-2026/06",
+   "value": "BCECEB(PGDAC)-2026/08",
    "source": {
-    "notice": "188cdd0596cb8b73cff9ea34594ccab77696a0e6b70bf7e5611d5db97fb87bbe",
-    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGDAC26_06.pdf",
-    "title": "Details for Extesion of Date for Registration-cum-Choice Filling for Admission in Round-3 of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/06 Dated 23.10.2026)",
+    "notice": "9153f4e112efc13ae7b26f1d937504deb21e0a23ceac05e2fd3ac8803017a58c",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGDAC26_08.pdf",
+    "title": "Notice for Extesion of Date for Registration-cum-Choice Filling for Admission in Round-3 of Post Gradudate Dental Courses (PGDAC)-2026 (Adv. No. BCECEB(PGDAC)-2026/08 Dated 01.11.2026)",
     "kind": "corrigendum"
-   }
+   },
+   "alternatives": 1
   },
   "eligibility": {
    "value": {
