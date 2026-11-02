@@ -300,7 +300,15 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://psc.ap.gov.in/'
-link_apply         = 'https://applications-psc.ap.gov.in/'
+link_apply         = 'https://portal-psc.ap.gov.in/LoginApplication'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://applications-psc.ap.gov.in/'
+  document_archive   = 'not_archived'
+  document_title     = '(Published on 30/10/2025)'
 
   [[links.documents]]
   document_type      = 'other'
@@ -312,7 +320,7 @@ link_apply         = 'https://applications-psc.ap.gov.in/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-22T14:28:53+05:30
+provenance_last_checked = 2026-11-02T05:39:08+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

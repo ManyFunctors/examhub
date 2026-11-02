@@ -133,7 +133,9 @@ city_slip_separate = 'unknown'
     changed_from = 'none'
 
     [dates.stages.exam]
-    status       = 'not_announced'
+    from         = 2026-11-06
+    to           = 'unknown'
+    status       = 'confirmed'
     change       = 'none'
     changed_from = 'none'
 
@@ -347,6 +349,14 @@ link_apply         = 'unknown'
   document_archive   = 'not_archived'
 
   [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Important notice_revised_dated_26_10_2026.pdf'
+  document_archive   = 'not_archived'
+  document_title     = 'Important Notice - Revised dates for Junior Engineer Examination, 2026 and Sub-Inspector in Delhi Police and…'
+
+  [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
@@ -357,7 +367,7 @@ link_apply         = 'unknown'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-25T02:43:26+05:30
+provenance_last_checked = 2026-11-02T05:39:07+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'
@@ -372,4 +382,11 @@ provenance_last_checked = 2026-10-25T02:43:26+05:30
   evidence_page     = 0
   evidence_words    = 'ExamHub record: All candidates 100; SC 0; ST 0; Ex-Servicemen 0; Women 0'
   evidence_method   = 'manual'
+
+  [[provenance.evidence]]
+  evidence_field    = 'dates.stages[1].exam.from'
+  evidence_document = 'https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Important notice_revised_dated_26_10_2026.pdf'
+  evidence_page     = 1
+  evidence_words    = 'exam date 2026-11-06'
+  evidence_method   = 'rule'
 +++
