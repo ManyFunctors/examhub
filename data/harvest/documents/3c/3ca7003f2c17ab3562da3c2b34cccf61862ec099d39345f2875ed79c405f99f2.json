@@ -1,0 +1,62 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3ca7003f2c17ab3562da3c2b34cccf61862ec099d39345f2875ed79c405f99f2",
+  "url": "https://hcmimphal.nic.in/Documents/shorhand SC recruitment26.pdf",
+  "title": "Notification regarding selection of suitable candidates for the post of Court Master (Shorthand), on deputation basis in the Supreme Court of India.",
+  "body": "mn-hc",
+  "exam": "mn-hc-staff",
+  "feed": "mn-hc/recruitment",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "94aef7a86d071cf6b38cd1955575d73e8ce61b690610e12438ee583ff3c66cbd",
+  "bytes": 744730,
+  "pages": 4,
+  "chars": 4686,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-11-02T15:44:04+05:30"
+ },
+ "kind": "advertisement",
+ "age": {
+  "limits": [
+   {
+    "max": 56,
+    "evidence": "Age Requirement The age of the candidate should not exceed 56 years, as on the closing date of receipt of applications",
+    "page": 1
+   }
+  ]
+ },
+ "pay": [
+  {
+   "levels": [
+    11
+   ],
+   "low": 67700,
+   "high": 208700,
+   "initial": 67700,
+   "text": "Pay Level 11, ₹67,700–208,700, initial basic ₹67,700",
+   "evidence": "The post of Court Master (Shorthand) is placed in Level 11 of Pay Matrix, i.e., Rs.67,700 – Rs.2,08,700/- with initial basic pay of Rs.67,700/- plus allowances, as admissible under the Rules",
+   "page": 1
+  }
+ ],
+ "eligibility": {
+  "clauses": [
+   {
+    "text": "Educational qualifications",
+    "page": 3
+   }
+  ]
+ },
+ "selection": [
+  "Skill / trade test"
+ ],
+ "summary": {
+  "age": {
+   "max": 56
+  },
+  "pay": "Pay Level 11, ₹67,700–208,700, initial basic ₹67,700",
+  "selection": "Skill / trade test"
+ }
+}

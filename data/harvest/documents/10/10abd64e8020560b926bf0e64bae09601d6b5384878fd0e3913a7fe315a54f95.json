@@ -1,0 +1,52 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "10abd64e8020560b926bf0e64bae09601d6b5384878fd0e3913a7fe315a54f95",
+  "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/11/20261102472201336.pdf",
+  "title": "Public Notice regarding Correction in particulars of the Online Application Form for UGC-NET December 2026",
+  "body": "in-nta",
+  "exam": "in-ugc-net",
+  "feed": "in-nta/ugcnet",
+  "doc_type": "press_release"
+ },
+ "document": {
+  "sha256": "46230e1c5d3d1e89e4045ce0f52503481e965b6e5924472b4ff0ea56526d68c1",
+  "bytes": 345796,
+  "pages": 2,
+  "chars": 3904,
+  "ocr": false,
+  "indic_share": 0.07,
+  "fetched": "2026-11-02T15:44:07+05:30"
+ },
+ "kind": "brochure",
+ "dates": {
+  "correction_window": {
+   "date": "2026-11-02",
+   "until": "2026-11-04",
+   "evidence": "Corrections UGC-NET December 2026",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "Corrections UGC-NET December 2026",
+   "key": "correction_window",
+   "date": "2026-11-02",
+   "page": 1,
+   "until": "2026-11-04"
+  }
+ ],
+ "exam_pattern": [
+  {
+   "paper": "UGC NET - December2026",
+   "page": 1,
+   "duration": "02November2026to04November2026 (upto11:50PM) . ."
+  }
+ ],
+ "links": {
+  "other": [
+   "https://ugcnet.nta.nic.in"
+  ]
+ }
+}

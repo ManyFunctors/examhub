@@ -5,8 +5,8 @@
  "body": "in-nta",
  "purpose": "eligibility",
  "cycle": "2026-12",
- "documents": 89,
- "documents_in_cycle": 9,
+ "documents": 91,
+ "documents_in_cycle": 11,
  "fields": {
   "fee": {
    "value": [
@@ -49,6 +49,18 @@
    "alternatives": 2
   },
   "dates": {
+   "correction_window": {
+    "date": "2026-11-02",
+    "until": "2026-11-04",
+    "source": {
+     "notice": "10abd64e8020560b926bf0e64bae09601d6b5384878fd0e3913a7fe315a54f95",
+     "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/11/20261102472201336.pdf",
+     "title": "Public Notice regarding Correction in particulars of the Online Application Form for UGC-NET December 2026",
+     "kind": "brochure",
+     "page": 1
+    },
+    "alternatives": 1
+   },
    "exam_date": {
     "date": "2026-12-01",
     "provisional": true,
@@ -186,19 +198,18 @@
   "exam_pattern": {
    "value": [
     {
-     "paper": "09:00 am to 12:00 pm (IST)",
+     "paper": "UGC NET - December2026",
      "page": 1,
-     "questions": 50,
-     "marks": 100
+     "duration": "02November2026to04November2026 (upto11:50PM) . ."
     }
    ],
    "source": {
-    "notice": "7502b1733f20b35c04e474c7500e63763d650bee02f5ca23963db5cfa931d71e",
-    "url": "https://nta.ac.in/Download/Notice/Notice_20210202165520.pdf",
-    "title": "1617 Public Notice: UGC-NET, Dec 2020 Cycle (May 2021) English Read More",
+    "notice": "10abd64e8020560b926bf0e64bae09601d6b5384878fd0e3913a7fe315a54f95",
+    "url": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/11/20261102472201336.pdf",
+    "title": "Public Notice regarding Correction in particulars of the Online Application Form for UGC-NET December 2026",
     "kind": "brochure"
    },
-   "carried_from": "2021-12"
+   "alternatives": 1
   }
  },
  "gaps": [],
