@@ -1,0 +1,36 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "401d3b795bc5917e6b174f7e5513ec1c73079922bb0916c40936e47834fb8e4d",
+  "url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/miscnotifications/Notification - Transfer and Posting of Judicial Officers (District Judge cadre) Gujarat High Court 02112026.pdf",
+  "title": "Notification - Transfer and Posting of Judicial Officers (District Judge cadre) Gujarat High Court 02112026",
+  "body": "gj-hc",
+  "exam": "gj-hc-judicial",
+  "feed": "gj-hc/misc-notifications",
+  "published": "2026-11-02",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "177bfe75881fa7b6268dae9b70203193a3f22a0a7a6d32579e7e43dc2c6103e8",
+  "bytes": 145681,
+  "pages": 3,
+  "chars": 7034,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-11-03T02:00:20+05:30"
+ },
+ "kind": "notice",
+ "schedule": [
+  {
+   "event": "(Hemang R Rawal) . Registrar General",
+   "date": "2026-11-02",
+   "page": 3
+  }
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ }
+}

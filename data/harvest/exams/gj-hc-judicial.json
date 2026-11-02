@@ -4,32 +4,10 @@
  "name": "Gujarat HC Civil Judge / Higher Judicial Service Examination",
  "body": "gj-hc",
  "purpose": "recruitment",
- "cycle": "2025",
- "documents": 34,
+ "cycle": "2026",
+ "documents": 35,
  "documents_in_cycle": 1,
- "fields": {
-  "dates": {
-   "correction_window": {
-    "date": "2025-05-10",
-    "source": {
-     "notice": "20355dbf3832e01ca0285012859c7c6676ac75500b621340a3d1720302e35d04",
-     "url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/miscnotifications/Corrigendum Notification - Transfer Posting of Judicial Officers (District Judge cadre) Gujarat High Court - 15052025.pdf",
-     "title": "Corrigendum Notification - Transfer Posting of Judicial Officers (District Judge cadre) Gujarat High Court - 15052025",
-     "kind": "corrigendum",
-     "page": 1
-    }
-   }
-  },
-  "advertisement_no": {
-   "value": "A.1201/2025",
-   "source": {
-    "notice": "20355dbf3832e01ca0285012859c7c6676ac75500b621340a3d1720302e35d04",
-    "url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/miscnotifications/Corrigendum Notification - Transfer Posting of Judicial Officers (District Judge cadre) Gujarat High Court - 15052025.pdf",
-    "title": "Corrigendum Notification - Transfer Posting of Judicial Officers (District Judge cadre) Gujarat High Court - 15052025",
-    "kind": "corrigendum"
-   }
-  }
- },
+ "fields": {},
  "gaps": [
   "vacancies",
   "apply",
@@ -40,5 +18,5 @@
   "eligibility",
   "selection"
  ],
- "older_documents": 33
+ "older_documents": 34
 }

@@ -5,149 +5,21 @@
  "body": "in-sbi",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 58,
- "documents_in_cycle": 12,
+ "documents": 59,
+ "documents_in_cycle": 13,
  "fields": {
   "vacancies": {
    "value": {
-    "total": 18,
+    "total": 3,
     "by_category": {
-     "PwBD": 18
+     "Unreserved": 3
     },
     "rows": [
      {
-      "label": "Amaravati",
-      "total": 1,
+      "label": "1 . / Risk Specialist / Regular / MMGS II - / -",
+      "total": 3,
       "by_category": {
-       "PwBD": 0
-      },
-      "page": 3
-     },
-     {
-      "label": "Bengaluru",
-      "total": 1,
-      "by_category": {
-       "PwBD": 2
-      },
-      "page": 3
-     },
-     {
-      "label": "Bhopal",
-      "total": 1,
-      "by_category": {
-       "PwBD": 0
-      },
-      "page": 3
-     },
-     {
-      "label": "Bhubaneswar",
-      "total": 1,
-      "by_category": {
-       "PwBD": 2
-      },
-      "page": 3
-     },
-     {
-      "label": "Chandigarh",
-      "total": 1,
-      "by_category": {
-       "PwBD": 2
-      },
-      "page": 3
-     },
-     {
-      "label": "Chennai",
-      "total": 1,
-      "by_category": {
-       "PwBD": 2
-      },
-      "page": 3
-     },
-     {
-      "label": "Gandhinagar",
-      "total": 1,
-      "by_category": {
-       "PwBD": 0
-      },
-      "page": 3
-     },
-     {
-      "label": "Guwahati",
-      "total": 1,
-      "by_category": {
-       "PwBD": 0
-      },
-      "page": 3
-     },
-     {
-      "label": "Hyderabad",
-      "total": 1,
-      "by_category": {
-       "PwBD": 0
-      },
-      "page": 3
-     },
-     {
-      "label": "Jaipur",
-      "total": 2,
-      "by_category": {
-       "PwBD": 2
-      },
-      "page": 3
-     },
-     {
-      "label": "Kolkata",
-      "total": 1,
-      "by_category": {
-       "PwBD": 2
-      },
-      "page": 3
-     },
-     {
-      "label": "Lucknow",
-      "total": 1,
-      "by_category": {
-       "PwBD": 0
-      },
-      "page": 3
-     },
-     {
-      "label": "Maharashtra",
-      "total": 1,
-      "by_category": {
-       "PwBD": 0
-      },
-      "page": 3
-     },
-     {
-      "label": "Mumbai Metro",
-      "total": 1,
-      "by_category": {
-       "PwBD": 2
-      },
-      "page": 3
-     },
-     {
-      "label": "New Delhi",
-      "total": 1,
-      "by_category": {
-       "PwBD": 2
-      },
-      "page": 3
-     },
-     {
-      "label": "Patna",
-      "total": 1,
-      "by_category": {
-       "PwBD": 0
-      },
-      "page": 3
-     },
-     {
-      "label": "Thiruvananthapuram",
-      "total": 1,
-      "by_category": {
-       "PwBD": 2
+       "Unreserved": 3
       },
       "page": 3
      }
@@ -155,95 +27,165 @@
     "from": "table"
    },
    "source": {
-    "notice": "656871e430a9f7778f638d8dcf16ac07878670ac8b3c24783f4129d283755502",
-    "url": "https://sbi.bank.in/documents/77530/57941334/14052026_FINAL+AD-IAD-SCO-2026-27-08.pdf/52171408-97f3-d8ea-ce32-9948ae0f0b45?t=1778749404359",
-    "title": "DOWNLOAD ADVERTISEMENT( Hindi/ English ) ( )",
+    "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
+    "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
+    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
     "kind": "advertisement"
+   },
+   "alternatives": 1
+  },
+  "age": {
+   "value": {
+    "limits": [
+     {
+      "min": 25,
+      "max": 35,
+      "evidence": "RISK SPECIALIST AGE (AS ON 31.10.2026) Minimum Age: 25 Years, Maximum Age: 35 Years",
+      "page": 5
+     }
+    ],
+    "as_on": "2026-10-31",
+    "relaxations": [
+     {
+      "categories": [
+       "OBC",
+       "OBC-NCL"
+      ],
+      "for": "Other Backward Classes (OBC) (Non-Creamy Layer)",
+      "raw": "a) Other Backward Classes (OBC) (Non-Creamy Layer)  3",
+      "page": 4
+     },
+     {
+      "categories": [
+       "SC",
+       "ST"
+      ],
+      "for": "Scheduled Castes/ Scheduled Tribes (SC/ ST)",
+      "raw": "b) Scheduled Castes/ Scheduled Tribes (SC/ ST)  5",
+      "page": 4
+     },
+     {
+      "categories": [
+       "PwBD",
+       "Unreserved",
+       "EWS"
+      ],
+      "for": "Persons with Benchmark Disabilities (PwBD) / PwBD (UR/ EWS) -",
+      "raw": "c) Persons with Benchmark Disabilities (PwBD) PwBD (UR/ EWS) - 10",
+      "page": 4
+     },
+     {
+      "categories": [
+       "PwBD",
+       "OBC"
+      ],
+      "for": "PwBD (OBC) -",
+      "raw": "  PwBD (OBC) - 13",
+      "page": 4
+     },
+     {
+      "categories": [
+       "PwBD",
+       "SC",
+       "ST"
+      ],
+      "for": "PwBD (SC/ ST) -",
+      "raw": "  PwBD (SC/ ST) - 15",
+      "page": 4
+     }
+    ]
+   },
+   "source": {
+    "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
+    "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
+    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
+    "kind": "advertisement",
+    "page": 5
    }
   },
   "dates": {
    "age_as_on": {
-    "date": "2026-09-30",
+    "date": "2026-10-31",
     "source": {
-     "notice": "2eecd0223923aa2e9dd5fe691ec82f85823bc9c279a6f7717170b5f69d8fc4ad",
-     "url": "https://sbi.bank.in/documents/77530/57941334/17102026_Detail_ADV_CRPD_SCO_2026-27_30.pdf/226b6572-e6bd-2b73-f266-dc7db9b282bd?t=1792240760461",
-     "title": "ENGAGEMENT OF SPECIALIST CADRE OFFICERS ON FIXED TERM EMPLOYMENT BASIS (Apply Online from 19.10.2026 TO 09.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/30 LAST DATE TO APPLY : 09-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (19.10.2026 TO 09.11.2026) ( ) BIODATA ( ) CTC NEGOTIATION FORM ( ) Apply Now",
+     "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
+     "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
+     "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
      "kind": "advertisement",
      "page": 2
     },
-    "alternatives": 2
+    "alternatives": 3
    },
    "payment_deadline": {
-    "date": "2026-11-09",
+    "date": "2026-11-23",
     "source": {
-     "notice": "2eecd0223923aa2e9dd5fe691ec82f85823bc9c279a6f7717170b5f69d8fc4ad",
-     "url": "https://sbi.bank.in/documents/77530/57941334/17102026_Detail_ADV_CRPD_SCO_2026-27_30.pdf/226b6572-e6bd-2b73-f266-dc7db9b282bd?t=1792240760461",
-     "title": "ENGAGEMENT OF SPECIALIST CADRE OFFICERS ON FIXED TERM EMPLOYMENT BASIS (Apply Online from 19.10.2026 TO 09.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/30 LAST DATE TO APPLY : 09-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (19.10.2026 TO 09.11.2026) ( ) BIODATA ( ) CTC NEGOTIATION FORM ( ) Apply Now",
+     "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
+     "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
+     "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
      "kind": "advertisement",
      "page": 2
     },
-    "alternatives": 1
+    "alternatives": 2
    },
    "registration_deadline": {
-    "date": "2026-11-09",
+    "date": "2026-11-23",
     "source": {
-     "notice": "2eecd0223923aa2e9dd5fe691ec82f85823bc9c279a6f7717170b5f69d8fc4ad",
-     "url": "https://sbi.bank.in/documents/77530/57941334/17102026_Detail_ADV_CRPD_SCO_2026-27_30.pdf/226b6572-e6bd-2b73-f266-dc7db9b282bd?t=1792240760461",
-     "title": "ENGAGEMENT OF SPECIALIST CADRE OFFICERS ON FIXED TERM EMPLOYMENT BASIS (Apply Online from 19.10.2026 TO 09.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/30 LAST DATE TO APPLY : 09-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (19.10.2026 TO 09.11.2026) ( ) BIODATA ( ) CTC NEGOTIATION FORM ( ) Apply Now",
+     "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
+     "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
+     "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
      "kind": "advertisement",
      "page": 2
     },
-    "alternatives": 2
+    "alternatives": 3
    },
    "registration_open": {
-    "date": "2026-10-19",
+    "date": "2026-11-02",
     "source": {
-     "notice": "2eecd0223923aa2e9dd5fe691ec82f85823bc9c279a6f7717170b5f69d8fc4ad",
-     "url": "https://sbi.bank.in/documents/77530/57941334/17102026_Detail_ADV_CRPD_SCO_2026-27_30.pdf/226b6572-e6bd-2b73-f266-dc7db9b282bd?t=1792240760461",
-     "title": "ENGAGEMENT OF SPECIALIST CADRE OFFICERS ON FIXED TERM EMPLOYMENT BASIS (Apply Online from 19.10.2026 TO 09.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/30 LAST DATE TO APPLY : 09-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (19.10.2026 TO 09.11.2026) ( ) BIODATA ( ) CTC NEGOTIATION FORM ( ) Apply Now",
+     "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
+     "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
+     "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
      "kind": "advertisement",
      "page": 2
     },
-    "alternatives": 2
+    "alternatives": 3
    }
   },
   "apply": {
    "value": {
-    "from": "2026-10-19",
-    "until": "2026-11-09"
+    "from": "2026-11-02",
+    "until": "2026-11-23"
    },
    "source": {
-    "notice": "2eecd0223923aa2e9dd5fe691ec82f85823bc9c279a6f7717170b5f69d8fc4ad",
-    "url": "https://sbi.bank.in/documents/77530/57941334/17102026_Detail_ADV_CRPD_SCO_2026-27_30.pdf/226b6572-e6bd-2b73-f266-dc7db9b282bd?t=1792240760461",
-    "title": "ENGAGEMENT OF SPECIALIST CADRE OFFICERS ON FIXED TERM EMPLOYMENT BASIS (Apply Online from 19.10.2026 TO 09.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/30 LAST DATE TO APPLY : 09-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (19.10.2026 TO 09.11.2026) ( ) BIODATA ( ) CTC NEGOTIATION FORM ( ) Apply Now",
+    "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
+    "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
+    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
     "kind": "advertisement",
     "page": 2
    }
   },
   "advertisement_no": {
-   "value": "CRPD/SCO/2026-27/30)",
+   "value": "CRPD/SCO/2026-27/27)",
    "source": {
-    "notice": "2eecd0223923aa2e9dd5fe691ec82f85823bc9c279a6f7717170b5f69d8fc4ad",
-    "url": "https://sbi.bank.in/documents/77530/57941334/17102026_Detail_ADV_CRPD_SCO_2026-27_30.pdf/226b6572-e6bd-2b73-f266-dc7db9b282bd?t=1792240760461",
-    "title": "ENGAGEMENT OF SPECIALIST CADRE OFFICERS ON FIXED TERM EMPLOYMENT BASIS (Apply Online from 19.10.2026 TO 09.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/30 LAST DATE TO APPLY : 09-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (19.10.2026 TO 09.11.2026) ( ) BIODATA ( ) CTC NEGOTIATION FORM ( ) Apply Now",
+    "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
+    "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
+    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
     "kind": "advertisement"
    },
-   "alternatives": 2
+   "alternatives": 3
   },
   "apply_links": {
    "value": [
     "https://sbi.bank.in/web/careers/current-openings",
-    "https://sbi.bank.in/web/careers/current",
     "https://sbi.bank.in/web/careers",
-    "https://sbi.bank.in/web/careers/post-your-query"
+    "https://sbi.bank.in/web/careers/post-your-query",
+    "https://sbi.bank.in/web/careers/current-"
    ],
    "source": {
-    "notice": "2eecd0223923aa2e9dd5fe691ec82f85823bc9c279a6f7717170b5f69d8fc4ad",
-    "url": "https://sbi.bank.in/documents/77530/57941334/17102026_Detail_ADV_CRPD_SCO_2026-27_30.pdf/226b6572-e6bd-2b73-f266-dc7db9b282bd?t=1792240760461",
-    "title": "ENGAGEMENT OF SPECIALIST CADRE OFFICERS ON FIXED TERM EMPLOYMENT BASIS (Apply Online from 19.10.2026 TO 09.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/30 LAST DATE TO APPLY : 09-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (19.10.2026 TO 09.11.2026) ( ) BIODATA ( ) CTC NEGOTIATION FORM ( ) Apply Now",
+    "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
+    "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
+    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
     "kind": "advertisement"
    },
-   "alternatives": 11
+   "alternatives": 12
   },
   "eligibility": {
    "value": {
@@ -253,84 +195,75 @@
     ],
     "clauses": [
      {
-      "text": "Posts Age (in Years) Educational Qualification Experience GM & Chief AI officer Min- 40 Max-55 B.E. / B.Tech / M.Tech in Computer Science / IT /Electronics / Electrical & Electronics / Electronics & Communication or equivalent / M Sc (Statistics/Computer Science)/MA (Statistics)/M Stat /MCA from…",
+      "text": "(B) Educational Qualification (As on 31.10.2026):",
       "page": 2
      },
      {
-      "text": "AI Solution Architect Min- 30 Max-45 Bachelor's / Master’s degree in computer science, Information Technology, Data Science, AI, Business Administration, Management or a related discipline from a recognized university/institution",
+      "text": "• Mandatory: (i) CA or (ii) CFA or (iii) MBA / PGDM or equivalent degree in Finance / Data Analytics / Business Analytics from a recognized institute",
       "page": 2
      },
      {
-      "text": "Enterprise AI Architect Bachelor's / Master’s degree in computer science, Information Technology, Engineering, Data Science, AI or equivalent discipline from a recognized university/institution",
+      "text": "1 Before applying, candidates are requested to ensure that they fulfil the eligibility criteria for the post(s), as on the date of eligibility",
       "page": 2
      },
      {
-      "text": "Before applying, candidates are requested to ensure that they fulfil the eligibility criteria for the post(s), as on the date of eligibility",
+      "text": "4 Candidates must have valid Email ID and Mobile phone number which should be kept active till the declaration of result and issuance of call letters on final selection, if any",
       "page": 2
      },
      {
-      "text": "Candidates must have valid Email ID and Mobile phone number which should be kept active till the declaration of result and issuance of call letters on final selection, if any",
+      "text": "7 Candidates are required to upload all required documents (Biodata, Resume, ID proof, Age proof, Caste Certificate (if applicable), PwBD Certificate (if applicable), Educational qualification, Other qualifications / Certifications, Proof of Experience, undertaking, etc.) failing which their…",
+      "page": 2
+     },
+     {
+      "text": "19 In case a candidate is called for interview and is found not satisfying the eligibility criteria (Age, Educational Qualification, Other qualification, Experience etc.) he/ she will neither be allowed to appear for the interview nor be entitled for reimbursement of any travelling expenses",
       "page": 3
      },
      {
-      "text": "Candidates are required to upload all required documents (Resume, ID proof, Age proof, Caste Certificate (if applicable), PwBD Certificate (if applicable), Educational qualification, other qualifications/ certifications, Proof of Experience etc.) failing which their application / candidature will…",
-      "page": 3
-     },
-     {
-      "text": "In case a candidate is called for interview and is found not satisfying the eligibility criteria (Age, Educational Qualification, Other qualification, Experience etc.) he/ she will neither be allowed to appear for the interview nor be entitled for reimbursement of any travelling expenses",
-      "page": 3
-     },
-     {
-      "text": "(B) Details of Educational Qualification/ Certification/ Work Experience/ Specific Skills Required:",
+      "text": "Candidates belonging to reserved category including Person with Benchmark Disabilities (PwBD) for whom no reservation has been mentioned are free to apply for vacancies announced for Unreserved category provided they fulfil all the eligibility criteria applicable to Unreserved Category",
       "page": 4
      },
      {
-      "text": "Bachelor's / master’s degree in computer science, Information Technology, Data Science, AI, Business Administration, Management or a related discipline from a recognized university/institution",
-      "page": 8
+      "text": "Details of Age/ Educational Qualification/ Work Experience etc.:",
+      "page": 5
      },
      {
-      "text": "Bachelor's / Master's degree in Computer Science, Information Technology, Engineering, Data Science, AI or equivalent discipline from a recognized university/institution",
-      "page": 9
+      "text": "(i) CA or (ii) CFA or (iii) MBA / PGDM or equivalent degree in Finance / Data Analytics / Business Analytics from a recognized institute",
+      "page": 5
      },
      {
-      "text": "1 The educational qualification prescribed for the post is minimum",
-      "page": 10
+      "text": "➢ The educational qualification prescribed for the post is minimum",
+      "page": 5
      },
      {
       "text": "❖ Shortlisting: Mere fulfilling the minimum qualification and experience will not vest any right to candidate for being called for interview",
-      "page": 14
-     },
-     {
-      "text": "HOW TO APPLY: Candidates should have valid Email ID which should be kept active till the declaration of result",
-      "page": 15
+      "page": 6
      }
     ]
    },
    "source": {
-    "notice": "2eecd0223923aa2e9dd5fe691ec82f85823bc9c279a6f7717170b5f69d8fc4ad",
-    "url": "https://sbi.bank.in/documents/77530/57941334/17102026_Detail_ADV_CRPD_SCO_2026-27_30.pdf/226b6572-e6bd-2b73-f266-dc7db9b282bd?t=1792240760461",
-    "title": "ENGAGEMENT OF SPECIALIST CADRE OFFICERS ON FIXED TERM EMPLOYMENT BASIS (Apply Online from 19.10.2026 TO 09.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/30 LAST DATE TO APPLY : 09-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (19.10.2026 TO 09.11.2026) ( ) BIODATA ( ) CTC NEGOTIATION FORM ( ) Apply Now",
+    "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
+    "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
+    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
     "kind": "advertisement"
    },
-   "alternatives": 2
+   "alternatives": 3
   },
   "selection": {
    "value": [
     "Interview"
    ],
    "source": {
-    "notice": "2eecd0223923aa2e9dd5fe691ec82f85823bc9c279a6f7717170b5f69d8fc4ad",
-    "url": "https://sbi.bank.in/documents/77530/57941334/17102026_Detail_ADV_CRPD_SCO_2026-27_30.pdf/226b6572-e6bd-2b73-f266-dc7db9b282bd?t=1792240760461",
-    "title": "ENGAGEMENT OF SPECIALIST CADRE OFFICERS ON FIXED TERM EMPLOYMENT BASIS (Apply Online from 19.10.2026 TO 09.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/30 LAST DATE TO APPLY : 09-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (19.10.2026 TO 09.11.2026) ( ) BIODATA ( ) CTC NEGOTIATION FORM ( ) Apply Now",
+    "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
+    "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
+    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
     "kind": "advertisement"
    },
-   "alternatives": 2
+   "alternatives": 3
   }
  },
  "gaps": [
   "exam_date",
   "fee",
-  "age",
   "pay"
  ],
  "older_documents": 46
