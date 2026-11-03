@@ -7,7 +7,7 @@ cycle                  = 'unknown'
 cycle_status           = 'active'
 
 # ═══ titles (readers) ════════════════════════════════════════════════
-title                  = 'Advertisement for (1) B.Pharm (2) D.Pharm (3) BMLT/BMLS (4) B.Optom (5) BMRIT (6) BPT (7) BASLP AND (8) BND, against State Quota Seats'
+title                  = 'Advertisement'
 slug                   = 'health-and-family-welfare-department-meghalaya-mmsrb-advertisement-for-1-b-pharm-2-d-pharm-3-bmlt-bmls-4-b-optom-5-bmrit-6-bpt-7-basl'
 title_official         = 'Advertisement for (1) B.Pharm (2) D.Pharm (3) BMLT/BMLS (4) B.Optom (5) BMRIT (6) BPT (7) BASLP AND (8) BND, against State Quota Seats'
 title_series           = 'unknown'
