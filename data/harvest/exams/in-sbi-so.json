@@ -5,34 +5,28 @@
  "body": "in-sbi",
  "purpose": "recruitment",
  "cycle": "2026",
- "documents": 59,
- "documents_in_cycle": 13,
+ "documents": 60,
+ "documents_in_cycle": 14,
  "fields": {
   "vacancies": {
    "value": {
-    "total": 3,
-    "by_category": {
-     "Unreserved": 3
-    },
+    "total": 60,
     "rows": [
      {
-      "label": "1 . / Risk Specialist / Regular / MMGS II - / -",
-      "total": 3,
-      "by_category": {
-       "Unreserved": 3
-      },
-      "page": 3
+      "label": "Manager (Security) / Deputy Manager (Security) / MMGS III / MMGS II (Regular) / Minimum: 25 Years Maximum: 40 Years / Anywhere in India / Through Written Test followed by Personal Interview",
+      "total": 60,
+      "page": 2
      }
     ],
     "from": "table"
    },
    "source": {
-    "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
-    "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
-    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
+    "notice": "91b3ca1fade3d6f6e9fcbe4539625eeb2bd6a6134eff0b9ebba46f1e9ac1f176",
+    "url": "https://sbi.bank.in/documents/77530/57941334/03112026_1_ADV_Security+Officer.pdf/69e017fe-5e1c-6312-c285-8855f9882102?t=1793713497818",
+    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICERS ON REGULAR BASIS FOR THE POST OF MANAGER(SECURITY)/DEPUTY MANAGER (Apply Online from 04.11.2026 TO 25.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/28 LAST DATE TO APPLY : 25-11-2026 DOWNLOAD ADVERTISEMENT( English ) ( ) APPLY ONLINE (04.11.2026 to 25.11.2026) ( ) Apply Now",
     "kind": "advertisement"
    },
-   "alternatives": 1
+   "alternatives": 2
   },
   "age": {
    "value": {
@@ -116,149 +110,196 @@
     "alternatives": 3
    },
    "payment_deadline": {
-    "date": "2026-11-23",
+    "date": "2026-11-25",
+    "provisional": true,
     "source": {
-     "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
-     "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
-     "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
+     "notice": "91b3ca1fade3d6f6e9fcbe4539625eeb2bd6a6134eff0b9ebba46f1e9ac1f176",
+     "url": "https://sbi.bank.in/documents/77530/57941334/03112026_1_ADV_Security+Officer.pdf/69e017fe-5e1c-6312-c285-8855f9882102?t=1793713497818",
+     "title": "RECRUITMENT OF SPECIALIST CADRE OFFICERS ON REGULAR BASIS FOR THE POST OF MANAGER(SECURITY)/DEPUTY MANAGER (Apply Online from 04.11.2026 TO 25.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/28 LAST DATE TO APPLY : 25-11-2026 DOWNLOAD ADVERTISEMENT( English ) ( ) APPLY ONLINE (04.11.2026 to 25.11.2026) ( ) Apply Now",
      "kind": "advertisement",
      "page": 2
     },
-    "alternatives": 2
+    "alternatives": 3
    },
    "registration_deadline": {
-    "date": "2026-11-23",
+    "date": "2026-11-25",
+    "provisional": true,
     "source": {
-     "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
-     "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
-     "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
+     "notice": "91b3ca1fade3d6f6e9fcbe4539625eeb2bd6a6134eff0b9ebba46f1e9ac1f176",
+     "url": "https://sbi.bank.in/documents/77530/57941334/03112026_1_ADV_Security+Officer.pdf/69e017fe-5e1c-6312-c285-8855f9882102?t=1793713497818",
+     "title": "RECRUITMENT OF SPECIALIST CADRE OFFICERS ON REGULAR BASIS FOR THE POST OF MANAGER(SECURITY)/DEPUTY MANAGER (Apply Online from 04.11.2026 TO 25.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/28 LAST DATE TO APPLY : 25-11-2026 DOWNLOAD ADVERTISEMENT( English ) ( ) APPLY ONLINE (04.11.2026 to 25.11.2026) ( ) Apply Now",
      "kind": "advertisement",
      "page": 2
     },
-    "alternatives": 3
+    "alternatives": 4
    },
    "registration_open": {
-    "date": "2026-11-02",
+    "date": "2026-11-04",
+    "provisional": true,
     "source": {
-     "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
-     "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
-     "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
+     "notice": "91b3ca1fade3d6f6e9fcbe4539625eeb2bd6a6134eff0b9ebba46f1e9ac1f176",
+     "url": "https://sbi.bank.in/documents/77530/57941334/03112026_1_ADV_Security+Officer.pdf/69e017fe-5e1c-6312-c285-8855f9882102?t=1793713497818",
+     "title": "RECRUITMENT OF SPECIALIST CADRE OFFICERS ON REGULAR BASIS FOR THE POST OF MANAGER(SECURITY)/DEPUTY MANAGER (Apply Online from 04.11.2026 TO 25.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/28 LAST DATE TO APPLY : 25-11-2026 DOWNLOAD ADVERTISEMENT( English ) ( ) APPLY ONLINE (04.11.2026 to 25.11.2026) ( ) Apply Now",
      "kind": "advertisement",
      "page": 2
     },
-    "alternatives": 3
+    "alternatives": 4
    }
   },
   "apply": {
    "value": {
-    "from": "2026-11-02",
-    "until": "2026-11-23"
+    "from": "2026-11-04",
+    "until": "2026-11-25"
    },
    "source": {
-    "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
-    "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
-    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
+    "notice": "91b3ca1fade3d6f6e9fcbe4539625eeb2bd6a6134eff0b9ebba46f1e9ac1f176",
+    "url": "https://sbi.bank.in/documents/77530/57941334/03112026_1_ADV_Security+Officer.pdf/69e017fe-5e1c-6312-c285-8855f9882102?t=1793713497818",
+    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICERS ON REGULAR BASIS FOR THE POST OF MANAGER(SECURITY)/DEPUTY MANAGER (Apply Online from 04.11.2026 TO 25.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/28 LAST DATE TO APPLY : 25-11-2026 DOWNLOAD ADVERTISEMENT( English ) ( ) APPLY ONLINE (04.11.2026 to 25.11.2026) ( ) Apply Now",
     "kind": "advertisement",
     "page": 2
    }
   },
   "advertisement_no": {
-   "value": "CRPD/SCO/2026-27/27)",
+   "value": "CRPD/SCO/2026-27/28)",
    "source": {
-    "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
-    "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
-    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
+    "notice": "91b3ca1fade3d6f6e9fcbe4539625eeb2bd6a6134eff0b9ebba46f1e9ac1f176",
+    "url": "https://sbi.bank.in/documents/77530/57941334/03112026_1_ADV_Security+Officer.pdf/69e017fe-5e1c-6312-c285-8855f9882102?t=1793713497818",
+    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICERS ON REGULAR BASIS FOR THE POST OF MANAGER(SECURITY)/DEPUTY MANAGER (Apply Online from 04.11.2026 TO 25.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/28 LAST DATE TO APPLY : 25-11-2026 DOWNLOAD ADVERTISEMENT( English ) ( ) APPLY ONLINE (04.11.2026 to 25.11.2026) ( ) Apply Now",
     "kind": "advertisement"
    },
-   "alternatives": 3
+   "alternatives": 4
   },
   "apply_links": {
    "value": [
     "https://sbi.bank.in/web/careers/current-openings",
-    "https://sbi.bank.in/web/careers",
-    "https://sbi.bank.in/web/careers/post-your-query",
-    "https://sbi.bank.in/web/careers/current-"
+    "https://sbi.bank.in/web/careers"
    ],
    "source": {
-    "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
-    "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
-    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
+    "notice": "91b3ca1fade3d6f6e9fcbe4539625eeb2bd6a6134eff0b9ebba46f1e9ac1f176",
+    "url": "https://sbi.bank.in/documents/77530/57941334/03112026_1_ADV_Security+Officer.pdf/69e017fe-5e1c-6312-c285-8855f9882102?t=1793713497818",
+    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICERS ON REGULAR BASIS FOR THE POST OF MANAGER(SECURITY)/DEPUTY MANAGER (Apply Online from 04.11.2026 TO 25.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/28 LAST DATE TO APPLY : 25-11-2026 DOWNLOAD ADVERTISEMENT( English ) ( ) APPLY ONLINE (04.11.2026 to 25.11.2026) ( ) Apply Now",
     "kind": "advertisement"
    },
-   "alternatives": 12
+   "alternatives": 13
   },
   "eligibility": {
    "value": {
     "education_levels": [
-     "Postgraduate",
      "Graduate"
     ],
     "clauses": [
      {
-      "text": "(B) Educational Qualification (As on 31.10.2026):",
+      "text": "ii) Before applying, candidates are requested to ensure that they fulfil the eligibility criteria for the Post as on the date of eligibility",
       "page": 2
      },
      {
-      "text": "• Mandatory: (i) CA or (ii) CFA or (iii) MBA / PGDM or equivalent degree in Finance / Data Analytics / Business Analytics from a recognized institute",
+      "text": "vii) Candidates are required to upload all required documents (resume, ID proof, age proof, caste certificate, OBC Non-Creamy Layer (NCL) Certificate, EWS Certificate (if applicable), educational qualification, experience, etc.) failing which their application/candidature will not be considered…",
       "page": 2
      },
      {
-      "text": "1 Before applying, candidates are requested to ensure that they fulfil the eligibility criteria for the post(s), as on the date of eligibility",
+      "text": "DETAILS OF THE REQUIREMENTS OF EDUCATIONAL QUALIFICATIONS/POST-QUALIFICATION EXPERIENCES/SPECIFIC SKILLS ETC",
       "page": 2
      },
      {
-      "text": "4 Candidates must have valid Email ID and Mobile phone number which should be kept active till the declaration of result and issuance of call letters on final selection, if any",
+      "text": "Designation / Grade Educational Qualification (As on 31/10/2026) Post-Qualification Experience",
       "page": 2
      },
      {
-      "text": "7 Candidates are required to upload all required documents (Biodata, Resume, ID proof, Age proof, Caste Certificate (if applicable), PwBD Certificate (if applicable), Educational qualification, Other qualifications / Certifications, Proof of Experience, undertaking, etc.) failing which their…",
-      "page": 2
-     },
-     {
-      "text": "19 In case a candidate is called for interview and is found not satisfying the eligibility criteria (Age, Educational Qualification, Other qualification, Experience etc.) he/ she will neither be allowed to appear for the interview nor be entitled for reimbursement of any travelling expenses",
+      "text": "Candidate belonging to reserved category for whom no reservation has been mentioned are free to apply for vacancies announced for Unreserved (UR) category provided they fulfil all the eligibility criteria applicable to Unreserved Category (UR)",
       "page": 3
      },
      {
-      "text": "Candidates belonging to reserved category including Person with Benchmark Disabilities (PwBD) for whom no reservation has been mentioned are free to apply for vacancies announced for Unreserved category provided they fulfil all the eligibility criteria applicable to Unreserved Category",
-      "page": 4
+      "text": "The educational qualification prescribed for various posts is the minimum",
+      "page": 3
      },
      {
-      "text": "Details of Age/ Educational Qualification/ Work Experience etc.:",
+      "text": "Candidate must possess the qualification and relevant full-time experience as on specified dates",
+      "page": 3
+     },
+     {
+      "text": "ii) In case a candidate is called for interview and is found not satisfying the eligibility criteria (Age, Educational Qualification and Experience etc.) he/ she will neither be allowed to appear for the interview nor be entitled for reimbursement of any travelling expenses",
       "page": 5
      },
      {
-      "text": "(i) CA or (ii) CFA or (iii) MBA / PGDM or equivalent degree in Finance / Data Analytics / Business Analytics from a recognized institute",
+      "text": "iii) Candidate must possess the relevant full-time experience as on specified date",
       "page": 5
      },
      {
-      "text": "➢ The educational qualification prescribed for the post is minimum",
-      "page": 5
-     },
-     {
-      "text": "❖ Shortlisting: Mere fulfilling the minimum qualification and experience will not vest any right to candidate for being called for interview",
+      "text": "HOW TO APPLY: Candidates should have valid email ID which should be kept active till the declaration of result",
       "page": 6
+     },
+     {
+      "text": "The Candidates applying for the post must ensure that they fulfill all eligibility criteria for the post of Security Officer as on the date of eligibility",
+      "page": 9
      }
     ]
    },
    "source": {
-    "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
-    "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
-    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
+    "notice": "91b3ca1fade3d6f6e9fcbe4539625eeb2bd6a6134eff0b9ebba46f1e9ac1f176",
+    "url": "https://sbi.bank.in/documents/77530/57941334/03112026_1_ADV_Security+Officer.pdf/69e017fe-5e1c-6312-c285-8855f9882102?t=1793713497818",
+    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICERS ON REGULAR BASIS FOR THE POST OF MANAGER(SECURITY)/DEPUTY MANAGER (Apply Online from 04.11.2026 TO 25.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/28 LAST DATE TO APPLY : 25-11-2026 DOWNLOAD ADVERTISEMENT( English ) ( ) APPLY ONLINE (04.11.2026 to 25.11.2026) ( ) Apply Now",
     "kind": "advertisement"
    },
-   "alternatives": 3
+   "alternatives": 4
   },
   "selection": {
    "value": [
-    "Interview"
+    "Written examination",
+    "Interview",
+    "Computer-based test"
    ],
    "source": {
-    "notice": "490ec9b871830b54ec259c744b7a2e32c3423db2b511c59e1ac36d6a29e25de0",
-    "url": "https://sbi.bank.in/documents/77530/57941334/DETAILED+ADV_RMD_SCO_2026-27_27.pdf/fff268f5-f55d-3ec8-b1ca-b7a51e705e0e?t=1793599952659",
-    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICER ON REGULAR BASIS (POST : RISK SPECIALIST) (Apply Online from 02.11.2026 TO 23.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/27 LAST DATE TO APPLY : 23-11-2026 DOWNLOAD ADVERTISEMENT English ( ) APPLY ONLINE (02.11.2026 TO 23.11.2026) ( ) BIODATA ( ) Apply Now",
+    "notice": "91b3ca1fade3d6f6e9fcbe4539625eeb2bd6a6134eff0b9ebba46f1e9ac1f176",
+    "url": "https://sbi.bank.in/documents/77530/57941334/03112026_1_ADV_Security+Officer.pdf/69e017fe-5e1c-6312-c285-8855f9882102?t=1793713497818",
+    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICERS ON REGULAR BASIS FOR THE POST OF MANAGER(SECURITY)/DEPUTY MANAGER (Apply Online from 04.11.2026 TO 25.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/28 LAST DATE TO APPLY : 25-11-2026 DOWNLOAD ADVERTISEMENT( English ) ( ) APPLY ONLINE (04.11.2026 to 25.11.2026) ( ) Apply Now",
     "kind": "advertisement"
    },
-   "alternatives": 3
+   "alternatives": 4
+  },
+  "exam_pattern": {
+   "value": [
+    {
+     "paper": "Reasoning Ability *",
+     "page": 4,
+     "questions": 50,
+     "marks": 25,
+     "duration": "30 minutes"
+    },
+    {
+     "paper": "English Language *",
+     "page": 4,
+     "questions": 50,
+     "marks": 50,
+     "duration": "30 minutes"
+    },
+    {
+     "paper": "General Awareness *",
+     "page": 4,
+     "questions": 50,
+     "marks": 25,
+     "duration": "25 minutes"
+    },
+    {
+     "paper": "Professional Knowledge ##",
+     "page": 4,
+     "questions": 50,
+     "marks": 100,
+     "duration": "35 minutes"
+    },
+    {
+     "paper": "Total",
+     "page": 4,
+     "questions": 200,
+     "marks": 200,
+     "duration": "Two Hours"
+    }
+   ],
+   "source": {
+    "notice": "91b3ca1fade3d6f6e9fcbe4539625eeb2bd6a6134eff0b9ebba46f1e9ac1f176",
+    "url": "https://sbi.bank.in/documents/77530/57941334/03112026_1_ADV_Security+Officer.pdf/69e017fe-5e1c-6312-c285-8855f9882102?t=1793713497818",
+    "title": "RECRUITMENT OF SPECIALIST CADRE OFFICERS ON REGULAR BASIS FOR THE POST OF MANAGER(SECURITY)/DEPUTY MANAGER (Apply Online from 04.11.2026 TO 25.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/28 LAST DATE TO APPLY : 25-11-2026 DOWNLOAD ADVERTISEMENT( English ) ( ) APPLY ONLINE (04.11.2026 to 25.11.2026) ( ) Apply Now",
+    "kind": "advertisement"
+   }
   }
  },
  "gaps": [
