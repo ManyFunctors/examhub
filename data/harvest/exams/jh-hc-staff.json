@@ -5,28 +5,29 @@
  "body": "jh-hc",
  "purpose": "recruitment",
  "cycle": "2024",
- "documents": 3,
- "documents_in_cycle": 1,
+ "documents": 4,
+ "documents_in_cycle": 2,
  "fields": {
   "dates": {
    "exam_date": {
-    "date": "2025-09-21",
+    "date": "2026-02-24",
     "source": {
-     "notice": "1e152a7b1bf959f28481d7df304a49476582e994bcc94e167df3c0e12c037ab1",
-     "url": "https://jharkhandhighcourt.nic.in/display_pdf/recruitment/Notice_Assistant_Civil_Court_29082025.pdf",
-     "title": "Notice regarding conduct of written examination for the post of Assistant/ Clerk of the Civil Court's in the State of Jharkhand under Advt. No. 05/ Admin. Misc./ 2024",
-     "kind": "advertisement",
+     "notice": "7504b8cc3e820288d5fb719e748c320e3dccad5f916e581b0a124ea9f457dcd7",
+     "url": "https://jharkhandhighcourt.nic.in/new/display_pdf/recruitment/corrigendum_adv_05admn_misc_2024_24022026.pdf",
+     "title": "➤ Corrigendum of Advt. 05/Admn. Misc. /2024. [24-02-2026] [PDF, ]",
+     "kind": "corrigendum",
      "page": 1
-    }
+    },
+    "alternatives": 1
    }
   },
   "exam_date": {
-   "value": "2025-09-21",
+   "value": "2026-02-24",
    "source": {
-    "notice": "1e152a7b1bf959f28481d7df304a49476582e994bcc94e167df3c0e12c037ab1",
-    "url": "https://jharkhandhighcourt.nic.in/display_pdf/recruitment/Notice_Assistant_Civil_Court_29082025.pdf",
-    "title": "Notice regarding conduct of written examination for the post of Assistant/ Clerk of the Civil Court's in the State of Jharkhand under Advt. No. 05/ Admin. Misc./ 2024",
-    "kind": "advertisement",
+    "notice": "7504b8cc3e820288d5fb719e748c320e3dccad5f916e581b0a124ea9f457dcd7",
+    "url": "https://jharkhandhighcourt.nic.in/new/display_pdf/recruitment/corrigendum_adv_05admn_misc_2024_24022026.pdf",
+    "title": "➤ Corrigendum of Advt. 05/Admn. Misc. /2024. [24-02-2026] [PDF, ]",
+    "kind": "corrigendum",
     "page": 1
    }
   },
@@ -37,7 +38,8 @@
     "url": "https://jharkhandhighcourt.nic.in/display_pdf/recruitment/Notice_Assistant_Civil_Court_29082025.pdf",
     "title": "Notice regarding conduct of written examination for the post of Assistant/ Clerk of the Civil Court's in the State of Jharkhand under Advt. No. 05/ Admin. Misc./ 2024",
     "kind": "advertisement"
-   }
+   },
+   "alternatives": 1
   }
  },
  "gaps": [

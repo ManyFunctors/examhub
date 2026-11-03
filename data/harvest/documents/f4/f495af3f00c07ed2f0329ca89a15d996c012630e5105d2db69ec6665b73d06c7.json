@@ -1,0 +1,26 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "f495af3f00c07ed2f0329ca89a15d996c012630e5105d2db69ec6665b73d06c7",
+  "url": "https://cdnbbsr.s3waas.gov.in/s388a839f2f6f1427879fc33ee4acf4f66/uploads/2026/11/202611031014468651.pdf",
+  "title": "Inviting Online Application for All India Sainik Schools Entrance Examination(AISSEE)- 2027 reg.",
+  "body": "in-nta",
+  "exam": "in-aissee",
+  "feed": "in-nta/aissee",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "29164835baaa290b5dce66ebd70bfb43a6156e9a9189e68cb256e719e2f7275a",
+  "bytes": 853546,
+  "pages": 2,
+  "chars": 2,
+  "ocr": true,
+  "indic_share": 0.0,
+  "fetched": "2026-11-03T15:31:11+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "no usable text layer (0 chars) and OCR is disabled: nothing can be extracted from this document",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}
