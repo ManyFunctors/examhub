@@ -314,6 +314,14 @@ link_apply         = 'unknown'
   [[links.documents]]
   document_type      = 'schedule'
   document_stage     = 'all'
+  document_published = 2026-11-02
+  document_title     = 'Revised Document Verification Schedule of PGMAC-2026 (Adv. No. BCECEB(PGMAC)-2026/03 Dated 02.11.2026)'
+  document_url       = 'https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGMAC26_03.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'schedule'
+  document_stage     = 'all'
   document_published = 2026-08-31
   document_title     = 'Notice for Extension in Date for First Round Document Verification of UGMAC-2026 (Adv. No.…'
   document_url       = 'https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_04.pdf'
@@ -330,7 +338,7 @@ link_apply         = 'unknown'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-10-22T14:56:20+05:30
-provenance_last_checked = 2026-10-22T14:56:21+05:30
+provenance_last_checked = 2026-11-03T08:31:21+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application.from'

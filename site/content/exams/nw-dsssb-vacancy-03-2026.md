@@ -353,17 +353,17 @@ link_apply         = 'https://dsssb.delhi.gov.in/user/login'
   document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/docs_0001.pdf'
-  document_archive   = 'not_archived'
-  document_title     = '15 NOTICE NO: 205 POST: TRANSLATOR (HINDI) POST CODE- 07/24 LEGISLATIVE ASSEMBLY SECRETARIAT Download'
+  document_url       = 'https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt-03-2026.pdf'
+  document_archive   = 'http://web.archive.org/web/20260623223643/https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt-03-2026.pdf'
+  document_title     = '15/07/2026 Date: 01-06-2026 | Download'
 
   [[links.documents]]
   document_type      = 'notification'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt-03-2026.pdf'
-  document_archive   = 'http://web.archive.org/web/20260623223643/https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt-03-2026.pdf'
-  document_title     = '15/07/2026 Date: 01-06-2026 | Download'
+  document_url       = 'https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/docs_0001.pdf'
+  document_archive   = 'not_archived'
+  document_title     = '16 NOTICE NO: 205 POST: TRANSLATOR (HINDI) POST CODE- 07/24 LEGISLATIVE ASSEMBLY SECRETARIAT Download'
 
   [[links.documents]]
   document_type      = 'other'
@@ -375,7 +375,7 @@ link_apply         = 'https://dsssb.delhi.gov.in/user/login'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-31T05:46:41+05:30
+provenance_last_checked = 2026-11-03T08:31:20+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application'

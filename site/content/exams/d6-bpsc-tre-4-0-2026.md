@@ -300,7 +300,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://bpsc.bih.nic.in/'
-link_apply         = 'https://bpsconline.bihar.gov.in/'
+link_apply         = 'unknown'
 
   [[links.documents]]
   document_type      = 'notification'
@@ -308,6 +308,13 @@ link_apply         = 'https://bpsconline.bihar.gov.in/'
   document_published = 'unknown'
   document_title     = 'Important Notice Advertisement Self Declaration Form for STET 2026 appearing candidates'
   document_url       = 'https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Advertisement-142026-TRE-4.0_BPSC-20260818-jwk5si.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'other'
+  document_stage     = 'all'
+  document_published = 'unknown'
+  document_url       = 'https://bpsconline.bihar.gov.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

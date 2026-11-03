@@ -345,7 +345,7 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://esb.mp.gov.in/'
-link_apply         = 'unknown'
+link_apply         = 'https://www.mponline.gov.in/Portal/services/firmsandsociety/HomeNew.aspx'
 
   [[links.documents]]
   document_type      = 'other'

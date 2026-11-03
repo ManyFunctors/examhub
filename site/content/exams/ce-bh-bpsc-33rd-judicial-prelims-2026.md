@@ -296,14 +296,14 @@ training_offered_for          = 'unknown'
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
 link_official_page = 'https://bpsc.bihar.gov.in/'
-link_apply         = 'https://bpsconline.bihar.gov.in/'
+link_apply         = 'https://bpsconline.bihar.gov.in/candidate/login'
 
   [[links.documents]]
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://bpsconline.bihar.gov.in/candidate/login'
-  document_archive   = 'http://web.archive.org/web/20261011111433/https://bpsconline.bihar.gov.in/candidate/login'
+  document_url       = 'https://bpsconline.bihar.gov.in/'
+  document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
