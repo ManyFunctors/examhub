@@ -1,0 +1,65 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "18c88984dabfc515b1262c96cb5be77d38f65edd2e4e4601f1f44e693ec18949",
+  "url": "https://keralapsc.gov.in/sites/default/files/2026-11/0842025_07_0_0.pdf",
+  "title": "Featured Latest, 2026, Eranakulam PHARMACIST GRADE II (HOMOEO) (Category No.084/2025) (IV NCA for : SCHEDULED CASTE CONVERTED TO CHRISTIANITY) (Category No. 084/2025) in Homoeopathy Department in ERNAKULAM District. Ranked List No. : 791/2026/SSV wef 03.11.2026. PHARMACIST GRADE II (HOMOEO) (Category No.084/2025) (IV NCA for : SCHEDULED CASTE CONVERTED TO CHRISTIANITY) (Category No. 084/2025) in Homoeopathy Department in ERNAKULAM District. Download 03-11-2026",
+  "body": "kl-kpsc",
+  "exam": "kl-kpsc-other",
+  "feed": "kl-kpsc/ranked-lists",
+  "published": "2026-11-03",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "faefb9e103ff9a6e6a17ff0c33657ed00e389350752a5fdab30c1181a0de6b75",
+  "bytes": 110389,
+  "pages": 3,
+  "chars": 4808,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-11-04T04:08:03+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-11-17",
+   "evidence": "A period of 15 (Fifteen) days time to apply for print out of Answer sheets will be allowed to candidates with effect from the date on which the Ranked List is uploaded in the website of the Commission (ie,on or before 17.11.2026)",
+   "page": 2,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 335,
+   "raw": "Candidates who wish to obtain a printout of their Answer sheets relating to this selection shall submit online application through their One Time Registration profile from the official website of the Commission, www.keralapsc.gov.in by…",
+   "page": 2
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 2
+  },
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.keralapsc.gov.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-11-17"
+  },
+  "fee": {
+   "min": 335,
+   "max": 335
+  }
+ }
+}

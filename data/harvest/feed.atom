@@ -2,46 +2,1334 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ExamHub: new official exam notices</title>
   <id>urn:examhub:notices</id>
-  <updated>2026-11-03T23:04:31+05:30</updated>
+  <updated>2026-11-04T04:07:03+05:30</updated>
   <entry>
-    <id>urn:sha256:fff33d8fa3eb46717013a23cb83bb3ea0d9db4c0ef00352c541a69eeb94c537f</id>
-    <title>Notice PDF Admit Card PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MjZ8MTc5MzczMDQwOQ%3D%3D.20745b94a3b053f9b488d6f2a214728e292361971da0d915ad9518b4deaef2fc"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · admit_card</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:ff86a443e511b4993ea9f1d80e0b77f5659e062e55f687dd28a7e634c398b507</id>
-    <title>Merit List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODh8MTc5MzczMDQwOQ%3D%3D.ce49da021f58eebe0bcd6770e3276441c5c2a14a344b51479d79f7e17c2e4daa"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:ff4ab7b671aaae71462fb921aeb6aa6a05e29a772ff61e2534b942bcc6973c8f</id>
-    <title>Notice (Final Eligible and Ineligible List) PDF Notice (Provisional List for affidavit) PDF Notice PDF Eligible &amp; Ineligible Provisional List PDF After Last Date (Rejected) PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OTJ8MTc5MzczMDQwOQ%3D%3D.8e06f7e4d7e3ce680a5935d7485f3bf47d77106052ad414a4004198b06cf37eb"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:ff3baf6e52eed656a5f0d5837f5a2798db892e5c06b5b97f8da4560775590153</id>
-    <title>Roll No. 3441-3800 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTU2fDE3OTM3MzA0MDk%3D.3681e8243ec23adf68872079fe2787d30665e8317bbc4b3906789d7fcdd321b2"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
+    <id>urn:sha256:fd02841e898fad484f97592c9a3e915c6dc09dc8f61fc50dc652736f8f3df616</id>
+    <title>Appointment for the post of Junior Judicial Assistant PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTc5fDE3OTM3NDg1NzY%3D.dad7f4fb0c6db582d25a89ce882ca1bac493b48c33d1e1a8d7e54383e40fe28c"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
     <category term="cg-hc-staff"/>
     <summary>cg-hc-staff · notification</summary>
   </entry>
   <entry>
-    <id>urn:sha256:fdffc69ca883b2a8f6e3fdc1d9b4398b407e07ea3f9e394aa1b07527d0c78cc8</id>
-    <title>Eligible List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NTB8MTc5MzczMDQwOQ%3D%3D.e98ba5e1b89a86434ce943a25e34e49de369fa5392a1f5047797d507177910af"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
+    <id>urn:sha256:fcdf868f4e6077cee63810f1062a771944764261a4d1274f8a2e1befc8ea7549</id>
+    <title>Appointment order PDF Notice PDF Corrigendum PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MzF8MTc5Mzc0ODU3Ng%3D%3D.774e07513bcbf521ca1c06974bc9ea7ca6cb8ac4a0668c8224a065a1a066e0ff"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · corrigendum</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:f9e82b4cf0c13a3cb824e6f2d8809799fe8e4966a16b573a110daf94829a6788</id>
+    <title>Notice (Final Eligible and Ineligible List) PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OTR8MTc5Mzc0ODU3Ng%3D%3D.3023db4555d96807089afdb169f3397e31b1418e63f663a65a064578ce1c563c"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
     <category term="cg-hc-staff"/>
     <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:f94165b4d12cdd7be5ac19719d8a167aa74a5e242158bcce53ef8dd20c11c70b</id>
+    <title>Ineligible List After Last date PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NjB8MTc5Mzc0ODU3Ng%3D%3D.ff254beb28abed4f322ae9839dcf9b8d5af3d21f0441236a54f7692ff6f976f4"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:f8430dd6a014485069a50527c60e2e48a6d92484dc84d130081f3cfa90a7ace0</id>
+    <title>Eligible List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NTR8MTc5Mzc0ODU3Ng%3D%3D.1ef57aa920081ebe1d75f118cf2c8eb519a7cf2a5ed9ff839ebfcc0f4d8a445a"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:f748d2a38a04982521f06cf97f9ac2d84cdb358951dc706f2f2820844807480b</id>
+    <title>Final List of Eligible PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTQzfDE3OTM3NDg1NzY%3D.4552a53a3571d6dd0996cd639975eb8e76353118c332893d9f36b0122ae376fa"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:f68c05e3b1d5e345c6052dac367f1fb352dcd1ebf6b4e2172b921fb0f2d2fe51</id>
+    <title>Corrigendum PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MzB8MTc5Mzc0ODU3Ng%3D%3D.c00c09cc8e3834e9ca1391435962fb976645ab0201e6bca7f11eb58e113f5350"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · corrigendum</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:f4c8e3441ca782b2b564abb1bfede85d6fc79f64cd7d6d005bdac07dd325b9c0</id>
+    <title>Ineligible List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Mzl8MTc5Mzc0ODU3Ng%3D%3D.61683f2c656ab763c5d8cf13f06bffc17c9b593f145298ea7e79c6c2e60bdf51"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:f38576e60ce24d3903dba18b7f66e79044eee9b021f0ce73f83121892a32a8d6</id>
+    <title>Appointment Order PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NzR8MTc5Mzc0ODU3Ng%3D%3D.010473b42d1332f8cb8d5b05adc308657d8a381ed53327fa9b2790bcf6d53d27"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:efdd41f9d3554c06a20c862e4d9029b87bad763a07120077a129dd1068107c4c</id>
+    <title>Other Notice PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NjR8MTc5Mzc0ODU3Ng%3D%3D.6375a52023146d4df6c840460b5ca7230c6ffb16f826828f2d3cb6b1f98628a4"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:ea7c96e3f2576ed633623673a2cc748e78f44e67fd557f91568da0b9d72b8f8e</id>
+    <title>After Last Date (Rejected) PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTM4fDE3OTM3NDg1NzY%3D.db69cd39b0b55d9e134e0a88ba896ecc38b80882dc8fdd9a3d536fd3ea893bd5"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:e8937166dd9bbc6f3c24b01b7e516c9b994c0205ed87900b17a78dd46590e148</id>
+    <title>Advertisement PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTIzfDE3OTM3NDg1NzY%3D.1d4137e3f24add5f003e9ac76e95e69b546a4f2d26b48395e976841a03ee0b75"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:e4b8e3ba7566691d8acf6d2ec8a8a06029b3d12c76412be5a10c547f4ca2771e</id>
+    <title>Notice PDF Notice PDF Notice PDF Notice (Document Verification) PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODJ8MTc5Mzc0ODU3Ng%3D%3D.8ae72ed2a6f6910e45d5ce89f7d663c9d41a713632d7eca017a920fdc10247aa"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · schedule</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:e391ff751fbab6fd7eb9d7e8c6e0ba50daef5b34dae896bab43dbe28a86db7d9</id>
+    <title>Notice PDF Notice PDF Notice PDF Notice (Document Verification) PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODB8MTc5Mzc0ODU3Ng%3D%3D.b7af4e23849d89a4292d13b8f2f8cbac90912b83185af74ec7b981369196cc28"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · schedule</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:e36234d2723b0e170b47546e7d0ff2ad83ff9a7ba51f2d82fa5022168f860965</id>
+    <title>Merit List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTcwfDE3OTM3NDg1NzY%3D.d2d5281e90fb447eead73e2346ec8a19e595aafdd2f2d4a46dbb0ffe2e0b2914"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:df3048d8aed5e2f61eb1d303c80c60b96f0210cbc56df4cc169c7ffaec923fc2</id>
+    <title>Advertisement PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTkyfDE3OTM3NDg1NzY%3D.99e8d490ef32fca490720a4d160c67f25ae33b14ff7fe2167c7aeeb7389f4463"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:dc2938e8de812fbb3785528722d0f437718ec193ec4baefd008469a3fc2bbb27</id>
+    <title>Merit List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTk3fDE3OTM3NDg1NzY%3D.ec6365e941aaf7ab63ea836f7f21df1cc7858bace2cfd50c86130d60b597e069"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:d958da8715dcec8a4dc1a601779a20750a64d9683453cf980734a65fd14c0b4e</id>
+    <title>Corrigendum PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODR8MTc5Mzc0ODU3Ng%3D%3D.b27bd29b3af34c14f8ae86d46fc22c14b210852eac782089770695fb6f888ad8"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · corrigendum</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:d80a704f1a3176434108ec9fce4631b68dbaa7bcad83331a9a5f26935f830847</id>
+    <title>Result Result PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MjB8MTc5Mzc0ODU3Ng%3D%3D.128a3c94170f058c216003e989876278577a1ece89956762a20a7da60d2584b1"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:d74772bd1c53ff9506c6c764c24aed4eff7f3cc032f17d22b9e070782985d892</id>
+    <title>Notice PDF Notice PDF Notice PDF Notice (Document Verification) PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODF8MTc5Mzc0ODU3Ng%3D%3D.04124c0504f4a3bb9764345129263aaec0b3738008f18d80b9a8d2025ec8a22d"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · schedule</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:d711c0d82471708c116223c42423e89888984cade077cc5564e890ba38360987</id>
+    <title>Admit Card PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NTV8MTc5Mzc0ODU3Ng%3D%3D.75c139069904176f727a77e8bf7bf59d88a320319376d3d3d6471c5a340fb1ad"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · admit_card</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:d358792099b532a1225c841dd6e7a00be5c313b0dd8f6bc4c3a597fc4f909104</id>
+    <title>Notice (Document Verification) PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTczfDE3OTM3NDg1NzY%3D.9ba3c59a213c9c789dafa0841cef97a9d42f228bd71314942fbc3119cdd80d14"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · schedule</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:d2b491c9c6a71e19b4b22a4c72346e660ec4c2a1a92fbf7ec6b3057837937c46</id>
+    <title>Admit Card PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDZ8MTc5Mzc0ODU3Ng%3D%3D.2687cd8113ab92c907d32a7e4ae60ac4f274929e83da735cbb4ba863ec74d77a"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · admit_card</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:cfb1b574477861a9496e28c2a1be25b044e46599d3e587521d983152fe17ef65</id>
+    <title>Final List of Ineligible Candidates PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NzB8MTc5Mzc0ODU3Ng%3D%3D.2a23c9e58338e7ea36c1f6cc14747870d0205c825f51d308f8ef236196a6d4db"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:cc1aa134028e588b8d07fe89449a00c09c5aeb0ad9e09e2e74632ef45a8d171f</id>
+    <title>0001-0400 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OXwxNzkzNzQ4NTc2.cb335c975c80d1099d02f16d7e639f46a4a23c57aa6f1f37342972f83b287897"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:cacbeffb34856220a8dfe46ce3881df5225407eab177a589874047ece0e8261b</id>
+    <title>Admit Card PDF Admit Card (Practical Examination) PDF-1 PDF PDF-2 PDF PDF-3 PDF PDF-4 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDR8MTc5Mzc0ODU3Ng%3D%3D.36afa3e2f87d09096ba19dfcb0e250e59b69a009b0132ae725e86c2b1fd2768c"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · admit_card</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:cab21484607619c6bd2374a93b4dc03f4a5a2084dcfc91461c8f2302a33af7e1</id>
+    <title>Roll No. 0461-0920 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTMzfDE3OTM3NDg1NzY%3D.6869b2a0f5da5c8a82188a31db25d94044df6985552e810106b8801005b783f3"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:c7ee7dec8117833b36d606b557b6f6695b5339b9f66abbb99e2c5f407c971ccb</id>
+    <title>Other Notice PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTYzfDE3OTM3NDg1NzY%3D.09a5a831c4cd9730467db81174f30a23cc98fb69ca4927bb74f5fc7106709f91"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:c438c94bbd95aa2765aacb21de0129b484b35dfa959ef72271131f264581002e</id>
+    <title>Roll No. 1001-2000 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTYxfDE3OTM3NDg1NzY%3D.66c7bef2e046b733a8fde4b1ac2a1fb6f6233220dabd8ca005e2a141f2a7c500"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification · cg-hc-staff/2000</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:c263111305adca8f7a29af0e9a08d014d065bb300d02adb285a33eaa67b03818</id>
+    <title>Advertisement PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTE0fDE3OTM3NDg1NzY%3D.3618846f45a75585fc6a711de2ee160ef2594d7dc7ca7e1de42a0a8649038990"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:c0a1695dee57944af6324aca467921fb52eec9e6955092fdfc71b9035c058944</id>
+    <title>Eligible List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MzZ8MTc5Mzc0ODU3Ng%3D%3D.e0bd8358642c7514272c0e6f5852aaab53e2503925063b5f93659baf839b9407"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:be615fce868a9a94ca89a8751da620833e199c766fa3d413a775d4437687ddbd</id>
+    <title>Roll No. 01-1000 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTYyfDE3OTM3NDg1NzY%3D.74c105c9d94ca5a1c3682dd7d8d3eb28001b790457528b2cdea6907df39813c0"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:bd90ee2ceeef3907bf830ad07410b2f69dc83be7bedfa11acba98187de18e2f8</id>
+    <title>Roll No. 424-846 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTM1fDE3OTM3NDg1NzY%3D.931da9b1bcb8df1311074178fd59c0b2ca3bfc7fb7701a78674ccb509bf84d12"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:bb0a6e0b8f8ca7a7c0f6ac0e055ff9fd76a82c3aa3109b312541c491240abdb9</id>
+    <title>Roll No. 3801-4160 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTU1fDE3OTM3NDg1NzY%3D.50a885d864a63a8f12dd518107240eaa2f160dc84db563610c218cfe2cb4556a"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:ba858b76c407840139add59e4e0cf538276f8e049a3b458e70eab2de89606e1f</id>
+    <title>Roll No. 2001-2360 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTYwfDE3OTM3NDg1NzY%3D.d20e7f6856c6effd2ed778bf8ed84d7542204ff0e8bd1c594d34f1e979eb3d26"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification · cg-hc-staff/2001</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:b900951b0b40af2cad5900e64559b7c834757e595ebf0435a210167297bc8c85</id>
+    <title>After Last Date (Rejected) PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OTB8MTc5Mzc0ODU3Ng%3D%3D.45248ce78b932ec2747c6b65c9e5b41a6ed648a11be1a40d7aa1873c897b7331"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:b8038956f554cea0ccb9cbd39d0cea756eea40d6fbf4419cc6afa7231ad9314c</id>
+    <title>Qualified List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDh8MTc5Mzc0ODU3Ng%3D%3D.53e09cee4a9bc58014f1f6188c66ea488a829eea35554d02d0c7077a8ef8b591"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:b6d4afc67bb1be6f3de1992634fa9019edcc2dfa88bfa7d8b96f1ec0c19be902</id>
+    <title>Waiting List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTk1fDE3OTM3NDg1NzY%3D.6a32bbad3436d3a2e3c72a4e3de16683ad01831d6ba09d1936e65208606b9fc4"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:b58a374132d84f712a9e7d72b41453572210aee863a2c06c6f9f7201db27c82f</id>
+    <title>Tabulation Sheet PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTA0fDE3OTM3NDg1NzY%3D.6818abf3955347f2d5b7f4bebaa6b3ffe211b98ab7b07ced8ea7b06d07b5d9b5"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:b511e21892f20a7dd59b775db45e493baf95d8d9750dd0b5b86242793d19176a</id>
+    <title>Result Result PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NjN8MTc5Mzc0ODU3Ng%3D%3D.4db251393ca64d8c8591c929ae690d3ab42161e64e57552e905c8680c58d9c7c"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:b4dca9f6691118e83690e24f409768def5a7da2e9b562dda2b2b1d03bf982e82</id>
+    <title>Notice regarding qualified candidates PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTY3fDE3OTM3NDg1NzY%3D.018ec95c8b6a03049cbfd4c7d0fbb54346da1dd4268c842826dfb39ec8d38937"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:b28639e0fdc980233371cf7b27f12666e99bc1a2878ea65327ca96274d37563f</id>
+    <title>Appointment Order PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTAxfDE3OTM3NDg1NzY%3D.89bda34220de9cbca378842219235f4477987e68087fedadf7c7b580b30817ff"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:b1503e4d0845b4bee7836c8269014a3e6ad63a60e30c086c9d14e251c22cdaef</id>
+    <title>Download PDF [view_file_recruitment]</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTR8MTc5Mzc0ODU3Ng%3D%3D.cbd92c6561c6b771ed4f819cd3f6b851e502e083e8b51bb7993639adfc07b000"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:b0a22a148c19b523f7836caf8083be178fc8a273cd7599d6b91ea0ae273d7cbe</id>
+    <title>28/10/2026 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTg5fDE3OTM3NDg1NzY%3D.7e2e0779bb4320d026725e6932f85ad85997fad068837521d41c58c5e464fd66"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification · cg-hc-staff/2026</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:aedae01a088dbd1823f967c4f4b400b6001a5fb0f68c3be8fa6c32f83b65c852</id>
+    <title>Other Notice PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTExfDE3OTM3NDg1NzY%3D.3fb505db512758f481dfd55cf2b549b851a520c5f3b4fd6b6130073ba772e09d"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:ae6fc209df54d1a68df1b3b89305134062f0b56a3b0c0e075f11facec198c3f8</id>
+    <title>Notice PDF Notice PDF Notice (Document Verification) PDF Notice PDF Notice PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTA1fDE3OTM3NDg1NzY%3D.69820575a1c299c85a572e3bccaef2ec103bc801b9441fa8a222ce5bcd7732bc"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · schedule</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:ae6c7245ab9705f73ce8d13070cbbd2116f9cb7a5c847193d9b85c0e6f50e34d</id>
+    <title>Advertisement PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NjZ8MTc5Mzc0ODU3Ng%3D%3D.a96c50f9b38f43f4c801884715097cb72b145dff4e33db84be78ebecf421f70d"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:ac30eae5eb8cb503fe0eb6d44c3a289e051632d665d63098ecf0a828b831ae9b</id>
+    <title>Notice PDF Advertisement PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTc0fDE3OTM3NDg1NzY%3D.d612b753464e09024aba6ba8cb414761349990c2feb2f3a066ed0d31b556595b"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:ac2ef1beea0dbe807954cf0993fe142b050057a249efe0a9b96d393042ef8468</id>
+    <title>Final List of Ineligible PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTQyfDE3OTM3NDg1NzY%3D.21dca93eab0c8e85607448b7f0af0f71630648bdc0dda78ba17e62f5cd4da9e2"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:ac2b2cc83f4eb7dfadbbe1a153f4a7c2ab36e7596597a173a87d754551fddb13</id>
+    <title>Admit Card PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MjV8MTc5Mzc0ODU3Ng%3D%3D.ca29e9a8032b5cc4e287cf2eb2c7530a1ce70d0af10a85b45181535ac7fcef2d"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · admit_card</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:a970133b89786f3226f3ec3315ebe33a9ce83b92e76a40f1ee89981f4dddd81f</id>
+    <title>Eligible List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NTB8MTc5Mzc0ODU3Ng%3D%3D.549de2b404523091c8032489ab73545062e6c3a200f572aeb7595c5216031043"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:a7729bd821a0fe52985542047f10a8337f58477c3d03b3cc0c3b4b072a1fd419</id>
+    <title>Roll No. 4881-5180 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTUyfDE3OTM3NDg1NzY%3D.6cb054159290898d50c79f8896b46361a2f48510f4128c12686fec7715b46e61"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:a4589c79178db2aa375c8deaa0ec0d0e048a33894dba93ec0eb053f588afc8f7</id>
+    <title>Provisional list of Eligible &amp; Ineligible candidates PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MjR8MTc5Mzc0ODU3Ng%3D%3D.0af9b22709515dc4b477b721acf857469e7d00f07b7d07ea917a6e04b98ab283"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:a4436e8b449a667b3eaa718a587ea9abdabf5d2b38841b917fdb328a41f342b4</id>
+    <title>Advertisement PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=M3wxNzkzNzQ4NTc2.57ca3ccc3e72fef479f7a0e9f98c8e49b23f57d2dc85a33879c1d313179d7f5b"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:a3d4e1be64ad94aeea6dc5d86946e3bd9186f009765f3525ac1edb15a35bf1e5</id>
+    <title>Result Result PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NTF8MTc5Mzc0ODU3Ng%3D%3D.a2963bae5189c0d38d8b19d483eb8b48f0006d0c1f3f97bda8f1ee4b6ab7346a"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:a25f47cdfab20f89a2de3aafe4345661c4f3acf554af05e8fe8cefa31e7991fe</id>
+    <title>Admit Card PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTl8MTc5Mzc0ODU3Ng%3D%3D.39ed41bbc0061fd6b4a29b60ee00853401c3f498d840056a62c14a913005d232"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · admit_card</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:a2575e40bcd9e4ded56dd95aacce5aa026cfd091af3c7c38d9710177d527b35d</id>
+    <title>Notice regarding Phase-II Written Test PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTc4fDE3OTM3NDg1NzY%3D.8bc0b02d2fd1f3b918557fb65bba28309dd0138a6daef7e81d07b1cacd678978"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:9fff525694cfaccfd586488c162ceaa546b7291f77535fb26630925eb8892699</id>
+    <title>Appointment Order PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTk0fDE3OTM3NDg1NzY%3D.350f3a162ab0041b31bd2c2de8af1d7abede5fc65a151ab447bba181031123b1"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:9fd3e8b06ecb3effd8976ce9bea2c66aa38bb7d19c237cda84568f6998c64811</id>
+    <title>Roll No. 1841-2290 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTMwfDE3OTM3NDg1NzY%3D.900b0077cff4c3793734f571e31f1f7de7c25cd30f0f7ab56214085008708eb7"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:9e6b891ba2a8ff1f603f0cbd793f4f7843c5a96bd8ab345dfc9c1b93fdc8c36f</id>
+    <title>Admit Card PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NzN8MTc5Mzc0ODU3Ng%3D%3D.1b1c7b9399b9a7e96456dc7834f2ddb30136384ccd32040141fe94dcbd81e3ba"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · admit_card</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:9dced9b6d0308559add41aad1954489093d4f0926fbbfcbb44f30995d4b59e40</id>
+    <title>Advertisement PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MXwxNzkzNzQ4NTc2.e7174e5aa6dfd6e289f8def31dc80b22123f2bec3bdd310f98bb334f4203b6a0"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:9c3d21091ca4880f7e8e6242d6c42e84c518ad516b11632462417fd2b52ecd38</id>
+    <title>ADMIT CARD FOR PHASE-II WRITTEN TEST PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTgxfDE3OTM3NDg1NzY%3D.ce293b47e2925ac48f6fce9841ebbcbfe5192b1e51ccd44221b7869d724c123e"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · admit_card</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:993fda85ac72758870a57a366c1dd9c33a338fc7912eddc82836577f419b1510</id>
+    <title>Junior Judicial Assistant Disqualified Candidates PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTgwfDE3OTM3NDg1NzY%3D.b70522f5f06425739fccb52c4b80a1bad3a0a5dad51de2b8eb5183edac854724"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:96f8fbee51613280d35bc2503a2afdfd7aee8fd35bcb2c3a6513f7af0af0175e</id>
+    <title>Tabulation Sheet PDF Qualified List PDF Notice PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDd8MTc5Mzc0ODU3Ng%3D%3D.1dcab53c35acd0a72e1848c4133950c53e6ed85a3f695acf0090ba7b1f5f00ea"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:96703f723d208522a048219c442056627cd309d326da5ba7fa3852cd87d6f8d8</id>
+    <title>Download PDF Notice PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MzR8MTc5Mzc0ODU3Ng%3D%3D.29bb59f477252eeec13deeaf4074d5b4b326494412194cc95fa0897945b959fe"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:95f62533eef0a91cd625d8907e8cae7639ec697e577866eab51b2e4e32a4fc89</id>
+    <title>Notice PDF Notice PDF Eligible List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Mzd8MTc5Mzc0ODU3Ng%3D%3D.7f3ec27db88e58e6c2d42d818776b113c24377389b3b6604be258b65b1c0533f"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:950063113b30c04972430d8b8a5dd67c9bda955f4ecfb5a68ec58abc414a9959</id>
+    <title>Notice for Document Verification PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTc2fDE3OTM3NDg1NzY%3D.5b28c8084a7dc9d75d332db481ac79445c34153b5affb98978f253f03889dbdd"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · schedule</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:943b977c7c54dcec9aa2f79c93a52550c3f23a390bc8c99633e9586a0cb2829a</id>
+    <title>Select List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTk2fDE3OTM3NDg1NzY%3D.f857ab15a6ef310f80aa37e6720f812c5780b1e32d82e02a1c76738d8526689a"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:93512079cbde31f3945d72e1ebea557b9d2c2850ce478da110570e8af884baa8</id>
+    <title>Advertisement PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTE3fDE3OTM3NDg1NzY%3D.cd12a687ad3d39f6927ca27c008fd55b190d0b2a24cc35ea97b8c700c7aa8d35"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:920fb3126836ac7a5bbb09f18280e0fa15909e4fac8e1eac8bb820f846167e1f</id>
+    <title>Roll No. 0921-1380 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTMyfDE3OTM3NDg1NzY%3D.9387ffbfb1ae698ed78686275661b765e4caaf049a988c20af2fdb419a81090e"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:91d3a2f14fbee17bef33ee210d8badce672a833ae549e88168be1e52cade6f3b</id>
+    <title>Notice (Provisional List for affidavit) PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OTN8MTc5Mzc0ODU3Ng%3D%3D.ea73231120b1b6d14f745fa4dd41ee9e31bf710a1feaf88978feac3c2f5581a3"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:908d9d6a3e3878bb84ac45a8184c44c9fcdf596a04ea053188be453d9cf50a69</id>
+    <title>30/10/2026 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTg2fDE3OTM3NDg1NzY%3D.f2192f8abed1322011a11047ec40502c3dd5b70faab7472952bee39d642e22d8"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification · cg-hc-staff/2026</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:9039d73388afb0103f4644f38d6d791a7ffa09e9cf403e899276278caa9ef567</id>
+    <title>Admit Card PDF Admit Card (Practical Examination) PDF-1 PDF PDF-2 PDF PDF-3 PDF PDF-4 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDN8MTc5Mzc0ODU3Ng%3D%3D.26148a12d4f100bbc73d9266be79eabab5f78657275fac9e2c218b162e202715"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · admit_card</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:8f99d877c8bd86884b590d2fce1b9daa8f29825b2877f9873a0205e82daf5c94</id>
+    <title>2. Merit List for Recruitment to the Post of Library Assistant (Junior Judicial Assistant)</title>
+    <link href="https://highcourt.cg.gov.in/noti/view_file_noti.php?token=MzgxNjB8MTc5Mzc0ODM4Ng%3D%3D.ce6ab8ff111a30a6e937a56dba529b743615acc8b4a1eb4cc0fe8077a81ef4ab"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:8e5daadeedf05c3002374f347739988e0597798537c080dab121dba89221c236</id>
+    <title>Merit List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Mjh8MTc5Mzc0ODU3Ng%3D%3D.c78ad769b4e54d3bd9d2eb87e69cf7a44964fdc64693edfcbcf32baf1318c3df"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:8dd3d4d4a3e9cab9c639f6e935e5ac948a275ba4c0cb4d3dfcd7257b71f697e4</id>
+    <title>0401-0850 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OHwxNzkzNzQ4NTc2.08cfe63b85c4ec02db806de4faefbf3bd1fe67f8570238722432813977b22c0f"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:8bb87d114f0f605107c1e106e57fcb9100f83e59ec5a583c333a31424790465f</id>
+    <title>Notice (Document Verification) PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTA3fDE3OTM3NDg1NzY%3D.618fe9b9a8566bdaf58ad90433ea606c3fabffa4cbb2380ca6a0a8bc0ec125c0"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · schedule</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:8aa77b594bcba0c97d49abcd20d3a643a120e8caf78e2e4d0f47b6cbc602af4e</id>
+    <title>Final List of Eligible Candidates PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Njh8MTc5Mzc0ODU3Ng%3D%3D.20fdd140abe51a750510f535469714dc3e355c252fd82970e51a4ab69d6e51ca"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:89cd08ee8e0b029a3a9b479230883e5e6c69c3e60c28bad7c9f208179368fa03</id>
+    <title>Marks Obtained By The Candidates In Written Examination PDF Result PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTB8MTc5Mzc0ODU3Ng%3D%3D.08af507d1acfaa25291d072b8ac31c07766fb3d29ab77af9d3b74fb00f973540"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:89af9eb319f123f1e4bcbbbd6fd0ce5e3a8e19ee4327d140f8942ba46af97fb0</id>
+    <title>Roll No. 3441-3800 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTU2fDE3OTM3NDg1NzY%3D.c8a4757639de20cf3766acd4873d804a3a58719635c1e999f84bc911a043360c"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:878b3ac496e547b0425250b907b9408c6795e456c84cf1cd8ae7f66cebbaf14f</id>
+    <title>Roll No. 3081-3440 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTU3fDE3OTM3NDg1NzY%3D.94ace331702680bd54a14bf164267515c637eef49be94a91eb6f1e4f933daaf2"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:87272be92697b8cd5ba8513dd97ebc7dc9e23a83fae551e5a05271985bad2835</id>
+    <title>Merit List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTAzfDE3OTM3NDg1NzY%3D.084372fed89b318cca5eec0db2fa3c9428000be48417c2777ceb23c5aff6851f"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:863620f522975369bee0a00363b03cf8418115e14a4602581f874ad82c8a19fb</id>
+    <title>LIST OF ELIGIBLE CANDIDATES PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTZ8MTc5Mzc0ODU3Ng%3D%3D.82a81559b6013f0caf32a261112e5be0defec7e3f273599eee702858d6f355ff"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:851c41dd73841bd8ec191aec716c99e1aa6f4697f04411f28ebfed0e318d10f1</id>
+    <title>31/10/2026 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTg1fDE3OTM3NDg1NzY%3D.d454b685824dbe360c77cbfd908c44332c9fba2011f80a32818574919299b9ef"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification · cg-hc-staff/2026</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:8202261077e718d0acaa08f86778dc81e2c9d952727a26dd8e225da8001c60c6</id>
+    <title>Advertisement PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NTh8MTc5Mzc0ODU3Ng%3D%3D.f8675713237d5b731df93c3d25b658e756fd05c98184af8ca130b96e0c830057"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:7f4c19eb3c2b48708c34013cd7c1edb9f524313609c97525d596b51a59ad7ed9</id>
+    <title>Select &amp; Waiting List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODd8MTc5Mzc0ODU3Ng%3D%3D.c1140a4ef8b9b24eb5d542d0346c8e6407a4093d726b80cf5d45c58cc6201f40"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:7f051ba2d8adc790973dfefacc9a9df218d05966a35faec070ec53e9cd67ca5f</id>
+    <title>Notice (Document Verification) PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Nzl8MTc5Mzc0ODU3Ng%3D%3D.2c61298b920ca85f3f892383c9f5c58c41f09157c481bfcb01519c1c895f4875"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · schedule</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:7e69f374a13cf6cb300544e201b16e8c313ad290393fea5ed5dbeddcfc750cdf</id>
+    <title>Roll No. 4161-4520 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTU0fDE3OTM3NDg1NzY%3D.df0d51e1def6005f36bdc709908fc8c1851d6383ee9715d4c492c811c0ffde86"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:7cf5f20486f4d7208c71761ddd1ac492210dc02dc899d485929cb1072355cbf8</id>
+    <title>Provisional List of Ineligible Candidates PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NzJ8MTc5Mzc0ODU3Ng%3D%3D.711fbdd2a16cdbe8a7bb8c4f57c29409becc87cdd1d7e7164edf582e840eedb9"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:7b9edd853a5982386bcc3e37232748db1e99caa31f5a973dfe4459d5ce9bc637</id>
+    <title>Merit List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODh8MTc5Mzc0ODU3Ng%3D%3D.3edef135b5ede296581b312d72fe16735fe9cbea716462cd02387cf3cc21f739"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:7b86bcb9785b0ccfbb702e9e2018c9860234956774af9822796545d6343430c9</id>
+    <title>Advertisement PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTY0fDE3OTM3NDg1NzY%3D.9f01c1bda07af84e3229939ca3516db3c543507ce70da8c55828bddd00df7cd9"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:7afb742a9752822b8c74612335405c5d5a8006ee2b0c9e3f340178bc69024c05</id>
+    <title>Notice PDF Advertisement PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTc1fDE3OTM3NDg1NzY%3D.1a929de3e21bfd8fdbe2e565ed040f77010083bf3b63ac862b053733855eb7a8"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:79c0e978686413d6a94ef71708457b46b5dbcb249453e2cd0c3eda57618ccefe</id>
+    <title>Notice PDF Notice PDF Notice PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTQwfDE3OTM3NDg1NzY%3D.914af868537a859306d5a6b2c313445c146340f641a2c71226124e4c363dec41"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:792b578b2c029546df47975247be19ff5d49da59d352bd9976909507f50373c6</id>
+    <title>1. Tabulation Chart for Recruitment to the Post of Library Assistant (Junior Judicial Assistant)</title>
+    <link href="https://highcourt.cg.gov.in/noti/view_file_noti.php?token=MzgxNjF8MTc5Mzc0ODM4Ng%3D%3D.99a7825d31204338d2bf1c09337e8284e5e7f48165f8d2c75475e1656561b902"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:777a76117fecd26397d0802fe37a2bb3500cdc10870c1a2b016f4e6d40e6ef37</id>
+    <title>Admit Card PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NjJ8MTc5Mzc0ODU3Ng%3D%3D.e32bcd3b79bc142e3258d80e61bcf5fb63a0ed58ab0ed7c6a2c0652e391c1ebd"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · admit_card</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:75a3b848b7f64d8801594b1ab2a8623b1a6d20c9d892a935033e271aca9c2686</id>
+    <title>09.08.2026 Notice PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTEwfDE3OTM3NDg1NzY%3D.bfb33f40728c74493fd3f798335d7d35923c845e6641e4e896b67203ae701362"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification · cg-hc-staff/2026</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:745c957e97875ee1de8deae1c38b7a65efd9cba85b4a415196d3503bc1b3d4b1</id>
+    <title>8. In a recruitment process shortlisting of candidates can be resorted to even if there is no rule to this effect or there is no mention in the advertisement</title>
+    <link href="https://highcourt.cg.gov.in/Afr/view_file_afr.php?token=MzgxMjZ8MTc5Mzc0ODM4Ng%3D%3D.27000d602ccca813aecf901c94c971432cc556e092f9a9cbab33f3013837f374"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:74503642f6a10527b754c096b68b2cbfddc8a2f22545ce99196972d5bafd857e</id>
+    <title>Select &amp; Waiting List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTAyfDE3OTM3NDg1NzY%3D.b79ecdccb5f036e0fda023baa3e0511084e59532cc874371b06c01eaea58e964"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:743acf20471762605d38e9df60bf51b01099d7874a8151f4854cd0e239b843cd</id>
+    <title>Roll No 91-178 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OTl8MTc5Mzc0ODU3Ng%3D%3D.7380f796201e868eff4ec9779ea41f0148705323269817da7f89d4b2e99ab3a9"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:73a89591d875c6a918a357dd35458e066e2e3d70a6f08f2d1c2f88225c3ae9a6</id>
+    <title>Select List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NzZ8MTc5Mzc0ODU3Ng%3D%3D.e36cb08d2a6cf747da5b450d34961af27dca45fffa0f51701c9b51868305f3b9"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:736c8cf5c3483ceb6e6df574eec673a12891c96cc11830567610a84788c66284</id>
+    <title>Roll No 01-90 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTAwfDE3OTM3NDg1NzY%3D.b4e7b6faf21af7d1560429810140536568a44c497a78ec09c56d10b863326d85"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:735aa395f0addbfe39ee343d3e52eabac96bb5a67409a522b30763c5562d78b8</id>
+    <title>Notice PDF Notice PDF Eligible List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Mzh8MTc5Mzc0ODU3Ng%3D%3D.b5a360eff4f5eb36df4ec665c10a3d2d08e147e9bd95da1f649cf0345031a72b"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:730e0e7538fd1515a3c18213cd9ac3351d012232346135de85113fe19d70d521</id>
+    <title>LIST OF INELIGIBLE CANDIDATES PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTh8MTc5Mzc0ODU3Ng%3D%3D.62d9a5c10a8c01a02065912688db5163700a7f73d28414a2cc6cc13535d15af7"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:71d70278376d0d579d073b454ba0f66acbe4dc70fef9f656d9a6cce955b80797</id>
+    <title>Download PDF [view_file_recruitment]</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MjJ8MTc5Mzc0ODU3Ng%3D%3D.c91e049b6804a0a2614747db5c57d2c0f99b0e7c861322e1ab20ee2586d763d9"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:6ed8336ecf0afd99cd03d827b4d76ad101e9e3c36394bebb39425cbaa25c5eba</id>
+    <title>Admit Card PDF Admit Card (Practical Examination) PDF-1 PDF PDF-2 PDF PDF-3 PDF PDF-4 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDF8MTc5Mzc0ODU3Ng%3D%3D.6c6218871cbc3febedac55fb690f30fde4cc724a65ea41d3cd19a85a038a4b7b"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · admit_card</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:6ba584fe676ac58d09c1ee87b95b3854450be8a7e33096c888a6f9cfddb3e6da</id>
+    <title>Notice (Final Eligible and Ineligible List) PDF Notice (Provisional List for affidavit) PDF Notice PDF Eligible &amp; Ineligible Provisional List PDF After Last Date (Rejected) PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OTJ8MTc5Mzc0ODU3Ng%3D%3D.7898255d7c4df1afe255bc743ea6768e8d0783c9d3dbc5b44182af78a3e9622f"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:6ae7dd87ddff0e29193018279fcf791ae83016a5aab2770d712a98cb9d5efa18</id>
+    <title>Notice PDF Notice PDF Notice (Document Verification) PDF Notice PDF Notice PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTA5fDE3OTM3NDg1NzY%3D.851e0f4a6fc49348cb69d08ddc94a30f636dd475712f10e99d9478d569aab565"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · schedule</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:6ab5c119fbc41677e1c60a80abe37ec9249483d54f7fd0823024da8e0071662d</id>
+    <title>3. Select List for Recruitment to the Post of Library Assistant (Junior Judicial Assistant)</title>
+    <link href="https://highcourt.cg.gov.in/noti/view_file_noti.php?token=MzgxNTl8MTc5Mzc0ODM4Ng%3D%3D.f90b7e596b98a7bb721130f333705dc4fc07e687240f8c60de4a8faf1f43e2e1"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:69a09f7c7438058147e66e8ac6d0780c788df0dbfddffbef8507d666359c49c8</id>
+    <title>Notice PDF Notice PDF Notice (Document Verification) PDF Notice PDF Notice PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTA2fDE3OTM3NDg1NzY%3D.bf144fde8e296126ad45a32924e1b98af3fe9e50a3229059be3d79abb1817235"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · schedule</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:67ce0c0e3e819faf71198a8b514b0288e1be16b9d4092da4151429432afffff7</id>
+    <title>Roll No. 0001-0460 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTM0fDE3OTM3NDg1NzY%3D.836c947227c35adbc5f6aab71cc286e40ce00916ce6c85ff281c168d24c1f0e9"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:6794ab15f12b397e6a69b608ebf22882eb5d9a5704d0ff61b4de1300f39c2460</id>
+    <title>Final list of Eligible &amp; Ineligible candidates PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MjN8MTc5Mzc0ODU3Ng%3D%3D.f415e351909e269cb94dcef05f8f7f44050013203119b3a73adf7055d3dfa249"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:649f15993053a5e0e939dacbc76c306c6d46fe8608dfa5e44d82e42ee79b365e</id>
+    <title>Roll No. 4521-4880 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTUzfDE3OTM3NDg1NzY%3D.b202e7a89a7e02f023120b6f8d64a2fee29cbfc0b5c2c57c2e4a2a262053f255"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:61ff044691bb3e75e42ed72c7ad27f53e04e169b375b08a7e03c49c69d748d04</id>
+    <title>After Last Date Reject List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NzF8MTc5Mzc0ODU3Ng%3D%3D.354808f25831e7c018283fd522df6b849c16d1d2585396f49fcc571a147d2205"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:61d972ab6a160bb7755ac778fa4d95875758bddc4114dbcf1febd8c5c9e9a596</id>
+    <title>Roll no. wise Eligible List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Njd8MTc5Mzc0ODU3Ng%3D%3D.b02ba42d64a1f37896615d7c79d2292b3425fd601df845ad30460057ae61d1f2"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:60ff3f0089e5d8456594722fcc2ebe43ca62246971afba53bae148f4fda0704b</id>
+    <title>08.08.2026 Notice PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OTZ8MTc5Mzc0ODU3Ng%3D%3D.94fc37f88d668164a36a3a3639d4087740e0b413096a15bb5e3fff6829d9cfef"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification · cg-hc-staff/2026</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:5fedc322746e7d0bb74fee03cb7ec3729c1536bc2206b43e0686fc373ae55b2f</id>
+    <title>Notice regarding qualified candidates PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTcyfDE3OTM3NDg1NzY%3D.0b69c396f8438e14b226bf7d407102b6bc8418314b7823c057dc2d1e7dd24ffe"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:5fd5fc0a8cc987420b1cab4d3645f41439197f15e59be7c5399d91f567719042</id>
+    <title>Notice regarding Phase-II Skill Test PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTc3fDE3OTM3NDg1NzY%3D.2328985783572d41fa1cc5034639a4f5333872c9549555bb24b3d09fa6398406"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · schedule</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:5e0b3360468b42d13e83119d6abf49e600b1eede72cda21902c681ad899698fb</id>
+    <title>6. Constitutional validity of reservation — Effect of judicial declaration of invalidity — Executive authorities cannot act upon a reservation framework already held unconstitutional, unless protected by a subsequent order of the Supreme Court — Recruitment/ appointment/promotion may proceed subject</title>
+    <link href="https://highcourt.cg.gov.in/Afr/view_file_afr.php?token=MzgxMjh8MTc5Mzc0ODM4Ng%3D%3D.c150c3e54769c70a13d8c387f992f3d6741e3ea413da1dad67a5cf370352264a"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:5a4ee6ed5ac731c8cce9b8e65cfb5638f81cd9f109bedb0228ce4a924dde9d45</id>
+    <title>Appointment for the post of Junior Judicial Assistant PDF Notice for Document Verification PDF Notice (Document Verification) PDF Notice PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OTd8MTc5Mzc0ODU3Ng%3D%3D.9efbb61d5e00fe6ca8147ebd00bc47e9e13acb7be2db710034bca66cf8166844"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · schedule</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:59e7e8c5cf327b99bbc919d602fe4a702799ab01f3cde2bc0d0c91dc27243aab</id>
+    <title>1251-1696 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NnwxNzkzNzQ4NTc2.53dbdfc59719b56888d65a1a773874a83c5bfd931bb03bb644658fd3e08c6a10"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:583a99e7699e6d8af6bed08c2537075566a76deea94394564d0839d3c99d70ab</id>
+    <title>Select &amp; Waiting List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Mjl8MTc5Mzc0ODU3Ng%3D%3D.b3a0f4d758d27d7bb51f5ded81b897c7fc6944ae25fa28934f94aca6bb4abff4"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:572c69f3bbe3aa804c9212ffce27bd147dfc7ce85ab03f6e7154c6f7aef67700</id>
+    <title>Roll No. 2361-2720 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTU5fDE3OTM3NDg1NzY%3D.adc73d231ce82fe92ad9692602db6cc1cca967b09d2263636021dc01c884cb4a"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:56f0b1edb12666d8f0c2366130d59efa09f0b0f44682c53fcf42aad5df01b51e</id>
+    <title>Provisional List of Eligible Candidates PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Njl8MTc5Mzc0ODU3Ng%3D%3D.6781485a80f2fcb0efcdf5e29f66e6e463e4c8b7f355c8bd690e8f240d2d3d3f"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:50473a1278884541af127ba43db046aa700034d7b28472298c6aed887b6501c6</id>
+    <title>Waiting List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTY4fDE3OTM3NDg1NzY%3D.fb3ad9ad018ff7ae895ce2b5841a78b0a3ec538722ed536f726cd0254b91f038"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:4e73dc80a16e2c60bea90d5d51a3f37f053221d4aa997e05009bec6d0b060917</id>
+    <title>0851-1250 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=N3wxNzkzNzQ4NTc2.49300e612a0bb23d5c9b8cf6c9af93035b2f462c2393755d8b330daf8745ff63"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:4e052f1e97a5dc74270389a2437e51ad18572d1062f0442ba7b2326c9fcbf280</id>
+    <title>3. Albeit, mere participation in the selection process does not confer any indefeasible right to appointment upon a candidate, the decision to abandon an ongoing recruitment process must be supported by valid, justifiable and bona fide reasons and cannot be exercised arbitrarily.</title>
+    <link href="https://highcourt.cg.gov.in/Afr/view_file_afr.php?token=MzgxNTJ8MTc5Mzc0ODM4Ng%3D%3D.126d770bdd8301ac0c6149476ca5fdb6d7e087b4eb75fbab9c6e84e71d8b39ec"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:4df002fe8857035fb799fc94f37113cf49c70a91cb5216d6a8a89068ee7089b4</id>
+    <title>29/10/2026 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTg3fDE3OTM3NDg1NzY%3D.092bcb4ba219e330562069c9e24f125e1aa3312886e32080d67baea3e825ae3f"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification · cg-hc-staff/2026</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:4a81badfe3bb408cd41e24b93ae773f6942cc2a6aafaa2f3b9d71ce336039f2c</id>
+    <title>Advertisement PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTIwfDE3OTM3NDg1NzY%3D.ad0b3a59f17ab33e36a3fba170e7c2a32e61ed202265046970c59ea24feb7207"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:4a4062f518c8a75c577d72a3f16a4c78091ae890a47e1ab75d51dd3d92e65c83</id>
+    <title>Appointment order PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MzJ8MTc5Mzc0ODU3Ng%3D%3D.b99fcb0666dcb19822ea1f424796c4c58e325f8e6109d74706614fa9e926cd82"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:49d743d4c1da727b6707ba5a76b847b757834241e307b9bfab53e27f85d37e8b</id>
+    <title>Notice PDF Admit Card PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODZ8MTc5Mzc0ODU3Ng%3D%3D.9a2542bf3796840bfdaf2453afeeec823e86e2aafeb68085180dcce7309d1572"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · admit_card</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:45c30cc9bf9375c2a2463c475821f8d1de7ae0137686c00e7f0efc9675b3816f</id>
+    <title>Admit Card PDF Admit Card (Practical Examination) PDF-1 PDF PDF-2 PDF PDF-3 PDF PDF-4 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDJ8MTc5Mzc0ODU3Ng%3D%3D.850d93eeedec14ebd78e9d8eeceba420ab3780f0119ae5223ad7e3e1d678ed5e"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · admit_card</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:42077d8e0275142d4154c70d3ea14df214abae42e1a890508b7c7c442b5c16d3</id>
+    <title>Tabulation Chart PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTk4fDE3OTM3NDg1NzY%3D.cd66f8b5682e7925adf9eb472035ac8a8217c39c33945817a11060cf5472c6ff"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:40a051b949b39a21d60e29703bbae74e80be67bd35032cf99dad0fcacb766ed4</id>
+    <title>Tabulation Chart PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTcxfDE3OTM3NDg1NzY%3D.a3ee9059c57d2dc9f6a22530c8e148e4050901be423e72655ecc120d2a715716"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:3de8586a2641af234eefc45e10c313f5a3ea6afd55f78037024d266c57425865</id>
+    <title>Roll No. 1381-1840 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTMxfDE3OTM3NDg1NzY%3D.05788315ee30c43568349faea7a1f8a236130aad85fa61b59fb24bf4a2310b0d"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:3cb7c2b634c564d7b2ad83e82649552b6193e11ee5b46a6a6b42461fd114af8f</id>
+    <title>Tabulation Chart PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODl8MTc5Mzc0ODU3Ng%3D%3D.d1d0ba23508b99ab122f8590c950956791e31c24e18df43611def9f5c038d75e"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:395a0881f789b29883690159992187a8eb3721663d0f29833c51811a25cfe96b</id>
+    <title>Notice PDF Notice PDF Notice PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTQxfDE3OTM3NDg1NzY%3D.c7e8a9efb1566fde2466192320432c1681dc624ac2528f0318404d4e63a28625"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:33e133e47a8837f0495c84c60d6d4812fda273ff6c3053a11d598fe87b8f1530</id>
+    <title>Eligible List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NTl8MTc5Mzc0ODU3Ng%3D%3D.ed8b7b99e7b9dea6dcd01c751ad8f5a0e7305a3d795d0ca66d7cc9beace11682"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:2fc65c85bc4fda8855d8a24efc897a6299500ac5ae6b7422438d649eadd03f58</id>
+    <title>Select List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NTZ8MTc5Mzc0ODU3Ng%3D%3D.8cea7ff48d9221e37951377781cc480a58798ea060d89c4ab6a5f76efafd7b5e"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:2eb4d3569f2f1db4ea296f74c5a7f1a6656430f3bde99c52949969ac8eaae86a</id>
+    <title>Provisional List of Eligible Candidates PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTM3fDE3OTM3NDg1NzY%3D.4c89b1fe0da16b727f52804830d5098ea06e69cbcc7c7f1d508d5aae8a9bfef7"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:2e72b43cd54dd675e60264cc1c5bea017290cc4d2d00f829c2454e7458865205</id>
+    <title>Tabulation Chart PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Mjd8MTc5Mzc0ODU3Ng%3D%3D.89d25849d48392586824b86780f509b359ffa38f2d7e760558651fe70f5cfed1"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:2e3c5a0113e032e61439b1769f98a38859bff8f9d37dfa943bbc5a8251602b0d</id>
+    <title>Tabulation Sheet PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDl8MTc5Mzc0ODU3Ng%3D%3D.f538826af39b30ae4c349699034d805f5e52092886a415532c7ab90a85f448e6"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:2d658f0bd3b8895b0da7eb38b7b216bc60680ce6fc2b254dd25d90ce1c04bb9a</id>
+    <title>Eligible List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTI2fDE3OTM3NDg1NzY%3D.a9127a9e72782e8b94e72faad252edb40690cba20854f3383e1c0958ee3aed5e"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:2c0c2ea44586aa953a661a25071579000325856993404e6c59aa4b3b8442cc49</id>
+    <title>Merit List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Nzd8MTc5Mzc0ODU3Ng%3D%3D.de31d442b8a0abfa3481383a24e0cd800ad173461ffde8cacd5ba0afccea9006"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:2725c7ab003714679108f34e650a6036308438700ac3565b6fc9446bb8018385</id>
+    <title>Waiting List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NzV8MTc5Mzc0ODU3Ng%3D%3D.78a8494004bf34069ebbbbc1b8a09977b3c242df574d7a59b1f8a2f5cedca0be"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:26b7d1e3f72581d7c47c0cd9108f45167c15eea71a5ce20b95e6bc2aa43b27df</id>
+    <title>Appointment Order PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTY1fDE3OTM3NDg1NzY%3D.7418ac93e85168c39ef6a19ea63e0823184b58622096b2aa54a43e65e284cc7a"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:25a495892e93499dd61e4dd679b947724ddd42bfff49b310c99b6950993ccc09</id>
+    <title>Roll No. 5181-5253 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTUxfDE3OTM3NDg1NzY%3D.66cc4c5e1d05bfebdca4f38d95805767291336473e5c24ba97427fffe6569a33"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:2493cb87dfc0185b86072ee4920f44912984477f604fe59542ed2b56ebe01009</id>
+    <title>After Last Date PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NXwxNzkzNzQ4NTc2.a37dcca4b4a835e288a91e36c0b33c91c2a8f5be27ceaf9892285a6cc710c9cb"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:21a7fba4fc4183e6fc73fc9604cf26a8dd51f41607fb23448d07df50dd87247e</id>
+    <title>Provisional List of Ineligible Candidates PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTM5fDE3OTM3NDg1NzY%3D.73c23164934361c22f4c25555be8a28b5135c23002574c9e46e36e3d1d05f884"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:2127e2988756d6de476753572f9220feb295f86d74e192e143b87c325e030ff8</id>
+    <title>Marks Obtained By The Candidates In Written Examination PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTJ8MTc5Mzc0ODU3Ng%3D%3D.6d5c4d3c87e82da01e685de94c6f73e61c01219492e1004499a9770fbd48aeef"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:1b7ac68f68f98781ea00a96336a505bdd8168a492e3220eda377039fab9605b4</id>
+    <title>Download PDF [view_file_recruitment]</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MzV8MTc5Mzc0ODU3Ng%3D%3D.3e189ec34dc05b51278482705489be26c5fef9769e1ee8dc59723c989f3f86d6"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:1a4b0fd1ac2aa4aff7cccae688f9853aa303b27e5d0304d28918930350f8a9c4</id>
+    <title>Roll No. 2721-3080 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTU4fDE3OTM3NDg1NzY%3D.8bcacc9ea0222945b92cf230f2e65ca855814535538e39a11f150b294abad533"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:19cac2731af1d4f5549fa9805affec85ff32bc7f7465074e170a1e145c79711d</id>
+    <title>Notice PDF Admit Card PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MjZ8MTc5Mzc0ODU3Ng%3D%3D.9945056d0fff1cc63f97432b53ce605ff01233bc095d1050a3741f67792e50ee"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · admit_card</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:1797c23b85e102ac7d4b02895d25c6cc306f1ff036189e91b885f8bbc563b4c0</id>
+    <title>Ineligible List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NjF8MTc5Mzc0ODU3Ng%3D%3D.bac592f8baf38032029756fae5fb7dc6797ce67d63295f063fb0fad233cfc94f"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:1206e565f0133f16e1475ae233769f97f1699a4e408afa2890cbcef3db5108dd</id>
+    <title>Provisional List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTV8MTc5Mzc0ODU3Ng%3D%3D.c68e694a200e2e189ee7f165f83b43ca26510b6438747ddfb64f48ab6225ddb8"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:11286eda3c757b920adeebfb6ed254245430014c220c152c5c13ead884327e40</id>
+    <title>Eligible &amp; Ineligible Provisional List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OTF8MTc5Mzc0ODU3Ng%3D%3D.8f165f81a55b6c7ce20688603ceef1371b4439bab4966c6c512fa35d0a8ef45a"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:11225d37e72084de62b26471bcb002c695af1e93ad1dee068d5f95cd6d4da0e7</id>
+    <title>Tabulation Chart PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Nzh8MTc5Mzc0ODU3Ng%3D%3D.2f43c1fba3139dfc9ef2be98d133e4a01b134327fcac31951f62247382e6509d"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:10c9ef2460c3f624b1eb3bc060a2e9d209970ff21fad8d96dbc8b72cccce6c37</id>
+    <title>Notice PDF Ineligible List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDB8MTc5Mzc0ODU3Ng%3D%3D.d09132e08aa45610c4f991aa7efe6d34356f7b34e18b7a911aa3da49fa43e487"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · application_status</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:0ef5f7cf9653ff69b78770ce5d6e90a8cf6db8eb588998a144de9b42e86ea0f6</id>
+    <title>Revised List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTd8MTc5Mzc0ODU3Ng%3D%3D.6589b2de7e9cc3c0b54b1d18a681f9013a7ee3a3f2d3f92786979d497405edc8"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:0d594b40817d7112d6f9043c7178a1c99645676314b5689497d432954bd1771a</id>
+    <title>Roll No. 001-423 PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTM2fDE3OTM3NDg1NzY%3D.3d0cc0e7947f1e8976b6359bbd787544ce6dc0837ab89dc1a8b5d2eee2b47de7"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:0c94a1846c9c00c89ffda3392a33a45f1976fb6c8ee64ca0d19f6a2405363a3d</id>
+    <title>4. Waiting List for Recruitment to the Post of Library Assistant (Junior Judicial Assistant)</title>
+    <link href="https://highcourt.cg.gov.in/noti/view_file_noti.php?token=MzgxNTh8MTc5Mzc0ODM4Ng%3D%3D.1506d46d2b19f68aa60f248ac475d80222d4790bb6f9dd6b81c4045d47214885"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:0c348d36663e52f232c1359e958296244296010bfe6fd4c70af46d9d401a695d</id>
+    <title>Admit Card PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODV8MTc5Mzc0ODU3Ng%3D%3D.9c43d4abff20d0318f31b252de9ab1520c39011ee10f1af01db1e9a3a424318c"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · admit_card</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:0c0639f4b5490f83685b69afb0c6a63f15351b6704012529a6d4351550e35794</id>
+    <title>List of the eligible candidates PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NHwxNzkzNzQ4NTc2.614d24d2062614f93f876be53c47991b25a855afa96e796afa128df952c629f6"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:0b87544d8deda5188ed0407b6b513a420432fb554b38e8803a2bc2a61b2de58a</id>
+    <title>Select List PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTY5fDE3OTM3NDg1NzY%3D.b93177e3f71ef5aae4c48f27416069cc19a6fbe65d0b57af4a92d0e03819f05c"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · result</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:0b217bf3192fd1e41b2e678df67a01855f455460c562e69837767903366f4875</id>
+    <title>Notice PDF Notice PDF Notice (Document Verification) PDF Notice PDF Notice PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTA4fDE3OTM3NDg1NzY%3D.6f0fc66d7ec08726d5c1ec0a7e8eadbbfdcd17e255b217ff7c06d3d6fc47b417"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · schedule</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:0852a6d4f990efb60d534828cf298be4fd9af1c4079f7b2544a3c7d930bfef82</id>
+    <title>Notice PDF Notice PDF Notice PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTQ0fDE3OTM3NDg1NzY%3D.815f0e734a0495e85e940769120d0891e309113f43698fd74a6822e12675dae1"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
+  </entry>
+  <entry>
+    <id>urn:sha256:06c53388b64c95f0d8aa588dd5b69ff0e4cd796482d5e80094d75d3edfcb4917</id>
+    <title>Advertisement PDF</title>
+    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTI4fDE3OTM3NDg1NzY%3D.250c3c0a2aaad6210bbfb496e91a24d5c6776602be464b4c39caa55c6dd800b1"/>
+    <updated>2026-11-04T04:07:03+05:30</updated>
+    <category term="cg-hc-staff"/>
+    <summary>cg-hc-staff · notification</summary>
   </entry>
   <entry>
     <id>urn:sha256:fde747b4de8e52716b2e81c05f6d3ee53a9719c45dc2b3883839efb9d676fbfe</id>
@@ -52,100 +1340,12 @@
     <summary>ml-mpsc-other · schedule · ml-mpsc-other/2026-mar</summary>
   </entry>
   <entry>
-    <id>urn:sha256:fd0ed96175fa5c735fe5cad3f8b83a33cc46826414e4f084422a116ca2836c77</id>
-    <title>Eligible List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MzZ8MTc5MzczMDQwOQ%3D%3D.3fb4627fefde1b5766811d0befbe4e8bc224df3c119a55098fd0182532a3325e"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:fbee3677cdd852de9222f86fd5779b767a7e9223339ed22902da0121e3be6de3</id>
-    <title>0401-0850 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OHwxNzkzNzMwNDA5.6a568acf01fc7130dbffd20e329dcfa35f15b56065117e34846f5b4836343147"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:f9dd405b1a0b414b7e529c25dd8f1067b3f98c9638500f4377c0cde96f3843cc</id>
-    <title>Merit List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Nzd8MTc5MzczMDQwOQ%3D%3D.210e068e76fe4a5a98cf25b98932eccff9a30f931f024b3fa59364c238faa19b"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:f4b3e359082e1913cda783127a33f75f04567c04c77d685d67b0539abadf01a8</id>
-    <title>LIST OF INELIGIBLE CANDIDATES PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTh8MTc5MzczMDQwOQ%3D%3D.09adc459d9c334978acd9824d03165808c505d49eddc404ce1e3c685f090566e"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:f1209f9dc458395916c90c216b9e44e6076168d218abf3cd633242e5efa755b9</id>
-    <title>Notice PDF Notice PDF Notice PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTQxfDE3OTM3MzA0MDk%3D.fcd15a3c1adc9266112d1c43b92602d1a16c4911813f45479ab39f4a673a5bba"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
     <id>urn:sha256:f0ba635259e206f00fc315fd7af168f458a078a826377a55de8badc91c338eb3</id>
     <title>Featured Latest, 2026, Kollam PART TIME JUNIOR LANGUAGE TEACHER (ARABIC) LPS (First NCA - EZHAVA/THIYYA/BILLAVA) (Category No. 678/2025) in General Education Department in KOLLAM District. Ranked List No. : 782/2026/SSIII wef 02.11.2026. PART TIME JUNIOR LANGUAGE TEACHER (ARABIC) LPS (First NCA - EZ</title>
     <link href="https://keralapsc.gov.in/sites/default/files/2026-11/6782025_02_0_0.pdf"/>
     <updated>2026-11-03T23:04:31+05:30</updated>
     <category term="kl-kpsc-other"/>
     <summary>kl-kpsc-other · other · kl-kpsc-other/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:f068d87d9f3046a912097b43c4a883ed81596c25ed2e9747fc3f6b7404c4a998</id>
-    <title>Tabulation Chart PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTk4fDE3OTM3MzA0MDk%3D.9c1f9594cb89d00abfbf8f7a0e294a43707dff8d6d079c8ee7829d161bc503f7"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:ec819fae1a78886ec949a443b5b926131ed2f357bf3097dfb569fbb0d4967f90</id>
-    <title>Appointment for the post of Junior Judicial Assistant PDF Notice for Document Verification PDF Notice (Document Verification) PDF Notice PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OTd8MTc5MzczMDQwOQ%3D%3D.ac365071a00b419fc7f28a37f1ee6a5371230d98ef77317780c2a4a3631115ba"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · schedule</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:ec633229bd21e93b4337e02b7f2631149a0e8a363b8bf072e96782ed95b43b76</id>
-    <title>Roll No. 2721-3080 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTU4fDE3OTM3MzA0MDk%3D.18b194ce64f8a25ccd2fe4b3fe79cef24f763e23dd841879296b61d3bae6baf5"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:ec1a878652e2ec9136145425e9118953be5ca7249ca9e7b92eeff715a085611a</id>
-    <title>Corrigendum PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODR8MTc5MzczMDQwOQ%3D%3D.e869526126f566c54bdae100efe5a98c33ebdf84bb30ededac7f80fb09f8922c"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · corrigendum</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:ebf6e1f4377d03f65b0fdcc3acd239e93fb1a2fa0f959cca6e670e2167aa11eb</id>
-    <title>Select List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NzZ8MTc5MzczMDQwOQ%3D%3D.0dba4a78ec51611e0860772114408cf30e29a53e41e9d6633fdbabb9aac133c4"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:e9bc277456c460547a86ffa58bd5fe505606946eea5fbeae18a02ff7d2827176</id>
-    <title>Qualified List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDh8MTc5MzczMDQwOQ%3D%3D.003a1874795a0ae13392032a1d7aaaea840cfac4887ab6d1cd052394f825b9d8"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
   </entry>
   <entry>
     <id>urn:sha256:e93f9a8dd9b22f173fbffa5a1221fa9864c1a36ec5fc5aa08ac1fbed676b26d2</id>
@@ -164,86 +1364,6 @@
     <summary>kl-kpsc-other · other · kl-kpsc-other/2026</summary>
   </entry>
   <entry>
-    <id>urn:sha256:e85ca3bb6addec852eb350aa3724b81f32d1277dd20c0083f489d75d54fdd03a</id>
-    <title>Tabulation Sheet PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTA0fDE3OTM3MzA0MDk%3D.f25ff81ffe2373fdbfbd326e588f209e4fa6bb3e80a08da1d0f600fb80b9060a"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:e8282ad526058150bfa68f68f810b34ee782d57b30399aa6a7905290ac2e85c2</id>
-    <title>Advertisement PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MXwxNzkzNzMwNDA5.206e9f20b59b5bffa71439c4ddfcf7979a17cab2a4520d10e590ea11ec93aefe"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:e78d04aae071d83f1009c88836af6f620895b493920ad96c0530772928b119c4</id>
-    <title>Roll No. 5181-5253 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTUxfDE3OTM3MzA0MDk%3D.8f3899b36d488efd761b90b4b56bc1a4bd2490e3df6cdac33d94484a55d5d25d"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:e44029a305944498da52fb054d25e00d509444defae0bb3ed05dabbd2c8f9c7a</id>
-    <title>LIST OF ELIGIBLE CANDIDATES PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTZ8MTc5MzczMDQwOQ%3D%3D.b86000ee6552b1b8ab6a40178646b11714f55d58c45cd6ecf3ad66ba37df5374"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:e3b931e2194aa6851d33421b4896a365d806dc2d06bfbc1c99467a8839aa2d08</id>
-    <title>Roll No. 3801-4160 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTU1fDE3OTM3MzA0MDk%3D.024f08207440d66e2e6cd873dc1d0122a0ab284d1c7675c8f55a69f530cc7e3a"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:e39635ae06353e7e8079127a8d73070e8f243332a0f3eb255218ee56590e8b66</id>
-    <title>8. In a recruitment process shortlisting of candidates can be resorted to even if there is no rule to this effect or there is no mention in the advertisement</title>
-    <link href="https://highcourt.cg.gov.in/Afr/view_file_afr.php?token=MzgxMjZ8MTc5MzczMDIxNQ%3D%3D.aa44efa5d974bb6af00db3e9259387633292e88f226c96e6a1b13f0e8d2ea796"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:dd07c9242f5b5135924ea56df7594fb0a86971b3011fa3593108e603d045ccfb</id>
-    <title>Final List of Ineligible PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTQyfDE3OTM3MzA0MDk%3D.98c04e97e35e02e096600a0ea579c0e2bfb548a05e2d8de92503b3b14c44390d"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d99006f9728ad6095d4c9b7ca1112c1c2f895cdc9e9d9c925ba778d08240cda6</id>
-    <title>Waiting List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTk1fDE3OTM3MzA0MDk%3D.82403ac9068bd212a7114fa216f7cab14a81c443bb94594d831a141222323418"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d6cba9c3fa524340ba46981d87df89aab6181cd46c1c68753d634f6cec707981</id>
-    <title>Other Notice PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTYzfDE3OTM3MzA0MDk%3D.ce893440a9d1c58d5046e7ebb09f48bf85ebb1bb9a3b2bf4685a61c5c2e2de93"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:d56b8c7695f36e509ed72624504a3b4cfc28b0c855b9b938db840714bb60628f</id>
-    <title>Notice PDF Advertisement PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTc1fDE3OTM3MzA0MDk%3D.348cdcf4bc2b79e1e52fb42ee3fd045f254d16d9a795909abd7acba3b1d2cfd2"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
     <id>urn:sha256:d535d1a95f45090f0cc7fc359ccc8877508809129ce1015bc8e08e9addf6b373</id>
     <title>03/11/2026 HPRCA Radiographer – 43 Posts B.Sc 15/2026 07-12-2026 Get Details</title>
     <link href="https://www.freejobalert.com/articles/hprca-radiographer-recruitment-2026-3078239"/>
@@ -252,244 +1372,12 @@
     <summary>hp-hprca-group-c · notification · hp-hprca-group-c/2026</summary>
   </entry>
   <entry>
-    <id>urn:sha256:d32e488bcd4231cfd38faf2d72a255d7e7c40edd8c0d5ddb3ae9d3237a66c329</id>
-    <title>3. Select List for Recruitment to the Post of Library Assistant (Junior Judicial Assistant)</title>
-    <link href="https://highcourt.cg.gov.in/noti/view_file_noti.php?token=MzgxNTl8MTc5MzczMDIxNQ%3D%3D.9c51069e45c7e04c5bec3068d18d07041f9de4dd9e9c995785e964a250f3b274"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:ca90821f5341e8d923db654ad7a2f32b18c85dad37d34b6104db1858062caba3</id>
-    <title>30/10/2026 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTg2fDE3OTM3MzA0MDk%3D.0bcf8bea93a9c35c5339d9b2c420db6777968985fc6cfbf7d1327738e78f17ae"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification · cg-hc-staff/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:c8b167b718a73ee0478a2ffa9f0bcbcf5e86667b0fc1cfc3eec4d59e03770888</id>
-    <title>Download PDF [view_file_recruitment]</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTR8MTc5MzczMDQwOQ%3D%3D.14b48378b8e5cad416fa18d595ad6c6a35f12baaada5d1d7b09c2f3ac38c4885"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:c854e3a1f059862742052678516e7f3ffe932b7ad09140e8ac0a9454bca729fa</id>
-    <title>Notice PDF Notice PDF Notice PDF Notice (Document Verification) PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODF8MTc5MzczMDQwOQ%3D%3D.5512f874d26a99bcfecf0bd7d355ab41512b4ffc87dcaf38e209a69cf0cf17b3"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · schedule</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:c6853a6ceb0c88d9bf85f3734f4dedbf1cb70d0d0a460cc871eec22f9b292664</id>
-    <title>Result Result PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NTF8MTc5MzczMDQwOQ%3D%3D.af685fe08789291d14b6c401c906d3258215570240e0754c8a9f54e90c22b731"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:c5cc4633341b351d3cd20b32d46fdbb810f625f15a4d633bef78deca82d6fa7d</id>
-    <title>Eligible List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NTl8MTc5MzczMDQwOQ%3D%3D.7d5210f8281f1b8eefbdf98ff35b3e3a61313926a26373ab63704b2dda3cbeab"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:c47f475f24e15c4c4b2568784577989cd5e98de498c877196a9de0b0ef75fe3c</id>
-    <title>3. Albeit, mere participation in the selection process does not confer any indefeasible right to appointment upon a candidate, the decision to abandon an ongoing recruitment process must be supported by valid, justifiable and bona fide reasons and cannot be exercised arbitrarily.</title>
-    <link href="https://highcourt.cg.gov.in/Afr/view_file_afr.php?token=MzgxNTJ8MTc5MzczMDIxNQ%3D%3D.e077b9edf95a13cbfc688ed303cb73530b35fcb55c5a9242a55c39d795dd036f"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:c47b80c0c85197364c659337e0e6d0abceb94e04aa153a463de2e4429c3fc73c</id>
-    <title>Admit Card PDF Admit Card (Practical Examination) PDF-1 PDF PDF-2 PDF PDF-3 PDF PDF-4 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDJ8MTc5MzczMDQwOQ%3D%3D.bd818c03813990b10d244d7199e671fabbb4c676a2a897bcd302cb7623c67dd0"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · admit_card</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:c3b59607e7013cf57f62fdcd05d9159f9d120bd81040bb9829ebe720fec317b5</id>
-    <title>Select List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTY5fDE3OTM3MzA0MDk%3D.4785f30c2b30820f9b3db60e3fcec8a0944dfb571afb4fdea73eda34edf7910d"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:c392a5265bc163edcffef1cf6a67a83d1ae3a71e5af14c5f9cda967d81f3b700</id>
-    <title>Notice PDF Notice PDF Notice (Document Verification) PDF Notice PDF Notice PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTA1fDE3OTM3MzA0MDk%3D.1be1ad8d2084e00ec42a21713eb23354f111277983b064143ba20cfc3719827e"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · schedule</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:c364f724541d9fcce41c0a7b00fdb04cd011c387b01244207ca677b1b3d0719f</id>
-    <title>Roll No 91-178 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OTl8MTc5MzczMDQwOQ%3D%3D.31419a03a45627bd78f48d2a5d2f8fe72bfd1093c1e5962b6110fa740147f1f7"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:c35d56fb3d5566a12d9d45e74a0cd5d6eb28b45f41125721b368225ecff0c18b</id>
-    <title>Final List of Ineligible Candidates PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NzB8MTc5MzczMDQwOQ%3D%3D.9c32284507bbd5ca41660f58347326865bcdca2aab1296ef6941d1ee65b3af87"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:bf33d23b2755421e96b218683214808e9f2eb8307893fed8cc66f8251fc93257</id>
-    <title>Eligible List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NTR8MTc5MzczMDQwOQ%3D%3D.27c0c0e939d5675f31dba0c148cb28e2d880688c5db2ef164167d4417e2e4fcf"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:bf2abf221188be7c6dabbeed7a8ced95519ee0af93c840e0beeb152dda103ed8</id>
-    <title>Notice PDF Notice PDF Notice (Document Verification) PDF Notice PDF Notice PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTA2fDE3OTM3MzA0MDk%3D.b4799db3b47968b4659cc6983203da08417b81f8013b43a1d27877415ffdf59c"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · schedule</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:be34cca26496bbeb86bb3d2013ab93a0ca5fbc994bb2d4f9caf14c264d0a5f34</id>
-    <title>Tabulation Chart PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Nzh8MTc5MzczMDQwOQ%3D%3D.579a180684edb347c80d6ec3d5aea187e21f05ad5796e9a75a4c1f9c4690b1a7"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:be25c2e291dd135348ecee6c302d5319b9113135c9d621029730c79748424fd4</id>
-    <title>Waiting List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTY4fDE3OTM3MzA0MDk%3D.65e0e75808bd53ce588bd1e9e5c20326d9cb746db21c95779c81f70ff6ae6ec6"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
     <id>urn:sha256:bdb2adea54ccd8b25e635e74b5299930108e551a44923dc5e1cb051976049c8d</id>
     <title>03/11/2026 ICMR NIRWoH Project Technical Support – III – 1 Posts Graduate, Post Graduate, MSW PTS-II/031126 10-11-2026 Get Details</title>
     <link href="https://www.freejobalert.com/articles/icmr-nirwoh-project-technical-support-recruitment-2026-apply-online-3078181"/>
     <updated>2026-11-03T23:04:31+05:30</updated>
     <category term="in-icmr-recruitment"/>
     <summary>in-icmr-recruitment · notification · in-icmr-recruitment/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:bcaf0e0e6ef427f40de20dc541c9cf74e746dc245cc368d016924a46448c8c8a</id>
-    <title>Select List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NTZ8MTc5MzczMDQwOQ%3D%3D.aa46fff036e49a4228afe917889079852030d9765754948b5b7a1fb508bd3d13"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:bca1c30448ce587dad67aad66a106cb49938637f2bf8f52bc01958f465f50f5a</id>
-    <title>Other Notice PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NjR8MTc5MzczMDQwOQ%3D%3D.0ff11f86c799d5b257a0060cd3346f0bda961851b66d89496d54c59f7ce8ced7"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:bc960b7efb4c064048cfc2ab30da163c78d1f614b772dec8329c5403a3a02277</id>
-    <title>List of the eligible candidates PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NHwxNzkzNzMwNDA5.b9bada0d48f406f7db254c29bbfb9e239c180495d8992efe912794a7afcd090f"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:bc2a1078ece08c975bea4f745d555120b794c39338aa4236db4e59422c7b2dfe</id>
-    <title>Appointment order PDF Notice PDF Corrigendum PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MzF8MTc5MzczMDQwOQ%3D%3D.7e63e73b16e8e7ca0d084d3cfde0f9228b0d7e4f64b67d15d29a2af62810af6f"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · corrigendum</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:bc0d3d2b53d4bb6477a59e00181c1b9337dfcb9dfd8f641264b8783e872b6b3e</id>
-    <title>Final List of Eligible PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTQzfDE3OTM3MzA0MDk%3D.059c0621fde177f72c316a771da4f555b4b68f29cd6306e788f318c6a272da39"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:bbf0d96201930e2b0574289ebaf4920bafa8b3146f638a265bf9d21bceac8c2f</id>
-    <title>0851-1250 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=N3wxNzkzNzMwNDA5.1d812408de4642f328b428e8c665c7105a7b9fff84b5e480eb09622e3b62cbc8"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:bb3b4a0a767eade6cc60bc70b3aa9128b4c073a70167b7db2f2f5c1e521a26ea</id>
-    <title>Revised List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTd8MTc5MzczMDQwOQ%3D%3D.f355fb13d280782ecbbff8acf281d08584d7946e6943f61703fab7e6a72acf40"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:b98d0c188e25285c06aae106523f009f16424fdf44df6968a3f7c524c239299e</id>
-    <title>Provisional List of Ineligible Candidates PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTM5fDE3OTM3MzA0MDk%3D.90397d1aa937388e94cc5e0fb818cfcdacf1d281893062a78cda3ea658b0c77a"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:b932a69ecd214c28fac4775fc2a2eeded4a89b1267d9d888221ce7c3a9a82250</id>
-    <title>Roll No. 0921-1380 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTMyfDE3OTM3MzA0MDk%3D.e48c1d4d8ea744943021b21c6c9bebfab271a558bb32dc9368b136aebf3b5a49"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:b76bdfc96045987ff984901947479ccd4041caecec000fd47714a04e17fc4b05</id>
-    <title>Roll No. 001-423 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTM2fDE3OTM3MzA0MDk%3D.fe2feb7a4bf1e1c85c5ac8330c6ccd05b1ab4db912c403f222443178ffaa0364"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:b696a699666a3e708135bac01860b30d1b86a7c1790ea15a373fe60ff674933f</id>
-    <title>Merit List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTcwfDE3OTM3MzA0MDk%3D.cfd1fc456fe5b0926108f1a287403e220cdc981379b3357d42a5017e23e341d9"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:b533f49beeb1454893807fd271563938174bfcc6858041629408a9d528acb57f</id>
-    <title>Final list of Eligible &amp; Ineligible candidates PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MjN8MTc5MzczMDQwOQ%3D%3D.9051f91bf9192c171baaa3322a319c2e59038c4bcde3cf75a9899b90f08e2f71"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:b49802a66199e3bf18a240444cac516412ebdcdbd9d918e92bfd1f567709279d</id>
-    <title>Result Result PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MjB8MTc5MzczMDQwOQ%3D%3D.a8b4cf6882605aec767a523b19d20c7154c1183c1427b9aa2148415a9f31ef7c"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
   </entry>
   <entry>
     <id>urn:sha256:b3a4f980802f7fbb37c1740cdbb332d3b96ab5c48aa8cd413aa05b5f94a92d9e</id>
@@ -508,14 +1396,6 @@
     <summary>kl-kpsc-other · other · kl-kpsc-other/2026</summary>
   </entry>
   <entry>
-    <id>urn:sha256:b03965aea2e98471d78f03fe5221693d9755b6821895c856577aa67720da9dd0</id>
-    <title>Merit List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTk3fDE3OTM3MzA0MDk%3D.56c8736c292f1dc5a642b8b189114d5445fc966db5e7b5b69a4afafc9c935010"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
     <id>urn:sha256:b0289d52091dd52986c5a427c926ad2100d0464cbe800da47ff428bb38505395</id>
     <title>3 SUPPLEMENTARY RESULT NOTICE NO. 1670 Combined Examination Post Code: 814/23 Post Name- PGT (Sociology) (Male-Female) in DoE Download</title>
     <link href="https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/notice_1670.pdf"/>
@@ -530,62 +1410,6 @@
     <updated>2026-11-03T23:04:31+05:30</updated>
     <category term="in-ssc-gd"/>
     <summary>in-ssc-gd · answer_key · in-ssc-gd/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:af5242d34d5ee210e841ddd0d2863d3bada2bbcb155a3d5b17ba9be1157d8d21</id>
-    <title>Admit Card PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NTV8MTc5MzczMDQwOQ%3D%3D.2f32ac38dc7e75c19c1d2f8e1a476e1715d448eef38d9978fa28d0e76efd2d88"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · admit_card</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:ad83fe97bc6f84c6b1ed66134b9c8b80fce7a4327899d92d27091da29f294427</id>
-    <title>Roll No. 0461-0920 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTMzfDE3OTM3MzA0MDk%3D.5652606e21725083b90bd948a45b9f933fe5c9dbad826a322fe8a7dddfe99d96"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:acca6568d825e98b273204bb7ab2344ab6b1311af5b7ac944cc7ad68dca862f5</id>
-    <title>Provisional list of Eligible &amp; Ineligible candidates PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MjR8MTc5MzczMDQwOQ%3D%3D.a82e1ec038505c9119c912b45520b6002254e7034e4e19521fbd8b148f906533"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:a9b861dda6e0a48dd9a74b0bb82f910a3fa8e12392d9ffae5eb4d58588fb6d68</id>
-    <title>Notice PDF Ineligible List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDB8MTc5MzczMDQwOQ%3D%3D.17042d2a204b78279fe1720e3a5ec375360530ed23319c5e5411e4ce9df99292"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:a73a3b511a5e7997576722751e1906de3cf25c358c63c382a50b0bcce1c6cd9a</id>
-    <title>09.08.2026 Notice PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTEwfDE3OTM3MzA0MDk%3D.af31ae8b8581342f0edd3bdd83136ec86b79222ca55424656752d2ff7f4cfac2"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification · cg-hc-staff/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:a5b9a78900601e7be89fae09a80730721156e791c81a31173f11eef1b76f06d0</id>
-    <title>Notice regarding Phase-II Written Test PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTc4fDE3OTM3MzA0MDk%3D.fb434784823600ffa2e7cc427c374d7e12bbf6950d79c1acbd3f79e89c27a1b5"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:a545b1b7cf776e4f26cc9bd3bf426f343b05fe282614cd6ba0e9c24c0be4cb47</id>
-    <title>Tabulation Sheet PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDl8MTc5MzczMDQwOQ%3D%3D.14f41f88409854f3cf4da43c1d699b18e779306f9e182875f6c9cc10feffd353"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
   </entry>
   <entry>
     <id>urn:sha256:a52d5081faf322d2483102611fe80e4c42878df55a2fda4a25c2ca27f7a404a2</id>
@@ -604,84 +1428,12 @@
     <summary>br-pgmac · counselling · br-pgmac/2026</summary>
   </entry>
   <entry>
-    <id>urn:sha256:a27ed68d1ed4231b0fdff9042db1cdb963476d0ee900da016260844e00e03125</id>
-    <title>Corrigendum PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MzB8MTc5MzczMDQwOQ%3D%3D.f1334b85e8e30b4339adc8b430bbaa4ae1b0e6fb3de0e770effe681da62c97aa"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · corrigendum</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:a0363e5781b6a6737fb72a83cffb4a9fd013728aaa37977bc56dcbda899040e9</id>
-    <title>08.08.2026 Notice PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OTZ8MTc5MzczMDQwOQ%3D%3D.ab3356cafeca5ac9eb310c48d15a2add713a4a1e6046ca18faea2b6233386c0e"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification · cg-hc-staff/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:9fbfdc356cfb0e49d94cba48298fc3f45813b9798ffa7a47d02a982e65d8576b</id>
-    <title>Admit Card PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTl8MTc5MzczMDQwOQ%3D%3D.05c34260a5dadbe1ab9ed65f9268cd10e0978cb65f0d4017647defbae6a8f5f2"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · admit_card</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:9dfce882eed071571bdc3842e75f5134f0c172a0bb361dc5faea811bf00d9ae1</id>
-    <title>Notice regarding qualified candidates PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTY3fDE3OTM3MzA0MDk%3D.66cdb2461dfdf2c1e1ab3df202a8a3944fa9c2ba6ea7bac07972428ca4f07b4d"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:9de120a1a8cb97058d7b3190505cff2c084ff72712c33343213d45511d880d81</id>
-    <title>After Last Date (Rejected) PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OTB8MTc5MzczMDQwOQ%3D%3D.675170e02a86654890c2ed123e62ff26b62ce7991d04b0ad17861acf2059907f"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:9dbe443b338fdc0e1f159552da18a71011790651fd7ef0e75af5dff027b037ef</id>
-    <title>Admit Card PDF Admit Card (Practical Examination) PDF-1 PDF PDF-2 PDF PDF-3 PDF PDF-4 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDR8MTc5MzczMDQwOQ%3D%3D.1c1f9bf42d9b4b569e582268de3e1561269ad0102349f6dff91266685a734d4c"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · admit_card</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:9c8d3f053215a0901d7cbba7a6c59d7224746f6a324a60bdb97e77f7e48fcc98</id>
-    <title>Appointment Order PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTAxfDE3OTM3MzA0MDk%3D.1943a6dbbc9e09c1bc5a36d28dd2c68acb641170d34cc69939be6674751e028a"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
     <id>urn:sha256:9c30b74977471841e9e7cac5acc7268162d4b9d5e773eafee8c7171d6e8f0eda</id>
     <title>03/11/2026 ICAR-IARI Senior Research Fellow – 1 Posts Post Graduate, M.Phil/Ph.D – 26-11-2026 Get Details</title>
     <link href="https://www.freejobalert.com/articles/icar-iari-senior-research-fellow-srf-recruitment-2026-3078272"/>
     <updated>2026-11-03T23:04:31+05:30</updated>
     <category term="in-icar-aice-phd"/>
     <summary>in-icar-aice-phd · notification · in-icar-aice-phd/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:9bd94043c5cb6106af44064ead9e97268fa93d9b72b1a3885c29021c6b7c0ef4</id>
-    <title>Advertisement PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTIwfDE3OTM3MzA0MDk%3D.40166d0b3ed15ba3cff2be10daa4596219157e19986a4b1a882cd7362d28c23f"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:9b9246ad5d73fbe6bfa472892b0e81cc26621a83d64b7dc5ac8a3eeee8da794c</id>
-    <title>Roll No 01-90 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTAwfDE3OTM3MzA0MDk%3D.7a19f03a76f67a6ffe5d63c3eec4be033d30576a4fb424e660debff749576825"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
   </entry>
   <entry>
     <id>urn:sha256:9b48e61e3be4076197497f80ff69d20bea1894b47a645e3ce2e6704be46d343f</id>
@@ -692,236 +1444,12 @@
     <summary>in-aiims-senior-resident · walk_in</summary>
   </entry>
   <entry>
-    <id>urn:sha256:9b134190472199b7105ec8f6ea08c762040f2e070b00cd9a72f0e75744636d78</id>
-    <title>Notice (Document Verification) PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTA3fDE3OTM3MzA0MDk%3D.c46edbe24961e796b7c223859c70f976ed2af362d59c966eedf5711c32e15ab5"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · schedule</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:9ac91dc742a111b2f1fbebab6517d44bcdabf7d8ccfb471a57975eb0e11b1f74</id>
-    <title>Roll No. 1381-1840 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTMxfDE3OTM3MzA0MDk%3D.8229de480490cdeca8a9707a4a7d5b535bc1521b45a3bc18c4ed27d608c7071c"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:99da24d861d9bf42c9e4ae8fdf53b6dd28013e1768a960670e6a1c702b266064</id>
-    <title>Notice regarding Phase-II Skill Test PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTc3fDE3OTM3MzA0MDk%3D.8dc44ab1ceb8377eeb36a4edea4b0f6e01a09edc40c1398525a01ce9afc9e14e"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · schedule</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:98327e45552dc5b4a216a5b20cd5fcf433d5471b51e5354d7a43c2c2b2e310dd</id>
-    <title>Ineligible List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NjF8MTc5MzczMDQwOQ%3D%3D.80cbdb83f0c13d140980053c91058a25e217a907b0526f9fd4cd558adf1a0510"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:98167e1a1759c9f55c7bf6f9c125c610ed0af805efd11affafe09e916728d3ec</id>
-    <title>6. Constitutional validity of reservation — Effect of judicial declaration of invalidity — Executive authorities cannot act upon a reservation framework already held unconstitutional, unless protected by a subsequent order of the Supreme Court — Recruitment/ appointment/promotion may proceed subject</title>
-    <link href="https://highcourt.cg.gov.in/Afr/view_file_afr.php?token=MzgxMjh8MTc5MzczMDIxNQ%3D%3D.18b0ec4b69210d108f041ddcf41bb60278eb569452377f315eddcc88b8f86474"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:9789ae97ccf11cf507e1125198d6d2afb44049a17d15e1aea0ac801935841e7a</id>
-    <title>Merit List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTAzfDE3OTM3MzA0MDk%3D.7dd8fc76ebff892714f6825950c970b4e7f6fb88d3b5de8c2d21ea9bd0f7f374"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:960dfbe007cf768c9da302f0cf613fd225ee1a4cc8d4caff9fafd3c3730dc01c</id>
-    <title>Admit Card PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NjJ8MTc5MzczMDQwOQ%3D%3D.eb82f1c01dce11c4738b58c3ca0c388f9726808b7fff8dc873da96b856064057"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · admit_card</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:950dcfbf265c0eef74d6626ce6d950f6fe9545bc422d603053f7f8c3f33dd179</id>
-    <title>Notice (Provisional List for affidavit) PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OTN8MTc5MzczMDQwOQ%3D%3D.b3e308ab5d6bbcd27271f94feeca93f6dde0c1bd5f728e128f90ebd690120093"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:932bcfe3f756a4c125b1a925a7b9f121e6e0421f82e8b7c61a24b07789835471</id>
-    <title>Notice PDF Advertisement PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTc0fDE3OTM3MzA0MDk%3D.8b52d70b04c75742116cd7aa9c742b9cec5e3b9c48357d2419e9c44bfb76b006"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:92cdd08f2b58ca36f3809591a1859cf4a345daa1cef8dc24e1cc2379f8576e32</id>
-    <title>Advertisement PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTE0fDE3OTM3MzA0MDk%3D.b13ec8613b6eeae3aef4daf618cc6932947bb35f72791ac535295e809e56f337"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:92a0c3c29cf64d5b64597ec1832c994f5e9bd74a0b94fcc7c4d898243ed69281</id>
-    <title>Roll No. 424-846 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTM1fDE3OTM3MzA0MDk%3D.482daa4e338f24af7910adee0bf05b7da1229f60b329d5c1b2c2d913767926b2"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:91e84a9b19ea52aa729f2efe0eb748b120f92a440d182c7349f95d3097c4c1f0</id>
-    <title>Advertisement PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTE3fDE3OTM3MzA0MDk%3D.130814dd8816d56174986742ed54080d8c7c4b20ccdf5335ce79fa2a980c74d8"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
     <id>urn:sha256:91b3ca1fade3d6f6e9fcbe4539625eeb2bd6a6134eff0b9ebba46f1e9ac1f176</id>
     <title>RECRUITMENT OF SPECIALIST CADRE OFFICERS ON REGULAR BASIS FOR THE POST OF MANAGER(SECURITY)/DEPUTY MANAGER (Apply Online from 04.11.2026 TO 25.11.2026) ADVERTISEMENT NO: CRPD/SCO/2026-27/28 LAST DATE TO APPLY : 25-11-2026 DOWNLOAD ADVERTISEMENT( English ) ( ) APPLY ONLINE (04.11.2026 to 25.11.2026) </title>
     <link href="https://sbi.bank.in/documents/77530/57941334/03112026_1_ADV_Security+Officer.pdf/69e017fe-5e1c-6312-c285-8855f9882102?t=1793713497818"/>
     <updated>2026-11-03T23:04:31+05:30</updated>
     <category term="in-sbi-so"/>
     <summary>in-sbi-so · notification · in-sbi-so/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:909fc758cce623367106224a4b64c20c90258201856895e17c03128dc04f7a72</id>
-    <title>Appointment for the post of Junior Judicial Assistant PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTc5fDE3OTM3MzA0MDk%3D.8760504e6506a4a6492963862ac154c7f70f95d243327b0be9c6e3d5df0c03fe"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:8f9688b2d5b40dbf80434259e01565355731bb1d2201c8dd9c59ecdb2230ec85</id>
-    <title>After Last Date PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NXwxNzkzNzMwNDA5.a22e27248e7cdc6f33471844f0ba782ddd350a668bad232c38673fc34a63fa1a"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:8efd6c4f6078215a3be5daf1e2d5662f28125716277283888b64ae7a252f3b40</id>
-    <title>After Last Date Reject List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NzF8MTc5MzczMDQwOQ%3D%3D.51d00be51623bdf1adbe56b12b160a954288c3713f1b94a5500c608abbc11719"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:8e8108c24ff3940fb8f20f96954f811f0ae3d0542e9f095f68a40002956a887e</id>
-    <title>Advertisement PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTkyfDE3OTM3MzA0MDk%3D.dba830ea5fd73d57d784661fef8d2955dffb2084a5250d7be8e445789360983d"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:8e7e675a463231930d66bede8f9a09ea8458c176cee4ff977dec939799b261b5</id>
-    <title>Ineligible List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Mzl8MTc5MzczMDQwOQ%3D%3D.b859524dac50f66cf59ffda38b224754daf16ad63734ce65fb52fde28234f802"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:8e4bd2620717d2439b200a46e6beea2a41087c163c407e2c5a24ec88f0a69797</id>
-    <title>Admit Card PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDZ8MTc5MzczMDQwOQ%3D%3D.93075a0bb715c605e46bfd09e6b8e8bd3192590ecdd97274916642eecb451fd7"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · admit_card</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:8be735a77b1a26ab0322d7f14ca6ae288be6f19577d17e86a41a1990f4a7f11a</id>
-    <title>Final List of Eligible Candidates PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Njh8MTc5MzczMDQwOQ%3D%3D.eab07e345347674382620e5a6b8c2f290555205acd34c515941f85bc9f75ba32"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:8ba1cfbc6615f9548cb18efb724eaf074ed69e3d5701322438a813c7d5a00e03</id>
-    <title>Roll No. 1841-2290 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTMwfDE3OTM3MzA0MDk%3D.4390ebb43d11730b0a97722c39550ff3cd6a57d2945ab55f54c496d2e5581dd9"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:8b71d8a39179199cb6de7932383bd91782b884f25423883da67f212f72ada655</id>
-    <title>Provisional List of Ineligible Candidates PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NzJ8MTc5MzczMDQwOQ%3D%3D.ed33fa6990aedd8bb5d5b15f1ad8746e9ae5fc7158c3983aa8295a4873db2cd5"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:8a24adfba8fb22e00f1ff07e6475be65b2d52ca1898633d6b6f784967514b68c</id>
-    <title>Marks Obtained By The Candidates In Written Examination PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTJ8MTc5MzczMDQwOQ%3D%3D.79e7c8cb288a0bea8f0ad08372528852ed46e34ffafd82440ebd988d77ea34d7"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:87358f12db2dcc0e9e65e643d21863039bd8d3763f7dfa0cbe1eae4e4a85b493</id>
-    <title>28/10/2026 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTg5fDE3OTM3MzA0MDk%3D.6bd95b20499c35b737f720ecf840fde5073f03728649469c907a60b02e2959f4"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification · cg-hc-staff/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:84d3946c3163e4572d9f0853d06acbc38bbd544ef343dae389a2f29d154ceaef</id>
-    <title>Admit Card PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODV8MTc5MzczMDQwOQ%3D%3D.c5973a28a59b0045929f3a0bcf39dab506bb35399e35bc7192256c2f811629fb"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · admit_card</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:825367112b8469b45566bf8504163232bee4e039e0780f9a1c7046ba85304096</id>
-    <title>Download PDF Notice PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MzR8MTc5MzczMDQwOQ%3D%3D.306d6da30ff5d69b01a40fba7485ac1927b0dd3d3c1ffb50046ba3effd763366"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:812a0141f1553e67bff5216343ced22ca17a7f6e62efd3b63df5969519314ba6</id>
-    <title>1. Tabulation Chart for Recruitment to the Post of Library Assistant (Junior Judicial Assistant)</title>
-    <link href="https://highcourt.cg.gov.in/noti/view_file_noti.php?token=MzgxNjF8MTc5MzczMDIxNQ%3D%3D.848de1a52273a95f980936743a3cd63be2c8f5b5d41b719f1c09390e89092bfe"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:7f4d9e6f20b0b27eb7d32e4d468595ca79a53196e144ca84a9d233ead005d7f7</id>
-    <title>Roll no. wise Eligible List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Njd8MTc5MzczMDQwOQ%3D%3D.ecb3a5fda00367d3e92e4911ac41da75c864faf0a1de1c4ff491723f0509c450"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:7e6008f67d67bad58c51394a7bf278af260d0f69306e6376b6ef7bdd83ffaed4</id>
-    <title>Admit Card PDF Admit Card (Practical Examination) PDF-1 PDF PDF-2 PDF PDF-3 PDF PDF-4 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDF8MTc5MzczMDQwOQ%3D%3D.1216a8743177e2792647eab8f892d0db1f54512065f0d9a555c47f232347d49d"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · admit_card</summary>
   </entry>
   <entry>
     <id>urn:sha256:7ac08ad1a86c45718c703ffd63f7799eeb5003dc257344571aba2240a6cc6849</id>
@@ -932,76 +1460,12 @@
     <summary>dl-dsssb-other · result</summary>
   </entry>
   <entry>
-    <id>urn:sha256:79fcca2b58f82da44da9a776f3bc4e4092a4732e85a2d510c8e3dbd45c320815</id>
-    <title>Ineligible List After Last date PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NjB8MTc5MzczMDQwOQ%3D%3D.43e967d9dfeba04fe6fbddb49223172b95a4b73360742b6d1cc6e989ced04d8e"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:79a1034ef6f4a2bf6df63fe3862deb6d086372025623a3eb25cda96070368acf</id>
-    <title>Appointment Order PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTk0fDE3OTM3MzA0MDk%3D.628076a9889363a6787c1d67d52e5f38265191b1de3e33989d743d8d9bc14700"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
     <id>urn:sha256:7867c00ac5c7a646fafd7d87e0a061dae5708049fa264f5b6106da0abac3362f</id>
     <title>UPSSSC Junior Assistant Admit Card 2026</title>
     <link href="https://www.freejobalert.com/articles/upsssc-junior-assistant-admit-card-2026-out-3078216"/>
     <updated>2026-11-03T23:04:31+05:30</updated>
     <category term="up-upsssc-junior-assistant"/>
     <summary>up-upsssc-junior-assistant · admit_card · up-upsssc-junior-assistant/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:784bfa3f4974fb3c7b10766d4437824b44760f23fab8827a0c02ad89878269cd</id>
-    <title>Other Notice PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTExfDE3OTM3MzA0MDk%3D.4fd763eddcff8640b70ec29f028783e2832a022e77ee816bccb66f45f9000b32"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:7328e2a689b21a51a0faf7b68e774229a61fe80331ec65d270ddcfe0e5f343c7</id>
-    <title>Roll No. 0001-0460 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTM0fDE3OTM3MzA0MDk%3D.e1255bb556dade3a0a88525aa012e3357366de6de4fc0e1b5bea84be412ba37a"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:720c503250d57b0e1d17924f5997e9073aba8f2855f33bdefecb08050024de28</id>
-    <title>ADMIT CARD FOR PHASE-II WRITTEN TEST PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTgxfDE3OTM3MzA0MDk%3D.375a229097498e742435761152738d2e8fcfeea3be31ef790afa363c09917358"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · admit_card</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:6f71593831569503ae575b735d1d945e832d578949a8dbbd04704df7b7304bc0</id>
-    <title>Select &amp; Waiting List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Mjl8MTc5MzczMDQwOQ%3D%3D.98bc12be33af494523d162f6a5dc7195fec0f69b73237ba198b519abba5be5e3"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:6bb6a4771c9b5672be0ab9c5dc3352975f336db7abed97442c9caec6b9dc17b1</id>
-    <title>1251-1696 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NnwxNzkzNzMwNDA5.70881d1bb45387ba37f21918da5a3a374d468dfc580750b89f599e18ca125309"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:6b9cca16215b9972bb974af34cd6d6b13b6795d21d8a80f52d0983b7e95fe6ed</id>
-    <title>Notice (Document Verification) PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTczfDE3OTM3MzA0MDk%3D.78c3795f823874a4ed2f05b1cc0d86cdf4c1d901baa6a8f5acf3483a3314c5f8"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · schedule</summary>
   </entry>
   <entry>
     <id>urn:sha256:6b0dd5785f4816b19791c306814d615a558f804163aab6b5c5b630f11e1aa521</id>
@@ -1012,124 +1476,12 @@
     <summary>in-ssc-cgl · answer_key · in-ssc-cgl/2026</summary>
   </entry>
   <entry>
-    <id>urn:sha256:6a97465dde2f658ea12199946629ea8d5dabb0fa33e8fa4b0b5f2227d4e5c743</id>
-    <title>Advertisement PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NTh8MTc5MzczMDQwOQ%3D%3D.71ed342336575cc5771336289cb41ba2bf0aeb3ccac9eea781b7c5ec678cc2f0"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:694a37f2a3258c46103fe75f22debf3c02876462724faa204cccb635d2dbd63d</id>
-    <title>Advertisement PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTIzfDE3OTM3MzA0MDk%3D.08784ccb2dccec96eeeee53fd4d48e243d7380da8745d85f50124a266ca32258"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:6836a45ad93a2f46411b146810698c2aed0b08b590ff78f4d27a4ebe92daac4f</id>
-    <title>Select List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTk2fDE3OTM3MzA0MDk%3D.583562a0578200cb4abf3f0baa51a4994f62b2f1b778f718cc4e4f6cb87118e0"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:68129b14956cab239ddf742ad3ccdf14962aee689b82ac1e02f45221a491aafd</id>
-    <title>Roll No. 01-1000 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTYyfDE3OTM3MzA0MDk%3D.4e4ca8aa70863fb868b4b628bfa0012e6789a3878de7876fdc9a847bb08d5ec9"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:67dda76cf95ebde3af3db0b6836f281657ef33ec1fd37f86ebcdbe031dc0cbdf</id>
-    <title>Roll No. 2001-2360 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTYwfDE3OTM3MzA0MDk%3D.415ffb38ce4ddb7405f54a6e5abac60b684acadf61431a215b2a63eb1f2c31ac"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification · cg-hc-staff/2001</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:668db045a9d8c983f5863aa2e65a7f1293bf998a476d3629c25d0527af49cb75</id>
-    <title>Provisional List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTV8MTc5MzczMDQwOQ%3D%3D.50cf59a28159e7bd1b9f65ce8c2339486d76a481d9df6265e9c0eb5ada20f401"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:6510f99cce8bfab7157667a90f514d01e9c6c39d4919002406c1a508b5818ed4</id>
-    <title>Roll No. 1001-2000 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTYxfDE3OTM3MzA0MDk%3D.0d991da9508800f7dfc9b607c5549d035b953717321b4fbfde2d5e9938c69906"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification · cg-hc-staff/2000</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:64624852ac233f3c3ec2dad37fde84401dc3c78dd52d7441c58da1fc8752f0c3</id>
-    <title>Notice PDF Notice PDF Notice PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTQwfDE3OTM3MzA0MDk%3D.0c1a9c3840b63484335a711d021cbcab0d9621d1099f722a6ee9b4eec77242cb"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
     <id>urn:sha256:643ee66e65a8c3aeda546aeecaa67278f02950eaa5fdadbf9f830cb5630c9e39</id>
     <title>Notice for filling online application form and choice filling for Special Stray Vacancy Round of UGMAC-2026 (Adv. No. BCECEB(UGMAC)-2026/19 Dated 03.11.2026)</title>
     <link href="https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_19.pdf"/>
     <updated>2026-11-03T23:04:31+05:30</updated>
     <category term="br-pgmac"/>
     <summary>br-pgmac · counselling · br-pgmac/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:643bcff4adf187d78e5155970efbc54dc9d1455e99225ec4d269cdb7b771e659</id>
-    <title>Notice PDF Notice PDF Notice (Document Verification) PDF Notice PDF Notice PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTA5fDE3OTM3MzA0MDk%3D.b31be6a2301beba163ffc31338440083a4bc8fc250d52fcd368ffc4200e07304"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · schedule</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:626ba3ea5b4cd7f00935dbdd05e97c042ea54cf7a229b4204b4c7a59e5499cf3</id>
-    <title>2. Merit List for Recruitment to the Post of Library Assistant (Junior Judicial Assistant)</title>
-    <link href="https://highcourt.cg.gov.in/noti/view_file_noti.php?token=MzgxNjB8MTc5MzczMDIxNQ%3D%3D.9ce31808db1ccebd991c057cd0470779aae62f269609939511782f2b2d23afb8"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:5f92c01add4411d1577b13d2bffa4d2243bf87934b2631bd80b46cf1380965a4</id>
-    <title>Notice PDF Notice PDF Notice PDF Notice (Document Verification) PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODB8MTc5MzczMDQwOQ%3D%3D.4141f4b5beff8d4916863e48675215e51f959d105990a9e2456ddfc1aee08571"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · schedule</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:5e54f8d5dc43583f483e4d0350e4b9aa56b4ae82e5c4694e56f98fa9cefcf5af</id>
-    <title>Roll No. 3081-3440 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTU3fDE3OTM3MzA0MDk%3D.ef5e79ce8420dd526a53317a9153567982fc539846195896cb199bc7180d5483"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:5c7efa63990e2dbdbeff8e20666bff2af4f42a532218a579e7d69cd3bb766c6c</id>
-    <title>Notice PDF Admit Card PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODZ8MTc5MzczMDQwOQ%3D%3D.5f2e251c2411143be4418eb7fe9aa201ec788a1d6648ea6ee7fd97361cda879b"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · admit_card</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:58f2bfb3944e240b3b1e11fc7bd9cdf62821667cdf3e4c0b7cd668377946314a</id>
-    <title>Download PDF [view_file_recruitment]</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MzV8MTc5MzczMDQwOQ%3D%3D.cfaa3ba121edbdff30a086dff058d9eb1ce88ce7554db7c87e8ec4f8ab6cd0de"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
   </entry>
   <entry>
     <id>urn:sha256:54dce08b0f242796eb46ef1bfc6f68fd117b3380066a0fcf84f4d10c850775cb</id>
@@ -1140,68 +1492,12 @@
     <summary>in-sbi-so · notification · in-sbi-so/2026</summary>
   </entry>
   <entry>
-    <id>urn:sha256:534401ce33ccc99c6cf15b309c8245e23618ef787534e6becec526805701599e</id>
-    <title>Marks Obtained By The Candidates In Written Examination PDF Result PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTB8MTc5MzczMDQwOQ%3D%3D.0a555f926d67ee2cd29a75a5cf8d9dcbe8f655e21cc8043e7ab6c131385a79bb"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:52945d558999fe50f9c6ce1d912fcef00c5ea574a71170fe7c75cf895cefaf4e</id>
-    <title>Tabulation Chart PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODl8MTc5MzczMDQwOQ%3D%3D.6ce792b2c1c008051eb5cc6cb7537da2cc76bbbb1ac354a0a51024016eacf7ad"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:5255fc38bcfd7546521dfb712003ba5c2b1b473dae4baef11d7d820d3f905133</id>
-    <title>Appointment Order PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTY1fDE3OTM3MzA0MDk%3D.1f13126ae143655b3cd01d1af35e77b753c10aa7546455ebcff737b1adf03797"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
     <id>urn:sha256:4fcc14c46c55935ebbe631c96ea469deaccaaf4b53512d53f4ae48caee4c6089</id>
     <title>Featured Latest, 2026, Kozhikkode FULL TIME JUNIOR LANGUAGE TEACHER (ARABIC) -LPS (5th NCA - EZHAVA/THIYYA/BILLAVA ) (Category No. 522/2025) in General Education Department in KOZHIKODE District. Ranked List No. : 777/2026/SSIII wef 02.11.2026 . FULL TIME JUNIOR LANGUAGE TEACHER (ARABIC) -LPS (5th N</title>
     <link href="https://keralapsc.gov.in/sites/default/files/2026-11/5222025_11_0_0.pdf"/>
     <updated>2026-11-03T23:04:31+05:30</updated>
     <category term="kl-kpsc-other"/>
     <summary>kl-kpsc-other · other · kl-kpsc-other/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:4f429070e3f9a1229cba92839a294348642a9e89364f009906fec4a2c7f1edf8</id>
-    <title>4. Waiting List for Recruitment to the Post of Library Assistant (Junior Judicial Assistant)</title>
-    <link href="https://highcourt.cg.gov.in/noti/view_file_noti.php?token=MzgxNTh8MTc5MzczMDIxNQ%3D%3D.f5e45ae27dd718c12ce7a11f5cdc721c8b1d5d085ba772c7e5e030a30c6bc74d"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:4ded610ae8352f93e3a66aed94af2eb4696b5923c0dc0e73fab917fd04bf474b</id>
-    <title>Roll No. 4881-5180 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTUyfDE3OTM3MzA0MDk%3D.ecc21a1ea6fcb368317dc5b25829adb6ba3179ed892baf55c9f9a567d04cd122"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:4b13b969b3e46bd832fb9c26e4b3cf797eea3d675f83b1b7c8ebc44e05360b79</id>
-    <title>Junior Judicial Assistant Disqualified Candidates PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTgwfDE3OTM3MzA0MDk%3D.40892ac40259c423b9bce439c0d0cf4d9097205fb509676acf80b7a4e653d916"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:4af1d06dc5d3afdd52a4c62562bd3c905fdd87e836574198fac02c4ed6cd1125</id>
-    <title>29/10/2026 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTg3fDE3OTM3MzA0MDk%3D.0662b5086fe6f402dd6fad9c39e5233cf81c8a8c4218d5bd695fcf302309ca97"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification · cg-hc-staff/2026</summary>
   </entry>
   <entry>
     <id>urn:sha256:494b7b21dd9ef31985eb6f2a73aabafe838960edce6fae9604bd3a4c3c260032</id>
@@ -1212,14 +1508,6 @@
     <summary>dl-dsssb-other · other</summary>
   </entry>
   <entry>
-    <id>urn:sha256:49371aafb3a4125cee3d121b72fbd126845c04201df4f566e29a3bb95ed3d1a8</id>
-    <title>Notice PDF Notice PDF Notice PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTQ0fDE3OTM3MzA0MDk%3D.194c019b5adc882f73215fceea0c417b02a1c47e644b5927a2e7ed5ab504424b"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
     <id>urn:sha256:45d4d68d6e34138f7f585e94440431c8f78392eb83ec3751d8165c2e5a1d5ce2</id>
     <title>03/11/2026 GAIL Chief General Manager (Law) – 1 Posts LLB, LLM GAIL/OPEN/LAW/2/2026 02-12-2026 Get Details</title>
     <link href="https://www.freejobalert.com/articles/gail-chief-general-manager-recruitment-2026-apply-online-3078203"/>
@@ -1228,92 +1516,12 @@
     <summary>in-gail-recruitment · notification · in-gail-recruitment/2026</summary>
   </entry>
   <entry>
-    <id>urn:sha256:44bcae59b0e82b4a6850b45da58f995ed0626a8c9233be57f8316ba0768bc11c</id>
-    <title>Advertisement PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTI4fDE3OTM3MzA0MDk%3D.81a6d54a8fd3eeb413196916511281cde390e7a84c0168e6afc030be0062b4b8"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:430888bc452d9e46ecd809a9eb934b36abad1f2b4bc0464128f5ecc24ca65f97</id>
-    <title>Provisional List of Eligible Candidates PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTM3fDE3OTM3MzA0MDk%3D.bcc2366bfe1e55c1a95b6173508e901fa0a3503495288c731b8ec58f57fa83fe"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:402c92bd72df24a8c87c64489caed3d71e0906cb2b3a5e977b19d3f928d9e03d</id>
-    <title>Advertisement PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NjZ8MTc5MzczMDQwOQ%3D%3D.bf60f294cae67568710cf4de2274df5230fb0f8af7d5ce71dad5810ae709a0f0"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:3f84b529771ec8f1a7826cebdbaef46c61fa143f10ebe6c3b4e93ec182c1d41b</id>
-    <title>Download PDF [view_file_recruitment]</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MjJ8MTc5MzczMDQwOQ%3D%3D.220c049d7537ba0d868c0110498da9abce37f47c009c305ee375b58cdea9c014"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
     <id>urn:sha256:3c7b734ce85e1cd10876e64e80d0a352a80d540893aac8ecf6fc278668339887</id>
     <title>2 NOTICE No. 1671 :- Result of Skill Test and shortlisting of candidates for e-dossier for the Post of Programmer under Post Code 63/24 in DSCSC. Download</title>
     <link href="https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/notice_1671.pdf"/>
     <updated>2026-11-03T23:04:31+05:30</updated>
     <category term="dl-dsssb-other"/>
     <summary>dl-dsssb-other · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:3b8d1e7e90a381e6a7cc39d466fe489fde6b0213426bf989821c5ef1e99248cb</id>
-    <title>Notice (Document Verification) PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Nzl8MTc5MzczMDQwOQ%3D%3D.2ce1a6b0ff500a0f1c2d351c708d97ef1583df2f4525195f9e2222deaa514b10"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · schedule</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:3a81de04849917a18beb1ab69caaf89677f945cdcaf18e6054bf7427b2667d82</id>
-    <title>Waiting List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NzV8MTc5MzczMDQwOQ%3D%3D.0c7a764aa022c2dcd0383dfa378fb5e68eaa6a7ec438b5a4f9a4d220a9fd7850"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:3a7c093abd54ec3ca538a973629b319349410ac3914c5a787737e11bbfae69fb</id>
-    <title>0001-0400 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OXwxNzkzNzMwNDA5.995ef0c13beca5dcd7375660b636c5033809647aeb7be2c2eb59111f40387f17"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:39a23db0065a9a452e3ca98b21446d5dae95959c3dd03fdc10c6dce2cb501eb1</id>
-    <title>Tabulation Chart PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Mjd8MTc5MzczMDQwOQ%3D%3D.20d6ef429b556a6ee803c5fb672a06e54a8e3d3a5a5a28c00b1a842ddb170395"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:38ca684975512a83604c4610faf4b1473c1e6e4c3a08575a034bcde34a24af14</id>
-    <title>Select &amp; Waiting List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODd8MTc5MzczMDQwOQ%3D%3D.8ce32624b3e9b8199e10b0eb7711005626b1804a7a0e601f83ffef7c54584a57"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:38aa5f36ced307d8960424bde2400b78c99b2f965b0c7d2a7f23e0ebb099f85a</id>
-    <title>Notice (Final Eligible and Ineligible List) PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OTR8MTc5MzczMDQwOQ%3D%3D.f1a1003670abdcbfed2c6445a7e707bcc538dc29e8df2f581d070625dc3f20be"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
   </entry>
   <entry>
     <id>urn:sha256:38a40486a5c7ebfea202fcde179ec2914e69bf14858e32e0e4e91df14f8448d4</id>
@@ -1332,22 +1540,6 @@
     <summary>dl-dsssb-other · result</summary>
   </entry>
   <entry>
-    <id>urn:sha256:3360d65326d0dfcf2cfd3f17cf815152c42e684ba43e6c24460c47f29702ec30</id>
-    <title>Notice for Document Verification PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTc2fDE3OTM3MzA0MDk%3D.e0cd8159723296d56d2c7d8da03640c3434556d30d1a3cd48f81432e627d6b59"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · schedule</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:33557bb3a38b9b620deaf13b1b2be3b9642e85236add4b8fcc12cdd83aad85ab</id>
-    <title>31/10/2026 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTg1fDE3OTM3MzA0MDk%3D.1bb30dd438f31001e1c63fb4a4572728cd0400febf5102c0b51e6ad15fcc0666"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification · cg-hc-staff/2026</summary>
-  </entry>
-  <entry>
     <id>urn:sha256:333d4b92c49743ff2fcddca89eb6456502ae1bfdf9fecd336ef428d4efe8ccfc</id>
     <title>03/11/2026 RITES Deputy General Manager (HR) – 3 Posts MBA/PGDM, PGDBA, PGDBM, PGDM RG/31-R1/25 02-12-2026 Get Details</title>
     <link href="https://www.freejobalert.com/articles/rites-deputy-general-manager-recruitment-2026-apply-online-3078261"/>
@@ -1356,116 +1548,12 @@
     <summary>in-rites-recruitment · notification · in-rites-recruitment/2026</summary>
   </entry>
   <entry>
-    <id>urn:sha256:308f64fa7b1a7378e2696b92e924def4bab04b30c61da8e5c3e0d44639176a2c</id>
-    <title>Select &amp; Waiting List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTAyfDE3OTM3MzA0MDk%3D.13e41076825907645425d130d792ddfb618c8ddae37de2fe913c284bbad9840f"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:3053053c41917767c5df9e24fa7f009db67b3d2338520cb4c9cc05e34d8c30f6</id>
-    <title>Merit List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Mjh8MTc5MzczMDQwOQ%3D%3D.b8f8284906cad2f48ce885979b2d07df6150b7305f7e68aedd644414e0217c14"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:2adb83ea71dffaed0d4784d2689ec55f5898e78cb1dd93bd99f68e60b96f4434</id>
-    <title>Appointment order PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MzJ8MTc5MzczMDQwOQ%3D%3D.a33764f19d1eddb972541ef291464dda9a1d5f4099b201b02d0b3cb8d8b60800"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:28cbab2fbbe6090f7eeffe9e118b6868f33823f0aee20fac9d753a8d35bca5f6</id>
-    <title>Appointment Order PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NzR8MTc5MzczMDQwOQ%3D%3D.656bdf06e3ffab81cc9cc351fc7412ca7b8fe548fe66062c9c04915a02cf006f"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
     <id>urn:sha256:2719b2e039a0b3fe14a5b7454a95cc1cf86e928e3029ea87c5b397a417323ba1</id>
     <title>Seat Matrix for Special Stray Vacancy Round of UGMAC-2026</title>
     <link href="https://bceceboard.bihar.gov.in/pdf_Seat/UGMAC26_SM_R5.pdf"/>
     <updated>2026-11-03T23:04:31+05:30</updated>
     <category term="br-pgmac"/>
     <summary>br-pgmac · counselling · br-pgmac/2026</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:2286b7a01a60a217aa36b73dabb4adc8a1f97ec541daf558e0165768d7118b93</id>
-    <title>Notice PDF Notice PDF Notice (Document Verification) PDF Notice PDF Notice PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTA4fDE3OTM3MzA0MDk%3D.fbf9d05df856df3c5a23f4ed9c4e7c7a1d66317888cc1375917b5db7441e97c8"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · schedule</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:2126916b4311ea84377256569196873b06316d8720060639bc926463be03eee9</id>
-    <title>Advertisement PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTY0fDE3OTM3MzA0MDk%3D.257bfb60b5f897065dc2341d02faea2b2385de799d2f36dbc944e7eba9be5137"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:205837c996079c22487c8f01e6e93910e59cae4a6166d2765e3c0e11951f8f90</id>
-    <title>Eligible List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTI2fDE3OTM3MzA0MDk%3D.861713b5570633ad84104986288437bea99c0caa5f1d18cb296f37a7f82d8686"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:1edf740046bc10d371eda08b90e9306d334eefe173de0cb825d1c9da36c549ae</id>
-    <title>Notice PDF Notice PDF Eligible List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Mzh8MTc5MzczMDQwOQ%3D%3D.458c8840806ae64501f3a7d8d17675b6c10437c985bd3d7f5180273d1c7b843e"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:1db831179cbf43dc9bad0c06f5b5bd7be109f0a5197b209c3c997e55ad5a28e1</id>
-    <title>Notice PDF Notice PDF Notice PDF Notice (Document Verification) PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=ODJ8MTc5MzczMDQwOQ%3D%3D.9ae02e870b6c13400bd42034b24a5bb11b84a627546062cb4fb9d9c7479cd75e"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · schedule</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:1d622c2eee7c6d127ff18c12fd56d56bbf197be153390f1feb9a03c0a834ca2b</id>
-    <title>Advertisement PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=M3wxNzkzNzMwNDA5.5dfbb366f6f50ad10229404e48d7502bcd74589c52a687bcf0058930276400c0"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:1a01341c68f4d185626189b12bcdfbc2e069546c0d274a5f9c6038d9026e64f1</id>
-    <title>Roll No. 2361-2720 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTU5fDE3OTM3MzA0MDk%3D.4239e558d81433d9bf67836c6036184524fd1017869b03ea38b17d56c36ba7e9"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:181c39eede6f5602a99c1866183c28c2602f1317b60086e0d53d881c0359b50e</id>
-    <title>Admit Card PDF Admit Card (Practical Examination) PDF-1 PDF PDF-2 PDF PDF-3 PDF PDF-4 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDN8MTc5MzczMDQwOQ%3D%3D.d40ca39877fdfa60d14bb6cc89691d7fa1b26c2ea5dc18009f0fd40174268eaf"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · admit_card</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:17521224ef7edc2f4a951d818f62601c63409cae5422dc9a9a512b31382c5004</id>
-    <title>After Last Date (Rejected) PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTM4fDE3OTM3MzA0MDk%3D.010e32f9d659263a3f7770e1a292bbab28bbfdf87e84d53f782317cac75482b1"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
   </entry>
   <entry>
     <id>urn:sha256:14deb0610566f665e8c62e3c9a678b617996c5357c9280f803d1f2575bef01a5</id>
@@ -1484,100 +1572,12 @@
     <summary>kl-kpsc-other · other · kl-kpsc-other/2026</summary>
   </entry>
   <entry>
-    <id>urn:sha256:11d720bb4650f412247084cd7c46b6e4d9911ffed86b949702b42fbab20ba992</id>
-    <title>Admit Card PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MjV8MTc5MzczMDQwOQ%3D%3D.777ae1ddb847b13f5205d8215f6c2821727dd9eb1a8320f2cb16b03e2746ebfc"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · admit_card</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:10442c9fb42041ae673a2896d8cb2a7b926d657f0360bb47d4ca0fdf9edcdb11</id>
-    <title>Roll No. 4521-4880 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTUzfDE3OTM3MzA0MDk%3D.f646dab0beaf7c725b6d4796a0eb282ad5afa37762226a1235fd5bd8c33a3afa"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:0e655cecaeb7e9539823beb582423526a23da389901435bb40102129794b2729</id>
-    <title>Tabulation Chart PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTcxfDE3OTM3MzA0MDk%3D.257313b2d6fff24c27ab39ada07d0a7c116bd4dac850765b16d32943dba93928"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:0aceebdde6288957b702a70aa4ca3c4cc13c5d157cf41dfa863dddf3868c63ab</id>
-    <title>Admit Card PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NzN8MTc5MzczMDQwOQ%3D%3D.e010ed4045dccbc25155429e65a6fb267200bfd77770f5156e1888942506f66d"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · admit_card</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:08ee62cd58d2accd5b1f219c55e7c3f0dfb656e1fbdd4a7c3554a6083e932177</id>
-    <title>Provisional List of Eligible Candidates PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Njl8MTc5MzczMDQwOQ%3D%3D.4d250b16e2a1397974991ed646efeec8d2e508810613f69519593773321e6c50"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
     <id>urn:sha256:06c2447176103e6b1325434d812dea3b4357120179d283098be9336847d50866</id>
     <title>Link to submit online applications for the post of Junior Court Attendant</title>
     <link href="https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2026/11/2026110316.pdf"/>
     <updated>2026-11-03T23:04:31+05:30</updated>
     <category term="in-sci-court-attendant"/>
     <summary>in-sci-court-attendant · other</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:05af35a6c4933fe19bf9cd806252ff7ad12361e8c9221fcca32a65c0fa144ca5</id>
-    <title>Notice PDF Notice PDF Eligible List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=Mzd8MTc5MzczMDQwOQ%3D%3D.ae5903104cd8158f844bb190178f21deeb414a454e0b2caa277adc05ea853947"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · application_status</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:0544fba9b3d39aeacc752c567804e8130ff18bf9ef64aa796f6a64407dfed46d</id>
-    <title>Tabulation Sheet PDF Qualified List PDF Notice PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NDd8MTc5MzczMDQwOQ%3D%3D.085918a4a48aa03440bda1937f93e8f61549ce0dab07dddff2bfd35c02b3adcf"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:04db86d1541883ebd3b773dfe2e8e15f0003f6b3f849b91eea5c5127be718ac5</id>
-    <title>Roll No. 4161-4520 PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTU0fDE3OTM3MzA0MDk%3D.898cb388a26e6e4c573c23bb80e80437feb85ab5735c11bf4fd0f960df2a5726"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:04b5a00000ea737832a0cf7de512284979520fcc411983cc439cdd7a25948e2f</id>
-    <title>Notice regarding qualified candidates PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=MTcyfDE3OTM3MzA0MDk%3D.107280d57ee5bc1a5c761fd668f9267a468b6daa651190f663a585ad097f28f4"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:02df782965f060bb9d25f02dd6ff62662ce7668c9a3853581550f96ac6cfcc6c</id>
-    <title>Eligible &amp; Ineligible Provisional List PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=OTF8MTc5MzczMDQwOQ%3D%3D.aca40dd9d8d9f80ab37992db39616bf57dd7b51bd1a9e92568a887f2d7655693"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · notification</summary>
-  </entry>
-  <entry>
-    <id>urn:sha256:019c34525a90274ae5f72602956f3a1b790f9e5a526418ccf2a34299f3f19f8e</id>
-    <title>Result Result PDF</title>
-    <link href="https://highcourt.cg.gov.in/recruit/recruit/view_file_recruitment.php?token=NjN8MTc5MzczMDQwOQ%3D%3D.bf9249b83fefa48818bdb2762551f8a235b80ccefe4134378651b430994e8fa2"/>
-    <updated>2026-11-03T23:04:31+05:30</updated>
-    <category term="cg-hc-staff"/>
-    <summary>cg-hc-staff · result</summary>
   </entry>
   <entry>
     <id>urn:sha256:f85f22b1aff54a895102aa93a08b2cf55a79344ae3dfda0b303c9d1b4552087d</id>

@@ -1,0 +1,68 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "167f291cc2d40300cc7e04a43e41964c2b554e94c034eefbc6d626833f919658",
+  "url": "https://keralapsc.gov.in/sites/default/files/2026-11/2182025_13_0_0-1.pdf",
+  "title": "Featured Latest, 2026, Kannur PART TIME JUNIOR LANGUAGE TEACHER (ARABIC) LPS (Cat. No. 218/2025) in EDUCATION DEPARTMENT in KANNUR DISTRICT. Ranked List No. : 792/2026/SSV wef 03.11.2026. PART TIME JUNIOR LANGUAGE TEACHER (ARABIC) LPS (Cat. No. 218/2025) in EDUCATION DEPARTMENT in KANNUR DISTRICT. Download 03-11-2026",
+  "body": "kl-kpsc",
+  "exam": "kl-kpsc-other",
+  "feed": "kl-kpsc/ranked-lists",
+  "published": "2026-11-03",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "7e23e4563d248467b4bfb1d7a482e709c975eb8d96953e7efc9bca5d15b869a9",
+  "bytes": 114258,
+  "pages": 4,
+  "chars": 8254,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-11-04T04:07:58+05:30"
+ },
+ "kind": "schedule",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-11-17",
+   "evidence": "A period of 15 (Fifteen) days time to apply for rechecking of Answer scripts will be allowed to candidates with effect from the date on which the Ranked List is uploaded in the website of the Commission (on or before 17.11.2026) NOTE (5):- ",
+   "page": 3,
+   "from": "text"
+  },
+  "exam_date": {
+   "date": "2026-04-20",
+   "evidence": "NOTE (8):- The A part and B part of OMR scripts will be destroyed after completing six months period from the date of finalisation of last Ranked List included in the common test held on 20.04.2026",
+   "page": 4,
+   "from": "text"
+  }
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 85,
+   "raw": "But Answer scripts will be rechecked if the candidates apply for through their One Time Registration profile from the Commission's official website www.keralapsc.gov.in by remitting the prescribed fee of Rs. 85 (Rupees Eighty Five only)",
+   "page": 3
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "OMR",
+   "page": 3
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.keralapsc.gov.in"
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-11-17"
+  },
+  "exam_date": "2026-04-20",
+  "fee": {
+   "min": 85,
+   "max": 85
+  }
+ }
+}
