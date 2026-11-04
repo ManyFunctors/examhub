@@ -4,156 +4,659 @@
  "name": "Indian Bank Direct Recruitment (Specialist Officers, Apprentices and others)",
  "body": "in-indian-bank",
  "purpose": "recruitment",
- "cycle": "2025",
- "documents": 30,
- "documents_in_cycle": 4,
+ "cycle": "2026",
+ "documents": 31,
+ "documents_in_cycle": 1,
  "fields": {
   "vacancies": {
    "value": {
-    "total": 6,
+    "total": 1500,
     "by_category": {
-     "Unreserved": 5,
-     "OBC": 1,
-     "SC": 0,
-     "ST": 0,
-     "EWS": 0,
-     "PwBD-A": 0,
-     "PwBD-B": 0
+     "Unreserved": 676,
+     "OBC": 348,
+     "SC": 252,
+     "ST": 82,
+     "EWS": 142,
+     "PwBD-A": 12,
+     "PwBD-B": 12,
+     "PwBD-C": 13
     },
     "rows": [
      {
-      "label": "Fire SafetyOfficer / Associate Manager – Senior Officer",
-      "total": 6,
+      "label": "Andhra Pradesh",
+      "total": 85,
+      "by_category": {
+       "SC": 13,
+       "ST": 5,
+       "OBC": 22,
+       "EWS": 8,
+       "Unreserved": 37,
+       "PwBD-A": 1,
+       "PwBD-B": 1,
+       "PwBD-C": 1
+      },
+      "page": 1
+     },
+     {
+      "label": "Arunachal Pradesh",
+      "total": 1,
       "by_category": {
        "SC": 0,
        "ST": 0,
-       "OBC": 1,
+       "OBC": 0,
        "EWS": 0,
-       "Unreserved": 5,
+       "Unreserved": 1,
        "PwBD-A": 0,
-       "PwBD-B": 0
+       "PwBD-B": 0,
+       "PwBD-C": 0
       },
       "page": 1
+     },
+     {
+      "label": "Assam",
+      "total": 30,
+      "by_category": {
+       "SC": 2,
+       "ST": 3,
+       "OBC": 8,
+       "EWS": 3,
+       "Unreserved": 14,
+       "PwBD-A": 0,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Bihar",
+      "total": 80,
+      "by_category": {
+       "SC": 12,
+       "ST": 0,
+       "OBC": 21,
+       "EWS": 8,
+       "Unreserved": 39,
+       "PwBD-A": 1,
+       "PwBD-B": 1,
+       "PwBD-C": 1
+      },
+      "page": 1
+     },
+     {
+      "label": "Chandigarh",
+      "total": 2,
+      "by_category": {
+       "SC": 0,
+       "ST": 0,
+       "OBC": 0,
+       "EWS": 0,
+       "Unreserved": 2,
+       "PwBD-A": 0,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Chhattisgarh",
+      "total": 10,
+      "by_category": {
+       "SC": 1,
+       "ST": 3,
+       "OBC": 0,
+       "EWS": 1,
+       "Unreserved": 5,
+       "PwBD-A": 0,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Goa",
+      "total": 2,
+      "by_category": {
+       "SC": 0,
+       "ST": 0,
+       "OBC": 0,
+       "EWS": 0,
+       "Unreserved": 2,
+       "PwBD-A": 0,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Gujarat",
+      "total": 35,
+      "by_category": {
+       "SC": 2,
+       "ST": 5,
+       "OBC": 9,
+       "EWS": 3,
+       "Unreserved": 16,
+       "PwBD-A": 0,
+       "PwBD-B": 1,
+       "PwBD-C": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Haryana",
+      "total": 32,
+      "by_category": {
+       "SC": 6,
+       "ST": 0,
+       "OBC": 8,
+       "EWS": 3,
+       "Unreserved": 15,
+       "PwBD-A": 0,
+       "PwBD-B": 0,
+       "PwBD-C": 1
+      },
+      "page": 1
+     },
+     {
+      "label": "Himachal Pradesh",
+      "total": 6,
+      "by_category": {
+       "SC": 1,
+       "ST": 0,
+       "OBC": 1,
+       "EWS": 0,
+       "Unreserved": 4,
+       "PwBD-A": 0,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Jammu & Kashmir",
+      "total": 3,
+      "by_category": {
+       "SC": 0,
+       "ST": 0,
+       "OBC": 0,
+       "EWS": 0,
+       "Unreserved": 3,
+       "PwBD-A": 0,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Jharkhand",
+      "total": 60,
+      "by_category": {
+       "SC": 7,
+       "ST": 15,
+       "OBC": 7,
+       "EWS": 6,
+       "Unreserved": 25,
+       "PwBD-A": 1,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Karnataka",
+      "total": 35,
+      "by_category": {
+       "SC": 5,
+       "ST": 2,
+       "OBC": 9,
+       "EWS": 3,
+       "Unreserved": 16,
+       "PwBD-A": 0,
+       "PwBD-B": 1,
+       "PwBD-C": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Kerala",
+      "total": 44,
+      "by_category": {
+       "SC": 4,
+       "ST": 0,
+       "OBC": 11,
+       "EWS": 4,
+       "Unreserved": 25,
+       "PwBD-A": 0,
+       "PwBD-B": 0,
+       "PwBD-C": 1
+      },
+      "page": 1
+     },
+     {
+      "label": "Madhya Pradesh",
+      "total": 65,
+      "by_category": {
+       "SC": 9,
+       "ST": 13,
+       "OBC": 9,
+       "EWS": 6,
+       "Unreserved": 28,
+       "PwBD-A": 1,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Maharashtra",
+      "total": 70,
+      "by_category": {
+       "SC": 7,
+       "ST": 6,
+       "OBC": 18,
+       "EWS": 7,
+       "Unreserved": 32,
+       "PwBD-A": 0,
+       "PwBD-B": 1,
+       "PwBD-C": 1
+      },
+      "page": 1
+     },
+     {
+      "label": "Manipur",
+      "total": 2,
+      "by_category": {
+       "SC": 0,
+       "ST": 0,
+       "OBC": 0,
+       "EWS": 0,
+       "Unreserved": 2,
+       "PwBD-A": 0,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Meghalaya",
+      "total": 1,
+      "by_category": {
+       "SC": 0,
+       "ST": 0,
+       "OBC": 0,
+       "EWS": 0,
+       "Unreserved": 1,
+       "PwBD-A": 0,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Nagaland",
+      "total": 2,
+      "by_category": {
+       "SC": 0,
+       "ST": 0,
+       "OBC": 0,
+       "EWS": 0,
+       "Unreserved": 2,
+       "PwBD-A": 0,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "NctOfDelhi",
+      "total": 32,
+      "by_category": {
+       "SC": 4,
+       "ST": 2,
+       "OBC": 8,
+       "EWS": 3,
+       "Unreserved": 15,
+       "PwBD-A": 0,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Odisha",
+      "total": 42,
+      "by_category": {
+       "SC": 6,
+       "ST": 9,
+       "OBC": 5,
+       "EWS": 4,
+       "Unreserved": 18,
+       "PwBD-A": 1,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Puducherry",
+      "total": 9,
+      "by_category": {
+       "SC": 1,
+       "ST": 0,
+       "OBC": 2,
+       "EWS": 0,
+       "Unreserved": 6,
+       "PwBD-A": 0,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 1
+     },
+     {
+      "label": "Punjab",
+      "total": 45,
+      "by_category": {
+       "SC": 13,
+       "ST": 0,
+       "OBC": 9,
+       "EWS": 4,
+       "Unreserved": 19,
+       "PwBD-A": 0,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 2
+     },
+     {
+      "label": "Rajasthan",
+      "total": 40,
+      "by_category": {
+       "SC": 6,
+       "ST": 5,
+       "OBC": 8,
+       "EWS": 4,
+       "Unreserved": 17,
+       "PwBD-A": 0,
+       "PwBD-B": 1,
+       "PwBD-C": 0
+      },
+      "page": 2
+     },
+     {
+      "label": "TamilNadu",
+      "total": 270,
+      "by_category": {
+       "SC": 51,
+       "ST": 2,
+       "OBC": 72,
+       "EWS": 27,
+       "Unreserved": 118,
+       "PwBD-A": 3,
+       "PwBD-B": 2,
+       "PwBD-C": 3
+      },
+      "page": 2
+     },
+     {
+      "label": "Telangana",
+      "total": 46,
+      "by_category": {
+       "SC": 7,
+       "ST": 3,
+       "OBC": 12,
+       "EWS": 4,
+       "Unreserved": 20,
+       "PwBD-A": 0,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 2
+     },
+     {
+      "label": "Tripura",
+      "total": 1,
+      "by_category": {
+       "SC": 0,
+       "ST": 0,
+       "OBC": 0,
+       "EWS": 0,
+       "Unreserved": 1,
+       "PwBD-A": 0,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 2
+     },
+     {
+      "label": "UttarPradesh",
+      "total": 285,
+      "by_category": {
+       "SC": 59,
+       "ST": 2,
+       "OBC": 76,
+       "EWS": 28,
+       "Unreserved": 120,
+       "PwBD-A": 3,
+       "PwBD-B": 3,
+       "PwBD-C": 3
+      },
+      "page": 2
+     },
+     {
+      "label": "Uttarakhand",
+      "total": 20,
+      "by_category": {
+       "SC": 3,
+       "ST": 0,
+       "OBC": 2,
+       "EWS": 2,
+       "Unreserved": 13,
+       "PwBD-A": 0,
+       "PwBD-B": 0,
+       "PwBD-C": 0
+      },
+      "page": 2
+     },
+     {
+      "label": "WestBengal",
+      "total": 145,
+      "by_category": {
+       "SC": 33,
+       "ST": 7,
+       "OBC": 31,
+       "EWS": 14,
+       "Unreserved": 60,
+       "PwBD-A": 1,
+       "PwBD-B": 1,
+       "PwBD-C": 2
+      },
+      "page": 2
      }
     ],
     "from": "table"
    },
    "source": {
-    "notice": "005e2e6b6a10a54b5477a61d556d6838b7b00c97b6748b408afdf6ea354e8884",
-    "url": "https://indianbank.bank.in/documents/20117/34414/Final_Detailed-Advertisement-for-engagement-of-Fire-Safety-Officers-1 (1)2026_05_01_10_00_11.pdf/a88518c3-ffa4-9bbb-c7aa-c81f1e08d0da",
-    "title": "Detailed Advertisement",
+    "notice": "0016aa0c649c199d60b4709f872fb4bd86ba4b58e53dee2ecba4e3d95e6ad1db",
+    "url": "https://indianbank.bank.in/documents/20117/34414/FINAL UPDATED ADVERTISEMENT FOR ENGAGEMENT OF APPRENTICES FOR FY 2026-27 - 04.11.20262026_11_04_04_14_20.pdf/451450a2-0501-51ba-e37c-db63b9c27425",
+    "title": "Detailed advertisement for Engagement of Apprentices for FY 2026-27 under the Apprentices Act 1961",
     "kind": "advertisement"
    }
   },
   "dates": {
    "registration_deadline": {
-    "date": "2025-02-20",
+    "date": "2026-11-25",
     "source": {
-     "notice": "3b3121d16c37cbf8d71bdcaff3d0692149b42c24242a947423850bb04a29d6f7",
-     "url": "https://indianbank.bank.in/documents/20117/34414/FGMO-Bengaluru-Advertisement2026_05_02_21_36_36.pdf/69c8383f-e04f-7d80-0ad6-b14dce47fd04",
-     "title": "Engagement of Authorized Doctor on Contract Basis with Monthly Remuneration at FGMO Bengaluru Advertisement",
+     "notice": "0016aa0c649c199d60b4709f872fb4bd86ba4b58e53dee2ecba4e3d95e6ad1db",
+     "url": "https://indianbank.bank.in/documents/20117/34414/FINAL UPDATED ADVERTISEMENT FOR ENGAGEMENT OF APPRENTICES FOR FY 2026-27 - 04.11.20262026_11_04_04_14_20.pdf/451450a2-0501-51ba-e37c-db63b9c27425",
+     "title": "Detailed advertisement for Engagement of Apprentices for FY 2026-27 under the Apprentices Act 1961",
      "kind": "advertisement",
-     "page": 1
-    },
-    "alternatives": 3
+     "page": 15
+    }
+   },
+   "registration_open": {
+    "date": "2026-11-05",
+    "source": {
+     "notice": "0016aa0c649c199d60b4709f872fb4bd86ba4b58e53dee2ecba4e3d95e6ad1db",
+     "url": "https://indianbank.bank.in/documents/20117/34414/FINAL UPDATED ADVERTISEMENT FOR ENGAGEMENT OF APPRENTICES FOR FY 2026-27 - 04.11.20262026_11_04_04_14_20.pdf/451450a2-0501-51ba-e37c-db63b9c27425",
+     "title": "Detailed advertisement for Engagement of Apprentices for FY 2026-27 under the Apprentices Act 1961",
+     "kind": "advertisement",
+     "page": 15
+    }
    }
   },
   "apply": {
    "value": {
-    "from": null,
-    "until": "2025-02-20"
+    "from": "2026-11-05",
+    "until": "2026-11-25"
    },
    "source": {
-    "notice": "3b3121d16c37cbf8d71bdcaff3d0692149b42c24242a947423850bb04a29d6f7",
-    "url": "https://indianbank.bank.in/documents/20117/34414/FGMO-Bengaluru-Advertisement2026_05_02_21_36_36.pdf/69c8383f-e04f-7d80-0ad6-b14dce47fd04",
-    "title": "Engagement of Authorized Doctor on Contract Basis with Monthly Remuneration at FGMO Bengaluru Advertisement",
+    "notice": "0016aa0c649c199d60b4709f872fb4bd86ba4b58e53dee2ecba4e3d95e6ad1db",
+    "url": "https://indianbank.bank.in/documents/20117/34414/FINAL UPDATED ADVERTISEMENT FOR ENGAGEMENT OF APPRENTICES FOR FY 2026-27 - 04.11.20262026_11_04_04_14_20.pdf/451450a2-0501-51ba-e37c-db63b9c27425",
+    "title": "Detailed advertisement for Engagement of Apprentices for FY 2026-27 under the Apprentices Act 1961",
     "kind": "advertisement",
-    "page": 1
+    "page": 15
    }
   },
-  "advertisement_no": {
-   "value": "01/2025",
+  "apply_links": {
+   "value": [
+    "https://www.indianbank.bank.in/career"
+   ],
    "source": {
-    "notice": "3b3121d16c37cbf8d71bdcaff3d0692149b42c24242a947423850bb04a29d6f7",
-    "url": "https://indianbank.bank.in/documents/20117/34414/FGMO-Bengaluru-Advertisement2026_05_02_21_36_36.pdf/69c8383f-e04f-7d80-0ad6-b14dce47fd04",
-    "title": "Engagement of Authorized Doctor on Contract Basis with Monthly Remuneration at FGMO Bengaluru Advertisement",
+    "notice": "0016aa0c649c199d60b4709f872fb4bd86ba4b58e53dee2ecba4e3d95e6ad1db",
+    "url": "https://indianbank.bank.in/documents/20117/34414/FINAL UPDATED ADVERTISEMENT FOR ENGAGEMENT OF APPRENTICES FOR FY 2026-27 - 04.11.20262026_11_04_04_14_20.pdf/451450a2-0501-51ba-e37c-db63b9c27425",
+    "title": "Detailed advertisement for Engagement of Apprentices for FY 2026-27 under the Apprentices Act 1961",
     "kind": "advertisement"
    }
   },
   "eligibility": {
    "value": {
     "education_levels": [
-     "Graduate",
-     "Diploma / ITI"
+     "Graduate"
     ],
     "clauses": [
      {
-      "text": "Candidates should have a minimum of 10 years’ experience (post qualification experience) in any hospital or as Medical Practitioner",
-      "page": 1
+      "text": "AGE & EDUCATIONAL QUALIFICATION:",
+      "page": 3
      },
      {
-      "text": "Mere fulfilling the eligibility criteria does not entitle a candidate to be called for interview",
-      "page": 1
+      "text": "(For fulfillment of eligibility criteria relating to age, educational qualification, etc.)",
+      "page": 3
      },
      {
-      "text": "Educational Qualifications:(Indicate degree / diploma obtained, In the order of highest to least)",
+      "text": "Minimum 20 years and Maximum 28 years as on cut-off date i.e. candidates must have been born not later than 01.11.2006 and not earlier than 02.11.1998 (both days inclusive)",
+      "page": 3
+     },
+     {
+      "text": "Educational Qualification",
+      "page": 3
+     },
+     {
+      "text": "Graduate degree in any discipline from a recognized University or any equivalent qualifications recognized as such by the Central Government",
+      "page": 3
+     },
+     {
+      "text": "Candidates must have passed their Graduation on or after 01.04.2022 and",
+      "page": 3
+     },
+     {
+      "text": "The candidate should possess a valid OBC certificate with a non-creamy layer clause as per the Government of India guidelines, from time to time",
+      "page": 4
+     },
+     {
+      "text": " Both the candidate as well as scribe will have to give a suitable undertaking confirming that the scribe fulfils all the stipulated eligibility criteria for a scribe mentioned above",
       "page": 6
      },
      {
-      "text": "Attested copies of certificates regarding ID & Address proof, age, educational qualifications, experience etc. should accompany the application",
-      "page": 7
+      "text": "Further in case it later transpires that he/she did not fulfil any laid down eligibility criteria or suppressed material facts the candidature of the applicant will stand cancelled, irrespective of the result",
+      "page": 6
+     },
+     {
+      "text": "Registration Process All eligible candidates need to register himself/herself on the apprenticeship portal (NATS 2.0 Portal) - www.nats.education.gov.in before applying for apprenticeship in the Bank. (Only for candidates who have passed their graduation examination on or after 1st April 2022)",
+      "page": 8
+     },
+     {
+      "text": " Candidates who have already undergone apprenticeship training or have job experience for a period of 01 year or more after completion of educational qualifications shall not be eligible for being engaged as apprentice",
+      "page": 9
+     },
+     {
+      "text": " Mark sheets or certificates for educational qualifications",
+      "page": 18
+     },
+     {
+      "text": "Only those candidates who agree to the terms and conditions as stipulated by the Bank and fulfil the eligibility criteria need to apply",
+      "page": 22
+     },
+     {
+      "text": "My educational qualification is _______________________",
+      "page": 29
      }
     ]
    },
    "source": {
-    "notice": "3b3121d16c37cbf8d71bdcaff3d0692149b42c24242a947423850bb04a29d6f7",
-    "url": "https://indianbank.bank.in/documents/20117/34414/FGMO-Bengaluru-Advertisement2026_05_02_21_36_36.pdf/69c8383f-e04f-7d80-0ad6-b14dce47fd04",
-    "title": "Engagement of Authorized Doctor on Contract Basis with Monthly Remuneration at FGMO Bengaluru Advertisement",
+    "notice": "0016aa0c649c199d60b4709f872fb4bd86ba4b58e53dee2ecba4e3d95e6ad1db",
+    "url": "https://indianbank.bank.in/documents/20117/34414/FINAL UPDATED ADVERTISEMENT FOR ENGAGEMENT OF APPRENTICES FOR FY 2026-27 - 04.11.20262026_11_04_04_14_20.pdf/451450a2-0501-51ba-e37c-db63b9c27425",
+    "title": "Detailed advertisement for Engagement of Apprentices for FY 2026-27 under the Apprentices Act 1961",
     "kind": "advertisement"
-   },
-   "alternatives": 3
+   }
   },
   "selection": {
    "value": [
+    "Computer-based test",
     "Interview"
    ],
    "source": {
-    "notice": "3b3121d16c37cbf8d71bdcaff3d0692149b42c24242a947423850bb04a29d6f7",
-    "url": "https://indianbank.bank.in/documents/20117/34414/FGMO-Bengaluru-Advertisement2026_05_02_21_36_36.pdf/69c8383f-e04f-7d80-0ad6-b14dce47fd04",
-    "title": "Engagement of Authorized Doctor on Contract Basis with Monthly Remuneration at FGMO Bengaluru Advertisement",
+    "notice": "0016aa0c649c199d60b4709f872fb4bd86ba4b58e53dee2ecba4e3d95e6ad1db",
+    "url": "https://indianbank.bank.in/documents/20117/34414/FINAL UPDATED ADVERTISEMENT FOR ENGAGEMENT OF APPRENTICES FOR FY 2026-27 - 04.11.20262026_11_04_04_14_20.pdf/451450a2-0501-51ba-e37c-db63b9c27425",
+    "title": "Detailed advertisement for Engagement of Apprentices for FY 2026-27 under the Apprentices Act 1961",
     "kind": "advertisement"
-   },
-   "alternatives": 2
+   }
   },
   "exam_pattern": {
    "value": [
     {
-     "paper": "(a) Physicalfitness",
-     "page": 4,
-     "marks": 5
+     "paper": "Reasoning Aptitude",
+     "page": 9,
+     "questions": 15,
+     "marks": 15,
+     "duration": "Composite time of 60 minutes"
     },
     {
-     "paper": "(b) Speedendurance",
-     "page": 4,
-     "marks": 5
+     "paper": "Computer Knowledge",
+     "page": 9,
+     "questions": 10,
+     "marks": 10
     },
     {
-     "paper": "(c) GameSkill",
-     "page": 4,
-     "marks": 20
+     "paper": "English Language",
+     "page": 9,
+     "questions": 25,
+     "marks": 25
     },
     {
-     "paper": "Total(MaximumMarks)",
-     "page": 4
+     "paper": "Quantitative Aptitude",
+     "page": 9,
+     "questions": 25,
+     "marks": 25
+    },
+    {
+     "paper": "General Awareness with Special Reference to Banking Industry",
+     "page": 9,
+     "questions": 25,
+     "marks": 25
+    },
+    {
+     "paper": "Total",
+     "page": 9,
+     "questions": 100,
+     "marks": 100
     }
    ],
    "source": {
-    "notice": "21ab251e977bcc9ac43f4b4911acd721ab3a3f5edd0a3752bffa0b9febd72fb7",
-    "url": "https://indianbank.bank.in/documents/20117/34414/Detailed-advertisment-for-recruitment-of-Sportspersons-20232026_05_04_15_14_49.pdf/64619e68-abde-6f7d-d8e6-a025f15e0daf",
-    "title": "Detailed advertisment for recruitment of Sportspersons 2023",
+    "notice": "0016aa0c649c199d60b4709f872fb4bd86ba4b58e53dee2ecba4e3d95e6ad1db",
+    "url": "https://indianbank.bank.in/documents/20117/34414/FINAL UPDATED ADVERTISEMENT FOR ENGAGEMENT OF APPRENTICES FOR FY 2026-27 - 04.11.20262026_11_04_04_14_20.pdf/451450a2-0501-51ba-e37c-db63b9c27425",
+    "title": "Detailed advertisement for Engagement of Apprentices for FY 2026-27 under the Apprentices Act 1961",
     "kind": "advertisement"
-   },
-   "carried_from": "2023"
+   }
   }
  },
  "gaps": [
@@ -162,5 +665,5 @@
   "age",
   "pay"
  ],
- "older_documents": 26
+ "older_documents": 30
 }

@@ -1,0 +1,695 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0016aa0c649c199d60b4709f872fb4bd86ba4b58e53dee2ecba4e3d95e6ad1db",
+  "url": "https://indianbank.bank.in/documents/20117/34414/FINAL UPDATED ADVERTISEMENT FOR ENGAGEMENT OF APPRENTICES FOR FY 2026-27 - 04.11.20262026_11_04_04_14_20.pdf/451450a2-0501-51ba-e37c-db63b9c27425",
+  "title": "Detailed advertisement for Engagement of Apprentices for FY 2026-27 under the Apprentices Act 1961",
+  "body": "in-indian-bank",
+  "exam": "in-indian-bank-recruitment",
+  "feed": "in-indian-bank/career",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "5cebc0b80b5b0c85698a1a41606b4833aa36afde387cad192bf24f97806a066c",
+  "bytes": 1031248,
+  "pages": 44,
+  "chars": 83093,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-11-04T09:58:23+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-11-25",
+   "evidence": "Candidates can apply online from 05.11.2026 to 25.11.2026 (both days inclusive)",
+   "page": 15,
+   "from": "text"
+  },
+  "registration_open": {
+   "date": "2026-11-05",
+   "evidence": "Candidates can apply online from 05.11.2026 to 25.11.2026 (both days inclusive)",
+   "page": 15,
+   "from": "text"
+  }
+ },
+ "unmapped_classes": [
+  {
+   "label": "Outofwhich ID",
+   "page": 2
+  }
+ ],
+ "vacancies": {
+  "total": 1500,
+  "by_category": {
+   "Unreserved": 676,
+   "OBC": 348,
+   "SC": 252,
+   "ST": 82,
+   "EWS": 142,
+   "PwBD-A": 12,
+   "PwBD-B": 12,
+   "PwBD-C": 13
+  },
+  "rows": [
+   {
+    "label": "Andhra Pradesh",
+    "total": 85,
+    "by_category": {
+     "SC": 13,
+     "ST": 5,
+     "OBC": 22,
+     "EWS": 8,
+     "Unreserved": 37,
+     "PwBD-A": 1,
+     "PwBD-B": 1,
+     "PwBD-C": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "Arunachal Pradesh",
+    "total": 1,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 1,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "Assam",
+    "total": 30,
+    "by_category": {
+     "SC": 2,
+     "ST": 3,
+     "OBC": 8,
+     "EWS": 3,
+     "Unreserved": 14,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "Bihar",
+    "total": 80,
+    "by_category": {
+     "SC": 12,
+     "ST": 0,
+     "OBC": 21,
+     "EWS": 8,
+     "Unreserved": 39,
+     "PwBD-A": 1,
+     "PwBD-B": 1,
+     "PwBD-C": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "Chandigarh",
+    "total": 2,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 2,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "Chhattisgarh",
+    "total": 10,
+    "by_category": {
+     "SC": 1,
+     "ST": 3,
+     "OBC": 0,
+     "EWS": 1,
+     "Unreserved": 5,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "Goa",
+    "total": 2,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 2,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "Gujarat",
+    "total": 35,
+    "by_category": {
+     "SC": 2,
+     "ST": 5,
+     "OBC": 9,
+     "EWS": 3,
+     "Unreserved": 16,
+     "PwBD-A": 0,
+     "PwBD-B": 1,
+     "PwBD-C": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "Haryana",
+    "total": 32,
+    "by_category": {
+     "SC": 6,
+     "ST": 0,
+     "OBC": 8,
+     "EWS": 3,
+     "Unreserved": 15,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "Himachal Pradesh",
+    "total": 6,
+    "by_category": {
+     "SC": 1,
+     "ST": 0,
+     "OBC": 1,
+     "EWS": 0,
+     "Unreserved": 4,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "Jammu & Kashmir",
+    "total": 3,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 3,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "Jharkhand",
+    "total": 60,
+    "by_category": {
+     "SC": 7,
+     "ST": 15,
+     "OBC": 7,
+     "EWS": 6,
+     "Unreserved": 25,
+     "PwBD-A": 1,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "Karnataka",
+    "total": 35,
+    "by_category": {
+     "SC": 5,
+     "ST": 2,
+     "OBC": 9,
+     "EWS": 3,
+     "Unreserved": 16,
+     "PwBD-A": 0,
+     "PwBD-B": 1,
+     "PwBD-C": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "Kerala",
+    "total": 44,
+    "by_category": {
+     "SC": 4,
+     "ST": 0,
+     "OBC": 11,
+     "EWS": 4,
+     "Unreserved": 25,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "Madhya Pradesh",
+    "total": 65,
+    "by_category": {
+     "SC": 9,
+     "ST": 13,
+     "OBC": 9,
+     "EWS": 6,
+     "Unreserved": 28,
+     "PwBD-A": 1,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "Maharashtra",
+    "total": 70,
+    "by_category": {
+     "SC": 7,
+     "ST": 6,
+     "OBC": 18,
+     "EWS": 7,
+     "Unreserved": 32,
+     "PwBD-A": 0,
+     "PwBD-B": 1,
+     "PwBD-C": 1
+    },
+    "page": 1
+   },
+   {
+    "label": "Manipur",
+    "total": 2,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 2,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "Meghalaya",
+    "total": 1,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 1,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "Nagaland",
+    "total": 2,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 2,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "NctOfDelhi",
+    "total": 32,
+    "by_category": {
+     "SC": 4,
+     "ST": 2,
+     "OBC": 8,
+     "EWS": 3,
+     "Unreserved": 15,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "Odisha",
+    "total": 42,
+    "by_category": {
+     "SC": 6,
+     "ST": 9,
+     "OBC": 5,
+     "EWS": 4,
+     "Unreserved": 18,
+     "PwBD-A": 1,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "Puducherry",
+    "total": 9,
+    "by_category": {
+     "SC": 1,
+     "ST": 0,
+     "OBC": 2,
+     "EWS": 0,
+     "Unreserved": 6,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 1
+   },
+   {
+    "label": "Punjab",
+    "total": 45,
+    "by_category": {
+     "SC": 13,
+     "ST": 0,
+     "OBC": 9,
+     "EWS": 4,
+     "Unreserved": 19,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Rajasthan",
+    "total": 40,
+    "by_category": {
+     "SC": 6,
+     "ST": 5,
+     "OBC": 8,
+     "EWS": 4,
+     "Unreserved": 17,
+     "PwBD-A": 0,
+     "PwBD-B": 1,
+     "PwBD-C": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "TamilNadu",
+    "total": 270,
+    "by_category": {
+     "SC": 51,
+     "ST": 2,
+     "OBC": 72,
+     "EWS": 27,
+     "Unreserved": 118,
+     "PwBD-A": 3,
+     "PwBD-B": 2,
+     "PwBD-C": 3
+    },
+    "page": 2
+   },
+   {
+    "label": "Telangana",
+    "total": 46,
+    "by_category": {
+     "SC": 7,
+     "ST": 3,
+     "OBC": 12,
+     "EWS": 4,
+     "Unreserved": 20,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "Tripura",
+    "total": 1,
+    "by_category": {
+     "SC": 0,
+     "ST": 0,
+     "OBC": 0,
+     "EWS": 0,
+     "Unreserved": 1,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "UttarPradesh",
+    "total": 285,
+    "by_category": {
+     "SC": 59,
+     "ST": 2,
+     "OBC": 76,
+     "EWS": 28,
+     "Unreserved": 120,
+     "PwBD-A": 3,
+     "PwBD-B": 3,
+     "PwBD-C": 3
+    },
+    "page": 2
+   },
+   {
+    "label": "Uttarakhand",
+    "total": 20,
+    "by_category": {
+     "SC": 3,
+     "ST": 0,
+     "OBC": 2,
+     "EWS": 2,
+     "Unreserved": 13,
+     "PwBD-A": 0,
+     "PwBD-B": 0,
+     "PwBD-C": 0
+    },
+    "page": 2
+   },
+   {
+    "label": "WestBengal",
+    "total": 145,
+    "by_category": {
+     "SC": 33,
+     "ST": 7,
+     "OBC": 31,
+     "EWS": 14,
+     "Unreserved": 60,
+     "PwBD-A": 1,
+     "PwBD-B": 1,
+     "PwBD-C": 2
+    },
+    "page": 2
+   }
+  ],
+  "from": "table"
+ },
+ "age": {
+  "relaxations": [
+   {
+    "categories": [
+     "SC",
+     "ST"
+    ],
+    "for": "Scheduled Caste/ Scheduled Tribe candidates",
+    "years": 5,
+    "raw": "A Scheduled Caste/ Scheduled Tribe candidates 5 Years",
+    "page": 3
+   },
+   {
+    "categories": [
+     "OBC-NCL"
+    ],
+    "for": "Other Backward Classes(Non-Creamy Layer)candidates",
+    "years": 3,
+    "raw": "B Other Backward Classes(Non-Creamy Layer)candidates 3 Years",
+    "page": 3
+   },
+   {
+    "categories": [
+     "PwBD"
+    ],
+    "for": "Persons with Benchmark Disabilities as defined under “The Rights of Personswith Disabilities Act 2016” ,",
+    "years": 10,
+    "raw": "C Persons with Benchmark Disabilities as defined under “The Rights of Personswith Disabilities Act 2016” , 10 Years",
+    "page": 3
+   },
+   {
+    "for": "Persons affectedby1984 riots",
+    "years": 5,
+    "raw": "D Persons affectedby1984 riots 5 Years",
+    "page": 3
+   },
+   {
+    "categories": [
+     "Widow",
+     "Divorcee",
+     "Women"
+    ],
+    "for": "Widows divorced women and women legally , separatedfrom their husbands who have not remarried",
+    "raw": "E Widows divorced women and women legally , separatedfrom their husbands who have not remarried Age concession up to the age of 35 years for General/EWS 38 years for , OBC and 40 years for SC/ST candi",
+    "page": 3
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "AGE & EDUCATIONAL QUALIFICATION:",
+    "page": 3
+   },
+   {
+    "text": "(For fulfillment of eligibility criteria relating to age, educational qualification, etc.)",
+    "page": 3
+   },
+   {
+    "text": "Minimum 20 years and Maximum 28 years as on cut-off date i.e. candidates must have been born not later than 01.11.2006 and not earlier than 02.11.1998 (both days inclusive)",
+    "page": 3
+   },
+   {
+    "text": "Educational Qualification",
+    "page": 3
+   },
+   {
+    "text": "Graduate degree in any discipline from a recognized University or any equivalent qualifications recognized as such by the Central Government",
+    "page": 3
+   },
+   {
+    "text": "Candidates must have passed their Graduation on or after 01.04.2022 and",
+    "page": 3
+   },
+   {
+    "text": "The candidate should possess a valid OBC certificate with a non-creamy layer clause as per the Government of India guidelines, from time to time",
+    "page": 4
+   },
+   {
+    "text": " Both the candidate as well as scribe will have to give a suitable undertaking confirming that the scribe fulfils all the stipulated eligibility criteria for a scribe mentioned above",
+    "page": 6
+   },
+   {
+    "text": "Further in case it later transpires that he/she did not fulfil any laid down eligibility criteria or suppressed material facts the candidature of the applicant will stand cancelled, irrespective of the result",
+    "page": 6
+   },
+   {
+    "text": "Registration Process All eligible candidates need to register himself/herself on the apprenticeship portal (NATS 2.0 Portal) - www.nats.education.gov.in before applying for apprenticeship in the Bank. (Only for candidates who have passed their graduation examination on or after 1st April 2022)",
+    "page": 8
+   },
+   {
+    "text": " Candidates who have already undergone apprenticeship training or have job experience for a period of 01 year or more after completion of educational qualifications shall not be eligible for being engaged as apprentice",
+    "page": 9
+   },
+   {
+    "text": " Mark sheets or certificates for educational qualifications",
+    "page": 18
+   },
+   {
+    "text": "Only those candidates who agree to the terms and conditions as stipulated by the Bank and fulfil the eligibility criteria need to apply",
+    "page": 22
+   },
+   {
+    "text": "My educational qualification is _______________________",
+    "page": 29
+   }
+  ]
+ },
+ "selection": [
+  "Computer-based test",
+  "Interview"
+ ],
+ "exam_pattern": [
+  {
+   "paper": "Reasoning Aptitude",
+   "page": 9,
+   "questions": 15,
+   "marks": 15,
+   "duration": "Composite time of 60 minutes"
+  },
+  {
+   "paper": "Computer Knowledge",
+   "page": 9,
+   "questions": 10,
+   "marks": 10
+  },
+  {
+   "paper": "English Language",
+   "page": 9,
+   "questions": 25,
+   "marks": 25
+  },
+  {
+   "paper": "Quantitative Aptitude",
+   "page": 9,
+   "questions": 25,
+   "marks": 25
+  },
+  {
+   "paper": "General Awareness with Special Reference to Banking Industry",
+   "page": 9,
+   "questions": 25,
+   "marks": 25
+  },
+  {
+   "paper": "Total",
+   "page": 9,
+   "questions": 100,
+   "marks": 100
+  }
+ ],
+ "exam": {
+  "mode": {
+   "value": "Online (CBT)",
+   "page": 6
+  }
+ },
+ "links": {
+  "apply": [
+   "https://www.indianbank.bank.in/career"
+  ],
+  "other": [
+   "http://www.nats.education.gov.in/",
+   "https://nats.education.gov.in/assets/manual/student_manual.pdf",
+   "http://bfsissc.com/",
+   "http://www.indianbank.bank.in/",
+   "https://nats.education.gov.in/",
+   "https://www.nats.education.gov.in",
+   "https://www.indianbank.bank.in",
+   "https://apprenticeshipindia.org/",
+   "https://nsdcindia.org/apprenticeship"
+  ]
+ },
+ "summary": {
+  "vacancies": 1500,
+  "apply": {
+   "from": "2026-11-05",
+   "until": "2026-11-25"
+  },
+  "education": [
+   "Graduate"
+  ],
+  "selection": "Computer-based test → Interview"
+ }
+}
