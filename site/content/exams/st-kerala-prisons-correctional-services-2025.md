@@ -325,25 +325,25 @@ link_apply         = 'https://keralapsc.gov.in/'
   [[links.documents]]
   document_type      = 'schedule'
   document_stage     = 'all'
-  document_published = 2026-10-22
-  document_title     = 'Featured Latest, 2026, Kannur NURSE GR II (AYURVEDA) (I NCA for :SCHEDULED CASTE) (Category No. 248/2025) in…'
-  document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-10/2482025_13_0_0.pdf'
+  document_published = 2026-11-03
+  document_title     = 'Featured Latest, 2026, Eranakulam PHARMACIST GRADE II (HOMOEO) (Category No.084/2025) (IV NCA for : SCHEDULED…'
+  document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-11/0842025_07_0_0.pdf'
   document_archive   = 'not_archived'
 
   [[links.documents]]
   document_type      = 'schedule'
   document_stage     = 'all'
-  document_published = 2026-10-16
-  document_title     = 'Featured Latest, 2026, Thiruvananthapuram LP SCHOOL TEACHER (MALAYALAM MEDIUM)(Ist NCA for : SCHEDULED…'
-  document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-10/2402025_01_0_0.pdf'
+  document_published = 2026-11-02
+  document_title     = 'Featured Latest, 2026, Kasaragod FULL TIME JUNIOR LANGUAGE TEACHER (ARABIC) UPS (FOURTH NCA-SCHEDULED CASTE )…'
+  document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-11/5202025_14_0_0.pdf'
   document_archive   = 'not_archived'
 
   [[links.documents]]
   document_type      = 'schedule'
   document_stage     = 'all'
-  document_published = 2026-10-06
-  document_title     = 'Featured Latest, 2026, Alappuzha FULL TIME JUNIOR LANGUAGE TEACHER (ARABIC) -LPS (VIII NCA-SCHEDULED CASTE)…'
-  document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-10/0722025_04_0_0-1.pdf'
+  document_published = 2026-11-02
+  document_title     = 'Featured Latest, 2026, Malappuram FULL TIME JUNIOR LANGUAGE TEACHER (ARABIC) UPS(FIRST NCA-SCHEDULED CASTE…'
+  document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-11/5162025_10_0_0.pdf'
   document_archive   = 'not_archived'
 
   [[links.documents]]
@@ -357,7 +357,7 @@ link_apply         = 'https://keralapsc.gov.in/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-10-28T05:39:54+05:30
+provenance_last_checked = 2026-11-04T06:39:39+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'

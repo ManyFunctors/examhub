@@ -299,7 +299,7 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'https://psc.ap.gov.in/'
+link_official_page = 'https://portal-psc.ap.gov.in/'
 link_apply         = 'https://portal-psc.ap.gov.in/LoginApplication'
 
   [[links.documents]]
@@ -314,7 +314,7 @@ link_apply         = 'https://portal-psc.ap.gov.in/LoginApplication'
   document_type      = 'other'
   document_stage     = 'all'
   document_published = 'unknown'
-  document_url       = 'https://portal-psc.ap.gov.in/'
+  document_url       = 'https://psc.ap.gov.in/'
   document_archive   = 'not_archived'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
