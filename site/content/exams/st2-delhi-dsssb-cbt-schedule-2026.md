@@ -306,7 +306,7 @@ link_apply         = 'https://dsssb.delhi.gov.in/user/login'
   document_published = 'unknown'
   document_url       = 'https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/docs_0001.pdf'
   document_archive   = 'not_archived'
-  document_title     = '16 NOTICE NO: 205 POST: TRANSLATOR (HINDI) POST CODE- 07/24 LEGISLATIVE ASSEMBLY SECRETARIAT Download'
+  document_title     = '19 NOTICE NO: 205 POST: TRANSLATOR (HINDI) POST CODE- 07/24 LEGISLATIVE ASSEMBLY SECRETARIAT Download'
 
   [[links.documents]]
   document_type      = 'other'
@@ -318,7 +318,7 @@ link_apply         = 'https://dsssb.delhi.gov.in/user/login'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-11-03T08:31:23+05:30
+provenance_last_checked = 2026-11-04T06:39:39+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'
