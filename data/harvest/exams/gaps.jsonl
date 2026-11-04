@@ -531,7 +531,7 @@
 {"cycle": "2025", "documents": 1, "gaps": ["apply", "exam_date", "pay"], "id": "in-sbi-cbo"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sbi-clerk"}
 {"cycle": "2026", "documents": 3, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sbi-po"}
-{"cycle": "2026", "documents": 60, "gaps": ["exam_date", "fee", "pay"], "id": "in-sbi-so"}
+{"cycle": "2026", "documents": 61, "gaps": ["exam_date", "fee", "pay"], "id": "in-sbi-so"}
 {"cycle": null, "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sci-court-assistant"}
 {"cycle": null, "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "in-sci-court-attendant"}
 {"cycle": "2025", "documents": 5, "gaps": ["vacancies", "apply", "fee", "age"], "id": "in-sci-court-master-steno"}
@@ -660,7 +660,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-ldc"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-lecturer"}
 {"cycle": "2023", "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-lgs"}
-{"cycle": "2026", "documents": 12, "gaps": ["vacancies", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-other"}
+{"cycle": "2026", "documents": 13, "gaps": ["vacancies", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-other"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-police"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-staff-nurse"}
 {"cycle": "2026", "documents": 9, "gaps": ["vacancies", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-teacher"}
@@ -952,7 +952,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "uk-ukpsc-other"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "uk-ukpsc-upper-pcs"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "uk-uksssc-forest-guard"}
-{"cycle": "2026", "documents": 3, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "uk-uksssc-group-c"}
+{"cycle": "2026", "documents": 4, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "uk-uksssc-group-c"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "uk-uksssc-police"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "uk-uksssc-vdo-patwari"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "uk-utet"}
