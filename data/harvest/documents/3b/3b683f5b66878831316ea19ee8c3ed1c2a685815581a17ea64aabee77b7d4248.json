@@ -1,0 +1,151 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "3b683f5b66878831316ea19ee8c3ed1c2a685815581a17ea64aabee77b7d4248",
+  "url": "https://meghealth.gov.in/news/Advertisement for Stray Vacancy Round for MBBS in PIMC 2026-27.pdf",
+  "title": "Advertisement for the Stray Vacancy Round Counselling of 1st Year MBBS AY 2026-27 at PA Sangma International Medical College & Hospital",
+  "body": "ml-health",
+  "exam": "ml-health-admission-counselling",
+  "feed": "ml-health/home",
+  "doc_type": "notification"
+ },
+ "document": {
+  "sha256": "7ecfeaf65ab4fbd7ff1cbf5ab454189545f645e589064de88bc308c73eb0f23e",
+  "bytes": 413021,
+  "pages": 5,
+  "chars": 9779,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-11-04T23:21:07+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "registration_open": {
+   "date": "2026-11-04",
+   "evidence": "Date of Commencement of online application - 4th November 2026 from 10:00 AM onwards",
+   "page": 1,
+   "from": "text"
+  },
+  "registration_deadline": {
+   "date": "2026-11-06",
+   "evidence": "Last Date of online submission - 6th November 2026 till 12:00 Noon",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "vacancies": {
+  "total": 47,
+  "rows": [
+   {
+    "label": "StateUnreserved",
+    "total": 1,
+    "page": 1
+   },
+   {
+    "label": "StateKhasi&Jaintia",
+    "total": 3,
+    "page": 1
+   },
+   {
+    "label": "StateGaro",
+    "total": 4,
+    "page": 1
+   },
+   {
+    "label": "Management",
+    "total": 39,
+    "page": 1
+   }
+  ],
+  "from": "table"
+ },
+ "fees": [
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 500,
+   "raw": "ApplicationofFees ₹500/ -  ₹ 500/ -",
+   "page": 4
+  },
+  {
+   "categories": [
+    "All candidates"
+   ],
+   "amount": 3000,
+   "raw": "Counselling Fee NIL  ₹3000/ , -",
+   "page": 4
+  }
+ ],
+ "age": {
+  "limits": [
+   {
+    "max": 17,
+    "evidence": "The age of the candidates shall not be below 17 years on the 31st December of the years in which the admission shall be sought for",
+    "page": 3
+   }
+  ]
+ },
+ "eligibility": {
+  "education_levels": [
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Academic Eligibility Criteria: As under:-",
+    "page": 2
+   },
+   {
+    "text": "For Admission to 1st Year MBBS Eligibility Criteria for Determination of Merit/Rank In Qualifying Examination, candidate should have In NEET Examination Passed the12thstandard or an equivalent examination with English as one of the languages and obtained a minimum of 50% of Marks in aggregate in…",
+    "page": 2
+   },
+   {
+    "text": "*Other eligibility criteria and conditions as mentioned in UG-NEET-2026 Information Bulletin",
+    "page": 2
+   },
+   {
+    "text": "The ST/SC/OST eligibility criteria is applicable to Meghalaya candidates who are eligible to claim State Quota seats",
+    "page": 2
+   },
+   {
+    "text": " Academic Eligibility Criteria: As under –",
+    "page": 2
+   },
+   {
+    "text": "For Admission to 1st Year MBBS Eligibility Criteria for Determination of Merit/Rank In Qualifying Examination, candidate should have In NEET Examination Passed the12th standard or an equivalent examination with English as one of the languages and obtained a minimum of 50% of Marks in aggregate in…",
+    "page": 2
+   },
+   {
+    "text": "*Other eligibility criteria and conditions as mentioned in UG-NEET-2026 Information Bulletin",
+    "page": 2
+   },
+   {
+    "text": "Other Eligibility Criteria:",
+    "page": 3
+   }
+  ]
+ },
+ "links": {
+  "other": [
+   "https://www.meghealth.gov.in",
+   "https://meghealth.gov.in/"
+  ]
+ },
+ "summary": {
+  "vacancies": 47,
+  "apply": {
+   "from": "2026-11-04",
+   "until": "2026-11-06"
+  },
+  "fee": {
+   "min": 500,
+   "max": 3000
+  },
+  "age": {
+   "max": 17
+  },
+  "education": [
+   "Graduate"
+  ]
+ }
+}

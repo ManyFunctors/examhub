@@ -5,14 +5,173 @@
  "body": "ml-health",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 3,
- "documents_in_cycle": 3,
- "fields": {},
+ "documents": 4,
+ "documents_in_cycle": 4,
+ "fields": {
+  "vacancies": {
+   "value": {
+    "total": 47,
+    "rows": [
+     {
+      "label": "StateUnreserved",
+      "total": 1,
+      "page": 1
+     },
+     {
+      "label": "StateKhasi&Jaintia",
+      "total": 3,
+      "page": 1
+     },
+     {
+      "label": "StateGaro",
+      "total": 4,
+      "page": 1
+     },
+     {
+      "label": "Management",
+      "total": 39,
+      "page": 1
+     }
+    ],
+    "from": "table"
+   },
+   "source": {
+    "notice": "3b683f5b66878831316ea19ee8c3ed1c2a685815581a17ea64aabee77b7d4248",
+    "url": "https://meghealth.gov.in/news/Advertisement for Stray Vacancy Round for MBBS in PIMC 2026-27.pdf",
+    "title": "Advertisement for the Stray Vacancy Round Counselling of 1st Year MBBS AY 2026-27 at PA Sangma International Medical College & Hospital",
+    "kind": "advertisement"
+   }
+  },
+  "fee": {
+   "value": [
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 500,
+     "raw": "ApplicationofFees ₹500/ -  ₹ 500/ -",
+     "page": 4
+    },
+    {
+     "categories": [
+      "All candidates"
+     ],
+     "amount": 3000,
+     "raw": "Counselling Fee NIL  ₹3000/ , -",
+     "page": 4
+    }
+   ],
+   "source": {
+    "notice": "3b683f5b66878831316ea19ee8c3ed1c2a685815581a17ea64aabee77b7d4248",
+    "url": "https://meghealth.gov.in/news/Advertisement for Stray Vacancy Round for MBBS in PIMC 2026-27.pdf",
+    "title": "Advertisement for the Stray Vacancy Round Counselling of 1st Year MBBS AY 2026-27 at PA Sangma International Medical College & Hospital",
+    "kind": "advertisement",
+    "page": 4
+   }
+  },
+  "age": {
+   "value": {
+    "limits": [
+     {
+      "max": 17,
+      "evidence": "The age of the candidates shall not be below 17 years on the 31st December of the years in which the admission shall be sought for",
+      "page": 3
+     }
+    ]
+   },
+   "source": {
+    "notice": "3b683f5b66878831316ea19ee8c3ed1c2a685815581a17ea64aabee77b7d4248",
+    "url": "https://meghealth.gov.in/news/Advertisement for Stray Vacancy Round for MBBS in PIMC 2026-27.pdf",
+    "title": "Advertisement for the Stray Vacancy Round Counselling of 1st Year MBBS AY 2026-27 at PA Sangma International Medical College & Hospital",
+    "kind": "advertisement",
+    "page": 3
+   }
+  },
+  "dates": {
+   "registration_deadline": {
+    "date": "2026-11-06",
+    "source": {
+     "notice": "3b683f5b66878831316ea19ee8c3ed1c2a685815581a17ea64aabee77b7d4248",
+     "url": "https://meghealth.gov.in/news/Advertisement for Stray Vacancy Round for MBBS in PIMC 2026-27.pdf",
+     "title": "Advertisement for the Stray Vacancy Round Counselling of 1st Year MBBS AY 2026-27 at PA Sangma International Medical College & Hospital",
+     "kind": "advertisement",
+     "page": 1
+    }
+   },
+   "registration_open": {
+    "date": "2026-11-04",
+    "source": {
+     "notice": "3b683f5b66878831316ea19ee8c3ed1c2a685815581a17ea64aabee77b7d4248",
+     "url": "https://meghealth.gov.in/news/Advertisement for Stray Vacancy Round for MBBS in PIMC 2026-27.pdf",
+     "title": "Advertisement for the Stray Vacancy Round Counselling of 1st Year MBBS AY 2026-27 at PA Sangma International Medical College & Hospital",
+     "kind": "advertisement",
+     "page": 1
+    }
+   }
+  },
+  "apply": {
+   "value": {
+    "from": "2026-11-04",
+    "until": "2026-11-06"
+   },
+   "source": {
+    "notice": "3b683f5b66878831316ea19ee8c3ed1c2a685815581a17ea64aabee77b7d4248",
+    "url": "https://meghealth.gov.in/news/Advertisement for Stray Vacancy Round for MBBS in PIMC 2026-27.pdf",
+    "title": "Advertisement for the Stray Vacancy Round Counselling of 1st Year MBBS AY 2026-27 at PA Sangma International Medical College & Hospital",
+    "kind": "advertisement",
+    "page": 1
+   }
+  },
+  "eligibility": {
+   "value": {
+    "education_levels": [
+     "Graduate"
+    ],
+    "clauses": [
+     {
+      "text": "Academic Eligibility Criteria: As under:-",
+      "page": 2
+     },
+     {
+      "text": "For Admission to 1st Year MBBS Eligibility Criteria for Determination of Merit/Rank In Qualifying Examination, candidate should have In NEET Examination Passed the12thstandard or an equivalent examination with English as one of the languages and obtained a minimum of 50% of Marks in aggregate in…",
+      "page": 2
+     },
+     {
+      "text": "*Other eligibility criteria and conditions as mentioned in UG-NEET-2026 Information Bulletin",
+      "page": 2
+     },
+     {
+      "text": "The ST/SC/OST eligibility criteria is applicable to Meghalaya candidates who are eligible to claim State Quota seats",
+      "page": 2
+     },
+     {
+      "text": " Academic Eligibility Criteria: As under –",
+      "page": 2
+     },
+     {
+      "text": "For Admission to 1st Year MBBS Eligibility Criteria for Determination of Merit/Rank In Qualifying Examination, candidate should have In NEET Examination Passed the12th standard or an equivalent examination with English as one of the languages and obtained a minimum of 50% of Marks in aggregate in…",
+      "page": 2
+     },
+     {
+      "text": "*Other eligibility criteria and conditions as mentioned in UG-NEET-2026 Information Bulletin",
+      "page": 2
+     },
+     {
+      "text": "Other Eligibility Criteria:",
+      "page": 3
+     }
+    ]
+   },
+   "source": {
+    "notice": "3b683f5b66878831316ea19ee8c3ed1c2a685815581a17ea64aabee77b7d4248",
+    "url": "https://meghealth.gov.in/news/Advertisement for Stray Vacancy Round for MBBS in PIMC 2026-27.pdf",
+    "title": "Advertisement for the Stray Vacancy Round Counselling of 1st Year MBBS AY 2026-27 at PA Sangma International Medical College & Hospital",
+    "kind": "advertisement"
+   }
+  }
+ },
  "gaps": [
-  "apply",
   "exam_date",
-  "fee",
-  "eligibility",
   "exam_pattern"
  ],
  "older_documents": 0

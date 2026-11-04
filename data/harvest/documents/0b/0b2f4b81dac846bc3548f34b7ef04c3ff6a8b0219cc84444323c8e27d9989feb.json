@@ -1,0 +1,33 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "0b2f4b81dac846bc3548f34b7ef04c3ff6a8b0219cc84444323c8e27d9989feb",
+  "url": "https://cee.kerala.gov.in/otherlinks/BLE2026_noti.pdf",
+  "title": "BPharm Lateral Entry 2026 - Collecting Various Reservation Certificates from Revenue officials in advance.",
+  "body": "kl-cee",
+  "exam": "kl-lateral-entry",
+  "feed": "kl-cee/home",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "b2298d00446bc03fcfce8e80d81d2cc3c43341ebe4c44cb34065ddccde9873a9",
+  "bytes": 121007,
+  "pages": 2,
+  "chars": 2396,
+  "ocr": false,
+  "indic_share": 0.57,
+  "fetched": "2026-11-04T23:21:03+05:30"
+ },
+ "kind": "notice",
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://www.cee.kerala.gov.in-ൽ"
+  ]
+ }
+}

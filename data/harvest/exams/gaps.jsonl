@@ -588,7 +588,7 @@
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-viteee"}
 {"cycle": "2023", "documents": 1, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "in-xat"}
 {"cycle": "2023", "documents": 1, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "jh-bed-cet"}
-{"cycle": "2024", "documents": 4, "gaps": ["vacancies", "apply", "fee", "age", "pay", "eligibility", "selection"], "id": "jh-hc-staff"}
+{"cycle": "2024", "documents": 5, "gaps": ["vacancies", "apply", "fee", "age", "pay", "eligibility", "selection"], "id": "jh-hc-staff"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "jh-jac-class-10"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "jh-jac-class-12"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "jh-jceceb-anm-entrance-competitive"}
@@ -666,7 +666,7 @@
 {"cycle": "2026", "documents": 9, "gaps": ["vacancies", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-teacher"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "kl-kpsc-veo"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "kl-ktet"}
-{"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "kl-lateral-entry"}
+{"cycle": "2026", "documents": 1, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "kl-lateral-entry"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "kl-lbs-admissions"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "kl-llb-entrance"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "eligibility"], "id": "kl-nmms-lss-uss"}
@@ -711,7 +711,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "mh-van-rakshak"}
 {"cycle": null, "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "mh-zp-recruitment"}
 {"cycle": "2026", "documents": 7, "gaps": ["vacancies", "apply", "fee", "age", "pay", "eligibility", "selection"], "id": "ml-hc-staff"}
-{"cycle": "2026", "documents": 3, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "ml-health-admission-counselling"}
+{"cycle": "2026", "documents": 4, "gaps": ["exam_date", "exam_pattern"], "id": "ml-health-admission-counselling"}
 {"cycle": "2025", "documents": 7, "gaps": ["vacancies", "fee", "pay"], "id": "ml-health-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "ml-mbose-class-10"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "ml-mbose-class-12"}
@@ -719,7 +719,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ml-mpsc-ae"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ml-mpsc-half-yearly-departmental"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ml-mpsc-lecturer"}
-{"cycle": "2026-03", "documents": 3, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ml-mpsc-other"}
+{"cycle": "2026-03", "documents": 4, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ml-mpsc-other"}
 {"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "ml-mtet"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ml-police-constable"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "ml-police-si"}

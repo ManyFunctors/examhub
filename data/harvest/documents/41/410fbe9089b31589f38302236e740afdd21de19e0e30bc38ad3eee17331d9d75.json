@@ -1,0 +1,42 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "410fbe9089b31589f38302236e740afdd21de19e0e30bc38ad3eee17331d9d75",
+  "url": "https://jharkhandhighcourt.nic.in/display_pdf/recruitment/corrigendum_adv_05admn_misc_2024_24022026.pdf",
+  "title": "➤ Corrigendum of Advt. 05/Admn. Misc. /2024. [24-02-2026] [PDF, ]",
+  "body": "jh-hc",
+  "exam": "jh-hc-staff",
+  "feed": "jh-hc/recruitment",
+  "doc_type": "corrigendum"
+ },
+ "document": {
+  "sha256": "a1a35e8e26254cc2aa67f3aab4f3e20edeaf6f7f85f556c009a00960e13e6754",
+  "bytes": 252444,
+  "pages": 1,
+  "chars": 1372,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-11-04T23:21:05+05:30"
+ },
+ "kind": "corrigendum",
+ "advertisement_no": "05",
+ "dates": {
+  "exam_date": {
+   "date": "2026-02-24",
+   "evidence": "for PWD. All other terms & conditions of the Advertisement No. 05/ Admn. Misc./ 2024 shall remain unchanged.",
+   "page": 1,
+   "from": "table"
+  }
+ },
+ "schedule": [
+  {
+   "event": "for PWD. All other terms & conditions of the Advertisement No. 05/ Admn. Misc./ 2024 shall remain unchanged.",
+   "key": "exam_date",
+   "date": "2026-02-24",
+   "page": 1
+  }
+ ],
+ "summary": {
+  "exam_date": "2026-02-24"
+ }
+}
