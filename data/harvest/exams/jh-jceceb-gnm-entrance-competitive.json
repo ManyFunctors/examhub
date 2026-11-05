@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "exam": "jh-jceceb-gnm-entrance-competitive",
+ "name": "GNM Entrance Competitive Examination",
+ "body": "jh-jceceb",
+ "purpose": "admission",
+ "cycle": "2026",
+ "documents": 2,
+ "documents_in_cycle": 2,
+ "fields": {},
+ "gaps": [
+  "apply",
+  "exam_date",
+  "fee",
+  "eligibility",
+  "exam_pattern"
+ ],
+ "older_documents": 0
+}

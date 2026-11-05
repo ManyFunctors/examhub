@@ -591,8 +591,8 @@
 {"cycle": "2024", "documents": 5, "gaps": ["vacancies", "apply", "fee", "age", "pay", "eligibility", "selection"], "id": "jh-hc-staff"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "jh-jac-class-10"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "jh-jac-class-12"}
-{"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "jh-jceceb-anm-entrance-competitive"}
-{"cycle": null, "documents": 0, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "jh-jceceb-gnm-entrance-competitive"}
+{"cycle": "2026", "documents": 1, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "jh-jceceb-anm-entrance-competitive"}
+{"cycle": "2026", "documents": 2, "gaps": ["apply", "exam_date", "fee", "eligibility", "exam_pattern"], "id": "jh-jceceb-gnm-entrance-competitive"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "jh-jpsc-ae"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "jh-jpsc-cse"}
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "jh-jpsc-judicial"}
@@ -711,7 +711,7 @@
 {"cycle": null, "documents": 0, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "mh-van-rakshak"}
 {"cycle": null, "documents": 1, "gaps": ["vacancies", "apply", "exam_date", "fee", "age", "pay", "eligibility", "selection"], "id": "mh-zp-recruitment"}
 {"cycle": "2026", "documents": 7, "gaps": ["vacancies", "apply", "fee", "age", "pay", "eligibility", "selection"], "id": "ml-hc-staff"}
-{"cycle": "2026", "documents": 4, "gaps": ["exam_date", "exam_pattern"], "id": "ml-health-admission-counselling"}
+{"cycle": "2026", "documents": 5, "gaps": ["exam_date", "exam_pattern"], "id": "ml-health-admission-counselling"}
 {"cycle": "2025", "documents": 7, "gaps": ["vacancies", "fee", "pay"], "id": "ml-health-recruitment"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "ml-mbose-class-10"}
 {"cycle": null, "documents": 0, "gaps": ["exam_date"], "id": "ml-mbose-class-12"}
