@@ -1,0 +1,57 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "1defdfebdeab497a1832216ca99ddc73aa354c941d085cf9cd4b71e347971090",
+  "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGAAC26_05.pdf",
+  "title": "Details of Registration-cum-Choice Filling for Post Graduate Degree for Post Graduate Degree [PGMAC (Ayush)]-2026 for MD (Unani) on the basis of AIAPGET[AYUSH]-2026 (Adv. No. BCECEB(PGMAC[AYUSH])-2026/05 Dated 05.11.2026)",
+  "body": "br-bceceb",
+  "exam": "br-pgmac",
+  "feed": "br-bceceb/notice-board",
+  "published": "2026-11-05",
+  "doc_type": "counselling"
+ },
+ "document": {
+  "sha256": "c70a28ef889c2c6db20b3017edf5bdd3041c61bc5f5721636f73d7756446b62d",
+  "bytes": 269688,
+  "pages": 6,
+  "chars": 31849,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-11-06T05:25:16+05:30"
+ },
+ "kind": "advertisement",
+ "advertisement_no": "BCECEB",
+ "dates": {
+  "registration_deadline": {
+   "date": "2026-11-11",
+   "evidence": "Last date of online Registration ............................................................................... : 11.11.2026 (10.00 pm) iv",
+   "page": 5,
+   "from": "text"
+  }
+ },
+ "eligibility": {
+  "education_levels": [
+   "Postgraduate",
+   "Graduate"
+  ],
+  "clauses": [
+   {
+    "text": "Eligibility criteria, instructions and other details are available in the Prospectus of PGMAC(Ayush)-2026 for MD (Unani) which can be downloaded from the Board's website bceceboard.bihar.gov.in by clicking on the link “PGMAC(Unanipathy)-2026” under Prospectus Section",
+    "page": 1
+   },
+   {
+    "text": "* For Eligibility Criteria and other details, required Documents for admission on (DQ) Quota, candidates are advised to see 'Annexure-I' of Information Bulletin of AACCC which can be seen on AACCC Official Website",
+    "page": 4
+   }
+  ]
+ },
+ "summary": {
+  "apply": {
+   "until": "2026-11-11"
+  },
+  "education": [
+   "Postgraduate",
+   "Graduate"
+  ]
+ }
+}

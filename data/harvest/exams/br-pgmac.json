@@ -5,8 +5,8 @@
  "body": "br-bceceb",
  "purpose": "admission",
  "cycle": "2026",
- "documents": 26,
- "documents_in_cycle": 26,
+ "documents": 28,
+ "documents_in_cycle": 28,
  "fields": {
   "vacancies": {
    "value": {
@@ -701,15 +701,15 @@
     "alternatives": 1
    },
    "registration_deadline": {
-    "date": "2026-11-03",
+    "date": "2026-11-11",
     "source": {
-     "notice": "b20f304a984025aaf36d78920f704cd3a50254fb1b021ff18912df5991d0eec4",
-     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGAAC26_08.pdf",
-     "title": "Notice for Extesion of Date for Registration-cum-Choice Filling for Admission in Round-3 of UGMAC[AYUSH]-2026 (Adv. No. BCECEB[UGMAC(Ayush)]-2026/08 Dated 01.11.2026)",
-     "kind": "corrigendum",
-     "page": 1
+     "notice": "1defdfebdeab497a1832216ca99ddc73aa354c941d085cf9cd4b71e347971090",
+     "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGAAC26_05.pdf",
+     "title": "Details of Registration-cum-Choice Filling for Post Graduate Degree for Post Graduate Degree [PGMAC (Ayush)]-2026 for MD (Unani) on the basis of AIAPGET[AYUSH]-2026 (Adv. No. BCECEB(PGMAC[AYUSH])-2026/05 Dated 05.11.2026)",
+     "kind": "advertisement",
+     "page": 5
     },
-    "alternatives": 5
+    "alternatives": 6
    },
    "registration_open": {
     "date": "2026-10-28",
@@ -726,45 +726,50 @@
   "apply": {
    "value": {
     "from": "2026-10-28",
-    "until": "2026-11-03"
+    "until": "2026-11-11"
    },
    "source": {
-    "notice": "b20f304a984025aaf36d78920f704cd3a50254fb1b021ff18912df5991d0eec4",
-    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGAAC26_08.pdf",
-    "title": "Notice for Extesion of Date for Registration-cum-Choice Filling for Admission in Round-3 of UGMAC[AYUSH]-2026 (Adv. No. BCECEB[UGMAC(Ayush)]-2026/08 Dated 01.11.2026)",
-    "kind": "corrigendum",
-    "page": 1
+    "notice": "1defdfebdeab497a1832216ca99ddc73aa354c941d085cf9cd4b71e347971090",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGAAC26_05.pdf",
+    "title": "Details of Registration-cum-Choice Filling for Post Graduate Degree for Post Graduate Degree [PGMAC (Ayush)]-2026 for MD (Unani) on the basis of AIAPGET[AYUSH]-2026 (Adv. No. BCECEB(PGMAC[AYUSH])-2026/05 Dated 05.11.2026)",
+    "kind": "advertisement",
+    "page": 5
    }
   },
   "advertisement_no": {
-   "value": "BCECEB(UGMAC)-2026/18",
+   "value": "BCECEB",
    "source": {
-    "notice": "643ee66e65a8c3aeda546aeecaa67278f02950eaa5fdadbf9f830cb5630c9e39",
-    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_19.pdf",
-    "title": "Notice for filling online application form and choice filling for Special Stray Vacancy Round of UGMAC-2026 (Adv. No. BCECEB(UGMAC)-2026/19 Dated 03.11.2026)",
+    "notice": "1defdfebdeab497a1832216ca99ddc73aa354c941d085cf9cd4b71e347971090",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGAAC26_05.pdf",
+    "title": "Details of Registration-cum-Choice Filling for Post Graduate Degree for Post Graduate Degree [PGMAC (Ayush)]-2026 for MD (Unani) on the basis of AIAPGET[AYUSH]-2026 (Adv. No. BCECEB(PGMAC[AYUSH])-2026/05 Dated 05.11.2026)",
     "kind": "advertisement"
    },
-   "alternatives": 4
+   "alternatives": 6
   },
   "eligibility": {
    "value": {
     "education_levels": [
+     "Postgraduate",
      "Graduate"
     ],
     "clauses": [
      {
-      "text": "Eligibility criteria for counselling / admission Fee payment precedure, instructions and other details for filling up online applications form-cum-choice filling are available in the Prospectus of UGMAC-2026 and the related Advertisement No.-BCECEB(UGMAC)-2026/18 dated 03.11.2026, which can be…",
+      "text": "Eligibility criteria, instructions and other details are available in the Prospectus of PGMAC(Ayush)-2026 for MD (Unani) which can be downloaded from the Board's website bceceboard.bihar.gov.in by clicking on the link “PGMAC(Unanipathy)-2026” under Prospectus Section",
       "page": 1
+     },
+     {
+      "text": "* For Eligibility Criteria and other details, required Documents for admission on (DQ) Quota, candidates are advised to see 'Annexure-I' of Information Bulletin of AACCC which can be seen on AACCC Official Website",
+      "page": 4
      }
     ]
    },
    "source": {
-    "notice": "643ee66e65a8c3aeda546aeecaa67278f02950eaa5fdadbf9f830cb5630c9e39",
-    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_UGMAC26_19.pdf",
-    "title": "Notice for filling online application form and choice filling for Special Stray Vacancy Round of UGMAC-2026 (Adv. No. BCECEB(UGMAC)-2026/19 Dated 03.11.2026)",
+    "notice": "1defdfebdeab497a1832216ca99ddc73aa354c941d085cf9cd4b71e347971090",
+    "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGAAC26_05.pdf",
+    "title": "Details of Registration-cum-Choice Filling for Post Graduate Degree for Post Graduate Degree [PGMAC (Ayush)]-2026 for MD (Unani) on the basis of AIAPGET[AYUSH]-2026 (Adv. No. BCECEB(PGMAC[AYUSH])-2026/05 Dated 05.11.2026)",
     "kind": "advertisement"
    },
-   "alternatives": 4
+   "alternatives": 6
   }
  },
  "gaps": [
