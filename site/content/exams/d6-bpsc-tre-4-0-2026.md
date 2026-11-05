@@ -308,7 +308,7 @@ link_apply         = 'https://bpsconline.bihar.gov.in/'
   document_published = 'unknown'
   document_title     = 'Important Notice Advertisement Self Declaration Form for STET 2026 appearing candidates'
   document_url       = 'https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Advertisement-142026-TRE-4.0_BPSC-20260818-jwk5si.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261030034354/https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Advertisement-142026-TRE-4.0_BPSC-20260818-jwk5si.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

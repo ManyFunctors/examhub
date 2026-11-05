@@ -303,7 +303,7 @@ link_apply         = 'unknown'
   document_published = 'unknown'
   document_url       = 'https://cetcell.mahacet.org/wp-content/uploads/2026/08/CAP-Round-I-LLB-3-Yrs_2026.pdf'
   document_archive   = 'http://web.archive.org/web/20260830012433/https://cetcell.mahacet.org/wp-content/uploads/2026/08/CAP-Round-I-LLB-3-Yrs_2026.pdf'
-  document_title     = '15 LLB 3 Yrs. Centralized Admission Process (CAP) Schedule for LLB 3 Yrs Course Academic Year 2026-27…'
+  document_title     = '4 LLB 3 Yrs. Centralized Admission Process (CAP) Schedule for LLB 3 Yrs Course Academic Year 2026-27…'
 
   [[links.documents]]
   document_type      = 'schedule'
@@ -340,7 +340,7 @@ link_apply         = 'unknown'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-10-22T16:05:43+05:30
-provenance_last_checked = 2026-10-22T16:05:43+05:30
+provenance_last_checked = 2026-11-05T06:49:12+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application.from'

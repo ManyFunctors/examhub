@@ -307,7 +307,7 @@ link_apply         = 'https://icmai.in/ClntStudents/Student_Admission'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://examicmai.in/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261017234755/https://examicmai.in/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

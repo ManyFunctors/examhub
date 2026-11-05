@@ -314,7 +314,7 @@ link_apply         = 'https://www.slat-test.org/register.php'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.slat-test.org/docs/SLAT%202027%20bulletin.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261103052330/https://www.slat-test.org/docs/SLAT%202027%20bulletin.pdf'
   document_title     = 'SLAT 2027 bulletin'
 
   [[links.documents]]

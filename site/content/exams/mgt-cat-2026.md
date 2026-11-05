@@ -344,7 +344,7 @@ link_apply         = 'https://cdn.digialm.com/EForms/configuredHtml/32842/101262
   document_published = 2026-07-26
   document_title     = 'CAT 2026 English Advertisement 26-07-2026'
   document_url       = 'https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_English_Advertisement_26-07-2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261101030337/https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_English_Advertisement_26-07-2026.pdf'
 
   [[links.documents]]
   document_type      = 'notification'
@@ -360,7 +360,7 @@ link_apply         = 'https://cdn.digialm.com/EForms/configuredHtml/32842/101262
   document_published = 2026-07-26
   document_title     = 'CAT 2026 Information Bulletin 26-07-26'
   document_url       = 'https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261101030404/https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT2026InformationBulletin_26-07-2026_V2.pdf'
 
   [[links.documents]]
   document_type      = 'press_release'
@@ -368,7 +368,7 @@ link_apply         = 'https://cdn.digialm.com/EForms/configuredHtml/32842/101262
   document_published = 2026-07-26
   document_title     = 'CAT 2026 Press Release 26-07-2026'
   document_url       = 'https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261101030517/https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

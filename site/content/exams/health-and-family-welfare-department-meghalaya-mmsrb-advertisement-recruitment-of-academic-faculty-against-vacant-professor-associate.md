@@ -298,7 +298,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://meghealth.gov.in/news/Advertisement-Contractual_Prof%20%20Asoc%20Prof_SMC_130525_Rev03.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20251013201430/https://www.meghealth.gov.in/news/Advertisement-Contractual_Prof%20%20Asoc%20Prof_SMC_130525_Rev03.pdf'
   document_title     = 'Advertisement Contractual Prof Asoc Prof SMC 130525 Rev03'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

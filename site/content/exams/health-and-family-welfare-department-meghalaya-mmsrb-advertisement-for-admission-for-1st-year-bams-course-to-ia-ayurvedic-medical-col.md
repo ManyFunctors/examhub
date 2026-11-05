@@ -300,7 +300,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://meghealth.gov.in/news/2026-10-08-DHSMER-215-USTM-BAMS-2026-6916-Advertisement%20for%20the%20admission%20of%20BAMS.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261013032933/https://www.meghealth.gov.in/news/2026-10-08-DHSMER-215-USTM-BAMS-2026-6916-Advertisement%20for%20the%20admission%20of%20BAMS.pdf'
   document_title     = '2026 10 08 DHSMER 215 USTM BAMS 2026 6916 Advertisement for the admission of BAMS'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

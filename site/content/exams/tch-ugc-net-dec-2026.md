@@ -378,7 +378,7 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://www.nta.ac.in/Download/Notice/Examcalendar.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261025232648/https://nta.ac.in/Download/Notice/Examcalendar.pdf'
   document_title     = 'Examcalendar'
 
   [[links.documents]]
@@ -416,7 +416,7 @@ link_apply         = 'https://ugcnet.nta.nic.in/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-11-04T06:39:41+05:30
+provenance_last_checked = 2026-11-05T06:49:19+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'fee.rows'

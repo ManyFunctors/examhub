@@ -318,7 +318,7 @@ link_apply         = 'https://mmsrb.in/MMSRB/login'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://megedistrict.gov.in/directApply.do?serviceId=1386'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20260421223852/https://megedistrict.gov.in/directApply.do?serviceId=1386'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
