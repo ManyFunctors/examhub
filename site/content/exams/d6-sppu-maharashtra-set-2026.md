@@ -331,7 +331,7 @@ link_apply         = 'https://setexam.unipune.ac.in/Login.aspx'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://setexam.unipune.ac.in/SET_2026/Extension_SETAppplicationForm_WithLateFee_New.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261102033316/https://setexam.unipune.ac.in/SET_2026/Extension_SETAppplicationForm_WithLateFee_New.pdf'
   document_title     = 'Extension of filling SET Application Form 2026 with Late Fee'
 
   [[links.documents]]
@@ -339,7 +339,7 @@ link_apply         = 'https://setexam.unipune.ac.in/Login.aspx'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://setexam.unipune.ac.in/SET_2026/Public_Notice_2026.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261103051913/https://setexam.unipune.ac.in/SET_2026/Public_Notice_2026.pdf'
   document_title     = 'Public Notice'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

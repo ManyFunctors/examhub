@@ -300,7 +300,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://meghealth.gov.in/news/2026-10-01-DHSMER-152-USTM-MBBS-2026-6689-Advertisement-3rdRound-Counselling-MBBS-PIMC.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261013032730/https://www.meghealth.gov.in/news/2026-10-01-DHSMER-152-USTM-MBBS-2026-6689-Advertisement-3rdRound-Counselling-MBBS-PIMC.pdf'
   document_title     = 'Advertisement for Admission for 1st Year MBBS Course to the PA Sangma International Medical College &…'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

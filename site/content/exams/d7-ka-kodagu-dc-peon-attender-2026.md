@@ -343,7 +343,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://kodagu.dcourts.gov.in/online-recruitment/'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261101025842/https://kodagu.dcourts.gov.in/online-recruitment/'
 
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]

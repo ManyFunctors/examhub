@@ -300,7 +300,7 @@ link_apply         = 'unknown'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://meghealth.gov.in/news/153-DHSMER-SMC-MBBS-2026-4528-Advertisement%20for%201st%20year%20%20MBBS%20course%20SMC.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261013032828/https://www.meghealth.gov.in/news/153-DHSMER-SMC-MBBS-2026-4528-Advertisement%20for%201st%20year%20%20MBBS%20course%20SMC.pdf'
   document_title     = '153 DHSMER SMC MBBS 2026 4528 Advertisement for 1st year MBBS course SMC'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

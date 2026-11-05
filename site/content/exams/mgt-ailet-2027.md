@@ -347,7 +347,7 @@ link_apply         = 'https://nationallawuniversitydelhi.in/'
   document_stage     = 'all'
   document_published = 'unknown'
   document_url       = 'https://nationallawuniversitydelhi.in/notification/Admision%20Notice_AILET%202027.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261101030306/https://nationallawuniversitydelhi.in/notification/Admision%20Notice_AILET%202027.pdf'
   document_title     = 'Admision Notice AILET 2027'
 
 # ═══ provenance (never shown) ════════════════════════════════════════

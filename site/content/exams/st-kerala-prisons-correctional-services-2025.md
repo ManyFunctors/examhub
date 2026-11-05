@@ -301,6 +301,14 @@ link_apply         = 'https://keralapsc.gov.in/'
   [[links.documents]]
   document_type      = 'notification'
   document_stage     = 'all'
+  document_published = 2026-11-04
+  document_title     = 'Featured Latest, 2026, Idukki UP SCHOOL TEACHER (TAMIL MEDIUM) (RECRUITMENT BY TRANSFER) (Cat.No. 385/2025)…'
+  document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-11/3852025_06_0_0.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
   document_published = 2026-10-05
   document_title     = 'Featured Latest, 2026, Thrissur LP SCHOOL TEACHER (MALAYALAM MEDIUM)RECRUITMENT BY TRANSFER (Cat.No.…'
   document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-10/1142025_08_0_0-1.pdf'
@@ -357,7 +365,7 @@ link_apply         = 'https://keralapsc.gov.in/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-11-04T06:39:39+05:30
+provenance_last_checked = 2026-11-05T06:49:17+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'
