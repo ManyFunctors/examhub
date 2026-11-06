@@ -1,0 +1,28 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "e1e657531c4e4a782242c59aedea2919d65d20cbc9a16f482a0e058102f3f947",
+  "url": "https://mpsc.meghalaya.gov.in/notify/Notice05Nov2026a.pdf",
+  "title": "NOTICE This is for general information to all the concerned candidates that the Screening Test for the Post(s) of Draftsman Grade-II Group-C in the Office of the Chief Engineer Water Resources Department [May 2025]",
+  "body": "ml-mpsc",
+  "exam": "ml-mpsc-other",
+  "feed": "ml-mpsc/home",
+  "published": "2026-11-05",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "e8b32b3743419a3a3e3a331092b3d4a92d914acd9bb8a5aa77810873b8221c35",
+  "bytes": 60510,
+  "pages": 1,
+  "chars": 0,
+  "ocr": true,
+  "ocr_engine": "pytesseract",
+  "indic_share": 0.0,
+  "fetched": "2026-11-06T08:24:59+05:30"
+ },
+ "kind": "notice",
+ "warnings": [
+  "page 1: OCR failed (no result after 300s)",
+  "read by OCR: numbers and names may be misread; check against the PDF"
+ ]
+}

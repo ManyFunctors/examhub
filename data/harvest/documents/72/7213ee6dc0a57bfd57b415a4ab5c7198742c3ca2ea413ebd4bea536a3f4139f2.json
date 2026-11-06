@@ -1,0 +1,59 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "7213ee6dc0a57bfd57b415a4ab5c7198742c3ca2ea413ebd4bea536a3f4139f2",
+  "url": "https://gssc.goa.gov.in/docs/whats-new/notice-reg-physical-efficiency-tests-pet-on-17-11-2026-19-11-2026-for-various-posts-advertisement-no-2-of-year-2026.pdf",
+  "title": "Notice reg. Physical Efficiency Tests (PET) - on 17.11.2026 & 19.11.2026 - for various posts - Advertisement No. 2 of Year 2026",
+  "body": "ga-gssc",
+  "exam": "ga-gssc-recruitment",
+  "feed": "ga-gssc/home",
+  "published": "2026-11-05",
+  "doc_type": "schedule"
+ },
+ "document": {
+  "sha256": "229c22af3a4c265233355152dfa198e8e0080cd9e62ee1487d6686876000282c",
+  "bytes": 115999,
+  "pages": 1,
+  "chars": 1556,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-11-06T08:25:05+05:30"
+ },
+ "kind": "advertisement",
+ "dates": {
+  "result_date": {
+   "date": "2026-11-05",
+   "evidence": "The eligible candidat result slip issued during P identity during PET.",
+   "page": 1,
+   "from": "table"
+  },
+  "exam_date": {
+   "date": "2026-10-26",
+   "evidence": "Dated: 05/11/2026 026, the Physical e various posts is Police Constable Commander shall nd High Jump for will be held on n 26/10/2026 and s onwards at the e, dates and other Police Department he eligibility have be mapped for all ard copy o",
+   "page": 1,
+   "from": "text"
+  }
+ },
+ "schedule": [
+  {
+   "event": "The eligible candidat result slip issued during P identity during PET.",
+   "key": "result_date",
+   "date": "2026-11-05",
+   "page": 1
+  }
+ ],
+ "exam": {
+  "negative_marking": {
+   "value": "Half of the marks assigned for each wrong answer",
+   "page": 1
+  }
+ },
+ "links": {
+  "other": [
+   "https://citizen.goapolice.gov"
+  ]
+ },
+ "summary": {
+  "exam_date": "2026-10-26"
+ }
+}
