@@ -331,6 +331,22 @@ link_apply         = 'https://keralapsc.gov.in/'
   document_archive   = 'not_archived'
 
   [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2025-07-02
+  document_title     = 'Part II By Transfer Recruitment (Cat No 387/2025) in Kerala Excise and Prohibition Department in Kollam…'
+  document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-11/ceo_driver_by_transfer_nil_notification_.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
+  document_type      = 'corrigendum'
+  document_stage     = 'all'
+  document_published = 2026-10-12
+  document_title     = 'Featured Latest, 2026, Idukki CIVIL EXCISE OFFICER DRIVER (Part -I Direct Recruitment) (Category No.…'
+  document_url       = 'https://keralapsc.gov.in/sites/default/files/2026-10/RankList386202506_20261023.pdf'
+  document_archive   = 'not_archived'
+
+  [[links.documents]]
   document_type      = 'schedule'
   document_stage     = 'all'
   document_published = 2026-11-03
@@ -365,7 +381,7 @@ link_apply         = 'https://keralapsc.gov.in/'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-09-27T19:36:16+05:30
-provenance_last_checked = 2026-11-05T06:49:17+05:30
+provenance_last_checked = 2026-11-06T06:51:54+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'none'
