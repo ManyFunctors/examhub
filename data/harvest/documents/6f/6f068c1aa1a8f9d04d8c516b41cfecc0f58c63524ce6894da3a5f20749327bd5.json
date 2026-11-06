@@ -1,0 +1,28 @@
+{
+ "schema": 2,
+ "notice": {
+  "id": "6f068c1aa1a8f9d04d8c516b41cfecc0f58c63524ce6894da3a5f20749327bd5",
+  "url": "https://g03.tcsion.com//per/g03/pub/726/EForms/image/ImageDocUpload/71161/8/401158884.pdf",
+  "title": "CAT 2026 Calculator Usage Guideline",
+  "body": "in-iims",
+  "exam": "in-cat",
+  "feed": "in-iims/cat",
+  "doc_type": "other"
+ },
+ "document": {
+  "sha256": "0f03ee00c8e0e49d7ab1aea10dc48b51b65323dd6d3af610aa0b54d1f463cd26",
+  "bytes": 533234,
+  "pages": 2,
+  "chars": 1982,
+  "ocr": false,
+  "indic_share": 0.0,
+  "fetched": "2026-11-06T17:17:51+05:30"
+ },
+ "kind": "notice",
+ "exam": {
+  "negative_marking": {
+   "value": "One-third of the marks assigned for each wrong answer",
+   "page": 2
+  }
+ }
+}
