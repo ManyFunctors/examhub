@@ -292,8 +292,16 @@ training_offered_for          = 'unknown'
 
 # ═══ links ═══════════════════════════════════════════════════════════
 [links]
-link_official_page = 'unknown'
+link_official_page = 'https://meghealth.gov.in/'
 link_apply         = 'unknown'
+
+  [[links.documents]]
+  document_type      = 'notification'
+  document_stage     = 'all'
+  document_published = 2026-11-04
+  document_title     = 'Advertisement for the Stray Vacancy Round Counselling of 1st Year BAMS AY 2026-27 to IA Ayurvedic Medical…'
+  document_url       = 'https://meghealth.gov.in/news/2026-11-04-DHSMER-215-USTM-BAMS-2026-7715-Advertisement-StrayRoundCounselling.pdf'
+  document_archive   = 'not_archived'
 
   [[links.documents]]
   document_type      = 'notification'
@@ -309,7 +317,7 @@ link_apply         = 'unknown'
   document_published = 2026-10-01
   document_title     = 'Advertisement for Admission for 1st Year MBBS Course to the PA Sangma International Medical College &…'
   document_url       = 'https://meghealth.gov.in/news/2026-10-01-DHSMER-152-USTM-MBBS-2026-6689-Advertisement-3rdRound-Counselling-MBBS-PIMC.pdf'
-  document_archive   = 'not_archived'
+  document_archive   = 'http://web.archive.org/web/20261013032730/https://www.meghealth.gov.in/news/2026-10-01-DHSMER-152-USTM-MBBS-2026-6689-Advertisement-3rdRound-Counselling-MBBS-PIMC.pdf'
 
   [[links.documents]]
   document_type      = 'notification'
@@ -336,14 +344,6 @@ link_apply         = 'unknown'
   document_archive   = 'not_archived'
 
   [[links.documents]]
-  document_type      = 'notification'
-  document_stage     = 'all'
-  document_published = 'unknown'
-  document_title     = 'Advertisement - for (1) MBBS (2) BDS (3) BHMS (4) BAMS (5) BUMS (6) BPT Courses against State Quota seats in…'
-  document_url       = 'https://meghealth.gov.in/news/IMG_0001 (11)-2-4.pdf'
-  document_archive   = 'not_archived'
-
-  [[links.documents]]
   document_type      = 'corrigendum'
   document_stage     = 'all'
   document_published = 'unknown'
@@ -354,7 +354,7 @@ link_apply         = 'unknown'
 # ═══ provenance (never shown) ════════════════════════════════════════
 [provenance]
 provenance_retrieved    = 2026-11-05T06:49:12+05:30
-provenance_last_checked = 2026-11-05T06:49:12+05:30
+provenance_last_checked = 2026-11-06T06:51:47+05:30
 
   [[provenance.evidence]]
   evidence_field    = 'dates.application.from'
